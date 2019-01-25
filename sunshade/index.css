@@ -1,0 +1,13 @@
+#app {
+  width: 50vw;
+  height: 80vh;
+}
+
+.controls {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1em;
+  width: 200px;
+}
