@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/katex/dist/katex.min.css">
+  <link rel="stylesheet" href="https://designstem.github.io/fachwerk/styles.css">
+    <link rel="stylesheet" href="control.css">
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+<div id="app">
+<h1> RGB Lamp</h1>
+
+
+<div><span>R</span><input v-model="form.RValue"  type="range" value="0" @input="addEvent" @change="addEvent"  ></div>
+<div><span>G</span><input v-model="form.GValue"   type="range" value="0" @input="addEvent" @change="addEvent"  ></div>
+<div><span>B</span><input v-model="form.BValue" type="range" value="0" @input="addEvent" @change="addEvent"  ></div>
+<div><span>Voltage</span><input v-model="form.Voltage" type="range" value="100" @input="addEvent" @change="addEvent"  ></div>
+<div><span>Brightness</span><input v-model="form.Brightness" :disabled=isDisabled  type="range"  min="0" max="100"></div>
+<div><span>Intensity</span><input v-model="form.Intensity" :disabled=isDisabled type="range" value="0" min="0" max="100" ></div>
+<div><span>Power</span><input v-model="form.Power" :disabled=isDisabled type="range" value="100" min="0" max="100" ></div>
+<canvas id="color" width="300" height="300" style="border:1px solid #BBB;width:100%" ></canvas>
+
+</div>
+
+	  <script src="https://designstem.github.io/fachwerk/vendor.js"></script>
+  <script src="./control.js" type="module"></script>
+</body>

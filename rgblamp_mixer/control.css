@@ -1,0 +1,22 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+
+
+   height: 100vh;
+    overflow: auto;
+  
+}
+input
+{
+	display:block;
+	padding:20px;
+	width:100%;
+	background:#ffca3a;
+	
+}

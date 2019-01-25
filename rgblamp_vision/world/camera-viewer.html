@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/katex/dist/katex.min.css">
+  <link rel="stylesheet" href="https://designstem.github.io/fachwerk/styles.css">
+  <script src="../libs/p5.min.js"></script>
+  <script src="../libs/addons/p5.dom.min.js"></script>
+  <script src="../libs/addons/p5.sound.min.js"></script>
+</head>
+<body>
+  <script src="https://designstem.github.io/fachwerk/vendor.js"></script>
+  <script src="./camera-viewer.js" type="module"></script>
+  <script src="camera-viewer-sketch.js"></script>
+  <div>
+    <header>
+      <div>
+        <a href="https://designstem.github.io/homepage">Home</a>
+	→ <a href="https://designstem.github.io/homepage/rgblamp">RGB Lamp</a>
+	→ <a href="../index.html">E-Tools</a>
+	→ <a href="./index.html">RGB Worlds</a>
+      </div>
+    </header>
+    <div style="display: flex">
+      <div style="width: 24rem; padding: 2rem; border-right: var(--border-width) solid var(--primary)">
+        <h1 style="font-size: 4rem; line-height: 4rem;">RGB Camera Viewer</h1>
+	<p> Press the left mouse button to move the spot light
+	</p>
+      </div>
+      <div style="width:500px">
+	<div id = "p5sketch">
+	</div>
+	<div id="app">
+	</div>
+      </div>
+    </div>
+  </div>
+</body>

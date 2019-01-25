@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/katex/dist/katex.min.css">
+  <link rel="stylesheet" href="https://designstem.github.io/fachwerk/styles.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="https://designstem.github.io/fachwerk/vendor.js"></script>
+  <script src="./c.js" type="module"></script>
+<div id="app" v-bind:style="{ backgroundColor: color}">
+<h1>Try a color</h1>
+  <div class="color">
+<input type="text" v-bind:style="{ color: color}" v-model="color" maxlength="7" placeholder="#000000"/>
+  <input type="color" v-model="color"/>
+    </div>
+</div>
+</body>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    div.fig {
+	border:solid 1px black;
+	margin:20px;
+	margin-top:40px;
+	width:200px;
+	height:600px;
+	float:right;
+    }
+    #gbox {
+	display:block;
+    }
+    #box {
+	display:block;
+	float:left;
+    }
+    div.color {
+	border:solid 4px black;
+	margin:20px;
+	width:500px;
+	height:200px;
+	//float:left;
+    }
+    #red {
+	border-color: red;
+    }
+    #green {
+	border-color: green;
+    }
+    #blue {
+	border-color: blue;
+    }
+
+    
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/katex/dist/katex.min.css">
+  <link rel="stylesheet" href="https://designstem.github.io/fachwerk/styles.css">
+  <script src="../libs/jquery.min.js"></script>
+  <script src="../libs/underscore-min.js"></script> <!-- filter, map etc. -->
+  <script src="../libs/sylvester.js"></script> <!-- matrix inverse -->
+  <script src="../libs/spline-editor.js"></script>
+</head>
+<body>
+  <!--script src="https://designstem.github.io/fachwerk/vendor.js"></script-->
+  <div id="app">
+    <header>
+      <div>
+        <a href="https://designstem.github.io/homepage">Home</a>
+	→ <a href="https://designstem.github.io/homepage/rgblamp">RGB Lamp</a>
+	→ <a href="../index.html">E-Tools</a>
+	→ <a href="./index.html">Dynamic Color Mixing</a>
+      </div>
+    </header>
+    <div style="display: flex">
+      <div style="width: 24rem; padding: 2rem; border-right: var(--border-width) solid var(--primary)">
+	<h1 style="font-size: 4rem; line-height: 4rem;">Dynamic RGB Mixing</h1>
+	<p>In the mathematical field of numerical analysis, spline interpolation is a form of interpolation where the interpolant is a special type of piecewise polynomial called a spline.
+	  <a href="https://en.wikipedia.org/wiki/Spline_interpolation">(wikipedia)</a>
+	</p>
+      </div>
+      <div id="gbox">
+	<div id="box">
+	  <div id="red" class="color"></div>
+	  <div id="green" class="color"></div>
+	  <div id="blue" class="color"></div>
+	</div>
+	<div id="fig" class="fig"></div>
+      </div>
+      <script type="text/javascript">
+    		  function componentToHex(c) {
+		      c=normalize(c);
+		      var hex = c.toString(16);
+		      return hex.length == 1 ? "0" + hex : hex;
+		  }
+		  function normalize(c) {
+		      if(c<0) {
+			  c=0
+		      } else if (c>200) {
+			  c=200;
+		      }
+		      return 255-Math.round(c/200*255);
+		  }
+		  function rgbToHex(r, g, b) {
+		      return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+		  }
+	          var nodes=[
+			  [50, 100],
+		
+			  [150, 100],
+		
+			  [250, 100],
+		
+			  [350, 100],
+		
+			  [450, 100]
+		  ];
+		  $('#red').splineEditor({
+		      initialKnots: nodes
+		  });
+		  $('#green').splineEditor({
+		      initialKnots: nodes
+		  });
+		  $('#blue').splineEditor({
+		      initialKnots: nodes
+		  });
+		  
+		  $('#red').splineEditor('showPlayhead');
+		  $('#green').splineEditor('showPlayhead');
+		  $('#blue').splineEditor('showPlayhead');
+		  var x = 0;
+
+		  var lastTime = new Date().getTime();
+		  var speed = 0.05;
+		  
+		  setInterval(function () {
+
+		      // This is smoother than incrementing directly
+		      var now = new Date().getTime();
+		      var elapsed = now - lastTime;
+		      lastTime = now;
+		      
+		      x += elapsed * speed;
+		      if (x > 500) {
+			  x -= 500;
+		      }
+		      $('#red').splineEditor('setPlayheadX', x);
+		      $('#green').splineEditor('setPlayheadX', x);
+		      $('#blue').splineEditor('setPlayheadX', x);
+		      var red = Math.round($('#red').splineEditor('getY', x));
+		      var green = Math.round($('#green').splineEditor('getY', x));
+		      var blue = Math.round($('#blue').splineEditor('getY', x));
+		      $('#fig').css('background-color', rgbToHex(red,green,blue));
+		  }, 30);
+	</script>
+
+    </div>
+  </div>
+</body>
