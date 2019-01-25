@@ -1,0 +1,17 @@
+{
+  "name": "smart_tattoo",
+  "version": "1.0.0",
+  "description": "Based on SVG for graphics and [VueJS](https://vuejs.org/v2/guide) for interaction / data binding.",
+  "main": "index.js",
+  "dependencies": {
+    "vue-drag-resize": "^1.2.3",
+    "vue": "^2.5.16",
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
