@@ -14,7 +14,9 @@ new Vue({
   template: `
   <div>
     <header v-if="header">
-      Sample content
+      <div>
+        <a href="https://designstem.github.io/homepage">Home</a> → Sample scenario
+      </div>
     </header>
     <f-fetch-data url="./index.md">
       <f-content-editor

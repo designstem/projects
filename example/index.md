@@ -1,6 +1,6 @@
 # <big><big>Sample scenario</big></big>
 
-## https://github.com/designstem/scenarios/tree/master/example
+https://github.com/designstem/scenarios/tree/master/example
 
 > #### Shortcuts
 > Press <kbd>Alt</kbd> <kbd>p</kbd> to switch between editing and preview modes.
