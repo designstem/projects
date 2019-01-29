@@ -18,7 +18,7 @@
 <f-scene3 renderer="webgl" width="400" height="400">
 
 <f-lathe3
-  rotation="0 40 0"
+  rotation="40 0 0"
   count="128"
   :scale="get('scale',1)"
   :points="[[0.5,0],[0.5,0],[1,0.5],[1,1.1],[0.8,1.1],[0.6,0.5],[0,0.1]]"
