@@ -36,12 +36,12 @@ new Vue({
   // Fetching the index.md and rendering it
   template: `                         
   
-  <f-fetch-data url="./index.md">
+  <f-fetch url="./index.md">
     <f-content 
       slot-scope="data"
       :content="data.value"
     />
-  </f-fetch-data>
+  </f-fetch>
 
 
 `
