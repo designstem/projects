@@ -19,7 +19,7 @@ new Vue({
       </div>
     </header>
     <f-fetch url="./index.md">
-      <f-content-editor
+      <f-content
         slot-scope="{ value }"
         :content="value"
         :preview="preview"
