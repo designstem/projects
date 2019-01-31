@@ -15,23 +15,23 @@ The sliders control the red green and blue lights, each ranging from 0 (off) to 
   />
 </f-artboard>
 
-<!--f-animation-data :from="0" :to="10" :duration="5000">
+<!--f-animation :from="0" :to="10" :duration="5000">
   <f-scene slot-scope="data" grid="true" :width="600" :height="300">
     <f-circle 
     	      :x="-2.5+data.value/2"
 	      :fill="rgb(25*Math.floor(data.value),0,0)">
   </f-scene>
-</f-animation-data-->
+</f-animation-->
 
 
 
-<f-slider-data :sliders="[
+<f-slider :sliders="[
    { title: 'Red', from: 0, to: 255, value: 150}
    ]">	    
   <f-scene slot-scope="data">
     <f-circle :fill="rgb(data.value[0],0,0)"/>
   </f-scene>
-</f-slider-data>
+</f-slider>
 
 ## Pure Green Light
 
@@ -47,13 +47,13 @@ The sliders control the red green and blue lights, each ranging from 0 (off) to 
   />
 </f-artboard>
 
-<f-slider-data :sliders="[
+<f-slider :sliders="[
    { title: 'Green', from: 0, to: 255, value: 150}
    ]">	    
   <f-scene slot-scope="data">
     <f-circle :fill="rgb(0,data.value[0],0)"/>
   </f-scene>
-</f-slider-data>
+</f-slider>
 
 ## Pure Blue Light
 
@@ -69,13 +69,13 @@ The sliders control the red green and blue lights, each ranging from 0 (off) to 
   />
 </f-artboard>
 
-<f-slider-data :sliders="[
+<f-slider :sliders="[
    { title: 'Blue', from: 0, to: 255, value: 150}
    ]">	    
   <f-scene slot-scope="data">
     <f-circle :fill="rgb(0,0,data.value[0])"/>
   </f-scene>
-</f-slider-data>
+</f-slider>
 
 
 ## Grey Light
@@ -93,21 +93,21 @@ The red, green and blue lights have equal value.
   />
 </f-artboard>
 
-<f-slider-data :sliders="[
+<f-slider :sliders="[
    { title: 'Gray', from: 0, to: 255, value: 150}
    ]">	    
   <f-scene slot-scope="data">
     <f-circle :fill="rgb(data.value[0],data.value[0],data.value[0])"/>
   </f-scene>
 
-</f-slider-data>
+</f-slider>
 
 ## Full fight spectrum 
 
-<f-rgb-data red="100" green="100" blue="100">
+<f-rgb red="100" green="100" blue="100">
   <f-scene slot-scope="data">
     <f-circle :fill="rgb(...data.value)" />
   </f-scene>
-</f-rgb-data>
+</f-rgb>
 
 

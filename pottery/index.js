@@ -18,7 +18,7 @@ new Vue({
         <a href="https://designstem.github.io/homepage">Home</a> → Sample scenario
       </div>
     </header>
-    <f-fetch-data url="./index.md">
+    <f-fetch url="./index.md">
       <f-content-editor
         slot-scope="{ value }"
         :content="value"
@@ -27,7 +27,7 @@ new Vue({
         style="--content-editor-min-height: 100vh"
         save-id="playground"
       />
-    </f-fetch-data>
+    </f-fetch>
     <f-keyboard alt character="p" @keydown="preview = 1 - preview" />
     <f-keyboard alt character="h" @keydown="header = 1 - header" />
     <f-keyboard alt character="s" @keydown="send('save')" />

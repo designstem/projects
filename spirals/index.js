@@ -24,7 +24,7 @@ new Vue({
   methods: { ...utils },
   template: `
   <div>
-    <f-fetch-data url="./README.md">
+    <f-fetch url="./README.md">
       <f-theme slot-scope="data" theme="white">
         <f-content
           :content="data.value"
@@ -33,7 +33,7 @@ new Vue({
           type="slides"
         />
       </f-theme>
-    </f-fetch-data>
+    </f-fetch>
   </div>
   `
 });

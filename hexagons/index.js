@@ -183,7 +183,7 @@ new Vue({
 //   }, 
 //   template: `
 //   <div>
-//     <f-slider-data style="width: 500px" value="3" from="3" to="6">
+//     <f-slider style="width: 500px" value="3" from="3" to="6">
 //     <f-scene slot-scope="data" grid step="0.125" width="500" height="500">
 //       <f-grid />  
 //       <f-group :scale="{x:-1,y:-1}">
@@ -196,7 +196,7 @@ new Vue({
 //       <f-circle :r="r(s(p(),data.value),data.value)" />
 //       </f-group>
 //     </f-scene>
-//     </f-slider-data>
+//     </f-slider>
 //   </div>
 //   `
 // });
@@ -223,7 +223,7 @@ new Vue({
 //   }, 
 //   template: `
 //   <div>
-//     <f-slider-data style="width: 500px" value="3" from="3" to="6">
+//     <f-slider style="width: 500px" value="3" from="3" to="6">
 //     <f-scene slot-scope="data" grid step="0.125" width="500" height="500">
 //       <f-grid />  
 //       <f-group :scale="{x:-1,y:-1}">
@@ -234,7 +234,7 @@ new Vue({
 //       />
 //       </f-group>
 //     </f-scene>
-//     </f-slider-data>
+//     </f-slider>
 //   </div>
 //   `
 // });
