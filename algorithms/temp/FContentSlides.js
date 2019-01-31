@@ -10,7 +10,7 @@ Shows Markdown content as slides.
   `,
   example: `
 <f-buttons :buttons="['Slide 1','Slide 2']">
-  <f-content-slides
+  <f-content
     slot-scope="data"
     :index="data.value"
     content="## Hello\n---\n## World"
@@ -61,7 +61,7 @@ Shows Markdown content as slides.
 
     this.$watch("currentIndex", currentIndex => {
       localStorage.setItem(
-        `f-content-slides-${this.autosaveId}`,
+        `f-content-${this.autosaveId}`,
         JSON.stringify({ currentIndex })
       );
     });
