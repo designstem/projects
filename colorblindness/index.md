@@ -12,7 +12,7 @@
 
 # Image compare
 
-<ImageCompare :before="'images/before.jpg'" :after="'images/after.jpg'" :full="false" :padding ="{left:20, right:20}" :hideAfter="false"></ImageCompare>
+<ImageCompare :before="'images/before.jpg'" :after="'images/after.jpg'" :padding ="{left:20, right:20}" :hideAfter="false"></ImageCompare>
 
 <!--<f-next-button />-->
 
@@ -61,7 +61,7 @@
     <f-group3 v-for="g in range(0,2)">
       <f-point3
         v-for="b in range(0,2)"
-        stroke-width="20"
+        :stroke-width="70"
         :x="r"
         :y="g"
         :z="b"

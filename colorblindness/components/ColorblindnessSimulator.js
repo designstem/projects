@@ -69,7 +69,7 @@ export default{
         setTimeout(function(){
           _this.inputImage.ctx.putImageData(_this.inputImage.imageData, 0, 0);
           _this.outputImage.ctx.putImageData(_this.outputImage.imageData, 0, 0);
-          console.log("timeout");
+          //console.log("timeout");
         }, 500)
         
       },
@@ -125,7 +125,7 @@ export default{
     img.src = this.imageUrl;
     var _this = this;
     img.onload = function() {
-      console.log("mounted image loaded");
+      //console.log("mounted image loaded");
       _this.initImage(this);
     };
   },

@@ -43,7 +43,8 @@ export default{
       posX: null,
       isDragging: false,
       allowNextFrame: true,
-      unwatch: null
+      unwatch: null,
+      firstTouch: true
     }
   },
   computed: {
@@ -59,10 +60,16 @@ export default{
     onResize() {
       this.width = this.$el.clientWidth;
       this.height = this.$el.clientHeight;
-      this.setInitialPosX(this.padding.left + this.padding.right);
+      //this.setInitialPosX(this.padding.left + this.padding.right);
     },
     onMouseDown() {
-			this.isDragging = true;
+      if(this.firstTouch){
+        this.firstTouch = false;
+        this.onResize();
+      }
+      
+      this.isDragging = true;
+      
     },
     onMouseUp(event) {
       event.preventDefault();
@@ -104,11 +111,14 @@ export default{
     window.addEventListener('resize', this.onResize);
   },
   mounted() {
-    this.onResize();
+    
+    //this.onResize();
+    
     this.unwatch = this.$watch(
       () => this.padding.left + this.padding.right,
       (newValue) => this.setInitialPosX(newValue)
     );
+    
   },
   beforeDestroy() {
     this.unwatch();
@@ -116,19 +126,6 @@ export default{
     window.removeEventListener('resize', this.onResize);
   },
   
-  
-  
-  // data: () => ({
-  //   letter: "g",
-  //   step: 0.5,
-  //   rotation: 0,
-  //   scale: 1,
-  //   opacity:1,
-  //   presets: ['§', '∞', 'ῳ', 'ڮ', 'ﮔ', 'ଙ', 'ณ', 'ድ', 'ᚍ', 'ᚡ', 'ㄔ', 'ꂊ', 'ꁮ', '⡺', '⧰', '㌽', '𝌘', '☮', '✮', '☣', '░', '❅', '💩', 'Letterepeater', '. . .', 'Designˢᵀᴱᴹ'],
-  // }),
-  // methods: { 
-  //   ...utils
-  // },
   template: `
   <div>
   <figure class="image-compare" :class="{ full }" @mousemove.prevent="onMouseMove" @touchstart="onMouseMove($event, true)" @touchmove="onMouseMove($event, true)" @click="onMouseMove($event, true)">
@@ -138,10 +135,10 @@ export default{
     <img :src="before" :alt="before" :style="dimensions">
     <div class="image-compare-handle" :style="{ left: posX + 'px' }" @mousedown.prevent="onMouseDown" v-show="!hideAfter">
       <span class="image-compare-handle-icon left">
-        <slot name="icon-left"></slot>
+        <slot name="icon-left">◁&nbsp;drag</slot>
       </span>
       <span class="image-compare-handle-icon right">
-        <slot name="icon-right"></slot>
+        <slot name="icon-right">drag&nbsp;▷</slot>
       </span>
     </div>
   </figure>
