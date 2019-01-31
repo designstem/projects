@@ -20,15 +20,15 @@ new Vue({mixins: [Init],
   methods: { ...utils },
   template: `
   <div>
-    <f-fetch-data url="./README.md">
+    <f-fetch url="./README.md">
       <f-theme slot-scope="data">
-        <f-content-slides
+        <f-content
           :content="data.value"
           :index="0"
           :base="'1.5vh'"
         />
       </f-theme>
-    </f-fetch-data>
+    </f-fetch>
 
     <!-- <div style="position:absolute; top:45vh; left:0; right:0; width:100%; display:flex; justify-content:space-between; z-index:100; padding:0.1rem; pointer-events: none;" >
       <kbd v-on:click="send('prev');" style="cursor:pointer;pointer-events: auto;">&lsaquo;</kbd>
