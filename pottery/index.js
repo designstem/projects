@@ -28,12 +28,11 @@ new Vue({
         save-id="playground"
       />
     </f-fetch>
+    <f-pager />
     <f-keyboard alt character="p" @keydown="preview = 1 - preview" />
     <f-keyboard alt character="h" @keydown="header = 1 - header" />
     <f-keyboard alt character="s" @keydown="send('save')" />
     <f-keyboard alt character="a" @keydown="advanced = 1 - advanced" />
-    <f-keyboard alt character="left" @keydown="send('prev')" />
-    <f-keyboard alt character="right" @keydown="send('next')" />
   </div>
 `
 });
