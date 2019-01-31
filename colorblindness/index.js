@@ -35,14 +35,14 @@ new Vue({
 
   // Fetching the index.md and rendering it
   template: `                         
-  
+  <div>
+  <f-pager />
   <f-fetch url="./index.md">
     <f-content 
       slot-scope="data"
       :content="data.value"
     />
   </f-fetch>
-
-
+  </div>
 `
 });
