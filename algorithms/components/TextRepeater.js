@@ -48,13 +48,13 @@ export default{
           :innerY="-250" 
           style="width:100%; height:60vh; border:1px solid black;" > -->
         <f-scene style="width:100%; height:100%">
-          <f-repeat-grid :step="step">
+          <f-grid-pattern :step="step">
             <!-- <f-group slot-scope="data2" :rotation="{z: rotation}" :scale="{x: scale, y: scale }" > -->
             <f-group slot-scope="data2" :rotation="{ z: rotation }" :scale="{ x: scale, y: scale+3 }" >
                 <f-text class="text" :opacity="opacity" :fill="hsl(210, 0, 40)" style="font-family: var(--font-sansserif) !important;
       text-anchor: middle;"> {{letter}} </f-text>
             </f-group>
-          </f-repeat-grid>
+          </f-grid-pattern>
         </f-scene>
         <!-- </f-svg> -->
       </div>

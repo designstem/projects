@@ -10,20 +10,20 @@ new Vue({
   methods: { ...utils },
   template: `
   <div style="display:flex; justify-content:center; width:100%; padding:2rem;">
-  <f-buttons-data :buttons="['Lines', 'Boxes']">
+  <f-buttons :buttons="['Lines', 'Boxes']">
 <div slot-scope="bdata">
 
-<!-- <f-animation-data :to="0.3" :alternate="true">
+<!-- <f-animation :to="0.3" :alternate="true">
 <div slot-scope="adata"> -->
 
-    <f-slider-data :sliders="[
+    <f-slider :sliders="[
     { title: 'X shift', from: 0, to: 2, value: 0, float: true },
     { title: 'Y shift', from: 0, to: 2, value: 0, float: true },
     { title: 'step', from: 0.1, to: 2, value: 0.5, float: true },
     { title: 'rotation', from: 0, to: 360, value: 0, float: true },
   ]">
   <f-scene slot-scope="sdata" width="1000" height="500">
-    <f-repeat-grid :step="sdata.value[2]">
+    <f-grid-pattern :step="sdata.value[2]">
       <f-group slot-scope="rdata">
         <f-group :rotation="{ z: sdata.value[3] }"  v-if="bdata.value==0">  
           <f-line
@@ -49,13 +49,13 @@ new Vue({
       </f-group>
       
 
-    </f-repeat-grid>
+    </f-grid-pattern>
   </f-scene>
-</f-slider-data>
+</f-slider>
 <!-- </div>
-</f-animation-data> -->
+</f-animation> -->
 </div>
-</f-buttons-data>
+</f-buttons>
 
   </div>
   `
