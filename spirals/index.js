@@ -30,6 +30,7 @@ new Vue({
           :content="data.value"
           :index="0"
           :base="'1.5vh'"
+          type="slides"
         />
       </f-theme>
     </f-fetch-data>
