@@ -26,11 +26,11 @@ new Vue({
   <div>
     <f-fetch-data url="./README.md">
       <f-theme slot-scope="data" theme="white">
-        <f-content-slides
-            :content="data.value"
-            :index="0"
-            :base="'1.5vh'"
-          />
+        <f-content
+          :content="data.value"
+          :index="0"
+          :base="'1.5vh'"
+        />
       </f-theme>
     </f-fetch-data>
   </div>
