@@ -1,20 +1,80 @@
 
-# <big>Colorblindness</big>
+# <big>Color Vision Deficiency & <br />Accessibility</big>
 
-## Interactive components / simulations
+### How to design information for people whose color perception is impaired.
 
-<details>
-  <summary>Find out more</summary>
-  <h2>This content was hidden</h2>
-</details>
+<br />
+
+<f-next-button title="Let's start" />
 
 ---
 
-# Image compare
+| 1 2
 
-<ImageCompare :before="'images/before.jpg'" :after="'images/after.jpg'" :padding ="{left:20, right:20}" :hideAfter="false"></ImageCompare>
+#### This is how a color vision deficient person would see tomatoes.
 
-<!--<f-next-button />-->
+Guess which of the tomatoes and how many are already ripe, red and therefore edible.
+
+**<mark>Click on the tomato</mark>, you think is <span style="color: var(--red)">red</span>, to see if you are right.**
+
+-
+
+<img src="images/tomatoes-protanopia.jpg" alt="Protanopia" v-on:click="send('next')" style="cursor:pointer;"  />
+
+---
+
+| 1 2
+
+### Did you guess right?
+
+How did you choose the tomato?
+If you picked the right tomatoes, congratulations! 
+
+***For color deficient people choosing the wrong tomatoes can have serious consequences for their health,*** since **unripe tomatoes are poisonous** and can cause nausea and vomiting.
+
+#### Think of further everyday situations where it is needed to be able to tell the right colors.
+
+<br />
+
+<f-next-button />
+
+
+-
+
+<img src="images/tomatoes-normal.jpg" alt="Normal vision" v-on:click="send('next')" style="cursor:pointer;"  />
+
+---
+
+| 1 2
+
+# Compare images
+
+**Drag the slider** to compare normal and colorblind visions to see the difference
+
+<br />
+
+<f-next-button />
+
+-
+
+<ImageCompare :before="'images/tomatoes-normal.jpg'" :after="'images/tomatoes-protanopia.jpg'" :padding ="{left:0, right:0}" :hideAfter="false"></ImageCompare>
+
+---
+
+## EXPLAIN | learning stations
+
+Find out about the following topics through working on the provided learning stations. This should enable you to optimize the accessibility of information in your design products.
+
+- Accessibility
+- The eye
+- Color vision deficiency
+- Subtractive and additive color mixing
+- Three dimensions of color (color space models)
+- Color contrast and color harmony theory
+- Design rules for creating color palettes
+- Summary station
+
+
 
 ---
 
