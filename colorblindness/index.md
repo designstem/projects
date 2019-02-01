@@ -19,7 +19,7 @@ Guess which of the tomatoes and how many are already ripe, red and therefore edi
 
 -
 
-<img src="images/tomatoes-protanopia.jpg" alt="Protanopia" v-on:click="send('next')" style="cursor:pointer;"  />
+<img src="images/tomatoes-protanopia.jpg" alt="Protanopia" v-on:click="send('next')" style="cursor:pointer;" />
 
 ---
 
@@ -30,18 +30,17 @@ Guess which of the tomatoes and how many are already ripe, red and therefore edi
 How did you choose the tomato?
 If you picked the right tomatoes, congratulations! 
 
-***For color deficient people choosing the wrong tomatoes can have serious consequences for their health,*** since **unripe tomatoes are poisonous** and can cause nausea and vomiting.
+**For color deficient people choosing the wrong tomatoes can have serious consequences for their health,** since unripe tomatoes are poisonous and can cause nausea and vomiting.
 
-#### Think of further everyday situations where it is needed to be able to tell the right colors.
+***Think of further everyday situations*** where it is needed to be able to tell the right colors.
 
 <br />
 
 <f-next-button />
 
-
 -
 
-<img src="images/tomatoes-normal.jpg" alt="Normal vision" v-on:click="send('next')" style="cursor:pointer;"  />
+<img src="images/tomatoes-normal.jpg" alt="Normal vision" />
 
 ---
 
