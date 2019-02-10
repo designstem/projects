@@ -16,6 +16,8 @@ https://github.com/designstem/scenarios
 
 ### [hexagons](/hexagons)
 
+### [metamerism](/metamerism)
+
 ### [patterns](/patterns)
 
 ### [pottery](/pottery)

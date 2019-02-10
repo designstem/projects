@@ -5,6 +5,7 @@ for (const name in components) {
   Vue.component(name, components[name]);
 }
 
+Vue.ignoredElements = ['a-scene']
 new Vue({
   el: "#app",
   methods: { ...utils },
