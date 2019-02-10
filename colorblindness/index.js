@@ -1,8 +1,5 @@
-// Use Javascript module import to get initialization mixin, Vue components and utility functions
-
-import { Init } from "https://designstem.github.io/fachwerk/mixins.js";
-import * as components from "https://designstem.github.io/fachwerk/components.js";
-import * as utils from "https://designstem.github.io/fachwerk/utils.js";
+import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+Vue.prototype.$global = new Vue({ data: { state: {} } });
 
 for (const name in components) {
   Vue.component(name, components[name]);
@@ -14,15 +11,12 @@ import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
 Vue.component('ColorblindnessSimulator', ColorblindnessSimulator);
 
 new Vue({
-  // Attaching Vue to <div id="app"></div>
   el: "#app",
   data: function() {
     return {
       preview: 1, header: 1, advanced: 1
     }
   },
-  // Adding a mixin
-  mixins: [Init],
 
   // Making utilities accessible to templates
   methods: { ...utils },

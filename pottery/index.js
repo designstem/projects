@@ -1,6 +1,5 @@
-import { Init } from "https://designstem.github.io/fachwerk/mixins.js";
-import * as components from "https://designstem.github.io/fachwerk/components.js";
-import * as utils from "https://designstem.github.io/fachwerk/utils.js";
+import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+Vue.prototype.$global = new Vue({ data: { state: {} } });
 
 for (const name in components) {
   Vue.component(name, components[name]);
@@ -8,7 +7,6 @@ for (const name in components) {
 
 new Vue({
   el: "#app",
-  mixins: [Init],
   methods: { ...utils },
   data: { preview: 0, header: 1, advanced: 1 },
   template: `

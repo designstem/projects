@@ -1,3 +1,5 @@
+import { Vue } from "https://designstem.github.io/fachwerk/fachwerk.js";
+
 import Scene from "./components/Scene.js";
 import Editable3 from "./components/Editable3.js";
 import Points from "./components/Points.js";

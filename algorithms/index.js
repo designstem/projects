@@ -1,21 +1,16 @@
-
-import * as components from "https://designstem.github.io/fachwerk/components.js";
-import * as utils from "https://designstem.github.io/fachwerk/utils.js";
-import { Init } from "https://designstem.github.io/fachwerk/mixins.js";
-
+import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+Vue.prototype.$global = new Vue({ data: { state: {} } });
 
 for (const name in components) {
   Vue.component(name, components[name]);
 }
-
-Vue.prototype.$events = new Vue();
 
 //import TextRepeater from "./components/TextRepeater.js";
 //Vue.component('TextRepeater', TextRepeater);
 
 Vue.config.devtools = true;
 
-new Vue({mixins: [Init],
+new Vue({
   el: "#app",
   methods: { ...utils },
   template: `

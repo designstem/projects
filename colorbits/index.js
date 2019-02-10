@@ -1,7 +1,9 @@
-import { FButtons } from 'https://designstem.github.io/fachwerk/components.js'
+import { Vue, components } from "https://designstem.github.io/fachwerk/fachwerk.js";
+Vue.prototype.$global = new Vue({ data: { state: {} } });
+const { FButtons } = components
 
 new Vue({
-  components: { FButtons },
+  components: { FButtons: FButtons },
   el: "#app",
   data: () => ({
     channels: {

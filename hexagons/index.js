@@ -1,5 +1,5 @@
-import * as components from "https://designstem.github.io/fachwerk/components.js";
-import * as utils from "https://designstem.github.io/fachwerk/utils.js";
+import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+Vue.prototype.$global = new Vue({ data: { state: {} } });
 
 for (const name in components) {
   Vue.component(name, components[name])
@@ -17,9 +17,6 @@ new Vue({
     }
   }, 
   data: () => ({ n: 3, p: 5 }),
-  mounted() {
-    console.log(this.s(this.n))
-  },
   template: `
   <div>
   <header>Hexagons and packaging</header>
@@ -32,19 +29,19 @@ new Vue({
           <f-circle :r="R(r(32,s(32)),s(32))" opacity="0.2" />
           <f-line
             closed
-            :points="cpoints(Math.floor(4),R(r(4,s(4)),s(4)))"
+            :points="polarpoints(Math.floor(4),R(r(4,s(4)),s(4)))"
             :stroke="color('red')"
           />
           <f-line
             closed
-            :points="cpoints(Math.floor(n),R(r(n,s(n)),s(n)))"
+            :points="polarpoints(Math.floor(n),R(r(n,s(n)),s(n)))"
             :stroke="color('blue')"
           />
           <f-circle opacity="0.1" :r="r(n,s(n))" />
           <f-line
             opacity="0"
-            :x2="cpoints(n,r(n,s(n)))[0].x"
-            :y2="cpoints(n,r(n,s(n)))[0].y"
+            :x2="polarpoints(n,r(n,s(n)))[0].x"
+            :y2="polarpoints(n,r(n,s(n)))[0].y"
           />
         </f-group>
     </f-scene>
@@ -52,18 +49,18 @@ new Vue({
     <label>p <code>{{ p }}</code></label>
     <input type="range" v-model="p" style="width: 500px" :min="1" :max="10" step="0.01" />
       <f-scene grid step="0.125" width="800" height="400">
-        <f-group v-for="(nn,i) in [3,4,5,6] ":position="{x: (i * 2) - 3}">
+        <f-group v-for="(nn,i) in [3,4,5,6] " :key="i" :position="{x: (i * 2) - 3}">
           <f-circle :r="R(r(nn,s(nn)),s(nn))" />
           <f-line
             closed
-            :points="cpoints(nn,R(r(nn,s(nn)),s(nn)))"
+            :points="polarpoints(nn,R(r(nn,s(nn)),s(nn)))"
             :stroke="color('blue')"
           />
           <f-circle opacity="0.5" :r="r(nn,s(nn))" />
           <f-line
             opacity="0.5"
-            :x2="cpoints(nn,r(nn,s(nn)))[0].x"
-            :y2="cpoints(nn,r(nn,s(nn)))[0].y"
+            :x2="polarpoints(nn,r(nn,s(nn)))[0].x"
+            :y2="polarpoints(nn,r(nn,s(nn)))[0].y"
           />
         </f-group>
     </f-scene>
@@ -98,12 +95,12 @@ new Vue({
 //           <f-circle :r="R(r(n))" />
 //           <f-line
 //             closed
-//             :points="cpoints(n,R(r(n)))"
+//             :points="polarpoints(n,R(r(n)))"
 //           />
 //           <f-circle opacity="0.5 ":r="r(n)" />
 //           <f-line
-//             :x2="cpoints(n,r(n))[0].x"
-//             :y2="cpoints(n,r(n))[0].y"
+//             :x2="polarpoints(n,r(n))[0].x"
+//             :y2="polarpoints(n,r(n))[0].y"
 //           />
 //         </f-group>
 //     </f-scene>
@@ -138,24 +135,24 @@ new Vue({
 //           <f-circle :r="R" />
 //           <f-line
 //             closed
-//             :points="cpoints(n,R)"
+//             :points="polarpoints(n,R)"
 //           />
 //           <f-circle opacity="0.5 ":r="r" />
 //           <f-line
-//             :x2="cpoints(n,r)[0].x"
-//             :y2="cpoints(n,r)[0].y"
+//             :x2="polarpoints(n,r)[0].x"
+//             :y2="polarpoints(n,r)[0].y"
 //           />
 //         </f-group>
 //         <f-group :position="{x: -0.5}">
 //           <f-circle :r="R" />
 //           <f-line
 //             closed
-//             :points="cpoints(n,R)"
+//             :points="polarpoints(n,R)"
 //           />
 //           <f-circle opacity="0.5 ":r="r" />
 //           <f-line
-//             :x2="cpoints(n,r)[0].x"
-//             :y2="cpoints(n,r)[0].y"
+//             :x2="polarpoints(n,r)[0].x"
+//             :y2="polarpoints(n,r)[0].y"
 //           />
 //         </f-group>
 //     </f-scene>
@@ -190,9 +187,9 @@ new Vue({
 //       <f-circle />
 //       <f-line
 //         closed
-//         :points="cpoints(data.value,1)"
+//         :points="polarpoints(data.value,1)"
 //       />
-//       <f-line :x2="cpoints(data.value,1)[data.value - 1].x" :y2="cpoints(data.value,1)[data.value - 1].y" />
+//       <f-line :x2="polarpoints(data.value,1)[data.value - 1].x" :y2="polarpoints(data.value,1)[data.value - 1].y" />
 //       <f-circle :r="r(s(p(),data.value),data.value)" />
 //       </f-group>
 //     </f-scene>
@@ -230,7 +227,7 @@ new Vue({
 //       <f-circle />
 //       <f-line
 //         closed
-//         :points="cpoints(data.value,1)"
+//         :points="polarpoints(data.value,1)"
 //       />
 //       </f-group>
 //     </f-scene>

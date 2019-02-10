@@ -1,3 +1,5 @@
+import { Vue } from "https://designstem.github.io/fachwerk/fachwerk.js";
+
 import Scene from "./components/Scene.js";
 import BezierEditor from "./components/BezierEditor.js";
 

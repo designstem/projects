@@ -1,3 +1,5 @@
+import { Vue } from "https://designstem.github.io/fachwerk/fachwerk.js";
+
 /*
 import * as components from "https://designstem.github.io/fachwerk/components.js";
 import * as utils from "https://designstem.github.io/fachwerk/utils.js";

@@ -1,5 +1,5 @@
 
-import * as utils from "https://designstem.github.io/fachwerk/utils.js";
+import { d3, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 
 
