@@ -10,9 +10,11 @@ for (const name in components) {
 import MoireLines from "./components/MoireLines.js";
 import MoireCircles from "./components/MoireCircles.js";
 import MoireSquares from "./components/MoireSquares.js";
+import MoireTriangles from "./components/MoireTriangles.js";
 Vue.component('MoireLines', MoireLines);
 Vue.component('MoireCircles', MoireCircles);
 Vue.component('MoireSquares', MoireSquares);
+Vue.component('MoireTriangles', MoireTriangles);
 
 new Vue({
   // Attaching Vue to <div id="app"></div>

@@ -13,13 +13,24 @@
 
 ---
 
+# Moiree with triangles
+
+<f-slider set="width" from="6" to="50" />
+<f-slider set="rotate" from="-180" to="180" />
+
+<f-canvas width="700" height="500">
+  <MoireTriangles :width="get('width', 10)" :rotate="get('rotate', 0)" />
+</f-canvas>
+
+<f-next-button />
+
+---
+
 # Moiree with squares
 
 <f-slider set="width" from="4" to="50" />
-<f-slider set="rotate" from="-90" to="90" />
-<!-- <f-slider set="gap" from="4" to="50" :value="get('gap', 10)" />
-<f-slider set="translate" from="-300" to="300" title="move" />
-<f-slider set="lineWidth" from="1" to="40" integer /> -->
+<f-slider set="rotate" from="-180" to="180" />
+
 <f-canvas width="700" height="500">
   <MoireSquares :width="get('width', 10)" :rotate="get('rotate', 0)" />
 </f-canvas>

@@ -11,29 +11,42 @@ export default {
     const { width, height } = ctx.canvas
     const margin = 500;
     const center = {x:width/2, y:height/2};
-    //ctx.lineWidth = this.lineWidth;
 
     ctx.clearRect(-margin, -margin, width+margin, height+margin);
+
+
+    let cols = width / this.width;
+    let rows = height / this.width;
+    
     ctx.save();
-   // ctx.rotate(-this.rotate);
-    let left = 0;
-    for(let a=0; a<height/this.width; a++) {
-        for(let b=0; b<width/this.width; b+=2) {
-            let startX = b * this.width;
-            if(a%2==0) startX = (b+1) * this.width;
-            ctx.fillRect(startX + left,(a*this.width) ,this.width,this.width);
+
+    for (let x = 0; x < cols; x++) {
+      for (let y = 0; y < rows; y++) {
+        if ((x % 2 == 0 && y % 2 == 1) || (x % 2 == 1 && y %2 == 0)) {
+            ctx.fillStyle = "transparent";
+        } else {
+          ctx.fillStyle = "black";
         }
+        ctx.fillRect(x*this.width, y*this.width, this.width, this.width);
+      }
     }
+
     ctx.translate(center.x, center.y);
     ctx.rotate((Math.PI / 180) * this.rotate);
     ctx.translate(-center.x, -center.y); 
-    for(let a=0; a<height/this.width; a++) {
-        for(let b=0; b<width/this.width; b+=2) {
-            let startX = b * this.width;
-            if(a%2==0) startX = (b+1) * this.width;
-            ctx.fillRect(startX + left,(a*this.width) ,this.width,this.width);
+
+    for (let x = 0; x < cols; x++) {
+        
+      for (let y = 0; y < rows; y++) {
+        if ((x % 2 == 0 && y % 2 == 1) || (x % 2 == 1 && y %2 == 0)) {
+            ctx.fillStyle = "transparent";
+        } else {
+          ctx.fillStyle = "black";
         }
+        ctx.fillRect(x*this.width, y*this.width, this.width, this.width);
+      }
     }
-      ctx.restore();
+
+    ctx.restore();
   }
 };
