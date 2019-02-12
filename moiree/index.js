@@ -21,7 +21,7 @@ new Vue({
   el: "#app",
   data: function() {
     return {
-      preview: 0, header: 1, advanced: 1
+      preview: 1, header: 1, advanced: 1
     }
   },
   
