@@ -1,80 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Load CSS styles -->
   <link rel="stylesheet" href="https://designstem.github.io/fachwerk/fachwerk.css">
-  <style>
-    .image-compare {
-      position: relative;
-      margin: 0;
-    }
-    .image-compare img {
-      max-width: none;
-      display: block;
-    }
-    .image-compare.full {
-      overflow: hidden;
-      height: 100%;
-      width: 100%;
-      flex: 1;
-    }
-    .image-compare.full img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .image-compare-wrapper,
-    .image-compare-handle {
-      bottom: 0;
-      position: absolute;
-      top: 0;
-    }
-    .image-compare-wrapper {
-      left: 0;
-      overflow: hidden;
-      width: 100%;
-      z-index: 1;
-      transform: translateZ(0);
-      will-change: width;
-    }
-    .image-compare-handle {
-      color: #fff;
-      background-color: currentColor;
-      cursor: ew-resize;
-      transform: translateX(-50%) translateZ(0);
-      width: 2px;
-      z-index: 2;
-      will-change: left;
-    }
-    .image-compare-handle-icon {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      font-size: 1rem;
-      color: currentColor;
-      line-height: normal;
-      background: black;
-      padding: 3px 5px;
-    }
-    .image-compare-handle-icon.left {
-      padding-right: 10px;
-      transform: translate(-100%, -50%);
-    }
-    .image-compare-handle-icon.right {
-      padding-left: 10px;
-      transform: translate(0, -50%);
-    }
-  </style>
 </head>
 
 <body>
-  
-  <!-- Load main Javascript file index.js. Note: type="module" is required! -->
   <script src="./index.js" type="module"></script>
-  
-  <!-- Set up a placholder where framework can display its content -->
   <div id="app"></div>  
 </body>
 

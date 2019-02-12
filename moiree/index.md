@@ -47,7 +47,7 @@ Actually it is exactly like Wikipedia said. Let's go step by step
 
 -
 
-Here we tried to reproduce these steps - there are two striped patterns positioned on top of each other. 
+Here we reproduced these steps - there are two striped patterns positioned on top of each other. 
 Once you move the rotation slider, you'll see...
 
 <div v-if="get('rotate', 0) != 0">
@@ -63,6 +63,18 @@ Once you move the rotation slider, you'll see...
 <f-canvas  width="500" style="width:500px; height:20vh;">
   <MoireLines gap="6" :rotate="get('rotate', 0)" lineWidth="2" />
 </f-canvas>
+
+---
+
+# Why should I care, you may ask...
+
+### You should, because sometimes you may want to 
+#### 🤢 <mark>AVOID moiré</mark> not to generate disturbing visual noise 
+#### 😎 <mark>USE moiré</mark> to generate kickass visual effects
+
+<br /><br />
+
+Let's start with <f-next-button  title="how to avoid moiré" />
 
 
 ---
