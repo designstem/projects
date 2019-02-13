@@ -69,7 +69,7 @@ Once you move the rotation slider, you'll see...
 # Why should I care, you may ask...
 
 ### You should, because sometimes you may want to 
-#### 🤢 <mark>AVOID moiré</mark> not to generate disturbing visual noise 
+#### 😵 <mark>AVOID moiré</mark> not to generate disturbing visual noise 
 #### 😎 <mark>USE moiré</mark> to generate kickass visual effects
 
 <br /><br />
