@@ -625,9 +625,9 @@ IMAGE
 
 ---
 
-| 1 1
-| 2 3
-| 4 4
+| 1 1 1
+| 2 3 3
+| 4 4 4
 
 # EXPLAIN | Color contrast and harmony 5
 
@@ -635,7 +635,10 @@ IMAGE
 
 Find out about the seven contrasts online and match them with the pictures. Which contrasts do you see?
 
+<f-hr />
+
 -
+
 
 <h1>
   <span v-if="get('check1') == undefined || get('check1') == null">CHOOSE 🤔</span>
