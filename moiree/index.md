@@ -8,8 +8,8 @@
 - what is moiré  
 - why you should avoid it (examples)
 - why you should love it (examples)
-- design object: an "animated" printed picture
-- math behind it (who even cares? why should someone know this?)
+- design object: a kinegram
+- math behind it (why should someone know this?)
 
 <f-next-button title="Let's start!" />
 
@@ -35,7 +35,7 @@ Wikipedia says:
 | 1 1
 | 2 3
 
-Actually it is exactly like Wikipedia said. Let's go step by step
+Let's go step by step...
 
 # What we need to produce a moiré effect is:
 

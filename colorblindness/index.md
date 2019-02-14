@@ -3,19 +3,30 @@
 
 ### How to design information for people whose color perception is impaired.
 
+(Richard Spencer, Kristin Kreer)
+
 <br />
 
 <f-next-button title="Let's start" />
+
+<br /> <br />
+
+<details>
+  <summary>Teachers note</summary>
+    <h4>Aim</h4>
+    The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
+</details>
+<br />
 
 ---
 
 | 1 2
 
-#### This is how a color vision deficient person would see tomatoes.
+This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
 
-Guess which of the tomatoes and how many are already ripe, red and therefore edible.
+### Guess which of the tomatoes and how many are already ripe, red and therefore edible.
 
-**<mark>Click on the tomato</mark>, you think is <span style="color: var(--red)">red</span>, to see if you are right.**
+**<mark>Click on the picture</mark> to check if you guessed correct.**
 
 -
 
@@ -24,13 +35,14 @@ Guess which of the tomatoes and how many are already ripe, red and therefore edi
 ---
 
 | 1 2
+| 3 3
 
-### Did you guess right?
+## Did you guess right?
+### How did you choose the tomato?
 
-How did you choose the tomato?
 If you picked the right tomatoes, congratulations! 
 
-**For color deficient people choosing the wrong tomatoes can have serious consequences for their health,** since unripe tomatoes are poisonous and can cause nausea and vomiting.
+**For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
 
 ***Think of further everyday situations*** where it is needed to be able to tell the right colors.
 
@@ -42,11 +54,21 @@ If you picked the right tomatoes, congratulations!
 
 <img src="images/tomatoes-normal.jpg" alt="Normal vision" />
 
+-
+
+<details>
+  <summary>Teachers note</summary>
+  ### Aim
+  Students  explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.
+</details>
+
+
 ---
 
 | 1 2
 
-# Compare images
+``Here is the juxtapose image comparer``
+``It sort of repeats the previous steps. Do we even need it here?``
 
 **Drag the slider** to compare normal and colorblind visions to see the difference
 
@@ -59,6 +81,45 @@ If you picked the right tomatoes, congratulations!
 <ImageCompare :before="'images/tomatoes-normal.jpg'" :after="'images/tomatoes-protanopia.jpg'" :padding ="{left:0, right:0}" :hideAfter="false"></ImageCompare>
 
 ---
+
+# EXPLORE
+
+Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
+
+image
+
+<f-next-button />
+
+---
+
+# EXPLORE
+
+1. Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.
+2. Open your pictures in Photoshop or go to the following website and upload your files there: https://www.color-blindness.com/coblis-color-blindness-simulator/
+3. Simulate color vision deficiency by applying different filters for protanopia (red blindness) and deuteranopia (green blindness).
+4. Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?
+
+<f-next-button />
+
+---
+
+# EXPLORE
+
+Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:
+5. Find out what the main problem is regarding the color scheme.
+6. Phrase a hypothesis on how this problem could be solved.
+7. Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?
+
+<f-next-button />
+
+---
+
+<details>
+  <summary>Teachers notes</summary>
+  Aim. In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
+  This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
+  The students need to do all of the working stations.
+</details>
 
 ## EXPLAIN | learning stations
 
@@ -73,17 +134,78 @@ Find out about the following topics through working on the provided learning sta
 - Design rules for creating color palettes
 - Summary station
 
-
+<f-next-button />
 
 ---
 
-# Colorblindness<br />simulator
+# EXPLAIN | Accessibility
 
-<ColorblindnessSimulator />
+### Tasks
 
-<!--
+1. What do you understand by “accessibility”? Have you ever come across that term? In which context have you heard about it?
+2. Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition.
+3. Get an overview of the areas in which we need to improve accessibility.
+4. Further, find out about the difference between “accessibility” and “usability”.
+
+image
+
+<f-next-button />
+
+---
+
+# EXPLAIN | The eye
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Color blindness
+
+<!-- <ColorblindnessSimulator /> -->
 <ColorblindnessSimulator :imageUrl="'images/before.jpg'" />
--->
+
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Color mixing 1
+
+Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color. Strong light produces intense color.
+
+Our eyes have three color receptor cells or cones: red, green and blue. As a result, all incoming light is reduced to these three colors. All perceived colors are generated by a mixture of these three colors.
+
+In the Additive Color System, red, green and blue are the primary colors. When all three colors overlap, white light is produced
+
+1. Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?
+2. Find out where the RGB Model is used? 
+3. Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Color mixing 2
+
+All objects have physical properties that cause them to absorb some color waves and reflect others. Color, when applied to a surface such as canvas or paper, has the same characteristic.
+
+Color is produced by absorption of wavelengths e.g. on paper and remission of the remaining wavelengths, which are perceived by the eye and form a color impression. So for example a cyan colored dot on white paper absorbs red wavelengths (they are complementary to cyan) and remits blue and green, which together mix to cyan.
+
+This is called Subtractive Color System, because light is subtracted/absorbed and the remaining light produces a sensation of color.
+
+1. The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Color mixing 3
+
+4. Try to reproduce the following colors by adjusting the controllers for red, green and blue. 
+
+First, in your mind, try to disassemble them into their three components. How much of red, green and blue is needed to make the color? Then check your assumptions by adjusting the controllers so that you receive a color that is as similar as possible to the example. 
+
+RGB mixer-muxer here
 
 ---
 
