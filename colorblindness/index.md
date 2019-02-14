@@ -205,9 +205,9 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 ---
 
-| 1 1
-| 2 2
-| 3 4
+| 1 1 1
+| 2 2 2
+| 3 4 5
 
 # EXPLAIN | Color mixing 3
 
@@ -220,9 +220,9 @@ First, in your mind, try to disassemble them into their three components. How mu
 -
 
 <div>
-  <f-slider set="r1" from="0" to="255" integer />
-  <f-slider set="g1" from="0" to="255" integer />
-  <f-slider set="b1" from="0" to="255" integer />
+  <f-slider set="r1" from="0" to="255" integer title="r" />
+  <f-slider set="g1" from="0" to="255" integer title="g" />
+  <f-slider set="b1" from="0" to="255" integer title="b" />
   <f-scene width="600" height="300">
     <f-box 
       width="4"
@@ -238,18 +238,39 @@ First, in your mind, try to disassemble them into their three components. How mu
       stroke="none"
       :fill="rgb( 255 , 0, 255 )"
     />
+    <f-text
+      v-if="Math.abs( get('r1',0) - 255) < 1    &&    Math.abs(get('g1',0) - 0) < 1    &&    Math.abs(get('b1',0) - 255) < 1"
+      fill="white" scale="2">
+        YOU DID IT!!!
+    </f-text>
+    <f-text
+      v-else-if="Math.abs( get('r1',0) - 255) < 10    &&    Math.abs(get('g1',0) - 0) < 10    &&    Math.abs(get('b1',0) - 255) < 10" 
+      fill="white">
+        ALMOST THERE...
+    </f-text>
+    <f-text
+      v-else-if="Math.abs( get('r1',0) - 255) < 30    &&    Math.abs(get('g1',0) - 0) < 30    &&    Math.abs(get('b1',0) - 255)  < 30"
+      fill="white">
+        GETTING WARMER!
+    </f-text>
+    <f-text v-else fill="white">
+        MATCH THE COLORS
+    </f-text>
+
+
   </f-scene>
-  <div v-if="get('r1') == 255 && get('g1') == 0 && get('b1') == 255">
-    <h1>Dingdong! Here we go!</h1>
-  </div>
 </div>
 
 -
 
+<f-vr style="height:100%;" />
+
+-
+
 <div>
-  <f-slider set="r2" from="0" to="255" integer />
-  <f-slider set="g2" from="0" to="255" integer />
-  <f-slider set="b2" from="0" to="255" integer />
+  <f-slider set="r2" from="0" to="255" integer title="r" />
+  <f-slider set="g2" from="0" to="255" integer title="g" />
+  <f-slider set="b2" from="0" to="255" integer title="b" />
   <f-scene width="600" height="300">
     <f-box 
       width="4"
@@ -265,10 +286,23 @@ First, in your mind, try to disassemble them into their three components. How mu
       stroke="none"
       :fill="rgb( 255 , 201, 53 )"
     />
+    <f-text
+      v-if="Math.abs( get('r2',0) - 255) < 1    &&    Math.abs(get('g2',0) - 201) < 1    &&    Math.abs(get('b2',0) - 53) < 1"
+      scale="2">
+        YOU DID IT!!!
+    </f-text>
+    <f-text
+      v-else-if="Math.abs( get('r2',0) - 255) < 10    &&    Math.abs(get('g2',0) - 201) < 10    &&    Math.abs(get('b2',0) - 53) < 10">
+        ALMOST THERE...
+    </f-text>
+    <f-text
+      v-else-if="Math.abs( get('r2',0) - 255) < 30    &&    Math.abs(get('g2',0) - 201) < 30    &&    Math.abs(get('b2',0) - 53)  < 30">
+        GETTING WARMER!
+    </f-text>
+    <f-text v-else>
+        THIS IS HARDER
+    </f-text>
   </f-scene>
-  <div v-if="get('r2') == 255 && get('g2') == 201 && get('b2') == 53">
-    <h1>Dingdong! Here we go!</h1>
-  </div>
 </div>
 
 
@@ -279,7 +313,9 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 # RGB Explorer
 
-<f-scene3 grid>
+Commented out temporarily because of heavy CPU usage
+
+<!-- <f-scene3 grid>
 	<f-rotation3>
   <f-group3 scale="0.5">
   <f-line3
@@ -320,7 +356,7 @@ First, in your mind, try to disassemble them into their three components. How mu
   </f-group3>
   </f-group3>
   </f-rotation3>
-</f-scene3>
+</f-scene3> -->
 
 ---
 
