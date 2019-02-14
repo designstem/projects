@@ -8,7 +8,7 @@ fachwerk({
     "ImageCompare" : ImageCompare,
     "ColorblindnessSimulator" : ColorblindnessSimulator
   },
-  theme: "dark",
+  theme: "light",
   editor: "hide",
   pager: true
 });

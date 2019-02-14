@@ -7,9 +7,7 @@
 
 <br />
 
-<f-next-button title="Let's start" />
-
-<button v-on:click="send('goto', 17)">HOPP!</button>
+<f-next-button title="Let's start" /> <button v-on:click="send('goto', 22)">HOPP!</button>
 
 <!-- <button v-on:click="set('index',3)" >HOPP!</button> -->
 
@@ -495,6 +493,7 @@ Describe the difference between low and high saturated colors with adjectives. W
 
 | 1 1 1
 | 2 3 4
+| 5 5 5
 
 # EXPLAIN | Three properties of color 4
 
@@ -505,7 +504,7 @@ Choose a color which could be used as primary color for the following products:
 
 If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
 
-    Right now this uses HSL color model, if needed, will be changed to HSB
+    NOTE: Right now this uses HSL color model, if needed, will be changed to HSB
 
 -
 
@@ -558,8 +557,125 @@ If possible compare your results with someone and explain why you chose this col
   <f-slider set="l3" from="0" to="100" integer title="L" />
 </div>
 
+-
+
+    NOTE: How to compare different palettes?
+
+<f-next-button />
 
 ---
+
+# EXPLAIN | Color contrast and harmony 1
+
+A single color has an emotional and physical effect, but placing it in context with other colors can alter this effect.
+Designers create contrasting or allied color relationships/palettes to affect the viewer’s impression. They use contrasts and harmonies as stylistic devices.
+
+“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” (Johannes Itten)
+
+IMAGE
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Color contrast and harmony 2
+
+But harmony not only exists if color combinations are made up by colors which are neighbours in the color wheel or by colors with the same hue but different brightness, like in this example.
+
+Color contrasts can also be harmonious. Don’t equate contrast and harmony with ‘disagreeable’ and ‘agreeable’.
+
+IMAGE
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Color contrast and harmony 3
+
+Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. mono-chromatic color palettes. But that doesn’t mean that they are less harmonious.
+In this example you have a complementary contrast of red and blue hues.
+It feels bolder and louder than the last picture with the cereal bowl, but still harmonious and pleasing to the eye.
+Therefore, don’t mix up color contrast with discord.
+
+IMAGE
+
+<f-next-button />
+
+
+---
+
+# EXPLAIN | Color contrast and harmony 4
+
+Johannes Itten, who taught at Bauhaus, defined seven different color contrasts:
+- Contrast of hue
+- Light-dark contrast
+- Cold-warm contrast
+- Complementary contrast
+- Simultaneous contrast
+- Contrast of saturation
+- Contrast of extension
+
+## Task 1: 
+Find out about the seven contrasts online and match them with the pictures.
+Which contrasts do you see?
+
+IMAGE
+
+<f-next-button />
+
+---
+
+| 1 1
+| 2 3
+| 4 4
+
+# EXPLAIN | Color contrast and harmony 5
+
+### Task 1: 
+
+Find out about the seven contrasts online and match them with the pictures. Which contrasts do you see?
+
+-
+
+<h1>
+  <span v-if="get('check1') == undefined || get('check1') == null">CHOOSE 🤔</span>
+  <span v-else-if="get('check1') == true">YES 👍</span>
+  <span v-else-if="get('check1') == false">NOPE 👎</span>
+</h1>
+
+  <f-inline>
+    <input type="radio" id="r1" v-on:change="set('check1', false)" name="check1" /><label for="r1">Contrast of hue</label>
+  </f-inline>
+  <f-inline>
+    <input type="radio" id="r2" v-on:change="set('check1', false)" name="check1" /><label for="r2">Light-dark contrast</label>
+  </f-inline>
+  <f-inline>
+    <input type="radio" id="r3" v-on:change="set('check1', true)" name="check1" /><label for="r3">Cold-warm contrast</label>
+  </f-inline>
+  <f-inline>
+    <input type="radio" id="r4" v-on:change="set('check1', false)" name="check1" /><label for="r4">Complementary contrast</label>
+  </f-inline>
+  <f-inline>
+    <input type="radio" id="r5" v-on:change="set('check1', false)" name="check1" /><label for="r5">Simultaneous contrast</label>
+  </f-inline>
+  <f-inline>
+    <input type="radio" id="r6" v-on:change="set('check1', false)" name="check1" /><label for="r6">Contrast of saturation</label>
+  </f-inline>
+  <f-inline>
+    <input type="radio" id="r7" v-on:change="set('check1', false)" name="check1" /><label for="r7">Contrast of extension</label>
+  </f-inline>
+
+
+-
+
+IMAGE HERE
+
+-
+
+<f-next-button />
+
+---
+
 
 # RGB Explorer
 
