@@ -9,7 +9,7 @@
 
 <f-next-button title="Let's start" />
 
-<button v-on:click="send('goto', 15)">HOPP!</button>
+<button v-on:click="send('goto', 17)">HOPP!</button>
 
 <!-- <button v-on:click="set('index',3)" >HOPP!</button> -->
 
@@ -436,7 +436,8 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 Next, the saturation of the colors is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
 Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
 
-`isn't it more like brightness increased instead of saturation reduced?`
+    Should the color model be mentioned here? (HSB?)
+    Because with HSL you get same values when you increase lightness to 90%, not reducing saturation
 
 <div>
   <f-scene width="600" height="200">
@@ -489,6 +490,74 @@ Describe the difference between low and high saturated colors with adjectives. W
 </div>
 
 <f-next-button />
+
+---
+
+| 1 1 1
+| 2 3 4
+
+# EXPLAIN | Three properties of color 4
+
+Choose a color which could be used as primary color for the following products:
+- baby shampoo 
+- shampoo for men +60
+- Unisex shampoo
+
+If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
+
+    Right now this uses HSL color model, if needed, will be changed to HSB
+
+-
+
+<div>
+  <h3>Baby shampoo</h3>
+  <f-scene width="300" height="300">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      :fill="hsl( get('h1', 0) , get('s1', 0), get('l1', 0) )"
+    />
+  </f-scene>
+  <f-slider set="h1" from="0" to="360" integer title="H" />
+  <f-slider set="s1" from="0" to="100" integer title="S" />
+  <f-slider set="l1" from="0" to="100" integer title="L" />
+</div>
+
+-
+
+<div>
+  <h3>Shampoo for old men</h3>
+  <f-scene width="300" height="300">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      :fill="hsl( get('h2', 0) , get('s2', 0), get('l2', 0) )"
+    />
+  </f-scene>
+  <f-slider set="h2" from="0" to="360" integer title="H" />
+  <f-slider set="s2" from="0" to="100" integer title="S" />
+  <f-slider set="l2" from="0" to="100" integer title="L" />
+</div>
+
+-
+
+<div>
+  <h3>Unisex shampoo</h3>
+  <f-scene width="300" height="300">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      :fill="hsl( get('h3', 0) , get('s3', 0), get('l3', 0) )"
+    />
+  </f-scene>
+  <f-slider set="h3" from="0" to="360" integer title="H" />
+  <f-slider set="s3" from="0" to="100" integer title="S" />
+  <f-slider set="l3" from="0" to="100" integer title="L" />
+</div>
+
 
 ---
 
