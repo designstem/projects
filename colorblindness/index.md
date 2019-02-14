@@ -9,7 +9,13 @@
 
 <f-next-button title="Let's start" />
 
-<br /> <br />
+<button v-on:click="send('goto', 13)">HOPP!</button>
+
+<!-- <button v-on:click="set('index',3)" >HOPP!</button> -->
+
+<br /><br />
+
+
 
 <details>
   <summary>Teachers note</summary>
@@ -199,13 +205,75 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 ---
 
+| 1 1
+| 2 2
+| 3 4
+
 # EXPLAIN | Color mixing 3
+
+-
 
 4. Try to reproduce the following colors by adjusting the controllers for red, green and blue. 
 
 First, in your mind, try to disassemble them into their three components. How much of red, green and blue is needed to make the color? Then check your assumptions by adjusting the controllers so that you receive a color that is as similar as possible to the example. 
 
-RGB mixer-muxer here
+-
+
+<div>
+  <f-slider set="r1" from="0" to="255" integer />
+  <f-slider set="g1" from="0" to="255" integer />
+  <f-slider set="b1" from="0" to="255" integer />
+  <f-scene width="600" height="300">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      x="-2"
+      :fill="rgb( get('r1', 0) , get('g1', 0), get('b1', 0) )"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="2"
+      stroke="none"
+      :fill="rgb( 255 , 0, 255 )"
+    />
+  </f-scene>
+  <div v-if="get('r1') == 255 && get('g1') == 0 && get('b1') == 255">
+    <h1>Dingdong! Here we go!</h1>
+  </div>
+</div>
+
+-
+
+<div>
+  <f-slider set="r2" from="0" to="255" integer />
+  <f-slider set="g2" from="0" to="255" integer />
+  <f-slider set="b2" from="0" to="255" integer />
+  <f-scene width="600" height="300">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      x="-2"
+      :fill="rgb( get('r2', 0) , get('g2', 0), get('b2', 0) )"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="2"
+      stroke="none"
+      :fill="rgb( 255 , 201, 53 )"
+    />
+  </f-scene>
+  <div v-if="get('r2') == 255 && get('g2') == 201 && get('b2') == 53">
+    <h1>Dingdong! Here we go!</h1>
+  </div>
+</div>
+
+
+
+
 
 ---
 

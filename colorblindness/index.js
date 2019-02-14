@@ -34,7 +34,7 @@ new Vue({
         slot-scope="{ value }"
         :content="value"
         :preview="preview"
-        :advanced="advanced"
+        :advanced="advanced" 
         style="--content-editor-min-height: 100vh"
         save-id="playground"
       />
