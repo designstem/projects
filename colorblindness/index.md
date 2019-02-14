@@ -9,7 +9,7 @@
 
 <f-next-button title="Let's start" />
 
-<button v-on:click="send('goto', 13)">HOPP!</button>
+<button v-on:click="send('goto', 15)">HOPP!</button>
 
 <!-- <button v-on:click="set('index',3)" >HOPP!</button> -->
 
@@ -102,6 +102,10 @@ image
 
 1. Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.
 2. Open your pictures in Photoshop or go to the following website and upload your files there: https://www.color-blindness.com/coblis-color-blindness-simulator/
+
+<ColorblindnessSimulator :imageUrl="'images/before.jpg'" />
+
+
 3. Simulate color vision deficiency by applying different filters for protanopia (red blindness) and deuteranopia (green blindness).
 4. Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?
 
@@ -165,15 +169,6 @@ image
 
 ---
 
-# EXPLAIN | Color blindness
-
-<!-- <ColorblindnessSimulator /> -->
-<ColorblindnessSimulator :imageUrl="'images/before.jpg'" />
-
-
-<f-next-button />
-
----
 
 # EXPLAIN | Color mixing 1
 
@@ -208,6 +203,7 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 | 1 1 1
 | 2 2 2
 | 3 4 5
+| 6 6 6
 
 # EXPLAIN | Color mixing 3
 
@@ -249,7 +245,7 @@ First, in your mind, try to disassemble them into their three components. How mu
         ALMOST THERE...
     </f-text>
     <f-text
-      v-else-if="Math.abs( get('r1',0) - 255) < 30    &&    Math.abs(get('g1',0) - 0) < 30    &&    Math.abs(get('b1',0) - 255)  < 30"
+      v-else-if="Math.abs( get('r1',0) - 255) < 50    &&    Math.abs(get('g1',0) - 0) < 50    &&    Math.abs(get('b1',0) - 255)  < 50"
       fill="white">
         GETTING WARMER!
     </f-text>
@@ -263,7 +259,7 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 -
 
-<f-vr style="height:100%;" />
+
 
 -
 
@@ -296,18 +292,203 @@ First, in your mind, try to disassemble them into their three components. How mu
         ALMOST THERE...
     </f-text>
     <f-text
-      v-else-if="Math.abs( get('r2',0) - 255) < 30    &&    Math.abs(get('g2',0) - 201) < 30    &&    Math.abs(get('b2',0) - 53)  < 30">
+      v-else-if="Math.abs( get('r2',0) - 255) < 50    &&    Math.abs(get('g2',0) - 201) < 50    &&    Math.abs(get('b2',0) - 53)  < 50">
         GETTING WARMER!
     </f-text>
     <f-text v-else>
         THIS IS HARDER
     </f-text>
+    <f-text :position="{x:0, y:-0.5}" >DIFFERENCE: {{ Math.abs( get('r2',0) - 255) + Math.abs( get('g2',0) - 201) + Math.abs( get('b2',0) - 53)  }}</f-text>
+  </f-scene>
+</div>
+
+-
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Three properties of color 1
+
+When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are hue, saturation and brightness.
+All three of these properties change the effect the color has. Have a look at the following example:
+
+<div>
+  <f-scene width="400" height="200">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      x="-2"
+      :fill="hsl(112,63,36)"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="2"
+      stroke="none"
+      :fill="hsl(123,100,51)"
+    />
   </f-scene>
 </div>
 
 
+Both are greens, but they have different effects. Most people wouldn’t call the right color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Three properties of color 2
+
+Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?
+
+<div>
+  <f-scene width="600" height="200">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      x="-4"
+      :fill="hsl(252,100,50)"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="0"
+      stroke="none"
+      :fill="hsl(92,100,50)"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="4"
+      stroke="none"
+      :fill="hsl(22,100,50)"
+    />
+  </f-scene>
+</div>
+
+---
+
+# EXPLAIN | Three properties of color 2
+
+Now the brightness of each color is reduced to 50%, which means less light for the same hue.
+Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue. 
 
 
+<div>
+  <f-scene width="600" height="200">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      x="-4"
+      :fill="hsl(252,100,50)"
+    />
+    <f-box 
+      width="4"
+      height="2"
+      stroke="none"
+      x="-4"
+      y="1"
+      :fill="hsl(252,100,25)"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="0"
+      stroke="none"
+      :fill="hsl(92,100,50)"
+    />
+    <f-box 
+      width="4"
+      height="2"
+      x="0"
+      y="1"
+      stroke="none"
+      :fill="hsl(92,100,25)"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="4"
+      stroke="none"
+      :fill="hsl(22,100,50)"
+    />
+    <f-box 
+      width="4"
+      height="2"
+      x="4"
+      y="1"
+      stroke="none"
+      :fill="hsl(22,100,25)"
+    />
+  </f-scene>
+</div>
+
+<f-next-button />
+
+---
+
+# EXPLAIN | Three properties of color 3
+
+Next, the saturation of the colors is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
+Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
+
+`isn't it more like brightness increased instead of saturation reduced?`
+
+<div>
+  <f-scene width="600" height="200">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      x="-4"
+      :fill="hsl(252,100,50)"
+    />
+    <f-box 
+      width="4"
+      height="2"
+      stroke="none"
+      x="-4"
+      y="1"
+      :fill="hsl(252,100,90)"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="0"
+      stroke="none"
+      :fill="hsl(92,100,50)"
+    />
+    <f-box 
+      width="4"
+      height="2"
+      x="0"
+      y="1"
+      stroke="none"
+      :fill="hsl(92,100,90)"
+    />
+    <f-box 
+      width="4"
+      height="4"
+      x="4"
+      stroke="none"
+      :fill="hsl(22,100,50)"
+    />
+    <f-box 
+      width="4"
+      height="2"
+      x="4"
+      y="1"
+      stroke="none"
+      :fill="hsl(22,100,90)"
+    />
+  </f-scene>
+</div>
+
+<f-next-button />
 
 ---
 
