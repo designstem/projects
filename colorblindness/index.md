@@ -511,11 +511,17 @@ If possible compare your results with someone and explain why you chose this col
 <div>
   <h3>Baby shampoo</h3>
   <f-scene width="300" height="300">
+    <!-- <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      :fill="hsl( hsb2hsl( get('h1', 0), get('s1', 0), get('l1', 0)).h, hsb2hsl( get('h1', 0), get('s1', 0), get('l1', 0)).s, hsb2hsl( get('h1', 0), get('s1', 0), get('l1', 0)).l )"
+    /> -->
     <f-box 
       width="4"
       height="4"
       stroke="none"
-      :fill="hsl( get('h1', 0) , get('s1', 0), get('l1', 0) )"
+      :fill="hsl( get('h1', 0), get('s1', 0), get('l1', 0) )"
     />
   </f-scene>
   <f-slider set="h1" from="0" to="360" integer title="H" />
@@ -626,7 +632,7 @@ IMAGE
 ---
 
 | 1 1 1
-| 2 3 3
+| 2 2 3
 | 4 4 4
 
 # EXPLAIN | Color contrast and harmony 5
@@ -639,8 +645,29 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 -
 
+IMAGE
 
-<h1>
+-
+
+<f-inline v-for="(contrast, i) in [ 
+  ['Contrast of hue' , false], 
+  ['Light-dark contrast', true], 
+  ['Cold-warm contrast', true],
+  ['Complementary contrast', true],
+  ['Simultaneous contrast', false],
+  ['Contrast of saturation', false],
+  ['Contrast of extension', true]
+]">
+  <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
+    <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
+    <span v-else-if="get('contrast'+i) == true">👍</span>
+    <span v-else-if="get('contrast'+i) == false">💥</span>  
+    {{ contrast[0] }}</h4>
+
+</f-inline>
+
+
+<!-- <h1>
   <span v-if="get('check1') == undefined || get('check1') == null">CHOOSE 🤔</span>
   <span v-else-if="get('check1') == true">YES 👍</span>
   <span v-else-if="get('check1') == false">NOPE 👎</span>
@@ -666,12 +693,8 @@ Find out about the seven contrasts online and match them with the pictures. Whic
   </f-inline>
   <f-inline>
     <input type="radio" id="r7" v-on:change="set('check1', false)" name="check1" /><label for="r7">Contrast of extension</label>
-  </f-inline>
+  </f-inline> -->
 
-
--
-
-IMAGE HERE
 
 -
 

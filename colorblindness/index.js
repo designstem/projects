@@ -2,11 +2,14 @@ import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 import ImageCompare from "./components/ImageCompare.js";
 import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
+//import { hsb2hsl } from "./helpers.js"
+
+
 
 fachwerk({ 
   components: { 
     "ImageCompare" : ImageCompare,
-    "ColorblindnessSimulator" : ColorblindnessSimulator
+    "ColorblindnessSimulator" : ColorblindnessSimulator,
   },
   theme: "light",
   editor: "hide",
