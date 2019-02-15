@@ -645,7 +645,7 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 -
 
-IMAGE
+<f-image src="images/contrast-snow.png" style="height: 35vw !important; background-position: 50% 50% !important" />
 
 -
 
@@ -657,7 +657,7 @@ IMAGE
   ['Simultaneous contrast', false],
   ['Contrast of saturation', false],
   ['Contrast of extension', true]
-]">
+]" :key="i">
   <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
     <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
     <span v-else-if="get('contrast'+i) == true">👍</span>
@@ -672,28 +672,7 @@ IMAGE
   <span v-else-if="get('check1') == true">YES 👍</span>
   <span v-else-if="get('check1') == false">NOPE 👎</span>
 </h1>
-
-  <f-inline>
-    <input type="radio" id="r1" v-on:change="set('check1', false)" name="check1" /><label for="r1">Contrast of hue</label>
-  </f-inline>
-  <f-inline>
-    <input type="radio" id="r2" v-on:change="set('check1', false)" name="check1" /><label for="r2">Light-dark contrast</label>
-  </f-inline>
-  <f-inline>
-    <input type="radio" id="r3" v-on:change="set('check1', true)" name="check1" /><label for="r3">Cold-warm contrast</label>
-  </f-inline>
-  <f-inline>
-    <input type="radio" id="r4" v-on:change="set('check1', false)" name="check1" /><label for="r4">Complementary contrast</label>
-  </f-inline>
-  <f-inline>
-    <input type="radio" id="r5" v-on:change="set('check1', false)" name="check1" /><label for="r5">Simultaneous contrast</label>
-  </f-inline>
-  <f-inline>
-    <input type="radio" id="r6" v-on:change="set('check1', false)" name="check1" /><label for="r6">Contrast of saturation</label>
-  </f-inline>
-  <f-inline>
-    <input type="radio" id="r7" v-on:change="set('check1', false)" name="check1" /><label for="r7">Contrast of extension</label>
-  </f-inline> -->
+-->
 
 
 -
@@ -701,6 +680,67 @@ IMAGE
 <f-next-button />
 
 ---
+
+| 1 1 1
+| 2 2 3
+| 4 4 4
+
+# EXPLAIN | Color contrast and harmony 6
+
+### Task 1: 
+
+Find out about the seven contrasts online and match them with the pictures. Which contrasts do you see?
+
+<f-hr />
+
+-
+
+<f-image src="images/contrast-red.png" style="height: 35vw !important; background-position: 50% 50% !important" />
+
+-
+
+<f-inline v-for="(contrast, i) in [ 
+  ['Contrast of hue' , false], 
+  ['Light-dark contrast', true], 
+  ['Cold-warm contrast', false],
+  ['Complementary contrast', false],
+  ['Simultaneous contrast', true], 
+  ['Contrast of saturation', true],
+  ['Contrast of extension', true]
+]" :key="i">
+  <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
+    <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
+    <span v-else-if="get('contrast'+i) == true">👍</span>
+    <span v-else-if="get('contrast'+i) == false">💥</span>  
+    {{ contrast[0] }}</h4>
+
+</f-inline>
+
+
+-
+
+<f-next-button />
+
+---
+
+
+    Do we need a RYB wheel instead RGB? 
+
+<f-scene width="300" height="300" grid>
+  <f-arc
+    v-for="(a,j) in range(0,360,360 / 12)"
+    :key="j"
+    :fill="hsl(a,100,50)"
+    stroke
+    :start-angle="(a+180) - 75"
+    :end-angle="((a+180) + (360 / 12)) - 75"
+    :r="2"
+    :inner-radius="1"
+  />
+</f-scene>
+
+---
+
 
 
 # RGB Explorer
