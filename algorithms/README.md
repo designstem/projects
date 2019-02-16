@@ -8,14 +8,24 @@
 
 <big><big><f-next-button title="START" /></big></big>
 
-  <!-- <small>Navigate with arrows on left and right or with <kbd>Alt+LEFT</kbd> and <kbd>Alt+RIGHT</kbd> on keyboard.</small> -->
+<button v-on:click="send('goto',14)">HOPP</button>
+
 </div>
 
 ---
 
+
+
+
+
+
+
+
+
+
+
 | 1 1
 | 2 3 
-
 
 # Warming up... 
 
@@ -42,13 +52,23 @@ Let's start with a small warming-up exercise.
 
 ---
 
+
+
+
+
+
+
+
+
+
+
 | 1 2 
  
 # Nice work! 
  
 Now if you fold the paper open, you probably end up with something like shown on this picture. 
  
-By following the steps of cutting and folding you were following something that is called an <big>**ALGORITHM**</big>.
+By following the steps of cutting and folding you were performing a so called <big>**ALGORITHM**</big>.
 
 <br /><br />
 
@@ -60,11 +80,25 @@ By following the steps of cutting and folding you were following something that 
 
 ---
 
+
+
+
+
+
+
+
+
+
+
 <div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh;">
 
 # <big>an Algorithm</big>
-  
-#### <mark>is a set of certain steps needed to solve a problem</mark> 
+
+#### in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).
+
+Or to put it simple:
+
+#### <mark>an algorithm is a set of certain steps needed to solve a problem</mark> 
   
 <br /><br />
 
@@ -74,11 +108,21 @@ By following the steps of cutting and folding you were following something that 
 
 ---
 
+
+
+
+
+
+
+
+
+
+
 | 1 1 2 2 
  
-# Every day... 
- 
-...we perform such sets of rules, probably without even noticing &ndash; **these rules are often called <mark>everyday algorithms</mark>**. Let's take a look at some examples. 
+# Actually, we solve problems with algorithms every day
+
+Probably without even noticing. These are often called <mark>everyday algorithms</mark>**. Let's take a look at some examples. 
  
 Maybe the most common example of an everyday algorithm is ***cooking***.
 
@@ -93,6 +137,16 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 ~<center><small><small>*You have to follow certain steps (recipe) to make a delicious meal.*</small></small></center>~
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 | 1 1
 | 2 3
@@ -126,33 +180,59 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 
 ---
 
-| 1 1
-| 2 3
-| 4 4
 
-# Computer algorithms
 
--
 
-The brick wall was quite a simple example of an algorithm. It doesn't require too much of analysis to make one.  
+
+
+
+
+
+
+
+# Computer generated algorithms
+
+
+Cooking, folding a t-shirt, building a wall. These activities consist of relatively simple instructions (i.e. ‘algorithms’).
+
+Computers also perform algorithms. More complex algorithms may require a lot of computing power - so much that normally people cannot manage it by themselves.
  
-More complex algorithms may require ***a lot of computing power*** &ndash; so much that normally people can not manage it just by themself.
-
--
- 
-***This is where the computers come to the picture*** &ndash; machines perform computational tasks much quicker than humans, so we can use computers to do the hard work for us.
-
-And also designers, artists and architects have discovered computers and complex algorithms as tools to create some stunning work. 
- 
-#### Again, let's take a look at some examples
-
--
+Computers and design go together well. This last decade has seen the emergence of a new way of designing that’s all about the conscious use of algorithms mixed with the computational power of computers. A lot of designers, artists and architects have been using computers and complex algorithms to create stunning work.
 
 <br /><br />
+
+<f-prev-button /> <f-next-button title="Next" />
+
+---
+
+
+
+
+
+
+
+
+
+
+# It is important to remember:
+
+- Not all computational design is generative design
+- And not all generative design is computational.
+- Not every use of computer in design is ‘generative’
+
+## Let's take a look at some examples of design computer generated algorithms
 
 <f-prev-button /> <f-next-button title="Next: algorithms in design" />
 
 ---
+
+
+
+
+
+
+
+
 
 | 1 1 2
 
@@ -164,13 +244,25 @@ And also designers, artists and architects have discovered computers and complex
  
 Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucci
 
-###### http://www.michael-hansmeyer.com/
+> "I want to assume the mozartian potion and bring it to its maximum effect, and here in the gardens is the artificial grotto, the feathers of the fowler, the ceruse white with the artificial fly, the symmetry, palace of the 18th century.”
+
+Zauberflöte 2018 (available at http://www.michael-hansmeyer.com/zauberfloete, accessed on 24.01.2019)
+
+MORE: http://www.michael-hansmeyer.com/
 
 <br /><br />
 
 <f-prev-button /> <f-next-button title="Next" />
 
 ---
+
+
+
+
+
+
+
+
 
 | 1 1 2
 
@@ -182,13 +274,25 @@ Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucc
 
 Designer Stefan Bassing has used digital modelling to create a pair of tables, made from repetitive elements to simplify the production process.
 
-###### https://stefanbassing.com/
+> Once the furniture is created as a digital model, the role of the computer is at forefront. The computer numerically controls (CNC) the bending machine, converting steel rods into parts for use. Then, these would be assembled by a craftsperson, before being copper plated.
+
+Tucker 2016, (available at https://www.dezeen.com/2016/03/26/stefan-bassing-barlett-school-architecture-digital-modelling-table-no-1-2-identical-components/, accessed on 24.01.2019)
+
+MORE: https://stefanbassing.com/
 
 <br /><br />
 
 <f-prev-button /> <f-next-button title="Next" />
 
 ---
+
+
+
+
+
+
+
+
 
 | 1 1 2
 
@@ -200,13 +304,25 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 
 'Entangle' is a 3D printed wall tilling system, taking inspiration from mathematical tiling principles and quantum mechanics.
 
-###### https://lynnemaclachlan.co.uk/
+> Based on the mathematical principles of Truchet tiles, two modular segments can be combined in a myriad of different ways. It is possible to create various wave patterns, knot designs, complex repeating patterns or fill space in an apparently random fashion. (McLachlan 2017). 
+
+Entangle 2017 (available at https://lynnemaclachlan.co.uk/blogs/projects/entangle-wall-tiles, accessed on 24.01.2019)
+
+MORE: https://lynnemaclachlan.co.uk/
 
 <br /><br />
 
 <f-prev-button /> <f-next-button title="Next" />
 
 ---
+
+
+
+
+
+
+
+
 
 | 1 1 2
 
@@ -218,13 +334,26 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 
 The idea is based on the concept of mathematical B-splines.
 
-###### https://inconvergent.net/
+> The author mentions that in mathematics a B-spline is a smooth spline that is drawn from a number of nodes (control points) without necessarily passing through the nodes themselves.
+
+Sand spline (available at  https://inconvergent.net/generative/sand-spline/, accessed on 24.01.2019)
+
+
+MORE: https://inconvergent.net/
 
 <br /><br />
 
 <f-prev-button /> <f-next-button title="Next" />
 
 ---
+
+
+
+
+
+
+
+
 
 | 1 1 2
 
@@ -236,7 +365,11 @@ The idea is based on the concept of mathematical B-splines.
 
 Softkill Design has recently completed ProtoHouse, a prototype for the first 3D printed house, that has the same structure as human bones.
 
-###### http://protohouse.tumblr.com/
+> The ProtoHouse project was developed in the Architectural Association School's Design Research Lab within the 'behavioral matter' studio of Robert Stuart-Smith. The project investigated the architectural potential of the latest Selective Laser Sintering technologies, testing the boundaries of large scale 3D printing. The designing was done with computer algorithms that micro-organize the printed material itself.
+
+Fairs 2012 (available at https://www.dezeen.com/2012/10/23/protohouse-by-softkill-design/, accessed on 24.01.2019)
+
+MORE: http://protohouse.tumblr.com/
 
 <br /><br />
 
@@ -244,12 +377,19 @@ Softkill Design has recently completed ProtoHouse, a prototype for the first 3D 
 
 ---
 
+
+
+
+
+
+
+
+
+
+
 # Ok...
 
-Now we have seen some work from world famous innovative creators. 
-You may think, that probably they use some billion-dollar supercomputers plus dark powers to make such stuff.  
- 
-Let us demonstrate, that ***even quite simple systems can create quite interesting results.*** 
+You might think that probably they use very expensive supercomputers plus knowledge of wizardry to make such stuff. However, with basic knowledge of coding we can demonstrate that ***even quite simple sets of rules can create quite interesting results***. 
  
 ## But...
 
@@ -259,53 +399,118 @@ Let us demonstrate, that ***even quite simple systems can create quite interesti
 
 ---
 
-| 1 1 1
-| 2 3 4
-| 5 5 5
-| 6 6 7
-| 8 8 8
 
-## ...but first 
-we have to understand the very basics of how computer algorithms usually work:  
+
+
+
+
+
+
+
+| 1 1 1 1 1
+| 2 3 4 5 6
+| 7 7 7 7 7 
+
+## Firstly, we have to understand the very basics of how computer algorithms work. It possesses five key aspects:
 
 -
 
 ## **1**
-## INPUT
-you "feed" some parameters (variables) or data to your algorithm 
+### FINITENESS
+The algorithm must always terminate after a finite number of steps.
 
 -
 
-## **2** 
-## PROCESSING 
-algorithm does the computing 
+## **2**
+### DEFINITENESS
+Each step must be precisely defined; the actions to be carried out must be rigorously and unambiguously specified for each case.
 
 -
 
 ## **3** 
-## OUTPUT
-you get a result 
+### INPUT 
+An algorithm has zero or more inputs, taken from a specified set of objects.
 
 -
 
-<f-hr />
+## **4** 
+### OUTPUT
+An algorithm has one or more outputs, which have a specified relation to the inputs.
 
 -
 
-Although algorithms may become very complex and hard to understand, some **very simple steps** like ***repeating*** elements and changing their ***size*** or ***rotation***, may produce already rather interesting output.  
-
--
- 
-##### Let's try this with a small interactive step-by-step simulation on next slides
+## **5** 
+### EFFECTIVENESS
+All operations to be performed must be sufficiently basic that they can be done exactly and in finite length (Knut 1997)
 
 -
 
 <br />
 
-<f-prev-button /> <f-next-button title="Next: let's start simple" />
-
+<f-prev-button /> <f-next-button title="Next" />
 
 ---
+
+
+
+
+
+
+
+
+
+| 1 1 1
+| 2 3 4
+| 5 5 5
+
+## More specifically, an algorithm is composed of:
+
+-
+
+## **1**
+### INPUT 
+you "feed" some parameters (variables) or data to your algorithm
+
+-
+
+## **2**
+### PROCESSING 
+algorithm does the computing
+
+-
+
+## **3**
+### OUTPUT
+you get a result
+
+---
+
+
+
+
+
+
+
+
+
+
+
+## Let's take a look of some simple examples
+
+With this examples you can see how simple shapes combined and some basic operations like repeating, scaling and rotating generate a lot of complex patterns.    
+When we add important properties like colour, stroke width, transparency and so on we can alter the algorithm and have a different, much more complex output.
+
+---
+
+
+
+
+
+
+
+
+
+
 
 | 1 2 2
 | 3 4 4 
@@ -315,6 +520,8 @@ Although algorithms may become very complex and hard to understand, some **very 
 -
 
 ***Move the sliders*** and see what happens. Nothing too special here &ndash; our algorithm creates a grid of small lines that change when parameters change. Parameters change when you move the sliders. That's it.
+
+
 
 -
 
