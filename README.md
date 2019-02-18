@@ -20,6 +20,8 @@ https://github.com/designstem/scenarios
 
 ### [patterns](./patterns)
 
+### [plastics](./plastics)
+
 ### [pottery](./pottery)
 
 ### [rgblamp_mixer](./rgblamp_mixer)
