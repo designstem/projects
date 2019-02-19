@@ -1,1 +1,2 @@
-export const addLocal = (a, b) => a+b;
+
+export const randomizer = (a,b) => { return a + Math.random()*b }

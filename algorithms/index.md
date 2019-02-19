@@ -873,25 +873,25 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 -
 
 <button 
-    v-on:click="set( 'randomness', random( 0.5, 1, true) )" class="primary"
+    v-on:click="set( 'randomR', randomizer( 0.2, 1) )" class="primary"
     style="background:var(--blue)">Random generator</button>
 
 
 
-<small v-if="get('randomness')">***HINT:*** *If the pattern sucks, press the button again - you'll get a new on*</small>
+<small v-if="get('randomR')">***HINT:*** *If the pattern sucks, press the button again - you'll get a new on*</small>
 
 <br /><br />
 
-<f-prev-button /> <f-next-button v-if="get('randomness')" title="Next" />
+<f-prev-button /> <f-next-button v-if="get('randomR')" title="Next" />
 
 -
 
 <f-scene  width="600" height="500">
-  <f-grid-pattern :step="random(get('randomness')-0.3, get('randomness')+0.5, true)">
+  <f-grid-pattern :step="randomizer(0.2, 0.6)">
     <f-group> 
       <f-circle 
           :stroke-width="3"  
-          :r = "0.02 + random( get('randomness')-0.4, get('randomness')+1, true)" 
+          :r = "get('randomR')" 
         />  
     </f-group>
   </f-grid-pattern>
