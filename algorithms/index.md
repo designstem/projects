@@ -8,7 +8,13 @@
 
 <big><big><f-next-button title="START" /></big></big>
 
-<button v-on:click="send('goto',14)">HOPP</button>
+<br /> <br />
+
+<button v-for="(s, i) in range(0, 23, 1)" v-on:click="send('goto', i)">{{ i }}</button>
+
+<!-- <f-buttons set="slideIndex" :buttons="range(0, 23, 1)" v-on:click="send('goto', get('slideIndex') )" /> -->
+
+
 
 </div>
 
@@ -90,15 +96,17 @@ By following the steps of cutting and folding you were performing a so called <b
 
 
 
-<div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh;">
+<div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh; text-align:center;">
 
 # <big>an Algorithm</big>
 
-#### in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).
+### in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).
+
+<br />
 
 Or to put it simple:
 
-#### <mark>an algorithm is a set of certain steps needed to solve a problem</mark> 
+### <mark>an algorithm is a set of certain steps needed to solve a problem</mark> 
   
 <br /><br />
 
@@ -188,14 +196,15 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 
 
 
-
+| 1 1 2
+| 1 1 2
 
 # Computer generated algorithms
 
 
 Cooking, folding a t-shirt, building a wall. These activities consist of relatively simple instructions (i.e. ‘algorithms’).
 
-Computers also perform algorithms. More complex algorithms may require a lot of computing power - so much that normally people cannot manage it by themselves.
+### Computers also perform algorithms. More complex algorithms may require a lot of computing power - so much that normally people cannot manage it by themselves.
  
 Computers and design go together well. This last decade has seen the emergence of a new way of designing that’s all about the conscious use of algorithms mixed with the computational power of computers. A lot of designers, artists and architects have been using computers and complex algorithms to create stunning work.
 
@@ -220,7 +229,9 @@ Computers and design go together well. This last decade has seen the emergence o
 - And not all generative design is computational.
 - Not every use of computer in design is ‘generative’
 
-## Let's take a look at some examples of design computer generated algorithms
+### Let's take a look at some examples of design computer generated algorithms
+
+<br /><br />
 
 <f-prev-button /> <f-next-button title="Next: algorithms in design" />
 
@@ -233,22 +244,25 @@ Computers and design go together well. This last decade has seen the emergence o
 
 
 
+| height: fit 
 
 | 1 1 2
+| 1 1 3
 
-![Example 1](./images/candy-hansmeyer.jpg "Example 1")
+<!-- ![Example 1](./images/candy-hansmeyer.jpg "Example 1") -->
+<f-image src="./images/candy-hansmeyer.jpg" style="background-position:50% 90%;" />
+
+<small>*Zauberflöte 2018 (available at http://www.michael-hansmeyer.com/zauberfloete, accessed on 24.01.2019)*</small>
 
 -
 
-### Grotto set design by Michael Hansmeyer
+## Grotto set design by Michael Hansmeyer
  
 Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucci
 
-> "I want to assume the mozartian potion and bring it to its maximum effect, and here in the gardens is the artificial grotto, the feathers of the fowler, the ceruse white with the artificial fly, the symmetry, palace of the 18th century.”
+~*“I want to assume the mozartian potion and bring it to its maximum effect, and here in the gardens is the artificial grotto, the feathers of the fowler, the ceruse white with the artificial fly, the symmetry, palace of the 18th century.”*~
 
-Zauberflöte 2018 (available at http://www.michael-hansmeyer.com/zauberfloete, accessed on 24.01.2019)
-
-MORE: http://www.michael-hansmeyer.com/
+*http://www.michael-hansmeyer.com/*
 
 <br /><br />
 
@@ -262,23 +276,60 @@ MORE: http://www.michael-hansmeyer.com/
 
 
 
-
+| height: fit
 
 | 1 1 2
+| 1 1 3
 
-![Example 1](./images/candy-dezeen.jpg "Example 1")
+<!-- ![Example 1](./images/candy-dezeen.jpg "Example 1") -->
+<f-image src="./images/candy-dezeen.jpg" style="background-position:30% 50%;" />
+
+<small> *Tucker 2016, (available at https://www.dezeen.com/2016/03/26/stefan-bassing-barlett-school-architecture-digital-modelling-table-no-1-2-identical-components/, accessed on 24.01.2019)* </small>
 
 -
 
-### A table by Stefan Bassing
+## A table by Stefan Bassing
 
 Designer Stefan Bassing has used digital modelling to create a pair of tables, made from repetitive elements to simplify the production process.
 
-> Once the furniture is created as a digital model, the role of the computer is at forefront. The computer numerically controls (CNC) the bending machine, converting steel rods into parts for use. Then, these would be assembled by a craftsperson, before being copper plated.
+~*“Once the furniture is created as a digital model, the role of the computer is at forefront. The computer numerically controls (CNC) the bending machine, converting steel rods into parts for use. Then, these would be assembled by a craftsperson, before being copper plated.”*~
 
-Tucker 2016, (available at https://www.dezeen.com/2016/03/26/stefan-bassing-barlett-school-architecture-digital-modelling-table-no-1-2-identical-components/, accessed on 24.01.2019)
+*https://stefanbassing.com/*
 
-MORE: https://stefanbassing.com/
+
+<br /><br />
+
+<f-prev-button /> <f-next-button title="Next" />
+
+
+---
+
+
+
+
+
+
+
+
+| height: fit
+| 1 1 2
+| 1 1 3
+
+<!-- ![Example 2](./images/candy-maclachlan.jpg "Example 2") -->
+
+<f-image src="./images/candy-maclachlan.jpg" style="background-position:50% 50%" />
+
+<small> *Entangle 2017 (available at https://lynnemaclachlan.co.uk/blogs/projects/entangle-wall-tiles, accessed on 24.01.2019)* </small>
+
+-
+
+## “Entangle” Wall Tiles by Lynne MacLachlan
+
+“Entangle” is a 3D printed wall tilling system, taking inspiration from mathematical tiling principles and quantum mechanics.
+
+~*“Based on the mathematical principles of Truchet tiles, two modular segments can be combined in a myriad of different ways. It is possible to create various wave patterns, knot designs, complex repeating patterns or fill space in an apparently random fashion. (McLachlan 2017).”*~
+ 
+https://lynnemaclachlan.co.uk/
 
 <br /><br />
 
@@ -293,53 +344,25 @@ MORE: https://stefanbassing.com/
 
 
 
-
+| height: fit
 | 1 1 2
+| 1 1 3
 
-![Example 2](./images/candy-maclachlan.jpg "Example 2")
+<!-- ![Example 2](./images/candy-sandspline.jpg "Example 2") -->
+
+<f-image src="./images/candy-sandspline.jpg" style="background-position:50% 50%" />
+
+<small> *Sand spline (available at  https://inconvergent.net/generative/sand-spline/, accessed on 24.01.2019)* </small>
 
 -
 
-### 'Entangle' Wall Tiles by Lynne MacLachlan
-
-'Entangle' is a 3D printed wall tilling system, taking inspiration from mathematical tiling principles and quantum mechanics.
-
-> Based on the mathematical principles of Truchet tiles, two modular segments can be combined in a myriad of different ways. It is possible to create various wave patterns, knot designs, complex repeating patterns or fill space in an apparently random fashion. (McLachlan 2017). 
-
-Entangle 2017 (available at https://lynnemaclachlan.co.uk/blogs/projects/entangle-wall-tiles, accessed on 24.01.2019)
-
-MORE: https://lynnemaclachlan.co.uk/
-
-<br /><br />
-
-<f-prev-button /> <f-next-button title="Next" />
-
----
-
-
-
-
-
-
-
-
-
-| 1 1 2
-
-![Example 2](./images/candy-sandspline.jpg "Example 2")
-
--
-
-### 'Sand Spline' - generative art by Anders Hoff
+## “Sand Spline” - generative art by Anders Hoff
 
 The idea is based on the concept of mathematical B-splines.
 
-> The author mentions that in mathematics a B-spline is a smooth spline that is drawn from a number of nodes (control points) without necessarily passing through the nodes themselves.
+The author mentions that in mathematics a B-spline is a smooth spline that is drawn from a number of nodes (control points) without necessarily passing through the nodes themselves.
 
-Sand spline (available at  https://inconvergent.net/generative/sand-spline/, accessed on 24.01.2019)
-
-
-MORE: https://inconvergent.net/
+https://inconvergent.net/
 
 <br /><br />
 
@@ -354,22 +377,32 @@ MORE: https://inconvergent.net/
 
 
 
-
+| height: fit
 | 1 1 2
+| 1 1 3
 
-![Example 3](./images/candy-softkill.jpg "Example 3")
+<!-- ![Example 3](./images/candy-softkill.jpg "Example 3") -->
+
+
+
+
+<f-image src="./images/candy-softkill.jpg" style="background-position:50% 50%" />
+
+<div>
+        
+  <small> *Fairs 2012 (available at https://www.dezeen.com/2012/10/23/protohouse-by-softkill-design/, accessed on 24.01.2019)* </small>
+
+</div>
 
 -
 
-### ProtoHouse by SoftKill
+## “ProtoHouse” by SoftKill
 
-Softkill Design has recently completed ProtoHouse, a prototype for the first 3D printed house, that has the same structure as human bones.
+Softkill Design has recently completed “ProtoHouse”, a prototype for the first 3D printed house, that has the same structure as human bones.
 
-> The ProtoHouse project was developed in the Architectural Association School's Design Research Lab within the 'behavioral matter' studio of Robert Stuart-Smith. The project investigated the architectural potential of the latest Selective Laser Sintering technologies, testing the boundaries of large scale 3D printing. The designing was done with computer algorithms that micro-organize the printed material itself.
+The ProtoHouse project was developed in the Architectural Association School's Design Research Lab within the 'behavioral matter' studio of Robert Stuart-Smith. The project investigated the architectural potential of the latest Selective Laser Sintering technologies, testing the boundaries of large scale 3D printing. The designing was done with computer algorithms that micro-organize the printed material itself.
 
-Fairs 2012 (available at https://www.dezeen.com/2012/10/23/protohouse-by-softkill-design/, accessed on 24.01.2019)
-
-MORE: http://protohouse.tumblr.com/
+http://protohouse.tumblr.com/
 
 <br /><br />
 
@@ -413,37 +446,41 @@ You might think that probably they use very expensive supercomputers plus knowle
 
 ## Firstly, we have to understand the very basics of how computer algorithms work. It possesses five key aspects:
 
+<f-hr style="margin:5vh 0;" />
+
 -
 
-## **1**
+# **1**
 ### FINITENESS
-The algorithm must always terminate after a finite number of steps.
+The algorithm **must always terminate** after a finite number of steps.
 
 -
 
-## **2**
+# **2**
 ### DEFINITENESS
-Each step must be precisely defined; the actions to be carried out must be rigorously and unambiguously specified for each case.
+**Each step must be precisely defined;** the actions to be carried out must be rigorously and unambiguously specified for each case.
 
 -
 
-## **3** 
+# **3** 
 ### INPUT 
-An algorithm has zero or more inputs, taken from a specified set of objects.
+An algorithm **has zero or more inputs**, taken from a specified set of objects.
 
 -
 
-## **4** 
+# **4** 
 ### OUTPUT
-An algorithm has one or more outputs, which have a specified relation to the inputs.
+An algorithm **has one or more outputs**, which have a specified relation to the inputs.
 
 -
 
-## **5** 
+# **5** 
 ### EFFECTIVENESS
-All operations to be performed must be sufficiently basic that they can be done exactly and in finite length (Knut 1997)
+**All operations** to be performed must be **sufficiently basic** that they can be done exactly and in finite length (Knut 1997)
 
 -
+
+<f-hr style="margin:5vh 0;" />
 
 <br />
 
@@ -458,30 +495,62 @@ All operations to be performed must be sufficiently basic that they can be done 
 
 
 
-
 | 1 1 1
 | 2 3 4
 | 5 5 5
 
 ## More specifically, an algorithm is composed of:
 
--
-
-## **1**
-### INPUT 
-you "feed" some parameters (variables) or data to your algorithm
+<f-hr style="margin:5vh 0;" />
 
 -
 
-## **2**
+<f-card
+  color="var(--darkergray)"
+  background="var(--lightergray)"
+  style="text-align: center;"
+>
+  
+  # **1**
+  ### INPUT 
+  you feed some parameters (variables) or data to your algorithm
+
+
+</f-card>
+
+-
+
+<f-card
+  color="var(--darkergray)"
+  background="var(--lightergray)"
+  style="text-align: center;"
+>
+
+# **2**
 ### PROCESSING 
 algorithm does the computing
 
+</f-card>
+
 -
 
-## **3**
+<f-card
+  color="var(--darkergray)"
+  background="var(--lightergray)"
+  style="text-align: center;"
+>
+
+# **3**
 ### OUTPUT
 you get a result
+
+</f-card>
+
+-
+
+<f-hr style="margin:5vh 0;" />
+
+<f-prev-button /> <f-next-button />
 
 ---
 
@@ -500,6 +569,8 @@ you get a result
 With this examples you can see how simple shapes combined and some basic operations like repeating, scaling and rotating generate a lot of complex patterns.    
 When we add important properties like colour, stroke width, transparency and so on we can alter the algorithm and have a different, much more complex output.
 
+<f-prev-button /> <f-next-button title="Go!" />
+
 ---
 
 
@@ -515,17 +586,17 @@ When we add important properties like colour, stroke width, transparency and so 
 | 1 2 2
 | 3 4 4 
  
-## Just some lines
+## **1** Just some lines
 
 -
 
-***Move the sliders*** and see what happens. Nothing too special here &ndash; our algorithm creates a grid of small lines that change when parameters change. Parameters change when you move the sliders. That's it.
+***Move the sliders*** and see what happens. Nothing too special here &ndash; our algorithm creates a grid of small lines that change when parameters change. Parameters change when you move the sliders. You should see some kind of a dashed lines pattern. That's it.
 
 
 
 -
 
-<f-slider title="Grid size" 
+<!-- <f-slider title="Grid size" 
     from="0.2"
     to="2"
     step="0.01"
@@ -538,6 +609,21 @@ When we add important properties like colour, stroke width, transparency and so 
     step="0.01"
     :value="0.01"
     v-on:value="i => set('width1', i)"
+/> -->
+
+<f-slider title="Grid size" 
+    from="0.2"
+    to="2"
+    step="0.01"
+    :value="0.6"
+    set="step1"
+/>
+<f-slider title="Line length" 
+    from="-1"
+    to="1"
+    step="0.01"
+    :value="0"
+    set="width1"
 />
 
 <br />
@@ -555,7 +641,7 @@ When we add important properties like colour, stroke width, transparency and so 
     <f-line 
       :points="[ 
         { x: 0, y: 0 }, 
-        { x: get('width1', 0.01), y: 0 }, 
+        { x: get('width1', 0), y: 0 }, 
       ]"  
       :stroke-width="3"  
     /> 
@@ -564,10 +650,20 @@ When we add important properties like colour, stroke width, transparency and so 
 
 ---
 
+
+
+
+
+
+
+
+
+
+
 | 1 2 2
 | 3 4 4
 
-## Let's add rotation
+## **2** Let's add rotation
 
 -
 
@@ -575,27 +671,26 @@ When we add important properties like colour, stroke width, transparency and so 
 
 -
 
-
 <f-slider title="Grid size" 
     from="0.2"
     to="2"
     step="0.01"
     :value="0.3"
-    v-on:value="i => set('step2', i)"
+    set="step2"
 />
 <f-slider title="Line length" 
     from="-3"
     to="3"
     step="0.01"
-    :value="0.5"
-    v-on:value="i => set('width2', i)"
+    :value="0"
+    set="width2"
 />
 <f-slider title="Rotation" 
     from="-180"
     to="180"
     step="0.1"
-    :value="0.01"
-    v-on:value="i => set('rotation2', i)"
+    :value="0"
+    set="rotation2"
 />
 
 <br />
@@ -604,17 +699,17 @@ When we add important properties like colour, stroke width, transparency and so 
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: boxes" v-if="get('step2') < 0.3 && get('width2') > 2 && get('rotation2') > 45" />
+<f-prev-button /> <f-next-button title="Next: boxes" v-if="get('step2') < 0.3 && Math.abs(get('width2')) > 2 && Math.abs(get('rotation2')) > 45" />
 
 -
 
 <f-scene  width="600" height="500">
   <f-grid-pattern :step="get('step2',0.3)">
-    <f-group :rotation="{z: get('rotation2',0.01) }"> 
+    <f-group :rotation=" get('rotation2',0) "> 
       <f-line
         :points="[ 
           { x: 0, y: 0 }, 
-          { x: get('width2', 0.01), y: 0 }, 
+          { x: get('width2', 0), y: 0 }, 
         ]"  
         :stroke-width="3"  
       /> 
@@ -622,13 +717,22 @@ When we add important properties like colour, stroke width, transparency and so 
   </f-grid-pattern>
 </f-scene>
 
-
 ---
+
+
+
+
+
+
+
+
+
+
 
 | 1 2 2
 | 3 4 4
 
-## Boxes
+## **3**  Boxes
 
 -
 
@@ -655,7 +759,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
     from="-180"
     to="180"
     step="0.1"
-    :value="0.01"
+    :value="0"
     v-on:value="i => set('rotation3', i)"
 />
 
@@ -665,30 +769,42 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: circles" v-if="get('step3') < 0.4 && get('width3') > 1 && get('rotation3') > 45" />
+<f-prev-button /> <f-next-button title="Next: circles" v-if="get('step3') < 0.4 && Math.abs(get('width3')) > 1 && Math.abs(get('rotation3')) > 45" />
 
 -
 
 <f-scene  width="600" height="500">
   <f-grid-pattern :step="get('step3',0.9)">
-    <f-group :rotation="{z: get('rotation3',0.01) }"> 
-      <f-box 
+    <f-group :rotation="get('rotation3',0)"> 
+      <!-- <f-box 
         :stroke-width="3"  
         :width = "get('width3',0.6)" 
         :height = "get('width3',0.6)" 
+      />  -->
+      <f-box 
+        :stroke-width="3"  
+        :scale="get('width3',0.6)" 
       /> 
     </f-group>
   </f-grid-pattern>
 </f-scene>
 
-
-
 ---
+
+
+
+
+
+
+
+
+
+
 
 | 1 2 2
 | 3 4 4
 
-## Circles
+## **4** Circles
 
 -
 
@@ -704,7 +820,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
     v-on:value="i => set('step4', i)"
 />
 <f-slider title="Circle size" 
-    from="0"
+    from="0.1"
     to="2"
     step="0.01"
     :value="0.2"
@@ -734,19 +850,30 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 ---
 
+
+
+
+
+
+
+
+
+
+
 | 1 2 2
 | 3 4 4
+| 5 6 7
 
-## Random
+## **5** Random
 
 -
 
-Too much control may always not to be a good thing &mdash; sometimes you get more interesting and unexpected results if you just let things to happen. Let's allow the computer just to generate ***random*** patterns &mdash; all you have to do is to ***press the button***. 
+Too much control may not always be a good thing &mdash; sometimes you get more interesting and unexpected results if you just let things to happen. Let's allow the computer to generate ***random*** patterns &mdash; all you have to do is to ***press the button***. 
 
 -
 
 <button 
-    v-on:click="set( 'randomness', random(0.55, 1, true) )" class="primary"
+    v-on:click="set( 'randomness', random( 0.5, 1, true) )" class="primary"
     style="background:var(--blue)">Random generator</button>
 
 
@@ -760,18 +887,28 @@ Too much control may always not to be a good thing &mdash; sometimes you get mor
 -
 
 <f-scene  width="600" height="500">
-  <f-grid-pattern :step="random(get('randomness')-0.5, get('randomness')+0.5, true)">
+  <f-grid-pattern :step="random(get('randomness')-0.3, get('randomness')+0.5, true)">
     <f-group> 
       <f-circle 
           :stroke-width="3"  
-          :r = "random(get('randomness')-0.5, get('randomness')+1, true)" 
-        /> 
+          :r = "0.02 + random( get('randomness')-0.4, get('randomness')+1, true)" 
+        />  
     </f-group>
   </f-grid-pattern>
 </f-scene>
 
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 | 1 1
 | 2 3
@@ -781,11 +918,10 @@ Too much control may always not to be a good thing &mdash; sometimes you get mor
 
 -
 
-These were some very simple examples of what a basic repeating combined with some scaling and/or rotating can generate from most simple black and white geometric objects.  
+With this examples you can see how simple shapes combined and some basic operations like repeating, scaling and rotating generate a lot of
+complex patterns.
 
--
-
-But this is just a beginning, we didn't even touch other important properties like ***color***, ***stroke width***, ***transparency***, ***animation*** and so on.
+When we add important properties like colour, stroke width, transparency and so on we can alter the algorithm and have a different output.
 
 -
 
@@ -795,17 +931,26 @@ But this is just a beginning, we didn't even touch other important properties li
 
 ---
 
-## Now as you have the information, you will become an Algorist.  
+
+
+
+
+
+
+
+
+
+
+## Are you ready to become an Algorist yourself?
  
-Let's get back to paper and scissors we started with
+Your final task is to create an algorithm for the ‘hardware’ that you started this scenario with: paper and scissors!
 
 -
 
-1. Take the folded paper 
-2. Try to mention the steps that are used to get the folded form 
-3. Add your own steps by cutting and/or folding the paper. Be creative, take risks :) 
-4. Describe your steps, to create an algorithm 
-5. Have fun (:
+1. Create a 5-step algorithm
+2. Define and enumerate the steps
+3. Have fun (:
+4. Discuss what is your algorithm and how it can be improved
 
 
 ---

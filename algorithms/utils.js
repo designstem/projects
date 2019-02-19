@@ -1,0 +1,1 @@
+export const addLocal = (a, b) => a+b;
