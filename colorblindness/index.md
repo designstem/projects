@@ -7,7 +7,7 @@
 
 <br />
 
-<f-next-button title="Let's start" /> <button v-on:click="send('goto', 22)">HOPP!</button>
+<f-next-button title="Let's start" /> <button v-on:click="send('goto', 24)">HOPP!</button>
 
 <!-- <button v-on:click="set('index',3)" >HOPP!</button> -->
 
@@ -724,20 +724,43 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 ---
 
 
-    Do we need a RYB wheel instead RGB? 
+RYB wheel
 
 <f-scene width="300" height="300" grid>
+  <f-group :rotation="-195">
   <f-arc
-    v-for="(a,j) in range(0,360,360 / 12)"
-    :key="j"
-    :fill="hsl(a,100,50)"
+    v-for="(c,i) in colorscale('yellow','blue', 6)" 
+    :key="c+i"
+    :fill="c"
     stroke
-    :start-angle="(a+180) - 75"
-    :end-angle="((a+180) + (360 / 12)) - 75"
+    :start-angle="(360 / 12 * i)"
+    :end-angle="(360 / 12 * (i+1))"
     :r="2"
     :inner-radius="1"
   />
+  <f-arc
+    v-for="(c,i) in colorscale('blue','red', 6)" 
+    :key="c+i"
+    :fill="c"
+    stroke
+    :start-angle="(360 / 12 * i + 120)"
+    :end-angle="(360 / 12 * (i+1) + 120)"
+    :r="2"
+    :inner-radius="1"
+  />
+  <f-arc
+    v-for="(c,i) in colorscale('red','yellow', 5)" 
+    :key="c+i"
+    :fill="c"
+    stroke
+    :start-angle="(360 / 12 * i + 120 + 120)"
+    :end-angle="(360 / 12 * (i+1) + 120 + 120)"
+    :r="2"
+    :inner-radius="1"
+  />
+  </f-group>
 </f-scene>
+
 
 ---
 
