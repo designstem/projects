@@ -9,7 +9,7 @@
 
 <f-next-button title="Let's start" /> <button v-on:click="send('goto', 24)">HOPP!</button>
 
-<!-- <button v-on:click="set('index',3)" >HOPP!</button> -->
+<button v-on:click="send('goto',5)" >HOPP!</button>
 
 <br /><br />
 
