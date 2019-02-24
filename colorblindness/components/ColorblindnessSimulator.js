@@ -1,4 +1,4 @@
-import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { Vue, components, utils, Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 for (const name in components) {
   Vue.component(name, components[name])
@@ -12,6 +12,7 @@ export default{
       default: 'images/testtable.png'
     }
   },
+  mixins: [Css],
   data() {
     return {
       blindnessTypes: {
@@ -135,38 +136,100 @@ export default{
   
   template: `
   <div>
+       
+    <div style="display:flex; justify-content:space-between; align-items:stretch;">
+      <div class="cbs-card">
+        <h5>Protanomaly / Protanopia:<br />weak / missing</h5>
+        <h2 style="color:var(--red);">RED</h2>
+        Simulate:
+        <br />
+        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Protanomaly'], 'Protanomaly')">Weak red (Protanomaly)</button>
+        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Protanopia'], 'Protanopia')">Missing red (Protanopia)</button>
+</div>
 
-    <div v-for="(type, key) in blindnessTypes">
 
+      <div class="cbs-card">
+        <h5>Deuteranomaly / Deuteranopia:<br />weak / missing</h5>
+        <h2 style="color:var(--green);">GREEN</h2>
+        Simulate:
+        <br />
+        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Deuteranomaly'], 'Deuteranomaly')">Weak green (Deuteranomaly)</button>
+        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Deuteranopia'], 'Deuteranopia')">Missing green (Deuteranopia)</button>
+</div>
+
+      <div class="cbs-card">
+        <h5>Tritanomaly / Tritanopia:<br />weak / missing</h5>
+        <h2 style="color:var(--blue);">BLUE</h2>
+        Simulate:
+        <br />
+        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Tritanomaly'], 'Tritanomaly')">Weak blue (Tritanomaly)</button>
+        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Tritanopia'], 'Tritanopia')">Missing blue (Tritanopia)</button>
+</div>
     </div>
 
 
-    <div class="buttons" style="justify-content:center; padding-top:3vmin;">  
-      <div 
-        v-for="(type, key) in blindnessTypes"
-        v-on:click="changeColors(blindnessTypes[key], key)"
-        class="button_tertiary" 
-        >
-        {{key}}
-      </div>
-    </div>
-
-    <div style="
-      display:flex; justify-content:space-around; padding: 3vmin 0; 
-    ">
-      <div style="flex:0 1 100vw;">
-        <h4>Normal vision</h4>
-        <canvas id="canvas-input" :width="imgWidth" :height="imgHeight" style="width:100%;height:auto;"></canvas>
-      </div>
-      <div style="flex:0 1 100vw;">
-        <h4>Color blindness: {{activeType}}</h4>
+    <div class="cbs">
+     <div class="cbs-canvas">
+        <p class="cbs-info">Color blindness: {{activeType}}</p>
         <canvas id="canvas-output" :width="imgWidth" :height="imgHeight" style="width:100%;height:auto;"></canvas>
       </div>
+      <div class="cbs-canvas">
+        <p class="cbs-info">Normal vision</p>
+        <canvas id="canvas-input" :width="imgWidth" :height="imgHeight" style="width:100%;height:auto;"></canvas>
+      </div>
     </div>
 
-    <f-hr />
-    
-    <input type="file" @change="changeImage" class="button_secondary">
+    <f-inline>
+      <h4>Try it with your own file: </h4><input type="file" @change="changeImage">
+    </f-inline>
+    <f-hr  style="margin: 5vh 0 7vh 0;" />
   </div>
+  `,
+  css: `
+    .cbs {
+      display:flex; justify-content:space-around; padding: 3vmin 0;
+      flex-wrap: wrap; 
+    }
+    .cbs-card {
+      text-align: center;
+      height: 100%;
+    }
+    .cbs-card h5 {
+      margin:0;
+    }
+    .cbs-card button {
+      margin-bottom:0.3vh;
+    }
+    .cbs-canvas {
+      flex:0 1 100vw; position: relative;
+    }
+    .cbs-info {
+      position: absolute; 
+      top:0; 
+      left:0; 
+      background:var(--darkestgray); 
+      color:var(--white); 
+      padding:var(--base);
+    }
+
+    input[type=file]::-webkit-file-upload-button {
+      padding: calc(var(--base) * 1.5) calc(var(--base) * 2);
+      display: inline-flex;
+      border-radius: var(--border-radius);
+      color: var(--white);
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      background: var(--purple);
+    }
+
+    @media (min-width: 1024px) { 
+      .cbs {
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        justify-content:space-around; 
+        padding: 3vmin 0; 
+      }
+    }
   `
 };

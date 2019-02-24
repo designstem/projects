@@ -99,9 +99,15 @@ image
 # EXPLORE
 
 1. Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.
-2. Open your pictures in Photoshop or go to the following website and upload your files there: https://www.color-blindness.com/coblis-color-blindness-simulator/
+2. Compare your pictures in our colorblindness simulator
+<!-- 2. Open your pictures in Photoshop or go to the following website and upload your files there: https://www.color-blindness.com/coblis-color-blindness-simulator/ -->
 
-<ColorblindnessSimulator :imageUrl="'images/before.jpg'" />
+<f-next-button title="To the simulator" />
+
+---
+
+<!-- <ColorblindnessSimulator :imageUrl="'images/before.jpg'" /> -->
+<ColorblindnessSimulator  />
 
 
 3. Simulate color vision deficiency by applying different filters for protanopia (red blindness) and deuteranopia (green blindness).
