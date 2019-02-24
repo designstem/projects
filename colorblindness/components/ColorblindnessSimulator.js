@@ -1,4 +1,4 @@
-import { Vue, components, utils, Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { Vue, components, Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 for (const name in components) {
   Vue.component(name, components[name])
@@ -27,6 +27,7 @@ export default{
         'Achromatomaly':  [0.618,0.320,0.062,0,0,  0.163,0.775,0.062,0,0,  0.163,0.320,0.516,0,    0,0,0,0,1,  0,0,0,0,0]
       },
       activeType: "Choose one above",
+      imgStatus : "Loading image",
       imgWidth : 320,
       imgHeight: 240,
       inputImage: {
@@ -44,7 +45,7 @@ export default{
     }
   },
   methods: {
-    ...utils,
+    //...utils,
     initImage(img){
 
       let scale = 1;
@@ -75,6 +76,8 @@ export default{
       setTimeout(function(){
         _this.inputImage.ctx.putImageData(_this.inputImage.imageData, 0, 0);
         _this.outputImage.ctx.putImageData(_this.outputImage.imageData, 0, 0);
+        _this.imgStatus = "idle";
+        _this.activeType = "Choose from above...";
         //console.log("timeout");
       }, 500)
         
@@ -83,6 +86,8 @@ export default{
       const reader = new FileReader();
       const _this = this;
       reader.onload = function(event){
+        _this.activeType = "";
+        _this.imgStatus = "Loading image..";
         const img = new Image();
         img.src = event.target.result;
         img.onload = function(){
@@ -103,8 +108,9 @@ export default{
         this.outputImage.data[i+2] = newCol.B
         this.outputImage.data[i+3] = newCol.A;
       }
-      this.inputImage.ctx.putImageData(this.inputImage.imageData, 0, 0);
+      //this.inputImage.ctx.putImageData(this.inputImage.imageData, 0, 0);
       this.outputImage.ctx.putImageData(this.outputImage.imageData, 0, 0);
+      this.imgStatus = "idle";
     },
     ColorMatrix(o,m) { 
       let r=((o.R*m[0])+(o.G*m[1])+(o.B*m[2])+(o.A*m[3])+m[4]);
@@ -130,6 +136,7 @@ export default{
     const _this = this;
     img.onload = function() {
       //console.log("mounted image loaded");
+      _this.imgStatus = "Preparing image";
       _this.initImage(this);
     };
   },
@@ -143,9 +150,9 @@ export default{
         <h2 style="color:var(--red);">RED</h2>
         Simulate:
         <br />
-        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Protanomaly'], 'Protanomaly')">Weak red (Protanomaly)</button>
-        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Protanopia'], 'Protanopia')">Missing red (Protanopia)</button>
-</div>
+        <button class="button tertiary" v-on:click="imgStatus='Working...'; changeColors(blindnessTypes['Protanomaly'], 'Protanomaly')">Weak red (Protanomaly)</button>
+        <button class="button tertiary" v-on:click="imgStatus='Working...'; changeColors(blindnessTypes['Protanopia'], 'Protanopia')">Missing red (Protanopia)</button>
+      </div>
 
 
       <div class="cbs-card">
@@ -153,29 +160,31 @@ export default{
         <h2 style="color:var(--green);">GREEN</h2>
         Simulate:
         <br />
-        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Deuteranomaly'], 'Deuteranomaly')">Weak green (Deuteranomaly)</button>
-        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Deuteranopia'], 'Deuteranopia')">Missing green (Deuteranopia)</button>
-</div>
+        <button class="button tertiary" v-on:click="imgStatus='Working...'; changeColors(blindnessTypes['Deuteranomaly'], 'Deuteranomaly')">Weak green (Deuteranomaly)</button>
+        <button class="button tertiary" v-on:click="imgStatus='Working...'; changeColors(blindnessTypes['Deuteranopia'], 'Deuteranopia')">Missing green (Deuteranopia)</button>
+      </div>
 
       <div class="cbs-card">
         <h5>Tritanomaly / Tritanopia:<br />weak / missing</h5>
         <h2 style="color:var(--blue);">BLUE</h2>
         Simulate:
         <br />
-        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Tritanomaly'], 'Tritanomaly')">Weak blue (Tritanomaly)</button>
-        <button class="button tertiary" v-on:click="changeColors(blindnessTypes['Tritanopia'], 'Tritanopia')">Missing blue (Tritanopia)</button>
-</div>
+        <button class="button tertiary" v-on:click="imgStatus='Working...'; changeColors(blindnessTypes['Tritanomaly'], 'Tritanomaly')">Weak blue (Tritanomaly)</button>
+        <button class="button tertiary" v-on:click="imgStatus='Working...'; changeColors(blindnessTypes['Tritanopia'], 'Tritanopia')">Missing blue (Tritanopia)</button>
+      </div>
     </div>
 
 
     <div class="cbs">
      <div class="cbs-canvas">
-        <p class="cbs-info">Color blindness: {{activeType}}</p>
         <canvas id="canvas-output" :width="imgWidth" :height="imgHeight" style="width:100%;height:auto;"></canvas>
+        <p class="cbs-canvas__info">Color blindness: {{activeType}}</p>
+        <p class="cbs-canvas__status" v-if="imgStatus != 'idle' ">{{ imgStatus }}</p>
       </div>
       <div class="cbs-canvas">
-        <p class="cbs-info">Normal vision</p>
         <canvas id="canvas-input" :width="imgWidth" :height="imgHeight" style="width:100%;height:auto;"></canvas>
+        <p class="cbs-canvas__info">Normal vision</p>
+        <p class="cbs-canvas__status" v-if="imgStatus != 'idle' ">{{ imgStatus }}</p>
       </div>
     </div>
 
@@ -203,9 +212,17 @@ export default{
     .cbs-canvas {
       flex:0 1 100vw; position: relative;
     }
-    .cbs-info {
+    .cbs-canvas__info {
       position: absolute; 
       top:0; 
+      left:0; 
+      background:var(--darkestgray); 
+      color:var(--white); 
+      padding:var(--base);
+    }
+    .cbs-canvas__status {
+      position: absolute; 
+      top:50%; 
       left:0; 
       background:var(--darkestgray); 
       color:var(--white); 
