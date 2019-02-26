@@ -42,7 +42,7 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
   **For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
 
-  <button @click="()=>{set('revealX', 360); set('revealLocked', false);}" style="margin-bottom:var(--base);">Open next step</button>
+  <button @click="()=>{set('revealX', 360); set('revealLocked', false);}" style="margin-bottom:var(--base);">Open a bit more</button>
   <button @click="()=>{set('revealX', 800); set('revealLocked', false);}">Show me everything</button>
 
 
