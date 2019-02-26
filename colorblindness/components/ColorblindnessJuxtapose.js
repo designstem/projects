@@ -15,6 +15,11 @@ export default{
         type: Number,
         required: false,
         default: 0
+    },
+    locked: {
+        type: Boolean,
+        required: false,
+        default: false
     }
   },
   mixins: [Css],
@@ -95,9 +100,13 @@ export default{
         if(!this.mouseDown){
             return;
         } else {
-            let rect = this.juxt.canvas.getBoundingClientRect();
-            let xPos = (e.clientX-rect.left)*(this.imgWidth/rect.width);
-            this.drawData2Canvas(xPos);
+            if(this.locked){
+                return;
+            } else {
+                let rect = this.juxt.canvas.getBoundingClientRect();
+                let xPos = (e.clientX-rect.left)*(this.imgWidth/rect.width);
+                this.drawData2Canvas(xPos);
+            }
         }
     },
     drawData2Canvas(xPos){
@@ -176,13 +185,13 @@ export default{
   },
   watch: { 
     revealed: function(newVal) { 
-            this.drawData2Canvas(newVal);
-        }
-    },
+        this.drawData2Canvas(newVal);
+    }
+},
   
   template: `
   <div>
-    <div class="cb-juxt">
+    <div class="cb-juxt" :style="[locked ? {'cursor':'default'} : {'cursor':'col-resize'}]">
         <canvas id="juxt-canvas" :width="imgWidth" :height="imgHeight" 
             @mousedown="mouseDown = true"
             @mousemove="mouseDrag"
@@ -203,7 +212,7 @@ export default{
       padding: 3vmin 0; 
       position: relative;
     }
-
+    
     input[type=file]::-webkit-file-upload-button {
       padding: calc(var(--base) * 1.5) calc(var(--base) * 2);
       display: inline-flex;
