@@ -7,3 +7,5 @@
 - hsb <> hsl / hsl <> hsb
 - slides navi / chapters?
 - how could students compare their palettes? tool that fetches color values from google sheets?
+
+- assign margins to components similar to position? mostly top and bottom and for f-next-button and f-hr

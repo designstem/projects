@@ -1,4 +1,9 @@
 
+| height: fit
+| theme: yellow
+
+<div>
+
 # <big>Color Vision Deficiency & <br />Accessibility</big>
 
 ### How to design information for people whose color perception is impaired.
@@ -9,11 +14,7 @@
 
 <f-next-button title="Let's start" /> 
 
-<button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button>
-
 <br /><br />
-
-
 
 <details>
   <summary>Teachers note</summary>
@@ -21,10 +22,13 @@
     The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
 </details>
 <br />
+<button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button>
+
+</div>
 
 ---
 
-| 1 1 2 2 2
+| 1 1 2 2 
 
 This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
 
@@ -40,28 +44,35 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
   You see that tomato that appeared green is really red! What about the others? Do you want to make another guess?
 
-  **For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
+  > **For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
 
   <button @click="()=>{set('revealX', 360); set('revealLocked', false);}" style="margin-bottom:var(--base);">Open a bit more</button>
-  <button @click="()=>{set('revealX', 800); set('revealLocked', false);}">Show me everything</button>
+  <button @click="()=>{set('revealX', 750); set('revealLocked', false);}">Show me everything</button>
 
 
 </div>
 
 <div v-if="get('revealX') > 300">
 
-  ``BTW, you can also drag the black line between images``
+  > BTW, you can also drag the black line between images to compare them
 
   If you picked the right tomatoes, congratulations! 
 
-  ***Think of further everyday situations*** where it is needed to be able to tell the right colors.
+  #### Think of further everyday situations where it is needed to be able to tell the right colors.
 
   <br />
 
-  <f-next-button title="Next slide" />
+  <f-next-button title="Next: go outside!" />
 
 </div>
 
+<details style="margin-top:8vh;">
+  
+  <summary>Teachers note</summary>
+  
+  ### Aim
+  Students  explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.
+</details>
 
 
 -
@@ -71,23 +82,28 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 <!-- <img src="images/tomatoes-protanopia.jpg" alt="Protanopia" v-on:click="send('next')" style="cursor:pointer;" /> -->
 
 
-<details>
-  <summary>Teachers note</summary>
-  ### Aim
-  Students  explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.
-</details>
-
-
 ---
 
+| height: fit
+| 1 2 2
+
+
+<div>
 
 # EXPLORE
 
 Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
 
-image
+<br /><br />
 
 <f-next-button />
+
+</div>
+
+
+-
+
+<f-image src="images/explore-go-outside.jpg" />
 
 ---
 
@@ -101,12 +117,18 @@ image
 
 ---
 
-<!-- <ColorblindnessSimulator :imageUrl="'images/before.jpg'" /> -->
-<ColorblindnessSimulator  />
-
-
-3. Simulate color vision deficiency by applying different filters for protanopia (red blindness) and deuteranopia (green blindness).
+3. Simulate color vision deficiency by applying different filters.
 4. Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?
+
+``` Should we provide some more information about different color blindness types?  ```
+
+<f-hr style="margin: 4vh 0" />
+
+<!-- <ColorblindnessSimulator :imageUrl="'images/before.jpg'" /> -->
+<ColorblindnessSimulator :imageUrl="'images/crayons.jpg'" />
+
+
+
 
 <f-next-button />
 
@@ -119,20 +141,13 @@ Now that you found out about possible weak spots in the color design of objects 
 6. Phrase a hypothesis on how this problem could be solved.
 7. Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?
 
-<f-next-button />
+<f-next-button style="margin:4vh 0" />
 
 ---
 
-<details>
-  <summary>Teachers notes</summary>
-  Aim. In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
-  This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
-  The students need to do all of the working stations.
-</details>
+# EXPLAIN / learning stations
 
-## EXPLAIN | learning stations
-
-Find out about the following topics through working on the provided learning stations. This should enable you to optimize the accessibility of information in your design products.
+##### Find out about the following topics through working on the provided learning stations.<br />This should enable you to optimize the accessibility of information in your design products.
 
 - Accessibility
 - The eye
@@ -143,7 +158,17 @@ Find out about the following topics through working on the provided learning sta
 - Design rules for creating color palettes
 - Summary station
 
-<f-next-button />
+<f-next-button style="margin:4vh 0" title="Accessibility" />
+
+<details>
+  <summary>Teachers notes</summary>
+  
+  ### Aim. 
+  In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
+  This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
+  The students need to do all of the working stations.
+</details>
+
 
 ---
 

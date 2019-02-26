@@ -198,6 +198,8 @@ export default{
             @mouseup="mouseDown = false"
             style="width:100%; height: auto;"
             ></canvas>
+        <!-- <p class="cbs-canvas__info">{{activeType}}</p> -->
+        <p class="cbs-canvas__status" v-if="imgStatus != false">{{ imgStatus }}</p>
     </div>
 
 
@@ -213,6 +215,24 @@ export default{
       position: relative;
     }
     
+    .cbs-canvas__info {
+        position: absolute; 
+        top:100px; 
+        left:0; 
+        z-index: 99;
+        background:var(--darkestgray); 
+        color:var(--white); 
+        padding:var(--base);
+      }
+      .cbs-canvas__status {
+        position: absolute; 
+        top:50%; 
+        left:0; 
+        z-index: 100;
+        background:var(--darkestgray); 
+        color:var(--white); 
+        padding:var(--base);
+      }
     input[type=file]::-webkit-file-upload-button {
       padding: calc(var(--base) * 1.5) calc(var(--base) * 2);
       display: inline-flex;
