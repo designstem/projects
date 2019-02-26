@@ -7,9 +7,9 @@
 
 <br />
 
-<f-next-button title="Let's start" /> <button v-on:click="send('goto', 24)">HOPP!</button>
+<f-next-button title="Let's start" /> 
 
-<button v-on:click="send('goto',5)" >HOPP!</button>
+<button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button>
 
 <br /><br />
 
@@ -24,41 +24,52 @@
 
 ---
 
-| 1 2
+| 1 1 2 2 2
 
 This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
 
 ### Guess which of the tomatoes and how many are already ripe, red and therefore edible.
 
-**<mark>Click on the picture</mark> to check if you guessed correct.**
+<!-- **<mark>Click on the picture</mark> to check if you guessed correct.** -->
+<f-hr style="margin-bottom:3vh;" />
+
+
+<button @click="set('revealX', 180)" v-if="get('revealX') < 100">Check your answer</button>
+
+<div v-if="get('revealX') == 180">
+
+  You see that tomato that appeared green is really red! What about the others? Do you want to make another guess?
+
+  **For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
+
+  <button @click="set('revealX', 360)" style="margin-bottom:var(--base);">Open next step</button>
+  <button @click="set('revealX', 800)">Show me everything</button>
+
+
+</div>
+
+<div v-if="get('revealX') > 300">
+
+  ``BTW, you can also drag the black line between images``
+
+  If you picked the right tomatoes, congratulations! 
+
+  ***Think of further everyday situations*** where it is needed to be able to tell the right colors.
+
+  <br />
+
+  <f-next-button title="Next slide" />
+
+</div>
+
+
 
 -
 
-<img src="images/tomatoes-protanopia.jpg" alt="Protanopia" v-on:click="send('next')" style="cursor:pointer;" />
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" :revealed="get('revealX',-3)" />
 
----
+<!-- <img src="images/tomatoes-protanopia.jpg" alt="Protanopia" v-on:click="send('next')" style="cursor:pointer;" /> -->
 
-| 1 2
-| 3 3
-
-## Did you guess right?
-### How did you choose the tomato?
-
-If you picked the right tomatoes, congratulations! 
-
-**For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
-
-***Think of further everyday situations*** where it is needed to be able to tell the right colors.
-
-<br />
-
-<f-next-button />
-
--
-
-<img src="images/tomatoes-normal.jpg" alt="Normal vision" />
-
--
 
 <details>
   <summary>Teachers note</summary>
@@ -69,26 +80,6 @@ If you picked the right tomatoes, congratulations!
 
 ---
 
-| 1 2
-
-``Here is the juxtapose image comparer``
-``It sort of repeats the previous steps. Do we even need it here?``
-
-**Drag the slider** to compare normal and colorblind visions to see the difference
-
-<br />
-
-<f-next-button />
-
--
-
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" />
-
-
-
-<!-- <ImageCompare :before="'images/tomatoes-normal.jpg'" :after="'images/tomatoes-protanopia.jpg'" :padding ="{left:0, right:0}" :hideAfter="false"></ImageCompare> -->
-
----
 
 # EXPLORE
 

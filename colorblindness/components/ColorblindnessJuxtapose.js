@@ -10,6 +10,11 @@ export default{
       type: String,
       required: false,
       default: 'images/testtable.png'
+    },
+    revealed: {
+        type: Number,
+        required: false,
+        default: 0
     }
   },
   mixins: [Css],
@@ -26,12 +31,16 @@ export default{
         'Achromatopsia':  [0.299,0.587,0.114,0,0,  0.299,0.587,0.114,0,0,  0.299,0.587,0.114,0,0,  0,0,0,1,0,  0,0,0,0,1],
         'Achromatomaly':  [0.618,0.320,0.062,0,0,  0.163,0.775,0.062,0,0,  0.163,0.320,0.516,0,    0,0,0,0,1,  0,0,0,0,0]
       },
+      
       activeType: "Choose one above",
       imgStatus : false,
+
       imgWidth : 600,
       imgHeight: 600,
       mouseDown: false,
-      juxtPos: 50,
+      
+      juxtPos: 0,
+
       juxt: {
          canvas: null,
          ctx: null 
@@ -73,9 +82,12 @@ export default{
       this.changeColors(this.blindnessTypes['Protanopia'], 'Protanopia');
       //console.log("scale " + scale + " img.width " + img.width + " imgWidth " + this.imgWidth);
 
+      
+
       const _this = this;
       setTimeout(function(){
-        _this.juxt.ctx.putImageData(_this.cbImage.imageData, 0, 0);
+        //_this.juxt.ctx.putImageData(_this.cbImage.imageData, 0, 0);
+        _this.drawData2Canvas(_this.revealed);
       }, 500)
         
     },
@@ -148,6 +160,8 @@ export default{
     }
   },
   mounted() {
+    this.juxtPos = this.revealed;
+    
     this.juxt.canvas = document.getElementById('juxt-canvas');
     this.juxt.ctx = this.juxt.canvas.getContext('2d');
     let img = new Image();
@@ -160,10 +174,14 @@ export default{
       _this.initImage(this);
     };
   },
+  watch: { 
+    revealed: function(newVal) { 
+            this.drawData2Canvas(newVal);
+        }
+    },
   
   template: `
   <div>
-    
     <div class="cb-juxt">
         <canvas id="juxt-canvas" :width="imgWidth" :height="imgHeight" 
             @mousedown="mouseDown = true"
@@ -175,7 +193,7 @@ export default{
 
 
     <f-inline>
-      <h4>Try it with your own file: </h4><input type="file" @change="changeImage">
+      <h5>Try it with your own image: </h5><input type="file" @change="changeImage">
     </f-inline>
     <f-hr  style="margin: 5vh 0 7vh 0;" />
   </div>
