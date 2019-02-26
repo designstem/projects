@@ -1,8 +1,9 @@
-import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+  // import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { Vue } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-for (const name in components) {
-  Vue.component(name, components[name])
-}
+// for (const name in components) {
+//   Vue.component(name, components[name])
+// }
 
 export default{
   props: {
@@ -55,7 +56,7 @@ export default{
     }
   },
   methods: {
-    ...utils,
+    //...utils,
     onResize() {
       this.width = this.$el.clientWidth;
       this.height = this.$el.clientHeight;
@@ -72,14 +73,12 @@ export default{
     },
     onMouseUp(event) {
       event.preventDefault();
-
       this.isDragging = false;
     },
     onMouseMove(event, isDragging = this.isDragging) {
       if (isDragging && this.allowNextFrame) {
         this.allowNextFrame = false;
         this.pageX = event.pageX || event.targetTouches[0].pageX || event.originalEvent.targetTouches[0].pageX;
-
         window.requestAnimationFrame(this.updatePos);
       }
 		},

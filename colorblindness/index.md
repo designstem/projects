@@ -82,7 +82,11 @@ If you picked the right tomatoes, congratulations!
 
 -
 
-<ImageCompare :before="'images/tomatoes-normal.jpg'" :after="'images/tomatoes-protanopia.jpg'" :padding ="{left:0, right:0}" :hideAfter="false"></ImageCompare>
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" />
+
+
+
+<!-- <ImageCompare :before="'images/tomatoes-normal.jpg'" :after="'images/tomatoes-protanopia.jpg'" :padding ="{left:0, right:0}" :hideAfter="false"></ImageCompare> -->
 
 ---
 
