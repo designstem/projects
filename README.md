@@ -8,6 +8,8 @@ https://github.com/designstem/scenarios
 
 ### [colorblindness](./colorblindness)
 
+### [dyes](./dyes)
+
 ### [easing](./easing)
 
 ### [example](./example)
