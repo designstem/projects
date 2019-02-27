@@ -1,46 +1,12 @@
-# DesignSTEM Scenarios
+<h1><big><big>DesignSTEM</big></big></h1>
 
-https://github.com/designstem/scenarios
+<p><big><big>Science, Technology, Engineering and Math for future designers and craftsmen. Learn STEM topics in fun, visual and interactive way. Our learning scenarios cover wide range of topics / mediums and are powered by our web framework <a href="https://designstem.github.io/fachwerk">designstem.github.io/fachwerk</a></big></big></p>
 
-### [algorithms](./algorithms)
+<br>
 
-### [colorbits](./colorbits)
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
 
-### [colorblindness](./colorblindness)
-
-### [dyes](./dyes)
-
-### [easing](./easing)
-
-### [example](./example)
-
-### [frequency_camera](./frequency_camera)
-
-### [hexagons](./hexagons)
-
-### [metamerism](./metamerism)
-
-### [patterns](./patterns)
-
-### [plastics](./plastics)
-
-### [pottery](./pottery)
-
-### [rgblamp_mixer](./rgblamp_mixer)
-
-### [rgblamp_timeline](./rgblamp_timeline)
-
-### [rgblamp_vision](./rgblamp_vision)
-
-### [spirals](./spirals)
-
-### [sunshade](./sunshade)
-
-### [tattoo](./tattoo)
-
-### [tattoo_icons](./tattoo_icons)
-
-### [triangles_corners](./triangles_corners)
-
-### [triangles_explorer](./triangles_explorer)
-
+<f-card v-for="s in ['algorithms','colorbits','colorblindness','dyes','easing','example','frequency','frequency_camera','hexagons','metamerism','patterns','plastics','pottery','rgblamp_mixer','rgblamp_timeline','rgblamp_vision','spirals','sunshade','tattoo','tattoo_icons','triangles_explorer','triangles_corners']">
+  <a :href="'./' + s"><h4>{{ s }}</h4></a>
+  <br><br><br><br><br>
+</f-card>
