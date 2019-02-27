@@ -16,11 +16,15 @@
 
 <br /><br />
 
-<details>
-  <summary>Teachers note</summary>
-    <h4>Aim</h4>
-    The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
-</details>
+
+<f-notes>
+
+#### Aim
+
+The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
+
+</f-notes>
+
 <br />
 <button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button>
 
