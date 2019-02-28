@@ -16,11 +16,17 @@
 
 <br /><br />
 
-<details>
-  <summary>Teachers note</summary>
-    <h4>Aim</h4>
-    The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
-</details>
+
+<f-notes title="Bazooka">
+
+<summary>Teachers note</summary>
+
+#### Aim
+
+The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
+
+</f-notes>
+
 <br />
 <button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button>
 
@@ -66,13 +72,13 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 </div>
 
-<details style="margin-top:8vh;">
+<f-notes>
   
   <summary>Teachers note</summary>
   
-  ### Aim
+  #### Aim
   Students  explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.
-</details>
+</f-notes>
 
 
 -
@@ -160,14 +166,14 @@ Now that you found out about possible weak spots in the color design of objects 
 
 <f-next-button style="margin:4vh 0" title="Accessibility" />
 
-<details>
+<f-notes>
   <summary>Teachers notes</summary>
   
   ### Aim. 
   In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
   This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
   The students need to do all of the working stations.
-</details>
+</f-notes>
 
 
 ---
