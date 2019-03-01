@@ -16,56 +16,54 @@
 
 <center>
 <f-scene>
-  <f-grid-pattern scale="0.8">
-    <f-circle slot-scope="data" :r="any([0.1,0.2,0.3])" />
-  </f-grid-pattern>
+  <component :is="any(['f-circle-pattern','f-grid-pattern'])" scale="0.7" count="12">
+    <component :is="any(['f-circle','f-box','f-hexagon'])" slot-scope="data" :r="any([0.1,0.3,0.6])" />
+  </component>
 </f-scene>
 </center>
 <br>
 
 ### Algorithms
 
-Algorithms are all around us!
+...
 </f-card>
 </a>
 
 -
 
-<a href="./algorithms">
+<a href="./colorblindness">
 <f-card style="font-weight: normal;">
 
 <center>
 <f-scene>
-  <f-grid-pattern scale="0.8">
-    <f-circle slot-scope="data" :r="any([0.1,0.2,0.3])" />
-  </f-grid-pattern>
+  <component :is="any(['f-circle-pattern','f-grid-pattern'])" scale="0.7" count="12">    <component :is="any(['f-circle','f-box','f-hexagon'])" slot-scope="data" :r="any([0.1,0.3,0.6])" />
+  </component>
 </f-scene>
 </center>
 <br>
 
-### Color blindness
+### Colorblindness
 
-Algorithms are all around us!
+...
 </f-card>
 </a>
 
 -
 
-<a href="./algorithms">
+<a href="./frequency">
 <f-card style="font-weight: normal;">
 
 <center>
 <f-scene>
-  <f-grid-pattern scale="0.8">
-    <f-circle slot-scope="data" :r="any([0.1,0.2,0.3])" />
-  </f-grid-pattern>
+  <component :is="any(['f-circle-pattern','f-grid-pattern'])" scale="0.7" count="12">    <component :is="any(['f-circle','f-box','f-hexagon'])" slot-scope="data" :r="any([0.1,0.3,0.6])" />
+  </component>
 </f-scene>
 </center>
 <br>
 
-### Smart Tattoo
+### Frequency
 
-Algorithms are all around us!
+...
 </f-card>
 </a>
 
@@ -76,7 +74,18 @@ Algorithms are all around us!
 
 <div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
 
-<f-card v-for="s in ['algorithms','colorbits','colorblindness','dyes','easing','example','frequency','frequency_camera','hexagons','metamerism','patterns','plastics','pottery','rgblamp_mixer','rgblamp_timeline','rgblamp_vision','spirals','sunshade','tattoo','tattoo_icons','triangles_explorer','triangles_corners']">
-  <a :href="'./' + s"><h4>{{ s }}</h4></a>
-  <br><br><br><br><br>
-</f-card>
+<div v-for="s in ['algorithms','colorbits','colorblindness','dyes','easing','example','frequency','frequency_camera','hexagons','metamerism','patterns','plastics','pottery','rgblamp_mixer','rgblamp_timeline','rgblamp_vision','spirals','sunshade','tattoo','tattoo_icons','triangles_explorer','triangles_corners']">
+  <a :href="'./' + s">
+  <f-card>
+    <center>
+    <f-scene width="200" height="200">
+      <component :is="any(['f-grid-pattern','f-hex-pattern','f-spin-pattern','f-circle-pattern','f-hex-pattern'])" scale="0.7" count="12">
+        <component :is="any(['f-circle','f-box','f-hexagon'])" slot-scope="data" :r="any([0.1,0.3,0.6])" />
+      </component>
+    </f-scene>
+    </center>
+    <h4>{{ s }}</h4>
+    ...
+  </f-card>
+  </a>
+</div>
