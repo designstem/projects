@@ -74,7 +74,7 @@
 
 <div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
 
-<div v-for="s in ['algorithms','colorbits','colorblindness','dyes','easing','example','frequency','frequency_camera','hexagons','metamerism','patterns','plastics','pottery','rgblamp_mixer','rgblamp_timeline','rgblamp_vision','spirals','sunshade','tattoo','tattoo_icons','triangles_explorer','triangles_corners']">
+<div v-for="s in ['colorbits','dyes','easing','example','frequency_camera','hexagons','metamerism','patterns','plastics','pottery','rgblamp_mixer','rgblamp_timeline','rgblamp_vision','spirals','sunshade','tattoo','tattoo_icons','triangles_explorer','triangles_corners']">
   <a :href="'./' + s">
   <f-card>
     <center>
