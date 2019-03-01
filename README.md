@@ -1,6 +1,6 @@
-<h1><big><big>DesignSTEM</big></big></h1>
+# <big><big>DesignSTEM</big></big>
 
-<p><big><big>Science, Technology, Engineering and Math for future designers and craftsmen. Learn STEM topics in fun, visual and interactive way. Our learning scenarios cover wide range of topics / mediums and are powered by our web framework <a href="https://designstem.github.io/fachwerk">designstem.github.io/fachwerk</a></big></big></p>
+<big><big>Science, Technology, Engineering and Math for future designers and craftsmen. Learn STEM topics in fun, visual and interactive way. Our learning scenarios are powered by <a href="https://designstem.github.io/fachwerk">designstem.github.io/fachwerk</a> framework, development progress can be tracked here <a href="https://designstem.github.io/homepage">designstem.github.io/homepage</a></big></big>
 
 <br>
 
