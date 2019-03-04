@@ -1,6 +1,6 @@
 | theme: light
 
-# <big><big>DesignSTEM</big></big>
+# <big>DesignSTEM (work in progress, Kristjan will present later)</big>
 
 <big><big>Science, Technology, Engineering and Math for future designers and craftsmen. Learn STEM topics in fun, visual and interactive way. Our learning scenarios are powered by <a href="https://designstem.github.io/fachwerk"> designstem.github.io/fachwerk</a> framework, development progress can be tracked here <a href="https://designstem.github.io/homepage"> designstem.github.io/homepage</a></big></big>
 
