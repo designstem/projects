@@ -58,7 +58,6 @@ Quickrun <b>{{ s.d1 }}min</b>&nbsp;&nbsp;&nbsp;Complete <b>{{ s.d2 }}m</b>
 <div class="grid" style="--cols: 1fr 1fr 1fr 1fr 1fr">
 
 <div v-for="(s,i) in ['From bits to channels to colors','Color blindness and design','Message with matural dyes','Easing and stop motion', 'Bees and packaging','Magic of Metamerism','Patterns in three dimensions','Swim in Plastic soup','(Do not) blow up you pottery oven','Build your own RGB lamp','Throw the dice down the stairs','Design with pyramds','From geometry to organic objects']" :key="i">
-<a :href="'./' + s.url">
 <f-card style="border: 0px solid var(--primary); font-weight: normal;" :color="color('yellow')">
 <center style="height: 150px"><f-flower2 /></center>
 
@@ -76,7 +75,7 @@ Quickrun <b>{{ s.d1 }}min</b>&nbsp;&nbsp;&nbsp;Complete <b>{{ s.d2 }}m</b>
 </f-inline>
 
 </f-card>
-</a>
+
 </div>
 
 </div>
