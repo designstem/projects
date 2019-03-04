@@ -1,11 +1,13 @@
 import { utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import wall from "./components/Wall.js";
 
 export default {
   methods: { ...utils,
     lightProps: function () {
-      return "type: point; castShadow: true; decay: 0.45; color: "+utils.rgb([0,255][this.r],[0,255][this.g],[0,255][this.b])+")"
+      return "type: point; castShadow: true; decay: 0.45; intensity: .8; color: "+utils.rgb([0,255][this.r],[0,255][this.g],[0,255][this.b])+")"
     }
   },
+  components: {wall},
   data: () => ({
     r: 1,
     g: 1,
@@ -14,7 +16,7 @@ export default {
   }),
   template: `
     <a-scene shadow="type: pcfsoft" debug >'
-      <a-camera position="0 3 0">
+      <a-camera position="0 3 -5">
         <a-cursor
           fuse="true" 
           fuse-timeout="700"
@@ -22,8 +24,9 @@ export default {
           raycaster="objects: .clickable"
         />
       </a-camera>
+      <a-entity light="type: ambient; color: #fff; intensity: .2"></a-entity>
       <a-entity :light=lightProps() position="0 8 0" scale="5 5 5"></a-entity>
-      <a-entity position="0 6 -13.9" scale="4 6 1">
+      <a-entity position="0 5 -13.9" scale="4 6 1">
         <a-image src="./images/thedress.png" material="shader: standard" />
         <a-box position="-0.55 0" material="color: whitesmoke" geometry="depth: 0.2; width: 0.1" shadow=""></a-box>
         <a-box position="0.55 0" material="color: whitesmoke" geometry="depth: 0.2; width: 0.1" shadow=""></a-box>
@@ -32,16 +35,16 @@ export default {
         <a-box position="0.8 -0.51 -0.07" material="color: #ffffff" geometry="depth: 0.1; width: .25; height: .1" shadow=""></a-box>
       </a-entity>
       <a-entity position="0 0 -4" shadow="receive: true">
-        <a-plane rotation="0 90 0" position="-10 4 0" scale="20 15 15"></a-plane>
-          <a-box rotation="0 90 0" position="-10 4 0" material="color: whitesmoke" geometry="depth: 1; width: 0.1" shadow=""></a-box>
-        <a-plane rotation="0 -90 0" position="10 4 0" scale="20 15 15"></a-plane>
-        <a-plane position="0 4 -10" scale="20 15 15"></a-plane>
-        <a-circle id="ground" radius="100" rotation="-90 0 0"></a-circle>
-        <a-circle id="ceil" radius="100" position="0 11 0" rotation="90 0 0"></a-circle>
+        <wall position="-10 5 0" rotation="0 90 0" scale="20 10 15" />
+        <wall position="10 5 0" rotation="0 -90 0" scale="20 10 15" />
+        <wall position="-0 5 -10" scale="20 10 15" />
+        <wall position="-0 5 10" rotation="0 180 0" scale="20 10 15" />
+        <a-plane rotation="-90 0 0" geometry="height:  20;  width:  20"></a-plane>
+        <a-plane rotation="90 0 0" position="0 10 0"  geometry="height:  20;  width:  20"></a-plane>
       </a-entity>
       
     <a-entity
-      position="0 0.8 -2"
+      position="0 0.8 -8"
       rotation="-20 0 0"
     >
 
