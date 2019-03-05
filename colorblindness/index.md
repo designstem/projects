@@ -25,7 +25,7 @@ The students’ awareness should be raised for the problems people with color vi
 </f-notes>
 
 <br />
-<button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button> <button v-on:click="send('goto',12)" >Jump to working slide</button>
+<button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> <button v-on:click="send('goto','3properties')" >3 properties</button> <button v-on:click="send('goto',12)" >Jump to working slide</button>
 
 
 
@@ -129,6 +129,8 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 
 
 ---
+
+| id: cbSimulator
 
 Simulate color vision deficiency by applying different filters.
 
@@ -456,7 +458,7 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 ---
 
-
+| id: 3properties
 
 ##### EXPLAIN
 # Three properties of color
@@ -467,45 +469,58 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 <div class="cell" style="grid-area: a1 / a1 / a1 / a1;"> -->
 
-When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are **hue, saturation and brightness**.
-All three of these properties change the effect the color has. Have a look at the following example:
+<f-inline>
+<div>
 
-<center style="margin:var(--base6) 0;">
+When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are **hue, saturation and brightness**.
+All three of these properties change the effect the color has. 
+
+#### Have a look at these 2 greens.
+
+Both are greens, but they have different effects. Most people wouldn’t call the right color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.
+
+</div>
+<div>
 
 <div>
-  <f-scene width="400" height="200"> 
+  <f-scene width="600" height="200"> 
     <f-box 
-      width="4"
+      width="6"
       height="4"
       stroke="none"
-      x="-2"
+      x="-3"
       :fill="hsl(112,63,36)"
     />
     <f-box 
-      width="4"
+      width="6"
       height="4"
-      x="2"
+      x="3"
       stroke="none"
       :fill="hsl(123,100,51)"
     />
   </f-scene>
 </div>
 
-</center>
-
+</div>
 <!-- </section> -->
+</f-inline>
 
 
-Both are greens, but they have different effects. Most people wouldn’t call the right color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.
 
 <!-- <f-next-button /> -->
 
 
-<f-hr />
+<f-hr style="margin:var(--base10) 0" />
 
 
+<f-inline>
+
+<div>
 
 Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?
+
+</div>
+<div>
 
 <div>
   <f-scene width="600" height="200">
@@ -533,18 +548,22 @@ Have a look at the following colors and find adjectives to describe them. For wh
   </f-scene>
 </div>
 
-<!-- hsl(252,100,50) - hsl(92,100,50) - hsl(22,100,50) -->
+</div>
+</f-inline>
 
 
-<f-hr />
+<f-hr style="margin:var(--base10) 0" />
 
-### 
+## Brightness
 
-Now the brightness of each color is reduced to 50%, which means less light for the same hue.
+<f-inline>
+<div>
+
+Here the brightness of each color is reduced to 50%, which means less light for the same hue.
 Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue. 
 
-
-
+</div>
+<div>
 
 <div style="margin:4vh 0;">
   <f-scene width="600" height="200">
@@ -553,7 +572,7 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
       height="4"
       x="-4"
       stroke="none"
-      :fill="hsl(340,100,35)"
+      :fill="hsb2hsl(340,100,67)"
     />
     <f-box 
       width="4"
@@ -561,14 +580,14 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
       x="-4"
       y="-1"
       stroke="none"
-      :fill="hsb2hsl( 340, 100, get('brightness',50) )"
+      :fill="hsb2hsl( 340, 100, get('brightness',34) )"
     />
     <f-box 
       width="4"
       height="4"
       stroke="none"
       x="0"
-      :fill="hsl(134, 100, 35)"
+      :fill="hsb2hsl(134, 100, 67)"
     />
     <f-box 
       width="4"
@@ -576,14 +595,14 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
       stroke="none"
       x="0"
       y="-1"
-      :fill="hsb2hsl( 134, 100, get('brightness',50) )"
+      :fill="hsb2hsl( 134, 100, get('brightness',34) )"
     />
     <f-box 
       width="4"
       height="4"
       x="4"
       stroke="none"
-      :fill="hsl(247, 100, 35)"
+      :fill="hsb2hsl(247, 100, 67)"
     />
     <f-box 
       width="4"
@@ -591,81 +610,91 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
       x="4"
       y="-1"
       stroke="none"
-      :fill="hsb2hsl( 247, 100, get('brightness',50) )"
+      :fill="hsb2hsl( 247, 100, get('brightness',34) )"
     />
   </f-scene>
 </div>
 
 <f-slider set="brightness" from="0" to="100" title="Change brightness" />
 
-<!-- <button v-if="get('brightnessDynamic', false) == false" v-on:click="set('brightnessDynamic', true)" >Dynamic value</button> -->
-
-<!-- <f-slider v-if="get('brightnessDynamic', false) == true" set="brightness" from="0" to="100" title="Change brightness" /> -->
-
+</div>
+</f-inline>
 
 
 
 
 
----
+<f-hr style="margin:var(--base10) 0" />
 
-# EXPLAIN | Three properties of color 3
 
-Next, the saturation of the colors is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
+
+
+## Saturation
+
+
+<f-inline>
+<div>
+
+Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
 Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
 
-    Should the color model be mentioned here? (HSB?)
-    Because with HSL you get same values when you increase lightness to 90%, not reducing saturation
-
+</div>
 <div>
+
+<div style="margin:4vh 0;">
   <f-scene width="600" height="200">
     <f-box 
       width="4"
       height="4"
-      stroke="none"
       x="-4"
-      :fill="hsl(252,100,50)"
+      stroke="none"
+      :fill="hsb2hsl(340,100,67)"
     />
     <f-box 
       width="4"
       height="2"
-      stroke="none"
       x="-4"
-      y="1"
-      :fill="hsl(252,100,90)"
+      y="-1"
+      stroke="none"
+      :fill="hsb2hsl( 340, get('saturation',50), 67 )"
     />
     <f-box 
       width="4"
       height="4"
-      x="0"
       stroke="none"
-      :fill="hsl(92,100,50)"
+      x="0"
+      :fill="hsb2hsl(134, 100, 67)"
     />
     <f-box 
       width="4"
       height="2"
-      x="0"
-      y="1"
       stroke="none"
-      :fill="hsl(92,100,90)"
+      x="0"
+      y="-1"
+      :fill="hsb2hsl( 134, get('saturation',50), 67 )"
     />
     <f-box 
       width="4"
       height="4"
       x="4"
       stroke="none"
-      :fill="hsl(22,100,50)"
+      :fill="hsb2hsl(247, 100, 67)"
     />
     <f-box 
       width="4"
       height="2"
       x="4"
-      y="1"
+      y="-1"
       stroke="none"
-      :fill="hsl(22,100,90)"
+      :fill="hsb2hsl( 247, get('saturation',50), 67 )"
     />
   </f-scene>
 </div>
+
+<f-slider set="saturation" from="0" to="100" title="Change saturation" />
+
+</div>
+</f-inline>
 
 <f-next-button />
 
@@ -684,7 +713,7 @@ Choose a color which could be used as primary color for the following products:
 
 If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
 
-    NOTE: Right now this uses HSL color model, if needed, will be changed to HSB
+    NOTE: Right now this uses HSL color model, will be changed to HSB on wednesday, like previous slides
 
 -
 
