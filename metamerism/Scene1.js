@@ -16,6 +16,11 @@ export default {
   }),
   template: `
     <a-scene shadow="type: pcfsoft" debug >'
+      <a-assets>
+        <a-asset-item id="liist" src="./models/liist.obj"></a-asset-item>
+        <img id="floor" src="./images/floor/WoodFlooring044_COL_3K.jpg">
+      </a-assets>
+
       <a-camera position="0 3 -5">
         <a-cursor
           fuse="true" 
@@ -32,14 +37,18 @@ export default {
         <a-box position="0.55 0" material="color: whitesmoke" geometry="depth: 0.2; width: 0.1" shadow=""></a-box>
         <a-box position="0 -0.531" material="color: whitesmoke" geometry="depth: 0.2; width: 1.2; height: 0.06" shadow=""></a-box>
         <a-box position="0 0.531" material="color: whitesmoke" geometry="depth: 0.2; width: 1.2; height: 0.06" shadow=""></a-box>
-        <a-box position="0.8 -0.51 -0.07" material="color: #ffffff" geometry="depth: 0.1; width: .25; height: .1" shadow=""></a-box>
+        <a-entity position="0.8 -0.51 -0.07">
+          <a-text scale="1 0.7 1" position="-0.1 0.020 0.06" text="width: 0.4; color: #202020; lineHeight: 60;" value="Hello, World! \n next line"></a-text>
+          
+          <a-box material="color: #ffffff" geometry="depth: 0.1; width: .25; height: .1" shadow=""></a-box>        
+        </a-entity>
       </a-entity>
       <a-entity position="0 0 -4" shadow="receive: true">
         <wall position="-10 5 0" rotation="0 90 0" scale="20 10 15" />
         <wall position="10 5 0" rotation="0 -90 0" scale="20 10 15" />
         <wall position="-0 5 -10" scale="20 10 15" />
         <wall position="-0 5 10" rotation="0 180 0" scale="20 10 15" />
-        <a-plane rotation="-90 0 0" geometry="height:  20;  width:  20"></a-plane>
+        <a-plane src="#floor" repeat="4 4" rotation="-90 0 0" geometry="height:  20;  width:  20"></a-plane>
         <a-plane rotation="90 0 0" position="0 10 0"  geometry="height:  20;  width:  20"></a-plane>
       </a-entity>
       

@@ -6,9 +6,9 @@ export default {
   },
   template: `
   <a-entity :position="position" :rotation="rotation" :scale="scale">
-    <a-box position="0 0.49 0" geometry="depth:  0.01;  height:  0.03" shadow=""></a-box>
+    <a-entity position="-0.496 0.48 0.7" rotation="180 0 0" scale="0.01 0.02 0.7" obj-model="obj: ./models/liist.obj"></a-entity>
     <a-plane></a-plane>
-    <a-box position="0 -0.49 0" geometry="depth:  0.02;  height:  0.03" shadow=""></a-box>
+    <a-entity position="-0.49 -0.48 0.7" scale="0.01 0.02 0.7" obj-model="obj: ./models/liist.obj"></a-entity>
   </a-entity>
   `
 };
