@@ -1,5 +1,7 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
+import * as localutils from "./utils.js";
+
 //import ImageCompare from "./components/ImageCompare.js";
 import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
 import ColorblindnessJuxtapose from "./components/ColorblindnessJuxtapose.js";
@@ -15,7 +17,8 @@ fachwerk({
   theme: "light",
   editor: "hide",
   pager: true,
-  home: false
+  home: true,
+  utils:  localutils 
 });
 
 // import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
