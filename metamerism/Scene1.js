@@ -70,6 +70,8 @@ export default {
       <a-entity position="9 0 6">
       <Lamp :light="lightColor" :lampHeight=2.8 position="0 0 -0.9" :lampScale="1.5" />
       <Lamp :light="lightColor" :lampHeight=2.8 position="0.2 0 -2" :lampScale=".6" />
+      <Lamp :light="lightColor" :lampHeight=4.4 position="-7 0 -2" :lampScale="1.2" />
+      <Lamp :light="lightColor" :lampHeight=2.4 position="-9 0 -2.2" :lampScale="1.2" />
       </a-entity>
       <a-entity position="-8 0 5">
       <Lamp :light="lightColor" :lampHeight=2.8 position="-0.05 0.1 -1.6" :lampScale=".3"/>
@@ -81,6 +83,9 @@ export default {
           <f-aframe-button @click.native="lightColor = cold" title="cold" position="-1.5 0 0" />
           <f-aframe-button @click.native="lightColor = neutral" title="neutral" position="0 0 0" />
           <f-aframe-button @click.native="lightColor = warm" title="warm" position="1.5 0 0" />
+          <f-aframe-button @click.native="lightColor = 'red'" title="red" position="-1.3 .6 -1" />
+          <f-aframe-button @click.native="lightColor = 'green'" title="green" position="0 .6 -1" />
+          <f-aframe-button @click.native="lightColor = 'blue'" title="blue" position="1.3 .6 -1" />
         </a-entity>
       </Table>
       <a-entity class="info-board" rotation="0 -80 0" position="3 0 -5">

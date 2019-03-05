@@ -34,7 +34,7 @@ export default {
     }
   },
   template: `
-  <a-entity class="table" :position="position" :rotation="rotation" :scale="scaleTheTable()" shadow="cast: false">
+  <a-entity class="table" :position="position" :rotation="rotation" :scale="scaleTheTable()" shadow="">
     <a-entity class="table-stuff" :position=posTheTop() rotation="0 90 0"><slot></slot></a-entity>
     <a-box class="table-top" height=".1" :depth="tableLength" :width="tableWidth" :position=posTheTop()></a-box>
     <a-box v-for="leg in posTheLegs().length" :height=scaleTheLegs() class="table-leg" depth=".1" width=".1" :position=posTheLegs()[leg-1]></a-box>
