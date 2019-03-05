@@ -1,4 +1,72 @@
 
+```
+Temporarily here
+
+```
+
+<f-scene width="300" height="300" grid>
+  <f-group :rotation="45" :scale="1">
+    <f-arc
+      v-for="(c,i) in range(0, 359, 360/12)" 
+      :key="c+i"
+      :fill="hsl( hue2ai(c) )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    />
+    <!-- <f-arc
+      v-for="(c,i) in aihues()" 
+      :key="c+i"
+      :fill="hsl( c )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    /> -->
+    <f-circle 
+      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
+      :x="polarx(p*(360/12)+(360/24), 1.5)"
+      :y="polary(p*(360/12)+(360/24), 1.5)"
+      r="0.2"
+      fill="white"  
+    />
+  </f-group>
+</f-scene>
+
+<f-artboard width="600" height="200">
+  <f-box v-for="(c, i) in [0,5,7]" 
+    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
+    :position="{x: 100 + i*200, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   />
+   <!-- <f-box v-for="(c, i) in [0, 5, 7 ]" 
+    :fill="hsl( aihues()[ get('activeColor',0 )] + c*30 )"
+    :position="{x: 100 + i*200, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   /> -->
+</f-artboard>
+
+<button v-on:click="set('activeColor', 6)">KLIKK</button>
+
+<f-slider set="activeColor" from="0" to="11" integer />
+
+<h1 >
+<!-- {{ ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (4*(360/12)))) % 360 }}  -->
+
+</h1>
+
+---
+
+
 | height: fit
 | theme: yellow
 
@@ -28,9 +96,16 @@ The students’ awareness should be raised for the problems people with color vi
 </f-notes>
 
 <br />
-<button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button>
+<button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button> <button v-on:click="send('goto',12)" >Jump to working file</button>
 
 </div>
+
+
+
+
+
+
+
 
 ---
 
@@ -90,6 +165,14 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 <!-- <img src="images/tomatoes-protanopia.jpg" alt="Protanopia" v-on:click="send('next')" style="cursor:pointer;" /> -->
 
 
+
+
+
+
+
+
+
+
 ---
 
 | height: fit
@@ -113,6 +196,13 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 
 <f-image src="images/explore-go-outside.jpg" />
 
+
+
+
+
+
+
+
 ---
 
 # EXPLORE
@@ -122,6 +212,13 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 <!-- 2. Open your pictures in Photoshop or go to the following website and upload your files there: https://www.color-blindness.com/coblis-color-blindness-simulator/ -->
 
 <f-next-button title="To the simulator" />
+
+
+
+
+
+
+
 
 ---
 
@@ -136,9 +233,14 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 <ColorblindnessSimulator :imageUrl="'images/crayons.jpg'" />
 
 
-
-
 <f-next-button />
+
+
+
+
+
+
+
 
 ---
 
@@ -150,6 +252,13 @@ Now that you found out about possible weak spots in the color design of objects 
 7. Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?
 
 <f-next-button style="margin:4vh 0" />
+
+
+
+
+
+
+
 
 ---
 
@@ -180,6 +289,11 @@ Now that you found out about possible weak spots in the color design of objects 
 </f-notes>
 
 
+
+
+
+
+
 ---
 
 # EXPLAIN | Accessibility
@@ -195,11 +309,25 @@ image
 
 <f-next-button />
 
+
+
+
+
+
+
+
 ---
 
 # EXPLAIN | The eye
 
 <f-next-button />
+
+
+
+
+
+
+
 
 ---
 
@@ -218,6 +346,13 @@ In the Additive Color System, red, green and blue are the primary colors. When a
 
 <f-next-button />
 
+
+
+
+
+
+
+
 ---
 
 # EXPLAIN | Color mixing 2
@@ -231,6 +366,13 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 1. The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.
 
 <f-next-button />
+
+
+
+
+
+
+
 
 ---
 
@@ -340,6 +482,13 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 <f-next-button />
 
+
+
+
+
+
+
+
 ---
 
 # EXPLAIN | Three properties of color 1
@@ -348,7 +497,7 @@ When talking about the effect of color, most people only think of its shade. Des
 All three of these properties change the effect the color has. Have a look at the following example:
 
 <div>
-  <f-scene width="400" height="200">
+  <f-scene width="400" height="200"> 
     <f-box 
       width="4"
       height="4"
@@ -370,6 +519,13 @@ All three of these properties change the effect the color has. Have a look at th
 Both are greens, but they have different effects. Most people wouldn’t call the right color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.
 
 <f-next-button />
+
+
+
+
+
+
+
 
 ---
 
@@ -402,6 +558,13 @@ Have a look at the following colors and find adjectives to describe them. For wh
     />
   </f-scene>
 </div>
+
+
+
+
+
+
+
 
 ---
 
@@ -462,6 +625,13 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 </div>
 
 <f-next-button />
+
+
+
+
+
+
+
 
 ---
 
@@ -757,10 +927,74 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 <f-next-button />
 
+
+
+
+
+---
+
+
+
+
+
+
+
+# Color wheel (in progress)
+
+
+<f-scene width="300" height="300" grid>
+  <f-group :rotation="45" :scale="1">
+    <f-arc
+      v-for="(c,i) in range(0,360,360/12)" 
+      :key="c+i"
+      :fill="hsl( hue2ai(c) )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click="colorWheelArcClick(i)"
+    />
+    <f-circle 
+      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
+      v-on:click="colorWheelArcClick(i)"
+      :x="polarx(p*(360/12)+(360/24), 1.5)"
+      :y="polary(p*(360/12)+(360/24), 1.5)"
+      r="0.2"
+      fill="white"  
+    />
+    <f-box fill="black"  v-on:click.native="colorWheelArcClick(5)" />
+    <rect width="1" height="1" fill="red" v-on:click="colorWheelArcClick(5)" />
+  </f-group>
+</f-scene>
+
+<button v-on:click="colorWheelArcClick(6)">KLIKK</button>
+
+<f-slider set="activeColor" from="0" to="11" integer />
+
+# {{ get('activeColor', 0) }}
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
 ---
 
 
 RYB wheel
+
+
+
+
 
 <f-scene width="300" height="300" grid>
   <f-group :rotation="-195">
@@ -796,6 +1030,16 @@ RYB wheel
   />
   </f-group>
 </f-scene>
+
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -847,7 +1091,14 @@ Commented out temporarily because of heavy CPU usage
   </f-group3>
   </f-group3>
   </f-rotation3>
-</f-scene3> -->
+</f-scene3>-->
+
+
+
+
+
+
+
 
 ---
 
@@ -909,6 +1160,16 @@ Commented out temporarily because of heavy CPU usage
   </f-scene>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
 
 ---
 
