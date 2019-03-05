@@ -9,7 +9,7 @@ export default {
         type: "point",
         castShadow: true,
         decay: 0.45,
-        intensity: .3,
+        intensity: .8,
         color: this.lightColor
       })
     }
@@ -22,7 +22,7 @@ export default {
     lightColor: ''
   }),
   template: `
-    <a-scene shadow="type: pcfsoft" debug >'
+    <a-scene shadow="type: basic" debug >'
       <a-assets>
         <a-asset-item id="liist" src="./models/liist.obj"></a-asset-item>
         <img id="floor" src="./images/floor/floor_1k.jpg">
@@ -60,8 +60,8 @@ export default {
       </a-entity>
       <lamp :light="lightColor" :lampHeight=2 position="9 0 -13" />
       <lamp :light="lightColor" :lampHeight=2 position="-9 0 -13" />
-      <a-entity :light=lightProps() position="8 5 -13" scale="5 5 5"></a-entity>
-      <a-entity :light=lightProps() position="-8 5 -13" scale="5 5 5"></a-entity>
+      <!--<a-entity :light=lightProps() position="8 5 -13" scale="5 5 5"></a-entity>-->
+      <!--<a-entity :light=lightProps() position="-8 5 -13" scale="5 5 5"></a-entity>-->
     <a-entity
       position="0 0.8 -8"
       rotation="-20 0 0"
