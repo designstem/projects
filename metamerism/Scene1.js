@@ -18,7 +18,7 @@ export default {
     <a-scene shadow="type: pcfsoft" debug >'
       <a-assets>
         <a-asset-item id="liist" src="./models/liist.obj"></a-asset-item>
-        <img id="floor" src="./images/floor/WoodFlooring044_COL_3K.jpg">
+        <img id="floor" src="./images/floor/floor_1k.jpg">
       </a-assets>
 
       <a-camera position="0 3 -5">
