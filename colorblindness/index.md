@@ -1,76 +1,8 @@
 
-```
-Temporarily here
-
-```
-
-<f-scene width="300" height="300" grid>
-  <f-group :rotation="45" :scale="1">
-    <f-arc
-      v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="c+i"
-      :fill="hsl( hue2ai(c) )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    />
-    <!-- <f-arc
-      v-for="(c,i) in aihues()" 
-      :key="c+i"
-      :fill="hsl( c )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    /> -->
-    <f-circle 
-      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
-      :x="polarx(p*(360/12)+(360/24), 1.5)"
-      :y="polary(p*(360/12)+(360/24), 1.5)"
-      r="0.2"
-      fill="white"  
-    />
-  </f-group>
-</f-scene>
-
-<f-artboard width="600" height="200">
-  <f-box v-for="(c, i) in [0,5,7]" 
-    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
-    :position="{x: 100 + i*200, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   />
-   <!-- <f-box v-for="(c, i) in [0, 5, 7 ]" 
-    :fill="hsl( aihues()[ get('activeColor',0 )] + c*30 )"
-    :position="{x: 100 + i*200, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   /> -->
-</f-artboard>
-
-<button v-on:click="set('activeColor', 6)">KLIKK</button>
-
-<f-slider set="activeColor" from="0" to="11" integer />
-
-<h1 >
-<!-- {{ ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (4*(360/12)))) % 360 }}  -->
-
-</h1>
-
----
-
 
 | height: fit
 | theme: yellow
 
-<div>
 
 # <big>Color Vision Deficiency & <br />Accessibility</big>
 
@@ -78,11 +10,8 @@ Temporarily here
 
 (Richard Spencer, Kristin Kreer)
 
-<br />
 
-<f-next-button title="Let's start" style="margin-top: 20vh;" /> 
-
-<br /><br />
+<f-next-button title="Let's start" style="margin: var(--base10) 0;" /> 
 
 
 <f-notes>
@@ -96,9 +25,8 @@ The students’ awareness should be raised for the problems people with color vi
 </f-notes>
 
 <br />
-<button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button> <button v-on:click="send('goto',12)" >Jump to working file</button>
+<button v-on:click="send('goto', 4)">CB SIMULATOR</button> <button v-on:click="send('goto',11)" >Mixing</button> <button v-on:click="send('goto',12)" >Jump to working slide</button>
 
-</div>
 
 
 
@@ -171,25 +99,24 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 
 
-
-
 ---
 
 | height: fit
 | 1 2 2
 
 
-<div>
 
-# EXPLORE
+
+##### EXPLORE
+# Photo safari
 
 Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
 
+**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
+
 <br /><br />
 
-<f-next-button />
-
-</div>
+<f-next-button title="Analyze your photos" />
 
 
 -
@@ -201,33 +128,14 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 
 
 
-
-
 ---
 
-# EXPLORE
+Simulate color vision deficiency by applying different filters.
 
-1. Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.
-2. Compare your pictures in our colorblindness simulator
-<!-- 2. Open your pictures in Photoshop or go to the following website and upload your files there: https://www.color-blindness.com/coblis-color-blindness-simulator/ -->
-
-<f-next-button title="To the simulator" />
+Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?
 
 
-
-
-
-
-
-
----
-
-3. Simulate color vision deficiency by applying different filters.
-4. Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?
-
-``` Should we provide some more information about different color blindness types?  ```
-
-<f-hr style="margin: 4vh 0" />
+<f-hr style="margin: var(--base6) 0" />
 
 <!-- <ColorblindnessSimulator :imageUrl="'images/before.jpg'" /> -->
 <ColorblindnessSimulator :imageUrl="'images/crayons.jpg'" />
@@ -244,14 +152,14 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 
 ---
 
-# EXPLORE
+##### EXPLORE
 
 Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:
 5. Find out what the main problem is regarding the color scheme.
 6. Phrase a hypothesis on how this problem could be solved.
 7. Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?
 
-<f-next-button style="margin:4vh 0" />
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -262,9 +170,12 @@ Now that you found out about possible weak spots in the color design of objects 
 
 ---
 
-# EXPLAIN / learning stations
+##### EXPLAIN
+# Learning stations
 
-##### Find out about the following topics through working on the provided learning stations.<br />This should enable you to optimize the accessibility of information in your design products.
+#### Find out about the following topics through working on the provided learning stations.<br />This should enable you to optimize the accessibility of information in your design products.
+
+
 
 - Accessibility
 - The eye
@@ -296,7 +207,8 @@ Now that you found out about possible weak spots in the color design of objects 
 
 ---
 
-# EXPLAIN | Accessibility
+##### EXPLAIN 
+# Accessibility
 
 ### Tasks
 
@@ -318,7 +230,8 @@ image
 
 ---
 
-# EXPLAIN | The eye
+##### EXPLAIN 
+# The eye
 
 <f-next-button />
 
@@ -332,30 +245,63 @@ image
 ---
 
 
-# EXPLAIN | Color mixing 1
+##### EXPLAIN 
+# Color mixing
 
 Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color. Strong light produces intense color.
 
-Our eyes have three color receptor cells or cones: red, green and blue. As a result, all incoming light is reduced to these three colors. All perceived colors are generated by a mixture of these three colors.
+**Our eyes have three color receptor cells or cones: red, green and blue. As a result, all incoming light is reduced to these three colors. All perceived colors are generated by a mixture of these three colors.**
 
-In the Additive Color System, red, green and blue are the primary colors. When all three colors overlap, white light is produced
+<f-next-button title="Additive Color"  style="margin: var(--base6) 0" />
+
+---
+
+##### EXPLAIN 
+# Color mixing
+### Additive Color System
+
+
+<f-inline style="align-items: flex-start;">
+
+<div>
+
+**In the Additive Color System, red, green and blue are the primary colors.** When all three colors overlap, white light is produced.
 
 1. Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?
 2. Find out where the RGB Model is used? 
 3. Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.
 
-<f-next-button />
+<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
+
+</div>
+<div>
+  <f-scene style=" background:black; border-radius: var(--border-radius);" width="400" height="400">
+    <f-circle 
+      v-for="(c,i) in ['red', 'lime', 'blue']" 
+      :fill="c" 
+      :x="polarx( i*(360/3), 0.7 )"  
+      :y="polary( i*(360/3), 0.7 )" 
+      stroke="none"
+      style="mix-blend-mode: screen; "
+    />
+  </f-scene>
+</div>
 
 
-
-
-
+</f-inline>
 
 
 
 ---
 
-# EXPLAIN | Color mixing 2
+##### EXPLAIN 
+# Color mixing
+### Subtractive Color System
+
+
+<f-inline style="align-items: flex-start;">
+
+<div>
 
 All objects have physical properties that cause them to absorb some color waves and reflect others. Color, when applied to a surface such as canvas or paper, has the same characteristic.
 
@@ -365,7 +311,25 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 1. The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.
 
-<f-next-button />
+<f-next-button style="margin:var(--base6) 0"  />
+
+</div>
+<div>
+  <f-scene style=" border-radius: var(--border-radius);" width="400" height="400">
+    <f-circle 
+      v-for="(c,i) in ['magenta', 'cyan', 'yellow']" 
+      :fill="c" 
+      :x="polarx( i*(360/3), 0.7 )"  
+      :y="polary( i*(360/3), 0.7 )" 
+      stroke="none"
+      style="mix-blend-mode: multiply; "
+    />
+  </f-scene>
+</div>
+
+
+</f-inline>
+
 
 
 
@@ -381,7 +345,8 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 | 3 4 5
 | 6 6 6
 
-# EXPLAIN | Color mixing 3
+##### EXPLAIN 
+# Color mixing 3
 
 -
 
@@ -491,10 +456,21 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 ---
 
-# EXPLAIN | Three properties of color 1
 
-When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are hue, saturation and brightness.
+
+##### EXPLAIN
+# Three properties of color
+### Hue, saturation, brightness
+
+
+<!-- <section style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: none; grid-template-areas: 'a1 a2'; overflow: hidden; grid-gap: var(--content-gap); padding: 0;">
+
+<div class="cell" style="grid-area: a1 / a1 / a1 / a1;"> -->
+
+When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are **hue, saturation and brightness**.
 All three of these properties change the effect the color has. Have a look at the following example:
+
+<center style="margin:var(--base6) 0;">
 
 <div>
   <f-scene width="400" height="200"> 
@@ -515,21 +491,19 @@ All three of these properties change the effect the color has. Have a look at th
   </f-scene>
 </div>
 
+</center>
+
+<!-- </section> -->
+
 
 Both are greens, but they have different effects. Most people wouldn’t call the right color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.
 
-<f-next-button />
+<!-- <f-next-button /> -->
 
 
+<f-hr />
 
 
-
-
-
-
----
-
-# EXPLAIN | Three properties of color 2
 
 Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?
 
@@ -538,95 +512,95 @@ Have a look at the following colors and find adjectives to describe them. For wh
     <f-box 
       width="4"
       height="4"
-      stroke="none"
       x="-4"
-      :fill="hsl(252,100,50)"
+      stroke="none"
+      :fill="hsl(340,100,35)"
     />
     <f-box 
       width="4"
       height="4"
-      x="0"
       stroke="none"
-      :fill="hsl(92,100,50)"
+      x="0"
+      :fill="hsl(134, 100, 35)"
     />
     <f-box 
       width="4"
       height="4"
       x="4"
       stroke="none"
-      :fill="hsl(22,100,50)"
+      :fill="hsl(247,100,35)"
     />
   </f-scene>
 </div>
 
+<!-- hsl(252,100,50) - hsl(92,100,50) - hsl(22,100,50) -->
 
 
+<f-hr />
 
-
-
-
-
----
-
-# EXPLAIN | Three properties of color 2
+### 
 
 Now the brightness of each color is reduced to 50%, which means less light for the same hue.
 Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue. 
 
 
-<div>
+
+
+<div style="margin:4vh 0;">
   <f-scene width="600" height="200">
     <f-box 
       width="4"
       height="4"
-      stroke="none"
       x="-4"
-      :fill="hsl(252,100,50)"
+      stroke="none"
+      :fill="hsl(340,100,35)"
     />
     <f-box 
       width="4"
       height="2"
-      stroke="none"
       x="-4"
-      y="1"
-      :fill="hsl(252,100,25)"
+      y="-1"
+      stroke="none"
+      :fill="hsb2hsl( 340, 100, get('brightness',50) )"
     />
     <f-box 
       width="4"
       height="4"
-      x="0"
       stroke="none"
-      :fill="hsl(92,100,50)"
+      x="0"
+      :fill="hsl(134, 100, 35)"
     />
     <f-box 
       width="4"
       height="2"
-      x="0"
-      y="1"
       stroke="none"
-      :fill="hsl(92,100,25)"
+      x="0"
+      y="-1"
+      :fill="hsb2hsl( 134, 100, get('brightness',50) )"
     />
     <f-box 
       width="4"
       height="4"
       x="4"
       stroke="none"
-      :fill="hsl(22,100,50)"
+      :fill="hsl(247, 100, 35)"
     />
     <f-box 
       width="4"
       height="2"
       x="4"
-      y="1"
+      y="-1"
       stroke="none"
-      :fill="hsl(22,100,25)"
+      :fill="hsb2hsl( 247, 100, get('brightness',50) )"
     />
   </f-scene>
 </div>
 
-<f-next-button />
+<f-slider set="brightness" from="0" to="100" title="Change brightness" />
 
+<!-- <button v-if="get('brightnessDynamic', false) == false" v-on:click="set('brightnessDynamic', true)" >Dynamic value</button> -->
 
+<!-- <f-slider v-if="get('brightnessDynamic', false) == true" set="brightness" from="0" to="100" title="Change brightness" /> -->
 
 
 
@@ -985,6 +959,72 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 
 
+```
+Temporarily here
+
+```
+
+<f-scene width="300" height="300" grid>
+  <f-group :rotation="45" :scale="1">
+    <f-arc
+      v-for="(c,i) in range(0, 359, 360/12)" 
+      :key="c+i"
+      :fill="hsl( hue2ai(c) )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    />
+    <!-- <f-arc
+      v-for="(c,i) in aihues()" 
+      :key="c+i"
+      :fill="hsl( c )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    /> -->
+    <f-circle 
+      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
+      :x="polarx(p*(360/12)+(360/24), 1.5)"
+      :y="polary(p*(360/12)+(360/24), 1.5)"
+      r="0.2"
+      fill="white"  
+    />
+  </f-group>
+</f-scene>
+
+<f-artboard width="600" height="200">
+  <f-box v-for="(c, i) in [0,5,7]" 
+    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
+    :position="{x: 100 + i*200, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   />
+   <!-- <f-box v-for="(c, i) in [0, 5, 7 ]" 
+    :fill="hsl( aihues()[ get('activeColor',0 )] + c*30 )"
+    :position="{x: 100 + i*200, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   /> -->
+</f-artboard>
+
+<button v-on:click="set('activeColor', 6)">KLIKK</button>
+
+<f-slider set="activeColor" from="0" to="11" integer />
+
+<h1 >
+<!-- {{ ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (4*(360/12)))) % 360 }}  -->
+
+</h1>
+
+---
 
 
 ---
