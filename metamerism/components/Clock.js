@@ -18,10 +18,8 @@ export default {
     turnHours: function () {
       const now = new Date();
       let hours = now.getHours();
-      if (hours > 12) {
-        hours -= 12;
-      }
-      this.hRot = "0 0 -" + utils.scale(hours+now.getMinutes(), 0, 720, 0, 360) + "";
+      if (hours > 12) { hours -= 12; }
+      this.hRot = "0 0 -" + utils.scale(hours*60+now.getMinutes(), 0, 720, 0, 360) + "";
       this.mRot = "0 0 -" + utils.scale(now.getMinutes(), 0, 60, 0, 360) + "";
       this.sRot = "0 0 -" + utils.scale(now.getSeconds(), 0, 60, 0, 360) + "";
       setTimeout(this.turnHours, 1000);
@@ -33,7 +31,7 @@ export default {
   template: `
   <a-entity class="clock" :position="position" :rotation="rotation" :scale="scaleTheClock()" shadow="cast: false">
     <a-entity :rotation="hRot">
-      <a-box material="color: black" position="0 .15 -0.06" height=".4" width=".09" depth=".03"></a-box>
+      <a-box material="color: black" position="0 .2 -0.06" height=".5" width=".09" depth=".03"></a-box>
     </a-entity>
     <a-entity :rotation="mRot">
       <a-box material="color: black" position="0 .25 -0.03" height=".6" width=".06" depth=".03"></a-box>
