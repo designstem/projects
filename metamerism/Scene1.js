@@ -21,7 +21,8 @@ export default {
     cold: "rgb(201, 226, 255)",
     neutral: "rgb(255, 255, 255)",
     warm: "rgb(255, 197, 143)",
-    lightColor: ''
+    lightColor: '',
+    dressSrc: './images/dress_03_nw.jpg'
   }),
   template: `
     <a-scene shadow="type: pcfsoft" debug >'
@@ -41,7 +42,7 @@ export default {
       <a-entity light="type: ambient; color: #fff; intensity: .2"></a-entity>
       <a-entity :light=lightProps() position="0 8 0" scale="5 5 5"></a-entity>
       <a-entity position="0 5.5 -13.9" scale="4 6 1">
-        <a-image src="./images/thedress.png" material="shader: standard" />
+        <a-image :src="dressSrc" material="shader: standard" />
         <a-box position="-0.55 0" material="color: whitesmoke" geometry="depth: 0.2; width: 0.1" shadow=""></a-box>
         <a-box position="0.55 0" material="color: whitesmoke" geometry="depth: 0.2; width: 0.1" shadow=""></a-box>
         <a-box position="0 -0.531" material="color: whitesmoke" geometry="depth: 0.2; width: 1.2; height: 0.06" shadow=""></a-box>
@@ -81,12 +82,12 @@ export default {
       </a-entity>
       <Table position="0 0 -10" rotation="0 -90 0" :tableLength=4.3 :tableWidth=2 :tableHeight=1.4>
         <a-entity scale=".8 .8 .8" rotation="-20 0 0" position="0 0 .3">
-          <f-aframe-button @click.native="lightColor = cold" title="cold" position="-1.5 0 0" />
-          <f-aframe-button @click.native="lightColor = neutral" title="neutral" position="0 0 0" />
-          <f-aframe-button @click.native="lightColor = warm" title="warm" position="1.5 0 0" />
-          <f-aframe-button @click.native="lightColor = 'red'" title="red" position="-1.3 .6 -1" />
-          <f-aframe-button @click.native="lightColor = 'green'" title="green" position="0 .6 -1" />
-          <f-aframe-button @click.native="lightColor = 'blue'" title="blue" position="1.3 .6 -1" />
+          <f-aframe-button @click.native="lightColor = cold; dressSrc = './images/dress_05_cw.jpg'" title="cold" position="-1.5 0 0" />
+          <f-aframe-button @click.native="lightColor = neutral; dressSrc = './images/dress_03_nw.jpg'" title="neutral" position="0 0 0" />
+          <f-aframe-button @click.native="lightColor = warm; dressSrc = './images/dress_01_ww.jpg'" title="warm" position="1.5 0 0" />
+          <!--<f-aframe-button @click.native="lightColor = 'red'" title="red" position="-1.3 .6 -1" />-->
+          <!--<f-aframe-button @click.native="lightColor = 'green'" title="green" position="0 .6 -1" />-->
+          <!--<f-aframe-button @click.native="lightColor = 'blue'" title="blue" position="1.3 .6 -1" />-->
         </a-entity>
       </Table>
       <a-entity class="info-board" rotation="0 -80 0" position="3 0 -5">
