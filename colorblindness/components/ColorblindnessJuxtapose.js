@@ -206,7 +206,7 @@ export default{
     <f-inline>
       <h5>Try it with your own image: </h5><input type="file" @change="changeImage">
     </f-inline>
-    <f-hr  style="margin: 5vh 0 7vh 0;" />
+    
   </div>
   `,
   css: `
