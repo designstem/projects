@@ -25,7 +25,10 @@ The students’ awareness should be raised for the problems people with color vi
 </f-notes>
 
 <br />
-<button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> <button v-on:click="send('goto','3properties')" >3 properties</button> <button v-on:click="send('goto',12)" >Jump to working slide</button>
+<button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
+<button v-on:click="send('goto','3properties')" >3 properties</button> 
+<button v-on:click="send('goto','shampoo')">Shampoo</button>
+<button v-on:click="send('goto',12)" >Jump to working slide</button>
 
 
 
@@ -260,7 +263,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 ##### EXPLAIN 
 # Color mixing
-### Additive Color System
+## Additive Color System
 
 
 <f-inline style="align-items: flex-start;">
@@ -298,7 +301,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 ##### EXPLAIN 
 # Color mixing
-### Subtractive Color System
+## Subtractive Color System
 
 
 <f-inline style="align-items: flex-start;">
@@ -348,7 +351,7 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 | 6 6 6
 
 ##### EXPLAIN 
-# Color mixing 3
+# Color mixing
 
 -
 
@@ -456,34 +459,40 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 
 
+
+
+
 ---
 
 | id: 3properties
 
 ##### EXPLAIN
 # Three properties of color
-### Hue, saturation, brightness
+## Hue, saturation, brightness
 
+<f-hr style="margin:var(--base6) 0" />
 
 <!-- <section style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: none; grid-template-areas: 'a1 a2'; overflow: hidden; grid-gap: var(--content-gap); padding: 0;">
 
 <div class="cell" style="grid-area: a1 / a1 / a1 / a1;"> -->
 
-<f-inline>
+<f-inline style="align-items: flex-start;">
 <div>
 
-When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are **hue, saturation and brightness**.
+When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are ***hue, saturation and brightness***.
 All three of these properties change the effect the color has. 
 
 #### Have a look at these 2 greens.
 
 Both are greens, but they have different effects. Most people wouldn’t call the right color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.
 
+<f-next-button style="margin:var(--base6) 0" />
+
 </div>
 <div>
 
 <div>
-  <f-scene width="600" height="200"> 
+  <f-scene width="600" height="300"> 
     <f-box 
       width="6"
       height="4"
@@ -505,19 +514,22 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 <!-- </section> -->
 </f-inline>
 
+---
+
+##### EXPLAIN
+# Three properties of color
+## Hue, saturation, brightness
+
+<f-hr style="margin:var(--base6) 0" />
 
 
-<!-- <f-next-button /> -->
-
-
-<f-hr style="margin:var(--base10) 0" />
-
-
-<f-inline>
+<f-inline style="align-items: flex-start;">
 
 <div>
 
 Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?
+
+<f-next-button title="Brightness" style="margin:var(--base6) 0" />
 
 </div>
 <div>
@@ -552,20 +564,37 @@ Have a look at the following colors and find adjectives to describe them. For wh
 </f-inline>
 
 
-<f-hr style="margin:var(--base10) 0" />
 
+
+
+
+
+
+
+
+
+
+---
+
+##### EXPLAIN
+# Three properties of color
 ## Brightness
 
-<f-inline>
+<f-hr style="margin:var(--base6) 0" />
+
+
+<f-inline style="align-items: flex-start;">
 <div>
 
 Here the brightness of each color is reduced to 50%, which means less light for the same hue.
 Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue. 
 
+<f-next-button title="Saturation" style="margin:var(--base6) 0" />
+
 </div>
 <div>
 
-<div style="margin:4vh 0;">
+<div>
   <f-scene width="600" height="200">
     <f-box 
       width="4"
@@ -620,28 +649,27 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 </div>
 </f-inline>
 
+---
 
-
-
-
-<f-hr style="margin:var(--base10) 0" />
-
-
-
-
+##### EXPLAIN
+# Three properties of color
 ## Saturation
 
+<f-hr style="margin:var(--base6) 0" />
 
-<f-inline>
+
+<f-inline style="align-items: flex-start;">
 <div>
 
 Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
 Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
 
+<f-next-button title="Saturation" style="margin:var(--base6) 0" />
+
 </div>
 <div>
 
-<div style="margin:4vh 0;">
+<div>
   <f-scene width="600" height="200">
     <f-box 
       width="4"
@@ -696,26 +724,42 @@ Describe the difference between low and high saturated colors with adjectives. W
 </div>
 </f-inline>
 
-<f-next-button />
+
+
+
+
+
+
+
 
 ---
+
+| id: shampoo
 
 | 1 1 1
 | 2 3 4
 | 5 5 5
 
-# EXPLAIN | Three properties of color 4
+##### EXPLAIN
+# Three properties of color
+## Shampoo
+
+<f-hr style="margin:var(--base6) 0" />
 
 Choose a color which could be used as primary color for the following products:
 - baby shampoo 
-- shampoo for men +60
+- shampoo for men 60+
 - Unisex shampoo
+
+#### All the shampoos smell like apples.
 
 If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
 
-    NOTE: Right now this uses HSL color model, will be changed to HSB on wednesday, like previous slides
+<f-hr style="margin:var(--base4) 0; visibility:hidden;" />
 
 -
+
+
 
 <div>
   <h3>Baby shampoo</h3>
@@ -774,54 +818,122 @@ If possible compare your results with someone and explain why you chose this col
 
 -
 
-    NOTE: How to compare different palettes?
-
 <f-next-button />
 
 ---
 
-# EXPLAIN | Color contrast and harmony 1
+| 1 1
+| 2 3
+
+##### EXPLAIN
+# Color contrast and harmony
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
 
 A single color has an emotional and physical effect, but placing it in context with other colors can alter this effect.
+
 Designers create contrasting or allied color relationships/palettes to affect the viewer’s impression. They use contrasts and harmonies as stylistic devices.
 
-“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” (Johannes Itten)
+> “The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” <br />*(Johannes Itten)*
 
-IMAGE
 
-<f-next-button />
+
+<f-next-button style="margin:var(--base6) 0" />
+
+-
+
+<f-image src="images/contrast-and-harmony-dots.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
+
+
+
+
+
+
 
 ---
 
-# EXPLAIN | Color contrast and harmony 2
+| 1 1
+| 2 3
+
+##### EXPLAIN
+# Color contrast and harmony
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
 
 But harmony not only exists if color combinations are made up by colors which are neighbours in the color wheel or by colors with the same hue but different brightness, like in this example.
 
 Color contrasts can also be harmonious. Don’t equate contrast and harmony with ‘disagreeable’ and ‘agreeable’.
 
-IMAGE
+<f-next-button style="margin:var(--base6) 0" />
 
-<f-next-button />
+-
+
+<f-image src="images/contrast-and-harmony-cereal.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
+
+
+
+
+
+
+
+
 
 ---
 
-# EXPLAIN | Color contrast and harmony 3
+| 1 1
+| 2 3
+
+##### EXPLAIN
+# Color contrast and harmony
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
 
 Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. mono-chromatic color palettes. But that doesn’t mean that they are less harmonious.
-In this example you have a complementary contrast of red and blue hues.
+
+In this example you have a **complementary contrast** of red and blue hues.
+
 It feels bolder and louder than the last picture with the cereal bowl, but still harmonious and pleasing to the eye.
 Therefore, don’t mix up color contrast with discord.
 
-IMAGE
+<f-next-button style="margin:var(--base6) 0" />
 
-<f-next-button />
+-
+
+<f-image src="images/contrast-and-harmony-candystore.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
 
-# EXPLAIN | Color contrast and harmony 4
+##### EXPLAIN
+# Color contrast and harmony
+## Itten's contrasts
 
-Johannes Itten, who taught at Bauhaus, defined seven different color contrasts:
+<f-hr  style="margin:var(--base6) 0" />
+
+**Johannes Itten**, who taught at Bauhaus, defined seven different color contrasts:
+
 - Contrast of hue
 - Light-dark contrast
 - Cold-warm contrast
@@ -830,33 +942,81 @@ Johannes Itten, who taught at Bauhaus, defined seven different color contrasts:
 - Contrast of saturation
 - Contrast of extension
 
-## Task 1: 
-Find out about the seven contrasts online and match them with the pictures.
-Which contrasts do you see?
+<f-next-button style="margin:var(--base6) 0" />
 
-IMAGE
 
-<f-next-button />
+
+
+
+
+
+
 
 ---
 
-| 1 1 1
-| 2 2 3
-| 4 4 4
+| 1 1
+| 2 3
 
-# EXPLAIN | Color contrast and harmony 5
+##### EXPLAIN
+# Color contrast and harmony
+## Task 1
 
-### Task 1: 
-
-Find out about the seven contrasts online and match them with the pictures. Which contrasts do you see?
-
-<f-hr />
+<f-hr  style="margin:var(--base6) 0" />
 
 -
 
-<f-image src="images/contrast-snow.png" style="height: 35vw !important; background-position: 50% 50% !important" />
+Find out about the seven contrasts online and match them with the pictures. 
+
+Which contrasts do you see?
+
+<f-inline v-for="(contrast, i) in [ 
+  ['Contrast of hue' , false], 
+  ['Light-dark contrast', true], 
+  ['Cold-warm contrast', true],
+  ['Complementary contrast', true],
+  ['Simultaneous contrast', false],
+  ['Contrast of saturation', true],
+  ['Contrast of extension', false]
+]" :key="i">
+  <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
+    <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
+    <span v-else-if="get('contrast'+i) == true">👍</span>
+    <span v-else-if="get('contrast'+i) == false">💥</span>  
+    {{ contrast[0] }}</h4>
+
+</f-inline>
+
+<f-next-button style="margin:var(--base6) 0" />
 
 -
+
+<f-image src="images/contrast-and-harmony-lake.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
+
+
+
+
+
+
+
+
+---
+
+| 1 1
+| 2 3
+
+##### EXPLAIN 
+# Color contrast and harmony
+## Task 1
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
+
+Find out about the seven contrasts online and match them with the pictures. 
+
+Which contrasts do you see?
 
 <f-inline v-for="(contrast, i) in [ 
   ['Contrast of hue' , false], 
@@ -875,18 +1035,21 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 </f-inline>
 
-
-<!-- <h1>
-  <span v-if="get('check1') == undefined || get('check1') == null">CHOOSE 🤔</span>
-  <span v-else-if="get('check1') == true">YES 👍</span>
-  <span v-else-if="get('check1') == false">NOPE 👎</span>
-</h1>
--->
-
+<f-next-button style="margin:var(--base6) 0" />
 
 -
 
-<f-next-button />
+<f-image src="images/contrast-snow.png" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -936,62 +1099,6 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 ---
 
-
-
-
-
-
-
-# Color wheel (in progress)
-
-
-<f-scene width="300" height="300" grid>
-  <f-group :rotation="45" :scale="1">
-    <f-arc
-      v-for="(c,i) in range(0,360,360/12)" 
-      :key="c+i"
-      :fill="hsl( hue2ai(c) )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click="colorWheelArcClick(i)"
-    />
-    <f-circle 
-      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
-      v-on:click="colorWheelArcClick(i)"
-      :x="polarx(p*(360/12)+(360/24), 1.5)"
-      :y="polary(p*(360/12)+(360/24), 1.5)"
-      r="0.2"
-      fill="white"  
-    />
-    <f-box fill="black"  v-on:click.native="colorWheelArcClick(5)" />
-    <rect width="1" height="1" fill="red" v-on:click="colorWheelArcClick(5)" />
-  </f-group>
-</f-scene>
-
-<button v-on:click="colorWheelArcClick(6)">KLIKK</button>
-
-<f-slider set="activeColor" from="0" to="11" integer />
-
-# {{ get('activeColor', 0) }}
-
-
-
-
-
-
-
-
----
-
-
-
-```
-Temporarily here
-
-```
 
 <f-scene width="300" height="300" grid>
   <f-group :rotation="45" :scale="1">
