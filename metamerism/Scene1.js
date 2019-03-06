@@ -2,6 +2,7 @@ import { utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
 import Wall from "./components/Wall.js";
 import Lamp from "./components/Lamp.js";
 import Table from "./components/Table.js";
+import Clock from "./components/Clock.js";
 
 export default {
   methods: { ...utils,
@@ -15,7 +16,7 @@ export default {
       })
     }
   },
-  components: {Wall, Lamp, Table},
+  components: {Wall, Lamp, Table, Clock},
   data: () => ({
     cold: "rgb(201, 226, 255)",
     neutral: "rgb(255, 255, 255)",
@@ -106,7 +107,7 @@ export default {
         <a-box material="shader: flat" position="0 3 0" geometry="depth: 0.05; width: 2; height: 3.5"></a-box>
         <a-box position="0 1.8 -0.01" geometry="depth: 0.05; width: 2.2; height: 3.5"></a-box>
       </a-entity>
-    
+      <Clock scale="2 2 1" rotation="0 90 0" position="-9.9 6 -3.5"></Clock>
     </a-scene>
   `
 }
