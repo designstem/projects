@@ -1,18 +1,21 @@
 import { utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import Room from "./components/Room.js";
+
 
 export default {
   methods: { ...utils },
   data: () => ({ r: 1, g: 1, b: 1 }),
+  components: { Room },
   template: `
   <f-aframe>
-
     <a-assets>
       <a-asset-item id="apple" src="./models/apple.obj"></a-asset-item>
       <a-asset-item id="lemon" src="./models/lemon.obj"></a-asset-item>
       <a-asset-item id="tomato" src="./models/tomato.obj"></a-asset-item>
     </a-assets>
- 
-    <a-light position="0 0.5 1" cast-shadow="true" :color="rgb([0,255][r],[0,255][g],[0,255][b])" />
+
+
+    <!--<a-light position="0 0.5 1" cast-shadow="true" :color="rgb([0,255][r],[0,255][g],[0,255][b])" />-->
 
     <a-entity position="0 0 -15">
 
@@ -60,7 +63,7 @@ export default {
       />
 
     </a-entity>
-
+    <Room scale="2 2 2" position="0 -1 0"></Room>
   </f-aframe>
   `
 }

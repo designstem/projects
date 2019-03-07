@@ -1,10 +1,11 @@
 The Dress
 
-In the example of the dress you have seen that the same object may look differently.
-Some might say it is white and gold, others see it as black and blue. But what is true?
-To find out more about colors and light you are going to do an experiment in a virtual learning environment.
-Use a computer or your smartphone (with a VR headset if possible) and enter the first experiment.
-
 1. Make yourself familiar with the VR environment (moving, viewing, controls ...)
 
 2. Look at the buttons on the table. Which effect do they have?
+
+In the example of the dress you have seen that the same object may look differently.
+Some might say it is white and gold, others see it as black and blue. But what is true?
+
+
+

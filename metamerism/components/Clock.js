@@ -52,7 +52,7 @@ export default {
       <a-box :material="parseColor('gray')" position="0 .95 0" height=".1" width=".01" depth=".01"></a-box>
     </a-entity>
     <a-cylinder :material="parseColor('lightergray')" rotation="90 0 0" height=".1" position="0 0 -.1"></a-cylinder>
-    <a-image src="./images/designstem_logo.png" material="shader: flat" shadow="cast: false" position="0 -0.31602 -0.04" scale="0.7 0.3 1"></a-image>
+    <a-image src="./images/designstem_logo.png" material="shader: flat" shadow="cast: false" position="0 -0.31602 -0.047" scale="0.7 0.3 1"></a-image>
   </a-entity>
   `
 };
