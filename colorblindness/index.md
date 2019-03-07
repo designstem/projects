@@ -30,7 +30,8 @@ The students’ awareness should be raised for the problems people with color vi
 <button v-on:click="send('goto','shampoo')">Shampoo</button>
 <button v-on:click="send('goto','task1')">Task 1</button>
 <button v-on:click="send('goto','complementary')">Color harmonies</button>
-<button v-on:click="send('goto',12)" >Jump to working slide</button>
+<button v-on:click="send('goto','task2')">Task 2</button>
+<button v-on:click="send('goto','contrast')">Contrast</button>
 
 
 
@@ -95,8 +96,6 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 <ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" :revealed="get('revealX',-3)" :locked="get('revealLocked', true)" />
 
-<!-- <img src="images/tomatoes-protanopia.jpg" alt="Protanopia" v-on:click="send('next')" style="cursor:pointer;" /> -->
-
 
 
 
@@ -119,9 +118,7 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 
 **Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
 
-<br /><br />
-
-<f-next-button title="Analyze your photos" />
+<f-next-button title="Analyze your photos" style="margin:var(--base4) 0" />
 
 
 -
@@ -148,7 +145,7 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 <ColorblindnessSimulator :imageUrl="'images/crayons.jpg'" />
 
 
-<f-next-button />
+<f-next-button style="margin:var(--base4) 0" />
 
 
 
@@ -160,6 +157,10 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 ---
 
 ##### EXPLORE
+# Color blindness
+## Analyze results
+
+<f-hr style="margin:var(--base6) 0" />
 
 Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:
 5. Find out what the main problem is regarding the color scheme.
@@ -180,9 +181,11 @@ Now that you found out about possible weak spots in the color design of objects 
 ##### EXPLAIN
 # Learning stations
 
+<f-hr style="margin:var(--base6) 0" />
+
 #### Find out about the following topics through working on the provided learning stations.<br />This should enable you to optimize the accessibility of information in your design products.
 
-
+<br />
 
 - Accessibility
 - The eye
@@ -193,7 +196,7 @@ Now that you found out about possible weak spots in the color design of objects 
 - Design rules for creating color palettes
 - Summary station
 
-<f-next-button style="margin:4vh 0" title="Accessibility" />
+<f-next-button style="margin:6vh 0" title="Accessibility" />
 
 <f-notes>
   
@@ -212,21 +215,42 @@ Now that you found out about possible weak spots in the color design of objects 
 
 
 
+
+
+
 ---
+
+| 1 1
+| 2 3
 
 ##### EXPLAIN 
 # Accessibility
 
-### Tasks
+
+<f-hr style="margin:var(--base6) 0" />
+
+-
+
+## Tasks
 
 1. What do you understand by “accessibility”? Have you ever come across that term? In which context have you heard about it?
+
 2. Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition.
+
 3. Get an overview of the areas in which we need to improve accessibility.
+
 4. Further, find out about the difference between “accessibility” and “usability”.
 
-image
 
-<f-next-button />
+<f-next-button style="margin:var(--base6) 0" />
+
+-
+
+<f-image src="images/explain-yellow-door.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
+
+
 
 
 
@@ -240,6 +264,8 @@ image
 ##### EXPLAIN 
 # The eye
 
+<f-hr style="margin:var(--base6) 0" />
+
 <f-next-button />
 
 
@@ -249,11 +275,16 @@ image
 
 
 
+
+
+
 ---
 
 
 ##### EXPLAIN 
 # Color mixing
+
+<f-hr style="margin:var(--base6) 0" />
 
 Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color. Strong light produces intense color.
 
@@ -261,16 +292,29 @@ Color is derived from light, either natural or artificial. With little light, li
 
 <f-next-button title="Additive Color"  style="margin: var(--base6) 0" />
 
+
+
+
+
+
+
+
+
+
+
 ---
+
+| 1 1 1
+| 2 2 3
 
 ##### EXPLAIN 
 # Color mixing
 ## Additive Color System
 
 
-<f-inline style="align-items: flex-start;">
+<f-hr style="margin:var(--base6) 0" />
 
-<div>
+-
 
 **In the Additive Color System, red, green and blue are the primary colors.** When all three colors overlap, white light is produced.
 
@@ -280,35 +324,43 @@ Color is derived from light, either natural or artificial. With little light, li
 
 <f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
 
-</div>
-<div>
-  <f-scene style=" background:black; border-radius: var(--border-radius);" width="400" height="400">
-    <f-circle 
-      v-for="(c,i) in ['red', 'lime', 'blue']" 
-      :fill="c" 
-      :x="polarx( i*(360/3), 0.7 )"  
-      :y="polary( i*(360/3), 0.7 )" 
-      stroke="none"
-      style="mix-blend-mode: screen; "
-    />
-  </f-scene>
-</div>
+-
+
+<f-scene style=" background:black; border-radius: var(--border-radius);" width="400" height="400">
+  <f-circle 
+    v-for="(c,i) in ['red', 'lime', 'blue']" 
+    :fill="c" 
+    :x="polarx( i*(360/3), 0.7 )"  
+    :y="polary( i*(360/3), 0.7 )" 
+    stroke="none"
+    style="mix-blend-mode: screen; "
+  />
+</f-scene>
 
 
-</f-inline>
+
+
+
+
+
+
+
+
 
 
 
 ---
 
+| 1 1 1
+| 2 2 3
+
 ##### EXPLAIN 
 # Color mixing
 ## Subtractive Color System
 
+<f-hr style="margin:var(--base6) 0" />
 
-<f-inline style="align-items: flex-start;">
-
-<div>
+-
 
 All objects have physical properties that cause them to absorb some color waves and reflect others. Color, when applied to a surface such as canvas or paper, has the same characteristic.
 
@@ -320,22 +372,21 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 <f-next-button style="margin:var(--base6) 0"  />
 
-</div>
-<div>
-  <f-scene style=" border-radius: var(--border-radius);" width="400" height="400">
-    <f-circle 
-      v-for="(c,i) in ['magenta', 'cyan', 'yellow']" 
-      :fill="c" 
-      :x="polarx( i*(360/3), 0.7 )"  
-      :y="polary( i*(360/3), 0.7 )" 
-      stroke="none"
-      style="mix-blend-mode: multiply; "
-    />
-  </f-scene>
-</div>
+-
+
+<f-scene style=" border-radius: var(--border-radius);" width="400" height="400">
+  <f-circle 
+    v-for="(c,i) in ['magenta', 'cyan', 'yellow']" 
+    :fill="c" 
+    :x="polarx( i*(360/3), 0.7 )"  
+    :y="polary( i*(360/3), 0.7 )" 
+    stroke="none"
+    style="mix-blend-mode: multiply; "
+  />
+</f-scene>
 
 
-</f-inline>
+
 
 
 
@@ -354,6 +405,7 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 ##### EXPLAIN 
 # Color mixing
+
 
 -
 
@@ -400,7 +452,6 @@ First, in your mind, try to disassemble them into their three components. How mu
     <f-text v-else fill="white">
         MATCH THE COLORS
     </f-text>
-
 
   </f-scene>
 </div>
@@ -452,7 +503,7 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 -
 
-<f-next-button />
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -467,6 +518,8 @@ First, in your mind, try to disassemble them into their three components. How mu
 ---
 
 | id: 3properties
+| 1 1
+| 2 3
 
 ##### EXPLAIN
 # Three properties of color
@@ -474,47 +527,35 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 <f-hr style="margin:var(--base6) 0" />
 
-<!-- <section style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: none; grid-template-areas: 'a1 a2'; overflow: hidden; grid-gap: var(--content-gap); padding: 0;">
+-
 
-<div class="cell" style="grid-area: a1 / a1 / a1 / a1;"> -->
-
-<f-inline style="align-items: flex-start;">
-<div>
-
-When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are ***hue, saturation and brightness***.
+When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are **hue, saturation and brightness**.
 All three of these properties change the effect the color has. 
 
-#### Have a look at these 2 greens.
+#### Have a look at these 2 greens 👉
 
 Both are greens, but they have different effects. Most people wouldn’t call the right color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.
 
 <f-next-button style="margin:var(--base6) 0" />
 
-</div>
-<div>
+-
 
-<div>
-  <f-scene width="600" height="300"> 
-    <f-box 
-      width="6"
-      height="4"
-      stroke="none"
-      x="-3"
-      :fill="hsl(112,63,36)"
-    />
-    <f-box 
-      width="6"
-      height="4"
-      x="3"
-      stroke="none"
-      :fill="hsl(123,100,51)"
-    />
-  </f-scene>
-</div>
-
-</div>
-<!-- </section> -->
-</f-inline>
+<f-scene width="600" height="300"> 
+  <f-box 
+    width="6"
+    height="4"
+    stroke="none"
+    x="-3"
+    :fill="hsl(112,63,36)"
+  />
+  <f-box 
+    width="6"
+    height="4"
+    x="3"
+    stroke="none"
+    :fill="hsl(123,100,51)"
+  />
+</f-scene>
 
 
 
@@ -527,6 +568,9 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 
 
 ---
+
+| 1 1
+| 2 3
 
 ##### EXPLAIN
 # Three properties of color
@@ -534,46 +578,37 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 
 <f-hr style="margin:var(--base6) 0" />
 
-
-<f-inline style="align-items: flex-start;">
-
-<div>
+-
 
 Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?
 
 <f-next-button title="Brightness" style="margin:var(--base6) 0" />
 
-</div>
-<div>
+-
 
-<div>
-  <f-scene width="600" height="200">
-    <f-box 
-      width="4"
-      height="4"
-      x="-4"
-      stroke="none"
-      :fill="hsl(340,100,35)"
-    />
-    <f-box 
-      width="4"
-      height="4"
-      stroke="none"
-      x="0"
-      :fill="hsl(134, 100, 35)"
-    />
-    <f-box 
-      width="4"
-      height="4"
-      x="4"
-      stroke="none"
-      :fill="hsl(247,100,35)"
-    />
-  </f-scene>
-</div>
-
-</div>
-</f-inline>
+<f-scene width="600" height="200">
+  <f-box 
+    width="4"
+    height="4"
+    x="-4"
+    stroke="none"
+    :fill="hsl(340,100,35)"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    stroke="none"
+    x="0"
+    :fill="hsl(134, 100, 35)"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    x="4"
+    stroke="none"
+    :fill="hsl(247,100,35)"
+  />
+</f-scene>
 
 
 
@@ -587,6 +622,9 @@ Have a look at the following colors and find adjectives to describe them. For wh
 
 
 ---
+
+| 1 1
+| 2 3
 
 ##### EXPLAIN
 # Three properties of color
@@ -594,72 +632,66 @@ Have a look at the following colors and find adjectives to describe them. For wh
 
 <f-hr style="margin:var(--base6) 0" />
 
-
-<f-inline style="align-items: flex-start;">
-<div>
+-
 
 Here the brightness of each color is reduced to 50%, which means less light for the same hue.
 Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue. 
 
 <f-next-button title="Saturation" style="margin:var(--base6) 0" />
 
-</div>
-<div>
+-
 
-<div>
-  <f-scene width="600" height="200">
-    <f-box 
-      width="4"
-      height="4"
-      x="-4"
-      stroke="none"
-      :fill="hsb2hsl(340,100,67)"
-    />
-    <f-box 
-      width="4"
-      height="2"
-      x="-4"
-      y="-1"
-      stroke="none"
-      :fill="hsb2hsl( 340, 100, get('brightness',34) )"
-    />
-    <f-box 
-      width="4"
-      height="4"
-      stroke="none"
-      x="0"
-      :fill="hsb2hsl(134, 100, 67)"
-    />
-    <f-box 
-      width="4"
-      height="2"
-      stroke="none"
-      x="0"
-      y="-1"
-      :fill="hsb2hsl( 134, 100, get('brightness',34) )"
-    />
-    <f-box 
-      width="4"
-      height="4"
-      x="4"
-      stroke="none"
-      :fill="hsb2hsl(247, 100, 67)"
-    />
-    <f-box 
-      width="4"
-      height="2"
-      x="4"
-      y="-1"
-      stroke="none"
-      :fill="hsb2hsl( 247, 100, get('brightness',34) )"
-    />
-  </f-scene>
-</div>
+<f-scene width="600" height="200">
+  <f-box 
+    width="4"
+    height="4"
+    x="-4"
+    stroke="none"
+    :fill="hsb2hsl(340,100,67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    x="-4"
+    y="-1"
+    stroke="none"
+    :fill="hsb2hsl( 340, 100, get('brightness',34) )"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    stroke="none"
+    x="0"
+    :fill="hsb2hsl(134, 100, 67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    stroke="none"
+    x="0"
+    y="-1"
+    :fill="hsb2hsl( 134, 100, get('brightness',34) )"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    x="4"
+    stroke="none"
+    :fill="hsb2hsl(247, 100, 67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    x="4"
+    y="-1"
+    stroke="none"
+    :fill="hsb2hsl( 247, 100, get('brightness',34) )"
+  />
+</f-scene>
 
 <f-slider set="brightness" from="0" to="100" title="Change brightness" />
 
-</div>
-</f-inline>
+
 
 
 
@@ -673,78 +705,74 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 
 ---
 
+| 1 1
+| 2 3
+
 ##### EXPLAIN
 # Three properties of color
 ## Saturation
 
 <f-hr style="margin:var(--base6) 0" />
 
-
-<f-inline style="align-items: flex-start;">
-<div>
+-
 
 Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
 Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
 
 <f-next-button title="Saturation" style="margin:var(--base6) 0" />
 
-</div>
-<div>
+-
 
-<div>
-  <f-scene width="600" height="200">
-    <f-box 
-      width="4"
-      height="4"
-      x="-4"
-      stroke="none"
-      :fill="hsb2hsl(340,100,67)"
-    />
-    <f-box 
-      width="4"
-      height="2"
-      x="-4"
-      y="-1"
-      stroke="none"
-      :fill="hsb2hsl( 340, get('saturation',50), 67 )"
-    />
-    <f-box 
-      width="4"
-      height="4"
-      stroke="none"
-      x="0"
-      :fill="hsb2hsl(134, 100, 67)"
-    />
-    <f-box 
-      width="4"
-      height="2"
-      stroke="none"
-      x="0"
-      y="-1"
-      :fill="hsb2hsl( 134, get('saturation',50), 67 )"
-    />
-    <f-box 
-      width="4"
-      height="4"
-      x="4"
-      stroke="none"
-      :fill="hsb2hsl(247, 100, 67)"
-    />
-    <f-box 
-      width="4"
-      height="2"
-      x="4"
-      y="-1"
-      stroke="none"
-      :fill="hsb2hsl( 247, get('saturation',50), 67 )"
-    />
-  </f-scene>
-</div>
+<f-scene width="600" height="200">
+  <f-box 
+    width="4"
+    height="4"
+    x="-4"
+    stroke="none"
+    :fill="hsb2hsl(340,100,67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    x="-4"
+    y="-1"
+    stroke="none"
+    :fill="hsb2hsl( 340, get('saturation',50), 67 )"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    stroke="none"
+    x="0"
+    :fill="hsb2hsl(134, 100, 67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    stroke="none"
+    x="0"
+    y="-1"
+    :fill="hsb2hsl( 134, get('saturation',50), 67 )"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    x="4"
+    stroke="none"
+    :fill="hsb2hsl(247, 100, 67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    x="4"
+    y="-1"
+    stroke="none"
+    :fill="hsb2hsl( 247, get('saturation',50), 67 )"
+  />
+</f-scene>
 
 <f-slider set="saturation" from="0" to="100" title="Change saturation" />
 
-</div>
-</f-inline>
 
 
 
@@ -788,12 +816,6 @@ If possible compare your results with someone and explain why you chose this col
 <div>
   <h3>Baby shampoo</h3>
   <f-scene width="300" height="300">
-    <!-- <f-box 
-      width="4"
-      height="4"
-      stroke="none"
-      :fill="hsl( hsb2hsl( get('h1', 0), get('s1', 0), get('l1', 0)).h, hsb2hsl( get('h1', 0), get('s1', 0), get('l1', 0)).s, hsb2hsl( get('h1', 0), get('s1', 0), get('l1', 0)).l )"
-    /> -->
     <f-box 
       width="4"
       height="4"
@@ -1416,7 +1438,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 
 -
  
-Analogous palettes are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel,they are equally spaced from each other.
+**Analogous palettes** are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel, they are equally spaced from each other.
 
 
 <f-artboard width="600" height="200" style="margin:var(--base4) 0">
@@ -1481,27 +1503,30 @@ Analogous palettes are pleasing to the eye, because they are build by colors wit
 
 -
  
-Analogous palettes are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel,they are equally spaced from each other.
+**Monochromatic palettes** have an even softer effect than analogous palettes, but they are also less prominent. 
+
+For monochromatic palettes you combine one hue with its different shades, either formed by variation of brightness or saturation. 
+
 
 
 <f-artboard width="600" height="200" style="margin:var(--base4) 0">
   
    <f-box 
-    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 35 )"
+    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 50 )"
     :position="{x: 100, y: 100 }"
     width="200"
     height="200"
     stroke
    />
    <f-box 
-    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 50 )"
+    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 65 )"
     :position="{x: 300, y: 100 }"
     width="200"
     height="200"
     stroke
    />
    <f-box 
-    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 65 )"
+    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 80 )"
     :position="{x: 500, y: 100 }"
     width="200"
     height="200"
@@ -1541,6 +1566,242 @@ Analogous palettes are pleasing to the eye, because they are build by colors wit
 
 
 
+
+
+
+
+
+---
+
+| id: task2
+
+| 1 1 1
+| 2 3 4
+| 5 5 5
+
+##### EXPLAIN
+# Color contrast and harmony
+## Task 2
+
+<f-hr style="margin:var(--base6) 0" />
+
+#### Change the given color palette so that:
+- It is more harmonious 
+- It is more prominent
+
+Use the knowledge about contrasts and harmonies which you just found out about. If possible, discuss your results with someone else.
+
+
+<f-hr style="margin:var(--base4) 0; visibility:hidden;" />
+
+-
+
+
+
+<div>
+  <f-scene width="300" height="300">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      :fill="hsb2hsl( get('h11', 300), get('s11', 100), get('l11', 100) )"
+    />
+  </f-scene>
+  <f-slider set="h11" from="0" to="360" integer title="H" />
+  <f-slider set="s11" from="0" to="100" integer title="S" />
+  <f-slider set="l11" from="0" to="100" integer title="B" />
+</div>
+
+-
+
+<div>
+  <f-scene width="300" height="300">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      :fill="hsb2hsl( get('h22', 120) , get('s22', 100), get('l22', 100) )"
+    />
+  </f-scene>
+  <f-slider set="h22" from="0" to="360" integer title="H" />
+  <f-slider set="s22" from="0" to="100" integer title="S" />
+  <f-slider set="l22" from="0" to="100" integer title="B" />
+</div>
+
+-
+
+<div>
+  <f-scene width="300" height="300">
+    <f-box 
+      width="4"
+      height="4"
+      stroke="none"
+      :fill="hsb2hsl( get('h33', 180) , get('s33', 100), get('l33', 100) )"
+    />
+  </f-scene>
+  <f-slider set="h33" from="0" to="360" integer title="H" />
+  <f-slider set="s33" from="0" to="100" integer title="S" />
+  <f-slider set="l33" from="0" to="100" integer title="B" />
+</div>
+
+-
+
+<f-next-button style="margin:var(--base4) 0;" />
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+| id: contrast
+
+| 1 1 1 1
+| 2 2 2 3 
+| 4 4 5 5
+
+##### EXPLAIN
+# Color contrast and harmony
+
+<f-hr style="margin:var(--base6) 0" />
+
+-
+
+## Task 3
+
+Given are a headline and a text on a background. Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.
+
+If possible, discuss your results with someone.
+
+-
+
+
+
+-
+
+<f-hr style="margin:var(--base6) 0; visibility: hidden" />
+
+<f-inline>
+
+<div style="flex:1">
+
+#### Background
+
+<f-slider title="H" set="h51" to="360" integer />
+<f-slider title="S" set="s51" to="100" integer />
+<f-slider title="B" set="b51" to="100" integer />
+
+</div>
+<div style="flex:1">
+
+#### Heading
+
+<f-slider title="H" set="h52" to="360" integer />
+<f-slider title="S" set="s52" to="100" integer />
+<f-slider title="B" set="b52" to="100" integer />
+
+</div>
+<div style="flex:1">
+
+#### Text
+
+<f-slider title="H" set="h53" to="360" integer />
+<f-slider title="S" set="s53" to="100" integer />
+<f-slider title="B" set="b53" to="100" integer />
+</div>
+
+
+</f-inline>
+
+-
+
+<div style="padding: var(--base8); min-height:500px; height:100%" :style="{
+  background: hsb2hsl( get('h51',0), get('s51',17), get('b51',32) )
+}">
+
+<h1 :style="{
+  color: hsb2hsl( get('h52',0), get('s52',50), get('b52',50) )
+}">Halloo</h1>
+
+<p :style="{
+  color: hsb2hsl( get('h53',0), get('s53',20), get('b53',100) )
+}">Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampfschiffahrtsgesellschaftskapitän eu Kaftfahrzeug-Haftpflichtversicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+---
 
 
 
