@@ -1193,6 +1193,8 @@ In order to create a harmonious color palette, you can also use the color wheel.
    />
 </f-artboard>
 
+<br />
+
 <f-next-button style="margin:var(--base6) 0" />
 
 -
@@ -1263,6 +1265,8 @@ If you want a color palette which is more harmonious than complementary palette,
     stroke
    />
 </f-artboard>
+
+<br />
 
 <f-next-button style="margin:var(--base6) 0" />
 
@@ -1455,6 +1459,8 @@ Triads with primary colors are garish. You get softer palettes with secondary or
    />
 </f-artboard>
 
+<br />
+
 <f-next-button style="margin:var(--base6) 0" />
 
 -
@@ -1537,6 +1543,8 @@ For monochromatic palettes you combine one hue with its different shades, either
     stroke
    />
 </f-artboard>
+
+<br />
 
 <f-next-button style="margin:var(--base6) 0" />
 
@@ -1727,15 +1735,15 @@ If possible, discuss your results with someone.
 -
 
 <div style="padding: var(--base8); min-height:500px; height:100%" :style="{
-  background: hsb2hsl( get('h51',0), get('s51',17), get('b51',32) )
+  background: hsb2hsl( get('h51',44), get('s51',77), get('b51',100) )
 }">
 
 <h1 :style="{
-  color: hsb2hsl( get('h52',0), get('s52',50), get('b52',50) )
+  color: hsb2hsl( get('h52',44), get('s52',77), get('b52',77) )
 }">Halloo</h1>
 
 <p :style="{
-  color: hsb2hsl( get('h53',0), get('s53',20), get('b53',100) )
+  color: hsb2hsl( get('h53',44), get('s53',77), get('b53',77) )
 }">Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampfschiffahrtsgesellschaftskapitän eu Kaftfahrzeug-Haftpflichtversicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.</p>
 
 </div>
