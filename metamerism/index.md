@@ -27,9 +27,12 @@ possible) and enter the first experiment.
 
 </div>
 
--
+---
 
-<scene1 />
+| height: fit
+| padding: none
+
+<scene1 style="width: 100%; height: 100%"/>
 
 ---
 
@@ -54,7 +57,4 @@ possible) and enter the second experiment.
 on the scene and the objects.
 
 </div>
-
--
-
 
