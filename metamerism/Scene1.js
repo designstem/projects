@@ -88,8 +88,8 @@ export default {
       <Lamp :light="lightColor" :lampHeight=2 position="1.6 0 0.3" :lampScale=".6"/>
       <Lamp :light="lightColor" :lampHeight=2.4 position="0.1 0 -0.9" :lampScale="2" />
       </a-entity>
-      <Table position="0 0 -10" rotation="0 -90 0" :tableLength=4.3 :tableWidth=2 :tableHeight=1.4>
-        <a-entity scale=".8 .8 .8" rotation="-20 0 0" position="0 0 .3">
+      <Table position="0 0 -10" rotation="0 -90 0" :tableLength=5.5 :tableWidth=2 :tableHeight=1.4>
+        <a-entity scale="1.3 1.3 1.3" rotation="-20 0 0" position="0 0 .3">
           <f-aframe-button @click.native="lightColor = cold; dressSrc = './images/dress_05_cw.jpg'" title="cold" position="-1.5 0 0" />
           <f-aframe-button @click.native="lightColor = neutral; dressSrc = './images/dress_03_nw.jpg'" title="neutral" position="0 0 0" />
           <f-aframe-button @click.native="lightColor = warm; dressSrc = './images/dress_01_ww.jpg'" title="warm" position="1.5 0 0" />
