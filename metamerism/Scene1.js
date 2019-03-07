@@ -23,7 +23,7 @@ export default {
     neutral: "rgb(255, 255, 255)",
     warm: "rgb(255, 197, 143)",
     lightColor: '',
-    dressSrc: './images/dress_03__nw.jpg',
+    dressSrc: './images/dress_03_nw.jpg',
     infoText: ''
   }),
   mounted() {
@@ -91,7 +91,7 @@ export default {
       <Table position="0 0 -10" rotation="0 -90 0" :tableLength=4.3 :tableWidth=2 :tableHeight=1.4>
         <a-entity scale=".8 .8 .8" rotation="-20 0 0" position="0 0 .3">
           <f-aframe-button @click.native="lightColor = cold; dressSrc = './images/dress_05_cw.jpg'" title="cold" position="-1.5 0 0" />
-          <f-aframe-button @click.native="lightColor = neutral; dressSrc = './images/dress__03_nw.jpg'" title="neutral" position="0 0 0" />
+          <f-aframe-button @click.native="lightColor = neutral; dressSrc = './images/dress_03_nw.jpg'" title="neutral" position="0 0 0" />
           <f-aframe-button @click.native="lightColor = warm; dressSrc = './images/dress_01_ww.jpg'" title="warm" position="1.5 0 0" />
         </a-entity>
       </Table>
