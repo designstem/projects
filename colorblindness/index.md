@@ -693,9 +693,7 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
   />
 </f-scene>
 
-<f-slider set="brightness" from="0" to="100" title="Change brightness" />
-
-
+<f-slider  to="100" :value="get('brightness', 34)" v-on:input="set('brightness', $event)" title="Adjust brightness" />
 
 
 
@@ -723,7 +721,7 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
 Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
 
-<f-next-button title="Saturation" style="margin:var(--base6) 0" />
+<f-next-button style="margin:var(--base6) 0" />
 
 -
 
@@ -775,9 +773,7 @@ Describe the difference between low and high saturated colors with adjectives. W
   />
 </f-scene>
 
-<f-slider set="saturation" from="0" to="100" title="Change saturation" />
-
-
+<f-slider  to="100" :value="get('saturation', 67)" v-on:input="set('saturation', $event)" title="Adjust saturation" />
 
 
 
@@ -1611,49 +1607,67 @@ Use the knowledge about contrasts and harmonies which you just found out about. 
 
 
 <div>
-  <f-scene width="300" height="300">
+
+<center>
+
+  <f-scene width="400" height="300">
     <f-box 
-      width="4"
+      width="6"
       height="4"
       stroke="none"
-      :fill="hsb2hsl( get('h11', 300), get('s11', 100), get('l11', 100) )"
+      :fill="hsb2hsl( get('h11', 300), get('s11', 100), get('b11', 100) )"
     />
   </f-scene>
-  <f-slider set="h11" from="0" to="360" integer title="H" />
-  <f-slider set="s11" from="0" to="100" integer title="S" />
-  <f-slider set="l11" from="0" to="100" integer title="B" />
+
+</center>
+
+  <f-slider :value="get('h11', 300)" v-on:input="set('h11',$event)" from="0" to="360" integer title="H" />
+  <f-slider :value="get('s11', 100)" v-on:input="set('s11',$event)" from="0" to="100" integer title="S" />
+  <f-slider :value="get('b11', 100)" v-on:input="set('b11',$event)" from="0" to="100" integer title="B" />
 </div>
 
 -
 
 <div>
-  <f-scene width="300" height="300">
+
+<center>
+
+  <f-scene width="400" height="300">
     <f-box 
-      width="4"
+      width="6"
       height="4"
       stroke="none"
-      :fill="hsb2hsl( get('h22', 120) , get('s22', 100), get('l22', 100) )"
+      :fill="hsb2hsl( get('h21', 120) , get('s21', 100), get('b21', 100) )"
     />
   </f-scene>
-  <f-slider set="h22" from="0" to="360" integer title="H" />
-  <f-slider set="s22" from="0" to="100" integer title="S" />
-  <f-slider set="l22" from="0" to="100" integer title="B" />
+
+</center>
+
+  <f-slider :value="get('h21', 120)" v-on:input="set('h21',$event)" from="0" to="360" integer title="H" />
+  <f-slider :value="get('s21', 100)" v-on:input="set('s21',$event)" from="0" to="100" integer title="S" />
+  <f-slider :value="get('b21', 100)" v-on:input="set('b21',$event)" from="0" to="100" integer title="B" />
 </div>
 
 -
 
 <div>
-  <f-scene width="300" height="300">
+
+<center>
+
+  <f-scene width="400" height="300">
     <f-box 
-      width="4"
+      width="6"
       height="4"
       stroke="none"
-      :fill="hsb2hsl( get('h33', 180) , get('s33', 100), get('l33', 100) )"
+      :fill="hsb2hsl( get('h31', 180) , get('s31', 100), get('b31', 100) )"
     />
   </f-scene>
-  <f-slider set="h33" from="0" to="360" integer title="H" />
-  <f-slider set="s33" from="0" to="100" integer title="S" />
-  <f-slider set="l33" from="0" to="100" integer title="B" />
+
+</center>
+
+  <f-slider :value="get('h31', 180)" v-on:input="set('h31',$event)" from="0" to="360" integer title="H" />
+  <f-slider :value="get('s31', 100)" v-on:input="set('s31',$event)" from="0" to="100" integer title="S" />
+  <f-slider :value="get('b31', 100)" v-on:input="set('b31',$event)" from="0" to="100" integer title="B" />
 </div>
 
 -
