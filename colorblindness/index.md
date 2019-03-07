@@ -45,6 +45,11 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
+
+
+
+
+
 ---
 
 | 1 1 2 2 
@@ -111,6 +116,10 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 | height: fit
 | 1 2 2
+| 1 2 2
+| 1 2 2
+| 1 2 2
+| 3 3 3
 
 
 
@@ -122,12 +131,16 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 
 **Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
 
-<f-next-button title="Analyze your photos" style="margin:var(--base4) 0" />
-
-
 -
 
 <f-image src="images/explore-go-outside.jpg" />
+
+-
+
+<f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
+
+
+
 
 
 
@@ -226,6 +239,7 @@ Now that you found out about possible weak spots in the color design of objects 
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN 
 # Accessibility
@@ -246,13 +260,13 @@ Now that you found out about possible weak spots in the color design of objects 
 4. Further, find out about the difference between “accessibility” and “usability”.
 
 
-<f-next-button style="margin:var(--base6) 0" />
-
 -
 
 <f-image src="images/explain-yellow-door.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
 
+-
 
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
