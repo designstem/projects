@@ -23,7 +23,7 @@ export default {
     neutral: "rgb(255, 255, 255)",
     warm: "rgb(255, 197, 143)",
     lightColor: '',
-    dressSrc: './images/dress_03_nw.jpg',
+    dressSrc: './images/dress_03__nw.jpg',
     infoText: ''
   }),
   mounted() {
