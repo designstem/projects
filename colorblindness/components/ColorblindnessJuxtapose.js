@@ -6,6 +6,11 @@ for (const name in components) {
 
 export default{
   props: {
+    juxtId: {
+        type: String,
+        required: false,
+        default: 'juxt-canvas'
+    },
     imageUrl: {
       type: String,
       required: false,
@@ -97,7 +102,7 @@ export default{
       const _this = this;
       setTimeout(function(){
         //_this.juxt.ctx.putImageData(_this.cbImage.imageData, 0, 0);
-        _this.drawData2Canvas(_this.juxtPos);
+        _this.drawData2Canvas( _this.juxtPos );
       }, 500)
         
     },
@@ -124,7 +129,7 @@ export default{
         }
     },
     drawData2Canvas(xPos){
-                         
+        this.juxtPos = xPos;
         //this.juxt.ctx.save();
         this.juxt.ctx.putImageData(this.normalImage.imageData,  0, 0,    0, 0,      xPos, this.imgHeight);
         this.juxt.ctx.putImageData(this.cbImage.imageData,      0, 0,    xPos, 0,   this.imgWidth, this.imgHeight);
@@ -202,18 +207,15 @@ export default{
     fu(n) { 
       let nn = Math.round(n); 
       return(nn<0?0:(nn<255?nn:255)); 
+    },
+    revealed2Width(pos){
+        return this.imgWidth/100*pos;
     }
   },
-  computed:{
-    //   juxtPos: function(){
-    //     console.log("juxtPos");
-    //     return this.imgWidth/100*this.revealed;
-    //   } 
-  },
   mounted() {
-    //this.juxtPos = this.revealed;
+    this.juxtPos = this.revealed2Width(this.revealed);
     
-    this.juxt.canvas = document.getElementById('juxt-canvas');
+    this.juxt.canvas = document.getElementById( this.juxtId );
     this.juxt.ctx = this.juxt.canvas.getContext('2d');
     let img = new Image();
 
@@ -225,10 +227,11 @@ export default{
     };
   },
   watch: { 
-    revealed: function(newVal) { 
-        this.drawData2Canvas(newVal);
+    revealed(newVal) { 
+        this.juxtPos = this.revealed2Width(newVal);
+        this.drawData2Canvas(this.juxtPos);
     },
-    cbType: function(newVal) { 
+    cbType(newVal) { 
         this.changeColors(this.blindnessTypes[newVal], newVal);
         this.drawData2Canvas(this.juxtPos);
     }
@@ -236,13 +239,14 @@ export default{
   
   template: `
   <div>
-    <div class="cb-juxt" :style="[locked ? {'cursor':'default'} : {'cursor':'col-resize'}]">
-        <canvas id="juxt-canvas" :width="imgWidth" :height="imgHeight" 
+    {{revealed}} - {{juxtPos}}
+    <div class="cb-juxt" >
+        <canvas :id="juxtId" :width="imgWidth" :height="imgHeight" 
             @mousedown="mouseDown = true"
             @mousemove="mouseDrag"
             @mouseup="mouseDown = false"
             @click="mouseClick"
-            style="width:100%; height: auto;"
+            style="width:100%; height: auto;" :style="[locked ? {'cursor':'default'} : {'cursor':'col-resize'}]"
             ></canvas>
         <!-- <p class="cbs-canvas__info">{{activeType}}</p> -->
         <p class="cbs-canvas__status" v-if="imgStatus != false">{{ imgStatus }}</p>
@@ -257,7 +261,7 @@ export default{
   `,
   css: `
     .cb-juxt {
-      padding: 3vmin 0; 
+      padding-bottom: var(--base2); 
       position: relative;
     }
     

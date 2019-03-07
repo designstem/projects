@@ -1,20 +1,4 @@
 
-<button @click="set('cbType', 'Protanopia')">Protanopia</button>
-<button @click="set('cbType', 'Deuteranopia')">Deuteranopia</button>
-<button @click="set('cbType', 'Tritanopia')">Tritanopia</button>
-<button @click="set('cbType', 'Normal')">Normal</button>
-
--
-
-<ColorblindnessJuxtapose 
-  :imageUrl="'images/tomatoes-normal.jpg'" 
-  :revealed="200" 
-  :locked="false"
-  :cbType="get('cbType', 'Protanopia')"
-/>
-
----
-
 | height: fit
 | theme: yellow
 
@@ -77,21 +61,22 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 <f-hr style="margin-bottom:3vh;" />
 
 
-<button @click="set('revealX', 180)" v-if="get('revealX') < 100">Check your answer</button>
 
-<div v-if="get('revealX') == 180">
+<button @click="set('revealX', 25)" v-if="get('revealX') < 20">Check your answer</button>
+
+<div v-if="get('revealX') == 25">
 
   You see that tomato that appeared green is really red! What about the others? Do you want to make another guess?
 
   > **For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
 
-  <button @click="()=>{set('revealX', 360); set('revealLocked', false);}" style="margin-bottom:var(--base);">Open a bit more</button>
-  <button @click="()=>{set('revealX', 750); set('revealLocked', false);}">Show me everything</button>
+  <button @click="()=>{set('revealX', 40); set('revealLocked', false);}" style="margin-bottom:var(--base);">Open a bit more</button>
+  <button @click="()=>{set('revealX', 90); set('revealLocked', false);}">Show me everything</button>
 
 
 </div>
 
-<div v-if="get('revealX') > 300">
+<div v-if="get('revealX') > 35">
 
   > BTW, you can also drag or click the image to compare it
 
@@ -118,7 +103,7 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 -
 
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" :revealed="get('revealX',-3)" :locked="get('revealLocked', true)" />
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" />
 
 
 
@@ -165,17 +150,55 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 ---
 
 | id: cbSimulator
+| 1 1
+| 2 3
+| 4 4
+
+##### EXPLORE
+# Colorblindness types
 
 Simulate color vision deficiency by applying different filters.
 
 Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?
 
-
 <f-hr style="margin: var(--base6) 0" />
 
-<!-- <ColorblindnessSimulator :imageUrl="'images/before.jpg'" /> -->
-<ColorblindnessSimulator :imageUrl="'images/colorblind-subway.png'" />
+{{ set('cbType','Protanopia') }}
 
+-
+
+<f-card title="Protanopia" subtitle="missing RED" background="var(--lightergray)" color="var(--darkgray)" style="height: auto;margin-bottom:var(--base);" :style="get('cbType') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
+  <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
+  <button @click="set('cbType', 'Protanopia')" class="secondary button">Simulate Protanopia</button>
+</f-card>
+
+
+<f-card title="Deuteranopia" subtitle="missing GREEN" background="var(--lightergray)" color="var(--darkgray)" style="height: auto; margin-bottom:var(--base);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
+  <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
+  <button @click="set('cbType', 'Deuteranopia')" class="secondary button" >Simulate Deuteranopia</button>
+</f-card>
+
+<f-card title="Tritanopia" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" style="height: auto; margin-bottom:var(--base);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
+  <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
+  <button @click="set('cbType', 'Tritanopia')" class="secondary button" >Simulate Tritanopia</button>
+</f-card>
+
+
+<button @click="set('cbType', 'Normal')" style="margin:var(--base2)">Reset to normal</button>
+
+-
+
+<ColorblindnessJuxtapose 
+  :imageUrl="'images/tomatoes-normal.jpg'" 
+  :revealed="50" 
+  :locked="false"
+  :cbType="get('cbType', 'Protanopia')"
+/>
+
+
+<!-- <ColorblindnessSimulator :imageUrl="'images/before.jpg'" /> -->
+
+-
 
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -361,6 +384,7 @@ Color is derived from light, either natural or artificial. With little light, li
 <f-scene style=" background:black; border-radius: var(--border-radius);" width="400" height="400">
   <f-circle 
     v-for="(c,i) in ['red', 'lime', 'blue']" 
+    :key="'add'+i"
     :fill="c" 
     :x="polarx( i*(360/3), 0.7 )"  
     :y="polary( i*(360/3), 0.7 )" 
@@ -414,6 +438,7 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 <f-scene style=" border-radius: var(--border-radius);" width="400" height="400">
   <f-circle 
     v-for="(c,i) in ['magenta', 'cyan', 'yellow']" 
+    :key="'sub'+i"
     :fill="c" 
     :x="polarx( i*(360/3), 0.7 )"  
     :y="polary( i*(360/3), 0.7 )" 
@@ -1237,6 +1262,7 @@ In order to create a harmonious color palette, you can also use the color wheel.
 
 <f-artboard width="600" height="200" style="margin:var(--base4) 0">
   <f-box v-for="(c, i) in [0,6]" 
+    :key="'h1p'+i"
     :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
     :position="{x: 100 + i*200, y: 100 }"
     width="200"
@@ -1252,7 +1278,7 @@ In order to create a harmonious color palette, you can also use the color wheel.
   <f-group :rotation="45" :scale="1">
     <f-arc
       v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="c+i"
+      :key="'h1w'+i"
       :fill="hsl( hue2ai(c) )"
       stroke
       :start-angle="i*(360/12)"
@@ -1263,6 +1289,7 @@ In order to create a harmonious color palette, you can also use the color wheel.
     />
     <f-circle 
       v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+6]"
+      :key="'h1c'+i"
       :x="polarx(p*(360/12)+(360/24), 1.5)"
       :y="polary(p*(360/12)+(360/24), 1.5)"
       :r="i==0 ? 0.15 : 0.1"
@@ -1309,6 +1336,7 @@ If you want a color palette which is more harmonious than complementary palette,
 
 <f-artboard width="600" height="200" style="margin:var(--base4) 0">
   <f-box v-for="(c, i) in [0,5,7]" 
+    :key="'h2p'+i"
     :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
     :position="{x: 100 + i*200, y: 100 }"
     width="200"
@@ -1324,7 +1352,7 @@ If you want a color palette which is more harmonious than complementary palette,
   <f-group :rotation="45" :scale="1">
     <f-arc
       v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="c+i"
+      :key="'h2w'+i"
       :fill="hsl( hue2ai(c) )"
       stroke
       :start-angle="i*(360/12)"
@@ -1335,6 +1363,7 @@ If you want a color palette which is more harmonious than complementary palette,
     />
     <f-circle 
       v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
+      :key="'h2c'+i"
       :x="polarx(p*(360/12)+(360/24), 1.5)"
       :y="polary(p*(360/12)+(360/24), 1.5)"
       :r="i==0 ? 0.15 : 0.1"
@@ -1389,7 +1418,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
   <f-group :rotation="45" :scale="1">
     <f-arc
       v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="c+i"
+      :key="'h3w'+i"
       :fill="hsl( hue2ai(c) )"
       stroke
       :start-angle="i*(360/12)"
@@ -1399,7 +1428,8 @@ Triads with primary colors are garish. You get softer palettes with secondary or
       v-on:click.native="set('activeColor', i)"
     />
     <f-circle 
-      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+4,  get('activeColor', 0)+6, get('activeColor', 0)+10]"
+      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+4,  get('activeColor', 0)+6, get('activeColor', 0)+10]" 
+      :key="'h3c'+i"
       :x="polarx(p*(360/12)+(360/24), 1.5)"
       :y="polary(p*(360/12)+(360/24), 1.5)"
       :r="i==0 ? 0.15 : 0.1"
@@ -1412,6 +1442,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 
 <f-artboard width="600" height="200" style="margin:var(--base4) 0">
   <f-box v-for="(c, i) in [0,4,6,10]" 
+    :key="'h3p'+i"
     :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
     :position="{x: 75.5 + i*150, y: 100 }"
     width="150"
@@ -1436,7 +1467,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
   <f-group :rotation="45" :scale="1">
     <f-arc
       v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="c+i"
+      :key="'h4w'+i"
       :fill="hsl( hue2ai(c) )"
       stroke
       :start-angle="i*(360/12)"
@@ -1447,6 +1478,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
     />
     <f-circle 
       v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+3,  get('activeColor', 0)+9]"
+      :key="'h4c'+i"
       :x="polarx(p*(360/12)+(360/24), 1.5)"
       :y="polary(p*(360/12)+(360/24), 1.5)"
       :r="i==0 ? 0.15 : 0.1"
@@ -1459,6 +1491,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 
 <f-artboard width="600" height="200" style="margin:var(--base4) 0">
   <f-box v-for="(c, i) in [0,3,9]" 
+    :key="'h4p'+i"
     :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
     :position="{x: 100 + i*200, y: 100 }"
     width="200"
@@ -1502,6 +1535,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 
 <f-artboard width="600" height="200" style="margin:var(--base4) 0">
   <f-box v-for="(c, i) in [1,0,11]" 
+    :key="'h5p'+i"
     :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
     :position="{x: 100 + i*200, y: 100 }"
     width="200"
@@ -1517,7 +1551,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
   <f-group :rotation="45" :scale="1">
     <f-arc
       v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="c+i"
+      :key="'h5w'+i"
       :fill="hsl( hue2ai(c) )"
       stroke
       :start-angle="i*(360/12)"
@@ -1528,6 +1562,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
     />
     <f-circle 
       v-for="(p,i) in [get('activeColor', 0)+1,  get('activeColor', 0),  get('activeColor', 0)+11]"
+      :key="'h5c'+i"
       :x="polarx(p*(360/12)+(360/24), 1.5)"
       :y="polary(p*(360/12)+(360/24), 1.5)"
       :r="i==1 ? 0.15 : 0.1"
@@ -1607,7 +1642,7 @@ For monochromatic palettes you combine one hue with its different shades, either
   <f-group :rotation="45" :scale="1">
     <f-arc
       v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="c+i"
+      :key="'h6w'+i"
       :fill="hsl( hue2ai(c) )"
       stroke
       :start-angle="i*(360/12)"
@@ -1618,6 +1653,7 @@ For monochromatic palettes you combine one hue with its different shades, either
     />
     <f-circle 
       v-for="(p,i) in [get('activeColor', 0)]"
+      :key="'h6c'+i"
       :x="polarx(p*(360/12)+(360/24), 1.5)"
       :y="polary(p*(360/12)+(360/24), 1.5)"
       :r="i==0 ? 0.15 : 0.1"
