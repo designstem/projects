@@ -3,6 +3,9 @@
 | height: fit
 | theme: yellow
 
+<center>
+
+<div>
 
 # <big>Color Vision Deficiency & <br />Accessibility</big>
 
@@ -11,7 +14,23 @@
 (Richard Spencer, Kristin Kreer)
 
 
-<f-next-button title="Let's start" style="margin: var(--base10) 0;" /> 
+<f-next-button title="Let's start" style="margin: var(--base8) 0;" /> 
+
+
+<div style="opacity:0.2">
+<button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
+<button v-on:click="send('goto','3properties')" >3 properties</button> 
+<button v-on:click="send('goto','shampoo')">Shampoo</button>
+<button v-on:click="send('goto','task1')">Task 1</button>
+<button v-on:click="send('goto','complementary')">Color harmonies</button>
+<button v-on:click="send('goto','task2')">Task 2</button>
+<button v-on:click="send('goto','contrast')">Contrast</button>
+</div>
+
+
+</div>
+
+</center>
 
 
 <f-notes>
@@ -23,21 +42,6 @@
 The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
 
 </f-notes>
-
-<br />
-<button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
-<button v-on:click="send('goto','3properties')" >3 properties</button> 
-<button v-on:click="send('goto','shampoo')">Shampoo</button>
-<button v-on:click="send('goto','task1')">Task 1</button>
-<button v-on:click="send('goto','complementary')">Color harmonies</button>
-<button v-on:click="send('goto','task2')">Task 2</button>
-<button v-on:click="send('goto','contrast')">Contrast</button>
-
-
-
-
-
-
 
 
 
