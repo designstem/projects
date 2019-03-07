@@ -3,6 +3,7 @@ import Wall from "./components/Wall.js";
 import Lamp from "./components/Lamp.js";
 import Table from "./components/Table.js";
 import Clock from "./components/Clock.js";
+import Info from "./components/Info.js";
 
 export default {
   methods: { ...utils,
@@ -14,16 +15,23 @@ export default {
         intensity: .8,
         color: this.lightColor
       })
-    }
+    },
   },
-  components: {Wall, Lamp, Table, Clock},
+  components: {Wall, Lamp, Table, Clock, Info},
   data: () => ({
     cold: "rgb(201, 226, 255)",
     neutral: "rgb(255, 255, 255)",
     warm: "rgb(255, 197, 143)",
     lightColor: '',
-    dressSrc: './images/dress_03_nw.jpg'
+    dressSrc: './images/dress_03_nw.jpg',
+    infoText: ''
   }),
+  mounted() {
+    const that = this;
+    fetch('./dress.txt')
+      .then( r => r.text() )
+      .then( t => that.infoText = t );
+  },
   template: `
     <a-scene shadow="type: pcfsoft" debug >'
       <a-assets>
@@ -85,31 +93,10 @@ export default {
           <f-aframe-button @click.native="lightColor = cold; dressSrc = './images/dress_05_cw.jpg'" title="cold" position="-1.5 0 0" />
           <f-aframe-button @click.native="lightColor = neutral; dressSrc = './images/dress_03_nw.jpg'" title="neutral" position="0 0 0" />
           <f-aframe-button @click.native="lightColor = warm; dressSrc = './images/dress_01_ww.jpg'" title="warm" position="1.5 0 0" />
-          <!--<f-aframe-button @click.native="lightColor = 'red'" title="red" position="-1.3 .6 -1" />-->
-          <!--<f-aframe-button @click.native="lightColor = 'green'" title="green" position="0 .6 -1" />-->
-          <!--<f-aframe-button @click.native="lightColor = 'blue'" title="blue" position="1.3 .6 -1" />-->
         </a-entity>
       </Table>
-      <a-entity class="info-board" rotation="0 -80 0" position="3 0 -5">
-        <a-entity position="-.5 4.3 .1" scale=".5 .5 .5">
-          <a-plane material="color: #ccc" height=".1"></a-plane>
-          <a-plane material="color: #ccc" height=".1" width=".6" rotation="0 0 45" position="-.3 .19 0"></a-plane>
-          <a-plane material="color: #ccc" height=".1" width=".6" rotation="0 0 -45" position="-.3 -.19 0"></a-plane>
-        </a-entity>
-        <a-text position="-0.8 3 0.05" text="width: 1.6; color: #202020; lineHeight: 60;" 
-        value="The Dress \n 
-        In the example of the dress you have seen that the same object may look differently. 
-        Some might say it is white and gold, others see it as black and blue. But what is true? 
-        To find out more about colors and light you are going to do an experiment in a virtual learning environment. 
-        Use a computer or your smartphone (with a VR headset if possible) and enter the first experiment. \n
-        1. Make yourself familiar with the VR environment (moving, viewing, controls ...)
-        2. Experiment with the buttons on the table. Which effect do they have?
-        "></a-text>
-        <a-box material="shader: flat" position="0 3 0" geometry="depth: 0.05; width: 2; height: 3.5"></a-box>
-        <a-box position="0 1.8 -0.01" geometry="depth: 0.05; width: 2.2; height: 3.5"></a-box>
-      </a-entity>
-      <Clock scale="2 2 1" rotation="0 90 0" position="-9.9 6 -3.5"></Clock>
+      <Info rotation="0 -80 0" position="3 0 -5" :text="infoText"/>
+      <Clock scale="1.5 1.5 1" rotation="0 90 0" position="-9.9 6 -3.5"></Clock>
     </a-scene>
   `
 }
-
