@@ -109,15 +109,40 @@ export default{
             }
         }
     },
+    mouseClick(e){
+        if(this.locked){
+            return;
+        } else {
+            let rect = this.juxt.canvas.getBoundingClientRect();
+            let xPos = (e.clientX-rect.left)*(this.imgWidth/rect.width);
+            this.drawData2Canvas(xPos);
+        }
+    },
     drawData2Canvas(xPos){
                          
         //this.juxt.ctx.save();
         this.juxt.ctx.putImageData(this.normalImage.imageData,  0, 0,    0, 0,      xPos, this.imgHeight);
         this.juxt.ctx.putImageData(this.cbImage.imageData,      0, 0,    xPos, 0,   this.imgWidth, this.imgHeight);
+        
+        
+        this.juxt.ctx.lineWidth = 15;
+        this.juxt.ctx.strokeStyle = "#ffffff";
+        this.juxt.ctx.fillStyle = "#ff0000";
+
         this.juxt.ctx.beginPath();
-        this.juxt.ctx.moveTo(xPos, 0);
-        this.juxt.ctx.lineTo(xPos, this.imgHeight);
-        this.juxt.ctx.lineWidth = 5;
+        this.juxt.ctx.moveTo(xPos, 40);
+        this.juxt.ctx.lineTo(xPos+30, -5);
+        this.juxt.ctx.lineTo(xPos-30, -5);
+        this.juxt.ctx.closePath();
+        this.juxt.ctx.fill();
+        this.juxt.ctx.stroke();
+        this.juxt.ctx.beginPath();
+        this.juxt.ctx.moveTo(xPos, this.imgHeight - 40);
+        this.juxt.ctx.lineTo(xPos+30, this.imgHeight + 5);
+        this.juxt.ctx.lineTo(xPos-30, this.imgHeight + 5);
+        this.juxt.ctx.closePath();
+        
+        this.juxt.ctx.fill();
         this.juxt.ctx.stroke();
         //this.juxt.ctx.restore();
         
@@ -196,6 +221,7 @@ export default{
             @mousedown="mouseDown = true"
             @mousemove="mouseDrag"
             @mouseup="mouseDown = false"
+            @click="mouseClick"
             style="width:100%; height: auto;"
             ></canvas>
         <!-- <p class="cbs-canvas__info">{{activeType}}</p> -->
