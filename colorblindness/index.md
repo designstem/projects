@@ -1,4 +1,19 @@
 
+<button @click="set('cbType', 'Protanopia')">Protanopia</button>
+<button @click="set('cbType', 'Deuteranopia')">Deuteranopia</button>
+<button @click="set('cbType', 'Tritanopia')">Tritanopia</button>
+<button @click="set('cbType', 'Normal')">Normal</button>
+
+-
+
+<ColorblindnessJuxtapose 
+  :imageUrl="'images/tomatoes-normal.jpg'" 
+  :revealed="200" 
+  :locked="false"
+  :cbType="get('cbType', 'Protanopia')"
+/>
+
+---
 
 | height: fit
 | theme: yellow

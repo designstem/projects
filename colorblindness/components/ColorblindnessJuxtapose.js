@@ -11,10 +11,15 @@ export default{
       required: false,
       default: 'images/testtable.png'
     },
+    cbType: {
+        type: String,
+        required: false,
+        default: 'Protanopia'
+    },
     revealed: {
         type: Number,
         required: false,
-        default: 0
+        default: 50
     },
     locked: {
         type: Boolean,
@@ -84,7 +89,7 @@ export default{
       this.cbImage.imageData = this.juxt.ctx.getImageData(0, 0, this.imgWidth, this.imgHeight);
       this.cbImage.data = this.cbImage.imageData.data;
 
-      this.changeColors(this.blindnessTypes['Protanopia'], 'Protanopia');
+      this.changeColors(this.blindnessTypes[this.cbType], this.cbType);
       //console.log("scale " + scale + " img.width " + img.width + " imgWidth " + this.imgWidth);
 
       
@@ -92,7 +97,7 @@ export default{
       const _this = this;
       setTimeout(function(){
         //_this.juxt.ctx.putImageData(_this.cbImage.imageData, 0, 0);
-        _this.drawData2Canvas(_this.revealed);
+        _this.drawData2Canvas(_this.juxtPos);
       }, 500)
         
     },
@@ -125,9 +130,20 @@ export default{
         this.juxt.ctx.putImageData(this.cbImage.imageData,      0, 0,    xPos, 0,   this.imgWidth, this.imgHeight);
         
         
-        this.juxt.ctx.lineWidth = 15;
+        this.juxt.ctx.lineWidth = 10;
         this.juxt.ctx.strokeStyle = "#ffffff";
         this.juxt.ctx.fillStyle = "#ff0000";
+
+        this.juxt.ctx.beginPath();
+        this.juxt.ctx.moveTo(0, 5);
+        this.juxt.ctx.lineTo(this.imgWidth, 5);
+        this.juxt.ctx.closePath();
+        this.juxt.ctx.stroke();
+        this.juxt.ctx.beginPath();
+        this.juxt.ctx.moveTo(0, this.imgHeight-5);
+        this.juxt.ctx.lineTo(this.imgWidth, this.imgHeight-5);
+        this.juxt.ctx.closePath();
+        this.juxt.ctx.stroke();
 
         this.juxt.ctx.beginPath();
         this.juxt.ctx.moveTo(xPos, 40);
@@ -174,11 +190,6 @@ export default{
         this.cbImage.data[i+3] = newCol.A;
       }
 
-      //this.juxt.ctx.putImageData(this.cbImage.imageData, 0, 0);
-      // const _this = this;
-      // setTimeout(function(){
-      //  _this.juxt.ctx.putImageData(_this.cbImage.imageData, 0, 0);
-      // }, 500);
       this.imgStatus = false;
     },
     ColorMatrix(o,m) { 
@@ -193,14 +204,19 @@ export default{
       return(nn<0?0:(nn<255?nn:255)); 
     }
   },
+  computed:{
+    //   juxtPos: function(){
+    //     console.log("juxtPos");
+    //     return this.imgWidth/100*this.revealed;
+    //   } 
+  },
   mounted() {
-    this.juxtPos = this.revealed;
+    //this.juxtPos = this.revealed;
     
     this.juxt.canvas = document.getElementById('juxt-canvas');
     this.juxt.ctx = this.juxt.canvas.getContext('2d');
     let img = new Image();
-    //img.src = 'book-cover.jpg';
-    //img.src = 'images/testtable.png';
+
     img.src = this.imageUrl;
     const _this = this;
     img.onload = function() {
@@ -211,6 +227,10 @@ export default{
   watch: { 
     revealed: function(newVal) { 
         this.drawData2Canvas(newVal);
+    },
+    cbType: function(newVal) { 
+        this.changeColors(this.blindnessTypes[newVal], newVal);
+        this.drawData2Canvas(this.juxtPos);
     }
 },
   
