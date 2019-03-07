@@ -78,7 +78,7 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 <div v-if="get('revealX') > 300">
 
-  > BTW, you can also drag the black line between images to compare them
+  > BTW, you can also drag or click the image to compare it
 
   If you picked the right tomatoes, congratulations! 
 
@@ -96,7 +96,7 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
   
   #### Aim
 
-  Students  explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.
+  Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.
 
 </f-notes>
 
