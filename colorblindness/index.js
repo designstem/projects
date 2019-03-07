@@ -17,7 +17,7 @@ fachwerk({
   theme: "light",
   editor: "hide",
   pager: true,
-  home: true,
+  home: false,
   utils:  localutils 
 });
 

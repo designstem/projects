@@ -221,7 +221,8 @@ export default{
       left:0; 
       background:var(--darkestgray); 
       color:var(--white); 
-      padding:var(--base);
+      padding:0 var(--base);
+      font-size:  var(--base2);
     }
     .cbs-canvas__status {
       position: absolute; 
@@ -230,7 +231,8 @@ export default{
       z-iindex: 100;
       background:var(--darkestgray); 
       color:var(--white); 
-      padding:var(--base);
+      padding:0 var(--base);
+      font-size:  var(--base2);
     }
 
     input[type=file]::-webkit-file-upload-button {

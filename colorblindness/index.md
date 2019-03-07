@@ -159,7 +159,7 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 <f-hr style="margin: var(--base6) 0" />
 
 <!-- <ColorblindnessSimulator :imageUrl="'images/before.jpg'" /> -->
-<ColorblindnessSimulator :imageUrl="'images/crayons.jpg'" />
+<ColorblindnessSimulator :imageUrl="'images/colorblind-subway.png'" />
 
 
 <f-next-button style="margin:var(--base4) 0" />
@@ -324,6 +324,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 | 1 1 1
 | 2 2 3
+| 4 4 4
 
 ##### EXPLAIN 
 # Color mixing
@@ -340,8 +341,6 @@ Color is derived from light, either natural or artificial. With little light, li
 2. Find out where the RGB Model is used? 
 3. Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.
 
-<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
-
 -
 
 <f-scene style=" background:black; border-radius: var(--border-radius);" width="400" height="400">
@@ -354,6 +353,11 @@ Color is derived from light, either natural or artificial. With little light, li
     style="mix-blend-mode: screen; "
   />
 </f-scene>
+
+-
+
+<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
+
 
 
 
@@ -371,6 +375,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 | 1 1 1
 | 2 2 3
+| 4 4 4
 
 ##### EXPLAIN 
 # Color mixing
@@ -388,7 +393,6 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 1. The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.
 
-<f-next-button style="margin:var(--base6) 0"  />
 
 -
 
@@ -402,6 +406,10 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
     style="mix-blend-mode: multiply; "
   />
 </f-scene>
+
+-
+
+<f-next-button style="margin:var(--base6) 0"  />
 
 
 
@@ -589,6 +597,7 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN
 # Three properties of color
@@ -599,8 +608,6 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 -
 
 Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?
-
-<f-next-button title="Brightness" style="margin:var(--base6) 0" />
 
 -
 
@@ -628,7 +635,9 @@ Have a look at the following colors and find adjectives to describe them. For wh
   />
 </f-scene>
 
+-
 
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -643,6 +652,7 @@ Have a look at the following colors and find adjectives to describe them. For wh
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN
 # Three properties of color
@@ -654,8 +664,6 @@ Have a look at the following colors and find adjectives to describe them. For wh
 
 Here the brightness of each color is reduced to 50%, which means less light for the same hue.
 Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue. 
-
-<f-next-button title="Saturation" style="margin:var(--base6) 0" />
 
 -
 
@@ -709,7 +717,9 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 
 <f-slider  to="100" :value="get('brightness', 34)" v-on:input="set('brightness', $event)" title="Adjust brightness" />
 
+-
 
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -723,6 +733,7 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN
 # Three properties of color
@@ -735,7 +746,6 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
 Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
 
-<f-next-button style="margin:var(--base6) 0" />
 
 -
 
@@ -788,6 +798,11 @@ Describe the difference between low and high saturated colors with adjectives. W
 </f-scene>
 
 <f-slider  to="100" :value="get('saturation', 67)" v-on:input="set('saturation', $event)" title="Adjust saturation" />
+
+-
+
+<f-next-button style="margin:var(--base6) 0" />
+
 
 
 
@@ -894,6 +909,7 @@ If possible compare your results with someone and explain why you chose this col
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN
 # Color contrast and harmony
@@ -908,15 +924,13 @@ Designers create contrasting or allied color relationships/palettes to affect th
 
 > “The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” <br />*(Johannes Itten)*
 
-
-
-<f-next-button style="margin:var(--base6) 0" />
-
 -
 
 <f-image src="images/contrast-and-harmony-dots.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
 
+-
 
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -930,6 +944,7 @@ Designers create contrasting or allied color relationships/palettes to affect th
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN
 # Color contrast and harmony
@@ -942,11 +957,13 @@ But harmony not only exists if color combinations are made up by colors which ar
 
 Color contrasts can also be harmonious. Don’t equate contrast and harmony with ‘disagreeable’ and ‘agreeable’.
 
-<f-next-button style="margin:var(--base6) 0" />
-
 -
 
 <f-image src="images/contrast-and-harmony-cereal.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+-
+
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -962,6 +979,7 @@ Color contrasts can also be harmonious. Don’t equate contrast and harmony with
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN
 # Color contrast and harmony
@@ -977,11 +995,13 @@ In this example you have a **complementary contrast** of red and blue hues.
 It feels bolder and louder than the last picture with the cereal bowl, but still harmonious and pleasing to the eye.
 Therefore, don’t mix up color contrast with discord.
 
-<f-next-button style="margin:var(--base6) 0" />
-
 -
 
 <f-image src="images/contrast-and-harmony-candystore.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+-
+
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -1032,6 +1052,7 @@ Therefore, don’t mix up color contrast with discord.
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN
 # Color contrast and harmony
@@ -1062,13 +1083,13 @@ Which contrasts do you see?
 
 </f-inline>
 
-<f-next-button style="margin:var(--base6) 0" />
-
 -
 
 <f-image src="images/contrast-and-harmony-lake.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
 
+-
 
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -1083,6 +1104,7 @@ Which contrasts do you see?
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN 
 # Color contrast and harmony
@@ -1113,13 +1135,13 @@ Which contrasts do you see?
 
 </f-inline>
 
-<f-next-button style="margin:var(--base6) 0" />
-
 -
 
 <f-image src="images/contrast-snow.png" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
 
+-
 
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -1133,6 +1155,7 @@ Which contrasts do you see?
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN 
 # Color contrast and harmony
@@ -1161,11 +1184,14 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 </f-inline>
 
-<f-next-button style="margin:var(--base6) 0" />
-
 -
 
 <f-image src="images/contrast-red.png" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+-
+
+<f-next-button style="margin:var(--base6) 0" />
+
 
 
 
@@ -1180,6 +1206,7 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN 
 # Color contrast and harmony
@@ -1202,10 +1229,6 @@ In order to create a harmonious color palette, you can also use the color wheel.
     stroke
    />
 </f-artboard>
-
-<br />
-
-<f-next-button style="margin:var(--base6) 0" />
 
 -
 
@@ -1235,7 +1258,9 @@ In order to create a harmonious color palette, you can also use the color wheel.
 </f-scene>
 </center>
 
+-
 
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -1255,6 +1280,7 @@ In order to create a harmonious color palette, you can also use the color wheel.
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN 
 # Color contrast and harmony
@@ -1275,10 +1301,6 @@ If you want a color palette which is more harmonious than complementary palette,
     stroke
    />
 </f-artboard>
-
-<br />
-
-<f-next-button style="margin:var(--base6) 0" />
 
 -
 
@@ -1308,6 +1330,9 @@ If you want a color palette which is more harmonious than complementary palette,
 </f-scene>
 </center>
 
+-
+
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -1447,6 +1472,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN 
 # Color contrast and harmony
@@ -1468,10 +1494,6 @@ Triads with primary colors are garish. You get softer palettes with secondary or
     stroke
    />
 </f-artboard>
-
-<br />
-
-<f-next-button style="margin:var(--base6) 0" />
 
 -
 
@@ -1499,7 +1521,15 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 
   </f-group>
 </f-scene>
+
 </center>
+
+
+- 
+
+
+<f-next-button style="margin:var(--base6) 0" />
+
 
 
 
@@ -1514,6 +1544,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 
 | 1 1
 | 2 3
+| 4 4
 
 ##### EXPLAIN 
 # Color contrast and harmony
@@ -1554,10 +1585,6 @@ For monochromatic palettes you combine one hue with its different shades, either
    />
 </f-artboard>
 
-<br />
-
-<f-next-button style="margin:var(--base6) 0" />
-
 -
 
 <center>
@@ -1586,7 +1613,9 @@ For monochromatic palettes you combine one hue with its different shades, either
 </f-scene>
 </center>
 
+-
 
+<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -1608,8 +1637,10 @@ For monochromatic palettes you combine one hue with its different shades, either
 <f-hr style="margin:var(--base6) 0" />
 
 #### Change the given color palette so that:
-- It is more harmonious 
-- It is more prominent
+
+It stays as closely as possible to the original colors
+a) It is more harmonious 
+b) It is more prominent
 
 Use the knowledge about contrasts and harmonies which you just found out about. If possible, discuss your results with someone else.
 
