@@ -5,7 +5,7 @@
 
 <big>Intoduction to the scenario.</big> 
 
-<f-next-button title="Lets go" />
+<f-next-button title="Let's go" />
 
 ---
 
