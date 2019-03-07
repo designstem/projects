@@ -45,13 +45,14 @@ export default {
     <a-entity :rotation="sRot">
       <a-box :material="parseColor('purple')" position="0 .35 0" height=".8" width=".03" depth=".03"></a-box>
     </a-entity>
-    <a-entity v-for="marker in 12" :rotation=rotateMarkers(marker,30)>
+    <a-entity v-for="marker in 12" position="0 0 -0.03" :rotation=rotateMarkers(marker,30)>
       <a-box :material="parseColor('gray')" position="0 .9 0" height=".2" width=".03" depth=".01"></a-box>
     </a-entity>
-    <a-entity v-for="marker in 60" :rotation=rotateMarkers(marker,6)>
+    <a-entity v-for="marker in 60" position="0 0 -0.03" :rotation=rotateMarkers(marker,6)>
       <a-box :material="parseColor('gray')" position="0 .95 0" height=".1" width=".01" depth=".01"></a-box>
     </a-entity>
     <a-cylinder :material="parseColor('lightergray')" rotation="90 0 0" height=".1" position="0 0 -.1"></a-cylinder>
+    <a-image src="./images/designstem_logo.png" material="shader: flat" shadow="cast: false" position="0 -0.31602 -0.04" scale="0.7 0.3 1"></a-image>
   </a-entity>
   `
 };
