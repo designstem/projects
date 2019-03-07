@@ -28,6 +28,8 @@ The students’ awareness should be raised for the problems people with color vi
 <button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
 <button v-on:click="send('goto','3properties')" >3 properties</button> 
 <button v-on:click="send('goto','shampoo')">Shampoo</button>
+<button v-on:click="send('goto','task1')">Task 1</button>
+<button v-on:click="send('goto','complementary')">Color harmonies</button>
 <button v-on:click="send('goto',12)" >Jump to working slide</button>
 
 
@@ -514,6 +516,16 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 <!-- </section> -->
 </f-inline>
 
+
+
+
+
+
+
+
+
+
+
 ---
 
 ##### EXPLAIN
@@ -649,6 +661,16 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 </div>
 </f-inline>
 
+
+
+
+
+
+
+
+
+
+
 ---
 
 ##### EXPLAIN
@@ -751,7 +773,9 @@ Choose a color which could be used as primary color for the following products:
 - shampoo for men 60+
 - Unisex shampoo
 
-#### All the shampoos smell like apples.
+#### All the shampoos smell like apples 
+
+<!-- 🍎 🍏 -->
 
 If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
 
@@ -774,12 +798,12 @@ If possible compare your results with someone and explain why you chose this col
       width="4"
       height="4"
       stroke="none"
-      :fill="hsl( get('h1', 0), get('s1', 0), get('l1', 0) )"
+      :fill="hsb2hsl( get('h1', 0), get('s1', 0), get('l1', 0) )"
     />
   </f-scene>
   <f-slider set="h1" from="0" to="360" integer title="H" />
   <f-slider set="s1" from="0" to="100" integer title="S" />
-  <f-slider set="l1" from="0" to="100" integer title="L" />
+  <f-slider set="l1" from="0" to="100" integer title="B" />
 </div>
 
 -
@@ -791,12 +815,12 @@ If possible compare your results with someone and explain why you chose this col
       width="4"
       height="4"
       stroke="none"
-      :fill="hsl( get('h2', 0) , get('s2', 0), get('l2', 0) )"
+      :fill="hsb2hsl( get('h2', 0) , get('s2', 0), get('l2', 0) )"
     />
   </f-scene>
   <f-slider set="h2" from="0" to="360" integer title="H" />
   <f-slider set="s2" from="0" to="100" integer title="S" />
-  <f-slider set="l2" from="0" to="100" integer title="L" />
+  <f-slider set="l2" from="0" to="100" integer title="B" />
 </div>
 
 -
@@ -808,17 +832,27 @@ If possible compare your results with someone and explain why you chose this col
       width="4"
       height="4"
       stroke="none"
-      :fill="hsl( get('h3', 0) , get('s3', 0), get('l3', 0) )"
+      :fill="hsb2hsl( get('h3', 0) , get('s3', 0), get('l3', 0) )"
     />
   </f-scene>
   <f-slider set="h3" from="0" to="360" integer title="H" />
   <f-slider set="s3" from="0" to="100" integer title="S" />
-  <f-slider set="l3" from="0" to="100" integer title="L" />
+  <f-slider set="l3" from="0" to="100" integer title="B" />
 </div>
 
 -
 
-<f-next-button />
+<f-next-button style="margin:var(--base4) 0;" />
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -845,6 +879,8 @@ Designers create contrasting or allied color relationships/palettes to affect th
 -
 
 <f-image src="images/contrast-and-harmony-dots.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
 
 
 
@@ -952,7 +988,11 @@ Therefore, don’t mix up color contrast with discord.
 
 
 
+
+
 ---
+
+| id: task1
 
 | 1 1
 | 2 3
@@ -977,7 +1017,7 @@ Which contrasts do you see?
   ['Simultaneous contrast', false],
   ['Contrast of saturation', true],
   ['Contrast of extension', false]
-]" :key="i">
+]" :key="i" style="margin-top:var(--base3)">
   <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
     <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
     <span v-else-if="get('contrast'+i) == true">👍</span>
@@ -991,6 +1031,8 @@ Which contrasts do you see?
 -
 
 <f-image src="images/contrast-and-harmony-lake.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
 
 
 
@@ -1026,7 +1068,7 @@ Which contrasts do you see?
   ['Simultaneous contrast', false],
   ['Contrast of saturation', false],
   ['Contrast of extension', true]
-]" :key="i">
+]" :key="i" style="margin-top:var(--base3)">
   <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
     <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
     <span v-else-if="get('contrast'+i) == true">👍</span>
@@ -1053,23 +1095,18 @@ Which contrasts do you see?
 
 ---
 
-| 1 1 1
-| 2 2 3
-| 4 4 4
+| 1 1
+| 2 3
 
-# EXPLAIN | Color contrast and harmony 6
+##### EXPLAIN 
+# Color contrast and harmony
+## Task 1
 
-### Task 1: 
+<f-hr  style="margin:var(--base6) 0" />
+
+-
 
 Find out about the seven contrasts online and match them with the pictures. Which contrasts do you see?
-
-<f-hr />
-
--
-
-<f-image src="images/contrast-red.png" style="height: 35vw !important; background-position: 50% 50% !important" />
-
--
 
 <f-inline v-for="(contrast, i) in [ 
   ['Contrast of hue' , false], 
@@ -1079,7 +1116,7 @@ Find out about the seven contrasts online and match them with the pictures. Whic
   ['Simultaneous contrast', true], 
   ['Contrast of saturation', true],
   ['Contrast of extension', true]
-]" :key="i">
+]" :key="i" style="margin-top:var(--base3)">
   <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
     <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
     <span v-else-if="get('contrast'+i) == true">👍</span>
@@ -1088,10 +1125,14 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 </f-inline>
 
+<f-next-button style="margin:var(--base6) 0" />
 
 -
 
-<f-next-button />
+<f-image src="images/contrast-red.png" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+
+
+
 
 
 
@@ -1099,8 +1140,39 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 
 ---
 
+| id: complementary
 
-<f-scene width="300" height="300" grid>
+| 1 1
+| 2 3
+
+##### EXPLAIN 
+# Color contrast and harmony
+## Complementary palette
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
+
+In order to create a harmonious color palette, you can also use the color wheel.
+
+**Complementary colors** are high in contrast and have a very bold and aggressive effect. 
+
+<f-artboard width="600" height="200" style="margin:var(--base4) 0">
+  <f-box v-for="(c, i) in [0,6]" 
+    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
+    :position="{x: 100 + i*200, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   />
+</f-artboard>
+
+<f-next-button style="margin:var(--base6) 0" />
+
+-
+
+<center>
+<f-scene width="400" height="400">
   <f-group :rotation="45" :scale="1">
     <f-arc
       v-for="(c,i) in range(0, 359, 360/12)" 
@@ -1113,28 +1185,50 @@ Find out about the seven contrasts online and match them with the pictures. Whic
       :inner-radius="0.75"
       v-on:click.native="set('activeColor', i)"
     />
-    <!-- <f-arc
-      v-for="(c,i) in aihues()" 
-      :key="c+i"
-      :fill="hsl( c )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    /> -->
     <f-circle 
-      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
+      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+6]"
       :x="polarx(p*(360/12)+(360/24), 1.5)"
       :y="polary(p*(360/12)+(360/24), 1.5)"
-      r="0.2"
-      fill="white"  
+      :r="i==0 ? 0.15 : 0.1"
+      :fill="i==0 ? 'white' : 'black'"  
     />
+
   </f-group>
 </f-scene>
+</center>
 
-<f-artboard width="600" height="200">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+| id: split complementary
+
+| 1 1
+| 2 3
+
+##### EXPLAIN 
+# Color contrast and harmony
+## Split complementary palette
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
+ 
+If you want a color palette which is more harmonious than complementary palette, but still bold, you might want to try a **split complementary palette**.
+
+<f-artboard width="600" height="200" style="margin:var(--base4) 0">
   <f-box v-for="(c, i) in [0,5,7]" 
     :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
     :position="{x: 100 + i*200, y: 100 }"
@@ -1142,25 +1236,313 @@ Find out about the seven contrasts online and match them with the pictures. Whic
     height="200"
     stroke
    />
-   <!-- <f-box v-for="(c, i) in [0, 5, 7 ]" 
-    :fill="hsl( aihues()[ get('activeColor',0 )] + c*30 )"
+</f-artboard>
+
+<f-next-button style="margin:var(--base6) 0" />
+
+-
+
+<center>
+<f-scene width="400" height="400">
+  <f-group :rotation="45" :scale="1">
+    <f-arc
+      v-for="(c,i) in range(0, 359, 360/12)" 
+      :key="c+i"
+      :fill="hsl( hue2ai(c) )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    />
+    <f-circle 
+      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
+      :x="polarx(p*(360/12)+(360/24), 1.5)"
+      :y="polary(p*(360/12)+(360/24), 1.5)"
+      :r="i==0 ? 0.15 : 0.1"
+      :fill="i==0 ? 'white' : 'black'"  
+    />
+
+  </f-group>
+</f-scene>
+</center>
+
+
+
+
+
+
+
+
+
+---
+
+
+| 1 1
+| 2 2
+| 3 4
+| 5 5
+
+##### EXPLAIN 
+# Color contrast and harmony
+## Double complementary and triadic palettes
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
+ 
+Besides split complementary palettes, there are also **double complementary** and **triadic palettes** which form bold contrasts.
+
+Triads with primary colors are garish. You get softer palettes with secondary or tertiary colors. As for double complementary palettes be careful not to use equal volumes of the four colors. This can have a piercing effect.
+
+<f-hr  style="margin:var(--base4) 0; visibility:hidden;" />
+
+-
+
+
+#### Double complementary
+
+<center>
+
+<f-scene width="400" height="400">
+  <f-group :rotation="45" :scale="1">
+    <f-arc
+      v-for="(c,i) in range(0, 359, 360/12)" 
+      :key="c+i"
+      :fill="hsl( hue2ai(c) )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    />
+    <f-circle 
+      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+4,  get('activeColor', 0)+6, get('activeColor', 0)+10]"
+      :x="polarx(p*(360/12)+(360/24), 1.5)"
+      :y="polary(p*(360/12)+(360/24), 1.5)"
+      :r="i==0 ? 0.15 : 0.1"
+      :fill="i==0 ? 'white' : 'black'"  
+    />
+  </f-group>
+</f-scene>
+
+</center>
+
+<f-artboard width="600" height="200" style="margin:var(--base4) 0">
+  <f-box v-for="(c, i) in [0,4,6,10]" 
+    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
+    :position="{x: 75.5 + i*150, y: 100 }"
+    width="150"
+    height="200"
+    stroke
+   />
+</f-artboard>
+
+
+
+
+-
+
+
+
+
+#### Triadic
+
+<center>
+
+<f-scene width="400" height="400">
+  <f-group :rotation="45" :scale="1">
+    <f-arc
+      v-for="(c,i) in range(0, 359, 360/12)" 
+      :key="c+i"
+      :fill="hsl( hue2ai(c) )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    />
+    <f-circle 
+      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+3,  get('activeColor', 0)+9]"
+      :x="polarx(p*(360/12)+(360/24), 1.5)"
+      :y="polary(p*(360/12)+(360/24), 1.5)"
+      :r="i==0 ? 0.15 : 0.1"
+      :fill="i==0 ? 'white' : 'black'"  
+    />
+  </f-group>
+</f-scene>
+
+</center>
+
+<f-artboard width="600" height="200" style="margin:var(--base4) 0">
+  <f-box v-for="(c, i) in [0,3,9]" 
+    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
     :position="{x: 100 + i*200, y: 100 }"
     width="200"
     height="200"
     stroke
-   /> -->
+   />
 </f-artboard>
 
-<button v-on:click="set('activeColor', 6)">KLIKK</button>
 
-<f-slider set="activeColor" from="0" to="11" integer />
 
-<h1 >
-<!-- {{ ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (4*(360/12)))) % 360 }}  -->
+-
 
-</h1>
+<f-next-button style="margin:var(--base6) 0" />
+
+
+
+
+
+
+
+
 
 ---
+
+| id: analoguous
+
+| 1 1
+| 2 3
+
+##### EXPLAIN 
+# Color contrast and harmony
+## Analoguous palette
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
+ 
+Analogous palettes are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel,they are equally spaced from each other.
+
+
+<f-artboard width="600" height="200" style="margin:var(--base4) 0">
+  <f-box v-for="(c, i) in [1,0,11]" 
+    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
+    :position="{x: 100 + i*200, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   />
+</f-artboard>
+
+<f-next-button style="margin:var(--base6) 0" />
+
+-
+
+<center>
+<f-scene width="400" height="400">
+  <f-group :rotation="45" :scale="1">
+    <f-arc
+      v-for="(c,i) in range(0, 359, 360/12)" 
+      :key="c+i"
+      :fill="hsl( hue2ai(c) )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    />
+    <f-circle 
+      v-for="(p,i) in [get('activeColor', 0)+1,  get('activeColor', 0),  get('activeColor', 0)+11]"
+      :x="polarx(p*(360/12)+(360/24), 1.5)"
+      :y="polary(p*(360/12)+(360/24), 1.5)"
+      :r="i==1 ? 0.15 : 0.1"
+      :fill="i==1 ? 'white' : 'black'"  
+    />
+
+  </f-group>
+</f-scene>
+</center>
+
+
+
+
+
+
+
+
+---
+
+| id: monochromatic
+
+| 1 1
+| 2 3
+
+##### EXPLAIN 
+# Color contrast and harmony
+## Monochromatic palette
+
+<f-hr  style="margin:var(--base6) 0" />
+
+-
+ 
+Analogous palettes are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel,they are equally spaced from each other.
+
+
+<f-artboard width="600" height="200" style="margin:var(--base4) 0">
+  
+   <f-box 
+    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 35 )"
+    :position="{x: 100, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   />
+   <f-box 
+    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 50 )"
+    :position="{x: 300, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   />
+   <f-box 
+    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 65 )"
+    :position="{x: 500, y: 100 }"
+    width="200"
+    height="200"
+    stroke
+   />
+</f-artboard>
+
+<f-next-button style="margin:var(--base6) 0" />
+
+-
+
+<center>
+<f-scene width="400" height="400">
+  <f-group :rotation="45" :scale="1">
+    <f-arc
+      v-for="(c,i) in range(0, 359, 360/12)" 
+      :key="c+i"
+      :fill="hsl( hue2ai(c) )"
+      stroke
+      :start-angle="i*(360/12)"
+      :end-angle="(i+1)*(360/12)"
+      :r="2"
+      :inner-radius="0.75"
+      v-on:click.native="set('activeColor', i)"
+    />
+    <f-circle 
+      v-for="(p,i) in [get('activeColor', 0)]"
+      :x="polarx(p*(360/12)+(360/24), 1.5)"
+      :y="polary(p*(360/12)+(360/24), 1.5)"
+      :r="i==0 ? 0.15 : 0.1"
+      :fill="i==0 ? 'white' : 'black'"  
+    />
+
+  </f-group>
+</f-scene>
+</center>
+
+
+
+
+
 
 
 ---
