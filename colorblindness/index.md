@@ -147,6 +147,26 @@ Take a digital camera, e.g. the camera of your mobile phone, and go on a photo s
 
 
 
+
+
+
+<!-- 
+
+ SSSSSS    IIIIIII    M     M    U     U    L           AAAA     TTTTTTT     OOOOO     RRRRRR 
+S             I       M M  MM    U     U    L          A    A       T       O     O    R     R
+ SSSSS        I       M  M  M    U     U    L          A    A       T       O     O    R     R
+      S       I       M     M    U     U    L          AAAAAA       T       O     O    RRRRRR 
+SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOOOO     R    R
+
+ -->
+
+
+
+
+
+
+
+
 ---
 
 | id: cbSimulator
@@ -189,7 +209,7 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 -
 
 <ColorblindnessJuxtapose 
-  :imageUrl="'images/tomatoes-normal.jpg'" 
+  :imageUrl="'images/colorblind-subway.png'" 
   :revealed="50" 
   :locked="false"
   :cbType="get('cbType', 'Protanopia')"
@@ -334,8 +354,32 @@ Now that you found out about possible weak spots in the color design of objects 
 
 
 
----
 
+
+
+
+
+
+
+<!-- 
+
+M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
+MM   MM       I        X   X        I       NN    N    G      
+M  M  M       I          X          I       N  N  N    G   GGG
+M     M       I        X   X        I       N    NN    G     G
+M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG 
+
+-->
+
+
+
+
+
+
+
+
+
+---
 
 ##### EXPLAIN 
 # Color mixing
@@ -450,6 +494,9 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 -
 
 <f-next-button style="margin:var(--base6) 0"  />
+
+
+
 
 
 
@@ -581,6 +628,22 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 
 
+
+
+<!--
+
+333333          PPPPPP     RRRRRR      OOOOO     PPPPPP      SSSSSS
+      3         P     P    R     R    O     O    P     P    S      
+  3333          P     P    R     R    O     O    P     P     SSSSS 
+      3         PPPPPP     RRRRRR     O     O    PPPPPP           S
+333333          P          R    R      OOOOO     P          SSSSSS  
+
+-->
+
+
+
+
+
 ---
 
 | id: 3properties
@@ -622,6 +685,10 @@ Both are greens, but they have different effects. Most people wouldn’t call th
     :fill="hsl(123,100,51)"
   />
 </f-scene>
+
+
+
+
 
 
 
@@ -678,6 +745,10 @@ Have a look at the following colors and find adjectives to describe them. For wh
 -
 
 <f-next-button style="margin:var(--base6) 0" />
+
+
+
+
 
 
 
@@ -769,6 +840,13 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 
 
 
+
+
+
+
+
+
+
 ---
 
 | 1 1
@@ -842,6 +920,12 @@ Describe the difference between low and high saturated colors with adjectives. W
 -
 
 <f-next-button style="margin:var(--base6) 0" />
+
+
+
+
+
+
 
 
 
@@ -934,6 +1018,31 @@ If possible compare your results with someone and explain why you chose this col
 -
 
 <f-next-button style="margin:var(--base4) 0;" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+H     H     AAAAA     RRRRRR     M     M     OOOOO     N     N    Y     Y
+H     H    A     A    R     R    MM   MM    O     O    NN    N    Y     Y
+HHHHHHH    A     A    R     R    M  M  M    O     O    N  N  N     YYYYY
+H     H    AAAAAAA    RRRRRR     M     M    O     O    N    NN       Y 
+H     H    A     A    R     R    M     M     OOOOO     N     N       Y
+
+-->
+
 
 
 

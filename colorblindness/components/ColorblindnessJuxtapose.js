@@ -48,7 +48,7 @@ export default{
       },
       
       activeType: "Choose one above",
-      imgStatus : false,
+      imgStatus : "loading...",
 
       imgWidth : 600,
       imgHeight: 600,
@@ -173,7 +173,7 @@ export default{
       const _this = this;
       reader.onload = function(event){
         _this.activeType = "";
-        _this.imgStatus = "Loading image..";
+        _this.imgStatus = "Loading...";
         const img = new Image();
         img.src = event.target.result;
         img.onload = function(){
@@ -195,7 +195,7 @@ export default{
         this.cbImage.data[i+3] = newCol.A;
       }
 
-      this.imgStatus = false;
+      this.imgStatus = this.activeType;
     },
     ColorMatrix(o,m) { 
       let r=((o.R*m[0])+(o.G*m[1])+(o.B*m[2])+(o.A*m[3])+m[4]);
@@ -239,7 +239,7 @@ export default{
   
   template: `
   <div>
-    {{revealed}} - {{juxtPos}}
+    <!-- {{revealed}} - {{juxtPos}} -->
     <div class="cb-juxt" >
         <canvas :id="juxtId" :width="imgWidth" :height="imgHeight" 
             @mousedown="mouseDown = true"
@@ -266,23 +266,24 @@ export default{
     }
     
     .cbs-canvas__info {
-        position: absolute; 
-        top:100px; 
-        left:0; 
-        z-index: 99;
-        background:var(--darkestgray); 
-        color:var(--white); 
-        padding:var(--base);
-      }
-      .cbs-canvas__status {
-        position: absolute; 
-        top:50%; 
-        left:0; 
-        z-index: 100;
-        background:var(--darkestgray); 
-        color:var(--white); 
-        padding:var(--base);
-      }
+      position: absolute; 
+      top:100px; 
+      left:0; 
+      z-index: 99;
+      background:var(--darkestgray); 
+      color:var(--white); 
+      padding:var(--base);
+    }
+    .cbs-canvas__status {
+      position: absolute; 
+      top:-30px; 
+      right:0; 
+      z-index: 100;
+      font-size: var(--base2);
+      background:var(--darkestgray); 
+      color:var(--white); 
+      padding:0 var(--base);
+    }
     input[type=file]::-webkit-file-upload-button {
       padding: calc(var(--base) * 1.5) calc(var(--base) * 2);
       display: inline-flex;
@@ -291,7 +292,7 @@ export default{
       font-weight: bold;
       cursor: pointer;
       border: none;
-      background: var(--purple);
+      background: var(--darkestgray);
     }
   `
 };
