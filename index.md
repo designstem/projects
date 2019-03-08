@@ -1,6 +1,6 @@
 | theme: light
 
-# <big>DesignSTEM (work in progress, Kristjan will present later)</big>
+# <big>DesignSTEM</big>
 
 <big><big>Science, Technology, Engineering and Math for future designers and craftsmen. Learn STEM topics in fun, visual and interactive way. Our learning scenarios are powered by <a href="https://designstem.github.io/fachwerk"> designstem.github.io/fachwerk</a> framework, development progress can be tracked here <a href="https://designstem.github.io/homepage"> designstem.github.io/homepage</a></big></big>
 
@@ -11,11 +11,10 @@
 <div class="grid" style="--cols: 1fr 1fr 1fr">
 
 <div v-for="(s,i) in [
-  {title: 'Algorithms we live by', url: 'algorithms', desc: 'If it walks like an algorithm, if it walks like an alorithm it is proably an algorithm', d1: 10, d2: 30, tags: ['Math', 'Algorithms', 'Generative art','Parametric design']},
-  {title: 'Smart Tattoo', d1: 20, d2: 40, url: 'tattoo',desc: 'Design, simulate and apply a biosensitive tatoo, reacting to your body condition', tags: ['Biology', 'Biosensors','Data visualization', 'Universal design']},
-  {title: 'Frequency & Movement', d1: 10, d2: 60, url: 'frequency', desc: 'Learn about the illusion of movement from early cinema to the latest GIF memes',tags:['Physics','Optics','Vision','Movement','Motion design']},
-]" :key="i" >
-<a :href="'./' + s.url">
+  {title: 'Sample scenario', url: 'algorithms', desc: 'Description will be here', d1: 10, d2: 30, tags: ['Math', 'Algorithms', 'Generative art','Parametric design']},
+  {title: 'Sample scenario', d1: 20, d2: 40, url: 'tattoo',desc: 'Description will be here', tags: ['Biology', 'Biosensors','Data visualization', 'Universal design']},
+  {title: 'Sample scenario', d1: 10, d2: 60, url: 'frequency', desc: 'Description will be here',tags:['Physics','Optics','Vision','Movement','Motion design']},
+]" :key="i"><a href="./index1.html">
 <f-card style="border: 0px solid var(--primary); font-weight: normal;" >
 <center style="height: 250px"><f-flower /></center>
 
@@ -58,10 +57,11 @@ Quickrun <b>{{ s.d1 }}min</b>&nbsp;&nbsp;&nbsp;Complete <b>{{ s.d2 }}m</b>
 <div class="grid" style="--cols: 1fr 1fr 1fr 1fr 1fr">
 
 <div v-for="(s,i) in ['From bits to channels to colors','Color blindness and design','Message with matural dyes','Easing and stop motion', 'Bees and packaging','Magic of Metamerism','Patterns in three dimensions','Swim in Plastic soup','(Do not) blow up you pottery oven','Build your own RGB lamp','Throw the dice down the stairs','Design with pyramds','From geometry to organic objects']" :key="i">
+<a href="./index1.html">
 <f-card style="border: 0px solid var(--primary); font-weight: normal;" :color="color('yellow')">
 <center style="height: 150px"><f-flower2 /></center>
 
-<h5 style="color: var(--darkgray);">{{ s }}</h5>
+<h5 style="color: var(--darkgray);">Sample scenario</h5>
 
 <f-inline>
 <f-clock
@@ -75,7 +75,7 @@ Quickrun <b>{{ s.d1 }}min</b>&nbsp;&nbsp;&nbsp;Complete <b>{{ s.d2 }}m</b>
 </f-inline>
 
 </f-card>
-
+</a>
 </div>
 
 </div>
@@ -85,8 +85,6 @@ Quickrun <b>{{ s.d1 }}min</b>&nbsp;&nbsp;&nbsp;Complete <b>{{ s.d2 }}m</b>
 ## Who are we?
 
 <big><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We are educators, teachers, designers and engineers from 10 countries around Europe: 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪</big></big>
-
-
 
 
 

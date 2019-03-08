@@ -12,9 +12,9 @@ fachwerk({
   pager: false,
   type: 'document',
   header: [
-    { title: "Scenarios", src: "https://designstem.github.io/scenarios" },
-    { title: "Project progress", src: "https://designstem.github.io/homepage" },
-    { title: "Framework", src: "https://designstem.github.io/homepage" },
+    { title: "Frontpage proposal", src: "https://designstem.github.io/scenarios" },
+    { title: "Scenarios", src: "https://designstem.github.io/homepage" },
+    { title: "Framework", src: "https://designstem.github.io/fachwerk" },
     { title: "Github", src: "https://designstem.github.io" }
   ],
   footer: true
