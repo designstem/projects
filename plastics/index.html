@@ -3,11 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/katex/dist/katex.min.css">
   <link rel="stylesheet" href="https://designstem.github.io/fachwerk/fachwerk.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Plastics</title>
 	<link rel="stylesheet" href="css/style.css">	
-  <script type="text/javascript" src="js/loader.js"></script>
+  <!--<script type="text/javascript" src="js/loader.js"></script>-->
+  <script src="https://unpkg.com/vue@2.5"></script>
     
   <style>
     img {
@@ -17,7 +20,7 @@
   </style>
 
 <!--<script src="https://designstem.github.io/framework/vendor.js"></script>-->
-<script src="https://unpkg.com/vue@2.5"></script>
+<script src="https://designstem.github.io/fachwerk/vendor.js"></script>
   
   <div id="app">
     <header>
@@ -44,34 +47,75 @@
           
 
         
-        <div id='example-3'>       
-          <input type="radio" name="plastic" id="pet" value="PET" v-model="picked">
+        <div id='example-3'> 
+          <!--<div class="form-group">-->
+          <select class="form-control" id="plastic" name="plastic" v-model="picked">
+            <option selected>---</option>
+            <option value="PET" >PET</option>
+            <option value="LDPE" >LDPE</option>
+            <option value="PP" >PP</option>
+            <option value="HDPE" >HDPE</option>
+            <option value="PVC" >PVC</option>
+            <option value="PS" >PS</option>
+          </select>      
+          <!--</div>-->
+          <!--<input type="radio" name="plastic" id="pet" value="PET" v-model="picked">
           <label for="pet">PET (polyethylene terephthalate)</label>          
           <input type="radio" name="plastic" id="ldpe" value="LDPE" v-model="picked">
           <label for="ldpe">LDPE (low-density polyethylene)</label>
           <input type="radio" name="plastic" id="pp" value="PP" v-model="picked">
-          <label for="pp">PP (polypropylene)</label>          
+          <label for="pp">PP (polypropylene)</label>  -->        
           <br>
           <div style="color:red">Plastic Choice: {{ picked }}</div>
           <br><br>
           <div v-if="picked === 'PET'">        
             Density: 1.34-1.38 g/cm3 
-            <br>(sinks in fresh water and salt water)<br><br>
-            <div style="text-align: center"><img src="img/simbolo_pet.jpg" width="60px" height="90px"></div>
+            <br>(sinks in fresh water and salt water, alcohol, vegetable oil, glycerin)<br><br>
+            <div style="text-align: center"><img src="img/simbolo_pet.svg" width="60px" height="90px"></div>
           </div>
           <div v-else-if="picked === 'LDPE'">
             Density: 0.926-0-940 g/cm3 
-            <br>(floats in fresh water and salt water)<br><br>
-            <div style="text-align: center"><img src="img/simbolo_ldpe.png" width="60px" height="90px"></div>
+            <br>(floats in fresh water and salt water, glycerin, alcohol. Sinks in vegetable oil)<br><br>
+            <div style="text-align: center"><img src="img/simbolo_ldpe.svg" width="60px" height="90px"></div>
           </div>
           <div v-else-if="picked === 'PP'">
             Density: 0.90-0.91 g/cm3 
-            <br>(floats in fresh water and salt water)<br><br>
-            <div style="text-align: center"><img src="img/simbolo_pp.png" width="60px" height="90px"></div>
-          </div>         
+            <br>(floats in fresh water and salt water, alcohol, vegetable oil, glycerin)<br><br>
+            <div style="text-align: center"><img src="img/simbolo_pp.svg" width="60px" height="90px"></div>
+          </div>  
+          <div v-else-if="picked === 'HDPE'">
+              Density: -------- g/cm3 
+              <br>(floats in fresh water and salt water, glycerin. Sinks in alcohol and vegetable oil)<br><br>
+              <div style="text-align: center"><img src="img/simbolo_hdpe.svg" width="60px" height="90px"></div>
+          </div>  
+          <div v-else-if="picked === 'PVC'">
+              Density: -------- g/cm3 
+              <br>(Sinks in water, alcohol, vegetable oil, glycerin)<br><br>
+              <div style="text-align: center"><img src="img/simbolo_pvc.svg" width="60px" height="90px"></div>
+          </div>  
+          <div v-else-if="picked === 'PS'">
+              Density: -------- g/cm3 
+              <br>(floats in glycerin. Sinks in alcohol, water, vegetable oil)<br><br>
+              <div style="text-align: center"><img src="img/simbolo_ps.svg" width="60px" height="90px"></div>
+            </div>         
           <div v-else>
             
           </div>
+          
+        </div>
+        <br><br>
+        <p style="font-size: 30px">LIQUID TYPE</p>
+        <div id='example-4'> 
+            <select class="form-control" id="liquid" name="liquid" v-model="liquid_picked">
+                <option selected>---</option>
+                <option value="ALCOHOL" >ALCOHOL</option>
+                <option value="OIL" >VEGETABLE OIL</option>
+                <option value="WATER" >WATER</option>
+                <option value="GLYCERIN" >GLYCERIN</option>
+              </select>  
+              <br>
+            <div style="color:red">Liquid Choice: {{ liquid_picked }}</div>
+            <br><br>
         </div>
         <!---*********************--><br><br><br><br><br>
         <div style="text-align: center"><button type="click" onclick="startGame()">AVVIA</button></div>
@@ -91,7 +135,7 @@
         <br style="clear:both">
         <!--<input type="button" value="vai()" onclick="vai();">-->
         <div style="text-align:center;width:480px;margin:auto;margin-top:250px">
-          <div id="message">Select the type of plastic</div>
+          <div id="message">Select the type of plastic and the type of liquid</div>
           <div id="sea"><script src="js/script.js"></script>
             
           
