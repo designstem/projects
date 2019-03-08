@@ -1,11 +1,39 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-function addone(value) {
-  return value + 1
+
+// n number of edges
+// p perimeter
+// http://mathworld.wolfram.com/RegularPolygon.html
+function edgeLength(n, p) {
+  return p / n
 }
 
-function addtwo(value) {
-  return addone(value) + 1
+// n = number of edges
+// s = edge length
+// http://mathworld.wolfram.com/RegularPolygon.html
+function inradius(n, s) {
+  return s / (2 * Math.tan(Math.PI / n))
 }
 
-fachwerk({ utils: { addone, addtwo }})
+// r = inradius
+// s = edge length
+// http://mathworld.wolfram.com/RegularPolygon.html
+function circumradius(r,s) {
+      return Math.sqrt(Math.pow(r,2) + Math.pow(s / 2,2))
+}
+
+
+function crEP(n,p){
+  var s = edgeLength(n,p);
+  var r = inradius(n,s);
+  var cr = circumradius(r,s) 
+  return cr;
+}
+
+function rEP(n,p){
+  var s = edgeLength(n,p);
+  var r = inradius(n,s);
+  return r;
+}
+
+fachwerk({ utils: { edgeLength,inradius,circumradius,crEP,rEP }})
