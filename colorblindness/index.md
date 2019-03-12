@@ -24,6 +24,7 @@
 <button v-on:click="send('goto','complementary')">Color harmonies</button>
 <button v-on:click="send('goto','task2')">Task 2</button>
 <button v-on:click="send('goto','contrast')">Contrast</button>
+<button v-on:click="send('goto','palettes')">Palettes</button>
 </div>
 
 
@@ -342,10 +343,45 @@ Now that you found out about possible weak spots in the color design of objects 
 
 <f-hr style="margin:var(--base6) 0" />
 
+When it comes to color vision, the **retina** is the part of the eye which is important.
+It is at the back of the eye and contains two types of photoreceptor cells which detect light: 
+
+### Rods and cones.
+
+Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.
+
+Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.
+
+**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.
+Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.
+
+**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.
+There are three types which are sensitive to red, green and blue lights (see also RGB color model).
+One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity. 
+That’s why you can’t see colors in the dark.
+
+(For more details, read the worksheets on The Eye).
+
+
+
 <f-next-button />
 
+---
+
+##### EXPLAIN 
+# The eye
+## Tasks
+
+<f-hr style="margin:var(--base6) 0" />
+
+1. Have a look at the article about color vision on wikipedia.org:
+https://en.wikipedia.org/wiki/Color_vision
 
 
+2. You learned that cones are responsible for color vision. There are three different types of cones. Find out how color perception works in the eye.
+
+
+3. In the text it says “color is not a property of electromagnetic radiation, but a feature of visual perception by an observer”. Find out what is meant by this (see “Subjectivity of color perception”).
 
 
 
@@ -1925,27 +1961,27 @@ If possible, discuss your results with someone.
 
 #### Background
 
-<f-slider title="H" set="h51" to="360" integer />
-<f-slider title="S" set="s51" to="100" integer />
-<f-slider title="B" set="b51" to="100" integer />
+<f-slider title="H" :value="get('h51', 44)" v-on:input="set('h51', $event)" from="0" to="360" integer />
+<f-slider title="S" :value="get('s51', 77)" v-on:input="set('s51', $event)" to="100" integer />
+<f-slider title="B" :value="get('b51', 100)" v-on:input="set('b51', $event)" to="100" integer />
 
 </div>
 <div style="flex:1">
 
 #### Heading
 
-<f-slider title="H" set="h52" to="360" integer />
-<f-slider title="S" set="s52" to="100" integer />
-<f-slider title="B" set="b52" to="100" integer />
+<f-slider title="H" :value="get('h52', 44)" v-on:input="set('h52', $event)" to="360" integer />
+<f-slider title="S" :value="get('s52', 77)" v-on:input="set('s52', $event)" to="100" integer />
+<f-slider title="B" :value="get('b52', 77)" v-on:input="set('b52', $event)" to="100" integer />
 
 </div>
 <div style="flex:1">
 
 #### Text
 
-<f-slider title="H" set="h53" to="360" integer />
-<f-slider title="S" set="s53" to="100" integer />
-<f-slider title="B" set="b53" to="100" integer />
+<f-slider title="H" :value="get('h53', 44)" v-on:input="set('h53', $event)" to="360" integer />
+<f-slider title="S" :value="get('s53', 77)" v-on:input="set('s53', $event)" to="100" integer />
+<f-slider title="B" :value="get('b53', 77)" v-on:input="set('b53', $event)" to="100" integer />
 </div>
 
 
@@ -1981,9 +2017,114 @@ If possible, discuss your results with someone.
 
 
 
+<!--
+
+PPPPPP      AAAAA     L          EEEEEEE    TTTTTTT    TTTTTTT    EEEEEEE 
+P     P    A     A    L          E             T          T       E      
+P     P    A     A    L          EEEEE         T          T       EEEEE
+PPPPPP     AAAAAAA    L          E             T          T       E      
+P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
+
+
+-->
 
 
 
+
+
+
+
+---
+
+| id: palettes
+| 1 2 3
+
+ 
+-
+
+
+##### EXPLAIN
+# Color palettes
+
+<f-hr style="margin:var(--base6) 0" />
+
+
+Creating color palettes with more than two or three colors takes time and reviewing. You should build it step by step. Here are some rules you can keep in mind when building a color palette:
+
+
+<f-card>
+
+# **1** 
+
+### Figure out the purpose
+
+Analyse the product and the target group for which you are going to design. Are there typical colors already in use by similar products?
+
+</f-card>
+<f-card>
+
+# **2**
+
+### Review color basics
+
+Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.
+
+</f-card>
+<f-card>
+
+# **3**
+
+### Choose a dominant color, then accent colors
+
+First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.
+
+</f-card>
+<f-card>
+
+# **4** 
+
+### Select shades, then vary them
+
+Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).
+
+</f-card>
+<f-card>
+
+# **5** 
+
+### Look at compatibility of hues
+
+Review the color combinations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split complementary** palettes instead to make the contrast softer.
+
+</f-card>
+<f-card>
+
+# **6** 
+
+### Limit the number of colors
+
+Two or three colors are mostly enough. More can get too complex. 
+If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the background. Decide if you really need them all, or if you can limit your palette more.
+
+</f-card>
+<f-card>
+
+# **7** 
+
+### Put the colors into action, 
+
+e.g. in a mock-up
+
+</f-card>
+
+
+---
+
+
+##### EXPLAIN
+# Color palettes
+
+<f-hr style="margin:var(--base6) 0" />
 
 
 
