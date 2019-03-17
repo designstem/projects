@@ -27,31 +27,113 @@ new Vue({
 	  picked: []
 	}
   })
+new Vue({
+	el: '#example-4',
+	data: {
+	  liquid_picked: []
+	}
+  })
 
 function startGame() {
-	
-	pet= document.getElementById("pet").checked;
+	plastic_choice= document.getElementById("plastic").value;
+	liquid_choice= document.getElementById("liquid").value;
+	//alert(pet);
+	/*pet= document.getElementById("pet").checked;
 	ldpe= document.getElementById("ldpe").checked;
-	pp= document.getElementById("pp").checked;
+	pp= document.getElementById("pp").checked;*/
 	a= 0;
-	if(pet==true){
+	if(plastic_choice == "PET"){//(pet==true){
 		//alert("PET");
 		//a= 1;
-		myGamePiece = new component(60, 60, "img/palla_pet.png", 200, 20,"img");
-		min= 200;
-		document.getElementById("message").innerHTML= "Sinks in fresh water and salt water";		
+		switch(liquid_choice){
+			case "WATER":
+			case "GLYCERIN":
+			case "ALCOHOL":
+			case "OIL":
+				myGamePiece = new component(60, 60, "img/palla_pet.svg", 200, 20,"img");
+				min= 200;
+				break;							
+		}	
+		//myGamePiece = new component(60, 60, "img/palla_pet.svg", 200, 20,"img");
+		//min= 200;
+		document.getElementById("message").innerHTML= "Sinks in fresh water and salt water, alcohol, vegetable oil, glycerin";		
 	}
-	if(ldpe==true){
+	if(plastic_choice == "LDPE"){//(ldpe==true){
 		//alert("LDPE");
-		myGamePiece = new component(60, 60, "img/palla_ldpe.png", 200, 20,"img");
-		min= 110;
-		document.getElementById("message").innerHTML= "Floats in fresh water and salt water";		
+		switch(liquid_choice){
+			case "WATER":
+			case "GLYCERIN":
+			case "ALCOHOL":
+				myGamePiece = new component(60, 60, "img/palla_ldpe.svg", 200, 20,"img");
+				min= 110;
+				break;
+			case "OIL":
+				myGamePiece = new component(60, 60, "img/palla_ldpe.svg", 200, 20,"img");
+				min= 200;
+				break;
+		}		
+		document.getElementById("message").innerHTML= "Floats in fresh water and salt water, glycerin, alcohol. Sinks in vegetable oil";		
 	}
-	if(pp==true){
+	if(plastic_choice == "PP"){//(pp==true){
 		//alert("PP");
-		myGamePiece = new component(60, 60, "img/palla_pp.png", 200, 20,"img");
-		min= 110;
-		document.getElementById("message").innerHTML= "Floats in fresh water and salt water";		
+		switch(liquid_choice){
+			case "WATER":
+			case "GLYCERIN":
+			case "ALCOHOL":
+			case "OIL":
+				myGamePiece = new component(60, 60, "img/palla_pp.svg", 200, 20,"img");
+				min= 110;
+				break;							
+		}	
+		//myGamePiece = new component(60, 60, "img/palla_pp.svg", 200, 20,"img");
+		//min= 110;
+		document.getElementById("message").innerHTML= "Floats in fresh water and salt water, alcohol, vegetable oil, glycerin";		
+	}
+	if(plastic_choice == "HDPE"){
+		switch(liquid_choice){
+			case "WATER":
+			case "GLYCERIN":
+				myGamePiece = new component(60, 60, "img/palla_hdpe.svg", 200, 20,"img");
+				min= 110;
+				break;
+			case "OIL":
+			case "ALCOHOL":
+				myGamePiece = new component(60, 60, "img/palla_hdpe.svg", 200, 20,"img");
+				min= 200;
+				break;
+		}	
+		document.getElementById("message").innerHTML= "Floats in fresh water and salt water, glycerin. Sinks in alcohol and vegetable oil";		
+	}
+	if(plastic_choice == "PS"){
+		switch(liquid_choice){
+			case "GLYCERIN":
+				myGamePiece = new component(60, 60, "img/palla_ps.svg", 200, 20,"img");
+				min= 110;
+				break;
+			case "WATER":
+			case "OIL":
+			case "ALCOHOL":
+				myGamePiece = new component(60, 60, "img/palla_ps.svg", 200, 20,"img");
+				min= 200;
+				break;
+		}	
+		//myGamePiece = new component(60, 60, "img/palla_ps.svg", 200, 20,"img");
+		//min= 110;
+		document.getElementById("message").innerHTML= "Floats in glycerin. Sinks in alcohol, water, vegetable oil";		
+	}
+	if(plastic_choice == "PVC"){
+		switch(liquid_choice){
+			case "GLYCERIN":
+			case "WATER":
+			case "OIL":
+			case "ALCOHOL":
+				myGamePiece = new component(60, 60, "img/palla_pvc.svg", 200, 20,"img");
+				min= 200;
+				break;
+		}	
+		//myGamePiece = new component(60, 60, "img/palla_pvc.svg", 200, 20,"img");
+		//min= 200;
+		document.getElementById("message").innerHTML= "Sinks in water, alcohol, vegetable oil, glycerin";		
 	}
 	myGamePiece.speedY= 0;
     //myGamePiece = new component(100, 100, "img/sottomarino.png", 200, 150,"img");
