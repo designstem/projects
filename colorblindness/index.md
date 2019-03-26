@@ -104,7 +104,10 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 -
 
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" />
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" />
+
+
+
 
 
 
@@ -116,29 +119,45 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 ---
 
 | height: fit
-| 1 2 2
-| 1 2 2
-| 1 2 2
-| 1 2 2
-| 3 3 3
+| gap: none
+| padding: none
+| 1 2
 
 
 
+<section style="display:grid; grid-template-rows: auto 70px; padding:var(--content-padding); height:100%;">
 
-##### EXPLORE
-# Photo safari
+  <div>
+  
+  ##### EXPLORE
+  # Photo safari
 
-Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
+  Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
 
-**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
+  **Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
+
+  </div>
+  <div>
+
+  <f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
+
+  </div>
+
+</section>
 
 -
 
 <f-image src="images/explore-go-outside.jpg" />
 
--
 
-<f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
+
+
+
+
+
+
+
+
 
 
 
@@ -171,9 +190,9 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 ---
 
 | id: cbSimulator
-| 1 1
-| 2 3
-| 4 4
+| 1 1 1
+| 2 3 3
+| 4 4 4
 
 ##### EXPLORE
 # Colorblindness types
