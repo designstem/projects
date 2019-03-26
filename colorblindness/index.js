@@ -7,7 +7,6 @@ import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
 import ColorblindnessJuxtapose from "./components/ColorblindnessJuxtapose.js";
 
 
-
 fachwerk({ 
   components: { 
         //"ImageCompare" : ImageCompare,
@@ -18,7 +17,10 @@ fachwerk({
   editor: "hide",
   pager: true,
   home: false,
-  utils:  localutils 
+  utils:  localutils,
+  style: {
+    
+  }
 });
 
 // import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";

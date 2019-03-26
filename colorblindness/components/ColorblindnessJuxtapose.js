@@ -149,17 +149,17 @@ export default{
         this.juxt.ctx.stroke();
 
         // 'padding' lines top and bottom
-        this.juxt.ctx.lineWidth = 10;
-        this.juxt.ctx.strokeStyle = "hsla(0, 0%, 100%, 0.85)";
+        this.juxt.ctx.lineWidth = 8;
+        this.juxt.ctx.strokeStyle = "hsla(0, 0%, 100%, 1)";
 
         this.juxt.ctx.beginPath();
-        this.juxt.ctx.moveTo(0, 5);
-        this.juxt.ctx.lineTo(this.imgWidth, 5);
+        this.juxt.ctx.moveTo(0, 4);
+        this.juxt.ctx.lineTo(this.imgWidth, 4);
         this.juxt.ctx.closePath();
         this.juxt.ctx.stroke();
         this.juxt.ctx.beginPath();
-        this.juxt.ctx.moveTo(0, this.imgHeight-5);
-        this.juxt.ctx.lineTo(this.imgWidth, this.imgHeight-5);
+        this.juxt.ctx.moveTo(0, this.imgHeight-4);
+        this.juxt.ctx.lineTo(this.imgWidth, this.imgHeight-4);
         this.juxt.ctx.closePath();
         this.juxt.ctx.stroke();
 
@@ -174,16 +174,16 @@ export default{
 
         this.juxt.ctx.beginPath();
         this.juxt.ctx.moveTo(xPos, 40);
-        this.juxt.ctx.lineTo(xPos+30, -5);
-        this.juxt.ctx.lineTo(xPos-30, -5);
+        this.juxt.ctx.lineTo(xPos+20, 8);
+        this.juxt.ctx.lineTo(xPos-20, 8);
         this.juxt.ctx.closePath();
         this.juxt.ctx.fill();
         this.juxt.ctx.stroke();
 
         this.juxt.ctx.beginPath();
         this.juxt.ctx.moveTo(xPos, this.imgHeight - 40);
-        this.juxt.ctx.lineTo(xPos+30, this.imgHeight + 5);
-        this.juxt.ctx.lineTo(xPos-30, this.imgHeight + 5);
+        this.juxt.ctx.lineTo(xPos+20, this.imgHeight - 8);
+        this.juxt.ctx.lineTo(xPos-20, this.imgHeight - 8);
         this.juxt.ctx.closePath();
         this.juxt.ctx.fill();
         this.juxt.ctx.stroke();
@@ -299,8 +299,8 @@ export default{
     }
     .cbs-canvas__status {
       position: absolute; 
-      top:-20px; 
-      left:0; 
+      bottom:40px; 
+      right:20px; 
       z-index: 100;
       font-size: var(--base2);
       background:var(--darkestgray); 
