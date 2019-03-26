@@ -482,7 +482,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 <f-hr style="margin:var(--base6) 0" />
 
-**In the Additive Color System, red, green and blue are the primary colors.** When all three colors overlap, white light is produced.
+**In the Additive Color System, <span style="color:red">RED</span>, <span style="color:green">GREEN</span> and <span style="color:hsl(216,100%,34%)">BLUE</span> are the primary colors.** When all three colors overlap, white light is produced.
 
 1. Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?
 2. Find out where the RGB Model is used? 
