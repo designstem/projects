@@ -470,6 +470,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 | height: fit
 | padding: none
+| gap: none
 | theme: dark
 | 1 2
 
@@ -495,9 +496,9 @@ Color is derived from light, either natural or artificial. With little light, li
 
 <div style="background-color:var(--black); height:100%; ">
 
-<center>
 
-<f-scene style="width:40vw; height:40vw">
+
+<f-scene style="width:100%; height:100vh">
   
   <f-circle 
     v-for="(c,i) in ['red', 'lime', 'blue']" 
@@ -511,7 +512,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 </f-scene>
 
-</center>
+
 
 </div>
 
