@@ -17,10 +17,7 @@ fachwerk({
   editor: "hide",
   pager: true,
   home: false,
-  utils:  localutils,
-  style: {
-    
-  }
+  utils:  localutils
 });
 
 // import { Vue, components, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";

@@ -54,39 +54,37 @@ The students’ awareness should be raised for the problems people with color vi
 
 ---
 
-| 1 1 2 2 2
+| gap: none
+| 1 1 2 2 
 
 ##### EXPLORE
 # Color blindness
 
-This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
+<f-hr style="margin:3vh 0;" />
 
-### Guess which of the tomatoes and how many are already ripe, red and therefore edible.
+<f-inline>
+
+  This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
+
+  # <big>👉</big>
+
+</f-inline>
+
+### Look at the tomatoes and guess which one of the tomatoes is already ripe, red and therefore edible. 
+
 
 <!-- **<mark>Click on the picture</mark> to check if you guessed correct.** -->
-<f-hr style="margin-bottom:3vh;" />
 
 
+<button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
-<button @click="set('revealX', 25)" v-if="get('revealX') < 20">Check your answer</button>
+<div v-if="get('revealX') > 75">
 
-<div v-if="get('revealX') == 25">
-
-  You see that tomato that appeared green is really red! What about the others? Do you want to make another guess?
+  Did you guess right? If you picked the right tomato, congratulations! 
 
   > **For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
 
-  <button @click="()=>{set('revealX', 40); set('revealLocked', false);}" style="margin-bottom:var(--base);">Open a bit more</button>
-  <button @click="()=>{set('revealX', 90); set('revealLocked', false);}">Show me everything</button>
-
-
-</div>
-
-<div v-if="get('revealX') > 35">
-
   > BTW, you can also drag or click the image to compare it
-
-  If you picked the right tomatoes, congratulations! 
 
   #### Think of further everyday situations where it is needed to be able to tell the right colors.
 
@@ -109,9 +107,9 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 -
 
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" />
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" />
 
-
+<!--  img url: https://pixnio.com/flora-plants/vegetables/tomato-pictures/ripe-tomato-green-tomatoes-vegetable  -->
 
 
 
@@ -482,7 +480,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 <f-hr style="margin:var(--base6) 0" />
 
-**In the Additive Color System, <span style="color:red">RED</span>, <span style="color:green">GREEN</span> and <span style="color:hsl(216,100%,34%)">BLUE</span> are the primary colors.** When all three colors overlap, white light is produced.
+**In the Additive Color System, <span style="color:red">RED</span>, <span style="color:lime">GREEN</span> and <span style="color:hsl(216,100%,34%)">BLUE</span> are the primary colors.** When all three colors overlap, white light is produced.
 
 1. Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?
 2. Find out where the RGB Model is used? 
