@@ -26,6 +26,11 @@ export default{
         required: false,
         default: 50
     },
+    upload: {
+      type: Boolean,
+      required: false,
+      default: true
+  },
     locked: {
         type: Boolean,
         required: false,
@@ -130,42 +135,60 @@ export default{
     },
     drawData2Canvas(xPos){
         this.juxtPos = xPos;
-        //this.juxt.ctx.save();
+        // drawing images
         this.juxt.ctx.putImageData(this.normalImage.imageData,  0, 0,    0, 0,      xPos, this.imgHeight);
         this.juxt.ctx.putImageData(this.cbImage.imageData,      0, 0,    xPos, 0,   this.imgWidth, this.imgHeight);
         
-        
-        this.juxt.ctx.lineWidth = 10;
-        this.juxt.ctx.strokeStyle = "#ffffff";
-        this.juxt.ctx.fillStyle = "#ff0000";
+        // thin separator line
+        this.juxt.ctx.lineWidth = 1;
+        this.juxt.ctx.strokeStyle = "hsla(0, 0%, 0%, 0.1)";
+        this.juxt.ctx.beginPath();
+        this.juxt.ctx.moveTo(xPos, 0);
+        this.juxt.ctx.lineTo(xPos, this.imgHeight);
+        this.juxt.ctx.closePath();
+        this.juxt.ctx.stroke();
+
+        // 'padding' lines top and bottom
+        this.juxt.ctx.lineWidth = 8;
+        this.juxt.ctx.strokeStyle = "hsla(0, 0%, 100%, 1)";
 
         this.juxt.ctx.beginPath();
-        this.juxt.ctx.moveTo(0, 5);
-        this.juxt.ctx.lineTo(this.imgWidth, 5);
+        this.juxt.ctx.moveTo(0, 4);
+        this.juxt.ctx.lineTo(this.imgWidth, 4);
         this.juxt.ctx.closePath();
         this.juxt.ctx.stroke();
         this.juxt.ctx.beginPath();
-        this.juxt.ctx.moveTo(0, this.imgHeight-5);
-        this.juxt.ctx.lineTo(this.imgWidth, this.imgHeight-5);
+        this.juxt.ctx.moveTo(0, this.imgHeight-4);
+        this.juxt.ctx.lineTo(this.imgWidth, this.imgHeight-4);
         this.juxt.ctx.closePath();
         this.juxt.ctx.stroke();
+
+
+        // red triangles top and bottom
+        this.juxt.ctx.save();
+
+        this.juxt.ctx.fillStyle = "#ff0000";
+        this.juxt.ctx.strokeStyle = "hsla(0, 0%, 100%, 1)";
+        this.juxt.ctx.shadowColor = "hsla(0, 0%, 0%, 0.5)";
+        this.juxt.ctx.shadowBlur = 8;
 
         this.juxt.ctx.beginPath();
         this.juxt.ctx.moveTo(xPos, 40);
-        this.juxt.ctx.lineTo(xPos+30, -5);
-        this.juxt.ctx.lineTo(xPos-30, -5);
+        this.juxt.ctx.lineTo(xPos+20, 8);
+        this.juxt.ctx.lineTo(xPos-20, 8);
         this.juxt.ctx.closePath();
         this.juxt.ctx.fill();
         this.juxt.ctx.stroke();
+
         this.juxt.ctx.beginPath();
         this.juxt.ctx.moveTo(xPos, this.imgHeight - 40);
-        this.juxt.ctx.lineTo(xPos+30, this.imgHeight + 5);
-        this.juxt.ctx.lineTo(xPos-30, this.imgHeight + 5);
+        this.juxt.ctx.lineTo(xPos+20, this.imgHeight - 8);
+        this.juxt.ctx.lineTo(xPos-20, this.imgHeight - 8);
         this.juxt.ctx.closePath();
-        
         this.juxt.ctx.fill();
         this.juxt.ctx.stroke();
-        //this.juxt.ctx.restore();
+
+        this.juxt.ctx.restore();
         
     },
     changeImage(e){
@@ -253,7 +276,7 @@ export default{
     </div>
 
 
-    <f-inline>
+    <f-inline v-if="upload">
       <h5>Try it with your own image: </h5><input type="file" @change="changeImage">
     </f-inline>
     
@@ -276,8 +299,8 @@ export default{
     }
     .cbs-canvas__status {
       position: absolute; 
-      top:-30px; 
-      right:0; 
+      bottom:40px; 
+      right:20px; 
       z-index: 100;
       font-size: var(--base2);
       background:var(--darkestgray); 

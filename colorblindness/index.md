@@ -1,8 +1,9 @@
 
-| height: fit
+
+
 | theme: yellow
 
-<center>
+
 
 <div>
 
@@ -13,8 +14,16 @@
 (Richard Spencer, Kristin Kreer)
 
 
-<f-next-button title="Let's start" style="margin: var(--base8) 0;" /> 
 
+
+<f-fetch :url="'./menu.md'">
+  <div slot-scope="{ value }">
+    <f-content
+      :content="value"
+      :type="'markdown'"
+    />
+  </div>
+</f-fetch>
 
 <div style="opacity:0.2">
 <button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
@@ -30,10 +39,9 @@
 
 </div>
 
-</center>
 
 
-<f-notes>
+<!-- <f-notes>
 
 <summary>Teachers note</summary>
 
@@ -41,10 +49,10 @@
 
 The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
 
-</f-notes>
+</f-notes> -->
 
 
-
+<f-sidebar title="Menu" src="./menu.md" />
 
 
 
@@ -52,36 +60,37 @@ The students’ awareness should be raised for the problems people with color vi
 
 ---
 
+| gap: none
 | 1 1 2 2 
 
-This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
+##### EXPLORE
+# Color blindness
 
-### Guess which of the tomatoes and how many are already ripe, red and therefore edible.
+<f-hr style="margin:3vh 0;" />
+
+<f-inline>
+
+  This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
+
+  # <big>👉</big>
+
+</f-inline>
+
+### Look at the tomatoes and guess which one of the tomatoes is already ripe, red and therefore edible. 
+
 
 <!-- **<mark>Click on the picture</mark> to check if you guessed correct.** -->
-<f-hr style="margin-bottom:3vh;" />
 
 
+<button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
-<button @click="set('revealX', 25)" v-if="get('revealX') < 20">Check your answer</button>
+<div v-if="get('revealX') > 75">
 
-<div v-if="get('revealX') == 25">
-
-  You see that tomato that appeared green is really red! What about the others? Do you want to make another guess?
+  Did you guess right? If you picked the right tomato, congratulations! 
 
   > **For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
 
-  <button @click="()=>{set('revealX', 40); set('revealLocked', false);}" style="margin-bottom:var(--base);">Open a bit more</button>
-  <button @click="()=>{set('revealX', 90); set('revealLocked', false);}">Show me everything</button>
-
-
-</div>
-
-<div v-if="get('revealX') > 35">
-
   > BTW, you can also drag or click the image to compare it
-
-  If you picked the right tomatoes, congratulations! 
 
   #### Think of further everyday situations where it is needed to be able to tell the right colors.
 
@@ -104,7 +113,10 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 
 -
 
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-normal.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" />
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" />
+
+<!--  img url: https://pixnio.com/flora-plants/vegetables/tomato-pictures/ripe-tomato-green-tomatoes-vegetable  -->
+
 
 
 
@@ -116,29 +128,45 @@ This is how a color vision deficient person (with protanopia, i.e. red blindness
 ---
 
 | height: fit
-| 1 2 2
-| 1 2 2
-| 1 2 2
-| 1 2 2
-| 3 3 3
+| gap: none
+| padding: none
+| 1 2
 
 
 
+<section style="display:grid; grid-template-rows: auto 70px; padding:var(--content-padding); height:100%;">
 
-##### EXPLORE
-# Photo safari
+  <div>
+  
+  ##### EXPLORE
+  # Photo safari
 
-Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
+  Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
 
-**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
+  **Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
+
+  </div>
+  <div>
+
+  <f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
+
+  </div>
+
+</section>
 
 -
 
 <f-image src="images/explore-go-outside.jpg" />
 
--
 
-<f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
+
+
+
+
+
+
+
+
 
 
 
@@ -171,9 +199,9 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 ---
 
 | id: cbSimulator
-| 1 1
-| 2 3
-| 4 4
+| 1 1 1
+| 2 3 3
+| 4 4 4
 
 ##### EXPLORE
 # Colorblindness types
@@ -296,17 +324,18 @@ Now that you found out about possible weak spots in the color design of objects 
 
 ---
 
-| 1 1
-| 2 3
-| 4 4
+| padding: none
+| gap: none
+| height: fit
+| 1 2
+
+<section style="padding: var(--content-padding)">
 
 ##### EXPLAIN 
 # Accessibility
 
-
 <f-hr style="margin:var(--base6) 0" />
 
--
 
 ## Tasks
 
@@ -318,14 +347,17 @@ Now that you found out about possible weak spots in the color design of objects 
 
 4. Further, find out about the difference between “accessibility” and “usability”.
 
-
--
-
-<f-image src="images/explain-yellow-door.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
-
--
-
 <f-next-button style="margin:var(--base6) 0" />
+
+</section>
+
+
+-
+
+<f-image src="images/explain-yellow-door.jpg" style="background-position:50% 15%;" />
+
+
+
 
 
 
@@ -440,28 +472,38 @@ Color is derived from light, either natural or artificial. With little light, li
 
 ---
 
-| 1 1 1
-| 2 2 3
-| 4 4 4
+| height: fit
+| padding: none
+| gap: none
+| theme: dark
+| 1 2
+
+<section style="padding:var(--content-padding)">
 
 ##### EXPLAIN 
 # Color mixing
 ## Additive Color System
 
-
 <f-hr style="margin:var(--base6) 0" />
 
--
-
-**In the Additive Color System, red, green and blue are the primary colors.** When all three colors overlap, white light is produced.
+**In the Additive Color System, <span style="color:red">RED</span>, <span style="color:lime">GREEN</span> and <span style="color:hsl(216,100%,34%)">BLUE</span> are the primary colors.** When all three colors overlap, white light is produced.
 
 1. Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?
 2. Find out where the RGB Model is used? 
 3. Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.
 
+<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
+
+</section>
+
 -
 
-<f-scene style=" background:black; border-radius: var(--border-radius);" width="400" height="400">
+<div style="background-color:var(--black); height:100%; ">
+
+
+
+<f-scene style="width:100%; height:100vh">
+  
   <f-circle 
     v-for="(c,i) in ['red', 'lime', 'blue']" 
     :key="'add'+i"
@@ -471,11 +513,14 @@ Color is derived from light, either natural or artificial. With little light, li
     stroke="none"
     style="mix-blend-mode: screen; "
   />
+
 </f-scene>
 
--
 
-<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
+
+</div>
+
+
 
 
 
@@ -683,8 +728,13 @@ First, in your mind, try to disassemble them into their three components. How mu
 ---
 
 | id: 3properties
-| 1 1
-| 2 3
+| height: fit
+| theme: dark
+| padding: none
+| 1 2
+
+
+<section style="padding:var(--content-padding)">
 
 ##### EXPLAIN
 # Three properties of color
@@ -692,7 +742,6 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 <f-hr style="margin:var(--base6) 0" />
 
--
 
 When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are **hue, saturation and brightness**.
 All three of these properties change the effect the color has. 
@@ -703,21 +752,23 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 
 <f-next-button style="margin:var(--base6) 0" />
 
+</section>
+
 -
 
-<f-scene width="600" height="300"> 
+<f-scene style="width:100%; height:100vh; margin:0 !important;" preserveAspectRatio="none"> 
   <f-box 
-    width="6"
+    width="4"
     height="4"
     stroke="none"
-    x="-3"
     :fill="hsl(112,63,36)"
   />
   <f-box 
-    width="6"
+    width="4"
     height="4"
-    x="3"
     stroke="none"
+    :rotation="{x:63}"
+    :position="{x:1.2, y:1}"
     :fill="hsl(123,100,51)"
   />
 </f-scene>
