@@ -16,6 +16,6 @@ read more (www.sciencebuddies.org)</a>
 -
 <br/>
 
-<img src="./images/method.png" style="width:80%"/>
+<img src="./images/method.png" style="width:95%; max-height:90%"/>
 
 

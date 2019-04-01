@@ -96,8 +96,8 @@ Needs some reviewing</td>
 <f-prev-button /> <a class="primary" href="./index.html">Go to Index</a>
 
 -
-
-<img src="./images/RGBLamp.png"/>
+<br/>
+<img src="./images/RGBLamp.png" style="width:95%; max-height:90%;"/>
 
 ---
 

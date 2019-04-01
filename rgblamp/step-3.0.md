@@ -12,13 +12,21 @@
 
 # Where are we?
 
+<big>Choose the Best Solution:</big> Look at whether each possible solution meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements.
+
+<big>Develop the Solution:</big> Development involves the refinement and improvement of a solution, and it continues throughout the design process, often even after a product ships to customers.
+
+<a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
+read more (www.sciencebuddies.org)</a>
+
+<br/>
 <br />
 <f-next-button title="Next" />
 
 -
 
 <br/>
-<img src="./imgs/cap3_1.png" style="width:70%"/>
+<img src="./imgs/cap3_1.png" style="width:95%; max-height:90%"/>
 
 ---
 
@@ -49,9 +57,14 @@ The main purpose of the RGB color model is for the sensing, representation and d
 
 -
 <p>
+<a href="https://www.flickr.com/photos/sparkfun/30470462665">SparkFun Electronics</a>
+</p>
+<img src="./imgs/cap3_2a.png" style="width:95%; max-height:40%;"/>
+
+<p>
 <a href="https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg">wikipedia</a>
 </p>
-<img src="./imgs/cap3_2.png" style="width:70%"/>
+<img src="./imgs/cap3_2b.png" style="width:95%; max-height:40%;"/>
 
 ---
 
@@ -97,7 +110,14 @@ The main purpose of the RGB color model is for the sensing, representation and d
 <a href="https://it.m.wikipedia.org/wiki/File:Rgb-raster-image.svg">wikipedia</a>
 </p>
 
-<img src="./imgs/cap3_3.png" style="width:70%"/>
+<img src="./imgs/cap3_3a.png" style="width:95%; max-height:40%;"/>
+
+<p>
+<a href="https://docs.krita.org/en/general_concepts/colors/bit_depth.html">bit_depth</a>
+</p>
+
+<img src="./imgs/cap3_3b.png" style="width:95%; max-height:40%;"/>
+
 
 ---
 
@@ -129,7 +149,7 @@ The main purpose of the RGB color model is for the sensing, representation and d
 -
 </br>
 
-<img src="./imgs/cap3_4.png" style="width:70%"/>
+<img src="./imgs/cap3_4.png" style="width:95%; max-height:90%;"/>
 
 ---
 
@@ -160,7 +180,7 @@ The main purpose of the RGB color model is for the sensing, representation and d
 -
 
 <br/>
-<img src="./imgs/cap3_5.PNG" style="width:70%"/>
+<img src="./imgs/cap3_5.PNG" style="width:95%; max-height:90%;"/>
 
 ---
 
@@ -195,7 +215,7 @@ Grab a piece of paper and write a high-level description of how the values of th
 <p>
 <a style="float=top" href="https://www.publicdomainpictures.net/en/view-image.php?image=34795&picture=business-chart">www.publicdomainpictures.net</a>
 </p>
-<img src="./imgs/cap3_6.PNG" style="height:50%; width:80%"/>
+<img src="./imgs/cap3_6.PNG" style="width:95%; max-height:90%;"/>
 
 ---
 
@@ -224,12 +244,14 @@ Grab a piece of paper and write a high-level description of how the values of th
 <br />
 <f-prev-button /> 
 <a class="primary" href="./step-4.0.html">Go to Engineering step</a>
-
+<br/>
+<br/>
+Skip Engineering step and <a class="secondary" href="./step-6.0.html">Go to Communication step</a>
 -
 
 <p>
 <a style="float=top" href="https://en.wikipedia.org/wiki/Robert_Plutchik">wikipedia</a>
 </p>
-<img src="./imgs/cap3_7.png" style="height:100%;"/>
+<img src="./imgs/cap3_7.png" style="width:95%; max-height:90%;"/>
 
 ---

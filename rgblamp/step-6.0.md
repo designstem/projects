@@ -12,13 +12,18 @@
 
 # Where are we?
 
+<big>Communicate Results:</big> To complete your project, communicate your results to others in a final report and/or a display board. Professional engineers always do the same, thoroughly documenting their solutions so that they can be manufactured and supported.
+
+<a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
+read more (www.sciencebuddies.org)</a>
+<br/>
 <br />
 <f-next-button title="Next" />
 
 -
 <br/>
 
-<img src="./imgs/cap6_1.PNG" style="width:70%"/>
+<img src="./imgs/cap6_1.PNG" style="width:95%; max-height:90%;"/>
 
 ---
 
@@ -53,7 +58,7 @@
 </ul>
 </p>
 
-<img src="./imgs/cap6_2.jpg" style="width:80%"/>
+<img src="./imgs/cap6_2.jpg" style="width:95%; max-height:80%;"/>
 
 ---
 

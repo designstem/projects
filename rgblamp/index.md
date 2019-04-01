@@ -24,6 +24,15 @@
 <p>There are several <a class="secondary" href="../rgblamp_vision/index.html">e-tools</a> that can help you!</p>
 
 <br/>
+<b><big>Buy an RGB Lamp</big></b>
+<ul>
+<li>RGB Lamp <a href="https://www.amazon.it/s?k=rgb+lamp&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss">(amazon.it)</a></li>
+<li>RGB Lamp controlled by an app <a href="https://www.amazon.it/s?k=rgb+lamp+apps&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss">(amazon.it)</a></li>
+<li>RGB for Arduino <a href="https://www.amazon.it/s?k=rgb+arduino&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2">(amazon.it)</a></li>
+</ul>
+
+
+<br/>
 
 <b><big>Roadmap</big></b>
 ### **1** <a href="step-1.0.html">Research</a>

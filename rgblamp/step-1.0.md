@@ -12,13 +12,26 @@
 
 # Where are we?
 
-<br />
+<big>Define the Problem.</big>
+The engineering design process starts when you ask the following questions about problems that you observe:
+<ul>
+<li>What is the need?</li>
+<li>Who has the need?</li>
+<li>Why is it important to satisfy the need?</li>
+</ul>
+
+<big>Do Background Research:</big> Learn from the experiences of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past.
+
+<a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
+read more (www.sciencebuddies.org)</a>
+<br/>
+<br/>
 <f-next-button title="Next" />
 
 -
 
-
-<img src="./imgs/cap1_0.png" style="width:100%"/>
+<br/>
+<img src="./imgs/cap1_0.png" style="width:95%; max-height:90%"/>
 
 ---
 
@@ -52,7 +65,7 @@ Design covers:
 
 <p>The <a style="float=top" href="https://www2.meethue.com/en-in">Philips Hue</a> Buld.</p>
 
-<img src="./images/philips_hue.jpg" width="100%"/>
+<img src="./images/philips_hue.jpg" style="width:95%; max-height:90%"/>
 
 
 ---
@@ -87,7 +100,7 @@ Design covers:
 <br/>
 <p>A room illuminated by a <a style="float=top" href="https://www2.meethue.com/en-in">Philips Hue</a> Bulb.</p>
 
-<img src="./images/philips_hue_b.jpg" width="100%"/>
+<img src="./images/philips_hue_b.jpg" style="width:95%; max-height:90%"/>
 
 ---
 
@@ -204,12 +217,12 @@ Design covers:
 <p>
 <a href="https://it.m.wikipedia.org/wiki/File:Green_English-Chinese_icon_exit_sign.JPG">wikipedia</a>
 </p>
-<img src="./imgs/cap1_1.png"/>
+<img src="./imgs/cap1_1.png" style="width:95%; max-height:40%"/>
 
 <p>
 <a href="https://www.shutterstock.com/">shutterstock</a>
 </p>
-<img src="./imgs/cap1_2.jpg"/>
+<img src="./imgs/cap1_2.jpg" style="width:95%; max-height:40%"/>
 
 ---
 
@@ -251,7 +264,7 @@ Chronobiology is a field of biology that examines periodic (cyclic) phenomena in
 <p>
 <a href="https://www.verywellhealth.com/bright-light-therapy-and-its-use-in-alzheimers-disease-98668">verywellhealth</a>
 </p>
-<img src="./imgs/cap1_3.jpg"/>
+<img src="./imgs/cap1_3.jpg" style="width:95%; max-height:90%"/>
 
 ---
 
@@ -286,7 +299,7 @@ Flying west is less tiring than flying east. This airplane shows blueish light t
 <a href="https://www.verywellhealth.com/bright-light-therapy-and-its-use-in-alzheimers-disease-98668">verywellhealth</a>
 </p>
 
-<img src="./imgs/cap1_4.png"/>
+<img src="./imgs/cap1_4.png" style="width:95%; max-height:90%"/>
 
 
 ---
@@ -326,7 +339,7 @@ These two color qualities have the greatest influence on how a plant grows. Blue
 <a href="https://www.jestpic.com/u/dunyahalleri/">dunyahalleri</a>
 </p>
 
-<img src="./imgs/cap1_5.png"/>
+<img src="./imgs/cap1_5.png" style="width:95%; max-height:90%"/>
 
 
 ---
@@ -367,4 +380,4 @@ For example, colored light is used in stores to make certain products more attra
 <a href="https://pixabay.com/it/photos/organici-alimenti-biologici-cibo-1341558/">pixabay</a>
 </p>
 
-<img src="./imgs/cap1_7.png"/>
+<img src="./imgs/cap1_7.png" style="width:95%; max-height:90%"/>
