@@ -2,8 +2,15 @@
 
 # <big>DesignSTEM</big>
 
-<big><big>Science, Technology, Engineering and Math for future designers and craftsmen. Learn STEM topics in fun, visual and interactive way. Our learning scenarios are powered by <a href="https://designstem.github.io/fachwerk"> designstem.github.io/fachwerk</a> framework, development progress can be tracked here <a href="https://designstem.github.io/homepage"> designstem.github.io/homepage</a></big></big>
 
+<big><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We are educators, teachers, designers and engineers from 10 countries  🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪 around Europe.</big></big>
+
+<big><big>Our interactive scenarios help young designers and craftsmen learn STEM topics in fun, visual and engaging way.</big></big>
+
+<big><big>The scenarios are powered by <a href="https://designstem.github.io/fachwerk"> designstem.github.io/fachwerk</a> framework, development progress can be tracked here <a href="https://designstem.github.io/homepage"> designstem.github.io/homepage</a></big></big>
+
+<br><br>
+<!--
 <br><br>
 
 ## Featured scenarios
@@ -81,10 +88,7 @@ Quickrun <b>{{ s.d1 }}min</b>&nbsp;&nbsp;&nbsp;Complete <b>{{ s.d2 }}m</b>
 </div>
 
 <br><br>
-
-## Who are we?
-
-<big><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We are educators, teachers, designers and engineers from 10 countries around Europe: 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪</big></big>
+-->
 
 
 
