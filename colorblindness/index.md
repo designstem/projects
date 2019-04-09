@@ -1,9 +1,6 @@
 
 
 
-| theme: yellow
-
-
 
 <div>
 
@@ -13,19 +10,16 @@
 
 (Richard Spencer, Kristin Kreer)
 
+<f-embed src="./menu.md" />
+
+<f-next-button title="Let's start" style="margin: var(--base8) 0;" />
 
 
 
-<f-fetch :url="'./menu.md'">
-  <div slot-scope="{ value }">
-    <f-content
-      :content="value"
-      :type="'markdown'"
-    />
-  </div>
-</f-fetch>
 
-<div style="opacity:0.2">
+
+
+<div style="opacity:0.2; margin-top:50vh;">
 <button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
 <button v-on:click="send('goto','3properties')" >3 properties</button> 
 <button v-on:click="send('goto','shampoo')">Shampoo</button>
@@ -60,19 +54,20 @@ The students’ awareness should be raised for the problems people with color vi
 
 ---
 
-| gap: none
+| section: explore-cb
 | 1 1 2 2 
 
 ##### EXPLORE
 # Color blindness
 
-<f-hr style="margin:3vh 0;" />
+<!-- <f-hr :borderStyle="'dotted'" :borderColor="'hsla(0, 66%, 66%, 0.5)'" :borderWidth="'3px'" :marginTop="'6vh'" :marginBottom="'6vh'" /> -->
+<f-hr style="margin:var(--base6) 0 var(--base6) 0" />
 
 <f-inline>
 
   This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
 
-  # <big>👉</big>
+  ## <big>👉</big>
 
 </f-inline>
 
@@ -115,8 +110,6 @@ The students’ awareness should be raised for the problems people with color vi
 
 <ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" />
 
-<!--  img url: https://pixnio.com/flora-plants/vegetables/tomato-pictures/ripe-tomato-green-tomatoes-vegetable  -->
-
 
 
 
@@ -127,9 +120,10 @@ The students’ awareness should be raised for the problems people with color vi
 
 ---
 
-| height: fit
-| gap: none
-| padding: none
+| id: cbSafari
+| height: 100vh
+| gap: 0
+| padding: 0
 | 1 2
 
 
@@ -260,16 +254,29 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 
 ---
 
+| height: 100vh
+| 1 1 1
+| 2 3 3
+| 4 4 4
+
+
 ##### EXPLORE
 # Color blindness
 ## Analyze results
 
 <f-hr style="margin:var(--base6) 0" />
 
+-
+
 Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:
-5. Find out what the main problem is regarding the color scheme.
-6. Phrase a hypothesis on how this problem could be solved.
-7. Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?
+
+-
+
+#### **1** Find out what the main problem is regarding the color scheme.
+#### **2** Phrase a hypothesis on how this problem could be solved.
+#### **3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?
+
+-
 
 <f-next-button style="margin:var(--base6) 0" />
 
@@ -324,9 +331,11 @@ Now that you found out about possible weak spots in the color design of objects 
 
 ---
 
-| padding: none
-| gap: none
-| height: fit
+
+| section: accessibility
+| padding: 0
+| gap: 0
+| height: 100vh
 | 1 2
 
 <section style="padding: var(--content-padding)">
@@ -369,6 +378,8 @@ Now that you found out about possible weak spots in the color design of objects 
 
 
 ---
+
+| section: eye
 
 ##### EXPLAIN 
 # The eye
@@ -486,7 +497,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 <f-hr style="margin:var(--base6) 0" />
 
-**In the Additive Color System, <span style="color:red">RED</span>, <span style="color:lime">GREEN</span> and <span style="color:hsl(216,100%,34%)">BLUE</span> are the primary colors.** When all three colors overlap, white light is produced.
+**In the Additive Color System, <span style="background:red; padding:0 var(--base); border-radius:calc(var(--base)/3" v-on:mouseover="set('activeCol', 'red')">RED</span>, <span style="color:lime">GREEN</span> and <span style="color:hsl(216,100%,44%)">BLUE</span> are the primary colors.** When all three colors overlap, WHITE light is produced.
 
 1. Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?
 2. Find out where the RGB Model is used? 
@@ -498,11 +509,9 @@ Color is derived from light, either natural or artificial. With little light, li
 
 -
 
-<div style="background-color:var(--black); height:100%; ">
+<div style="background-color:var(--black); height:100%; display:flex; justify-content:center; align-items:center;">
 
-
-
-<f-scene style="width:100%; height:100vh">
+<f-scene style="width:80%; height:80%">
   
   <f-circle 
     v-for="(c,i) in ['red', 'lime', 'blue']" 
@@ -510,13 +519,11 @@ Color is derived from light, either natural or artificial. With little light, li
     :fill="c" 
     :x="polarx( i*(360/3), 0.7 )"  
     :y="polary( i*(360/3), 0.7 )" 
-    stroke="none"
-    style="mix-blend-mode: screen; "
+    stroke="get('activeCol') == c ? 'white' : 'none'"
+    style="mix-blend-mode: screen;"
   />
 
 </f-scene>
-
-
 
 </div>
 
@@ -535,19 +542,22 @@ Color is derived from light, either natural or artificial. With little light, li
 
 
 
+
 ---
 
-| 1 1 1
-| 2 2 3
-| 4 4 4
+| height: fit
+| padding: none
+| gap: none
+| theme: dark
+| 1 2
+
+<section style="padding:var(--content-padding)">
 
 ##### EXPLAIN 
 # Color mixing
 ## Subtractive Color System
 
 <f-hr style="margin:var(--base6) 0" />
-
--
 
 All objects have physical properties that cause them to absorb some color waves and reflect others. Color, when applied to a surface such as canvas or paper, has the same characteristic.
 
@@ -557,10 +567,16 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 1. The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.
 
+<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
+
+</section>
 
 -
 
-<f-scene style=" border-radius: var(--border-radius);" width="400" height="400">
+<div style="background-color:var(--white); height:100vh; display:flex; justify-content:center; align-items:center;">
+
+<f-scene style="width:80%; height:80%">
+  
   <f-circle 
     v-for="(c,i) in ['magenta', 'cyan', 'yellow']" 
     :key="'sub'+i"
@@ -570,11 +586,11 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
     stroke="none"
     style="mix-blend-mode: multiply; "
   />
+
 </f-scene>
 
--
+</div>
 
-<f-next-button style="margin:var(--base6) 0"  />
 
 
 
