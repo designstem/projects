@@ -1,8 +1,9 @@
-import { Vue, components, Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
+// import { Vue, components, Css } from "http://127.0.0.1:8887/fachwerk.js";
 
-for (const name in components) {
-  Vue.component(name, components[name])
-}
+// for (const name in components) {
+//   Vue.component(name, components[name])
+// }
 
 export default{
   props: {
