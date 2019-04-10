@@ -41,7 +41,7 @@ This concept is divided into three main sections:
 
 ---
 
-## **1**&nbsp;Make it stop
+## **1** Make it stop
 
 ### Adjust the wheel speed so it stops
 
@@ -106,7 +106,7 @@ This concept is divided into three main sections:
 
 ---
 
-## **2**&nbsp;Make it stop II
+## **2* Make it stop II
 
 ### Adjust the number of lines so the wheel stops
 
@@ -166,6 +166,59 @@ This concept is divided into three main sections:
 <f-scene>
   <f-spinner :duration="1000">
   	<f-spin-pattern :count="get('c')" r="0.5">
+  	<f-box
+    	height="0.06"
+      width="0.5"
+      position="1 0"
+      :fill="color('primary')"
+      stroke
+    />
+    </f-spin-pattern>
+  </f-spinner>
+</f-scene>
+
+---
+
+## **3* All together now
+
+### Adjust the rotation speed *and* the number of lines so the wheel stops
+
+~Rotation speed is `{{ get('d2', 1000) }}` *milliseconds* per rotation.~
+
+~Number of lines is **{{ get('c2', 60) }}**.~
+
+<f-slider
+  set="d2"
+  value="1000"
+  to="2000"
+  step="10"
+  integer
+  title=""
+/>
+
+<f-slider
+  set="c2"
+  value="30"
+  to="120"
+  integer
+  title=""
+/>
+
+
+<div v-if="get('d2') == 1000 && get('c2') == 60">
+
+Yep! We ended up in a place where we have **1 second** for a full rotation and **60 lines** on a wheel. Do you know how fast your monitor updates it's picture? It is **60 Hetz** or **60 times per second**. See? The wheel *never stopped*. It is moving *right now*. It is all an *illusion*.
+
+<f-prev-button />
+<f-next-button />
+
+</div>
+
+-
+
+<f-scene>
+  <f-spinner :duration="get('d2')">
+  	<f-spin-pattern :count="get('c2')" r="0.5">
   	<f-box
     	height="0.06"
       width="0.5"
