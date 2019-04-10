@@ -72,7 +72,7 @@ Objects made of very heavy materials can float
 
 
 
-<a class="primary" href="./index7.html">Go to Work with your structure</a>
+<a class="primary" @click="send('first')" href="./index7.html">Go to Work with your structure</a>
 
 -
 <br><br><br>

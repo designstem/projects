@@ -89,7 +89,7 @@ Create a presentation.
 
 <br />
 <f-prev-button /> 
-<a class="primary" href="./step-7.0.html">Go to Self-Assessment step</a>
+<a class="primary" @click="send('first')" href="./step-7.0.html">Go to Self-Assessment step</a>
 
 -
 <p>

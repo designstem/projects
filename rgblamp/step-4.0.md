@@ -53,10 +53,10 @@ Create a spreadsheet  and make a detailed description of how the values of the t
 
 <br />
 <f-prev-button /> 
-<a class="primary" href="./step-5.0.html">Go to Making step</a>
+<a class="primary" @click="send('first')" href="./step-5.0.html">Go to Making step</a>
 <br/>
 <br/>
-Skip Making step and <a class="secondary" href="./step-6.0.html"> Go to Communication step</a>
+Skip Making step and <a class="secondary" @click="send('first')" href="./step-6.0.html"> Go to Communication step</a>
 
 
 -

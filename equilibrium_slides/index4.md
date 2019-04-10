@@ -50,7 +50,7 @@ Concentrate on these terms:
 
 
 
-<a class="primary" href="./index5.html">Go to Archimedes’ principle</a>
+<a class="primary" @click="send('first')" href="./index5.html">Go to Archimedes’ principle</a>
 
 -
 <br><br><br>

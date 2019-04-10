@@ -93,7 +93,7 @@ Needs some reviewing</td>
 
 <br />
 
-<f-prev-button /> <a class="primary" href="./index.html">Go to Index</a>
+<f-prev-button /> <a class="primary" @click="send('first')" href="./index.html">Go to Index</a>
 
 -
 <br/>

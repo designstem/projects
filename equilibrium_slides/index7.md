@@ -18,7 +18,7 @@ Calculate how many grams of quarters were needed to sink the boat. One quarter o
 Compare the total mass of water that sink the boat to the mass of water that fills the boat (see step 2). What do you notice?
 
 
-<a class="primary" href="./index8.html">Now it’s your turn!</a>
+<a class="primary" @click="send('first')"  href="./index8.html">Now it’s your turn!</a>
 
 -
 <br><br><br>

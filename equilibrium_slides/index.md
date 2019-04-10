@@ -66,8 +66,7 @@ Find out how different plastics float or sink
 
 <a href="https://designstem.github.io/scenarios/plastics" target="_new">HERE</a>
 
-<a class="primary" href="./index3.html">Go to Good News</a>
-
+<a class="primary" @click="send('first')" href="./index3.html">Go to Good News</a>
 
 -
 

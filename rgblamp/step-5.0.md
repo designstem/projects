@@ -82,7 +82,7 @@ How can I build a RGB lamp?
 
 <br />
 <f-prev-button /> 
-<a class="primary" href="./step-6.0.html">Go to Communication step</a>
+<a class="primary" @click="send('first')" href="./step-6.0.html">Go to Communication step</a>
 
 -
 <p>

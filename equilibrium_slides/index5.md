@@ -17,7 +17,7 @@
 <a href="https://phet.colorado.edu/sims/density-and-buoyancy/buoyancy_en.html" target="_new">Experiment</a>
 
 
-<a class="primary" href="./index6.html">Go to Task</a>
+<a class="primary" @click="send('first')" href="./index6.html">Go to Task</a>
 
 
 -

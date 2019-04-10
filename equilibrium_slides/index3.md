@@ -25,7 +25,7 @@ Some good news:
 Q&A) Can you find any other good news about plastic and environment?
 
 
-<a class="primary" href="./index4.html">Go to Plastic Reuse</a>
+<a class="primary" @click="send('first')" href="./index4.html">Go to Plastic Reuse</a>
 
 -
 
