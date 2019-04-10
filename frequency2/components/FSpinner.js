@@ -3,10 +3,10 @@ import { Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
 export default {
   mixins: [Css],
   props: {
-    speed: {
+    duration: {
       default: 1000,
       type: [Number, String],
-      description: "Rotation speed, in milliseconds"
+      description: "Duration for one rotation in milliseconds"
     },
     easing: {
       default: "linear",
@@ -31,7 +31,7 @@ export default {
     animation() {
       const animation = [
         "spinner",
-        `${this.speed}ms`,
+        `${this.duration}ms`,
         this.easing,
         `${this.delay}ms`,
         "infinite",
