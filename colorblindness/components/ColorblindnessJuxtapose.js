@@ -1,5 +1,5 @@
-import { Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
-// import { Vue, components, Css } from "http://127.0.0.1:8887/fachwerk.js";
+// import { Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
+ import { Vue, components, Css } from "http://127.0.0.1:8887/fachwerk.js";
 
 // for (const name in components) {
 //   Vue.component(name, components[name])
@@ -140,15 +140,7 @@ export default{
         this.juxt.ctx.putImageData(this.normalImage.imageData,  0, 0,    0, 0,      xPos, this.imgHeight);
         this.juxt.ctx.putImageData(this.cbImage.imageData,      0, 0,    xPos, 0,   this.imgWidth, this.imgHeight);
         
-        // thin separator line
-        this.juxt.ctx.lineWidth = 1;
-        this.juxt.ctx.strokeStyle = "hsla(0, 0%, 0%, 0.1)";
-        this.juxt.ctx.beginPath();
-        this.juxt.ctx.moveTo(xPos, 0);
-        this.juxt.ctx.lineTo(xPos, this.imgHeight);
-        this.juxt.ctx.closePath();
-        this.juxt.ctx.stroke();
-
+   
         // 'padding' lines top and bottom
         this.juxt.ctx.lineWidth = 8;
         this.juxt.ctx.strokeStyle = "hsla(0, 0%, 100%, 1)";
@@ -165,9 +157,19 @@ export default{
         this.juxt.ctx.stroke();
 
 
+      if(!this.locked){
+        // thin separator line
+        this.juxt.ctx.lineWidth = 1;
+        this.juxt.ctx.strokeStyle = "hsla(0, 0%, 0%, 0.1)";
+        this.juxt.ctx.beginPath();
+        this.juxt.ctx.moveTo(xPos, 0);
+        this.juxt.ctx.lineTo(xPos, this.imgHeight);
+        this.juxt.ctx.closePath();
+        this.juxt.ctx.stroke();
+        
         // red triangles top and bottom
         this.juxt.ctx.save();
-
+        this.juxt.ctx.lineWidth = 8;
         this.juxt.ctx.fillStyle = "#ff0000";
         this.juxt.ctx.strokeStyle = "hsla(0, 0%, 100%, 1)";
         this.juxt.ctx.shadowColor = "hsla(0, 0%, 0%, 0.5)";
@@ -190,7 +192,7 @@ export default{
         this.juxt.ctx.stroke();
 
         this.juxt.ctx.restore();
-        
+      }
     },
     changeImage(e){
       const reader = new FileReader();
@@ -300,8 +302,8 @@ export default{
     }
     .cbs-canvas__status {
       position: absolute; 
-      bottom:40px; 
-      right:20px; 
+      top:7px; 
+      left:0; 
       z-index: 100;
       font-size: var(--base2);
       background:var(--darkestgray); 

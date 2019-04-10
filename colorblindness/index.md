@@ -1,14 +1,18 @@
 
-
+| section: start
 
 
 <div>
 
 # <big>Color Vision Deficiency & <br />Accessibility</big>
 
-### How to design information for people whose color perception is impaired.
+#### How to design information for people whose color perception is impaired.
 
 (Richard Spencer, Kristin Kreer)
+
+<br />
+<br />
+<br />
 
 <f-embed src="./menu.md" />
 
@@ -57,38 +61,54 @@ The students’ awareness should be raised for the problems people with color vi
 | section: explore-cb
 | 1 1 2 2 
 
-##### EXPLORE
+<!-- ##### EXPLORE -->
 # Color blindness
 
-<!-- <f-hr :borderStyle="'dotted'" :borderColor="'hsla(0, 66%, 66%, 0.5)'" :borderWidth="'3px'" :marginTop="'6vh'" :marginBottom="'6vh'" /> -->
-<f-hr style="margin:var(--base6) 0 var(--base6) 0" />
+<f-hr  />
 
+<div v-if="get('revealX') < 75">
+
+  This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes. 
+
+  <!-- ## <big>👉</big> -->
+
+
+
+<!-- <f-icon :size="'large'" :icon="'Activity'" style="width:15vw;" /> -->
 <f-inline>
 
-  This is how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.
+# 🤔
 
-  ## <big>👉</big>
+#### Look at the tomatoes and guess which one of the tomatoes is already ripe, red and therefore edible. 
 
 </f-inline>
 
-### Look at the tomatoes and guess which one of the tomatoes is already ripe, red and therefore edible. 
-
-
-<!-- **<mark>Click on the picture</mark> to check if you guessed correct.** -->
-
+<br />
+<br />
 
 <button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
+</div>
+
+
+
 <div v-if="get('revealX') > 75">
 
+  <br />
+
   Did you guess right? If you picked the right tomato, congratulations! 
+  
+  <f-inline>
+  
+   # 🤢
+  
+  > For color deficient people choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.
 
-  > **For color deficient people choosing the wrong tomatoes can have serious consequences for their health**, since unripe tomatoes are poisonous and can cause nausea and vomiting.
+  </f-inline>
 
-  > BTW, you can also drag or click the image to compare it
+  <small>*BTW, you can also drag or click the image to compare it*</small>
 
-  #### Think of further everyday situations where it is needed to be able to tell the right colors.
-
+  <br />
   <br />
 
   <f-next-button title="Next: go outside!" />
@@ -128,22 +148,31 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
-<section style="display:grid; grid-template-rows: auto 70px; padding:var(--content-padding); height:100%;">
+<section style="display:grid; grid-template-rows: auto 100px; padding:var(--content-padding); height:100%;">
 
   <div>
   
-  ##### EXPLORE
-  # Photo safari
+  <!-- ##### EXPLORE -->
+  # <f-icon :icon="'Activity'" :size="'large'" /> Photo safari
+
+  <f-hr />
+
+  <br />
 
   Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
 
+  <f-inline>
+
+  # 📸
+
   **Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
-
+  
+  </f-inline>
+  
   </div>
+
   <div>
-
-  <f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
-
+    <f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
   </div>
 
 </section>
@@ -197,7 +226,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | 2 3 3
 | 4 4 4
 
-##### EXPLORE
+<!-- ##### EXPLORE -->
 # Colorblindness types
 
 Simulate color vision deficiency by applying different filters.
@@ -212,18 +241,18 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 
 <f-card title="Protanopia" subtitle="missing RED" background="var(--lightergray)" color="var(--darkgray)" style="height: auto;margin-bottom:var(--base);" :style="get('cbType') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
   <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
-  <button @click="set('cbType', 'Protanopia')" class="secondary button">Simulate Protanopia</button>
+  <button @click="set('cbType', 'Protanopia')" class="secondary button">Simulate</button>
 </f-card>
 
 
 <f-card title="Deuteranopia" subtitle="missing GREEN" background="var(--lightergray)" color="var(--darkgray)" style="height: auto; margin-bottom:var(--base);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
   <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
-  <button @click="set('cbType', 'Deuteranopia')" class="secondary button" >Simulate Deuteranopia</button>
+  <button @click="set('cbType', 'Deuteranopia')" class="secondary button">Simulate</button>
 </f-card>
 
 <f-card title="Tritanopia" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" style="height: auto; margin-bottom:var(--base);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
   <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
-  <button @click="set('cbType', 'Tritanopia')" class="secondary button" >Simulate Tritanopia</button>
+  <button @click="set('cbType', 'Tritanopia')" class="secondary button">Simulate</button>
 </f-card>
 
 
@@ -243,6 +272,8 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 
 -
 
+<f-hr />
+
 <f-next-button style="margin:var(--base4) 0" />
 
 
@@ -260,11 +291,11 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 | 4 4 4
 
 
-##### EXPLORE
+<!-- ##### EXPLORE -->
 # Color blindness
 ## Analyze results
 
-<f-hr style="margin:var(--base6) 0" />
+<f-hr />
 
 -
 
@@ -380,6 +411,10 @@ Now that you found out about possible weak spots in the color design of objects 
 ---
 
 | section: eye
+| height: 100vh
+| 1 2
+
+
 
 ##### EXPLAIN 
 # The eye
@@ -390,6 +425,35 @@ When it comes to color vision, the **retina** is the part of the eye which is im
 It is at the back of the eye and contains two types of photoreceptor cells which detect light: 
 
 ### Rods and cones.
+
+<f-next-button title="Rods and cones" style="margin:var(--base6) 0" />
+
+-
+
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+  <img src="./images/eye.svg" />
+</figure>
+
+
+
+
+
+
+
+
+
+
+---
+
+| height: 100vh
+| 1 2
+
+
+##### EXPLAIN 
+# The eye
+### Rods and cones
+
+<f-hr style="margin:var(--base6) 0" />
 
 Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.
 
@@ -405,9 +469,17 @@ That’s why you can’t see colors in the dark.
 
 (For more details, read the worksheets on The Eye).
 
+<f-next-button style="margin:var(--base6) 0" />
+
+-
+
+s
 
 
-<f-next-button />
+
+
+
+
 
 ---
 
@@ -483,9 +555,9 @@ Color is derived from light, either natural or artificial. With little light, li
 
 ---
 
-| height: fit
-| padding: none
-| gap: none
+| height: 100vh
+| padding: 0
+| gap: 0
 | theme: dark
 | 1 2
 

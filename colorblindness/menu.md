@@ -1,7 +1,7 @@
 | padding: 0
 
 
-<div class="grid">
+<div class="grid" style="padding:var(--base8) var(--base2);">
 
 <f-section-card title="1: Explore color blindness" section="explore-cb">
 - How does color vision deficiency affects people?

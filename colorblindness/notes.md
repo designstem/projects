@@ -1,22 +1,14 @@
 
 
-- swap slides with v-if instead v-show
-- gap, padding value?
+
+# Make primary font-weight lighter but add contrast to color?
+- font-weight 400 instead 500
+- --primary to #444444 instead #555555
+
+# Menu sidebar close button issue 
 
 
 
-
-
-
-
-
-
-
-- Teacher notes (similar solution to sidebar? using details for now)
-- distinctive areas (icons, color?) for different parts ie teacher notes, assignments, tasks, theory etc 
-
-
-- assign margins to components similar to position? mostly top and bottom and for f-next-button and f-hr
 
 
 
