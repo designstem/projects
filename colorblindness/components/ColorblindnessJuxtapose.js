@@ -173,7 +173,7 @@ export default{
         this.juxt.ctx.fillStyle = "#ff0000";
         this.juxt.ctx.strokeStyle = "hsla(0, 0%, 100%, 1)";
         this.juxt.ctx.shadowColor = "hsla(0, 0%, 0%, 0.5)";
-        this.juxt.ctx.shadowBlur = 8;
+        this.juxt.ctx.shadowBlur = 5;
 
         this.juxt.ctx.beginPath();
         this.juxt.ctx.moveTo(xPos, 40);

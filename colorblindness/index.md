@@ -1,6 +1,6 @@
 
 | section: start
-
+| theme: yellow
 
 <div>
 
@@ -8,7 +8,7 @@
 
 #### How to design information for people whose color perception is impaired.
 
-(Richard Spencer, Kristin Kreer)
+~(Richard Spencer, Kristin Kreer)~
 
 <br />
 <br />
@@ -64,14 +64,13 @@ The students’ awareness should be raised for the problems people with color vi
 <!-- ##### EXPLORE -->
 # Color blindness
 
-<f-hr  />
-
-<br />
-<br />
+<p />
 
 <div v-if="get('revealX') < 75">
 
-  This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes. 
+  <p />
+
+  ~This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
 
   <!-- ## <big>👉</big> -->
 
@@ -82,12 +81,11 @@ The students’ awareness should be raised for the problems people with color vi
 
 # 🤔
 
-#### Look at the tomatoes and guess which one of the tomatoes is already ripe, red and therefore edible. 
+~**Look at the tomatoes and guess which one of the tomatoes is already ripe, red and therefore edible.**~
 
 </f-inline>
 
-<br />
-<br />
+<p />
 
 <button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
@@ -100,17 +98,17 @@ The students’ awareness should be raised for the problems people with color vi
   <br />
   <br />
 
-  #### Did you guess right? If you picked the right tomato, congratulations! 
+  ~**Did you guess right? If you picked the right tomato, congratulations!**~
   
   <f-inline>
   
    # 🤢
   
-  > For color deficient people choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.
+  > ~For color deficient people choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.~
 
   </f-inline>
 
-  <small>*BTW, you can also drag or click the image to compare it*</small>
+  <small>~*BTW, you can also drag or click the image to compare it*~</small>
 
   <br />
   <br />
@@ -125,7 +123,7 @@ The students’ awareness should be raised for the problems people with color vi
   
   #### Aim
 
-  Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.
+  ~Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.~
 
 </f-notes>
 
@@ -159,17 +157,15 @@ The students’ awareness should be raised for the problems people with color vi
   <!-- ##### EXPLORE -->
   # <f-icon :icon="'Activity'" :size="'large'" /> Photo safari
 
-  <f-hr />
+  <p />
 
-  <br />
-
-  Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.
+  ~Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.~
 
   <f-inline>
 
   # 📸
 
-  **Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**
+  ~**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**~
   
   </f-inline>
   
@@ -225,44 +221,69 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
+| height: 100vh
 | id: cbSimulator
-| 1 1 1
-| 2 3 3
-| 4 4 4
-
-<!-- ##### EXPLORE -->
-# Colorblindness types
-
-Simulate color vision deficiency by applying different filters.
-
-Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?
-
-<f-hr style="margin: var(--base6) 0" />
-
-{{ set('cbType','Protanopia') }}
-
--
-
-<f-card title="Protanopia" subtitle="missing RED" background="var(--lightergray)" color="var(--darkgray)" style="height: auto;margin-bottom:var(--base);" :style="get('cbType') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
-  <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
-  <button @click="set('cbType', 'Protanopia')" class="secondary button">Simulate</button>
-</f-card>
+| 1 2 2
+| 3 2 2
 
 
-<f-card title="Deuteranopia" subtitle="missing GREEN" background="var(--lightergray)" color="var(--darkgray)" style="height: auto; margin-bottom:var(--base);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
-  <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
-  <button @click="set('cbType', 'Deuteranopia')" class="secondary button">Simulate</button>
-</f-card>
 
-<f-card title="Tritanopia" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" style="height: auto; margin-bottom:var(--base);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}">
-  <f-hr style="margin:var(--base) 0; border-bottom:1px solid var(--gray)" />
-  <button @click="set('cbType', 'Tritanopia')" class="secondary button">Simulate</button>
-</f-card>
+# Color&shy;blindness types
+
+<p />
+
+~**Simulate color vision deficiency by applying different filters.**~
+
+<p />
+
+<!-- <button @click="set('cbType', 'Protanopia')">Daa {{ get('cbType') == 'Protanopia' ? 'Simulating Protanopia' : 'Simulate Protanopia' }}</button>
+
+<button @click="set('cbType', 'Deuteranopia')">Daa {{ get('cbType') == 'Deuteranopia' ? 'Simulating Deuteranopia' : 'Simulate Deuteranopia' }}</button> -->
+
+<f-card :title="get('cbType', 'Protanopia') == 'Protanopia' ? 'Simulating Protanopia' : 'Simulate Protanopia'" subtitle="missing RED" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType', 'Protanopia') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')" />
+
+<f-card :title="get('cbType') == 'Deuteranopia' ? 'Simulating Deuteranopia' : 'Simulate Deuteranopia'" subtitle="missing GREEN" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" />
+
+<f-card :title="get('cbType') == 'Tritanopia' ? 'Simulating Tritanopia' : 'Simulate Tritanopia'" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')" />
+
+<p />
+
+~Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
 
 
-<button @click="set('cbType', 'Normal')" style="margin:var(--base2)">Reset to normal</button>
+
+<f-next-button style="margin:var(--base4) 0" />
+
+
 
 -
+
+<!-- <f-inline>
+
+<f-card background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')">
+
+##### Simulate Protanopia
+<small>missing red</small>
+
+</f-card>
+
+
+<f-card background="var(--lightergray)" color="var(--darkgray)" style="height: auto;margin-bottom:var(--base);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')">
+
+##### Simulate Deuteranopia
+<small>missing green</small>
+
+</f-card>
+
+<f-card background="var(--lightergray)" color="var(--darkgray)" style="height: auto;margin-bottom:var(--base);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')">
+
+##### Simulate Tritanopia
+<small>missing blue</small>
+
+</f-card>
+
+</f-inline> -->
+
 
 <ColorblindnessJuxtapose 
   :imageUrl="'images/colorblind-subway.png'" 
@@ -272,13 +293,8 @@ Find out if any information on your pictures get lost for colorblind people. Doe
 />
 
 
-<!-- <ColorblindnessSimulator :imageUrl="'images/before.jpg'" /> -->
 
--
 
-<f-hr />
-
-<f-next-button style="margin:var(--base4) 0" />
 
 
 
