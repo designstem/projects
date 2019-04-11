@@ -3,6 +3,9 @@
 
 <div class="grid" style="padding:var(--base8) var(--base2);">
 
+
+
+
 <f-section-card title="1: Explore color blindness" section="explore-cb">
 - How does color vision deficiency affects people?
 </f-section-card>
@@ -17,7 +20,9 @@
 - How does the eye work?
 </f-section-card>
 
-
+<f-section-card title="4: Color mixing" section="color-mixing">
+- Mix all colors from RED, GREEN and BLUE light
+</f-section-card>
 
 
 

@@ -66,6 +66,9 @@ The students’ awareness should be raised for the problems people with color vi
 
 <f-hr  />
 
+<br />
+<br />
+
 <div v-if="get('revealX') < 75">
 
   This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes. 
@@ -95,8 +98,9 @@ The students’ awareness should be raised for the problems people with color vi
 <div v-if="get('revealX') > 75">
 
   <br />
+  <br />
 
-  Did you guess right? If you picked the right tomato, congratulations! 
+  #### Did you guess right? If you picked the right tomato, congratulations! 
   
   <f-inline>
   
@@ -320,7 +324,7 @@ Now that you found out about possible weak spots in the color design of objects 
 
 ---
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Learning stations
 
 <f-hr style="margin:var(--base6) 0" />
@@ -371,7 +375,7 @@ Now that you found out about possible weak spots in the color design of objects 
 
 <section style="padding: var(--content-padding)">
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Accessibility
 
 <f-hr style="margin:var(--base6) 0" />
@@ -416,8 +420,8 @@ Now that you found out about possible weak spots in the color design of objects 
 
 
 
-##### EXPLAIN 
-# The eye
+<!-- ##### EXPLAIN  -->
+# 👁️‍🗨️ The eye
 
 <f-hr style="margin:var(--base6) 0" />
 
@@ -449,7 +453,7 @@ It is at the back of the eye and contains two types of photoreceptor cells which
 | 1 2
 
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # The eye
 ### Rods and cones
 
@@ -483,7 +487,7 @@ s
 
 ---
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # The eye
 ## Tasks
 
@@ -532,7 +536,9 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 ---
 
-##### EXPLAIN 
+| section: color-mixing
+
+<!-- ##### EXPLAIN  -->
 # Color mixing
 
 <f-hr style="margin:var(--base6) 0" />
@@ -555,7 +561,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 ---
 
-| height: 100vh
+| height: 100%
 | padding: 0
 | gap: 0
 | theme: dark
@@ -563,13 +569,13 @@ Color is derived from light, either natural or artificial. With little light, li
 
 <section style="padding:var(--content-padding)">
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color mixing
 ## Additive Color System
 
 <f-hr style="margin:var(--base6) 0" />
 
-**In the Additive Color System, <span style="background:red; padding:0 var(--base); border-radius:calc(var(--base)/3" v-on:mouseover="set('activeCol', 'red')">RED</span>, <span style="color:lime">GREEN</span> and <span style="color:hsl(216,100%,44%)">BLUE</span> are the primary colors.** When all three colors overlap, WHITE light is produced.
+**In the Additive Color System, <span style="color:red;" v-on:mouseover="set('activeCol', 'red')">RED</span>, <span style="color:lime;" v-on:mouseover="set('activeCol', 'lime')">GREEN</span> and <span style="color:hsl(230, 100%, 70%);" v-on:mouseover="set('activeCol', 'blue')">BLUE</span> are the primary colors.** When all three colors overlap, **WHITE** light is produced.
 
 1. Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?
 2. Find out where the RGB Model is used? 
@@ -581,7 +587,7 @@ Color is derived from light, either natural or artificial. With little light, li
 
 -
 
-<div style="background-color:var(--black); height:100%; display:flex; justify-content:center; align-items:center;">
+<div style="background-color:var(--black); height:100vh; position:sticky; top:0; display:flex; justify-content:center; align-items:center;">
 
 <f-scene style="width:80%; height:80%">
   
@@ -591,8 +597,9 @@ Color is derived from light, either natural or artificial. With little light, li
     :fill="c" 
     :x="polarx( i*(360/3), 0.7 )"  
     :y="polary( i*(360/3), 0.7 )" 
-    stroke="get('activeCol') == c ? 'white' : 'none'"
+    :stroke="get('activeCol') == c ? 'white' : 'none'"
     style="mix-blend-mode: screen;"
+    
   />
 
 </f-scene>
@@ -617,15 +624,15 @@ Color is derived from light, either natural or artificial. With little light, li
 
 ---
 
-| height: fit
-| padding: none
-| gap: none
+| height: 100%
+| padding: 0
+| gap: 0
 | theme: dark
 | 1 2
 
 <section style="padding:var(--content-padding)">
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color mixing
 ## Subtractive Color System
 
@@ -645,7 +652,7 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 -
 
-<div style="background-color:var(--white); height:100vh; display:flex; justify-content:center; align-items:center;">
+<div style="background-color:var(--white); height:100vh; position:sticky; top:0; display:flex; justify-content:center; align-items:center;">
 
 <f-scene style="width:80%; height:80%">
   
@@ -685,7 +692,7 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 | 3 4 5
 | 6 6 6
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color mixing
 
 
@@ -824,7 +831,7 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 <section style="padding:var(--content-padding)">
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Three properties of color
 ## Hue, saturation, brightness
 
@@ -881,7 +888,7 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 | 2 3
 | 4 4
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Three properties of color
 ## Hue, saturation, brightness
 
@@ -940,7 +947,7 @@ Have a look at the following colors and find adjectives to describe them. For wh
 | 2 3
 | 4 4
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Three properties of color
 ## Brightness
 
@@ -1028,7 +1035,7 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 | 2 3
 | 4 4
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Three properties of color
 ## Saturation
 
@@ -1118,7 +1125,7 @@ Describe the difference between low and high saturated colors with adjectives. W
 | 2 3 4
 | 5 5 5
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Three properties of color
 ## Shampoo
 
@@ -1235,7 +1242,7 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 | 2 3
 | 4 4
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color contrast and harmony
 
 <f-hr  style="margin:var(--base6) 0" />
@@ -1270,7 +1277,7 @@ Designers create contrasting or allied color relationships/palettes to affect th
 | 2 3
 | 4 4
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color contrast and harmony
 
 <f-hr  style="margin:var(--base6) 0" />
@@ -1305,7 +1312,7 @@ Color contrasts can also be harmonious. Don’t equate contrast and harmony with
 | 2 3
 | 4 4
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color contrast and harmony
 
 <f-hr  style="margin:var(--base6) 0" />
@@ -1342,7 +1349,7 @@ Therefore, don’t mix up color contrast with discord.
 
 ---
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color contrast and harmony
 ## Itten's contrasts
 
@@ -1378,7 +1385,7 @@ Therefore, don’t mix up color contrast with discord.
 | 2 3
 | 4 4
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color contrast and harmony
 ## Task 1
 
@@ -1430,7 +1437,7 @@ Which contrasts do you see?
 | 2 3
 | 4 4
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color contrast and harmony
 ## Task 1
 
@@ -1481,7 +1488,7 @@ Which contrasts do you see?
 | 2 3
 | 4 4
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color contrast and harmony
 ## Task 1
 
@@ -1532,7 +1539,7 @@ Find out about the seven contrasts online and match them with the pictures. Whic
 | 2 3
 | 4 4
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color contrast and harmony
 ## Complementary palette
 
@@ -1608,7 +1615,7 @@ In order to create a harmonious color palette, you can also use the color wheel.
 | 2 3
 | 4 4
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color contrast and harmony
 ## Split complementary palette
 
@@ -1677,7 +1684,7 @@ If you want a color palette which is more harmonious than complementary palette,
 | 3 4
 | 5 5
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color contrast and harmony
 ## Double complementary and triadic palettes
 
@@ -1806,7 +1813,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 | 2 3
 | 4 4
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color contrast and harmony
 ## Analoguous palette
 
@@ -1880,7 +1887,7 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 | 2 3
 | 4 4
 
-##### EXPLAIN 
+<!-- ##### EXPLAIN  -->
 # Color contrast and harmony
 ## Monochromatic palette
 
@@ -1965,7 +1972,7 @@ For monochromatic palettes you combine one hue with its different shades, either
 | 2 3 4
 | 5 5 5
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color contrast and harmony
 ## Task 2
 
@@ -2073,7 +2080,7 @@ Use the knowledge about contrasts and harmonies which you just found out about. 
 | 2 2 2 3 
 | 4 4 5 5
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color contrast and harmony
 
 <f-hr style="margin:var(--base6) 0" />
@@ -2182,7 +2189,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 -
 
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color palettes
 
 <f-hr style="margin:var(--base6) 0" />
@@ -2260,7 +2267,7 @@ e.g. in a mock-up
 ---
 
 
-##### EXPLAIN
+<!-- ##### EXPLAIN -->
 # Color palettes
 
 <f-hr style="margin:var(--base6) 0" />
