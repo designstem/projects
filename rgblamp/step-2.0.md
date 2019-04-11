@@ -57,7 +57,7 @@ Grab a piece of paper and design/sketch your own lamp.
 
 <br />
 <f-prev-button /> 
-<a class="primary" href="./step-3.0.html">Go to Detailed Design step</a>
+<a class="primary" @click="send('first')"  href="./step-3.0.html">Go to Detailed Design step</a>
 -
 <br/>
 <a style="float=top" href="https://www.flickr.com/photos/62449696@N00/9522596028">flickr</a>

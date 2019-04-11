@@ -243,10 +243,10 @@ Grab a piece of paper and write a high-level description of how the values of th
 
 <br />
 <f-prev-button /> 
-<a class="primary" href="./step-4.0.html">Go to Engineering step</a>
+<a class="primary" @click="send('first')" href="./step-4.0.html">Go to Engineering step</a>
 <br/>
 <br/>
-Skip Engineering step and <a class="secondary" href="./step-6.0.html">Go to Communication step</a>
+Skip Engineering step and <a class="secondary" @click="send('first')" href="./step-6.0.html">Go to Communication step</a>
 -
 
 <p>

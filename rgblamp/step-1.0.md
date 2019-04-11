@@ -372,7 +372,7 @@ For example, colored light is used in stores to make certain products more attra
 
 <br />
 <f-prev-button />
-<a class="primary" href="./step-2.0.html">Go to Design step</a>
+<a class="primary" @click="send('first')" href="./step-2.0.html">Go to Design step</a>
 
 
 -
