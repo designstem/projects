@@ -64,7 +64,7 @@ Plastic can sink and pollute the sea at all depths
 
 Find out how different plastics float or sink
 
-<a href="https://designstem.github.io/scenarios/plastics" target="_new">HERE</a>
+<a class="secondary" href="https://designstem.github.io/scenarios/plastics" target="_new">Play with Lighter than Air</a>
 
 <a class="primary" @click="send('first')" href="./index3.html">Go to Good News</a>
 

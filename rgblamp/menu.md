@@ -3,7 +3,7 @@
 | width: fit
 | padding: none
 
-<a href="./index.html" class="tertiary">scenario index</a>
+<a @click="send('first')" href="./index.html" class="tertiary">scenario index</a>
 
 <br>
 
@@ -11,7 +11,7 @@
 
 <f-inline>
 <a class="secondary" href="../rgblamp_vision/index.html">E-tools</a>
-<a class="secondary" href="./step-0.0.html">Design Process</a>
+<a class="secondary" @click="send('first')" href="./step-0.0.html">Design Process</a>
 </f-inline>
 <br/>
 
