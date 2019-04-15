@@ -70,22 +70,28 @@ The students’ awareness should be raised for the problems people with color vi
 
   <p />
 
+<f-inline>
+
+  # 👉
+
   ~This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
+  ~Actually there is **<span style="color:var(--red)">only one red tomato</span>** in this picture~
 
   <!-- ## <big>👉</big> -->
 
-
+</f-inline>
 
 <!-- <f-icon :size="'large'" :icon="'Activity'" style="width:15vw;" /> -->
 <f-inline>
 
 # 🤔
 
-~**Look at the tomatoes and guess which one of the tomatoes is already ripe, red and therefore edible.**~
+~**Look at the tomatoes and try to guess which one of the tomatoes is already ripe, red and therefore edible.**~
 
 </f-inline>
 
-<p />
+
+#  
 
 <button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
@@ -108,7 +114,7 @@ The students’ awareness should be raised for the problems people with color vi
 
   </f-inline>
 
-  <small>~*BTW, you can also drag or click the image to compare it*~</small>
+  <small>~*BTW, you can also drag or click on the image to compare protanopia vs normal seeing*~</small>
 
   <br />
   <br />
@@ -232,13 +238,9 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <p />
 
-~**Simulate color vision deficiency by applying different filters.**~
+~Simulate color vision deficiency by applying different filters to the image. **Drag the red handlers to see the difference**~
 
 <p />
-
-<!-- <button @click="set('cbType', 'Protanopia')">Daa {{ get('cbType') == 'Protanopia' ? 'Simulating Protanopia' : 'Simulate Protanopia' }}</button>
-
-<button @click="set('cbType', 'Deuteranopia')">Daa {{ get('cbType') == 'Deuteranopia' ? 'Simulating Deuteranopia' : 'Simulate Deuteranopia' }}</button> -->
 
 <f-card :title="get('cbType', 'Protanopia') == 'Protanopia' ? ' 👉 Simulating Protanopia' : 'Simulate Protanopia'" subtitle="missing RED" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType', 'Protanopia') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')" />
 
@@ -251,48 +253,22 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 ~Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
 
 
-
 <f-next-button style="margin:var(--base4) 0" />
 
 
 
 -
 
-<!-- <f-inline>
-
-<f-card background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')">
-
-##### Simulate Protanopia
-<small>missing red</small>
-
-</f-card>
-
-
-<f-card background="var(--lightergray)" color="var(--darkgray)" style="height: auto;margin-bottom:var(--base);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')">
-
-##### Simulate Deuteranopia
-<small>missing green</small>
-
-</f-card>
-
-<f-card background="var(--lightergray)" color="var(--darkgray)" style="height: auto;margin-bottom:var(--base);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')">
-
-##### Simulate Tritanopia
-<small>missing blue</small>
-
-</f-card>
-
-</f-inline> -->
-
+<div style="height:100vh; position: sticky; top:0">
 
 <ColorblindnessJuxtapose 
   :imageUrl="'images/colorblind-subway.png'" 
-  :revealed="50" 
+  :revealed="25" 
   :locked="false"
   :cbType="get('cbType', 'Protanopia')"
 />
 
-
+</div>
 
 
 
@@ -319,13 +295,13 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:
+~Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:~
 
 -
 
-#### **1** Find out what the main problem is regarding the color scheme.
-#### **2** Phrase a hypothesis on how this problem could be solved.
-#### **3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?
+#### ~**1** Find out what the main problem is regarding the color scheme.~
+#### ~**2** Phrase a hypothesis on how this problem could be solved.~
+#### ~**3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
 
 -
 
@@ -345,18 +321,18 @@ Now that you found out about possible weak spots in the color design of objects 
 
 <f-hr style="margin:var(--base6) 0" />
 
-#### Find out about the following topics through working on the provided learning stations.<br />This should enable you to optimize the accessibility of information in your design products.
+~**Find out about the following topics through working on the provided learning stations.<br />This should enable you to optimize the accessibility of information in your design products.**~
 
 <br />
 
-- Accessibility
-- The eye
-- Color vision deficiency
-- Subtractive and additive color mixing
-- Three dimensions of color (color space models)
-- Color contrast and color harmony theory
-- Design rules for creating color palettes
-- Summary station
+- ~Accessibility~
+- ~The eye~
+- ~Color vision deficiency~
+- ~Subtractive and additive color mixing~
+- ~Three dimensions of color (color space models)~
+- ~Color contrast and color harmony theory~
+- ~Design rules for creating color palettes~
+- ~Summary station~
 
 <f-next-button style="margin:6vh 0" title="Accessibility" />
 
@@ -365,9 +341,9 @@ Now that you found out about possible weak spots in the color design of objects 
   <summary>Teachers notes</summary>
   
   ### Aim. 
-  In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
+  ~In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
   This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
-  The students need to do all of the working stations.
+  The students need to do all of the working stations.~
 
 </f-notes>
 
@@ -396,16 +372,15 @@ Now that you found out about possible weak spots in the color design of objects 
 
 <f-hr style="margin:var(--base6) 0" />
 
-
 ## Tasks
 
-1. What do you understand by “accessibility”? Have you ever come across that term? In which context have you heard about it?
+1. ~What do you understand by “accessibility”? Have you ever come across that term? In which context have you heard about it?~
 
-2. Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition.
+2. ~Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition.~
 
-3. Get an overview of the areas in which we need to improve accessibility.
+3. ~Get an overview of the areas in which we need to improve accessibility.~
 
-4. Further, find out about the difference between “accessibility” and “usability”.
+4. ~Further, find out about the difference between “accessibility” and “usability”.~
 
 <f-next-button style="margin:var(--base6) 0" />
 
@@ -441,10 +416,10 @@ Now that you found out about possible weak spots in the color design of objects 
 
 <f-hr style="margin:var(--base6) 0" />
 
-When it comes to color vision, the **retina** is the part of the eye which is important.
-It is at the back of the eye and contains two types of photoreceptor cells which detect light: 
+~When it comes to color vision, the **retina** is the part of the eye which is important.~
+~It is at the back of the eye and contains two types of photoreceptor cells which detect light:~
 
-### Rods and cones.
+#### ~Rods and cones.~
 
 <f-next-button title="Rods and cones" style="margin:var(--base6) 0" />
 
@@ -475,19 +450,19 @@ It is at the back of the eye and contains two types of photoreceptor cells which
 
 <f-hr style="margin:var(--base6) 0" />
 
-Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.
+~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
 
-Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.
+~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
 
-**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.
-Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.
+~**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.
+Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
 
-**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.
-There are three types which are sensitive to red, green and blue lights (see also RGB color model).
-One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity. 
-That’s why you can’t see colors in the dark.
+~**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.~
+~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
+~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
+~That’s why you can’t see colors in the dark.~
 
-(For more details, read the worksheets on The Eye).
+~(For more details, read the worksheets on The Eye).~
 
 <f-next-button style="margin:var(--base6) 0" />
 
@@ -509,14 +484,14 @@ s
 
 <f-hr style="margin:var(--base6) 0" />
 
-1. Have a look at the article about color vision on wikipedia.org:
-https://en.wikipedia.org/wiki/Color_vision
+1. ~Have a look at the article about color vision on wikipedia.org:
+https://en.wikipedia.org/wiki/Color_vision~
 
 
-2. You learned that cones are responsible for color vision. There are three different types of cones. Find out how color perception works in the eye.
+2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how color perception works in the eye.~
 
 
-3. In the text it says “color is not a property of electromagnetic radiation, but a feature of visual perception by an observer”. Find out what is meant by this (see “Subjectivity of color perception”).
+3. ~In the text it says “color is not a property of electromagnetic radiation, but a feature of visual perception by an observer”. Find out what is meant by this (see “Subjectivity of color perception”).~
 
 
 
@@ -553,15 +528,14 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 ---
 
 | section: color-mixing
+| theme: light
 
 <!-- ##### EXPLAIN  -->
 # Color mixing
 
-<f-hr style="margin:var(--base6) 0" />
+~Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color. Strong light produces intense color.~
 
-Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color. Strong light produces intense color.
-
-**Our eyes have three color receptor cells or cones: red, green and blue. As a result, all incoming light is reduced to these three colors. All perceived colors are generated by a mixture of these three colors.**
+~**Our eyes have three color receptor cells or cones: red, green and blue. As a result, all incoming light is reduced to these three colors. All perceived colors are generated by a mixture of these three colors.**~
 
 <f-next-button title="Additive Color"  style="margin: var(--base6) 0" />
 
@@ -586,16 +560,16 @@ Color is derived from light, either natural or artificial. With little light, li
 <section style="padding:var(--content-padding)">
 
 <!-- ##### EXPLAIN  -->
-# Color mixing
-## Additive Color System
+##### Color mixing
+# Additive Color System
 
-<f-hr style="margin:var(--base6) 0" />
+~In the Additive Color System, **<span style="color:red;" v-on:mouseover="set('activeCol', 'red')">RED</span>**, **<span style="color:lime;" v-on:mouseover="set('activeCol', 'lime')">GREEN</span>** and **<span style="color:hsl(230, 100%, 70%);" v-on:mouseover="set('activeCol', 'blue')">BLUE</span>** are the primary colors. When all three colors overlap, **WHITE** light is produced.~
 
-**In the Additive Color System, <span style="color:red;" v-on:mouseover="set('activeCol', 'red')">RED</span>, <span style="color:lime;" v-on:mouseover="set('activeCol', 'lime')">GREEN</span> and <span style="color:hsl(230, 100%, 70%);" v-on:mouseover="set('activeCol', 'blue')">BLUE</span> are the primary colors.** When all three colors overlap, **WHITE** light is produced.
+1. ~Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?~
 
-1. Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?
-2. Find out where the RGB Model is used? 
-3. Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.
+2. ~Find out where the RGB Model is used?~
+
+3. ~Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.~
 
 <f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
 
@@ -649,18 +623,16 @@ Color is derived from light, either natural or artificial. With little light, li
 <section style="padding:var(--content-padding)">
 
 <!-- ##### EXPLAIN  -->
-# Color mixing
-## Subtractive Color System
+##### Color mixing
+# Subtractive Color System
 
-<f-hr style="margin:var(--base6) 0" />
+~All objects have physical properties that cause them to absorb some color waves and reflect others. Color, when applied to a surface such as canvas or paper, has the same characteristic.~
 
-All objects have physical properties that cause them to absorb some color waves and reflect others. Color, when applied to a surface such as canvas or paper, has the same characteristic.
+~Color is produced by absorption of wavelengths e.g. on paper and remission of the remaining wavelengths, which are perceived by the eye and form a color impression. So for example a cyan colored dot on white paper absorbs red wavelengths (they are complementary to cyan) and remits blue and green, which together mix to cyan.~
 
-Color is produced by absorption of wavelengths e.g. on paper and remission of the remaining wavelengths, which are perceived by the eye and form a color impression. So for example a cyan colored dot on white paper absorbs red wavelengths (they are complementary to cyan) and remits blue and green, which together mix to cyan.
+~This is called Subtractive Color System, because light is subtracted/absorbed and the remaining light produces a sensation of color.~
 
-This is called Subtractive Color System, because light is subtracted/absorbed and the remaining light produces a sensation of color.
-
-1. The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.
+~The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.~
 
 <f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
 
@@ -703,38 +675,32 @@ This is called Subtractive Color System, because light is subtracted/absorbed an
 
 ---
 
-| 1 1 1
-| 2 2 2
-| 3 4 5
-| 6 6 6
+| 1 1
+| 2 3
+| 4 4
 
 <!-- ##### EXPLAIN  -->
-# Color mixing
+##### Color mixing
+# Mix RGB Colors
 
+~**Try to reproduce the following colors by adjusting the sliders for red, green and blue.**~
 
--
-
-4. Try to reproduce the following colors by adjusting the controllers for red, green and blue. 
-
-First, in your mind, try to disassemble them into their three components. How much of red, green and blue is needed to make the color? Then check your assumptions by adjusting the controllers so that you receive a color that is as similar as possible to the example. 
+~First, in your mind, try to disassemble them into their three components. How much of red, green and blue is needed to make the color? Then check your assumptions by adjusting the controllers so that you receive a color that is as similar as possible to the example.~ 
 
 -
 
 <div>
-  <f-slider set="r1" from="0" to="255" integer title="r" />
-  <f-slider set="g1" from="0" to="255" integer title="g" />
-  <f-slider set="b1" from="0" to="255" integer title="b" />
-  <f-scene width="600" height="300">
+  <f-scene width="600" height="300" style="width:100%; height:40vh;">
     <f-box 
-      width="4"
-      height="4"
+      width="6"
+      height="12"
       stroke="none"
       x="-2"
       :fill="rgb( get('r1', 0) , get('g1', 0), get('b1', 0) )"
     />
     <f-box 
       width="4"
-      height="4"
+      height="12"
       x="2"
       stroke="none"
       :fill="rgb( 255 , 0, 255 )"
@@ -757,31 +723,26 @@ First, in your mind, try to disassemble them into their three components. How mu
     <f-text v-else fill="white">
         MATCH THE COLORS
     </f-text>
-
   </f-scene>
+  <f-slider set="r1" from="0" to="255" integer title="R" />
+  <f-slider set="g1" from="0" to="255" integer title="G" />
+  <f-slider set="b1" from="0" to="255" integer title="B" />
 </div>
 
 -
 
-
-
--
-
 <div>
-  <f-slider set="r2" from="0" to="255" integer title="r" />
-  <f-slider set="g2" from="0" to="255" integer title="g" />
-  <f-slider set="b2" from="0" to="255" integer title="b" />
-  <f-scene width="600" height="300">
+  <f-scene width="600" height="300" style="width:100%; height:40vh;">
     <f-box 
-      width="4"
-      height="4"
+      width="6"
+      height="12"
       stroke="none"
       x="-2"
       :fill="rgb( get('r2', 0) , get('g2', 0), get('b2', 0) )"
     />
     <f-box 
       width="4"
-      height="4"
+      height="12"
       x="2"
       stroke="none"
       :fill="rgb( 255 , 201, 53 )"
@@ -804,6 +765,9 @@ First, in your mind, try to disassemble them into their three components. How mu
     </f-text>
     <f-text :position="{x:0, y:-0.5}" >DIFFERENCE: {{ Math.abs( get('r2',0) - 255) + Math.abs( get('g2',0) - 201) + Math.abs( get('b2',0) - 53)  }}</f-text>
   </f-scene>
+  <f-slider set="r2" from="0" to="255" integer title="R" />
+  <f-slider set="g2" from="0" to="255" integer title="G" />
+  <f-slider set="b2" from="0" to="255" integer title="B" />
 </div>
 
 -
@@ -839,9 +803,9 @@ First, in your mind, try to disassemble them into their three components. How mu
 ---
 
 | id: 3properties
-| height: fit
+| height: 100%
 | theme: dark
-| padding: none
+| padding: 0
 | 1 2
 
 
@@ -849,17 +813,23 @@ First, in your mind, try to disassemble them into their three components. How mu
 
 <!-- ##### EXPLAIN -->
 # Three properties of color
-## Hue, saturation, brightness
 
 <f-hr style="margin:var(--base6) 0" />
 
 
-When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color, which are **hue, saturation and brightness**.
-All three of these properties change the effect the color has. 
+~When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:~
 
-#### Have a look at these 2 greens 👉
+- ~**HUE**~
+- ~**SATURATION**~
+- ~**BRIGHTNESS**~
 
-Both are greens, but they have different effects. Most people wouldn’t call the right color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.
+~All three of these properties change the effect the color has.~
+
+# 👉
+
+#### ~Have a look at these 2 greens~
+
+~Both are greens, but they have different effects. Most people wouldn’t call the brighter color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
 
 <f-next-button style="margin:var(--base6) 0" />
 
@@ -867,23 +837,24 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 
 -
 
-<f-scene style="width:100%; height:100vh; margin:0 !important;" preserveAspectRatio="none"> 
+<div style="width:100%; height:100vh; position:sticky; top:0;">
+<f-scene style="width:100%; height:100%; display:block;" preserveAspectRatio="none"> 
   <f-box 
     width="4"
-    height="4"
+    height="6"
     stroke="none"
     :fill="hsl(112,63,36)"
   />
   <f-box 
-    width="4"
-    height="4"
+    width="2"
+    height="3"
     stroke="none"
-    :rotation="{x:63}"
-    :position="{x:1.2, y:1}"
+    :rotation="{x:-4}"
+    
     :fill="hsl(123,100,51)"
   />
 </f-scene>
-
+</div>
 
 
 
@@ -900,23 +871,31 @@ Both are greens, but they have different effects. Most people wouldn’t call th
 
 ---
 
-| 1 1
-| 2 3
-| 4 4
+| height: 100vh
+| padding: 0
+
+| 1 2
+
+<section style="padding:var(--content-padding)">
 
 <!-- ##### EXPLAIN -->
-# Three properties of color
-## Hue, saturation, brightness
+##### Three properties of color
+# Hue, saturation, brightness
 
 <f-hr style="margin:var(--base6) 0" />
 
+# 👉
+
+~Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?~
+
+<f-next-button style="margin:var(--base6) 0" />
+
+</section>
+
 -
 
-Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?
-
--
-
-<f-scene width="600" height="200">
+<div style=" height:100vh; position:sticky; top:0; ">
+<f-scene width="600" height="200" style="width:100%; height:100vh;" preserveAspectRatio="none">
   <f-box 
     width="4"
     height="4"
@@ -939,10 +918,8 @@ Have a look at the following colors and find adjectives to describe them. For wh
     :fill="hsl(247,100,35)"
   />
 </f-scene>
+</div>
 
--
-
-<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -1131,8 +1108,6 @@ Describe the difference between low and high saturated colors with adjectives. W
 
 
 
-
-
 ---
 
 | id: shampoo
@@ -1142,78 +1117,76 @@ Describe the difference between low and high saturated colors with adjectives. W
 | 5 5 5
 
 <!-- ##### EXPLAIN -->
-# Three properties of color
-## Shampoo
+# <f-activity-icon size="large" /> Colors for shampoo brand
 
-<f-hr style="margin:var(--base6) 0" />
-
-Choose a color which could be used as primary color for the following products:
-- baby shampoo 
-- shampoo for men 60+
-- Unisex shampoo
+~Choose a color which could be used as primary color for the following products:~
+- ~baby shampoo~ 
+- ~shampoo for men 60+~
+- ~Unisex shampoo~
 
 #### All the shampoos smell like apples 
 
+##  
+
+
 <!-- 🍎 🍏 -->
 
-If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
 
-<f-hr style="margin:var(--base4) 0; visibility:hidden;" />
-
--
-
-
-
-<div>
-  <h3>Baby shampoo</h3>
-  <f-scene width="300" height="300">
-    <f-box 
-      width="4"
-      height="4"
-      stroke="none"
-      :fill="hsb2hsl( get('h1', 0), get('s1', 0), get('l1', 0) )"
-    />
-  </f-scene>
-  <f-slider set="h1" from="0" to="360" integer title="H" />
-  <f-slider set="s1" from="0" to="100" integer title="S" />
-  <f-slider set="l1" from="0" to="100" integer title="B" />
-</div>
+<!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
 
 -
 
-<div>
-  <h3>Shampoo for old men</h3>
-  <f-scene width="300" height="300">
-    <f-box 
-      width="4"
-      height="4"
-      stroke="none"
-      :fill="hsb2hsl( get('h2', 0) , get('s2', 0), get('l2', 0) )"
-    />
-  </f-scene>
-  <f-slider set="h2" from="0" to="360" integer title="H" />
-  <f-slider set="s2" from="0" to="100" integer title="S" />
-  <f-slider set="l2" from="0" to="100" integer title="B" />
-</div>
+
+<h5>Babies</h5>
+<f-scene width="300" height="300" style="width:100%; height:40vh;">
+  <f-box 
+    width="8"
+    height="8"
+    stroke="none"
+    :fill="hsb2hsl( get('h1'), get('s1'), get('b1') )"
+  />
+</f-scene>
+<f-slider :value="get('h1', 0)" v-on:input="set('h1', $event)" from="0" to="360" integer title="H" />
+<f-slider :value="get('s1', 0)" v-on:input="set('s1', $event)" from="0" to="100" integer title="S" />
+<f-slider :value="get('b1', 50)" v-on:input="set('b1', $event)" from="0" to="100" integer title="B" />
 
 -
 
-<div>
-  <h3>Unisex shampoo</h3>
-  <f-scene width="300" height="300">
-    <f-box 
-      width="4"
-      height="4"
-      stroke="none"
-      :fill="hsb2hsl( get('h3', 0) , get('s3', 0), get('l3', 0) )"
-    />
-  </f-scene>
-  <f-slider set="h3" from="0" to="360" integer title="H" />
-  <f-slider set="s3" from="0" to="100" integer title="S" />
-  <f-slider set="l3" from="0" to="100" integer title="B" />
-</div>
+<h5>Old men</h5>
+<f-scene width="300" height="300" style="width:100%; height:40vh;">
+  <f-box 
+    width="8"
+    height="8"
+    stroke="none"
+    :fill="hsb2hsl( get('h2') , get('s2'), get('b2') )"
+  />
+</f-scene>
+<f-slider :value="get('h2', 0)" v-on:input="set('h2', $event)" from="0" to="360" integer title="H" />
+<f-slider :value="get('s2', 0)" v-on:input="set('s2', $event)" from="0" to="100" integer title="S" />
+<f-slider :value="get('b2', 50)" v-on:input="set('b2', $event)" from="0" to="100" integer title="B" />
 
 -
+
+<h5>Unisex</h5>
+<f-scene width="300" height="300" style="width:100%; height:40vh;">
+  <f-box 
+    width="8"
+    height="8"
+    stroke="none"
+    :fill="hsb2hsl( get('h3') , get('s3'), get('b3') )"
+  />
+</f-scene>
+<f-slider :value="get('h3', 0)" v-on:input="set('h3', $event)" from="0" to="360" integer title="H" />
+<f-slider :value="get('s3', 0)" v-on:input="set('s3', $event)" from="0" to="100" integer title="S" />
+<f-slider :value="get('b3', 50)" v-on:input="set('b3', $event)" from="0" to="100" integer title="B" />
+
+-
+
+<br />
+<br />
+<br />
+
+> If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
 
 <f-next-button style="margin:var(--base4) 0;" />
 
