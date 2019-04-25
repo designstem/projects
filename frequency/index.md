@@ -138,6 +138,7 @@ Optionally,  it’s possible to involve music records to the exploration phase t
 
 <f-scene width="200" height="200">
   <f-circle r="1.9" />
+  <f-circle r="0.7" />
   <f-circle r="0.1" />
 </f-scene>
 
@@ -154,10 +155,155 @@ This is the plain circle which you should print and let students to cut out, you
 
 ---
 
+#  Introduction
+
+***TODO: Better title***
+
+~As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:~
+
+* ~How rapid is your drawing around the circle?~
+
+* ~What is the velocity of the turntable?~
+
+~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
+
+---
+
+| theme: dark
+
+<center><div>
+
+<f-fact-icon />
+
+<p />
+
+~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a *screen*.~
+<br> 
+Watch following clip and notice how wheels<br>of the wagon are moving not naturally:
+
+<p />
+
+<f-next-button title="Go" />
+</div><center>
+
+---
+
 | padding: 0
 | theme: dark
 
 <f-video src="https://www.youtube.com/watch?v=89TltTWEXzU&feature=youtu.be&t=55m" />
+
+---
+
+| 1 1 2
+
+# Framerate
+
+~You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the rate of [revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe.~
+
+~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and wheels were rotating fast enough not to be in sync in every frame to produce natural visual impression of movement.~
+
+-
+
+***TODO: Animation here***
+
+---
+
+# ...
+
+***TODO: Add title***
+
+You will have circles with different amount of spokes.
+
+Your task is to:
+
+1. Cut circles out of the paper;
+
+2. Draw in between the spokes;
+
+3. Have the paper to rotate on the turntable;
+
+4. Observe the rotation on your smartphone / tablet / PC screen
+
+<a class="primary" href="../frequency_camera">Open frequency camera app</a>
+
+***TODO: Add QR Code?***
+
+5. While the paper is still rotating on the turntable try to find specific platter velocity as to stop your drawing rotating on the screen of your device (stroboscopic effect).
+
+<f-notes>
+
+### ...
+
+***TODO: Needs title***
+
+> ##### You will need
+Printed grid circles, turntable, scissors, pencils, smartphone/tablet/PC for online tool
+
+Now it’s time to add some STEM components. 
+
+Students will acquire deeper knowledge about frequency and frame rate while producing artwork on the circles with grid.
+
+These circles will be used to replica [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect).
+
+Students have to find the precise spinning speed to demonstrate the effect through the lens of smartphone/tablet/PC camera using frame rate tool. 
+
+<a class="primary" href="../frequency_camera">Open frequency camera app</a>
+
+***TODO: Organize this better***
+
+<f-scene width="200" height="200">
+  <f-circle r="1.9" />
+  <f-line
+    v-for="a in range(0,360,360/10)"
+    :x2="polarx(a,1.9)"
+    :y2="polary(a,1.9)"
+  />
+  <f-circle
+    r="0.7"
+    :fill="color('white')"
+  />
+  <f-circle
+    r="0.1"
+    :fill="color('white')"
+  />
+</f-scene>
+
+This is the circle with spokes. There are ***TODO: Do we need a count?*** different circles in total which you should print and let students to cut out. You can download them from here: 
+
+***TODO: Add download link***
+
+> ##### <f-fact-icon size="small" /> Tips
+1. Print the sheet 100% size
+2. Print more than 1 sheet for every student
+
+
+</f-notes>
+
+---
+
+<center>
+<output>L O T  O F  S T U F F  M I S S I N G</output>
+</center>
+
+---
+
+| 1 1
+| 2 3
+
+# Examples
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=D6imyhJYEIY" />
+
+Animated card by Dres Tetz (video with instructions)
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=9n-DtqB0sNc" />
+
+Strobe Animated Sculptures by John Edmark
 
 ---
 
@@ -454,24 +600,6 @@ This is the plain circle which you should print and let students to cut out, you
   </f-spinner>
 </f-scene>
 
----
-
-| theme: dark
-
-<center><div>
-
-<f-fact-icon />
-
-<p />
-
-~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a *screen*.~
-<br> 
-Watch following clip and notice how wheels<br>of the wagon are moving not naturally:
-
-<p />
-
-<f-next-button title="Go" />
-</div><center>
 
 
 
