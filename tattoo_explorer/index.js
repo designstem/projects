@@ -82,13 +82,6 @@ new Vue({
 
   template: `
       <div class="h-100 flex flex-column">
-        <header>
-          <div>
-            <a href="https://designstem.github.io/homepage">Home</a>
-            → <a href="https://designstem.github.io/homepage/tattoo">Smart Tattoo</a>
-            → Tattoo designer
-          </div>
-        </header>
             <div class="flex h-100">
                 <div class="ui">
                 <h1>Design a smart tattoo</h1>
