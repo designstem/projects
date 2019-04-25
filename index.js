@@ -1,21 +1,15 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
-
-import FFlower from "./components/FFlower.js"
-import FFlower2 from "./components/FFlower2.js"
-import FClock from "./components/FClock.js"
-import FPlaceholder from "./components/FPlaceholder.js"
+import FProjectCard from "./components/FProjectCard.js";
+import FClockIcon from "./components/FClockIcon.js";
+import FPeopleIcon from "./components/FPeopleIcon.js";
+import FToolsIcon from "./components/FToolsIcon.js";
+import FTag from "./components/FTag.js";
 
 fachwerk({
-  components: { FFlower, FFlower2, FClock, FPlaceholder },
-  editor: "hide",
-  home: false,
-  pager: false,
-  type: 'document',
-  header: [
-    { title: "Home", src: "https://designstem.github.io/scenarios" },
-    { title: "Scenario tracker", src: "https://designstem.github.io/homepage" },
-    { title: "Framework", src: "https://designstem.github.io/fachwerk" },
-    { title: "Github", src: "https://designstem.github.io" }
-  ],
-  footer: true
+  components: { FProjectCard, FClockIcon, FPeopleIcon, FToolsIcon, FTag },
+  editor: "none",
+  type: "document",
+  footer: true,
+  menu: false,
+  pager: false
 });

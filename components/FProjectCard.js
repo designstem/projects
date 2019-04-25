@@ -27,8 +27,18 @@ export default {
       <small>{{ project.desc }}</small>
       <p />
       <div style="display: flex; flex-wrap: wrap;">
-        <f-tag v-for="tag in project.designtags.split(',')">{{ tag }}</f-tag>
-        <f-tag v-for="tag in project.stemtags.split(',')">{{ tag }}</f-tag>
+        <f-tag
+          v-for="(tag,i) in project.designtags.split(',')"
+          :key="'i' + i"
+        >
+          {{ tag }}
+        </f-tag>
+        <f-tag
+          v-for="(tag,j) in project.stemtags.split(',')"
+          :key="'j' + j"
+        >
+          {{ tag }}
+        </f-tag>
       </div>
       <p />
       <f-inline>
