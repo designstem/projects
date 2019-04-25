@@ -22,7 +22,7 @@ export default {
     :background="statuses[status].background"
     :border="statuses[status].border"
   >
-    <a :href="'../' + project.scenario">
+    <a :href="'./' + project.scenario">
       <h5>{{ project.title }}</h5>
       <small>{{ project.desc }}</small>
       <p />
