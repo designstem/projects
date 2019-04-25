@@ -48,7 +48,7 @@ export default {
         <f-people-icon /><small>{{ project.people }}</small>
       </f-inline>
       <f-inline>
-        <f-tools-icon /><small>{{ project.tools }}</small>
+        <f-tools-icon /><small>{{ project.facilities }}</small>
       </f-inline>
     </a>
   </f-card>
