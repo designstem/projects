@@ -39,6 +39,126 @@ This concept is divided into three main sections:
 3. Creative work to combine art and motion on a turntable.
 </f-notes>
 
+
+---
+
+# Kollaaž
+
+<mark>TODO</mark> *Erik teeb*
+
+---
+
+# ...
+
+<mark>TODO: Needs title</mark>
+
+In everyday life most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).
+
+<mark>TODO: rephrase the next sentence to be simpler</mark>
+
+If you are ready to trick your brain and explore your creativity, prepare your turntable and press the START button!
+
+---
+
+| padding: 0
+| gap: 0
+
+| 1 2 3
+| 1 4 5
+| 1 6 7
+
+<section><section>
+
+# What is frequency?
+
+<f-activity-icon />
+
+Watch the following videos and define frequency with your own words and describe all possible ways to experience it.
+
+</section></section>
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=heRuLp7CyTM" />
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=yrfibt6Bkwc" />
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=upvYAAh8RuU" />
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=lmIFXIXQQ_E" />
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=wvJAgrUBF4w" />
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=FO566k4nA3g" />
+
+---
+
+# ...
+
+***TODO: Needs title***
+
+You are now ready to make your own visual experiments! 
+
+1. Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
+
+3. Put the paper circle on the turntable and start spinning.
+
+4. Draw different variations to find visually the most appealing and interesting combination of movement.
+
+
+<f-notes>
+
+### ...
+
+***TODO: Needs title***
+
+> ##### You will need
+Printed plain circles, turntable, scissors, pencils
+
+By experimentation, students should discover how the speed of motion affects our visual perception on shapes and/or colour.
+
+Let students draw different ideas on cut-out circles and have them on the turntable’s platter rotating at different speed levels.
+
+It’s all about discovering new shapes and their alignment on a circle to produce visually exciting blends through movement.
+
+> ##### <f-fact-icon size="small" /> Tip
+Optionally,  it’s possible to involve music records to the exploration phase to experiment with the sound at different speed levels.
+
+***TODO: Organize this better***
+
+<f-scene width="200" height="200">
+  <f-circle r="1.9" />
+  <f-circle r="0.1" />
+</f-scene>
+
+This is the plain circle which you should print and let students to cut out, you can download it from here: 
+
+***TODO: Add link***
+
+> ##### <f-fact-icon size="small" /> Tips
+1. print the sheet 100% size
+2. print more than 1 sheet for every student
+
+
+</f-notes>
+
+---
+
+| padding: 0
+| theme: dark
+
+<f-video src="https://www.youtube.com/watch?v=89TltTWEXzU&feature=youtu.be&t=55m" />
+
 ---
 
 ## **1** Make it stop
@@ -334,6 +454,24 @@ This concept is divided into three main sections:
   </f-spinner>
 </f-scene>
 
+---
+
+| theme: dark
+
+<center><div>
+
+<f-fact-icon />
+
+<p />
+
+~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a *screen*.~
+<br> 
+Watch following clip and notice how wheels<br>of the wagon are moving not naturally:
+
+<p />
+
+<f-next-button title="Go" />
+</div><center>
 
 
 
