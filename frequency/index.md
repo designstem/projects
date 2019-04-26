@@ -6,8 +6,8 @@
 <big>Learn about the beginnings of moving pictures, the art and the science behind it and why we are still so mesmerized watching those GIF memes.</big>
 
 **Skills:** frequency, framerate, sinusoidal wave
-**Tools:** turntable, paper, scissors, pencil(s), printer, smartphone/tablet/PC for online tool
-**Suitable:** indoor, outdoor, group work, individual work
+**Facilities:** turntable, paper, scissors, pencil(s), printer, smartphone/tablet/PC for online tool
+**People:** Group work, ***ERIK: optimal group size?*** individual work
 **Time:** 20min + 15min + 45min (+10 hrs extended exercise)
 
 -
@@ -37,24 +37,29 @@ This concept is divided into three main sections:
 2. Virtual learning object to elaborate and test how frequency can be presented as a form of sinusoidal wave and how frame rate affects our perception of movement. 
 
 3. Creative work to combine art and motion on a turntable.
+
 </f-notes>
 
 
 ---
 
-# Kollaaž
+# Collage
 
-<mark>TODO</mark> *Erik teeb*
+***ERIK: Upload images to https://github.com/designstem/scenarios/tree/master/frequency/images***
+
+***KIKA: Assemble the collage***
 
 ---
 
 # ...
 
-<mark>TODO: Needs title</mark>
+***ERIK: Needs title***
 
-In everyday life most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).
+~In everyday life most of the information of our surroundings is perceived visually or audibly.~
 
-<mark>TODO: rephrase the next sentence to be simpler</mark>
+~Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).~
+
+***ERIK: rephrase the next sentence to be simpler***
 
 If you are ready to trick your brain and explore your creativity, prepare your turntable and press the START button!
 
@@ -69,9 +74,9 @@ If you are ready to trick your brain and explore your creativity, prepare your t
 
 <section><section>
 
-# What is frequency?
+#### <f-activity-icon /> Activity
 
-<f-activity-icon />
+# What is frequency?
 
 Watch the following videos and define frequency with your own words and describe all possible ways to experience it.
 
@@ -105,7 +110,7 @@ Watch the following videos and define frequency with your own words and describe
 
 # ...
 
-***TODO: Needs title***
+***ERIK: Add title***
 
 You are now ready to make your own visual experiments! 
 
@@ -120,7 +125,7 @@ You are now ready to make your own visual experiments!
 
 ### ...
 
-***TODO: Needs title***
+***ERIK: Needs title***
 
 > ##### You will need
 Printed plain circles, turntable, scissors, pencils
@@ -134,16 +139,17 @@ It’s all about discovering new shapes and their alignment on a circle to produ
 > ##### <f-fact-icon size="small" /> Tip
 Optionally,  it’s possible to involve music records to the exploration phase to experiment with the sound at different speed levels.
 
-***TODO: Organize this better***
+***ERIK: Organize this better***
 
 <f-scene width="200" height="200">
   <f-circle r="1.9" />
+  <f-circle r="0.7" />
   <f-circle r="0.1" />
 </f-scene>
 
 This is the plain circle which you should print and let students to cut out, you can download it from here: 
 
-***TODO: Add link***
+***ERIK: Add link***
 
 > ##### <f-fact-icon size="small" /> Tips
 1. print the sheet 100% size
@@ -154,10 +160,231 @@ This is the plain circle which you should print and let students to cut out, you
 
 ---
 
+#  Introduction
+
+***ERIK: Better title***
+
+As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:
+
+* How rapid is your drawing around the circle?
+
+* What is the velocity of the turntable?
+
+~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
+
+---
+
+| theme: dark
+
+<center><div>
+
+<f-fact-icon />
+
+<p />
+
+~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a *screen*.~
+<br> 
+Watch following clip and notice how wheels<br>of the wagon are moving not naturally:
+
+<p />
+
+<f-next-button title="Go" />
+</div><center>
+
+---
+
 | padding: 0
 | theme: dark
 
 <f-video src="https://www.youtube.com/watch?v=89TltTWEXzU&feature=youtu.be&t=55m" />
+
+---
+
+| 1 1 2
+
+# Framerate
+
+~You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the rate of [revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe.~
+
+~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and wheels were rotating fast enough not to be in sync in every frame to produce natural visual impression of movement.~
+
+-
+
+***ERIK: Animation here***
+
+---
+
+# <f-activity-icon /> ...
+
+***ERIK: Add title***
+
+You will have circles with different amount of spokes.
+
+Your task is to:
+
+1. Cut circles out of the paper;
+
+2. Draw in between the spokes;
+
+3. Have the paper to rotate on the turntable;
+
+4. Observe the rotation on your smartphone / tablet / PC screen
+
+<a class="primary" href="../frequency_camera">Open frequency camera app</a>
+
+***ERIK: Add QR Code?***
+
+5. While the paper is still rotating on the turntable try to find specific platter velocity as to stop your drawing rotating on the screen of your device (stroboscopic effect).
+
+<f-notes>
+
+# <f-activity-icon /> ...
+
+***ERIK: Add title***
+
+> ##### You will need
+Printed grid circles, turntable, scissors, pencils, smartphone/tablet/PC for online tool
+
+Now it’s time to add some STEM components. 
+
+Students will acquire deeper knowledge about frequency and frame rate while producing artwork on the circles with grid.
+
+These circles will be used to replica [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect).
+
+Students have to find the precise spinning speed to demonstrate the effect through the lens of smartphone/tablet/PC camera using frame rate tool. 
+
+<a class="primary" href="../frequency_camera">Open frequency camera app</a>
+
+***BOTH: How to organize this better***
+
+<f-scene width="200" height="200">
+  <f-circle r="1.9" />
+  <f-line
+    v-for="a in range(0,360,360/10)"
+    :x2="polarx(a,1.9)"
+    :y2="polary(a,1.9)"
+  />
+  <f-circle
+    r="0.7"
+    :fill="color('white')"
+  />
+  <f-circle
+    r="0.1"
+    :fill="color('white')"
+  />
+</f-scene>
+
+This is the circle with spokes. There are ***ERIK: Do we need a count?*** different circles in total which you should print and let students to cut out. You can download them from here: 
+
+***ERIK: Add download link***
+
+> ##### <f-fact-icon size="small" /> Tips
+1. Print the sheet 100% size
+2. Print more than 1 sheet for every student
+
+
+</f-notes>
+
+---
+
+# Frequency
+
+~Now, as you have been experimenting with spinning velocity and how the frame rate affects our perception of movement, it’s time to define frequency in a form of *wave*. Perhaps the most common waveform is the visual representation of sound.~
+
+~The same applies to colours as they are recognized by our brain because of different wavelengths of emitted light.~
+
+***ERIK: Link to color scenario*** 
+-
+
+***ERIK: Image / animation***
+
+---
+
+# Sinusoidial wave
+
+~Frequency can be expressed with sinusoidal wave having two variables: time and cycle. On a two-dimensional space, if X-axis will represent time and Y-axis a cycle, we can start presenting frequency with the sinusoidal wave.~
+
+~On sinusoidal wave time lapses from left to right on the horizontal axis. Highest frequency has more cycles on a vertical axis representing faster rate.~
+
+-
+
+***ERIK: Image / animation***
+
+---
+
+# <f-activity-icon /> ...
+
+***ERIK: Needs title***
+
+How can frequency be interpreted in different ways?  Your task is to use a design STEM wave tool and find answers to the questions brought up in there.
+
+***ERIK: Not sure where to link here. Current interactive slides are about framerate / animation mostly. Should we link to https://pudding.cool/2018/02/waveforms/ ?***
+
+<f-notes>
+
+# ...
+
+***ERIK: Title needed***
+
+> ##### You will need
+smartphone / tablet / PC for online tool
+
+Students will learn how to present frequency on a sinusoidal wave. To let them experiment and test their new knowledge about frequency in a more mathematical way of thinking, you’ll be using the sinusoidal-wave tool accessible from here: 
+
+***ERIK: Where to link to?***
+</f-notes>
+
+---
+
+# <f-activity-icon /> Final task
+
+***ERIK: A better structure, in steps? Visual examples?***
+
+As a final task, you will prepare an analog animation using rotational movement. You can visualize abstract morphing or use more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve visually attractive outcome. 
+
+***ERIK: Link to worksheets***
+
+Answer the questions:
+
+1. What constraints did you experience with the process?
+
+2. Which variable (e.g. framerate, speed of the rotating device, spokes) had the most critical part in your animation?
+
+<f-notes>
+
+### Final assignment
+
+Final assignment is an individual work for students is to create analogue animation and capture it with any device that can record a video file.
+
+There are many paths for students to take:
+
+* They can make it as a flat 2D animation
+* They can go more complex and make it with a 3D shape
+
+There is possibility to manipulate visuals with strobe light or use any other device than turntable to rotate the artwork.
+
+It is teacher, who can decide according to the planned curriculum, how complex the pathway should be to take.
+
+</f-notes>
+
+---
+
+| 1 1
+| 2 3
+
+# Examples
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=D6imyhJYEIY" />
+
+Animated card by Dres Tetz (video with instructions)
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=9n-DtqB0sNc" />
+
+Strobe Animated Sculptures by John Edmark
 
 ---
 
@@ -454,24 +681,6 @@ This is the plain circle which you should print and let students to cut out, you
   </f-spinner>
 </f-scene>
 
----
-
-| theme: dark
-
-<center><div>
-
-<f-fact-icon />
-
-<p />
-
-~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a *screen*.~
-<br> 
-Watch following clip and notice how wheels<br>of the wagon are moving not naturally:
-
-<p />
-
-<f-next-button title="Go" />
-</div><center>
 
 
 
