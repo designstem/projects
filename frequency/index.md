@@ -6,8 +6,8 @@
 <big>Learn about the beginnings of moving pictures, the art and the science behind it and why we are still so mesmerized watching those GIF memes.</big>
 
 **Skills:** frequency, framerate, sinusoidal wave
-**Tools:** turntable, paper, scissors, pencil(s), printer, smartphone/tablet/PC for online tool
-**Suitable:** indoor, outdoor, group work, individual work
+**Facilities:** turntable, paper, scissors, pencil(s), printer, smartphone/tablet/PC for online tool
+**People:** Group work, ***ERIK: optimal group size?*** individual work
 **Time:** 20min + 15min + 45min (+10 hrs extended exercise)
 
 -
@@ -37,6 +37,7 @@ This concept is divided into three main sections:
 2. Virtual learning object to elaborate and test how frequency can be presented as a form of sinusoidal wave and how frame rate affects our perception of movement. 
 
 3. Creative work to combine art and motion on a turntable.
+
 </f-notes>
 
 
@@ -44,17 +45,17 @@ This concept is divided into three main sections:
 
 # Kollaaž
 
-<mark>TODO</mark> *Erik teeb*
+***ERIK: Upload images to...***
 
 ---
 
 # ...
 
-<mark>TODO: Needs title</mark>
+<mark>ERIK: Needs title</mark>
 
 In everyday life most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).
 
-<mark>TODO: rephrase the next sentence to be simpler</mark>
+<mark>ERIK: rephrase the next sentence to be simpler</mark>
 
 If you are ready to trick your brain and explore your creativity, prepare your turntable and press the START button!
 
@@ -105,7 +106,7 @@ Watch the following videos and define frequency with your own words and describe
 
 # ...
 
-***TODO: Needs title***
+***ERIK: Needs title***
 
 You are now ready to make your own visual experiments! 
 
@@ -120,7 +121,7 @@ You are now ready to make your own visual experiments!
 
 ### ...
 
-***TODO: Needs title***
+***ERIK: Needs title***
 
 > ##### You will need
 Printed plain circles, turntable, scissors, pencils
@@ -134,7 +135,7 @@ It’s all about discovering new shapes and their alignment on a circle to produ
 > ##### <f-fact-icon size="small" /> Tip
 Optionally,  it’s possible to involve music records to the exploration phase to experiment with the sound at different speed levels.
 
-***TODO: Organize this better***
+***ERIK: Organize this better***
 
 <f-scene width="200" height="200">
   <f-circle r="1.9" />
@@ -144,7 +145,7 @@ Optionally,  it’s possible to involve music records to the exploration phase t
 
 This is the plain circle which you should print and let students to cut out, you can download it from here: 
 
-***TODO: Add link***
+***ERIK: Add link***
 
 > ##### <f-fact-icon size="small" /> Tips
 1. print the sheet 100% size
@@ -157,7 +158,7 @@ This is the plain circle which you should print and let students to cut out, you
 
 #  Introduction
 
-***TODO: Better title***
+***ERIK: Better title***
 
 ~As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:~
 
@@ -205,13 +206,13 @@ Watch following clip and notice how wheels<br>of the wagon are moving not natura
 
 -
 
-***TODO: Animation here***
+***ERIK: Animation here***
 
 ---
 
-# ...
+# <f-activity-icon /> ...
 
-***TODO: Add title***
+***ERIK: Add title***
 
 You will have circles with different amount of spokes.
 
@@ -227,15 +228,15 @@ Your task is to:
 
 <a class="primary" href="../frequency_camera">Open frequency camera app</a>
 
-***TODO: Add QR Code?***
+***ERIK: Add QR Code?***
 
 5. While the paper is still rotating on the turntable try to find specific platter velocity as to stop your drawing rotating on the screen of your device (stroboscopic effect).
 
 <f-notes>
 
-### ...
+# <f-activity-icon /> ...
 
-***TODO: Needs title***
+***ERIK: Add title***
 
 > ##### You will need
 Printed grid circles, turntable, scissors, pencils, smartphone/tablet/PC for online tool
@@ -250,7 +251,7 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 <a class="primary" href="../frequency_camera">Open frequency camera app</a>
 
-***TODO: Organize this better***
+***BOTH: How to organize this better***
 
 <f-scene width="200" height="200">
   <f-circle r="1.9" />
@@ -269,9 +270,9 @@ Students have to find the precise spinning speed to demonstrate the effect throu
   />
 </f-scene>
 
-This is the circle with spokes. There are ***TODO: Do we need a count?*** different circles in total which you should print and let students to cut out. You can download them from here: 
+This is the circle with spokes. There are ***ERIK: Do we need a count?*** different circles in total which you should print and let students to cut out. You can download them from here: 
 
-***TODO: Add download link***
+***ERIK: Add download link***
 
 > ##### <f-fact-icon size="small" /> Tips
 1. Print the sheet 100% size
@@ -282,9 +283,85 @@ This is the circle with spokes. There are ***TODO: Do we need a count?*** differ
 
 ---
 
-<center>
-<output>L O T  O F  S T U F F  M I S S I N G</output>
-</center>
+# Frequency
+
+~Now, as you have been experimenting with spinning velocity and how the frame rate affects our perception of movement, it’s time to define frequency in a form of *wave*. Perhaps the most common waveform is the visual representation of sound.~
+
+~The same applies to colours as they are recognized by our brain because of different wavelengths of emitted light.~
+
+***ERIK: Link to color scenario*** 
+-
+
+***ERIK: Image / animation***
+
+---
+
+# Sinusoidial wave
+
+~Frequency can be expressed with sinusoidal wave having two variables: time and cycle. On a two-dimensional space, if X-axis will represent time and Y-axis a cycle, we can start presenting frequency with the sinusoidal wave.~
+
+~On sinusoidal wave time lapses from left to right on the horizontal axis. Highest frequency has more cycles on a vertical axis representing faster rate.~
+
+-
+
+***ERIK: Image / animation***
+
+---
+
+# <f-activity-icon /> ...
+
+***ERIK: Needs title***
+
+How can frequency be interpreted in different ways?  Your task is to use a design STEM wave tool and find answers to the questions brought up in there.
+
+***ERIK: Not sure where to link here. Current interactive slides are about framerate / animation mostly. Should we link to https://pudding.cool/2018/02/waveforms/ ?***
+
+<f-notes>
+
+# ...
+
+***ERIK: Title needed***
+
+> ##### You will need
+smartphone / tablet / PC for online tool
+
+Students will learn how to present frequency on a sinusoidal wave. To let them experiment and test their new knowledge about frequency in a more mathematical way of thinking, you’ll be using the sinusoidal-wave tool accessible from here: 
+
+***ERIK: Where to link to?***
+</f-notes>
+
+---
+
+# <f-activity-icon /> Final task
+
+***ERIK: A better structure, in steps? Visual examples?***
+
+As a final task, you will prepare an analog animation using rotational movement. You can visualize abstract morphing or use more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve visually attractive outcome. 
+
+***ERIK: Link to worksheets***
+
+Answer the questions:
+
+1. What constraints did you experience with the process?
+
+2. Which variable (e.g. framerate, speed of the rotating device, spokes) had the most critical part in your animation?
+
+<f-notes>
+
+### Final assignment
+
+Final assignment is an individual work for students is to create analogue animation and capture it with any device that can record a video file.
+
+There are many paths for students to take:
+
+* They can make it as a flat 2D animation
+* They can go more complex and make it with a 3D shape
+
+There is possibility to manipulate visuals with strobe light or use any other device than turntable to rotate the artwork.
+
+It is teacher, who can decide according to the planned curriculum, how complex the pathway should be to take.
+
+</f-notes>
 
 ---
 
