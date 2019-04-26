@@ -43,19 +43,23 @@ This concept is divided into three main sections:
 
 ---
 
-# Kollaaž
+# Collage
 
-***ERIK: Upload images to...***
+***ERIK: Upload images to https://github.com/designstem/scenarios/tree/master/frequency/images***
+
+***KIKA: Assemble the collage***
 
 ---
 
 # ...
 
-<mark>ERIK: Needs title</mark>
+***ERIK: Needs title***
 
-In everyday life most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).
+~In everyday life most of the information of our surroundings is perceived visually or audibly.~
 
-<mark>ERIK: rephrase the next sentence to be simpler</mark>
+~Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).~
+
+***ERIK: rephrase the next sentence to be simpler***
 
 If you are ready to trick your brain and explore your creativity, prepare your turntable and press the START button!
 
@@ -70,9 +74,9 @@ If you are ready to trick your brain and explore your creativity, prepare your t
 
 <section><section>
 
-# What is frequency?
+#### <f-activity-icon /> Activity
 
-<f-activity-icon />
+# What is frequency?
 
 Watch the following videos and define frequency with your own words and describe all possible ways to experience it.
 
@@ -106,7 +110,7 @@ Watch the following videos and define frequency with your own words and describe
 
 # ...
 
-***ERIK: Needs title***
+***ERIK: Add title***
 
 You are now ready to make your own visual experiments! 
 
@@ -160,11 +164,11 @@ This is the plain circle which you should print and let students to cut out, you
 
 ***ERIK: Better title***
 
-~As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:~
+As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:
 
-* ~How rapid is your drawing around the circle?~
+* How rapid is your drawing around the circle?
 
-* ~What is the velocity of the turntable?~
+* What is the velocity of the turntable?
 
 ~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
 
