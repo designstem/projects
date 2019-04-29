@@ -5,10 +5,9 @@
 
 <big>Learn about the beginnings of moving pictures, the art and the science behind it and why we are still so mesmerized watching those GIF memes.</big>
 
-**Skills:** frequency, framerate, sinusoidal wave
 **Facilities:** turntable, paper, scissors, pencil(s), printer, smartphone/tablet/PC for online tool
-**People:** Group work, ***ERIK: optimal group size?*** individual work
-**Time:** 20min + 15min + 45min (+10 hrs extended exercise)
+**People:** Individual work or small groups
+**Time:** 20min + 15min + 45min + 10 hrs extended exercise
 
 -
 
