@@ -41,14 +41,17 @@ export default {
         </f-tag>
       </div>
       <p />
-      <f-inline>
-        <f-clock-icon duration2="15" /> Hello
+      <f-inline v-if="project.time">
+        <span><f-clock-icon duration2="15" /></span>
+        <small>{{ project.time }}</small>
       </f-inline>
-      <f-inline>
-        <f-people-icon /><small>{{ project.people }}</small>
+      <f-inline v-if="project.people">
+      <span><f-people-icon /></span>
+        <small>{{ project.people }}</small>
       </f-inline>
-      <f-inline>
-        <f-tools-icon /><small>{{ project.facilities }}</small>
+      <f-inline v-if="project.people">
+      <span><f-tools-icon /></span>
+      <small>{{ project.facilities }}</small>
       </f-inline>
     </a>
   </f-card>
