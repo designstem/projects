@@ -1,12 +1,10 @@
-
-| height: fit
-| theme: yellow
-
-# <big>Natural dyes</big>
-
-<f-pager>
+# <big><big>Natural dyes</big></big>
 
 ---
+
+| padding: 0
+
+<section><section>
 
 # Wearing a message (Engagement)
 
@@ -15,11 +13,18 @@
 
 <big>As an iconic fashion item, it is widely used in popular culture and marketing, thus crossing age and state borders, and allowing people to express their attitude and values.</big>
 
+</section></section>
+
+-
 
 <f-image src="images/shirt.png" />
 
 
-> What makes students inspired, engaged? Can be an emotional trigger, social problem, immersive exploration etc.
+<f-notes>
+
+What makes students inspired, engaged? Can be an emotional trigger, social problem, immersive exploration etc.
+
+</f-notes>
 
 
 
