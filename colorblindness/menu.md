@@ -1,5 +1,10 @@
 | padding: 0
 
+<section>
+
+<a href="../" class="tertiary"><f-leftarrow-icon /> Back to projects</a>
+
+</section>
 
 <div class="grid" style="padding:var(--base8) var(--base2);">
 
