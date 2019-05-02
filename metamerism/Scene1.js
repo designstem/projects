@@ -1,4 +1,6 @@
 import { utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import fAframeTest from "./f-aframe-test.js";
+import fCamera from "./f-camera.js";
 import Room from "./components/Room.js";
 import Lamp from "./components/Lamp.js";
 import Table from "./components/Table.js";
@@ -16,27 +18,38 @@ export default {
         color: this.lightColor
       })
     },
-  },
-  components: {Lamp, Table, Clock, Info, Room},
+},
+  props: [ 'rotateCamera' ],
+  components: {Lamp, Table, Clock, Info, Room, fAframeTest, fCamera},
   data: () => ({
     cold: "rgb(201, 226, 255)",
     neutral: "rgb(255, 255, 255)",
     warm: "rgb(255, 197, 143)",
     lightColor: '',
     dressSrc: './images/dress_03_nw.jpg',
-    infoText: ''
+    dressText: '',
+    fruitsText: ''
   }),
   mounted() {
     const that = this;
     fetch('./dress.txt')
       .then( r => r.text() )
-      .then( t => that.infoText = t );
+      .then( t => that.dressText = t );
+    fetch('./fruits.txt')
+      .then( r => r.text() )
+      .then( t => that.fruitsText = t );
   },
   template: `
-    <f-aframe>
+    <f-aframe-test>
+      <a-entity :rotation="rotateCamera">
+        <f-camera rotation="0 180 0" active="true" ></f-camera>
+      </a-entity>
       <a-assets>
         <a-asset-item id="liist" src="./models/liist.obj"></a-asset-item>
         <img id="floor" src="./images/floor/floor_1k.jpg">
+        <a-asset-item id="apple" src="./models/apple.obj"></a-asset-item>
+        <a-asset-item id="lemon" src="./models/lemon.obj"></a-asset-item>
+        <a-asset-item id="tomato" src="./models/tomato.obj"></a-asset-item>
       </a-assets>
       <Room position="0 -4 0">
       <a-entity class="light-ambient" light="type: ambient; color: #fff; intensity: 0.2"></a-entity>
@@ -70,9 +83,22 @@ export default {
           <f-aframe-button @click.native="lightColor = warm; dressSrc = './images/dress_01_ww.jpg'" title="warm" position="1.5 0 0" />
         </a-entity>
       </Table>
-      <Info rotation="0 -80 0" position="3 0 0" :text="infoText"/>
+      <Table position="0 0 6" rotation="0 90 0" :tableLength=5.5 :tableWidth=3 :tableHeight=2.4>
+        <a-entity scale="1.3 1.3 1.3" rotation="-20 0 0" position="0 0 1">
+          <f-aframe-button @click.native="lightColor = 'rgb(255, 0, 0)'" title="red" position="-1.3 0 0" />
+          <f-aframe-button @click.native="lightColor = 'rgb(0, 255, 0)'" title="green" position="0 0 0" />
+          <f-aframe-button @click.native="lightColor = 'rgb(0, 0, 255)'" title="blue" position="1.3 0 0" />
+        </a-entity>
+        <a-entity scale="0.5 0.5 0.5">
+          <a-entity material="color: rgb(255,255,0);" position="-4 0 1" scale="0.015 0.015 0.015" obj-model="obj: #apple;"/>
+          <a-entity material="color: rgb(255,0,0)" position="0 1 0" scale="0.01 0.01 0.01" obj-model="obj: #tomato;"/>
+          <a-entity material="color: rgb(255,180,0);" position="4 0 0" scale="0.015 0.015 0.015" obj-model="obj: #lemon;"/>
+        </a-entity>
+      </Table>
+      <Info rotation="0 -80 0" position="3 0 0" :text="dressText"/>
+      <Info rotation="0 100 0" position="-3 0 0" :text="fruitsText"/>
       <Clock scale="1.5 1.5 1" rotation="0 90 0" position="-9.9 6 0"></Clock>
       </Room>
-    </f-aframe>
+    </f-aframe-test>
   `
 }
