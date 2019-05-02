@@ -17,12 +17,12 @@ export default {
     }
   }),
   template: `
+  <a :href="'./' + project.scenario">
   <f-card
     class="project-card"
     :background="statuses[status].background"
     :border="statuses[status].border"
   >
-    <a :href="'./' + project.scenario">
       <h5>{{ project.title }}</h5>
       <small>{{ project.desc }}</small>
       <p />
@@ -53,7 +53,7 @@ export default {
       <span><f-tools-icon /></span>
       <small>{{ project.facilities }}</small>
       </f-inline>
-    </a>
   </f-card>
+  </a>
   `
 }
