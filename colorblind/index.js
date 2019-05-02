@@ -15,9 +15,10 @@ fachwerk({
     "Poster" : Poster,
   },
   theme: "light",
-  editor: "hide",
+  editor: "none",
   pager: true,
   home: false,
+  type: "slides",
   utils:  localutils
 });
 
