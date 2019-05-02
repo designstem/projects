@@ -1,4 +1,9 @@
 
+
+
+---
+
+
 | section: start
 | theme: yellow
 
@@ -426,6 +431,130 @@ https://en.wikipedia.org/wiki/Color_vision~
 3. ~In the text it says “color is not a property of electromagnetic radiation, but a feature of visual perception by an observer”. Find out what is meant by this (see “Subjectivity of color perception”).~
 
 
+
+
+
+
+---
+
+| section: cb-designer
+| gap: 2vmin
+
+
+| 1 1 1 1
+| 2 3 4 5
+
+
+
+<f-inline style="--base:8px; justify-content:space-between;">
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+#### Background color
+
+<f-inline>
+  <div>
+    <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:hsb2hsl( get('h51',44), get('s51',77), get('b51',100) ) }"
+    ></div>
+  </div>
+
+  <div style="flex:1">
+    <f-slider title="H" :value="get('h51', 44)" v-on:input="set('h51', $event)" to="360" integer />
+    <f-slider title="S" :value="get('s51', 77)" v-on:input="set('s51', $event)" to="100" integer />
+    <f-slider title="B" :value="get('b51', 100)" v-on:input="set('b51', $event)" to="100" integer />
+  </div>
+</f-inline>
+</div>
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+#### Heading color
+
+<f-inline>
+  <div>
+    <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ) }"
+    ></div>
+  </div>
+
+  <div style="flex:1">
+    <f-slider title="H" :value="get('h52', 44)" v-on:input="set('h52', $event)" to="360" integer />
+    <f-slider title="S" :value="get('s52', 77)" v-on:input="set('s52', $event)" to="100" integer />
+    <f-slider title="B" :value="get('b52', 77)" v-on:input="set('b52', $event)" to="100" integer />
+  </div>
+</f-inline>
+
+</div>
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+#### Text color
+
+<f-inline>
+  <div>
+    <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ) }"
+    ></div>
+  </div>
+  <div style="flex:1">
+    <f-slider title="H" :value="get('h53', 44)" v-on:input="set('h53', $event)" to="360" integer />
+    <f-slider title="S" :value="get('s53', 77)" v-on:input="set('s53', $event)" to="100" integer />
+    <f-slider title="B" :value="get('b53', 77)" v-on:input="set('b53', $event)" to="100" integer />
+  </div>
+</f-inline>
+
+</div>
+
+
+</f-inline>
+
+-
+
+<Poster 
+  :bgColor="hsb2hsl( get('h51',44), get('s51',77), get('b51',100) )" 
+  :headingColor="hsb2hsl( get('h52',44), get('s52',77), get('b52',77) )" 
+  :textColor="hsb2hsl( get('h53',44), get('s53',77), get('b53',77) )" 
+  :type="'Normal'"
+/>
+
+-
+
+
+<Poster 
+  :bgColor="colorblind( hsb2hsl( get('h51',44), get('s51',77), get('b51',100) ), 'protanopia' )" 
+  :headingColor="colorblind( hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ), 'protanopia' )" 
+  :textColor="colorblind( hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ), 'protanopia' )" 
+  :type="'Protanopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( hsb2hsl( get('h51',44), get('s51',77), get('b51',100) ), 'deuteranopia' )" 
+  :headingColor="colorblind( hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ), 'deuteranopia' )" 
+  :textColor="colorblind( hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ), 'deuteranopia' )" 
+  :type="'Deuteranopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( hsb2hsl( get('h51',44), get('s51',77), get('b51',100) ), 'tritanopia' )" 
+  :headingColor="colorblind( hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ), 'tritanopia' )" 
+  :textColor="colorblind( hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ), 'tritanopia' )" 
+  :type="'Tritanopia'"
+/>
+
+
+
+
+
+
+---
 
 
 
