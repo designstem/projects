@@ -26,7 +26,9 @@
 - What happens in the eye and brain?
 </f-section-card>
 
-
+<f-section-card title="5: Design your own" section="cb-designer">
+- Design a "poster" of your own
+</f-section-card>
 
 
 

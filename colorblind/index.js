@@ -4,15 +4,15 @@ import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 import * as localutils from "./utils.js";
 
 //import ImageCompare from "./components/ImageCompare.js";
-import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
+//import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
 import ColorblindnessJuxtapose from "./components/ColorblindnessJuxtapose.js";
-
+import Poster from "./components/Poster.js";
 
 fachwerk({ 
   components: { 
         //"ImageCompare" : ImageCompare,
     "ColorblindnessJuxtapose" : ColorblindnessJuxtapose,
-    "ColorblindnessSimulator" : ColorblindnessSimulator,
+    "Poster" : Poster,
   },
   theme: "light",
   editor: "hide",

@@ -1,9 +1,64 @@
+<f-animation set="x" from="-4" to="4" />
 
+<f-scene grid>
+	<f-group scale="0.5">
+	<f-circle />
+	<f-point
+  	:stroke="color('red')"
+    stroke-width="10"
+    :position="[Math.cos(get('x')),Math.sin(get('x'))]"
+  />
+  <f-line :x2="Math.cos(get('x'))" :y2="Math.sin(get('x'))" />
+
+  <f-line x1="-4" x2="4" :y1="Math.sin(get('x'))" :y2="Math.sin(get('x'))" stroke-width="1" stroke="blue" />
+
+  </f-group>
+</f-scene>
+
+<f-scene grid>
+	<f-group scale="0.5">
+  <f-line
+  	:points="range(-4,4,0.1).map(x => [x,Math.sin(x)])"
+  />
+  <f-point
+  	:stroke="color('red')"
+    stroke-width="10"
+    :x="get('x')"
+    :y="Math.sin(get('x'))"
+  />
+  </f-group>
+</f-scene>
+
+<p />
+
+<f-scene grid>
+	<f-group scale="0.5">
+  <f-line
+  	:points="range(-4,4,0.1).map(y => [Math.cos(y),y])"
+  />
+  <f-point
+  	:stroke="color('red')"
+    stroke-width="10"
+    :x="Math.cos(get('x'))"
+    :y="get('x')"
+  />
+  </f-group>
+</f-scene>
+
+---
+
+| section: START
 | theme: yellow
 
 # <big><big>Frequency & Motion</big></big>
 
-<big>Learn about the beginnings of moving pictures, the art and the science behind it and why we are still so mesmerized watching those GIF memes.</big>
+
+~In everyday life most of the information of our surroundings is perceived visually or audibly.~
+
+~Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).~
+
+If you are ready to trick your brain and explore your creativity, prepare your turntable and press the START button!
+
 
 **Facilities:** turntable, paper, scissors, pencil(s), printer, smartphone/tablet/PC for online tool
 **People:** Individual work or small groups
@@ -11,6 +66,7 @@
 
 -
 
+<!--
 <f-scene>
   <f-spinner :duration="20000">
   	<f-spin-pattern count="60" r="0.5">
@@ -24,6 +80,7 @@
     </f-spin-pattern>
   </f-spinner>
 </f-scene>
+-->
 
 <f-notes>
 
@@ -50,19 +107,7 @@ This concept is divided into three main sections:
 
 ---
 
-# ...
-
-***ERIK: Needs title***
-
-~In everyday life most of the information of our surroundings is perceived visually or audibly.~
-
-~Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).~
-
-***ERIK: rephrase the next sentence to be simpler***
-
-If you are ready to trick your brain and explore your creativity, prepare your turntable and press the START button!
-
----
+| section: DISCUSS_1
 
 | padding: 0
 | gap: 0
@@ -73,7 +118,7 @@ If you are ready to trick your brain and explore your creativity, prepare your t
 
 <section><section>
 
-#### <f-activity-icon /> Activity
+#### <f-fact-icon /> Discuss
 
 # What is frequency?
 
@@ -107,11 +152,17 @@ Watch the following videos and define frequency with your own words and describe
 
 ---
 
-# ...
+| section: ACTIVITY_1
 
-***ERIK: Add title***
+### <f-activity-icon /> Activity 1
+
+# Make a ...
+
+***ERIK: title***
 
 You are now ready to make your own visual experiments! 
+
+1. <a href="" class="tertiary">Download PDF template</a> ***ERIK: upload file*** (or use printout by the teacher)
 
 1. Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
 
@@ -159,15 +210,17 @@ This is the plain circle which you should print and let students to cut out, you
 
 ---
 
+| section: THEORY_1
+
 #  Introduction
 
 ***ERIK: Better title***
 
-As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:
+~As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:~
 
-* How rapid is your drawing around the circle?
+* ~How close are the drawn elements to each other on the circle?~
 
-* What is the velocity of the turntable?
+* ~What is the rotation speed of the turntable?~
 
 ~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
 
@@ -181,18 +234,17 @@ As you might have noticed with your drawings in order, to have a smooth animatio
 
 <p />
 
-~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a *screen*.~
+~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a screen.~
 <br> 
-Watch following clip and notice how wheels<br>of the wagon are moving not naturally:
+~Watch following clip and notice how<br>wheels of the wagon are moving~
 
 <p />
 
-<f-next-button title="Go" />
+<f-next-button title="Go" /> ***TODO: t=55m***
 </div><center>
 
 ---
 
-| padding: 0
 | theme: dark
 
 <f-video src="https://www.youtube.com/watch?v=89TltTWEXzU&feature=youtu.be&t=55m" />
@@ -213,7 +265,7 @@ Watch following clip and notice how wheels<br>of the wagon are moving not natura
 
 ---
 
-# <f-activity-icon /> ...
+| section: ACTIVIY_2
 
 ***ERIK: Add title***
 
@@ -285,6 +337,8 @@ This is the circle with spokes. There are ***ERIK: Do we need a count?*** differ
 </f-notes>
 
 ---
+
+| section: THEORY_2
 
 # Frequency
 

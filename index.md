@@ -15,15 +15,15 @@
 -
 
 
-<!--f-sheet
+<f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
   v-slot="{ value: projects }"
--->
-<f-fetch
+>
+<!--f-fetch
   src="./feed.json"
   v-slot="{ value: projects }"
   type="json"
->
+-->
 <div>
 
 <br><br>
@@ -32,7 +32,7 @@
 
 <div class="grid">
   <f-project-card
-    v-for="(project,i) in parseSheet(projects).filter(p => p.type == 'featured')"
+    v-for="(project,i) in projects.filter(p => p.type == 'featured')"
     :key="i"
     :project="project"
     status="feature"
@@ -45,7 +45,7 @@
 
 <div class="grid">
   <f-project-card
-    v-for="(project,i) in parseSheet(projects).filter(p => p.type == 'progress')"
+    v-for="(project,i) in projects.filter(p => p.type == 'progress')"
     :key="i"
     :project="project"
     status="progress"
@@ -58,7 +58,7 @@
 
 <div class="grid">
   <f-project-card
-    v-for="(project,i) in parseSheet(projects).filter(p => p.type == 'experiment')"
+    v-for="(project,i) in projects.filter(p => p.type == 'experiment')"
     :key="i"
     :project="project"
     status="experiment"
@@ -66,6 +66,6 @@
 </div>
 
 </div>
-</f-fetch>
+</f-sheet>
 
 <br><br>
