@@ -139,6 +139,7 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 | 2 3
 | 2 3
 | 2 3
+| 4 4
 
 # Share your ideas
 
@@ -149,3 +150,7 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 -
 
 <big>What are the critical scientific concepts a tattoo designer needs to bear in mind?</big>
+
+-
+
+<a class="tertiary" href="..">← Back to projects</a>

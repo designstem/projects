@@ -1,1 +1,1 @@
-<a href="../" class="tertiary"><f-leftarrow-icon /> Back to projects</a>
+<a class="quaternary" href="..">← Back to projects</a>

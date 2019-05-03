@@ -933,28 +933,30 @@ When we add important properties like colour, stroke width, transparency and so 
 
 ---
 
-
-
-
-
-
-
-
-
-
+| 1 1
+| 2 3
+| 2 3
+| 2 3
+| 2 3
+| 2 3
+| 4 4
 
 ## Are you ready to become an Algorist yourself?
- 
+
+-
+
 Your final task is to create an algorithm for the ‘hardware’ that you started this scenario with: paper and scissors!
 
 -
 
 1. Create a 5-step algorithm
+
 2. Define and enumerate the steps
-3. Have fun (:
-4. Discuss what is your algorithm and how it can be improved
 
+3. Discuss what is your algorithm and how it can be improved
 
----
+4. Have fun :)
 
-# Thank you!!!
+-
+
+<a class="tertiary" href="..">← Back to projects</a>

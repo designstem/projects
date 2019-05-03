@@ -392,6 +392,8 @@ Answer the questions:
 
 2. Which variable (e.g. framerate, speed of the rotating device, spokes) had the most critical part in your animation?
 
+<a class="tertiary" href="..">← Back to projects</a>
+
 <f-notes>
 
 ### Final assignment

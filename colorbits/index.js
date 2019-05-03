@@ -95,10 +95,7 @@ new Vue({
   template: `
 	<div>
   <header>
-		<div>
-		<a href="https://designstem.github.io/homepage">Home</a>
-    → Bits and colors
-</div>
+    <a class="tertiary" href="..">← Back to projects</a>
   </header>
   <div style="border-bottom: 3px solid var(--primary);">
 
