@@ -1,13 +1,16 @@
 
-| 1 1 1
-| 2 3 4
-| 5 6 7
-| 8 8 8
+| padding: 3vw
+| 1 1
+| 2 3 
+| 4 5 
+| 6 7
+| 8 8
 
-# Some Facts About CVD 
 
-<p />
-<f-hr />
+
+# Short summary about CVD 
+~<small>Source: <a href="http://www.colourblindawareness.org/" target="_blank">http://www.colourblindawareness.org/</a></small>~
+
 <p />
 
 -
@@ -23,10 +26,10 @@
 
 ~**There are different types of CVD:**~
 
-~1. ***protanomaly***: reduced sensitivity to red light~
-~2. ***deuteranomaly***:  reduced sensitivity to green light.~
-~3. ***tritanomaly***: reduced sensitivity to blue light.~
-~4. ***achromatopsia***: complete colour blindness (everything seen in shades of grey).~
+~1. ***Protanomaly/protanopia***: reduced sensitivity to **red** light~
+~2. ***Deuteranomaly/deuteranopia***:  reduced sensitivity to **green** light.~
+~3. ***Tritanomaly/tritanopia***: reduced sensitivity to **blue** light.~
+~4. ***Achromatopsia***: **complete** colour blindness (everything seen in shades of grey).~
 
 -
 
@@ -38,13 +41,13 @@
 
 ### <f-fact-icon />  
 
-~**Protonomaly and deutranomaly are the more common forms of CVD**, with deuteranomaly being the most common. People with deuteranomaly and protanomaly are collectively known as **red-green colour blind**. They have difficulty distinguishing between reds, greens, browns and oranges. They also commonly confuse different types of blue and purple.~
+~**Protonomaly and deuteranomaly are the more common forms of CVD**, with deuteranomaly being the most common. People with deuteranomaly and protanomaly are collectively known as **red-green colour blind**. They have difficulty distinguishing between reds, greens, browns and oranges. They also commonly confuse different types of blue and purple.~
 
 -
 
 ### <f-fact-icon /> 
 
-~Protonomaly and deutranomaly are both caused by **X-linked recessive alleles** of genes for normal cone functioning. People with protonomaly do have red-sensitive cones but **the photosensitive pigment they contain does not function**. The same goes for deutranomaly and green-sensitive cones.~
+~Protonomaly and deuteranomaly are both caused by **X-linked recessive alleles** of genes for normal cone functioning. People with protonomaly do have red-sensitive cones but **the photosensitive pigment they contain does not function**. The same goes for deutranomaly and green-sensitive cones.~
 
 -
 
@@ -56,8 +59,4 @@
 
 <f-hr />
 
-<f-next-button />
-
-<p /> 
-
-<p /> 
+ 

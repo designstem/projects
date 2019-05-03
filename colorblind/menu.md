@@ -4,29 +4,31 @@
 <div class="grid" style="padding:var(--base8) var(--base2);">
 
 
+<f-section-card title="0: Home" section="cb-start"></f-section-card>
 
+<f-section-card title="1: What is it?" section="cb-what"></f-section-card>
 
-<f-section-card title="1: Explore color blindness" section="cb-explore">
+<f-section-card title="2: Explore color blindness" section="cb-explore">
 - How does color vision deficiency affects people?
 </f-section-card>
 
-<f-section-card title="2: Photo safari" section="cb-safari">
-- Gather some photos to analyze
+<f-section-card title="3: Photo safari" section="cb-safari">
+- Gather some images to analyze
 </f-section-card>
 
-<f-section-card title="3: Simulator" section="cb-simulator">
+<f-section-card title="4: Simulator" section="cb-simulator">
 - See how different colorblindness types affect your images
 </f-section-card>
 
-<f-section-card title="4: Facts about color blindness" section="cb-facts">
+<f-section-card title="5: Facts about color blindness" section="cb-facts">
 - What we should know about the subject
 </f-section-card>
 
-<f-section-card title="5: Color perception" section="cb-eye">
+<f-section-card title="6: Color perception" section="cb-eye">
 - What happens in the eye and brain?
 </f-section-card>
 
-<f-section-card title="5: Design your own" section="cb-designer">
+<f-section-card title="7: Design your own" section="cb-designer">
 - Design a "poster" of your own
 </f-section-card>
 

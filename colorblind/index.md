@@ -1,50 +1,35 @@
 
 
 
----
 
-
-| section: start
+| section: cb-start
 | theme: yellow
+| height: 100vh
+| 1
+| 2
+| 3
 
-<div>
 
-# <big>Color Vision Deficiency</big>
+# <big><big><big><big><big><big style="color:var(--white)">CVD</big></big></big></big></big></big> 
 
-#### How to design information for people whose color perception is impaired.
+-
 
-~(Richard Spencer, Kristin Kreer)~
+### ~Color Vision Deficiency / Color Blindness~
 
-<br />
-<br />
-<br />
+##### ~How to design information for people whose color perception is impaired.~
 
-<f-embed src="./menu.md" />
+-
+
+<!-- ~*(Richard Spencer, Kristin Kreer)*~ -->
+
+<!-- <f-embed src="./menu.md" /> -->
 
 <f-next-button title="Let's start" style="margin: var(--base8) 0;" />
 
 
 
 
-
-
-<div style="opacity:0.2; margin-top:50vh;">
-<button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
-<button v-on:click="send('goto','3properties')" >3 properties</button> 
-<button v-on:click="send('goto','shampoo')">Shampoo</button>
-<button v-on:click="send('goto','task1')">Task 1</button>
-<button v-on:click="send('goto','complementary')">Color harmonies</button>
-<button v-on:click="send('goto','task2')">Task 2</button>
-<button v-on:click="send('goto','contrast')">Contrast</button>
-<button v-on:click="send('goto','palettes')">Palettes</button>
-</div>
-
-
-</div>
-
-
-
-<!-- <f-notes>
+<f-notes>
 
 <summary>Teachers note</summary>
 
@@ -52,10 +37,13 @@
 
 The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
 
-</f-notes> -->
+</f-notes>
 
 
-<f-sidebar title="Menu" src="./menu.md" />
+
+
+
+
 
 
 
@@ -63,11 +51,71 @@ The students’ awareness should be raised for the problems people with color vi
 
 ---
 
+| section: cb-what
+| 1 1
+| 2 3
+| 4 4
+| 5 5
+
+<f-inline>
+
+<f-fact-icon size="large" />
+
+# The definition
+
+</f-inline>
+
+-
+
+## Color blindness
+
+~People who are **totally color blind**, can only see things as **black and white** or in shades of gray. But total color blindness is very rare. **Most people, whose color perception is impaired, are color vision deficient**.~
+
+-
+
+## Color Vision Deficiency (CVD)
+
+~People with **color vision deficiency** can see colors, but they have **difficulty differentiating between certain shades** of **reds and greens** or **blues and yellows**. CVD is more common than total color blindness.~
+
+-
+
+<!-- <f-hr /> -->
+
+-
+
+<!-- <f-inline> -->
+
+<div style="text-align:center; padding:0 20vw;">
+
+*On the following pages we try to explain, how exactly does CVD affects vision, what happens in the eye and brain and what designers should know about it.*
+
+<f-next-button title="Next" style="flex:1;" />
+
+</div>
+
+
+
+<!-- </f-inline> -->
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+| height: 100vh
 | section: cb-explore
 | 1 1 2 2 
 
 <!-- ##### EXPLORE -->
-# Color blindness
+# So... CVD
 
 <p />
 
@@ -77,12 +125,8 @@ The students’ awareness should be raised for the problems people with color vi
 
 <f-inline>
 
-  # 👉
-
   ~This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
-  ~Actually there is **<span style="color:var(--red)">only one red tomato</span>** in this picture~
-
-  <!-- ## <big>👉</big> -->
+  ~Actually there is only **<span style="color:var(--red)">one red tomato</span>** in this picture~
 
 </f-inline>
 
@@ -96,7 +140,7 @@ The students’ awareness should be raised for the problems people with color vi
 </f-inline>
 
 
-#  
+### &nbsp;
 
 <button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
@@ -141,10 +185,15 @@ The students’ awareness should be raised for the problems people with color vi
 
 -
 
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" />
-
-
-
+<ColorblindnessJuxtapose 
+  :imageUrl="'images/tomatoes-test__ps2.jpg'" 
+  :revealed="get('revealX',0)" 
+  :locked="get('revealLocked', true)" 
+  :juxtId="'compare'" 
+  :upload="false"
+  :cbType="'Protanopia'"
+  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)" 
+/>
 
 
 
@@ -156,38 +205,39 @@ The students’ awareness should be raised for the problems people with color vi
 | section: cb-safari
 | id: cbSafari
 | height: 100vh
-| gap: 0
 | padding: 0
+| gap: 0
+
 | 1 2
 
 
 
-<section style="display:grid; grid-template-rows: auto 100px; padding:var(--content-padding); height:100%;">
+<div style="display:grid; grid-template-rows: auto 100px; padding:var(--content-padding); height:100%;">
 
   <div>
   
-  <!-- ##### EXPLORE -->
-  # <f-icon :icon="'Activity'" :size="'large'" /> Photo safari
+  <f-inline>
 
-  <p />
+  <f-activity-icon size="large" />
+
+  # Photo safari
+
+  </f-inline>
+
+  #### &nbsp;
 
   ~Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.~
 
-  <f-inline>
-
-  # 📸
-
   ~**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**~
   
-  </f-inline>
-  
   </div>
+
 
   <div>
     <f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
   </div>
 
-</section>
+</div>
 
 -
 
@@ -240,12 +290,10 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | 3 3 2 2 2
 
 
+# CVD simulator
 
-# Color&shy;blindness types
+~Simulate CVD by applying different filters to the image.~
 
-<p />
-
-~Simulate color vision deficiency by applying different filters to the image. **Drag the red handlers to see the difference**~
 
 <p />
 
@@ -253,12 +301,21 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <f-card :title="get('cbType') == 'Deuteranopia' ? ' 👉 Simulating Deuteranopia' : 'Simulate Deuteranopia'" subtitle="missing GREEN" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" />
 
-<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')" />
+<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')" /> 
 
-<p />
+<small><small>~*Drag the red handlers or click on the image to see the difference between normal and CVD seeing.*~</small></small>
+&nbsp; 
+<f-hr />
 
-~Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
+<f-inline>
 
+<f-activity-icon size="large" />
+
+~**Analyze images by asking yourself <f-sidebar title="these questions." src="./cb-analyze-images.md" width="50vw" />**~
+
+</f-inline>
+
+<f-hr />
 
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -269,11 +326,11 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 <div style="height:100vh; position: sticky; top:0">
 
 <ColorblindnessJuxtapose 
-  :imageUrl="get('cbSimImg', 'images/colorblind-subway.png')" 
+  :imageUrl="get('cbSimImg', 'images/cb-subway__moscow.png')" 
   :revealed="25" 
   :locked="false"
   :cbType="get('cbType', 'Protanopia')"
-  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base); border-radius:var(--base)"
+  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)"
 />
 <!-- <button v-on:click="set('cbSimImg', 'images/crayons.png')">swap</button> -->
 </div>
@@ -289,17 +346,15 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
-| height: 100vh
+
 | 1 1 1
 | 2 3 3
 | 4 4 4
 
 
-<!-- ##### EXPLORE -->
-# Color blindness
-## Analyze results
+# Analyze results
 
-<f-hr />
+<!-- <f-hr /> -->
 
 -
 
@@ -307,13 +362,13 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-#### ~**1** Find out what the main problem is regarding the color scheme.~
-#### ~**2** Phrase a hypothesis on how this problem could be solved.~
-#### ~**3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
+##### ~**1** Find out what the main problem is regarding the color scheme.~
+##### ~**2** Phrase a hypothesis on how this problem could be solved.~
+##### ~**3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<f-next-button />
 
 
 
