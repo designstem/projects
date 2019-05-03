@@ -5,12 +5,20 @@
 | section: cb-start
 | theme: yellow
 | height: 100vh
+| 1
+| 2
+| 3
+
 
 # <big><big><big><big><big><big style="color:var(--white)">CVD</big></big></big></big></big></big> 
 
-#### ~Color Vision Deficiency / Color Blindness~
+-
+
+### ~Color Vision Deficiency / Color Blindness~
 
 ##### ~How to design information for people whose color perception is impaired.~
+
+-
 
 <!-- ~*(Richard Spencer, Kristin Kreer)*~ -->
 
@@ -71,7 +79,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 -
 
-<f-hr />
+<!-- <f-hr /> -->
 
 -
 
@@ -79,7 +87,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 <div style="text-align:center; padding:0 20vw;">
 
-On the next pages we try to explain, how exactly does CVD affects vision, what happens in the eye and brain and what designers should know about it.
+*On the following pages we try to explain, how exactly does CVD affects vision, what happens in the eye and brain and what designers should know about it.*
 
 <f-next-button title="Next" style="flex:1;" />
 
@@ -284,7 +292,8 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 # CVD simulator
 
-~Simulate CVD by applying different filters to the image. **Drag the red handlers or click on the image to see the difference**~
+~Simulate CVD by applying different filters to the image.~
+
 
 <p />
 
@@ -292,17 +301,17 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <f-card :title="get('cbType') == 'Deuteranopia' ? ' 👉 Simulating Deuteranopia' : 'Simulate Deuteranopia'" subtitle="missing GREEN" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" />
 
-<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')" />
+<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')" /> 
 
-##### &nbsp; 
-
+<small><small>~*Drag the red handlers or click on the image to see the difference between normal and CVD seeing.*~</small></small>
+&nbsp; 
 <f-hr />
 
 <f-inline>
 
 <f-activity-icon size="large" />
 
-~Analyze your images by answering <f-sidebar title="these questions" src="./cb-analyze-images.md" width="50vw" />~
+~**Analyze images by asking yourself <f-sidebar title="these questions." src="./cb-analyze-images.md" width="50vw" />**~
 
 </f-inline>
 
