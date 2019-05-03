@@ -53,7 +53,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 <f-fact-icon size="large" />
 
-# What is it all about?
+# The definition
 
 </f-inline>
 
@@ -61,20 +61,17 @@ The students’ awareness should be raised for the problems people with color vi
 
 ## Color blindness
 
-~People who are **totally color blind**, can only see things as **black and white** or in shades of gray. But total color blindness is very rare. Most people, whose color perception is impaired, are color vision deficient.~
+~People who are **totally color blind**, can only see things as **black and white** or in shades of gray. But total color blindness is very rare. **Most people, whose color perception is impaired, are color vision deficient**.~
 
 -
 
 ## Color Vision Deficiency (CVD)
 
-~Most people with **color vision deficiency** can see colors, but they have difficulty differentiating between certain shades of **reds and greens** or **blues and yellows**. CVD is more common than total color blindness.~
-
+~People with **color vision deficiency** can see colors, but they have **difficulty differentiating between certain shades** of **reds and greens** or **blues and yellows**. CVD is more common than total color blindness.~
 
 -
 
 <f-hr />
-
-<f-sidebar width="75vw" title="Want more?" src="./cb-facts.md" />
 
 -
 
@@ -84,7 +81,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 On the next pages we try to explain, how exactly does CVD affects vision, what happens in the eye and brain and what designers should know about it.
 
-<f-next-button title="Let's find out" style="flex:1;" />
+<f-next-button title="Next" style="flex:1;" />
 
 </div>
 
@@ -181,16 +178,14 @@ On the next pages we try to explain, how exactly does CVD affects vision, what h
 -
 
 <ColorblindnessJuxtapose 
-  :imageUrl="'images/tomatoes-test.jpg'" 
+  :imageUrl="'images/tomatoes-test__ps2.jpg'" 
   :revealed="get('revealX',0)" 
   :locked="get('revealLocked', true)" 
   :juxtId="'compare'" 
   :upload="false"
-  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base); border-radius:var(--base)" 
+  :cbType="'Protanopia'"
+  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)" 
 />
-
-
-
 
 
 
@@ -287,11 +282,9 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | 3 3 2 2 2
 
 
-# Simulate color blindness
+# CVD simulator
 
-##### &nbsp;
-
-~Simulate color vision deficiency by applying different filters to the image. **Drag the red handlers to see the difference**~
+~Simulate CVD by applying different filters to the image. **Drag the red handlers or click on the image to see the difference**~
 
 <p />
 
@@ -301,10 +294,19 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')" />
 
-<p />
+##### &nbsp; 
 
-~Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
+<f-hr />
 
+<f-inline>
+
+<f-activity-icon size="large" />
+
+~Analyze your images by answering <f-sidebar title="these questions" src="./cb-analyze-images.md" width="50vw" />~
+
+</f-inline>
+
+<f-hr />
 
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -315,11 +317,11 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 <div style="height:100vh; position: sticky; top:0">
 
 <ColorblindnessJuxtapose 
-  :imageUrl="get('cbSimImg', 'images/colorblind-subway.png')" 
+  :imageUrl="get('cbSimImg', 'images/cb-subway__moscow.png')" 
   :revealed="25" 
   :locked="false"
   :cbType="get('cbType', 'Protanopia')"
-  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base); border-radius:var(--base)"
+  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)"
 />
 <!-- <button v-on:click="set('cbSimImg', 'images/crayons.png')">swap</button> -->
 </div>
