@@ -1,3 +1,2 @@
-/homepage/ ... links
-fix mixer
-metamerism?
+tattoo_icons nav
+tattoo frontpage
