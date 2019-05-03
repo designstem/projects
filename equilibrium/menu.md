@@ -1,7 +1,5 @@
 
-| padding: none
-
-<a href="./index.html" class="tertiary">scenario index</a>
+<a href="../" class="quaternary"><f-leftarrow-icon /> Back to projects</a>
 
 <br>
 
