@@ -1,5 +1,4 @@
 
-| padding: 3vw
 | 1 1
 | 2 3 
 | 4 5 
@@ -26,9 +25,9 @@
 
 ~**There are different types of CVD:**~
 
-~1. ***Protanomaly/protanopia***: reduced sensitivity to **red** light~
-~2. ***Deuteranomaly/deuteranopia***:  reduced sensitivity to **green** light.~
-~3. ***Tritanomaly/tritanopia***: reduced sensitivity to **blue** light.~
+~1. ***Protanomaly/protanopia***: reduced/missing sensitivity to **red** light~
+~2. ***Deuteranomaly/deuteranopia***:  reduced/missing sensitivity to **green** light.~
+~3. ***Tritanomaly/tritanopia***: reduced/missing sensitivity to **blue** light.~
 ~4. ***Achromatopsia***: **complete** colour blindness (everything seen in shades of grey).~
 
 -

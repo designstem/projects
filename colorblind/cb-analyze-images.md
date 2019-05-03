@@ -1,5 +1,5 @@
 
-<div style="padding:4vw">
+<div style="padding:4vw; font-weight: normal;">
 
 ~Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
 
