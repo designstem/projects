@@ -124,8 +124,13 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 
 <big><span class="bullet">3</span>Test your design in smart tattoo simulator to explore further connections. Write these down as well.</big>
 
-<a class="primary" href="../tattoo_simulator">Go to smart tattoo simulator</a>
+<f-next-button title="go to the simulator" />
 
+---
+
+
+
+<Simulator />
 
 ---
 

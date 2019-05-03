@@ -297,11 +297,23 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <p />
 
-<f-card :title="get('cbType', 'Protanopia') == 'Protanopia' ? ' 👉 Simulating Protanopia' : 'Simulate Protanopia'" subtitle="missing RED" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType', 'Protanopia') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')" />
+<f-card :title="get('cbType', 'Protanopia') == 'Protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType', 'Protanopia') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')">
 
-<f-card :title="get('cbType') == 'Deuteranopia' ? ' 👉 Simulating Deuteranopia' : 'Simulate Deuteranopia'" subtitle="missing GREEN" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" />
+<p v-if="get('cbType', 'Protanopia') == 'Protanopia'" style="font-size:100%;">reduced sensitivity to <b>RED</b> light</p>
 
-<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')" /> 
+</f-card>
+
+<f-card :title="get('cbType') == 'Deuteranopia' ? 'Simulating Deuteranopia 👉' : 'Simulate Deuteranopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" >
+
+<p v-if="get('cbType') == 'Deuteranopia'" style="font-size:100%;">reduced sensitivity to <b>GREEN</b> light</p>
+
+</f-card>
+
+<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')">
+
+<p v-if="get('cbType') == 'Tritanopia'" style="font-size:100%">reduced sensitivity to <b>BLUE</b> light</p>
+
+</f-card>
 
 <small><small>~*Drag the red handlers or click on the image to see the difference between normal and CVD seeing.*~</small></small>
 &nbsp; 
@@ -326,7 +338,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 <div style="height:100vh; position: sticky; top:0">
 
 <ColorblindnessJuxtapose 
-  :imageUrl="get('cbSimImg', 'images/cb-subway__moscow.png')" 
+  :imageUrl="get('cbSimImg', 'images/cb-metro.jpg')" 
   :revealed="25" 
   :locked="false"
   :cbType="get('cbType', 'Protanopia')"
@@ -344,46 +356,100 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 
----
-
-
-| 1 1 1
-| 2 3 3
-| 4 4 4
-
-
-# Analyze results
-
-<!-- <f-hr /> -->
-
--
-
-~Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:~
-
--
-
-##### ~**1** Find out what the main problem is regarding the color scheme.~
-##### ~**2** Phrase a hypothesis on how this problem could be solved.~
-##### ~**3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
-
--
-
-<f-next-button />
-
-
-
-
-
-
 
 
 
 ---
 
 | section: cb-facts
+| 1 1 1 1 
+| 2 3 4 5
+| 6 6 6 7
+| 8 8 8 8
+| height: 100vh
 
-<f-embed src="./cb-facts.md" />
 
+# <f-fact-icon size="large" />Short summary about CVD 
+<!-- ~<small>Source: <a href="http://www.colourblindawareness.org/" target="_blank">http://www.colourblindawareness.org/</a></small>~ -->
+
+#### &nbsp;
+
+#### ~There are different types of CVD:~
+
+-
+
+~***Protanomaly/ protanopia***<br />reduced/missing sensitivity to **RED** light~
+
+-
+
+~***Deuteranomaly/ deuteranopia***<br />reduced/missing sensitivity to **GREEN** light.~
+
+-
+
+~***Tritanomaly/ tritanopia***<br />reduced/missing sensitivity to **BLUE** light.~
+
+-
+
+~***Achromatopsia***<br />**complete** colour blindness (everything seen in shades of grey).~
+
+-
+
+~The **-nopias** are more severe cases than **-anomalies**~
+~"-anomaly" means that perception of certain light is reduced while "-nopia" means it is missing. We shall come back to this later in more detail.~
+
+-
+
+-
+
+<f-next-button title=" " style="align-self:end;" />
+
+
+
+
+---
+
+| 1 1 1
+| 2 3 4
+| 2 3 4
+| 2 3 4
+| 2 3 4
+| 5 5 5
+
+# <f-fact-icon size="large" />Short summary about CVD 
+
+-
+
+~**Tritanomaly and achromatopsia are extremely rare** forms of CVD and are both caused by autosomal recessive alleles. People with these forms of CVD inherit two faulty versions (alleles) of genes for normal cone functioning, one from each parent.~
+
+-
+
+~**Protanomaly and deuteranomaly are the more common forms of CVD**, with deuteranomaly being the most common. People with deuteranomaly and protanomaly are collectively known as **red-green colour blind**. They have difficulty distinguishing between reds, greens, browns and oranges. They also commonly confuse different types of blue and purple.~
+
+-
+
+~Colour blindness (colour vision deficiency, or CVD) affects approximately **1 in 12 men** (8%) and **1 in 200 women** in the world.~
+
+-
+
+<f-next-button title=" " />
+
+
+
+
+
+
+
+
+
+
+---
+
+
+<center>
+
+  # But why?
+
+</center>
 
 
 
