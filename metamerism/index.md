@@ -1,12 +1,10 @@
-| height: fit
+| height: 100vh
 
 # <big><big><big>Metamerism</big></big></big>
 
 ---
 
-| height: fit
-
-<div>
+| height: 100vh
 
 ### Experiment 1
 
@@ -25,20 +23,15 @@ possible) and enter the first experiment.
 
 2. Experiment with the slider. Which effect does it have?
 
-</div>
-
 ---
 
-| height: fit
-| padding: none
+| height: 100vh
 
 <scene1 style="width: 100%; height: 100%"/>
 
 ---
 
-| height: fit
-
-<div>
+| height: 100vh
 
 ### Experiment 2
 
@@ -56,5 +49,9 @@ possible) and enter the second experiment.
 2. Try different combinations and watch the consequences
 on the scene and the objects.
 
-</div>
+---
+
+| height: 100vh
+
+<scene1 style="width: 100%; height: 100%" rotateCamera="0 180 0" />
 

@@ -3,7 +3,7 @@ export default {
   props: {
     position: { default: "0 0 0"},
     rotation: { default: "0 0 0"},
-    light: { default: "white"},
+    light: { default: "rgb(255, 255, 255)"},
     lampScale: { default: "1 1 1"},
     lampHeight: { default: 1 }
   },

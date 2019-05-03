@@ -804,7 +804,6 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 | id: 3properties
 | height: 100%
-| theme: dark
 | padding: 0
 | 1 2
 
