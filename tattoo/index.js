@@ -1,3 +1,5 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-fachwerk({ editor: "hide" });
+import Simulator from '../tattoo_simulator/simulator.js'
+
+fachwerk({ editor: "hide", components: {Simulator} });
