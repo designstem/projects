@@ -2,6 +2,8 @@
 
 # <big><big><big>Metamerism</big></big></big>
 
+
+
 ---
 
 | height: 100vh
@@ -21,7 +23,7 @@ possible) and enter the first experiment.
 1. Make yourself familiar with the VR environment
 (moving, viewing, controls ...)
 
-2. Experiment with the slider. Which effect does it have?
+2. Experiment with the buttons. Which effect do they have?
 
 ---
 
@@ -44,7 +46,7 @@ The effect on the dress was already clearly visible. But there are changes which
 Use a computer or your smartphone (with a VR headset if
 possible) and enter the second experiment.
 
-1. Use the buttons to experiment with the different effects.
+1. Use the buttons to experiment with different colored lightning.
 
 2. Try different combinations and watch the consequences
 on the scene and the objects.

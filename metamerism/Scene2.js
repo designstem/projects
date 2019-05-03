@@ -15,7 +15,7 @@ export default {
     </a-assets>
 
 
-    <!--<a-light position="0 0.5 1" cast-shadow="true" :color="rgb([0,255][r],[0,255][g],[0,255][b])" />-->
+    <a-light position="0 0.5 1" cast-shadow="true" :color="rgb([0,255][r],[0,255][g],[0,255][b])" />
 
     <a-entity position="0 0 -15">
 

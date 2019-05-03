@@ -28,7 +28,8 @@ export default {
     lightColor: '',
     dressSrc: './images/dress_03_nw.jpg',
     dressText: '',
-    fruitsText: ''
+    fruitsText: '',
+    r: 1, g: 1, b: 1
   }),
   mounted() {
     const that = this;
