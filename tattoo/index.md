@@ -1,26 +1,22 @@
 | padding: 0
+| background: ./images/model.jpg
+| theme: dark
+
+| 1 2 2 2
 
 <section><section>
 
 
 # <big><big>Smart Tattoos</big></big>
 
-<big><big><mark>TODO</mark>. This needs some kind of intro text. This needs some kind of intro text. This needs some kind of intro text. This needs some kind of intro text.</big></big>
-
-<mark>TODO</mark> Time, people, facilities
+<big><big>Design a biosensitive tattoo that express youself and save lives</big></big>
 
 </section></section>
 
 
 -
 
-<f-image src="./images/model.jpg" />
-
----
-
-# What you will learn
-
-<mark>TODO</mark> Address the student here (I moved the learning goals to teacher notes)
+...
 
 <f-notes>
 
@@ -41,10 +37,7 @@
 | 2 3 4
 
 
-<f-inline>
-<f-activity-icon />
-<h3>Class activity</h3>
-</f-inline>
+<f-icon-heading>Class activity</f-icon-heading>
 
 # Warming up with a pair
 
@@ -62,12 +55,12 @@
 
 ---
 
-| 1 1 2
+| 1 1
+| 2 3
 
-# Prologue
+# What is smart tattoo?
 
-
-<big>
+-
 
 ~Tattoos have been around since ancient times.~
 
@@ -75,33 +68,7 @@
 
 ~Now MIT-research group has suggested that some inks can be used to create smart tattoo’s that provide useful information for example about hydration, sugar and pH-levels.~
 
-</big>
-
-<p />
-
-<mark>TODO:</mark> *What is this thing below? A call for activity. Just a phrase for a transition?*
-
-Work with your pair and design a “smart” tattoo 
-
 -
-
-<mark>TODO</mark> Image / video, pleaaaase!
-
----
-
-| 1 1
-| 2 3
-| 2 3
-| 2 3
-| 2 3
-
-# What to measure?
-
--
-
-<mark>TODO</mark> *Unclear title*
-
-<big>
 
 ~The MIT-researchers used inks that functioned as indicators.~
 
@@ -109,30 +76,30 @@ Work with your pair and design a “smart” tattoo
 
 ~In order to design a smart tattoo you need to figure out what type of biological substance you want to observe!~
 
-</big>
+---
+
+| 1 1 1
+| 2 3 4
+
+<f-icon-heading>Class activity</f-icon-heading>
+
+# Design a smart tattoo
 
 -
 
-<mark>TODO</mark> *Activity icon / subtitle needed*
+<big><span class="bullet">1</span>Discuss with your pair what substances exist in human body and how do these influence human health.</big>
 
-1. Discuss with your pair what substances exist in human body and how do these influence human health.
+-
 
-2. Choose which one you want to measure and why.
+<big><span class="bullet">1</span>Choose which one you want to measure and why.</big>
 
-3. When you have decided open a paint and draw a quick black and white icon of what you want to measure.   
+-
 
----
+<big><span class="bullet">1</span>When you have decided open a paint and draw a quick black and white icon of what you want to measure.   
 
-# Tattoos are icons
+Visit the icon designer to learn more about icons and make adjustments to your icon if necessary.</big>
 
-<!--The icons on the left  refer to certain reasons to have a tattoo. Can you guess the reason behind the icon?-->
-
-Visit the icon designer to learn more about icons and make adjustments to your icon if necessary
-
-<f-inline>
 <a class="primary" href="../tattoo_icons">Go to icon designer</a>
-<a class="secondary" @click="send('next')">Next step <f-rightarrow-icon /></a> 
-</f-inline>
 
 ---
 
@@ -140,6 +107,8 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 | 2 3 4
 | 2 3 4
 | 2 3 4
+
+<f-icon-heading>Class activity</f-icon-heading>
 
 # Test your design
 
