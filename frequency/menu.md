@@ -5,7 +5,7 @@
 <div class="grid" style="--cols: 1fr">
 
 <f-section-card section="START">
-<h5 style="margin-bottom: 0">Let's get started</h5>
+Let's get started
 </f-section-card>
 
 <f-section-card section="DISCUSS_1">
@@ -34,7 +34,7 @@ Frequency and framerate
 </f-section-card>
 
 <f-section-card section="THEORY_2">
-<h5 style="margin-bottom: 0">Frequency and waves</h5>
+Frequency and waves
 </f-section-card>
 
 <f-section-card section="ACTIVITY_3">
