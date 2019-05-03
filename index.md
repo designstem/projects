@@ -19,11 +19,6 @@
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
   v-slot="{ value: projects }"
 >
-<!--f-fetch
-  src="./feed.json"
-  v-slot="{ value: projects }"
-  type="json"
--->
 <div>
 
 <br><br>
@@ -39,6 +34,7 @@
   />
 </div>
 
+<!--
 <br><br>
 
 ### In progress
@@ -51,6 +47,7 @@
     status="progress"
   />
 </div>
+-->
 
 <br><br>
 
