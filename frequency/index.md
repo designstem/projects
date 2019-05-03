@@ -45,7 +45,12 @@
   </f-group>
 </f-scene>
 
+
 ---
+
+
+
+
 
 | section: START
 | theme: yellow
@@ -118,7 +123,7 @@ This concept is divided into three main sections:
 
 <section><section>
 
-#### <f-fact-icon /> Discuss
+<f-icon-heading>Discuss</f-icon-heading>
 
 # What is frequency?
 
@@ -154,7 +159,7 @@ Watch the following videos and define frequency with your own words and describe
 
 | section: ACTIVITY_1
 
-### <f-activity-icon /> Activity 1
+<f-icon-heading>Activity</f-icon-heading>
 
 # Make a ...
 
@@ -162,7 +167,7 @@ Watch the following videos and define frequency with your own words and describe
 
 You are now ready to make your own visual experiments! 
 
-1. <a href="" class="tertiary">Download PDF template</a> ***ERIK: upload file*** (or use printout by the teacher)
+1. <a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a> ***ERIK: upload file*** (or use printout by the teacher)
 
 1. Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
 
@@ -240,14 +245,15 @@ This is the plain circle which you should print and let students to cut out, you
 
 <p />
 
-<f-next-button title="Go" /> ***TODO: t=55m***
+<f-next-button title="Go" />
+
 </div><center>
 
 ---
 
 | theme: dark
 
-<f-video src="https://www.youtube.com/watch?v=89TltTWEXzU&feature=youtu.be&t=55m" />
+<f-video src="https://www.youtube.com/watch?v=89TltTWEXzU&feature=youtu.be&start=3300" />
 
 ---
 
@@ -267,7 +273,9 @@ This is the plain circle which you should print and let students to cut out, you
 
 | section: ACTIVIY_2
 
-***ERIK: Add title***
+<f-icon-heading>Activity</f-icon-heading>
+
+# Make a ...
 
 You will have circles with different amount of spokes.
 
@@ -359,37 +367,18 @@ This is the circle with spokes. There are ***ERIK: Do we need a count?*** differ
 
 ~On sinusoidal wave time lapses from left to right on the horizontal axis. Highest frequency has more cycles on a vertical axis representing faster rate.~
 
+How can frequency be interpreted in different ways?  Your task is to use a design STEM wave tool and find answers to the questions brought up in there.
+
+Students will learn how to present frequency on a sinusoidal wave. To let them experiment and test their new knowledge about frequency in a more mathematical way of thinking, you’ll be using the sinusoidal-wave tool accessible from here: 
 -
 
 ***ERIK: Image / animation***
 
 ---
 
-# <f-activity-icon /> ...
+<f-icon-heading>Activity</f-icon-heading>
 
-***ERIK: Needs title***
-
-How can frequency be interpreted in different ways?  Your task is to use a design STEM wave tool and find answers to the questions brought up in there.
-
-***ERIK: Not sure where to link here. Current interactive slides are about framerate / animation mostly. Should we link to https://pudding.cool/2018/02/waveforms/ ?***
-
-<f-notes>
-
-# ...
-
-***ERIK: Title needed***
-
-> ##### You will need
-smartphone / tablet / PC for online tool
-
-Students will learn how to present frequency on a sinusoidal wave. To let them experiment and test their new knowledge about frequency in a more mathematical way of thinking, you’ll be using the sinusoidal-wave tool accessible from here: 
-
-***ERIK: Where to link to?***
-</f-notes>
-
----
-
-# <f-activity-icon /> Final task
+# Final task
 
 ***ERIK: A better structure, in steps? Visual examples?***
 
@@ -734,9 +723,5 @@ Strobe Animated Sculptures by John Edmark
   </f-spinner>
 </f-scene>
 
-
-
-
-
-
+---
 
