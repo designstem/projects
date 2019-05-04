@@ -2,25 +2,24 @@
 | background: ./images/model.jpg
 | theme: dark
 
-| 1 2 2 2
+| 1 1 2 2 2
 
 <section><section>
 
-
 # <big><big>Smart Tattoos</big></big>
 
-<big><big>Design a biosensitive tattoo that express youself and save lives</big></big>
+<big>Design a biosensitive tattoo that expresses you life and can also save your life</big>
+
+<f-next-button title="Start" />
 
 </section></section>
 
 
 -
 
-...
-
 <f-notes>
 
-# Learning goals
+### Learning goals
 
 * To promote interest towards learning both design and STEM
 
@@ -33,6 +32,7 @@
 ---
 
 | 1 1 1
+| 2 3 4
 | 2 3 4
 | 2 3 4
 
@@ -56,6 +56,9 @@
 ---
 
 | 1 1
+| 2 3
+| 2 3
+| 2 3
 | 2 3
 
 # What is smart tattoo?
