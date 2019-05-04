@@ -364,8 +364,8 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | section: cb-facts
 | 1 1 1 1 
 | 2 3 4 5
-| 6 6 6 7
-| 8 8 8 8
+| 6 6 6 6
+| 7 7 7 7
 | height: 100vh
 
 
@@ -374,34 +374,64 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 #### &nbsp;
 
-#### ~There are different types of CVD:~
+
+
+#### ~There are 7 different types of CVD:~
+
 
 -
 
-~***Protanomaly/ protanopia***<br />reduced/missing sensitivity to **RED** light~
+<div style="text-align:centyer;">
+
+<f-fact-icon />
+
+#### Protanomaly &amp;<br/>protanopia
+~reduced/missing sensitivity to **RED** light~
+</div>
 
 -
 
-~***Deuteranomaly/ deuteranopia***<br />reduced/missing sensitivity to **GREEN** light.~
+<div style="text-align:centyer;">
+
+<f-fact-icon />
+
+#### Deuteranomaly &amp;<br/>deuteranopia
+~reduced/missing sensitivity to **GREEN** light.~
+</div>
 
 -
 
-~***Tritanomaly/ tritanopia***<br />reduced/missing sensitivity to **BLUE** light.~
+<div style="text-align:cenyter;">
+
+<f-fact-icon />
+
+#### Tritanomaly &amp;<br/>tritanopia
+~reduced/missing sensitivity to **BLUE** light.~
+</div>
 
 -
 
-~***Achromatopsia***<br />**complete** colour blindness (everything seen in shades of grey).~
+<div style="text-align:centter;">
+
+<f-fact-icon />
+
+#### Achromatopsia
+~**complete** colour blindness (everything seen in shades of grey).~
+</div>
 
 -
 
-~The **-nopias** are more severe cases than **-anomalies**~
-~"-anomaly" means that perception of certain light is reduced while "-nopia" means it is missing. We shall come back to this later in more detail.~
+<center>
+
+~The **"-nopia"** is more severe case than **"-anomaly"**:~
+~"-anomaly" in the name means that perception of certain light is reduced while "-nopia" means it is missing. We shall come back to this later in more detail.~
+
+</center>
 
 -
 
--
 
-<f-next-button title=" " style="align-self:end;" />
+<f-next-button title=" " style="align-self:center;" />
 
 
 
@@ -427,7 +457,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-~Colour blindness (colour vision deficiency, or CVD) affects approximately **1 in 12 men** (8%) and **1 in 200 women** in the world.~
+~Colour blindness and colour vision deficiency affects approximately **1 in 12 men** (8%) and **1 in 200 women** (0.5%) in the world.~
 
 -
 
@@ -445,9 +475,21 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 ---
 
 
+
 <center>
 
+<div>
+  
   # But why?
+
+  ~Why we see colors differently?~
+
+  #### ~Let's try to understand how the human eye is built~
+
+  ##### &nbsp;
+
+  <f-next-button title="To the eye" />
+</div>
 
 </center>
 
@@ -470,21 +512,23 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 <!-- ##### EXPLAIN  -->
-# 👁️‍🗨️ The eye
+# 👁️‍🗨️ The human eye
 
-<f-hr style="margin:var(--base6) 0" />
+#### &nbsp;
 
-~When it comes to color vision, the **retina** is the part of the eye which is important.~
-~It is at the back of the eye and contains two types of photoreceptor cells which detect light:~
+~When it comes to color vision, the back of the eye, named **retina** is most important. It contains **two types of photoreceptor cells which detect light** and are called:~
 
-#### ~Rods and cones.~
+#### ~RODS and CONES~
+
+~Remember this, because next steps are all about these rods and cones.~
 
 <f-next-button title="Rods and cones" style="margin:var(--base6) 0" />
 
 -
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
-  <img src="./images/eye.svg" />
+  <img src="./images/eye_v2.svg" />
+  
 </figure>
 
 
@@ -503,10 +547,9 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 <!-- ##### EXPLAIN  -->
-# The eye
+# The human eye
 ### Rods and cones
 
-<f-hr style="margin:var(--base6) 0" />
 
 ~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
 

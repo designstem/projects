@@ -65,30 +65,30 @@
     <ellipse class="cls-11" cx="239.5" cy="234.5" rx="32" ry="71"/>
   </g>
   <g id="texts" class="texts">
-    <text transform="translate(105 112.15)" text-anchor="end">lens</text>
-    <text transform="translate(105 152.16)" text-anchor="end">iris</text>
-    <text transform="translate(105 192.17)" text-anchor="end">cornea</text>
-    <text transform="translate(302 234.17)">vitreous chamber</text>
-    <text transform="translate(302 268.17)">vitreous humor</text>
-    <text transform="translate(30 480.78)">anterior chamber</text>
-    <text transform="translate(30 511.78)">aqueous humor</text>
+    <!-- <text transform="translate(105 112.15)" text-anchor="end">lens</text> -->
+    <!-- <text transform="translate(105 152.16)" text-anchor="end">iris</text> -->
+    <!-- <text transform="translate(105 192.17)" text-anchor="end">cornea</text> -->
+    <!-- <text transform="translate(302 234.17)">vitreous chamber</text> -->
+    <!-- <text transform="translate(302 268.17)">vitreous humor</text> -->
+    <!-- <text transform="translate(30 480.78)">anterior chamber</text> -->
+    <!-- <text transform="translate(30 511.78)">aqueous humor</text> -->
     <text transform="translate(631 36.91)">sclera</text>
     <text transform="translate(631 76.92)">RETINA</text>
     <text transform="translate(631 116.81)">choroid</text>
     <text transform="translate(631 156.67)">fovea</text>
     <text transform="translate(580 435.67)">optic nerve</text>
-    <text transform="translate(291 519.67)">suspensory ligaments</text>
+    <!-- <text transform="translate(291 519.67)">suspensory ligaments</text> -->
   </g>
   <g id="lines">
-    <line class="dashed-line" x1="111" y1="114" x2="217" y2="236"/>
-    <line class="dashed-line" x1="111" y1="154" x2="163" y2="213"/>
-    <line class="dashed-line" x1="111" y1="195" x2="137" y2="226"/>
-    <line class="dashed-line" x1="147" y1="450" x2="170" y2="290"/>
+    <!-- <line class="dashed-line" x1="111" y1="114" x2="217" y2="236"/> -->
+    <!-- <line class="dashed-line" x1="111" y1="154" x2="163" y2="213"/> -->
+    <!-- <line class="dashed-line" x1="111" y1="195" x2="137" y2="226"/> -->
+    <!-- <line class="dashed-line" x1="147" y1="450" x2="170" y2="290"/> -->
     <line class="dashed-line" x1="626" y1="36" x2="552" y2="86"/>
     <line class="dashed-line" x1="626" y1="76" x2="552" y2="125"/>
     <line class="dashed-line" x1="626" y1="116" x2="584" y2="146"/>
     <line class="dashed-line" x1="626" y1="157" x2="587" y2="186"/>
     <line class="dashed-line" x1="622" y1="409" x2="660" y2="341"/>
-    <line class="dashed-line" x1="361" y1="499" x2="235" y2="311"/>
+    <!-- <line class="dashed-line" x1="361" y1="499" x2="235" y2="311"/> -->
   </g>
 </svg>
