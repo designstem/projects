@@ -1,3 +1,47 @@
+
+<f-slider set="a" :from="-Math.PI" :to="Math.PI" duration="1000" />
+
+<f-scene grid width="200" height="200">
+    <f-circle />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="10"
+      :x="Math.cos(get('a'))"
+      :y="Math.sin(get('a'))"
+    />
+    <f-point
+      :stroke="color('red')"
+      stroke-width="10"
+      :x="Math.cos((get('a') * 2) - Math.PI)"
+      :y="Math.sin((get('a') * 2) - Math.PI)"
+    />
+</f-scene>
+
+<f-scene grid :width="3 * 200" height="200">
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [x,Math.sin(x)])"
+    />
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+    />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="10"
+      :x="get('a')"
+      :y="Math.sin(get('a'))"
+    />
+    <f-point
+      :stroke="color('red')"
+      stroke-width="10"
+      :x="get('a')"
+      :y="Math.sin((get('a') * 2) - Math.PI)"
+    />
+</f-scene>
+
+<p />
+
+---
+
 <f-animation set="x" from="-4" to="4" />
 
 <f-scene grid>
