@@ -113,11 +113,7 @@ new Vue({
   template: `
     <div style="display: relative">
       <div class="header_inverse" style="position: absolute; top:0; right: 0; left: 0">
-        <div>
-        <a href="https://designstem.github.io/homepage">Home</a>
-        →<a href="https://designstem.github.io/vinylfrequency">Frequency & Motion</a>
-        → Camera
-        </div>
+        <a class="quaternary" href="../frequency">← Back to Frequency & Movement</a>
       </div>
       
       <h1 v-if="!device" style="line-height: 1.1em; text-align: center; padding: 25vh 5rem 0 5rem; color: rgba(255,255,255,0.8)">Select a camera in lower right corner</h1>
