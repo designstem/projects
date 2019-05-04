@@ -1,8 +1,6 @@
-| padding: 0
+<a href="../" class="quaternary"><f-leftarrow-icon /> Back to projects</a>
 
-
-<div class="grid" style="padding:var(--base8) var(--base2);">
-
+<div class="grid">
 
 
 

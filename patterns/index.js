@@ -66,9 +66,7 @@ new Vue({
     <div>
       <header>
       <div>
-          <a href="https://designstem.github.io/homepage">Home</a>
-          → <a href="https://designstem.github.io/homepage/patterns">Patterns & Tessellations</a>
-          → Pattern Designer
+        <a class="tertiary" href="..">← Back to projects</a>
       </div>
       </header>
       <div style="display: flex">

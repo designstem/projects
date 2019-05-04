@@ -45,9 +45,10 @@ Design your floating structure and remember:
 - Earth pollution
 - raising of sea level
 
-
-
+<a class="tertiary" href="..">← Back to projects</a>
 
 -
+
 <br><br><br>
 <f-image src="images/img_index8.jpg" style="width:650px;height:700px;text-align:center"/>
+
