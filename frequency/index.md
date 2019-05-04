@@ -20,9 +20,18 @@
 <f-scene grid :width="3 * 200" height="200">
     <f-line
       :points="range(-Math.PI,Math.PI,0.1).map(x => [x,Math.sin(x)])"
+      :stroke="color('blue')"
+      opacity="0.5"
     />
     <f-line
       :points="range(-Math.PI,Math.PI,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+      :stroke="color('red')"
+      opacity="0.5"
+    />
+    <f-line
+      :points="range(Math.PI,Math.PI * 3,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+      :stroke="color('red')"
+      opacity="0.5"
     />
     <f-point
       :stroke="color('blue')"
