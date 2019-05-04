@@ -80,6 +80,8 @@
 
 | 1 1 1
 | 2 3 4
+| 2 3 4
+| 2 3 4
 
 <f-icon-heading>Class activity</f-icon-heading>
 
@@ -91,11 +93,11 @@
 
 -
 
-<big><span class="bullet">1</span>Choose which one you want to measure and why.</big>
+<big><span class="bullet">2</span>Choose which one you want to measure and why.</big>
 
 -
 
-<big><span class="bullet">1</span>When you have decided open a paint and draw a quick black and white icon of what you want to measure.   
+<big><span class="bullet">3</span>When you have decided open a paint and draw a quick black and white icon of what you want to measure.   
 
 Visit the icon designer to learn more about icons and make adjustments to your icon if necessary.</big>
 
@@ -124,11 +126,11 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 
 <big><span class="bullet">3</span>Test your design in smart tattoo simulator to explore further connections. Write these down as well.</big>
 
-<f-next-button title="go to the simulator" />
+<f-next-button title="Go to the simulator" />
 
 ---
 
-
+| padding: 1vw
 
 <Simulator />
 
@@ -147,9 +149,9 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 
 <big>With the assistance of your paper share your ideas about your design and smart tattoos in general.</big>
 
--
-
 <big>What are the critical scientific concepts a tattoo designer needs to bear in mind?</big>
+
+-
 
 -
 
