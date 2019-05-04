@@ -44,9 +44,7 @@ gold, others see it as black and blue. But what is true?
 To find out more about colors and light you are going to do
 an experiment in a virtual learning environment.
 
-***MADIS: Fix the link***
-
-<a href="./files/metamerism_worksheet1.pdf" class="tertiary  "><f-arrow-icon rotation="90" />Download PDF worksheet</a>
+<a href="./files/metamerism_worksheet_1.pdf" class="tertiary  "><f-arrow-icon rotation="90" />Download PDF worksheet</a>
 
 -
 
@@ -82,9 +80,7 @@ You have seen, that lighting can have an enormous effect on the way the human ey
 
 The effect on the dress was already clearly visible. But there are changes which may be more subtle or more drastic.
 
-***MADIS: Fix the link***
-
-<a href="./files/metamerism_worksheet1.pdf" class="tertiary  "><f-arrow-icon rotation="90" />Download PDF worksheet</a>
+<a href="./files/metamerism_worksheet_2.pdf" class="tertiary  "><f-arrow-icon rotation="90" />Download PDF worksheet</a>
 
 -
 

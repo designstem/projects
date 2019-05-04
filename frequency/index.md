@@ -1,57 +1,3 @@
-<f-animation set="x" from="-4" to="4" />
-
-<f-scene grid>
-	<f-group scale="0.5">
-	<f-circle />
-	<f-point
-  	:stroke="color('red')"
-    stroke-width="10"
-    :position="[Math.cos(get('x')),Math.sin(get('x'))]"
-  />
-  <f-line :x2="Math.cos(get('x'))" :y2="Math.sin(get('x'))" />
-
-  <f-line x1="-4" x2="4" :y1="Math.sin(get('x'))" :y2="Math.sin(get('x'))" stroke-width="1" stroke="blue" />
-
-  </f-group>
-</f-scene>
-
-<f-scene grid>
-	<f-group scale="0.5">
-  <f-line
-  	:points="range(-4,4,0.1).map(x => [x,Math.sin(x)])"
-  />
-  <f-point
-  	:stroke="color('red')"
-    stroke-width="10"
-    :x="get('x')"
-    :y="Math.sin(get('x'))"
-  />
-  </f-group>
-</f-scene>
-
-<p />
-
-<f-scene grid>
-	<f-group scale="0.5">
-  <f-line
-  	:points="range(-4,4,0.1).map(y => [Math.cos(y),y])"
-  />
-  <f-point
-  	:stroke="color('red')"
-    stroke-width="10"
-    :x="Math.cos(get('x'))"
-    :y="get('x')"
-  />
-  </f-group>
-</f-scene>
-
-
----
-
-
-
-
-
 | section: START
 | theme: yellow
 
@@ -87,7 +33,7 @@ If you are ready to trick your brain and explore your creativity, prepare your t
 </f-scene>
 -->
 
-<f-notes>
+<f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
 #### Notes
 
@@ -176,7 +122,7 @@ You are now ready to make your own visual experiments!
 4. Draw different variations to find visually the most appealing and interesting combination of movement.
 
 
-<f-notes>
+<f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
 ### ...
 
@@ -291,11 +237,9 @@ Your task is to:
 
 <a class="primary" href="../frequency_camera">Open frequency camera app</a>
 
-***ERIK: Add QR Code?***
-
 5. While the paper is still rotating on the turntable try to find specific platter velocity as to stop your drawing rotating on the screen of your device (stroboscopic effect).
 
-<f-notes>
+<f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
 # <f-activity-icon /> ...
 
@@ -348,45 +292,200 @@ This is the circle with spokes. There are ***ERIK: Do we need a count?*** differ
 
 | section: THEORY_2
 
-# Frequency
+| 1 1 2 2
 
-~Now, as you have been experimenting with spinning velocity and how the frame rate affects our perception of movement, it’s time to define frequency in a form of *wave*. Perhaps the most common waveform is the visual representation of sound.~
+<f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
-~The same applies to colours as they are recognized by our brain because of different wavelengths of emitted light.~
-
-***ERIK: Link to color scenario*** 
--
-
-***ERIK: Image / animation***
-
----
-
-# Sinusoidial wave
+Students will learn how to present frequency on a sinusoidal wave. To let them experiment and test their new knowledge about frequency in a more mathematical way of thinking
 
 ~Frequency can be expressed with sinusoidal wave having two variables: time and cycle. On a two-dimensional space, if X-axis will represent time and Y-axis a cycle, we can start presenting frequency with the sinusoidal wave.~
 
 ~On sinusoidal wave time lapses from left to right on the horizontal axis. Highest frequency has more cycles on a vertical axis representing faster rate.~
 
-How can frequency be interpreted in different ways?  Your task is to use a design STEM wave tool and find answers to the questions brought up in there.
+</f-notes>
 
-Students will learn how to present frequency on a sinusoidal wave. To let them experiment and test their new knowledge about frequency in a more mathematical way of thinking, you’ll be using the sinusoidal-wave tool accessible from here: 
+# Frequency as a wave
+
+~After exploring spinning frequency and frame rate, let's define frequency as form of *wave*. The most common waveform might be the <a target="_blank" href="https://pudding.cool/2018/02/waveforms/">soundwave <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> but it can also represent <a href="../colorblindness">color <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a></a> or movement.~
+
+#### **1** Explore the waveform
+
+Current <var class="gray">x</var> value is <var class="gray">{{ round(get('a') / Math.PI,2) }} × π</var>
+
+<f-slider set="a" :from="-Math.PI" :to="Math.PI" duration="1000" />
+<small>Precise value is <var class="gray">{{ get('a') }}</var>
+
+<p />
+
+#### **2** Discuss
+
+What are you findings regarding waves moving in different speeds, on different frequencies? How can frequency be interpreted in other visual ways?
+
 -
 
-***ERIK: Image / animation***
+<f-scene :width="200" :height="(Math.PI / 2) * 200 + 16">
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [Math.cos(x),x])"
+      :stroke="color('blue')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [Math.cos(x),(x / 2) - (Math.PI / 2),])"
+      :stroke="color('red')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(Math.PI,Math.PI * 3,0.1).map(x => [Math.cos(x),(x / 2) - (Math.PI / 2)])"
+      :stroke="color('red')"
+      opacity="0.75"
+    />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="Math.cos(get('a'))"
+      :y="get('a')"
+    />
+    <f-point
+      :stroke="color('red')"
+      stroke-width="10"
+      :x="Math.cos((get('a') * 2) - Math.PI)"
+      :y="get('a')"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="Math.cos(get('a'))"
+      :x2="Math.cos(get('a'))"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+    />
+    <f-line
+      :stroke="color('red')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="Math.cos((get('a') * 2) - Math.PI)"
+      :x2="Math.cos((get('a') * 2) - Math.PI)"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+    />
+</f-scene>
+
+<p />
+
+<f-scene width="200" height="200">
+    <f-circle />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="Math.cos(get('a'))"
+      :y="Math.sin(get('a'))"
+    />
+    <f-point
+      :stroke="color('red')"
+      stroke-width="10"
+      :x="Math.cos((get('a') * 2) - Math.PI)"
+      :y="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin(get('a'))"
+      :y2="Math.sin(get('a'))"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+      :x1="Math.cos(get('a'))"
+      :x2="Math.cos(get('a'))"
+    />
+    <f-line
+      :stroke="color('red')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin((get('a') * 2) - Math.PI)"
+      :y2="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('red')"
+      stroke-width="1"
+      opacity="0.2"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+      :x1="Math.cos((get('a') * 2) - Math.PI)"
+      :x2="Math.cos((get('a') * 2) - Math.PI)"
+    />
+</f-scene>
+
+<f-scene :width="(Math.PI / 2) * 200 + 16" height="200">
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [x,Math.sin(x)])"
+      :stroke="color('blue')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+      :stroke="color('red')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(Math.PI,Math.PI * 3,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+      :stroke="color('red')"
+      opacity="0.75"
+    />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="get('a')"
+      :y="Math.sin(get('a'))"
+    />
+    <f-point
+      :stroke="color('red')"
+      stroke-width="10"
+      :x="get('a')"
+      :y="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin(get('a'))"
+      :y2="Math.sin(get('a'))"
+    />
+    <f-line
+      :stroke="color('red')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin((get('a') * 2) - Math.PI)"
+      :y2="Math.sin((get('a') * 2) - Math.PI)"
+    />
+      
+</f-scene>
 
 ---
 
-<f-icon-heading>Activity</f-icon-heading>
+| 1 2
+| 1 3
 
-# Final task
+# Final project
 
-***ERIK: A better structure, in steps? Visual examples?***
+#### **1** Create and present an animation
 
 As a final task, you will prepare an analog animation using rotational movement. You can visualize abstract morphing or use more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve visually attractive outcome. 
 
-***ERIK: Link to worksheets***
-
-Answer the questions:
+#### **2** Answer the questions
 
 1. What constraints did you experience with the process?
 
@@ -394,11 +493,11 @@ Answer the questions:
 
 <a class="tertiary" href="..">← Back to projects</a>
 
-<f-notes>
-
-### Final assignment
+<f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
 Final assignment is an individual work for students is to create analogue animation and capture it with any device that can record a video file.
+
+> **You will need:** Any device that captures video, any kind of props
 
 There are many paths for students to take:
 
@@ -411,24 +510,13 @@ It is teacher, who can decide according to the planned curriculum, how complex t
 
 </f-notes>
 
----
-
-| 1 1
-| 2 3
-
-# Examples
-
 -
 
 <f-video src="https://www.youtube.com/watch?v=D6imyhJYEIY" />
 
-Animated card by Dres Tetz (video with instructions)
-
 -
 
 <f-video src="https://www.youtube.com/watch?v=9n-DtqB0sNc" />
-
-Strobe Animated Sculptures by John Edmark
 
 ---
 

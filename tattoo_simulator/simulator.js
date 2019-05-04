@@ -94,9 +94,9 @@ export default {
                 <!--<label>skin tone: <code>{{skincolors[skindex]}}</code></label>-->
                 
                 <!--<input type="range" v-model="index" :max="skincolors.length-1"/>-->
-                <h2><span class="bullet">1</span>Pick a skin tone</h2>
-                <div class="text"><p>Every person is different, so is their skin. <b>Pick a skin tone that matches yours</b>, or return here
-                later to see how your design would look on different backgrounds.</p></div>
+                <h3><span class="bullet">1</span>Pick a skin tone</h3>
+                <p>Every person is different, so is their skin. <b>Pick a skin tone that matches yours</b>, or return here
+                later to see how your design would look on different backgrounds.</p>
                 <br>
                 <ButtonGroup>
                   <ColorButton  v-for="(skincolor, index) in skincolors" 
@@ -106,12 +106,12 @@ export default {
                 </ButtonGroup>
              
                 <br>
-                <h2><span class="bullet">2</span>Add a tattoo and biosensors</h2>
-                <div class="text">
+                <h3><span class="bullet">2</span>Add a tattoo and biosensors</h3>
                 <p>Upload an image of your tattoo design, preferably drawn with a pen (not with a pencil). 
                 Add simple shapes or images as biosensors, that would react to the environment or biological stimuly.</p><p>Find out how long would
                 your preferred biosensor take to light up under the skin, and test it by adjusting the trigger time on your added layer.</p>
-                </div>
+                
+                <p />
 
                 <div class="flex" />
                 <div class="button_primary"  @click="pushType('img')">Add Image</div>
@@ -122,7 +122,7 @@ export default {
         
                 <br><br>
 
-                <h2><span class="bullet">3</span>Reflect</h2>
+                <h3><span class="bullet">3</span>Reflect</h3>
                 <div class="text">
                     <p>Do you think your tattoo would work? What is good about it? What do you think you can still improve?</p>
                 </div>
