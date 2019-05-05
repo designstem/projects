@@ -601,7 +601,9 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 -
 
-<span class="bullet">1</span>Use the paper templates with the prevous activity, but now with **radial lines** (spokes).
+<span class="bullet">1</span> First you need paper templates with spokes
+
+<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download set of PDF templates (.zip file)</a>
 
 <span class="bullet">2</span> Draw in between the spokes
 
