@@ -1,7 +1,9 @@
 | section: START
 | theme: dark
 
-<f-scene width="1100" height="1100" style="position: fixed; top: -470px; right: -470px; z-index: 10000;">
+| 1 1 1 1 1 2 2 2
+
+<f-scene width="1100" height="1100" style="position: fixed; top: -470px; right: -600px; z-index: 10000;">
   <f-circle r="0.1" :stroke="color('darkgray')" />
   <f-circle r="1.26" :stroke="color('darkgray')" />
   <f-circle r="1.95" :stroke="color('darkgray')" />
@@ -25,15 +27,15 @@
 
 <big>
 
-In everyday life most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails to process this info and we might experience *visual anomalies* like wheels rolling opposite to a driving direction or moving elements on a still picture.
+Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?
 
 <f-inline align-items="flex-start">
-<p><f-fact-icon /></p>
-<p style="opacity: 0.5">You can click on <a v-on:click="send('menu')"><f-menu-icon /> menu icon</a> to get the lesson outline and <a v-on:click="send('notes')">teacher notes</a> button to see the notes.</p>
+<p><f-fact-icon size="small" /></p>
+<p style="opacity: 0.5">Click on <a v-on:click="send('menu')"><f-menu-icon /></a> to get the lesson outline and <a v-on:click="send('notes')">notes</a> to see teacher notes.</p>
 </f-inline>
 
 
-If you are ready to trick your brain and explore your creativity, prepare your turntable and press...
+Ready to trick your brain and explore your creativity?<br>Prepare your turntable and let's go!
 
 </big>
 
@@ -44,7 +46,7 @@ If you are ready to trick your brain and explore your creativity, prepare your t
 
 -
 
-<f-notes width="50vw" style="--base: 9px; --primary: var(--darkgray);">
+<f-notes class-name="tertiary" width="50vw" style="--base: 9px; --primary: var(--darkgray);">
 
 #### Teacher notes
 
@@ -76,7 +78,7 @@ This lesson is divided into three main sections:
 
 <section><section>
 
-<f-icon-heading>Discuss</f-icon-heading>
+<f-icon-heading icon="fact">Discuss</f-icon-heading>
 
 # What is frequency?
 
@@ -234,7 +236,7 @@ As you might have noticed with your drawings in order, to have a smooth animatio
 
 ~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a screen.~
 <br> 
-~Watch following clip and notice how<br>wheels of the wagon are moving~
+Watch following clip and notice how<br>wheels of the wagon are moving
 
 <p />
 
@@ -304,7 +306,7 @@ Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*
         height="0.025"
         width="0.65"
         position="1 0"
-        :fill="color('blue')"
+        :fill="color('primary')"
         stroke
       />
     </f-spin-pattern>
@@ -526,7 +528,7 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
 
 ---
 
-| section: ACTIVIY_2
+| section: ACTIVITY_2
 
 | 1 1 1
 | 2 2 3
@@ -803,6 +805,8 @@ What are you findings regarding waves moving in different speeds, on different f
 </f-scene>
 
 ---
+
+| section: ACTIVITY_3
 
 | 1 2
 | 1 3
