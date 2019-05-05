@@ -528,7 +528,7 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
 
 ---
 
-| section: ACTIVIY_2
+| section: ACTIVITY_2
 
 | 1 1 1
 | 2 2 3
