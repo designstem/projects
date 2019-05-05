@@ -1,3 +1,65 @@
+# Illusion of cinema
+
+#### Let's replace <var class="blue">lines</var> with <var class="blue">images</var>
+
+Rotation speed is <var>{{ get('d3') }} ms</var> or<var> {{ get('d3') / 1000}} seconds</var> per rotation.
+
+<f-slider
+  set="d3"
+  value="1000"
+  to="2000"
+  step="10"
+  integer
+  title=""
+/>
+
+We have <var class="blue">{{ get('c3', 60) }} image frames</var>
+
+<f-slider
+  set="c3"
+  value="60"
+  from="1"
+  to="120"
+  integer
+  title=""
+/>
+
+<p /><br>
+
+~This is why wagon wheels were standing still and turning backwards at times. Traditionally the movie playback speed is <var class="blue">24 frames</var> per <var>second</var> but wheels moving on screen can get in and out of sync of the framerate so they appear to be stand still or moving backwards. It is called a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect).~
+
+<f-next-button />
+
+</div>
+
+-
+
+<!--
+
+<g v-for="(_,n) in Array.from({length: 120}).slice(0,count)" :transform="r(360 / count * n)"> 
+            <g :transform="t(0,(sceneSize / 2 - size) * -1 * 0.9)"> 
+
+-->
+
+
+
+<f-scene width="400" height="400">
+  <f-circle r="0.1" :stroke="color('lightergray')" />
+  <f-circle r="1.95" :stroke="color('lightergray')" />
+  <f-spinner :duration="get('d3')">
+    <f-group v-for="n in range(0,120).slice(0, get('c3'))" :rotation="(360 / get('c3')) * n" scale="0.1">
+  	<image
+      :href="'./images/metropolis/metropolis' + String(n + 1).padStart(3,'0') + '.png'"
+      :height="399 / 100"
+      :width="250 / 100"
+      transform="translate(0,14)"
+    />
+    </f-group>
+  </f-spinner>
+</f-scene>
+
+---
+
 | section: START
 | theme: yellow
 
@@ -188,15 +250,24 @@ Optionally, put on the vinyl record and put the paper template on it, so student
 
 | section: THEORY_1
 
-#  Introduction
+| 1 1
+| 2 3
+| 2 3
+| 2 3
+| 2 3
+| 2 3
 
-***ERIK: Better title***
+# From spinning to frequency
 
-~As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:~
+-
 
-* ~How close are the drawn elements to each other on the circle?~
+As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:
 
-* ~What is the rotation speed of the turntable?~
+* What is the <var>rotation speed</var> of the turntable?
+
+* How <var class="blue">frequent</var> (close to each other) are the drawn elements on circle?
+
+-
 
 ~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
 
@@ -603,6 +674,9 @@ Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*
 -
 
 <f-scene width="400" height="400">
+  <f-circle r="0.1" :stroke="color('lightergray')" />
+  <f-circle r="1.03" :stroke="color('lightergray')" />
+  <f-circle r="1.95" :stroke="color('lightergray')" />
   <f-spinner :duration="get('d')">
   	<f-spin-pattern count="60" r="0.5">
       <f-box
@@ -613,18 +687,13 @@ Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*
         stroke
       />
     </f-spin-pattern>
-    <!--f-spin-pattern count="1" r="0.5">
-      <f-box
-        height="0.05"
-        width="0.65"
-        position="1 0"
-        :fill="color('red')"
-        stroke
+    <f-spin-pattern count="1" r="0.5">
+      <f-point
+        position="1.45 0"
+        stroke-width="4"
+        :stroke="color('red')"
       />
-    </f-spin-pattern-->
-    <f-circle r="0.1" :stroke="color('lightergray')" />
-    <f-circle r="1.03" :stroke="color('lightergray')" />
-    <f-circle r="1.95" :stroke="color('lightergray')" />
+    </f-spin-pattern>
   </f-spinner>
 </f-scene>
 
@@ -719,15 +788,15 @@ Very good, it stopped! But can you do it with smaller number of lines as well?
 
 ---
 
-## **3** All together now
+# All together now
 
-#### Adjust *both* the rotation speed and the number of lines so the wheel stops
+#### Adjust *both* the rotation <var>speed</var> and the number of <var class="blue">lines</var> so the wheel stops
 
-Rotation speed is <var>{{ get('d2', 1000) }} ms</var> or<var> {{ get('d2', 1000) / 1000}} seconds</var> per rotation.
+Rotation speed is <var>{{ get('d2') }} ms</var> or<var> {{ get('d2') / 1000}} seconds</var> per rotation.
 
 <f-slider
   set="d2"
-  value="1000"
+  value="1200"
   to="2000"
   step="10"
   integer
@@ -738,7 +807,7 @@ We have <var class="blue">{{ get('c2', 60) }} lines</var>
 
 <f-slider
   set="c2"
-  value="30"
+  value="20"
   to="120"
   integer
   title=""
@@ -748,9 +817,11 @@ We have <var class="blue">{{ get('c2', 60) }} lines</var>
 
 <div v-if="get('d2') == 1000 && get('c2') == 60">
 
-*Voilà!* We ended up in a place where we have <var>1 second</var> for a full rotation and <var class="blue">60 lines</var> on a wheel. Do you know how fast your monitor updates it's picture? It is <var class="green">60 times per second</var>, also know as <var class="green">60 Herz</var>.
+*Voilà!* We ended up in a place where we have <var>1 second</var> for a full rotation and <var class="blue">60 lines</var> on a wheel. Do you know how fast your monitor updates it's picture?
 
-See? The wheel *never stopped*. It is moving *right now*. It is all an *illusion*.
+It is <var class="blue">60 times</var><var class="red">per second</var>, also know as <var class="gray">60 Herz</var> or <var class="gray">60 Hz</var>.
+
+The lines *never stopped*. They are moving *right now*. It is all an *illusion*.
 
 <f-inline>
   <f-prev-button />
@@ -762,6 +833,9 @@ See? The wheel *never stopped*. It is moving *right now*. It is all an *illusion
 -
 
 <f-scene width="400" height="400">
+  <f-circle r="0.1" :stroke="color('lightergray')" />
+  <f-circle r="1.03" :stroke="color('lightergray')" />
+  <f-circle r="1.95" :stroke="color('lightergray')" />
   <f-spinner :duration="get('d2')">
   	<f-spin-pattern :count="get('c2')" r="0.5">
   	<f-box
@@ -773,18 +847,13 @@ See? The wheel *never stopped*. It is moving *right now*. It is all an *illusion
     />
     </f-spin-pattern>
     <f-spin-pattern count="1" r="0.5">
-      <f-box
-        height="0.03"
-        width="0.65"
-        position="1 0"
-        :fill="color('red')"
-        stroke
+      <f-point
+        position="1.45 0"
+        stroke-width="4"
+        :stroke="color('red')"
       />
     </f-spin-pattern>
   </f-spinner>
-  <f-circle r="0.1" :stroke="color('lightergray')" />
-  <f-circle r="1.03" :stroke="color('lightergray')" />
-  <f-circle r="1.95" :stroke="color('lightergray')" />
 </f-scene>
 
 ---
