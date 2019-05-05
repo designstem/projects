@@ -6,7 +6,7 @@
 
 # Become an <br /><big><big><big>Algorist!</big></big></big>
 
-~An introduction to algorithms and generative art/design~
+~A brief introduction to algorithms and generative art/design~
 
 ##### &nbsp;
 
