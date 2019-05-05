@@ -233,9 +233,9 @@ You are now ready to make your own visual experiments!
 
 As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:
 
-* What is the <var>rotation speed</var> of the turntable?
+* <var>Rotational speed</var> of the turntable.
 
-* How <var class="blue">frequent</var> (close to each other) are the drawn elements on circle?
+* <var class="blue">Amount of elements</var>around the circle. 
 
 -
 
@@ -257,7 +257,7 @@ As you might have noticed with your drawings in order, to have a smooth animatio
 
 ~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a screen.~
 <br> 
-Watch following clip and notice how<br>wheels of the wagon are moving
+Watch following clip and notice <br><var>how wheels of the wagon are moving?</var>
 
 <p />
 
