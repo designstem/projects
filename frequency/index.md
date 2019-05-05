@@ -159,14 +159,20 @@ Optionally, put on the vinyl record and put the paper template on it, so student
 > ##### You will need
 Printed paper templates, turntable, scissors, pencils
 
-Download and print out paper template to hand over to students. You can itfrom here
+Download and print out paper template to hand over to students. 
 
-<a href="./files/plainCircle.pdf" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
+<a href="./files/frequency_templates.zip" class="tertiary">
+<f-arrow-icon rotation="90" />Download PDF templates from here (.zip file)</a>
+
+<p />
+You'll find 6 template PDF's from the .zip file. In this excercise You'll need only the 1st template (plain).
+<p />
+<img src="./images/zipContent.png" alt="Example" width="100%">
+<p />
 
 > ##### <f-fact-icon size="small" /> Printing tips
 1. print the sheet 100% size, one sided
 2. print more than 1 sheet for every student
-
 
 </f-notes>
 
@@ -180,7 +186,7 @@ You are now ready to make your own visual experiments!
 
 <span class="bullet">1</span> First you need a paper template
 
-<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
+<a href="./files/plainCircle.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
 <span class="bullet">2</span> Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
 
