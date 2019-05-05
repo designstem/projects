@@ -161,7 +161,7 @@ Printed paper templates, turntable, scissors, pencils
 
 Download and print out paper template to hand over to students. You can itfrom here
 
-<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
+<a href="./files/plainCircle.pdf" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
 > ##### <f-fact-icon size="small" /> Printing tips
 1. print the sheet 100% size, one sided
