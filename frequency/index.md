@@ -1,47 +1,58 @@
 | section: START
-| theme: yellow
+| theme: dark
 
-# <big><big>Frequency & Motion</big></big>
+<f-scene width="1100" height="1100" style="position: fixed; top: -470px; right: -470px; z-index: 10000;">
+  <f-circle r="0.1" :stroke="color('darkgray')" />
+  <f-circle r="1.26" :stroke="color('darkgray')" />
+  <f-circle r="1.95" :stroke="color('darkgray')" />
+  <f-spinner :duration="10000">
+    <f-group
+      v-for="n in range(0,120).slice(0, 30)"
+      :key="n"
+      :rotation="(360 / 30) * n"
+      scale="0.1">
+  	<image
+      :href="'./images/metropolis/metropolis' + String(n + 1).padStart(3,'0') + '.png'"
+      :height="399 / 100"
+      :width="250 / 100"
+      transform="translate(0,14)"
+    />
+    </f-group>
+  </f-spinner>
+</f-scene>
+
+# <big><big>Frequency<br>& Motion</big></big>
+
+<big>
+
+In everyday life most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails to process this info and we might experience *visual anomalies* like wheels rolling opposite to a driving direction or moving elements on a still picture.
+
+<f-inline align-items="flex-start">
+<p><f-fact-icon /></p>
+<p style="opacity: 0.5">You can click on <a v-on:click="send('menu')"><f-menu-icon /> menu icon</a> to get the lesson outline and <a v-on:click="send('notes')">teacher notes</a> button to see the notes.</p>
+</f-inline>
 
 
-~In everyday life most of the information of our surroundings is perceived visually or audibly.~
+If you are ready to trick your brain and explore your creativity, prepare your turntable and press...
 
-~Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).~
-
-If you are ready to trick your brain and explore your creativity, prepare your turntable and press the START button!
+</big>
 
 
-**Facilities:** turntable, paper, scissors, pencil(s), printer, smartphone/tablet/PC for online tool
-**People:** Individual work or small groups
-**Time:** 20min + 15min + 45min + 10 hrs extended exercise
+<p />
+
+<f-next-button title="Start" />
 
 -
 
-<!--
-<f-scene>
-  <f-spinner :duration="20000">
-  	<f-spin-pattern count="60" r="0.5">
-  	<f-box
-    	height="0.06"
-      width="0.5"
-      position="1 0"
-      :fill="color('red')"
-      stroke
-    />
-    </f-spin-pattern>
-  </f-spinner>
-</f-scene>
--->
+<f-notes width="50vw" style="--base: 9px; --primary: var(--darkgray);">
 
-<f-notes class-name="tertiary" width="50vw" style="--base: 9px">
+#### Teacher notes
 
-#### Notes
-
-This concept is divided into three main sections:
+This lesson is divided into three main sections:
 
 1. Hands-on activity with the turntable to explore the meaning of frequency and movement.
 
-2. Virtual learning object to elaborate and test how frequency can be presented as a form of sinusoidal wave and how frame rate affects our perception of movement. 
+2. Virtual learning objects to elaborate and test how frame rate affects our perception of movement and how frequency can be presented as a form of sinusoidal wave and 
 
 3. Creative work to combine art and motion on a turntable.
 
@@ -51,10 +62,6 @@ This concept is divided into three main sections:
 ---
 
 # Collage
-
-***ERIK: Upload images to https://github.com/designstem/scenarios/tree/master/frequency/images***
-
-***KIKA: Assemble the collage***
 
 ---
 
@@ -105,75 +112,115 @@ Watch the following videos and define frequency with your own words and describe
 
 | section: ACTIVITY_1
 
-<f-icon-heading>Activity</f-icon-heading>
-
-# Make a ...
-
-***ERIK: title***
-
-You are now ready to make your own visual experiments! 
-
-1. <a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a> ***ERIK: upload file*** (or use printout by the teacher)
-
-1. Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
-
-3. Put the paper circle on the turntable and start spinning.
-
-4. Draw different variations to find visually the most appealing and interesting combination of movement.
-
+| 1 1 1
+| 2 2 3
+| 2 2 3
+| 2 2 3
+| 2 2 3
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
-### ...
+### Objective
 
-***ERIK: Needs title***
-
-> ##### You will need
-Printed plain circles, turntable, scissors, pencils
-
-By experimentation, students should discover how the speed of motion affects our visual perception on shapes and/or colour.
+By experimentation, students should discover how the speed of motion affects our visual perception on shapes and / or colour.
 
 Let students draw different ideas on cut-out circles and have them on the turntable’s platter rotating at different speed levels.
 
 It’s all about discovering new shapes and their alignment on a circle to produce visually exciting blends through movement.
 
-> ##### <f-fact-icon size="small" /> Tip
-Optionally,  it’s possible to involve music records to the exploration phase to experiment with the sound at different speed levels.
+Optionally, put on the vinyl record and put the paper template on it, so students can experiment with different audio and animation speeds.
 
-***ERIK: Organize this better***
+### Preparation
 
-<f-scene width="200" height="200">
-  <f-circle r="1.9" />
-  <f-circle r="0.7" />
-  <f-circle r="0.1" />
-</f-scene>
+> ##### You will need
+Printed paper templates, turntable, scissors, pencils
 
-This is the plain circle which you should print and let students to cut out, you can download it from here: 
+Download and print out paper template to hand over to students. You can itfrom here
 
-***ERIK: Add link***
+<a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
-> ##### <f-fact-icon size="small" /> Tips
-1. print the sheet 100% size
+
+> ##### <f-fact-icon size="small" /> Printing tips
+1. print the sheet 100% size, one sided
 2. print more than 1 sheet for every student
 
 
 </f-notes>
 
+
+
+# <f-activity-icon />Make a spinning animation
+
+-
+
+You are now ready to make your own visual experiments!
+
+<span class="bullet">1</span> First you need a paper template
+
+<a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a> <small>or use printout from the teacher</small>
+
+<span class="bullet">2</span> Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
+
+<span class="bullet">3</span>Put the paper circle on the turntable and start spinning.
+
+<span class="bullet">4</span>Draw different variations to find visually the most appealing and interesting combination of movement.
+
+<f-next-button />
+
+-
+
+<f-scene width="400" height="400">
+  <f-rotation duration="4000">
+  <f-circle r="1.9" />
+  <f-arc
+    v-for="r in range(0.2,1.8,1.8 / 18)"
+    :r="r"
+    :inner-radius="r"
+    :start-angle="180"
+    :end-angle="360 + 175"
+    :stroke="color('lightgray')"
+    stroke-width="1"
+  />
+  <f-circle
+    r="0.8"
+    :fill="color('white')"
+  />
+  <f-circle
+    r="0.1"
+    :fill="color('white')"
+  />
+  <f-text y="0.4">33⅓</f-text>
+  <f-text y="-0.4">rpm</f-text>
+  </f-rotation>
+</f-scene>
+
 ---
 
 | section: THEORY_1
 
-#  Introduction
+| 1 1
+| 2 3
+| 4 4
+| 4 4
+| 4 4
 
-***ERIK: Better title***
+# From spinning to frequency
 
-~As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:~
+-
 
-* ~How close are the drawn elements to each other on the circle?~
+As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:
 
-* ~What is the rotation speed of the turntable?~
+* What is the <var>rotation speed</var> of the turntable?
+
+* How <var class="blue">frequent</var> (close to each other) are the drawn elements on circle?
+
+-
 
 ~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
+
+-
+
+<f-next-button />
 
 ---
 
@@ -203,90 +250,369 @@ This is the plain circle which you should print and let students to cut out, you
 
 ---
 
-| 1 1 2
+| section: EXPERIMENT_1
 
-# Framerate
+# Standstill wheels?
 
-~You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the rate of [revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe.~
+~You just experienced a *wagon-wheel effect* or *stroboscopic effect* occurring on a movie clip when moving wheels are stopping or moving backwards. How does it work? Lets set up an experiment.~
 
-~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and wheels were rotating fast enough not to be in sync in every frame to produce natural visual impression of movement.~
+#### Adjust the wheel speed so the lines will stop
+
+Rotation speed is <var>{{ get('d', 800) }} milliseconds</var> per rotation.
+This is roughly <var>{{ get('d', 800) / 1000}} seconds</var>.
+          
+<f-slider
+  set="d"
+  value="800"
+  to="2000"
+  step="10"
+  integer
+  title=""
+/>
+
+<p /><br>
+
+<f-fade v-if="get('d') == 0">
+
+Hey, this is cheating! The wheel has to have *some* speed :)
+
+</f-fade>
+
+<f-fade v-if="get('d') == 500">
+
+Almost there! Wait...it seems it is still moving?
+
+</f-fade>
+
+<f-fade v-if="get('d') == 1000">
+
+Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*? Let's move to the next step to figure it out.
+
+<f-next-button />
+
+</f-fade>
 
 -
 
-***ERIK: Animation here***
+<f-scene width="500" height="500">
+  <f-circle r="0.1" :stroke="color('lightergray')" />
+  <f-circle r="1.03" :stroke="color('lightergray')" />
+  <f-circle r="1.95" :stroke="color('lightergray')" />
+  <f-spinner :duration="get('d')">
+  	<f-spin-pattern count="60" r="0.5">
+      <f-box
+        height="0.025"
+        width="0.65"
+        position="1 0"
+        :fill="color('blue')"
+        stroke
+      />
+    </f-spin-pattern>
+    <f-spin-pattern count="1" r="0.5">
+      <f-point
+        position="1.45 0"
+        stroke-width="4"
+        :stroke="color('red')"
+      />
+    </f-spin-pattern>
+  </f-spinner>
+</f-scene>
+
+---
+
+# Make it stop, again
+
+#### Adjust the number of lines
+
+Not lets keep the rotation constant, <var>1 second</var> per rotation, and adjust number of lines to make it appear the wheel stops.
+
+We have <var class="blue">{{ get('c') }} lines</var>
+
+<f-slider
+  set="c"
+  value="40"
+  to="120"
+  integer
+  title=""
+/>
+
+<p /><br>
+
+<f-fade v-if="get('c') == 0">
+
+Really? Like *really really really*?
+
+</f-fade>
+
+<f-fade v-if="get('c') == 15">
+
+Did it stop? My eyes are not sure.
+
+</f-fade>
+
+<f-fade v-if="get('c') == 30">
+
+Yes, it kind of stopped but this flicker is kind of annoying. Can you do better?.
+
+</f-fade>
+
+
+<f-fade v-if="get('c') == 60">
+
+It stopped exactly at <var class="blue">60 lines</var>. *Why*? Let's figure it out in the next step.
+
+<f-next-button />
+
+</f-fade>
+
+<f-fade v-if="get('c') == 90">
+
+Ok, you can call it stopping, I call it a flicker. Try some more!
+
+</f-fade>
+
+<f-fade v-if="get('c') == 120">
+
+Very good, it stopped! But can you do it with smaller number of lines as well?
+
+</f-fade>
+
+
+-
+
+<f-scene width="500" height="500">
+  <f-circle r="0.1" :stroke="color('lightergray')" />
+  <f-circle r="1.03" :stroke="color('lightergray')" />
+  <f-circle r="1.95" :stroke="color('lightergray')" />
+  <f-spinner :duration="1000">
+  	<f-spin-pattern :count="get('c')" r="0.5">
+  	<f-box
+      height="0.025"
+      width="0.65"
+      position="1 0"
+      :fill="color('blue')"
+      stroke
+    />
+    </f-spin-pattern>
+    <f-spin-pattern count="1" r="0.5">
+      <f-point
+        position="1.45 0"
+        stroke-width="4"
+        :stroke="color('red')"
+      />
+    </f-spin-pattern>
+  </f-spinner>
+</f-scene>
+
+---
+
+# All together now
+
+#### Adjust *both* the rotation <var>speed</var> and the number of <var class="blue">lines</var> so the wheel stops
+
+Rotation speed is <var>{{ get('d2') }} ms</var> or<var> {{ get('d2') / 1000}} seconds</var> per rotation.
+
+<f-slider
+  set="d2"
+  value="1200"
+  to="2000"
+  step="10"
+  integer
+  title=""
+/>
+
+We have <var class="blue">{{ get('c2', 60) }} lines</var>
+
+<f-slider
+  set="c2"
+  value="20"
+  to="120"
+  integer
+  title=""
+/>
+
+<p /><br>
+
+<div v-if="get('d2') == 1000 && get('c2') == 60">
+
+*Voilà!* We ended up in a place where we have <var>1 second</var> for a full rotation and <var class="blue">60 lines</var> on a wheel. Do you know how fast your monitor updates it's picture?
+
+It is <var class="blue">60 times</var><var class="red">per second</var>, also know as <var class="gray">60 Herz</var> or <var class="gray">60 Hz</var>.
+
+The lines *never stopped*. They are moving *right now*. It is all an *illusion*.
+
+<f-next-button />
+
+</div>
+
+-
+
+<f-scene width="500" height="500">
+  <f-circle r="0.1" :stroke="color('lightergray')" />
+  <f-circle r="1.03" :stroke="color('lightergray')" />
+  <f-circle r="1.95" :stroke="color('lightergray')" />
+  <f-spinner :duration="get('d2')">
+  	<f-spin-pattern :count="get('c2')" r="0.5">
+  	<f-box
+      height="0.025"
+      width="0.65"
+      position="1 0"
+      :fill="color('blue')"
+      stroke
+    />
+    </f-spin-pattern>
+    <f-spin-pattern count="1" r="0.5">
+      <f-point
+        position="1.45 0"
+        stroke-width="4"
+        :stroke="color('red')"
+      />
+    </f-spin-pattern>
+  </f-spinner>
+</f-scene>
+
+---
+
+# Illusion of cinema
+
+~By replacing replace <var class="blue">lines</var> with <var class="blue">image frames</var> we created the most basic cinema projector.~
+
+Rotation speed is <var>{{ get('d3') }} ms</var> or<var> {{ get('d3') / 1000}} seconds</var> per rotation.
+
+<f-slider
+  set="d3"
+  value="1000"
+  to="2000"
+  step="10"
+  integer
+  title=""
+/>
+
+We have <var class="blue">{{ get('c3', 60) }} image frames</var>
+
+<f-slider
+  set="c3"
+  value="60"
+  from="1"
+  to="120"
+  integer
+  title=""
+/>
+
+<p /><br>
+
+~This is what happened with wagon wheels. Traditionally the movie playback speed is <var class="blue">24 frames</var> per <var>second</var> but wheels moving on screen can get in and out of sync of the framerate so they appear to stand still or moving backwards. It is called a <a href="https://en.wikipedia.org/wiki/Stroboscopic_effect" target="_blank">stroboscopic effect.</a>~
+
+<f-next-button />
+
+</div>
+
+-
+
+<f-scene width="500" height="500">
+  <f-circle r="0.1" :stroke="color('lightergray')" />
+  <f-circle r="1.95" :stroke="color('lightergray')" />
+  <f-spinner :duration="get('d3')">
+    <f-group v-for="n in range(0,120).slice(0, get('c3'))" :rotation="(360 / get('c3')) * n" scale="0.1">
+  	<image
+      :href="'./images/metropolis/metropolis' + String(n + 1).padStart(3,'0') + '.png'"
+      :height="399 / 100"
+      :width="250 / 100"
+      transform="translate(0,14)"
+    />
+    </f-group>
+  </f-spinner>
+</f-scene>
 
 ---
 
 | section: ACTIVIY_2
 
-<f-icon-heading>Activity</f-icon-heading>
-
-# Make a ...
-
-You will have circles with different amount of spokes.
-
-Your task is to:
-
-1. Cut circles out of the paper;
-
-2. Draw in between the spokes;
-
-3. Have the paper to rotate on the turntable;
-
-4. Observe the rotation on your smartphone / tablet / PC screen
-
-<a class="primary" href="../frequency_camera">Open frequency camera app</a>
-
-5. While the paper is still rotating on the turntable try to find specific platter velocity as to stop your drawing rotating on the screen of your device (stroboscopic effect).
+| 1 1 1
+| 2 2 3
+| 2 2 3
+| 2 2 3
+| 2 2 3
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
-# <f-activity-icon /> ...
-
-***ERIK: Add title***
-
-> ##### You will need
-Printed grid circles, turntable, scissors, pencils, smartphone/tablet/PC for online tool
-
-Now it’s time to add some STEM components. 
+### Objective
 
 Students will acquire deeper knowledge about frequency and frame rate while producing artwork on the circles with grid.
 
 These circles will be used to replica [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect).
 
-Students have to find the precise spinning speed to demonstrate the effect through the lens of smartphone/tablet/PC camera using frame rate tool. 
+### Preparation
 
-<a class="primary" href="../frequency_camera">Open frequency camera app</a>
+> ##### You will need
+Printed grid circles, turntable, scissors, pencils, smartphone/tablet/PC for online tool
 
-***BOTH: How to organize this better***
+Download and print out paper templates to hand over to students. You can download them from here
 
-<f-scene width="200" height="200">
+<a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF templates</a>
+
+> ##### <f-fact-icon size="small" /> Printing tips
+1. Print the sheet 100% size, onesided
+2. Print more than 1 sheet for every student
+
+Students have to find the precise spinning speed to demonstrate the effect through the lens of smartphone / tablet / PC camera using the frame rate tool. 
+
+<a class="tertiary" href="../frequency_camera">Open framerate camera app</a>
+
+
+</f-notes>
+
+# <f-activity-icon />Make a spinning animation II
+
+-
+
+<span class="bullet">1</span>Get the paper template
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF templates</a> <small>or use printout from the teacher</small>
+
+<span class="bullet">2</span> Draw in between the spokes
+
+<span class="bullet">3</span> Have the paper to rotate on the turntable
+
+<span class="bullet">4</span> Experiment with turntable speeds so the lines (strokes) will stop
+
+<span class="bullet">4</span> Observe the rotation on your smartphone / tablet / computer and adjust the framerate:
+
+<a class="tertiary" href="../frequency_camera">Open framerate camera app</a>
+
+<f-next-button />
+
+-
+
+<f-scene width="400" height="400">
+  <f-rotation>
   <f-circle r="1.9" />
+  <f-arc
+    v-for="r in range(0.2,1.8,1.8 / 18)"
+    :r="r"
+    :inner-radius="r"
+    :start-angle="180"
+    :end-angle="360 + 175"
+    :stroke="color('lightergray')"
+    stroke-width="1"
+  />
   <f-line
     v-for="a in range(0,360,360/10)"
     :x2="polarx(a,1.9)"
     :y2="polary(a,1.9)"
   />
   <f-circle
-    r="0.7"
+    r="0.8"
     :fill="color('white')"
   />
   <f-circle
     r="0.1"
     :fill="color('white')"
   />
+  <f-text y="0.4">33⅓</f-text>
+  <f-text y="-0.4">rpm</f-text>
+  </f-rotation>
 </f-scene>
-
-This is the circle with spokes. There are ***ERIK: Do we need a count?*** different circles in total which you should print and let students to cut out. You can download them from here: 
-
-***ERIK: Add download link***
-
-> ##### <f-fact-icon size="small" /> Tips
-1. Print the sheet 100% size
-2. Print more than 1 sheet for every student
-
-
-</f-notes>
 
 ---
 
@@ -310,7 +636,7 @@ Students will learn how to present frequency on a sinusoidal wave. To let them e
 
 #### **1** Explore the waveform
 
-Current <var class="gray">x</var> value is <var class="gray">{{ round(get('a') / Math.PI,2) }} × π</var>
+Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('a') / Math.PI,2) }} × π</var>
 
 <f-slider set="a" :from="-Math.PI" :to="Math.PI" duration="1000" />
 <small>Precise value is <var class="gray">{{ get('a') }}</var>
@@ -320,6 +646,8 @@ Current <var class="gray">x</var> value is <var class="gray">{{ round(get('a') /
 #### **2** Discuss
 
 What are you findings regarding waves moving in different speeds, on different frequencies? How can frequency be interpreted in other visual ways?
+
+<f-next-button />
 
 -
 
@@ -331,12 +659,12 @@ What are you findings regarding waves moving in different speeds, on different f
     />
     <f-line
       :points="range(-Math.PI,Math.PI,0.1).map(x => [Math.cos(x),(x / 2) - (Math.PI / 2),])"
-      :stroke="color('red')"
+      :stroke="color('orange')"
       opacity="0.75"
     />
     <f-line
       :points="range(Math.PI,Math.PI * 3,0.1).map(x => [Math.cos(x),(x / 2) - (Math.PI / 2)])"
-      :stroke="color('red')"
+      :stroke="color('orange')"
       opacity="0.75"
     />
     <f-point
@@ -346,7 +674,7 @@ What are you findings regarding waves moving in different speeds, on different f
       :y="get('a')"
     />
     <f-point
-      :stroke="color('red')"
+      :stroke="color('orange')"
       stroke-width="10"
       :x="Math.cos((get('a') * 2) - Math.PI)"
       :y="get('a')"
@@ -361,7 +689,7 @@ What are you findings regarding waves moving in different speeds, on different f
       :y2="Math.PI"
     />
     <f-line
-      :stroke="color('red')"
+      :stroke="color('orange')"
       stroke-width="1"
       opacity="0.2"
       :x1="Math.cos((get('a') * 2) - Math.PI)"
@@ -382,7 +710,7 @@ What are you findings regarding waves moving in different speeds, on different f
       :y="Math.sin(get('a'))"
     />
     <f-point
-      :stroke="color('red')"
+      :stroke="color('orange')"
       stroke-width="10"
       :x="Math.cos((get('a') * 2) - Math.PI)"
       :y="Math.sin((get('a') * 2) - Math.PI)"
@@ -406,7 +734,7 @@ What are you findings regarding waves moving in different speeds, on different f
       :x2="Math.cos(get('a'))"
     />
     <f-line
-      :stroke="color('red')"
+      :stroke="color('orange')"
       stroke-width="1"
       opacity="0.2"
       :x1="-Math.PI"
@@ -415,7 +743,7 @@ What are you findings regarding waves moving in different speeds, on different f
       :y2="Math.sin((get('a') * 2) - Math.PI)"
     />
     <f-line
-      :stroke="color('red')"
+      :stroke="color('orange')"
       stroke-width="1"
       opacity="0.2"
       :y1="-Math.PI"
@@ -433,12 +761,12 @@ What are you findings regarding waves moving in different speeds, on different f
     />
     <f-line
       :points="range(-Math.PI,Math.PI,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
-      :stroke="color('red')"
+      :stroke="color('orange')"
       opacity="0.75"
     />
     <f-line
       :points="range(Math.PI,Math.PI * 3,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
-      :stroke="color('red')"
+      :stroke="color('orange')"
       opacity="0.75"
     />
     <f-point
@@ -448,7 +776,7 @@ What are you findings regarding waves moving in different speeds, on different f
       :y="Math.sin(get('a'))"
     />
     <f-point
-      :stroke="color('red')"
+      :stroke="color('orange')"
       stroke-width="10"
       :x="get('a')"
       :y="Math.sin((get('a') * 2) - Math.PI)"
@@ -463,7 +791,7 @@ What are you findings regarding waves moving in different speeds, on different f
       :y2="Math.sin(get('a'))"
     />
     <f-line
-      :stroke="color('red')"
+      :stroke="color('orange')"
       stroke-width="1"
       opacity="0.2"
       :x1="-Math.PI"
@@ -479,7 +807,7 @@ What are you findings regarding waves moving in different speeds, on different f
 | 1 2
 | 1 3
 
-# Final project
+# <f-activity-icon />Final project
 
 #### **1** Create and present an animation
 
@@ -518,300 +846,11 @@ It is teacher, who can decide according to the planned curriculum, how complex t
 
 <f-video src="https://www.youtube.com/watch?v=9n-DtqB0sNc" />
 
----
+<!--
 
-## **1** Make it stop
+~In everyday life most of the information of our surroundings is perceived visually or audibly.~
 
-### Adjust the wheel speed so it stops
+~Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).~
 
-~Rotation speed is `{{ get('d', 1000) }}` *milliseconds* per rotation. This is roughly <code>{{ get('d', 1000) / 1000}}</code> *seconds*.~
-          
-<f-slider
-  set="d"
-  value="1000"
-  to="2000"
-  step="10"
-  integer
-  title=""
-/>
 
-<div v-if="get('d') == 0">
-
-~Hey, this is cheating! The wheel has to have *some* speed :)~
-
-</div>
-
-<div v-if="get('d') == 500">
-
-~Almost there! Wait...it seems it is still moving?~
-
-</div>
-
-<div v-if="
-  get('d') > 950
-  && get('d') != 1000
-  && get('d') < 1001
-">
-
-~Getting close!~
-
-</div>
-
-<div v-if="get('d') == 1000">
-
-~Great! So it takes exactly **1 second** to make the wheel stop. *But why*?~
-
-~Let's move to the next step to figure it out.~
-
-<f-next-button />
-
-</div>
-
--
-
-<f-scene>
-  <f-spinner :duration="get('d',1000)">
-  	<f-spin-pattern count="60" r="0.5">
-  	<f-box
-    	height="0.06"
-      width="0.5"
-      position="1 0"
-      :fill="color('primary')"
-      stroke
-    />
-    </f-spin-pattern>
-  </f-spinner>
-</f-scene>
-
----
-
-## **2** Make it stop II
-
-### Adjust the number of lines so the wheel stops
-
-~Number of lines is **{{ get('c', 60) }}**.~
-          
-<f-slider
-  set="c"
-  value="30"
-  to="120"
-  integer
-  title=""
-/>
-
-<div v-if="get('c') == 0">
-
-~Really? Like <i>really really really</i>?~
-
-</div>
-
-<div v-if="get('c') == 15">
-
-~Did it stop? My eyes are not sure.~
-
-</div>
-
-<div v-if="get('c') == 30">
-
-~Yes, it kind of stopped but this flicker is kind of annoying. Can you do better?.~
-
-</div>
-
-
-<div v-if="get('c') == 60">
-
-~Wow! It stopped exactly at **60 lines**. *Why*? Let's figure it out in the next step.~
-
-<f-prev-button />
-<f-next-button />
-
-</div>
-
-<div v-if="get('c') == 90">
-
-~Ok, you can call it stopping, I call it a flicker. Try some more!~
-
-</div>
-
-<div v-if="get('c') == 120">
-
-~Very good, it stopped! But can you do it with smaller number of lines as well?~
-
-</div>
-
-
--
-
-<f-scene>
-  <f-spinner :duration="1000">
-  	<f-spin-pattern :count="get('c')" r="0.5">
-  	<f-box
-    	height="0.06"
-      width="0.5"
-      position="1 0"
-      :fill="color('primary')"
-      stroke
-    />
-    </f-spin-pattern>
-  </f-spinner>
-</f-scene>
-
----
-
-## **3** All together now
-
-### Adjust the rotation speed and the number of lines so the wheel stops
-
-~Rotation speed is `{{ get('d2', 1000) }}` *milliseconds* per rotation.~
-
-~Number of lines is **{{ get('c2', 60) }}**.~
-
-<f-slider
-  set="d2"
-  value="1000"
-  to="2000"
-  step="10"
-  integer
-  title=""
-/>
-
-<f-slider
-  set="c2"
-  value="30"
-  to="120"
-  integer
-  title=""
-/>
-
-
-<div v-if="get('d2') == 1000 && get('c2') == 60">
-
-~Yep! We ended up in a place where we have **1 second** for a full rotation and **60 lines** on a wheel. Do you know how fast your monitor updates it's picture? It is **60 Hetz** or **60 times per second**. See? The wheel *never stopped*. It is moving *right now*. It is all an *illusion*.~
-
-<f-prev-button />
-<f-next-button />
-
-</div>
-
--
-
-<f-scene>
-  <f-spinner :duration="get('d2')">
-  	<f-spin-pattern :count="get('c2')" r="0.5">
-  	<f-box
-    	height="0.06"
-      width="0.5"
-      position="1 0"
-      :fill="color('primary')"
-      stroke
-    />
-    </f-spin-pattern>
-  </f-spinner>
-</f-scene>
-
----
-
-## **4** An illusion
-
-~This illusion is the very foundation of cinema: by showing a set of image frames in movement in certain **frequency** it tricks the eye and we [perceive](https://en.wikipedia.org/wiki/Persistence_of_vision) it as a continuous movement.~
-
-~This applies to all moving image: from <a target="_blank"  href="">obsure</a> <a target="_blank" href="https://en.wikipedia.org/wiki/Phenakistiscope">19th</a> <a target="_blank" href="https://en.wikipedia.org/wiki/Zoopraxiscope">century</a> <a target="_blank" href="https://en.wikipedia.org/wiki/Kinetoscope">gadgets</a> to <a target="_blank" href="https://www.youtube.com/watch?v=En__V0oEJsU">film projector</a> to current <a target="_blank" href="https://giphy.com/search/muybridge">GIF crazyness</a>.~
-
-### Now, select image you want to show on a wheel
-
-<f-buttons :buttons="['line','metropolis','horse','dancer']" />
-
-<p />
-
-### Play around with image count and size
-
-~Number of images is <code>{{ get('c3') }}</code>~
-
-<f-slider
-  set="c3"
-  value="30"
-  to="120"
-  integer
-  title=""
-/>
-
-~Image size is <code>{{ size }}px</code>.~
-
-<f-slider
-  set="s3"
-  value="30"
-  to="10"
-  integer
-  title=""
-/>
-
-<f-prev-button />
-<f-next-button />
-
--
-
-<f-scene>
-  <f-spinner duration="1000">
-  	<f-spin-pattern :count="get('c3')" r="0.5">
-  	<f-box
-    	height="0.06"
-      width="0.5"
-      position="1 0"
-      :fill="color('primary')"
-      stroke
-    />
-    </f-spin-pattern>
-  </f-spinner>
-</f-scene>
-
----
-
-## **5** What next?
-
-### **A** Take it for a spin
-
-~Hook up a vinyl player and use the  <b>printouts</b> to explore motion and frequency in real world.~
-
-### **B** Experiment with lower framerates
-
-~While we cannot adjust the computer screen update frequency so easily, <a href="https://designstem.github.io/vinylfrequency_camera" target="_blank">we can use an app</a> to control camera framerate.~
-
-### **C** Explore color in motion
-
-~There are some <a v-on:click="set('dots5',true)">color dots</a> you can play with.~
-
-<div v-if="get('dots5')">
-
-~Rotation speed is **{{ get('s5') }} ms.**~
-
-<f-slider
-  set="s5"
-  value="1000"
-  to="2000"
-  step="10"
-  integer
-  title=""
-/>
-
-~*Why the color dots turn gray at certain speeds?*~
-
-</div>
-
--
-
-<f-scene>
-  <f-spinner :duration="get('d',1000)">
-  	<f-spin-pattern count="60" r="0.5">
-  	<f-box
-    	height="0.06"
-      width="0.5"
-      position="1 0"
-      :fill="color('primary')"
-      stroke
-    />
-    </f-spin-pattern>
-  </f-spinner>
-</f-scene>
-
----
-
+-->
