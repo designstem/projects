@@ -248,6 +248,171 @@ As you might have noticed with your drawings in order, to have a smooth animatio
 ~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
 
 -
+<p>
+
+<f-fact-icon size="small" />
+<f-sidebar title="Later You'll learn what frequency means in waves">
+
+<p />
+
+Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('a') / Math.PI,2) }} × π</var>
+
+<f-slider set="a" :from="-Math.PI" :to="Math.PI" duration="1000" />
+<small>Precise value is <var class="gray">{{ get('a') }}</var>
+
+
+<f-scene :width="200" :height="(Math.PI / 2) * 200 + 16">
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [Math.cos(x),x])"
+      :stroke="color('blue')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [Math.cos(x),(x / 2) - (Math.PI / 2),])"
+      :stroke="color('orange')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(Math.PI,Math.PI * 3,0.1).map(x => [Math.cos(x),(x / 2) - (Math.PI / 2)])"
+      :stroke="color('orange')"
+      opacity="0.75"
+    />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="Math.cos(get('a'))"
+      :y="get('a')"
+    />
+    <f-point
+      :stroke="color('orange')"
+      stroke-width="10"
+      :x="Math.cos((get('a') * 2) - Math.PI)"
+      :y="get('a')"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="Math.cos(get('a'))"
+      :x2="Math.cos(get('a'))"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+    />
+    <f-line
+      :stroke="color('orange')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="Math.cos((get('a') * 2) - Math.PI)"
+      :x2="Math.cos((get('a') * 2) - Math.PI)"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+    />
+</f-scene>
+
+<p />
+
+<f-scene width="200" height="200">
+    <f-circle />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="Math.cos(get('a'))"
+      :y="Math.sin(get('a'))"
+    />
+    <f-point
+      :stroke="color('orange')"
+      stroke-width="10"
+      :x="Math.cos((get('a') * 2) - Math.PI)"
+      :y="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin(get('a'))"
+      :y2="Math.sin(get('a'))"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+      :x1="Math.cos(get('a'))"
+      :x2="Math.cos(get('a'))"
+    />
+    <f-line
+      :stroke="color('orange')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin((get('a') * 2) - Math.PI)"
+      :y2="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('orange')"
+      stroke-width="1"
+      opacity="0.2"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+      :x1="Math.cos((get('a') * 2) - Math.PI)"
+      :x2="Math.cos((get('a') * 2) - Math.PI)"
+    />
+</f-scene>
+
+<f-scene :width="(Math.PI / 2) * 200 + 16" height="200">
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [x,Math.sin(x)])"
+      :stroke="color('blue')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+      :stroke="color('orange')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(Math.PI,Math.PI * 3,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+      :stroke="color('orange')"
+      opacity="0.75"
+    />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="get('a')"
+      :y="Math.sin(get('a'))"
+    />
+    <f-point
+      :stroke="color('orange')"
+      stroke-width="10"
+      :x="get('a')"
+      :y="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin(get('a'))"
+      :y2="Math.sin(get('a'))"
+    />
+    <f-line
+      :stroke="color('orange')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin((get('a') * 2) - Math.PI)"
+      :y2="Math.sin((get('a') * 2) - Math.PI)"
+    />
+      
+</f-scene>
+
+-
 
 <f-next-button />
 
