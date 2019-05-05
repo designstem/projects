@@ -1,22 +1,21 @@
 | theme: yellow
+| section: START
 
 
 <div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh;">
 
 # Become an <br /><big><big><big>Algorist!</big></big></big>
-  
-<br />
-<br />
 
-<big><big><f-next-button title="START" /></big></big>
+~An introduction to algorithms and generative art/design~
 
-<br /> <br />
+##### &nbsp;
 
-<button v-for="(s, i) in range(0, 23, 1)" v-on:click="send('goto', i)">{{ i }}</button>
+<big><f-next-button title="START" /></big>
+
+
+<!-- <button v-for="(s, i) in range(0, 23, 1)" v-on:click="send('goto', i)">{{ i }}</button> -->
 
 <!-- <f-buttons set="slideIndex" :buttons="range(0, 23, 1)" v-on:click="send('goto', get('slideIndex') )" /> -->
-
-
 
 </div>
 
@@ -31,9 +30,12 @@
 
 
 
-
+| section: WARMUP
 | 1 1
 | 2 3 
+| 2 3
+| 2 3
+
 
 # Warming up... 
 
@@ -70,7 +72,9 @@ Let's start with a small warming-up exercise.
 
 
 
-| 1 2 
+| 1 3 
+| 1 3
+| 2 3
  
 # Nice work! 
  
@@ -80,11 +84,15 @@ By following the steps of cutting and folding you were performing a so called <b
 
 <br /><br />
 
+-
+
 <f-prev-button /> <f-next-button title="Next: definition" />
 
 -
 
-![Origami result](./images/origami-output.jpg "Origami result")
+<f-image src="./images/origami-output.jpg" style="background-position:50% 50%;" />
+
+<!-- ![Origami result](./images/origami-output.jpg "Origami result") -->
 
 ---
 
@@ -96,7 +104,7 @@ By following the steps of cutting and folding you were performing a so called <b
 
 
 
-
+| section: DEFINITION
 
 <div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh; text-align:center;">
 
@@ -127,22 +135,26 @@ Or to put it simple:
 
 
 
-
-| 1 1 2 2 
+| section: EVERYDAY_ALGORITHMS
+| 1 3
+| 1 3
+| 2 3 
  
 # Actually, we solve problems with algorithms every day
 
-Probably without even noticing. These are often called <mark>everyday algorithms</mark>**. Let's take a look at some examples. 
+Probably without even noticing. These are often called <mark>everyday algorithms</mark>. Let's take a look at some examples. 
  
 Maybe the most common example of an everyday algorithm is ***cooking***.
 
-<br /><br />
+-
 
 <f-prev-button /> <f-next-button title="Next: more everyday algorithms" />
 
 -
 
-![Cooking](./images/everyday-recipe.jpg "Cooking") 
+<f-image src="./images/everyday-recipe.jpg" />
+
+<!-- ![Cooking](./images/everyday-recipe.jpg "Cooking")  -->
  
 ~<center><small><small>*You have to follow certain steps (recipe) to make a delicious meal.*</small></small></center>~
 
@@ -187,6 +199,7 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 
 <f-prev-button /> <f-next-button title="Next: computer algorithms" />
 
+## &nbsp;
 
 ---
 
@@ -197,9 +210,11 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 
 
 
-
-| 1 1 2
-| 1 1 2
+| section: COMPUTER_ALGORITHMS
+| 1 1 3
+| 1 1 3
+| 1 1 3
+| 2 2 3
 
 # Computer generated algorithms
 
@@ -210,9 +225,12 @@ Cooking, folding a t-shirt, building a wall. These activities consist of relativ
  
 Computers and design go together well. This last decade has seen the emergence of a new way of designing that’s all about the conscious use of algorithms mixed with the computational power of computers. A lot of designers, artists and architects have been using computers and complex algorithms to create stunning work.
 
-<br /><br />
+-
 
 <f-prev-button /> <f-next-button title="Next" />
+
+-
+
 
 ---
 
@@ -222,7 +240,10 @@ Computers and design go together well. This last decade has seen the emergence o
 
 
 
-
+| 1 1 3
+| 1 1 3
+| 1 1 3
+| 2 2 3
 
 
 # It is important to remember:
@@ -231,11 +252,13 @@ Computers and design go together well. This last decade has seen the emergence o
 - And not all generative design is computational.
 - Not every use of computer in design is ‘generative’
 
-### Let's take a look at some examples of design computer generated algorithms
+### Let's take a look at some examples of computer generated algorithms design
 
-<br /><br />
+-
 
 <f-prev-button /> <f-next-button title="Next: algorithms in design" />
+
+-
 
 ---
 
@@ -245,8 +268,7 @@ Computers and design go together well. This last decade has seen the emergence o
 
 
 
-
-| height: fit 
+| section: EXAMPLES 
 
 | 1 1 2
 | 1 1 3
@@ -254,7 +276,9 @@ Computers and design go together well. This last decade has seen the emergence o
 <!-- ![Example 1](./images/candy-hansmeyer.jpg "Example 1") -->
 <f-image src="./images/candy-hansmeyer.jpg" style="background-position:50% 90%;" />
 
-<small>*Zauberflöte 2018 (available at http://www.michael-hansmeyer.com/zauberfloete, accessed on 24.01.2019)*</small>
+<small>~*Zauberflöte 2018 (available at http://www.michael-hansmeyer.com/zauberfloete, accessed on 24.01.2019)*~</small>
+
+# &nbsp;
 
 -
 
@@ -278,7 +302,7 @@ Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucc
 
 
 
-| height: fit
+
 
 | 1 1 2
 | 1 1 3
@@ -286,7 +310,9 @@ Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucc
 <!-- ![Example 1](./images/candy-dezeen.jpg "Example 1") -->
 <f-image src="./images/candy-dezeen.jpg" style="background-position:30% 50%;" />
 
-<small> *Tucker 2016, (available at https://www.dezeen.com/2016/03/26/stefan-bassing-barlett-school-architecture-digital-modelling-table-no-1-2-identical-components/, accessed on 24.01.2019)* </small>
+<small>~*Tucker 2016, (available at https://www.dezeen.com/2016/03/26/stefan-bassing-barlett-school-architecture-digital-modelling-table-no-1-2-identical-components/, accessed on 24.01.2019)*~</small>
+
+# &nbsp;
 
 -
 
@@ -313,7 +339,6 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 
 
 
-| height: fit
 | 1 1 2
 | 1 1 3
 
@@ -321,7 +346,9 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 
 <f-image src="./images/candy-maclachlan.jpg" style="background-position:50% 50%" />
 
-<small> *Entangle 2017 (available at https://lynnemaclachlan.co.uk/blogs/projects/entangle-wall-tiles, accessed on 24.01.2019)* </small>
+<small>~*Entangle 2017 (available at https://lynnemaclachlan.co.uk/blogs/projects/entangle-wall-tiles, accessed on 24.01.2019)*~</small>
+
+# &nbsp;
 
 -
 
@@ -346,7 +373,6 @@ https://lynnemaclachlan.co.uk/
 
 
 
-| height: fit
 | 1 1 2
 | 1 1 3
 
@@ -354,7 +380,9 @@ https://lynnemaclachlan.co.uk/
 
 <f-image src="./images/candy-sandspline.jpg" style="background-position:50% 50%" />
 
-<small> *Sand spline (available at  https://inconvergent.net/generative/sand-spline/, accessed on 24.01.2019)* </small>
+<small>~*Sand spline (available at  https://inconvergent.net/generative/sand-spline/, accessed on 24.01.2019)*~</small>
+
+# &nbsp;
 
 -
 
@@ -379,7 +407,6 @@ https://inconvergent.net/
 
 
 
-| height: fit
 | 1 1 2
 | 1 1 3
 
@@ -392,9 +419,11 @@ https://inconvergent.net/
 
 <div>
         
-  <small> *Fairs 2012 (available at https://www.dezeen.com/2012/10/23/protohouse-by-softkill-design/, accessed on 24.01.2019)* </small>
+  <small>~*Fairs 2012 (available at https://www.dezeen.com/2012/10/23/protohouse-by-softkill-design/, accessed on 24.01.2019)*~</small>
 
 </div>
+
+# &nbsp;
 
 -
 
@@ -419,18 +448,22 @@ http://protohouse.tumblr.com/
 
 
 
-
+| 1 1 3
+| 1 1 3
+| 2 2 3
 
 
 # Ok...
 
 You might think that probably they use very expensive supercomputers plus knowledge of wizardry to make such stuff. However, with basic knowledge of coding we can demonstrate that ***even quite simple sets of rules can create quite interesting results***. 
- 
-## But...
 
-<br /><br />
+-
 
-<f-prev-button /> <f-next-button title="But... what?" />
+<f-prev-button /> <f-next-button />
+
+-
+
+
 
 ---
 
@@ -441,14 +474,12 @@ You might think that probably they use very expensive supercomputers plus knowle
 
 
 
-
+| section: THEORY
 | 1 1 1 1 1
 | 2 3 4 5 6
 | 7 7 7 7 7 
 
-## Firstly, we have to understand the very basics of how computer algorithms work. It possesses five key aspects:
-
-<f-hr style="margin:5vh 0;" />
+## But first, we have to understand the very basics of how computer algorithms work. It possesses five key aspects:
 
 -
 
@@ -481,8 +512,6 @@ An algorithm **has one or more outputs**, which have a specified relation to the
 **All operations** to be performed must be **sufficiently basic** that they can be done exactly and in finite length (Knut 1997)
 
 -
-
-<f-hr style="margin:5vh 0;" />
 
 <br />
 
@@ -563,15 +592,24 @@ you get a result
 
 
 
+| section: INTERACTIVE
 
 
+<center>
 
-## Let's take a look of some simple examples
+<div style="max-width:1024px;">
 
-With this examples you can see how simple shapes combined and some basic operations like repeating, scaling and rotating generate a lot of complex patterns.    
-When we add important properties like colour, stroke width, transparency and so on we can alter the algorithm and have a different, much more complex output.
+## Let's play with some interactive examples
+
+With this examples you can see how most basic operations like **repeating, scaling and rotating** can generate quite complex patterns from most basic objects like **lines, squares and circles**.    
+
+### &nbsp;
 
 <f-prev-button /> <f-next-button title="Go!" />
+
+</div>
+
+</center>
 
 ---
 
@@ -630,15 +668,15 @@ When we add important properties like colour, stroke width, transparency and so 
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.5 and line longer than 0.3*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.5 and line longer than 0.2*</small>
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: add rotation" v-if="get('step1') < 0.5 && Math.abs(get('width1')) > 0.3" />
+<f-prev-button /> <f-next-button title="Next: add rotation" v-if="get('step1') < 0.5 && Math.abs(get('width1')) > 0.2" />
 
 -
 
-<f-scene width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%;" >
+<f-scene width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%;" >
   <f-grid-pattern :cols="2+Math.round(4/get('step1',0.6))" :rows="2+Math.round(4/get('step1',0.6))" :step="get('step1',0.6)">
     <f-line 
       :points="[ 
@@ -699,15 +737,15 @@ When we add important properties like colour, stroke width, transparency and so 
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.3, line longer than 2 and rotation bigger than 45*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.3, line longer than 1 and rotation bigger than 30*</small>
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: boxes" v-if="get('step2') < 0.3 && Math.abs(get('width2')) > 2 && Math.abs(get('rotation2')) > 45" />
+<f-prev-button /> <f-next-button title="Next: boxes" v-if="get('step2') < 0.3 && Math.abs(get('width2')) > 1 && Math.abs(get('rotation2')) > 30" />
 
 -
 
-<f-scene  width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%; " >
+<f-scene  width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%; " >
   <f-grid-pattern :cols="2+Math.round(4/get('step2',0.6))" :rows="2+Math.round(4/get('step2',0.6))" :step="get('step2',0.3)">
     <f-group :rotation=" get('rotation2',0) "> 
       <f-line
@@ -777,7 +815,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 -
 
-<f-scene  width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
+<f-scene  width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
   <f-grid-pattern :cols="2+Math.round(4/get('step3',0.6))" :rows="2+Math.round(4/get('step3',0.6))" :step="get('step3',0.9)">
     <f-group :rotation="get('rotation3',0)"> 
       <!-- <f-box 
@@ -841,7 +879,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 -
 
-<f-scene  width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
+<f-scene  width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
   <f-grid-pattern :cols="2+Math.round(4/get('step4',0.6))" :rows="2+Math.round(4/get('step4',0.6))" :step="get('step4',0.5)">
     <f-group> 
       <f-circle 
@@ -882,7 +920,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 
 
-<small v-if="get('randomR')">***HINT:*** *If the pattern sucks, press the button again - you'll get a new on*</small>
+<small v-if="get('randomR')">***HINT:*** *If the pattern sucks, press the button again - you'll get a new one*</small>
 
 <br /><br />
 
@@ -890,7 +928,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 -
 
-<f-scene  width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
+<f-scene  width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
   <f-grid-pattern :cols="2+Math.round(4/randomizer(0.2, 0.6))" :rows="2+Math.round(4/randomizer(0.2, 0.6))" :step="randomizer(0.2, 0.6)">
     <f-group> 
       <f-circle 
@@ -914,18 +952,19 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 
 
-| 1 1
-| 2 3
-| 4 4
+| 1 1 1
+| 2 2 3
+| 4 4 4
 
 # That was just a beginning
 
 -
 
-With this examples you can see how simple shapes combined and some basic operations like repeating, scaling and rotating generate a lot of
-complex patterns.
+With these examples you can see how simple shapes combined and some basic operations like repeating, scaling and rotating generate a lot of complex patterns.
 
-When we add important properties like colour, stroke width, transparency and so on we can alter the algorithm and have a different output.
+When we add other important properties like colour, stroke width, transparency and so on we can alter the algorithm and have different, even more complex output.
+
+-
 
 -
 
@@ -935,19 +974,20 @@ When we add important properties like colour, stroke width, transparency and so 
 
 ---
 
+| section: FINAL
 | 1 1
 | 2 3
 | 2 3
-| 2 3
-| 2 3
-| 2 3
 | 4 4
+| 5 5
 
 ## Are you ready to become an Algorist yourself?
 
 -
 
-Your final task is to create an algorithm for the ‘hardware’ that you started this scenario with: paper and scissors!
+Your final task is to create an algorithm for the "hardware" that you started this scenario with: paper and scissors!
+
+Try to create a different algorithm from the one we started with. Experiment with different folds and cuts. Don't be afraid to make a "mistake", there is no mistakes here, just different algorithms.
 
 -
 
@@ -957,8 +997,12 @@ Your final task is to create an algorithm for the ‘hardware’ that you starte
 
 3. Discuss what is your algorithm and how it can be improved
 
-4. Have fun :)
+4. **Have fun! :)**
 
 -
 
-<a class="tertiary" href="..">← Back to projects</a>
+## That's it! Thank you!
+
+-
+
+<a class="tertiary" href="../">← Back to projects</a>
