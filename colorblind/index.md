@@ -10,24 +10,24 @@
 | 3
 
 
-# <big><big><big><big><big><big style="color:var(--white)">CVD</big></big></big></big></big></big> 
-
 -
+
+# <big><big><big><big>CVD</big></big></big></big> 
 
 ### ~Color Vision Deficiency / Color Blindness~
 
-##### ~How to design information for people whose color perception is impaired.~
-
--
+##### ~How to design for people whose color perception is impaired.~
 
 <!-- ~*(Richard Spencer, Kristin Kreer)*~ -->
 
 <!-- <f-embed src="./menu.md" /> -->
 
-<f-next-button title="Let's start" style="margin: var(--base8) 0;" />
+#### &nbsp;
+
+<f-next-button title="Let's start" />
 
 
-
+-
 
 <f-notes>
 
@@ -61,7 +61,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 <f-fact-icon size="large" />
 
-# The definition
+# The definitions
 
 </f-inline>
 
@@ -115,7 +115,7 @@ The students’ awareness should be raised for the problems people with color vi
 | 1 1 2 2 
 
 <!-- ##### EXPLORE -->
-# So... CVD
+# Why should we care?
 
 <p />
 
@@ -423,8 +423,8 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <center>
 
-~The **"-nopia"** is more severe case than **"-anomaly"**:~
-~"-anomaly" in the name means that perception of certain light is reduced while "-nopia" means it is missing. We shall come back to this later in more detail.~
+~The **"-nopia"** is more severe condition than **"-anomaly"**:~
+~"-anomaly" in the name means that perception of certain light is reduced while "-nopia" means it is missing.~
 
 </center>
 
@@ -482,7 +482,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
   
   # But why?
 
-  ~Why we see colors differently?~
+  ~Why we see colors differently? What IS a color?~
 
   #### ~Let's try to understand how the human eye is built~
 
@@ -507,7 +507,8 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 | section: cb-eye
 | height: 100vh
-| 1 2
+| 1 3
+| 2 3
 
 
 
@@ -516,19 +517,20 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 #### &nbsp;
 
-~When it comes to color vision, the back of the eye, named **retina** is most important. It contains **two types of photoreceptor cells which detect light** and are called:~
+~When it comes to color vision, the back of the eye, named **retina** is most important. It contains **two types of photoreceptor cells which detect light** and are called **rods and cones**~
 
-#### ~RODS and CONES~
+~***RODS*** are located in the peripheral parts of the retina and **detect light**, but **not the colour** of light.~
 
-~Remember this, because next steps are all about these rods and cones.~
-
-<f-next-button title="Rods and cones" style="margin:var(--base6) 0" />
+~***CONES*** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin and there are three types which are sensitive to red, green and blue lights. Hence **they are used for colour vision**.~
 
 -
 
-<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
-  <img src="./images/eye_v2.svg" />
-  
+<f-next-button title="Rods and cones" />
+
+-
+
+<figure style="width:100%; height:80vh; position:sticky; top:0;  display:flex;  justify-content:center; align-items: center; margin: 0;">
+  <img src="./images/eye_rods-cones.svg" />
 </figure>
 
 
@@ -543,33 +545,55 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 ---
 
 | height: 100vh
-| 1 2
+| 1 1
+| 2 3
+| 4 4
 
 
 <!-- ##### EXPLAIN  -->
-# The human eye
-### Rods and cones
+# Rods and cones
 
 
-~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
+~Rods and cones contain different **light-sensitive pigments** which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in **increased permeability of photoreceptor membranes to sodium ions.**~
 
-~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
+~Sodium ions diffuse into the photoreceptors, creating a **generator potential**. If a **threshold level** is reached, an **action potential** is created in a nearby bipolar neuron. This connects to neurons in the **optic nerve** which carry impulses to the brain.~
 
-~**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.
-Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
-
-~**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.~
-~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
-~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
-~That’s why you can’t see colors in the dark.~
-
-~(For more details, read the worksheets on The Eye).~
-
-<f-next-button style="margin:var(--base6) 0" />
+<small><small>Review the <f-sidebar title="image of the eye" width="50vw"><img src="./images/eye_rods-cones.svg"  /></f-sidebar></small></small>
 
 -
 
-s
+### ~Rods~
+
+~...are located in the **peripheral parts** of the retina and **detect light**, but **not the colour** of light.~
+
+~**Many rods join one bipolar neuron** so that:~
+
+- ~Rods are **sensitive to dim light** (because many weak generator potentials combine to reach the threshold level to trigger an action potential to send nerve impulses to the brain). The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
+
+- ~Rods give **low visual acuity** (the ability to tell part points that are close together) because the brain cannot tell where exactly the light fell on a group of rods.~
+
+-
+
+### ~Cones~
+
+~...are found closely packed in the **fovea**. They contain the photosensitive pigment iodopsin and there are three types which are sensitive to red, green and blue lights. Hence they are used for **colour vision**.~
+
+~**One cone joins one bipolar neuron** so that:~
+
+- ~Cones are **not sensitive to dim light**. Compared to rods, are less sensitive at low light intensity, because a generator potential must reach the threshold level on its own to trigger an action potential to send nerve impulses to the brain). That’s why you can’t see colours in the dark!~
+
+- ~Cones give **high visual acuity** (the ability to tell apart points that are close together) because the brain can tell exactly which cone the light fell upon.~
+
+
+-
+
+<f-next-button  />
+
+## &nbsp;
+
+
+
+
 
 
 
@@ -579,20 +603,42 @@ s
 
 ---
 
-<!-- ##### EXPLAIN  -->
-# The eye
-## Tasks
+# Rods and cones: summary
 
-<f-hr style="margin:var(--base6) 0" />
+<small><small>Review the <f-sidebar title="image of the eye" width="50vw"><img src="./images/eye_rods-cones.svg"  /></f-sidebar></small></small>
 
-1. ~Have a look at the article about color vision on wikipedia.org:
-https://en.wikipedia.org/wiki/Color_vision~
+<h3>RODS</h3>        | <h3>CONES</h3>   
+----------- | -----------
+~Mainly located in the peripheral parts of the retina~  | ~Mainly located in the fovea of the retina~
+~Do not give information in colour~ | ~Give information in colour~
+~Many rods join to one bipolar neuron~  | ~Single cones join to one bipolar neuron~
+~**High light sensitivity**~<br />~Several rods connect to one bipolar neuron so many weak generator potentials combine to reach threshold level to trigger action potential to send nerve impulses to the brain~ | ~**Low light sensitivity**~<br />~One cone connects to one bipolar neuron so a generator potential must reach threshold level on its own to trigger action potential to send nerve impulses to the brain~
+~**Low visual acuity**~<br />~Several rods connect to one bipolar neuron so brain cannot tell exactly which rod light fell upon, giving an indistinct image.~ | ~**High visual acuity**~<br />~One cone connects to one bipolar neuron so brain can tell exactly which cone light fell upon, giving a distinct image.~
 
 
-2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how color perception works in the eye.~
+
+<f-next-button title="Colour perception" />
+
+## &nbsp;
 
 
-3. ~In the text it says “color is not a property of electromagnetic radiation, but a feature of visual perception by an observer”. Find out what is meant by this (see “Subjectivity of color perception”).~
+
+
+
+
+
+
+---
+
+| section: cb-colour-perception
+
+# Colour perception
+
+
+
+
+
+
 
 
 

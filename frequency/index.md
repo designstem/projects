@@ -159,14 +159,20 @@ Optionally, put on the vinyl record and put the paper template on it, so student
 > ##### You will need
 Printed paper templates, turntable, scissors, pencils
 
-Download and print out paper template to hand over to students. You can itfrom here
+Download and print out paper template to hand over to students. 
 
-<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
+<a href="./files/frequency_templates.zip" class="tertiary">
+<f-arrow-icon rotation="90" />Download PDF templates from here (.zip file)</a>
+
+<p />
+You'll find 6 template PDF's from the .zip file. In this excercise You'll need only the 1st template (plain).
+<p />
+<img src="./images/zipContent.png" alt="Example" width="100%">
+<p />
 
 > ##### <f-fact-icon size="small" /> Printing tips
 1. print the sheet 100% size, one sided
 2. print more than 1 sheet for every student
-
 
 </f-notes>
 
@@ -180,7 +186,7 @@ You are now ready to make your own visual experiments!
 
 <span class="bullet">1</span> First you need a paper template
 
-<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
+<a href="./files/plainCircle.pdf" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
 <span class="bullet">2</span> Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
 
@@ -233,13 +239,178 @@ You are now ready to make your own visual experiments!
 
 As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:
 
-* What is the <var>rotation speed</var> of the turntable?
+* <var>Rotational speed</var> of the turntable.
 
-* How <var class="blue">frequent</var> (close to each other) are the drawn elements on circle?
+* <var class="blue">Amount of elements</var>around the circle. 
 
 -
 
 ~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
+
+-
+<p>
+
+<f-fact-icon size="small" />
+<f-sidebar title="Later You'll learn what frequency means in waves">
+
+<p />
+
+Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('a') / Math.PI,2) }} × π</var>
+
+<f-slider set="a" :from="-Math.PI" :to="Math.PI" duration="1000" />
+<small>Precise value is <var class="gray">{{ get('a') }}</var>
+
+
+<f-scene :width="200" :height="(Math.PI / 2) * 200 + 16">
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [Math.cos(x),x])"
+      :stroke="color('blue')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [Math.cos(x),(x / 2) - (Math.PI / 2),])"
+      :stroke="color('orange')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(Math.PI,Math.PI * 3,0.1).map(x => [Math.cos(x),(x / 2) - (Math.PI / 2)])"
+      :stroke="color('orange')"
+      opacity="0.75"
+    />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="Math.cos(get('a'))"
+      :y="get('a')"
+    />
+    <f-point
+      :stroke="color('orange')"
+      stroke-width="10"
+      :x="Math.cos((get('a') * 2) - Math.PI)"
+      :y="get('a')"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="Math.cos(get('a'))"
+      :x2="Math.cos(get('a'))"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+    />
+    <f-line
+      :stroke="color('orange')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="Math.cos((get('a') * 2) - Math.PI)"
+      :x2="Math.cos((get('a') * 2) - Math.PI)"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+    />
+</f-scene>
+
+<p />
+
+<f-scene width="200" height="200">
+    <f-circle />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="Math.cos(get('a'))"
+      :y="Math.sin(get('a'))"
+    />
+    <f-point
+      :stroke="color('orange')"
+      stroke-width="10"
+      :x="Math.cos((get('a') * 2) - Math.PI)"
+      :y="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin(get('a'))"
+      :y2="Math.sin(get('a'))"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+      :x1="Math.cos(get('a'))"
+      :x2="Math.cos(get('a'))"
+    />
+    <f-line
+      :stroke="color('orange')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin((get('a') * 2) - Math.PI)"
+      :y2="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('orange')"
+      stroke-width="1"
+      opacity="0.2"
+      :y1="-Math.PI"
+      :y2="Math.PI"
+      :x1="Math.cos((get('a') * 2) - Math.PI)"
+      :x2="Math.cos((get('a') * 2) - Math.PI)"
+    />
+</f-scene>
+
+<f-scene :width="(Math.PI / 2) * 200 + 16" height="200">
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [x,Math.sin(x)])"
+      :stroke="color('blue')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(-Math.PI,Math.PI,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+      :stroke="color('orange')"
+      opacity="0.75"
+    />
+    <f-line
+      :points="range(Math.PI,Math.PI * 3,0.1).map(x => [(x / 2) - (Math.PI / 2),Math.sin(x)])"
+      :stroke="color('orange')"
+      opacity="0.75"
+    />
+    <f-point
+      :stroke="color('blue')"
+      stroke-width="16"
+      :x="get('a')"
+      :y="Math.sin(get('a'))"
+    />
+    <f-point
+      :stroke="color('orange')"
+      stroke-width="10"
+      :x="get('a')"
+      :y="Math.sin((get('a') * 2) - Math.PI)"
+    />
+    <f-line
+      :stroke="color('blue')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin(get('a'))"
+      :y2="Math.sin(get('a'))"
+    />
+    <f-line
+      :stroke="color('orange')"
+      stroke-width="1"
+      opacity="0.2"
+      :x1="-Math.PI"
+      :x2="Math.PI"
+      :y1="Math.sin((get('a') * 2) - Math.PI)"
+      :y2="Math.sin((get('a') * 2) - Math.PI)"
+    />
+      
+</f-scene>
 
 -
 
@@ -257,7 +428,7 @@ As you might have noticed with your drawings in order, to have a smooth animatio
 
 ~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a screen.~
 <br> 
-Watch following clip and notice how<br>wheels of the wagon are moving
+Watch following clip and notice <br><var>how wheels of the wagon are moving?</var>
 
 <p />
 
@@ -456,6 +627,12 @@ We have <var class="blue">{{ get('c2', 60) }} lines</var>
 
 <p /><br>
 
+<f-fade v-if="get('d2') == 0 || get('c2') == 0">
+
+Trust me, this value is just too low..
+
+</f-fade>
+
 <div v-if="get('d2') == 1000 && get('c2') == 60">
 
 *Voilà!* We ended up in a place where we have <var>1 second</var> for a full rotation and <var class="blue">60 lines</var> on a wheel. Do you know how fast your monitor updates it's picture?
@@ -589,7 +766,9 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 -
 
-<span class="bullet">1</span>Use the paper templates with the prevous activity, but now with **radial lines** (spokes).
+<span class="bullet">1</span> First you need paper templates with spokes
+
+<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download set of PDF templates (.zip file)</a>
 
 <span class="bullet">2</span> Draw in between the spokes
 
