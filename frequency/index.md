@@ -560,25 +560,23 @@ It is teacher, who can decide according to the planned curriculum, how complex t
 
 ---
 
-# What the hell was it?
+# What happened with the wheels?
 
 ~You just experienced a *wagon-wheel effect* or *stroboscopic effect* occurring on a movie clip when moving wheels are stopping or moving backwards. How does it work? Lets set up an experiment.~
 
-#### **1** Adjust the wheel speed so the lines will stop
+#### Adjust the wheel speed so the lines will stop
 
-Rotation speed is <var>{{ get('d', 1000) }} milliseconds</var> per rotation.
-This is roughly <var>{{ get('d', 1000) / 1000}} seconds</var>.
+Rotation speed is <var>{{ get('d', 800) }} milliseconds</var> per rotation.
+This is roughly <var>{{ get('d', 800) / 1000}} seconds</var>.
           
 <f-slider
   set="d"
-  value="1000"
+  value="800"
   to="2000"
   step="10"
   integer
   title=""
 />
-
-<small><small>You can use <kbd>←</kbd> and <kbd>→</kbd> on keyboard to fine-tune the value</small></small>
 
 <p /><br>
 
@@ -605,17 +603,17 @@ Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*
 -
 
 <f-scene width="400" height="400">
-  <f-spinner :duration="get('d',1000)">
+  <f-spinner :duration="get('d')">
   	<f-spin-pattern count="60" r="0.5">
       <f-box
         height="0.03"
         width="0.65"
         position="1 0"
-        :fill="color('primary')"
+        :fill="color('blue')"
         stroke
       />
     </f-spin-pattern>
-    <f-spin-pattern count="1" r="0.5">
+    <!--f-spin-pattern count="1" r="0.5">
       <f-box
         height="0.05"
         width="0.65"
@@ -623,7 +621,7 @@ Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*
         :fill="color('red')"
         stroke
       />
-    </f-spin-pattern>
+    </f-spin-pattern-->
     <f-circle r="0.1" :stroke="color('lightergray')" />
     <f-circle r="1.03" :stroke="color('lightergray')" />
     <f-circle r="1.95" :stroke="color('lightergray')" />
@@ -632,17 +630,17 @@ Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*
 
 ---
 
-## **2** Make it stop II
+# Make it stop, again
 
-### Adjust the number of lines so the wheel stops
+#### Adjust the number of lines
 
-Not lets keep the rotation constant, <var>1 second</var> per rotation and adjust number of lines instead.
+Not lets keep the rotation constant, <var>1 second</var> per rotation, and adjust number of lines to make it appear the wheel stops.
 
-We have <var class="blue">{{ get('c', 60) }} lines</var>
+We have <var class="blue">{{ get('c') }} lines</var>
 
 <f-slider
   set="c"
-  value="60"
+  value="40"
   to="120"
   integer
   title=""
@@ -671,7 +669,7 @@ Yes, it kind of stopped but this flicker is kind of annoying. Can you do better?
 
 <f-fade v-if="get('c') == 60">
 
-Wow! It stopped exactly at <var class="blue">60 lines</var>. *Why*? Let's figure it out in the next step.
+It stopped exactly at <var class="blue">60 lines</var>. *Why*? Let's figure it out in the next step.
 
 <f-inline>
   <f-prev-button />
@@ -696,6 +694,9 @@ Very good, it stopped! But can you do it with smaller number of lines as well?
 -
 
 <f-scene width="400" height="400">
+  <f-circle r="0.1" :stroke="color('lightergray')" />
+  <f-circle r="1.03" :stroke="color('lightergray')" />
+  <f-circle r="1.95" :stroke="color('lightergray')" />
   <f-spinner :duration="1000">
   	<f-spin-pattern :count="get('c')" r="0.5">
   	<f-box
@@ -707,18 +708,13 @@ Very good, it stopped! But can you do it with smaller number of lines as well?
     />
     </f-spin-pattern>
     <f-spin-pattern count="1" r="0.5">
-      <f-box
-        height="0.05"
-        width="0.65"
-        position="1 0"
-        :fill="color('red')"
-        stroke
+      <f-point
+        position="1.45 0"
+        stroke-width="4"
+        :stroke="color('red')"
       />
     </f-spin-pattern>
   </f-spinner>
-  <f-circle r="0.1" :stroke="color('lightergray')" />
-  <f-circle r="1.03" :stroke="color('lightergray')" />
-  <f-circle r="1.95" :stroke="color('lightergray')" />
 </f-scene>
 
 ---
