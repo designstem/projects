@@ -462,6 +462,12 @@ We have <var class="blue">{{ get('c2', 60) }} lines</var>
 
 <p /><br>
 
+<f-fade v-if="get('d2') == 0 || get('c2') == 0">
+
+Trust me, this value is just too low..
+
+</f-fade>
+
 <div v-if="get('d2') == 1000 && get('c2') == 60">
 
 *Voilà!* We ended up in a place where we have <var>1 second</var> for a full rotation and <var class="blue">60 lines</var> on a wheel. Do you know how fast your monitor updates it's picture?
