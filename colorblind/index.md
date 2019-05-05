@@ -632,13 +632,320 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 | section: cb-colour-perception
 
+| 1 1 1 1 1
+| 2 2 2 3 3
+| 2 2 2 3 3
+
 # Colour perception
+## The Visible Spectrum
+
+-
+
+~White light is made up of all the colours of the rainbow (and everything in between). In a rainbow, colours merge smoothly and continuously from one colour to another. We call this the visible spectrum, as colours represent a narrow range of the wavelengths in the wider electromagnetic spectrum which are visible to the human eye.~
+
+#### ~But light waves are colourless. Colour doesn’t actually exist!~ 😲
+
+<f-next-button title="But..." />
+
+### &nbsp;
+
+-
+
+<img src="./images/visible-spectrum.svg" />
+
+<small><small>~*The visible spectrum and wavelengths*~</small></small>
 
 
 
 
 
 
+
+
+
+
+
+
+---
+
+| 1 3
+| 2 3
+
+# But how do we see colour, if it doesn't exist?
+
+~**Colour is a perception – it is a construct of your brain.**~
+
+~**Rods** contain a photosensitive pigment *(rhodopsin)* which shows **maximum absorbance for light of 498 nm**, although it absorbs a wider range of wavelengths either side of this.~
+
+~According to the trichromatic theory, there are **three types of cone** which contain different forms of a different photosensitive pigment *(iodopsin)*, each showing maximum absorption of **blue, green or red light**.~
+
+-
+
+<f-next-button title="The brain" />
+
+
+-
+
+<figure style="width:100%; height:100vh; position:sticky; top:0;  display:flex;  justify-content:center; align-items: center; margin: 0;">
+  <img src="./images/absorbance.svg" />
+</figure>
+
+
+
+
+
+
+
+
+
+---
+
+| 1 1
+| 2 3
+| 2 3
+| 4 4
+
+# 🧠 The brain
+
+~When your rods and cones are stimulated by light, nerve impulses are sent from your eyes to your brain via the optic nerve. **But nerve impulses still do not have colour information**.~
+
+#### &nbsp;
+
+### Now this is what happens next:
+
+-
+
+<f-inline>
+
+<h2 style="align-self:flex-start"><strong>1</strong></h2>
+
+~If the impulses come **from rods**, the brain interprets them as being **caused by light**.~
+
+</f-inline>
+
+-
+
+<f-inline>
+
+<h2 style="align-self:flex-start"><strong>2</strong></h2>
+
+~If the nerve impulse come **from cones**, your brain makes up **what colour the light was** by taking into account the relative numbers of **red, green or blue** cones that were stimulated.~
+
+</f-inline>
+
+-
+
+
+
+## And voilà &ndash; finally the colour is born!
+
+<f-next-button title="Back to CVD" />
+
+
+
+
+
+
+
+
+
+---
+
+| 1
+| 2 
+| 2
+| 2
+| 3
+
+# Back to CVD
+
+-
+
+<center>
+
+<div>
+
+~By processing a **massive range of permutations of red, green and blue cone combinations**, you brain is able to detect **10 million different colours**.~
+
+&nbsp;
+
+#### ~People with normal colour vision have all three types of cones working correctly but CVD occurs when one or more of the cone types are faulty. For example, if the red cone is faulty you won’t be able to see colours containing red clearly.~
+
+&nbsp;
+
+~All the other colours are result of mixing RED, GREEN and BLUE lights together.~
+
+</div>
+
+</center>
+
+
+-
+
+<center>
+
+<div>
+
+<f-next-button title="Mixing Red, Green and Blue" />
+
+</div>
+
+</center>
+
+
+
+
+
+
+
+
+
+
+
+---
+
+| height: 100%
+| padding: 0
+| gap: 0
+| 1 2
+
+<section style="display:grid; grid-template-rows:8fr 1fr; min-height:100vh; padding:var(--content-padding)">
+
+<div>
+
+# Mixing red, green and blue lights
+### aka Additive Color System
+
+&nbsp;
+
+~In the Additive Color System **RED**, **GREEN** and **BLUE** are the primary colors.~
+
+- ~Mixing **red and green** gives us **yellow**~
+- ~**Green + blue** = **cyan**~
+- ~**Red + blue** = **magenta**~
+- ~When all three colors overlap, **WHITE** light is produced.~
+
+</div>
+
+<div>
+  <f-next-button title=""  />
+</div>
+
+</section>
+
+-
+
+<div style="background-color:#222; height:100vh; position:sticky; top:0; display:flex; justify-content:center; align-items:center;">
+
+<f-scene style="width:80%; height:80%">
+  
+  <f-circle 
+    v-for="(c,i) in ['red', 'lime', 'blue']" 
+    :key="'add'+i"
+    :fill="c" 
+    :x="polarx( i*(360/3), 0.7 )"  
+    :y="polary( i*(360/3), 0.7 )" 
+    :stroke="get('activeCol') == c ? 'white' : 'none'"
+    style="mix-blend-mode: screen;"
+  />
+
+</f-scene>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+---
+
+| 1 1
+| 2 3
+| 4 4
+
+# RGB mixing
+
+-
+
+~This is also, how most of the **screens work** &ndash; thousands of **tiny red, green and blue lights** shine more or less intensively.~ 
+
+> ##### ~The intensity of each color is measured from 0 to 255.~
+
+<div>
+
+~For example, if only red lights are turned on maximum power (**RED=255 GREEN=0 BLUE=0**) we see a bright <a class="tertiary" v-on:click="set('r0', 255); set('g0', 0); set('b0', 0)">red color</a>. R:0 G:255 B:0 is... <a class="tertiary" v-on:click="set('r0', 0); set('g0', 255); set('b0', 0)">green</a>, of course!~
+
+&nbsp;
+
+<details>
+
+<summary>More examples</summary>
+
+- ~Remember from the previous slide, that **red+green=yellow**? It means the **<a class="tertiary" v-on:click="set('r0', 255); set('g0', 255); set('b0', 0)">yellow's</a> RGB code is R:255 G:255 B:0** - both red and green lights are turned on, while blue is off.~
+
+- ~<a class="tertiary" v-on:click="set('r0', 255); set('g0', 255); set('b0', 255)">White</a> light is produced, when all three colors are turned on maximum power: **R:255 G:255 B:255** and <a class="tertiary" v-on:click="set('r0', 0); set('g0', 0); set('b0', 0)">black</a> means, that everything is turned to 0.~
+
+- ~And all the other colors are <a class="tertiary" v-on:click="set('r0', 160); set('g0', 200); set('b0', 12)">just</a> <a class="tertiary" v-on:click="set('r0', 250); set('g0', 205); set('b0', 22)">different</a> <a class="tertiary" v-on:click="set('r0', 220); set('g0', 30); set('b0', 255)">combinatios</a> of red green and blue~
+
+</details>
+
+</div>
+
+-
+
+<div style="position:sticky; top:25vh; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw; border-radius:var(--base);">
+
+#### RGB mixer
+
+<f-inline>
+  <div>
+    <div 
+      style="width:16vw;height:16vw;border:1px solid var(--gray)" 
+      :style="{ background:rgb( get('r0',0), get('g0',0), get('b0',0) ) }"
+    ></div>
+  </div>
+
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r0', 0)" v-on:input="set('r0', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g0', 0)" v-on:input="set('g0', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b0', 0)" v-on:input="set('b0', $event)" to="255" integer />
+  </div>
+</f-inline>
+
+<small><small><f-activity-icon size="small" /> *Drag the sliders to generate different color combinations*</small></small>
+
+</div>
+
+
+-
+
+<f-next-button />
+
+## &nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+# Todo: add content
+
+
+<f-next-button />
 
 
 
@@ -764,325 +1071,12 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 
----
 
 
 
-
-
-
-
-
-
-
-
----
-
-| id: contrast
-
-| 1 1 1 1
-| 2 2 2 3 
-| 4 4 5 5
-
-<!-- ##### EXPLAIN -->
-# Color contrast and harmony
-
-<f-hr style="margin:var(--base6) 0" />
-
--
-
-## Task 3
-
-Given are a headline and a text on a background. Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.
-
-If possible, discuss your results with someone.
-
--
-
-
-
--
-
-<f-hr style="margin:var(--base6) 0; visibility: hidden" />
-
-<f-inline>
-
-<div style="flex:1">
-
-#### Background
-
-<f-slider title="H" :value="get('h51', 44)" v-on:input="set('h51', $event)" from="0" to="360" integer />
-<f-slider title="S" :value="get('s51', 77)" v-on:input="set('s51', $event)" to="100" integer />
-<f-slider title="B" :value="get('b51', 100)" v-on:input="set('b51', $event)" to="100" integer />
-
-</div>
-<div style="flex:1">
-
-#### Heading
-
-<f-slider title="H" :value="get('h52', 44)" v-on:input="set('h52', $event)" to="360" integer />
-<f-slider title="S" :value="get('s52', 77)" v-on:input="set('s52', $event)" to="100" integer />
-<f-slider title="B" :value="get('b52', 77)" v-on:input="set('b52', $event)" to="100" integer />
-
-</div>
-<div style="flex:1">
-
-#### Text
-
-<f-slider title="H" :value="get('h53', 44)" v-on:input="set('h53', $event)" to="360" integer />
-<f-slider title="S" :value="get('s53', 77)" v-on:input="set('s53', $event)" to="100" integer />
-<f-slider title="B" :value="get('b53', 77)" v-on:input="set('b53', $event)" to="100" integer />
-</div>
-
-
-</f-inline>
-
--
-
-<div style="padding: var(--base8); min-height:500px; height:100%" :style="{
-  background: hsb2hsl( get('h51',44), get('s51',77), get('b51',100) )
-}">
-
-<h1 :style="{
-  color: hsb2hsl( get('h52',44), get('s52',77), get('b52',77) )
-}">Halloo</h1>
-
-<p :style="{
-  color: hsb2hsl( get('h53',44), get('s53',77), get('b53',77) )
-}">Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampfschiffahrtsgesellschaftskapitän eu Kaftfahrzeug-Haftpflichtversicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.</p>
-
-</div>
-
-
-
-
-
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-
-RYB wheel
-
-
-
-
-
-<f-scene width="300" height="300" grid>
-  <f-group :rotation="-195">
-  <f-arc
-    v-for="(c,i) in colorscale('yellow','blue', 6)" 
-    :key="c+i"
-    :fill="c"
-    stroke
-    :start-angle="(360 / 12 * i)"
-    :end-angle="(360 / 12 * (i+1))"
-    :r="2"
-    :inner-radius="1"
-  />
-  <f-arc
-    v-for="(c,i) in colorscale('blue','red', 6)" 
-    :key="c+i"
-    :fill="c"
-    stroke
-    :start-angle="(360 / 12 * i + 120)"
-    :end-angle="(360 / 12 * (i+1) + 120)"
-    :r="2"
-    :inner-radius="1"
-  />
-  <f-arc
-    v-for="(c,i) in colorscale('red','yellow', 5)" 
-    :key="c+i"
-    :fill="c"
-    stroke
-    :start-angle="(360 / 12 * i + 120 + 120)"
-    :end-angle="(360 / 12 * (i+1) + 120 + 120)"
-    :r="2"
-    :inner-radius="1"
-  />
-  </f-group>
-</f-scene>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-| 1 1 1 1
-| 2 3 3 3
-
-## Color blindness types
-
--
-
-<f-slider title="Slice count" set="c" from="8" to="64" integer />
-  
--
-
-<div style="display: flex; flex-wrap: wrap">
-  
-  <div>
-  <b>Normal vision</b><br><br>
-  <f-scene width="150" height="150" grid>
-    <f-group v-for="(count,i) in range(0,2)" :key="i">
-    <f-arc
-      v-for="(a,j) in range(0,360,360 / get('c',8))"
-      :key="j"
-      :fill="hsl(a,100,scale(count,0,2,30,70))"
-      stroke
-      :start-angle="a"
-      :end-angle="a + (360 / get('c',8))"
-      :r="scale(count,0,2,1,1.5)"
-      :inner-radius="scale(count,0,2,1,1.5) - 0.25"
-    />
-    </f-group>
-  </f-scene>
-  </div>
-
-  <div v-for="type in [
-    'achromatomaly',
-    'achromatopsia',
-    'deuteranomaly',
-    'deuteranopia',
-    'protanomaly',
-    'protanopia',
-    'tritanomaly',
-    'tritanopia'
-  ]">
-  <b>{{ type }}</b><br><br>
-  <f-scene  width="150" height="150" grid>
-    <f-group v-for="(count,i) in range(0,2)" :key="i">
-    <f-arc
-      v-for="(a,j) in range(0,360,360 / get('c',8))"
-      :key="j"
-      :fill="colorblind(hsl(a,100,scale(count,0,2,30,70)), type)"
-      stroke
-      :start-angle="a"
-      :end-angle="a + (360 / get('c',8))"
-      :r="scale(count,0,2,1,1.5)"
-      :inner-radius="scale(count,0,2,1,1.5) - 0.25"
-    />
-    </f-group>
-  </f-scene>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
----
-
-| 1 1 1
-| 2 3 4
-
-## Contrast checker
-
--
-
-<f-slider title="Background color hue" set="c1" integer />
-<f-slider title="Foreground color brightness" set="c2" to="100" integer />
-
--
-
-<div style="padding: var(--base2)" :style="{
-  background: hsl(get('c1',0)),
-  '--primary': hsl(0, 0, get('c2',0))
-}">
-
-<h2>Halloo {{ contrast(hsl(get('c1',0)),hsl(0, 0, get('c2',0))) < 4.5 ? '⚠️' : ' ' }}</h2>
-
-##### Contrast ratio: {{ contrast(hsl(get('c1',0)),hsl(0, 0, get('c2',0))) }}
-
-Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampfschiffahrtsgesellschaftskapitän eu Kaftfahrzeug-Haftpflichtversicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.
-
-<button>Käsefondue</button>
-
-</div>
-
--
-
-<div style="padding: var(--base2)" :style="{
-  background: colorblind(hsl(get('c1',0))),
-  '--primary': colorblind(hsl(0, 0, get('c2',0)))
-}">
-
-<h2>Halloo {{ contrast(colorblind(hsl(get('c1',0))),colorblind(hsl(0, 0, get('c2',0))) ) < 4.5 ? '⚠️' : '' }}</h2>
-
-##### Contrast ratio: {{ contrast(colorblind(hsl(get('c1',0))),colorblind(hsl(0, 0, get('c2',0)))) }}
-
-Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampfschiffahrtsgesellschaftskapitän eu Kaftfahrzeug-Haftpflichtversicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.
-
-<button>Käsefondue</button>
-
-</div>
 
 ---
 
 # Done
 
-<a class="tertiary" href="..">← Back to projects</a>
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
