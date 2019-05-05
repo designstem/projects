@@ -63,20 +63,27 @@ This lesson is divided into three main sections:
 
 ---
 
-# Collage
+| background: images/collage.png
+| tint: 0
+| theme: dark
+
+<center><div>
+
+### The tools you will need
+
+<f-next-button />
+
+</div></center>
 
 ---
 
 | section: DISCUSS_1
 
-| padding: 0
 | gap: 0
 
 | 1 2 3
 | 1 4 5
 | 1 6 7
-
-<section><section>
 
 <f-icon-heading icon="fact">Discuss</f-icon-heading>
 
@@ -84,7 +91,7 @@ This lesson is divided into three main sections:
 
 Watch the following videos and define frequency with your own words and describe all possible ways to experience it.
 
-</section></section>
+<f-next-button />
 
 -
 
@@ -109,6 +116,21 @@ Watch the following videos and define frequency with your own words and describe
 -
 
 <f-video src="https://www.youtube.com/watch?v=FO566k4nA3g" />
+
+---
+
+| background: images/example.jpg
+| theme: dark
+
+<center><div>
+
+<f-activity-icon />
+
+### Time for first hands-on exercise
+
+<f-next-button title="Start" />
+
+</div></center>
 
 ---
 
@@ -139,8 +161,7 @@ Printed paper templates, turntable, scissors, pencils
 
 Download and print out paper template to hand over to students. You can itfrom here
 
-<a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
-
+<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
 > ##### <f-fact-icon size="small" /> Printing tips
 1. print the sheet 100% size, one sided
@@ -159,7 +180,7 @@ You are now ready to make your own visual experiments!
 
 <span class="bullet">1</span> First you need a paper template
 
-<a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a> <small>or use printout from the teacher</small>
+<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
 <span class="bullet">2</span> Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
 
@@ -254,7 +275,7 @@ Watch following clip and notice how<br>wheels of the wagon are moving
 
 | section: EXPERIMENT_1
 
-# Standstill wheels?
+# What happened to the wheels?
 
 ~You just experienced a *wagon-wheel effect* or *stroboscopic effect* occurring on a movie clip when moving wheels are stopping or moving backwards. How does it work? Lets set up an experiment.~
 
@@ -551,7 +572,7 @@ Printed grid circles, turntable, scissors, pencils, smartphone/tablet/PC for onl
 
 Download and print out paper templates to hand over to students. You can download them from here
 
-<a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF templates</a>
+<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF templates</a>
 
 > ##### <f-fact-icon size="small" /> Printing tips
 1. Print the sheet 100% size, onesided
@@ -568,9 +589,7 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 -
 
-<span class="bullet">1</span>Get the paper template
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" class="tertiary"><f-arrow-icon rotation="90" />Download PDF templates</a> <small>or use printout from the teacher</small>
+<span class="bullet">1</span>Use the paper templates with the prevous activity, but now with **radial lines** (spokes).
 
 <span class="bullet">2</span> Draw in between the spokes
 
@@ -580,7 +599,7 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 <span class="bullet">4</span> Observe the rotation on your smartphone / tablet / computer and adjust the framerate:
 
-<a class="tertiary" href="../frequency_camera">Open framerate camera app</a>
+<a class="tertiary" href="../frequency_camera" target="_blank">Open framerate camera app</a>
 
 <f-next-button />
 

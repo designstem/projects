@@ -1,7 +1,7 @@
 | padding: 0
 | gap: 0
 
-| 1 2 3 4 5 6
+| 1 2 3 4
 
 <f-image src="https://designstem.github.io/slides/haridusfond/images/1.jpg" />
 
@@ -16,14 +16,6 @@
 -
 
 <f-image src="https://designstem.github.io/slides/haridusfond/images/8.jpg" />
-
--
-
-<f-image src="https://designstem.github.io/slides/haridusfond/images/2.jpg" />
-
--
-
-<f-image src="https://designstem.github.io/slides/haridusfond/images/6.jpg" />
 
 ---
 
