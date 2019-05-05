@@ -592,7 +592,7 @@ When we add important properties like colour, stroke width, transparency and so 
 
 -
 
-***Move the sliders*** and see what happens. Nothing too special here &ndash; our algorithm creates a grid of small lines that change when parameters change. Parameters change when you move the sliders. You should see some kind of a dashed lines pattern. That's it.
+***Move the sliders*** and see what happens. Nothing too special here &ndash; our simple algorithm creates a grid of small lines that change when parameters change. Parameters change when you move the sliders. You should see some kind of a dashed lines pattern. That's it.
 
 
 
@@ -624,7 +624,7 @@ When we add important properties like colour, stroke width, transparency and so 
     from="-1"
     to="1"
     step="0.01"
-    :value="0"
+    :value="0.01"
     set="width1"
 />
 
@@ -634,21 +634,22 @@ When we add important properties like colour, stroke width, transparency and so 
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: add rotation" v-if="get('step1') < 0.5 && get('width1') > 0.3" />
+<f-prev-button /> <f-next-button title="Next: add rotation" v-if="get('step1') < 0.5 && Math.abs(get('width1')) > 0.3" />
 
 -
 
-<f-scene  width="600" height="500">
-  <f-grid-pattern :step="get('step1',0.6)">
+<f-scene width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%;" >
+  <f-grid-pattern :cols="2+Math.round(4/get('step1',0.6))" :rows="2+Math.round(4/get('step1',0.6))" :step="get('step1',0.6)">
     <f-line 
       :points="[ 
-        { x: 0, y: 0 }, 
-        { x: get('width1', 0), y: 0 }, 
+        { x: -get('width1', 0.1)/2, y: 0 }, 
+        { x: get('width1', 0.1), y: 0 }, 
       ]"  
       :stroke-width="3"  
     /> 
   </f-grid-pattern>
 </f-scene>
+
 
 ---
 
@@ -674,25 +675,26 @@ When we add important properties like colour, stroke width, transparency and so 
 -
 
 <f-slider title="Grid size" 
-    from="0.2"
-    to="2"
-    step="0.01"
+    from="0.26"
+    to="1"
+    step="0.02"
     :value="0.3"
     set="step2"
 />
 <f-slider title="Line length" 
     from="-3"
     to="3"
-    step="0.01"
-    :value="0"
+    step="0.05"
+    :value="0.01"
     set="width2"
 />
 <f-slider title="Rotation" 
     from="-180"
     to="180"
     step="0.1"
-    :value="0"
+    :value="0.01"
     set="rotation2"
+    plain="false"
 />
 
 <br />
@@ -705,12 +707,12 @@ When we add important properties like colour, stroke width, transparency and so 
 
 -
 
-<f-scene  width="600" height="500">
-  <f-grid-pattern :step="get('step2',0.3)">
+<f-scene  width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%; " >
+  <f-grid-pattern :cols="2+Math.round(4/get('step2',0.6))" :rows="2+Math.round(4/get('step2',0.6))" :step="get('step2',0.3)">
     <f-group :rotation=" get('rotation2',0) "> 
       <f-line
         :points="[ 
-          { x: 0, y: 0 }, 
+          { x: -get('width2', 0)/2, y: 0 }, 
           { x: get('width2', 0), y: 0 }, 
         ]"  
         :stroke-width="3"  
@@ -744,16 +746,16 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 
 <f-slider title="Grid size" 
-    from="0.2"
+    from="0.3"
     to="2"
-    step="0.01"
+    step="0.02"
     :value="0.9"
     v-on:value="i => set('step3', i)"
 />
 <f-slider title="Box size" 
     from="-3"
     to="3"
-    step="0.01"
+    step="0.02"
     :value="0.6"
     v-on:value="i => set('width3', i)"
 />
@@ -761,22 +763,22 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
     from="-180"
     to="180"
     step="0.1"
-    :value="0"
+    :value="-0.001"
     v-on:value="i => set('rotation3', i)"
 />
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.4, box bigger than 1 and rotation higher than 45*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.5, box bigger than 1 and rotation higher than 45*</small>
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: circles" v-if="get('step3') < 0.4 && Math.abs(get('width3')) > 1 && Math.abs(get('rotation3')) > 45" />
+<f-prev-button /> <f-next-button title="Next: circles" v-if="get('step3') < 0.5 && Math.abs(get('width3')) > 1 && Math.abs(get('rotation3')) > 45" />
 
 -
 
-<f-scene  width="600" height="500">
-  <f-grid-pattern :step="get('step3',0.9)">
+<f-scene  width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
+  <f-grid-pattern :cols="2+Math.round(4/get('step3',0.6))" :rows="2+Math.round(4/get('step3',0.6))" :step="get('step3',0.9)">
     <f-group :rotation="get('rotation3',0)"> 
       <!-- <f-box 
         :stroke-width="3"  
@@ -831,16 +833,16 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.3 and circle bigger than 1*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.4 and circle bigger than 1*</small>
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: random" v-if="get('step4') < 0.3 && get('width4') > 1" />
+<f-prev-button /> <f-next-button title="Next: random" v-if="get('step4') < 0.4 && get('width4') > 1" />
 
 -
 
-<f-scene  width="600" height="500">
-  <f-grid-pattern :step="get('step4',0.5)">
+<f-scene  width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
+  <f-grid-pattern :cols="2+Math.round(4/get('step4',0.6))" :rows="2+Math.round(4/get('step4',0.6))" :step="get('step4',0.5)">
     <f-group> 
       <f-circle 
           :stroke-width="3"  
@@ -888,8 +890,8 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 -
 
-<f-scene  width="600" height="500">
-  <f-grid-pattern :step="randomizer(0.2, 0.6)">
+<f-scene  width="600" height="500" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
+  <f-grid-pattern :cols="2+Math.round(4/randomizer(0.2, 0.6))" :rows="2+Math.round(4/randomizer(0.2, 0.6))" :step="randomizer(0.2, 0.6)">
     <f-group> 
       <f-circle 
           :stroke-width="3"  
@@ -929,7 +931,7 @@ When we add important properties like colour, stroke width, transparency and so 
 
 <br /><br />
 
-<f-prev-button /> <f-next-button v-if="get('randomness')" title="Next" />
+<f-prev-button /> <f-next-button title="Next" />
 
 ---
 
