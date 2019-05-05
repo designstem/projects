@@ -186,7 +186,7 @@ You are now ready to make your own visual experiments!
 
 <span class="bullet">1</span> First you need a paper template
 
-<a href="./files/plainCircle.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
+<a href="./files/plainCircle.pdf" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
 <span class="bullet">2</span> Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
 
