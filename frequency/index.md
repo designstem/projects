@@ -1,7 +1,8 @@
 | section: START
 | theme: dark
-
-| 1 1 1 1 1 2 2 2
+| rows: 1fr auto
+| 1 1 1 1 1 3 3 3
+| 2 2 2 2 2 3 3 3
 
 <f-scene width="1100" height="1100" style="position: fixed; top: -470px; right: -600px; z-index: 10000;">
   <f-circle r="0.1" :stroke="color('darkgray')" />
@@ -27,20 +28,13 @@
 
 <big>
 
-Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?
-
-<f-inline align-items="flex-start">
-<p><f-fact-icon size="small" /></p>
-<p style="opacity: 0.5">Click on <a v-on:click="send('menu')"><f-menu-icon /></a> to get the lesson outline and <a v-on:click="send('notes')">notes</a> to see teacher notes.</p>
-</f-inline>
-
+~Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?~
 
 Ready to trick your brain and explore your creativity?<br>Prepare your turntable and let's go!
 
 </big>
 
-
-<p />
+-
 
 <f-next-button title="Start" />
 
