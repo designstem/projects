@@ -462,10 +462,11 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 
 -
 
-~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and **wheels were rotating fast enough not to be in sync in every frame** to produce natural visual impression of rotating wheel.~ 
+<f-fact-icon size="small" /> ~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and **wheels were rotating fast enough not to be in sync in every frame** to produce natural visual impression of rotating wheel.~ 
 
 <p />
 <img src="./images/frameRate.png" alt="Frame rate" width="100%">
+<p />
 
 <small>Without arrow symbol, wheel appears to be rotating slowly backwards.</small>
 
@@ -734,7 +735,9 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
 
 <p /><br>
 
-~This is what happened with wagon wheels. Traditionally the movie playback speed is <var class="blue">24 frames</var> per <var>second</var> but wheels moving on screen can get in and out of sync of the framerate so they appear to stand still or moving backwards. It is called a <a href="https://en.wikipedia.org/wiki/Stroboscopic_effect" target="_blank">stroboscopic effect.</a>~
+You just completed all the steps to experience visual distortion virtually on your screen. The same phenomenon occured in the movieclip with wagon wheels. 
+
+<f-fact-icon size="small" /> ~Traditionally the movie playback speed is <var class="blue">24 frames</var> per <var>second</var> but wheels moving on screen can get in and out of sync of the framerate so they appear to stand still or moving backwards.<br /> It is called a <a href="https://en.wikipedia.org/wiki/Stroboscopic_effect" target="_blank">stroboscopic effect.</a>~
 
 <f-next-button />
 
