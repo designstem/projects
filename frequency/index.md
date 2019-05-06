@@ -458,7 +458,7 @@ Watch following clip and notice <br><var>how wheels of the wagon are moving?</va
 
 -
 
-You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the [rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe. . 
+You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the [rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe. 
 
 -
 
