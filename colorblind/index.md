@@ -5,13 +5,15 @@
 | 1 1 1
 | 2 2 3
 
-# <big><big>Design for<br>color blindness</big></big> 
+# <big><big>Design for<br>colour blindness</big></big> 
 
-<big>What is <var class="gray">color blindness</var>?</big>
+<big>What is <var class="gray">colour blindness</var>?</big>
 
-<big>What is <var class="gray">color vision deficiency / CVD</var>?</big>
+<big>What is <var class="gray">colour vision deficiency / CVD</var>?</big>
 
-<big>How to design for people whose color perception is impaired?</big>
+<big>Wait... What is <var class="gray">colour</var>?</big>
+
+<big>How to design for people whose colour perception is impaired?</big>
 
 
 
@@ -55,7 +57,7 @@ Instead they should experience that not being able to see all colors can have a 
 
 <f-fact-icon size="large" />
 
-# The definitions
+# &nbsp;
 
 </f-inline>
 
@@ -596,10 +598,17 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 ---
+| 1
+| 2
+| 3
+| rows: 1fr auto 1fr
+| cols: 1fr
 
 # Rods and cones: summary
 
 <small><small>Review the <f-sidebar title="image of the eye" width="50vw"><img src="./images/eye_rods-cones.svg"  /></f-sidebar></small></small>
+
+-
 
 <h3>RODS</h3>        | <h3>CONES</h3>   
 ----------- | -----------
@@ -609,7 +618,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 ~**High light sensitivity**~<br />~Several rods connect to one bipolar neuron so many weak generator potentials combine to reach threshold level to trigger action potential to send nerve impulses to the brain~ | ~**Low light sensitivity**~<br />~One cone connects to one bipolar neuron so a generator potential must reach threshold level on its own to trigger action potential to send nerve impulses to the brain~
 ~**Low visual acuity**~<br />~Several rods connect to one bipolar neuron so brain cannot tell exactly which rod light fell upon, giving an indistinct image.~ | ~**High visual acuity**~<br />~One cone connects to one bipolar neuron so brain can tell exactly which cone light fell upon, giving a distinct image.~
 
-
+-
 
 <f-next-button title="Colour perception" />
 
@@ -635,9 +644,11 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-~White light is made up of all the colours of the rainbow (and everything in between). In a rainbow, colours merge smoothly and continuously from one colour to another. We call this the visible spectrum, as colours represent a narrow range of the wavelengths in the wider electromagnetic spectrum which are visible to the human eye.~
+~**White light** is made up of **all the colours of the rainbow** (and everything in between). In a rainbow, colours merge smoothly and continuously from one colour to another. We call this **the visible spectrum**, as colours represent a narrow range of the wavelengths in the wider electromagnetic spectrum which are visible to the human eye.~
 
-#### ~But light waves are colourless. Colour doesn’t actually exist!~ 😲
+#### ~But light waves are colourless.<br />Colour doesn’t actually exist!~ 😲
+
+&nbsp;
 
 <f-next-button title="But..." />
 
@@ -667,16 +678,17 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 # But how do we see colour, if it doesn't exist?
 
-~**Colour is a perception – it is a construct of your brain.**~
+> ~**Colour is a perception – it is a construct of your brain.**~
 
 ~**Rods** contain a photosensitive pigment *(rhodopsin)* which shows **maximum absorbance for light of 498 nm**, although it absorbs a wider range of wavelengths either side of this.~
 
-~According to the trichromatic theory, there are **three types of cone** which contain different forms of a different photosensitive pigment *(iodopsin)*, each showing maximum absorption of **blue, green or red light**.~
+~According to the trichromatic theory, there are **three types of cone** which contain different forms of a different photosensitive pigment *(iodopsin)*, **each showing maximum absorption of blue, green or red light**.~
 
 -
 
 <f-next-button title="The brain" />
 
+#### &nbsp;
 
 -
 
@@ -698,10 +710,11 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | 2 3
 | 2 3
 | 4 4
+| 4 4
 
 # 🧠 The brain
 
-~When your rods and cones are stimulated by light, nerve impulses are sent from your eyes to your brain via the optic nerve. **But nerve impulses still do not have colour information**.~
+~When rods and cones are stimulated by light, nerve impulses are sent from eye to brain via the optic nerve. **But nerve impulses still do not have colour information**.~
 
 #### &nbsp;
 
@@ -730,12 +743,13 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 -
 
 
+### And voilà &ndash; this is where the colour is finally born!
 
-## And voilà &ndash; this is where the colour is born!
+&nbsp;
 
-<f-next-button title="Back to CVD" />
+<f-next-button title="The colour" />
 
-
+## &nbsp;
 
 
 
@@ -751,7 +765,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | 2
 | 3
 
-# Back to CVD
+# The colour
 
 -
 
@@ -761,13 +775,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ~By processing a **massive range of permutations of red, green and blue cone combinations**, you brain is able to detect **10 million different colours**.~
 
-&nbsp;
-
-#### ~People with normal colour vision have all three types of cones working correctly but <u>CVD occurs when one or more of the cone types are faulty</u>. For example, if the red cone is faulty you won’t be able to see colours containing red clearly.~
-
-&nbsp;
-
-~All the other colours are result of mixing RED, GREEN and BLUE lights together.~
+#### ~So all the other colours are result of mixing RED, GREEN and BLUE lights together.~
 
 </div>
 
@@ -808,7 +816,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 <div>
 
 # Mixing red, green and blue lights
-### aka Additive Color System
+#### ~aka Additive Color System~
 
 &nbsp;
 
@@ -866,27 +874,18 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-~This is also, how most of the **screens work** &ndash; thousands of **tiny red, green and blue lights** shine more or less intensively.~ 
+~This is also, how most of the **screens** work &ndash; a massive grid of **tiny red, green and blue lights** shine more or less intensively.~ 
 
-> ##### ~The intensity of each color is measured from 0 to 255.~
+> ##### ~The intensity of each light is measured from 0 to 255.~
 
 <div>
 
-~For example, if only red lights are turned on maximum power (**RED=255 GREEN=0 BLUE=0**) we see a bright <a class="tertiary" v-on:click="set('r0', 255); set('g0', 0); set('b0', 0)">red color</a>. R:0 G:255 B:0 is... <a class="tertiary" v-on:click="set('r0', 0); set('g0', 255); set('b0', 0)">green</a>, of course!~
+~For example, if **only red lights are turned on maximum power**, so that RED=255 GREEN=0 BLUE=0, we see a bright <a class="tertiary" v-on:click="set('r0', 255); set('g0', 0); set('b0', 0)">red colour</a>. R=0 G=255 B=0 means bright <a class="tertiary" v-on:click="set('r0', 0); set('g0', 255); set('b0', 0)">green</a>, etc~
 
-&nbsp;
+~Remember from the previous slide, when we said, that **red+green=yellow**? It means, that both the red and green lights are turned on, while the blue is off: R=255 G=255 B=0. The result is indeed <a class="tertiary" v-on:click="set('r0', 255); set('g0', 255); set('b0', 0)">yellow</a>~
 
-<details>
+> ~**And so on** - by adjusting the brightness of RGB lights, we can generate all the <a class="tertiary" v-on:click="set('r0', 160); set('g0', 200); set('b0', 12)">other</a> <a class="tertiary" v-on:click="set('r0', 250); set('g0', 205); set('b0', 22)">colours</a> and <a class="tertiary" v-on:click="set('r0', 220); set('g0', 30); set('b0', 255)">tints</a>.~
 
-<summary>More examples</summary>
-
-- ~Remember from the previous slide, that **red+green=yellow**? It means the **<a class="tertiary" v-on:click="set('r0', 255); set('g0', 255); set('b0', 0)">yellow's</a> RGB code is R:255 G:255 B:0** - both red and green lights are turned on, while blue is off.~
-
-- ~<a class="tertiary" v-on:click="set('r0', 255); set('g0', 255); set('b0', 255)">White</a> light is produced, when all three colors are turned on maximum power: **R:255 G:255 B:255** and <a class="tertiary" v-on:click="set('r0', 0); set('g0', 0); set('b0', 0)">black</a> means, that everything is turned to 0.~
-
-- ~And all the other colors are <a class="tertiary" v-on:click="set('r0', 160); set('g0', 200); set('b0', 12)">just</a> <a class="tertiary" v-on:click="set('r0', 250); set('g0', 205); set('b0', 22)">different</a> <a class="tertiary" v-on:click="set('r0', 220); set('g0', 30); set('b0', 255)">combinatios</a> of the same red green and blue~
-
-</details>
 
 </div>
 
@@ -894,7 +893,13 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <div style="position:sticky; top:25vh; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw; border-radius:var(--base);">
 
+<f-inline style="justify-content: space-between;">
+
 #### RGB mixer
+
+<small style="flex:1"><small>rgb({{get('r0',236)}},{{get('g0',95)}},{{get('b0',0)}})</small></small>
+
+</f-inline>
 
 <f-inline>
   <div>
@@ -918,7 +923,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-<f-next-button />
+<f-next-button title="Back to CVD" />
 
 ## &nbsp;
 
@@ -936,10 +941,126 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
-# Todo: add content
+| 1
+| 1
+| 2
 
+# Back to CVD
+
+<center>
+
+<div>
+
+~Ok, now we know that there is **3 types of cone** in our eye,<br />that send **different impulses to our brain**.<br />Brain interprets these signals as **RED, GREEN and BLUE** colours.~
+
+### ~<u>CVD occurs when one or more of the cone types are faulty</u>.~
+~For example, if the red cone is faulty you won’t be able to see colours containing red clearly.~
+
+&nbsp;
+
+</center>
+
+-
+
+<center>
+
+<f-next-button title="Accessibility" />
+
+</center>
+
+
+
+
+
+
+
+
+
+
+
+---
+| rows: 1fr auto 1fr
+| 1 1
+| 2 4
+| 3 4
+
+# Accessi&shy;bility
+
+-
+
+~It is important for designers (or actually everyone who use colour for communication) to remember:~
+
+> ##### ~"Your red" may not be the same as "my red" &ndash; "my red" may even not be red at all!~
+
+~You should double-check, that any important text or graphic element~
+
+<f-inline>
+
+### ~**1**~ 
+
+~**provides enough visual contrast &ndash; also for people with CVD**~
+
+</f-inline>
+<f-inline>
+
+### ~**2**~
+
+~**meaning doesn't change when colour change**~
+
+</f-inline>
+
+-
 
 <f-next-button />
+
+### &nbsp;
+
+-
+
+<ColorblindnessJuxtapose 
+  :imageUrl="'images/web-form.png'" 
+  :revealed="20" 
+  :locked="false" 
+  :juxtId="'compareForm'" 
+  :upload="false"
+  :cbType="'Protanopia'"
+  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)" 
+/>
+
+
+
+
+
+
+
+---
+
+| 1 1
+| 2 3
+| 4 4
+
+# <f-activity-icon size="large" />Try it out!
+
+-
+
+~**Now, that we know all this, let's try to create a working color palette.**~
+
+~On the next slide you'll find a simple "poster editor", where you can adjust the colours. Next to the original version, you'll also see **approximate simulations, how different CVD types could see the colours.**~ 
+
+-
+
+~**While designing, try to answer these questions:**~
+
+- ~Which colours are the most "dangerous" ones to use in CVD context?~
+- ~Can you find a combination, that works for all CVD types?~
+- ~Do the same colours work for all? Test your palette &ndash; ask other people opinions.~
+- ~What colour is love~
+
+-
+
+<f-next-button title="Design time!" />
+
+#### &nbsp;
 
 
 
@@ -949,6 +1070,143 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 ---
 
 | section: cb-designer
+| gap: 1vmin
+
+
+| 1 1 1 1
+| 2 3 4 5
+| 6 6 6 6
+
+
+
+<f-inline style="--base:8px; justify-content:space-between;">
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Back&shy;ground colour
+
+<small style="flex:1"><small>rgb({{get('r51',236)}},{{get('g51',95)}},{{get('b51',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+  <div 
+      style="width:8vw;height:8vw;" 
+      :style="{ background:rgb( get('r51',44), get('g51',77), get('b51',100) ) }"
+  ></div>
+  
+
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r51', 236)" v-on:input="set('r51', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g51', 95)" v-on:input="set('g51', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b51', 0)" v-on:input="set('b51', $event)" to="255" integer />
+  </div>
+</f-inline>
+</div>
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Heading colour
+
+<small style="flex:1"><small>rgb({{get('r52',236)}},{{get('g52',95)}},{{get('b52',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+  <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:rgb( get('r52',44), get('g52',77), get('b52',77) ) }"
+    ></div>
+
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r52', 5)" v-on:input="set('r52', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g52', 167)" v-on:input="set('g52', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b52', 19)" v-on:input="set('b52', $event)" to="255" integer />
+  </div>
+</f-inline>
+
+</div>
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Text colour
+
+<small style="flex:1"><small>rgb({{get('r53',236)}},{{get('g53',95)}},{{get('b53',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+    <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:rgb( get('r53',44), get('g53',77), get('b53',77) ) }"
+    ></div>
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r53', 201)" v-on:input="set('r53', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g53', 171)" v-on:input="set('g53', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b53', 93)" v-on:input="set('b53', $event)" to="255" integer />
+  </div>
+</f-inline>
+
+</div>
+
+
+</f-inline>
+
+-
+
+<Poster 
+  :bgColor="rgb( get('r51',236), get('g51',95), get('b51',0) )" 
+  :headingColor="rgb( get('r52',5), get('g52',167), get('b52',19) )" 
+  :textColor="rgb( get('r53',201), get('g53',171), get('b53',93) )" 
+  :type="'Normal'"
+/>
+
+-
+
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'protanopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'protanopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'protanopia' )" 
+  :type="'Protanopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'deuteranopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'deuteranopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'deuteranopia' )" 
+  :type="'Deuteranopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'tritanopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'tritanopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'tritanopia' )" 
+  :type="'Tritanopia'"
+/>
+
+-
+
+<f-next-button title="Useful links and tools" />
+
+## &nbsp;
+
+
+
+
+---
+
+<!-- | section: cb-designer2
 | gap: 2vmin
 
 
@@ -1058,10 +1316,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
   :headingColor="colorblind( hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ), 'tritanopia' )" 
   :textColor="colorblind( hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ), 'tritanopia' )" 
   :type="'Tritanopia'"
-/>
-
-
-
+/> -->
 
 
 
@@ -1071,6 +1326,8 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
-# Done
+# Links and useful tools
+
+- will be added
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>

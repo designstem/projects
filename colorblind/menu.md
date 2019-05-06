@@ -1,18 +1,14 @@
 <a href="../" class="quaternary"><f-leftarrow-icon /> Back to projects</a>
 
-#### Color Vision Deficiency<br /> &nbsp;
+#### Design for CVD
 
 <div style="--yellow:var(--white); --cols: 1fr;">
 
 
 
-<f-section-card title="Home" section="cb-start">
-- First page
-</f-section-card>
+<f-section-card title="Home" section="cb-start" />
 
-<f-section-card title="What is CVD?" section="cb-what">
-- The definitions 
-</f-section-card>
+<f-section-card title="Start" section="cb-what" />
 
 <f-section-card title="Explore color blindness" section="cb-explore">
 - How does color vision deficiency affects people?

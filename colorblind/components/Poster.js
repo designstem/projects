@@ -65,7 +65,7 @@ export default{
 
     <p style="text-align:center" :style="{
         color: textColor
-    }">In some situations color information may be a matter of life and death!</p>
+    }">Not all color combinations work equally well for all people!</p>
 
     </div>
   </div>

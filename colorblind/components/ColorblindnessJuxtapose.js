@@ -279,7 +279,7 @@ export default{
     </div>
 
 
-    <f-inline v-if="upload" style="margin-top:var(--base); border-top:1px solid var(--gray); padding-top: var(--base2); padding-bottom: var(--base2); position:sticky; bottom:0px; background:hsla(0,0%,100%, 0.85);">
+    <f-inline v-if="upload" style="margin-top:var(--base); border:3px solid var(--darkgray); padding:var(--base2); position:sticky; bottom:0px; background:var(--yellow)">
       <h5>Try it with your own image: </h5><input type="file" @change="changeImage">
     </f-inline>
     
@@ -312,10 +312,11 @@ export default{
     }
     input[type=file]::-webkit-file-upload-button {
       display: inline-block;
-      padding:  var(--base) calc( var(--base) * 1.5) );
+      padding: calc(var(--base)/2) var(--base) ;
       margin-right: var(--base);
-      
-      // border-radius: var(--border-radius);
+      background: var(--white);
+      border: 2px solid var(--darkgray);
+      border-radius: var(--border-radius);
       //color: var(--darkgray);
       font-size: var(--base2);
       font-weight: normal;
