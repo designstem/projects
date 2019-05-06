@@ -737,7 +737,7 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
 
 You just completed all the steps to experience visual distortion virtually on your screen. The same phenomenon occured in the movieclip with wagon wheels. 
 
-<f-fact-icon size="small" /> ~Traditionally the movie playback speed is <var class="blue">24 frames</var> per <var>second</var> but wheels moving on screen can get in and out of sync of the framerate so they appear to stand still or moving backwards.<br /> It is called a <a href="https://en.wikipedia.org/wiki/Stroboscopic_effect" target="_blank">stroboscopic effect.</a>~
+<f-fact-icon size="small" /> ~In order to find visually interesting morphs play with the *rotational speed* and the *amount of elements* around the circle. <br />Remember, capturing animation with a camera will add a new variable to the equation – ***the frame rate***.~
 
 <f-next-button />
 
