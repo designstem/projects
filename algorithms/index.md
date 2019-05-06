@@ -1,23 +1,20 @@
-| theme: yellow
+| background: http://www.michael-hansmeyer.com/images/digital-grotesque-I/digital-grotesque-design-3-l.webp
+| tint: 0.5
+| theme: dark
 | section: START
 
-
-<div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh;">
+<center><div>
 
 # Become an <br /><big><big><big>Algorist!</big></big></big>
 
-~A brief introduction to algorithms and generative art/design~
+<big>A brief introduction to algorithms and generative art/design</big>
 
-##### &nbsp;
+<p /><br />
 
-<big><f-next-button title="START" /></big>
+<f-next-button title="Start" />
 
 
-<!-- <button v-for="(s, i) in range(0, 23, 1)" v-on:click="send('goto', i)">{{ i }}</button> -->
-
-<!-- <f-buttons set="slideIndex" :buttons="range(0, 23, 1)" v-on:click="send('goto', get('slideIndex') )" /> -->
-
-</div>
+</div></center>
 
 ---
 
@@ -920,7 +917,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 
 
-<small v-if="get('randomR')">***HINT:*** *If the pattern sucks, press the button again - you'll get a new one*</small>
+<small v-if="get('randomR')">***HINT:*** *If the pattern looks boring, press the button again - you'll get a new one*</small>
 
 <br /><br />
 
