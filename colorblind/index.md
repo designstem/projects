@@ -998,16 +998,16 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <f-inline>
 
-### ~**1**~ 
+### **1**
 
 ~**provides enough visual contrast &ndash; also for people with CVD**~
 
 </f-inline>
 <f-inline>
 
-### ~**2**~
+### **2**
 
-~**meaning doesn't change when colour change**~
+~**meaning doesn't change when colour changes**~
 
 </f-inline>
 
@@ -1199,7 +1199,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-<f-next-button title="Links and useful tools" />
+<f-next-button title="Useful links and tools" />
 
 ## &nbsp;
 
@@ -1214,7 +1214,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
-# Links and useful tools
+# Useful links and tools
 
 - will be added
 
