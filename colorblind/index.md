@@ -737,7 +737,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 
-## And voilà &ndash; finally the colour is born!
+## And voilà &ndash; this is where the colour is born!
 
 <f-next-button title="Back to CVD" />
 
@@ -769,7 +769,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 &nbsp;
 
-#### ~People with normal colour vision have all three types of cones working correctly but CVD occurs when one or more of the cone types are faulty. For example, if the red cone is faulty you won’t be able to see colours containing red clearly.~
+#### ~People with normal colour vision have all three types of cones working correctly but <u>CVD occurs when one or more of the cone types are faulty</u>. For example, if the red cone is faulty you won’t be able to see colours containing red clearly.~
 
 &nbsp;
 
@@ -890,7 +890,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 - ~<a class="tertiary" v-on:click="set('r0', 255); set('g0', 255); set('b0', 255)">White</a> light is produced, when all three colors are turned on maximum power: **R:255 G:255 B:255** and <a class="tertiary" v-on:click="set('r0', 0); set('g0', 0); set('b0', 0)">black</a> means, that everything is turned to 0.~
 
-- ~And all the other colors are <a class="tertiary" v-on:click="set('r0', 160); set('g0', 200); set('b0', 12)">just</a> <a class="tertiary" v-on:click="set('r0', 250); set('g0', 205); set('b0', 22)">different</a> <a class="tertiary" v-on:click="set('r0', 220); set('g0', 30); set('b0', 255)">combinatios</a> of red green and blue~
+- ~And all the other colors are <a class="tertiary" v-on:click="set('r0', 160); set('g0', 200); set('b0', 12)">just</a> <a class="tertiary" v-on:click="set('r0', 250); set('g0', 205); set('b0', 22)">different</a> <a class="tertiary" v-on:click="set('r0', 220); set('g0', 30); set('b0', 255)">combinatios</a> of the same red green and blue~
 
 </details>
 
