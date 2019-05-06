@@ -1,7 +1,8 @@
 | section: START
 | theme: dark
-
-| 1 1 1 1 1 2 2 2
+| rows: 1fr auto
+| 1 1 1 1 1 3 3 3
+| 2 2 2 2 2 3 3 3
 
 <f-scene width="1100" height="1100" style="position: fixed; top: -470px; right: -600px; z-index: 10000;">
   <f-circle r="0.1" :stroke="color('darkgray')" />
@@ -27,20 +28,13 @@
 
 <big>
 
-Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?
-
-<f-inline align-items="flex-start">
-<p><f-fact-icon size="small" /></p>
-<p style="opacity: 0.5">Click on <a v-on:click="send('menu')"><f-menu-icon /></a> to get the lesson outline and <a v-on:click="send('notes')">notes</a> to see teacher notes.</p>
-</f-inline>
-
+~Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?~
 
 Ready to trick your brain and explore your creativity?<br>Prepare your turntable and let's go!
 
 </big>
 
-
-<p />
+-
 
 <f-next-button title="Start" />
 
@@ -135,12 +129,11 @@ Watch the following videos and define frequency with your own words and describe
 ---
 
 | section: ACTIVITY_1
+| rows: auto 1fr
 
 | 1 1 1
 | 2 2 3
-| 2 2 3
-| 2 2 3
-| 2 2 3
+
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
@@ -175,7 +168,6 @@ You'll find 6 template PDF's from the .zip file. In this excercise You'll need o
 2. print more than 1 sheet for every student
 
 </f-notes>
-
 
 
 # <f-activity-icon />Make a spinning animation
@@ -226,11 +218,10 @@ You are now ready to make your own visual experiments!
 ---
 
 | section: THEORY_1
+| rows: auto auto 1fr
 
 | 1 1
 | 2 3
-| 4 4
-| 4 4
 | 4 4
 
 # From spinning to frequency
@@ -727,11 +718,9 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
 ---
 
 | section: ACTIVITY_2
+| rows: auto 1fr
 
 | 1 1 1
-| 2 2 3
-| 2 2 3
-| 2 2 3
 | 2 2 3
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">

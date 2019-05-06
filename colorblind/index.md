@@ -1,41 +1,35 @@
-
-
-
-
 | section: cb-start
-| theme: yellow
+| theme: dark
 | height: 100vh
-| 1
-| 2
-| 3
+| rows: 1fr auto
+| 1 1 1
+| 2 2 3
 
+# <big><big>Design for<br>color blindness</big></big> 
+
+<big>What is <var class="gray">color blindness</var>?
+
+<big>What is <var class="gray">color vision deficiency / CVD</var>?</big>
+
+<big>How to design for people whose color perception is impaired?</big>
+
+</big>
 
 -
-
-# <big><big><big><big>CVD</big></big></big></big> 
-
-### ~Color Vision Deficiency / Color Blindness~
-
-##### ~How to design for people whose color perception is impaired.~
-
-<!-- ~*(Richard Spencer, Kristin Kreer)*~ -->
-
-<!-- <f-embed src="./menu.md" /> -->
-
-#### &nbsp;
 
 <f-next-button title="Let's start" />
 
-
 -
 
-<f-notes>
+<f-notes style="--primary: var(--darkgray)">
 
-<summary>Teachers note</summary>
+### Aim
 
-#### Aim
+The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life.
 
-The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
+They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors.
+
+Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
 
 </f-notes>
 
