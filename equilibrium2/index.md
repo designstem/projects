@@ -1,22 +1,25 @@
 | background: ./images/christo.jpg
 | tint: 0
-
-<div style="--purple: var(--orange)">
+| rows: 1fr auto
+| 1 3
+| 2 3
 
 # <big><big>Equilibrium<var class="purple">vs</var><br>Equilibrium</big></big>
 
 <big>Natural equilibrium and floating equilibrium</big>
 
+-
 
-<f-next-button title="Next" />
+<f-next-button title="Start" />
 
-</div>
 -
 
 ---
 
 | theme: dark
-| 1 2 2 2
+| rows: 1fr auto
+| 1 3 3 3
+| 2 3 3 3
 
 # Plastic pollution
 
@@ -24,38 +27,19 @@ The sea is covered by "plastic floating islands"
 
 Plastic can sink and pollute the sea at all depths
 
-
-<f-next-button title="Next" />
-
+<a class="tertiary" href="../plastics" target="_blank">Learn how plastic floats</a>
 
 -
 
+<f-next-button title="Is there any hope?" />
+
+-
 
 <f-video src="https://www.youtube.com?v=31CdhLMV7Es" />
 
 ---
 
-| background: ./images/img1_index2.jpg
-| theme: dark
-| 1 1 2 2 2
-
-# Float or sink?
-
-Find out how different plastics float or sink
-
-<f-inline>
-  <a class="secondary" href="../plastics" target="_blank">Play with Lighter than Air</a>
-  <f-next-button title="Is it all bad?" />
-</f-inline>
-
--
-
-<!--f-image src="images/img1_index2.jpg" /-->
-
----
-
 | padding: 0
-| 1 1 2 2
 
 <section><section>
 
@@ -92,6 +76,9 @@ Can you find any other good news about plastic and environment?
 
 | background: ./images/img_index4.jpg
 | tint: 0
+| rows: 1fr auto
+| 1
+| 2
 
 # Plastic reuse and art
 
@@ -99,9 +86,9 @@ Can you find any other good news about plastic and environment?
 
 Plastic can also be used to make you walk on water, <a href="https://christojeanneclaude.net/projects/the-floating-piers" target="_new">see this art installation</a>.
 
+-
 
 <f-next-button title="Discuss" />
-
 
 ---
 
@@ -154,21 +141,35 @@ After which physical laws the piers were floating, even with many people walking
 
 ---
 
-| 1 1 2
+| 1 1 1
+| 2 3 4
+| 5 6 7
 
 # Does your boat float?
 
 ### How much weight can you add to your object before it sinks?
 
-1. Measure the volume of your "boat". Hint: fill it with water then pour the water into a measuring cup. The amount of water that was in the boat tells you its volume.
+-
 
-2. Calculate how many grams of water the boat can hold (1 ml of water = 1 g).
+<span class="bullet">1</span> Measure the volume of your "boat". Hint: fill it with water then pour the water into a measuring cup. The amount of water that was in the boat tells you its volume.
 
-3. Float the empty boat and start adding quarters one at a time. Add them slowly so you don’t flip the boat over! What happens to the boat as you add quarters? How many quarters does it take to sink the boat?
+-
 
-4. Calculate how many grams of quarters were needed to sink the boat. One quarter of water has a mass of about 5.67 g.
+<span class="bullet">2</span> Calculate how many grams of water the boat can hold (1 ml of water = 1 g).
 
-5. Compare the total mass of water that sink the boat to the mass of water that fills the boat (see step 2). What do you notice?
+-
+
+<span class="bullet">3</span> Float the empty boat and start adding quarters one at a time. Add them slowly so you don’t flip the boat over! What happens to the boat as you add quarters? How many quarters does it take to sink the boat?
+
+-
+
+<span class="bullet">4</span> Calculate how many grams of quarters were needed to sink the boat. One quarter of water has a mass of about 5.67 g.
+
+-
+
+<span class="bullet">5</span> Compare the total mass of water that sink the boat to the mass of water that fills the boat (see step 2). What do you notice?
+
+-
 
 <f-next-button title="Finish your boat" />
 
