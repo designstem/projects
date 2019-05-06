@@ -16,6 +16,77 @@
 
 </div></center>
 
+<f-notes width="50vw" style="font-family:var(--font-serif); --base:10px; --primary:var(--darkgray)">
+
+### Teacher’s Guide for DesignSTEM ALGORITHM scenario
+
+#### Introduction
+
+This is a guide for using the algorithm scenario. The guide includes learning goals, an exemplary structure for a lesson plan and a Q&A section that can help you to lead discussion whether you are a STEM or a design teacher.
+
+**The students will:**
+- learn what is an algorithm
+- enumerate steps to solve a problem or reach a goal
+- learn what are computer generated algorithms
+- understand the very basics of how computer algorithms work
+- understand the link between an algorithm and design
+- create their own algorithm
+- analyse the asymptotic performance of algorithms
+- demonstrate a familiarity with major algorithms and data structures
+- apply important algorithmic design paradigms and methods of analysis
+- synthesize efficient algorithms in common engineering design situations
+
+
+**Before using the e-tool**
+In order to get students introduced to the subject of algorithms, please think of visual exploration and analysis of real-life situations where algorithms work (e.g morning routine or anything that contains sequencing, repetition and conditional logic). Additionally, please prepare scissors and papers for the warming-up exercise. Laptops/tablets/smartphones will be needed for accessing the design algorithm exercise during the scenario implementation.
+The students must have basic knowledge of problem solving, computers and design. 
+
+
+**Using the e-tool** https://designstem.github.io/scenarios/algorithms/
+The scenario is composed of the following stages:
+1. Warming-up exercise (students will need scissors and paper)
+2. Introduction to what an algorithm is with examples where it can be found
+3. Explanation of Computer Generated Algorithms
+4. Examples of Design Computer Generated Algorithms
+5. Individual exploratory work (“playing with lines”). Laptops/ tablets/smartphones needed
+6. Individual assignments
+
+**An exemplary lesson plan**
+1. Introduce the learning goals of the class
+2. Ask the students to think of any kind of problem on a daily basis and list the steps they need to perform in order to solve this problem
+3. Ask students to enter the scenario webpage and do the tasks
+4. Explain what is an algorithm and where it can be found
+5. Discuss with the students the link between algorithms and design
+6. Ask them to use the scenario webpage and work with some examples
+7. Explain and discuss the work
+8. Perform the assignment provided by the scenario
+
+
+**Questions to ask** during the work to spice up motivation or to help guide students towards the desired direction:
+* What is your morning routine before coming to school?
+* Which design objects link to algorithms?
+* Why do we need algorithms?
+* How do algorithms make our lives easier?
+* What can be alternative to the design objects created with the help of algorithms? 
+* Why do we need computers?
+* What do design and algorithms have something in common?
+
+**After using the e-tool**
+Questions to help spark conversation with students:
+* How would you describe an algorithm?
+* What shape did you obtain after completing the task?
+* Which other materials can be used to create similar tasks?
+* How did the patterns change when you played with the values?
+
+You can consider providing also other algorithm and design examples. During the exercise with more complex patterns, you can change the scaling and rotating scores. Lastly, you can change the last assignment, but considering the importance of students’ engagement during and after the task. Please engage students in discussion of their results after the last assignment. Their final product could be shown to the rest of the class.
+ 
+The task can be completed in an environment with access to the web-scenario.
+The task can be reviewed according to class goals.
+The task can be evaluated by describing what is an algorithm, how it links to design; creating an algorithm etc.
+
+
+</f-notes>
+
 ---
 
 
@@ -522,14 +593,12 @@ An algorithm **has one or more outputs**, which have a specified relation to the
 
 
 
-
+| rows: 1fr auto 1fr
 | 1 1 1
 | 2 3 4
 | 5 5 5
 
 ## More specifically, an algorithm is composed of:
-
-<f-hr style="margin:5vh 0;" />
 
 -
 
@@ -576,9 +645,10 @@ you get a result
 
 -
 
-<f-hr style="margin:5vh 0;" />
-
 <f-prev-button /> <f-next-button />
+
+
+
 
 ---
 
@@ -948,10 +1018,12 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 
 
+| rows: 1fr 2fr 1fr
+| cols: 3fr 1fr
 
-| 1 1 1
-| 2 2 3
-| 4 4 4
+| 1 
+| 2 
+| 3 
 
 # That was just a beginning
 
@@ -959,15 +1031,26 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 With these examples you can see how simple shapes combined and some basic operations like repeating, scaling and rotating generate a lot of complex patterns.
 
-When we add other important properties like colour, stroke width, transparency and so on we can alter the algorithm and have different, even more complex output.
+When we add other important properties like colour, stroke width, transparency and so on, we can alter the algorithm and have different output.
+
+Plus it is possible to let different functions and/or data, such as randomness, noise, sine wave, user input, voice, weather information, tweets etc affect the parameters and then we have much more options and complex results.
+
+But let all this be a subject for the next time :)
 
 -
-
--
-
-<br /><br />
 
 <f-prev-button /> <f-next-button title="Next" />
+
+#### &nbsp;
+
+
+
+
+
+
+
+
+
 
 ---
 
