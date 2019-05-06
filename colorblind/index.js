@@ -15,7 +15,7 @@ fachwerk({
     "Poster" : Poster,
   },
   theme: "light",
-  editor: "none",
+  editor: "hide",
   pager: true,
   home: false,
   type: "slides",
