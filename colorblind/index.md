@@ -759,11 +759,11 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
+| section: cb-colour
 | 1
 | 2 
-| 2
-| 2
 | 3
+| rows: 1fr auto 1fr
 
 # The colour
 
@@ -941,6 +941,8 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
+| section: cb-back-to
+
 | 1
 | 1
 | 2
@@ -988,9 +990,9 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-~It is important for designers (or actually everyone who use colour for communication) to remember:~
+~It is important for designers (or actually everyone who uses colour for communication) to remember:~
 
-> ##### ~"Your red" may not be the same as "my red" &ndash; "my red" may even not be red at all!~
+> ##### ~"Your red" may not be the same as "my red" &ndash; it may even not be red at all!~
 
 ~You should double-check, that any important text or graphic element~
 
@@ -1054,7 +1056,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 - ~Which colours are the most "dangerous" ones to use in CVD context?~
 - ~Can you find a combination, that works for all CVD types?~
 - ~Do the same colours work for all? Test your palette &ndash; ask other people opinions.~
-- ~What colour is love~
+- ~What colour is love?~
 
 -
 
@@ -1197,126 +1199,12 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-<f-next-button title="Useful links and tools" />
+<f-next-button title="Links and useful tools" />
 
 ## &nbsp;
 
 
 
-
----
-
-<!-- | section: cb-designer2
-| gap: 2vmin
-
-
-| 1 1 1 1
-| 2 3 4 5
-
-
-
-<f-inline style="--base:8px; justify-content:space-between;">
-
-<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
-
-#### Background color
-
-<f-inline>
-  <div>
-    <div 
-      style="width:8vw;height:8vw; " 
-      :style="{ background:hsb2hsl( get('h51',44), get('s51',77), get('b51',100) ) }"
-    ></div>
-  </div>
-
-  <div style="flex:1">
-    <f-slider title="H" :value="get('h51', 44)" v-on:input="set('h51', $event)" to="360" integer />
-    <f-slider title="S" :value="get('s51', 77)" v-on:input="set('s51', $event)" to="100" integer />
-    <f-slider title="B" :value="get('b51', 100)" v-on:input="set('b51', $event)" to="100" integer />
-  </div>
-</f-inline>
-</div>
-
-<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
-
-#### Heading color
-
-<f-inline>
-  <div>
-    <div 
-      style="width:8vw;height:8vw; " 
-      :style="{ background:hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ) }"
-    ></div>
-  </div>
-
-  <div style="flex:1">
-    <f-slider title="H" :value="get('h52', 44)" v-on:input="set('h52', $event)" to="360" integer />
-    <f-slider title="S" :value="get('s52', 77)" v-on:input="set('s52', $event)" to="100" integer />
-    <f-slider title="B" :value="get('b52', 77)" v-on:input="set('b52', $event)" to="100" integer />
-  </div>
-</f-inline>
-
-</div>
-
-<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
-
-#### Text color
-
-<f-inline>
-  <div>
-    <div 
-      style="width:8vw;height:8vw; " 
-      :style="{ background:hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ) }"
-    ></div>
-  </div>
-  <div style="flex:1">
-    <f-slider title="H" :value="get('h53', 44)" v-on:input="set('h53', $event)" to="360" integer />
-    <f-slider title="S" :value="get('s53', 77)" v-on:input="set('s53', $event)" to="100" integer />
-    <f-slider title="B" :value="get('b53', 77)" v-on:input="set('b53', $event)" to="100" integer />
-  </div>
-</f-inline>
-
-</div>
-
-
-</f-inline>
-
--
-
-<Poster 
-  :bgColor="hsb2hsl( get('h51',44), get('s51',77), get('b51',100) )" 
-  :headingColor="hsb2hsl( get('h52',44), get('s52',77), get('b52',77) )" 
-  :textColor="hsb2hsl( get('h53',44), get('s53',77), get('b53',77) )" 
-  :type="'Normal'"
-/>
-
--
-
-
-<Poster 
-  :bgColor="colorblind( hsb2hsl( get('h51',44), get('s51',77), get('b51',100) ), 'protanopia' )" 
-  :headingColor="colorblind( hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ), 'protanopia' )" 
-  :textColor="colorblind( hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ), 'protanopia' )" 
-  :type="'Protanopia'"
-/>
-
--
-
-<Poster 
-  :bgColor="colorblind( hsb2hsl( get('h51',44), get('s51',77), get('b51',100) ), 'deuteranopia' )" 
-  :headingColor="colorblind( hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ), 'deuteranopia' )" 
-  :textColor="colorblind( hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ), 'deuteranopia' )" 
-  :type="'Deuteranopia'"
-/>
-
--
-
-<Poster 
-  :bgColor="colorblind( hsb2hsl( get('h51',44), get('s51',77), get('b51',100) ), 'tritanopia' )" 
-  :headingColor="colorblind( hsb2hsl( get('h52',44), get('s52',77), get('b52',77) ), 'tritanopia' )" 
-  :textColor="colorblind( hsb2hsl( get('h53',44), get('s53',77), get('b53',77) ), 'tritanopia' )" 
-  :type="'Tritanopia'"
-/> -->
 
 
 

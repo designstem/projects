@@ -10,8 +10,8 @@
 
 <f-section-card title="Start" section="cb-what" />
 
-<f-section-card title="Explore color blindness" section="cb-explore">
-- How does color vision deficiency affects people?
+<f-section-card title="Explore colour blindness" section="cb-explore">
+- How does colour vision deficiency affects people?
 </f-section-card>
 
 <f-section-card title="Photo safari" section="cb-safari">
@@ -33,6 +33,12 @@
 <f-section-card title="Colour perception" section="cb-colour-perception">
 - What happens in the brain?
 </f-section-card>
+
+<f-section-card title="The colour?" section="cb-colour">
+- Where colour is born?
+</f-section-card>
+
+<f-section-card title="Back to CVD" section="cb-back-to" />
 
 <f-section-card title="Design your own" section="cb-designer">
 - Define a color palette that works for CVD
