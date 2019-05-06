@@ -462,9 +462,12 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 
 -
 
-~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and wheels were rotating fast enough not to be in sync in every frame to produce natural visual impression of movement.~ 
+~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and ***wheels were rotating fast enough not to be in sync in every frame*** to produce natural visual impression of rotating wheel.~ 
 
--
+<p />
+<img src="./images/frameRate.png" alt="Frame rate" width="100%">
+
+<small>Without arrow symbol, wheel appears to be rotating slowly backwards (counterclockwise).</small>
 
 <p />
 
