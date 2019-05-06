@@ -135,12 +135,11 @@ Watch the following videos and define frequency with your own words and describe
 ---
 
 | section: ACTIVITY_1
+| rows: auto 1fr
 
 | 1 1 1
 | 2 2 3
-| 2 2 3
-| 2 2 3
-| 2 2 3
+
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
@@ -175,7 +174,6 @@ You'll find 6 template PDF's from the .zip file. In this excercise You'll need o
 2. print more than 1 sheet for every student
 
 </f-notes>
-
 
 
 # <f-activity-icon />Make a spinning animation
@@ -226,11 +224,10 @@ You are now ready to make your own visual experiments!
 ---
 
 | section: THEORY_1
+| rows: auto auto 1fr
 
 | 1 1
 | 2 3
-| 4 4
-| 4 4
 | 4 4
 
 # From spinning to frequency
@@ -727,11 +724,9 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
 ---
 
 | section: ACTIVITY_2
+| rows: auto 1fr
 
 | 1 1 1
-| 2 2 3
-| 2 2 3
-| 2 2 3
 | 2 2 3
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
