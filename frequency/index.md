@@ -4,7 +4,7 @@
 | 1 1 1 1 1 3 3 3
 | 2 2 2 2 2 3 3 3
 
-<f-scene width="1100" height="1100" style="position: fixed; top: -470px; right: -600px; z-index: 10000;">
+<f-scene width="1100" height="1100" style="position: fixed; top: -470px; right: -600px; z-index: 0;">
   <f-circle r="0.1" :stroke="color('darkgray')" />
   <f-circle r="1.26" :stroke="color('darkgray')" />
   <f-circle r="1.95" :stroke="color('darkgray')" />
@@ -24,19 +24,23 @@
   </f-spinner>
 </f-scene>
 
+<div style="position: relative">
+
 # <big><big>Frequency<br>& Motion</big></big>
 
-<big>
+Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?
 
-~Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?~
+<big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and let's go!</big>
 
-Ready to trick your brain and explore your creativity?<br>Prepare your turntable and let's go!
-
-</big>
+</div>
 
 -
 
+<div style="position: relative">
+
 <f-next-button title="Start" />
+
+</div>
 
 -
 
@@ -58,7 +62,7 @@ This lesson is divided into three main sections:
 ---
 
 | background: images/collage.png
-| tint: 0
+| tint: 0.2
 | theme: dark
 
 <center><div>
@@ -72,12 +76,16 @@ This lesson is divided into three main sections:
 ---
 
 | section: DISCUSS_1
-
+| padding: 0
 | gap: 0
-
+| theme: dark
 | 1 2 3
 | 1 4 5
 | 1 6 7
+
+<section>
+
+<p />
 
 <f-icon-heading icon="fact">Discuss</f-icon-heading>
 
@@ -86,6 +94,9 @@ This lesson is divided into three main sections:
 Watch the following videos and define frequency with your own words and describe all possible ways to experience it.
 
 <f-next-button />
+
+</section>
+
 
 -
 
