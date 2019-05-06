@@ -448,9 +448,35 @@ Watch following clip and notice <br><var>how wheels of the wagon are moving?</va
 
 | section: EXPERIMENT_1
 
+| rows: auto auto 1fr
+
+| 1 1
+| 2 3
+| 4 4
+
 # What happened to the wheels?
 
-~You just experienced a *wagon-wheel effect* or *stroboscopic effect* occurring on a movie clip when moving wheels are stopping or moving backwards. How does it work? Lets set up an experiment.~
+-
+
+You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the [rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe. . 
+
+-
+
+~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and wheels were rotating fast enough not to be in sync in every frame to produce natural visual impression of movement.~ 
+
+-
+
+<p />
+
+##### How does it work? Lets set up an experiment in the next slide
+
+<p />
+
+<f-next-button title="Go" />
+
+---
+
+# Can You freeze the spinning wheel?
 
 #### Adjust the wheel speed so the lines will stop
 
