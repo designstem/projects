@@ -1,21 +1,16 @@
-| padding: 0
 | background: ./images/model.jpg
 | theme: dark
-
-| 1 1 2 2 2
-
-<section><section>
+| rows: 1fr auto
+| 1 3
+| 2 3
 
 # <big><big>Smart Tattoos</big></big>
 
 <big>Design a biosensitive tattoo that expresses you life and can also save your life</big>
 
-<f-next-button title="Start" />
-
-</section></section>
-
-
 -
+
+<f-next-button title="Start" />
 
 <f-notes>
 
@@ -31,10 +26,10 @@
 
 ---
 
+| rows: auto 1fr
 | 1 1 1
 | 2 3 4
-| 2 3 4
-| 2 3 4
+
 
 
 <f-icon-heading>Class activity</f-icon-heading>
@@ -55,10 +50,8 @@
 
 ---
 
+| rows: auto 1fr
 | 1 1
-| 2 3
-| 2 3
-| 2 3
 | 2 3
 
 # What is smart tattoo?
@@ -81,9 +74,8 @@
 
 ---
 
+| rows: auto 1fr
 | 1 1 1
-| 2 3 4
-| 2 3 4
 | 2 3 4
 
 <f-icon-heading>Class activity</f-icon-heading>
@@ -108,9 +100,8 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 
 ---
 
+| rows: auto 1fr
 | 1 1 1
-| 2 3 4
-| 2 3 4
 | 2 3 4
 
 <f-icon-heading>Class activity</f-icon-heading>
@@ -139,10 +130,8 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 
 ---
 
+| rows: auto 1fr auto
 | 1 1
-| 2 3
-| 2 3
-| 2 3
 | 2 3
 | 4 4
 
