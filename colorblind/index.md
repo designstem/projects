@@ -7,13 +7,13 @@
 
 # <big><big>Design for<br>color blindness</big></big> 
 
-<big>What is <var class="gray">color blindness</var>?
+<big>What is <var class="gray">color blindness</var>?</big>
 
 <big>What is <var class="gray">color vision deficiency / CVD</var>?</big>
 
 <big>How to design for people whose color perception is impaired?</big>
 
-</big>
+
 
 -
 
