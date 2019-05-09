@@ -7,12 +7,14 @@ import * as localutils from "./utils.js";
 //import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
 import ColorblindnessJuxtapose from "./components/ColorblindnessJuxtapose.js";
 import Poster from "./components/Poster.js";
+import Mapper from "./cv-mapper/Mapper.js";
 
 fachwerk({ 
   components: { 
         //"ImageCompare" : ImageCompare,
     "ColorblindnessJuxtapose" : ColorblindnessJuxtapose,
     "Poster" : Poster,
+    "Mapper" : Mapper
   },
   theme: "light",
   editor: "hide",
