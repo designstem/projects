@@ -279,7 +279,7 @@ export default{
     </div>
 
 
-    <f-inline v-if="upload" style="margin-top:var(--base); border:3px solid var(--darkgray); padding:var(--base2); position:sticky; bottom:0px; background:var(--yellow)">
+    <f-inline v-if="upload">
       <h5>Try it with your own image: </h5><input type="file" @change="changeImage">
     </f-inline>
     
@@ -287,7 +287,7 @@ export default{
   `,
   css: `
     .cb-juxt {
-      //padding-bottom: var(--base2); 
+      padding-bottom: var(--base2); 
       position: relative;
     }
     
@@ -296,8 +296,8 @@ export default{
       top:100px; 
       left:0; 
       z-index: 99;
-      background:var(--white); 
-      color:var(--lightestgray); 
+      background:var(--darkestgray); 
+      color:var(--white); 
       padding:var(--base);
     }
     .cbs-canvas__status {
@@ -306,23 +306,19 @@ export default{
       left:0; 
       z-index: 100;
       font-size: var(--base2);
-      background:var(--lightergray); 
-      color:var(--darkergray); 
+      background:var(--darkestgray); 
+      color:var(--white); 
       padding:0 var(--base);
     }
     input[type=file]::-webkit-file-upload-button {
-      display: inline-block;
-      padding: calc(var(--base)/2) var(--base) ;
-      margin-right: var(--base);
-      background: var(--white);
-      border: 2px solid var(--darkgray);
+      padding: calc(var(--base) * 1.5) calc(var(--base) * 2);
+      display: inline-flex;
       border-radius: var(--border-radius);
-      //color: var(--darkgray);
-      font-size: var(--base2);
-      font-weight: normal;
+      color: var(--white);
+      font-weight: bold;
       cursor: pointer;
-      //border: none;
-      //background: none;
+      border: none;
+      background: var(--darkestgray);
     }
   `
 };

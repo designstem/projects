@@ -10,7 +10,19 @@
 
 
 
+https://enchroma.com/pages/color-blindness-test
+https://getstark.co/
+https://www.youtube.com/watch?v=iNRQB5309yo !!!
 
+https://www.youtube.com/watch?v=xrqdU4cZaLw  how to design games for cvd
+
+
+
+
+
+html draggable
+
+input color
 
 
 

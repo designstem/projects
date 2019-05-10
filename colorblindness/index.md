@@ -1,20 +1,29 @@
 
 | section: start
-| theme: yellow
+| theme: dark
+| background: './images/colorblind-subway.png'
+| tint: 0.9
+| rows: 2fr 1fr 1fr
+| 1
+| 2
+| 3 
 
-<div>
+
+<div style="padding-top:20vh;">
 
 # <big>Color Vision Deficiency & <br />Accessibility</big>
 
-#### How to design information for people whose color perception is impaired.
+</div>
+
+-
+
+#### How to design information for people whose colour perception is impaired.
 
 ~(Richard Spencer, Kristin Kreer)~
 
-<br />
-<br />
-<br />
+-
 
-<f-embed src="./menu.md" />
+<!-- <f-embed src="./menu.md" /> -->
 
 <f-next-button title="Let's start" style="margin: var(--base8) 0;" />
 
@@ -23,7 +32,7 @@
 
 
 
-<div style="opacity:0.2; margin-top:50vh;">
+<!-- <div style="opacity:0.2; margin-top:50vh;">
 <button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
 <button v-on:click="send('goto','3properties')" >3 properties</button> 
 <button v-on:click="send('goto','shampoo')">Shampoo</button>
@@ -35,7 +44,7 @@
 </div>
 
 
-</div>
+</div> -->
 
 
 
@@ -50,7 +59,7 @@ The students’ awareness should be raised for the problems people with color vi
 </f-notes> -->
 
 
-<f-sidebar title="Menu" src="./menu.md" />
+<!-- <f-sidebar title="Menu" src="./menu.md" /> -->
 
 
 
@@ -59,29 +68,24 @@ The students’ awareness should be raised for the problems people with color vi
 ---
 
 | section: explore-cb
-| 1 1 2 2 
+| gap: 3vmin
+| 1 3
+| 2 3
+| rows: 1f auto
 
-<!-- ##### EXPLORE -->
 # Color blindness
 
-<p />
+-
 
 <div v-if="get('revealX') < 75">
 
-  <p />
-
 <f-inline>
-
-  # 👉
 
   ~This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
   ~Actually there is **<span style="color:var(--red)">only one red tomato</span>** in this picture~
 
-  <!-- ## <big>👉</big> -->
-
 </f-inline>
 
-<!-- <f-icon :size="'large'" :icon="'Activity'" style="width:15vw;" /> -->
 <f-inline>
 
 # 🤔
@@ -90,19 +94,12 @@ The students’ awareness should be raised for the problems people with color vi
 
 </f-inline>
 
-
-#  
-
 <button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
 </div>
 
 
-
 <div v-if="get('revealX') > 75">
-
-  <br />
-  <br />
 
   ~**Did you guess right? If you picked the right tomato, congratulations!**~
   
@@ -115,9 +112,6 @@ The students’ awareness should be raised for the problems people with color vi
   </f-inline>
 
   <small>~*BTW, you can also drag or click on the image to compare protanopia vs normal seeing*~</small>
-
-  <br />
-  <br />
 
   <f-next-button title="Next: go outside!" />
 
@@ -133,10 +127,11 @@ The students’ awareness should be raised for the problems people with color vi
 
 </f-notes>
 
-
 -
 
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" />
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" style="position:sticky; top:10px; bottom:10px;" />
+
+
 
 
 
@@ -149,14 +144,13 @@ The students’ awareness should be raised for the problems people with color vi
 ---
 
 | id: cbSafari
-| height: 100vh
 | gap: 0
 | padding: 0
-| 1 2
+| 1 3
+| 2 3
+| rows: auto 25vh
 
-
-
-<section style="display:grid; grid-template-rows: auto 100px; padding:var(--content-padding); height:100%;">
+<section style="padding:var(--content-padding);">
 
   <div>
   
@@ -169,18 +163,18 @@ The students’ awareness should be raised for the problems people with color vi
 
   <f-inline>
 
-  # 📸
-
   ~**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**~
   
   </f-inline>
   
   </div>
 
-  <div>
-    <f-next-button title="Analyze your photos" style="margin:var(--base2) 0 var(--base2) 0" />
-  </div>
+</section>
 
+-
+
+<section style="padding:var(--content-padding);">
+  <f-next-button title="Analyze your photos" />
 </section>
 
 -
@@ -234,23 +228,34 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 
-# Color&shy;blindness types
+# Analyze images
 
 <p />
 
-~Simulate color vision deficiency by applying different filters to the image. **Drag the red handlers to see the difference**~
+~<f-arrow-icon rotation="90" /> Simulate color vision deficiency by applying different filters to the image.~
+<p />
+
+<f-card :title="get('cbType', 'Protanopia') == 'Protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType', 'Protanopia') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')">
+
+<p v-if="get('cbType', 'Protanopia') == 'Protanopia'" style="font-size:100%;">reduced sensitivity to <b>RED</b> light</p>
+
+</f-card>
+
+<f-card :title="get('cbType') == 'Deuteranopia' ? 'Simulating Deuteranopia 👉' : 'Simulate Deuteranopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" >
+
+<p v-if="get('cbType') == 'Deuteranopia'" style="font-size:100%;">reduced sensitivity to <b>GREEN</b> light</p>
+
+</f-card>
+
+<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')">
+
+<p v-if="get('cbType') == 'Tritanopia'" style="font-size:100%">reduced sensitivity to <b>BLUE</b> light</p>
+
+</f-card>
 
 <p />
 
-<f-card :title="get('cbType', 'Protanopia') == 'Protanopia' ? ' 👉 Simulating Protanopia' : 'Simulate Protanopia'" subtitle="missing RED" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType', 'Protanopia') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')" />
-
-<f-card :title="get('cbType') == 'Deuteranopia' ? ' 👉 Simulating Deuteranopia' : 'Simulate Deuteranopia'" subtitle="missing GREEN" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" />
-
-<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" subtitle="missing BLUE" background="var(--lightergray)" color="var(--darkgray)" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')" />
-
-<p />
-
-~Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
+~Find out if any information on your pictures **get lost for colorblind people**. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
 
 
 <f-next-button style="margin:var(--base4) 0" />
@@ -259,13 +264,16 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-<div style="height:100vh; position: sticky; top:0">
+<div style=" position:sticky; top:var(--content-padding)">
+
+<p style="--base:8px;"><i>Drag the red triangular handlers or click on image to see the difference</i></p>
 
 <ColorblindnessJuxtapose 
   :imageUrl="'images/colorblind-subway.png'" 
   :revealed="25" 
   :locked="false"
   :cbType="get('cbType', 'Protanopia')"
+  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)"
 />
 
 </div>
@@ -281,17 +289,13 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
-| height: 100vh
-| 1 1 1
-| 2 3 3
-| 4 4 4
+| 1 1
+| 2 3
+| 4 4
+| cols: 1fr 3fr
 
 
-<!-- ##### EXPLORE -->
-# Color blindness
-## Analyze results
-
-<f-hr />
+# Analyze results
 
 -
 
@@ -299,13 +303,13 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-#### ~**1** Find out what the main problem is regarding the color scheme.~
-#### ~**2** Phrase a hypothesis on how this problem could be solved.~
-#### ~**3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
+##### ~**1** Find out what the main problem is regarding the color scheme.~
+##### ~**2** Phrase a hypothesis on how this problem could be solved.~
+##### ~**3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<f-next-button />
 
 
 
@@ -316,14 +320,22 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
-<!-- ##### EXPLAIN -->
+| 1 1
+| 2 4
+| 3 4
+| cols: 2fr 3fr
+
 # Learning stations
 
-<f-hr style="margin:var(--base6) 0" />
+-
 
 ~**Find out about the following topics through working on the provided learning stations.<br />This should enable you to optimize the accessibility of information in your design products.**~
 
-<br />
+-
+
+<f-next-button style="margin:6vh 0" title="Next: Accessibility" />
+
+-
 
 - ~Accessibility~
 - ~The eye~
@@ -332,9 +344,10 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 - ~Three dimensions of color (color space models)~
 - ~Color contrast and color harmony theory~
 - ~Design rules for creating color palettes~
-- ~Summary station~
 
-<f-next-button style="margin:6vh 0" title="Accessibility" />
+-
+
+
 
 <f-notes>
   
@@ -360,32 +373,25 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 | section: accessibility
-| padding: 0
-| gap: 0
-| height: 100vh
-| 1 2
+| 1 4
+| 2 4
+| 3 4
 
-<section style="padding: var(--content-padding)">
 
-<!-- ##### EXPLAIN  -->
 # Accessibility
 
-<f-hr style="margin:var(--base6) 0" />
+-
 
-## Tasks
+#### Tasks
 
 1. ~What do you understand by “accessibility”? Have you ever come across that term? In which context have you heard about it?~
-
 2. ~Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition.~
-
 3. ~Get an overview of the areas in which we need to improve accessibility.~
-
 4. ~Further, find out about the difference between “accessibility” and “usability”.~
 
+-
+
 <f-next-button style="margin:var(--base6) 0" />
-
-</section>
-
 
 -
 
