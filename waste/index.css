@@ -1,0 +1,26 @@
+ol {
+  counter-reset: f-counter;
+  list-style: none;
+  padding-left: 40px;
+}
+ol li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: f-counter;
+  position: relative;
+}
+ol li::before {
+  content: counter(f-counter);
+  color: var(--white);
+  --size: calc(var(--base) * 3);
+  font-size: calc(var(--size) * 0.55);
+  font-weight: bold;
+  position: absolute;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  background: var(--purple);
+  border-radius: 50%;
+  text-align: center;
+}
