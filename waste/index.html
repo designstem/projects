@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://designstem.github.io/fachwerk/fachwerk.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+      ol {
+        counter-reset: f-counter;
+        list-style: none;
+        padding-left: 40px;
+      }
+      ol li {
+        margin: 0 0 0.5rem 0;
+        counter-increment: f-counter;
+        position: relative;
+      }
+      ol li::before {
+        content: counter(f-counter);
+        color: var(--white);
+        --size: calc(var(--base) * 3);
+        font-size: calc(var(--size) * 0.55);
+        font-weight: bold;
+        position: absolute;
+        left: calc(-1 * var(--size) - 10px);
+        line-height: var(--size);
+        width: var(--size);
+        height: var(--size);
+        top: 0;
+        background: var(--purple);
+        border-radius: 50%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="fachwerk"></div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
