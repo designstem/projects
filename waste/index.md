@@ -112,15 +112,53 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 For example:
 
-<div class="grid">
-<f-card><big><var>upcycle, recycle, downcycle</var></f-card>
-<f-card><big><var>cradle to cradle</var></f-card>
-</div>
+<div class="grid" style="--cols: 1fr 1fr 1fr">
 
-, recycle, downcycle, cradle to cradle, sustainability, life cycle, urban mining, shared economy~
+<f-card background="none" border="var(--lightgray)">circular economy</f-card>
+
+<f-card background="none" border="var(--lightgray)">upcycle, recycle, downcycle</f-card>
+
+<f-card background="none" border="var(--lightgray)">cradle to cradle</f-card>
+
+<f-card background="none" border="var(--lightgray)">sustainability</f-card>
+
+<f-card  background="none" border="var(--lightgray)">urban mining</f-card>
+
+<f-card  background="none" border="var(--lightgray)">shared economy</f-card>
+
+</div>
 
 Explain of the two concepts you have chosen how they contribute to make the world cleaner from waste.
 
+---
+
+| 1 3 3
+| 1 2 2
+
+# Example
+
+<f-card background="none" border="var(--lightgray)">circular economy</f-card>
+
+In a nutshell this animation shows the concept of circular economy.
+Before you watch the animation look at the following questions.
+
+1. What is the difference between human and nature concerning waste?
+
+2. What is meant by linear economy?
+
+3. Which solutions for our waste problem does this animation show us?
+
+Share what you’ve seen with the class.
+
+-
+
+https://www.ellenmacarthurfoundation.org/resources/learn/courses
+
+***NOTE: Perhaps add a better link with actual information, not just a course promotion?***
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=zCRKvDyyHmI" />
 
 ---
 
