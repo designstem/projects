@@ -1,11 +1,15 @@
 | theme: dark
 | background: https://www.commondreams.org/sites/default/files/styles/cd_large/public/views-article/plastic-a.jpg
 
-<center>
+<center><div>
 
 # <big><big>Waste is a<br>design mistake</big><big>
 
-</center>
+### Today's environmental challenges,<br>footprint calculator and material properties
+
+***NOTE: Copyrighted image***
+
+</center></div>
 
 <f-notes>
 Image: https://www.commondreams.org/views/2016/01/31/we-cant-let-it-be-more-plastic-fish-our-sea from https://blog.marine-conservation.org/tag/noaa-marine-debris-program
@@ -13,7 +17,136 @@ Image: https://www.commondreams.org/views/2016/01/31/we-cant-let-it-be-more-plas
 
 ---
 
+| 1 2 2
+
+# Our planet
+
+We all know that we can’t keep on wasting resources. 
+
+We’re exhausting our planet!
+
+**What’s your feeling about that?**
+
+***NOTE: Copyrighted image***
+
+-
+
+<f-image src="https://c7.alamy.com/comp/A1M16R/trash-on-a-hong-kong-coastline-sai-kung-country-park-new-territories-A1M16R.jpg" />
+
+
+<f-notes>
+Image: https://www.alamy.com/stock-photo-trash-on-a-hong-kong-coastline-sai-kung-country-park-new-territories-10286494.html
+<f-notes>
+
+---
+
+| 1 2 2 2
+
+# TED talk
+
+***NOTE: Clearer title needed***
+
+Look at the TED talk of Thomas Twaites and 
+explain the core of what he’s saying.
+
+-
+
 <f-video src="https://www.youtube.com/watch?v=5ODzO7Lz_pw" />
+
+---
+
+#  Your living habits make up your footprint 
+
+https://footprint.wwf.org.uk/
+
+What could you do to make your footprint less?
+
+Write this down. 
+
+---
+
+# Ocean Cleanup
+
+A lot of people are aware of our footprint and are taking action in order to make the world a better place to live
+
+At age 16 (2011), Boyan Slat came across more plastic than fish while diving in Greece. He decided to devote a high school project for deeper investigation into ocean plastic pollution and why it was considered impossible to clean up.
+
+He later came up with the idea to build a passive system, using the circulating ocean currents to his advantage, which he presented at a TEDx talk in Delft in 2012.
+
+https://www.theoceancleanup.com/
+
+Have a look at his Ocean Cleanup foundation at the website.  
+What do you think what is most remarkable about this project?
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=ROW9F-c0kIQ" />
+
+---
+
+<f-activity-icon />
+
+# Look for initiatives
+
+1. Look for 3 initiatives that have found solutions for a waste problem
+
+2. Collect what you’ve found and discuss with the class why you choose these initiatives.
+
+
+***NOTE: Unnkown image copyright***
+
+-
+
+<f-image src="https://www.mibellegroup.com/blog/wp-content/uploads/2017/03/Workshop_Design-Thinking_Mibelle-Group-1024x768.jpg" />
+
+
+<f-notes>Image https://www.mibellegroup.com/blog/general/design-thinking/</f-notes>
+
+---
+
+<f-activity-icon />
+
+# Choose 2 concepts and explain them
+
+You probably found a lot of initiatives to make the world cleaner and they all have their own methodologies and concepts.
+
+For example:
+
+<div class="grid">
+<f-card><big><var>upcycle, recycle, downcycle</var></f-card>
+<f-card><big><var>cradle to cradle</var></f-card>
+</div>
+
+, recycle, downcycle, cradle to cradle, sustainability, life cycle, urban mining, shared economy~
+
+Explain of the two concepts you have chosen how they contribute to make the world cleaner from waste.
+
+
+---
+
+<f-activity-icon />
+
+# Make a flat lay from waste in your neighbourhood
+
+1. Go outside for 15 minutes
+
+2. Collect roaming waste
+
+3. Take it back to the classroom
+
+4. Make a nice composition for the flat-lay
+
+5. Take a picture
+
+<f-notes>
+
+https://www.designboom.com/art/gabriel-orozco-asterisms-at-the-guggenheim-new-york/
+
+https://www.enlightapp.com/blog/7-fantastic-tips-for-fabulous-flat-lay-photography/
+
+https://www.instagram.com/djhinva
+
+</f-notes>
 
 ---
 
