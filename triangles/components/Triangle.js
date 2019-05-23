@@ -20,9 +20,6 @@ export default{
   mixins: [Css],
   data() {
     return {
-      A: {x:0, y:0},
-      B: {x:0, y:0},
-      C: {x:0, y:0},
       colors: ['yellow', 'green', 'blue', 'orange'],
       triangle : {
           points: [],
@@ -33,9 +30,6 @@ export default{
     }
   },
   mounted() {
-    this.A.x = this.points[0][0]; this.A.y = this.points[0][1];
-    this.B.x = this.points[1][0]; this.B.y = this.points[1][1];
-    this.C.x = this.points[2][0]; this.C.y = this.points[2][1];
     this.solveTriangle();
   },
   methods: {
@@ -45,7 +39,7 @@ export default{
     },
     compTextPos(i){
         //return `${this.points[i][0]} ${this.points[i][1] - 1.3} `;
-        let polarxy = this.polarxy( this.compPolarAngle(i), this.distanceBetweenPoints( 1,2,3,4 ));
+        let polarxy = this.polarxy( this.compPolarAngle(i)+1.5, this.distanceBetweenPoints( 1,2,3,4 ));
         return `${polarxy[0]} ${polarxy[1]}`;
     },
     solveTriangle(){
@@ -101,38 +95,8 @@ export default{
   },
   computed: {
       compPath(){
-        // return ` ${this.points[0][0]} ${this.points[0][1]}, ${this.points[1][0]} ${this.points[1][1]}, ${this.points[2][0]} ${this.points[2][1]}`
         return ` ${this.points[0][0]} ${this.points[0][1]}, ${this.points[1][0]} ${this.points[1][1]}, ${this.points[2][0]} ${this.points[2][1]}`
       },
-    //   compPos(){
-
-    //   }
-    //   compViewBox(){
-    //       return `${-this.half.x} ${-this.half.y} ${this.width} ${this.height}`;
-    //   },
-      
-    //   compPolarDistance(){
-    //       let w = this.half.x * this.startPoints[this.dotIndex][0];
-    //       let h = this.half.y * this.startPoints[this.dotIndex][1];
-    //       return Math.sqrt(w*w + h*h);
-    //   },
-    //   compPolarAngle(){
-    //       let w = this.half.x * this.startPoints[this.dotIndex][0];
-    //       let h = this.half.y * this.startPoints[this.dotIndex][1];
-    //     return 90-Math.atan2(h,w) * (180/Math.PI);
-    //   },
-    //   compDistancePath(){
-    //     if(this.resultsDistance.length > 0){
-    //       let m = `M ${this.resultsDistance[0][0]}, ${this.resultsDistance[0][1]} `;
-    //       let l = "";
-    //       for(let i=1; i<this.resultsDistance.length; i++){
-    //         l += `L ${this.resultsDistance[i][0]}, ${this.resultsDistance[i][1]}`;
-    //       }
-    //       return m + l + " Z";
-    //     } else {
-    //       return `M 0 0 L 0 0`
-    //     }
-    //   },
       
   },
   template: `
@@ -155,22 +119,6 @@ export default{
         <f-text :position="compTextPos(1)">B</f-text>
         <f-text :position="compTextPos(2)">C</f-text>
     </f-scene>
-
-
-    <!-- <svg :viewBox="compViewBox" :width="width" :height="height" @click="stopAnimation" class="mapper">
-      <path 
-        v-for="(line, i) in startPoints"
-        :key="'line'+i" 
-        :d="drawLine(0, 0, half.x*startPoints[i][0], half.y*startPoints[i][1] )" 
-        class="guide" 
-      />
-      <path v-if="done" :d="compDistancePath" class="distancePath" />
-      <path v-if="done" :d="compColourPath" class="colourPath" />
-      <g :transform="compDotTransform">
-          <path d="M 0,0 L 0,0" class="dot" />
-      </g>
-    </svg>
-     -->
   </div>
   `,
   css: `

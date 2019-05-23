@@ -35,20 +35,11 @@ export const string2Coords = (string) => {
         //console.log("x:" + n[0] + " y:" + n[1]);
     });
 
-    
-    
-    //console.log("arr " + arr);
-
-    // a.forEach(function(entry) {
-    //     console.log(entry);
-    // });,
-
 
     return arr;
 
 }
 
-//console.log(string2Coords('0 1.5, -1.5 -1, 1 0 '));
 
 
 
