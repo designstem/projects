@@ -7,8 +7,8 @@ export default {
         border: 'var(--yellow)'
       },
       progress: {
-        background: 'hsl(44, 100%, 87%)',
-        border: 'hsl(44, 100%, 87%)'
+        background: '#eee',
+        border: '#eee'
       },
       experiment: {
         background: 'var(--lightblue)',

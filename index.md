@@ -49,6 +49,20 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
   />
 </div>
 
+<br><br>
+
+### In progress
+
+<div class="grid">
+  <f-project-card
+    v-for="(project,i) in projects.filter(p => p.type == 'progress')"
+    :key="i"
+    :project="project"
+    status="progress"
+  />
+</div>
+
+
 </div>
 </f-sheet>
 
