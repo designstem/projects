@@ -1,3 +1,4 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-fachwerk({ src: './index2.md' })
+fachwerk({ src: './index2.md',   type: "document",
+style: { "--content-padding": "40px 200px" } })

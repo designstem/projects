@@ -431,7 +431,33 @@ The physicist Kelvin proposed that a 14-faced polyhedron (tetrakaidecahedron) ca
 
 Imagine the balls are soap bubbles, they even start to share the walls!
 
-***TODO: TOOL by Kristjan***
+---
+
+***TOOL***
+
+# Spheres to polyhedrons
+
+Illustration that when you stack flexible balls in a crate and you put some pressure on it they deform into a polyhedron.
+
+See the 3D-honeycomb created in slicr 3D. 
+
+https://engineerdog.com/2015/03/08/3d-printing-a-3d-honeycomb-infill-concept/
+
+-
+
+<img src="./images/balls.png" />
+
+---
+
+***TOOL***
+
+# Voronoi / Soap bubbles
+
+Furthermore, we were talking about a voronoi simulator. In principle the students will draw their own on paper. To understand what’s really happening.
+
+But I found this simulator online: http://alexbeutel.com/webgl/voronoi.html which is movin
+
+https://www.visualcinnamon.com/2015/07/voronoi.html
 
 ---
 
@@ -476,6 +502,8 @@ Let’s see if we can mimic dried clay and soap bubbles and modify them into pos
 
 Now make your own Voronoi diagram based on the nodes that represents...
 
+https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/
+
 -
 
 <f-video src="https://www.youtube.com/watch?v=bmaUtG4CbOs" />
@@ -508,13 +536,42 @@ First of all, deformation teaches us about fundamental loads and stresses.
 
 Prof. Dr. Claus Mattheck uses rubber plates and sheets of aluminum foil to help you visualize loads and stresses in structures.
 
-***TODO: TOOL: Virtual rubber sheet***
-
 -
 
 ***IMAGE***
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
+
+---
+
+***TOOL***
+
+# Virtual rubber sheet
+
+#### Graphics
+
+* A black square with (the suggestion) of a frame made out of four wooden struts that can hinge (see below)
+
+* With 1 or more holes
+
+* A slight 3D/axonometric view also possible (object turned a little relative to the camera)
+
+#### Animation/interaction
+
+* Sheet and hole(s) are responding to applied forces making visible the effect and direction of compression, tension, shear and bending
+
+-
+
+<img src="./images/rubber.png" />
+
+---
+
+
+<img src="./images/shear1.png" />
+
+-
+
+<img src="./images/shear1.png" />
 
 ---
 
