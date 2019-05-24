@@ -4,7 +4,7 @@
 
 ### Third transformation
 
-<button :style="{ margin: '2px', background: i == get('type1',0) ? 'var(--lightgray)' : ''}" v-for="(b,i) in [
+<button :style="{ margin: '2px 0', border: 'none', background: i == get('type1',0) ? 'var(--yellow)' : '', }" v-for="(b,i) in [
   'None',
   'Translate',
   'Rotate',
@@ -40,11 +40,11 @@
   <f-slider title="Circular grid radius" value="1" from="0" to="2" set="r1" step="0.01" />
 </div>
 
-<f-card  background="hsla(0,0%,50%,0.1)" border="var(--lightgray)">
+<f-card background border="var(--lightgray)">
 
 ### Second transformation
 
-<button :style="{ margin: '2px', background: i == get('type2',0) ? 'var(--lightgray)' : ''}" v-for="(b,i) in [
+<button :style="{ margin: '2px 0', border: 'none', background: i == get('type2',0) ? 'var(--yellow)' : '', }" v-for="(b,i) in [
   'None',
   'Translate',
   'Rotate',
@@ -80,11 +80,11 @@
   <f-slider title="Circular grid radius" value="1" from="0" to="2" set="r2" step="0.01" />
 </div>
 
-<f-card  background="hsla(0,0%,50%,0.1)" border="var(--lightgray)">
+<f-card background border="var(--lightgray)">
 
 ### First transformation
 
-<button :style="{ margin: '2px', background: i == get('type3',0) ? 'var(--lightgray)' : ''}" v-for="(b,i) in [
+<button :style="{ margin: '2px 0', border: 'none', background: i == get('type3',0) ? 'var(--yellow)' : '', }" v-for="(b,i) in [
   'None',
   'Translate',
   'Rotate',
@@ -121,7 +121,7 @@
 </div>
 
 
-<f-card background="hsla(0,0%,50%,0.1)" border="var(--lightgray)">
+<f-card background border="var(--lightgray)">
 
 ### Element
 
@@ -147,7 +147,7 @@
 
 -
 
-<f-scene grid width="400" height="400">
+<f-scene width="400" height="400">
   	<component :is="['f-group','f-group','f-group','f-group','f-mirror-x','f-mirror-y', 'f-grid-pattern','f-brick-pattern','f-hex-pattern','f-circle-pattern','f-spin-pattern'][get('type1',0)]"
     :step="get('step1',0)"
     :r="[4,5].indexOf(get('type1',0)) !== -1 ? 4 : get('r1',0)"
@@ -172,7 +172,7 @@
     :rotation="get('rotation3',0)"
     :scale="get('scale3',1)"
    	>
-			<component :is="['f-box','f-circle','f-text'][get('el',0)]" style="font-size: 50px" :r="get('r',0.25)">a</component>
+			<component :is="['f-text','f-box','f-circle'][get('el',0)]" style="font-size: 50px" :r="get('r',0.25)">a</component>
     </component>
     </component>
 </f-scene>
