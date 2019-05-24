@@ -11,6 +11,8 @@
 
 -
 
+<div style="z-index:5; position:relative;">
+
 <div style="--base: 24px;">
 
   # Looking for triangles
@@ -25,24 +27,37 @@
 
 <f-next-button title="Let's start!" />
 
+</div>
+
 -
 
 &nbsp;
 
 -
 
-<f-scene3 style="width:100%; height:100%;" id="fp-hedron" renderer="svg">
-  <!-- <f-rotation3> -->
+<div style="position:fixed; top:-60vh; right:-40vw; width:130vw; height:160vh; overflow:hidden;">
+
+<f-scene3 style="width:100%; height:100%; opacity:0.2" id="fp-hedron" renderer="svg">
+  <f-rotation3 duration="60000">
   <f-polyhedron3
       hedron="Icosahedron"
       position="0 0 0"
-      rotation="10 0 0"
+      rotation="0 10 20"
       scale="1"
     />
-    <!-- </f-rotation3> -->
+    </f-rotation3>
 </f-scene3>
 
+</div>
+
 ---
+
+#### Testslide
+
+
+<f-scene3 camera="isometric">
+        <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="1.5" />
+    </f-scene3>
 
 <f-inline>
 <Triangle :points="[ [0,0], [1.5,0], [0,1] ]" :angleLabels="false" />
@@ -75,18 +90,77 @@
 {{set('p', '0 1.5, -1.5 -1, 1 0 ')}}
 <!-- {{set('p', '[[0, 1.5], [-1.5, -1], [1, 0]]')}} -->
 
-<f-hr style="border-bottom:2px solid var(--gray)" />
 
 ---
 
 
 
+| height: 100vh
+| 1 1 1 1 1
+| 2 2 2 2 2
+| 3 4 5 6 7
+| rows: 15vh 1fr 1fr
 
 # The assignment
 
+-
+
 1. Design a nesting box for a bird.
-2. The design should be based on a polyhedral shape.
+2. The design should be based on a <f-sidebar title="polyhedral shape" src="./Polyhedra.md" width="43vw" />.
 3. The material should have some thickness (wood, etc).
+
+-
+
+<center>
+  <f-scene3 width="150" height="150">
+        <f-rotation3>
+          <f-hedron3 :shading="true" :height="1" :strokeWidth="0" :count="4" rotation="-30 0 60"  />
+        </f-rotation3>
+    </f-scene3>
+</center>
+
+-
+
+<center>
+  <f-scene3 width="150" height="150">
+        <f-rotation3>
+          <f-box3 rotation="30 30 0"  />
+        </f-rotation3>
+    </f-scene3>
+</center>
+
+-
+
+<center>
+  <f-scene3 width="150" height="150">
+          <f-rotation3>
+            <f-polyhedron3 hedron="Octahedron" rotation="-80 0 45" scale="0.8"  />
+          </f-rotation3>
+    </f-scene3>
+</center>
+
+-
+
+<center>
+  <f-scene3 width="150" height="150">
+        <f-rotation3>
+          <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="0.8" />
+        </f-rotation3>
+    </f-scene3>
+</center>
+
+-
+
+<center>
+  <f-scene3 width="150" height="150">
+        <f-rotation3>
+          <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="0.8" />
+        </f-rotation3>
+    </f-scene3>
+</center>
+
+
+
 
 ---
 
