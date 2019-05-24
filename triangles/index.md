@@ -40,9 +40,9 @@
 ---
 
 <f-inline>
-<Triangle :points="[ [0,0], [0,1], [1.5,0] ]" />
-<Triangle :points="[ [-1,1], [1.5,0.5], [-0.5,-1] ]" />
-<Triangle :points="[ [1,1], [0.5,-1], [-1,0] ]" />
+<Triangle :points="[ [0,0], [1.5,0], [0,1] ]" />
+<Triangle :points="[ [-1,1], [-0.5,-1], [1.5,0.5] ]" />
+<Triangle :points="[ [-1,1], [1,-1], [1.5,1] ]" />
 </f-inline>
 
 <f-scene v-slot="{ mouse }" width="400" height="300">

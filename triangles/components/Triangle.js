@@ -54,7 +54,7 @@ export default{
         let b = this.distanceBetweenPoints( this.points[1][0], this.points[1][1], this.points[2][0], this.points[2][1] );
         let c = this.distanceBetweenPoints( this.points[2][0], this.points[2][1], this.points[0][0], this.points[0][1] );
         this.triangle.sides.push(a, b, c);
-        console.log(this.triangle.sides);
+        //console.log("sides: "+this.triangle.sides);
     },
     findAngles(){
         this.triangle.angles.length = 0;
@@ -65,15 +65,15 @@ export default{
         let A = Math.acos( (a*a+c*c-b*b) / (2*a*c)) * (180/Math.PI);
         let B = 180 - (A+C);
         this.triangle.angles.push(A, B, C);
-        console.log(this.triangle.angles);
+        console.log("angles: "+this.triangle.angles);
     },
     findSideAngles(){
         this.triangle.sideangles.length = 0;
-        let A1 = this.angleBetweenPoints( this.points[0][0], this.points[0][1], 0, 0 );
-        let C1 = this.angleBetweenPoints( this.points[2][0], this.points[2][1], 0, 0 );
-        let B1 = this.angleBetweenPoints( this.points[1][0], this.points[1][1], 0, 0 );
+        let A1 = this.angleBetweenPoints( this.points[0][0], this.points[0][1], this.points[1][0], this.points[1][1] );
+        let B1 = this.angleBetweenPoints( this.points[1][0], this.points[1][1], this.points[2][0], this.points[2][1] );
+        let C1 = this.angleBetweenPoints( this.points[2][0], this.points[2][1], this.points[0][0], this.points[0][1] );
         this.triangle.sideangles.push(A1, B1, C1);
-        console.log("sideangles:" + this.triangle.sideangles);
+        console.warn("sideangles: " + this.triangle.sideangles);
     },
     angleBetweenPoints(x1, y1, x2, y2){
         let w = x2-x1;
@@ -103,6 +103,9 @@ export default{
   <div>
 
     <f-scene grid>
+        
+        
+         
         <f-arc v-for="(p, i) in points"
             r="0.3"
             :key="'arc'+i"
@@ -112,9 +115,9 @@ export default{
             stroke="none"
             :fill="color(colors[i])"
             :position="compPos(i)"
-            :rotation="triangle.sideangles[i]"
+            :rotation="90+triangle.sideangles[i]"
         />
-        <f-line :points="compPath" closed />  
+        <f-line :points="compPath" closed /> 
         <f-text :position="compTextPos(0)">A</f-text>
         <f-text :position="compTextPos(1)">B</f-text>
         <f-text :position="compTextPos(2)">C</f-text>
