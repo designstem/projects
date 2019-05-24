@@ -177,13 +177,11 @@ For designing and building a solid polyhedral object you have to:
 
 ---
 
-
-
-
-
 POLYHEDRON
 
 Get to know the regular polyhedral shapes
+
+<a class="primary" href="../triangles_explorer">Explore polyhedra</a>
 
 -
 
