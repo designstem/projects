@@ -125,7 +125,7 @@
 
 ### Element
 
-<f-buttons :buttons="['Box','Circle','Letter']" set="el" />
+<f-buttons :buttons="['Letter','Box','Circle']" set="el" />
 
 <div v-if="get('el') !== 2">
 
