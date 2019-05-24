@@ -4,6 +4,18 @@
 
 ### Third transformation
 
+<!--
+
+    :step="[4,5].indexOf(get('type1',0)) !== -1 ? get('rstep1',0) : get('step1',1) / (get('type1',0) == 8 ? 2 : 1)"
+    :r="[4,5,11].indexOf(get('type1',0)) !== -1 ? 4 : get('r1',0)"
+    :count="get('c1',6)"
+    :position="[get('x1',0),get('y1',0)]"
+    :rotation="get('rotation1',0)"
+    :scale="get('scale1',1)"
+    rows="6"
+    cols="6"
+
+-->
 <button :style="{ margin: '2px 0', border: 'none', background: i == get('type1',0) ? 'var(--yellow)' : '', }" v-for="(b,i) in [
   'None',
   'Translate',
@@ -17,7 +29,7 @@
   'Circle grid 1',
   'Circle grid 2',
   'Slice grid'
-]" v-on:click="() => set('type1', i)">
+]" v-on:click="() => { set('type1', i); set('x1',0); set('y1',0); set('rotation1',0); set('scale1',1); } ">
 {{ b }}
 </button>
 
@@ -59,7 +71,7 @@
   'Circle grid 1',
   'Circle grid 2',
   'Slice grid'
-]" v-on:click="() => set('type2', i)">
+]" v-on:click="() => { set('type2', i); set('x2',0); set('y2',0); set('rotation2',0); set('scale2',1); } ">
 {{ b }}
 </button>
 
@@ -101,7 +113,7 @@
   'Circle grid 1',
   'Circle grid 2',
   'Slice grid'
-]" v-on:click="() => set('type3', i)">
+]" v-on:click="() => { set('type3', i); set('x3',0); set('y3',0); set('rotation3',0); set('scale3',1); } ">
 {{ b }}
 </button>
 
