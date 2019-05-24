@@ -40,25 +40,67 @@ As an answer to the throw-away society they choose for a **circular approach**. 
 
 # Experiment to design
 
+With this circular approach designers, architects, makers, scientists and craftsmen all participate in the **experimentation with materials** and are forced to work together interdisciplinary.
+
+Their inventiveness and creativity comes possible from this opportunity of **working with hands, new techniques** and by **working interdisciplinary**.
+
 ---
 
 # Low value material - dung
+
+**From disgust to desire!**
+
+By 2050 when the population exceed nine billion, shit, hair and dust are among the few natural resources which are actually increasing.
+
+Poo is a low value natural material, and you could make functional products of it.
+
+-
+
+***IMAGE***
 
 ---
 
 # Designers as material innovators 
 
+*~Imagine a world where biological fabrication replaces traditional manufacture, plants that grow products, and bacteria genetically re-programmed to ‘biofacture’ new materials, artefacts, energy or medicine.~*
+
+<small>Quote of Carole Collet at ‘Alive’ exhibition held in Paris, 2013</small>
+
+In the years after the Alive exhibition the gap between the above mentioned **concept and reality** shrinks. 
+
+How? Let’s have a look!
+
+
 ---
 
 # Living materials - mycelium
+
+<big>~my·ce·li·um (mī-sē′lē-əm)~</big>
+~*n. pl.* my·ce·li·a (-lē-ə)~
+
+<small>
+1) The vegetative part of a fungus, consisting of a mass of branching, threadlike hyphae.
+</small>
+
+<small>
+2) A similar mass of fibers formed by certain bacteria.
+</small>
+
+<p />
+
+In other words: mycelium is a dense network of fungal threads of which mushroom sprout and of which one could make a variety of products.
 
 ---
 
 # Living materials - bacteria
 
-...
+Susan Lee, textile designer, and David Hepworth, scientist, are pioneers of producing fabrics and clothing from bacteria-generated cellulose.
 
 https://ideas.ted.com/the-skirt-and-shoe-made-from-kombucha/
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=Ds8ZFzOwGeI" />
 
 ---
 
