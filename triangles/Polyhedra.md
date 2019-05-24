@@ -1,18 +1,23 @@
 
 
+
 # Polyhedra
 
-When regular polygons are expanded and seen in the three dimensions, form the Regular Polyhedra. These are solid objects bounded by flat surfaces.
+~When regular polygons are expanded and seen in the three dimensions, form the Regular Polyhedra. These are solid objects bounded by flat surfaces.~
 
 <center>
-    <f-scene3>
-        <f-box3 rotation="30 30 0" scale="1.5" />
+    <f-scene3 style="position:relative;">
+        <f-box3 rotation="30 30 0" scale="1.5"  />
+        <div style="z-index:8; position:absolute; top:0; left:0; width:100%; height:100%; font-family:var(--font-mono); font-weight:400; font-size:75%;">
+            <div style="position:absolute; top:12%; left:25%;">EDGE</div>
+            <div style="position:absolute; top:54%; left:52%; color:var(--white)">FACE</div>
+        </div>
     </f-scene3>
 </center>
 
-In regular polyhedral we distinguish Faces, Edges and Vertices. Faces are the bounded surfaces that consist the external surface of the structure. Two adjacent faces are connected together with an Edge. Three or more  adjacent faces intersect to a Vertex.
+~In regular polyhedral we distinguish Faces, Edges and Vertices. Faces are the bounded surfaces that consist the external surface of the structure. Two adjacent faces are connected together with an Edge. Three or more  adjacent faces intersect to a Vertex.~
 
-In regular polyhedrons the faces are identical.
+~In regular polyhedrons the faces are identical.~
 
 
 ---
@@ -80,7 +85,7 @@ In regular polyhedrons the faces are identical.
 ---
 
 
-Polyhedra can be unfolded into nets, i.e shapes that combine triangles and regular polygons. The following figures present how regular polyhedra are decomposed into two-dimentional nets.
+~Polyhedra can be unfolded into nets, i.e shapes that combine triangles and regular polygons. The following figures present how regular polyhedra are decomposed into two-dimentional nets.~
 
 
 ---

@@ -1,7 +1,7 @@
 
 | theme: dark
-| cols: 40vw auto
-| rows: 20vh auto
+| cols: 60vw auto
+| rows: 12vh auto
 | 1 4
 | 2 4
 | 3 4
@@ -13,7 +13,7 @@
 
 <div style="z-index:5; position:relative;">
 
-<div style="--base: 24px;">
+<div style="--base: 32px;">
 
   # Looking for triangles
 
@@ -24,6 +24,8 @@
 ~*Design a polyhedral shape bird nesting box and learn the geometry behind it.*~
 
 <!-- <f-sidebar src="geometry-triangles.md" title="Geometry of triangles" width="50vw" /> -->
+
+###  &nbsp;
 
 <f-next-button title="Let's start!" />
 
@@ -96,69 +98,42 @@
 
 
 | height: 100vh
-| 1 1 1 1 1
-| 2 2 2 2 2
-| 3 4 5 6 7
-| rows: 15vh 1fr 1fr
+| padding: 0
+| 1 2 4
+| 1 3 4
+| rows: 10vh auto
+| cols: 5vw auto 50vw
 
-# The assignment
+
+&nbsp;
 
 -
+
+&nbsp;
+
+-
+
+### &nbsp;
+
+# The assignment <sup><sup>📝</sup></sup>
+
+&nbsp;
 
 1. Design a nesting box for a bird.
-2. The design should be based on a <f-sidebar title="polyhedral shape" src="./Polyhedra.md" width="43vw" />.
+2. The design should be based on a <f-sidebar title="polyhedral shape" src="./Polyhedra.md" width="43vw" />
 3. The material should have some thickness (wood, etc).
 
--
+&nbsp;
 
-<center>
-  <f-scene3 width="150" height="150">
-        <f-rotation3>
-          <f-hedron3 :shading="true" :height="1" :strokeWidth="0" :count="4" rotation="-30 0 60"  />
-        </f-rotation3>
-    </f-scene3>
-</center>
+<f-next-button />
+
+
+
+
 
 -
 
-<center>
-  <f-scene3 width="150" height="150">
-        <f-rotation3>
-          <f-box3 rotation="30 30 0"  />
-        </f-rotation3>
-    </f-scene3>
-</center>
-
--
-
-<center>
-  <f-scene3 width="150" height="150">
-          <f-rotation3>
-            <f-polyhedron3 hedron="Octahedron" rotation="-80 0 45" scale="0.8"  />
-          </f-rotation3>
-    </f-scene3>
-</center>
-
--
-
-<center>
-  <f-scene3 width="150" height="150">
-        <f-rotation3>
-          <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="0.8" />
-        </f-rotation3>
-    </f-scene3>
-</center>
-
--
-
-<center>
-  <f-scene3 width="150" height="150">
-        <f-rotation3>
-          <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="0.8" />
-        </f-rotation3>
-    </f-scene3>
-</center>
-
+<f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center bottom" />
 
 
 
@@ -172,9 +147,20 @@
 
 
 
+| height: 100vh
+| 1 2 3
+| cols: 2vw 50vw auto
+| padding: 0
 
+&nbsp;
 
-# Design problem
+-
+
+### &nbsp;
+
+# Design problem <sup>🤔</sup>
+
+#### &nbsp;
 
 There are birds that heavily rely on human made nesting boxes.
 
@@ -185,29 +171,50 @@ There are birds that heavily rely on human made nesting boxes.
 2. what kind of nesting boxes the birds need.
 3. if designers can solve other problems with a similar design approach?
 
+#### &nbsp;
+
+<f-next-button />
+
+-
+
+<f-image src="./images/nesting-boxes__0,5x.jpg" style="background-position: 50% 50%;" />
+
+
+
+---
+
+| 1 1
+| 2 3
+| rows: 15vh auto
+
+<h3>🙋‍<sup><sup>💬</sup></sup> <span style="font-family:var(--font-serif); font-weight:400;font-style:italic;font-size:70%;">Do these birdies absolutely HAVE TO live inside a polyhedron?</span></h3>
+
+-
+
+### No, not really...
+
+<!-- A nesting box, as such, doesn't have to be a polyhedron, there are other options too.  -->
+
+## so why are we making one?
+
+> Let's think of our nesting box as a **small-scale model to solve much bigger problems**.👉
+
+#### &nbsp;
+
+<f-next-button />
+
+-
+
+### A few examples: 
+
+- People who are suffering from natural disasters or war zones all over the world often need quick shelter. Some of the most efficient solutions for such constructions are based on <a href="https://www.beale.af.mil/News/Article-Display/Article/948494/beale-airmen-make-a-difference-for-homeless-veterans/" target="_blank">polyhedral design</a>.
+- Once we go to Mars (or camping), we might need lightweight and quick- or autoassembled and modular <a href="https://www.geek.com/news/nasa-reveals-top-three-designs-for-space-friendly-homes-on-mars-1781096/" target="_blank">solutions for housing</a>
+- And last but not least – the <a href="https://www.archdaily.com/883389/prefab-pop-up-shelter-designed-for-burning-man-and-perfected-for-disaster-relief" target="_blank">Burning Man Festival</a> – which takes us back to the first point.
+
 ---
 
 
 
-
-
-
-
-# Why polyhedral shape?
-
-People suffering from natural disasters or war zones all over the world often need quick shelter. Some of the most efficient solutions for such constructions are based on polyhedral design.
-
----
-
-
-
-
-
-
-
-Examples
-
----
 
 
 

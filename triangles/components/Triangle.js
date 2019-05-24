@@ -117,7 +117,7 @@ export default{
         />
         <f-line :points="compPath" closed /> 
         <f-group v-if="angleLabels">
-            <f-text :position="textPos(0)">A</f-text>
+            <f-text :position="textPos(0)" style="font-family:serif;">A</f-text>
             <f-text :position="textPos(1)">B</f-text>
             <f-text :position="textPos(2)">C</f-text>
         </f-group>
