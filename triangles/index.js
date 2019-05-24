@@ -15,6 +15,6 @@ fachwerk({
   editor: "hide",
   pager: true,
   home: false,
-  type: "slides",
+  type: "document",
   utils:  localutils
 });

@@ -1,24 +1,29 @@
 
 | theme: dark
 | cols: 40vw auto
-| rows: 10vh auto
+| rows: 20vh auto
 | 1 4
 | 2 4
 | 3 4
+| height: 100vh
 
 &nbsp;
 
 -
 
-<big style="--base: 24px;">
+<div style="--base: 24px;">
 
   # Looking for triangles
-</big>
 
+</div>
 
-#### ~Design a polyhedral shape bird nesting box and learn the geometry behind it.~
+&nbsp;
 
-<f-sidebar src="geometry-triangles.md" title="Geometry of triangles" width="50vw" />
+~*Design a polyhedral shape bird nesting box and learn the geometry behind it.*~
+
+<!-- <f-sidebar src="geometry-triangles.md" title="Geometry of triangles" width="50vw" /> -->
+
+<f-next-button title="Let's start!" />
 
 -
 
@@ -27,20 +32,20 @@
 -
 
 <f-scene3 style="width:100%; height:100%;" id="fp-hedron" renderer="svg">
-  <f-rotation3>
+  <!-- <f-rotation3> -->
   <f-polyhedron3
       hedron="Icosahedron"
       position="0 0 0"
       rotation="10 0 0"
       scale="1"
     />
-    </f-rotation3>
+    <!-- </f-rotation3> -->
 </f-scene3>
 
 ---
 
 <f-inline>
-<Triangle :points="[ [0,0], [1.5,0], [0,1] ]" />
+<Triangle :points="[ [0,0], [1.5,0], [0,1] ]" :angleLabels="false" />
 <Triangle :points="[ [-1,1], [-0.5,-1], [1.5,0.5] ]" />
 <Triangle :points="[ [-1,1], [1,-1], [1.5,1] ]" />
 </f-inline>
@@ -70,6 +75,7 @@
 {{set('p', '0 1.5, -1.5 -1, 1 0 ')}}
 <!-- {{set('p', '[[0, 1.5], [-1.5, -1], [1, 0]]')}} -->
 
+<f-hr style="border-bottom:2px solid var(--gray)" />
 
 ---
 

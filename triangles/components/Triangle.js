@@ -16,6 +16,16 @@ export default{
             required: false,
             default: [[0,0], [1,1], [1,-1]]
         },
+        angleLabels: {
+            type: Boolean,
+            required: false,
+            default: true
+        },
+        angleMarkers: {
+            type: Boolean,
+            required: false,
+            default: true
+        }
     },
   mixins: [Css],
   data() {
@@ -37,10 +47,12 @@ export default{
     compPos(i){
         return `${this.points[i][0]} ${this.points[i][1]} `;
     },
-    compTextPos(i){
-        //return `${this.points[i][0]} ${this.points[i][1] - 1.3} `;
-        let polarxy = this.polarxy( this.compPolarAngle(i)+1.5, this.distanceBetweenPoints( 1,2,3,4 ));
-        return `${polarxy[0]} ${polarxy[1]}`;
+    textPos(i){
+        let polarPos = this.polarxy(
+            this.angleBetweenPoints(    this.points[i][0],  this.points[i][1],  0,0 ), 
+            this.distanceBetweenPoints( this.points[i][0],  this.points[i][1],  0,0 )+0.2
+        );
+        return `${polarPos[0]} ${(-polarPos[1]-1.5)}`;
     },
     solveTriangle(){
         this.triangle.points = this.points;
@@ -75,17 +87,6 @@ export default{
         this.triangle.sideangles.push(A1, B1, C1);
         console.warn("sideangles: " + this.triangle.sideangles);
     },
-    angleBetweenPoints(x1, y1, x2, y2){
-        let w = x2-x1;
-        let h = y2-y1;
-        return Math.atan2(h,w) * (180/Math.PI);
-    },
-    distanceBetweenPoints(x1, y1, x2, y2){
-        let w = x2-x1;
-        let h = y2-y1;
-        return Math.sqrt(w*w + h*h);
-    },
-    
     compPolarAngle(i){
         // let w = this.half.x * this.startPoints[this.dotIndex][0];
         // let h = this.half.y * this.startPoints[this.dotIndex][1];
@@ -103,10 +104,7 @@ export default{
   <div>
 
     <f-scene grid>
-        
-        
-         
-        <f-arc v-for="(p, i) in points"
+        <f-arc v-if="angleMarkers" v-for="(p, i) in points"
             r="0.3"
             :key="'arc'+i"
             :start-angle="0"
@@ -118,10 +116,19 @@ export default{
             :rotation="90+triangle.sideangles[i]"
         />
         <f-line :points="compPath" closed /> 
-        <f-text :position="compTextPos(0)">A</f-text>
-        <f-text :position="compTextPos(1)">B</f-text>
-        <f-text :position="compTextPos(2)">C</f-text>
+        <f-group v-if="angleLabels">
+            <f-text :position="textPos(0)">A</f-text>
+            <f-text :position="textPos(1)">B</f-text>
+            <f-text :position="textPos(2)">C</f-text>
+        </f-group>
     </f-scene>
+    
+    <h1>{{ angleBetweenPoints(0,0,0,1) + 180 }}</h1>
+
+    <p>A: {{textPos(0)}}</p>
+    <p>B: {{textPos(1)}}</p>
+    <p>C: {{textPos(2)}}</p>
+
   </div>
   `,
   css: `
