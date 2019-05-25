@@ -37,9 +37,10 @@
 
 -
 
-<div style="position:fixed; top:-60vh; right:-40vw; width:130vw; height:160vh; overflow:hidden;">
+<div style="position:absolute; top:0; right:0; width:70vw; height:100vh; overflow:hidden;">
+<div style="position:absolute; top:-60vh; right:-40vw; width:130vw; height:160vh; overflow:hidden;">
 
-<f-scene3 style="width:100%; height:100%; opacity:0.2" id="fp-hedron" renderer="svg">
+<f-scene3 style="width:100%; height:100%; opacity:0.2" id="fp-hedron" isometric>
   <f-rotation3 duration="60000">
   <f-polyhedron3
       hedron="Icosahedron"
@@ -49,7 +50,7 @@
     />
     </f-rotation3>
 </f-scene3>
-
+</div>
 </div>
 
 ---
@@ -57,15 +58,14 @@
 #### Testslide
 
 
-<f-scene3 camera="isometric">
+<f-scene3 isometric>
         <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="1.5" />
     </f-scene3>
 
-<f-inline>
+
 <Triangle :points="[ [0,0], [1.5,0], [0,1] ]" :angleLabels="false" />
 <Triangle :points="[ [-1,1], [-0.5,-1], [1.5,0.5] ]" />
 <Triangle :points="[ [-1,1], [1,-1], [1.5,1] ]" />
-</f-inline>
 
 <f-scene v-slot="{ mouse }" width="400" height="300">
   <f-grid opacity="0.1"  />
@@ -97,21 +97,12 @@
 
 
 
-| height: 100vh
-| padding: 0
-| 1 2 4
-| 1 3 4
-| rows: 10vh auto
-| cols: 5vw auto 50vw
 
 
-&nbsp;
 
--
 
-&nbsp;
 
--
+
 
 ### &nbsp;
 
@@ -148,13 +139,9 @@
 
 
 | height: 100vh
-| 1 2 3
-| cols: 2vw 50vw auto
-| padding: 0
+| 1 2 
 
-&nbsp;
 
--
 
 ### &nbsp;
 
@@ -183,11 +170,12 @@ There are birds that heavily rely on human made nesting boxes.
 
 ---
 
+| height: 100vh
 | 1 1
 | 2 3
 | rows: 15vh auto
 
-<h3>🙋‍<sup><sup>💬</sup></sup> <span style="font-family:var(--font-serif); font-weight:400;font-style:italic;font-size:70%;">Do these birdies absolutely HAVE TO live inside a polyhedron?</span></h3>
+<h3>🙋‍<sup><sup>💬</sup></sup><span style="font-family:var(--font-serif); font-weight:400;font-style:italic;font-size:70%;">Do these birds absolutely HAVE TO live inside a polyhedron?</span></h3>
 
 -
 
@@ -221,17 +209,66 @@ There are birds that heavily rely on human made nesting boxes.
 
 
 
-
+| 1 1 1 1 1
+| 2 3 4 5 6
+| 7 7 7 7 7
 
 # Key steps
 
 Design a nesting house based on a polyhedral shape.
 
-1. Find a bird for which to build a nesting box.
-2. Sketch your ideas.
-3. Create prototype of nesting box using cardboard or paper. 
-4. Make  and note all the calculations needed for building the nesting box.
-5. Build the nesting box from wood or similar materials.
+-
+
+  ## **1**
+  Find a bird for which to build a nesting box.
+
+-
+
+## **2**
+Sketch your ideas.
+
+-
+
+## **3**
+Create prototype of nesting box using cardboard or paper. 
+
+-
+
+## **4**
+Make  and note all the calculations needed for building the nesting box.
+
+-
+
+## **5**
+Build the nesting box from wood or similar materials.
+
+-
+
+<f-next-button />
+
+
+---
+
+
+
+
+
+| height: 100vh
+
+<center>
+
+<div>
+
+  # “But how?”
+  you may ask...
+
+### &nbsp;
+
+  <f-next-button title="Let's see" />
+
+</div>
+
+</center>
 
 ---
 
@@ -240,27 +277,35 @@ Design a nesting house based on a polyhedral shape.
 
 
 
-
-
-# “But how?”
-you may ask...
-
----
-
-
-
-
-
-
-
-
+| height: 100vh
+| 1 1
+| 2 2
+| 3 4
+| 5 5
 
 # Geometry behind the nesting box
 
+-
+
 For designing and building a solid polyhedral object you have to:
 
-1. simplify the polyhedral object into more basic geometrical objects, such as polygons, triangles and pyramids
-2. use geometry to calculate correct dimensions and angles of these “building blocks”
+-
+
+# **1**
+
+**simplify the polyhedral object** into more basic geometrical objects, such as **polygons**, **triangles** and **pyramids**
+
+-
+
+# **2**
+
+**use geometry** to calculate correct **dimensions and angles** of these “building blocks”
+
+-
+
+<f-next-button />
+
+
 
 ---
 
@@ -279,6 +324,8 @@ Find the polygons: the sides of a polyhedron
 -
 
 TRIANGES
+
+
 
 Find the triangles: the “building blocks” of polygons
 
