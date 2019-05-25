@@ -274,40 +274,37 @@ Sometime the package is part of the value
 
 ## Experiment how polygons area changes
 
-**1** Change only the ***perimeter*** `p`
+<big><span class="bullet">1</span> Start changing only the dimension of a square and a triangle with the same ***perimeter*** `p = {{ get('p') }}`</big>
 <f-slider set="p" from="1" to="10"  >
 </f-slider>
-**2** Keep a fixed perimeter and change the ***number of edges*** `n`
+***A*** Which is the ratio between square and triangle areas?
+***B*** What can you say about the volume of a milk carton with triangle base?
+
+<big><span class="bullet">1</span> Now keep a fixed perimeter of `10` and change the ***number of edges*** `n = {{ get('n') }}`</big>
 <f-slider set="n" from="3" to="32" integer >
 </f-slider>
-<details>
-	<summary>Geom properties involved</summary>
-	1 edge length
-	2 inradius
-	3 circumradius
-</details>
-
-You can always ***rotate*** the polygons with the parameter `r`
-<f-slider set="r" from="0" to="360"  >
-</f-slider>
+***A*** How the ratio between square and polygons changes?
+***B*** Given a fixed perimeter, which is the polygon with the bigger area?
+***C*** What can you say about the volume of the milk carton?
+***D*** Have you ever seen packages with a not square base?
 
 -
 
 <f-scene grid step="0.5" >
 	<f-group :rotation="get('r',0)">
-		<f-circle opacity="0.1" :r="crEP(get('n',3),get('p',1))" />
+		<f-circle opacity="0.1" :r="crEP(get('n',3),get('p',1))" :stroke="color('yellow')/>
 		<f-circle :r="crEP(32,get('p',1))" opacity="0.2" />
 		<f-line
 			closed
 			:points="polarpoints(Math.floor(4),crEP(4,get('p',1)))"
-			:stroke="color('red')"
+			:stroke="color('blue')"
 		/>
 		<f-line
 			closed
 			:points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
-			:stroke="color('blue')"
+			:stroke="color('red')"
 		/>
-		<f-circle opacity="0.1" :r="rEP(get('n',3),get('p',1))" />
+		<f-circle opacity="0.1" :r="rEP(get('n',3),get('p',1))" / :stroke="color('green')>
 		<f-line
 			opacity="0"
 			:x2="polarpoints(get('n',3),rEP(get('n',3),get('p',1)))[0].x"
@@ -315,6 +312,18 @@ You can always ***rotate*** the polygons with the parameter `r`
 		/>
 	</f-group>
 </f-scene>
+
+<details>
+	<summary>Geom properties involved</summary>
+	1 perimeter of the polygon
+  1 edge length of the polygon 
+	2 inradius
+	3 circumradius
+</details>
+
+You can always ***rotate*** the polygons with the parameter `r`
+<f-slider set="r" from="0" to="360"  >
+</f-slider>
 
 -
 
