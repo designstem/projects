@@ -19,8 +19,13 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
 
 <section>
 
-<f-sheet
+<!--f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+  v-slot="{ value: projects }"
+-->
+<f-fetch
+  type="json"
+  src="./feed.json"
   v-slot="{ value: projects }"
 >
 <div>
@@ -29,23 +34,10 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
 
 <div class="grid">
   <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'featured')"
+    v-for="(project,i) in parseSheet(projects).filter(p => p.type == 'featured')"
     :key="i"
     :project="project"
     status="feature"
-  />
-</div>
-
-<br><br>
-
-### Various experiments
-
-<div class="grid">
-  <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'experiment')"
-    :key="i"
-    :project="project"
-    status="experiment"
   />
 </div>
 
@@ -55,16 +47,29 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
 
 <div class="grid">
   <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'progress')"
+    v-for="(project,i) in parseSheet(projects).filter(p => p.type == 'progress')"
     :key="i"
     :project="project"
     status="progress"
   />
 </div>
 
+### Various experiments
+
+<div class="grid">
+  <f-project-card
+    v-for="(project,i) in parseSheet(projects).filter(p => p.type == 'experiment')"
+    :key="i"
+    :project="project"
+    status="experiment"
+  />
+</div>
+
+<br><br>
 
 </div>
-</f-sheet>
+</f-fetch>
+<!--/f-sheet-->
 
 </section>
 
