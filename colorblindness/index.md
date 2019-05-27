@@ -459,6 +459,11 @@ List needs to be changed to buttons, leading to the separate learning stations.
 
 <f-hr style="margin:var(--base6) 0" />
 
+#### Task
+
+~ Read through the following text and find out about the difference between rods and cones. How do they enable us to see? ~
+
+<f-sidebar title="Read Rods and Cones">
 ~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
 
 ~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
@@ -471,13 +476,13 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 ~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
 ~That’s why you can’t see colors in the dark.~
 
-~(For more details, read the worksheets on The Eye).~
+</f-sidebar>
 
 <f-next-button style="margin:var(--base6) 0" />
 
 -
 
-s
+
 
 
 
