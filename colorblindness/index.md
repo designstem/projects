@@ -11,7 +11,7 @@
 
 <div style="padding-top:20vh;">
 
-# <big>Color Vision Deficiency & <br />Accessibility</big>
+# <big>Colour Vision Deficiency & <br />Accessibility</big>
 
 </div>
 
