@@ -58,12 +58,12 @@
 #### Testslide
 
 
-<f-scene3 isometric>
-        <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="1.5" />
-    </f-scene3>
+## ONe two 
+
+<f-sidebar src="./geometry-triangles.md" width="50vw" />
 
 
-<Triangle :points="[ [0,0], [1.5,0], [0,1] ]" :angleLabels="false" />
+<Triangle :points="[ [0,0], [1.5,0], [0,1] ]" />
 <Triangle :points="[ [-1,1], [-0.5,-1], [1.5,0.5] ]" />
 <Triangle :points="[ [-1,1], [1,-1], [1.5,1] ]" />
 

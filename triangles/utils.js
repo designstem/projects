@@ -20,9 +20,7 @@ export const string2Coords = (string) => {
         //console.log("x:" + n[0] + " y:" + n[1]);
     });
 
-
     return arr;
-
 }
 
 

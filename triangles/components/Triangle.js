@@ -1,9 +1,16 @@
+// import { 
+//   Vue,
+//   components,
+//   Css, 
+//   utils
+// } from "https://designstem.github.io/fachwerk/fachwerk.js";
+
 import { 
-  Vue,
-  components,
-  Css, 
-  utils
-} from "https://designstem.github.io/fachwerk/fachwerk.js";
+    Vue,
+    components,
+    Css, 
+    utils
+  } from "http://127.0.0.1:5501/fachwerk.js";
 
 for (const name in components) {
   Vue.component(name, components[name])
@@ -22,10 +29,11 @@ export default{
             default: true
         },
         angleMarkers: {
-            type: Boolean,
+            type: Number,
             required: false,
-            default: true
-        }
+            default: 3
+        },
+
     },
   mixins: [Css],
   data() {
@@ -42,17 +50,29 @@ export default{
   mounted() {
     this.solveTriangle();
   },
+  watch: { 
+    points: function(newVal, oldVal) { // watch it
+            //console.log('Prop changed: ', newVal, ' | was: ', oldVal);
+            this.solveTriangle();
+        }
+    },
   methods: {
     ...utils,
-    compPos(i){
-        return `${this.points[i][0]} ${this.points[i][1]} `;
+    compPos(i, type){
+        if(type == 'box'){
+            return `${this.points[i][0]+0.15} ${this.points[i][1]+0.15} `;
+        } else {
+            return `${this.points[i][0]} ${this.points[i][1]} `;
+        }
+        
     },
     textPos(i){
         let polarPos = this.polarxy(
             this.angleBetweenPoints(    this.points[i][0],  this.points[i][1],  0,0 ), 
             this.distanceBetweenPoints( this.points[i][0],  this.points[i][1],  0,0 )+0.2
         );
-        return `${polarPos[0]} ${(-polarPos[1]-1.5)}`;
+        console.log(polarPos);
+        return `${polarPos[0]} ${(polarPos[1])}`;
     },
     solveTriangle(){
         this.triangle.points = this.points;
@@ -77,7 +97,7 @@ export default{
         let A = Math.acos( (a*a+c*c-b*b) / (2*a*c)) * (180/Math.PI);
         let B = 180 - (A+C);
         this.triangle.angles.push(A, B, C);
-        console.log("angles: "+this.triangle.angles);
+        //console.log("angles: "+this.triangle.angles);
     },
     findSideAngles(){
         this.triangle.sideangles.length = 0;
@@ -85,7 +105,7 @@ export default{
         let B1 = this.angleBetweenPoints( this.points[1][0], this.points[1][1], this.points[2][0], this.points[2][1] );
         let C1 = this.angleBetweenPoints( this.points[2][0], this.points[2][1], this.points[0][0], this.points[0][1] );
         this.triangle.sideangles.push(A1, B1, C1);
-        console.warn("sideangles: " + this.triangle.sideangles);
+        //console.warn("sideangles: " + this.triangle.sideangles);
     },
     compPolarAngle(i){
         // let w = this.half.x * this.startPoints[this.dotIndex][0];
@@ -104,22 +124,36 @@ export default{
   <div>
 
     <f-scene grid>
-        <f-arc v-if="angleMarkers" v-for="(p, i) in points"
-            r="0.3"
-            :key="'arc'+i"
-            :start-angle="0"
-            :end-angle="triangle.angles[i]"
-            inner-radius="0"
-            stroke="none"
-            :fill="color(colors[i])"
-            :position="compPos(i)"
-            :rotation="90+triangle.sideangles[i]"
-        />
+        <template v-if="angleMarkers>0&&angleMarkers<=3" v-for="(p, i) in angleMarkers">
+            <f-arc 
+                r="0.3"
+                :key="'arc'+i"
+                :start-angle="0"
+                :end-angle="triangle.angles[i]"
+                inner-radius="0"
+                stroke="none"
+                :fill="color(colors[i])"
+                :position="compPos(i)"
+                :rotation="90+triangle.sideangles[i]"
+            />
+            <!-- <f-arc v-if="angleMarkers>0&&angleMarkers<=3" v-for="(p, i) in angleMarkers"
+                r="0.3"
+                :key="'arc'+i"
+                :start-angle="triangle.sideangles[i]"
+                :end-angle="triangle.sideangles[i] + triangle.angles[i]"
+                inner-radius="0"
+                stroke="none"
+                :fill="color(colors[i])"
+                :position="compPos(i)"
+                :rotation="90"
+            /> -->
+            <f-box v-if="triangle.angles[i] == 90" r="0.3" stroke="none" :fill="color(colors[i])" :position="compPos(i, 'box')" />
+        </template>
         <f-line :points="compPath" closed /> 
-        <f-group v-if="angleLabels">
-            <f-text :position="textPos(0)" style="font-family:serif;">A</f-text>
-            <f-text :position="textPos(1)">B</f-text>
-            <f-text :position="textPos(2)">C</f-text>
+        <f-group v-if="angleLabels" rotation="-90">
+            <f-text :position="textPos(0)" rotation="90">A</f-text>
+            <f-text :position="textPos(1)" rotation="90">B</f-text>
+            <f-text :position="textPos(2)" rotation="90">C</f-text>
         </f-group>
     </f-scene>
     
