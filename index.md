@@ -77,7 +77,7 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
 
 <p /><br>
 
-### Featured projects {{ get('dt') ? 'in ' + get('dt') : '' }} {{ get('st') ? ' ' + get('st') : '' }} <button v-if="get('dt') || get('st')" v-on:click="set('dt',''); set('st','')">Show all</button>
+### Featured projects {{ get('dt') ? 'in ' + get('dt') : '' }} {{ get('st') ? ' in ' + get('st') : '' }} <button v-if="get('dt') || get('st')" v-on:click="set('dt',''); set('st','')">Show all</button>
 
 <div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
   <f-fade
