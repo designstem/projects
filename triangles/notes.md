@@ -4,3 +4,5 @@
 
 - camera to orthogonal or dynamic?
 - polyhedron opacity dynamical or 1
+
+- captions for image (description and / or copyright nfrmtion)
