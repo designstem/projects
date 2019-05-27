@@ -64,31 +64,31 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
   <div>
   <h3>Design topics</h3>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer" v-on:click.native="set('dt', t)" />
+    <f-tag v-for="t in unique(flatten(projects.map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer" v-on:click.native="set('dt', t == get('dt') ? '' : t)" />
   </div>
   </div>
 <div>
   <h3>STEM topics</h3>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" />
+    <f-tag v-for="t in unique(flatten(projects.map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightblue)" v-on:click.native="set('st', t == get('st') ? '' : t)" />
   </div>
   </div>
 </div>
 
 <p />
 
-### Featured projects {{ get('dt') ? 'in ' + get('dt') : '' }}
+### Featured projects {{ get('dt') ? 'in ' + get('dt') : '' }} {{ get('st') ? ' ' + get('st') : '' }} <button v-if="get('dt') || get('st')" v-on:click="set('dt',''); set('st','')">Show all</button>
 
     {{ get('dt') }}
 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
+<f-fade class="grid" style="--cols: 1fr 1fr 1fr 1fr">
   <f-project-card
     v-for="(project,i) in projects.filter(p => p.type == 'featured').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true)"
     :key="i"
     :project="project"
     status="feature"
   />
-</div>
+</f-fade>
 
 <br><br>
 
