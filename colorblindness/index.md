@@ -327,7 +327,6 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 # Learning stations
 
--
 
 ~**Caring about high accessibility of information in your design products is important. In the following learning stations you can find impulses and tasks which should enable you to get the skills to optimize your design products. 
 
@@ -346,6 +345,7 @@ You can work through the stations in the given order which is recommended if you
 - ~Three dimensions of color (color space models)~
 - ~Color contrast and color harmony theory~
 - ~Design rules for creating color palettes~
+### List needs to be changed to buttons, leading to the separate learning stations.
 
 -
 
