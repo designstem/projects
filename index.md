@@ -64,39 +64,40 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
   <div>
   <h3>Design topics</h3>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer" v-on:click.native="set('dt', t == get('dt') ? '' : t)" />
+    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment'].indexOf(p.type) !== -1).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer" v-on:click.native="set('dt', t == get('dt') ? '' : t)" />
   </div>
   </div>
 <div>
   <h3>STEM topics</h3>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightblue)" v-on:click.native="set('st', t == get('st') ? '' : t)" />
+    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightblue)" v-on:click.native="set('st', t == get('st') ? '' : t)" />
   </div>
   </div>
 </div>
 
-<p />
+<p /><br>
 
 ### Featured projects {{ get('dt') ? 'in ' + get('dt') : '' }} {{ get('st') ? ' ' + get('st') : '' }} <button v-if="get('dt') || get('st')" v-on:click="set('dt',''); set('st','')">Show all</button>
 
-    {{ get('dt') }}
-
-<f-fade class="grid" style="--cols: 1fr 1fr 1fr 1fr">
-  <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'featured').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true)"
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
+  <f-fade
+    v-for="(project,i) in projects.filter(p => p.type == 'featured').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
     :key="i"
+  >
+  <f-project-card
     :project="project"
     status="feature"
   />
-</f-fade>
+  </f-fade>
+</div>
 
 <br><br>
 
 ### In progress
 
-<div class="grid">
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
   <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'progress')"
+    v-for="(project,i) in projects.filter(p => p.type == 'progress').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
     :key="i"
     :project="project"
     status="progress"
@@ -107,9 +108,9 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
 
 ### Various experiments
 
-<div class="grid">
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
   <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'experiment')"
+    v-for="(project,i) in projects.filter(p => p.type == 'experiment').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
     :key="i"
     :project="project"
     status="experiment"

@@ -1,6 +1,7 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 import FProjectCard from "./components/FProjectCard.js";
 import FTag from "./components/FTag.js";
+import FCard2 from "./components/FCard2.js";
 
 const FImage2 = {
   props: ["src"],
@@ -16,7 +17,7 @@ const FImage2 = {
 };
 
 fachwerk({
-  components: { FProjectCard, FTag, FImage2 },
+  components: { FProjectCard, FTag, FImage2, FCard2 },
   editor: "none",
   //type: "document",
   //footer: true,

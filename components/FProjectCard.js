@@ -11,17 +11,18 @@ export default {
         border: '#eee'
       },
       experiment: {
-        background: 'var(--lightblue)',
-        border: 'var(--lightblue)'
+        background: '#eee',
+        border: '#eee'
       }
     }
   }),
   template: `
   <a :href="'./' + project.scenario">
-  <f-card
+  <f-card2
     class="project-card"
     :background="statuses[status].background"
     :border="statuses[status].border"
+    :image="project.image"
   >
       <h5>{{ project.title }}</h5>
       <small>{{ project.desc }}</small>
@@ -36,6 +37,7 @@ export default {
         <f-tag
           v-for="(tag,j) in project.stemtags.split(',')"
           :key="'j' + j"
+          style="background: var(--lightblue)"
         >
           {{ tag }}
         </f-tag>
@@ -43,17 +45,17 @@ export default {
       <p />
       <f-inline v-if="project.time">
         <span><f-clock-icon duration2="15" /></span>
-        <small>{{ project.time }}</small>
+        <small style="opacity: 0.65">{{ project.time }}</small>
       </f-inline>
       <f-inline v-if="project.people">
       <span><f-people-icon /></span>
-        <small>{{ project.people }}</small>
+        <small style="opacity: 0.65">{{ project.people }}</small>
       </f-inline>
       <f-inline v-if="project.people">
       <span><f-tools-icon /></span>
-      <small>{{ project.facilities }}</small>
+      <small style="opacity: 0.65">{{ project.facilities }}</small>
       </f-inline>
-  </f-card>
+  </f-card2>
   </a>
   `
 }
