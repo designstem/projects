@@ -10,6 +10,10 @@ export default {
         background: '#eee',
         border: '#eee'
       },
+      preparation: {
+        background: '#eee',
+        border: '#eee'
+      },
       experiment: {
         background: '#eee',
         border: '#eee'
@@ -17,7 +21,7 @@ export default {
     }
   }),
   template: `
-  <a :href="'./' + project.scenario">
+  <a :href="project.type == 'preparation' ? project.url : './' + project.scenario">
   <f-card2
     class="project-card"
     :background="statuses[status].background"
