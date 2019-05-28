@@ -806,7 +806,6 @@ If you want to find out about the subtractive color model, see: https://en.wikip
     width="2"
     height="3"
     stroke="none"
-    :rotation="{x:-4}"
     
     :fill="hsl(123,100,51)"
   />
