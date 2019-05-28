@@ -635,7 +635,7 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 
 -
 
-
+<f-scene width="600" height="300" style="width:100%; height:40vh;">
 <f-box 
       width="4"
       height="12"
@@ -652,10 +652,14 @@ If you want to find out about the subtractive color model, see: https://en.wikip
       stroke="none"
       :fill="rgb( 255 , 201, 53 )"
     />
+    
+ </f-scene>
 
 
 
 
+
+<f-next-button />
 
 
 
