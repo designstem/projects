@@ -705,7 +705,7 @@ Design a usable object using one or more of the techniques (optimization with fo
 
 -
 
-<a class="primary" href="./index.html">Back to waste scenario</a>
+<a class="primary" href="./index.html" v-on:click="goto(0)">Back to waste scenario</a>
 
 
 

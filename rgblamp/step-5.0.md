@@ -1,19 +1,16 @@
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
+| 1 1 2
 
 ### **5** Making
 
 # Where are we?
-<big>Build a Prototype:</big> A prototype is an operating version of a solution. Often it is made with different materials than the final version, and generally it is not as polished. Prototypes are a key step in the development of a final solution, allowing the designer to test how the solution will work.
 
-<big>Test and Redesign:</big> The design process involves multiple iterations and redesigns of your final solution. You will likely test your solution, find new problems, make changes, and test new solutions before settling on a final design.
+### Build a Prototype
+
+A prototype is an operating version of a solution. Often it is made with different materials than the final version, and generally it is not as polished. Prototypes are a key step in the development of a final solution, allowing the designer to test how the solution will work.
+
+### Test and Redesign
+
+The design process involves multiple iterations and redesigns of your final solution. You will likely test your solution, find new problems, make changes, and test new solutions before settling on a final design.
 
 <a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
 read more (www.sciencebuddies.org)</a>
@@ -28,22 +25,15 @@ read more (www.sciencebuddies.org)</a>
 
 ---
 
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
+***KJ: I need more grappa***
 
 ### **5** Making
 
 # RGB Lamps made with Arduino
 
 How can I build a RGB lamp?
-<big style="color:green">Play</big> with <a class="primary" href="https://designstem.github.io/scenarios/rgblamp_vision/arduino/index.html">Arduino using tinkercad</a> (contains several tutorials and examples).
+
+<mark style="background:blue; color: white">Play</mark> with <a class="primary" href="https://designstem.github.io/scenarios/rgblamp_vision/arduino/index.html">Arduino using tinkercad</a> (contains several tutorials and examples).
 
 
 
@@ -60,19 +50,11 @@ How can I build a RGB lamp?
 
 ---
 
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
+***KJ: Keep pouring***
 
 ### **5** Making
 
-# <big style="color:purple">Assignment:</big> Build you own (virtual) RGB lamp with Arduino</big>
+#  Assignment: Build you own (virtual) RGB lamp with Arduino</big>
 
 <big>Start here:</big>
 <ul>
@@ -85,12 +67,7 @@ How can I build a RGB lamp?
 <a class="primary" @click="send('first')" href="./step-6.0.html">Go to Communication step</a>
 
 -
-<p>
-<a href="https://pixabay.com/vectors/rgb-led-8mm-bulbs-2270087/">pixabay</a>
-</p>
 
 <img src="./imgs/cap5_3.png" style="width:95%; max-height:90%;"/>
 
----
-
-
+<a href="https://pixabay.com/vectors/rgb-led-8mm-bulbs-2270087/">pixabay</a>
