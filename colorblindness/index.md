@@ -626,7 +626,7 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 # Mix RGB Colors
 
 #### Task
-~**Now that you know about the RGB color system, look at the two colors below. They are both made up in parts of red, green and blue.**~
+~**Now that you know about the RGB color system, look at the two colors. They are both made up in parts of red, green and blue.**~
 
 1. ~In your mind, try to disassemble them into their three color components (red, green and blue). How much red, green and blue would you need to create these colors? A lot? Only little?~
 
@@ -678,9 +678,7 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 ##### Color mixing
 # Mix RGB Colors
 
-~**Try to reproduce the following colors by adjusting the sliders for red, green and blue.**~
-
-~First, in your mind, try to disassemble them into their three components. How much of red, green and blue is needed to make the color? Then check your assumptions by adjusting the controllers so that you receive a color that is as similar as possible to the example.~ 
+~**Now, check your assumptions by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example.**~
 
 -
 
@@ -700,24 +698,6 @@ If you want to find out about the subtractive color model, see: https://en.wikip
       stroke="none"
       :fill="rgb( 255 , 0, 255 )"
     />
-    <f-text
-      v-if="Math.abs( get('r1',0) - 255) < 1    &&    Math.abs(get('g1',0) - 0) < 1    &&    Math.abs(get('b1',0) - 255) < 1"
-      fill="white" scale="2">
-        YOU DID IT!!!
-    </f-text>
-    <f-text
-      v-else-if="Math.abs( get('r1',0) - 255) < 10    &&    Math.abs(get('g1',0) - 0) < 10    &&    Math.abs(get('b1',0) - 255) < 10" 
-      fill="white">
-        ALMOST THERE...
-    </f-text>
-    <f-text
-      v-else-if="Math.abs( get('r1',0) - 255) < 50    &&    Math.abs(get('g1',0) - 0) < 50    &&    Math.abs(get('b1',0) - 255)  < 50"
-      fill="white">
-        GETTING WARMER!
-    </f-text>
-    <f-text v-else fill="white">
-        MATCH THE COLORS
-    </f-text>
   </f-scene>
   <f-slider set="r1" from="0" to="255" integer title="R" />
   <f-slider set="g1" from="0" to="255" integer title="G" />
@@ -742,23 +722,6 @@ If you want to find out about the subtractive color model, see: https://en.wikip
       stroke="none"
       :fill="rgb( 255 , 201, 53 )"
     />
-    <f-text
-      v-if="Math.abs( get('r2',0) - 255) < 1    &&    Math.abs(get('g2',0) - 201) < 1    &&    Math.abs(get('b2',0) - 53) < 1"
-      scale="2">
-        YOU DID IT!!!
-    </f-text>
-    <f-text
-      v-else-if="Math.abs( get('r2',0) - 255) < 10    &&    Math.abs(get('g2',0) - 201) < 10    &&    Math.abs(get('b2',0) - 53) < 10">
-        ALMOST THERE...
-    </f-text>
-    <f-text
-      v-else-if="Math.abs( get('r2',0) - 255) < 50    &&    Math.abs(get('g2',0) - 201) < 50    &&    Math.abs(get('b2',0) - 53)  < 50">
-        GETTING WARMER!
-    </f-text>
-    <f-text v-else>
-        THIS IS HARDER
-    </f-text>
-    <f-text :position="{x:0, y:-0.5}" >DIFFERENCE: {{ Math.abs( get('r2',0) - 255) + Math.abs( get('g2',0) - 201) + Math.abs( get('b2',0) - 53)  }}</f-text>
   </f-scene>
   <f-slider set="r2" from="0" to="255" integer title="R" />
   <f-slider set="g2" from="0" to="255" integer title="G" />
