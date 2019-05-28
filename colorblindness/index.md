@@ -582,7 +582,18 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 3. ~Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.~
 
-<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
+<f-sidebar title="Check your answers">
+
+1. ~The three secondary colors are: Magenta (mixed through red and blue light), Cyan (mixed through green and blue light) and yellow (mixed through red and green light).~
+
+2. ~Typical RGB input devices are color TV and video cameras, image scanners and digital cameras. Typical RGB output devices are TV sets of various technologies (CRT, LCD, plasma, OLED, quantum dots…), computer and mobile phone displays, video projectors, multicolor LED displays and large screens such as JumboTron. Color printers, on the other hand are not RGB devices, but subtractive color devices (typically CMYK color model).
+If you want to find out about the subtractive color model, see: https://en.wikipedia.org/wiki/Subtractive_color~
+
+3. ~Green and Magenta, Blue and Yellow, Red and Cyan.~
+
+</f-sidebar>
+
+<f-next-button title="RGB Task" style="margin:var(--base6) 0"  />
 
 </section>
 
