@@ -542,7 +542,7 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 ~Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color.~
 
-## Task
+#### Task
 ~Go outside or look out of your window before the sun comes up. Watch how you steadily can see more colors while the sun rises and how the intensitiy of the colors changes.~
 (Alternatively: If you have curtains or shutters, close them and look at the room you are in and at the colors you can see. Then slowly open them and see how the colors of the objects in the room start to change with more light entering).
 
@@ -575,6 +575,8 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 # Additive Color System
 
 ~In the Additive Color System, **<span style="color:red;" v-on:mouseover="set('activeCol', 'red')">RED</span>**, **<span style="color:lime;" v-on:mouseover="set('activeCol', 'lime')">GREEN</span>** and **<span style="color:hsl(230, 100%, 70%);" v-on:mouseover="set('activeCol', 'blue')">BLUE</span>** are the primary colors. When all three colors overlap, **WHITE** light is produced.~
+
+#### Task
 
 1. ~Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?~
 
@@ -618,13 +620,38 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 
 </div>
 
+---
+
+##### Color mixing
+# Mix RGB Colors
+
+#### Task
+~**Now that you know about the RGB color system, look at the two colors below. They are both made up in parts of red, green and blue.**~
+
+1. ~In your mind, try to disassemble them into their three color components (red, green and blue). How much red, green and blue would you need to create these colors? A lot? Only little?~
+
+2. ~Take some notes of your assumptions. Test your ideas on the next page.~
 
 
+-
 
 
+<f-box 
+      width="4"
+      height="12"
+      x="2"
+      stroke="none"
+      :fill="rgb( 255 , 0, 255 )"
+    />
 
 
-
+ <f-box 
+      width="4"
+      height="12"
+      x="2"
+      stroke="none"
+      :fill="rgb( 255 , 201, 53 )"
+    />
 
 
 
