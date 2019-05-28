@@ -461,15 +461,8 @@ List needs to be changed to buttons, leading to the separate learning stations.
 
 #### Task
 
-Read through the following text and find out about the difference between rods and cones.
-
-How do they enable us to see?
-
-<mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
-
-<br>
-
-<f-sidebar title="Read Rods and Cones">
+1. ~Read through the following text and find out about the difference between rods and cones.~
+<f-sidebar title="Read about rods and cones">
 	
 ~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
 
@@ -484,6 +477,17 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 ~That’s why you can’t see colors in the dark.~
 
 </f-sidebar>
+
+
+2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
+https://en.wikipedia.org/wiki/Color_vision~
+
+3. ~In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).~
+
+
+<mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
+
+<br>
 
 <f-next-button style="margin:var(--base6) 0" />
 
