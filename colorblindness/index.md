@@ -842,7 +842,7 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 
 # 👉
 
-~Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?~
+~Have a look at the following colors and find adjectives to describe them.~
 
 <f-next-button style="margin:var(--base6) 0" />
 
