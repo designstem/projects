@@ -462,6 +462,7 @@ List needs to be changed to buttons, leading to the separate learning stations.
 #### Task
 
 1. ~Read through the following text and find out about the difference between rods and cones.~
+
 <f-sidebar title="Read about rods and cones">
 	
 ~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
