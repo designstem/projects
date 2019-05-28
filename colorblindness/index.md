@@ -500,23 +500,6 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 
 
 
----
-
-<!-- ##### EXPLAIN  -->
-# The eye
-## Tasks
-
-<f-hr style="margin:var(--base6) 0" />
-
-1. ~Have a look at the article about color vision on wikipedia.org:
-https://en.wikipedia.org/wiki/Color_vision~
-
-
-2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how color perception works in the eye.~
-
-
-3. ~In the text it says “color is not a property of electromagnetic radiation, but a feature of visual perception by an observer”. Find out what is meant by this (see “Subjectivity of color perception”).~
-
 
 
 
