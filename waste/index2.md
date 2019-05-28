@@ -2,7 +2,7 @@
 
 # <big><big>Zero waste products</big></big>
 
-<big><big>Waste is a design mistake I</big></big>
+<big><big>Waste is a design mistake II</big></big>
 
 ---
 
@@ -120,25 +120,44 @@ https://drive.google.com/file/d/1TZXeotMLKTi6G3FSeWWT4-mc6w9l6dpM/view
 
 # Shape and Countershape
 
-1
+Remember Christien Meindertsma’s FLAX Chair? 
+
+She made optimal use of the material **using the full sheet of cloth** to make a chair.
+
+The principle behind this is **using shape and countershape**. 
 
 ---
 
 # Shape and Countershape
 
-2
+The principle of shape and countershape is used across all art and design disciplines; graphic design, art, product design, etc. 
+
+Let’s look at some examples.
+
 
 ---
 
 # Shape and Countershape
 
-3
+In graphic design...
+
+-
+
+***IMAGE***
 
 ---
 
 # Shape and Countershape
 
-4
+In art...
+
+---
+
+# Shape and Countershape
+
+In product design...
+
+Here working with shape and countershape is a great way to make something and **minimize waste material** at the same time!
 
 ---
 
@@ -156,33 +175,46 @@ Of course you could apply this on a bigger scale for life-size furniture...
 
 ## Exercise
 
-Step 1.  Choose your discipline, 2D (think graphic design) or 3D (think product design or art) 
-Step 2. Find at least three images of examples within your discipline in which the technique of shape and countershape is being used. (10 minutes)
-Step 3. Design a 2D or 3D design using the shape and countershape technique. Make a small prototype/sketch within. (30 minutes)
+1.  Choose your discipline, 2D (think graphic design) or 3D (think product design or art) 
+
+2. Find at least three images of examples within your discipline in which the technique of shape and countershape is being used. (10 minutes)
+
+3. Design a 2D or 3D design using the shape and countershape technique. Make a small prototype/sketch within. (30 minutes)
 
 ---
 
 # Folding
 
-1
+To have **as little as possible waste** material, you can also use folding techniques. 
+
+For example the **Foldaroid stool** by Anthony Yu Wei Tong.
 
 ---
 
 # Folding
 
-2
+Or what do you think of the **Zseat** by Studio Stallinga.
 
 ---
 
 # Cut and Fold
 
-1
+Another option for optimizing your material use and minimizing waste is **using a combination of cuts and folds**.
+
+A perfect example is the **Pop-up Lamp** by the French studio Well Well Designers is. It’s constructed from one sheet of paper with a special coating.
 
 ---
 
 # Cut and Fold
 
-2
+A bit more elaborate is the **Origami Folding Lamp** by Mirco Kirsch.
+
+
+---
+
+# Cut and Fold
+
+Zev Bianchi and Bcompact design used a fancier version of cutting and folding called **kerf bending** to make the **Aviator Chair** out of one sheet of plywood. To the right you see there prototypes in paper.
 
 ---
 
@@ -224,7 +256,7 @@ Key steps
 
 -
 
-<a class="primary" href="./index.html">Back to waste scenario</a>
+<a class="primary" href="./index.html" v-on:click="goto(0)">Back to waste scenario</a>
 
 
 
