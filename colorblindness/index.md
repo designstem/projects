@@ -326,7 +326,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | cols: 2fr 3fr
 
 # Learning stations
-
+<f-hr style="margin:var(--base6) 0" />
 -
 
 ~Caring about high accessibility of information in your design products is important. In the following learning stations you can find impulses and tasks which should enable you to get the skills to optimize your design products. 
@@ -382,7 +382,7 @@ List needs to be changed to buttons, leading to the separate learning stations.
 
 
 # Accessibility
-
+<f-hr style="margin:var(--base6) 0" />
 -
 
 #### Tasks
@@ -619,65 +619,6 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-| height: 100%
-| padding: 0
-| gap: 0
-| theme: dark
-| 1 2
-
-<section style="padding:var(--content-padding)">
-
-<!-- ##### EXPLAIN  -->
-##### Color mixing
-# Subtractive Color System
-
-~All objects have physical properties that cause them to absorb some color waves and reflect others. Color, when applied to a surface such as canvas or paper, has the same characteristic.~
-
-~Color is produced by absorption of wavelengths e.g. on paper and remission of the remaining wavelengths, which are perceived by the eye and form a color impression. So for example a cyan colored dot on white paper absorbs red wavelengths (they are complementary to cyan) and remits blue and green, which together mix to cyan.~
-
-~This is called Subtractive Color System, because light is subtracted/absorbed and the remaining light produces a sensation of color.~
-
-~The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.~
-
-<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
-
-</section>
-
--
-
-<div style="background-color:var(--white); height:100vh; position:sticky; top:0; display:flex; justify-content:center; align-items:center;">
-
-<f-scene style="width:80%; height:80%">
-  
-  <f-circle 
-    v-for="(c,i) in ['magenta', 'cyan', 'yellow']" 
-    :key="'sub'+i"
-    :fill="c" 
-    :x="polarx( i*(360/3), 0.7 )"  
-    :y="polary( i*(360/3), 0.7 )" 
-    stroke="none"
-    style="mix-blend-mode: multiply; "
-  />
-
-</f-scene>
-
-</div>
 
 
 
