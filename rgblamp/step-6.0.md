@@ -1,18 +1,10 @@
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
-
 ### **6** Communication
 
 # Where are we?
 
-<big>Communicate Results:</big> To complete your project, communicate your results to others in a final report and/or a display board. Professional engineers always do the same, thoroughly documenting their solutions so that they can be manufactured and supported.
+### Communicate Results
+
+To complete your project, communicate your results to others in a final report and/or a display board. Professional engineers always do the same, thoroughly documenting their solutions so that they can be manufactured and supported.
 
 <a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
 read more (www.sciencebuddies.org)</a>
@@ -27,28 +19,20 @@ read more (www.sciencebuddies.org)</a>
 
 ---
 
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
-
 ### **6** Communication
 
 # Marketing
 
 (def.) The activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.
 
+***KJ: Bored with boring definitions***
 
-<br />
-<f-prev-button /> 
-<f-next-button title="Next" />
+<f-next-button />
 
 -
+
+***KJ: Can we acually show how Hue marketing looks like in web?***
+
 <p>
 <a style="float=top" href="https://www2.meethue.com/en-in">Philips Hue</a>
 <ul>
@@ -62,42 +46,25 @@ read more (www.sciencebuddies.org)</a>
 
 ---
 
-
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
-
 ### **6** Communication
 
-# <big style="color:purple">Assignment:</big> Make your presentation
+#  Assignment: Make your presentation
 
-Create a presentation.
+Create a presentation. ***KJ: Feels unfinished sentence***
 
-<big>Suggestions:</big>
-<ul>
-<li>Who is our ideal customer?</li>
-<li>How can we best add value to that customer's life?</li>
-<li>How can we articulate that value to the customer in 15 words or less?</li>
-<li>Why are we better than the alternatives?</li>
-</ul>
+### Suggestions:
 
-<br />
-<f-prev-button /> 
+***KJ: Use clearer wording instead "suggestions"***
+
+1. Who is our ideal customer?
+2. How can we best add value to that customer's life?
+3. How can we articulate that value to the customer in 15 words or less?
+4. Why are we better than the alternatives?
+
 <a class="primary" @click="send('first')" href="./step-7.0.html">Go to Self-Assessment step</a>
 
 -
-<p>
+
+<f-video src="https://www.youtube.com/watch?v=w82a1FT5o88" />
+
 <a href="https://www.youtube.com/channel/UCir93b_ftqInEaDpsWYbo_g">Practical Psychology</a>
-</p>
-
-<iframe width="700" height="400" src="https://www.youtube.com/embed/w82a1FT5o88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-

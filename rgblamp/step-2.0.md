@@ -1,12 +1,4 @@
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
+| 1 1 2
 
 ### **2** Design
 
@@ -30,39 +22,26 @@ read more (www.sciencebuddies.org)</a>
 
 ---
 
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
-
 ### **2** Design
 
-# <big style="color:purple">Assignment:</big> Design your own RGB Lamp
+# Assignment: Design your own RGB Lamp
 
 Grab a piece of paper and design/sketch your own lamp.
 
-<big>Suggestions:</big>
-<ul>
-<li>What is its function? 
-(e.g. aesthetics, decoration, information, communication, health, psychology) </li>
-<li>How will your RGB lamp interact with the environment?</li>
-<li>Which input from the environment does your lamp react to? 
-(e.g. time, light, noise, music, temperature, heart rate, feelings)</li>
-</ul>
+#### Suggestions:
 
-<br />
-<f-prev-button /> 
+***KJ: Add better term here***
+
+* What is its function?  (e.g. aesthetics, decoration, information, communication, health, psychology)
+* How will your RGB lamp interact with the environment?
+* Which input from the environment does your lamp react to?  (e.g. time, light, noise, music, temperature, heart rate, feelings)
+
+
 <a class="primary" @click="send('first')"  href="./step-3.0.html">Go to Detailed Design step</a>
+
 -
-<br/>
-<a style="float=top" href="https://www.flickr.com/photos/62449696@N00/9522596028">flickr</a>
 
 <img src="./imgs/cap2_2.png" style="width:95%; max-heigth:90%"/>
 
-
----
+***Cool image but does not have RGB vibe to it***
+<a  href="https://www.flickr.com/photos/62449696@N00/9522596028">flickr</a>

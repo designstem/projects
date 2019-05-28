@@ -1,16 +1,8 @@
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 1 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
+| 1 1 1 2
 
 ### **7** Self-Assessment
 
-# <big style="color:purple">Homework Grading</big> 
+# Homework Grading
 
 <br />
 
@@ -68,24 +60,16 @@ Needs some reviewing</td>
 <f-next-button title="Next" />
 
 -
-<p>
-<a href="https://commons.wikimedia.org/wiki/File:Performance-Evaluation-Process-z.jpg">wikimedia</a>
-</p>
+
+***KJ: N o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o***
 
 <img src="./imgs/cap7_1.jpg" style="height:50%; width:80%"/>
 
+<a href="https://commons.wikimedia.org/wiki/File:Performance-Evaluation-Process-z.jpg">wikimedia</a>
+
 ---
 
-
-| height: fit
-| padding: none
-| theme: yellow
-
-| 1 2
-
-<section style="padding: var(--base5)">
-
-<f-sidebar src="./menu.md"><button slot="button">table of contents</button></f-sidebar>
+***KJ: Let's think how to make the end of this long yourney more rewarding***
 
 ### **7** Self-Assessment
 
