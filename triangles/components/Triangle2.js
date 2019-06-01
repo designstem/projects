@@ -53,7 +53,7 @@ export default{
     }
   },
   beforeMount() {
-    this.solveTriangle();
+    //this.solveTriangle();
   },
   watch: { 
     points: function(newVal, oldVal) { 
@@ -127,13 +127,10 @@ export default{
       
   },
   template: `
-  <div>
-
-    <!-- <f-scene grid style="width:100%; height:auto;"> -->
-    <f-scene grid>
+    <g style="pointer-events: none;">
         <template v-if="angleMarkers>0&&angleMarkers<=3" v-for="(p, i) in angleMarkers">
             <f-arc 
-                r="0.3"
+                r="0.4"
                 :key="'arc'+i"
                 :start-angle="0"
                 :end-angle="triangle.angles[i]"
@@ -143,7 +140,6 @@ export default{
                 :position="compPos(i)"
                 :rotation="90+triangle.sideangles[i]"
             />
-            
             <f-box v-if="triangle.angles[i] == 90" r="0.3" stroke="none" :fill="color(colors[i])" :position="compPos(i, 'box')" />
         </template>
         <f-line :points="points" closed />
@@ -153,10 +149,7 @@ export default{
         <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
           <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35">{{t}}:{{ triangle.angles[i].toFixed(2) }}°</text>
         </f-group>
-
-    </f-scene>
-
-  </div>
+    </g>
   `,
   css: `
     .mapper{

@@ -76,6 +76,7 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle ma
 
 
 
+<f-inline>
 
 <f-scene grid v-slot="{ mouse }" width="200">
   <f-drag
@@ -88,20 +89,27 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle ma
   </f-drag>
 </f-scene>
 
-<!-- <f-scene grid width="200">
-	<f-line :points="get('pD')" closed />
-</f-scene> -->
+<f-scene grid style="width:400px; height:400px;">
+  <Triangle2 :points="get('pD', [ [0,0], [1.5,0], [0,1] ] )" :angleInfo="true"  />
+</f-scene>
+
+</f-inline>
 
 
-<Triangle :points="get('pD') " />
+
+<f-scene grid v-slot="{ mouse }" width="300">
+  <f-drag
+    :mouse="mouse"
+    points="-1 1, 1 -1, 1 1"
+    v-slot="{ points }"
+  >
+    <Triangle2 :points="points" :angleLabels="false" />
+  </f-drag>
+</f-scene>
 
 
-bla
 
 
-<Triangle :points="[ [0,0], [1.5,0], [0,1] ]" />
-<Triangle :points="[ [-1,1], [-0.5,-1], [1.5,0.5] ]" />
-<Triangle :points="[ [-1,1], [1,-1], [1.5,1] ]" />
 
 <f-scene v-slot="{ mouse }" width="400" height="300">
   <f-grid opacity="0.1"  />
