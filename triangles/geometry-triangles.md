@@ -77,22 +77,62 @@ It can be proved that **each angle is 60°**.
 </f-inline>
 
 
+### &nbsp;
+
+<f-hr style="border-bottom:1px dotted var(--black)" />
+
+### &nbsp;
 
 
-<f-hr style="margin:5vh 0;" />
 
-## How to calculate angles and sides in triangles.
 
-> Rule: The sum of all 3 angles in every triangle is 180°
+### How to calculate angles and sides in triangles.
+
+#### &nbsp;
+
+> **The sum of all 3 angles in every triangle is 180°**
+
+<span style="font-size:80%; line-height:60%;">As you remember, each angle of equilateral triangle is 60°, the sum of which is 180°</span>
+
+#### &nbsp;
 
 <f-inline>
 
-<Triangle :points=" [ [get('px1',0),get('py1',1)],[-1,-1],[1.5,-1] ] "  />
+<Triangle :points=" [ [get('px1',0),get('py1',1)],[-1.5,-1],[1.5,-1] ] " :angleInfo="true" />
 
-<f-slider set="px1" from="-2" to="2" step="0.01" style="width:100%" title="x" />
-<f-slider set="py1" from="-2" to="2" step="0.01" style="width:100%" title="y" />
+<div style="width: 100%;">
 
+*Change one angle and see how the others are affected*
+
+<f-slider set="px1" from="-2" to="2" step="0.1" value="0" style="width:100%" title="x" />
+<f-slider set="py1" from="-2" to="2" step="0.1" value="1.598" style="width:100%" title="y" />
+
+
+
+
+
+
+</div>
 
 </f-inline>
+
+
+
+
+<f-scene grid v-slot="{ mouse }" width="200">
+  <f-drag
+    :mouse="mouse"
+    points="-1 1, 1 1, 1 -1"
+    v-slot="{ points }"
+    set="p"
+  >
+    <f-line :points="points" closed />
+  </f-drag>
+</f-scene>
+
+<f-scene grid width="200">
+	<f-line :points="get('p')" closed />
+</f-scene>
+<Triangle :points="get('p')" />
 
 asdads

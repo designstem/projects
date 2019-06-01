@@ -10,17 +10,24 @@ export const distanceBetweenPoints = (x1, y1, x2, y2) => {
     return Math.sqrt(w*w + h*h);
 }
 
-export const string2Coords = (string) => {
-
+export const points2Arr = (str) => {
+    console.log(str);
     let arr = [];
 
-    string.split(',').forEach(function(entry, i){ 
+    str.split(',').forEach(function(entry, i){ 
         let n = entry.trim().split(' ');
         arr.push([n[0], n[1]]);
-        //console.log("x:" + n[0] + " y:" + n[1]);
+        console.log("x:" + n[0] + " y:" + n[1]);
     });
 
     return arr;
+}
+
+export const drag2Triangle = (dragPoints) => {
+    
+    // console.log(JSON.parse(JSON.stringify(obj)));
+    
+    // return `[ [${obj[0][0].x}, ${obj[0][0].y}] , [${obj[1][0].x}, ${obj[1][0].y}] , [${obj[2][0].x}, ${obj[2][0].y}] ]`;
 }
 
 
