@@ -995,8 +995,8 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 
 -
 
-Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
-Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
+Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).
+Describe the different effect low and high saturated colors have, using adjectives. 
 
 
 -
