@@ -814,10 +814,62 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 </f-scene>
 </div>
 
+---
 
 
+| id: 3properties
+| height: 100%
+| padding: 0
+| 1 2
 
 
+<section style="padding:var(--content-padding)">
+
+<!-- ##### EXPLAIN -->
+# Three properties of color
+
+<f-hr style="margin:var(--base6) 0" />
+
+
+~When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:~
+
+- ~**HUE**~
+- ~**SATURATION**~
+- ~**BRIGHTNESS**~
+
+~All three of these properties change the effect the color has.~
+
+# 👉
+
+#### ~Have a look at these 2 greens~
+
+~Both are greens, but they have different effects. Most people wouldn’t call the brighter color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
+
+<f-next-button style="margin:var(--base6) 0" />
+
+</section>
+
+-
+
+
+<div style=" height:100vh; position:sticky; top:0; ">
+<f-scene width="600" height="200" style="width:100%; height:100vh;" preserveAspectRatio="none">
+  <f-box 
+    width="4"
+    height="4"
+    x="-4"
+    stroke="none"
+    :fill="hsl(112,63,36)"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    stroke="none"
+    x="0"
+    :fill="hsl(123,100,51)"
+  />
+</f-scene>
+</div>
 
 
 
