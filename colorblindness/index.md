@@ -844,6 +844,8 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 # 👉
 
 ~Have a look at the following colors and find adjectives to describe them.~
+<br>
+<mark> Here we need to add a polarity profile with adjectives - maybe as a slider, so that students can interact and have a basis for their analysis. This slider should also be on the next two pages about brightness and saturation, with the same adjectives. Maybe we can achieve that the positions they chose for the former are left for them to compare with the new choices they make. I will make a scribble and upload it in the image folder on github. </mark>
 
 <f-next-button style="margin:var(--base6) 0" />
 
