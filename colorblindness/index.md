@@ -486,6 +486,7 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 
 <mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
 
+<f-image src="images/color_blindness_accessiblity_6.jpg" style="background-position:50% 15%;" />
 <br>
 
 <f-next-button style="margin:var(--base6) 0" />
