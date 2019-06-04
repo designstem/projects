@@ -43,7 +43,7 @@ Plastic can sink and pollute the sea at all depths
 
 <section><section>
 
-***KJ: Replace image, this is just a placeholder***
+<!--***KJ: Replace image, this is just a placeholder***-->
 
 ## Bad news
 
@@ -88,7 +88,7 @@ Can you find any other good news about plastic and environment?
 
 Plastic can also be used to make you walk on water, <a href="https://christojeanneclaude.net/projects/the-floating-piers" target="_new">see this art installation</a>.
 
-***KJ: Could there be just 1-2 sentences about the installation?***
+<!--***KJ: Could there be just 1-2 sentences about the installation?***-->
 
 -
 
@@ -111,7 +111,7 @@ What are your feelings about this installation?
 
 After which physical laws the piers were floating, even with many people walking on them? Concentrate on these terms:
 
-- <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a> ***KJ: A very busy site :(***, see also <a href="https://phet.colorado.edu/sims/density-and-buoyancy/buoyancy_en.html">interactive playground</a> ***KJ: Requires Flash that is less and less available in browsers***
+- <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a> <!--***KJ: A very busy site :(***-->, see also <a href="https://phet.colorado.edu/sims/density-and-buoyancy/buoyancy_en.html">interactive playground</a> <!--***KJ: Requires Flash that is less and less available in browsers***-->
 
 - Weight density
 
@@ -143,7 +143,7 @@ After which physical laws the piers were floating, even with many people walking
 
 <img src="https://scd.observers.france24.com/files/imagecache/1024x576/article_images/teaser_tunisie_1.jpg" />
 
-***KJ: Image source / copyright?***
+<!--***KJ: Image source / copyright?***-->
 
 ---
 
