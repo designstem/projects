@@ -7,7 +7,7 @@
 
 <big>How to optimize packaging, reduce loss of space and avoid material waste</big>
 
-***KJ: Image source and rights?***
+<!---***KJ: Image source and rights?***-->
 
 -
 
@@ -32,13 +32,13 @@
 
 # Learn about history of human made packages
 
-***KJ: Unify the wording of steps 1 and 2 below***
+<!---***KJ: Unify the wording of steps 1 and 2 below***-->
 
 -
 
 <f-image src="https://cdn.pixabay.com/photo/2012/04/13/10/58/paint-31831_960_720.png" />
 
-***KJ: Image source and rights? Try [this](https://etc.usf.edu/clipart/64900/64993/64993_dollcase.htm) for historical images***
+<!---***KJ: Image source and rights? Try [this](https://etc.usf.edu/clipart/64900/64993/64993_dollcase.htm) for historical images***
 
 
 -
@@ -73,7 +73,7 @@ Look for packages around you and find differences between them
 
 <f-image src="https://www.vzhh.de/sites/default/files/styles/crop_default/public/medien/167/bilder/Bensdorp_Kakao_final.png?itok=3xMh-LGX" />
 
-***KJ: Image source and rights?***
+<!---***KJ: Image source and rights?***-->
 
 
 -
@@ -163,7 +163,7 @@ Sometime the package is part of the value
 
 # Explore
 
-***KJ: Title?***
+<!---***KJ: Title?***-->
 
 <big> Bring/take a milk or juice carton (square shape). </big>
 
@@ -185,7 +185,7 @@ Sometime the package is part of the value
 
 # Explore
 
-***KJ: Title?***
+<!---***KJ: Title?***-->
 
 4. Cut off also the bottom of the carton and cut along one of the sides.
 5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
@@ -261,7 +261,7 @@ Sometime the package is part of the value
 | 1 2
 | 3 3
 
-***KJ: Title?***
+<!---***KJ: Title?***-->
 
 <big> <span class="bullet">1</span>Which shape optimize carton volume?</big>
 
@@ -547,7 +547,7 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 
 # Of Bees and Packages
 
-***KJ: Backgrounds are cool but why now?***
+<!--***KJ: Backgrounds are cool but why now?***-->
 
 1. Verify that the hexagon has the maximum area (= bigger beehive cell) among the stackable polygons with same perimeter.
 
@@ -577,7 +577,7 @@ Sometimes in nature the **packaging is part of the product**.
 
 <img src="https://cdn.pixabay.com/photo/2012/04/13/14/02/apple-32524_1280.png" />
 
-***KJ: Image source / copyright?***
+<!--***KJ: Image source / copyright?***-->
 
 -
 
