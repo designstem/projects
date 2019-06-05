@@ -107,6 +107,10 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle ma
   </f-drag>
 </f-scene>
 
+<f-scene grid>
+<Triangle2  />
+</f-scene>
+
 
 
 

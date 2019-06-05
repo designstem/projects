@@ -22,7 +22,8 @@ export default{
         points: {
             type: [String, Number, Array, Object],
             required: false,
-            default: () => [[-1,1], [-0.5,-1], [1.5,0.5]]
+            // default: () => [{'x':-1,'y':1}, {'x':-0.5,'y':-1}, {'x':1.5,'y':0.5}]
+            default: () => [[-1.5,-1], [1.5,-1], [0,1.48]]
         },
         angleLabels: {
             type: Boolean,
@@ -53,7 +54,7 @@ export default{
     }
   },
   beforeMount() {
-    //this.solveTriangle();
+    this.solveTriangle();
   },
   watch: { 
     points: function(newVal, oldVal) { 
@@ -63,13 +64,12 @@ export default{
   methods: {
     ...utils,
     compPos(i, type = 'arc'){
-      
-        if(type == 'box'){
-            return `${this.triangle.points[i][0]+0.15} ${this.triangle.points[i][1]+0.15} `;
-        } else {
-            return typeof this.triangle.points == 'object' ? `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}` :  `${this.points[i][0]} ${this.points[i][1]}`;
-        }
-        
+      if(type == 'box'){
+        return `${this.triangle.points[i][0]+0.15} ${this.triangle.points[i][1]+0.15} `;
+      } else {
+        // return typeof this.triangle.points == 'object' ? `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}` :  `${this.points[i][0]} ${this.points[i][1]}`;
+        return `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}`;
+      }
     },
     textPos(i){
         let polarPos = this.polarxy(
@@ -120,12 +120,6 @@ export default{
     },
     
   },
-  computed: {
-      compPath(){
-        return ` ${this.points[0][0]} ${this.points[0][1]}, ${this.points[1][0]} ${this.points[1][1]}, ${this.points[2][0]} ${this.points[2][1]}`
-      },
-      
-  },
   template: `
     <g style="pointer-events: none;">
         <template v-if="angleMarkers>0&&angleMarkers<=3" v-for="(p, i) in angleMarkers">
@@ -137,14 +131,14 @@ export default{
                 inner-radius="0"
                 stroke="none"
                 :fill="color(colors[i])"
-                :position="compPos(i)"
+                :position="compPos(i, 'arc')"
                 :rotation="90+triangle.sideangles[i]"
             />
             <f-box v-if="triangle.angles[i] == 90" r="0.3" stroke="none" :fill="color(colors[i])" :position="compPos(i, 'box')" />
         </template>
         <f-line :points="points" closed />
         <f-group v-if="angleLabels" rotation="-90">
-            <f-text v-for="(t,i) in ['A', 'B', 'C']" :key="'label'+i" :position="textPos(i)" rotation="90">{{t}}</f-text>
+            <f-text v-for="(t,i) in ['A', 'B', 'C']" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select: none;">{{t}}</f-text>
         </f-group>
         <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
           <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35">{{t}}:{{ triangle.angles[i].toFixed(2) }}°</text>
