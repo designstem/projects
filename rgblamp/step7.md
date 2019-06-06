@@ -41,5 +41,3 @@
 <br/>
 <img src="./images/RGBLamp.png" style="width:95%; max-height:90%;"/>
 
----
-
