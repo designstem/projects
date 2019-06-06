@@ -1,3 +1,4 @@
+| section: step5
 | 1 1 2
 
 ### **5** Making
@@ -33,20 +34,15 @@ read more (www.sciencebuddies.org)</a>
 
 How can I build a RGB lamp?
 
-<mark style="background:blue; color: white">Play</mark> with <a class="primary" href="https://designstem.github.io/scenarios/rgblamp_vision/arduino/index.html">Arduino using tinkercad</a> (contains several tutorials and examples).
+<mark style="background:blue; color: white">Play</mark> with <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/arduino/index.html">Arduino using tinkercad</a> (contains several tutorials and examples).
 
-
-
-<br />
-<f-prev-button /> 
 <f-next-button title="Next" />
 
 -
-<p>
-<a href="https://www.tinkercad.com/">tinkercad</a>
-</p>
 
 <img src="./imgs/cap5_2.PNG" style="width:95%; max-height:90%;"/>
+
+<a href="https://www.tinkercad.com/">tinkercad</a>
 
 ---
 
@@ -62,9 +58,7 @@ How can I build a RGB lamp?
 <li><a href="https://www.google.com/search?q=arduino+rgb+lamp">search in google</a></li>
 </ul>
 
-<br />
-<f-prev-button /> 
-<a class="primary" @click="send('first')" href="./step-6.0.html">Go to Communication step</a>
+<a class="primary" @click="goto('step6')">Go to Communication step</a>
 
 -
 
