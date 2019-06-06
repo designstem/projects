@@ -18,6 +18,9 @@ export default {
         color: this.lightColor
       })
     },
+    additiveLight: function() {
+      this.lightColor = utils.rgb([0,255][this.r],[0,255][this.g],[0,255][this.b]);
+    }
 },
   props: [ 'rotateCamera', 'experiment' ],
   components: {Lamp, Table, Clock, Info, Room, fAframeTest, fCamera},
@@ -76,9 +79,9 @@ export default {
       <a-entity v-if="experiment === '2'">
         <Table position="0 0 6" rotation="0 90 0" :tableLength=5.5 :tableWidth=3 :tableHeight=2.4>
           <a-entity scale="1.3 1.3 1.3" rotation="-20 0 0" position="0 0 1">
-            <f-aframe-button @click.native="lightColor = 'rgb(255, 0, 0)'" title="red" position="-1.3 0 0" />
-            <f-aframe-button @click.native="lightColor = 'rgb(0, 255, 0)'" title="green" position="0 0 0" />
-            <f-aframe-button @click.native="lightColor = 'rgb(0, 0, 255)'" title="blue" position="1.3 0 0" />
+            <f-aframe-button @click.native="r = 1 - r; additiveLight()" title="red" position="-1.3 0 0" />
+            <f-aframe-button @click.native="g = 1 - g; additiveLight()" title="green" position="0 0 0" />
+            <f-aframe-button @click.native="b = 1 - b; additiveLight()" title="blue" position="1.3 0 0" />
           </a-entity>
           <a-entity scale="0.5 0.5 0.5">
             <a-entity material="color: rgb(255,255,0);" position="-4 0 1" scale="0.015 0.015 0.015" obj-model="obj: #apple;"/>
@@ -112,7 +115,7 @@ export default {
       <Lamp :light="lightColor" :lampHeight=2 position="1.6 0 0.3" :lampScale=".6"/>
       <Lamp :light="lightColor" :lampHeight=2.4 position="0.1 0 -0.9" :lampScale="2" />
       </a-entity>
-      
+
       </Room>
     </f-aframe-test>
   `
