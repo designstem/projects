@@ -1,3 +1,4 @@
+| section: step2
 | 1 1 2
 
 ### **2** Design
@@ -37,7 +38,7 @@ Grab a piece of paper and design/sketch your own lamp.
 * Which input from the environment does your lamp react to?  (e.g. time, light, noise, music, temperature, heart rate, feelings)
 
 
-<a class="primary" @click="send('first')"  href="./step-3.0.html">Go to Detailed Design step</a>
+<button class="primary" @click="goto('step3')">Go to Detailed Design step</button>
 
 -
 

@@ -1,3 +1,4 @@
+| section: step4
 | 1 1 2
 
 ### **4** Engineering
@@ -40,12 +41,9 @@ Create a spreadsheet  and make a detailed description of how the values of the t
 * Build a relationship between environmental parameters and colors
 * How do you interpolate the missing values? (E.g. spline, keyframes)
 
-<br />
-<f-prev-button /> 
-<a class="primary" @click="send('first')" href="./step-5.0.html">Go to Making step</a>
-<br/>
-<br/>
-Skip Making step and <a class="secondary" @click="send('first')" href="./step-6.0.html"> Go to Communication step</a>
+<f-inline>
+<a class="primary" @click="goto('step5')">Go to Making step</a>
+or <a class="secondary" @click="goto('step6')">Go to Communication step</a>
 
 
 -
@@ -59,7 +57,3 @@ Skip Making step and <a class="secondary" @click="send('first')" href="./step-6.
 We|Can|Do
 ---|---|---
 Actual|Tables|Here :)
-
----
-
-

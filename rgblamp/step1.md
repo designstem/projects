@@ -1,3 +1,4 @@
+| section: step1
 | 1 1 1 2 2
 
 ### **1** Research
@@ -87,11 +88,13 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 | background: ./images/philips_hue_b.jpg
 | theme: dark
 
-<center>
+<center><div>
 
 ***NOTE*** Can you use this image? If so, make it big 
 
-</center>
+<f-next-button />
+
+</div></center>
 
 ---
 
@@ -143,9 +146,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 <mark style="background:red; color: white">Task</mark> Share your story with your classmates. What happened? What did you do?  Collect these stories. 
 
-<br />
-<f-prev-button /> <f-next-button title="Next" />
-
+<f-next-button title="Next" />
 
 -
 
@@ -241,8 +242,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 ~These two color qualities have the greatest influence on how a plant grows. Blue lights' responsibility is to promote leaf and vegetable growth, while red, when combined with blue, will make a plant flower.~
 
-<br />
-<f-prev-button /> <f-next-button title="Next" />
+<f-next-button title="Next" />
 
 -
 
@@ -271,9 +271,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 ***KJ: Give me examples (with images!). Blue for fish, yellow for meat? Or make it a student activity to bring photos from SPAR?***
 
-<br />
-<f-prev-button />
-<a class="primary" @click="send('first')" href="./step-2.0.html">Go to Design step</a>
+<button class="primary" @click="send('step2')">Go to Design step</button>
 
 
 -
