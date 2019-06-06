@@ -79,9 +79,24 @@ export default {
       <a-entity v-if="experiment === '2'">
         <Table position="0 0 6" rotation="0 90 0" :tableLength=5.5 :tableWidth=3 :tableHeight=2.4>
           <a-entity scale="1.3 1.3 1.3" rotation="-20 0 0" position="0 0 1">
-            <f-aframe-button @click.native="r = 1 - r; additiveLight()" title="red" position="-1.3 0 0" />
-            <f-aframe-button @click.native="g = 1 - g; additiveLight()" title="green" position="0 0 0" />
-            <f-aframe-button @click.native="b = 1 - b; additiveLight()" title="blue" position="1.3 0 0" />
+            <f-aframe-button 
+              @click.native="r = 1 - r; additiveLight()" 
+              title="red" 
+              :title-color="r ? 'rgb(255,0,0)' : '#777'"
+              :background-color="r ? '#eee' : '#333'"
+              position="-1.3 0 0" />
+            <f-aframe-button 
+              @click.native="g = 1 - g; additiveLight()" 
+              title="green"
+              :title-color="g ? 'rgb(0,255,0)' : '#777'"
+              :background-color="g ? '#eee' : '#333'"
+              position="0 0 0" />
+            <f-aframe-button 
+              @click.native="b = 1 - b; additiveLight()" 
+              title="blue"          
+              :title-color="b ? 'rgb(0,0,255)' : '#777'"
+              :background-color="b ? '#eee' : '#333'"
+              position="1.3 0 0" />
           </a-entity>
           <a-entity scale="0.5 0.5 0.5">
             <a-entity material="color: rgb(255,255,0);" position="-4 0 1" scale="0.015 0.015 0.015" obj-model="obj: #apple;"/>
