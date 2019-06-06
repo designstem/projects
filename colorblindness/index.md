@@ -11,7 +11,7 @@
 
 <div style="padding-top:20vh;">
 
-# <big>Color Vision Deficiency & <br />Accessibility</big>
+# <big>Colour Vision Deficiency & <br />Accessibility</big>
 
 </div>
 
@@ -326,10 +326,11 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | cols: 2fr 3fr
 
 # Learning stations
-
+<f-hr style="margin:var(--base6) 0" />
 -
 
-~**Find out about the following topics through working on the provided learning stations.<br />This should enable you to optimize the accessibility of information in your design products.**~
+~Caring about high accessibility of information in your design products is important. In the following learning stations you can find impulses and tasks which should enable you to get the skills to optimize your design products. 
+You can work through the stations in the given order which is recommended if you are a beginner. If you are already familiar with a certain topic, you can directly navigate to one that is new for you. Throughout the following pages, you can switch to other learning stations via the burger menu in the top left corner~
 
 -
 
@@ -345,6 +346,8 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 - ~Color contrast and color harmony theory~
 - ~Design rules for creating color palettes~
 
+List needs to be changed to buttons, leading to the separate learning stations.
+
 -
 
 
@@ -356,7 +359,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
   ### Aim. 
   ~In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
   This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
-  The students need to do all of the working stations.~
+  The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.~
 
 </f-notes>
 
@@ -379,7 +382,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 # Accessibility
-
+<f-hr style="margin:var(--base6) 0" />
 -
 
 #### Tasks
@@ -456,6 +459,17 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <f-hr style="margin:var(--base6) 0" />
 
+#### Task
+
+1. ~Read through the text in the sidebar (see link below) and find out about the difference between rods and cones.~
+
+2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
+https://en.wikipedia.org/wiki/Color_vision~
+
+3. ~In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).~
+
+<f-sidebar title="Read about rods and cones">
+	
 ~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
 
 ~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
@@ -468,13 +482,18 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 ~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
 ~That’s why you can’t see colors in the dark.~
 
-~(For more details, read the worksheets on The Eye).~
+</f-sidebar>
+
+<mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
+
+<f-image src="images/color_blindness_accessibility_6.jpg" style="background-position:50% 15%;" />
+
+<br>
 
 <f-next-button style="margin:var(--base6) 0" />
 
 -
 
-s
 
 
 
@@ -482,22 +501,6 @@ s
 
 
 
----
-
-<!-- ##### EXPLAIN  -->
-# The eye
-## Tasks
-
-<f-hr style="margin:var(--base6) 0" />
-
-1. ~Have a look at the article about color vision on wikipedia.org:
-https://en.wikipedia.org/wiki/Color_vision~
-
-
-2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how color perception works in the eye.~
-
-
-3. ~In the text it says “color is not a property of electromagnetic radiation, but a feature of visual perception by an observer”. Find out what is meant by this (see “Subjectivity of color perception”).~
 
 
 
@@ -539,9 +542,13 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 <!-- ##### EXPLAIN  -->
 # Color mixing
 
-~Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color. Strong light produces intense color.~
+~Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color.~
 
-~**Our eyes have three color receptor cells or cones: red, green and blue. As a result, all incoming light is reduced to these three colors. All perceived colors are generated by a mixture of these three colors.**~
+#### Task
+~Go outside or look out of your window before the sun comes up. Watch how you steadily can see more colors while the sun rises and how the intensitiy of the colors changes.~
+(Alternatively: If you have curtains or shutters, close them and look at the room you are in and at the colors you can see. Then slowly open them and see how the colors of the objects in the room start to change with more light entering).
+
+~**Our eyes have three color receptor cells or cones: red, green and blue. As a result, all incoming light is reduced to these three colors. All perceived colors are generated by a mixture of these three colors, depending on the intensity of the light. Find out more on the next page.**~
 
 <f-next-button title="Additive Color"  style="margin: var(--base6) 0" />
 
@@ -571,13 +578,26 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 ~In the Additive Color System, **<span style="color:red;" v-on:mouseover="set('activeCol', 'red')">RED</span>**, **<span style="color:lime;" v-on:mouseover="set('activeCol', 'lime')">GREEN</span>** and **<span style="color:hsl(230, 100%, 70%);" v-on:mouseover="set('activeCol', 'blue')">BLUE</span>** are the primary colors. When all three colors overlap, **WHITE** light is produced.~
 
+#### Task
+
 1. ~Have a look at the RGB Model for additive color mixing and find out about its three secondary colors (which are also the primary colors for the CMY Model, called Subtractive Color System). What are secondary colors?~
 
 2. ~Find out where the RGB Model is used?~
 
 3. ~Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.~
 
-<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
+<f-sidebar title="Check your answers">
+
+1. ~The three secondary colors are: Magenta (mixed through red and blue light), Cyan (mixed through green and blue light) and yellow (mixed through red and green light).~
+
+2. ~Typical RGB input devices are color TV and video cameras, image scanners and digital cameras. Typical RGB output devices are TV sets of various technologies (CRT, LCD, plasma, OLED, quantum dots…), computer and mobile phone displays, video projectors, multicolor LED displays and large screens such as JumboTron. Color printers, on the other hand are not RGB devices, but subtractive color devices (typically CMYK color model).
+If you want to find out about the subtractive color model, see: https://en.wikipedia.org/wiki/Subtractive_color~
+
+3. ~Green and Magenta, Blue and Yellow, Red and Cyan.~
+
+</f-sidebar>
+
+<f-next-button title="RGB Task" style="margin:var(--base6) 0"  />
 
 </section>
 
@@ -602,76 +622,47 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
-| height: 100%
-| padding: 0
-| gap: 0
-| theme: dark
-| 1 2
-
-<section style="padding:var(--content-padding)">
-
-<!-- ##### EXPLAIN  -->
 ##### Color mixing
-# Subtractive Color System
+# Mix RGB Colors
 
-~All objects have physical properties that cause them to absorb some color waves and reflect others. Color, when applied to a surface such as canvas or paper, has the same characteristic.~
+#### Task
+~**Now that you know about the RGB color system, look at the two colors. They are both made up in parts of red, green and blue.**~
 
-~Color is produced by absorption of wavelengths e.g. on paper and remission of the remaining wavelengths, which are perceived by the eye and form a color impression. So for example a cyan colored dot on white paper absorbs red wavelengths (they are complementary to cyan) and remits blue and green, which together mix to cyan.~
+1. ~In your mind, try to disassemble them into their three color components (red, green and blue). How much red, green and blue would you need to create these colors? A lot? Only little?~
 
-~This is called Subtractive Color System, because light is subtracted/absorbed and the remaining light produces a sensation of color.~
+2. ~Take some notes of your assumptions. Test your ideas on the next page.~
 
-~The primary colors of the CMY Model are also the secondary colors of the RGB-Model. In RGB mixing all colors results in white light. What do you think happens in CMY? Try it out.~
-
-<f-next-button title="Subtractive Color" style="margin:var(--base6) 0"  />
-
-</section>
 
 -
 
-<div style="background-color:var(--white); height:100vh; position:sticky; top:0; display:flex; justify-content:center; align-items:center;">
-
-<f-scene style="width:80%; height:80%">
-  
-  <f-circle 
-    v-for="(c,i) in ['magenta', 'cyan', 'yellow']" 
-    :key="'sub'+i"
-    :fill="c" 
-    :x="polarx( i*(360/3), 0.7 )"  
-    :y="polary( i*(360/3), 0.7 )" 
-    stroke="none"
-    style="mix-blend-mode: multiply; "
-  />
-
-</f-scene>
-
-</div>
-
-
-
-
-
+<f-scene width="600" height="300" style="width:100%; height:40vh;">
+<f-box 
+      width="4"
+      height="12"
+      x="2"
+      stroke="none"
+      :fill="rgb( 255 , 0, 255 )"
+    />
+ </f-scene>
+ 
+<f-scene width="600" height="300" style="width:100%; height:40vh;">
+ <f-box 
+      width="4"
+      height="12"
+      x="2"
+      stroke="none"
+      :fill="rgb( 255 , 201, 53 )"
+    />
+    
+ </f-scene>
 
 
 
 
+
+<f-next-button />
 
 
 
@@ -689,9 +680,7 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 ##### Color mixing
 # Mix RGB Colors
 
-~**Try to reproduce the following colors by adjusting the sliders for red, green and blue.**~
-
-~First, in your mind, try to disassemble them into their three components. How much of red, green and blue is needed to make the color? Then check your assumptions by adjusting the controllers so that you receive a color that is as similar as possible to the example.~ 
+~**Now, check your assumptions by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example.**~
 
 -
 
@@ -711,24 +700,6 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
       stroke="none"
       :fill="rgb( 255 , 0, 255 )"
     />
-    <f-text
-      v-if="Math.abs( get('r1',0) - 255) < 1    &&    Math.abs(get('g1',0) - 0) < 1    &&    Math.abs(get('b1',0) - 255) < 1"
-      fill="white" scale="2">
-        YOU DID IT!!!
-    </f-text>
-    <f-text
-      v-else-if="Math.abs( get('r1',0) - 255) < 10    &&    Math.abs(get('g1',0) - 0) < 10    &&    Math.abs(get('b1',0) - 255) < 10" 
-      fill="white">
-        ALMOST THERE...
-    </f-text>
-    <f-text
-      v-else-if="Math.abs( get('r1',0) - 255) < 50    &&    Math.abs(get('g1',0) - 0) < 50    &&    Math.abs(get('b1',0) - 255)  < 50"
-      fill="white">
-        GETTING WARMER!
-    </f-text>
-    <f-text v-else fill="white">
-        MATCH THE COLORS
-    </f-text>
   </f-scene>
   <f-slider set="r1" from="0" to="255" integer title="R" />
   <f-slider set="g1" from="0" to="255" integer title="G" />
@@ -753,23 +724,6 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
       stroke="none"
       :fill="rgb( 255 , 201, 53 )"
     />
-    <f-text
-      v-if="Math.abs( get('r2',0) - 255) < 1    &&    Math.abs(get('g2',0) - 201) < 1    &&    Math.abs(get('b2',0) - 53) < 1"
-      scale="2">
-        YOU DID IT!!!
-    </f-text>
-    <f-text
-      v-else-if="Math.abs( get('r2',0) - 255) < 10    &&    Math.abs(get('g2',0) - 201) < 10    &&    Math.abs(get('b2',0) - 53) < 10">
-        ALMOST THERE...
-    </f-text>
-    <f-text
-      v-else-if="Math.abs( get('r2',0) - 255) < 50    &&    Math.abs(get('g2',0) - 201) < 50    &&    Math.abs(get('b2',0) - 53)  < 50">
-        GETTING WARMER!
-    </f-text>
-    <f-text v-else>
-        THIS IS HARDER
-    </f-text>
-    <f-text :position="{x:0, y:-0.5}" >DIFFERENCE: {{ Math.abs( get('r2',0) - 255) + Math.abs( get('g2',0) - 201) + Math.abs( get('b2',0) - 53)  }}</f-text>
   </f-scene>
   <f-slider set="r2" from="0" to="255" integer title="R" />
   <f-slider set="g2" from="0" to="255" integer title="G" />
@@ -854,17 +808,68 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
     width="2"
     height="3"
     stroke="none"
-    :rotation="{x:-4}"
     
     :fill="hsl(123,100,51)"
   />
 </f-scene>
 </div>
 
+---
 
 
+| id: 3properties
+| height: 100%
+| padding: 0
+| 1 2
 
 
+<section style="padding:var(--content-padding)">
+
+<!-- ##### EXPLAIN -->
+# Three properties of color
+
+<f-hr style="margin:var(--base6) 0" />
+
+
+~When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:~
+
+- ~**HUE**~
+- ~**SATURATION**~
+- ~**BRIGHTNESS**~
+
+~All three of these properties change the effect the color has.~
+
+# 👉
+
+#### ~Have a look at these 2 greens~
+
+~Both are greens, but they have different effects. Most people wouldn’t call the brighter color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
+
+<f-next-button style="margin:var(--base6) 0" />
+
+</section>
+
+-
+
+
+<div style=" height:100vh; position:sticky; top:0; ">
+<f-scene width="600" height="200" style="width:100%; height:100vh;" preserveAspectRatio="none">
+  <f-box 
+    width="4"
+    height="4"
+    x="-4"
+    stroke="none"
+    :fill="hsl(112,63,36)"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    stroke="none"
+    x="0"
+    :fill="hsl(123,100,51)"
+  />
+</f-scene>
+</div>
 
 
 
@@ -891,7 +896,9 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 # 👉
 
-~Have a look at the following colors and find adjectives to describe them. For which products could you possibly use each one of them? Do you know of any that already exist?~
+~Have a look at the following colors and find adjectives to describe them.~
+<br>
+<mark> Here we need to add a polarity profile with adjectives - maybe as a slider, so that students can interact and have a basis for their analysis. This slider should also be on the next two pages about brightness and saturation, with the same adjectives. Maybe we can achieve that the positions they chose for the former are left for them to compare with the new choices they make. I will make a scribble and upload it in the image folder on github. </mark>
 
 <f-next-button style="margin:var(--base6) 0" />
 
@@ -1041,8 +1048,8 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 
 -
 
-Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water.
-Describe the difference between low and high saturated colors with adjectives. When/for which products would you use which?
+Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).
+Describe the different effect low and high saturated colors have, using adjectives. 
 
 
 -

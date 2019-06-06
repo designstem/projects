@@ -43,6 +43,8 @@ Plastic can sink and pollute the sea at all depths
 
 <section><section>
 
+<!--***KJ: Replace image, this is just a placeholder***-->
+
 ## Bad news
 
 Plastic is everywhere
@@ -86,6 +88,8 @@ Can you find any other good news about plastic and environment?
 
 Plastic can also be used to make you walk on water, <a href="https://christojeanneclaude.net/projects/the-floating-piers" target="_new">see this art installation</a>.
 
+<!--***KJ: Could there be just 1-2 sentences about the installation?***-->
+
 -
 
 <f-next-button title="Discuss" />
@@ -97,6 +101,7 @@ Plastic can also be used to make you walk on water, <a href="https://christojean
 
 | 1 1 1
 | 2 2 3
+| rows: 1fr auto
 
 -
 
@@ -106,7 +111,7 @@ What are your feelings about this installation?
 
 After which physical laws the piers were floating, even with many people walking on them? Concentrate on these terms:
 
-- <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a>, see also <a href="https://phet.colorado.edu/sims/density-and-buoyancy/buoyancy_en.html">interactive playground</a>
+- <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a> <!--***KJ: A very busy site :(***-->, see also <a href="https://phet.colorado.edu/sims/density-and-buoyancy/buoyancy_en.html">interactive playground</a> <!--***KJ: Requires Flash that is less and less available in browsers***-->
 
 - Weight density
 
@@ -114,36 +119,38 @@ After which physical laws the piers were floating, even with many people walking
 
 ---
 
-| padding: 0
-
-<section><section>
+| 1 1 1
+| 2 3 3
+| rows: auto auto
 
 # Make a boat from recycled plastic
 
-<span class="bullet">1</span> Collect some plastic objects around you  
+-
 
-<span class="bullet">2</span> Find out the type of plastic they are made of
+1. Collect some plastic objects around you  
 
-<span class="bullet">3</span> Design a boat or other floating structure<br><a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">See the example</a>.
+2. Find out the type of plastic they are made of
 
-<span class="bullet">4</span> Verify that an boat can float even if built with a plastic material that sink. What’s the reason?<br><a href="https://www.youtube.com/watch?v=xniW3_afO-0" target="_blank">How do ships float?</a>
+3. Design a boat or other floating structure<br><a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">See the example</a>.
 
-<span class="bullet">5</span>Calculate your boat weight and its buoyancy in water
+4. Verify that an boat can float even if built with a plastic material that sink. What’s the reason?<br><a href="https://www.youtube.com/watch?v=xniW3_afO-0" target="_blank">How do ships float?</a>
 
+5. Calculate your boat weight and its buoyancy in water
 
 <f-next-button title="Does your boat float?" />
 
-</section></section>
-
 -
 
-<f-image src="https://scd.observers.france24.com/files/imagecache/1024x576/article_images/teaser_tunisie_1.jpg" />
+<img src="https://scd.observers.france24.com/files/imagecache/1024x576/article_images/teaser_tunisie_1.jpg" />
+
+<!--***KJ: Image source / copyright?***-->
 
 ---
 
 | 1 1 1
 | 2 3 4
 | 5 6 7
+| rows: auto 1fr
 
 # Does your boat float?
 
@@ -186,11 +193,11 @@ After which physical laws the piers were floating, even with many people walking
 
 #### Checklist:
 
-- is it made reusing materials?
+1. Is it made reusing materials?
 
-- has it any environmental purpose?
+2. Does it havea an environmental purpose?
 
-- can it float when stressed with more weight? Stressed with movements? Stressed with distortions of original shape?
+3. Can it float when stressed with more weight? Stressed with movements? Stressed with distortions of original shape?
 
 #### Remember:
 

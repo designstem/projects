@@ -41,31 +41,79 @@
 <div style="position:absolute; top:-60vh; right:-40vw; width:130vw; height:160vh; overflow:hidden;">
 
 <f-scene3 style="width:100%; height:100%; opacity:0.2" id="fp-hedron" isometric>
-  <f-rotation3 duration="60000">
+  <!-- <f-rotation3 duration="60000"> -->
   <f-polyhedron3
       hedron="Icosahedron"
       position="0 0 0"
       rotation="0 10 20"
       scale="1"
     />
-    </f-rotation3>
+    <!-- </f-rotation3> -->
 </f-scene3>
 </div>
 </div>
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Testslide
 
 
-<f-scene3 isometric>
-        <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="1.5" />
-    </f-scene3>
+
+Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle math" />
 
 
-<Triangle :points="[ [0,0], [1.5,0], [0,1] ]" :angleLabels="false" />
-<Triangle :points="[ [-1,1], [-0.5,-1], [1.5,0.5] ]" />
-<Triangle :points="[ [-1,1], [1,-1], [1.5,1] ]" />
+
+<f-inline>
+
+<f-scene grid v-slot="{ mouse }" width="200">
+  <f-drag
+    :mouse="mouse"
+    points="-1 1, 1 -1, 1 1"
+    v-slot="{ points }"
+    set="pD"
+  >
+    <f-line :points="points" closed />
+  </f-drag>
+</f-scene>
+
+<f-scene grid style="width:400px; height:400px;">
+  <Triangle2 :points="get('pD', [ [0,0], [1.5,0], [0,1] ] )" :angleInfo="true"  />
+</f-scene>
+
+</f-inline>
+
+
+
+<f-scene grid v-slot="{ mouse }" width="300">
+  <f-drag
+    :mouse="mouse"
+    points="-1 1, 1 -1, 1 1"
+    v-slot="{ points }"
+  >
+    <Triangle2 :points="points" :angleLabels="false" />
+  </f-drag>
+</f-scene>
+
+<f-scene grid>
+<Triangle2  />
+</f-scene>
+
+
+
+
 
 <f-scene v-slot="{ mouse }" width="400" height="300">
   <f-grid opacity="0.1"  />
@@ -81,7 +129,7 @@
   <f-line stroke-width="4" points="-1.7 -1.7, 0 1.7" /> 
   <f-line stroke-width="4" :stroke="color('blue')" points="-0.2 1.7, 1.7 -1" /> 
   <f-line stroke-width="4" points="1.7 -0.7, -1.7 -1.4" /> 
-  <f-text position="-1.5 0.5" :fill="color('gray')" scale="0.5">{{mouse.x.toFixed(3)}} {{mouse.y.toFixed(3)}}</f-text>
+  <f-text position="-1.5 1.7" :fill="color('gray')" scale="0.5">{{mouse.x.toFixed(3)}} {{mouse.y.toFixed(3)}}</f-text>
   <f-text position="-1.6 -2.6">B</f-text>
   <f-text position="1.6 -2">C</f-text>
   <f-text position="0.2 0.1">A</f-text>
@@ -101,7 +149,7 @@
 
 
 
-
+| height: 100vh
 
 
 ### &nbsp;
@@ -124,7 +172,7 @@
 
 -
 
-<f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center bottom" />
+<f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center center" />
 
 
 

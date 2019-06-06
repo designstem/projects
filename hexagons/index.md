@@ -7,6 +7,8 @@
 
 <big>How to optimize packaging, reduce loss of space and avoid material waste</big>
 
+<!---***KJ: Image source and rights?***-->
+
 -
 
 <f-next-button title="Start" />
@@ -20,15 +22,24 @@
 * To learn about concepts in geometry and maths
 
 </f-notes>
+
 ---
+
 | 1 1 1
-| 2 3 4
+| 3 4 2 
 | 5 5 5
+| rows: auto auto 1fr
 
 # Learn about history of human made packages
+
+<!---***KJ: Unify the wording of steps 1 and 2 below***-->
+
 -
 
 <f-image src="https://cdn.pixabay.com/photo/2012/04/13/10/58/paint-31831_960_720.png" />
+
+<!---***KJ: Image source and rights? Try [this](https://etc.usf.edu/clipart/64900/64993/64993_dollcase.htm) for historical images***
+
 
 -
 
@@ -39,10 +50,10 @@
 <f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
 -
 <big><span class="bullet">2</span></big>
-<f-card
-  title="TASK:"
->
-  Look for packages around you and find differences between them
+
+### Task
+
+Look for packages around you and find differences between them
 </f-card>
 -
 
@@ -51,9 +62,8 @@
 ---
 
 | 1 1 1
-| 2 2 3
-| 2 2 4
-| 5 5 5
+| 3 2 2
+| rows: auto 1fr 
 
 # Nowadays packaging is also marketing
 
@@ -63,25 +73,21 @@
 
 <f-image src="https://www.vzhh.de/sites/default/files/styles/crop_default/public/medien/167/bilder/Bensdorp_Kakao_final.png?itok=3xMh-LGX" />
 
-X-Ray of a cereal package, showing the amount of product in relation to the size of the packaging.
+<!---***KJ: Image source and rights?***-->
+
 
 -
+
+<big>Here is a X-Ray of a cereal package, showing the amount of product in relation to the size of the packaging.</big>
 
 <big><span class="bullet">1</span></big>
 
-<big>Do some of the packages you’ve found have misleading packaging?</big> 
-
--
+Do some of the packages you’ve found have misleading packaging?
 
 <big><span class="bullet">2</span></big>
 
-  *<big>What do you think and feel about it?</big>
+What do you think and feel about it? Would you want to change it? Why and how?
 
-  *<big>Would you want to change it? </big>
-
-  *<big>Why and how?</big>
-
--
 
 <f-next-button />
 
@@ -91,6 +97,7 @@ X-Ray of a cereal package, showing the amount of product in relation to the size
 | 2 3 5 6
 | 2 3 5 6
 | 7 7 7 7
+| rows: auto 1fr
 
 # Costly packaging
 
@@ -146,7 +153,7 @@ Sometime the package is part of the value
 <f-next-button />
 -
 
-<f-image src="https://svgsilh.com/svg/32532.svg" />
+<img src="https://svgsilh.com/svg/32532.svg" />
 
 ---
 
@@ -156,10 +163,13 @@ Sometime the package is part of the value
 
 # Explore
 
+<!---***KJ: Title?***-->
+
 <big> Bring/take a milk or juice carton (square shape). </big>
-  1. Cut off the top of the carton and fill it with rice until it is full.
-  2. Weight the rice on a scale without the carton.
-  3. Take note of the weight.
+
+1. Cut off the top of the carton and fill it with rice until it is full.
+2. Weight the rice on a scale without the carton.
+3. Take note of the weight.
 
 -
 
@@ -172,59 +182,57 @@ Sometime the package is part of the value
 ---
 
 | 1 1 1 2
-| 3 3 3 3
-| 4 4 4 4
-
 
 # Explore
 
-  4. Cut off also the bottom of the carton and cut along one of the sides.
-  5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
+<!---***KJ: Title?***-->
 
--
-
-<f-image src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
-
--
+4. Cut off also the bottom of the carton and cut along one of the sides.
+5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
 
 <table>
   <tbody>
     <tr>
       <td>
-        <f-scene >
+        <f-scene width="200" height="200">
           <f-regularpolygon
+            scale="1.75"
             count="4"
             :stroke="color('red')"
           />
         </f-scene>
       </td>
       <td>
-        <f-scene >
+        <f-scene width="200" height="200">
           <f-regularpolygon
+            scale="1.75"
             count="3"
             :stroke="color('red')"
           />
         </f-scene>
       </td>
       <td>
-        <f-scene >
+        <f-scene width="200" height="200">
           <f-regularpolygon
+            scale="1.75"
             count="5"
             :stroke="color('red')"
           />
         </f-scene>
       </td>
       <td>
-        <f-scene >
+        <f-scene width="200" height="200">
           <f-regularpolygon
+            scale="1.75"
             count="6"
             :stroke="color('red')"
           />
         </f-scene>
       </td>
       <td>
-        <f-scene >
+        <f-scene width="200" height="200">
           <f-circle
+            scale="1.75"
             :stroke="color('red')"
           />
         </f-scene>
@@ -240,14 +248,20 @@ Sometime the package is part of the value
   </tbody>
 </table>
 
+<f-next-button />
+
 -
 
-<f-next-button />
+<!--f-image src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" /-->
+
+-
 
 ---
 
 | 1 2
 | 3 3
+
+<!---***KJ: Title?***-->
 
 <big> <span class="bullet">1</span>Which shape optimize carton volume?</big>
 
@@ -267,6 +281,7 @@ Sometime the package is part of the value
 | 2 2 3 3
 | 2 2 3 3
 | 4 4 4 4
+| rows: auto 1fr 1fr auto
 
 # Drawing polygons with fixed perimeter
 
@@ -280,9 +295,11 @@ Sometime the package is part of the value
 ***A*** Which is the ratio between square and triangle areas?
 ***B*** What can you say about the volume of a milk carton with triangle base?
 
-<big><span class="bullet">1</span> Now keep a fixed perimeter of `10` and change the ***number of edges*** `n = {{ get('n') }}`</big>
+<big><span class="bullet">2</span> Now keep a fixed perimeter of `10` and change the ***number of edges*** `n = {{ get('n') }}`</big>
+
 <f-slider set="n" from="3" to="32" integer >
 </f-slider>
+
 ***A*** How the ratio between square and polygons changes?
 ***B*** Given a fixed perimeter, which is the polygon with the bigger area?
 ***C*** What can you say about the volume of the milk carton?
@@ -331,55 +348,45 @@ You can always ***rotate*** the polygons with the parameter `r`
 
 ---
 
-| 1 1
-| 2 2
-| 2 2
-| 3 3
+| 1 2 2
 
-# Optional: tools for understanding regular shapes
 
--
+#### Optional
 
-## <span class="bullet">1</span>Concept of regular polygons (particular attention to the hexagon) and their main characteristics:
-
-<big>https://www.mathsisfun.com/geometry/interior-angles-polygons.html</big>
-
-## <span class="bullet">2</span>Advanced concepts of regular polygons and measures:
-
-<big>http://mathworld.wolfram.com/RegularPolygon.html</big>
-
-## <span class="bullet">3</span>How to build a regular polygon:
-
-<big>https://www.geogebra.org/m/WCFMxSce</big>
-
-## <span class="bullet">4</span>Circumcircle of a polygon
-
-<big>https://www.mathopenref.com/polygoncircumcircle.html</big>
-
--
+# Tools for understanding regular shapes
 
 <f-next-button/>
+
+-
+
+1. Concept of regular polygons (particular attention to the hexagon) and their main characteristics:
+https://www.mathsisfun.com/geometry/interior-angles-polygons.html
+<br>
+2. Advanced concepts of regular polygons and measures:
+http://mathworld.wolfram.com/RegularPolygon.html
+<br>
+3. How to build a regular polygon:
+https://www.geogebra.org/m/WCFMxSce
+<br>
+4. Circumcircle of a polygon
+https://www.mathopenref.com/polygoncircumcircle.html
 
 ---
 
-| 1 3
-| 2 3
-| 2 3
-| 4 3
+| 1 1 2
 
 # Multiple packaging
 
--
+~Take a lemon or an orange. Think about its parts and its packaging subdivision.~
 
-<big><span class="bullet">1</span>Take a lemon or an orange. Think about its parts and its packaging subdivision. Sometimes natural packagings do not optimize the amount per se, but they maximize the outer container utilization.</big>
-
--
-
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Citrus_Limonum._Lemon_Wellcome_M0005888.jpg/681px-Citrus_Limonum._Lemon_Wellcome_M0005888.jpg" />
-
--
+~Sometimes natural packagings do not optimize the amount per se, but they maximize the **outer container utilization**.~
 
 <f-next-button/>
+
+-
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Citrus_Limonum._Lemon_Wellcome_M0005888.jpg/681px-Citrus_Limonum._Lemon_Wellcome_M0005888.jpg" />
+
 
 ---
 
@@ -387,6 +394,7 @@ You can always ***rotate*** the polygons with the parameter `r`
 | 2 3
 | 2 3
 | 4 4
+| rows: auto 1fr
 
 # If we have to store multiple packages?
 
@@ -395,14 +403,14 @@ You can always ***rotate*** the polygons with the parameter `r`
 <big>If there are multiple pieces of the product, they have to be stacked/stored with the least waste of space in between the packages.</big>
 
 ***perimeter*** `p`
-<f-slider set="p" from="1" to="10"  >
-</f-slider>
+<f-slider set="p" from="1" to="10"/>
+
 ***number of edges*** `n`
-<f-slider set="n" from="3" to="32" integer >
-</f-slider>
+<f-slider set="n" from="3" to="32" integer />
+
 ***rotation*** `r`
-<f-slider set="r" from="0" to="360"  >
-</f-slider>
+<f-slider set="r" from="0" to="360" />
+
 -
 
 <f-scene grid>
@@ -427,30 +435,32 @@ You can always ***rotate*** the polygons with the parameter `r`
 ---
 
 | 1 1 1
-| 2 2 2
-| 3 4 5
-| 3 4 5
-| 6 6 6
+| 2 3 3
+| 4 4 4
+| rows: auto 1fr
 
 # If we have to store multiple packages?
 
 -
 
-<big>Try to fill all the gaps between packages optimizing perimeter in different pattern.</big>
+Try to fill all the gaps between packages optimizing perimeter in different pattern.
 
 ***perimeter*** `p`
-<f-slider set="p" from="1" to="10"  >
-</f-slider>
+<f-slider set="p" from="1" to="10" />
+
 ***number of edges*** `n`
-<f-slider set="n" from="3" to="32" integer >
-</f-slider>
+<f-slider set="n" from="3" to="32" integer />
+
 ***rotation*** `r`
-<f-slider set="r" from="0" to="360"  >
-</f-slider>
+<f-slider set="r" from="0" to="360" />
+
+<p /><br>
+
+<f-next-button/>
 
 -
 
-<f-scene grid>
+<f-scene grid width="220" height="220">
   <f-group scale="1">
     <f-grid-pattern cols="3" rows="3" step="1">
       <f-group :rotation="get('r',0)">
@@ -464,9 +474,7 @@ You can always ***rotate*** the polygons with the parameter `r`
   </f-group> 
 </f-scene>
 
--
-
-<f-scene grid>
+<f-scene grid width="220" height="220">
   <f-group scale="1">
     <f-hex-pattern cols="3" rows="3" step="0.5">
       <f-group :rotation="get('r',0)">
@@ -480,9 +488,7 @@ You can always ***rotate*** the polygons with the parameter `r`
   </f-group> 
 </f-scene>
 
--
-
-<f-scene grid>
+<f-scene grid width="220" height="220">
   <f-group scale="1">
     <f-spin-pattern>
       <f-group :rotation="get('r',0)">
@@ -496,10 +502,6 @@ You can always ***rotate*** the polygons with the parameter `r`
   </f-group> 
 </f-scene>
 
--
-
-<f-next-button/>
-
 ---
 
 | 1 2
@@ -507,7 +509,7 @@ You can always ***rotate*** the polygons with the parameter `r`
 
 # Optimize the outer container
 
-<big>After this work, can you evaluate which is the optimal shape to store the maximum amount of rice with minimal cardboard material without loss of space in between the cartons? </big>
+After this work, can you evaluate which is the optimal shape to store the maximum amount of rice with minimal cardboard material without loss of space in between the cartons?
 
 -
 
@@ -525,13 +527,11 @@ You can always ***rotate*** the polygons with the parameter `r`
 
 # Also animals package their goods
 
-<big>Find out how honeycombs are built and why bees choose hexagons and not other regular polygons. Watch the following video:
-https://www.youtube.com/watch?v=QEzlsjAqADA
-</big>
+Find out how honeycombs are built and why bees choose hexagons and not other regular polygons. Watch the following video:
 
 -
 
-<f-image src="https://images.pexels.com/photos/928978/pexels-photo-928978.jpeg" />
+<f-video src="https://www.youtube.com/watch?v=QEzlsjAqADA" />
 
 -
 
@@ -545,11 +545,13 @@ https://www.youtube.com/watch?v=QEzlsjAqADA
 | 1 1
 | 2 2
 
-# <big><big>Of Bees and Packages</big></big>
+# Of Bees and Packages
 
-## <span class="bullet">1</span> Verify that the hexagon has the maximum area (= bigger beehive cell) among the stackable polygons with same perimeter.
+<!--***KJ: Backgrounds are cool but why now?***-->
 
-## <span class="bullet">2</span> Verify that the hexagon has the minimum perimeter (= min amount of vax, the packging!) among the stackable polygons with same area.
+1. Verify that the hexagon has the maximum area (= bigger beehive cell) among the stackable polygons with same perimeter.
+
+2. Verify that the hexagon has the minimum perimeter (= min amount of vax, the packging!) among the stackable polygons with same area.
 
 -
 
@@ -565,15 +567,17 @@ https://www.youtube.com/watch?v=QEzlsjAqADA
 
 # Natural marketing in packaging 
 
-## Sometimes in nature the packaging itself is part of the product.
+Sometimes in nature the **packaging is part of the product**.
 
-### <span class="bullet">1</span> Take an apple. Think about its skin, core and seeds. What is product and what is packaging?
+1. Take an apple. Think about its skin, core and seeds. What is product and what is packaging?
 
-### <span class="bullet">2</span> Do you know about a human made product having a package that is part of the product?  
+2. Do you know about a human made product having a package that is part of the product?  
 
 -
 
-<f-image src="https://cdn.pixabay.com/photo/2012/04/13/14/02/apple-32524_1280.png" />
+<img src="https://cdn.pixabay.com/photo/2012/04/13/14/02/apple-32524_1280.png" />
+
+<!--***KJ: Image source / copyright?***-->
 
 -
 
@@ -581,58 +585,53 @@ https://www.youtube.com/watch?v=QEzlsjAqADA
 
 ---
 
-| 1 2
-| 1 2
-| 1 2
-| 1 2
-| 1 3
+| 1 1 1 1
+| 2 2 3 4
+| rows: auto 1fr
 
 # Design object task 
 
-## Think about an object which does not have a reusable package
+-
 
-### <span class="bullet">1</span>Imagine how you can design a new reusable package, possibly suitable for different purposes
+### Think about an object which does not have a reusable package
 
-### <span class="bullet">2</span>Evaluate what’s the best material for your package; keep in mind that it has to be reusable 
+1. Imagine how you can design a new reusable package, possibly suitable for different purposes
 
-### <span class="bullet">3</span>What if you have to store several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
+2. Evaluate what’s the best material for your package; keep in mind that it has to be reusable 
 
-## *Remember: You have learned how to optimize your packaging to reduce costs and waste, apply your knowledge to this problem*
+3. What if you have to store several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
+
+**Remember:** You have learned how to optimize your packaging to reduce costs and waste, apply your knowledge to this problem
 
 -
 
-
-
-<center>
-  <f-scene>
-    <f-rotation>
-      <f-circle-pattern :r="0.5 - (get('r') / 2)">
-        <f-hex-pattern cols="2" rows="3" step="0.5" :r="get('r')">
-          <f-group :rotation="get('r',0)">
-        <f-line 
-          closed
-          :points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
-          :stroke="color('blue')"
-        />
+<f-scene>
+  <f-rotation>
+    <f-circle-pattern :r="0.5 - (get('r') / 2)">
+      <f-hex-pattern cols="2" rows="3" step="0.5" :r="get('r')">
+        <f-group :rotation="get('r',0)">
+      <f-line 
+        closed
+        :points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
+        :stroke="color('blue')"
       />
-        </f-circle-pattern>
+    />
       </f-circle-pattern>
-    </f-rotation>
-  </f-scene>
-</center>
+    </f-circle-pattern>
+  </f-rotation>
+</f-scene>
 
 -
 
 ***perimeter*** `p`
-<f-slider set="p" from="1" to="10"  >
-</f-slider>
-***number of edges*** `n`
-<f-slider set="n" from="3" to="32" integer >
-</f-slider>
-***fun*** `f`
-<f-slider set="r" from="0" to="360"  >
-</f-slider>
+<f-slider set="p" from="1" to="10" />
 
----
+***number of edges*** `n`
+<f-slider set="n" from="3" to="32" integer />
+
+***fun*** `f`
+<f-slider set="r" from="0" to="360" />
+
+
 
 

@@ -5,6 +5,14 @@ import {
   utils
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
+
+// import { 
+//     Vue,
+//     components,
+//     Css, 
+//     utils
+//   } from "http://127.0.0.1:5501/fachwerk.js";
+
 for (const name in components) {
   Vue.component(name, components[name])
 }
@@ -12,9 +20,9 @@ for (const name in components) {
 export default{
     props:{
         points: {
-            type: [Array, String, Object],
+            type: [String, Number, Array, Object],
             required: false,
-            default: [[-1,1], [-0.5,-1], [1.5,0.5]]
+            default: () => [[-1,1], [-0.5,-1], [1.5,0.5]]
         },
         angleLabels: {
             type: Boolean,
@@ -22,10 +30,15 @@ export default{
             default: true
         },
         angleMarkers: {
-            type: Boolean,
+            type: Number,
             required: false,
-            default: true
-        }
+            default: 3
+        },
+        angleInfo: {
+          type: Boolean,
+          required: false,
+          default: false
+      },
     },
   mixins: [Css],
   data() {
@@ -39,34 +52,47 @@ export default{
       }
     }
   },
-  mounted() {
+  beforeMount() {
     this.solveTriangle();
+  },
+  watch: { 
+    points: function(newVal, oldVal) { 
+      this.solveTriangle();
+    }
   },
   methods: {
     ...utils,
-    compPos(i){
-        return `${this.points[i][0]} ${this.points[i][1]} `;
+    compPos(i, type = 'arc'){
+      
+        if(type == 'box'){
+            return `${this.triangle.points[i][0]+0.15} ${this.triangle.points[i][1]+0.15} `;
+        } else {
+            return typeof this.triangle.points == 'object' ? `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}` :  `${this.points[i][0]} ${this.points[i][1]}`;
+        }
+        
     },
     textPos(i){
         let polarPos = this.polarxy(
-            this.angleBetweenPoints(    this.points[i][0],  this.points[i][1],  0,0 ), 
-            this.distanceBetweenPoints( this.points[i][0],  this.points[i][1],  0,0 )+0.2
+            this.angleBetweenPoints(    this.triangle.points[i][0],  this.triangle.points[i][1]-1.5,  0,0 ), 
+            this.distanceBetweenPoints( this.triangle.points[i][0],  this.triangle.points[i][1]-1.5,  0,0 )+0.2
         );
-        return `${polarPos[0]} ${(-polarPos[1]-1.5)}`;
+        return `${polarPos[0]} ${(polarPos[1])}`;
     },
     solveTriangle(){
-        this.triangle.points = this.points;
+        this.triangle.points = this.parseCoords(this.points);
         this.findSides();
         this.findAngles();
         this.findSideAngles();
     },
     findSides(){
         this.triangle.sides.length = 0;
-        let a = this.distanceBetweenPoints( this.points[0][0], this.points[0][1], this.points[1][0], this.points[1][1] );
-        let b = this.distanceBetweenPoints( this.points[1][0], this.points[1][1], this.points[2][0], this.points[2][1] );
-        let c = this.distanceBetweenPoints( this.points[2][0], this.points[2][1], this.points[0][0], this.points[0][1] );
+        
+        let a = this.distanceBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
+        let b = this.distanceBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
+        let c = this.distanceBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
         this.triangle.sides.push(a, b, c);
-        //console.log("sides: "+this.triangle.sides);
+        // console.log("points:" + this.triangle.points);
+        // console.log("sides: "+this.triangle.sides);
     },
     findAngles(){
         this.triangle.angles.length = 0;
@@ -77,20 +103,20 @@ export default{
         let A = Math.acos( (a*a+c*c-b*b) / (2*a*c)) * (180/Math.PI);
         let B = 180 - (A+C);
         this.triangle.angles.push(A, B, C);
-        console.log("angles: "+this.triangle.angles);
+        // console.log("angles: "+this.triangle.angles);
     },
     findSideAngles(){
         this.triangle.sideangles.length = 0;
-        let A1 = this.angleBetweenPoints( this.points[0][0], this.points[0][1], this.points[1][0], this.points[1][1] );
-        let B1 = this.angleBetweenPoints( this.points[1][0], this.points[1][1], this.points[2][0], this.points[2][1] );
-        let C1 = this.angleBetweenPoints( this.points[2][0], this.points[2][1], this.points[0][0], this.points[0][1] );
+        let A1 = this.angleBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
+        let B1 = this.angleBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
+        let C1 = this.angleBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
         this.triangle.sideangles.push(A1, B1, C1);
-        console.warn("sideangles: " + this.triangle.sideangles);
+        //console.warn("sideangles: " + this.triangle.sideangles);
     },
     compPolarAngle(i){
         // let w = this.half.x * this.startPoints[this.dotIndex][0];
         // let h = this.half.y * this.startPoints[this.dotIndex][1];
-        return Math.atan2(this.points[i][1],this.points[i][0]) * (180/Math.PI);
+        return Math.atan2(this.triangle.points[i][1],this.triangle.points[i][0]) * (180/Math.PI);
     },
     
   },
@@ -103,31 +129,32 @@ export default{
   template: `
   <div>
 
+    <!-- <f-scene grid style="width:100%; height:auto;"> -->
     <f-scene grid>
-        <f-arc v-if="angleMarkers" v-for="(p, i) in points"
-            r="0.3"
-            :key="'arc'+i"
-            :start-angle="0"
-            :end-angle="triangle.angles[i]"
-            inner-radius="0"
-            stroke="none"
-            :fill="color(colors[i])"
-            :position="compPos(i)"
-            :rotation="90+triangle.sideangles[i]"
-        />
-        <f-line :points="compPath" closed /> 
-        <f-group v-if="angleLabels">
-            <f-text :position="textPos(0)" style="font-family:serif;">A</f-text>
-            <f-text :position="textPos(1)">B</f-text>
-            <f-text :position="textPos(2)">C</f-text>
+        <template v-if="angleMarkers>0&&angleMarkers<=3" v-for="(p, i) in angleMarkers">
+            <f-arc 
+                r="0.3"
+                :key="'arc'+i"
+                :start-angle="0"
+                :end-angle="triangle.angles[i]"
+                inner-radius="0"
+                stroke="none"
+                :fill="color(colors[i])"
+                :position="compPos(i)"
+                :rotation="90+triangle.sideangles[i]"
+            />
+            
+            <f-box v-if="triangle.angles[i] == 90" r="0.3" stroke="none" :fill="color(colors[i])" :position="compPos(i, 'box')" />
+        </template>
+        <f-line :points="points" closed />
+        <f-group v-if="angleLabels" rotation="-90">
+            <f-text v-for="(t,i) in ['A', 'B', 'C']" :key="'label'+i" :position="textPos(i)" rotation="90">{{t}}</f-text>
         </f-group>
-    </f-scene>
-    
-    <!-- <h1>{{ angleBetweenPoints(0,0,0,1) + 180 }}</h1>
+        <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
+          <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35">{{t}}:{{ triangle.angles[i].toFixed(2) }}°</text>
+        </f-group>
 
-    <p>A: {{textPos(0)}}</p>
-    <p>B: {{textPos(1)}}</p>
-    <p>C: {{textPos(2)}}</p> -->
+    </f-scene>
 
   </div>
   `,

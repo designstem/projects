@@ -327,7 +327,8 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <f-next-button style="margin:var(--base4) 0" />
 
-
+> Check FF vs Chrome
+Link to the https://www.color-blindness.com/coblis-color-blindness-simulator/
 
 -
 

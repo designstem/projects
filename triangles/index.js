@@ -4,17 +4,20 @@ import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 import * as localutils from "./utils.js";
 
 import Triangle from "./components/Triangle.js";
+import Triangle2 from "./components/Triangle2.js";
 //import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
 
 
 fachwerk({ 
   components: { 
     "Triangle" : Triangle,
+    "Triangle2" : Triangle2,
   },
+  src: "index.md",
   theme: "light",
   editor: "hide",
   pager: true,
   home: false,
-  type: "slides",
+  type: "document",
   utils:  localutils
 });

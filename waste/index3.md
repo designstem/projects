@@ -2,7 +2,7 @@
 
 # <big><big>Product from waste only</big></big>
 
-<big><big>Waste is a design mistake I</big></big>
+<big><big>Waste is a design mistake III</big></big>
 
 ---
 
@@ -43,6 +43,6 @@ It's not an easy question.
 
 ---
 
-<a class="primary" href="./index.html">Back to waste scenario</a>
+<a class="primary" href="./index.html"  v-on:click="goto(0)">Back to waste scenario</a>
 
 
