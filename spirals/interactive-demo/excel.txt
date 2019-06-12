@@ -1,0 +1,83 @@
+
+Kreeklaste exceli macro
+
+pi = 3.1456
+a = Cells(2, 2)
+distance = Cells(3, 2)
+cycles = Cells(4, 2)
+b = distance / (2 * pi)
+points = 250
+theta0 = 2 * pi / points
+
+' output
+outcol = 1
+outrow = 8
+
+' clear data
+Range("A8:D5000").Clear
+
+'1st point on x axis
+Cells(outrow, outcol) = 0
+Cells(outrow, outcol + 1) = a
+Cells(outrow, outcol + 2) = a
+Cells(outrow, outcol + 3) = 0
+outrow = outrow + 1
+'
+For I = 1 To cycles
+    For J = 1 To points
+        theta = J * theta0
+        r = a + b * theta
+        x = r * Cos(theta)
+        y = r * Sin(theta)
+    ' write output
+        Cells(outrow, outcol) = theta
+        Cells(outrow, outcol + 1) = r
+        Cells(outrow, outcol + 2) = x
+        Cells(outrow, outcol + 3) = y
+        outrow = outrow + 1
+     Next J
+     a = r
+Next I
+End Sub
+
+
+
+
+
+// o mudib enda jaoks
+
+
+pi = 3.1456
+
+a = 2                           // starting point
+distance = 7                    // between spirals
+cycles = 5                      // rotations
+b = distance / (2 * pi)
+points = 250
+theta0 = 2 * pi / points
+
+
+
+'1st point on x axis
+Cells(outrow, outcol) = 0
+Cells(outrow, outcol + 1) = a
+Cells(outrow, outcol + 2) = a
+Cells(outrow, outcol + 3) = 0
+outrow = outrow + 1
+'
+For I = 1 To cycles
+    For J = 1 To points
+        theta = J * theta0
+        r = a + b * theta
+        x = r * Cos(theta)
+        y = r * Sin(theta)
+    ' write output
+        Cells(outrow, outcol) = theta
+        Cells(outrow, outcol + 1) = r
+        Cells(outrow, outcol + 2) = x
+        Cells(outrow, outcol + 3) = y
+        outrow = outrow + 1
+     Next J
+     a = r
+Next I
+End Sub

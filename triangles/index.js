@@ -15,9 +15,9 @@ fachwerk({
   },
   src: "index.md",
   theme: "light",
-  editor: "hide",
+  editor: "none",
   pager: true,
   home: false,
-  type: "document",
+  type: "slides",
   utils:  localutils
 });
