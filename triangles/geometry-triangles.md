@@ -5,8 +5,9 @@
 Triangles derive when we join three lines together. 
 In every triangle we distinguish **3 sides** and **3 angles**.
 
+<f-scene>
 <Triangle :points="[ [-1,1], [-0.5,-1], [1.5,0.5] ]" />
-
+</f-scene>
 
 
 The length of the sides is measured in cm, inches, pixels etc. 
@@ -24,7 +25,9 @@ By comparing angles and sides, we distinguish triangles as follows.
 
 <f-inline>
 
+<f-scene>
 <Triangle :points="[ [-1, -1],[-1.5, 1],[1.5,-1] ]" :angleMarkers="1" />
+</f-scene>
 
 <div>
 
@@ -37,7 +40,9 @@ Particularly, if one angle of the triangle is greater than 90° then this triang
 
 <f-inline>
 
+<f-scene>
 <Triangle :points="[ [-0.5, 1],[-1.5, -1],[1.5,-1] ]" :angleMarkers="3" />
+</f-scene>
 
 If all angles are **less than 90°** then it is called **Acute**
 
@@ -47,7 +52,9 @@ If all angles are **less than 90°** then it is called **Acute**
 
 <f-inline>
 
+<f-scene>
 <Triangle :points="[ [0,1],[-1.5,-0.5],[1.5,-0.5] ]" :angleMarkers="3" />
+</f-scene>
 
 It has <b>two sides and angles equal</b>.
 
@@ -58,7 +65,9 @@ It has <b>two sides and angles equal</b>.
 
 <f-inline>
 
+<f-scene>
 <Triangle :points="[ [0,1.598],[-1.5,-1],[1.5,-1] ]" :angleMarkers="3" />
+</f-scene>
 
 It has **all three sides and angles equal**. 
 It can be proved that **each angle is 60°**.
@@ -70,7 +79,9 @@ It can be proved that **each angle is 60°**.
 
 <f-inline>
 
+<f-scene>
 <Triangle :points="[ [-1,1],[-1,-1],[1.5,-1] ]" :angleMarkers="3" />
+</f-scene>
 
 **One angle** of an Orthogonal triangle is **equal to 90°**
 
@@ -98,14 +109,28 @@ It can be proved that **each angle is 60°**.
 
 <f-inline>
 
+<f-scene>
 <Triangle :points=" [ [get('px1',0),get('py1',1)],[-1.5,-1],[1.5,-1] ] " :angleInfo="true" />
+</f-scene>
 
 <div style="width: 100%;">
 
-*Change one angle and see how the others are affected*
+
+<f-scene v-slot="{ mouse }" width="300">
+  <f-drag
+    :mouse="mouse"
+    points="-1 1, 1 -1, 1 1"
+    v-slot="{ points }"
+  >
+    <Triangle :points="points" :angleLabels="false" :angleInfo="true"  />
+  </f-drag>
+</f-scene>
+
+
+<!-- *Change one angle and see how the others are affected*
 
 <f-slider set="px1" from="-2" to="2" step="0.1" value="0" style="width:100%" title="x" />
-<f-slider set="py1" from="-2" to="2" step="0.1" value="1.598" style="width:100%" title="y" />
+<f-slider set="py1" from="-2" to="2" step="0.1" value="1.598" style="width:100%" title="y" /> -->
 
 
 
@@ -117,22 +142,5 @@ It can be proved that **each angle is 60°**.
 </f-inline>
 
 
-
-
-<f-scene grid v-slot="{ mouse }" width="200">
-  <f-drag
-    :mouse="mouse"
-    points="-1 1, 1 1, 1 -1"
-    v-slot="{ points }"
-    set="p"
-  >
-    <f-line :points="points" closed />
-  </f-drag>
-</f-scene>
-
-<f-scene grid width="200">
-	<f-line :points="get('p')" closed />
-</f-scene>
-<Triangle :points="get('p')" />
 
 asdads

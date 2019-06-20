@@ -90,7 +90,7 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle ma
 </f-scene>
 
 <f-scene grid style="width:400px; height:400px;">
-  <Triangle2 :points="get('pD', [ [0,0], [1.5,0], [0,1] ] )" :angleInfo="true"  />
+  <Triangle :points="get('pD', [ [0,0], [1.5,0], [0,1] ] )" :angleInfo="true"  />
 </f-scene>
 
 </f-inline>
@@ -103,7 +103,7 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle ma
     points="-1 1, 1 -1, 1 1"
     v-slot="{ points }"
   >
-    <Triangle2 :points="points" :angleLabels="false" />
+    <Triangle :points="points" :angleLabels="false" />
   </f-drag>
 </f-scene>
 
