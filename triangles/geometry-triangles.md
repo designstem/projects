@@ -264,11 +264,11 @@ For that we have to know the Theorem of Pythagoras
 
 
 <f-math>
-  \color{red} a² \color{black} = \color{blue} b² \color{black} + \color{green} c²
+  \color{red} a^2 \color{black} = \color{blue} b^2 \color{black} + \color{green} c^2
 </f-math>
 
 <f-math>
-  \color{green} c² \color{black} = \color{red} a² \color{black} - \color{blue} b² \color{black} = \color{red} 5² \color{black} - \color{blue} 4² \color{black} = \color{red} 25 \color{black} - \color{blue} 16 \color{black} = 9
+  \color{green} c^2 \color{black} = \color{red} a^2 \color{black} - \color{blue} b^2 \color{black} = \color{red} 5^2 \color{black} - \color{blue} 4^2 \color{black} = \color{red} 25 \color{black} - \color{blue} 16 \color{black} = 9
 </f-math>
 
 <f-math>
