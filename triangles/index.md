@@ -85,7 +85,7 @@
 
 
 
-Okidoki <f-sidebar src="./geometry-triangles.md" width="70vw" title="Triangle math" />
+Okidoki <f-sidebar src="./geometry-triangles.md" width="60vw" title="Triangle math" />
 
 
 

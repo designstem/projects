@@ -70,7 +70,7 @@ export default{
     ...utils,
     compPos(i, type = 'arc'){
       if(type == 'box'){
-        return `${this.triangle.points[i][0]+0.125} ${this.triangle.points[i][1]+0.125} `;
+        return `${this.triangle.points[i][0]} ${this.triangle.points[i][1]} `;
       } else {
         // return typeof this.triangle.points == 'object' ? `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}` :  `${this.points[i][0]} ${this.points[i][1]}`;
         return `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}`;
@@ -142,7 +142,9 @@ export default{
               :rotation="90+triangle.sideangles[i]"
               v-if="Math.round(triangle.angles[i]) != 90"
           />
-          <f-box v-if="Math.round(triangle.angles[i]) == 90" r="0.25" stroke="none" :fill="color(angleColors[i])" :position="compPos(i, 'box')" />
+          <f-group v-if="Math.round(triangle.angles[i]) == 90" :position="compPos(i, 'box')" :rotation="triangle.sideangles[i]">
+            <f-box r="0.25" stroke="none" :fill="color(angleColors[i])" position="0.125 0.125"  />
+          </f-group>
       </g>
       <f-line :points="points" :fill="fill" stroke-width="4" closed />
       <f-group v-if="angleLabels" rotation="-90">

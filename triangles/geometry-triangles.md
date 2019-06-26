@@ -1,4 +1,4 @@
-<div style="padding:var(--content-padding)">
+<div style="padding:var(--content-section-padding)">
 
 # Triangles
 
@@ -178,6 +178,7 @@ It can be proved that **each angle is 60°**.
 
 #### **A** In any triangle if we know angles A and B and want to calculate angle C. 
 
+#### &nbsp;
 
 <f-inline style="align-items:flex-start;">
 
@@ -211,6 +212,7 @@ For example, if we assume that
 
 #### **B** In a isosceles triangle, we know angle A and we want to calculate angles B or C.
 
+#### &nbsp;
 
 <f-inline style="align-items:flex-start;">
 
@@ -241,20 +243,20 @@ Example: if <var class="red">A=100°</var> then
 
 #### **C** In a right triangle we know sides a and b and we want to calculate the third side c.
 
-For that we have to know the Theorem of Pythagoras
+#### &nbsp;
 
-# &nbsp;
+For that we have to know the Theorem of Pythagoras
 
 <blockquote>
 
-## ~<f-fact-icon /> The Theorem of Pythagoras:~
+### ~<f-fact-icon /> The Theorem of Pythagoras:~
 
 #### ~In every orthogonal (right)  triangle with sides a, b and c (A is the right angle) it holds a²=b²+c²~
 
 </blockquote> 
 
 
-# &nbsp;
+### &nbsp;
 
 <f-inline style="align-items:flex-start;">
 
