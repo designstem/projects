@@ -89,7 +89,7 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle ma
   </f-drag>
 </f-scene>
 
-<f-scene grid style="width:400px; height:400px;">
+<f-scene grid style="width:600px; height:600px;">
   <Triangle :points="get('pD', [ [0,0], [1.5,0], [0,1] ] )" :angleInfo="true"  />
 </f-scene>
 
@@ -107,10 +107,9 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle ma
   </f-drag>
 </f-scene>
 
-<f-scene grid>
-<Triangle2  />
-</f-scene>
-
+<!-- <f-scene grid width="300">
+  <Triangle :points="[ [0,1],[-1.5,-1],[1.5,-1] ]" :angleLabels="false" />
+</f-scene> -->
 
 
 
@@ -247,6 +246,8 @@ There are birds that heavily rely on human made nesting boxes.
 - Once we go to Mars (or camping), we might need lightweight and quick- or autoassembled and modular <a href="https://www.geek.com/news/nasa-reveals-top-three-designs-for-space-friendly-homes-on-mars-1781096/" target="_blank">solutions for housing</a>
 - And last but not least – the <a href="https://www.archdaily.com/883389/prefab-pop-up-shelter-designed-for-burning-man-and-perfected-for-disaster-relief" target="_blank">Burning Man Festival</a> – which takes us back to the first point.
 
+***TODO: more / better examples***
+
 ---
 
 
@@ -296,6 +297,9 @@ Build the nesting box from wood or similar materials.
 
 
 ---
+
+
+
 
 
 
@@ -355,27 +359,103 @@ For designing and building a solid polyhedral object you have to:
 
 
 
+
+
+
+
+
 ---
 
-POLYHEDRON
+| height: 100vh
+| 1 1 1
+| 2 3 4
 
-Get to know the regular polyhedral shapes
 
-<a class="primary" href="../triangles_explorer">Explore polyhedra</a>
+## Simplifying the polyhedra
 
 -
 
-POLYGONS
+<f-scene3 isometric class="fullWidthScene" >
+  <f-polyhedron3 hedron="Cube" rotation="15 10 0" position="-0.7 0.7 -1" scale="1" />
+  <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" position="1 1 0" scale="0.8" />
+  <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="0.8" />
+  <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" position="1 -1 1" scale="1" />
+  <f-polyhedron3 hedron="Tetrahedron" rotation="0 10 20" position="-1 -0.8 1" scale="1.2" />
+  
+</f-scene3>
+
+<div style="text-align:center">
+
+### Polyhedra <f-rightarrow-icon />
+
+Get to know the 5 regular polyhedral shapes a.k.a. **Platonic solids**
+
+</div>
+
+
+<!-- <a class="primary" href="../triangles_explorer">Explore polyhedra</a> -->
+
+-
+
+<f-scene3 isometric class="fullWidthScene" >
+
+  <f-group3 rotation="10 30 15" scale="1.5">
+  <f-polyhedron3 hedron="Cube" scale="1" opacity="0.4" />
+  
+  <f-polygon3
+    points="
+      -0.5    -0.5    0.7,
+       0.5    -0.5    0.7,
+       0.5     0.5    0.7,
+      -0.5     0.5    0.7,
+      -0.5    -0.5    0.7
+    "
+    :stroke="color('darkergray')"
+    stroke-width="6"
+    :fill="color('yellow')"
+    />
+    </f-group3>
+</f-scene3>
+
+<div style="text-align:center">
+
+### <f-leftarrow-icon /> Polygons <f-rightarrow-icon />
 
 Find the polygons: the sides of a polyhedron
 
+</div>
+
 -
 
-TRIANGES
+<f-scene3 isometric class="fullWidthScene" >
 
+  <f-group3 rotation="10 30 15" scale="1.5">
+  <f-polyhedron3 hedron="Cube" scale="1" opacity="0.2" />
+    <f-polygon3 v-for="(p,i) in 4"
+    :key="'triangle'+i"
+    points="
+      -0.5    -0.5    0.7,
+       0.5    -0.5    0.7,
+       0         0    0.7,
+      -0.5    -0.5    0.7
+    "
+    :stroke="color('darkergray')"
+    stroke-width="3"
+    :fill="i == 0 ? color('yellow') : ''"
+    :rotation="`0 0 ${i*90}`"
+    :position="i == 0 ? '0 0 0.2' : '0 0 0'"
+    />
+  </f-group3>
+</f-scene3>
 
+<div style="text-align: center">
+
+### <f-leftarrow-icon /> Triangles
 
 Find the triangles: the “building blocks” of polygons
+
+</div>
+
 
 ---
 
@@ -384,31 +464,70 @@ Find the triangles: the “building blocks” of polygons
 
 
 
+| height: 100vh
+| cols: 50vw auto
+| 1 2 
+| 3 3
 
 
 # Let’s start with triangles!
 
-Triangle is the basic element that polygons and polyhedra are made of.
+### &nbsp;
+
+**Triangle is the basic element** that polygons and polyhedra are made of.
 
 So let’s see, what type of triangles exist and what kind of relations exist between triangle’s sides and angles, that we can use in our project.
 
+<f-sidebar src="geometry-triangles.md" title="Geometry of triangles" width="50vw" /> 
 
-<f-sidebar src="geometry-triangles.md" title="Geometry of triangles" width="50vw" />
+-
+
+<f-scene class="fullWidthScene">
+  <f-grid />
+  <Triangle :points="[ [-1.5,-1], [1.5,-1], [0,1.498] ]" />
+</f-scene>
+
+-
+
+ 
 
 ---
 
 
 
 
-
+| height: 100vh
+| cols: 50vw auto
+| 1 2 
+| 3 3
 
 # Polygon: made of triangles
 
 Polygons are geometrical shapes, that form the sides of regular polyhedra and they itself are comprised of triangles. 
+
 By the way, the equilateral triangle itself is the simplest regular polygon.
 So, in order to build a polyhedra, let’s first get familiar with it’s sides – the polygons.
 
-GEOMETRY OF POLYGONS
+<f-sidebar src="geometry-triangles.md" title="Geometry of polygons" width="50vw" /> 
+
+-
+
+
+<!-- <f-scene class="fullWidthScene">
+  <f-grid />
+  <Triangle :points="[ [0,0], [-0.5,-0.5], [0.5,-0.5] ]" :angleLabels="false" />
+</f-scene> -->
+
+<f-slider set="polySides" from="3" to="12" integer title="Number of sides" />
+{{ set('polySlides',3) }}
+<f-scene grid class="fullWidthScene">
+  <f-group v-for="(t,i) in get('polySides', 3)" :key="'tr'+i" :rotation="i*(360/get('polySides', 3))">
+    <Triangle :points="[ [0,0], polarxy( 360/get('polySides', 3)*-0.5, 1.5), polarxy( 360/get('polySides', 3)*0.5, 1.5) ]" :angleLabels="false" :opacity="i==0 ? 1 : 0.25" />
+  </f-group>
+</f-scene>
+
+-
+
 
 ---
 
