@@ -70,7 +70,7 @@ export default{
     ...utils,
     compPos(i, type = 'arc'){
       if(type == 'box'){
-        return `${this.triangle.points[i][0]+0.25} ${this.triangle.points[i][1]+0.25} `;
+        return `${this.triangle.points[i][0]+0.125} ${this.triangle.points[i][1]+0.125} `;
       } else {
         // return typeof this.triangle.points == 'object' ? `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}` :  `${this.points[i][0]} ${this.points[i][1]}`;
         return `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}`;
@@ -131,7 +131,7 @@ export default{
     <g style="pointer-events: none;" v-if="triangle.points.length" :opacity="opacity">
       <g v-if="angleMarkers>0 && angleMarkers<=3" v-for="(p, i) in angleMarkers">
           <f-arc 
-              r="0.2"
+              r="0.25"
               :key="'arc'+i"
               :start-angle="0"
               :end-angle="triangle.angles[i]"
@@ -140,15 +140,16 @@ export default{
               :fill="color(angleColors[i])"
               :position="compPos(i, 'arc')"
               :rotation="90+triangle.sideangles[i]"
+              v-if="Math.round(triangle.angles[i]) != 90"
           />
-          <f-box v-if="triangle.angles[i] == 90" r="0.5" stroke="none" :fill="color(angleColors[i])" :position="compPos(i, 'box')" />
+          <f-box v-if="Math.round(triangle.angles[i]) == 90" r="0.25" stroke="none" :fill="color(angleColors[i])" :position="compPos(i, 'box')" />
       </g>
-      <f-line :points="points" :fill="fill" closed />
+      <f-line :points="points" :fill="fill" stroke-width="4" closed />
       <f-group v-if="angleLabels" rotation="-90">
           <f-text v-for="(t,i) in ['A', 'B', 'C']" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;">{{t}}</f-text>
       </f-group>
       <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
-        <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35">{{t}}:{{ triangle.angles[i].toFixed(2) }}°</text>
+        <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
       </f-group>
     </g>
   `,

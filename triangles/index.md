@@ -71,8 +71,21 @@
 #### Testslide
 
 
+<f-scene grid width="400" style="flex:0 0 40%">
+  <Triangle :points="[ [-0.5,-1],[1,-1],[-0.5,1] ]" />
+  <f-text :fill="color('red')" position="0.5 0.2">a</f-text>
+  <f-text :fill="color('blue')" position="-0.7 0">b</f-text>
+  <f-text :fill="color('green')" position="0.2 -1.2">c</f-text>
+</f-scene>
 
-Okidoki <f-sidebar src="./geometry-triangles.md" width="50vw" title="Triangle math" />
+
+<f-scene grid width="500" height="500">
+  <Triangle :points="[ [1.5,-0.5],[2.0211-1.5,1.166531-0.5],[-1.5,-0.5] ]" angleInfo="true" />
+</f-scene>
+
+
+
+Okidoki <f-sidebar src="./geometry-triangles.md" width="70vw" title="Triangle math" />
 
 
 
@@ -489,7 +502,8 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 
 -
 
- 
+<f-next-button title="Next: Polygons" />
+
 
 ---
 
@@ -527,6 +541,7 @@ So, in order to build a polyhedra, let’s first get familiar with it’s sides 
 </f-scene>
 
 -
+
 
 
 ---
