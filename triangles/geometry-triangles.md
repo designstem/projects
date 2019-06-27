@@ -403,14 +403,24 @@ The height <var class="purple">h</var> is estimated by
 The ratios of the sides of a right triangle are called trigonometric ratios. 
 The three common trigonometric ratios are the **sine (sin)**, **cosine (cos)**, and **tangent (tan)**. 
 
-These are defined as follows 
 
 
 <blockquote>
   <section>
+<f-inline>
+
+<f-fact-icon size="large" style="flex:1 0 100px;" />
+
+#### In a triangle with angles A,B and C and sides a, b and c are sine, cosine and tangens defined as follows 
+
+</f-inline>
     <f-math>
-      sin(B) = \frac {b}{a} , sin(C) = \frac {c}{a},
-      cos(B) = \frac {c}{a} , cos(C) = \frac {b}{a},
+      sin(B) = \frac {b}{a} , sin(C) = \frac {c}{a}
+    </f-math>
+    <f-math>
+      cos(B) = \frac {c}{a} , cos(C) = \frac {b}{a}
+    </f-math>
+    <f-math>
       tan(B) = \frac {b}{c} , tan(C) = \frac {b}{c}
     </f-math>
   </section>
