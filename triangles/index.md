@@ -64,25 +64,54 @@
 
 
 
-
-
-
+| 1 1
+| 2 3
+| 4 4
 
 #### Testslide
 
+-
 
-<f-scene grid width="400" style="flex:0 0 40%">
-  <Triangle :points="[ [-0.5,-1],[1,-1],[-0.5,1] ]" />
-  <f-text :fill="color('red')" position="0.5 0.2">a</f-text>
-  <f-text :fill="color('blue')" position="-0.7 0">b</f-text>
-  <f-text :fill="color('green')" position="0.2 -1.2">c</f-text>
+#### **D** In a isoskeles triangle, we know all the sides and we want to calculate the height from angle A
+
+Let <var class="red">a</var>=10 and <var class="blue">b</var>=<var class="green">c</var>=16. 
+
+The triangle AHC is orthogonal and the unknown height <var class="purple">h</var> is one of its vertical sides. 
+In that triangle holds the theorem of Pythogoras so 
+
+<f-math>
+  AC^2 = AH^2 + HC^2
+</f-math>
+
+We notice that AH intersects BC in the middle H, so HC is half of BC, ie. 
+
+<f-math>
+  HC = \frac {10}{2} = 5.
+</f-math>
+
+The height <var class="purple">h</var> is estimated by
+
+<f-math>
+  \color{purple} h^2 \color{black} = AH^2 = AC^2 + HC^2 = 16^2 + 5^2 = 256 + 25 = 281
+  \color{purple} h \color{black} = \sqrt {281} \approx 16.7
+</f-math>
+
+h=28116.7
+
+-
+
+<f-scene grid class="fullWidthScene">
+  <Triangle :points="[ [0,1.5],[1,-1],[-1,-1] ]" />
+  <f-line :points="[ [0,1.5],[0,-1] ]" />
+  <f-box :fill="color('purple')" r="0.25" opacity="0.5" position="0.125 -0.875" />
+  <f-text :fill="color('green')" position="0.7 0.3">c</f-text>
+  <f-text :fill="color('blue')" position="-0.7 0.3">b</f-text>
+  <f-text :fill="color('red')" position="0 -1.2">a</f-text>
+  <f-text :fill="color('purple')" position="-0.1 0.3">h</f-text>
+  <f-text position="-0.1 -0.9">H</f-text>
 </f-scene>
 
-
-<f-scene grid width="500" height="500">
-  <Triangle :points="[ [1.5,-0.5],[2.0211-1.5,1.166531-0.5],[-1.5,-0.5] ]" angleInfo="true" />
-</f-scene>
-
+-
 
 
 Okidoki <f-sidebar src="./geometry-triangles.md" width="60vw" title="Triangle math" />

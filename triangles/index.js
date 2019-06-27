@@ -13,6 +13,7 @@ fachwerk({
     "Triangle" : Triangle
   },
   src: "index.md",
+  // src: "geometry-triangles.md",
   theme: "light",
   editor: "none",
   pager: true,

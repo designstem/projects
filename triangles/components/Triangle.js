@@ -140,10 +140,11 @@ export default{
               :fill="color(angleColors[i])"
               :position="compPos(i, 'arc')"
               :rotation="90+triangle.sideangles[i]"
+              opacity="0.5"
               v-if="Math.round(triangle.angles[i]) != 90"
           />
           <f-group v-if="Math.round(triangle.angles[i]) == 90" :position="compPos(i, 'box')" :rotation="triangle.sideangles[i]">
-            <f-box r="0.25" stroke="none" :fill="color(angleColors[i])" position="0.125 0.125"  />
+            <f-box r="0.25" stroke="none" :fill="color(angleColors[i])" position="0.125 0.125" opacity="0.5" />
           </f-group>
       </g>
       <f-line :points="points" :fill="fill" stroke-width="4" closed />
