@@ -1,6 +1,9 @@
 
+
 | 1 1
 | 2 3
+| padding: 5vmin
+
 
 # Triangles
 
@@ -42,6 +45,7 @@ Angles are measured **in degrees**. We name angles by using the letter of their 
 </f-scene>
 
 
+
 ---
 
 
@@ -54,6 +58,7 @@ Angles are measured **in degrees**. We name angles by using the letter of their 
 | 2 3
 | 4 5
 | 6 7
+| padding: 5vmin
 
 ### &nbsp;
 
@@ -112,6 +117,7 @@ It has **two sides and angles equal**.
 
 | 1 2
 | 3 4
+| padding: 5vmin
 
 <!-- 8/9 -->
 
@@ -153,13 +159,13 @@ It can be proved that **each angle is 60°**.
 
 
 
+| theme: blue
+| padding: 5vmin
 
-
-### &nbsp;
+#### &nbsp;
 
 ## How to calculate angles and sides in triangles.
 
-#### &nbsp;
 
 <blockquote>
 
@@ -197,14 +203,12 @@ It can be proved that **each angle is 60°**.
 
 
 
-
-
 ---
 
 | 1 1
 | 2 3
+| padding: 5vmin
 
-# &nbsp;
 
 #### **A** In any triangle if we know angles A and B and want to calculate angle C. 
 
@@ -244,8 +248,7 @@ then, since
 
 | 1 1
 | 2 3
-
-## &nbsp;
+| padding: 5vmin
 
 #### **B** In a isosceles triangle, we know angle A and we want to calculate angles B or C.
 
@@ -281,8 +284,7 @@ Example: if <var class="red">A=100°</var> then
 
 | 1 1
 | 2 3
-
-## &nbsp;
+| padding: 5vmin
 
 #### **C** In a right triangle we know sides a and b and we want to calculate the third side c.
 
@@ -345,6 +347,7 @@ For that we have to know the Theorem of Pythagoras
 
 | 1 1
 | 2 3
+| padding: 5vmin
 
 #### **D** In a isoskeles triangle, we know all the sides and we want to calculate the height from angle A
 
@@ -394,7 +397,7 @@ The height <var class="purple">h</var> is estimated by
 
 
 
-
+| padding: 5vmin
 
 # &nbsp;
 
@@ -411,7 +414,7 @@ The three common trigonometric ratios are the **sine (sin)**, **cosine (cos)**, 
 
 <f-fact-icon size="large" style="flex:1 0 100px;" />
 
-#### In a triangle with angles A,B and C and sides a, b and c are sine, cosine and tangens defined as follows 
+In a triangle with angles **A**, **B** and **C** and sides **a**, **b** and **c** are **sine**, **cosine** and **tangens** defined as follows 
 
 </f-inline>
     <f-math>
@@ -426,3 +429,44 @@ The three common trigonometric ratios are the **sine (sin)**, **cosine (cos)**, 
   </section>
 </blockquote>
 
+---
+
+
+
+
+
+
+
+
+
+| 1 2
+| padding: 5vmin
+
+Example. In the following right triangle, angle B can be estimated in terms of trigonometric functions as 
+
+<f-math>
+  cos(B) = \frac {8}{17} \approx 0.47
+</f-math> 
+or
+<f-math>
+  sin(B) = \frac {15}{17} \approx 0.88
+</f-math> 
+or
+<f-math>
+  tan(B) = \frac {15}{8} \approx 1.87
+</f-math> 
+
+The actual value of angle B in degrees derives from the inverse function. For example if sinB0.88,  then sin-10.8828. The inverse trigonometric functions can be found and estimated by a typical calculator.
+
+-
+
+<f-scene grid class="fullWidthScene">
+  <Triangle :points="[ [1.5,-0.5],[-1,1],[-1,-0.5] ]" />
+  <f-text :fill="color('blue')" position="0.4 0.45">17</f-text>
+  <f-text :fill="color('blue')" position="-1.2 0.2">8</f-text>
+  <f-text :fill="color('blue')" position="0 -0.8">15</f-text>
+</f-scene>
+
+---
+
+# &nbsp;

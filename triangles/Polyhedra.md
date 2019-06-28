@@ -44,7 +44,7 @@
 ~6 faces, 12 edges, 8 vertices~
 
 <center>
-    <f-scene3 isometric>
+    <f-scene3 isometric webgl>
         <f-box3 rotation="30 30 0" scale="1.5" />
     </f-scene3>
 </center>

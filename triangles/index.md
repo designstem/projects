@@ -64,125 +64,21 @@
 
 
 
-| 1 1
-| 2 3
-| 4 4
 
 #### Testslide
 
--
-
-#### **D** In a isoskeles triangle, we know all the sides and we want to calculate the height from angle A
-
-Let <var class="red">a</var>=10 and <var class="blue">b</var>=<var class="green">c</var>=16. 
-
-The triangle AHC is orthogonal and the unknown height <var class="purple">h</var> is one of its vertical sides. 
-In that triangle holds the theorem of Pythogoras so 
-
-<f-math>
-  AC^2 = AH^2 + HC^2
-</f-math>
-
-We notice that AH intersects BC in the middle H, so HC is half of BC, ie. 
-
-<f-math>
-  HC = \frac {10}{2} = 5.
-</f-math>
-
-The height <var class="purple">h</var> is estimated by
-
-<f-math>
-  \color{purple} h^2 \color{black} = AH^2 = AC^2 + HC^2 = 16^2 + 5^2 = 256 + 25 = 281
-  \color{purple} h \color{black} = \sqrt {281} \approx 16.7
-</f-math>
-
-h=28116.7
-
--
-
-<f-scene grid class="fullWidthScene">
-  <Triangle :points="[ [0,1.5],[1,-1],[-1,-1] ]" />
-  <f-line :points="[ [0,1.5],[0,-1] ]" />
-  <f-box :fill="color('purple')" r="0.25" opacity="0.5" position="0.125 -0.875" />
-  <f-text :fill="color('green')" position="0.7 0.3">c</f-text>
-  <f-text :fill="color('blue')" position="-0.7 0.3">b</f-text>
-  <f-text :fill="color('red')" position="0 -1.2">a</f-text>
-  <f-text :fill="color('purple')" position="-0.1 0.3">h</f-text>
-  <f-text position="-0.1 -0.9">H</f-text>
-</f-scene>
-
--
 
 
-Okidoki <f-sidebar src="./geometry-triangles.md" width="60vw" title="Triangle math" />
+Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay />
 
 
 
-<f-inline>
-
-<f-scene grid v-slot="{ mouse }" width="200">
-  <f-drag
-    :mouse="mouse"
-    points="-1 1, 1 -1, 1 1"
-    v-slot="{ points }"
-    set="pD"
-  >
-    <f-line :points="points" closed />
-  </f-drag>
-</f-scene>
-
-<f-scene grid style="width:600px; height:600px;">
-  <Triangle :points="get('pD', [ [0,0], [1.5,0], [0,1] ] )" :angleInfo="true"  />
-</f-scene>
-
-</f-inline>
-
-
-
-<f-scene grid v-slot="{ mouse }" width="300">
-  <f-drag
-    :mouse="mouse"
-    points="-1 1, 1 -1, 1 1"
-    v-slot="{ points }"
-  >
-    <Triangle :points="points" :angleLabels="false" />
-  </f-drag>
-</f-scene>
-
-<!-- <f-scene grid width="300">
-  <Triangle :points="[ [0,1],[-1.5,-1],[1.5,-1] ]" :angleLabels="false" />
-</f-scene> -->
-
-
-
-
-<f-scene v-slot="{ mouse }" width="400" height="300">
-  <f-grid opacity="0.1"  />
-  <f-arc
-    r="0.5"
-    start-angle="213"
-    end-angle="285"
-    inner-radius="0"
-    stroke="none"
-    :fill="color('yellow')"
-    position="1.49 -0.73"
-  />
-  <f-line stroke-width="4" points="-1.7 -1.7, 0 1.7" /> 
-  <f-line stroke-width="4" :stroke="color('blue')" points="-0.2 1.7, 1.7 -1" /> 
-  <f-line stroke-width="4" points="1.7 -0.7, -1.7 -1.4" /> 
-  <f-text position="-1.5 1.7" :fill="color('gray')" scale="0.5">{{mouse.x.toFixed(3)}} {{mouse.y.toFixed(3)}}</f-text>
-  <f-text position="-1.6 -2.6">B</f-text>
-  <f-text position="1.6 -2">C</f-text>
-  <f-text position="0.2 0.1">A</f-text>
-  <f-text position="0.6 -2">ANGLE</f-text>
-  <f-text position="1.1 -1">SIDE</f-text>
-</f-scene>
-
-{{set('p', '0 1.5, -1.5 -1, 1 0 ')}}
-<!-- {{set('p', '[[0, 1.5], [-1.5, -1], [1, 0]]')}} -->
 
 
 ---
+
+
+
 
 
 
@@ -207,17 +103,17 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="60vw" title="Triangle ma
 
 <f-next-button />
 
-
-
-
+<f-sidebar src="./triangle-types.md" width="60vw" title="Triangle math" overlay />
 
 -
 
 <f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center center" />
 
-
-
 ---
+
+
+
+
 
 
 
@@ -231,8 +127,6 @@ Okidoki <f-sidebar src="./geometry-triangles.md" width="60vw" title="Triangle ma
 | 1 2 
 
 
-
-### &nbsp;
 
 # Design problem <sup>🤔</sup>
 
@@ -255,9 +149,16 @@ There are birds that heavily rely on human made nesting boxes.
 
 <f-image src="./images/nesting-boxes__0,5x.jpg" style="background-position: 50% 50%;" />
 
-
-
 ---
+
+
+
+
+
+
+
+
+
 
 | height: 100vh
 | 1 1
@@ -300,6 +201,7 @@ There are birds that heavily rely on human made nesting boxes.
 
 
 
+| height: 100vh
 | 1 1 1 1 1
 | 2 3 4 5 6
 | 7 7 7 7 7
@@ -310,8 +212,8 @@ Design a nesting house based on a polyhedral shape.
 
 -
 
-  ## **1**
-  Find a bird for which to build a nesting box.
+## **1**
+Find a bird for which to build a nesting box.
 
 -
 
@@ -347,7 +249,12 @@ Build the nesting box from wood or similar materials.
 
 
 
+
+
+
+
 | height: 100vh
+| theme: blue 
 
 <center>
 
@@ -371,15 +278,16 @@ Build the nesting box from wood or similar materials.
 
 
 
+
+
+
 | height: 100vh
 | 1 1
-| 2 2
-| 3 4
-| 5 5
+| 2 3
+| 4 4
+| rows: 25vh auto 15vh
 
 # Geometry behind the nesting box
-
--
 
 For designing and building a solid polyhedral object you have to:
 
@@ -399,16 +307,20 @@ For designing and building a solid polyhedral object you have to:
 
 <f-next-button />
 
-
-
-
-
-
-
-
 ---
 
+
+
+
+
+
+
+
+
+
+
 | height: 100vh
+| rows: 15vh auto
 | 1 1 1
 | 2 3 4
 
@@ -440,21 +352,47 @@ Get to know the 5 regular polyhedral shapes a.k.a. **Platonic solids**
 -
 
 <f-scene3 isometric class="fullWidthScene" >
-
   <f-group3 rotation="10 30 15" scale="1.5">
   <f-polyhedron3 hedron="Cube" scale="1" opacity="0.4" />
   
   <f-polygon3
     points="
-      -0.5    -0.5    0.7,
-       0.5    -0.5    0.7,
-       0.5     0.5    0.7,
-      -0.5     0.5    0.7,
-      -0.5    -0.5    0.7
+      -0.5    -0.5,
+       0.5    -0.5,
+       0.5     0.5,
+      -0.5     0.5,
+      -0.5    -0.5
     "
     :stroke="color('darkergray')"
-    stroke-width="6"
+    position="0 0 0.7"
+    stroke-width="4"
     :fill="color('yellow')"
+    />
+    <f-polygon3
+    points="
+      -0.5  -0.5,
+       0.5  -0.5,
+       0.5   0.5,
+      -0.5   0.5,
+      -0.5  -0.5
+    "
+    :stroke="color('darkergray')"
+    position="0 0.6 0"
+    rotation="90 0 0"
+    stroke-width="4"
+    />
+    <f-polygon3
+    points="
+      -0.5  -0.5,
+       0.5  -0.5,
+       0.5   0.5,
+      -0.5   0.5,
+      -0.5  -0.5
+    "
+    :stroke="color('darkergray')"
+    position="-0.6 0 0"
+    rotation="0 90 0"
+    stroke-width="4"
     />
     </f-group3>
 </f-scene3>
@@ -476,16 +414,16 @@ Find the polygons: the sides of a polyhedron
     <f-polygon3 v-for="(p,i) in 4"
     :key="'triangle'+i"
     points="
-      -0.5    -0.5    0.7,
-       0.5    -0.5    0.7,
-       0         0    0.7,
-      -0.5    -0.5    0.7
+      -0.5    -0.5,
+       0.5    -0.5,
+       0         0,
+      -0.5    -0.5
     "
     :stroke="color('darkergray')"
-    stroke-width="3"
+    stroke-width="4"
     :fill="i == 0 ? color('yellow') : ''"
     :rotation="`0 0 ${i*90}`"
-    :position="i == 0 ? '0 0 0.2' : '0 0 0'"
+    :position="i == 0 ? '0 -0.1 0.7' : '0 0 0.7'"
     />
   </f-group3>
 </f-scene3>
@@ -499,7 +437,13 @@ Find the triangles: the “building blocks” of polygons
 </div>
 
 
+
 ---
+
+
+
+
+
 
 
 
@@ -520,41 +464,91 @@ Find the triangles: the “building blocks” of polygons
 
 So let’s see, what type of triangles exist and what kind of relations exist between triangle’s sides and angles, that we can use in our project.
 
-<f-sidebar src="geometry-triangles.md" title="Geometry of triangles" width="50vw" /> 
-
 -
 
 <f-scene class="fullWidthScene">
   <f-grid />
-  <Triangle :points="[ [-1.5,-1], [1.5,-1], [0,1.498] ]" />
+  <Triangle :points="[ [-1.5,-1], [1.5,-1], [0,1.498] ]" :angleMarkers="3" />
 </f-scene>
 
 -
 
-<f-next-button title="Next: Polygons" />
-
+<f-next-button title="Next: Geometry of triangles" />
 
 ---
 
 
 
 
+
+
+
 | height: 100vh
-| cols: 50vw auto
+| 1 1 1
+| 2 3 4
+| 5 5 5
+
+
+# Triangle types and calculations
+
+### &nbsp;
+
+-
+
+#### Basics 
+
+What is a triangle and what kind of triangles we know
+
+<f-sidebar src="triangle-types.md" title="Triangle types" width="60vw" overlay /> 
+
+-
+
+#### Geometry
+
+Calculations based on angles and sides
+
+<f-sidebar src="triangle-calculations.md" title="Geometry of triangles" width="60vw" overlay /> 
+
+-
+
+#### Trigonometry
+
+Calculations based on trigonometric functions
+
+<f-sidebar src="triangle-trigonometry.md" title="Trigonometry" width="60vw" overlay />
+
+-
+
+<f-next-button title="Next: Polygons" />
+
+---
+
+
+
+
+
+
+
+
+
+
+| height: 100vh
 | 1 2 
 | 3 3
 
 # Polygon: made of triangles
 
+#### &nbsp;
+
 Polygons are geometrical shapes, that form the sides of regular polyhedra and they itself are comprised of triangles. 
 
 By the way, the equilateral triangle itself is the simplest regular polygon.
+
 So, in order to build a polyhedra, let’s first get familiar with it’s sides – the polygons.
 
 <f-sidebar src="geometry-triangles.md" title="Geometry of polygons" width="50vw" /> 
 
 -
-
 
 <!-- <f-scene class="fullWidthScene">
   <f-grid />
@@ -565,7 +559,13 @@ So, in order to build a polyhedra, let’s first get familiar with it’s sides 
 {{ set('polySlides',3) }}
 <f-scene grid class="fullWidthScene">
   <f-group v-for="(t,i) in get('polySides', 3)" :key="'tr'+i" :rotation="i*(360/get('polySides', 3))">
-    <Triangle :points="[ [0,0], polarxy( 360/get('polySides', 3)*-0.5, 1.5), polarxy( 360/get('polySides', 3)*0.5, 1.5) ]" :angleLabels="false" :opacity="i==0 ? 1 : 0.25" />
+    <Triangle 
+      :points="[ [0,0], polarxy( 360/get('polySides', 3)*-0.5, 1.5), polarxy( 360/get('polySides', 3)*0.5, 1.5) ]" 
+      :angleLabels="false" 
+      :angleInfo="i==0 ? true : false"
+      :opacity="i==0 ? 1 : 0.25"
+      :fill="color('yellow')"  
+    />
   </f-group>
 </f-scene>
 
@@ -579,11 +579,48 @@ So, in order to build a polyhedra, let’s first get familiar with it’s sides 
 
 
 
+| 1 1 1
+| 2 3 4
+| 5 5 5
 
+# Simplification of polygons <sup>🤔</sup>
 
-# Simplification of polygons 
+Looking at these polygons below, how would you simplify these shapes to calculate angles, sides, circumference, area etc of the polygon? 
 
-Looking at these polygons below, how would you simplify the shapes to calculate angles and distances?
+-
+
+<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck1', true);}" v-on:mouseup.native="()=>{set('polyCheck1', false);}">
+  <f-group v-if="get('polyCheck1', false)">
+    <Triangle :fill="color('yellow')" :points="[ [0,1], [0,-1.25], [1.27,-1.25] ]" :angleLabels="false" :strokeWidth="1" />
+  </f-group>
+  <f-regularpolygon count="3" r="1.5" rotation="180" position="0 -0.5" :strokeWidth="4" />
+</f-scene>
+
+-
+
+<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck2', true);}" v-on:mouseup.native="()=>{set('polyCheck2', false);}">
+  <f-group v-if="get('polyCheck2', false)" v-for="(t,i) in 6" :key="'t'+i" :rotation="(360/5)*i">
+    <Triangle :fill="i == 0 ? color('yellow') : 'none'" :points="[ [0,0], polarxy( 360/5*-0.5, 1.5), polarxy( 360/5*0.5, 1.5) ]" :angleLabels="false" :strokeWidth="1" />
+  </f-group>
+  <f-regularpolygon count="5" r="1.5" rotation="180" :strokeWidth="4" />
+</f-scene>
+
+-
+
+<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck3', true);}" v-on:mouseup.native="()=>{set('polyCheck3', false);}">
+  <f-group v-if="get('polyCheck3', false)" v-for="(t,i) in 6" :key="'t'+i" :rotation="(360/6)*i">
+    <Triangle :fill="i == 0 ? color('yellow') : 'none'" :points="[ [0,0], polarxy( 360/6*-0.5, 1.5), polarxy( 360/6*0.5, 1.5) ]" :angleLabels="false" :strokeWidth="1" />
+  </f-group>
+  <f-regularpolygon count="6" r="1.5" rotation="30" :strokeWidth="4" />
+</f-scene>
+
+-
+
+Click on a polygon to see the answers
+
+<!-- <button v-on:mouseup="()=>{set('polyCheck', false);}" v-on:mousedown="()=>{set('polyCheck', true);}">CHECK YOUR ANSWER</button> -->
+
+<!-- <button v-on:click="send('download')">Download</button> -->
 
 ---
 

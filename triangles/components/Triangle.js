@@ -25,7 +25,8 @@ export default{
             // default: () => [{'x':-1,'y':1}, {'x':-0.5,'y':-1}, {'x':1.5,'y':0.5}]
             default: () => [[-1.5,-1], [1.5,-1], [0,1.48]]
         },
-        fill: { default: "none", type: String },
+        fill: { default: 'none', type: String },
+        strokeWidth: {default: 4, type: Number},
         opacity: {
           default: 1, type: Number
         },
@@ -37,7 +38,7 @@ export default{
         angleMarkers: {
             type: Number,
             required: false,
-            default: 3
+            default: 0
         },
         angleInfo: {
           type: Boolean,
@@ -147,9 +148,9 @@ export default{
             <f-box r="0.25" stroke="none" :fill="color(angleColors[i])" position="0.125 0.125" opacity="0.5" />
           </f-group>
       </g>
-      <f-line :points="points" :fill="fill" stroke-width="4" closed />
+      <f-line :points="points" :fill="fill" :stroke-width="strokeWidth" closed />
       <f-group v-if="angleLabels" rotation="-90">
-          <f-text v-for="(t,i) in ['A', 'B', 'C']" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;">{{t}}</f-text>
+          <f-text v-for="(t,i) in ['A', 'B', 'C']" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;" :fill="color('blue')">{{t}}</f-text>
       </f-group>
       <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
         <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>

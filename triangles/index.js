@@ -15,7 +15,6 @@ fachwerk({
   src: "index.md",
   // src: "geometry-triangles.md",
   theme: "light",
-  editor: "none",
   pager: true,
   home: false,
   type: "document",

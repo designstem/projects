@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="https://designstem.github.io/fachwerk/fachwerk.css">
   <!-- <link rel="stylesheet" href="http://127.0.0.1:5501/fachwerk.css"> -->
   <style>
+    :root {
+      /* --base: 10px; */
+    }
     #fp-hedron svg {
       width:100%;
       height:auto;
@@ -13,10 +16,6 @@
     #fp-hedron canvas {
       width:100%;
       height:auto;
-    }
-    div{
-      /* --content-base:12px; */
-      /* font-weight: 400; */
     }
     .fullWidthScene {
       width: 100%;
@@ -29,23 +28,6 @@
     .fullWidthScene canvas {
       width:100%;
       height: auto;
-    }
-    /* experimental overlay test for f-sidebar */
-    .f-sidebar-container::before{
-      content: "";
-      display: inline-block;
-      position: fixed;
-      width:calc(100vw - (100vw - 100%));
-      height:calc(100vh - (100vh - 100%));
-      left: 0;
-      /* right:0; */
-      top:0;
-      /* bottom:0; */
-      z-index: -1;
-      background:hsla(0,0%,0%,0.5);
-    }
-    .f-sidebar-container .content {
-      background: white;
     }
   </style>
 </head>
