@@ -89,7 +89,7 @@ It has **all sides and angles unequal**, of different size.
 
 **1.1** Particularly, **if one angle of the triangle is greater than 90°** then this triangle is called **Obtuse**.
 
-<var class="blue">A &gt; 90°</var>
+<f-math blue>A &gt; 90°</f-math>
 
 -
 
@@ -105,9 +105,7 @@ It has **all sides and angles unequal**, of different size.
 
 **1.2** If all angles are **less than 90°** then it is called **Acute**
 
-<var class="blue">A &lt; 90°</var>
-<var class="blue">B &lt; 90°</var>
-<var class="blue">C &lt; 90°</var>
+<f-math blue>A &lt; 90° \newline B &lt; 90° \newline C &lt; 90°</f-math>
 
 -
 
@@ -125,8 +123,7 @@ It has **all sides and angles unequal**, of different size.
 
 It has **two sides and angles equal**.
 
-<var class="blue">AB = AC</var>
-<var class="blue">B = C</var>
+<f-math blue>AB = AC \newline B = C</f-math>
 
 -
 
@@ -150,8 +147,7 @@ It has **two sides and angles equal**.
 It has **all three sides and angles equal**. 
 It can be proved that **each angle is 60°**.
 
-<var class="blue">A = B = C = 60°</var>
-<var class="blue">AB = BC = CA</var>
+<f-math blue>A = B = C = 60° \newline AB = BC = CA</f-math>
 
 -
 
@@ -167,7 +163,7 @@ It can be proved that **each angle is 60°**.
 
 **One angle** of an Orthogonal triangle is **equal to 90°**
 
-<var class="blue">A = 90°</var>
+<f-math blue>A = 90°</f-math>
 
 -
 

@@ -77,9 +77,7 @@ then, since
 \color{red} ∠A \color{black} + \color{blue} ∠B \color{black} + \color{green} ∠C \color{black} = 180°
 </f-math>
 
-<f-math>
-\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B \color{black} ) = 180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = 180° - 80° = 100°
-</f-math>
+<f-math>\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B \color{black} ) = \newline 180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = \newline  180° - 80° = 100°</f-math>
 
 -
 
@@ -171,7 +169,7 @@ For that we have to know the Theorem of Pythagoras
 </f-math>
 
 <f-math>
-  \color{green} c^2 \color{black} = \color{red} a^2 \color{black} - \color{blue} b^2 \color{black} = \color{red} 5^2 \color{black} - \color{blue} 4^2 \color{black} = \color{red} 25 \color{black} - \color{blue} 16 \color{black} = 9
+  \color{green} c^2 \color{black} = \color{red} a^2 \color{black} - \color{blue} b^2 \color{black} = \\ \color{red} 5^2 \color{black} - \color{blue} 4^2 \color{black} = \\ \color{red} 25 \color{black} - \color{blue} 16 \color{black} = 9
 </f-math>
 
 <f-math>

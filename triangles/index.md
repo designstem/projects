@@ -72,9 +72,6 @@
 Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay />
 
 
-
-
-
 ---
 
 
@@ -87,6 +84,8 @@ Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay /
 
 
 | height: 100vh
+| 1 2
+
 
 
 ### &nbsp;
@@ -103,11 +102,11 @@ Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay /
 
 <f-next-button />
 
-<f-sidebar src="./triangle-types.md" width="60vw" title="Triangle math" overlay />
-
 -
 
 <f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center center" />
+
+
 
 ---
 
@@ -123,7 +122,7 @@ Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay /
 
 
 
-| height: 100vh
+| height: 80vh
 | 1 2 
 
 
@@ -159,11 +158,12 @@ There are birds that heavily rely on human made nesting boxes.
 
 
 
-
-| height: 100vh
+| height: 80vh
 | 1 1
 | 2 3
 | rows: 15vh auto
+
+## &nbsp;
 
 <h3>🙋‍<sup><sup>💬</sup></sup><span style="font-family:var(--font-serif); font-weight:400;font-style:italic;font-size:70%;">Do these birds absolutely HAVE TO live inside a polyhedron?</span></h3>
 
@@ -201,7 +201,7 @@ There are birds that heavily rely on human made nesting boxes.
 
 
 
-| height: 100vh
+| height: 80vh
 | 1 1 1 1 1
 | 2 3 4 5 6
 | 7 7 7 7 7
@@ -281,11 +281,13 @@ Build the nesting box from wood or similar materials.
 
 
 
-| height: 100vh
+| height: 80vh
 | 1 1
 | 2 3
 | 4 4
 | rows: 25vh auto 15vh
+
+## &nbsp;
 
 # Geometry behind the nesting box
 
@@ -307,6 +309,8 @@ For designing and building a solid polyhedral object you have to:
 
 <f-next-button />
 
+<Separator margin="10vh" />
+
 ---
 
 
@@ -319,10 +323,11 @@ For designing and building a solid polyhedral object you have to:
 
 
 
-| height: 100vh
+| height: 40vh
 | rows: 15vh auto
 | 1 1 1
 | 2 3 4
+| 5 5 5
 
 
 ## Simplifying the polyhedra
@@ -436,7 +441,9 @@ Find the triangles: the “building blocks” of polygons
 
 </div>
 
+-
 
+<Separator margin="10vh" />
 
 ---
 
@@ -450,7 +457,6 @@ Find the triangles: the “building blocks” of polygons
 
 
 
-| height: 100vh
 | cols: 50vw auto
 | 1 2 
 | 3 3
@@ -475,6 +481,9 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 
 <f-next-button title="Next: Geometry of triangles" />
 
+
+<Separator margin="10vh" />
+
 ---
 
 
@@ -483,7 +492,7 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 
 
 
-| height: 100vh
+| height: 80vh
 | 1 1 1
 | 2 3 4
 | 5 5 5
@@ -520,6 +529,8 @@ Calculations based on trigonometric functions
 -
 
 <f-next-button title="Next: Polygons" />
+
+<Separator margin="10vh" />
 
 ---
 
@@ -589,7 +600,7 @@ Looking at these polygons below, how would you simplify these shapes to calculat
 
 -
 
-<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck1', true);}" v-on:mouseup.native="()=>{set('polyCheck1', false);}">
+<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck1', true);}" v-on:mouseup.native="()=>{set('polyCheck1', false);}" v-on:touchstart.native="()=>{set('polyCheck1', true);}" v-on:touchend.native="()=>{set('polyCheck1', false);}">
   <f-group v-if="get('polyCheck1', false)">
     <Triangle :fill="color('yellow')" :points="[ [0,1], [0,-1.25], [1.27,-1.25] ]" :angleLabels="false" :strokeWidth="1" />
   </f-group>
