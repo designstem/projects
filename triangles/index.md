@@ -1,11 +1,11 @@
-
+| padding: 10vmin
 | theme: dark
 | cols: 60vw auto
-| rows: 12vh auto
 | 1 4
 | 2 4
 | 3 4
 | height: 100vh
+
 
 &nbsp;
 
@@ -40,7 +40,7 @@
 <div style="position:absolute; top:0; right:0; width:70vw; height:100vh; overflow:hidden;">
 <div style="position:absolute; top:-60vh; right:-40vw; width:130vw; height:160vh; overflow:hidden;">
 
-<f-scene3 style="width:100%; height:100%; opacity:0.2" id="fp-hedron" isometric>
+<f-scene3 style="width:100%; height:100%; opacity:0.2" class="fp-hedron" isometric static>
   <!-- <f-rotation3 duration="60000"> -->
   <f-polyhedron3
       hedron="Icosahedron"
@@ -60,18 +60,6 @@
 
 
 
-
-
-
-
-
-#### Testslide
-
-
-
-Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay />
-
-
 ---
 
 
@@ -82,7 +70,7 @@ Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay /
 
 
 
-
+| padding: 10vh 10vw
 | height: 100vh
 | 1 2
 
@@ -95,7 +83,7 @@ Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay /
 &nbsp;
 
 1. Design a nesting box for a bird.
-2. The design should be based on a <f-sidebar title="polyhedral shape" src="./Polyhedra.md" width="43vw" />
+2. The design should be based on a <f-sidebar title="polyhedral shape" src="./math-polyhedra.md" width="43vw" />
 3. The material should have some thickness (wood, etc).
 
 &nbsp;
@@ -121,7 +109,7 @@ Okidoki <f-sidebar src="./Polyhedra.md" width="60vw" title="Polyhedra" overlay /
 
 
 
-
+| padding: 10vh 10vw
 | height: 80vh
 | 1 2 
 
@@ -157,7 +145,7 @@ There are birds that heavily rely on human made nesting boxes.
 
 
 
-
+| padding: 10vh 10vw
 | height: 80vh
 | 1 1
 | 2 3
@@ -200,7 +188,7 @@ There are birds that heavily rely on human made nesting boxes.
 
 
 
-
+| padding: 10vh 10vw
 | height: 80vh
 | 1 1 1 1 1
 | 2 3 4 5 6
@@ -252,7 +240,7 @@ Build the nesting box from wood or similar materials.
 
 
 
-
+| padding: 10vh 10vw
 | height: 100vh
 | theme: blue 
 
@@ -280,7 +268,7 @@ Build the nesting box from wood or similar materials.
 
 
 
-
+| padding: 10vh 10vw
 | height: 80vh
 | 1 1
 | 2 3
@@ -309,8 +297,6 @@ For designing and building a solid polyhedral object you have to:
 
 <f-next-button />
 
-<Separator margin="10vh" />
-
 ---
 
 
@@ -322,9 +308,7 @@ For designing and building a solid polyhedral object you have to:
 
 
 
-
-| height: 40vh
-| rows: 15vh auto
+| padding: 10vh 10vw
 | 1 1 1
 | 2 3 4
 | 5 5 5
@@ -334,7 +318,7 @@ For designing and building a solid polyhedral object you have to:
 
 -
 
-<f-scene3 isometric class="fullWidthScene" >
+<f-scene3 isometric class="fullWidthScene" static>
   <f-polyhedron3 hedron="Cube" rotation="15 10 0" position="-0.7 0.7 -1" scale="1" />
   <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" position="1 1 0" scale="0.8" />
   <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="0.8" />
@@ -356,7 +340,7 @@ Get to know the 5 regular polyhedral shapes a.k.a. **Platonic solids**
 
 -
 
-<f-scene3 isometric class="fullWidthScene" >
+<f-scene3 isometric class="fullWidthScene" static>
   <f-group3 rotation="10 30 15" scale="1.5">
   <f-polyhedron3 hedron="Cube" scale="1" opacity="0.4" />
   
@@ -412,7 +396,7 @@ Find the polygons: the sides of a polyhedron
 
 -
 
-<f-scene3 isometric class="fullWidthScene" >
+<f-scene3 isometric class="fullWidthScene" static>
 
   <f-group3 rotation="10 30 15" scale="1.5">
   <f-polyhedron3 hedron="Cube" scale="1" opacity="0.2" />
@@ -443,7 +427,8 @@ Find the triangles: the “building blocks” of polygons
 
 -
 
-<Separator margin="10vh" />
+<f-next-button />
+
 
 ---
 
@@ -456,7 +441,7 @@ Find the triangles: the “building blocks” of polygons
 
 
 
-
+| padding: 10vh 10vw
 | cols: 50vw auto
 | 1 2 
 | 3 3
@@ -482,7 +467,6 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 <f-next-button title="Next: Geometry of triangles" />
 
 
-<Separator margin="10vh" />
 
 ---
 
@@ -491,7 +475,7 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 
 
 
-
+| padding: 10vh 10vw
 | height: 80vh
 | 1 1 1
 | 2 3 4
@@ -508,7 +492,7 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 
 What is a triangle and what kind of triangles we know
 
-<f-sidebar src="triangle-types.md" title="Triangle types" width="60vw" overlay /> 
+<f-sidebar src="math-triangle-types.md" title="Triangle types" width="60vw" overlay /> 
 
 -
 
@@ -516,7 +500,7 @@ What is a triangle and what kind of triangles we know
 
 Calculations based on angles and sides
 
-<f-sidebar src="triangle-calculations.md" title="Geometry of triangles" width="60vw" overlay /> 
+<f-sidebar src="math-triangle-calculations.md" title="Geometry of triangles" width="60vw" overlay /> 
 
 -
 
@@ -524,13 +508,11 @@ Calculations based on angles and sides
 
 Calculations based on trigonometric functions
 
-<f-sidebar src="triangle-trigonometry.md" title="Trigonometry" width="60vw" overlay />
+<f-sidebar src="math-triangle-trigonometry.md" title="Trigonometry" width="60vw" overlay />
 
 -
 
 <f-next-button title="Next: Polygons" />
-
-<Separator margin="10vh" />
 
 ---
 
@@ -542,10 +524,10 @@ Calculations based on trigonometric functions
 
 
 
-
-| height: 100vh
+| padding: 10vh 10vw
 | 1 2 
 | 3 3
+| cols: 50vw auto
 
 # Polygon: made of triangles
 
@@ -557,7 +539,7 @@ By the way, the equilateral triangle itself is the simplest regular polygon.
 
 So, in order to build a polyhedra, let’s first get familiar with it’s sides – the polygons.
 
-<f-sidebar src="geometry-triangles.md" title="Geometry of polygons" width="50vw" /> 
+<f-sidebar src="math-polygon.md" title="Geometry of polygons" width="60vw" overlay /> 
 
 -
 
@@ -575,7 +557,8 @@ So, in order to build a polyhedra, let’s first get familiar with it’s sides 
       :angleLabels="false" 
       :angleInfo="i==0 ? true : false"
       :opacity="i==0 ? 1 : 0.25"
-      :fill="color('yellow')"  
+      :fill="color('yellow')" 
+      :strokeWidth="3"
     />
   </f-group>
 </f-scene>
@@ -589,7 +572,7 @@ So, in order to build a polyhedra, let’s first get familiar with it’s sides 
 
 
 
-
+| padding: 10vh 10vw
 | 1 1 1
 | 2 3 4
 | 5 5 5
@@ -609,7 +592,7 @@ Looking at these polygons below, how would you simplify these shapes to calculat
 
 -
 
-<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck2', true);}" v-on:mouseup.native="()=>{set('polyCheck2', false);}">
+<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck2', true);}" v-on:mouseup.native="()=>{set('polyCheck2', false);}" v-on:touchstart.native="()=>{set('polyCheck2', true);}" v-on:touchend.native="()=>{set('polyCheck2', false);}">
   <f-group v-if="get('polyCheck2', false)" v-for="(t,i) in 6" :key="'t'+i" :rotation="(360/5)*i">
     <Triangle :fill="i == 0 ? color('yellow') : 'none'" :points="[ [0,0], polarxy( 360/5*-0.5, 1.5), polarxy( 360/5*0.5, 1.5) ]" :angleLabels="false" :strokeWidth="1" />
   </f-group>
@@ -618,7 +601,7 @@ Looking at these polygons below, how would you simplify these shapes to calculat
 
 -
 
-<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck3', true);}" v-on:mouseup.native="()=>{set('polyCheck3', false);}">
+<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck3', true);}" v-on:mouseup.native="()=>{set('polyCheck3', false);}" v-on:touchstart.native="()=>{set('polyCheck3', true);}" v-on:touchend.native="()=>{set('polyCheck3', false);}">
   <f-group v-if="get('polyCheck3', false)" v-for="(t,i) in 6" :key="'t'+i" :rotation="(360/6)*i">
     <Triangle :fill="i == 0 ? color('yellow') : 'none'" :points="[ [0,0], polarxy( 360/6*-0.5, 1.5), polarxy( 360/6*0.5, 1.5) ]" :angleLabels="false" :strokeWidth="1" />
   </f-group>
@@ -627,11 +610,8 @@ Looking at these polygons below, how would you simplify these shapes to calculat
 
 -
 
-Click on a polygon to see the answers
+### Click on a polygon to see the answers <f-arrow-icon rotation="-90" />
 
-<!-- <button v-on:mouseup="()=>{set('polyCheck', false);}" v-on:mousedown="()=>{set('polyCheck', true);}">CHECK YOUR ANSWER</button> -->
-
-<!-- <button v-on:click="send('download')">Download</button> -->
 
 ---
 
@@ -641,17 +621,56 @@ Click on a polygon to see the answers
 
 
 
-# Simplification illustrated
 
----
-
-
-
-
-
+| height: 100vh
+| padding: 10vh 10vw
+| gap: 0
+| 1 1 1 1 1
+| 2 3 4 5 6
+| 7 7 7 7 7
 
 
 # Polyhedron: made of polygons
+
+Polyhedra (polyhedrons) are comprised of polygons. 
+There are 5 convex regular polyhedra, also known as platonic solids. 
+
+-
+
+<f-scene3 isometric class="fullWidthScene" grid static>
+  <f-rotation3>
+    <f-polyhedron3 hedron="Tetrahedron" rotation="0 10 20" scale="1.8" />
+  </f-rotation3>
+</f-scene3>
+
+-
+
+<f-scene3 isometric class="fullWidthScene" grid static>
+  <f-polyhedron3 hedron="Cube" rotation="15 10 0" scale="1.8" />
+</f-scene3>
+
+-
+
+<f-scene3 isometric class="fullWidthScene" grid static>
+  <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" scale="1.5" />
+</f-scene3>
+
+-
+
+<f-scene3 isometric class="fullWidthScene" grid static>
+  <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="1.5" />
+</f-scene3>
+
+-
+
+<f-scene3 isometric class="fullWidthScene" grid static>
+  <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="1.5" />
+</f-scene3>
+
+-
+
+asadad
+
 
 GEOMETRY OF POLYHEDRA
 
@@ -661,7 +680,7 @@ GEOMETRY OF POLYHEDRA
 
 
 
-
+| padding: 10vh 10vw
 
 # Simplification of polyhedron
 
@@ -673,7 +692,7 @@ Looking at this polyhedron, how would you simplify it to calculate angles and di
 
 
 
-
+| padding: 10vh 10vw
 
 # Simplification of polyhedron: step 1
 
@@ -685,7 +704,7 @@ You can see, that the sides of a polyhedron are polygons
 
 
 
-
+| padding: 10vh 10vw
 
 # Simplification of polyhedron: step 2
 
@@ -697,7 +716,7 @@ You can see, that the sides of a polyhedron are polygons, that are made of trian
 
 
 
-
+| padding: 10vh 10vw
 
 # Simplification of polyhedron: example
 
@@ -710,7 +729,7 @@ Instead of piramides you could simplify by cutting a piece that’s easier to wo
 
 
 
-
+| padding: 10vh 10vw
 
 # One more problem… material thickness
 
@@ -721,7 +740,7 @@ Once you start to build your nesting box, you may face another problem. Since ma
 
 
 
-
+| padding: 10vh 10vw
 
 # How to calculate the dihedral angles
 
@@ -731,7 +750,7 @@ CALCULATING ANGLES IN PYRAMIDS
 
 
 
-
+| padding: 10vh 10vw
 
 # Dihedral angle
 

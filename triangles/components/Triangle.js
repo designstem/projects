@@ -1,7 +1,4 @@
 import { 
-  Vue,
-  components,
-  Css, 
   utils
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
@@ -13,9 +10,9 @@ import {
 //     utils
 //   } from "http://127.0.0.1:5501/fachwerk.js";
 
-for (const name in components) {
-  Vue.component(name, components[name])
-}
+// for (const name in components) {
+//   Vue.component(name, components[name])
+// }
 
 export default{
     props:{
@@ -46,7 +43,6 @@ export default{
           default: false
       },
     },
-  mixins: [Css],
   data() {
     return {
       angleColors:    ['yellow', 'green', 'blue', 'orange'],
@@ -153,14 +149,8 @@ export default{
           <f-text v-for="(t,i) in ['A', 'B', 'C']" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;" :fill="color('blue')">{{t}}</f-text>
       </f-group>
       <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
-        <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
+        <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35" style="user-select: none;pointer-events: none;">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
       </f-group>
     </g>
-  `,
-  css: `
-    text{
-      user-select: none;
-      pointer-events: none;
-    }
   `
 };

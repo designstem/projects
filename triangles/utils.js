@@ -10,6 +10,10 @@ export const distanceBetweenPoints = (x1, y1, x2, y2) => {
     return Math.sqrt(w*w + h*h);
 }
 
+export const polyInteriorAngle = (n) => {
+    return 180*(n-2)/n;
+}
+
 export const points2Arr = (str) => {
     console.log(str);
     let arr = [];
