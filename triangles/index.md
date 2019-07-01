@@ -33,7 +33,7 @@
 
 -
 
-&nbsp;
+
 
 -
 
@@ -58,13 +58,46 @@
 
 
 
+<f-scene class="fullWidthScene" v-for="(p,i) in [ {s:6, r:1.5} ]" :key="'polygon'+i" >
+    <!-- <f-group v-for="(l,j) in 2" :key="'l'+j">
+      <f-line x1="0" y1="0" :x2="polarx(360/p.s, p.r)" :y2="polary(360/p.s, p.r)" strokeWidth="2" :stroke="color('darkgray')" :rotation="(360/p.s)*j" />
+    </f-group> -->
+    <f-arc 
+      :start-angle="solvePolygon(p.s, p.r).w * 0.5" 
+      :end-angle="solvePolygon(p.s, p.r).w * -0.5" 
+      :fill="color('red')" opacity="0.7"
+      strokeWidth="1" r="0.3" inner-radius="0" rotation="90" />
+    <f-arc 
+      :start-angle="0" 
+      :end-angle="solvePolygon(p.s, p.r).interior" 
+      :fill="color('green')" opacity="0.7"
+      strokeWidth="1" r="0.3" inner-radius="0" rotation="180"
+      :position=" `${polarx(360/p.s, p.r)} ${polary(360/p.s, p.r)}` "
+       />
+    <f-line x1="0" y1="0" 
+      :x2="polarx(solvePolygon(p.s, p.r).w, solvePolygon(p.s, p.r).h )" 
+      :y2="polary(solvePolygon(p.s, p.r).w, solvePolygon(p.s, p.r).h )" 
+      strokeWidth="1" :stroke="color('darkgray')" stroke-dasharray="0.03" :rotation="solvePolygon(p.s, p.r).w * 0.5" />
+    <f-regularpolygon :count="p.s" :r="p.r" :stroke="color('gray')" />
+    <f-polygon :points=" '0 0,' + polarx(0, p.r) + ' ' + polary(0, p.r) + ', ' + polarx(360/p.s, p.r) + ' ' + polary(360/p.s, p.r)" :rotation="solvePolygon(p.s, p.r).w" />
+    <f-text position="-0.15 0" :fill="color('red')">w</f-text>
+    <f-text position="1.45 0" :fill="color('blue')">s</f-text>
+    <f-text position="0.8 0.1" :fill="color('orange')">a</f-text>
+    <f-text position="0.5 0.45" :fill="color('purple')">r</f-text>
+    <f-text position="1.42 -0.9" :fill="color('green')">i</f-text>
+</f-scene>
+
+-
+
+
+
 
 
 ---
 
 
 
-
+{{ polygonRadiusFromSides(6, 1) }}
 
 
 

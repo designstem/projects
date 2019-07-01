@@ -15,7 +15,7 @@ fachwerk({
     "Separator": Separator
   },
   src: "index.md",
-  // src: "geometry-triangles.md",
+  // src: "math-polygon.md",
   theme: "light",
   pager: true,
   home: false,

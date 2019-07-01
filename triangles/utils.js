@@ -14,6 +14,19 @@ export const polyInteriorAngle = (n) => {
     return 180*(n-2)/n;
 }
 
+export const solvePolygon = (n, r) => {
+    let w = 360 / n;
+    // let s = 2 * r * Math.sin(w);
+    let s = 2 * r * Math.sin( Math.PI / n );
+    let h = r * Math.cos( Math.PI / n );
+    let interior = (180 * (n-2)) / n;
+    return { w:w, s:s, h:h, interior:interior }
+}
+
+export const polygonRadiusFromSides = (n, s) => {
+    return s / (2 * Math.sin( Math.PI / n) );
+}
+
 export const points2Arr = (str) => {
     console.log(str);
     let arr = [];

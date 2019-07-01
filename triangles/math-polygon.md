@@ -97,22 +97,69 @@ In a different way, the diagonals of a polygon divide the whole shape into trian
 
 ---
 
+
+
+| padding: 5vmin
+| 1 1
+| 2 4
+| 3 4
+
 # Calculations in normal polygons
 
 In a normal polygon normally we use the following measures:
 
-- the side s;
-- the interior angle, the angle of the edge, the angle between two consecutive sides;
-- the apothem a, the distance of the center to the midle of the side;
-- the radius r, the distance from the center to an edge.
+-
 
-In a polygon with n sides, if we define the radius r that denotes its size, we can estimate the above measures using the formulas
+- **the side: <f-math inline blue>s</f-math>**;
+- the **interior angle <f-math inline green>i</f-math>**: the angle of the edge, the angle between two consecutive sides;
+- the **exterior angle <f-math inline red>w</f-math>**: the supplementary to the interior angle, but also the angle of isoscele triangles that meet the middle of the polygon;
 
-<f-math>w = \frac {360}{n}</f-math>
-<f-math>s = 2 × r × sin(w)</f-math>
-<f-math>a = r × cos( \frac {w}{2} )</f-math>
-<f-math>Interior angle = \frac {180(n-2)}{n}</f-math>
+- the **apothem <f-math inline orange>a</f-math>**: the distance of the center to the middle of the side;
+- the **radius** <f-math inline purple>r</f-math>, the distance from the center to an edge.
+
+-
+
+In a polygon with <f-math inline>n</f-math> sides, if we define the radius <f-math inline purple>r</f-math> that denotes its size, we can estimate the above measures using the formulas
+
+In any regular polygon we calculate the **exterior (also central) angle** <f-math inline red>w</f-math> with a formula <f-math inline>\color{red} w \color{black} = \frac {360}{n}</f-math> and **interior angle** <f-math inline green>i</f-math> with <f-math inline>\color{green} i \color{black} = \frac {180(n-2)}{n}</f-math>.
 
 
+If we know the **radius** <f-math inline purple>r</f-math>, we can **find length of a side** <f-math inline blue>s</f-math> like that: <f-math inline>\color{blue} s \color{black} = 2 \cdot \color{purple} r \color{black} \cdot sin( \frac {\pi}{n} )</f-math> and the **apothem** <f-math inline orange>a</f-math> with <f-math inline>\color{orange} a = \color{purple} r \color{black} \cdot cos( \frac { \pi }{n} )</f-math>
+
+If we know the length of a side <f-math inline blue>s</f-math>, and want to find **radius** <f-math inline purple>r</f-math>, we use <f-math inline>\color{purple} r \color{black} = \frac {\color{blue}s\color{black}}{2 \cdot sin(\frac {\pi}{n})}  </f-math>
 
 
+-
+
+<f-scene class="fullWidthScene" v-for="(p,i) in [ {s:6, r:1.5} ]" :key="'polygon'+i" >
+    <f-arc 
+      :start-angle="0" 
+      :end-angle="solvePolygon(p.s, p.r).w" 
+      :fill="color('red')" opacity="0.4"
+      strokeWidth="1" r="0.3" inner-radius="0" :rotation="solvePolygon(p.s, p.r).w"
+      :position=" `${polarx(0, p.r)} ${polary(0, p.r)}` " />
+    <f-arc 
+      :start-angle="0" 
+      :end-angle="solvePolygon(p.s, p.r).w" 
+      :fill="color('red')" opacity="0.7"
+      strokeWidth="1" r="0.3" inner-radius="0" :rotation="solvePolygon(p.s, p.r).w" />
+    <f-arc 
+      :start-angle="0" 
+      :end-angle="solvePolygon(p.s, p.r).interior" 
+      :fill="color('green')" opacity="0.7"
+      strokeWidth="1" r="0.3" inner-radius="0" :rotation="solvePolygon(p.s, p.r).interior"
+      :position=" `${polarx(0, p.r)} ${polary(0, p.r)}` "
+    />
+    <f-line x1="0" y1="0" 
+      :x2="polarx(solvePolygon(p.s, p.r).w, solvePolygon(p.s, p.r).h )" 
+      :y2="polary(solvePolygon(p.s, p.r).w, solvePolygon(p.s, p.r).h )" 
+      strokeWidth="1" :stroke="color('darkgray')" stroke-dasharray="0.03" :rotation="solvePolygon(p.s, p.r).w * 0.5" />
+    <f-regularpolygon :count="p.s" :r="p.r" :stroke="color('gray')" />
+    <f-polygon :points=" '0 0,' + polarx(0, p.r) + ' ' + polary(0, p.r) + ', ' + polarx(360/p.s, p.r) + ' ' + polary(360/p.s, p.r)" :rotation="solvePolygon(p.s, p.r).w" />
+    <f-text position="-0.2 0" :fill="color('red')">w²</f-text>
+    <f-text position="0.5 -1.55" :fill="color('red')">w¹</f-text>
+    <f-text position="1.45 0" :fill="color('blue')">s</f-text>
+    <f-text position="0.8 0.1" :fill="color('orange')">a</f-text>
+    <f-text position="0.5 0.45" :fill="color('purple')">r</f-text>
+    <f-text position="0 -1" :fill="color('green')">i</f-text>
+</f-scene>
