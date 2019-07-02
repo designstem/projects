@@ -96,10 +96,35 @@
 ---
 
 
+<f-slider from="0" to="1" set="pHeight" value="1"  />
+{{ get('pHeight', 1) }}
+<f-scene3 isometric class="fullWidthScene"   >
+  <f-group3 rotation="-70 0 30" :scale="{ x:1, y:1, z:get('pHeight',1)}">
+    <f-regularpolygon3 :count="3" stroke :fill="color('blue')" />
+    <f-group3 v-for="(t,i) in 3" :key="'tr'+i" :rotation=" {z:360/3*i} " >
+      <f-triangle3 :points="[ [0,0,get('pHeight', 1)], [polarx(0, 1),polary(0, 1),0], [polarx(360/3, 1),polary(360/3, 1),0] ]" opacity="0.5" />
+    </f-group3>
+  </f-group3>
+</f-scene3>
 
-{{ polygonRadiusFromSides(6, 1) }}
+-
 
+<f-scene3 isometric class="fullWidthScene"   >
+  <f-group3 rotation="-70 0 30" :scale="{ x:1, y:1, z:get('pHeight',1)}">
+    <f-regularpolygon3 :count="5" stroke :fill="color('green')" />
+    <f-group3 v-for="(t,i) in 5" :key="'tr'+i" :rotation=" {z:360/5*i} " >
+      <f-triangle3 :points="[ [0,0,get('pHeight', 1)], [polarx(0, 1),polary(0, 1),0], [polarx(360/5, 1),polary(360/5, 1),0] ]" opacity="0.6" />
+    </f-group3>
+  </f-group3>
+  <f-group3 rotation="-70 0 30" :scale="{ x:1, y:1, z:-get('pHeight',1)}">
+    <f-regularpolygon3 :count="5" stroke :fill="color('green')" />
+    <f-group3 v-for="(t,i) in 5" :key="'tr'+i" :rotation=" {z:360/5*i} " >
+      <f-triangle3 :points="[ [0,0,get('pHeight', 1)], [polarx(0, 1),polary(0, 1),0], [polarx(360/5, 1),polary(360/5, 1),0] ]" opacity="0.6" />
+    </f-group3>
+  </f-group3>
+</f-scene3>
 
+---
 
 
 
@@ -643,7 +668,8 @@ Looking at these polygons below, how would you simplify these shapes to calculat
 
 -
 
-### Click on a polygon to see the answers <f-arrow-icon rotation="-90" />
+
+### Click on a polygon to see the answers <f-arrow-icon rotation="-90" inline />
 
 
 ---

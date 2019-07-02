@@ -65,19 +65,9 @@
 
 -
 
-For example, if we assume that 
+For example, if we assume that <f-math inline>\color{red} ∠A = 30° \color{black} and \color{blue} ∠B = 50°</f-math> then, since <f-math inline>\color{red} ∠A \color{black} + \color{blue} ∠B \color{black} + \color{green} ∠C \color{black} = 180°</f-math>
 
-<f-math>
-\color{red} ∠A = 30° \color{black} and \color{blue} ∠B = 50°
-</f-math>
-
-then, since
-
-<f-math>
-\color{red} ∠A \color{black} + \color{blue} ∠B \color{black} + \color{green} ∠C \color{black} = 180°
-</f-math>
-
-<f-math>\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B \color{black} ) = \newline 180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = \newline  180° - 80° = 100°</f-math>
+<f-math inline>\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B  \color{black} ) = \newline 180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = \newline 180° - 80° = 100°</f-math>
 
 -
 
@@ -103,17 +93,13 @@ then, since
 
 -
 
-If we know the degrees of angle <var class="red">A</var> we can calculate angles <var class="blue">B</var> and <var class="green">C</var> by using the formula 
+If we know the degrees of angle <f-math inline red>A</f-math> we can calculate angles <f-math inline blue>B</f-math> and <f-math inline green>C</f-math> by using the formula 
 
-<f-math>
-  \color{blue} ∠B \color{black} or \color{red} ∠C \color{black} = \frac {180 - \color{red} A \color{black} }{2}
-</f-math>
+<f-math inline>\color{blue} ∠B \color{black} or \color{red} ∠C \color{black} = \frac {180 - \color{red} A \color{black} }{2}</f-math>
 
-Example: if <var class="red">A=100°</var> then 
+Example: if <f-math inline red>A=100°</f-math> then 
 
-<f-math>
-  \color{blue} B \color{black} = \frac {180° - \color{red} 100° \color{black} }{2} = \frac {80°}{2} = 40°
-</f-math>
+<f-math inline>\color{blue} B \color{black} = \frac {180° - \color{red} 100° \color{black} }{2} = \frac {80°}{2} = 40°</f-math>
 
 -
 
@@ -164,17 +150,13 @@ For that we have to know the Theorem of Pythagoras
 
 **For example:** let side <var class="red">a=5</var> and <var class="blue">b=4</var> then 
 
-<f-math>
-  \color{red} a^2 \color{black} = \color{blue} b^2 \color{black} + \color{green} c^2
+<f-math inline>\color{red} a^2 \color{black} = \color{blue} b^2 \color{black} + \color{green} c^2
 </f-math>
 
-<f-math>
-  \color{green} c^2 \color{black} = \color{red} a^2 \color{black} - \color{blue} b^2 \color{black} = \\ \color{red} 5^2 \color{black} - \color{blue} 4^2 \color{black} = \\ \color{red} 25 \color{black} - \color{blue} 16 \color{black} = 9
+<f-math inline>\color{green} c^2 \color{black} = \color{red} a^2 \color{black} - \color{blue} b^2 \color{black} = \newline \color{red} 5^2 \color{black} - \color{blue} 4^2 \color{black} = \newline \color{red} 25 \color{black} - \color{blue} 16 \color{black} = 9
 </f-math>
 
-<f-math>
-\color{green} c \color{black} = \sqrt {9} = 3
-</f-math>
+<f-math inline>\color{green} c \color{black} = \sqrt {9} = 3</f-math>
 
 -
 
@@ -207,29 +189,23 @@ Let <var class="red">a</var>=10 and <var class="blue">b</var>=<var class="green"
 The triangle AHC is orthogonal and the unknown height <var class="purple">h</var> is one of its vertical sides. 
 In that triangle holds the theorem of Pythogoras so 
 
-<f-math>
-  AC^2 = AH^2 + HC^2
-</f-math>
+<f-math inline>AC^2 = AH^2 + HC^2</f-math>
 
 We notice that AH intersects BC in the middle H, so HC is half of BC, ie. 
 
-<f-math>
-  HC = \frac {10}{2} = 5.
-</f-math>
+<f-math inline>HC = \frac {10}{2} = 5</f-math>
 
 The height <var class="purple">h</var> is estimated by
 
-<f-math>
-  \color{purple} h^2 \color{black} = AH^2 = AC^2 + HC^2 = 16^2 + 5^2 = 256 + 25 = 281
-  \color{purple} h \color{black} = \sqrt {281} \approx 16.7
-</f-math>
+<f-math inline>\color{purple} h^2 \color{black} = AH^2 = AC^2 + HC^2 = 16^2 + 5^2 = 256 + 25 = 281
+  \color{purple} h \color{black} = \sqrt {281} \approx 16.7</f-math>
 
 -
 
 <f-scene grid class="fullWidthScene">
   <f-box :fill="color('yellow')" stroke r="0.25" opacity="0.5" position="0.125 -0.875" />
   <Triangle :points="[ [0,1.5],[1,-1],[-1,-1] ]" />
-  <f-line :points="[ [0,1.5],[0,-1] ]" style="stroke-dasharray: 0 6;" />
+  <f-line points="0 1.5, 0 -1" style="stroke-dasharray: 0.04 0.07;" strokeWidth="2" :stroke="color('blue')" />
   <f-text :fill="color('green')" position="0.7 0.3">c</f-text>
   <f-text :fill="color('green')" position="-0.7 0.3">b</f-text>
   <f-text :fill="color('green')" position="0 -1.2">a</f-text>

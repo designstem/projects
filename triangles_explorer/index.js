@@ -173,9 +173,9 @@ new Vue({
       
       <div class="button_secondary" @click="exportSTL">Export STL</div>
 
-      <header style="position: fixed; top: 0; right: 0; left: 0">
+      <!-- <header style="position: fixed; top: 0; right: 0; left: 0">
         <a class="tertiary" href="..">← Back to projects</a>
-      </header>
+      </header> -->
 
     </div>
     </a-scene>

@@ -49,17 +49,11 @@ In a triangle with angles **A**, **B** and **C** and sides **a**, **b** and **c*
 
 Example. In the following right triangle, angle B can be estimated in terms of trigonometric functions as 
 
-<f-math>
-  cos(B) = \frac {8}{17} \approx 0.47
-</f-math> 
+<f-math inline>cos(B) = \frac {8}{17} \approx 0.47</f-math> 
 or
-<f-math>
-  sin(B) = \frac {15}{17} \approx 0.88
-</f-math> 
+<f-math inline>sin(B) = \frac {15}{17} \approx 0.88</f-math> 
 or
-<f-math>
-  tan(B) = \frac {15}{8} \approx 1.87
-</f-math> 
+<f-math inline>tan(B) = \frac {15}{8} \approx 1.87</f-math> 
 
 The actual value of angle B in degrees derives from the inverse function. For example if sinB0.88,  then sin-10.8828. The inverse trigonometric functions can be found and estimated by a typical calculator.
 
@@ -75,3 +69,5 @@ The actual value of angle B in degrees derives from the inverse function. For ex
 ---
 
 # &nbsp;
+
+***TODO: more options to calculate sides and angles w trig. functions? SOH-CAH-TOA concept maybe?***

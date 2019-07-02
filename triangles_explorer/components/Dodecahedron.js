@@ -75,7 +75,7 @@ export default {
                         :height="height" 
                         :opacity="opacity"
                         :wireframe="wireframe"
-                        :color="colors[i1+5]" 
+                        :color="colors[i1+4]" 
                     ></Pyramid>
                 </a-entity>
             </a-entity>

@@ -14,7 +14,7 @@ export default {
         format
     },
     template: `
-        <a-entity ref="scene" position="0 0 2" rotation="30 20 0" size="1.5 1.5 1.5">
+        <a-entity ref="scene" position="0 0 2" rotation="-30 -30 0" size="1.5 1.5 1.5">
             <!-- loop 1: 4 sides start -->
             <a-entity v-for="(obj,i1) in Array.from({length: 100}).slice(0, 4)"
                 :key="obj"
