@@ -63,11 +63,13 @@ This lesson is divided into three main sections:
 
 ---
 
-| 2 3 7
 | 4 1 6
-| 5 9 8
+| 3 1 8
+| 5 2 7
+| gap: 0px
 | rows: 1fr 1fr 1fr
-| gap: 20px
+| theme: blue
+| background: #dark-marina-hack
 
 <center><div>
 
@@ -80,32 +82,45 @@ This lesson is divided into three main sections:
 -
 
 <div style= "display:flex; align-items:center; justify-content:center; height:100%">
-<img src="./images/collage/printer.png" style= "width:50%">
+<img src="./images/collage/printer.png" style= "width:63%">
 </div>
 
 -
 
-<img src="./images/collage/scissors.png">
+<div style= "display:flex; align-items:center; justify-content:center; transform:rotate(180deg); height:100%">
+<img src="./images/collage/scissors.png" style= "width:43%">
+</div>
 
 -
 
-<img src="./images/collage/turntable.png">
+<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+<img src="./images/collage/turntable.png" style= "width:65%">
+</div>
 
 -
 
-<img src="./images/collage/smart.png">
+<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+<img src="./images/collage/smart.png" style= "width:33%">
+</div>
 
 -
 
-<img src="./images/collage/computer.png">
+<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+<img src="./images/collage/computer.png" style= "width:58%">
+</div>
 
 -
 
-<img src="./images/collage/paper.png">
+<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+<img src="./images/collage/paper.png" style= "width:74%">
+</div>
+
 
 -
 
-<img src="./images/collage/pencil.png">
+<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+<img src="./images/collage/pencil.png" style= "width:31%">
+</div>
 
 ---
 
