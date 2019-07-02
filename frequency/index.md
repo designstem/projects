@@ -28,6 +28,8 @@
 
 # <big><big>Frequency<br>& Motion</big></big>
 
+***KIKA: Fix animation***
+
 Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?
 
 <big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and let's go!</big>
@@ -59,6 +61,41 @@ This lesson is divided into three main sections:
 </f-notes>
 
 
+---
+
+| 5 2 3
+| 4 1 6
+| rows: 1fr 1fr 1fr
+| gap: 0px
+
+<center><div>
+
+### The tools you need
+
+<f-next-button />
+
+</div></center>
+
+-
+
+<img src="./images/collage/computer.png">
+
+-
+
+<img src="./images/collage/computer.png">
+
+-
+
+<img src="./images/collage/computer.png">
+
+-
+
+<img src="./images/collage/computer.png">
+
+-
+
+<img src="./images/collage/computer.png">
+`
 ---
 
 | background: images/collage.png
@@ -126,6 +163,7 @@ Watch the following videos and define frequency with your own words and describe
 
 | background: images/example.jpg
 | theme: dark
+| tint: 0.2
 
 <center><div>
 
@@ -188,6 +226,9 @@ You'll find 6 template PDF's from the .zip file. In this excercise You'll need o
 You are now ready to make your own visual experiments!
 
 <span class="bullet">1</span> First you need a paper template
+
+***KIKA: Replace with download button***
+***KIKA: Fix viny labels***
 
 <a href="./files/plainCircle.pdf" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
@@ -464,6 +505,8 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 
 <f-fact-icon size="small" /> ~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and **wheels were rotating fast enough not to be in sync in every frame** to produce natural visual impression of rotating wheel.~ 
 
+***ERIK: Fix layout and illustration***
+
 <p />
 <img src="./images/frameRate.png" alt="Frame rate" width="100%">
 <p />
@@ -485,6 +528,8 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 # Can You freeze the spinning wheel?
 
 #### Adjust the wheel speed so the lines will stop
+
+***KIKA: Bigger balls!***
 
 Rotation speed is <var>{{ get('d', 800) }} milliseconds</var> per rotation.
 This is roughly <var>{{ get('d', 800) / 1000}} seconds</var>.
@@ -866,6 +911,8 @@ Students will learn how to present frequency on a sinusoidal wave. To let them e
 
 # Frequency as a wave
 
+***KIKA: Smaller balls!***
+
 ~After exploring spinning frequency and frame rate, let's define frequency as form of *wave*. The most common waveform might be the <a target="_blank" href="https://pudding.cool/2018/02/waveforms/">soundwave <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> but it can also represent <a href="../colorblindness">color <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a></a> or movement.~
 
 #### **1** Explore the waveform
@@ -1045,11 +1092,11 @@ What are you findings regarding waves moving in different speeds, on different f
 
 # <f-activity-icon />Final project
 
-#### **1** Create and present an animation
+#### Create and present an animation
 
 As a final task, you will prepare an analog animation using rotational movement. You can visualize abstract morphing or use more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve visually attractive outcome. 
 
-#### **2** Answer the questions
+#### Answer the questions
 
 1. What constraints did you experience with the process?
 
