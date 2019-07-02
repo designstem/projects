@@ -1,12 +1,9 @@
 
-
 | padding: 5vmin
 
 # Trigonometric functions
 
-# &nbsp;
-
-## Use of trigonometric functions to combine angles and sides in right triangles.
+### ~Use of trigonometric functions to combine angles and sides in right triangles.~
 
 The ratios of the sides of a right triangle are called trigonometric ratios. 
 The three common trigonometric ratios are the **sine (sin)**, **cosine (cos)**, and **tangent (tan)**. 

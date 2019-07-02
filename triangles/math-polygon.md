@@ -47,12 +47,12 @@ In a different way, the diagonals of a polygon divide the whole shape into trian
 
 | padding: 5vmin
 
-# Normal polygons
+# Regular polygons
 
-- Normal polygons are polygons with **all sides and angles equal**. 
-- Are **formed by triangles**, usually isosceles.
+- Regular polygons are polygons with **all sides and angles equal**. 
+- They are **formed by triangles**, usually isosceles.
 - For example 6 triangles connected together form a regular polygon. 
-- Normal polygons are **characterized by the number of edges or sides**. 
+- Regular polygons are **characterized by the number of edges or sides**. 
 
 
 ---
@@ -61,7 +61,7 @@ In a different way, the diagonals of a polygon divide the whole shape into trian
 
 <div class="cells" style="--transition-duration:0.1s; grid-template-columns: 1fr 1fr; grid-template-rows: none; grid-template-areas: 'a1 a2' 'a3 a4'; grid-gap: var(--content-gap); padding: var(--content-padding);">
 
-<div v-for="(p,i) in [ {name:'Square', sides:4}, {name:'Pentagon', sides:5}, {name:'Hexagon', sides:6}, {name:'Heptagon', sides:7} ]" :key="'poly'+i" class="cell">
+<div v-for="(p,i) in [ {name:'Equilateral Triangle', sides:3}, {name:'Square', sides:4}, {name:'Pentagon', sides:5}, {name:'Hexagon', sides:6}, {name:'Heptagon', sides:7}, {name:'Octagon', sides:8} ]" :key="'poly'+i" class="cell">
 <f-scene class="fullWidthScene">
     <f-circle r="1.5" strokeWidth="1" :stroke="color('gray')" />
     <f-arc
@@ -104,16 +104,15 @@ In a different way, the diagonals of a polygon divide the whole shape into trian
 | 2 4
 | 3 4
 
-# Calculations in normal polygons
+# Calculations in regular polygons
 
-In a normal polygon normally we use the following measures:
+In a regular polygon usually we use the following measures:
 
 -
 
 - **the side: <f-math inline blue>s</f-math>**;
 - the **interior angle <f-math inline green>i</f-math>**: the angle of the edge, the angle between two consecutive sides;
-- the **exterior angle <f-math inline red>w</f-math>**: the supplementary to the interior angle, but also the angle of isoscele triangles that meet the middle of the polygon;
-
+- the **exterior angle <f-math inline red>w</f-math>**: the supplementary to the interior angle, but also the angle of triangles that meet in the middle of the polygon;
 - the **apothem <f-math inline orange>a</f-math>**: the distance of the center to the middle of the side;
 - the **radius** <f-math inline purple>r</f-math>, the distance from the center to an edge.
 
@@ -131,7 +130,7 @@ If we know the length of a side <f-math inline blue>s</f-math>, and want to find
 
 -
 
-<f-scene class="fullWidthScene" v-for="(p,i) in [ {s:6, r:1.5} ]" :key="'polygon'+i" >
+<f-scene class="fullWidthScene" v-for="(p,i) in [ {s:6, r:1.5} ]" :key="'polygon'+i" style="position:sticky; top:20vh;">
     <f-arc 
       :start-angle="0" 
       :end-angle="solvePolygon(p.s, p.r).w" 
@@ -156,8 +155,8 @@ If we know the length of a side <f-math inline blue>s</f-math>, and want to find
       strokeWidth="1" :stroke="color('darkgray')" stroke-dasharray="0.03" :rotation="solvePolygon(p.s, p.r).w * 0.5" />
     <f-regularpolygon :count="p.s" :r="p.r" :stroke="color('gray')" />
     <f-polygon :points=" '0 0,' + polarx(0, p.r) + ' ' + polary(0, p.r) + ', ' + polarx(360/p.s, p.r) + ' ' + polary(360/p.s, p.r)" :rotation="solvePolygon(p.s, p.r).w" />
-    <f-text position="-0.2 0" :fill="color('red')">w²</f-text>
-    <f-text position="0.5 -1.55" :fill="color('red')">w¹</f-text>
+    <f-text position="-0.2 0" :fill="color('red')">w¹</f-text>
+    <f-text position="0.5 -1.55" :fill="color('red')">w</f-text>
     <f-text position="1.45 0" :fill="color('blue')">s</f-text>
     <f-text position="0.8 0.1" :fill="color('orange')">a</f-text>
     <f-text position="0.5 0.45" :fill="color('purple')">r</f-text>

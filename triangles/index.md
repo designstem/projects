@@ -1,6 +1,7 @@
 | padding: 10vmin
-| theme: dark
+| theme: blue
 | cols: 60vw auto
+| rows: auto auto auto
 | 1 4
 | 2 4
 | 3 4
@@ -109,7 +110,7 @@
 
 -
 
-<f-scene3 isometric class="fullWidthScene"   >
+<f-scene3 isometric class="fullWidthScene" static  >
   <f-group3 rotation="-70 0 30" :scale="{ x:1, y:1, z:get('pHeight',1)}">
     <f-regularpolygon3 :count="5" stroke :fill="color('green')" />
     <f-group3 v-for="(t,i) in 5" :key="'tr'+i" :rotation=" {z:360/5*i} " >
@@ -128,7 +129,7 @@
 
 
 
-| padding: 10vh 10vw
+| padding: 10vmin
 | height: 100vh
 | 1 2
 
@@ -167,8 +168,7 @@
 
 
 
-| padding: 10vh 10vw
-| height: 80vh
+| padding: 10vmin
 | 1 2 
 
 
@@ -179,14 +179,15 @@
 
 There are birds that heavily rely on human made nesting boxes.
 
+#### &nbsp;
 
-### Find out….
+#### Find out….
 
 1. which birds these are.
 2. what kind of nesting boxes the birds need.
 3. if designers can solve other problems with a similar design approach?
 
-#### &nbsp;
+## &nbsp;
 
 <f-next-button />
 
@@ -203,23 +204,21 @@ There are birds that heavily rely on human made nesting boxes.
 
 
 
-| padding: 10vh 10vw
-| height: 80vh
+| padding: 10vmin
 | 1 1
 | 2 3
-| rows: 15vh auto
+| rows: auto auto
 
-## &nbsp;
 
 <h3>🙋‍<sup><sup>💬</sup></sup><span style="font-family:var(--font-serif); font-weight:400;font-style:italic;font-size:70%;">Do these birds absolutely HAVE TO live inside a polyhedron?</span></h3>
 
 -
 
-### No, not really...
+### ~No, not really...~
 
 <!-- A nesting box, as such, doesn't have to be a polyhedron, there are other options too.  -->
 
-## so why are we making one?
+## ...so why are we making one?
 
 > Let's think of our nesting box as a **small-scale model to solve much bigger problems**.👉
 
@@ -246,8 +245,8 @@ There are birds that heavily rely on human made nesting boxes.
 
 
 
-| padding: 10vh 10vw
-| height: 80vh
+| padding: 10vmin
+| rows: auto auto auto
 | 1 1 1 1 1
 | 2 3 4 5 6
 | 7 7 7 7 7
@@ -298,7 +297,7 @@ Build the nesting box from wood or similar materials.
 
 
 
-| padding: 10vh 10vw
+| padding: 10vmin
 | height: 100vh
 | theme: blue 
 
@@ -326,12 +325,11 @@ Build the nesting box from wood or similar materials.
 
 
 
-| padding: 10vh 10vw
-| height: 80vh
+| padding: 10vmin
 | 1 1
 | 2 3
 | 4 4
-| rows: 25vh auto 15vh
+| rows: auto auto auto
 
 ## &nbsp;
 
@@ -365,8 +363,9 @@ For designing and building a solid polyhedral object you have to:
 
 
 
-
-| padding: 10vh 10vw
+| height: 100vh
+| padding: 10vmin
+| rows: auto auto auto
 | 1 1 1
 | 2 3 4
 | 5 5 5
@@ -499,15 +498,18 @@ Find the triangles: the “building blocks” of polygons
 
 
 
-| padding: 10vh 10vw
-| cols: 50vw auto
-| 1 2 
-| 3 3
+| padding: 10vmin
+| cols: 60vw auto
+| rows: auto auto auto
+| height: 100vh
+| 1 1
+| 2 3 
+| 4 4
 
 
 # Let’s start with triangles!
 
-### &nbsp;
+-
 
 **Triangle is the basic element** that polygons and polyhedra are made of.
 
@@ -525,7 +527,6 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 <f-next-button title="Next: Geometry of triangles" />
 
 
-
 ---
 
 
@@ -533,32 +534,38 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 
 
 
-| padding: 10vh 10vw
-| height: 80vh
+| padding: 10vmin
+| height: 100vh
+| rows: auto
 | 1 1 1
 | 2 3 4
 | 5 5 5
 
 
-# Triangle types and calculations
-
-### &nbsp;
+# Geometry of triangles
 
 -
 
-#### Basics 
+#### The triangle 
 
-What is a triangle and what kind of triangles we know
+What defines a triangle and what kind of different triangles we know
 
-<f-sidebar src="math-triangle-types.md" title="Triangle types" width="60vw" overlay /> 
+<f-sidebar src="math-triangle-types.md" title="Triangle types" width="60vw" overlay> 
+  <a slot="button" class="tertiary" style="padding:var(--base)">Triangle types <f-arrow-icon rotation="-45" /></a>
+</f-sidebar>
 
 -
 
 #### Geometry
 
-Calculations based on angles and sides
+Calculations based on triangle angles and sides
 
-<f-sidebar src="math-triangle-calculations.md" title="Geometry of triangles" width="60vw" overlay /> 
+
+<f-sidebar src="math-triangle-calculations.md" title="Geometry of triangles" width="60vw" overlay>
+  <a slot="button" class="tertiary" style="padding:var(--base)">Geometry of triangles <f-arrow-icon rotation="-45" /></a>
+</f-sidebar>
+
+
 
 -
 
@@ -566,7 +573,9 @@ Calculations based on angles and sides
 
 Calculations based on trigonometric functions
 
-<f-sidebar src="math-triangle-trigonometry.md" title="Trigonometry" width="60vw" overlay />
+<f-sidebar src="math-triangle-trigonometry.md" title="Trigonometry" width="60vw" overlay>
+  <a slot="button" class="tertiary" style="padding:var(--base)">Trigonometry <f-arrow-icon rotation="-45" /></a>
+</f-sidebar>
 
 -
 
@@ -582,46 +591,51 @@ Calculations based on trigonometric functions
 
 
 
-| padding: 10vh 10vw
-| 1 2 
-| 3 3
+| padding: 10vmin
+| height: 100vh
 | cols: 50vw auto
+| rows: auto
+| 1 1
+| 2 3 
 
-# Polygon: made of triangles
+# Polygons
 
-#### &nbsp;
-
-Polygons are geometrical shapes, that form the sides of regular polyhedra and they itself are comprised of triangles. 
-
-By the way, the equilateral triangle itself is the simplest regular polygon.
-
-So, in order to build a polyhedra, let’s first get familiar with it’s sides – the polygons.
-
-<f-sidebar src="math-polygon.md" title="Geometry of polygons" width="60vw" overlay /> 
 
 -
 
-<!-- <f-scene class="fullWidthScene">
-  <f-grid />
-  <Triangle :points="[ [0,0], [-0.5,-0.5], [0.5,-0.5] ]" :angleLabels="false" />
-</f-scene> -->
+<blockquote>
 
-<f-slider set="polySides" from="3" to="12" integer title="Number of sides" />
-{{ set('polySlides',3) }}
-<f-scene grid class="fullWidthScene">
-  <f-group v-for="(t,i) in get('polySides', 3)" :key="'tr'+i" :rotation="i*(360/get('polySides', 3))">
-    <Triangle 
-      :points="[ [0,0], polarxy( 360/get('polySides', 3)*-0.5, 1.5), polarxy( 360/get('polySides', 3)*0.5, 1.5) ]" 
-      :angleLabels="false" 
-      :angleInfo="i==0 ? true : false"
-      :opacity="i==0 ? 1 : 0.25"
-      :fill="color('yellow')" 
-      :strokeWidth="3"
-    />
-  </f-group>
+  A polygon is any 2-dimensional shape **formed with straight lines**.
+
+</blockquote>
+
+&nbsp; 
+
+Polygons can be of any shape, but we concentrate on the ***regular polygons***, because **those form the sides of regular polyhedra**, we are interested in.
+
+~*By the way, the equilateral triangle itself is the simplest regular polygon.*~
+
+So, in order to build a polyhedron, let’s first get familiar with it’s sides – **the polygons**.
+
+<!-- <f-sidebar src="math-polygon.md" title="Geometry of polygons" width="60vw" overlay />  -->
+
+### &nbsp;
+
+<f-next-button />
+
+-
+
+<f-scene class="fullWidthScene">
+  <f-regularpolygon :fill="color('green')" count="6" scale="1" position="0 0" rotation="0" />
+  <f-regularpolygon :fill="color('green')" count="3" scale="0.6" position="-1.2 1.2" rotation="20" />
+  <f-regularpolygon :fill="color('blue')" count="3" scale="0.4" position="0.8 0" rotation="60" />
+  <f-regularpolygon :fill="color('green')" count="4" scale="0.6" position="1.2 1.2" rotation="15" />
+  <f-regularpolygon :fill="color('red')" count="4" scale="0.4" position="-1 -0.2" rotation="-30" />
+  <f-regularpolygon :fill="color('yellow')" count="4" scale="0.3" position="0.3 1.7" rotation="45" />
+  <f-regularpolygon :fill="color('green')" count="5" scale="0.6" position="1.2 -1.2" rotation="0" />
+  <f-regularpolygon :fill="color('yellow')" count="5" scale="0.3" position="0 -1.7" rotation="0" />
+  <f-regularpolygon :fill="color('blue')" count="7" scale="0.6" position="-1.2 -1.2" rotation="0" />
 </f-scene>
-
--
 
 
 
@@ -630,10 +644,12 @@ So, in order to build a polyhedra, let’s first get familiar with it’s sides 
 
 
 
-| padding: 10vh 10vw
+| padding: 10vmin
+| rows: auto
 | 1 1 1
 | 2 3 4
 | 5 5 5
+| 6 6 6
 
 # Simplification of polygons <sup>🤔</sup>
 
@@ -669,10 +685,77 @@ Looking at these polygons below, how would you simplify these shapes to calculat
 -
 
 
-### Click on a polygon to see the answers <f-arrow-icon rotation="-90" inline />
+<center>
+
+  <f-arrow-icon rotation="-90" /> ~Click on a polygon to see the answers~ <f-arrow-icon rotation="-90" />
+
+</center>
+
+-
+
+<f-next-button />
+
+---
+
+
+
+
+
+
+
+
+| height: 100vh
+| padding: 10vmin
+| rows: auto
+| cols: 50vw auto
+| 1 1
+| 2 3
+
+# Simplification of polygons
+
+-
+
+As you probably know  by now, **every single polygon can be divided into triangles**.
+
+Since we already are familiar with triangles and how to solve them, **we can use triangles to solve the polygons**, too. 
+
+### &nbsp;
+
+### Here is how:
+
+<f-sidebar src="math-polygon.md" title="How to solve polygons" width="60vw" overlay>
+  <a slot="button" class="tertiary" style="padding:var(--base)">How to solve polygons <f-arrow-icon rotation="-45" /></a>
+</f-sidebar>
+
+## &nbsp;
+
+<f-next-button />
+
+-
+
+<f-scene grid class="fullWidthScene">
+  <f-group v-for="(t,i) in range( 1, get('polySides', 3) )" :key="'tr'+i" :rotation="i*(360/get('polySides', 3))">
+    <Triangle 
+      :points="[ [0,0], polarxy( 360/get('polySides', 3)*-0.5, 1.5), polarxy( 360/get('polySides', 3)*0.5, 1.5) ]" 
+      :angleLabels="i==0 ? true : false" 
+      :angleInfo="i==0 ? true : false"
+      :opacity="i==0 ? 1 : 0.25"
+      :fill="color('yellow')" 
+      :strokeWidth="3"
+    />
+  </f-group>
+</f-scene>
+
+<f-slider set="polySides" from="3" to="12" integer value="3" title="Number of sides" />
 
 
 ---
+
+
+
+
+
+
 
 
 

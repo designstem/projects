@@ -19,6 +19,6 @@ fachwerk({
   theme: "light",
   pager: true,
   home: false,
-  type: "document",
+  type: "slides",
   utils:  localutils
 });

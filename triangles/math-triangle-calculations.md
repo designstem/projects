@@ -10,7 +10,7 @@
 ---
 
 
-| theme: dark
+| theme: blue
 | padding: 5vmin
 
 #### &nbsp;
