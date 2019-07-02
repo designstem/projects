@@ -1,6 +1,16 @@
+| background: ./images/wall.jpg
+| tint: 0
+| theme: dark
+
 # <big><big>2D and 3D patterns</big></big>
 
+Will be in shape — whatever the shape. Over and over. 
+
 ---
+
+| padding: 0
+
+<section><section>
 
 # Orientation on patterns
 
@@ -8,9 +18,11 @@ In order to find inspiration in making your own 2D textures and 3D structures, y
 
 Next you will find some questions and accompanying tasks to help you. 
 
+</section></section>
+
 -
 
-***IMAGE***
+<f-image src="./images/face.jpg" />
 
 ---
 
@@ -20,16 +32,16 @@ Next you will find some questions and accompanying tasks to help you.
 
 Answers these question and find some inspirational images to stimulate your brain:
 
-* How do you **define** a pattern?
+1. How do you **define** a pattern?
 
-* How would you **describe** a pattern?
+2. How would you **describe** a pattern?
 
-* Find at least three **meaningful examples** of patterns from 
+3. Find at least three **meaningful examples** of patterns from 
 your daily life. Take pictures of them, make sketches, etc.
 
-* Find at least three patterns **from other cultures**.
+4. Find at least three patterns **from other cultures**.
 
-* And at last: what pattern **defines you**? Think about your daily habits...
+5. And at last: what pattern **defines you**? Think about your daily habits...
 
 ---
 
@@ -61,17 +73,21 @@ This is how you can experiment with making patterns:
 
 A pattern is made when a shape is copied repeatedly. 
 
-The definition of texture we use when it’s a 2D surface where the pattern is only repeated in X and Y axes. 
+The definition of <var>texture</var> we use when it’s a 2D surface where the pattern is only repeated in X and Y axes. 
 
-The definition of structure we use for 3D patterns were the Z-axe gets in, for example with LEGO® or in Minecraft. 
+The definition of <var>structure</var> we use for 3D patterns were the Z-axe gets in, for example with LEGO® or in Minecraft. 
 
-Be sure to keep in mind that repetition is key at all times!
+Be sure to keep in mind that **repetition is key** at all times!
 
 -
 
-***IMAGE?***
+<f-image src="./images/bricks1.png" />
 
 ---
+
+| padding: 0
+
+<section><section>
 
 # Geometric operations
 
@@ -87,9 +103,11 @@ To make different designs you can use geometric operations such as:
 
 * affine transformation
 
+</section></section>
+
 -
 
-***IMAGE?***
+<f-image src="./images/bricks2.jpg" />
 
 ---
 
