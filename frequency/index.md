@@ -124,21 +124,6 @@ This lesson is divided into three main sections:
 
 ---
 
-| background: images/collage.png
-| tint: 0.2
-| theme: dark
-
-<center><div>
-
-### The tools you will need
-
-<f-next-button />
-
-</div></center>
-
----
-
-
 | section: DISCUSS_1
 | padding: 0
 | gap: 0
