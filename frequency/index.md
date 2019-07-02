@@ -500,38 +500,35 @@ Watch following clip and notice <br><var>how wheels of the wagon are moving?</va
 ---
 
 | section: EXPERIMENT_1
-
 | rows: auto auto 1fr
+| gap: 30px
 
-| 1 1
-| 2 3
-| 4 4
+| 1 1 1 1
+| 2 2 3 3
+| 2 2 3 3
+| 0 0 4 4
 
 # What happened to the wheels?
 
 -
 
-You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the [rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe. 
+You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the [rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe.
 
--
+<br>
 
 <f-fact-icon size="small" /> ~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and **wheels were rotating fast enough not to be in sync in every frame** to produce natural visual impression of rotating wheel.~ 
 
-***ERIK: Fix layout and illustration***
-
-<p />
-<img src="./images/frameRate.png" alt="Frame rate" width="100%">
-<p />
-
+-
+<div style= "width:81%">
+	<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+		<img src="./images/frameRate.png">
+	</div>
 <small>Without arrow symbol, wheel appears to be rotating slowly backwards.</small>
-
-<p />
-
+</div>
+<br>
 -
 
 ##### How does it work? Lets set up an experiment in the next slide
-
-<p />
 
 <f-next-button title="Go" />
 
