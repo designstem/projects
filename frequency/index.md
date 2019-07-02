@@ -79,7 +79,9 @@ This lesson is divided into three main sections:
 
 -
 
-<img src="./images/collage/printer.png" height="50%">
+<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+<img src="./images/collage/printer.png" style= "width:50%">
+</div>
 
 -
 
