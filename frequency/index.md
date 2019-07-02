@@ -63,10 +63,11 @@ This lesson is divided into three main sections:
 
 ---
 
-| 5 2 3
+| 2 3 7
 | 4 1 6
+| 5 9 8
 | rows: 1fr 1fr 1fr
-| gap: 0px
+| gap: 20px
 
 <center><div>
 
@@ -78,7 +79,19 @@ This lesson is divided into three main sections:
 
 -
 
-<img src="./images/collage/computer.png">
+<img src="./images/collage/printer.png" height="50%">
+
+-
+
+<img src="./images/collage/scissors.png">
+
+-
+
+<img src="./images/collage/turntable.png">
+
+-
+
+<img src="./images/collage/smart.png">
 
 -
 
@@ -86,16 +99,12 @@ This lesson is divided into three main sections:
 
 -
 
-<img src="./images/collage/computer.png">
+<img src="./images/collage/paper.png">
 
 -
 
-<img src="./images/collage/computer.png">
+<img src="./images/collage/pencil.png">
 
--
-
-<img src="./images/collage/computer.png">
-`
 ---
 
 | background: images/collage.png
@@ -111,6 +120,7 @@ This lesson is divided into three main sections:
 </div></center>
 
 ---
+
 
 | section: DISCUSS_1
 | padding: 0
