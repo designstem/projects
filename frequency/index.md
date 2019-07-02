@@ -68,8 +68,7 @@ This lesson is divided into three main sections:
 | 5 2 7
 | gap: 0px
 | rows: 1fr 1fr 1fr
-| theme: blue
-| background: #dark-marina-hack
+| theme: dark
 
 <center><div>
 
