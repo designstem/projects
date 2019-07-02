@@ -1,3 +1,42 @@
+<f-slider title="rotation" set="r"/>
+
+<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+
+<f-slider title="distance" set="d" value="0" from="-50" to="50" integer />
+
+-
+
+<f-artboard grid step="100" style="background: white">
+  <f-group v-for="y in range(0,5)">
+    <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
+		<f-group
+      :position="[get('d'),-get('d')][x % 2]"
+      :rotation="get('r')"
+      :scale="[[1,-1][x % 2] * get('s',1),[1,-1][y % 2] * get('s',1)]"
+      style="transform-origin: 50px 50px"
+      :opacity="[1,0.5][y % 2]"
+    >
+      <f-letter />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+<f-artboard grid step="100" style="background: white">
+  <f-group v-for="y in range(0,5)">
+		<f-group
+      v-for="x in range(0,5)"
+      :position="[x * 100,y * 100]"
+      :rotation="get('r')"
+      :scale="get('s')"
+      style="transform-origin: 50px 50px"
+    >
+      <f-letter />
+    </f-group>
+  </group>
+</f-artboard>
+
+---
+
 #### Element
 
 <f-slider title="Element rotation" set="r3" to="180" />
