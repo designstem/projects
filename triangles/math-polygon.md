@@ -16,7 +16,7 @@ Polygons are shapes **more complex than triangles**, having **more sides and ang
 
 ## Polygons are composed by triangles.
 
-For example a polygon with four edges can be divided into two triangles, properly connected.
+For example a polygon with four edges can be divided into two triangles.
 
 -
 
