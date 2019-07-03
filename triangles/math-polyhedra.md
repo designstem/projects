@@ -86,8 +86,11 @@
 
 ---
 
+| padding: 5vmin
 
 ~Polyhedra can be unfolded into nets, i.e shapes that combine triangles and regular polygons. The following figures present how regular polyhedra are decomposed into two-dimentional nets.~
+
+***TODO: add nets***
 
 
 ---

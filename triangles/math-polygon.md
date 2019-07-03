@@ -5,7 +5,7 @@
 
 &nbsp;
 
-Polygons are shapes **more complex than triangles**, having **more sides and angles than 3**. 
+Polygons are shapes **more complex than triangles**, having ~*(usually)*~ **more sides and angles than 3**. 
 
 
 ---
@@ -51,9 +51,10 @@ In a different way, the diagonals of a polygon divide the whole shape into trian
 
 - Regular polygons are polygons with **all sides and angles equal**. 
 - They are **formed by triangles**, usually isosceles.
-- For example 6 triangles connected together form a regular polygon. 
+- For example 6 triangles connected together form a regular polygon called a Hexagon.
 - Regular polygons are **characterized by the number of edges or sides**. 
 
+Below you'll find some examples of some most common regular polygons <f-arrow-icon rotation="90" />
 
 ---
 
@@ -116,16 +117,33 @@ In a regular polygon usually we use the following measures:
 - the **apothem <f-math inline orange>a</f-math>**: the distance of the center to the middle of the side;
 - the **radius** <f-math inline purple>r</f-math>, the distance from the center to an edge.
 
+<blockquote>
+
+As you probably see, these measures **form up a triangle** &ndash; a shape we already know and can use to solve the polygon.
+
+</blockquote>
+
 -
 
-In a polygon with <f-math inline>n</f-math> sides, if we define the radius <f-math inline purple>r</f-math> that denotes its size, we can estimate the above measures using the formulas
+**In any regular polygon with <f-math inline>n</f-math> sides, if we define the radius <f-math inline purple>r</f-math> that denotes its size, we can estimate the above measures using these formulas:**
 
-In any regular polygon we calculate the **exterior (also central) angle** <f-math inline red>w</f-math> with a formula <f-math inline>\color{red} w \color{black} = \frac {360}{n}</f-math> and **interior angle** <f-math inline green>i</f-math> with <f-math inline>\color{green} i \color{black} = \frac {180(n-2)}{n}</f-math>.
+1. calculate the **exterior (also central) angle** <f-math inline red>w</f-math>, we do this with a formula 
+<f-math inline>\color{red} w \color{black} = \frac {360}{n}</f-math> 
+
+2. and **interior angle** <f-math inline green>i</f-math> with 
+<f-math inline>\color{green} i \color{black} = \frac {180(n-2)}{n}</f-math>.
+
+3. If we know the **radius** <f-math inline purple>r</f-math>, we can **find length of a side** <f-math inline blue>s</f-math> like that: 
+<f-math inline>\color{blue} s \color{black} = 2 \cdot \color{purple} r \color{black} \cdot sin( \frac {\pi}{n} )</f-math> 
+
+4. and the **apothem** <f-math inline orange>a</f-math> with 
+<f-math inline>\color{orange} a = \color{purple} r \color{black} \cdot cos( \frac { \pi }{n} )</f-math>
+
+5. And if we know the **length of a side** <f-math inline blue>s</f-math>, and want to find **radius** <f-math inline purple>r</f-math>, we use 
+<f-math inline>\color{purple} r \color{black} = \frac {\color{blue}s\color{black}}{2 \cdot sin(\frac {\pi}{n})}</f-math>
 
 
-If we know the **radius** <f-math inline purple>r</f-math>, we can **find length of a side** <f-math inline blue>s</f-math> like that: <f-math inline>\color{blue} s \color{black} = 2 \cdot \color{purple} r \color{black} \cdot sin( \frac {\pi}{n} )</f-math> and the **apothem** <f-math inline orange>a</f-math> with <f-math inline>\color{orange} a = \color{purple} r \color{black} \cdot cos( \frac { \pi }{n} )</f-math>
-
-If we know the length of a side <f-math inline blue>s</f-math>, and want to find **radius** <f-math inline purple>r</f-math>, we use <f-math inline>\color{purple} r \color{black} = \frac {\color{blue}s\color{black}}{2 \cdot sin(\frac {\pi}{n})}  </f-math>
+# &nbsp;
 
 
 -

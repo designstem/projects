@@ -90,9 +90,109 @@
 
 -
 
+<f-scene3 isometric class="fullWidthScene">
+  <f-group3 :rotation=" '10 ' + get('cubeRot', 12) + ' 0' " :scale="1.5">
+    <f-hedron3 
+      :count="4" 
+      :height="0.5" 
+      rotation="-90 0 45" 
+      scale="0.68 0.68 1" 
+      position="0 -0.5 0" 
+      :fill="color('yellow')"
+    />
+    <f-polyhedron3 hedron="Cube" wireframe :r="1" opacity="0.1"  />
+    <f-line3 points=" -0.5 -0.5 0.5, 0 0 0 " :stroke="color('black')" />
+    <f-line3 points=" 0.5 -0.5 0.5, 0 0 0 " :stroke="color('black')" />
+    <f-line3 points=" -0.5 -0.5 -0.5, 0 0 0 " :stroke="color('black')" />
+    <f-line3 points=" 0.5 -0.5 -0.5, 0 0 0 " :stroke="color('black')" />
+  </f-group3>
+  <!-- <Hedron hedron="Dodecahedron" /> -->
+</f-scene3>
 
+<f-slider set="cubeRot" from="0" to="360" value="30" />
 
+-
 
+<f-scene3 class="fullWidthScene" isometric>
+    <!-- <f-rotation3> -->
+    <!-- <f-group3 :rotation=" '0 ' + get('cubeRot', 0) + ' 0' "> -->
+    <f-group3 :rotation=" '30 ' + get('cubeRot', 0) + ' 0' " scale="0.8">
+      <!-- first pair  -->
+      <f-group3>
+        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1" 
+              :r="1.4142"
+              :fill="color('blue')"
+              :shading="true"
+            />
+        </f-group3>
+        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1"
+              :r="1.4142" 
+              :fill="color('blue')"
+              :shading="true"
+            />
+        </f-group3>
+      </f-group3>
+      <!-- second pair  -->
+      <f-group3 rotation="90 0 0">
+        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1" 
+              :r="1.4142"
+              :fill="color('green')"
+              :shading="true"
+            />
+        </f-group3>
+        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1"
+              :r="1.4142" 
+              :fill="color('green')"
+              :shading="true"
+            />
+        </f-group3>
+      </f-group3>
+       <!-- third pair  -->
+      <f-group3 rotation="0 90 0">
+        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1" 
+              :r="1.4142"
+              :fill="color('yellow')"
+              :opacity="1"
+              :shading="true"
+            />
+        </f-group3>
+        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1"
+              :r="1.4142" 
+              :fill="color('yellow')"
+              :opacity="1"
+              :shading="true"
+            />
+        </f-group3>
+      </f-group3>
+    </f-group3>
+  <!-- </f-rotation3> -->
+</f-scene3>
+
+<f-slider set="pyraOffset" to="1" step="0.01" />
 
 ---
 
@@ -177,7 +277,7 @@
 
 #### &nbsp;
 
-There are birds that heavily rely on human made nesting boxes.
+There are birds that rely heavily on human made nesting boxes.
 
 #### &nbsp;
 
@@ -214,7 +314,7 @@ There are birds that heavily rely on human made nesting boxes.
 
 -
 
-### ~No, not really...~
+#### ~No, not really...~
 
 <!-- A nesting box, as such, doesn't have to be a polyhedron, there are other options too.  -->
 
@@ -478,7 +578,7 @@ Find the polygons: the sides of a polyhedron
 
 ### <f-leftarrow-icon /> Triangles
 
-Find the triangles: the “building blocks” of polygons
+Find triangles: the “building blocks” of polygons
 
 </div>
 
@@ -542,7 +642,7 @@ So let’s see, what type of triangles exist and what kind of relations exist be
 | 5 5 5
 
 
-# Geometry of triangles
+# Geometry of triangles <sup><sup>📐</sup></sup>
 
 -
 
@@ -626,15 +726,15 @@ So, in order to build a polyhedron, let’s first get familiar with it’s sides
 -
 
 <f-scene class="fullWidthScene">
-  <f-regularpolygon :fill="color('green')" count="6" scale="1" position="0 0" rotation="0" />
+  <f-regularpolygon count="6" scale="1" position="0 0" rotation="0" />
   <f-regularpolygon :fill="color('green')" count="3" scale="0.6" position="-1.2 1.2" rotation="20" />
   <f-regularpolygon :fill="color('blue')" count="3" scale="0.4" position="0.8 0" rotation="60" />
-  <f-regularpolygon :fill="color('green')" count="4" scale="0.6" position="1.2 1.2" rotation="15" />
+  <f-regularpolygon count="4" scale="0.6" position="1.2 1.2" rotation="15" />
   <f-regularpolygon :fill="color('red')" count="4" scale="0.4" position="-1 -0.2" rotation="-30" />
   <f-regularpolygon :fill="color('yellow')" count="4" scale="0.3" position="0.3 1.7" rotation="45" />
-  <f-regularpolygon :fill="color('green')" count="5" scale="0.6" position="1.2 -1.2" rotation="0" />
+  <f-regularpolygon count="5" scale="0.6" position="1.2 -1.2" rotation="0" />
   <f-regularpolygon :fill="color('yellow')" count="5" scale="0.3" position="0 -1.7" rotation="0" />
-  <f-regularpolygon :fill="color('blue')" count="7" scale="0.6" position="-1.2 -1.2" rotation="0" />
+  <f-regularpolygon  count="7" scale="0.6" position="-1.2 -1.2" rotation="0" />
 </f-scene>
 
 
@@ -653,7 +753,7 @@ So, in order to build a polyhedron, let’s first get familiar with it’s sides
 
 # Simplification of polygons <sup>🤔</sup>
 
-Looking at these polygons below, how would you simplify these shapes to calculate angles, sides, circumference, area etc of the polygon? 
+Looking at these polygons below, **how would you simplify these shapes** ~*(based on what you know for now about triangles)*~ to calculate angles, sides, circumference, area etc of the polygon? 
 
 -
 
@@ -724,12 +824,12 @@ Since we already are familiar with triangles and how to solve them, **we can use
 ### Here is how:
 
 <f-sidebar src="math-polygon.md" title="How to solve polygons" width="60vw" overlay>
-  <a slot="button" class="tertiary" style="padding:var(--base)">How to solve polygons <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base)">Polygons and how to solve them <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 ## &nbsp;
 
-<f-next-button />
+<f-next-button title="Next: 2D to 3D" />
 
 -
 
@@ -757,64 +857,24 @@ Since we already are familiar with triangles and how to solve them, **we can use
 
 
 
-
-
-
-
-
-
-
 | height: 100vh
-| padding: 10vh 10vw
-| gap: 0
-| 1 1 1 1 1
-| 2 3 4 5 6
-| 7 7 7 7 7
+| padding: 10vmin
+| rows: auto
+| 1
+| 2
+| 3
 
-
-# Polyhedron: made of polygons
-
-Polyhedra (polyhedrons) are comprised of polygons. 
-There are 5 convex regular polyhedra, also known as platonic solids. 
+# From 2D to 3D
 
 -
 
-<f-scene3 isometric class="fullWidthScene" grid static>
-  <f-rotation3>
-    <f-polyhedron3 hedron="Tetrahedron" rotation="0 10 20" scale="1.8" />
-  </f-rotation3>
-</f-scene3>
+Ok, step by step we are getting closer to our final task - a **polyhedral shape**. 
+
+We now know about **triangles**, that can be used to make a **polygon** ~*(regular polygons in our case)*~. And regular polygons, combined together in certain manner, form the sides of a **regular polyhedron**. 
 
 -
 
-<f-scene3 isometric class="fullWidthScene" grid static>
-  <f-polyhedron3 hedron="Cube" rotation="15 10 0" scale="1.8" />
-</f-scene3>
-
--
-
-<f-scene3 isometric class="fullWidthScene" grid static>
-  <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" scale="1.5" />
-</f-scene3>
-
--
-
-<f-scene3 isometric class="fullWidthScene" grid static>
-  <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="1.5" />
-</f-scene3>
-
--
-
-<f-scene3 isometric class="fullWidthScene" grid static>
-  <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="1.5" />
-</f-scene3>
-
--
-
-asadad
-
-
-GEOMETRY OF POLYHEDRA
+<f-next-button title="Next: Polyhedron" />
 
 ---
 
@@ -822,11 +882,131 @@ GEOMETRY OF POLYHEDRA
 
 
 
-| padding: 10vh 10vw
+| height: 100vh
+| padding: 10vmin
+| gap: 0
+| rows: auto
+| 1 1 1 1 1
+| 2 3 4 5 6
+| 7 7 7 7 8
+
+
+# Polyhedra
+
+**Regular polyhedra** ~*(polyhedra = polyhedron in plural form)*~ are comprised of **polygons**. 
+There are **5 convex regular polyhedra**, also known as **platonic solids**. 
+
+-
+
+<f-scene3 isometric class="fullWidthScene" static>
+  <f-rotation3>
+    <f-polyhedron3 hedron="Tetrahedron" rotation="0 10 20" scale="1.8" />
+  </f-rotation3>
+</f-scene3>
+
+-
+
+<f-scene3 isometric class="fullWidthScene" static>
+  <f-polyhedron3 hedron="Cube" rotation="15 10 0" scale="1.8" />
+</f-scene3>
+
+-
+
+<f-scene3 isometric class="fullWidthScene" static>
+  <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" scale="1.5" />
+</f-scene3>
+
+-
+
+<f-scene3 isometric class="fullWidthScene" static>
+  <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="1.5" />
+</f-scene3>
+
+-
+
+<f-scene3 isometric class="fullWidthScene" static>
+  <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="1.5" />
+</f-scene3>
+
+-
+
+<f-sidebar src="math-polyhedra.md" title="Polyhedra" width="60vw" overlay>
+  <a slot="button" class="tertiary" style="padding:var(--base)">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
+</f-sidebar>
+
+-
+
+<f-next-button  />
+
+---
+
+
+
+
+
+| padding: 10vmin
+| rows: auto
+| height: 100vh
+| 1 1 1
+| 2 3 4
+| 5 5 5
 
 # Simplification of polyhedron
 
-Looking at this polyhedron, how would you simplify it to calculate angles and distances?
+-
+
+Look at these polyhedra and try to find out, **how would you simplify them** to calculate angles and distances?
+
+<f-rightarrow-icon /> 
+~*Click on a polyhedron to get the answer*~
+
+-
+
+<!-- <f-scene3 isometric class="fullWidthScene"  v-on:mousedown.native="()=>{set('ph1', true);}" v-on:mouseup.native="()=>{set('ph1', false);}">
+      <f-group3 rotation="15 30 0">
+        <f-group3 rotation="-36 0 180" position="0 0.6 0.8" >
+          <f-regularpolygon3 :count="3" position="0 0 0" :fill="color('yellow')" :strokeWidth="3"  opacity="1" scale="1.2 1.2 1.2" v-if="get('ph1')" />
+        </f-group3>
+        <f-polyhedron3 hedron="Octahedron" opacity="1" rotation="0 45 0" scale="1.5" />
+      </f-group3>
+</f-scene3>
+
+- -->
+
+<f-scene3 isometric  class="fullWidthScene" v-on:mousedown.native="()=>{set('ph1', true);}" v-on:mouseup.native="()=>{set('ph1', false);}">
+    <f-group3 :rotation=" '0 20 0' " scale="1.3">
+      <f-group3 rotation="0 -20 -90" position="0 0 0" >
+        <f-regularpolygon3 :count="3" position="0 0 1.1" :fill="color('yellow')" :strokeWidth="3"  opacity="1" :r="0.75" v-if="get('ph1')" />
+      </f-group3>
+      <f-polyhedron3 opacity="1" :r="1.258" />
+    </f-group3>
+</f-scene3>
+
+-
+
+<f-scene3 isometric  class="fullWidthScene" v-on:mousedown.native="()=>{set('ph2', true);}" v-on:mouseup.native="()=>{set('ph2', false);}">
+    <f-group3 :rotation=" ' 60 0 0' " scale="1.3">
+      <f-group3 rotation="-58 0 0" position="0 0 0" >
+        <f-regularpolygon3 :count="5" position="0 0 1.2" :fill="color('yellow')" :strokeWidth="3"  opacity="1" :r="0.76" v-if="get('ph2')" />
+      </f-group3>
+      <f-polyhedron3 hedron="Dodecahedron" opacity="1" :r="1.258" />
+    </f-group3>
+</f-scene3>
+
+
+<!-- <f-scene3 isometric  class="fullWidthScene" v-on:mousedown.native="()=>{set('ph2', true);}" v-on:mouseup.native="()=>{set('ph2', false);}">
+    <f-group3 rotation="20 33 0">
+      <f-group3 rotation="0 0 45" position="0 0 0.9" >
+        <f-regularpolygon3 :count="4" position="0 0 0" :fill="color('yellow')" :strokeWidth="3"  opacity="1" v-if="get('ph2')" />
+      </f-group3>
+      <f-polyhedron3 hedron="Cube" opacity="1" :scale="1.5" />
+    </f-group3>
+</f-scene3> -->
+
+-
+
+<f-next-button />
+
 
 ---
 

@@ -3,7 +3,12 @@
 
 # Trigonometric functions
 
-### ~Use of trigonometric functions to combine angles and sides in right triangles.~
+Sometimes we don't know the length of two sides or two angles in a triangle. This is where trigonometry comes to help us. 
+
+Trigonometry is about right-angled triangles, where one of the internal angles is 90°. It is a system that helps us to work out missing sides or angles in a triangle.
+
+
+#### ~Use of trigonometric functions to combine angles and sides in right triangles.~
 
 The ratios of the sides of a right triangle are called trigonometric ratios. 
 The three common trigonometric ratios are the **sine (sin)**, **cosine (cos)**, and **tangent (tan)**. 
