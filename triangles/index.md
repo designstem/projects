@@ -57,7 +57,8 @@
 ---
 
 
-
+| 1 2
+| 3 3
 
 <f-scene class="fullWidthScene" v-for="(p,i) in [ {s:6, r:1.5} ]" :key="'polygon'+i" >
     <!-- <f-group v-for="(l,j) in 2" :key="'l'+j">
@@ -973,7 +974,7 @@ Look at these polyhedra and try to find out, **how would you simplify them** to 
 
 - -->
 
-<f-scene3 isometric  class="fullWidthScene" v-on:mousedown.native="()=>{set('ph1', true);}" v-on:mouseup.native="()=>{set('ph1', false);}">
+<f-scene3 isometric :static="get('ph1Static', true)" class="fullWidthScene" v-on:mousedown.native="()=>{set('ph1Static', false); set('ph1', true);}" v-on:mouseup.native="()=>{set('ph1Static', true); set('ph1', false);}">
     <f-group3 :rotation=" '0 20 0' " scale="1.3">
       <f-group3 rotation="0 -20 -90" position="0 0 0" >
         <f-regularpolygon3 :count="3" position="0 0 1.1" :fill="color('yellow')" :strokeWidth="3"  opacity="1" :r="0.75" v-if="get('ph1')" />
@@ -984,13 +985,13 @@ Look at these polyhedra and try to find out, **how would you simplify them** to 
 
 -
 
-<f-scene3 isometric  class="fullWidthScene" v-on:mousedown.native="()=>{set('ph2', true);}" v-on:mouseup.native="()=>{set('ph2', false);}">
-    <f-group3 :rotation=" ' 60 0 0' " scale="1.3">
-      <f-group3 rotation="-58 0 0" position="0 0 0" >
-        <f-regularpolygon3 :count="5" position="0 0 1.2" :fill="color('yellow')" :strokeWidth="3"  opacity="1" :r="0.76" v-if="get('ph2')" />
-      </f-group3>
-      <f-polyhedron3 hedron="Dodecahedron" opacity="1" :r="1.258" />
+<f-scene3 isometric :static="get('ph2Static', true)" class="fullWidthScene" v-on:mousedown.native="()=>{set('ph2Static', false); set('ph2', true); }" v-on:mouseup.native="()=>{set('ph2Static', true); set('ph2', false);}">
+  <f-group3 :rotation=" ' 60 0 0' " scale="1.3">
+    <f-group3 rotation="-58 0 0" position="0 0 0" >
+      <f-regularpolygon3 :count="5" position="0 0 1.2" :fill="color('yellow')" :strokeWidth="3"  opacity="1" :r="0.76" v-if="get('ph2')" />
     </f-group3>
+    <f-polyhedron3 hedron="Dodecahedron" opacity="1" :r="1.258" />
+  </f-group3>
 </f-scene3>
 
 
