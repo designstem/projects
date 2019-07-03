@@ -1,3 +1,43 @@
+<!--
+
+- dots
+- drag
+- group opacity?
+
+-->
+
+# Position
+
+<f-element />
+
+<f-slider title="rotation" set="r"/>
+
+<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+
+-
+
+<f-artboard grid step="100" style="background: white">
+  <f-group v-for="y in range(0,5)">
+    <f-group
+      v-for="x in range(0,5)"
+      :position="[x * 100,y * 100]"
+      :rotation="get('r')"
+      :scale="get('s')"
+      style="transform-origin: 50px 50px"
+    >
+		<f-line
+    	:points="get('p')"
+      closed
+      stroke
+      fill="red"
+    />
+    <f-letter />
+    <f-group>
+  </f-group>
+</f-artboard>
+
+---
+
 <f-slider title="rotation" set="r"/>
 
 <f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
@@ -72,6 +112,8 @@
 
 ---
 
+# Rotation
+
 <f-artboard grid v-slot="{ mouse }" width="100" height="100">
   <f-drag
   	step="5"
@@ -108,53 +150,9 @@
 
 ---
 
-<f-artboard grid v-slot="{ mouse }" width="100" height="100">
-  <f-drag
-  	step="5"
-    :mouse="mouse"
-    points="25 75, 75 75, 75 25, 25 25"
-    v-slot="{ points }"
-    set="p"
-  >
-    <f-line :points="points" closed stroke fill="black" />
-  </f-drag>
-</f-artboard>
+# Horizontal mirroring
 
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
-
--
-
-<f-artboard grid step="100" style="background: white">
-  <f-group v-for="y in range(0,5)">
-		<f-line
-      v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
-    	:points="get('p')"
-      closed
-      stroke
-      fill="black"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
-    />
-  </group>
-</f-artboard>
-
----
-
-<f-artboard grid v-slot="{ mouse }" width="100" height="100">
-  <f-drag
-  	step="5"
-    :mouse="mouse"
-    points="25 75, 75 75, 75 25, 25 25"
-    v-slot="{ points }"
-    set="p"
-  >
-    <f-line :points="points" closed stroke fill="black" />
-  </f-drag>
-</f-artboard>
+<f-element />
 
 <f-slider title="rotation" set="r"/>
 
@@ -164,58 +162,59 @@
 
 -
 
+
 <f-artboard grid step="100" style="background: white">
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
-		<f-line
+    <f-group
       :position="[get('d'),-get('d')][x % 2]"
-    	:points="get('p')"
-      closed
-      stroke
-      fill="black"
       :rotation="get('r')"
       :scale="[[1,-1][x % 2] * get('s',1),1 * get('s',1)]"
       style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"
+    >
+		<f-line
+    	:points="get('p')"
+      closed
+      stroke
+      fill="black"
+      :opacity="[1,0.5][x % 2]"  
     />
-  </group>
+    </f-group>
+  </f-group>
 </f-artboard>
 
 ---
 
-<f-artboard grid v-slot="{ mouse }" width="100" height="100">
-  <f-drag
-  	step="5"
-    :mouse="mouse"
-    points="25 75, 75 75, 75 25, 25 25"
-    v-slot="{ points }"
-    set="p"
-  >
-    <f-line :points="points" closed stroke fill="black" />
-  </f-drag>
-</f-artboard>
+# Horizontal and vertical mirroring
+
+<f-element />
 
 <f-slider title="rotation" set="r"/>
 
 <f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
 
-<f-slider title="distance" set="d" value="0" from="-50" to="50" integer />
+<f-slider title="dx" set="dx" value="0" from="-50" to="50" integer />
+
+<f-slider title="dy" set="dy" value="0" from="-50" to="50" integer />
 
 -
 
 <f-artboard grid step="100" style="background: white">
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
+    <f-group
+      :position="[[get('dx'),-get('dx')][x % 2],[get('dy'),-get('dy')][y % 2]]"
+      :rotation="get('r')"
+      :scale="[[1,-1][x % 2] * get('s',1),[1,-1][y % 2] * get('s',1)]"
+      style="transform-origin: 50px 50px"
+    >
 		<f-line
-      :position="[get('d'),-get('d')][x % 2]"
     	:points="get('p')"
       closed
       stroke
       fill="black"
-      :rotation="get('r')"
-      :scale="[[1,-1][x % 2] * get('s',1),[1,-1][y % 2] * get('s',1)]"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][y % 2]"
+      :opacity="[1,0.5][y % 2]"    
     />
-  </group>
+  </f-group>
+  </f-group>
 </f-artboard>
