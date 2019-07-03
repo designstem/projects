@@ -1,3 +1,112 @@
+<!--
+
+- dots
+- drag
+- group opacity?
+
+-->
+
+
+# Position
+
+<f-source />
+
+Change image content position
+
+<f-slider title="rotation" set="r"/>
+
+<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+
+Translating repeatedly gives a regular pattern 
+
+-
+
+<f-artboard grid step="100" style="background: white">
+  <f-group v-for="y in range(0,5)">
+    <f-group
+      v-for="x in range(0,5)"
+      :position="[x * 100,y * 100]"
+      :rotation="get('r')"
+      :scale="get('s')"
+      style="transform-origin: 50px 50px"
+    >
+      <f-target />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+---
+
+<mark>Rotation</mark>
+
+## Rotation around an internal point
+
+Change image content orientation
+
+<f-source />
+
+<f-slider title="rotation" set="r"/>
+
+Rotating repeatedly gives a completely different pattern 
+
+-
+
+<f-artboard grid step="100" style="background: white">
+  <f-group v-for="y in range(0,5)">
+    <f-group
+      v-for="x in range(0,5)"
+      :position="[x * 100,y * 100]"
+      :rotation="get('r')"
+      :scale="get('s')"
+      style="transform-origin: 50px 50px"
+    >
+      <f-target />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+---
+
+<mark>Rotation</mark>
+
+## Rotation around exterior point
+
+<f-source />
+
+Change image content orientation
+
+<f-slider title="rotation" set="r"/>
+
+<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+
+-
+
+<f-artboard grid step="100" style="background: white">
+  <f-group
+    v-for="a in range(0,360,360 / 16).slice(0,16)"
+    :rotation="a"
+    position="300 300"
+  >
+    <f-group
+      position="-50 -200"
+      :rotation="get('r')"
+      :scale="get('s')"
+      style="transform-origin: 50px 50px"
+      :opacity="[1,0.5][x % 2]"  
+    >
+		  <f-target />
+  </f-group>
+  </f-group>
+</f-artboard>
+
+---
+
+<mark>Mirroring</mark>
+
+## Horizontal mirroring
+
+<f-source />
+
 <f-slider title="rotation" set="r"/>
 
 <f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
@@ -6,36 +115,58 @@
 
 -
 
+
 <f-artboard grid step="100" style="background: white">
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
-		<f-group
+    <f-group
       :position="[get('d'),-get('d')][x % 2]"
       :rotation="get('r')"
-      :scale="[[1,-1][x % 2] * get('s',1),[1,-1][y % 2] * get('s',1)]"
+      :scale="[[1,-1][x % 2] * get('s',1),1 * get('s',1)]"
       style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][y % 2]"
-    >
-      <f-letter />
+      :opacity="[1,0.5][x % 2]"  
+      >
+		  <f-target />
     </f-group>
   </f-group>
 </f-artboard>
 
+---
+
+<mark>Mirroring</mark>
+
+## Horizontal and vertical mirroring
+
+<f-source />
+
+<f-slider title="rotation" set="r"/>
+
+<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+
+<f-slider title="dx" set="dx" value="0" from="-50" to="50" integer />
+
+<f-slider title="dy" set="dy" value="0" from="-50" to="50" integer />
+
+-
+
 <f-artboard grid step="100" style="background: white">
   <f-group v-for="y in range(0,5)">
-		<f-group
-      v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
+    <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
+    <f-group
+      :position="[[get('dx'),-get('dx')][x % 2],[get('dy'),-get('dy')][y % 2]]"
       :rotation="get('r')"
-      :scale="get('s')"
+      :scale="[[1,-1][x % 2] * get('s',1),[1,-1][y % 2] * get('s',1)]"
       style="transform-origin: 50px 50px"
+      :opacity="[1,0.5][x % 2]"  
     >
-      <f-letter />
-    </f-group>
-  </group>
+		  <f-target />
+  </f-group>
+  </f-group>
 </f-artboard>
 
 ---
+
+# 3D patterns
 
 #### Element
 
@@ -45,14 +176,14 @@
 
 #### Scene
 
-<f-slider title="Scene rotation" set="rx3" value="-45" from="-90" to="0" />
+<f-slider title="Scene rotation x" set="rx3" value="-45" from="-90" to="0" />
 
-<f-slider title="Scene rotation" set="rz3" value="0" from="-90" to="0" />
+<f-slider title="Scene rotation z" set="rz3" value="0" from="-90" to="0" />
 
 -
 
 <f-scene3 webgl width="600" height="600">
-  <f-group3 scale="0.5" :rotation="[get('rx3',-45),0,get('rz3',0)]" position="0 0.5 0">
+  <f-group3 scale="0.5" :rotation="[get('rx3',-45),0,get('rz3',0)]" position="0 0 0">
     <f-group3 v-for="y in range(-2,2,1)">
       <f-hedron3
         v-for="x in range(-2,2,1)"
@@ -69,153 +200,4 @@
   </f-group3>
 </f-scene3>
 
-
----
-
-<f-artboard grid v-slot="{ mouse }" width="100" height="100">
-  <f-drag
-  	step="5"
-    :mouse="mouse"
-    points="25 75, 75 75, 75 25, 25 25"
-    v-slot="{ points }"
-    set="p"
-  >
-    <f-line :points="points" closed stroke fill="black" />
-  </f-drag>
-</f-artboard>
-
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
-
--
-
-<f-artboard grid step="100" style="background: white">
-  <f-group v-for="a in range(0,360,360 / 16).slice(0,16)" :rotation="a" position="300 300">
-		<f-line
-      position="-50 -200"
-      :scale="get('s')"
-    	:points="get('p')"
-      closed
-      stroke
-      fill="black"      
-      style="transform-origin: 50px 50px"
-      :rotation="get('r')"  
-      :opacity="scale(a,0,360,1,0.1)"
-    />
-  </f-group>
-</f-artboard>
-
----
-
-<f-artboard grid v-slot="{ mouse }" width="100" height="100">
-  <f-drag
-  	step="5"
-    :mouse="mouse"
-    points="25 75, 75 75, 75 25, 25 25"
-    v-slot="{ points }"
-    set="p"
-  >
-    <f-line :points="points" closed stroke fill="black" />
-  </f-drag>
-</f-artboard>
-
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
-
--
-
-<f-artboard grid step="100" style="background: white">
-  <f-group v-for="y in range(0,5)">
-		<f-line
-      v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
-    	:points="get('p')"
-      closed
-      stroke
-      fill="black"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
-    />
-  </group>
-</f-artboard>
-
----
-
-<f-artboard grid v-slot="{ mouse }" width="100" height="100">
-  <f-drag
-  	step="5"
-    :mouse="mouse"
-    points="25 75, 75 75, 75 25, 25 25"
-    v-slot="{ points }"
-    set="p"
-  >
-    <f-line :points="points" closed stroke fill="black" />
-  </f-drag>
-</f-artboard>
-
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
-
-<f-slider title="distance" set="d" value="0" from="-50" to="50" integer />
-
--
-
-<f-artboard grid step="100" style="background: white">
-  <f-group v-for="y in range(0,5)">
-    <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
-		<f-line
-      :position="[get('d'),-get('d')][x % 2]"
-    	:points="get('p')"
-      closed
-      stroke
-      fill="black"
-      :rotation="get('r')"
-      :scale="[[1,-1][x % 2] * get('s',1),1 * get('s',1)]"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"
-    />
-  </group>
-</f-artboard>
-
----
-
-<f-artboard grid v-slot="{ mouse }" width="100" height="100">
-  <f-drag
-  	step="5"
-    :mouse="mouse"
-    points="25 75, 75 75, 75 25, 25 25"
-    v-slot="{ points }"
-    set="p"
-  >
-    <f-line :points="points" closed stroke fill="black" />
-  </f-drag>
-</f-artboard>
-
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
-
-<f-slider title="distance" set="d" value="0" from="-50" to="50" integer />
-
--
-
-<f-artboard grid step="100" style="background: white">
-  <f-group v-for="y in range(0,5)">
-    <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
-		<f-line
-      :position="[get('d'),-get('d')][x % 2]"
-    	:points="get('p')"
-      closed
-      stroke
-      fill="black"
-      :rotation="get('r')"
-      :scale="[[1,-1][x % 2] * get('s',1),[1,-1][y % 2] * get('s',1)]"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][y % 2]"
-    />
-  </group>
-</f-artboard>
+ 
