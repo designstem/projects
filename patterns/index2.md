@@ -1,3 +1,5 @@
+| background: lightergray
+
 # Position
 
 <f-source />
@@ -12,7 +14,7 @@ Translating repeatedly gives a regular pattern
 
 -
 
-<f-artboard grid step="100" download>
+<f-artboard grid step="100" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
@@ -27,6 +29,8 @@ Translating repeatedly gives a regular pattern
 </f-artboard>
 
 ---
+
+| background: lightergray
 
 <mark>Rotation</mark>
 
@@ -42,7 +46,7 @@ Rotating repeatedly gives a completely different pattern
 
 -
 
-<f-artboard grid step="100" download>
+<f-artboard grid step="100" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
@@ -57,6 +61,8 @@ Rotating repeatedly gives a completely different pattern
 </f-artboard>
 
 ---
+
+| background: lightergray
 
 <mark>Rotation</mark>
 
@@ -76,7 +82,7 @@ Change image content orientation
 
 -
 
-<f-artboard step="100" style="background: white" download>
+<f-artboard step="100" download responsive>
   <f-box
     position="300 300" :r="600 - 1"
     stroke-width="1"
@@ -111,6 +117,8 @@ Change image content orientation
 
 ---
 
+| background: lightergray
+
 <mark>Mirroring</mark>
 
 ## Horizontal mirroring
@@ -126,7 +134,7 @@ Change image content orientation
 -
 
 
-<f-artboard grid step="100" style="background: white" download>
+<f-artboard grid step="100" style="background: white" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
     <f-group
@@ -142,6 +150,8 @@ Change image content orientation
 </f-artboard>
 
 ---
+
+| background: lightergray
 
 <mark>Mirroring</mark>
 
@@ -159,7 +169,7 @@ Change image content orientation
 
 -
 
-<f-artboard grid step="100" download>
+<f-artboard grid step="100" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
     <f-group
@@ -176,13 +186,15 @@ Change image content orientation
 
 ---
 
+| background: lightergray
+
 # 3D patterns
 
 #### Element
 
 <f-slider title="Element rotation" set="r3" to="180" />
 
-<f-slider title="Element scale" set="s3" value="1" from="0.1" to="4"/>
+<f-slider title="Element scale" set="s3" value="1" from="0.1" to="2"/>
 
 #### Scene
 
@@ -192,19 +204,20 @@ Change image content orientation
 
 -
 
-<f-scene3 webgl width="600" height="600">
+<f-scene3 webgl width="600" height="600" responsive>
   <f-group3 scale="0.5" :rotation="[get('rx3',-45),0,get('rz3',0)]" position="0 0 0">
     <f-group3 v-for="y in range(-2,2,1)">
       <f-hedron3
         v-for="x in range(-2,2,1)"
-        :key="x + '-' + y"
-        :r="1 / Math.sqrt(2)"
-        :count="4"
         :position="[x,y]"
         :rotation="[0,0,get('r3',0) + 45]"
-        :scale="get('s3')"
-        :height="0.5"
-        shading
+        :scale="get('s3') / 2"
+        :key="x + '-' + y"
+        :count="4"
+        :shading="false"
+        :fill="color('blue')"
+        :height="0.1"
+        :opacity="0.9"
       />
     </f-group3> 
   </f-group3>
