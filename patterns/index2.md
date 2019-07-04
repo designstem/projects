@@ -1,12 +1,3 @@
-<!--
-
-- dots
-- drag
-- group opacity?
-
--->
-
-
 # Position
 
 <f-source />

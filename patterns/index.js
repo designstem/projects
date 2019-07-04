@@ -7,19 +7,19 @@ const FLetter = {
 };
 
 const FSource = {
-  template: '<div />',
-  template2: `
-  <f-artboard grid v-slot="{ mouse }" width="100" height="100" style="background: var(--lightgray)">
+  methods: { get },
+  template: `
+  <f-artboard grid v-slot="{ mouse }" width="150" height="150">
+    <f-box x="75" y="75" r="100" />
     <f-drag
-      step="5"
       :mouse="mouse"
-      points="25 75, 75 75, 75 25, 25 25"
+      points="50 100, 100 100, 100 50, 50 50"
       v-slot="{ points }"
       set="p"
     >
       <f-line :points="points" closed stroke fill="black" />
     </f-drag>
-  </f-artboard> 
+  </f-artboard>
   `
 };
 
@@ -27,18 +27,18 @@ const FTarget = {
   methods: { get },
   template: `
   <f-group>
-  <!--f-line
-    :points="get('p')"
+  <f-line
+    :points="get('p').map(({ x, y}) => ({ x: x - 25, y: y - 25 }))"
     closed
     stroke
     fill="black"
-  /-->
-  <f-letter />
+  />
+  <!--f-letter /-->
   </f-group>
   `
 };
 fachwerk({
-  src: "./index.md",
+  src: "./index2.md",
   components: { FLetter, FSource, FTarget },
   style: { "--yellow": "var(--lightergray)" }
 });

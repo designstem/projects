@@ -200,7 +200,7 @@
     rows="6"
     cols="6"
    	>
-			<component :is="['f-text','f-box','f-circle','f-hexagon'][get('el',0)]" style="font-size: 50px; font-family: var(--font-serif);" :r="get('el',0) == 1 ? get('r',0.25) * 2 : get('r',0.25)"
+			<component id="pattern" :is="['f-text','f-box','f-circle','f-hexagon'][get('el',0)]" style="font-size: 50px; font-family: var(--font-serif);" :r="get('el',0) == 1 ? get('r',0.25) * 2 : get('r',0.25)"
       :stroke-width="get('stroke', 3)"
       :fill="get('el', 0) == 0 ? color('primary') : ['rgba(0,0,0,0)',color('primary')][get('fill',0)]"
       :opacity="get('opacity',1)"
@@ -209,3 +209,5 @@
     </component>
     </component>
 </f-scene>
+
+<button v-on:click="send('download', 'pattern')">Download SVG</button>
