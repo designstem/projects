@@ -42,7 +42,7 @@ const FTarget = {
   `
 };
 fachwerk({
-  src: "./index2.md",
+  src: "./index.md",
   components: { FLetter, FSource, FTarget },
   style: { "--yellow": "var(--lightergray)" }
 });
