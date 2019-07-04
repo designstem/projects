@@ -9,15 +9,16 @@ const FLetter = {
 const FSource = {
   methods: { get },
   template: `
-  <f-artboard grid v-slot="{ mouse }" width="150" height="150">
-    <f-box x="75" y="75" r="100" />
+  <f-artboard dots v-slot="{ mouse }" width="150" height="150">
+    <f-box x="75" y="75" r="100" stroke-width="1" opacity="0.25" />
     <f-drag
       :mouse="mouse"
-      points="50 100, 100 100, 100 50, 50 50"
+      step="25"
+      points="50 50, 75 50, 100 50, 100 75, 100 100, 75 100, 50 100, 50 75"
       v-slot="{ points }"
       set="p"
     >
-      <f-line :points="points" closed stroke fill="black" />
+      <f-line :points="points" closed stroke fill="var(--blue)" />
     </f-drag>
   </f-artboard>
   `
@@ -26,12 +27,15 @@ const FSource = {
 const FTarget = {
   methods: { get },
   template: `
-  <f-group>
+  <f-group style="mix-blend-mode: multiply;">
   <f-line
     :points="get('p').map(({ x, y}) => ({ x: x - 25, y: y - 25 }))"
     closed
     stroke
-    fill="black"
+    fill="var(--blue)"
+    stroke="var(--darkblue)"
+    stroke-opacity="0.5"
+    stroke-width="1"
   />
   <!--f-letter /-->
   </f-group>

@@ -12,7 +12,7 @@ Translating repeatedly gives a regular pattern
 
 -
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard grid step="100" download>
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
@@ -42,7 +42,7 @@ Rotating repeatedly gives a completely different pattern
 
 -
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard grid step="100" download>
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
@@ -68,18 +68,37 @@ Change image content orientation
 
 <f-slider title="rotation" set="r"/>
 
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+<f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+
+<f-slider step="1" title="count" set="cc" value="16" from="2" to="32" />
+
+<f-slider title="d" set="d" value="200" from="50" to="400" />
 
 -
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard step="100" style="background: white" download>
+  <f-box
+    position="300 300" :r="600 - 1"
+    stroke-width="1"
+    opacity="0.25"
+  />
+  <f-line
+    v-for="a in range(0,360,360 / get('cc',16))"
+    position="300 300"
+    x1="0"
+    y1="0"
+    :x2="polarx(a,500)"
+    :y2="polary(a,500)"
+    stroke-width="1"
+    opacity="0.25"
+  />
   <f-group
-    v-for="a in range(0,360,360 / 16).slice(0,16)"
+    v-for="a in range(0,360,360 / get('cc',16)).slice(0, get('cc',16))"
     :rotation="a"
     position="300 300"
   >
     <f-group
-      position="-50 -200"
+      :position="[-50,-get('d')]"
       :rotation="get('r')"
       :scale="get('s')"
       style="transform-origin: 50px 50px"
@@ -107,7 +126,7 @@ Change image content orientation
 -
 
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard grid step="100" style="background: white" download>
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
     <f-group
@@ -140,7 +159,7 @@ Change image content orientation
 
 -
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard grid step="100" download>
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
     <f-group
