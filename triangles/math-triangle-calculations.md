@@ -12,45 +12,49 @@
 
 | theme: blue
 | padding: 5vmin
+| gap: 0
+| 1 1 1
+| 2 3 4
 
-#### &nbsp;
 
-## How to calculate angles and sides in triangles.
+#### ~How to calculate angles and sides in triangles.~
+
+&nbsp; 
+
+First rule, we have to know, is...
 
 
 <blockquote>
+  <section>
+    <f-inline style="margin-bottom:0">
 
-<section>
+<f-fact-icon size="large" style="padding-right: var(--base3)" />
 
-<f-inline style="margin-bottom:0">
-
-<f-fact-icon size="large" />
-
-#### The sum of all 3 angles in every triangle is 180°
+#### ~The sum of all 3 angles in every triangle is equal to 180°~
 
 </f-inline>
 
 </section>
-
 </blockquote> 
 
 
-
-<f-inline>
-
-<f-scene grid class="fullWidthScene">
-<Triangle :points="[ [0,1.598],[-1.5,-1],[1.5,-1] ]" :angleMarkers="3" angleInfo />
-</f-scene>
+-
 
 <f-scene grid class="fullWidthScene">
-<Triangle :points="[ [-1,1],[-1,-1],[1,-1] ]" :angleMarkers="3" angleInfo />
+  <Triangle :points="[ [0,1.598],[-1.5,-1],[1.5,-1] ]" :angleMarkers="3" angleInfo />
 </f-scene>
+
+-
 
 <f-scene grid class="fullWidthScene">
-<Triangle :points="[ [0.3,1.6],[-1.5,-1],[1.2,-1.2] ]" :angleMarkers="3" angleInfo />
+  <Triangle :points="[ [-1,1],[-1,-1],[1,-1] ]" :angleMarkers="3" angleInfo />
 </f-scene>
 
-</f-inline>
+-
+
+<f-scene grid class="fullWidthScene">
+  <Triangle :points="[ [0.3,1.6],[-1.5,-1],[1.2,-1.2] ]" :angleMarkers="3" angleInfo />
+</f-scene>
 
 
 
@@ -67,7 +71,13 @@
 
 For example, if we assume that <f-math inline>\color{red} ∠A = 30° \color{black} and \color{blue} ∠B = 50°</f-math> then, since <f-math inline>\color{red} ∠A \color{black} + \color{blue} ∠B \color{black} + \color{green} ∠C \color{black} = 180°</f-math>
 
-<f-math inline>\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B  \color{black} ) = \newline 180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = \newline 180° - 80° = 100°</f-math>
+<f-math>
+\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B \color{black} ) = 
+\newline 
+180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = 
+\newline 
+180° - 80° = 100°
+</f-math>
 
 -
 

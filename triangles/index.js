@@ -6,13 +6,14 @@ import * as localutils from "./utils.js";
 
 import Triangle from "./components/Triangle.js";
 import Separator from "./components/Separator.js";
-// import Triangle2 from "./components/Triangle2.js";
+// import Hedron from "./components/Hedron.js";
 
 
 fachwerk({ 
   components: { 
     "Triangle" : Triangle,
-    "Separator": Separator
+    "Separator": Separator,
+    // "Hedron": Hedron
   },
   src: "index.md",
   // src: "math-polygon.md",
