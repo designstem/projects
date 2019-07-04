@@ -111,7 +111,9 @@ To make different designs you can use geometric operations such as:
 
 ---
 
-# Translate
+| background: lightergray
+
+# Position
 
 <f-source />
 
@@ -125,7 +127,7 @@ Translating repeatedly gives a regular pattern
 
 -
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard grid step="100" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
@@ -140,6 +142,8 @@ Translating repeatedly gives a regular pattern
 </f-artboard>
 
 ---
+
+| background: lightergray
 
 <mark>Rotation</mark>
 
@@ -155,7 +159,7 @@ Rotating repeatedly gives a completely different pattern
 
 -
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard grid step="100" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
@@ -171,6 +175,8 @@ Rotating repeatedly gives a completely different pattern
 
 ---
 
+| background: lightergray
+
 <mark>Rotation</mark>
 
 ## Rotation around exterior point
@@ -181,18 +187,37 @@ Change image content orientation
 
 <f-slider title="rotation" set="r"/>
 
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+<f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+
+<f-slider step="1" title="count" set="cc" value="16" from="2" to="32" />
+
+<f-slider title="d" set="d" value="200" from="50" to="400" />
 
 -
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard step="100" download responsive>
+  <f-box
+    position="300 300" :r="600 - 1"
+    stroke-width="1"
+    opacity="0.25"
+  />
+  <f-line
+    v-for="a in range(0,360,360 / get('cc',16))"
+    position="300 300"
+    x1="0"
+    y1="0"
+    :x2="polarx(a,500)"
+    :y2="polary(a,500)"
+    stroke-width="1"
+    opacity="0.25"
+  />
   <f-group
-    v-for="a in range(0,360,360 / 16).slice(0,16)"
+    v-for="a in range(0,360,360 / get('cc',16)).slice(0, get('cc',16))"
     :rotation="a"
     position="300 300"
   >
     <f-group
-      position="-50 -200"
+      :position="[-50,-get('d')]"
       :rotation="get('r')"
       :scale="get('s')"
       style="transform-origin: 50px 50px"
@@ -204,6 +229,8 @@ Change image content orientation
 </f-artboard>
 
 ---
+
+| background: lightergray
 
 <mark>Mirroring</mark>
 
@@ -220,7 +247,7 @@ Change image content orientation
 -
 
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard grid step="100" style="background: white" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
     <f-group
@@ -236,6 +263,8 @@ Change image content orientation
 </f-artboard>
 
 ---
+
+| background: lightergray
 
 <mark>Mirroring</mark>
 
@@ -253,7 +282,7 @@ Change image content orientation
 
 -
 
-<f-artboard grid step="100" style="background: white">
+<f-artboard grid step="100" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
     <f-group
@@ -270,13 +299,15 @@ Change image content orientation
 
 ---
 
+| background: lightergray
+
 # 3D patterns
 
 #### Element
 
 <f-slider title="Element rotation" set="r3" to="180" />
 
-<f-slider title="Element scale" set="s3" value="1" from="0.1" to="4"/>
+<f-slider title="Element scale" set="s3" value="1" from="0.1" to="2"/>
 
 #### Scene
 
@@ -286,19 +317,20 @@ Change image content orientation
 
 -
 
-<f-scene3 webgl width="600" height="600">
+<f-scene3 webgl width="600" height="600" responsive>
   <f-group3 scale="0.5" :rotation="[get('rx3',-45),0,get('rz3',0)]" position="0 0 0">
     <f-group3 v-for="y in range(-2,2,1)">
       <f-hedron3
         v-for="x in range(-2,2,1)"
-        :key="x + '-' + y"
-        :r="1 / Math.sqrt(2)"
-        :count="4"
         :position="[x,y]"
         :rotation="[0,0,get('r3',0) + 45]"
-        :scale="get('s3')"
-        :height="0.5"
-        shading
+        :scale="get('s3') / 2"
+        :key="x + '-' + y"
+        :count="4"
+        :shading="false"
+        :fill="color('blue')"
+        :height="0.1"
+        :opacity="0.9"
       />
     </f-group3> 
   </f-group3>
