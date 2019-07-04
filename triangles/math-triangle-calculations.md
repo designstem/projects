@@ -71,7 +71,13 @@ First rule, we have to know, is...
 
 For example, if we assume that <f-math inline>\color{red} ∠A = 30° \color{black} and \color{blue} ∠B = 50°</f-math> then, since <f-math inline>\color{red} ∠A \color{black} + \color{blue} ∠B \color{black} + \color{green} ∠C \color{black} = 180°</f-math>
 
-<f-math inline>\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B  \color{black} ) = \newline 180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = \newline 180° - 80° = 100°</f-math>
+<f-math>
+\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B \color{black} ) = 
+\newline 
+180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = 
+\newline 
+180° - 80° = 100°
+</f-math>
 
 -
 

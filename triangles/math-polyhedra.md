@@ -6,7 +6,7 @@
 ~When regular polygons are expanded and seen in the three dimensions, form the **Regular Polyhedra**. These are solid objects bounded by flat surfaces.~
 
 <center>
-    <f-scene3 style="position:relative;" isometric>
+    <f-scene3 style="position:relative;" isometric class="crisp">
         <f-box3 rotation="20 30 0" scale="1.5"  />
         <div style="z-index:8; position:absolute; top:0; left:0; width:100%; height:100%; font-family:var(--font-mono); font-weight:400; font-size:75%;">
             <div style="position:absolute; top:12%; left:17%;">EDGE</div>
@@ -46,7 +46,7 @@
 ~6 faces, 12 edges, 8 vertices~
 
 <center>
-    <f-scene3 isometric>
+    <f-scene3 isometric class="crisp">
         <f-box3 rotation="20 30 0" scale="1.5" />
     </f-scene3>
 </center>
@@ -66,7 +66,7 @@
 ~12 faces, 30 edges, 20 vertices~
 
 <center>
-    <f-scene3 isometric>
+    <f-scene3 isometric class="crisp">
         <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" scale="1.5" />
     </f-scene3>
 </center>
