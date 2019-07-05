@@ -10,38 +10,6 @@ We can also combine multiple types of transformation to create more complex ones
 ---
 
 | background: lightergray
-
-# Position
-
-<f-source />
-
-Change image content position
-
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
-
-Translating repeatedly gives a regular pattern
-
--
-
-<f-artboard grid step="100" download responsive>
-  <f-group v-for="y in range(0,5)">
-    <f-group
-      v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
-    >
-      <f-target />
-    </f-group>
-  </f-group>
-</f-artboard>
-
----
-
-| background: lightergray
 | cols: 2fr 2fr 4fr 2fr
 
 | 1 1 1 1
@@ -134,27 +102,58 @@ Here is the simple grid repetition on x and y axis.
 
 ---
 
+
 | background: lightergray
+| cols: 2fr 2fr 4fr 2fr
 
-# Position
+| 1 1 1 1
+| 2 3 4 5
 
-<f-source />
+| rows: auto 1fr
 
-Change image content position
+<f-inline style="--inline-justify: space-between">
 
-<f-slider title="rotation" set="r"/>
+# Translation
 
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+<f-next-button />
 
-Translating repeatedly gives a regular pattern
+</f-inline>
 
 -
 
-<f-artboard grid step="100" download responsive>
+<!-- Commenting out the sliders -->
+
+<div style="display: none">
+  <f-slider title="rotation" set="r"  />
+  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+  <f-source />
+</div>
+
+#### Single translation
+
+A <var>translation</var> is a <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
+
+In the coordinate plane, we can specify a translation by how far the shape is moved along the **x-axis** and the **y-axis**. 
+
+-
+
+<f-artboard grid step="100" responsive class="r">
+  <f-group :scale="get('ts',1) * 2" style="transform-origin: 300px 300px">
+    <f-group :position="[300 - 50, 300 - 50]">
+      <f-target />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+<f-slider title="scale" set="ts" value="1" from="0.1" to="10" />
+
+-
+
+<f-artboard grid step="50" download responsive class="r">
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
+      :position="[x * get('px',100),y * get('py',100)]"
       :rotation="get('r')"
       :scale="get('s')"
       style="transform-origin: 50px 50px"
@@ -163,6 +162,22 @@ Translating repeatedly gives a regular pattern
     </f-group>
   </f-group>
 </f-artboard>
+
+-
+
+#### Repeated translation
+
+When <var>translation</var> is applied repeatedly, we willl see the visual patterns emerge.
+
+Here is the simple grid repetition on x and y axis that gives us a regular pattern.
+
+##### Repetition step in x-axis `{{ get('px',100) }}`
+
+<f-slider set="px" step="1" value="100" from="0" to="500" />
+
+##### Repetition step in y-axis `{{ get('py',100) }}`
+
+<f-slider set="py" step="1" value="100" from="0" to="500" />
 
 ---
 
