@@ -43,30 +43,24 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
 
 -
 
-<f-artboard grid step="100" responsive class="r">
-  <f-group scale="2" style="transform-origin: 300px 300px">
-  <f-group :position="[300-50,300-50]">
-    <f-target />
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-group :scale="svgscale">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
   </f-group>
-  <f-group opacity="0.5" :position="[get('tx',300)-50-150,get('ty',300)-50-150]">
-    <f-target />
+  <f-group opacity="0.5" :position="[get('t_x1',1),get('t_y1',1)]">
+    <f-group :scale="svgscale">
+      <f-target transform="translate(-50, 50) scale(1,-1)" />
+    </f-group>
   </f-group>
-  <!--f-line
-    :x1="300"
-    :y1="300"
-    :x2="get('tx',300) - 150"
-    :y2="get('ty',300) - 150"
-  /-->
-  </f-group>
-</f-artboard>
+</f-scene>
 
-##### x-axis translation `{{ get('tx',300) - 300 - 150 }}`
+##### x-axis translation `{{ get('t_x1', 1) }}`
 
-<f-slider set="tx" step="1" value="500" from="300" to="600" />
+<f-slider set="t_x1" value="1" from="-2" to="2" />
 
-##### y-axis translation `{{ get('ty',300) - 300 - 150 }}`
+##### y-axis translation `{{ get('t_y1', 1) }}`
 
-<f-slider set="ty" step="1" value="500" from="300" to="600" />
+<f-slider set="t_y1" value="1" from="-2" to="2" />
 
 -
 
