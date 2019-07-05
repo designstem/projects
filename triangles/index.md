@@ -380,27 +380,27 @@
 
 -
 
-## **1**
+## 1.
 ~Find a bird for which to build a nesting box.~
 
 -
 
-## **2**
+## 2.
 ~Sketch your ideas.~
 
 -
 
-## **3**
+## 3.
 ~Create prototype of nesting box using cardboard or paper.~
 
 -
 
-## **4**
+## 4.
 ~Make and note all the calculations needed for building the nesting box.~
 
 -
 
-## **5**
+## 5.
 ~Build the nesting box from wood or similar materials.~
 
 -
@@ -462,13 +462,13 @@
 
 -
 
-# **1**
+# 1.
 
 ~**simplify the polyhedral object** into more basic geometrical objects, such as **polygons**, **triangles** and **pyramids**~
 
 -
 
-# **2**
+# 2.
 
 ~**use geometry** to calculate correct **dimensions and angles** of these “building blocks”~
 

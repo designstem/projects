@@ -1,6 +1,6 @@
 | section: step6
 
-### **6** Communication
+### 6. Communication
 
 # Where are we?
 
@@ -21,7 +21,7 @@ read more (www.sciencebuddies.org)</a>
 
 ---
 
-### **6** Communication
+### 6. Communication
 
 # Marketing
 
@@ -48,7 +48,7 @@ read more (www.sciencebuddies.org)</a>
 
 ---
 
-### **6** Communication
+### 6. Communication
 
 #  Assignment: Make your presentation
 

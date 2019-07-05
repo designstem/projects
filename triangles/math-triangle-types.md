@@ -81,7 +81,7 @@ By comparing angles and sides, we distinguish triangles as follows:
 
 <!-- 2/3 -->
 
-#### **1** Scalene triangle
+#### 1. Scalene triangle
 
 #### &nbsp;
 
@@ -117,7 +117,7 @@ It has **all sides and angles unequal**, of different size.
 
 <!-- 6/7 -->
 
-#### **2** Isosceles triangle
+#### 2. Isosceles triangle
 
 #### &nbsp;
 
@@ -140,7 +140,7 @@ It has **two sides and angles equal**.
 
 <!-- 8/9 -->
 
-#### **3** Equilateral Triangle
+#### 3. Equilateral Triangle
 
 #### &nbsp;
 
@@ -157,7 +157,7 @@ It can be proved that **each angle is 60°**.
 
 -
 
-#### **4** Orthogonal or Right Triangle
+#### 4. Orthogonal or Right Triangle
 
 #### &nbsp;
 

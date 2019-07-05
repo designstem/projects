@@ -5,7 +5,7 @@
 
 ### Equilibrium vs Equilibrium
 
-#### **1** <a @click="send('first')" href="index.html">Pollution</a>
+#### 1. <a @click="send('first')" href="index.html">Pollution</a>
 
 <!--<div class="grid" style="--cols: 1fr 1fr 1fr; --gap: var(--base);">
 <f-card style="border: 4px solid var(--purple); font-weight: normal;" :color="color('purple')">
@@ -22,7 +22,7 @@
 
 <br />-->
 
-#### **2** <a @click="send('first')" href="index3.html">Good news</a>
+#### 2. <a @click="send('first')" href="index3.html">Good news</a>
 
 <!--<div class="grid" style="--cols: 1fr 1fr 1fr; --gap: var(--base);">
 <div v-for="(s,i) in 6" :key="i">
@@ -33,8 +33,8 @@
 </div>
 </div>-->
 
-#### **3** <a @click="send('first')" href="index4.html">Plastic reuse</a>
-#### **4** <a @click="send('first')" href="index5.html">Archimedes’ principle</a>
-#### **5** <a @click="send('first')" href="index6.html">Task</a>
-#### **6** <a @click="send('first')" href="index7.html">Work with your structure</a>
-#### **7** <a @click="send('first')" href="index8.html">Now it’s your turn!</a>
+#### 3. <a @click="send('first')" href="index4.html">Plastic reuse</a>
+#### 4. <a @click="send('first')" href="index5.html">Archimedes’ principle</a>
+#### 5. <a @click="send('first')" href="index6.html">Task</a>
+#### 6. <a @click="send('first')" href="index7.html">Work with your structure</a>
+#### 7. <a @click="send('first')" href="index8.html">Now it’s your turn!</a>

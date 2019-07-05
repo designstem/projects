@@ -2201,7 +2201,7 @@ Creating color palettes with more than two or three colors takes time and review
 
 <f-card>
 
-# **1** 
+# 1.
 
 ### Figure out the purpose
 
@@ -2210,7 +2210,7 @@ Analyse the product and the target group for which you are going to design. Are 
 </f-card>
 <f-card>
 
-# **2**
+# 1.
 
 ### Review color basics
 
@@ -2219,7 +2219,7 @@ Make sure you remember all the basics about the three properties of color, color
 </f-card>
 <f-card>
 
-# **3**
+### 3.
 
 ### Choose a dominant color, then accent colors
 
@@ -2228,7 +2228,7 @@ First, decide for a color for the largest areas (e.g. the background color), the
 </f-card>
 <f-card>
 
-# **4** 
+# 4.
 
 ### Select shades, then vary them
 
@@ -2237,7 +2237,7 @@ Play with saturation and brightness to create different effects (cheerful, drama
 </f-card>
 <f-card>
 
-# **5** 
+# 5.
 
 ### Look at compatibility of hues
 
@@ -2246,7 +2246,7 @@ Review the color combinations and contrasts. Are they **pleasing**? Are they **p
 </f-card>
 <f-card>
 
-# **6** 
+# 6.
 
 ### Limit the number of colors
 
@@ -2256,7 +2256,7 @@ If you choose more than three colors for a palette, be careful. Always have **do
 </f-card>
 <f-card>
 
-# **7** 
+# 7.
 
 ### Put the colors into action, 
 

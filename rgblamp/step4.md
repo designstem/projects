@@ -1,7 +1,7 @@
 | section: step4
 | 1 1 2
 
-### **4** Engineering
+### 4. Engineering
 
 # Where are we?
 
@@ -28,7 +28,7 @@ read more (www.sciencebuddies.org)</a>
 ---
 
 
-### **4** Engineering
+### 4. Engineering
 
 # Assignment: Engineering your own RGB Lamp
 

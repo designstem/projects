@@ -39,9 +39,9 @@ Let's go step by step...
 
 # What we need to produce a moiré effect is:
 
-##### **1** 2 transparent patterns (there may be more, but we need at least 2)
-##### **2** one is overlaid with another
-##### **3** they must be slightly displaced (for example rotated) 
+##### 1. 2 transparent patterns (there may be more, but we need at least 2)
+##### 2. one is overlaid with another
+##### 3. they must be slightly displaced (for example rotated) 
 
 <br /> <br />
 

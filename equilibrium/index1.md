@@ -17,7 +17,7 @@
 
 <br>
 
-### **1** Some chapter here
+### 1. Some chapter here
 
 <div class="grid" style="--cols: 1fr 1fr 1fr; --gap: var(--base);">
 <div v-for="(s,i) in 6" :key="i">
@@ -30,7 +30,7 @@
 
 <br />
 
-### **2** Some chapter here
+### 2. Some chapter here
 
 <div class="grid" style="--cols: 1fr 1fr 1fr; --gap: var(--base);">
 <div v-for="(s,i) in 6" :key="i">
