@@ -149,15 +149,9 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
 
 -
 
-<f-artboard grid step="50" download responsive class="r">
-  <f-group v-for="y in range(0,5)">
-    <f-group
-      v-for="x in range(0,5)"
-      :position="[x * get('px',100),y * get('py',100)]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
-    >
+<f-artboard grid step="50" responsive class="r">
+  <f-group v-for="s in range(0.5,10,1)" :scale="scale(s,0.5,10,0.5,get('ps',1))" style="transform-origin: 300px 300px">
+    <f-group :position="[300 - 50, 300 - 50]">
       <f-target />
     </f-group>
   </f-group>
@@ -171,13 +165,7 @@ When <var>translation</var> is applied repeatedly, we willl see the visual patte
 
 Here is the simple grid repetition on x and y axis that gives us a regular pattern.
 
-##### Repetition step in x-axis `{{ get('px',100) }}`
-
-<f-slider set="px" step="1" value="100" from="0" to="500" />
-
-##### Repetition step in y-axis `{{ get('py',100) }}`
-
-<f-slider set="py" step="1" value="100" from="0" to="500" />
+<f-slider title="scale" set="ps" value="1" from="1" to="20" />
 
 ---
 
