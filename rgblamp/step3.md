@@ -1,7 +1,7 @@
 | section: step3
 | 1 1 2
 
-### **3** Detailed Design
+### 3. Detailed Design
 
 # Where are we?
 
@@ -23,7 +23,7 @@ read more (www.sciencebuddies.org)</a>
 
 ---
 
-### **3** Detailed Design
+### 3. Detailed Design
 
 # How is color produced in devices?
 
@@ -51,7 +51,7 @@ The name of the model comes from the initials of the three additive primary colo
 
 ***KJ: I need a grappa***
 
-### **3** Detailed Design
+### 3. Detailed Design
 
 # How many bits are needed to represent your bit depth?
 
@@ -83,7 +83,7 @@ Bits|Colors|Description
 
 ---
 
-### **3** Detailed Design
+### 3. Detailed Design
 
 # RGB Colors
 
@@ -102,7 +102,7 @@ Bits|Colors|Description
 
 ---
 
-### **3** Detailed Design
+### 3. Detailed Design
 
 #   Dynamic RGB Colors 
 <mark style="background:blue; color: white">Think</mark> how you can describe the changing of the lamp colors?
@@ -120,7 +120,7 @@ Bits|Colors|Description
 
 ---
 
-### **3** Detailed Design
+### 3. Detailed Design
 
 # Assignment: Engineering your own RGB Lamp
 
@@ -147,7 +147,7 @@ Grab a piece of paper and write a high-level description of how the values of th
 
 ---
 
-### **3** Detailed Design
+### 3. Detailed Design
 
 #  Assignment: Engineering your own RGB Lamp
 
