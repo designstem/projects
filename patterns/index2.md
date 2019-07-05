@@ -6,6 +6,87 @@ transformation is a specific set of rules that convert one geometric figure into
 
 We can also combine multiple types of transformation to create more complex ones – for example, a translation followed by a rotation.
 
+---
+
+| background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+
+| 1 1 1 1
+| 2 3 4 5
+
+| rows: auto 1fr
+
+<f-inline style="--inline-justify: space-between">
+
+# Combined transformations
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+<!-- Commenting out the sliders -->
+
+<div style="display: none">
+  <f-slider title="rotation" set="r"  />
+  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+  <f-source />
+</div>
+
+A true power of transformations will come out when they are combined, this means <var class="gray">translation</var>, <var class="gray">scaling</var> and <var class="gray">rotation</var> are applied all to the same shape, creating <var>affine transformation</var>.
+
+
+> Adjust all the transformations on the shapes to see the *combined* effect.
+
+-
+
+#### Translation
+
+##### x-axis `{{ get('c_x2',0.75) }}`
+
+<f-slider set="c_x2" value="0.75" from="0" to="4" />
+
+##### y-axis `{{ get('c_y2',0.75) }}`
+
+<f-slider set="c_y2" value="0.75" from="0" to="4" />
+
+#### Scaling
+
+##### Element scaling `{{ get('c_s1', 1) }} ×`
+
+<f-slider set="c_s1" value="1" from="-0.1" to="5" />
+
+#### Rotation
+
+##### Element rotation `{{ get('c_r1', 1) }} ×`
+
+<f-slider set="c_r1" />
+
+-
+
+<f-scene class="r" v-slot="{ svgscale }" responsive download>
+  <f-group v-for="y in range(-2,2)">
+    <f-group
+      v-for="x in range(-2,2)"
+      :position="[x * get('c_x2',0.75),y * get('c_y2',0.75)]"
+      :scale="get('c_s1',1)"
+      :rotation="get('c_r1',0)"
+    >
+      <f-group :scale="svgscale">
+        <f-target :mode="['normal','multiply','difference'][get('c_m',1)]" transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
+    </f-group>
+  </f-group>
+</f-scene>
+
+-
+
+#### Bring in the design!
+
+To get more creative you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
+
+<f-buttons :value="get('c_m',1)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
 
 ---
 
@@ -91,7 +172,7 @@ Here is the simple grid repetition on x and y axis.
 
 <f-slider set="t_x2" from="0" to="0.75" />
 
-##### Repetition in y-axis `{{ get('t_x2',0) }}`
+##### Repetition in y-axis `{{ get('t_y2',0) }}`
 
 <f-slider set="t_y2" value="0" from="0" to="0.75" />
 
@@ -127,34 +208,34 @@ Here is the simple grid repetition on x and y axis.
 
 A <var>scaling</var> is a transformation that resizes a shape.
 
-Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> that generate <var>congurate</var> shapes, scaling generates <var>similar</var> shapes.
+Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> that generate <var class="gray">congurate</var> shapes, scaling generates <var>similar</var> shapes.
 
 -
 
-<f-artboard grid step="100" responsive class="r">
-    <f-group :scale="2" style="transform-origin: 300px 300px" :position="[600-100,600-100]">
-      <f-target />
-    </f-group>
-  <f-group opacity="0.5" :scale="get('ts',1) * 2" style="transform-origin: 300px 300px">
-    <f-group :position="[300 - 50, 300 - 50]">
-      <f-target />
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-group :scale="svgscale">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  <f-group opacity="0.5" :scale="get('s_s1', 2)">
+    <f-group :scale="svgscale">
+      <f-target transform="translate(-50, 50) scale(1,-1)" />
     </f-group>
   </f-group>
-</f-artboard>
+</f-scene>
 
-##### Scaling factor `{{ get('ts',0.5) }} ×` 
+##### Scaling factor `{{ get('s_s1',2) }} ×` 
 
-<f-slider set="ts" value="2" from="0.1" to="10" />
+<f-slider set="s_s1" value="2" step="0.1" from="0" to="25" />
 
 -
 
-<f-artboard grid step="50" responsive class="r" download>
-  <f-group v-for="s in range(0.5,10,1)" :scale="scale(s,0.5,10,0.5,get('ps',1))" style="transform-origin: 300px 300px">
-    <f-group :position="[300 - 50, 300 - 50]">
-      <f-target />
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-group v-for="s in range(0.5,10,1)" :scale="scale(s,0.5,10,0.5,get('s_s2',1))">
+    <f-group :scale="svgscale">
+      <f-target transform="translate(-50, 50) scale(1,-1)" />
     </f-group>
   </f-group>
-</f-artboard>
+</f-scene>
 
 -
 
@@ -162,9 +243,9 @@ Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> 
 
 When <var>scaling</var> is repeated we will multiple shapes in incrementally bigger sizes.
 
-##### Maximum scaling factor `{{ get('ps',1) }} ×`
+##### Maximum scaling factor `{{ get('s_s2',1) }} ×`
 
-<f-slider set="ps" value="1" from="1" to="20" />
+<f-slider set="s_s2" value="1" from="1" to="25" />
 
 ---
 
@@ -205,9 +286,9 @@ A <var>rotation</var> is a transformation is a transformation that turns a shape
   <f-group :scale="svgscale">
     <f-target transform="translate(-50, 50) scale(1,-1)" />
   </f-group>
-  <f-group :position="[-get('r_x1',1),-get('r_y1',1)]">
+  <f-group opacity="0.75" :position="[-get('r_x1',1),-get('r_y1',1)]">
     <f-polargrid count="8" />
-    <f-group opacity="0.5" :rotation="get('r_r1',45)">
+    <f-group :rotation="get('r_r1',45)">
       <f-group :scale="svgscale" :position="[get('r_x1',1),get('r_y1',1)]">
         <f-target transform="translate(-50, 50) scale(1,-1)" />
       </f-group>

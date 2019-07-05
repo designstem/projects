@@ -54,6 +54,16 @@ const FPolargrid = {
 
 const FTarget = {
   methods: { get },
+  props: { mode: { default: 'multiply' }},
+  template: `
+  <f-group :style="{mixBlendMode: mode}">
+    <f-letter />
+  </f-group>
+  `
+};
+
+const FTarget2 = {
+  methods: { get },
   template: `
   <f-group style="mix-blend-mode: multiply;">
   <!--f-line
@@ -69,6 +79,7 @@ const FTarget = {
   </f-group>
   `
 };
+
 fachwerk({
   src: "./index2.md",
   components: { FLetter, FSource, FTarget, FPolargrid },
