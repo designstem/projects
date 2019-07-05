@@ -70,38 +70,40 @@ Translating repeatedly gives a regular pattern
 
 #### Single translation
 
-A <var>translation</var> is a one of the <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
+A <var>translation</var> is a <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
 
-In the coordinate plane, we can specify a translation by how far the shape is moved along the x-axis and the y-axis
+In the coordinate plane, we can specify a translation by how far the shape is moved along the **x-axis** and the **y-axis**
 
 -
 
 <f-artboard grid step="100" responsive class="r">
+  <f-group scale="2" style="transform-origin: 300px 300px">
   <f-group :position="[300-50,300-50]">
     <f-target />
   </f-group>
-  <f-group opacity="0.5" :position="[get('tx',300)-50,get('ty',300)-50]">
+  <f-group opacity="0.5" :position="[get('tx',300)-50-150,get('ty',300)-50-150]">
     <f-target />
   </f-group>
   <f-line
     :x1="300"
     :y1="300"
-    :x2="get('tx',300)"
-    :y2="get('ty',300)"
+    :x2="get('tx',300) - 150"
+    :y2="get('ty',300) - 150"
   />
+  </f-group>
 </f-artboard>
 
-##### <var class="blue">x</var> axis translation `{{ get('tx',500) - 300 }}`
+##### x-axis translation `{{ get('tx',300) - 300 - 150 }}`
 
-<f-slider set="tx" step="1" value="500" to="600" />
+<f-slider set="tx" step="1" value="500" from="300" to="600" />
 
-##### <var class="blue">y</var> axis translation `{{ get('ty',500) - 300 }}`
+##### y-axis translation `{{ get('ty',300) - 300 - 150 }}`
 
-<f-slider set="ty" step="1" value="500" to="600" />
+<f-slider set="ty" step="1" value="500" from="300" to="600" />
 
 -
 
-<f-artboard grid step="100" download responsive class="r">
+<f-artboard grid step="50" download responsive class="r">
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
@@ -117,85 +119,11 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
 
 -
 
-#### Multiple translations
+#### Repeated translations
 
 When <var>translation</var> is applied repeatedly well see the patterns emerge.
 
 Here is the simple grid repetition.
-
-
----
-
-| background: lightergray
-
-| 1 1 1 1 1 1 1 1 1 1
-| 2 2 3 3 4 4 5 5 5 5
-
-| rows: auto 1fr
-
-<f-inline style="--inline-justify: space-between">
-
-# Translation
-
-<f-next-button />
-
-</f-inline>
-
--
-
-A <var>translation</var> is a one of the <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
-
-##### <var class="blue">x</var> translation `{{ get('tx',500) - 300 }}`
-
-<f-slider set="tx" step="1" value="500" to="600" />
-
-##### <var class="blue">y</var> translation `{{ get('ty',500) - 300 }}`
-
-<f-slider set="ty" step="1" value="500" to="600" />
-
-You can also adjust the shape of the figure:
-
-<f-source />
-
-
--
-
-<f-artboard grid step="100" responsive class="r">
-  <f-group :position="[300-50,300-50]">
-    <f-target />
-  </f-group>
-  <f-group opacity="0.5" :position="[get('tx',300)-50,get('ty',300)-50]">
-    <f-target />
-  </f-group>
-  <f-line
-    :x1="300"
-    :y1="300"
-    :x2="get('tx',300)"
-    :y2="get('ty',300)"
-  />
-</f-artboard>
-
--
-
-When <var>translation</var> is applied repeatedly well see the patterns emerge.
-
-Here is the simple grid repetition.
-
--
-
-<f-artboard grid step="50" download responsive class="r">
-  <f-group v-for="y in range(0,5)">
-    <f-group
-      v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
-      :rotation="get('r',0)"
-      :scale="get('s',0)"
-      style="transform-origin: 50px 50px"
-    >
-      <f-box r="100" />
-    </f-group>
-  </f-group>
-</f-artboard>
 
 ---
 
