@@ -1144,9 +1144,9 @@
 ~We're almost done, but ther's **one more problem** &ndash; which is...~
 # Material thickness
 
-~If we'd made a nesting box from paper or some other material that has no (or almost almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
-
 -
+
+~If we'd made a nesting box from paper or some other material that has no (or almost almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
 
 <blockquote>
 
@@ -1155,6 +1155,17 @@
  ## ***The pyramid***
 
 </blockquote>
+
+-
+
+<f-scene class="fullWidthScene" dots>
+  <f-box width="1" height="4" position="-1 0.5" />
+  <f-box width="4" height="1" position="0.5 -1" />
+  <f-line points="-1.5 -1.5, -0.5 -0.5" />
+</f-scene>
+
+
+---
 
 
 <!-- ~Once you start to build your nesting box, you may face another problem. Since material has some thickness, you have to cut the edges at a certain angle, in order to fit the sides of a polygons together.~ -->
@@ -1167,7 +1178,7 @@
 
 -
 
-<f-scene3 class="fullWidthScene" isometric style="position:sticky; top:25vh;" >
+<f-scene3 class="fullWidthScene" isometric style="position:sticky; top:20vh;" >
     <!-- <f-rotation3> -->
     <!-- <f-group3 :rotation=" '0 ' + get('cubeRot', 0) + ' 0' "> -->
     <f-group3 :rotation=" '30 ' + get('pyraRot', 0) + ' 0' " scale="0.8">
