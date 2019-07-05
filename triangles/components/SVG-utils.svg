@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  
+<defs>
+    <!-- arrowhead marker definition -->
+    <marker id="arrowhead" viewBox="-0.5 -0.5 1 1" refX="5" refY="5"
+        markerWidth="6" markerHeight="6"
+        orient="auto-start-reverse">
+      <circle r="0.1" fill="red" />
+    </marker>
+
+    <!-- simple dot marker definition -->
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5"
+        markerWidth="5" markerHeight="5">
+      <circle cx="5" cy="5" r="5" fill="red" />
+    </marker>
+
+    <marker id="blau" markerWidth="4" markerHeight="4" refX="2" refY="2">
+        <circle cx="2" cy="2" r="2" stroke="none" fill="#00f"/>
+    </marker>
+  </defs>
+
+  <symbol id="arrowhead" viewBox="-0.5 -0.5 1 1">
+    <title>Arrrowhead</title>
+    <circle r="0.1" fill="red" />
+  </symbol>
+
+  <marker id="arrowhead" viewBox="-0.5 -0.5 1 1" refX="5" refY="5"
+        markerWidth="6" markerHeight="6"
+        orient="auto-start-reverse">
+      <circle r="0.1" fill="red" />
+    </marker>
+
+    <marker id="circle" markerWidth="4" markerHeight="4" refX="2" refY="2">
+        <circle cx="2" cy="2" r="2" stroke="none" fill="#00f"/>
+    </marker>
+
+</svg>

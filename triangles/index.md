@@ -58,7 +58,7 @@
 
 
 | 1 2
-| 3 3
+| 3 4
 
 <f-scene class="fullWidthScene" v-for="(p,i) in [ {s:6, r:1.5} ]" :key="'polygon'+i" >
     <!-- <f-group v-for="(l,j) in 2" :key="'l'+j">
@@ -205,6 +205,39 @@
 </f-scene3>
 
 <f-slider set="pyraOffset" v-on:value=" v => { set('updateMe', v) }" to="1" step="0.01" />
+
+-
+
+## H'r
+
+<!-- <f-scene>
+  <defs>
+    <marker id="arrowhead" viewBox="-0.5 -0.5 1 1" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <circle r="1" fill="red" />
+    </marker>
+  </defs>
+
+  <f-box r="4" />
+
+  <polyline points="0,0 0,1.5 1.5,1.5 1.5,-0.5 -0.5,-0.5 -0.5,-1 0,-1" fill="none" stroke="#000" stroke-width="0.1" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)" marker-mid="url(#arrowhead)" />
+
+  <use xlink:href="./components/SVG-utils.svg#arrowhead" />
+</f-scene> -->
+
+
+<f-scene grid responsive>
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" :fill="color('red')" />
+    </marker>
+    <marker id="circle" markerWidth="6" markerHeight="6" refX="3" refY="3" markerUnits="strokeWidth">
+      <circle cx="3" cy="3" r="3" stroke="none" :fill="color('red')" />
+    </marker>
+  </defs>
+  <f-line points="0 0, 0 1.5, -1 0.5, 0 -1.5, 1 0, 1 0.5" marker-end="url(#arrow)" marker-start="url(#circle)" marker-mid="url(#circle)" />
+</f-scene>
+
+
 
 ---
 
@@ -380,27 +413,27 @@
 
 -
 
-## **1**
+## 1.
 ~Find a bird for which to build a nesting box.~
 
 -
 
-## **2**
+## 2.
 ~Sketch your ideas.~
 
 -
 
-## **3**
+## 3.
 ~Create prototype of nesting box using cardboard or paper.~
 
 -
 
-## **4**
+## 4.
 ~Make and note all the calculations needed for building the nesting box.~
 
 -
 
-## **5**
+## 5.
 ~Build the nesting box from wood or similar materials.~
 
 -
@@ -462,13 +495,13 @@
 
 -
 
-# **1**
+# 1.
 
 ~**simplify the polyhedral object** into more basic geometrical objects, such as **polygons**, **triangles** and **pyramids**~
 
 -
 
-# **2**
+# 2.
 
 ~**use geometry** to calculate correct **dimensions and angles** of these “building blocks”~
 
@@ -499,11 +532,11 @@
 -
 
 <f-scene3 isometric class="fullWidthScene crisp" static>
-  <f-polyhedron3 hedron="Cube" rotation="15 10 0" position="-0.7 0.7 -1" scale="1" :fill="color('yellow')" :shading="false" />
-  <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" position="1 1 0" scale="0.8" :fill="color('blue')" :shading="false" />
-  <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="0.8" :fill="color('green')" :shading="false" />
-  <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" position="1 -1 1" scale="1" :fill="color('yellow')" :shading="false" />
-  <f-polyhedron3 hedron="Tetrahedron" rotation="0 10 20" position="-1 -0.8 1" scale="1.2" :fill="color('orange')" :shading="false" />
+  <f-polyhedron3 hedron="Cube" rotation="15 10 0" position="-0.7 0.7 -1" scale="1" :fill="color('yellow')" :shading="true" />
+  <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" position="1 1 0" scale="0.8" :fill="color('blue')" :shading="true" />
+  <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="0.8" :fill="color('green')" :shading="true" />
+  <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" position="1 -1 1" scale="1" :fill="color('yellow')" :shading="true" />
+  <f-polyhedron3 hedron="Tetrahedron" rotation="0 10 20" position="-1 -0.8 1" scale="1.2" :fill="color('orange')" :shading="true" />
   
 </f-scene3>
 
@@ -680,7 +713,7 @@
 ~What defines a triangle and what kind of different triangles we know~
 
 <f-sidebar src="math-triangle-types.md" title="Triangle types" width="60vw" overlay> 
-  <a slot="button" class="tertiary" style="padding:var(--base)">Triangle types <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Triangle types <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 -
@@ -691,7 +724,7 @@
 
 
 <f-sidebar src="math-triangle-calculations.md" title="Geometry of triangles" width="60vw" overlay>
-  <a slot="button" class="tertiary" style="padding:var(--base)">Geometry of triangles <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Geometry of triangles <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 
@@ -703,7 +736,7 @@
 ~Calculations based on trigonometric functions~
 
 <f-sidebar src="math-triangle-trigonometry.md" title="Trigonometry" width="60vw" overlay>
-  <a slot="button" class="tertiary" style="padding:var(--base)">Trigonometry <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Trigonometry <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 -
@@ -853,7 +886,7 @@
 ### Here is how:
 
 <f-sidebar src="math-polygon.md" title="How to solve polygons" width="60vw" overlay>
-  <a slot="button" class="tertiary" style="padding:var(--base)">Polygons and how to solve them <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Polygons and how to solve them <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 ## &nbsp;
@@ -889,6 +922,7 @@
 | height: 100vh
 | padding: 10vmin
 | rows: auto
+| theme: blue
 | 1
 | 2
 | 3
@@ -960,7 +994,7 @@
 -
 
 <f-sidebar src="math-polyhedra.md" title="Polyhedra" width="60vw" overlay>
-  <a slot="button" class="tertiary" style="padding:var(--base)">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 -
@@ -986,8 +1020,7 @@
 
 ~Look at these polyhedra and try to find out, **how would you simplify them** to calculate angles and distances?~
 
-<f-rightarrow-icon /> 
-*Click on a polyhedron to get the answer*
+<small><f-rightarrow-icon /> *Click on a polyhedron to get the answer*</small>
 
 -
 
@@ -1002,7 +1035,7 @@
 
 - -->
 
-<f-scene3 isometric static :key="get('ph1Static', true)" class="fullWidthScene crisp" v-on:mousedown.native="()=>{set('ph1Static', false); set('ph1', true);}" v-on:mouseup.native="()=>{set('ph1Static', true); set('ph1', false);}">
+<f-scene3 isometric static responsive :key="get('ph1Static', true)" class="crisp" v-on:mousedown.native="()=>{set('ph1Static', false); set('ph1', true);}" v-on:mouseup.native="()=>{set('ph1Static', true); set('ph1', false);}" >
     <f-group3 :rotation=" '0 20 0' " scale="1.3">
       <f-group3 rotation="0 -20 -90" position="0 0 0" >
         <f-regularpolygon3 :count="3" position="0 0 1.1" :fill="color('yellow')" :shading="false" :strokeWidth="3"  opacity="1" :r="0.75" v-if="get('ph1')" />
@@ -1013,7 +1046,7 @@
 
 -
 
-<f-scene3 isometric static :key="get('ph2Static', true)" class="fullWidthScene crisp" v-on:mousedown.native="()=>{set('ph2Static', false); set('ph2', true); }" v-on:mouseup.native="()=>{set('ph2Static', true); set('ph2', false);}">
+<f-scene3 isometric static :key="get('ph2Static', true)" class="crisp" responsive v-on:mousedown.native="()=>{set('ph2Static', false); set('ph2', true); }" v-on:mouseup.native="()=>{set('ph2Static', true); set('ph2', false);}">
   <f-group3 :rotation=" ' 60 0 0' " scale="1.3">
     <f-group3 rotation="-58 0 0" position="0 0 0" >
       <f-regularpolygon3 :count="5" position="0 0 1.2" :fill="color('yellow')" :shading="false" :strokeWidth="3"  opacity="1" :r="0.76" v-if="get('ph2')" />
@@ -1054,35 +1087,35 @@
 
 -
 
-~You saw, that the **sides of a polyhedron are made of polygons**.~ 
+~We know now, that the **sides of a polyhedron are made of polygons**.~ 
 
 
 &nbsp;
 
-~The first one, *Icosahedron*, had sides that were already **triangles**, so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" width="60vw" /> we  know.~ 
+~The first one, *Icosahedron*, had **triangular** faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" width="60vw" />, to make the calculations.~ 
 
 ~The second one, *Dodecahedron*, was a bit more complicated, because its sides are **polygons** *(pentagons)*, so you need an **extra step**:~
 
 1. ~first: **find polygons**, and~ 
 2. ~then: **divide polygons to triangles**~
 
-~But this extra step is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" width="60vw" />.~ 
+~But, of course, this extra step is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" width="60vw" />.~ 
 
 -
 
-<f-scene3 isometric static :key="get('ph2Focus')" class="fullWidthScene crisp" v-on:mousedown.native="()=>{set('ph2Focus', false); }" v-on:mouseup.native="()=>{set('ph2Focus', true);}">
+<f-scene3 isometric static :key="get('ph2Focus')" responsive v-on:mousedown.native="()=>{set('ph2Focus', false); }" v-on:mouseup.native="()=>{set('ph2Focus', true);}">
   <f-group3 :rotation=" '60 0 0' " scale="1.3">
     <f-group3 rotation="-58 0 0" position="0 0 0" >
-      <f-regularpolygon3 :count="5" position="0 0 1.2" :fill="color('blue')" :shading="false" :strokeWidth="3"  opacity="0.8" :r="0.76" />
+      <f-regularpolygon3 :count="5" position="0 0 1.2" :fill="color('yellow')" :shading="false" :strokeWidth="3"  opacity="0.8" :r="get('ph2Focus', true) ? 0.76 : 0.82" />
     </f-group3>
     <f-group3 rotation="-58 0 -144" :position="get('ph2Focus', true) ? '0 0 0' : '0 0 0.1'" >
-      <f-regularpolygon3 :count="3" position="0 0.45 1.4" :fill="color('yellow')" :shading="false" :strokeWidth="3"  opacity="1" :r="0.5" scale="1 0.7 1" />
+      <f-regularpolygon3 :count="3" position="0 0.45 1.4" :fill="color('yellow')" :shading="false" :strokeWidth="3"  opacity="1" :r="get('ph2Focus', true) ? 0.5 : 0.6" scale="1 0.7 1" />
     </f-group3>
     <!-- triangle -->
     <!-- <f-group3 rotation="-90 0 0" position="0 0 0" >
       <f-polygon3 :points=" '0,0 ' + polarx(-36/5, 1) + ',' + polary(-36, 1) + ' ' + polarx(36, 1) + ',' + polary(36,1)  " position="0 -1 1.4" :fill="color('yellow')" :strokeWidth="0"  />
     </f-group3> -->
-    <f-polyhedron3 hedron="Dodecahedron"  opacity="0.2" :r="1.258" />
+    <f-polyhedron3 hedron="Dodecahedron"  :opacity="get('ph2Focus', true) ? 1 : 0.2" :r="1.258" />
   </f-group3>
 </f-scene3>
 
@@ -1097,36 +1130,131 @@
 
 
 
-| padding: 10vh 10vw
-
-# Simplification of polyhedron: step 2
-
-You can see, that the sides of a polyhedron are polygons, that are made of triangles. 
-
----
 
 
 
 
 
-| padding: 10vh 10vw
-
-# Simplification of polyhedron: example
-
-Instead of piramides you could simplify by cutting a piece that’s easier to work with.
-
----
+| padding: 10vmin
+| rows: auto
+| 1 1
+| 2 3
 
 
+~We're almost done, but ther's **one more problem** &ndash; which is...~
+# Material thickness
+
+~If we'd made a nesting box from paper or some other material that has no (or almost almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
+
+-
+
+<blockquote>
+
+ ~***We have to cut the edges of a polyhedron sides at certain angle***, so that they could fit together. This is where a new object comes to the picture:~
+
+ ## ***The pyramid***
+
+</blockquote>
+
+
+<!-- ~Once you start to build your nesting box, you may face another problem. Since material has some thickness, you have to cut the edges at a certain angle, in order to fit the sides of a polygons together.~ -->
+
+~Look at this example. Let's use a cube, because this is maybe the most familiar polyhedron and easiest to understand.~
+
+
+<f-slider set="pyraRot" v-on:value=" v => { set('updateMe', v) }" to="180" step="0.1" title="Rotate cube" value="30" />
+<f-slider set="pyraOffset" v-on:value=" v => { set('updateMe', v) }" to="1" step="0.01" title="Open the cube" />
+
+-
+
+<f-scene3 class="fullWidthScene" isometric style="position:sticky; top:25vh;" >
+    <!-- <f-rotation3> -->
+    <!-- <f-group3 :rotation=" '0 ' + get('cubeRot', 0) + ' 0' "> -->
+    <f-group3 :rotation=" '30 ' + get('pyraRot', 0) + ' 0' " scale="0.8">
+    <!-- <f-polyhedron3 hedron="Cube" :r="1" wireframe :scale="2" opacity="0" :fill="color('yellow')" :shading="true"  /> -->
+      <!-- first pair  -->
+      <f-group3>
+        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1" 
+              :r="1.4142"
+              :strokeWidth="0"
+              :fill="color('blue')"
+              :shading="false"
+            />
+        </f-group3>
+        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1"
+              :r="1.4142" 
+              :strokeWidth="0"
+              :fill="color('blue')"
+              :shading="false"
+            />
+        </f-group3>
+      </f-group3>
+      <!-- second pair  -->
+      <f-group3 rotation="90 0 0">
+        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1" 
+              :r="1.4142"
+              :strokeWidth="0"
+              :fill="color('green')"
+              :shading="false"
+            />
+        </f-group3>
+        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1"
+              :r="1.4142" 
+              :strokeWidth="0"
+              :fill="color('green')"
+              :shading="false"
+            />
+        </f-group3>
+      </f-group3>
+       <!-- third pair  -->
+      <f-group3 rotation="0 90 0">
+        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1" 
+              :r="1.4142"
+              :strokeWidth="0"
+              :fill="color('yellow')"
+              :opacity="1"
+              :shading="false"
+            />
+        </f-group3>
+        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
+          <f-hedron3 
+              :count="4" 
+              :height="1" 
+              position="0 0 -1"
+              :r="1.4142" 
+              :strokeWidth="0"
+              :fill="color('yellow')"
+              :opacity="1"
+              :shading="false"
+            />
+        </f-group3>
+      </f-group3>
+    </f-group3>
+  <!-- </f-rotation3> -->
+</f-scene3>
 
 
 
-
-| padding: 10vh 10vw
-
-# One more problem… material thickness
-
-Once you start to build your nesting box, you may face another problem. Since material has some thickness, you have to cut the edges at a certain angle, in order to fit the sides of a polygons together.
 
 ---
 
