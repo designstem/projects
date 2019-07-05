@@ -9,7 +9,6 @@ We can also combine multiple types of transformation to create more complex ones
 
 ---
 
-
 | background: lightergray
 
 # Position
@@ -72,7 +71,7 @@ Translating repeatedly gives a regular pattern
 
 A <var>translation</var> is a <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
 
-In the coordinate plane, we can specify a translation by how far the shape is moved along the **x-axis** and the **y-axis**
+In the coordinate plane, we can specify a translation by how far the shape is moved along the **x-axis** and the **y-axis**. 
 
 -
 
@@ -107,7 +106,7 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
+      :position="[x * get('px',100),y * get('py',100)]"
       :rotation="get('r')"
       :scale="get('s')"
       style="transform-origin: 50px 50px"
@@ -119,11 +118,19 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
 
 -
 
-#### Repeated translations
+#### Repeated translation
 
-When <var>translation</var> is applied repeatedly well see the patterns emerge.
+When <var>translation</var> is applied repeatedly, we willl see the visual patterns emerge.
 
-Here is the simple grid repetition.
+Here is the simple grid repetition on x and y axis.
+
+##### Repetition step in x-axis `{{ get('px',100) }}`
+
+<f-slider set="px" step="1" value="100" from="0" to="500" />
+
+##### Repetition step in y-axis `{{ get('py',100) }}`
+
+<f-slider set="py" step="1" value="100" from="0" to="500" />
 
 ---
 
