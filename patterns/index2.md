@@ -1,119 +1,3 @@
-# A transformation
-
-A transformation converts one geometric shape into another. There are many different types of transformations, like reflections or dilations.
-
-transformation is a specific set of rules that convert one geometric figure into another one. Here are a few examples:
-
-We can also combine multiple types of transformation to create more complex ones – for example, a translation followed by a rotation.
-
----
-
-| background: lightergray
-| cols: 2fr 2fr 4fr 2fr
-
-| 1 1 1 1
-| 2 3 4 5
-
-| rows: auto 1fr
-
-<f-inline style="--inline-justify: space-between">
-
-# Combined transformations
-
-<f-next-button />
-
-</f-inline>
-
--
-
-<!-- Commenting out the sliders -->
-
-<div style="display: none">
-  <f-slider title="rotation" set="r"  />
-  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
-  <f-source />
-</div>
-
-A true power of transformations will come out when they are combined, this means <var class="gray">translation</var>, <var class="gray">scaling</var> and <var class="gray">rotation</var> are applied all to the same shape, creating <var>affine transformation</var>.
-
-
-> Adjust all the transformations on the shapes to see the *combined* effect.
-
--
-
-#### Translation
-
-##### x and y axis `{{ get('c_x1',0.75) }}`
-
-<f-slider set="c_x1" value="0.75" from="0" to="4" />
-
-#### Scaling
-
-##### Element scaling `{{ get('c_s1', 1) }} ×`
-
-<f-slider set="c_s1" value="1" from="-0.1" to="5" />
-
-#### Rotation
-
-##### Element rotation `{{ get('c_r1', 1) }} ×`
-
-<f-slider set="c_r1" />
-
--
-
-<f-scene v-if="get('c_p',0) == 1" step="1" class="r" v-slot="{ svgscale }" responsive>
-    <f-group
-      v-for="a in range(0,360,360 / get('c_c',16)).slice(0, get('c_c',16))"
-      :rotation="a"
-    >
-      <f-line
-        :x2="3"
-        stroke-width="1"
-        opacity="0.1"
-      />
-      <f-group
-        :position="[0,1]"
-        :scale="get('c_s1',1)"
-        :rotation="get('c_r1',0)"
-      >
-      <f-group :scale="svgscale">
-        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
-      </f-group>
-      </f-group>
-    </f-group>
-</f-scene>
-
-<f-scene v-else class="r" v-slot="{ svgscale }" responsive download>
-  <f-group v-for="y in range(-2,2)">
-    <f-group
-      v-for="x in range(-2,2)"
-      :position="[x * get('c_x1',0.75),y * get('c_x1',0.75)]"
-      :scale="get('c_s1',1)"
-      :rotation="get('c_r1',0)"
-    >
-      <f-group :scale="svgscale">
-        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
-      </f-group>
-    </f-group>
-  </f-group>
-</f-scene>
-
--
-
-#### Choose pattern
-
-<f-buttons :value="get('c_p',0)" v-on:value="v => set('c_p',v)" :buttons="['Grid pattern','Circle pattern']"  />
-
-Choose between <var>translational</var> and <var>rotational</var> <var class="gray">symmetry</var>. 
-
-#### Bring in creativity
-
-To get more creative you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
-
-<f-buttons :value="get('c_m',0)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
-
----
-
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
 
@@ -271,7 +155,17 @@ When <var>scaling</var> is repeated we will multiple shapes in incrementally big
 
 <f-slider set="s_s2" value="1" from="1" to="25" />
 
+
+
+
+
+
 ---
+
+
+
+
+
 
 
 | background: lightergray
@@ -327,11 +221,11 @@ A <var>rotation</var> is a transformation is a transformation that turns a shape
 
 ##### X of center `{{ get('r_x1',1) }}`
 
-<f-slider set="r_x1" to="2" />
+<f-slider set="r_x1" value="1" to="2" />
 
 ##### X of center `{{ get('r_y1',1) }}`
 
-<f-slider set="r_y1" to="2" />
+<f-slider set="r_y1" value="1" to="2" />
 
 -
 
@@ -363,94 +257,136 @@ By applying rotation to an element multiple times we can create a circular set o
 
 <f-slider set="r_c" value="1" from="1" to="72" integer />
 
+
+
 ---
 
+
+
 | background: lightergray
+| cols: 2fr 2fr 4fr 2fr
 
-<mark>Rotation</mark>
+| 1 1 1 1
+| 2 3 4 5
 
-## Rotation around an internal point
+| rows: auto 1fr
 
-Change image content orientation
+<f-inline style="--inline-justify: space-between">
 
-<f-source />
+# Combined transformations
 
-<f-slider title="rotation" set="r"/>
+<f-next-button />
 
-Rotating repeatedly gives a completely different pattern
+</f-inline>
 
 -
 
-<f-artboard grid step="100" download responsive>
-  <f-group v-for="y in range(0,5)">
+<!-- Commenting out the sliders -->
+
+<div style="display: none">
+  <f-slider title="rotation" set="r"  />
+  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+  <f-source />
+</div>
+
+A true power of transformations will come out when they are combined, this means <var class="gray">translation</var>, <var class="gray">scaling</var> and <var class="gray">rotation</var> are applied all to the same shape, creating <var>affine transformation</var>.
+
+
+> Adjust all the transformations on the shapes to see the *combined* effect.
+
+-
+
+#### Translation
+
+##### x and y axis `{{ get('c_x1',0.75) }}`
+
+<f-slider set="c_x1" value="0.75" from="0" to="4" />
+
+#### Scaling
+
+##### Element scaling `{{ get('c_s1', 1.5) }} ×`
+
+<f-slider set="c_s1" value="1.5" from="0.1" to="5" />
+
+#### Rotation
+
+##### Element rotation `{{ get('c_r1', 1) }} ×`
+
+<f-slider set="c_r1" />
+
+<div v-show="get('c_p',0) == 1">
+
+##### Number of rotations `{{ get('c_c',6) }}`
+
+<f-slider set="c_c" value="6" from="1" to="36" integer />
+
+</div>
+
+-
+
+<f-scene v-if="get('c_p',0) == 1" step="1" class="r" v-slot="{ svgscale }" responsive download>
     <f-group
-      v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
+      v-for="a in range(0,360,360 / get('c_c',6)).slice(0, get('c_c',6))"
+      :rotation="a"
     >
-      <f-target />
+      <f-line
+        :x2="3"
+        stroke-width="1"
+        opacity="0.1"
+      />
+      <f-group
+        :position="[get('c_x1',0.75),0]"
+        :scale="get('c_s1',1.5)"
+        :rotation="get('c_r1',0)"
+      >
+      <f-group :scale="svgscale">
+        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
+      </f-group>
+    </f-group>
+</f-scene>
+
+<f-scene v-else class="r" v-slot="{ svgscale }" responsive download>
+  <f-group v-for="y in range(-2,2)">
+    <f-group
+      v-for="x in range(-2,2)"
+      :position="[x * get('c_x1',0.75),y * get('c_x1',0.75)]"
+      :scale="get('c_s1',1)"
+      :rotation="get('c_r1',0)"
+    >
+      <f-group :scale="svgscale">
+        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
     </f-group>
   </f-group>
-</f-artboard>
-
----
-
-| background: lightergray
-
-<mark>Rotation</mark>
-
-## Rotation around exterior point
-
-<f-source />
-
-Change image content orientation
-
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4" />
-
-<f-slider step="1" title="count" set="cc" value="16" from="2" to="32" />
-
-<f-slider title="d" set="d" value="200" from="50" to="400" />
+</f-scene>
 
 -
 
-<f-artboard step="100" download responsive>
-  <f-box
-    position="300 300" :r="600 - 1"
-    stroke-width="1"
-    opacity="0.25"
-  />
-  <f-line
-    v-for="a in range(0,360,360 / get('cc',16))"
-    position="300 300"
-    x1="0"
-    y1="0"
-    :x2="polarx(a,500)"
-    :y2="polary(a,500)"
-    stroke-width="1"
-    opacity="0.25"
-  />
-  <f-group
-    v-for="a in range(0,360,360 / get('cc',16)).slice(0, get('cc',16))"
-    :rotation="a"
-    position="300 300"
-  >
-    <f-group
-      :position="[-50,-get('d')]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"  
-    >
-		  <f-target />
-  </f-group>
-  </f-group>
-</f-artboard>
+#### Choose pattern
+
+<f-buttons :value="get('c_p',0)" v-on:value="v => set('c_p',v)" :buttons="['Grid pattern','Circle pattern']"  />
+
+Choose between <var>translational</var> and <var>rotational</var> <var class="gray">symmetry</var>. 
+
+#### Bring in creativity
+
+To get more creative you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
+
+<f-buttons :value="get('c_m',0)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
+
+
+
+
+
+
+
+
+
+
 
 ---
+
 
 | background: lightergray
 
@@ -556,3 +492,15 @@ Change image content orientation
     </f-group3> 
   </f-group3>
 </f-scene3>
+
+---
+
+# A transformation
+
+A transformation converts one geometric shape into another. There are many different types of transformations, like reflections or dilations.
+
+transformation is a specific set of rules that convert one geometric figure into another one. Here are a few examples:
+
+We can also combine multiple types of transformation to create more complex ones – for example, a translation followed by a rotation.
+
+---
