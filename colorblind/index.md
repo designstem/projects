@@ -999,14 +999,14 @@ Link to the https://www.color-blindness.com/coblis-color-blindness-simulator/
 
 <f-inline>
 
-### **1**
+### 1.
 
 ~**provides enough visual contrast &ndash; also for people with CVD**~
 
 </f-inline>
 <f-inline>
 
-### **2**
+### 2.
 
 ~**meaning doesn't change when colour changes**~
 

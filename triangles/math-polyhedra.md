@@ -31,7 +31,7 @@
 
 ### &nbsp;
 
-#### **1** Regular tetrahedron, pyramid
+#### 1. Regular tetrahedron, pyramid
 ~4 faces, 6 edges, 4 vertices~
 
 <center>
@@ -42,7 +42,7 @@
 </center>
 
 
-#### **2** Cube
+#### 2. Cube
 ~6 faces, 12 edges, 8 vertices~
 
 <center>
@@ -52,7 +52,7 @@
 </center>
 
 
-#### **3** Octahedron
+#### 3. Octahedron
 ~8 faces, 12 edges, 6 vertices~
 
 <center>
@@ -62,7 +62,7 @@
 </center>
 
 
-#### **3** Dodecahedron
+#### 3. Dodecahedron
 ~12 faces, 30 edges, 20 vertices~
 
 <center>
@@ -72,7 +72,7 @@
 </center>
 
 
-#### **4** Icosahedron
+#### 4. Icosahedron
 ~20 faces, 30 edges, 12 vertices~
 
 <center>

@@ -1,7 +1,7 @@
 | section: step2
 | 1 1 2
 
-### **2** Design
+### 1. Design
 
 # Where are we?
 
@@ -23,7 +23,7 @@ read more (www.sciencebuddies.org)</a>
 
 ---
 
-### **2** Design
+### 1. Design
 
 # Assignment: Design your own RGB Lamp
 

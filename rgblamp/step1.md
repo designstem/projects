@@ -1,7 +1,7 @@
 | section: step1
 | 1 1 1 2 2
 
-### **1** Research
+### 1. Research
 
 # Where are we?
 
@@ -34,7 +34,7 @@ read more (www.sciencebuddies.org)</a>
 
 ***KJ: Do not see the need for this page***
 
-### **1** Research
+### 1. Research
 
 ## Real-life design object
 
@@ -60,7 +60,7 @@ Design covers:
 
 | 1 2 2
 
-### **1** Research
+### 1. Research
 
 ## Real-life design object
 
@@ -103,7 +103,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 | 6 6 6
 | rows: auto auto 1fr
 
-### **1** Research
+### 1. Research
 
 #### Different functions of colored light
 
@@ -135,7 +135,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 ---
 
-### **1** Research
+### 1. Research
 
 #### Different functions of colored light
 
@@ -164,7 +164,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 ---
 
-### **1** Research
+### 1. Research
 
 #### Different functions of colored light
 
@@ -188,7 +188,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 ---
 
 
-### **1** Research
+### 1. Research
 
 #### Different functions of colored light
 
@@ -228,7 +228,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 ---
 
-### **1** Research
+### 1. Research
 
 #### Different functions of colored light
 
@@ -257,7 +257,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 ---
 
-### **1** Research
+### 1. Research
 
 #### Different functions of colored light
 

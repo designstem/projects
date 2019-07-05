@@ -1,7 +1,7 @@
 | section: step7
 | 1 1 1 2
 
-### **7** Self-Assessment
+### 7. Self-Assessment
 
 # Homework Grading
 
@@ -29,7 +29,7 @@
 
 ***KJ: Let's think how to make the end of this long yourney more rewarding***
 
-### **7** Self-Assessment
+### 7. Self-Assessment
 
 # Great Job!
 

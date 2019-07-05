@@ -41,7 +41,7 @@ This concept is divided into three main sections:
 
 ---
 
-## **1**&nbsp;Make it stop
+## 1. Make it stop
 
 ### Adjust the wheel speed so it stops
 
@@ -106,7 +106,7 @@ This concept is divided into three main sections:
 
 ---
 
-## **2**&nbsp;Make it stop x 2
+## 2. Make it stop x 2
 
 ### Adjust the number of lines so the wheel stops
 

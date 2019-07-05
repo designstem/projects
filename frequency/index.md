@@ -923,7 +923,7 @@ Students will learn how to present frequency on a sinusoidal wave. To let them e
 
 ~After exploring spinning frequency and frame rate, let's define frequency as form of *wave*. The most common waveform might be the <a target="_blank" href="https://pudding.cool/2018/02/waveforms/">soundwave <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> but it can also represent <a href="../colorblindness">color <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a></a> or movement.~
 
-#### **1** Explore the waveform
+#### 1. Explore the waveform
 
 Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('a') / Math.PI,2) }} × π</var>
 
@@ -932,7 +932,7 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 
 <p />
 
-#### **2** Discuss
+#### 2. Discuss
 
 What are you findings regarding waves moving in different speeds, on different frequencies? How can frequency be interpreted in other visual ways?
 
