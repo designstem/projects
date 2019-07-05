@@ -39,7 +39,9 @@ We can also combine multiple types of transformation to create more complex ones
 
 A <var>translation</var> is a <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
 
-In the coordinate plane, we can specify a translation by how far the shape is moved along the **x-axis** and the **y-axis**. 
+In the 2D coordinates, we can specify a translation by how far the shape is moved along the axises.
+
+> Adjust the translation along the axises to see the effect
 
 -
 
@@ -64,19 +66,18 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
 
 -
 
-<f-artboard grid step="50" download responsive class="r">
-  <f-group v-for="y in range(0,5)">
+<f-scene class="r" v-slot="{ svgscale }" responsive download>
+  <f-group v-for="y in range(-2,2)">
     <f-group
-      v-for="x in range(0,5)"
-      :position="[x * get('px',0),y * get('py',0)]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
+      v-for="x in range(-2,2)"
+      :position="[x * get('t_x2',0),y * get('t_y2',0)]"
     >
-      <f-target />
+      <f-group :scale="svgscale">
+        <f-target transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
     </f-group>
   </f-group>
-</f-artboard>
+</f-scene>
 
 -
 
@@ -86,13 +87,13 @@ When <var>translation</var> is applied repeatedly, we willl see the visual patte
 
 Here is the simple grid repetition on x and y axis.
 
-##### Repetition in x-axis `{{ get('px',0) }}`
+##### Repetition in x-axis `{{ get('t_x2',0) }}`
 
-<f-slider set="px" step="1" value="0" from="0" to="100" />
+<f-slider set="t_x2" from="0" to="0.75" />
 
-##### Repetition in y-axis `{{ get('py',0) }}`
+##### Repetition in y-axis `{{ get('t_x2',0) }}`
 
-<f-slider set="py" step="1" value="0" from="0" to="100" />
+<f-slider set="t_y2" value="0" from="0" to="0.75" />
 
 ---
 
