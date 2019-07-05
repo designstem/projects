@@ -74,7 +74,7 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
   <f-group v-for="y in range(0,5)">
     <f-group
       v-for="x in range(0,5)"
-      :position="[x * get('px',100),y * get('py',100)]"
+      :position="[x * get('px',0),y * get('py',0)]"
       :rotation="get('r')"
       :scale="get('s')"
       style="transform-origin: 50px 50px"
@@ -92,16 +92,15 @@ When <var>translation</var> is applied repeatedly, we willl see the visual patte
 
 Here is the simple grid repetition on x and y axis.
 
-##### Repetition step in x-axis `{{ get('px',100) }}`
+##### Repetition in x-axis `{{ get('px',0) }}`
 
-<f-slider set="px" step="1" value="100" from="0" to="500" />
+<f-slider set="px" step="1" value="0" from="0" to="100" />
 
-##### Repetition step in y-axis `{{ get('py',100) }}`
+##### Repetition in y-axis `{{ get('py',0) }}`
 
-<f-slider set="py" step="1" value="100" from="0" to="500" />
+<f-slider set="py" step="1" value="0" from="0" to="100" />
 
 ---
-
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
@@ -113,7 +112,7 @@ Here is the simple grid repetition on x and y axis.
 
 <f-inline style="--inline-justify: space-between">
 
-# Translation
+# Scaling
 
 <f-next-button />
 
@@ -129,11 +128,11 @@ Here is the simple grid repetition on x and y axis.
   <f-source />
 </div>
 
-#### Single translation
+#### Single scale
 
-A <var>translation</var> is a <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
+A <var>scaling</var> is a transformation that resizes a shape.
 
-In the coordinate plane, we can specify a translation by how far the shape is moved along the **x-axis** and the **y-axis**. 
+Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> that generate <var class="gray">congurate</var> shapes, scaling generates <var>similar</var> shapes.
 
 -
 
@@ -145,7 +144,76 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
   </f-group>
 </f-artboard>
 
-<f-slider title="scale" set="ts" value="1" from="0.1" to="10" />
+##### Scaling factor `{{ get('py',100) }}` ×
+
+<f-slider set="ts" value="1" from="0.1" to="10" />
+
+-
+
+<f-artboard grid step="50" responsive class="r" download>
+  <f-group v-for="s in range(0.5,10,1)" :scale="scale(s,0.5,10,0.5,get('ps',1))" style="transform-origin: 300px 300px">
+    <f-group :position="[300 - 50, 300 - 50]">
+      <f-target />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+-
+
+#### Repeated scaling
+
+When <var>scaling</var> is repeated we will see a shape in incrementally bigger size.
+
+##### Maximum scaling factor `{{ get('ps',1) }}` ×
+
+<f-slider set="ps" value="1" from="1" to="20" />
+
+---
+
+
+| background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+
+| 1 1 1 1
+| 2 3 4 5
+
+| rows: auto 1fr
+
+<f-inline style="--inline-justify: space-between">
+
+# Rotation
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+<!-- Commenting out the sliders -->
+
+<div style="display: none">
+  <f-slider title="rotation" set="r"  />
+  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+  <f-source />
+</div>
+
+#### Single rotation
+
+A <var>rotation</var> is a transformation is a transformation that turns a shape by a certain angle around a fixed point. That point is called the <var class="gray">center of rotation</var>.
+
+-
+
+<f-artboard grid step="100" responsive class="r">
+  <f-group :scale="get('ts',1) * 2" style="transform-origin: 300px 300px">
+    <f-group :position="[300 - 50, 300 - 50]">
+      <f-target />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+##### Scaling factor `{{ get('py',100) }}` ×
+
+<f-slider set="ts" value="1" from="0.1" to="10" />
 
 -
 
