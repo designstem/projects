@@ -551,31 +551,31 @@ You might think that probably they use very expensive supercomputers plus knowle
 
 -
 
-# **1**
+# 1.
 ### FINITENESS
 The algorithm **must always terminate** after a finite number of steps.
 
 -
 
-# **2**
+# 2.
 ### DEFINITENESS
 **Each step must be precisely defined;** the actions to be carried out must be rigorously and unambiguously specified for each case.
 
 -
 
-# **3** 
+# 3.
 ### INPUT 
 An algorithm **has zero or more inputs**, taken from a specified set of objects.
 
 -
 
-# **4** 
+# 4.
 ### OUTPUT
 An algorithm **has one or more outputs**, which have a specified relation to the inputs.
 
 -
 
-# **5** 
+# 5.
 ### EFFECTIVENESS
 **All operations** to be performed must be **sufficiently basic** that they can be done exactly and in finite length (Knut 1997)
 
@@ -608,7 +608,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
   style="text-align: center;"
 >
   
-  # **1**
+  ** 1.
   ### INPUT 
   you feed some parameters (variables) or data to your algorithm
 
@@ -623,7 +623,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
   style="text-align: center;"
 >
 
-# **2**
+** 2.
 ### PROCESSING 
 algorithm does the computing
 
@@ -637,7 +637,7 @@ algorithm does the computing
   style="text-align: center;"
 >
 
-# **3**
+** 3.
 ### OUTPUT
 you get a result
 
@@ -693,7 +693,7 @@ With this examples you can see how most basic operations like **repeating, scali
 | 1 2 2
 | 3 4 4 
  
-## **1** Just some lines
+# 1. Just some lines
 
 -
 
@@ -771,7 +771,7 @@ With this examples you can see how most basic operations like **repeating, scali
 | 1 2 2
 | 3 4 4
 
-## **2** Let's add rotation
+## 2. Let's add rotation
 
 -
 
@@ -841,7 +841,7 @@ With this examples you can see how most basic operations like **repeating, scali
 | 1 2 2
 | 3 4 4
 
-## **3**  Boxes
+## 3. Boxes
 
 -
 
@@ -913,7 +913,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 | 1 2 2
 | 3 4 4
 
-## **4** Circles
+## 4. Circles
 
 -
 
@@ -973,7 +973,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 | 3 4 4
 | 5 6 7
 
-## **5** Random
+## 5. Random
 
 -
 

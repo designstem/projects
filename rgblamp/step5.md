@@ -1,7 +1,7 @@
 | section: step5
 | 1 1 2
 
-### **5** Making
+### 5. Making
 
 # Where are we?
 
@@ -28,7 +28,7 @@ read more (www.sciencebuddies.org)</a>
 
 ***KJ: I need more grappa***
 
-### **5** Making
+### 5. Making
 
 # RGB Lamps made with Arduino
 
@@ -48,7 +48,7 @@ How can I build a RGB lamp?
 
 ***KJ: Keep pouring***
 
-### **5** Making
+### 5. Making
 
 #  Assignment: Build you own (virtual) RGB lamp with Arduino</big>
 
