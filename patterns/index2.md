@@ -43,13 +43,9 @@ A true power of transformations will come out when they are combined, this means
 
 #### Translation
 
-##### x-axis `{{ get('c_x2',0.75) }}`
+##### x and y axis `{{ get('c_x1',0.75) }}`
 
-<f-slider set="c_x2" value="0.75" from="0" to="4" />
-
-##### y-axis `{{ get('c_y2',0.75) }}`
-
-<f-slider set="c_y2" value="0.75" from="0" to="4" />
+<f-slider set="c_x1" value="0.75" from="0" to="4" />
 
 #### Scaling
 
@@ -65,16 +61,38 @@ A true power of transformations will come out when they are combined, this means
 
 -
 
-<f-scene class="r" v-slot="{ svgscale }" responsive download>
+<f-scene v-if="get('c_p',0) == 1" step="1" class="r" v-slot="{ svgscale }" responsive>
+    <f-group
+      v-for="a in range(0,360,360 / get('c_c',16)).slice(0, get('c_c',16))"
+      :rotation="a"
+    >
+      <f-line
+        :x2="3"
+        stroke-width="1"
+        opacity="0.1"
+      />
+      <f-group
+        :position="[0,1]"
+        :scale="get('c_s1',1)"
+        :rotation="get('c_r1',0)"
+      >
+      <f-group :scale="svgscale">
+        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
+      </f-group>
+    </f-group>
+</f-scene>
+
+<f-scene v-else class="r" v-slot="{ svgscale }" responsive download>
   <f-group v-for="y in range(-2,2)">
     <f-group
       v-for="x in range(-2,2)"
-      :position="[x * get('c_x2',0.75),y * get('c_y2',0.75)]"
+      :position="[x * get('c_x1',0.75),y * get('c_x1',0.75)]"
       :scale="get('c_s1',1)"
       :rotation="get('c_r1',0)"
     >
       <f-group :scale="svgscale">
-        <f-target :mode="['normal','multiply','difference'][get('c_m',1)]" transform="translate(-50, 50) scale(1,-1)" />
+        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
       </f-group>
     </f-group>
   </f-group>
@@ -82,11 +100,17 @@ A true power of transformations will come out when they are combined, this means
 
 -
 
-#### Bring in the design!
+#### Choose pattern
+
+<f-buttons :value="get('c_p',0)" v-on:value="v => set('c_p',v)" :buttons="['Grid pattern','Circle pattern']"  />
+
+Choose between <var>translational</var> and <var>rotational</var> <var class="gray">symmetry</var>. 
+
+#### Bring in creativity
 
 To get more creative you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
 
-<f-buttons :value="get('c_m',1)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
+<f-buttons :value="get('c_m',0)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
 
 ---
 
@@ -326,41 +350,6 @@ A <var>rotation</var> is a transformation is a transformation that turns a shape
       </f-group>
     </f-group>
 </f-scene>
-
-<!--
-<f-artboard step="100" download responsive class="r">
-  <f-box
-    position="300 300" :r="600 - 1"
-    stroke-width="1"
-    opacity="0.25"
-  />
-  <f-line
-    v-for="a in range(0,360,360 / get('cc',16))"
-    position="300 300"
-    x1="0"
-    y1="0"
-    :x2="polarx(a,500)"
-    :y2="polary(a,500)"
-    stroke-width="1"
-    opacity="0.25"
-  />
-  <f-group
-    v-for="a in range(0,360,360 / get('cc',16)).slice(0, get('cc',16))"
-    :rotation="a"
-    position="300 300"
-  >
-    <f-group
-      :position="[-50,-get('d')]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"  
-    >
-		  <f-target />
-  </f-group>
-  </f-group>
-</f-artboard>
--->
 
 -
 
