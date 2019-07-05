@@ -38,6 +38,7 @@ Triangles derive when we join three lines together.
       <f-line points="0.2 0.1, 0.3 0, 0.2 -0.1"></f-line>
     </f-group>
     <f-text position="-0.43 0" scale="0.7" :fill="color('blue')">ANGLE</f-text>
+    <f-icon-arrow />
   </f-group>
 
   <f-group position="0.6 -1.2">
