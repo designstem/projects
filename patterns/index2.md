@@ -51,12 +51,12 @@ In the coordinate plane, we can specify a translation by how far the shape is mo
   <f-group opacity="0.5" :position="[get('tx',300)-50-150,get('ty',300)-50-150]">
     <f-target />
   </f-group>
-  <f-line
+  <!--f-line
     :x1="300"
     :y1="300"
     :x2="get('tx',300) - 150"
     :y2="get('ty',300) - 150"
-  />
+  /-->
   </f-group>
 </f-artboard>
 
@@ -128,7 +128,7 @@ Here is the simple grid repetition on x and y axis.
   <f-source />
 </div>
 
-#### Single scale
+#### Single scaling
 
 A <var>scaling</var> is a transformation that resizes a shape.
 
@@ -137,16 +137,19 @@ Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> 
 -
 
 <f-artboard grid step="100" responsive class="r">
-  <f-group :scale="get('ts',1) * 2" style="transform-origin: 300px 300px">
+    <f-group :scale="2" style="transform-origin: 300px 300px" :position="[600-100,600-100]">
+      <f-target />
+    </f-group>
+  <f-group opacity="0.5" :scale="get('ts',1) * 2" style="transform-origin: 300px 300px">
     <f-group :position="[300 - 50, 300 - 50]">
       <f-target />
     </f-group>
   </f-group>
 </f-artboard>
 
-##### Scaling factor `{{ get('py',100) }}` ×
+##### Scaling factor `{{ get('ts',0.5) }}` ×
 
-<f-slider set="ts" value="1" from="0.1" to="10" />
+<f-slider set="ts" value="2" from="0.1" to="10" />
 
 -
 
@@ -162,7 +165,7 @@ Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> 
 
 #### Repeated scaling
 
-When <var>scaling</var> is repeated we will see a shape in incrementally bigger size.
+When <var>scaling</var> is repeated we will multiple shapes in incrementally bigger sizes.
 
 ##### Maximum scaling factor `{{ get('ps',1) }}` ×
 
