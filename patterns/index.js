@@ -10,7 +10,7 @@ const FSource = {
   methods: { get },
   template: `
   <f-artboard dots v-slot="{ mouse }" width="150" height="150">
-    <f-box x="75" y="75" r="100" stroke-width="1" opacity="0.25" />
+    <!--f-box x="75" y="75" r="100" stroke-width="1" opacity="0.25" /-->
     <f-drag
       :mouse="mouse"
       step="25"
@@ -28,7 +28,7 @@ const FTarget = {
   methods: { get },
   template: `
   <f-group style="mix-blend-mode: multiply;">
-  <!--f-line
+  <f-line
     :points="get('p').map(({ x, y}) => ({ x: x - 25, y: y - 25 }))"
     closed
     stroke
@@ -36,13 +36,13 @@ const FTarget = {
     stroke="var(--darkblue)"
     stroke-opacity="0.5"
     stroke-width="1"
-  /-->
-    <f-letter />
+  />
+    <!--f-letter /-->
   </f-group>
   `
 };
 fachwerk({
-  src: "./index.md",
+  src: "./index2.md",
   components: { FLetter, FSource, FTarget },
-  style: { "--yellow": "var(--lightergray)" }
+  style: { "--base": "5px", "--purple": "var(--darkgray)", "--darkpurple": "var(--darkergray)" }
 });

@@ -1,3 +1,12 @@
+# A transformation
+
+A transformation converts one geometric shape into another. There are many different types of transformations, like reflections or dilations.
+
+transformation is a specific set of rules that convert one geometric figure into another one. Here are a few examples:
+
+---
+
+
 | background: lightergray
 
 # Position
@@ -10,7 +19,112 @@ Change image content position
 
 <f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
 
-Translating repeatedly gives a regular pattern 
+Translating repeatedly gives a regular pattern
+
+-
+
+<f-artboard grid step="100" download responsive>
+  <f-group v-for="y in range(0,5)">
+    <f-group
+      v-for="x in range(0,5)"
+      :position="[x * 100,y * 100]"
+      :rotation="get('r')"
+      :scale="get('s')"
+      style="transform-origin: 50px 50px"
+    >
+      <f-target />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+---
+
+| background: lightergray
+
+| 1 1 1 1 1 1 1 1 1 1
+| 2 2 3 3 4 4 5 5 5 5
+
+| rows: auto 1fr
+
+<f-inline style="--inline-justify: space-between">
+
+# Translation
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+A <var>translation</var> is a one of the <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
+
+##### <var class="blue">x</var> translation `{{ get('tx',500) - 300 }}`
+
+<f-slider set="tx" step="1" value="500" to="600" />
+
+##### <var class="blue">y</var> translation `{{ get('ty',500) - 300 }}`
+
+<f-slider set="ty" step="1" value="500" to="600" />
+
+You can also adjust the shape of the figure:
+
+<f-source />
+
+
+-
+
+<f-artboard grid step="100" responsive class="r">
+  <f-group :position="[300-50,300-50]">
+    <f-target />
+  </f-group>
+  <f-group opacity="0.5" :position="[get('tx',300)-50,get('ty',300)-50]">
+    <f-target />
+  </f-group>
+  <f-line
+    :x1="300"
+    :y1="300"
+    :x2="get('tx',300)"
+    :y2="get('ty',300)"
+  />
+</f-artboard>
+
+-
+
+When <var>translation</var> is applied repeatedly well see the patterns emerge.
+
+Here is the simple grid repetition.
+
+-
+
+<f-artboard grid step="50" download responsive class="r">
+  <f-group v-for="y in range(0,5)">
+    <f-group
+      v-for="x in range(0,5)"
+      :position="[x * 100,y * 100]"
+      :rotation="get('r',0)"
+      :scale="get('s',0)"
+      style="transform-origin: 50px 50px"
+    >
+      <f-box r="100" />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+---
+
+| background: lightergray
+
+# Position
+
+<f-source />
+
+Change image content position
+
+<f-slider title="rotation" set="r"/>
+
+<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+
+Translating repeatedly gives a regular pattern
 
 -
 
@@ -42,7 +156,7 @@ Change image content orientation
 
 <f-slider title="rotation" set="r"/>
 
-Rotating repeatedly gives a completely different pattern 
+Rotating repeatedly gives a completely different pattern
 
 -
 
@@ -133,7 +247,6 @@ Change image content orientation
 
 -
 
-
 <f-artboard grid step="100" style="background: white" download responsive>
   <f-group v-for="y in range(0,5)">
     <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
@@ -222,5 +335,3 @@ Change image content orientation
     </f-group3> 
   </f-group3>
 </f-scene3>
-
- 
