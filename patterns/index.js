@@ -1,4 +1,4 @@
-import { fachwerk, get } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { fachwerk, get, range, polarx, polary } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 const FLetter = {
   template: `
@@ -24,6 +24,28 @@ const FSource = {
   `
 };
 
+const FPolargrid = {
+  props: { count: { default: 6 }},
+  methods: { range, polarx, polary },
+  template: `
+  <f-group>
+    <f-line
+      v-for="a in range(0,360,360 / count)"
+      :x2="polarx(a,500)"
+      :y2="polary(a,500)"
+      stroke-width="1"
+      opacity="0.25"
+    />
+    <f-circle
+      v-for="(r,j) in range(0.5,2.5,0.5)"
+      :r="r"
+      stroke-width="1"
+      :opacity="[0.2 / 4,0.2 / 2][j % 2]"
+    />
+  </f-group>
+  `
+}
+
 const FTarget = {
   methods: { get },
   template: `
@@ -43,6 +65,6 @@ const FTarget = {
 };
 fachwerk({
   src: "./index2.md",
-  components: { FLetter, FSource, FTarget },
+  components: { FLetter, FSource, FTarget, FPolargrid },
   style: { "--content-base": "8px", "--purple": "var(--darkgray)", "--darkpurple": "var(--darkergray)" }
 });
