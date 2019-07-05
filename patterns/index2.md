@@ -4,6 +4,9 @@ A transformation converts one geometric shape into another. There are many diffe
 
 transformation is a specific set of rules that convert one geometric figure into another one. Here are a few examples:
 
+We can also combine multiple types of transformation to create more complex ones – for example, a translation followed by a rotation.
+
+
 ---
 
 
@@ -36,6 +39,90 @@ Translating repeatedly gives a regular pattern
     </f-group>
   </f-group>
 </f-artboard>
+
+---
+
+| background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+
+| 1 1 1 1
+| 2 3 4 5
+
+| rows: auto 1fr
+
+<f-inline style="--inline-justify: space-between">
+
+# Translation
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+<!-- Commenting out the sliders -->
+
+<div style="display: none">
+  <f-slider title="rotation" set="r"  />
+  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+  <f-source />
+</div>
+
+#### Single translation
+
+A <var>translation</var> is a one of the <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
+
+In the coordinate plane, we can specify a translation by how far the shape is moved along the x-axis and the y-axis
+
+-
+
+<f-artboard grid step="100" responsive class="r">
+  <f-group :position="[300-50,300-50]">
+    <f-target />
+  </f-group>
+  <f-group opacity="0.5" :position="[get('tx',300)-50,get('ty',300)-50]">
+    <f-target />
+  </f-group>
+  <f-line
+    :x1="300"
+    :y1="300"
+    :x2="get('tx',300)"
+    :y2="get('ty',300)"
+  />
+</f-artboard>
+
+##### <var class="blue">x</var> axis translation `{{ get('tx',500) - 300 }}`
+
+<f-slider set="tx" step="1" value="500" to="600" />
+
+##### <var class="blue">y</var> axis translation `{{ get('ty',500) - 300 }}`
+
+<f-slider set="ty" step="1" value="500" to="600" />
+
+-
+
+<f-artboard grid step="100" download responsive class="r">
+  <f-group v-for="y in range(0,5)">
+    <f-group
+      v-for="x in range(0,5)"
+      :position="[x * 100,y * 100]"
+      :rotation="get('r')"
+      :scale="get('s')"
+      style="transform-origin: 50px 50px"
+    >
+      <f-target />
+    </f-group>
+  </f-group>
+</f-artboard>
+
+-
+
+#### Multiple translations
+
+When <var>translation</var> is applied repeatedly well see the patterns emerge.
+
+Here is the simple grid repetition.
+
 
 ---
 
