@@ -2,118 +2,6 @@
 | cols: 2fr 2fr 4fr 2fr
 
 | 1 1 1 1
-| 2 2 5 6
-| 3 4 5 6 
-
-| rows: auto
-
-<f-inline style="--inline-justify: space-between">
-
-# Reflections
-
-<f-next-button />
-
-</f-inline>
-
--
-
-A shape has <var>reflectional symmetry</var> if it looks the same after being reflected. The line of reflection is called the <var>axis of symmetry</var>, and it splits the shape into two <var class="gray">congruent</var> halves.
-
--
-
-<f-scene grid class="r" v-slot="{ svgscale }" responsive>
-  <f-mirror-x r="2" :step="get('r_dx1', 1)" v-slot="{ value }">
-  <f-group :scale="svgscale" :opacity="[0.5,1][value]">
-    <f-target transform="translate(-50, 50) scale(1,-1)" />
-  </f-group>
-  </f-mirror-x>
-</f-scene>
-
-#### Reflection around X axis
-
-##### Distance `{{ get('r_dx1', 1) }}`
-
-<f-slider set="r_dx1" value="0" value="1" from="-0.25" to="2" />
-
--
-
-<f-scene grid class="r" v-slot="{ svgscale }" responsive>
-  <f-mirror-y r="2" :step="get('r_dy1', 1)" v-slot="{ value }">
-  <f-group :scale="svgscale" :opacity="[0.5,1][value]">
-    <f-target transform="translate(-50, 50) scale(1,-1)" />
-  </f-group>
-  </f-mirror-y>
-</f-scene>
-
-#### Reflection around Y axis
-
-##### Distance `{{ get('r_dy1', 1) }}`
-
-<f-slider set="r_dy1" value="1" from="-0.25" to="2" />
-
--
-
-<f-scene step="1" class="r" v-slot="{ svgscale }" responsive download>
-    <f-group
-      v-for="a in range(0,360,360 / get('r_c1',6)).slice(0, get('r_c1',6))"
-      :rotation="a"
-      style="mix-blend-mode: multiply;"
-    >
-      <f-line
-        :x2="3"
-        stroke-width="1"
-        opacity="0.1"
-      />
-      <f-mirror-x r="4" :step="get('r_x2',0)">
-        <f-mirror-y r="4" :step="get('r_y2',0)">
-          <f-group :rotation="get('r_r1',0)" :scale="get('r_s1',1)">
-          <f-group :scale="svgscale">
-            <f-target transform="translate(-50, 50) scale(1,-1)" />
-          </f-group>
-          </f-group>
-        </f-mirror-y>
-      </f-mirror-x>
-    </f-group>
-</f-scene>
-
--
-
-#### Repeated reflection
-
-We can combine the <var>reflection</var> and transformations we learned ealier.
-
-##### Arount x axis `{{ get('r_y2',0) }}`
-
-<f-slider set="r_y2" from="0" to="1" />
-
-##### Around in y axis `{{ get('r_x2',0) }}`
-
-<f-slider set="r_x2" from="0" to="1" />
-
-##### Element rotation `{{ get('r_r1', 0.5) }} ×`
-
-<f-slider set="r_r1" />
-
-##### Number of rotations `{{ get('r_c1',6) }}`
-
-<f-slider set="r_c1" value="6" from="1" to="16" integer />
-
-##### Element scale `{{ get('r_s1',1) }}`
-
-<f-slider set="r_s1" value="1" from="0.5" to="4" />
-
-
-
-
----
-
-
-
-
-| background: lightergray
-| cols: 2fr 2fr 4fr 2fr
-
-| 1 1 1 1
 | 2 3 4 5
 
 | rows: auto 1fr
@@ -374,6 +262,112 @@ By applying rotation to an element multiple times we can create a circular set o
 ---
 
 
+| background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+
+| 1 1 1 1
+| 2 2 5 6
+| 3 4 5 6 
+
+| rows: auto
+
+<f-inline style="--inline-justify: space-between">
+
+# Reflections
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+A shape has <var>reflectional symmetry</var> if it looks the same after being reflected. The line of reflection is called the <var>axis of symmetry</var>, and it splits the shape into two <var class="gray">congruent</var> halves.
+
+-
+
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-mirror-x r="2" :step="get('r_dx1', 1)" v-slot="{ value }">
+  <f-group :scale="svgscale" :opacity="[0.5,1][value]">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  </f-mirror-x>
+</f-scene>
+
+#### Reflection around X axis
+
+##### Distance `{{ get('r_dx1', 1) }}`
+
+<f-slider set="r_dx1" value="0" value="1" from="-0.25" to="2" />
+
+-
+
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-mirror-y r="2" :step="get('r_dy1', 1)" v-slot="{ value }">
+  <f-group :scale="svgscale" :opacity="[0.5,1][value]">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  </f-mirror-y>
+</f-scene>
+
+#### Reflection around Y axis
+
+##### Distance `{{ get('r_dy1', 1) }}`
+
+<f-slider set="r_dy1" value="1" from="-0.25" to="2" />
+
+-
+
+<f-scene step="1" class="r" v-slot="{ svgscale }" responsive download>
+    <f-group
+      v-for="a in range(0,360,360 / get('r_c1',6)).slice(0, get('r_c1',6))"
+      :rotation="a"
+      style="mix-blend-mode: multiply;"
+    >
+      <f-line
+        :x2="3"
+        stroke-width="1"
+        opacity="0.1"
+      />
+      <f-mirror-x r="4" :step="get('r_x2',0)">
+        <f-mirror-y r="4" :step="get('r_y2',0)">
+          <f-group :rotation="get('r_r1',0)" :scale="get('r_s1',1)">
+          <f-group :scale="svgscale">
+            <f-target transform="translate(-50, 50) scale(1,-1)" />
+          </f-group>
+          </f-group>
+        </f-mirror-y>
+      </f-mirror-x>
+    </f-group>
+</f-scene>
+
+-
+
+#### Repeated reflection
+
+We can combine the <var>reflection</var> and transformations we learned ealier.
+
+##### Arount x axis `{{ get('r_y2',0) }}`
+
+<f-slider set="r_y2" from="0" to="1" />
+
+##### Around in y axis `{{ get('r_x2',0) }}`
+
+<f-slider set="r_x2" from="0" to="1" />
+
+##### Element rotation `{{ get('r_r1', 0.5) }} ×`
+
+<f-slider set="r_r1" />
+
+##### Number of rotations `{{ get('r_c1',6) }}`
+
+<f-slider set="r_c1" value="6" from="1" to="16" integer />
+
+##### Element scale `{{ get('r_s1',1) }}`
+
+<f-slider set="r_s1" value="1" from="0.5" to="4" />
+
+
+---
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
@@ -401,7 +395,7 @@ By applying rotation to an element multiple times we can create a circular set o
   <f-source />
 </div>
 
-A true power of transformations will come out when they are combined, this means <var class="gray">translation</var>, <var class="gray">scaling</var> and <var class="gray">rotation</var> are applied all to the same shape, creating <var>affine transformation</var>.
+A true power of transformations will come out when they are combined, this means <var class="gray">translation</var>, <var class="gray">scaling</var>, <var class="gray">rotation</var> are applied all to the same shape, creating <var>affine transformation</var>.
 
 
 > Adjust all the transformations on the shapes to see the *combined* effect.
@@ -497,74 +491,36 @@ To get more creative you can adjust the blend mode of the elements, creating a w
 
 
 
----
 
 
-| background: lightergray
 
-<mark>Mirroring</mark>
 
-## Horizontal mirroring
 
-<f-source />
 
-<f-slider title="rotation" set="r"/>
 
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
 
-<f-slider title="distance" set="d" value="0" from="-50" to="50" integer />
 
--
 
-<f-artboard grid step="100" style="background: white" download responsive>
-  <f-group v-for="y in range(0,5)">
-    <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
-    <f-group
-      :position="[get('d'),-get('d')][x % 2]"
-      :rotation="get('r')"
-      :scale="[[1,-1][x % 2] * get('s',1),1 * get('s',1)]"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"  
-      >
-		  <f-target />
-    </f-group>
-  </f-group>
-</f-artboard>
 
----
 
-| background: lightergray
 
-<mark>Mirroring</mark>
 
-## Horizontal and vertical mirroring
 
-<f-source />
 
-<f-slider title="rotation" set="r"/>
 
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
 
-<f-slider title="dx" set="dx" value="0" from="-50" to="50" integer />
 
-<f-slider title="dy" set="dy" value="0" from="-50" to="50" integer />
 
--
 
-<f-artboard grid step="100" download responsive>
-  <f-group v-for="y in range(0,5)">
-    <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
-    <f-group
-      :position="[[get('dx'),-get('dx')][x % 2],[get('dy'),-get('dy')][y % 2]]"
-      :rotation="get('r')"
-      :scale="[[1,-1][x % 2] * get('s',1),[1,-1][y % 2] * get('s',1)]"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"  
-    >
-		  <f-target />
-  </f-group>
-  </f-group>
-</f-artboard>
+
+
+
+
+
+
+
+
+
 
 ---
 
