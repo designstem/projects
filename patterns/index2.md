@@ -1,5 +1,6 @@
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
 
 | 1 1 1 1
 | 2 3 4 5
@@ -88,6 +89,7 @@ Here is the simple grid repetition on x and y axis.
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
 
 | 1 1 1 1
 | 2 3 4 5
@@ -170,6 +172,7 @@ When <var>scaling</var> is repeated we will multiple shapes in incrementally big
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
 
 | 1 1 1 1
 | 2 3 4 5
@@ -264,6 +267,7 @@ By applying rotation to an element multiple times we can create a circular set o
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
 
 | 1 1 1 1
 | 2 2 5 6
@@ -297,7 +301,7 @@ A shape has <var>reflectional symmetry</var> if it looks the same after being re
 
 ##### Distance `{{ get('r_dx1', 1) }}`
 
-<f-slider set="r_dx1" value="0" value="1" from="-0.25" to="2" />
+<f-slider set="r_dx1" value="0" from="-0.25" to="2" />
 
 -
 
@@ -371,6 +375,7 @@ We can combine the <var>reflection</var> and transformations we learned ealier.
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
 
 | 1 1 1 1
 | 2 3 4 5
@@ -480,95 +485,3 @@ Choose between <var>translational</var> and <var>rotational</var> <var class="gr
 To get more creative you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
 
 <f-buttons :value="get('c_m',0)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-| background: lightergray
-
-# 3D patterns
-
-#### Element
-
-<f-slider title="Element rotation" set="r3" to="180" />
-
-<f-slider title="Element scale" set="s3" value="1" from="0.1" to="2"/>
-
-#### Scene
-
-<f-slider title="Scene rotation x" set="rx3" value="-45" from="-90" to="0" />
-
-<f-slider title="Scene rotation z" set="rz3" value="0" from="-90" to="0" />
-
--
-
-<f-scene3 webgl width="600" height="600" responsive>
-  <f-group3 scale="0.5" :rotation="[get('rx3',-45),0,get('rz3',0)]" position="0 0 0">
-    <f-group3 v-for="y in range(-2,2,1)">
-      <f-hedron3
-        v-for="x in range(-2,2,1)"
-        :position="[x,y]"
-        :rotation="[0,0,get('r3',0) + 45]"
-        :scale="get('s3') / 2"
-        :key="x + '-' + y"
-        :count="4"
-        :shading="false"
-        :fill="color('blue')"
-        :height="0.1"
-        :opacity="0.9"
-      />
-    </f-group3> 
-  </f-group3>
-</f-scene3>
-
----
-
-# A transformation
-
-A transformation converts one geometric shape into another. There are many different types of transformations, like reflections or dilations.
-
-transformation is a specific set of rules that convert one geometric figure into another one. Here are a few examples:
-
-We can also combine multiple types of transformation to create more complex ones – for example, a translation followed by a rotation.
-
----

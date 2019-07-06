@@ -36,7 +36,8 @@ const FPolargrid = {
   template: `
   <f-group>
     <f-line
-      v-for="a in range(0,360,360 / count)"
+      v-for="(a,i) in range(0,360,360 / count)"
+      :key="'a' + i"
       :x2="polarx(a,500)"
       :y2="polary(a,500)"
       stroke-width="1"
@@ -44,6 +45,7 @@ const FPolargrid = {
     />
     <f-circle
       v-for="(r,j) in range(0.5,2.5,0.5)"
+      :key="'b' + j"
       :r="r"
       stroke-width="1"
       :opacity="[0.2 / 4,0.2 / 2][j % 2]"
@@ -81,7 +83,7 @@ const FTarget2 = {
 };
 
 fachwerk({
-  src: "./index.md",
+  src: ['./index.md','./index2.md','./index3.md'],
   components: { FLetter, FSource, FTarget, FPolargrid },
   style: {
     "--purple": "var(--darkgray)",
