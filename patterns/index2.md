@@ -1,226 +1,487 @@
 | background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
 
-# Position
+| 1 1 1 1
+| 2 3 4 5
 
-<f-source />
+| rows: auto 1fr
 
-Change image content position
+<f-inline style="--inline-justify: space-between">
 
-<f-slider title="rotation" set="r"/>
+# Translation
 
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+<f-next-button />
 
-Translating repeatedly gives a regular pattern 
+</f-inline>
 
 -
 
-<f-artboard grid step="100" download responsive>
-  <f-group v-for="y in range(0,5)">
-    <f-group
-      v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
-    >
-      <f-target />
+#### Single translation
+
+A <var>translation</var> is a <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
+
+In the 2D coordinates, we can specify a translation by how far the shape is moved along the axises.
+
+> Adjust the translation along the axises to see the effect
+
+-
+
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-group :scale="svgscale">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  <f-group opacity="0.5" :position="[get('t_x1',1),get('t_y1',1)]">
+    <f-group :scale="svgscale">
+      <f-target transform="translate(-50, 50) scale(1,-1)" />
     </f-group>
   </f-group>
-</f-artboard>
+</f-scene>
 
----
+##### x-axis translation `{{ get('t_x1', 1) }}`
 
-| background: lightergray
+<f-slider set="t_x1" value="1" from="-2" to="2" />
 
-<mark>Rotation</mark>
+##### y-axis translation `{{ get('t_y1', 1) }}`
 
-## Rotation around an internal point
-
-Change image content orientation
-
-<f-source />
-
-<f-slider title="rotation" set="r"/>
-
-Rotating repeatedly gives a completely different pattern 
+<f-slider set="t_y1" value="1" from="-2" to="2" />
 
 -
 
-<f-artboard grid step="100" download responsive>
-  <f-group v-for="y in range(0,5)">
+<f-scene class="r" v-slot="{ svgscale }" responsive download>
+  <f-group v-for="y in range(-2,2)">
     <f-group
-      v-for="x in range(0,5)"
-      :position="[x * 100,y * 100]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
+      v-for="x in range(-2,2)"
+      :position="[x * get('t_x2',0),y * get('t_y2',0)]"
     >
-      <f-target />
+      <f-group :scale="svgscale">
+        <f-target transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
     </f-group>
   </f-group>
-</f-artboard>
-
----
-
-| background: lightergray
-
-<mark>Rotation</mark>
-
-## Rotation around exterior point
-
-<f-source />
-
-Change image content orientation
-
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4" />
-
-<f-slider step="1" title="count" set="cc" value="16" from="2" to="32" />
-
-<f-slider title="d" set="d" value="200" from="50" to="400" />
+</f-scene>
 
 -
 
-<f-artboard step="100" download responsive>
-  <f-box
-    position="300 300" :r="600 - 1"
-    stroke-width="1"
-    opacity="0.25"
-  />
-  <f-line
-    v-for="a in range(0,360,360 / get('cc',16))"
-    position="300 300"
-    x1="0"
-    y1="0"
-    :x2="polarx(a,500)"
-    :y2="polary(a,500)"
-    stroke-width="1"
-    opacity="0.25"
-  />
-  <f-group
-    v-for="a in range(0,360,360 / get('cc',16)).slice(0, get('cc',16))"
-    :rotation="a"
-    position="300 300"
-  >
-    <f-group
-      :position="[-50,-get('d')]"
-      :rotation="get('r')"
-      :scale="get('s')"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"  
-    >
-		  <f-target />
-  </f-group>
-  </f-group>
-</f-artboard>
+#### Repeated translation
+
+When <var>translation</var> is applied repeatedly, we willl see the visual patterns emerge.
+
+Here is the simple grid repetition on x and y axis.
+
+##### Repetition in x-axis `{{ get('t_x2',0) }}`
+
+<f-slider set="t_x2" from="0" to="0.75" />
+
+##### Repetition in y-axis `{{ get('t_y2',0) }}`
+
+<f-slider set="t_y2" value="0" from="0" to="0.75" />
+
+
+
+
 
 ---
 
+
+
+
+
 | background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
 
-<mark>Mirroring</mark>
+| 1 1 1 1
+| 2 3 4 5
 
-## Horizontal mirroring
+| rows: auto 1fr
 
-<f-source />
+<f-inline style="--inline-justify: space-between">
 
-<f-slider title="rotation" set="r"/>
+# Scaling
 
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
+<f-next-button />
 
-<f-slider title="distance" set="d" value="0" from="-50" to="50" integer />
+</f-inline>
 
 -
 
+<!-- Commenting out the sliders -->
 
-<f-artboard grid step="100" style="background: white" download responsive>
-  <f-group v-for="y in range(0,5)">
-    <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
-    <f-group
-      :position="[get('d'),-get('d')][x % 2]"
-      :rotation="get('r')"
-      :scale="[[1,-1][x % 2] * get('s',1),1 * get('s',1)]"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"  
-      >
-		  <f-target />
+<div style="display: none">
+  <f-slider title="rotation" set="r"  />
+  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+  <f-source />
+</div>
+
+#### Single scaling
+
+A <var>scaling</var> is a transformation that resizes a shape.
+
+Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> that generate <var class="gray">congurate</var> shapes, scaling generates <var>similar</var> shapes.
+
+-
+
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-group :scale="svgscale">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  <f-group opacity="0.5" :scale="get('s_s1', 2)">
+    <f-group :scale="svgscale">
+      <f-target transform="translate(-50, 50) scale(1,-1)" />
     </f-group>
   </f-group>
-</f-artboard>
+</f-scene>
 
----
+##### Scaling factor `{{ get('s_s1',2) }} ×` 
 
-| background: lightergray
-
-<mark>Mirroring</mark>
-
-## Horizontal and vertical mirroring
-
-<f-source />
-
-<f-slider title="rotation" set="r"/>
-
-<f-slider title="scale" set="s" value="1" from="0.1" to="4"/>
-
-<f-slider title="dx" set="dx" value="0" from="-50" to="50" integer />
-
-<f-slider title="dy" set="dy" value="0" from="-50" to="50" integer />
+<f-slider set="s_s1" value="2" step="0.1" from="0" to="25" />
 
 -
 
-<f-artboard grid step="100" download responsive>
-  <f-group v-for="y in range(0,5)">
-    <f-group v-for="x in range(0,5)" :position="[x * 100,y * 100]">
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-group v-for="s in range(0.5,10,1)" :scale="scale(s,0.5,10,0.5,get('s_s2',1))">
+    <f-group :scale="svgscale">
+      <f-target transform="translate(-50, 50) scale(1,-1)" />
+    </f-group>
+  </f-group>
+</f-scene>
+
+-
+
+#### Repeated scaling
+
+When <var>scaling</var> is repeated we will multiple shapes in incrementally bigger sizes.
+
+##### Maximum scaling factor `{{ get('s_s2',1) }} ×`
+
+<f-slider set="s_s2" value="1" from="1" to="25" />
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+| background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
+
+| 1 1 1 1
+| 2 3 4 5
+
+| rows: auto 1fr
+
+<f-inline style="--inline-justify: space-between">
+
+# Rotation
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+<!-- Commenting out the sliders -->
+
+<div style="display: none">
+  <f-slider title="rotation" set="r"  />
+  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+  <f-source />
+</div>
+
+#### Single rotation
+
+A <var>rotation</var> is a transformation is a transformation that turns a shape by a certain angle around a fixed point. That point is called the<br><span style="color: var(--red)">●</span> <var>center of rotation</var>.
+
+-
+
+<f-scene step="1" class="r" v-slot="{ svgscale }" responsive>
+  <f-group :scale="svgscale">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  <f-group opacity="0.75" :position="[-get('r_x1',1),-get('r_y1',1)]">
+    <f-polargrid count="8" />
+    <f-group :rotation="get('r_r1',45)">
+      <f-group :scale="svgscale" :position="[get('r_x1',1),get('r_y1',1)]">
+        <f-target transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
+    </f-group>
+  </f-group>
+  <f-circle :position="[-get('r_x1',1),-get('r_y1',1)]" r="0.08" stroke fill="var(--red)" />
+</f-scene>
+
+##### Rotation `{{ get('r_r1',45) }}°`
+
+<f-slider set="r_r1" value="45" integer />
+
+##### X of center `{{ get('r_x1',1) }}`
+
+<f-slider set="r_x1" value="1" to="2" />
+
+##### X of center `{{ get('r_y1',1) }}`
+
+<f-slider set="r_y1" value="1" to="2" />
+
+-
+
+<f-scene step="1" class="r" v-slot="{ svgscale }" responsive>
     <f-group
-      :position="[[get('dx'),-get('dx')][x % 2],[get('dy'),-get('dy')][y % 2]]"
-      :rotation="get('r')"
-      :scale="[[1,-1][x % 2] * get('s',1),[1,-1][y % 2] * get('s',1)]"
-      style="transform-origin: 50px 50px"
-      :opacity="[1,0.5][x % 2]"  
+      v-for="a in range(0,360,360 / get('r_c',1)).slice(0, get('r_c',1))"
+      :rotation="a"
     >
-		  <f-target />
-  </f-group>
-  </f-group>
-</f-artboard>
-
----
-
-| background: lightergray
-
-# 3D patterns
-
-#### Element
-
-<f-slider title="Element rotation" set="r3" to="180" />
-
-<f-slider title="Element scale" set="s3" value="1" from="0.1" to="2"/>
-
-#### Scene
-
-<f-slider title="Scene rotation x" set="rx3" value="-45" from="-90" to="0" />
-
-<f-slider title="Scene rotation z" set="rz3" value="0" from="-90" to="0" />
-
--
-
-<f-scene3 webgl width="600" height="600" responsive>
-  <f-group3 scale="0.5" :rotation="[get('rx3',-45),0,get('rz3',0)]" position="0 0 0">
-    <f-group3 v-for="y in range(-2,2,1)">
-      <f-hedron3
-        v-for="x in range(-2,2,1)"
-        :position="[x,y]"
-        :rotation="[0,0,get('r3',0) + 45]"
-        :scale="get('s3') / 2"
-        :key="x + '-' + y"
-        :count="4"
-        :shading="false"
-        :fill="color('blue')"
-        :height="0.1"
-        :opacity="0.9"
+      <f-line
+        :x2="3"
+        stroke-width="1"
+        opacity="0.1"
       />
-    </f-group3> 
-  </f-group3>
-</f-scene3>
+      <f-group :scale="svgscale" :position="[1,0]">
+        <f-target transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
+    </f-group>
+</f-scene>
 
- 
+-
+
+#### Repeated rotation
+
+By applying rotation to an element multiple times we can create a circular set of elements with all elements having <var>rotational symmetry</var>.
+
+##### Number of rotations `{{ get('r_c',1) }}`
+
+##### Rotation step `{{ round(360 / get('r_c',1),2) }}°`
+
+<f-slider set="r_c" value="1" from="1" to="72" integer />
+
+
+
+---
+
+
+| background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
+
+| 1 1 1 1
+| 2 2 5 6
+| 3 4 5 6 
+
+| rows: auto
+
+<f-inline style="--inline-justify: space-between">
+
+# Reflections
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+A shape has <var>reflectional symmetry</var> if it looks the same after being reflected. The line of reflection is called the <var>axis of symmetry</var>, and it splits the shape into two <var class="gray">congruent</var> halves.
+
+-
+
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-mirror-x r="2" :step="get('r_dx1', 1)" v-slot="{ value }">
+  <f-group :scale="svgscale" :opacity="[0.5,1][value]">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  </f-mirror-x>
+</f-scene>
+
+#### Reflection around X axis
+
+##### Distance `{{ get('r_dx1', 1) }}`
+
+<f-slider set="r_dx1" value="0" from="-0.25" to="2" />
+
+-
+
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-mirror-y r="2" :step="get('r_dy1', 1)" v-slot="{ value }">
+  <f-group :scale="svgscale" :opacity="[0.5,1][value]">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  </f-mirror-y>
+</f-scene>
+
+#### Reflection around Y axis
+
+##### Distance `{{ get('r_dy1', 1) }}`
+
+<f-slider set="r_dy1" value="1" from="-0.25" to="2" />
+
+-
+
+<f-scene step="1" class="r" v-slot="{ svgscale }" responsive download>
+    <f-group
+      v-for="a in range(0,360,360 / get('r_c1',6)).slice(0, get('r_c1',6))"
+      :rotation="a"
+      style="mix-blend-mode: multiply;"
+    >
+      <f-line
+        :x2="3"
+        stroke-width="1"
+        opacity="0.1"
+      />
+      <f-mirror-x r="4" :step="get('r_x2',0)">
+        <f-mirror-y r="4" :step="get('r_y2',0)">
+          <f-group :rotation="get('r_r1',0)" :scale="get('r_s1',1)">
+          <f-group :scale="svgscale">
+            <f-target transform="translate(-50, 50) scale(1,-1)" />
+          </f-group>
+          </f-group>
+        </f-mirror-y>
+      </f-mirror-x>
+    </f-group>
+</f-scene>
+
+-
+
+#### Repeated reflection
+
+We can combine the <var>reflection</var> and transformations we learned ealier.
+
+##### Arount x axis `{{ get('r_y2',0) }}`
+
+<f-slider set="r_y2" from="0" to="1" />
+
+##### Around in y axis `{{ get('r_x2',0) }}`
+
+<f-slider set="r_x2" from="0" to="1" />
+
+##### Element rotation `{{ get('r_r1', 0.5) }} ×`
+
+<f-slider set="r_r1" />
+
+##### Number of rotations `{{ get('r_c1',6) }}`
+
+<f-slider set="r_c1" value="6" from="1" to="16" integer />
+
+##### Element scale `{{ get('r_s1',1) }}`
+
+<f-slider set="r_s1" value="1" from="0.5" to="4" />
+
+
+---
+
+| background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+| style: --base: 8px
+
+| 1 1 1 1
+| 2 3 4 5
+
+| rows: auto 1fr
+
+<f-inline style="--inline-justify: space-between">
+
+# Combined transformations
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+<!-- Commenting out the sliders -->
+
+<div style="display: none">
+  <f-slider title="rotation" set="r"  />
+  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
+  <f-source />
+</div>
+
+A true power of transformations will come out when they are combined, this means <var class="gray">translation</var>, <var class="gray">scaling</var>, <var class="gray">rotation</var> are applied all to the same shape, creating <var>affine transformation</var>.
+
+
+> Adjust all the transformations on the shapes to see the *combined* effect.
+
+-
+
+#### Translation
+
+##### x and y axis `{{ get('c_x1',0.05) }}`
+
+<f-slider set="c_x1" value="0.05" from="0" to="4" />
+
+#### Scaling
+
+##### Element scaling `{{ get('c_s1', 4) }} ×`
+
+<f-slider set="c_s1" value="4" from="0.1" to="5" />
+
+#### Rotation
+
+##### Element rotation `{{ get('c_r1', 1) }} ×`
+
+<f-slider set="c_r1" />
+
+<div v-show="get('c_p',0) == 1">
+
+##### Number of rotations `{{ get('c_c',6) }}`
+
+<f-slider set="c_c" value="6" from="1" to="36" integer />
+
+</div>
+
+-
+
+<f-scene v-if="get('c_p',0) == 1" step="1" class="r" v-slot="{ svgscale }" responsive download>
+    <f-group
+      v-for="a in range(0,360,360 / get('c_c',6)).slice(0, get('c_c',6))"
+      :rotation="a"
+    >
+      <f-line
+        :x2="3"
+        stroke-width="1"
+        opacity="0.1"
+      />
+      <f-group
+        :position="[get('c_x1',0.05),0]"
+        :scale="get('c_s1',4)"
+        :rotation="get('c_r1',0)"
+      >
+      <f-group :scale="svgscale">
+        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
+      </f-group>
+    </f-group>
+</f-scene>
+
+<f-scene v-else class="r" v-slot="{ svgscale }" responsive download>
+  <f-group v-for="y in range(-2,2)">
+    <f-group
+      v-for="x in range(-2,2)"
+      :position="[x * get('c_x1',0.75),y * get('c_x1',0.75)]"
+      :scale="get('c_s1',1)"
+      :rotation="get('c_r1',0)"
+    >
+      <f-group :scale="svgscale">
+        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
+      </f-group>
+    </f-group>
+  </f-group>
+</f-scene>
+
+-
+
+#### Choose pattern
+
+<f-buttons :value="get('c_p',0)" v-on:value="v => set('c_p',v)" :buttons="['Grid pattern','Circle pattern']"  />
+
+Choose between <var>translational</var> and <var>rotational</var> <var class="gray">symmetry</var>. 
+
+#### Bring in creativity
+
+To get more creative you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
+
+<f-buttons :value="get('c_m',0)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />

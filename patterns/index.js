@@ -1,4 +1,10 @@
-import { fachwerk, get } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import {
+  fachwerk,
+  get,
+  range,
+  polarx,
+  polary
+} from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 const FLetter = {
   template: `
@@ -10,7 +16,6 @@ const FSource = {
   methods: { get },
   template: `
   <f-artboard dots v-slot="{ mouse }" width="150" height="150">
-    <f-box x="75" y="75" r="100" stroke-width="1" opacity="0.25" />
     <f-drag
       :mouse="mouse"
       step="25"
@@ -18,13 +23,48 @@ const FSource = {
       v-slot="{ points }"
       set="p"
     >
-      <f-line :points="points" closed stroke fill="var(--blue)" />
+      <f-line :points="points" closed stroke fill="var(--white)" />
     </f-drag>
+    <f-letter />
   </f-artboard>
   `
 };
 
+const FPolargrid = {
+  props: { count: { default: 6 } },
+  methods: { range, polarx, polary },
+  template: `
+  <f-group>
+    <f-line
+      v-for="(a,i) in range(0,360,360 / count)"
+      :key="'a' + i"
+      :x2="polarx(a,500)"
+      :y2="polary(a,500)"
+      stroke-width="1"
+      opacity="0.25"
+    />
+    <f-circle
+      v-for="(r,j) in range(0.5,2.5,0.5)"
+      :key="'b' + j"
+      :r="r"
+      stroke-width="1"
+      :opacity="[0.2 / 4,0.2 / 2][j % 2]"
+    />
+  </f-group>
+  `
+};
+
 const FTarget = {
+  methods: { get },
+  props: { mode: { default: 'multiply' }},
+  template: `
+  <f-group :style="{mixBlendMode: mode}">
+    <f-letter />
+  </f-group>
+  `
+};
+
+const FTarget2 = {
   methods: { get },
   template: `
   <f-group style="mix-blend-mode: multiply;">
@@ -32,7 +72,7 @@ const FTarget = {
     :points="get('p').map(({ x, y}) => ({ x: x - 25, y: y - 25 }))"
     closed
     stroke
-    fill="var(--blue)"
+    fill="var(--white)"
     stroke="var(--darkblue)"
     stroke-opacity="0.5"
     stroke-width="1"
@@ -41,8 +81,14 @@ const FTarget = {
   </f-group>
   `
 };
+
 fachwerk({
-  src: "./index.md",
-  components: { FLetter, FSource, FTarget },
-  style: { "--yellow": "var(--lightergray)" }
+  src: ['./index.md','./index2.md','./index3.md'],
+  components: { FLetter, FSource, FTarget, FPolargrid },
+  style: {
+    "--purple": "var(--darkgray)",
+    "--darkpurple": "var(--darkergray)",
+    "--emphasis": "var(--blue)",
+    "--lightemphasis": "var(--transparent)"
+  }
 });

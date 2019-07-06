@@ -71,7 +71,7 @@ new Vue({
       </header>
       <div style="display: flex">
         <div style="width: 250px; padding: 2rem; border-right: 3px solid var(--primary)">
-          <h2>Edit a pattern</h2>
+          <h2>Edit a tessellation</h2>
           <div class="text">
             <p>Adjust the tile sides to create a repeating pattern.</p>
           </div>
