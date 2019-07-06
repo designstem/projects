@@ -2,6 +2,118 @@
 | cols: 2fr 2fr 4fr 2fr
 
 | 1 1 1 1
+| 2 2 5 6
+| 3 4 5 6 
+
+| rows: auto
+
+<f-inline style="--inline-justify: space-between">
+
+# Reflections
+
+<f-next-button />
+
+</f-inline>
+
+-
+
+A shape has <var>reflectional symmetry</var> if it looks the same after being reflected. The line of reflection is called the <var>axis of symmetry</var>, and it splits the shape into two <var class="gray">congruent</var> halves.
+
+-
+
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-mirror-x r="2" :step="get('r_dx1', 1)" v-slot="{ value }">
+  <f-group :scale="svgscale" :opacity="[0.5,1][value]">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  </f-mirror-x>
+</f-scene>
+
+#### Reflection around X axis
+
+##### Distance `{{ get('r_dx1', 1) }}`
+
+<f-slider set="r_dx1" value="0" value="1" from="-0.25" to="2" />
+
+-
+
+<f-scene grid class="r" v-slot="{ svgscale }" responsive>
+  <f-mirror-y r="2" :step="get('r_dy1', 1)" v-slot="{ value }">
+  <f-group :scale="svgscale" :opacity="[0.5,1][value]">
+    <f-target transform="translate(-50, 50) scale(1,-1)" />
+  </f-group>
+  </f-mirror-y>
+</f-scene>
+
+#### Reflection around Y axis
+
+##### Distance `{{ get('r_dy1', 1) }}`
+
+<f-slider set="r_dy1" value="1" from="-0.25" to="2" />
+
+-
+
+<f-scene step="1" class="r" v-slot="{ svgscale }" responsive download>
+    <f-group
+      v-for="a in range(0,360,360 / get('r_c1',6)).slice(0, get('r_c1',6))"
+      :rotation="a"
+      style="mix-blend-mode: multiply;"
+    >
+      <f-line
+        :x2="3"
+        stroke-width="1"
+        opacity="0.1"
+      />
+      <f-mirror-x r="4" :step="get('r_x2',0)">
+        <f-mirror-y r="4" :step="get('r_y2',0)">
+          <f-group :rotation="get('r_r1',0)" :scale="get('r_s1',1)">
+          <f-group :scale="svgscale">
+            <f-target transform="translate(-50, 50) scale(1,-1)" />
+          </f-group>
+          </f-group>
+        </f-mirror-y>
+      </f-mirror-x>
+    </f-group>
+</f-scene>
+
+-
+
+#### Repeated reflection
+
+We can combine the <var>reflection</var> and transformations we learned ealier.
+
+##### Arount x axis `{{ get('r_y2',0) }}`
+
+<f-slider set="r_y2" from="0" to="1" />
+
+##### Around in y axis `{{ get('r_x2',0) }}`
+
+<f-slider set="r_x2" from="0" to="1" />
+
+##### Element rotation `{{ get('r_r1', 0.5) }} ×`
+
+<f-slider set="r_r1" />
+
+##### Number of rotations `{{ get('r_c1',6) }}`
+
+<f-slider set="r_c1" value="6" from="1" to="16" integer />
+
+##### Element scale `{{ get('r_s1',1) }}`
+
+<f-slider set="r_s1" value="1" from="0.5" to="4" />
+
+
+
+
+---
+
+
+
+
+| background: lightergray
+| cols: 2fr 2fr 4fr 2fr
+
+| 1 1 1 1
 | 2 3 4 5
 
 | rows: auto 1fr
@@ -15,14 +127,6 @@
 </f-inline>
 
 -
-
-<!-- Commenting out the sliders -->
-
-<div style="display: none">
-  <f-slider title="rotation" set="r"  />
-  <f-slider title="scale" set="s" value="1" from="0.1" to="4" />
-  <f-source />
-</div>
 
 #### Single translation
 
@@ -84,7 +188,15 @@ Here is the simple grid repetition on x and y axis.
 
 <f-slider set="t_y2" value="0" from="0" to="0.75" />
 
+
+
+
+
 ---
+
+
+
+
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
@@ -298,15 +410,15 @@ A true power of transformations will come out when they are combined, this means
 
 #### Translation
 
-##### x and y axis `{{ get('c_x1',0.75) }}`
+##### x and y axis `{{ get('c_x1',0.05) }}`
 
-<f-slider set="c_x1" value="0.75" from="0" to="4" />
+<f-slider set="c_x1" value="0.05" from="0" to="4" />
 
 #### Scaling
 
-##### Element scaling `{{ get('c_s1', 1.5) }} ×`
+##### Element scaling `{{ get('c_s1', 4) }} ×`
 
-<f-slider set="c_s1" value="1.5" from="0.1" to="5" />
+<f-slider set="c_s1" value="4" from="0.1" to="5" />
 
 #### Rotation
 
@@ -335,8 +447,8 @@ A true power of transformations will come out when they are combined, this means
         opacity="0.1"
       />
       <f-group
-        :position="[get('c_x1',0.75),0]"
-        :scale="get('c_s1',1.5)"
+        :position="[get('c_x1',0.05),0]"
+        :scale="get('c_s1',4)"
         :rotation="get('c_r1',0)"
       >
       <f-group :scale="svgscale">
