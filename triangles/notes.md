@@ -1,3 +1,16 @@
+
+
+<center>
+<div>
+  <f-slider to="1" value="0" :value="get('somevalue', 0)" style="width:60px; border:1px solid var(--gray); border-radius:18px; padding: 0 8px; box-shadow: 0 1px 5px 0 hsla(0, 0%, 0%, 0.3) " integer v-on:click.native="get('somevalue') == 1 ? set('somevalue', 0) : set('somevalue', 1)" />
+  Some value: {{ get('somevalue', 0) }}
+</div>
+
+</center>
+
+
+---
+
 - sidebar close button fixed or sticky? - DONE
 
 - sidebar padding bit bigger?

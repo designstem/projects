@@ -76,7 +76,7 @@ export default{
     textPos(i){
         let polarPos = this.polarxy(
             this.angleBetweenPoints( this.triangle.points[i][0],  this.triangle.points[i][1],  0,0 ), 
-            this.distanceBetweenPoints( this.triangle.points[i][0],  this.triangle.points[i][1],  0,0 )+0.2
+            this.distanceBetweenPoints( this.triangle.points[i][0],  this.triangle.points[i][1],  0,0 )+0.25
         );
         return `${polarPos[0]} ${(polarPos[1])}`;
     },

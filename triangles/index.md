@@ -1,3 +1,4 @@
+| id: tr-start
 | padding: 10vmin
 | theme: blue
 | cols: 60vw auto
@@ -284,7 +285,7 @@
 
 
 
-
+| id: tr-assignment
 | padding: 10vmin
 | height: 100vh
 | 1 2
@@ -293,7 +294,7 @@
 
 ### &nbsp;
 
-# The assignment <sup><sup>📝</sup></sup>
+# 📝 The assignment
 
 &nbsp;
 
@@ -401,6 +402,7 @@
 
 
 
+
 | padding: 10vmin
 | rows: auto auto auto
 | 1 1 1 1 1
@@ -480,14 +482,13 @@
 
 
 
-
+| id: tr-geometry
 | padding: 10vmin
 | 1 1
 | 2 3
 | 4 4
-| rows: auto auto auto
+| rows: auto 
 
-## &nbsp;
 
 # Geometry behind the nesting box
 
@@ -659,7 +660,7 @@
 
 
 
-
+| id: tr-triangles
 | padding: 10vmin
 | cols: 60vw auto
 | rows: auto auto auto
@@ -727,8 +728,6 @@
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Geometry of triangles <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
-
-
 -
 
 #### Trigonometry
@@ -752,7 +751,7 @@
 
 
 
-
+| id: tr-polygons
 | padding: 10vmin
 | height: 100vh
 | cols: 50vw auto
@@ -815,7 +814,7 @@
 
 # Simplification of polygons <sup>🤔</sup>
 
-~Looking at these polygons below, **how would you simplify these shapes** ~*(based on what you know for now about triangles)*~ to calculate angles, sides, circumference, area etc of the polygon?~ 
+~Looking at these polygons below, **how would you simplify these shapes** *(based on what you know for now about triangles)* to calculate angles, sides, circumference, area etc of the polygon?~ 
 
 -
 
@@ -922,29 +921,41 @@
 | height: 100vh
 | padding: 10vmin
 | rows: auto
+| cols: 75% auto
 | theme: blue
-| 1
-| 2
-| 3
+| 1 4
+| 2 4
+| 3 4
 
-# From 2D to 3D
+
+&nbsp;
 
 -
+
+# From 2D to 3D
 
 ~Step by step we are getting closer to our final task &ndash; a **polyhedral shape**.~
 
 ~We now know about **triangles**, that can be used to make a **polygon** *(regular polygons in our case)*. And regular polygons, combined together in certain manner, form the sides of a **regular polyhedron**.~
 
--
+&nbsp;
 
 <f-next-button title="Next: Polyhedron" />
+
+-
+
+&nbsp;
+
+-
+
+&nbsp;
 
 ---
 
 
 
 
-
+| id: tr-polyhedra
 | height: 100vh
 | padding: 10vmin
 | gap: 0
@@ -1012,7 +1023,6 @@
 | height: 100vh
 | 1 1 1
 | 2 3 4
-| 5 5 5
 
 # Simplification of polyhedron
 
@@ -1021,6 +1031,10 @@
 ~Look at these polyhedra and try to find out, **how would you simplify them** to calculate angles and distances?~
 
 <small><f-rightarrow-icon /> *Click on a polyhedron to get the answer*</small>
+
+&nbsp;
+
+<f-next-button />
 
 -
 
@@ -1065,9 +1079,7 @@
     </f-group3>
 </f-scene3> -->
 
--
 
-<f-next-button />
 
 
 ---
@@ -1078,6 +1090,7 @@
 
 | padding: 10vmin
 | rows: auto
+| cols: 50vw auto
 | 1 1
 | 2 3
 | 4 4 
@@ -1087,10 +1100,12 @@
 
 -
 
-~We know now, that the **sides of a polyhedron are made of polygons**.~ 
 
+<blockquote style="background: none;">
 
-&nbsp;
+  ~We know now, that the **sides of a polyhedron are made of polygons**.~ 
+
+</blockquote>
 
 ~The first one, *Icosahedron*, had **triangular** faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" width="60vw" />, to make the calculations.~ 
 
@@ -1099,7 +1114,7 @@
 1. ~first: **find polygons**, and~ 
 2. ~then: **divide polygons to triangles**~
 
-~But, of course, this extra step is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" width="60vw" />.~ 
+~But, of course, this is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" width="60vw" />.~ 
 
 -
 
@@ -1134,51 +1149,101 @@
 
 
 
-
+| id: tr-thickness
 | padding: 10vmin
+| background: lightergray
 | rows: auto
+| cols: 50vw auto
+| gap: 5vw
 | 1 1
 | 2 3
+| 4 4
 
 
-~We're almost done, but ther's **one more problem** &ndash; which is...~
-# Material thickness
+~We're almost done, but there's **one more problem**...~
 
 -
 
-~If we'd made a nesting box from paper or some other material that has no (or almost almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
+# Material thickness
 
-<blockquote>
+~If we'd made a nesting box from paper or some other material that has none (or almost almost no)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
 
- ~***We have to cut the edges of a polyhedron sides at certain angle***, so that they could fit together. This is where a new object comes to the picture:~
+<blockquote style="background:none;">
 
- ## ***The pyramid***
+ ~We have to cut the edges of material at **certain angle**, so that they could fit together.~
 
 </blockquote>
 
+&nbsp;
+
+<f-next-button />
+
 -
 
-<f-scene class="fullWidthScene" dots>
-  <f-box width="1" height="4" position="-1 0.5" />
+<f-scene responsive style="background:var(--white); box-shadow: 0 0 10px 0 hsla(0, 0%, 0%, 0.2); border-radius: var(--base)" >
+  <!-- <f-box width="1" height="4" position="-1 0.5" />
   <f-box width="4" height="1" position="0.5 -1" />
-  <f-line points="-1.5 -1.5, -0.5 -0.5" />
+  <f-line points="-1.5 -1.5, -0.5 -0.5" /> -->
+  <f-group position="0.5 0.5">
+    <f-line points="-1.5 -1.5, -0.5 -0.5" :stroke="color('red')" />
+    <f-line points="-1.5 2.5, -1.5 -1.5, -0.5 -0.5, -0.5 2.5" closed :position=" '0 ' + get('matOffset') " />
+    <f-line points="2.5 -1.5, -1.5 -1.5, -0.5 -0.5, 2.5 -0.5" closed :position=" get('matOffset') + ' 0' " />
+  </f-group>
 </f-scene>
+
+<f-slider set="matOffset" to="0.5" value="0.1" />
 
 
 ---
 
 
-<!-- ~Once you start to build your nesting box, you may face another problem. Since material has some thickness, you have to cut the edges at a certain angle, in order to fit the sides of a polygons together.~ -->
-
-~Look at this example. Let's use a cube, because this is maybe the most familiar polyhedron and easiest to understand.~
 
 
-<f-slider set="pyraRot" v-on:value=" v => { set('updateMe', v) }" to="180" step="0.1" title="Rotate cube" value="30" />
-<f-slider set="pyraOffset" v-on:value=" v => { set('updateMe', v) }" to="1" step="0.01" title="Open the cube" />
+
+
+
+
+
+
+
+
+| id: tr-pyramids
+| padding: 10vmin
+| rows: auto
+| cols: 50vw auto
+| 1 3
+| 2 3
+
+# The pyramid
 
 -
 
-<f-scene3 class="fullWidthScene" isometric style="position:sticky; top:20vh;" >
+#### Why pyramids?
+
+~If you think of a regular polyhedron, that is made of **solid material** and you want to separate all its sides so, that you end up with **similar congruent pieces**.~
+
+~To achieve this you ***end up with pyramids***, where:~
+
+- ~the **base** of a pyramid **is for the side of polyhedron** and~
+- ~the **tip** of the pyramid is at the **center point of the polyhedron**~
+
+<f-hr />
+
+<small>*We use cube as an example, because it is maybe the most familiar polyhedron and probably easiest to understand. But this stands for all regular polyhedra.*</small>
+
+&nbsp;
+
+<f-next-button />
+
+-
+
+##### <small>Show the pyramids</small>
+<f-slider set="pyraOffset" v-on:value=" v => { set('updateMe', v) }" to="1" step="0.01" />
+
+##### <small>Rotate cube</small>
+<f-slider set="pyraRot" v-on:value=" v => { set('updateMe', v) }" to="180" step="0.1" value="30" />
+
+<f-scene3 responsive isometric style="position:sticky; top:20vh;" >
     <!-- <f-rotation3> -->
     <!-- <f-group3 :rotation=" '0 ' + get('cubeRot', 0) + ' 0' "> -->
     <f-group3 :rotation=" '30 ' + get('pyraRot', 0) + ' 0' " scale="0.8">
@@ -1265,9 +1330,11 @@
 </f-scene3>
 
 
-
-
 ---
+
+
+
+
 
 
 

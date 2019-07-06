@@ -27,7 +27,7 @@
 | padding: 5vmin
 
 
-### Most common regular polyherdra (also known as Platonic solids) are:
+### Most common regular polyherdra ~*(also known as Platonic solids)*~ are:
 
 ### &nbsp;
 

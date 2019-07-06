@@ -21,8 +21,10 @@ For example a polygon with four edges can be divided into two triangles.
 -
 
 <f-scene grid class="fullWidthScene">
-    <Triangle points="-1.5 -0.8, 1 -0.5, -1.2 1.2" :angleMarkers="0" :angleLabels="false" :fill="color('green')" />
-    <Triangle points="1 -0.5, 1.7 0.7, -1.2 1.2" :angleMarkers="0" :angleLabels="false" :fill="color('yellow')" />
+    <f-group rotation="-70">
+      <Triangle points="-1.5 -0.8, 1 -0.5, -1.2 1.2" :angleMarkers="0" :angleLabels="false" :fill="color('green')" />
+      <Triangle points="1 -0.5, 1.7 0.7, -1.2 1.2" :angleMarkers="0" :angleLabels="false" :fill="color('yellow')" />
+    </f-group>
 </f-scene>
 
 ---
@@ -35,9 +37,11 @@ In a different way, the diagonals of a polygon divide the whole shape into trian
 -
 
 <f-scene grid class="fullWidthScene">
+  <f-group rotation="-70">
     <f-line points="-1.5 -0.8, 1.7 0.7" style="stroke-dasharray:0.05 0.07" :stroke="color('blue')" />
     <f-line points="1 -0.5, -1.2 1.2" style="stroke-dasharray:0.05 0.07" :stroke="color('blue')" />
     <f-polygon points="-1.5 -0.8, 1 -0.5, 1.7 0.7, -1.2 1.2" />
+  </f-group>
 </f-scene>
 
 ---
@@ -47,7 +51,7 @@ In a different way, the diagonals of a polygon divide the whole shape into trian
 
 | padding: 5vmin
 
-# Regular polygons
+## Regular polygons
 
 - Regular polygons are polygons with **all sides and angles equal**. 
 - They are **formed by triangles**, usually isosceles.
@@ -105,7 +109,7 @@ Below you'll find some examples of some most common regular polygons <f-arrow-ic
 | 2 4
 | 3 4
 
-# Calculations in regular polygons
+## Calculations in regular polygons
 
 In a regular polygon usually we use the following measures:
 
@@ -128,19 +132,19 @@ As you probably see, these measures **form up a triangle** &ndash; a shape we al
 **In any regular polygon with <f-math inline>n</f-math> sides, if we define the radius <f-math inline purple>r</f-math> that denotes its size, we can estimate the above measures using these formulas:**
 
 1. calculate the **exterior (also central) angle** <f-math inline red>w</f-math>, we do this with a formula 
-<f-math inline>\color{red} w \color{black} = \frac {360}{n}</f-math> 
+<f-math>\color{red} w \color{black} = \frac {360}{n}</f-math> 
 
 2. and **interior angle** <f-math inline green>i</f-math> with 
-<f-math inline>\color{green} i \color{black} = \frac {180(n-2)}{n}</f-math>.
+<f-math>\color{green} i \color{black} = \frac {180(n-2)}{n}</f-math>
 
 3. If we know the **radius** <f-math inline purple>r</f-math>, we can **find length of a side** <f-math inline blue>s</f-math> like that: 
-<f-math inline>\color{blue} s \color{black} = 2 \cdot \color{purple} r \color{black} \cdot sin( \frac {\pi}{n} )</f-math> 
+<f-math>\color{blue} s \color{black} = 2 \cdot \color{purple} r \color{black} \cdot sin( \frac {\pi}{n} )</f-math> 
 
 4. and the **apothem** <f-math inline orange>a</f-math> with 
-<f-math inline>\color{orange} a = \color{purple} r \color{black} \cdot cos( \frac { \pi }{n} )</f-math>
+<f-math>\color{orange} a = \color{purple} r \color{black} \cdot cos( \frac { \pi }{n} )</f-math>
 
 5. And if we know the **length of a side** <f-math inline blue>s</f-math>, and want to find **radius** <f-math inline purple>r</f-math>, we use 
-<f-math inline>\color{purple} r \color{black} = \frac {\color{blue}s\color{black}}{2 \cdot sin(\frac {\pi}{n})}</f-math>
+<f-math>\color{purple} r \color{black} = \frac {\color{blue}s\color{black}}{2 \cdot sin(\frac {\pi}{n})}</f-math>
 
 
 # &nbsp;
@@ -178,5 +182,5 @@ As you probably see, these measures **form up a triangle** &ndash; a shape we al
     <f-text position="1.45 0" :fill="color('blue')">s</f-text>
     <f-text position="0.8 0.1" :fill="color('orange')">a</f-text>
     <f-text position="0.5 0.45" :fill="color('purple')">r</f-text>
-    <f-text position="0 -1" :fill="color('green')">i</f-text>
+    <f-text position="0 -1.1" :fill="color('green')">i</f-text>
 </f-scene>

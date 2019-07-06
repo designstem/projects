@@ -65,19 +65,13 @@ First rule, we have to know, is...
 | padding: 5vmin
 
 
-#### **A** In any triangle if we know angles A and B and want to calculate angle C. 
+#### A. In any triangle if we know angles <f-math inline red>A</f-math> and <f-math inline blue>B</f-math> and want to calculate angle <f-math inline green>C</f-math>. 
 
 -
 
 For example, if we assume that <f-math inline>\color{red} ∠A = 30° \color{black} and \color{blue} ∠B = 50°</f-math> then, since <f-math inline>\color{red} ∠A \color{black} + \color{blue} ∠B \color{black} + \color{green} ∠C \color{black} = 180°</f-math>
 
-<f-math>
-\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B \color{black} ) = 
-\newline 
-180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = 
-\newline 
-180° - 80° = 100°
-</f-math>
+<f-math inline>\color{green} ∠C \color{black} = 180° - ( \color{red} ∠A \color{black} + \color{blue} ∠B \color{black} ) = \newline 180° - ( \color{red} 30° \color{black} + \color{blue} 50° \color{black} ) = \newline 180° - 80° = 100°</f-math>
 
 -
 
@@ -99,7 +93,7 @@ For example, if we assume that <f-math inline>\color{red} ∠A = 30° \color{bla
 | 2 3
 | padding: 5vmin
 
-#### **B** In a isosceles triangle, we know angle A and we want to calculate angles B or C.
+#### B. In a isosceles triangle, we know angle <f-math inline red>A</f-math> and we want to calculate angles <f-math inline blue>B</f-math> or <f-math inline green>C</f-math>.
 
 -
 
@@ -107,9 +101,11 @@ If we know the degrees of angle <f-math inline red>A</f-math> we can calculate a
 
 <f-math inline>\color{blue} ∠B \color{black} or \color{red} ∠C \color{black} = \frac {180 - \color{red} A \color{black} }{2}</f-math>
 
-Example: if <f-math inline red>A=100°</f-math> then 
+**Example:** if <f-math inline red>A=80°</f-math> then 
 
-<f-math inline>\color{blue} B \color{black} = \frac {180° - \color{red} 100° \color{black} }{2} = \frac {80°}{2} = 40°</f-math>
+<f-math inline>\color{blue} B \color{black} = \frac {180° - \color{red} 80° \color{black} }{2} = \frac {100°}{2} = 50°</f-math>
+
+<f-math inline>\color{green} C \color{black} = \color{blue} B</f-math>
 
 -
 
@@ -131,24 +127,26 @@ Example: if <f-math inline red>A=100°</f-math> then
 | 2 3
 | padding: 5vmin
 
-#### **C** In a right triangle we know sides a and b and we want to calculate the third side c.
+#### C. In a right triangle we know sides <f-math inline red>a</f-math> and <f-math inline blue>b</f-math> and we want to calculate the third side <f-math inline green>c</f-math>.
 
 #### &nbsp;
 
 For that we have to know the Theorem of Pythagoras
 
-<blockquote>
+<blockquote style="background: none;">
 <section>
 
 <f-inline>
 
 <f-fact-icon size="large" />
 
-### ~The Theorem of Pythagoras:~
+### The Theorem of Pythagoras:
 
 </f-inline>
 
-#### ~In every orthogonal (right)  triangle with sides a, b and c (A is the right angle) it holds a²=b²+c²~
+~In every right (orthogonal) triangle with sides <f-math inline>a</f-math>, <f-math inline>b</f-math> and <f-math inline>c</f-math> (A is the right angle) it holds~
+
+<f-math>a^2 = b^2 + c^2</f-math>
 
 </section>
 </blockquote> 
@@ -190,7 +188,7 @@ For that we have to know the Theorem of Pythagoras
 | 2 3
 | padding: 5vmin
 
-#### **D** In a isoskeles triangle, we know all the sides and we want to calculate the height from angle A
+#### D. In a isoskeles triangle, we know all the sides and we want to calculate the height from angle <f-math inline red>A</f-math>
 
 -
 
@@ -224,4 +222,3 @@ The height <var class="purple">h</var> is estimated by
 </f-scene>
 
 ---
-

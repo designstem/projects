@@ -22,7 +22,7 @@ Triangles derive when we join three lines together.
 **In every triangle we distinguish 3 angles** and **3 sides**.
 
 - Angles are measured **in degrees**. 
-- We mark angles with uppercase letters <br />**A**, **B** and **C** 
+- We mark angles with uppercase letters **A**, **B** and **C** 
 
 - The length of the sides is measured in cm, inches, pixels etc 
 - We mark sides with lowercase letters **a**, **b** and **c**.
@@ -50,9 +50,9 @@ Triangles derive when we join three lines together.
   </f-group>
 
   <f-group position="0 0">
-    <f-text :fill="color('green')" position="-1.5 0">a</f-text>
-    <f-text :fill="color('green')" position="0.3 -0.8">b</f-text>
-    <f-text :fill="color('green')" position="0.1 1.2">c</f-text>
+    <f-text :fill="color('green')" position="-1.5 -0.1">a</f-text>
+    <f-text :fill="color('green')" position="0.3 -0.9">b</f-text>
+    <f-text :fill="color('green')" position="0.1 1.1">c</f-text>
   </f-group>
 </f-scene>
 
