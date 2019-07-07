@@ -28,9 +28,9 @@ export default{
           default: 1, type: Number
         },
         angleLabels: {
-            type: Boolean,
+            type: [Array, Boolean],
             required: false,
-            default: true
+            default: () => ["A", "B", "C"]
         },
         angleMarkers: {
             type: Number,
@@ -146,10 +146,10 @@ export default{
       </g>
       <f-line :points="points" :fill="fill" :stroke-width="strokeWidth" closed />
       <f-group v-if="angleLabels" rotation="-90">
-          <f-text v-for="(t,i) in ['A', 'B', 'C']" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;" :fill="color('blue')">{{t}}</f-text>
+          <f-text v-for="(t,i) in angleLabels" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;" :fill="color('blue')">{{t}}</f-text>
       </f-group>
       <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
-        <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in ['A', 'B', 'C']" x="0" :y="i * 0.35" style="user-select: none;pointer-events: none;">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
+        <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in angleLabels" x="0" :y="i * 0.35" style="user-select: none;pointer-events: none;">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
       </f-group>
     </g>
   `

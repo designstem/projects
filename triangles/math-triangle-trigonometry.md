@@ -5,7 +5,13 @@
 
 Sometimes we don't know the length of two sides or two angles in a triangle. This is where trigonometry comes to help us. 
 
-Trigonometry is about right-angled triangles, where one of the internal angles is 90°. It is a system that helps us to work out missing sides or angles in a triangle.
+<blockquote style="background: none;">
+  <section>
+
+  ~**Trigonometry** is about right-angled triangles, where one of the internal angles is 90°. It  **helps us to work out missing sides or angles in a triangle**.~
+  
+  </section>
+</blockquote>
 
 
 #### ~Use of trigonometric functions to combine angles and sides in right triangles.~
@@ -70,6 +76,10 @@ The actual value of angle B in degrees derives from the inverse function. For ex
 
 ---
 
-# &nbsp;
 
-***TODO: more options to calculate sides and angles w trig. functions? SOH-CAH-TOA concept maybe?***
+
+| padding: 5vmin
+
+<f-hr />
+
+More content will be added

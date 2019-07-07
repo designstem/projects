@@ -16,7 +16,7 @@ fachwerk({
     // "Hedron": Hedron
   },
   src: "index.md",
-  // src: "math-polygon.md",
+  // src: "math-pyramid.md",
   theme: "light",
   pager: true,
   home: false,

@@ -690,7 +690,7 @@
   <f-group v-for="(t,i) in range( 1, get('polySides', 3) )" :key="'tr'+i" :rotation="i*(360/get('polySides', 3))">
     <Triangle 
       :points="[ [0,0], polarxy( 360/get('polySides', 3)*-0.5, 1.5), polarxy( 360/get('polySides', 3)*0.5, 1.5) ]" 
-      :angleLabels="i==0 ? true : false" 
+      :angleLabels="i==0 ? ['A', 'B', 'C'] : false" 
       :angleInfo="i==0 ? true : false"
       :opacity="i==0 ? 1 : 0.25"
       :fill="color('yellow')" 
@@ -1046,7 +1046,7 @@
 ##### <small>Rotate cube</small>
 <f-slider set="pyraRot" v-on:value=" v => { set('updateMe', v) }" to="180" step="0.1" value="30" />
 
-<f-scene3 responsive isometric style="position:sticky; top:20vh;" >
+<f-scene3 responsive isometric >
     <!-- <f-rotation3> -->
     <!-- <f-group3 :rotation=" '0 ' + get('cubeRot', 0) + ' 0' "> -->
     <f-group3 :rotation=" '30 ' + get('pyraRot', 0) + ' 0' " scale="0.8">
@@ -1145,14 +1145,14 @@
 
 | padding: 10vmin
 | rows: auto
-| gap: 0
-| 1 1 1 1
-| 2 3 4 5
-| 6 6 6 6
+| cols: 40vw auto
+| 1 2 3
+| 1 4 5
+
 
 # Pyramid
 
--
+&nbsp;
 
 <blockquote style="background: none;">
 
@@ -1160,9 +1160,21 @@
 
 </blockquote>
 
+~In our case we deal with **regular pyramids**, where apex is exactly above the **center of the base**.~
+
+&nbsp;
+
+<f-sidebar src="math-pyramid.md" title="MOre about pyramids" width="60vw" overlay>
+  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">How to solve the pyramids<f-arrow-icon rotation="-45" /></a>
+</f-sidebar>
+
+## &nbsp;
+
+<f-next-button />
+
 -
 
-<f-scene3 responsive isometric static grid>
+<f-scene3 responsive isometric static>
   <f-group3 rotation="-70 0 20" scale="1.7" position="0.3 0 0">
       <f-hedron3 
             :count="3" 
@@ -1178,7 +1190,7 @@
 -
 
 <div style="position:relative;">
-<f-scene3 responsive isometric static grid>
+<f-scene3 responsive isometric static>
   <f-group3 rotation="-70 0 20" scale="1.7" position="0 -1 0" >
       <!-- <f-line3 points="0.6 -0.55 0, 0 0 0, 0 0 1.45" :stroke="color('black')" /> -->
       <f-hedron3 
@@ -1197,8 +1209,8 @@
 
 -
 
-<f-scene3 responsive isometric static grid>
-  <f-group3 rotation="-70 0 20" scale="1.7">
+<f-scene3 responsive isometric static>
+  <f-group3 rotation="-70 0 20" scale="1.6">
       <f-hedron3 
             :count="5" 
             :height="1.5" 
@@ -1212,8 +1224,18 @@
 
 -
 
-<f-next-button />
-
+<f-scene3 responsive isometric static>
+  <f-group3 rotation="-70 0 20" scale="1.6">
+      <f-hedron3 
+            :count="6" 
+            :height="1.5" 
+            position="0 0 -0.6" 
+            :r="1.2"
+            :strokeWidth="0"
+            opacity="0.75"
+      />
+    </f-group3>
+</f-scene3>
 
 ---
 
