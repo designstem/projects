@@ -58,226 +58,7 @@
 ---
 
 
-| 1 2
-| 3 4
 
-<f-scene class="fullWidthScene" v-for="(p,i) in [ {s:6, r:1.5} ]" :key="'polygon'+i" >
-    <!-- <f-group v-for="(l,j) in 2" :key="'l'+j">
-      <f-line x1="0" y1="0" :x2="polarx(360/p.s, p.r)" :y2="polary(360/p.s, p.r)" strokeWidth="2" :stroke="color('darkgray')" :rotation="(360/p.s)*j" />
-    </f-group> -->
-    <f-arc 
-      :start-angle="solvePolygon(p.s, p.r).w * 0.5" 
-      :end-angle="solvePolygon(p.s, p.r).w * -0.5" 
-      :fill="color('red')" opacity="0.7"
-      strokeWidth="1" r="0.3" inner-radius="0" rotation="90" />
-    <f-arc 
-      :start-angle="0" 
-      :end-angle="solvePolygon(p.s, p.r).interior" 
-      :fill="color('green')" opacity="0.7"
-      strokeWidth="1" r="0.3" inner-radius="0" rotation="180"
-      :position=" `${polarx(360/p.s, p.r)} ${polary(360/p.s, p.r)}` "
-       />
-    <f-line x1="0" y1="0" 
-      :x2="polarx(solvePolygon(p.s, p.r).w, solvePolygon(p.s, p.r).h )" 
-      :y2="polary(solvePolygon(p.s, p.r).w, solvePolygon(p.s, p.r).h )" 
-      strokeWidth="1" :stroke="color('darkgray')" stroke-dasharray="0.03" :rotation="solvePolygon(p.s, p.r).w * 0.5" />
-    <f-regularpolygon :count="p.s" :r="p.r" :stroke="color('gray')" />
-    <f-polygon :points=" '0 0,' + polarx(0, p.r) + ' ' + polary(0, p.r) + ', ' + polarx(360/p.s, p.r) + ' ' + polary(360/p.s, p.r)" :rotation="solvePolygon(p.s, p.r).w" />
-    <f-text position="-0.15 0" :fill="color('red')">w</f-text>
-    <f-text position="1.45 0" :fill="color('blue')">s</f-text>
-    <f-text position="0.8 0.1" :fill="color('orange')">a</f-text>
-    <f-text position="0.5 0.45" :fill="color('purple')">r</f-text>
-    <f-text position="1.42 -0.9" :fill="color('green')">i</f-text>
-</f-scene>
-
--
-
-
-
-
-<f-scene3 isometric class="fullWidthScene">
-  <f-group3 :rotation=" '10 ' + get('cubeRot', 12) + ' 0' " :scale="1.5">
-    <f-hedron3 
-      :count="4" 
-      :height="0.5" 
-      rotation="-90 0 45" 
-      scale="0.68 0.68 1" 
-      position="0 -0.5 0"
-      :shading="false"
-      :fill="color('yellow')"
-    />
-    <f-polyhedron3 hedron="Cube" :r="1" opacity="0.1" :shading="true"  />
-    <!-- <f-line3 points=" -0.5 -0.5 0.5, 0 0 0 " :stroke="color('black')" />
-    <f-line3 points=" 0.5 -0.5 0.5, 0 0 0 " :stroke="color('black')" />
-    <f-line3 points=" -0.5 -0.5 -0.5, 0 0 0 " :stroke="color('black')" />
-    <f-line3 points=" 0.5 -0.5 -0.5, 0 0 0 " :stroke="color('black')" /> -->
-  </f-group3>
-  <!-- <Hedron hedron="Dodecahedron" /> -->
-</f-scene3>
-
-<f-slider set="cubeRot" from="0" to="360" value="30" step="0.1" />
-
--
-
-<f-scene3 class="fullWidthScene" isometric >
-    <!-- <f-rotation3> -->
-    <!-- <f-group3 :rotation=" '0 ' + get('cubeRot', 0) + ' 0' "> -->
-    <f-group3 :rotation=" '30 ' + get('cubeRot', 0) + ' 0' " scale="0.8">
-    <!-- <f-polyhedron3 hedron="Cube" :r="1" wireframe :scale="2" opacity="0" :fill="color('yellow')" :shading="true"  /> -->
-      <!-- first pair  -->
-      <f-group3>
-        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
-          <f-hedron3 
-              :count="4" 
-              :height="1" 
-              position="0 0 -1" 
-              :r="1.4142"
-              :strokeWidth="0"
-              :fill="color('blue')"
-              :shading="false"
-            />
-        </f-group3>
-        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
-          <f-hedron3 
-              :count="4" 
-              :height="1" 
-              position="0 0 -1"
-              :r="1.4142" 
-              :strokeWidth="0"
-              :fill="color('blue')"
-              :shading="false"
-            />
-        </f-group3>
-      </f-group3>
-      <!-- second pair  -->
-      <f-group3 rotation="90 0 0">
-        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
-          <f-hedron3 
-              :count="4" 
-              :height="1" 
-              position="0 0 -1" 
-              :r="1.4142"
-              :strokeWidth="0"
-              :fill="color('green')"
-              :shading="false"
-            />
-        </f-group3>
-        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
-          <f-hedron3 
-              :count="4" 
-              :height="1" 
-              position="0 0 -1"
-              :r="1.4142" 
-              :strokeWidth="0"
-              :fill="color('green')"
-              :shading="false"
-            />
-        </f-group3>
-      </f-group3>
-       <!-- third pair  -->
-      <f-group3 rotation="0 90 0">
-        <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
-          <f-hedron3 
-              :count="4" 
-              :height="1" 
-              position="0 0 -1" 
-              :r="1.4142"
-              :strokeWidth="0"
-              :fill="color('yellow')"
-              :opacity="1"
-              :shading="false"
-            />
-        </f-group3>
-        <f-group3 rotation="0 180 45" :position="'0 0 ' + get('pyraOffset', 0) + ' '">
-          <f-hedron3 
-              :count="4" 
-              :height="1" 
-              position="0 0 -1"
-              :r="1.4142" 
-              :strokeWidth="0"
-              :fill="color('yellow')"
-              :opacity="1"
-              :shading="false"
-            />
-        </f-group3>
-      </f-group3>
-    </f-group3>
-  <!-- </f-rotation3> -->
-</f-scene3>
-
-<f-slider set="pyraOffset" v-on:value=" v => { set('updateMe', v) }" to="1" step="0.01" />
-
--
-
-## H'r
-
-<!-- <f-scene>
-  <defs>
-    <marker id="arrowhead" viewBox="-0.5 -0.5 1 1" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <circle r="1" fill="red" />
-    </marker>
-  </defs>
-
-  <f-box r="4" />
-
-  <polyline points="0,0 0,1.5 1.5,1.5 1.5,-0.5 -0.5,-0.5 -0.5,-1 0,-1" fill="none" stroke="#000" stroke-width="0.1" marker-end="url(#arrowhead)" marker-start="url(#arrowhead)" marker-mid="url(#arrowhead)" />
-
-  <use xlink:href="./components/SVG-utils.svg#arrowhead" />
-</f-scene> -->
-
-
-<f-scene grid responsive>
-  <defs>
-    <marker id="arrow" markerWidth="6" markerHeight="6" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L6,3 z" :fill="color('red')" />
-    </marker>
-    <marker id="circle" markerWidth="6" markerHeight="6" refX="3" refY="3" markerUnits="strokeWidth">
-      <circle cx="3" cy="3" r="3" stroke="none" :fill="color('red')" />
-    </marker>
-  </defs>
-  <f-line points="0 0, 0 1.5, -1 0.5, 0 -1.5, 1 0, 1 0.5" marker-end="url(#arrow)" marker-start="url(#circle)" marker-mid="url(#circle)" />
-</f-scene>
-
-
-
----
-
-
-
-
-
-
-
-
-<f-slider from="0" to="1" set="pHeight" value="1"  />
-{{ get('pHeight', 1) }}
-<f-scene3 isometric class="fullWidthScene crisp">
-  <f-group3 rotation="-70 0 30" :scale="{ x:1, y:1, z:get('pHeight',1)}">
-    <f-regularpolygon3 :count="3" stroke :fill="color('blue')" />
-    <f-group3 v-for="(t,i) in 3" :key="'tr'+i" :rotation=" {z:360/3*i} " >
-      <f-triangle3 :points="[ [0,0,get('pHeight', 1)], [polarx(0, 1),polary(0, 1),0], [polarx(360/3, 1),polary(360/3, 1),0] ]" opacity="0.5" />
-    </f-group3>
-  </f-group3>
-</f-scene3>
-
--
-
-<f-scene3 isometric class="fullWidthScene crisp" static  >
-  <f-group3 rotation="-70 0 30" :scale="{ x:1, y:1, z:get('pHeight',1)}">
-    <f-regularpolygon3 :count="5" stroke :fill="color('green')" />
-    <f-group3 v-for="(t,i) in 5" :key="'tr'+i" :rotation=" {z:360/5*i} " >
-      <f-triangle3 :points="[ [0,0,get('pHeight', 1)], [polarx(0, 1),polary(0, 1),0], [polarx(360/5, 1),polary(360/5, 1),0] ]" opacity="0.6" />
-    </f-group3>
-  </f-group3>
-  <f-group3 rotation="-70 0 30" :scale="{ x:1, y:1, z:-get('pHeight',1)}">
-    <f-regularpolygon3 :count="5" stroke :fill="color('green')" />
-    <f-group3 v-for="(t,i) in 5" :key="'tr'+i" :rotation=" {z:360/5*i} " >
-      <f-triangle3 :points="[ [0,0,get('pHeight', 1)], [polarx(0, 1),polary(0, 1),0], [polarx(360/5, 1),polary(360/5, 1),0] ]" opacity="0.6" />
-    </f-group3>
-  </f-group3>
-</f-scene3>
-
----
 
 
 
@@ -364,7 +145,8 @@
 | padding: 10vmin
 | 1 1
 | 2 3
-| rows: auto auto
+| rows: auto
+| cols: 40% auto
 
 
 <h3>🙋‍<sup><sup>💬</sup></sup><span style="font-family:var(--font-serif); font-weight:400;font-style:italic;font-size:70%;">Do these birds absolutely HAVE TO live inside a polyhedron?</span></h3>
@@ -375,23 +157,28 @@
 
 <!-- A nesting box, as such, doesn't have to be a polyhedron, there are other options too.  -->
 
-## ...so why are we making one?
+### ...so why are we making one?
 
-> Let's think of our nesting box as a **small-scale model to solve much bigger problems**.👉
 
-#### &nbsp;
+<blockquote style="background: none;">
+  <section>
+
+  ~Let's think of our nesting box as a **small-scale model to solve much bigger problems**.👉~
+  
+  </section>
+</blockquote>
+
+##### &nbsp;
 
 <f-next-button />
 
 -
 
-### A few examples: 
+#### A few examples: 
 
 - ~People who are suffering from natural disasters or war zones all over the world often need quick shelter. Some of the most efficient solutions for such constructions are based on <a href="https://www.beale.af.mil/News/Article-Display/Article/948494/beale-airmen-make-a-difference-for-homeless-veterans/" target="_blank">polyhedral design</a>.~
 - ~Once we go to Mars (or camping), we might need lightweight and quick- or autoassembled and modular <a href="https://www.geek.com/news/nasa-reveals-top-three-designs-for-space-friendly-homes-on-mars-1781096/" target="_blank">solutions for housing</a>~
 - ~And last but not least – the <a href="https://www.archdaily.com/883389/prefab-pop-up-shelter-designed-for-burning-man-and-perfected-for-disaster-relief" target="_blank">Burning Man Festival</a> – which takes us back to the first point.~
-
-***TODO: more / better examples***
 
 ---
 
@@ -442,7 +229,6 @@
 
 <f-next-button />
 
-
 ---
 
 
@@ -489,7 +275,6 @@
 | 4 4
 | rows: auto 
 
-
 # Geometry behind the nesting box
 
 ~For designing and building a solid polyhedral object you have to:~
@@ -527,7 +312,6 @@
 | 2 3 4
 | 5 5 5
 
-
 ## Simplifying the polyhedra
 
 -
@@ -556,7 +340,7 @@
 
 <f-scene3 isometric class="fullWidthScene crisp" static>
   <f-group3 rotation="10 30 15" scale="1.5">
-  <f-polyhedron3 hedron="Cube" scale="1" opacity="0.4" :fill="color('gray')" :shading="false" />
+  <f-polyhedron3 hedron="Cube" scale="1" opacity="0.4" :fill="color('gray')" :shading="true" />
   
   <f-polygon3
     points="
@@ -617,7 +401,7 @@
 <f-scene3 isometric class="fullWidthScene crisp" static>
 
   <f-group3 rotation="10 30 15" scale="1.5">
-  <f-polyhedron3 hedron="Cube" scale="1" opacity="0.2" :fill="color('gray')" :shading="false" />
+  <f-polyhedron3 hedron="Cube" scale="1" opacity="0.2" :fill="color('gray')" :shading="true" />
     <f-polygon3 v-for="(p,i) in 4"
     :key="'triangle'+i"
     points="
@@ -649,8 +433,8 @@
 
 <f-next-button />
 
-
 ---
+
 
 
 
@@ -662,19 +446,24 @@
 
 | id: tr-triangles
 | padding: 10vmin
-| cols: 60vw auto
+| cols: 50vw auto
 | rows: auto auto auto
 | height: 100vh
 | 1 1
 | 2 3 
 | 4 4
 
-
 # Let’s start with triangles!
 
 -
 
-~**Triangle is the basic element** that polygons and polyhedra are made of.~
+<blockquote style="background:none;">
+  <section>
+
+  ~**Triangle is the basic element** that polygons and polyhedra are made of.~
+  
+  </section>
+</blockquote>
 
 ~So let’s see, what type of triangles exist and what kind of relations exist between triangle’s sides and angles, that we can use in our project.~
 
@@ -689,7 +478,6 @@
 
 <f-next-button title="Next: Geometry of triangles" />
 
-
 ---
 
 
@@ -703,7 +491,6 @@
 | 1 1 1
 | 2 3 4
 | 5 5 5
-
 
 # Geometry of triangles <sup><sup>📐</sup></sup>
 
@@ -761,20 +548,19 @@
 
 # Polygons
 
-
 -
 
-<blockquote>
+<blockquote style="background: none;">
+  <section>
 
-  A polygon is any 2-dimensional shape **formed with straight lines**.
-
+  ~**A polygon is any 2-dimensional shape formed with straight lines**.~
+  
+  </section>
 </blockquote>
-
-&nbsp; 
 
 ~Polygons can be of any shape, but we concentrate on the ***regular polygons***, because **those form the sides of regular polyhedra**, we are interested in.~
 
-<small>*By the way, the equilateral triangle itself is the simplest regular polygon.*</small>
+<small style="color: var(--gray)">*By the way, the equilateral triangle itself is the simplest regular polygon.*</small>
 
 ~So, in order to build a polyhedron, let’s first get familiar with it’s sides – **the polygons**.~
 
@@ -798,9 +584,14 @@
   <f-regularpolygon  count="7" scale="0.6" position="-1.2 -1.2" rotation="0" />
 </f-scene>
 
-
-
 ---
+
+
+
+
+
+
+
 
 
 
@@ -845,7 +636,6 @@
 
 -
 
-
 <center>
 
   <f-arrow-icon rotation="-90" /> Click on a polygon to see the answers <f-arrow-icon rotation="-90" />
@@ -857,6 +647,8 @@
 <f-next-button />
 
 ---
+
+
 
 
 
@@ -880,9 +672,9 @@
 
 ~Since we already are familiar with triangles and how to solve them, **we can use triangles to solve the polygons**, too.~
 
-### &nbsp;
+&nbsp;
 
-### Here is how:
+#### Here is how:
 
 <f-sidebar src="math-polygon.md" title="How to solve polygons" width="60vw" overlay>
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Polygons and how to solve them <f-arrow-icon rotation="-45" /></a>
@@ -909,8 +701,10 @@
 
 <f-slider set="polySides" from="3" to="12" integer value="3" title="Number of sides" />
 
-
 ---
+
+
+
 
 
 
@@ -951,6 +745,14 @@
 &nbsp;
 
 ---
+
+
+
+
+
+
+
+
 
 
 
@@ -1018,6 +820,10 @@
 
 
 
+
+
+
+
 | padding: 10vmin
 | rows: auto
 | height: 100vh
@@ -1079,10 +885,10 @@
     </f-group3>
 </f-scene3> -->
 
-
-
-
 ---
+
+
+
 
 
 
@@ -1095,11 +901,9 @@
 | 2 3
 | 4 4 
 
-
 # Simplification of polyhedron
 
 -
-
 
 <blockquote style="background: none;">
 
@@ -1107,9 +911,9 @@
 
 </blockquote>
 
-~The first one, *Icosahedron*, had **triangular** faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" width="60vw" />, to make the calculations.~ 
+- ~The first one, *Icosahedron*, had **triangular** faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" width="60vw" />, to make the calculations.~ 
 
-~The second one, *Dodecahedron*, was a bit more complicated, because its sides are **polygons** *(pentagons)*, so you need an **extra step**:~
+- ~The second one, *Dodecahedron*, was a bit more complicated, because its sides are **polygons** *(pentagons)*, so you need an **extra step**:~
 
 1. ~first: **find polygons**, and~ 
 2. ~then: **divide polygons to triangles**~
@@ -1121,7 +925,7 @@
 <f-scene3 isometric static :key="get('ph2Focus')" responsive v-on:mousedown.native="()=>{set('ph2Focus', false); }" v-on:mouseup.native="()=>{set('ph2Focus', true);}">
   <f-group3 :rotation=" '60 0 0' " scale="1.3">
     <f-group3 rotation="-58 0 0" position="0 0 0" >
-      <f-regularpolygon3 :count="5" position="0 0 1.2" :fill="color('yellow')" :shading="false" :strokeWidth="3"  opacity="0.8" :r="get('ph2Focus', true) ? 0.76 : 0.82" />
+      <f-regularpolygon3 :count="5" position="0 0 1.2" :fill="color('yellow')" :shading="false" :strokeWidth="3"  opacity="1" :r="get('ph2Focus', true) ? 0.76 : 0.82" />
     </f-group3>
     <f-group3 rotation="-58 0 -144" :position="get('ph2Focus', true) ? '0 0 0' : '0 0 0.1'" >
       <f-regularpolygon3 :count="3" position="0 0.45 1.4" :fill="color('yellow')" :shading="false" :strokeWidth="3"  opacity="1" :r="get('ph2Focus', true) ? 0.5 : 0.6" scale="1 0.7 1" />
@@ -1130,7 +934,7 @@
     <!-- <f-group3 rotation="-90 0 0" position="0 0 0" >
       <f-polygon3 :points=" '0,0 ' + polarx(-36/5, 1) + ',' + polary(-36, 1) + ' ' + polarx(36, 1) + ',' + polary(36,1)  " position="0 -1 1.4" :fill="color('yellow')" :strokeWidth="0"  />
     </f-group3> -->
-    <f-polyhedron3 hedron="Dodecahedron"  :opacity="get('ph2Focus', true) ? 1 : 0.2" :r="1.258" />
+    <f-polyhedron3 hedron="Dodecahedron"  opacity="1" :r="1.258" />
   </f-group3>
 </f-scene3>
 
@@ -1138,8 +942,9 @@
 
 <f-next-button title="Next: Is thats all?" />
 
-
 ---
+
+
 
 
 
@@ -1158,7 +963,6 @@
 | 1 1
 | 2 3
 | 4 4
-
 
 ~We're almost done, but there's **one more problem**...~
 
@@ -1193,7 +997,6 @@
 
 <f-slider set="matOffset" to="0.5" value="0.1" />
 
-
 ---
 
 
@@ -1211,16 +1014,16 @@
 | padding: 10vmin
 | rows: auto
 | cols: 50vw auto
-| 1 3
+| 1 1
 | 2 3
 
-# The pyramid
+# Why pyramids?
 
 -
 
-#### Why pyramids?
+~If you imagine of a regular polyhedron, that is made of **solid material** and you want to separate all its sides so, that you end up with **similar congruent pieces**.~
 
-~If you think of a regular polyhedron, that is made of **solid material** and you want to separate all its sides so, that you end up with **similar congruent pieces**.~
+&nbsp;
 
 ~To achieve this you ***end up with pyramids***, where:~
 
@@ -1229,7 +1032,7 @@
 
 <f-hr />
 
-<small>*We use cube as an example, because it is maybe the most familiar polyhedron and probably easiest to understand. But this stands for all regular polyhedra.*</small>
+<small>*We use **cube as an example**, because it is maybe the most familiar polyhedron and probably easiest to understand. But this stands for all regular polyhedra.*</small>
 
 &nbsp;
 
@@ -1329,8 +1132,98 @@
   <!-- </f-rotation3> -->
 </f-scene3>
 
+---
+
+
+
+
+
+
+
+
+
+
+| padding: 10vmin
+| rows: auto
+| gap: 0
+| 1 1 1 1
+| 2 3 4 5
+| 6 6 6 6
+
+# Pyramid
+
+-
+
+<blockquote style="background: none;">
+
+  ~Pyramid is a polyhedron formed by connecting a **polygonal base** and a point, called the **apex**.~
+
+</blockquote>
+
+-
+
+<f-scene3 responsive isometric static grid>
+  <f-group3 rotation="-70 0 20" scale="1.7" position="0.3 0 0">
+      <f-hedron3 
+            :count="3" 
+            :height="1.5" 
+            position="0 0 -0.6" 
+            :r="1.2"
+            :strokeWidth="0"
+            opacity="0.75"
+      />
+    </f-group3>
+</f-scene3>
+
+-
+
+<div style="position:relative;">
+<f-scene3 responsive isometric static grid>
+  <f-group3 rotation="-70 0 20" scale="1.7" position="0 -1 0" >
+      <!-- <f-line3 points="0.6 -0.55 0, 0 0 0, 0 0 1.45" :stroke="color('black')" /> -->
+      <f-hedron3 
+            :count="4" 
+            :height="1.5" 
+            :r="1.2"
+            :strokeWidth="0"
+            opacity="0.5"
+      />
+    </f-group3>
+</f-scene3>
+<!-- <f-scene responsive style="position:absolute; top:0; left:0;">
+  <f-text position="0 1.6">APEX</f-text>
+</f-scene> -->
+</div>
+
+-
+
+<f-scene3 responsive isometric static grid>
+  <f-group3 rotation="-70 0 20" scale="1.7">
+      <f-hedron3 
+            :count="5" 
+            :height="1.5" 
+            position="0 0 -0.6" 
+            :r="1.2"
+            :strokeWidth="0"
+            opacity="0.75"
+      />
+    </f-group3>
+</f-scene3>
+
+-
+
+<f-next-button />
+
 
 ---
+
+
+
+
+
+
+
+
 
 
 
