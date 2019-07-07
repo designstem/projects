@@ -1006,6 +1006,51 @@
 
 
 
+| background: lightergray
+| padding: 10vmin
+| rows: auto
+| 1 1
+| 2 3
+
+
+# Dihedral angle
+
+-
+
+<blockquote style="background: none">
+
+  ~**The angle between polyhedron sides is called Dihedral angle**~
+  
+</blockquote>
+
+&nbsp;
+
+~We have to cut our material at the angle that is **half of the dihedral angle**~
+
+~**Why half?**~
+
+~Let's look **inside of a polyhedron**, where we will find...~
+
+## &nbsp;
+
+<f-next-button title="Pyramids" />
+
+-
+
+##### Dihedral angles of regular polyhedra
+
+<f-table :rows="[
+{ polyhedron: 'Tetrahedron', 'dihedral angle': '70.53°' },
+{ polyhedron: 'Cube', dihedral: '90°' },
+{ polyhedron: 'Octahedron', dihedral: '109.47°' },
+{ polyhedron: 'Dodecahedron', dihedral: '116.57°' },
+{ polyhedron: 'Icosahedron', dihedral: '138.19°' }]"/>
+
+
+
+
+---
+
 
 
 
@@ -1032,7 +1077,7 @@
 
 <f-hr />
 
-<small>*We use **cube as an example**, because it is maybe the most familiar polyhedron and probably easiest to understand. But this stands for all regular polyhedra.*</small>
+<small>*We use **cube as an example**, because it is maybe the most familiar polyhedron and probably easiest to understand. But **the same stands for all regular polyhedra**.*</small>
 
 &nbsp;
 
@@ -1160,7 +1205,7 @@
 
 </blockquote>
 
-~In our case we deal with **regular pyramids**, where apex is exactly above the **center of the base**.~
+~In our case we deal with **regular pyramids**, where the base is **regular polygon** and apex is exactly above the **center of the base**.~
 
 &nbsp;
 
@@ -1244,6 +1289,11 @@
 
 
 
+| padding: 10vmin
+
+<f-hr />
+
+Conclusion and final touches will be added 
 
 
 
@@ -1251,30 +1301,6 @@
 
 
 
-
-
-
-| padding: 10vh 10vw
-
-# How to calculate the dihedral angles
-
-CALCULATING ANGLES IN PYRAMIDS
-
----
-
-
-
-| padding: 10vh 10vw
-
-# Dihedral angle
-
-The angle between two sides of a polygon is called the dihedral angle.
-
-EXPLORE
-
-COMPOUND MITER CALCULATOR
-
----
 
 
 

@@ -22,7 +22,7 @@
 
 #### An example
 
-~Pyramid **ABCD.T** is a **right square pyramid**.~
+~Pyramid **ABCD.T** is a **right square pyramid**. Let's say that with base side length <f-math inline>BC = 11</f-math> and height <f-math inline>TS = 7</f-math>~
 
 ### 1. 
 
@@ -38,19 +38,21 @@
 
   ~**These lines and pyramid height form a right triangle**~
 
-  <f-inline>
+  <!-- <f-inline>
 
   <f-slider to="1" value="0" :value="get('pyrTr', 0)" style="width:60px; border:1px solid var(--gray); border-radius:18px; padding: 0 8px; box-shadow: 0 1px 5px 0 hsla(0, 0%, 0%, 0.3); background:var(--lightblue) " integer v-on:click.native="get('pyrTr') == 1 ? set('pyrTr', 0) : set('pyrTr', 1)" />
 
   <small>**{{ get('pyrTr') == 1 ? 'Hide' : 'Show' }} the triangle in pyramid**</small>
 
-  </f-inline>
+  </f-inline> -->
 
 </blockquote>
 
 ~**BC** is the edge of the two faces~
   
 ~**TM** is perpendicular to **BC** and **MS** is also perpendicular to **BC**.~
+
+~**TSM** is a **right-angled triangle** from which we know **two sides**.~
 
 -
 
@@ -62,16 +64,14 @@
       :height="1.2" 
       :r="1.2"
       :strokeWidth="0"
-      :opacity="get('pyrTr') == 1 ? 0.3 : 0.5"
+      opacity="0.4"
       rotation="-70 0 0"
       :fill="color('green')"
       :shading="false"
     />
     <f-triangle3 
-      v-if="get('pyrTr')"
       points="0.83 0 0, 0 0 0, 0 0 1.2" :fill="color('blue')" rotation="-70 0 -45" opacity="0.8" />
     <f-hedron3 
-      v-if="get('pyrTr')"
       strokeWidth="0"
       :fill="color('darkblue')"
       :shading="false"
@@ -87,14 +87,15 @@
 </f-scene3>
 <f-scene responsive style="position:absolute; top:0; left:0; width:100%; height:auto;">
   <f-text position="0.1 1.1">T</f-text>
-  <f-group :opacity="get('pyrTr') == 1 ? 0.6 : 1">
-  <!-- <f-group> -->
+  <!-- <f-group :opacity="get('pyrTr') == 1 ? 0.6 : 1"> -->
+  <f-group>
     <f-text position="-1.8 -1.3">A</f-text>
     <f-text position="0.2 -1.88">B</f-text>
     <f-text position="1.8 -1.3">C</f-text>
     <f-text position="-0.3 -0.3">D</f-text>
     </f-group>
-  <f-group v-if="get('pyrTr')">
+  <!-- <f-group v-if="get('pyrTr')"> -->
+  <f-group>
     <f-text position="-0.1 -1 0">S</f-text>
     <f-text position="1.1 -1.55">M</f-text>
   </f-group>
@@ -108,7 +109,7 @@
 
 
 
-| padding: 0 5vmin
+| padding: 5vmin
 | cols: 60% auto
 | 1 1
 | 2 3
@@ -117,11 +118,9 @@
 
 -
 
-~**TSM** is a **right-angled triangle** from which we know **two sides**.~
+~One of its sides <f-math inline>(TS)</f-math> is equal to pyramid height and the other one <f-math inline>(SM)</f-math> is half of the base width. So <f-math inline blue>TS = 7</f-math> and <f-math inline green>SM = \frac{11}{2} = 5.5</f-math>~
 
-~Let's say that length of <f-math inline blue>TS = 7</f-math> and <f-math inline green>SM = 5.5</f-math>~
-
-~The angle <f-math inline red>M</f-math> is the **angle between side BCT and base ABCD**~
+~We want to find the angle <f-math inline red>M</f-math> &ndash; which is the same as the **angle between pyramids side <f-math inline>BCT</f-math> and base <f-math inline>ABCD</f-math>**~
 
 <f-math inline>\tan(\color{red}M\color{black}) = \frac {\color{blue}opposite}{\color{green}adjascent} \color{black} = \tan(1.27)</f-math>
 
