@@ -122,7 +122,7 @@
 
 ~We want to find the angle <f-math inline red>M</f-math> &ndash; which is the same as the **angle between pyramids side <f-math inline>BCT</f-math> and base <f-math inline>ABCD</f-math>**~
 
-<f-math inline>\tan(\color{red}M\color{black}) = \frac {\color{blue}opposite}{\color{green}adjascent} \color{black} = \tan(1.27)</f-math>
+<f-math inline>\tan(\color{red}M\color{black}) = \tan \big( \frac {\color{blue}opposite}{\color{green}adjascent}  \color{black} \big) = \tan \big( \frac {\color{blue}7}{\color{green}5.5} \color{black} \big) = \tan(1.27)</f-math>
 
 so <f-math inline red>M = 51.84°</f-math>
 

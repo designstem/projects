@@ -447,25 +447,26 @@
 | id: tr-triangles
 | padding: 10vmin
 | cols: 50vw auto
-| rows: auto auto auto
+| rows: auto 
 | height: 100vh
 | 1 1
 | 2 3 
-| 4 4
 
 # Let’s start with triangles!
 
 -
 
 <blockquote style="background:none;">
-  <section>
 
   ~**Triangle is the basic element** that polygons and polyhedra are made of.~
   
-  </section>
 </blockquote>
 
 ~So let’s see, what type of triangles exist and what kind of relations exist between triangle’s sides and angles, that we can use in our project.~
+
+&nbsp;
+
+<f-next-button title="Next: Geometry of triangles" />
 
 -
 
@@ -474,9 +475,6 @@
   <Triangle :points="[ [-1.5,-1], [1.5,-1], [0,1.498] ]" :angleMarkers="3" />
 </f-scene>
 
--
-
-<f-next-button title="Next: Geometry of triangles" />
 
 ---
 
@@ -492,7 +490,7 @@
 | 2 3 4
 | 5 5 5
 
-# Geometry of triangles <sup><sup>📐</sup></sup>
+# Geometry of triangles 📐
 
 -
 
@@ -551,11 +549,9 @@
 -
 
 <blockquote style="background: none;">
-  <section>
 
   ~**A polygon is any 2-dimensional shape formed with straight lines**.~
   
-  </section>
 </blockquote>
 
 ~Polygons can be of any shape, but we concentrate on the ***regular polygons***, because **those form the sides of regular polyhedra**, we are interested in.~
