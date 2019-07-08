@@ -135,7 +135,7 @@ This lesson is divided into three main sections:
 
 <p />
 
-<f-icon-heading icon="fact">Discuss</f-icon-heading>
+<f-icon-heading icon="fact" size="small">Discuss</f-icon-heading>
 
 # What is frequency?
 
@@ -229,12 +229,11 @@ You'll find 6 template PDF's from the .zip file. In this excercise You'll need o
 
 </f-notes>
 
+<f-icon-heading icon="activity" size="small">You are now ready to make your own visual experiments!</f-icon-heading>
 
-# <f-activity-icon />Make a spinning animation
+# Make a spinning animation
 
 -
-
-You are now ready to make your own visual experiments!
 
 <span class="bullet">1</span> First you need a paper template
 
@@ -849,7 +848,9 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 </f-notes>
 
-# <f-activity-icon />Make a spinning animation II
+<f-icon-heading icon="activity" size="small">Let's now observe our experiment trough the lens of a camera!</f-icon-heading>
+
+# Make a spinning animation II
 
 -
 
@@ -1098,9 +1099,9 @@ What are you findings regarding waves moving in different speeds, on different f
 | 1 2
 | 1 3
 
-# <f-activity-icon />Final project
+<f-icon-heading icon="activity" size="small">Create and present an animation</f-icon-heading>
 
-#### Create and present an animation
+# Final project
 
 As a final task, you will prepare an analog animation using rotational movement. You can visualize abstract morphing or use more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve visually attractive outcome. 
 
