@@ -3,7 +3,7 @@
 
 # Trigonometric functions
 
-Sometimes we don't know the length of two sides or two angles in a triangle. This is where trigonometry comes to help us. 
+~Sometimes we don't know the length of two sides or two angles in a triangle. This is where trigonometry comes to help us.~
 
 <blockquote style="background: none;">
   <section>
@@ -14,10 +14,10 @@ Sometimes we don't know the length of two sides or two angles in a triangle. Thi
 </blockquote>
 
 
-#### ~Use of trigonometric functions to combine angles and sides in right triangles.~
+#### Use of trigonometric functions to combine angles and sides in right triangles.
 
-The ratios of the sides of a right triangle are called trigonometric ratios. 
-The three common trigonometric ratios are the **sine (sin)**, **cosine (cos)**, and **tangent (tan)**. 
+~The ratios of the sides of a right triangle are called trigonometric ratios.~
+~The three common trigonometric ratios are the **sine (sin)**, **cosine (cos)**, and **tangent (tan)**.~ 
 
 
 
@@ -27,7 +27,7 @@ The three common trigonometric ratios are the **sine (sin)**, **cosine (cos)**, 
 
 <f-fact-icon size="large" style="flex:1 0 100px;" />
 
-In a triangle with angles **A**, **B** and **C** and sides **a**, **b** and **c** are **sine**, **cosine** and **tangens** defined as follows 
+~In a triangle with angles **A**, **B** and **C** and sides **a**, **b** and **c** are **sine**, **cosine** and **tangens** defined as follows~ 
 
 </f-inline>
     <f-math>
@@ -55,7 +55,7 @@ In a triangle with angles **A**, **B** and **C** and sides **a**, **b** and **c*
 | 1 2
 | padding: 5vmin
 
-Example. In the following right triangle, angle B can be estimated in terms of trigonometric functions as 
+~**Example.** In the following right triangle, angle B can be estimated in terms of trigonometric functions as~
 
 <f-math inline>cos(B) = \frac {8}{17} \approx 0.47</f-math> 
 or
@@ -63,7 +63,9 @@ or
 or
 <f-math inline>tan(B) = \frac {15}{8} \approx 1.87</f-math> 
 
-The actual value of angle B in degrees derives from the inverse function. For example if sinB0.88,  then sin-10.8828. The inverse trigonometric functions can be found and estimated by a typical calculator.
+~**The actual value of angle B in degrees derives from the inverse function.**~
+
+~For example if <f-math inline>\sin(B) \approx 0.88</f-math>, then <f-math inline>\sin^{-1} (0.88) \approx 28°</f-math>. The inverse trigonometric functions can be found and estimated by a typical calculator.~
 
 -
 
@@ -80,6 +82,4 @@ The actual value of angle B in degrees derives from the inverse function. For ex
 
 | padding: 5vmin
 
-<f-hr />
-
-More content will be added
+Find a nice trigonometry calculator <a href="https://www.omnicalculator.com/math/trigonometry" target="_blank" class="button tertiary">here <f-arrow-icon rotation="-45" /></a>

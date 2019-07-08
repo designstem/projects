@@ -79,21 +79,17 @@ export default{
     },
     solveTriangle(){
         this.triangle.points = this.parseCoords(this.points);
-        
+
         this.findSides();
         this.findAngles();
-        this.findSideAngles();
-        // console.log("points:" + this.triangle.points);
-        // console.log("sides: "+this.triangle.sides);
     },
     findSides(){
-        this.triangle.sides.length = 0;
-        
-        let a = this.distanceBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
-        let b = this.distanceBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
-        let c = this.distanceBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
-        this.triangle.sides.push(a, b, c);
-        
+      this.triangle.sides.length = 0;
+      
+      let a = this.distanceBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
+      let b = this.distanceBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
+      let c = this.distanceBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
+      this.triangle.sides.push(a, b, c);
     },
     findAngles(){
         this.triangle.angles.length = 0;
@@ -106,20 +102,6 @@ export default{
         this.triangle.angles.push(A, B, C);
         // console.log("angles: "+this.triangle.angles);
     },
-    findSideAngles(){
-        this.triangle.sideangles.length = 0;
-        let A1 = this.angleBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
-        let B1 = this.angleBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
-        let C1 = this.angleBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
-        this.triangle.sideangles.push(A1, B1, C1);
-        //console.warn("sideangles: " + this.triangle.sideangles);
-    },
-    compPolarAngle(i){
-        // let w = this.half.x * this.startPoints[this.dotIndex][0];
-        // let h = this.half.y * this.startPoints[this.dotIndex][1];
-        return Math.atan2(this.triangle.points[i][1],this.triangle.points[i][0]) * (180/Math.PI);
-    },
-    
   },
   template: `
     <g style="pointer-events: none;" v-if="triangle.points.length" :opacity="opacity">
@@ -135,21 +117,23 @@ export default{
               stroke="none"
               :fill="color(angleColors[i])"
               :position="compPos(i)"
-              opacity="0.5"
+              opacity="0.7"
               v-if="Math.round(triangle.angles[i]) != 90"
           />
           <f-group v-if="Math.round(triangle.angles[i]) == 90" :position="compPos(i)" :rotation="triangle.sideangles[i]">
-            <f-box r="0.25" stroke="none" :fill="color(angleColors[i])" position="0.125 0.125" opacity="0.5" />
+            <f-box r="0.25" stroke="none" :fill="color(angleColors[i])" position="0.125 0.125" opacity="0.7" />
           </f-group>
       </g>
       
       <f-line :points="points" :fill="fill" :stroke-width="strokeWidth" closed />
       
+      <f-circle v-for="(circ, i) in triangle.points" r="0.07" stroke :fill="color('darkgray')" :x=circ[0] :y=circ[1] :key="'circ'+i" />
+
       <f-group v-if="angleLabels" rotation="-90">
           <f-text v-for="(t,i) in angleLabels" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;" :fill="color('blue')">{{t}}</f-text>
       </f-group>
       
-      <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
+      <f-group v-if="angleInfo" position="-1.85 1.75" scale="0.5">
         <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in angleLabels" x="0" :y="i * 0.35" style="user-select: none;pointer-events: none;">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
       </f-group>
     </g>
