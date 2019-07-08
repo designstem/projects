@@ -41,7 +41,7 @@ export default{
           type: Boolean,
           required: false,
           default: false
-        }
+      },
     },
   data() {
     return {
@@ -51,12 +51,10 @@ export default{
           sides:      [],
           angles:     [],
           sideangles: []
-      },
-      myId: ''
+      }
     }
   },
   beforeMount() {
-    this.myId = this.randomid();
     this.triangle.points = this.parseCoords(this.points);
     this.solveTriangle();
   },
@@ -67,8 +65,13 @@ export default{
   },
   methods: {
     ...utils,
-    compPos(i){
-      return `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}`;
+    compPos(i, type = 'arc'){
+      if(type == 'box'){
+        return `${this.triangle.points[i][0]} ${this.triangle.points[i][1]} `;
+      } else {
+        // return typeof this.triangle.points == 'object' ? `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}` :  `${this.points[i][0]} ${this.points[i][1]}`;
+        return `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}`;
+      }
     },
     textPos(i){
         let polarPos = this.polarxy(
@@ -123,32 +126,28 @@ export default{
   },
   template: `
     <g style="pointer-events: none;" v-if="triangle.points.length" :opacity="opacity">
-      <defs>
-        <mask :id="'TrMask' + myId">
-          <f-line :points="points" fill="white" stroke-width="0" closed  />
-        </mask>
-      </defs>
-      <g v-if="angleMarkers" v-for="(p, i) in angleMarkers" :mask="'url(#TrMask' + myId + ')'">
-          <f-circle 
+      <g v-if="angleMarkers>0 && angleMarkers<=3" v-for="(p, i) in angleMarkers">
+          <f-arc 
               r="0.25"
               :key="'arc'+i"
+              :start-angle="0"
+              :end-angle="triangle.angles[i]"
+              inner-radius="0"
               stroke="none"
               :fill="color(angleColors[i])"
-              :position="compPos(i)"
+              :position="compPos(i, 'arc')"
+              :rotation="90+triangle.sideangles[i]"
               opacity="0.5"
               v-if="Math.round(triangle.angles[i]) != 90"
           />
-          <f-group v-if="Math.round(triangle.angles[i]) == 90" :position="compPos(i)" :rotation="triangle.sideangles[i]">
+          <f-group v-if="Math.round(triangle.angles[i]) == 90" :position="compPos(i, 'box')" :rotation="triangle.sideangles[i]">
             <f-box r="0.25" stroke="none" :fill="color(angleColors[i])" position="0.125 0.125" opacity="0.5" />
           </f-group>
       </g>
-      
       <f-line :points="points" :fill="fill" :stroke-width="strokeWidth" closed />
-      
       <f-group v-if="angleLabels" rotation="-90">
           <f-text v-for="(t,i) in angleLabels" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;" :fill="color('blue')">{{t}}</f-text>
       </f-group>
-      
       <f-group v-if="angleInfo" position="-1.9 1.7" scale="0.5">
         <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in angleLabels" x="0" :y="i * 0.35" style="user-select: none;pointer-events: none;">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
       </f-group>

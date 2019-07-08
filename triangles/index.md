@@ -58,11 +58,34 @@
 ---
 
 
+<f-inline>
+
+<f-scene grid v-slot="{ mouse }" width="200">
+  <f-drag
+    :mouse="mouse"
+    points="-1 1, 1 -1, 1 1"
+    v-slot="{ points }"
+    set="pD"
+  >
+    <f-line :points="points" closed />
+  </f-drag>
+</f-scene>
+
+<f-scene grid style="width:600px; height:600px;">
+  <Triangle :points="get('pD', [ [0,0], [1.5,0], [0,1] ] )" :angleInfo="true" :angleMarkers="3"  />
+</f-scene>
+
+</f-inline>
 
 
+-
+
+<f-scene grid class="fullWidthScene">
+  <Triangle points="0 1, -1.5 -1, 1.5 -1" :angleMarkers="3" />
+</f-scene>
 
 
-
+---
 
 
 

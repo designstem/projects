@@ -94,8 +94,9 @@ It has **all sides and angles unequal**, of different size.
 
 -
 
-<f-scene grid class="fullWidthScene">
-<Triangle :points="[ [-1, -1],[1.5,-1],[-1.5, 1] ]" :angleMarkers="1" />
+<f-scene grid>
+<!-- <Triangle :points="[ [-1, -1],[1.5,-1],[-1.5, 1] ]" :angleMarkers="1" /> -->
+<Triangle points="-1 -1, 1.5 -1, -1.5 1" :angleMarkers="1" />
 </f-scene>
 
 -
