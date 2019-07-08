@@ -65,6 +65,8 @@
 
 
 
+
+
 | id: tr-assignment
 | padding: 10vmin
 | height: 100vh
@@ -465,15 +467,34 @@
 
 &nbsp;
 
+<small style="color:var(--gray)">👉 *You can drag the corners of the triangle*</small>
+
+&nbsp;
+
 <f-next-button title="Next: Geometry of triangles" />
 
 -
 
-<f-scene class="fullWidthScene">
-  <f-grid />
-  <Triangle :points="[ [-1.5,-1], [1.5,-1], [0,1.498] ]" :angleMarkers="3" />
+<f-scene class="fullWidthScene" v-slot="{ mouse }" grid>
+  <f-drag
+    :mouse="mouse"
+    points="-1.5 -1, 1.5 -1, 0 1.498"
+    v-slot="{ points }"
+  >
+  <Triangle :points="points" :angleMarkers="3" :angleInfo="true" />
+  </f-drag>
 </f-scene>
 
+
+<!-- <f-scene grid v-slot="{ mouse }" width="300">
+  <f-drag
+    :mouse="mouse"
+    points="-1 1, 1 -1, 1 1"
+    v-slot="{ points }"
+  >
+    <Triangle :points="points" :angleMarkers="3" />
+  </f-drag>
+</f-scene> -->
 
 ---
 

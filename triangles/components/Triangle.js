@@ -71,17 +71,18 @@ export default{
       return `${this.triangle.points[i][0]} ${this.triangle.points[i][1]}`;
     },
     textPos(i){
-        let polarPos = this.polarxy(
-            this.angleBetweenPoints( this.triangle.points[i][0],  this.triangle.points[i][1],  0,0 ), 
-            this.distanceBetweenPoints( this.triangle.points[i][0],  this.triangle.points[i][1],  0,0 )+0.25
-        );
-        return `${polarPos[0]} ${(polarPos[1])}`;
+      let polarPos = this.polarxy(
+        this.angleBetweenPoints( this.triangle.points[i][0],  this.triangle.points[i][1],  0,0 ), 
+        this.distanceBetweenPoints( this.triangle.points[i][0],  this.triangle.points[i][1],  0,0 )+0.3
+      );
+      return `${polarPos[0]} ${(polarPos[1])}`;
     },
     solveTriangle(){
         this.triangle.points = this.parseCoords(this.points);
 
         this.findSides();
         this.findAngles();
+        this.findSideAngles();
     },
     findSides(){
       this.triangle.sides.length = 0;
@@ -102,6 +103,14 @@ export default{
         this.triangle.angles.push(A, B, C);
         // console.log("angles: "+this.triangle.angles);
     },
+    findSideAngles(){
+      this.triangle.sideangles.length = 0;
+      let A1 = this.angleBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
+      let B1 = this.angleBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
+      let C1 = this.angleBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
+      this.triangle.sideangles.push(A1, B1, C1);
+      //console.warn("sideangles: " + this.triangle.sideangles);
+    },
   },
   template: `
     <g style="pointer-events: none;" v-if="triangle.points.length" :opacity="opacity">
@@ -121,7 +130,7 @@ export default{
               v-if="Math.round(triangle.angles[i]) != 90"
           />
           <f-group v-if="Math.round(triangle.angles[i]) == 90" :position="compPos(i)" :rotation="triangle.sideangles[i]">
-            <f-box r="0.25" stroke="none" :fill="color(angleColors[i])" position="0.125 0.125" opacity="0.7" />
+            <f-box r="0.5" stroke="none" :fill="color(angleColors[i])" opacity="0.7" />
           </f-group>
       </g>
       
@@ -129,7 +138,7 @@ export default{
       
       <f-circle v-for="(circ, i) in triangle.points" r="0.07" stroke :fill="color('darkgray')" :x=circ[0] :y=circ[1] :key="'circ'+i" />
 
-      <f-group v-if="angleLabels" rotation="-90">
+      <f-group v-if="angleLabels" position="0 -0.05" rotation="-90">
           <f-text v-for="(t,i) in angleLabels" :key="'label'+i" :position="textPos(i)" rotation="90" style="user-select:none;" :fill="color('blue')">{{t}}</f-text>
       </f-group>
       
