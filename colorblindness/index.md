@@ -496,7 +496,6 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 
 ---
 
----
 
 | height: 100vh
 | 1 2
@@ -534,16 +533,16 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 3. ~In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).~
 
-
-<mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
-
-<f-image src="images/color_blindness_accessibility_6.jpg" style="background-position:50% 15%;" />
-
 <br>
 
 <f-next-button style="margin:var(--base6) 0" />
 
+<mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
+
 -
+
+<f-image src="images/color_blindness_accessibility_6.jpg" style="background-position:50% 15%;" />
+
 
 
 
