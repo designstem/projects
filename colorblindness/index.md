@@ -2494,7 +2494,7 @@ Create a new color scheme for a calculator with white buttons, which is also wor
 <mark> We need to add a link to a pdf with the calculator in task no. 3 - Link is now to google (color-me-in-sheet).</mark>
 
 -
-#### ~This is the model calculator:~
+### This is the model calculator:
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
   <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
@@ -2539,8 +2539,10 @@ Design a calculator app that works for people with color vision deficiency, but 
 <mark> Here we need to add a picture of the calculator.</mark>
 <mark> We need to add a link to a pdf with the calculator (color-me-in-sheet).</mark>
 
-#### ~This is the model calculator:~
+- 
 
+
+### This is the model calculator:
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
   <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
