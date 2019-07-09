@@ -360,6 +360,8 @@ You can work through the stations in the given order which is recommended if you
   This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
   The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.
   
+  <br>
+  
   ### Learning journal
   From now on, you could add a learning journal, in which the students should not only write down what they've learned, but they can also add screenshots of their results for future reference. You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.
 
@@ -423,7 +425,7 @@ You can work through the stations in the given order which is recommended if you
 
 
 <!-- ##### EXPLAIN  -->
-# 👁️‍🗨️ The eye
+# The eye
 
 <f-hr style="margin:var(--base6) 0" />
 
@@ -505,7 +507,6 @@ https://en.wikipedia.org/wiki/Color_vision~
 <mark> Here we need to add Richards rod/cones mapping. Maybe we can add it to the learning station setting as an extra link? Not as a mandatory page. In the google slide it's in the back in the Elaborate phase, but it will fit better to the learning station, since it's not really and elaborate task.
 </mark>
 
----
 
 
 
