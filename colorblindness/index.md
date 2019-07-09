@@ -2466,6 +2466,9 @@ Either you could choose the STEM or the DESIGN focus.~
 <f-next-button title="STEM path" style="margin:var(--base6) 0" />
 <f-next-button title="DESIGN path" style="margin:var(--base6) 0" />
 
+<button v-on:click="send('goto', 'workshopSTEM')">STEM path</button>
+<button v-on:click="send('goto', 'workshopDESIGN')">DESIGN path</button> 
+
 -
 
 <mark>
@@ -2482,7 +2485,7 @@ Either you could choose the STEM or the DESIGN focus.~
 
 
 
-
+| id: workshopSTEM
 | section: elaborate for biology
 | height: 100vh
 | 1 2
@@ -2526,7 +2529,7 @@ Create a new color scheme for a calculator with white buttons, which is also wor
 
 
 
-
+| id: workshopDESIGN
 | section: elaborate for design
 | height: 100vh
 | 1 2
