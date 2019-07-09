@@ -2284,9 +2284,13 @@ If possible, discuss your results with someone.
 
 -
 
+<mark>Here we need to check since the poster area is not displayed, although the code is there.</mark>
+
+-
 <f-next-button title="Design time!" />
 
 #### &nbsp;
+
 
 
 ---
