@@ -2481,12 +2481,10 @@ Either you could choose the STEM or the DESIGN focus.~
 
 <mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark>
 
-#### ~So choose your path:~
-
-<f-next-button title="STEM path" style="margin:var(--base6) 0" />
-<f-next-button title="DESIGN path" style="margin:var(--base6) 0" />
-
+#### ~Choose your path:~
+<br>
 <button v-on:click="send('goto', 'workshopSTEM')">STEM path</button>
+<br>
 <button v-on:click="send('goto', 'workshopDESIGN')">DESIGN path</button> 
 
 -
