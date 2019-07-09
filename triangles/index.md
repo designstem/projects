@@ -478,7 +478,7 @@
 <f-scene class="fullWidthScene" v-slot="{ mouse }" grid>
   <f-drag
     :mouse="mouse"
-    points="-1.5 -1, 1.5 -1, 0 1.498"
+    points="-1.5 -1.2, 1.5 -1.2, 0 1.42"
     v-slot="{ points }"
   >
   <Triangle :points="points" :angleMarkers="3" :angleInfo="true" />
