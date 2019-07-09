@@ -2603,8 +2603,8 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 
 
-<!-- ##### Evaluate Overview  -->
-# EVALUATE
+<!-- ##### Evaluate testing  -->
+# TEST YOUR DESIGN
 
 <f-hr style="margin:var(--base6) 0" />
 
@@ -2674,6 +2674,29 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 
 
+---
+
+| section: evaluate
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Evaluate meta  -->
+# EVALUATE
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Lets reflect on what you achieved.~
+
+<br>
+
+1. Think of other methods to make information accessible other than color coding it. What could you do else?
+2. Reflect on what you learned. What was new for you or interesting? 
+3. Do you think the information will be useful for you as a designer?
+4. What about the social relevance - do you think that designing for people with CVD helps them in their daily lives?
+
+<mark> Here we need to add a picture.</mark>
 
 
 
