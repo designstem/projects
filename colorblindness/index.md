@@ -2497,13 +2497,8 @@ Create a new color scheme for a calculator with white buttons, which is also wor
 #### ~This is the model calculator:~
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
-  <img src="./images/color_blindness_accessibility_white_calcuator.jpg" />
+  <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
 </figure>
-
-
-<mark>
-	Here we need to add a picture.
-</mark>
 
 
 
@@ -2548,13 +2543,9 @@ Design a calculator app that works for people with color vision deficiency, but 
 
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
-  <img src="./images/color_blindness_accessibility_white_calcuator.jpg" />
+  <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
 </figure>
 
-
-<mark>
-	Here we need to add a picture.
-</mark>
 
 
 
