@@ -2539,8 +2539,7 @@ Design a calculator app that works for people with color vision deficiency, but 
 <mark> Here we need to add a picture of the calculator.</mark>
 <mark> We need to add a link to a pdf with the calculator (color-me-in-sheet).</mark>
 
-- 
-
+-
 
 ### This is the model calculator:
 
@@ -2564,37 +2563,6 @@ EVALUATE PHASE
 -->
 
 
-| section: evaluate
-| height: 100vh
-| 1 2
-
-
-
-<!-- ##### Evaluate Overview  -->
-# EVALUATE
-
-<f-hr style="margin:var(--base6) 0" />
-
-~Lets see how well your design works for people with color vision deficiency.
-Upload your picture into the CVD-simulator and check whether it works.~
-
-<mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark>
-
-#### ~So choose your path:~
-
-<f-next-button title="STEM path" style="margin:var(--base6) 0" />
-<f-next-button title="DESIGN path" style="margin:var(--base6) 0" />
-
--
-
-<mark>
-	Here we need to add a picture.
-</mark>
-
-
-
-
----
 
 | height: 100vh
 | id: cbSimulator
@@ -2633,6 +2601,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 <p />
 
+<br>
 
 1. Check if your color schemes has some flaws.
 2. Adjust your color scheme, if necessary, and check again.
@@ -2666,8 +2635,9 @@ Upload your picture into the CVD-simulator and check whether it works.~
   <summary>Teachers notes</summary>
   
   ### Aim. 
-  ~In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.~
-  ~ You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*~
+  ~In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.
+  <br>
+You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*~
 
 </f-notes>
 
@@ -2696,10 +2666,21 @@ Upload your picture into the CVD-simulator and check whether it works.~
 3. Do you think the information will be useful for you as a designer?
 4. What about the social relevance - do you think that designing for people with CVD helps them in their daily lives?
 
+<br>
+
 <mark> Here we need to add a picture.</mark>
 
 
 
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Hint for teachers. 
+  ~In the first task, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.~
+
+</f-notes>
 
 
 
