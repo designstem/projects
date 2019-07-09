@@ -459,8 +459,9 @@ You can work through the stations in the given order which is recommended if you
 
 
 <!-- ##### EXPLAIN  -->
-# The eye
-### Rods and cones
+
+##### The eye
+# Rods and cones
 
 <f-hr style="margin:var(--base6) 0" />
 
@@ -671,6 +672,9 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 2. ~Take some notes of your assumptions. Test your ideas on the next page.~
 
+<br>
+
+<f-next-button />
 
 -
 
@@ -699,7 +703,6 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 
 
-<f-next-button />
 
 
 
