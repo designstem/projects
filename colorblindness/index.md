@@ -2426,13 +2426,13 @@ ELABORATE PHASE
 -->
 
 
-| section: elaborate for biology
+| section: elaborate overview
 | height: 100vh
 | 1 2
 
 
 
-<!-- ##### Elaborate  -->
+<!-- ##### Elaborate Overview  -->
 # Workshop
 
 <f-hr style="margin:var(--base6) 0" />
@@ -2453,14 +2453,48 @@ Either you could choose the STEM or the DESIGN focus.~
 <mark>
 	Here we need to add a picture.
 </mark>
-<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
-  <img src="./images/eye.svg" />
-</figure>
 
 
 
 
 
+
+
+---
+
+
+
+
+| section: elaborate for biology
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Elaborate STEM students -->
+# Workshop STEM
+
+<f-hr style="margin:var(--base6) 0" />
+
+~You chose the STEM path. This is your task:
+Create a new color scheme for a calculator with white buttons.~
+
+1. First, find hierarchies and group buttons. Which are important buttons that you use often? How many different colors would you need?
+2. Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
+3. Mix the colors you chose with watercolors and paint the white buttons on the copy of the calculator.
+
+<mark> Here we need to add a picture of the calculator.</mark>
+<mark> We need to add a link to a pdf with the calculator (color-me-in-sheet).</mark>
+
+#### ~This is the model calculator:~
+
+<f-image src="../images/color_blindness_accessibility_6.jpg" />
+
+-
+
+<mark>
+	Here we need to add a picture.
+</mark>
 
 
 
