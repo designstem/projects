@@ -430,9 +430,9 @@ You can work through the stations in the given order which is recommended if you
 <f-hr style="margin:var(--base6) 0" />
 
 ~When it comes to color vision, the **retina** is the part of the eye which is important.~
-~It is at the back of the eye and contains two types of photoreceptor cells which detect light:~
+~It is at the back of the eye and contains two types of photoreceptor cells which detect light: **rods and cones**.~
 
-#### ~Rods and cones.~
+<br>
 
 <f-next-button title="Rods and cones" style="margin:var(--base6) 0" />
 
