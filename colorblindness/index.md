@@ -2154,6 +2154,136 @@ If possible, discuss your results with someone.
 
 
 
+---
+
+| section: cb-designer
+| gap: 1vmin
+
+
+| 1 1 1 1
+| 2 3 4 5
+| 6 6 6 6
+
+
+
+<f-inline style="--base:8px; justify-content:space-between;">
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Back&shy;ground colour
+
+<small style="flex:1"><small>rgb({{get('r51',236)}},{{get('g51',95)}},{{get('b51',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+  <div 
+      style="width:8vw;height:8vw;" 
+      :style="{ background:rgb( get('r51',44), get('g51',77), get('b51',100) ) }"
+  ></div>
+  
+
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r51', 236)" v-on:input="set('r51', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g51', 95)" v-on:input="set('g51', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b51', 0)" v-on:input="set('b51', $event)" to="255" integer />
+  </div>
+</f-inline>
+</div>
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Heading colour
+
+<small style="flex:1"><small>rgb({{get('r52',236)}},{{get('g52',95)}},{{get('b52',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+  <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:rgb( get('r52',44), get('g52',77), get('b52',77) ) }"
+    ></div>
+
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r52', 5)" v-on:input="set('r52', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g52', 167)" v-on:input="set('g52', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b52', 19)" v-on:input="set('b52', $event)" to="255" integer />
+  </div>
+</f-inline>
+
+</div>
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Text colour
+
+<small style="flex:1"><small>rgb({{get('r53',236)}},{{get('g53',95)}},{{get('b53',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+    <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:rgb( get('r53',44), get('g53',77), get('b53',77) ) }"
+    ></div>
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r53', 201)" v-on:input="set('r53', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g53', 171)" v-on:input="set('g53', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b53', 93)" v-on:input="set('b53', $event)" to="255" integer />
+  </div>
+</f-inline>
+
+</div>
+
+
+</f-inline>
+
+-
+
+<Poster 
+  :bgColor="rgb( get('r51',236), get('g51',95), get('b51',0) )" 
+  :headingColor="rgb( get('r52',5), get('g52',167), get('b52',19) )" 
+  :textColor="rgb( get('r53',201), get('g53',171), get('b53',93) )" 
+  :type="'Normal'"
+/>
+
+-
+
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'protanopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'protanopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'protanopia' )" 
+  :type="'Protanopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'deuteranopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'deuteranopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'deuteranopia' )" 
+  :type="'Deuteranopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'tritanopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'tritanopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'tritanopia' )" 
+  :type="'Tritanopia'"
+/>
+
+-
+
 
 
 
