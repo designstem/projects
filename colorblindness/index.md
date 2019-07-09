@@ -494,8 +494,11 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 
 -
 
+---
+<mark> Here we need to add Richards rod/cones mapping. Maybe we can add it to the learning station setting as an extra link? Not as a mandatory page. In the google slide it's in the back in the Elaborate phase, but it will fit better to the learning station, since it's not really and elaborate task.
+</mark>
 
-
+---
 
 
 
@@ -2479,9 +2482,13 @@ Either you could choose the STEM or the DESIGN focus.~
 ~Congratulations! You chose the STEM path and this is your quest:
 Create a new color scheme for a calculator with white buttons, which is also works for people with color vision deficiency.~
 
+<br>
+
 1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?
 2. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
 3. **Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](https://www.google.de).
+
+<br>
 
 <mark> Here we need to add a picture of the calculator.</mark>
 <mark> We need to add a link to a pdf with the calculator in task no. 3 - Link is now to google (color-me-in-sheet).</mark>
@@ -2524,11 +2531,15 @@ Create a new color scheme for a calculator with white buttons, which is also wor
 ~Congratulations! You chose the DESIGN path and this is your quest:
 Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.~
 
+<br>
+
 1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often?  How many colors would you need for your color scheme?
 2. **Target group**: Think about who will use it. What is most important to them? How does that affect your design?
 3. **Layout**: Scribble a layout for your calculator app. Use the calculator displayed here as a reference.
 4. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
 5. **Mockup**: Make a mockup of your design in a graphic program and apply your color scheme to it.
+
+<br>
 
 <mark> Here we need to add a picture of the calculator.</mark>
 <mark> We need to add a link to a pdf with the calculator (color-me-in-sheet).</mark>
@@ -2550,6 +2561,44 @@ Design a calculator app that works for people with color vision deficiency, but 
 
 
 ---
+
+
+
+<!--
+
+EVALUATE PHASE
+
+-->
+
+
+| section: evaluate
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Evaluate Overview  -->
+# Workshop
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Now that you found out about the different topics surrounding designing for colorblind, it's time for some action.
+There are two different paths that you could take for the final task.
+Either you could choose the STEM or the DESIGN focus.~
+
+<mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark>
+
+#### ~So choose your path:~
+
+<f-next-button title="STEM path" style="margin:var(--base6) 0" />
+<f-next-button title="DESIGN path" style="margin:var(--base6) 0" />
+
+-
+
+<mark>
+	Here we need to add a picture.
+</mark>
+
 
 
 
