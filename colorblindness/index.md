@@ -19,8 +19,6 @@
 
 #### How to design information for people whose colour perception is impaired.
 
-~(Richard Spencer, Kristin Kreer)~
-
 -
 
 <!-- <f-embed src="./menu.md" /> -->
@@ -359,7 +357,9 @@ List needs to be changed to buttons, leading to the separate learning stations.
   ### Aim. 
   ~In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
   This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
-  The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.~
+  The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.
+  
+  From now on, you could add a learning journal, in which the students should not only write down what they've learned, but they can also add screenshots of their results for future reference. You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.~
 
 </f-notes>
 
@@ -493,6 +493,59 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 <f-next-button style="margin:var(--base6) 0" />
 
 -
+
+---
+
+---
+
+| height: 100vh
+| 1 2
+
+
+<!-- ##### EXPLAIN TEST  -->
+# The eye
+### Rods and cones
+
+<f-hr style="margin:var(--base6) 0" />
+
+#### Task
+
+1. ~Read through the text and find out about the difference between rods and cones.~
+
+<details>
+	<summary>Click here to see the text</summary>
+  
+~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
+
+~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
+
+~**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.
+Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
+
+~**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.~
+~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
+~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
+~That’s why you can’t see colors in the dark.~
+
+</details>
+
+2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
+https://en.wikipedia.org/wiki/Color_vision~
+
+3. ~In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).~
+
+
+<mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
+
+<f-image src="images/color_blindness_accessibility_6.jpg" style="background-position:50% 15%;" />
+
+<br>
+
+<f-next-button style="margin:var(--base6) 0" />
+
+-
+
+
 
 ---
 <mark> Here we need to add Richards rod/cones mapping. Maybe we can add it to the learning station setting as an extra link? Not as a mandatory page. In the google slide it's in the back in the Elaborate phase, but it will fit better to the learning station, since it's not really and elaborate task.
@@ -2603,7 +2656,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 <br>
 
-1. Check if your color schemes has some flaws.
+1. Check if your color schemes is flawed.
 2. Adjust your color scheme, if necessary, and check again.
 3. Present your design in class and be ready to explain your choices.
 
