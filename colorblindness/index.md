@@ -336,15 +336,16 @@ You can work through the stations in the given order which is recommended if you
 
 -
 
-- ~Accessibility~
-- ~The eye~
-- ~Color vision deficiency~
-- ~Subtractive and additive color mixing~
-- ~Three dimensions of color (color space models)~
-- ~Color contrast and color harmony theory~
-- ~Design rules for creating color palettes~
+- Accessibility
+- The eye
+- Color vision deficiency
+- Subtractive and additive color mixing
+- Three dimensions of color (color space models)
+- Color contrast and color harmony theory
+- Design rules for creating color palettes
 
-List needs to be changed to buttons, leading to the separate learning stations.
+<mark>List needs to be changed to buttons, leading to the separate learning station pages.
+	</mark>
 
 -
 
@@ -354,12 +355,13 @@ List needs to be changed to buttons, leading to the separate learning stations.
   
   <summary>Teachers notes</summary>
   
-  ### Aim. 
-  ~In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
+  ### Aim 
+  In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
   This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
   The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.
   
-  From now on, you could add a learning journal, in which the students should not only write down what they've learned, but they can also add screenshots of their results for future reference. You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.~
+  ### Learning journal
+  From now on, you could add a learning journal, in which the students should not only write down what they've learned, but they can also add screenshots of their results for future reference. You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.
 
 </f-notes>
 
