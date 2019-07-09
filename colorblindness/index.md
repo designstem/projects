@@ -2408,8 +2408,46 @@ e.g. in a mock-up
 
 
 
+---
 
 
+<!--
+
+ELABORATE PHASE
+
+-->
+
+
+| section: elaborate for biology
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Elaborate  -->
+# Workshop
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Now that you found out about the different topics surrounding designing for colorblind, it's time for some action.
+There are two different paths that you could take for the final task.
+Either you could choose the STEM or the DESIGN focus.~
+
+<mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark>
+
+#### ~So choose your path:~
+
+<f-next-button title="STEM path" style="margin:var(--base6) 0" />
+<f-next-button title="DESIGN path" style="margin:var(--base6) 0" />
+
+-
+
+<mark>
+	Here we need to add a picture.
+</mark>
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+  <img src="./images/eye.svg" />
+</figure>
 
 
 
