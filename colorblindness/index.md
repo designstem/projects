@@ -2569,13 +2569,12 @@ EVALUATE PHASE
 
 
 <!-- ##### Evaluate Overview  -->
-# Workshop
+# EVALUATE
 
 <f-hr style="margin:var(--base6) 0" />
 
-~Now that you found out about the different topics surrounding designing for colorblind, it's time for some action.
-There are two different paths that you could take for the final task.
-Either you could choose the STEM or the DESIGN focus.~
+~Lets see how well your design works for people with color vision deficiency.
+Upload your picture into the CVD-simulator and check whether it works.~
 
 <mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark>
 
@@ -2590,6 +2589,85 @@ Either you could choose the STEM or the DESIGN focus.~
 	Here we need to add a picture.
 </mark>
 
+
+
+
+---
+
+| height: 100vh
+| id: cbSimulator
+| 1 1 2 2 2
+| 3 3 2 2 2
+
+
+
+<!-- ##### Evaluate Overview  -->
+# EVALUATE
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Lets see how well your design works for people with color vision deficiency.
+Upload your picture into the CVD-simulator and check whether it works.~
+
+<p />
+
+<f-card :title="get('cbType', 'Protanopia') == 'Protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType', 'Protanopia') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')">
+
+<p v-if="get('cbType', 'Protanopia') == 'Protanopia'" style="font-size:100%;">reduced sensitivity to <b>RED</b> light</p>
+
+</f-card>
+
+<f-card :title="get('cbType') == 'Deuteranopia' ? 'Simulating Deuteranopia 👉' : 'Simulate Deuteranopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" >
+
+<p v-if="get('cbType') == 'Deuteranopia'" style="font-size:100%;">reduced sensitivity to <b>GREEN</b> light</p>
+
+</f-card>
+
+<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')">
+
+<p v-if="get('cbType') == 'Tritanopia'" style="font-size:100%">reduced sensitivity to <b>BLUE</b> light</p>
+
+</f-card>
+
+<p />
+
+
+1. Check if your color schemes has some flaws.
+2. Adjust your color scheme, if necessary, and check again.
+3. Present your design in class and be ready to explain your choices.
+
+
+<f-next-button style="margin:var(--base4) 0" />
+
+
+
+-
+
+<div style=" position:sticky; top:var(--content-padding)">
+
+<p style="--base:8px;"><i>Drag the red triangular handlers or click on image to see the difference</i></p>
+
+<ColorblindnessJuxtapose 
+  :imageUrl="'images/colorblind-subway.png'" 
+  :revealed="25" 
+  :locked="false"
+  :cbType="get('cbType', 'Protanopia')"
+  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)"
+/>
+
+</div>
+
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Aim. 
+  ~In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.~
+  ~ You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*~
+
+</f-notes>
 
 
 
