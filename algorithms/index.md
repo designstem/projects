@@ -7,7 +7,7 @@
 
 # Become an <br /><big><big><big>Algorist!</big></big></big>
 
-<big>A brief introduction to algorithms and generative art/design</big>
+<big>~*A brief introduction to algorithms and generative art/design*~</big>
 
 <p /><br />
 
@@ -61,7 +61,6 @@ The scenario is composed of the following stages:
 7. Explain and discuss the work
 8. Perform the assignment provided by the scenario
 
-
 **Questions to ask** during the work to spice up motivation or to help guide students towards the desired direction:
 * What is your morning routine before coming to school?
 * Which design objects link to algorithms?
@@ -84,7 +83,6 @@ The task can be completed in an environment with access to the web-scenario.
 The task can be reviewed according to class goals.
 The task can be evaluated by describing what is an algorithm, how it links to design; creating an algorithm etc.
 
-
 </f-notes>
 
 ---
@@ -99,10 +97,9 @@ The task can be evaluated by describing what is an algorithm, how it links to de
 
 
 | section: WARMUP
+| rows: auto
 | 1 1
 | 2 3 
-| 2 3
-| 2 3
 
 
 # Warming up... 
@@ -139,26 +136,25 @@ Let's start with a small warming-up exercise.
 
 
 
-
-| 1 3 
-| 1 3
-| 2 3
+| rows: auto
+| 1 2 
+| 3 2
  
 # Nice work! 
- 
+
+&nbsp;
+
 Now if you fold the paper open, you probably end up with something like shown on this picture. 
  
 By following the steps of cutting and folding you were performing a so called <big>**ALGORITHM**</big>.
 
-<br /><br />
+-
+
+<f-image src="./images/origami-output.jpg" style="background-position:50% 50%;" />
 
 -
 
 <f-prev-button /> <f-next-button title="Next: definition" />
-
--
-
-<f-image src="./images/origami-output.jpg" style="background-position:50% 50%;" />
 
 <!-- ![Origami result](./images/origami-output.jpg "Origami result") -->
 
@@ -174,17 +170,21 @@ By following the steps of cutting and folding you were performing a so called <b
 
 | section: DEFINITION
 
-<div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh; text-align:center;">
+<div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh; text-align:center; padding:0 10vw">
 
-# <big>an Algorithm</big>
+# ~an <big>Algorithm</big>~
 
-### in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).
+#### ~in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).~
 
 <br />
 
 Or to put it simple:
 
-### <mark>an algorithm is a set of certain steps needed to solve a problem</mark> 
+<blockquote style="background:none;">
+
+  #### ~*an algorithm is a set of certain steps needed to solve a problem*~
+
+</blockquote>
   
 <br /><br />
 
@@ -208,11 +208,11 @@ Or to put it simple:
 | 1 3
 | 2 3 
  
-# Actually, we solve problems with algorithms every day
+## Actually, we solve problems with algorithms every day
 
 Probably without even noticing. These are often called <mark>everyday algorithms</mark>. Let's take a look at some examples. 
  
-Maybe the most common example of an everyday algorithm is ***cooking***.
+Maybe the most common example of an everyday algorithm is **cooking**.
 
 -
 
@@ -237,7 +237,7 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 
 
 
-
+| rows: auto
 | 1 1
 | 2 3
 | 4 4
@@ -246,7 +246,7 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 
 -
 
-#### Folding a t-shirt
+##### Folding a t-shirt
  
 ![T-shirt folding](./images/everyday-tshirt.jpg "T-shirt folding") 
  
@@ -254,7 +254,7 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 
 -
 
-#### Building a brick wall
+##### Building a brick wall
  
 ![Brick wall](./images/everyday-wall.jpg "Brick wall") 
  
@@ -289,7 +289,7 @@ Maybe the most common example of an everyday algorithm is ***cooking***.
 
 Cooking, folding a t-shirt, building a wall. These activities consist of relatively simple instructions (i.e. ‘algorithms’).
 
-### Computers also perform algorithms. More complex algorithms may require a lot of computing power - so much that normally people cannot manage it by themselves.
+#### ~Computers also perform algorithms. More complex algorithms may require a lot of computing power &ndash; so much that normally people cannot manage it by themselves.~
  
 Computers and design go together well. This last decade has seen the emergence of a new way of designing that’s all about the conscious use of algorithms mixed with the computational power of computers. A lot of designers, artists and architects have been using computers and complex algorithms to create stunning work.
 
@@ -316,11 +316,15 @@ Computers and design go together well. This last decade has seen the emergence o
 
 # It is important to remember:
 
-- Not all computational design is generative design
-- And not all generative design is computational.
-- Not every use of computer in design is ‘generative’
+## &nbsp;
 
-### Let's take a look at some examples of computer generated algorithms design
+1. Not all computational design is generative design
+2. And not all generative design is computational.
+3. Not every use of computer in design is ‘generative’
+
+### &nbsp;
+
+#### Let's take a look at some examples of computer generated algorithms design
 
 -
 
@@ -337,7 +341,7 @@ Computers and design go together well. This last decade has seen the emergence o
 
 
 | section: EXAMPLES 
-
+| rows: auto
 | 1 1 2
 | 1 1 3
 
@@ -371,7 +375,7 @@ Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucc
 
 
 
-
+| rows: auto
 | 1 1 2
 | 1 1 3
 
@@ -406,7 +410,7 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 
 
 
-
+| rows: auto
 | 1 1 2
 | 1 1 3
 
@@ -440,7 +444,7 @@ https://lynnemaclachlan.co.uk/
 
 
 
-
+| rows: auto
 | 1 1 2
 | 1 1 3
 
@@ -474,7 +478,7 @@ https://inconvergent.net/
 
 
 
-
+| rows: auto
 | 1 1 2
 | 1 1 3
 
@@ -515,13 +519,15 @@ http://protohouse.tumblr.com/
 
 
 
-
+| rows: auto
 | 1 1 3
 | 1 1 3
 | 2 2 3
 
 
-# Ok...
+# That was nice!
+
+&nbsp;
 
 You might think that probably they use very expensive supercomputers plus knowledge of wizardry to make such stuff. However, with basic knowledge of coding we can demonstrate that ***even quite simple sets of rules can create quite interesting results***. 
 
@@ -543,6 +549,7 @@ You might think that probably they use very expensive supercomputers plus knowle
 
 
 | section: THEORY
+| rows: auto
 | 1 1 1 1 1
 | 2 3 4 5 6
 | 7 7 7 7 7 
@@ -552,31 +559,31 @@ You might think that probably they use very expensive supercomputers plus knowle
 -
 
 # 1.
-### FINITENESS
+#### FINITE&shy;NESS
 The algorithm **must always terminate** after a finite number of steps.
 
 -
 
 # 2.
-### DEFINITENESS
+#### DEFINITE&shy;NESS
 **Each step must be precisely defined;** the actions to be carried out must be rigorously and unambiguously specified for each case.
 
 -
 
 # 3.
-### INPUT 
+#### INPUT 
 An algorithm **has zero or more inputs**, taken from a specified set of objects.
 
 -
 
 # 4.
-### OUTPUT
+#### OUTPUT
 An algorithm **has one or more outputs**, which have a specified relation to the inputs.
 
 -
 
 # 5.
-### EFFECTIVENESS
+#### EFFECTIVE&shy;NESS
 **All operations** to be performed must be **sufficiently basic** that they can be done exactly and in finite length (Knut 1997)
 
 -
@@ -608,7 +615,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
   style="text-align: center;"
 >
   
-  ** 1.
+  # 1.
   ### INPUT 
   you feed some parameters (variables) or data to your algorithm
 
@@ -623,7 +630,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
   style="text-align: center;"
 >
 
-** 2.
+# 2.
 ### PROCESSING 
 algorithm does the computing
 
@@ -637,7 +644,7 @@ algorithm does the computing
   style="text-align: center;"
 >
 
-** 3.
+# 3.
 ### OUTPUT
 you get a result
 
@@ -646,9 +653,6 @@ you get a result
 -
 
 <f-prev-button /> <f-next-button />
-
-
-
 
 ---
 
