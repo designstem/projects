@@ -19,8 +19,6 @@
 
 #### How to design information for people whose colour perception is impaired.
 
-~(Richard Spencer, Kristin Kreer)~
-
 -
 
 <!-- <f-embed src="./menu.md" /> -->
@@ -355,10 +353,15 @@ You can work through the stations in the given order which is recommended if you
   
   <summary>Teachers notes</summary>
   
-  ### Aim
-  ~In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
+  ### Aim 
+  In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
   This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
-  The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.~
+  The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.
+  
+  <br>
+  
+  ### Learning journal
+  From now on, you could add a learning journal, in which the students should not only write down what they've learned, but they can also add screenshots of their results for future reference. You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.
 
 </f-notes>
 
@@ -421,16 +424,14 @@ You can work through the stations in the given order which is recommended if you
 
 
 <!-- ##### EXPLAIN  -->
-# 👁️‍🗨️The eye
+# The eye
 
 -
 
 ~When it comes to color vision, the **retina** is the part of the eye which is important.~
-~It is at the back of the eye and contains two types of photoreceptor cells which detect light:~
+~It is at the back of the eye and contains two types of photoreceptor cells which detect light: **rods and cones**.~
 
-#### ~rods and cones.~
-
-&nbsp;
+<br>
 
 <f-next-button title="Rods and cones" style="margin:var(--base6) 0" />
 
@@ -451,27 +452,25 @@ You can work through the stations in the given order which is recommended if you
 
 ---
 
+
 | height: 100vh
 | 1 2
 
 
 <!-- ##### EXPLAIN  -->
-# The eye
-### Rods and cones
+
+##### The eye
+# Rods and cones
 
 <f-hr style="margin:var(--base6) 0" />
 
 #### Task
 
-1. ~Read through the text in the sidebar (see link below) and find out about the difference between rods and cones.~
+1. ~Read through the text and find out about the difference between rods and cones.~
 
-2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
-https://en.wikipedia.org/wiki/Color_vision~
-
-3. ~In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).~
-
-<f-sidebar title="Read about rods and cones">
-	
+<details>
+	<summary>Click here to see the text</summary>
+  
 ~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
 
 ~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
@@ -484,19 +483,29 @@ Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) 
 ~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
 ~That’s why you can’t see colors in the dark.~
 
-</f-sidebar>
+</details>
 
-<mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
+2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
+https://en.wikipedia.org/wiki/Color_vision~
 
-<f-image src="images/color_blindness_accessibility_6.jpg" style="background-position:50% 15%;" />
+3. ~In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).~
 
 <br>
 
 <f-next-button style="margin:var(--base6) 0" />
 
+<mark> Here we need to add the following picture:  color_blindness_accessiblity_6.jpg </mark>
+
 -
 
+<f-image src="images/color_blindness_accessibility_6.jpg" style="background-position:50% 15%;" />
 
+
+
+
+---
+<mark> Here we need to add Richards rod/cones mapping. Maybe we can add it to the learning station setting as an extra link? Not as a mandatory page. In the google slide it's in the back in the Elaborate phase, but it will fit better to the learning station, since it's not really and elaborate task.
+</mark>
 
 
 
@@ -540,22 +549,38 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 | section: cb-color-mixing
 | theme: light
+| 1 2
 
 <!-- ##### EXPLAIN  -->
-# Color mixing
+
+#### Color mixing
+# Light and color
+
+<br>
+
+<f-hr style="margin:var(--base6) 0" />
+
 
 ~Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color.~
 
-#### Task
-~Go outside or look out of your window before the sun comes up. Watch how you steadily can see more colors while the sun rises and how the intensitiy of the colors changes.~
-(Alternatively: If you have curtains or shutters, close them and look at the room you are in and at the colors you can see. Then slowly open them and see how the colors of the objects in the room start to change with more light entering).
+<br>
 
+#### Task
+
+<br>
+Go outside or look out of your window before the sun comes up. Experience how you steadily can see more colors while the sun rises and how the intensitiy of the colors changes.
+(Alternatively: If you have curtains or shutters, close them and look at the room you are in and at the colors you can see. Then slowly open them and see how the colors of the objects in the room start to change with more light entering).
+<br>
 ~**Our eyes have three color receptor cells or cones: red, green and blue. As a result, all incoming light is reduced to these three colors. All perceived colors are generated by a mixture of these three colors, depending on the intensity of the light. Find out more on the next page.**~
 
 <f-next-button title="Additive Color"  style="margin: var(--base6) 0" />
 
+-
 
 
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+  <img src="./images/color_blindness_accessibility_20.jpg" />
+</figure>
 
 
 
@@ -588,16 +613,24 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 3. ~Complementary colors are opposite of each other and form white light. Find out about the complementary color pairs in the RGB Model.~
 
-<f-sidebar title="Check your answers">
+<br>
 
-1. ~The three secondary colors are: Magenta (mixed through red and blue light), Cyan (mixed through green and blue light) and yellow (mixed through red and green light).~
+<details>
+	<summary>Check your answers - but don't cheat.</summary>
+ 
+ **Answer key**
+ <br>
+ 
+ 1. The three secondary colors are: Magenta (mixed through red and blue light), Cyan (mixed through green and blue light) and yellow (mixed through red and green light).
 
-2. ~Typical RGB input devices are color TV and video cameras, image scanners and digital cameras. Typical RGB output devices are TV sets of various technologies (CRT, LCD, plasma, OLED, quantum dots…), computer and mobile phone displays, video projectors, multicolor LED displays and large screens such as JumboTron. Color printers, on the other hand are not RGB devices, but subtractive color devices (typically CMYK color model).
-If you want to find out about the subtractive color model, see: https://en.wikipedia.org/wiki/Subtractive_color~
+2. Typical RGB input devices are color TV and video cameras, image scanners and digital cameras. Typical RGB output devices are TV sets of various technologies (CRT, LCD, plasma, OLED, quantum dots…), computer and mobile phone displays, video projectors, multicolor LED displays and large screens such as JumboTron. Color printers, on the other hand are not RGB devices, but subtractive color devices (typically CMYK color model).
+If you want to find out about the subtractive color model, see this [wikipedia text on the subtractive color model](https://en.wikipedia.org/wiki/Subtractive_color).
 
-3. ~Green and Magenta, Blue and Yellow, Red and Cyan.~
+3. Green and Magenta, Blue and Yellow, Red and Cyan.
 
-</f-sidebar>
+</details>
+
+<br>
 
 <f-next-button title="RGB Task" style="margin:var(--base6) 0"  />
 
@@ -636,6 +669,9 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 
 2. ~Take some notes of your assumptions. Test your ideas on the next page.~
 
+<br>
+
+<f-next-button />
 
 -
 
@@ -664,7 +700,6 @@ If you want to find out about the subtractive color model, see: https://en.wikip
 
 
 
-<f-next-button />
 
 
 
@@ -2156,8 +2191,146 @@ If possible, discuss your results with someone.
 
 
 
+---
+
+| section: cb-designer
+| gap: 1vmin
 
 
+| 1 1 1 1
+| 2 3 4 5
+| 6 6 6 6
+
+
+
+<f-inline style="--base:8px; justify-content:space-between;">
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Back&shy;ground colour
+
+<small style="flex:1"><small>rgb({{get('r51',236)}},{{get('g51',95)}},{{get('b51',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+  <div 
+      style="width:8vw;height:8vw;" 
+      :style="{ background:rgb( get('r51',44), get('g51',77), get('b51',100) ) }"
+  ></div>
+  
+
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r51', 236)" v-on:input="set('r51', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g51', 95)" v-on:input="set('g51', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b51', 0)" v-on:input="set('b51', $event)" to="255" integer />
+  </div>
+</f-inline>
+</div>
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Heading colour
+
+<small style="flex:1"><small>rgb({{get('r52',236)}},{{get('g52',95)}},{{get('b52',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+  <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:rgb( get('r52',44), get('g52',77), get('b52',77) ) }"
+    ></div>
+
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r52', 5)" v-on:input="set('r52', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g52', 167)" v-on:input="set('g52', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b52', 19)" v-on:input="set('b52', $event)" to="255" integer />
+  </div>
+</f-inline>
+
+</div>
+
+<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+
+<f-inline style="justify-content: space-between;">
+
+#### Text colour
+
+<small style="flex:1"><small>rgb({{get('r53',236)}},{{get('g53',95)}},{{get('b53',0)}})</small></small>
+
+</f-inline>
+
+<f-inline>
+    <div 
+      style="width:8vw;height:8vw; " 
+      :style="{ background:rgb( get('r53',44), get('g53',77), get('b53',77) ) }"
+    ></div>
+  <div style="flex:1">
+    <f-slider title="R" :value="get('r53', 201)" v-on:input="set('r53', $event)" to="255" integer />
+    <f-slider title="G" :value="get('g53', 171)" v-on:input="set('g53', $event)" to="255" integer />
+    <f-slider title="B" :value="get('b53', 93)" v-on:input="set('b53', $event)" to="255" integer />
+  </div>
+</f-inline>
+
+</div>
+
+
+</f-inline>
+
+-
+
+<Poster 
+  :bgColor="rgb( get('r51',236), get('g51',95), get('b51',0) )" 
+  :headingColor="rgb( get('r52',5), get('g52',167), get('b52',19) )" 
+  :textColor="rgb( get('r53',201), get('g53',171), get('b53',93) )" 
+  :type="'Normal'"
+/>
+
+-
+
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'protanopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'protanopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'protanopia' )" 
+  :type="'Protanopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'deuteranopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'deuteranopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'deuteranopia' )" 
+  :type="'Deuteranopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'tritanopia' )" 
+  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'tritanopia' )" 
+  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'tritanopia' )" 
+  :type="'Tritanopia'"
+/>
+
+-
+
+<mark>Here we need to check since the poster area is not displayed, although the code is there.</mark>
+
+-
+<f-next-button title="Design time!" />
+
+#### &nbsp;
+
+
+
+---
 
 
 
@@ -2280,6 +2453,44 @@ e.g. in a mock-up
 
 
 
+---
+
+
+<!--
+
+ELABORATE PHASE
+
+-->
+
+
+| section: elaborate overview
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Elaborate Overview  -->
+# Workshop
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Now that you found out about the different topics surrounding designing for colorblind, it's time for some action.
+There are two different paths that you could take for the final task.
+Either you could choose the STEM or the DESIGN focus.~
+
+<mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark>
+
+#### ~Choose your path:~
+<br>
+<button v-on:click="send('goto', 'workshopSTEM')">STEM path</button>
+<br>
+<button v-on:click="send('goto', 'workshopDESIGN')">DESIGN path</button> 
+
+-
+
+<mark>
+	Here we need to add a picture.
+</mark>
 
 
 
@@ -2287,19 +2498,224 @@ e.g. in a mock-up
 
 
 
+---
+
+
+
+| id: workshopSTEM
+| section: elaborate for biology
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Elaborate STEM students -->
+# Workshop STEM
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Congratulations! You chose the STEM path and this is your quest:
+Create a new color scheme for a calculator with white buttons, which is also works for people with color vision deficiency.~
+
+<br>
+
+1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?
+2. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
+3. **Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](https://www.google.de).
+
+<br>
+
+<mark> Here we need to add a picture of the calculator.</mark>
+<mark> We need to add a link to a pdf with the calculator in task no. 3 - Link is now to google (color-me-in-sheet).</mark>
+
+-
+### This is the model calculator:
+
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+  <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
+</figure>
 
 
 
 
 
 
+---
+
+
+
+
+
+| id: workshopDESIGN
+| section: elaborate for design
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Elaborate DESIGN students -->
+# Workshop DESIGN
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Congratulations! You chose the DESIGN path and this is your quest:
+Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.~
+
+<br>
+
+1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often?  How many colors would you need for your color scheme?
+2. **Target group**: Think about who will use it. What is most important to them? How does that affect your design?
+3. **Layout**: Scribble a layout for your calculator app. Use the calculator displayed here as a reference.
+4. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
+5. **Mockup**: Make a mockup of your design in a graphic program and apply your color scheme to it.
+
+<br>
+
+<mark> Here we need to add a picture of the calculator.</mark>
+<mark> We need to add a link to a pdf with the calculator (color-me-in-sheet).</mark>
+
+-
+
+### This is the model calculator:
+
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+  <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
+</figure>
 
 
 
 
 
 
+---
 
+
+
+<!--
+
+EVALUATE PHASE
+
+-->
+
+
+
+| height: 100vh
+| id: cbSimulator
+| 1 1 2 2 2
+| 3 3 2 2 2
+
+
+
+<!-- ##### Evaluate testing  -->
+# TEST YOUR DESIGN
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Lets see how well your design works for people with color vision deficiency.
+Upload your picture into the CVD-simulator and check whether it works.~
+
+<p />
+
+<f-card :title="get('cbType', 'Protanopia') == 'Protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType', 'Protanopia') == 'Protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Protanopia')">
+
+<p v-if="get('cbType', 'Protanopia') == 'Protanopia'" style="font-size:100%;">reduced sensitivity to <b>RED</b> light</p>
+
+</f-card>
+
+<f-card :title="get('cbType') == 'Deuteranopia' ? 'Simulating Deuteranopia 👉' : 'Simulate Deuteranopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'Deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Deuteranopia')" >
+
+<p v-if="get('cbType') == 'Deuteranopia'" style="font-size:100%;">reduced sensitivity to <b>GREEN</b> light</p>
+
+</f-card>
+
+<f-card :title="get('cbType') == 'Tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'Tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'Tritanopia')">
+
+<p v-if="get('cbType') == 'Tritanopia'" style="font-size:100%">reduced sensitivity to <b>BLUE</b> light</p>
+
+</f-card>
+
+<p />
+
+<br>
+
+1. Check if your color schemes is flawed.
+2. Adjust your color scheme, if necessary, and check again.
+3. Present your design in class and be ready to explain your choices.
+
+
+<f-next-button style="margin:var(--base4) 0" />
+
+
+
+-
+
+<div style=" position:sticky; top:var(--content-padding)">
+
+<p style="--base:8px;"><i>Drag the red triangular handlers or click on image to see the difference</i></p>
+
+<ColorblindnessJuxtapose 
+  :imageUrl="'images/colorblind-subway.png'" 
+  :revealed="25" 
+  :locked="false"
+  :cbType="get('cbType', 'Protanopia')"
+  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)"
+/>
+
+</div>
+
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Aim. 
+  ~In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.
+  <br>
+You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*~
+
+</f-notes>
+
+
+
+
+---
+
+| section: evaluate
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Evaluate meta  -->
+# EVALUATE
+
+<f-hr style="margin:var(--base6) 0" />
+
+~Lets reflect on what you achieved.~
+
+<br>
+
+1. Think of other methods to make information accessible other than color coding it. What could you do else?
+2. Reflect on what you learned. What was new for you or interesting? 
+3. Do you think the information will be useful for you as a designer?
+4. What about the social relevance - do you think that designing for people with CVD helps them in their daily lives?
+
+<br>
+
+<mark> Here we need to add a picture.</mark>
+
+
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Hint for teachers. 
+  ~In the first task, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.~
+
+</f-notes>
 
 
 
