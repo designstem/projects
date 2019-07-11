@@ -645,10 +645,9 @@ Go outside or look out of your window before the sun comes up. Experience how yo
 <details>
 	<summary>Check your answers - but don't cheat.</summary>
  
- **Answer key**
- <br>
+**Answer key**
  
- 1. The three secondary colors are: Magenta (mixed through red and blue light), Cyan (mixed through green and blue light) and yellow (mixed through red and green light).
+1. The three secondary colors are: Magenta (mixed through red and blue light), Cyan (mixed through green and blue light) and yellow (mixed through red and green light).
 
 2. Typical RGB input devices are color TV and video cameras, image scanners and digital cameras. Typical RGB output devices are TV sets of various technologies (CRT, LCD, plasma, OLED, quantum dots…), computer and mobile phone displays, video projectors, multicolor LED displays and large screens such as JumboTron. Color printers, on the other hand are not RGB devices, but subtractive color devices (typically CMYK color model).
 If you want to find out about the subtractive color model, see this [wikipedia text on the subtractive color model](https://en.wikipedia.org/wiki/Subtractive_color).
@@ -657,17 +656,17 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 </details>
 
-<br>
+&nbsp;
 
-<f-next-button title="RGB Task" style="margin:var(--base6) 0"  />
+<f-next-button title="RGB Task"  />
 
 </section>
 
 -
 
-<div style="background-color:var(--black); height:100vh; position:sticky; top:0; display:flex; justify-content:center; align-items:center;">
+<div style="background-color:var(--black); height:100vh; position:sticky; top:0;">
 
-<f-scene style="width:80%; height:80%">
+<f-scene responsive>
   
   <f-circle 
     v-for="(c,i) in ['red', 'lime', 'blue']" 
@@ -686,43 +685,58 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 ---
 
+
+
+
+
+
+
+| cols: 60vw auto
+| rows: auto
+| 1 3
+| 2 3
+| 4 3
+
+
 ##### Color mixing
 # Mix RGB Colors
 
+-
+
 #### Task
 ~**Now that you know about the RGB color system, look at the two colors. They are both made up in parts of red, green and blue.**~
+
+&nbsp;
 
 1. ~In your mind, try to disassemble them into their three color components (red, green and blue). How much red, green and blue would you need to create these colors? A lot? Only little?~
 
 2. ~Take some notes of your assumptions. Test your ideas on the next page.~
 
-<br>
-
-<f-next-button />
-
 -
 
-<f-scene width="600" height="300" style="width:100%; height:40vh;">
+<f-scene responsive>
 <f-box 
       width="4"
       height="12"
-      x="2"
+      x="0"
       stroke="none"
       :fill="rgb( 255 , 0, 255 )"
     />
  </f-scene>
- 
-<f-scene width="600" height="300" style="width:100%; height:40vh;">
+<!-- <f-scene width="600" height="300" style="width:100%; height:40vh;"> -->
+<f-scene responsive>
  <f-box 
       width="4"
       height="12"
-      x="2"
+      x="0"
       stroke="none"
       :fill="rgb( 255 , 201, 53 )"
     />
-    
  </f-scene>
 
+-
+
+<f-next-button />
 
 
 
@@ -736,6 +750,7 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 ---
 
+| rows: auto
 | 1 1
 | 2 3
 | 4 4
@@ -749,7 +764,7 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 -
 
 <div>
-  <f-scene width="600" height="300" style="width:100%; height:40vh;">
+  <f-scene responsive width="600" height="300">
     <f-box 
       width="6"
       height="12"
@@ -773,7 +788,8 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 -
 
 <div>
-  <f-scene width="600" height="300" style="width:100%; height:40vh;">
+  <!-- <f-scene width="600" height="300" style="width:100%; height:40vh;"> -->
+  <f-scene responsive width="600" height="300">
     <f-box 
       width="6"
       height="12"
@@ -861,7 +877,7 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 -
 
 <div style="width:100%; height:100vh; position:sticky; top:0;">
-<f-scene style="width:100%; height:100%; display:block;" preserveAspectRatio="none"> 
+<f-scene responsive style="display:block;" preserveAspectRatio="none"> 
   <f-box 
     width="4"
     height="6"
