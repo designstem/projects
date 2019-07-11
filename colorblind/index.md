@@ -47,6 +47,7 @@ Instead they should experience that not being able to see all colors can have a 
 
 ---
 
+| rows: auto
 | section: cb-what
 | 1 1
 | 2 3

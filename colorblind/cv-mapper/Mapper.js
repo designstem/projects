@@ -167,16 +167,16 @@ export default{
         <div v-if="!running" class="help__description-text">
           <h4>A coloured dot will move from the edge of the screen towards the centre.</h4>
           <h4><strong>1</strong> Click on the screen once you <b>see the dot moving</b></h4>
-          <h4><strong>2</strong> Click on the screen once you <b>clearly see dots colour</b></h4>
+          <h4><strong>2</strong> Click on the screen <b>again</b> once you <b>clearly see dots colour</b></h4>
           <p>Repeat.</p>
         </div>
       </div>
       <div class="help__controls">
-        <p style="line-height:0.8;">LOOK HERE</p>
+        <p style="line-height:0.8; --base:12px; color:white">LOOK HERE</p>
         <p style="margin-top:2vh;">
           <span v-if="!running"><button style="--base:12px;" @click="startAnimation">START</button></span>
           <span v-if="running">
-            Click anywhere, once you see the<br />
+            Click, once you clearly see the<br />
             <span v-if="clicked==0">MOVING DOT</span><span v-if="clicked==1">DOTS COLOUR</span>!
           </span>
         </p>

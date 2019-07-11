@@ -11,21 +11,21 @@
 
 
 
-<f-section-card title="1: Explore color blindness" section="explore-cb">
+<f-section-card title="1: Explore color blindness" section="cb-explore-cb">
 - How does color vision deficiency affects people?
 </f-section-card>
 
 
-<f-section-card title="2: Accessibility" section="accessibility">
+<f-section-card title="2: Accessibility" section="cb-accessibility">
 - What is accessibility
 </f-section-card>
 
 
-<f-section-card title="3: The eye" section="eye">
+<f-section-card title="3: The eye" section="cb-eye">
 - How does the eye work?
 </f-section-card>
 
-<f-section-card title="4: Color mixing" section="color-mixing">
+<f-section-card title="4: Color mixing" section="cb-color-mixing">
 - Mix all colors from RED, GREEN and BLUE light
 </f-section-card>
 

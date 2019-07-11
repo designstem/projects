@@ -1,5 +1,5 @@
 
-| section: start
+| section: cb-start
 | theme: dark
 | background: './images/colorblind-subway.png'
 | tint: 0.9
@@ -67,11 +67,11 @@ The students’ awareness should be raised for the problems people with color vi
 
 ---
 
-| section: explore-cb
+| section: cb-explore-cb
 | gap: 3vmin
 | 1 3
 | 2 3
-| rows: 1f auto
+| rows: auto
 
 # Color blindness
 
@@ -86,6 +86,8 @@ The students’ awareness should be raised for the problems people with color vi
 
 </f-inline>
 
+&nbsp;
+
 <f-inline>
 
 # 🤔
@@ -93,6 +95,8 @@ The students’ awareness should be raised for the problems people with color vi
 ~**Look at the tomatoes and try to guess which one of the tomatoes is already ripe, red and therefore edible.**~
 
 </f-inline>
+
+&nbsp;
 
 <button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
@@ -129,7 +133,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 -
 
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" style="position:sticky; top:10px; bottom:10px;" />
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)" />
 
 
 
@@ -264,7 +268,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-<div style=" position:sticky; top:var(--content-padding)">
+<div style="position:sticky; top:var(--content-padding)">
 
 <p style="--base:8px;"><i>Drag the red triangular handlers or click on image to see the difference</i></p>
 
@@ -292,7 +296,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 | 1 1
 | 2 3
 | 4 4
-| cols: 1fr 3fr
+| cols: 2fr 3fr
 
 
 # Analyze results
@@ -303,9 +307,9 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 -
 
-##### ~**1** Find out what the main problem is regarding the color scheme.~
-##### ~**2** Phrase a hypothesis on how this problem could be solved.~
-##### ~**3** Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
+1. ~Find out what the main problem is regarding the color scheme.~
+2. ~Phrase a hypothesis on how this problem could be solved.~
+3. ~Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
 
 -
 
@@ -320,13 +324,13 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
+| rows: auto
 | 1 1
-| 2 4
-| 3 4
-| cols: 2fr 3fr
+| 2 3
+| 4 4
 
 # Learning stations
-<f-hr style="margin:var(--base6) 0" />
+
 -
 
 ~Caring about high accessibility of information in your design products is important. In the following learning stations you can find impulses and tasks which should enable you to get the skills to optimize your design products. 
@@ -334,29 +338,24 @@ You can work through the stations in the given order which is recommended if you
 
 -
 
+
+- ~<a href="#" v-on:click="goto('cb-accessibility')">Accessibility</a>~
+- ~<a href="#" v-on:click="goto('cb-the-eye')">The eye</a>~
+- ~<a href="#" v-on:click="goto('cb-cvd')">Color vision deficiency</a>~
+- ~<a href="#" v-on:click="goto('cb-color-mixing')">Subtractive and additive color mixing</a>~
+- ~<a href="#" v-on:click="goto('cb-color-models')">Three dimensions of color (color space models)</a>~
+- ~<a href="#" v-on:click="goto('cb-contrast')">Color contrast and color harmony theory</a>~
+- ~<a href="#" v-on:click="goto('cb-palettes')">Design rules for creating color palettes</a>~
+
+-
+
 <f-next-button style="margin:6vh 0" title="Next: Accessibility" />
-
--
-
-- ~Accessibility~
-- ~The eye~
-- ~Color vision deficiency~
-- ~Subtractive and additive color mixing~
-- ~Three dimensions of color (color space models)~
-- ~Color contrast and color harmony theory~
-- ~Design rules for creating color palettes~
-
-List needs to be changed to buttons, leading to the separate learning stations.
-
--
-
-
 
 <f-notes>
   
   <summary>Teachers notes</summary>
   
-  ### Aim. 
+  ### Aim
   ~In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
   This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
   The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.~
@@ -374,15 +373,16 @@ List needs to be changed to buttons, leading to the separate learning stations.
 
 ---
 
-
-| section: accessibility
+| id: cb-accessibility
+| section: cb-accessibility
+| rows: auto
 | 1 4
 | 2 4
 | 3 4
 
 
 # Accessibility
-<f-hr style="margin:var(--base6) 0" />
+
 -
 
 #### Tasks
@@ -414,27 +414,29 @@ List needs to be changed to buttons, leading to the separate learning stations.
 
 ---
 
-| section: eye
-| height: 100vh
-| 1 2
-
+| section: cb-the-eye
+| rows: auto
+| 1 1
+| 2 3
 
 
 <!-- ##### EXPLAIN  -->
-# 👁️‍🗨️ The eye
+# 👁️‍🗨️The eye
 
-<f-hr style="margin:var(--base6) 0" />
+-
 
 ~When it comes to color vision, the **retina** is the part of the eye which is important.~
 ~It is at the back of the eye and contains two types of photoreceptor cells which detect light:~
 
-#### ~Rods and cones.~
+#### ~rods and cones.~
+
+&nbsp;
 
 <f-next-button title="Rods and cones" style="margin:var(--base6) 0" />
 
 -
 
-<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
   <img src="./images/eye.svg" />
 </figure>
 
@@ -536,7 +538,7 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 ---
 
-| section: color-mixing
+| section: cb-color-mixing
 | theme: light
 
 <!-- ##### EXPLAIN  -->

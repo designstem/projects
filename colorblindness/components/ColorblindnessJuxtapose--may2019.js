@@ -1,4 +1,4 @@
-import { Css, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
 //  import { Vue, components, Css } from "http://127.0.0.1:8887/fachwerk.js";
 
 // for (const name in components) {
@@ -77,7 +77,7 @@ export default{
     }
   },
   methods: {
-    ...utils,
+    //...utils,
     initImage(img){
 
       let scale = 1;
@@ -213,18 +213,12 @@ export default{
     changeColors(b, k) {
       this.activeType = k;
       for (let i = 0; i < this.normalImage.data.length; i += 4) {
-        // let newCol = this.ColorMatrix({ R:this.normalImage.data[i], G:this.normalImage.data[i+1], B:this.normalImage.data[i+2], A:this.normalImage.data[i+3]} , b );
-        
-        let rgb = this.colorblind( this.rgb(this.normalImage.data[i], this.normalImage.data[i+1], this.normalImage.data[i+2]), k.toLowerCase() );
-
-        let newCol = rgb.substring(4, rgb.length-1)
-        .replace(/ /g, '')
-        .split(',');
-
-        this.cbImage.data[i] = newCol[0];
-        this.cbImage.data[i+1] = newCol[1];
-        this.cbImage.data[i+2] = newCol[2]
-        //this.cbImage.data[i+3] = newCol[3];
+        let newCol = this.ColorMatrix({ R:this.normalImage.data[i], G:this.normalImage.data[i+1], B:this.normalImage.data[i+2], A:this.normalImage.data[i+3]} , b );
+      
+        this.cbImage.data[i] = newCol.R;
+        this.cbImage.data[i+1] = newCol.G;
+        this.cbImage.data[i+2] = newCol.B
+        this.cbImage.data[i+3] = newCol.A;
       }
 
       this.imgStatus = this.activeType;

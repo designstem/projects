@@ -672,7 +672,7 @@ you get a result
 
 ## Let's play with some interactive examples
 
-With this examples you can see how most basic operations like **repeating, scaling and rotating** can generate quite complex patterns from most basic objects like **lines, squares and circles**.    
+With these examples you can see how most basic operations like **repeating, scaling and rotating** can generate quite complex patterns from most basic objects like **lines, squares and circles**.    
 
 ### &nbsp;
 
@@ -693,34 +693,35 @@ With this examples you can see how most basic operations like **repeating, scali
 
 
 
-
-| 1 2 2
-| 3 4 4 
+| rows: auto
+| cols: 20% 50% 20%
+| 1 1 1
+| 2 3 4 
  
-# 1. Just some lines
+## A. just some lines
 
 -
 
 ***Move the sliders*** and see what happens. Nothing too special here &ndash; our simple algorithm creates a grid of small lines that change when parameters change. Parameters change when you move the sliders. You should see some kind of a dashed lines pattern. That's it.
 
-
-
 -
 
-<!-- <f-slider title="Grid size" 
-    from="0.2"
-    to="2"
-    step="0.01"
-    :value="0.6"
-    v-on:value="i => set('step1', i)"
-/>
-<f-slider title="Line length" 
-    from="-1"
-    to="1"
-    step="0.01"
-    :value="0.01"
-    v-on:value="i => set('width1', i)"
-/> -->
+<f-scene class="fullWidthScene" >
+  <f-grid-pattern 
+    :cols="2+Math.round(4/get('step1',0.6))" 
+    :rows="2+Math.round(4/get('step1',0.6))" 
+    :step="get('step1',0.6)">
+    <f-line 
+      :points="[ 
+        { x: -get('width1', 0.1)/2, y: 0 }, 
+        { x: get('width1', 0.1), y: 0 }, 
+      ]"  
+      :stroke-width="2"
+    /> 
+  </f-grid-pattern>
+</f-scene>
+
+-
 
 <f-slider title="Grid size" 
     from="0.2"
@@ -741,23 +742,9 @@ With this examples you can see how most basic operations like **repeating, scali
 
 <small>***HINT:*** *Try to make the grid size smaller than 0.5 and line longer than 0.2*</small>
 
-<br /><br />
+&nbsp;
 
-<f-prev-button /> <f-next-button title="Next: add rotation" v-if="get('step1') < 0.5 && Math.abs(get('width1')) > 0.2" />
-
--
-
-<f-scene width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%;" >
-  <f-grid-pattern :cols="2+Math.round(4/get('step1',0.6))" :rows="2+Math.round(4/get('step1',0.6))" :step="get('step1',0.6)">
-    <f-line 
-      :points="[ 
-        { x: -get('width1', 0.1)/2, y: 0 }, 
-        { x: get('width1', 0.1), y: 0 }, 
-      ]"  
-      :stroke-width="3"  
-    /> 
-  </f-grid-pattern>
-</f-scene>
+<f-next-button title="Next: add rotation" v-if="get('step1') < 0.5 && Math.abs(get('width1')) > 0.16" />
 
 
 ---
@@ -771,15 +758,32 @@ With this examples you can see how most basic operations like **repeating, scali
 
 
 
+| rows: auto
+| cols: 20% 50% 20%
+| 1 1 1
+| 2 3 4
 
-| 1 2 2
-| 3 4 4
-
-## 2. Let's add rotation
+## B. Let's add rotation
 
 -
 
 <small>Ok, now you have three sliders - we have added ***rotation***. Play with them and see if you can create any interesting output. </small>
+
+-
+
+<f-scene responsive>
+  <f-grid-pattern :cols="2+Math.round(4/get('step2',0.6))" :rows="2+Math.round(4/get('step2',0.6))" :step="get('step2',0.3)">
+    <f-group :rotation=" get('rotation2',0) "> 
+      <f-line
+        :points="[ 
+          { x: -get('width2', 0)/2, y: 0 }, 
+          { x: get('width2', 0), y: 0 }, 
+        ]"  
+        :stroke-width="2"  
+      /> 
+    </f-group>
+  </f-grid-pattern>
+</f-scene>
 
 -
 
@@ -791,8 +795,8 @@ With this examples you can see how most basic operations like **repeating, scali
     set="step2"
 />
 <f-slider title="Line length" 
-    from="-3"
-    to="3"
+    from="-2"
+    to="2"
     step="0.05"
     :value="0.01"
     set="width2"
@@ -808,27 +812,12 @@ With this examples you can see how most basic operations like **repeating, scali
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.3, line longer than 1 and rotation bigger than 30*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.4, line longer than 1 and rotation bigger than 30*</small>
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: boxes" v-if="get('step2') < 0.3 && Math.abs(get('width2')) > 1 && Math.abs(get('rotation2')) > 30" />
+<f-next-button title="Next: boxes" v-if="get('step2') < 0.4 && Math.abs(get('width2')) > 1 && Math.abs(get('rotation2')) > 30" />
 
--
-
-<f-scene  width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%; " >
-  <f-grid-pattern :cols="2+Math.round(4/get('step2',0.6))" :rows="2+Math.round(4/get('step2',0.6))" :step="get('step2',0.3)">
-    <f-group :rotation=" get('rotation2',0) "> 
-      <f-line
-        :points="[ 
-          { x: -get('width2', 0)/2, y: 0 }, 
-          { x: get('width2', 0), y: 0 }, 
-        ]"  
-        :stroke-width="3"  
-      /> 
-    </f-group>
-  </f-grid-pattern>
-</f-scene>
 
 ---
 
@@ -841,11 +830,12 @@ With this examples you can see how most basic operations like **repeating, scali
 
 
 
+| rows: auto
+| cols: 20% 50% 20%
+| 1 1 1
+| 2 3 4
 
-| 1 2 2
-| 3 4 4
-
-## 3. Boxes
+## C. Boxes
 
 -
 
@@ -853,6 +843,23 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 -
 
+<f-scene responsive>
+  <f-grid-pattern :cols="2+Math.round(4/get('step3',0.6))" :rows="2+Math.round(4/get('step3',0.6))" :step="get('step3',0.9)">
+    <f-group :rotation="get('rotation3',0)"> 
+      <!-- <f-box 
+        :stroke-width="3"  
+        :width = "get('width3',0.6)" 
+        :height = "get('width3',0.6)" 
+      />  -->
+      <f-box 
+        :stroke-width="2"  
+        :scale="get('width3',0.6)" 
+      /> 
+    </f-group>
+  </f-grid-pattern>
+</f-scene>
+
+-
 
 <f-slider title="Grid size" 
     from="0.3"
@@ -882,25 +889,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: circles" v-if="get('step3') < 0.5 && Math.abs(get('width3')) > 1 && Math.abs(get('rotation3')) > 45" />
-
--
-
-<f-scene  width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
-  <f-grid-pattern :cols="2+Math.round(4/get('step3',0.6))" :rows="2+Math.round(4/get('step3',0.6))" :step="get('step3',0.9)">
-    <f-group :rotation="get('rotation3',0)"> 
-      <!-- <f-box 
-        :stroke-width="3"  
-        :width = "get('width3',0.6)" 
-        :height = "get('width3',0.6)" 
-      />  -->
-      <f-box 
-        :stroke-width="3"  
-        :scale="get('width3',0.6)" 
-      /> 
-    </f-group>
-  </f-grid-pattern>
-</f-scene>
+<f-next-button title="Next: circles" v-if="get('step3') < 0.5 && Math.abs(get('width3')) > 1 && Math.abs(get('rotation3')) > 45" />
 
 ---
 
@@ -913,15 +902,29 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 
 
+| rows: auto
+| cols: 20% 50% 20%
+| 1 1 1
+| 2 3 4
 
-| 1 2 2
-| 3 4 4
-
-## 4. Circles
+## D. Circles
 
 -
 
 ***Circles are just CRAZY!*** Remember - all we are doing here is to repeat one simple circle and adjusting its radius, but the visual output can get very complex and interenting.
+
+-
+
+<f-scene responsive id="algrtmCircles">
+  <f-grid-pattern :cols="2+Math.round(4/get('step4',0.6))" :rows="2+Math.round(4/get('step4',0.6))" :step="get('step4',0.5)">
+    <f-group> 
+      <f-circle 
+          :stroke-width="2"  
+          :r = "get('width4',0.2)" 
+        /> 
+    </f-group>
+  </f-grid-pattern>
+</f-scene>
 
 -
 
@@ -946,20 +949,9 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: random" v-if="get('step4') < 0.4 && get('width4') > 1" />
+<f-next-button title="Next: random" v-if="get('step4') < 0.4 && get('width4') > 1" />
 
--
-
-<f-scene  width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
-  <f-grid-pattern :cols="2+Math.round(4/get('step4',0.6))" :rows="2+Math.round(4/get('step4',0.6))" :step="get('step4',0.5)">
-    <f-group> 
-      <f-circle 
-          :stroke-width="3"  
-          :r = "get('width4',0.2)" 
-        /> 
-    </f-group>
-  </f-grid-pattern>
-</f-scene>
+<!-- <button v-on:click="send('download', 'algrtmCircles')">Download</button> -->
 
 ---
 
@@ -972,10 +964,10 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 
 
-
-| 1 2 2
-| 3 4 4
-| 5 6 7
+| rows: auto
+| cols: 20% 50% 20%
+| 1 1 1
+| 2 3 4
 
 ## 5. Random
 
@@ -985,31 +977,30 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 -
 
-<button 
-    v-on:click="set( 'randomR', randomizer( 0.2, 1) )" class="primary"
-    style="background:var(--blue)">Random generator</button>
-
-
-
-<small v-if="get('randomR')">***HINT:*** *If the pattern looks boring, press the button again - you'll get a new one*</small>
-
-<br /><br />
-
-<f-prev-button /> <f-next-button v-if="get('randomR')" title="Next" />
-
--
-
-<f-scene  width="600" height="400" style="border:1px solid var(--lightgray); width:100%; height:100%; ">
+<f-scene responsive id="algrtmRandom">
   <f-grid-pattern :cols="2+Math.round(4/randomizer(0.2, 0.6))" :rows="2+Math.round(4/randomizer(0.2, 0.6))" :step="randomizer(0.2, 0.6)">
     <f-group> 
       <f-circle 
-          :stroke-width="3"  
-          :r = "get('randomR')" 
+          :stroke-width="2"  
+          :r = "get('randomR', randomizer( 0.2, 1))" 
         />  
     </f-group>
   </f-grid-pattern>
 </f-scene>
 
+-
+
+<button 
+    v-on:click="set( 'randomR', randomizer( 0.2, 1) )" class="primary"
+    style="background:var(--blue)">Random generator</button>
+
+<small v-if="get('randomR')">***HINT:*** *If the pattern looks boring, press the button again - you'll get a new one*</small>
+
+<br /><br />
+
+<f-next-button v-if="get('randomR')" title="Next" />
+
+<!-- <button v-on:click="send('download', 'algrtmRandom')">Download</button> -->
 
 ---
 
@@ -1022,28 +1013,29 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 
 
-| rows: 1fr 2fr 1fr
+| rows: auto
 | cols: 3fr 1fr
 
 | 1 
 | 2 
 | 3 
 
-# That was just a beginning
+# This was just a beginning &ndash;
+#### like a tiny tip of a huge iceberg
 
 -
 
-With these examples you can see how simple shapes combined and some basic operations like repeating, scaling and rotating generate a lot of complex patterns.
+But hopefully with these super basic examples you saw how simple shapes combined and some basic operations like repeating, scaling and rotating can generate a lot of complex patterns.
 
-When we add other important properties like colour, stroke width, transparency and so on, we can alter the algorithm and have different output.
+When we add other important properties like colour, stroke width, transparency and so on, we can alter the algorithm further and have different output.
 
 Plus it is possible to let different functions and/or data, such as randomness, noise, sine wave, user input, voice, weather information, tweets etc affect the parameters and then we have much more options and complex results.
 
-But let all this be a subject for the next time :)
+But let all this be a subject for the next time &nbsp; or better yet &ndash; let this be something for you to discover by yourself :)
 
 -
 
-<f-prev-button /> <f-next-button title="Next" />
+<f-next-button title="Next" />
 
 #### &nbsp;
 
