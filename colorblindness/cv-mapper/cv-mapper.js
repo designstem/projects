@@ -1,6 +1,5 @@
 import {
-  Vue,
-  utils
+  Vue
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 // Register components globally
@@ -29,7 +28,7 @@ new Vue({
   // Allow utils to be used in templates
 
   methods: {
-    ...utils
+    // ...utils
     // Custom methods go here
   },
 
@@ -53,7 +52,7 @@ new Vue({
   </f-fetch> -->
   <div>
     <!-- <div style="position:fixed; bottom:2vh; left:0; width:100%;padding:2vh;"><f-slider set="val" to="737" /></div> -->
-    <Mapper :val="get('val', 100)" />
+    <Mapper />
   </div>
 `
 });

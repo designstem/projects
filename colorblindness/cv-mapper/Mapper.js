@@ -1,13 +1,12 @@
 import { 
-  Vue,
-  components,
-  Css, 
-  utils
+  // Vue,
+  // components,
+  Css, utils
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-for (const name in components) {
-  Vue.component(name, components[name])
-}
+// for (const name in components) {
+//   Vue.component(name, components[name])
+// }
 
 export default{
   mixins: [Css],
@@ -236,6 +235,7 @@ export default{
     .help__description-text > h4{
       font-weight: 300;
       line-height: 1.5;
+      color: white;
     }
     .fs-button {
       position:fixed;
