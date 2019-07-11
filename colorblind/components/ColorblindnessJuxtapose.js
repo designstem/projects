@@ -213,13 +213,9 @@ export default{
     changeColors(b, k) {
       this.activeType = k;
       for (let i = 0; i < this.normalImage.data.length; i += 4) {
-        // let newCol = this.ColorMatrix({ R:this.normalImage.data[i], G:this.normalImage.data[i+1], B:this.normalImage.data[i+2], A:this.normalImage.data[i+3]} , b );
         
         let rgb = this.colorblind( this.rgb(this.normalImage.data[i], this.normalImage.data[i+1], this.normalImage.data[i+2]), k.toLowerCase() );
-
-        let newCol = rgb.substring(4, rgb.length-1)
-        .replace(/ /g, '')
-        .split(',');
+        let newCol = rgb.substring(4, rgb.length-1).replace(/ /g, '').split(',');
 
         this.cbImage.data[i] = newCol[0];
         this.cbImage.data[i+1] = newCol[1];
@@ -228,17 +224,6 @@ export default{
       }
 
       this.imgStatus = this.activeType;
-    },
-    ColorMatrix(o,m) { 
-      let r=((o.R*m[0])+(o.G*m[1])+(o.B*m[2])+(o.A*m[3])+m[4]);
-      let g=((o.R*m[5])+(o.G*m[6])+(o.B*m[7])+(o.A*m[8])+m[9]);
-      let b=((o.R*m[10])+(o.G*m[11])+(o.B*m[12])+(o.A*m[13])+m[14]);
-      let a=((o.R*m[15])+(o.G*m[16])+(o.B*m[17])+(o.A*m[18])+m[19]);
-      return({'R':this.fu(r), 'G':this.fu(g), 'B':this.fu(b), 'A':this.fu(a)});
-    },
-    fu(n) { 
-      let nn = Math.round(n); 
-      return(nn<0?0:(nn<255?nn:255)); 
     },
     revealed2Width(pos){
         return this.imgWidth/100*pos;
@@ -296,7 +281,6 @@ export default{
       //padding-bottom: var(--base2); 
       position: relative;
     }
-    
     .cbs-canvas__info {
       position: absolute; 
       top:100px; 
