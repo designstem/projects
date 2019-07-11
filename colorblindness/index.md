@@ -1203,7 +1203,7 @@ Describe the different effect low and high saturated colors have, using adjectiv
 ---
 
 | id: shampoo
-
+| rows: auto
 | 1 1 1
 | 2 3 4
 | 5 5 5
@@ -1230,7 +1230,7 @@ Describe the different effect low and high saturated colors have, using adjectiv
 
 
 <h5>Babies</h5>
-<f-scene width="300" height="300" style="width:100%; height:40vh;">
+<f-scene responsive height="200">
   <f-box 
     width="8"
     height="8"
@@ -1244,8 +1244,8 @@ Describe the different effect low and high saturated colors have, using adjectiv
 
 -
 
-<h5>Old men</h5>
-<f-scene width="300" height="300" style="width:100%; height:40vh;">
+<h5>Gentlemen 60+</h5>
+<f-scene responsive height="200">
   <f-box 
     width="8"
     height="8"
@@ -1260,7 +1260,7 @@ Describe the different effect low and high saturated colors have, using adjectiv
 -
 
 <h5>Unisex</h5>
-<f-scene width="300" height="300" style="width:100%; height:40vh;">
+<f-scene responsive height="200">
   <f-box 
     width="8"
     height="8"
@@ -1274,9 +1274,7 @@ Describe the different effect low and high saturated colors have, using adjectiv
 
 -
 
-<br />
-<br />
-<br />
+### &nbsp;
 
 > If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
 
@@ -1319,6 +1317,7 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 ---
 
+| rows: auto
 | 1 1
 | 2 3
 | 4 4
@@ -2238,7 +2237,7 @@ If possible, discuss your results with someone.
 
 | section: cb-designer
 | gap: 1vmin
-
+| rows: auto
 
 | 1 1 1 1
 | 2 3 4 5
@@ -2364,9 +2363,6 @@ If possible, discuss your results with someone.
 
 -
 
-<mark>Here we need to check since the poster area is not displayed, although the code is there.</mark>
-
--
 <f-next-button title="Design time!" />
 
 #### &nbsp;
