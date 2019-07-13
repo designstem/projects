@@ -92,8 +92,6 @@ export default{
       this.changeColors( this.cbType.toLowerCase() );
       //console.log("scale " + scale + " img.width " + img.width + " imgWidth " + this.imgWidth);
 
-      
-
       const _this = this;
       setTimeout(function(){
         //_this.juxt.ctx.putImageData(_this.cbImage.imageData, 0, 0);
@@ -129,7 +127,6 @@ export default{
         this.juxt.ctx.putImageData(this.normalImage.imageData,  0, 0,    0, 0,      xPos, this.imgHeight);
         this.juxt.ctx.putImageData(this.cbImage.imageData,      0, 0,    xPos, 0,   this.imgWidth, this.imgHeight);
         
-   
         // 'padding' lines top and bottom
         this.juxt.ctx.lineWidth = 8;
         this.juxt.ctx.strokeStyle = "hsla(0, 0%, 100%, 1)";
@@ -144,7 +141,6 @@ export default{
         this.juxt.ctx.lineTo(this.imgWidth, this.imgHeight-4);
         this.juxt.ctx.closePath();
         this.juxt.ctx.stroke();
-
 
       if(!this.locked){
         // thin separator line
