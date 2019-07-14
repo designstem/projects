@@ -59,12 +59,12 @@ export default{
         {{ item[0] }}
       </div>
       <div style="flex: 1 0 60%; position:relative;" >
-        <div v-if="ticks" style="position:absolute; width:100%; height:100%; padding:0 12px; display: flex; justify-content:space-between; align-items: center;">
+        <div style="position:absolute; width:100%; height:100%; padding:0 12px; display: flex; justify-content:space-between; align-items: center;">
         <span v-if="showResults" style="height:30px; width:30px; background:var(--red); position:absolute; border-radius:50%;" 
           :style="{ 
             'left' : correctPos(item[2])
           }" />
-        <span v-for="tick in range( 0, to-1 )" :key="'tick'+tick" style="border:1px solid var(--secondary); height:var(--base2);" />
+        <span v-if="ticks" v-for="tick in range( 0, to-1 )" :key="'tick'+tick" style="border:1px solid var(--quaternary); height:var(--base2);" />
         </div>
         <f-slider :from="from" :to="to" :step="step" integer style="width:100%; margin:0; padding:0;" />
       </div>
@@ -74,7 +74,7 @@ export default{
     </f-inline>
 
     <div style="text-align: center; margin-top:var(--base)">
-      <a href="#" @click="showResults = !showResults">{{showResults ? 'HIDE' : 'SHOW'}}</a>
+      <a @click="showResults = !showResults" style="cursor:pointer">{{showResults ? 'HIDE' : 'SHOW'}}</a>
     </div>
   </div>
   `

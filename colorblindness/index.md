@@ -932,6 +932,20 @@ If you want to find out about the subtractive color model, see this [wikipedia t
   ['something', 'else', 5]
 ]" />
 
+&nbsp;
+
+<Polarity to="12" :input="[ 
+  ['this','has',4], 
+  ['more','steps',10]
+]" />
+
+&nbsp;
+
+<Polarity to="12" :ticks="false" :input="[ 
+  ['this','has',4], 
+  ['no','&quot;ticks&quot;',10]
+]" />
+
 <!-- <mark> Here we need to add a polarity profile with adjectives - maybe as a slider, so that students can interact and have a basis for their analysis. This slider should also be on the next two pages about brightness and saturation, with the same adjectives. Maybe we can achieve that the positions they chose for the former are left for them to compare with the new choices they make. I will make a scribble and upload it in the image folder on github. </mark> -->
 
 
