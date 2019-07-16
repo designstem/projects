@@ -1457,75 +1457,121 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 
 
+| padding: 0
+| gap: 0
+| rows: auto
+| 1 2
+| 3 2
+
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+
+##### Color contrast and harmony
+# Itten's contrasts
+
+&nbsp;
+
+~**Johannes Itten**, who taught at Bauhaus, defined seven different color contrasts:~
 
 
+##### 1. Contrast of hue
 
+##### 2. Light-dark contrast
 
+##### 3. Cold-warm contrast
 
-<!-- ##### EXPLAIN -->
-# Color contrast and harmony
-## Itten's contrasts
+##### 4. Complementary contrast
 
-<f-hr  style="margin:var(--base6) 0" />
+##### 5. Simultaneous contrast
 
-**Johannes Itten**, who taught at Bauhaus, defined seven different color contrasts:
+##### 6. Contrast of saturation
 
-- Contrast of hue
-- Light-dark contrast
-- Cold-warm contrast
-- Complementary contrast
-- Simultaneous contrast
-- Contrast of saturation
-- Contrast of extension
+##### 7. Contrast of extension
 
-<f-next-button style="margin:var(--base6) 0" />
+</section>
 
+-
 
+<f-image src="images/johannes-itten.jpg" style="background-position:50% 10%; min-height:60vh; width:100%; height:100%;" />
 
+-
 
-
-
-
-
-
-
+<section style="padding:0 var(--content-padding) var(--content-padding) var(--content-padding)">
+  <f-next-button />
+</section>
 
 ---
 
-| id: task1
 
+
+
+
+
+
+
+
+
+
+
+
+| id: task1
+| rows: auto
+| cols: 2fr 3fr
 | 1 1
 | 2 3
 | 4 4
 
 <!-- ##### EXPLAIN -->
-# Color contrast and harmony
-## Task 1
+##### Color contrast and harmony
+# Task 1
 
-<f-hr  style="margin:var(--base6) 0" />
+<!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
 -
 
-Find out about the seven contrasts online and match them with the pictures. 
+~Find out about the seven contrasts online and match them with the pictures.~ 
 
-Which contrasts do you see?
+&nbsp;
+
+~Which contrasts do you see?~
+
+<ContrastQuiz :input="[ 
+  ['Contrast of hue' , 0], 
+  ['Light-dark contrast', 1], 
+  ['Cold-warm contrast', 1],
+  ['Complementary contrast', 1],
+  ['Simultaneous contrast', 0],
+  ['Contrast of saturation', 1],
+  ['Contrast of extension', 0]
+]" />
+
+
+<!-- &nbsp;
 
 <f-inline v-for="(contrast, i) in [ 
-  ['Contrast of hue' , false], 
-  ['Light-dark contrast', true], 
-  ['Cold-warm contrast', true],
-  ['Complementary contrast', true],
-  ['Simultaneous contrast', false],
-  ['Contrast of saturation', true],
-  ['Contrast of extension', false]
-]" :key="i" style="margin-top:var(--base3)">
-  <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
-    <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
-    <span v-else-if="get('contrast'+i) == true">👍</span>
-    <span v-else-if="get('contrast'+i) == false">💥</span>  
-    {{ contrast[0] }}</h4>
+  ['Contrast of hue' , 0], 
+  ['Light-dark contrast', 1], 
+  ['Cold-warm contrast', 1],
+  ['Complementary contrast', 1],
+  ['Simultaneous contrast', 0],
+  ['Contrast of saturation', 1],
+  ['Contrast of extension', 0]
+]" :key="'contrast'+i">
+  <f-toggle :set="'cnt'+i" style="cursor: pointer;" />
+  <div>
 
+  {{ contrast[0] }}
+  
+  </div>
+  <div>
+    <h4 v-if="get('cntCheck1', false) == false">💣</h4>
+    <h4 v-else-if="get('cnt'+i) == contrast[1]">👍</h4>
+    <h4 v-else-if="get('cnt'+i) != contrast[1]">💥</h4> 
+  </div> 
 </f-inline>
+
+<button @click="set('cntCheck1', get('cntCheck1') == true ? false : true)">Check answers</button>
+
+{{ get('cntCheck1') }} -->
 
 -
 
@@ -1546,23 +1592,37 @@ Which contrasts do you see?
 
 ---
 
+| rows: auto
+| cols: 2fr 3fr
 | 1 1
 | 2 3
 | 4 4
 
 <!-- ##### EXPLAIN  -->
-# Color contrast and harmony
-## Task 1
+##### Color contrast and harmony
+# Task 1
 
-<f-hr  style="margin:var(--base6) 0" />
+<!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
 -
 
-Find out about the seven contrasts online and match them with the pictures. 
+~Find out about the seven contrasts online and match them with the pictures.~ 
 
-Which contrasts do you see?
+&nbsp;
 
-<f-inline v-for="(contrast, i) in [ 
+~Which contrasts do you see?~
+
+<ContrastQuiz :input="[ 
+  ['Contrast of hue' , 0], 
+  ['Light-dark contrast', 1], 
+  ['Cold-warm contrast', 1],
+  ['Complementary contrast', 1],
+  ['Simultaneous contrast', 0],
+  ['Contrast of saturation', 0],
+  ['Contrast of extension', 1]
+]" />
+
+<!-- <f-inline v-for="(contrast, i) in [ 
   ['Contrast of hue' , false], 
   ['Light-dark contrast', true], 
   ['Cold-warm contrast', true],
@@ -1577,7 +1637,7 @@ Which contrasts do you see?
     <span v-else-if="get('contrast'+i) == false">💥</span>  
     {{ contrast[0] }}</h4>
 
-</f-inline>
+</f-inline> -->
 
 -
 
@@ -1597,20 +1657,38 @@ Which contrasts do you see?
 
 ---
 
+| rows: auto
+| cols: 2fr 3fr
 | 1 1
 | 2 3
 | 4 4
 
 <!-- ##### EXPLAIN  -->
-# Color contrast and harmony
-## Task 1
+##### Color contrast and harmony
+# Task 1
 
-<f-hr  style="margin:var(--base6) 0" />
+<!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
 -
 
-Find out about the seven contrasts online and match them with the pictures. Which contrasts do you see?
+~Find out about the seven contrasts online and match them with the pictures.~ 
 
+&nbsp;
+
+~Which contrasts do you see?~
+
+
+<ContrastQuiz :input="[ 
+  ['Contrast of hue' , 0], 
+  ['Light-dark contrast', 1], 
+  ['Cold-warm contrast', 0],
+  ['Complementary contrast', 0],
+  ['Simultaneous contrast', 1], 
+  ['Contrast of saturation', 1],
+  ['Contrast of extension', 1]
+]" />
+
+<!-- 
 <f-inline v-for="(contrast, i) in [ 
   ['Contrast of hue' , false], 
   ['Light-dark contrast', true], 
@@ -1626,7 +1704,7 @@ Find out about the seven contrasts online and match them with the pictures. Whic
     <span v-else-if="get('contrast'+i) == false">💥</span>  
     {{ contrast[0] }}</h4>
 
-</f-inline>
+</f-inline> -->
 
 -
 
