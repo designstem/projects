@@ -441,16 +441,20 @@ You can work through the stations in the given order which is recommended if you
   <img src="./images/eye.svg" />
 </figure>
 
-
-
-
-
-
-
-
-
-
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 | height: 100vh
@@ -462,7 +466,7 @@ You can work through the stations in the given order which is recommended if you
 ##### The eye
 # Rods and cones
 
-<f-hr style="margin:var(--base6) 0" />
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 #### Task
 
@@ -495,11 +499,15 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 -
 
-<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+<figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0;">
   <img src="./images/color_blindness_accessibility_6.jpg" />
 </figure>
 
 ---
+
+
+
+
 
 
 
@@ -523,8 +531,18 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 
 
----
 
+
+
+
+
+
+
+
+
+
+
+---
 
 | theme: dark
 | padding: 0
@@ -579,6 +597,7 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 
 | section: cb-color-mixing
 | theme: light
+| rows: auto
 | 1 2
 
 <!-- ##### EXPLAIN  -->
@@ -586,7 +605,7 @@ M     M    IIIIIII    X     X    IIIIIII    N     N     GGGGG
 ##### Color mixing
 # Light and color
 
-<f-hr style="margin:var(--base6) 0" />
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 ~Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color.~
 
@@ -604,10 +623,11 @@ Go outside or look out of your window before the sun comes up. Experience how yo
 
 -
 
+<f-image src="./images/color_blindness_accessibility_20--opt.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
-<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+<!-- <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
   <img src="./images/color_blindness_accessibility_20--opt.jpg" />
-</figure>
+</figure> -->
 
 
 
@@ -691,17 +711,17 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 
 
-| cols: 60vw auto
+| cols: 3fr 2fr
 | rows: auto
-| 1 3
-| 2 3
-| 4 3
+| padding: 0
+| 1 2
 
+<section style="padding:var(--content-padding)">
 
 ##### Color mixing
 # Mix RGB Colors
 
--
+&nbsp;
 
 #### Task
 ~**Now that you know about the RGB color system, look at the two colors. They are both made up in parts of red, green and blue.**~
@@ -712,31 +732,40 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 2. ~Take some notes of your assumptions. Test your ideas on the next page.~
 
+&nbsp;
+
+<f-next-button />
+
+</section>
+
 -
 
-<f-scene responsive>
+<div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:column;">
+  <div style="background: rgb( 255 , 0, 255 ); flex: 1 1 50%;"></div>
+  <div style="background: rgb( 255 , 201, 53 ); flex: 1 1 50%;"></div>
+</div>
+
+
+
+<!-- <f-scene responsive width="300" height="200">
 <f-box 
-      width="4"
-      height="12"
+      width="6"
+      height="4"
       x="0"
       stroke="none"
       :fill="rgb( 255 , 0, 255 )"
     />
  </f-scene>
-<!-- <f-scene width="600" height="300" style="width:100%; height:40vh;"> -->
-<f-scene responsive>
+<f-scene responsive width="300" height="200">
  <f-box 
-      width="4"
-      height="12"
+      width="6"
+      height="4"
       x="0"
       stroke="none"
       :fill="rgb( 255 , 201, 53 )"
     />
- </f-scene>
+ </f-scene> -->
 
--
-
-<f-next-button />
 
 
 
@@ -854,20 +883,21 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 <!-- ##### EXPLAIN -->
 # Three properties of color
 
-<f-hr style="margin:var(--base6) 0" />
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
 
+&nbsp;
 
 ~When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:~
 
-- ~**HUE**~
-- ~**SATURATION**~
-- ~**BRIGHTNESS**~
+1. ~**HUE**~
+2. ~**SATURATION**~
+3. ~**BRIGHTNESS**~
 
 ~All three of these properties change the effect the color has.~
 
-# 👉
+&nbsp;
 
-#### ~Have a look at these 2 greens~
+#### ~Have a look at these 2 greens~ 👉
 
 ~Both are greens, but they have different effects. Most people wouldn’t call the brighter color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
 
@@ -877,23 +907,26 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 -
 
-<div style="position:sticky; top:0;">
-<f-scene responsive style="display:block; height:100vh;" class="scene--full-height"> 
+<div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:column;">
+  <div style="background: hsl(112,63%,36%); flex: 1 1 50%;"></div>
+  <div style="background: hsl(123,100%,51%); flex: 1 1 50%;"></div>
+<!-- <f-scene style="display:block; height:100%;" width="400" height="800" class="scene--full-height"> 
   <f-box 
     width="4"
-    height="8"
+    height="4"
     stroke="none"
+    position="0 2"
     :fill="hsl(112,63,36)"
   />
   <f-box 
     width="4"
-    height="8"
+    height="4"
     stroke="none"
     rotation="0"
-    position="0 4"
+    position="0 -2"
     :fill="hsl(123,100,51)"
   />
-</f-scene>
+</f-scene> -->
 </div>
 
 ---
@@ -905,10 +938,10 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 
 
-| height: 100vh
 | padding: 0
-
+| cols: 3fr 2fr
 | 1 2
+
 
 <section style="padding:var(--content-padding)">
 
@@ -916,9 +949,9 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 ##### Three properties of color
 # Hue, saturation, brightness
 
-<f-hr style="margin:var(--base6) 0" />
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
 
-# 👉
+&nbsp;
 
 ~Have a look at the following colors and find adjectives to describe them.~
 
@@ -949,79 +982,62 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 <!-- <mark> Here we need to add a polarity profile with adjectives - maybe as a slider, so that students can interact and have a basis for their analysis. This slider should also be on the next two pages about brightness and saturation, with the same adjectives. Maybe we can achieve that the positions they chose for the former are left for them to compare with the new choices they make. I will make a scribble and upload it in the image folder on github. </mark> -->
 
 
-
-
 <f-next-button style="margin:var(--base6) 0" />
 
 </section>
 
+
 -
 
-
-
-
-
-
-<div style=" height:100vh; position:sticky; top:0; ">
-<f-scene width="600" height="200" style="width:100%; height:100vh;" preserveAspectRatio="none">
-  <f-box 
-    width="4"
-    height="4"
-    x="-4"
-    stroke="none"
-    :fill="hsl(340,100,35)"
-  />
-  <f-box 
-    width="4"
-    height="4"
-    stroke="none"
-    x="0"
-    :fill="hsl(134, 100, 35)"
-  />
-  <f-box 
-    width="4"
-    height="4"
-    x="4"
-    stroke="none"
-    :fill="hsl(247,100,35)"
-  />
-</f-scene>
+<div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:row;">
+  <div style="flex: 1 1 33%;" :style="{'background' : hsl(340,100,35) }"></div>
+  <div style="flex: 1 1 34%;" :style="{'background' : hsl(134, 100, 35) }"></div>
+  <div style="flex: 1 1 33%;" :style="{'background' : hsl(247,100,35) }"></div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| rows: auto
+| cols: 1fr 2fr
 | 1 1
 | 2 3
 | 4 4
 
 <!-- ##### EXPLAIN -->
-# Three properties of color
-## Brightness
+##### Three properties of color
+# Brightness
 
-<f-hr style="margin:var(--base6) 0" />
-
--
-
-Here the brightness of each color is reduced to 50%, which means less light for the same hue.
-Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue. 
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 -
 
-<f-scene width="600" height="200">
+~Here the brightness of each color is reduced to 50%, which means less light for the same hue.~
+
+~Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue.~ 
+
+-
+
+<f-scene width="600" height="200" responsive>
   <f-box 
     width="4"
     height="4"
@@ -1092,25 +1108,27 @@ Find adjectives to describe the effect bright colors have in comparison to dark 
 
 ---
 
+| rows: auto
+| cols: 1fr 2fr
 | 1 1
 | 2 3
 | 4 4
 
 <!-- ##### EXPLAIN -->
-# Three properties of color
-## Saturation
+##### Three properties of color
+# Saturation
 
-<f-hr style="margin:var(--base6) 0" />
-
--
-
-Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).
-Describe the different effect low and high saturated colors have, using adjectives. 
-
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 -
 
-<f-scene width="600" height="200">
+~Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
+
+~Describe the different effect low and high saturated colors have, using adjectives.~
+
+-
+
+<f-scene width="600" height="200" responsive>
   <f-box 
     width="4"
     height="4"
@@ -1185,20 +1203,40 @@ Describe the different effect low and high saturated colors have, using adjectiv
 | 5 5 5
 
 <!-- ##### EXPLAIN -->
-# <f-activity-icon size="large" /> Colors for shampoo brand
+<!-- <f-activity-icon size="large" /> -->
+# Colors for shampoo brand
+
+-
 
 ~Choose a color which could be used as primary color for the following products:~
-- ~baby shampoo~ 
-- ~shampoo for men 60+~
-- ~Unisex shampoo~
 
-#### All the shampoos smell like apples 
+-
 
-##  
+1. ~baby shampoo~ 
+2. ~shampoo for men 60+~
+3. ~Unisex shampoo~
+
+-
+
+~There is one condition: **all the shampoos smell like apples**~ 
+
+-
+
+<f-next-button title="Shampoo color designer" />
+
+---
 
 
-<!-- 🍎 🍏 -->
 
+
+
+
+| rows: auto
+| 1 1 1
+| 2 3 4
+| 5 5 6
+
+### Shampoo color designer 
 
 <!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
 
@@ -1250,13 +1288,13 @@ Describe the different effect low and high saturated colors have, using adjectiv
 
 -
 
-### &nbsp;
+> ~If possible **compare your results** with someone and **explain why** you chose this color regarding the three properties of color.~
 
-> If possible compare your results with someone and explain why you chose this color regarding the three properties of color.
+-
 
 <f-next-button style="margin:var(--base4) 0;" />
 
-
+---
 
 
 
@@ -1291,58 +1329,69 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 
 
----
 
+| padding: 0
+| gap: 0
 | rows: auto
-| 1 1
-| 2 3
-| 4 4
+| 1 2
+| 3 2
 
-<!-- ##### EXPLAIN -->
-# Color contrast and harmony
 
-<f-hr  style="margin:var(--base6) 0" />
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+  
+  # Color contrast and harmony
+
+&nbsp;
+  
+  ~A single color has an emotional and physical effect, but placing it in context with other colors can alter this effect.~
+  
+  ~Designers create contrasting or allied color relationships/palettes to affect the viewer’s impression. They use contrasts and harmonies as stylistic devices.~
+  
+  &nbsp;
+  
+  > ~“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” <br />*(Johannes Itten)*~
+
+
+</section>
 
 -
 
-A single color has an emotional and physical effect, but placing it in context with other colors can alter this effect.
-
-Designers create contrasting or allied color relationships/palettes to affect the viewer’s impression. They use contrasts and harmonies as stylistic devices.
-
-> “The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” <br />*(Johannes Itten)*
+<f-image src="./images/contrast-and-harmony-dots.jpg" style="background-position:50% 20%; min-height:60vh; width:100%; height:100%; background-size: contain;" />
 
 -
 
-<f-image src="images/contrast-and-harmony-dots.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
-
--
-
-<f-next-button style="margin:var(--base6) 0" />
-
-
-
-
-
-
-
-
+&nbsp;
+<section style=" padding:0 var(--content-padding) var(--content-padding) var(--content-padding)">
+  <f-next-button />
+</section>
 
 ---
 
-| 1 1
-| 2 3
-| 4 4
 
-<!-- ##### EXPLAIN -->
-# Color contrast and harmony
 
-<f-hr  style="margin:var(--base6) 0" />
 
--
 
-But harmony not only exists if color combinations are made up by colors which are neighbours in the color wheel or by colors with the same hue but different brightness, like in this example.
 
-Color contrasts can also be harmonious. Don’t equate contrast and harmony with ‘disagreeable’ and ‘agreeable’.
+
+
+| padding: 0
+| gap: 0
+| rows: auto
+| 1 2
+| 3 2
+
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+  
+  <!-- ##### EXPLAIN -->
+  # Color contrast and harmony
+
+&nbsp;
+
+  ~But harmony not only exists if color combinations are made up by colors which are neighbours in the color wheel or by colors with the same hue but different brightness, like in this example.~
+  
+  ~**Color contrasts can also be harmonious.** Don’t equate contrast and harmony with ‘disagreeable’ and ‘agreeable’.~
+
+</section>
 
 -
 
@@ -1350,37 +1399,43 @@ Color contrasts can also be harmonious. Don’t equate contrast and harmony with
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
-
-
-
-
-
-
-
-
-
-
+&nbsp;
+<section style=" padding:0 var(--content-padding) var(--content-padding) var(--content-padding)">
+  <f-next-button />
+</section>
 
 ---
 
-| 1 1
-| 2 3
-| 4 4
 
-<!-- ##### EXPLAIN -->
+
+
+
+
+
+
+
+
+| padding: 0
+| gap: 0
+| rows: auto
+| 1 2
+| 3 2
+
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+
 # Color contrast and harmony
 
-<f-hr  style="margin:var(--base6) 0" />
+&nbsp;
 
--
+~Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. mono-chromatic color palettes. But that doesn’t mean that they are less harmonious.~
 
-Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. mono-chromatic color palettes. But that doesn’t mean that they are less harmonious.
+~In this example you have a **complementary contrast** of red and blue hues.~
 
-In this example you have a **complementary contrast** of red and blue hues.
+~It feels bolder and louder than the last picture with the cereal bowl, but still harmonious and pleasing to the eye.~
 
-It feels bolder and louder than the last picture with the cereal bowl, but still harmonious and pleasing to the eye.
-Therefore, don’t mix up color contrast with discord.
+~Therefore, don’t mix up color contrast with discord.~
+
+</section>
 
 -
 
@@ -1388,22 +1443,24 @@ Therefore, don’t mix up color contrast with discord.
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
-
-
-
-
-
-
-
-
-
-
-
-
-
+&nbsp;
+<section style=" padding:0 var(--content-padding) var(--content-padding) var(--content-padding)">
+  <f-next-button />
+</section>
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- ##### EXPLAIN -->
 # Color contrast and harmony

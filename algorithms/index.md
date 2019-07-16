@@ -969,7 +969,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 | 1 1 1
 | 2 3 4
 
-## 5. Random
+## E. Random
 
 -
 
@@ -981,7 +981,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
   <f-grid-pattern :cols="2+Math.round(4/randomizer(0.2, 0.6))" :rows="2+Math.round(4/randomizer(0.2, 0.6))" :step="randomizer(0.2, 0.6)">
     <f-group> 
       <f-circle 
-          :stroke-width="2"  
+          stroke-width="2"  
           :r = "get('randomR', randomizer( 0.2, 1))" 
         />  
     </f-group>
@@ -996,7 +996,11 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 <small v-if="get('randomR')">***HINT:*** *If the pattern looks boring, press the button again - you'll get a new one*</small>
 
-<br /><br />
+<!-- &nbsp;
+
+<f-sidebar src="random-lines.md" title="Random lines" width="60vw" overlay /> -->
+
+&nbsp;
 
 <f-next-button v-if="get('randomR')" title="Next" />
 
@@ -1050,12 +1054,11 @@ But let all this be a subject for the next time &nbsp; or better yet &ndash; let
 
 ---
 
+| rows: auto
 | section: FINAL
 | 1 1
 | 2 3
-| 2 3
 | 4 4
-| 5 5
 
 ## Are you ready to become an Algorist yourself?
 
@@ -1077,8 +1080,79 @@ Try to create a different algorithm from the one we started with. Experiment wit
 
 -
 
-## That's it! Thank you!
+<f-next-button title="What next?" />
+
+---
+
+
+
+| rows: auto
+| cols: 1fr 1fr 1fr
+| 1 1 1
+| 2 3 4
+| 5 5 5
+
+
+
+# What to do next?
+
+
 
 -
+
+~If you are interested in simiar topics, you may find these links useful~
+
+Let's start with Designstem's <a href="../patterns">patterns scenario</a>
+
+-
+
+#### More about algorithms and generative art
+
+&nbsp;
+
+- BBC Ideas video: <a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a>
+
+- How Artificial Intelligence is Changing Design: <a href="https://algorithms.design/" target="_blank">list of links</a>
+
+- Khan Academy course: <a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Algorithms</a>
+
+- Artur Neufeld: <a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">About creativity, algorithms and the future of graphic design</a>
+
+
+
+-
+
+#### Related stuff
+
+&nbsp;
+
+
+- Matt DesLauriers, an artist and freelance creative coder: 
+<a href="https://www.youtube.com/watch?v=8Uo6zFwSO78" target="_blank">Talk at FITC</a> | <a href="https://mattdesl.svbtle.com/">Blog</a>  
+
+- <a href="https://generated.space/" target="_blank">Generated Spaces</a> by Kjetil Golid
+
+- <a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. And a <a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with him.
+
+- Plotter art <a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a>
+
+- <a href="https://www.openprocessing.org/browse/#">OpenProcessing</a> 
+
+- <a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a>
+
+&nbsp;
+
+#### Tools, toys, exapmles
+
+- <a href="http://weavesilk.com/" target="_blank">Weave Silk</a> online tool
+
+- <a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a>
+
+- <a href="https://www.derivative.ca/" target="_blank">Touch Designer</a>
+
+-
+
+
+## That's it! Thank you!
 
 <a class="tertiary" href="../">← Back to projects</a>
