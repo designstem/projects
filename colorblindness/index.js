@@ -7,7 +7,7 @@ import * as localutils from "./utils.js";
 //import ColorblindnessSimulator from "./components/ColorblindnessSimulator.js";
 import ColorblindnessJuxtapose from "./components/ColorblindnessJuxtapose.js";
 import Poster from "./components/Poster.js";
-import Polarity from "./components/Polarity.js";
+import PolarityQuiz from "./components/PolarityQuiz.js";
 import ContrastQuiz from "./components/ContrastQuiz.js";
 
 import Mapper from "./cv-mapper/Mapper.js";
@@ -18,7 +18,7 @@ fachwerk({
     "ColorblindnessJuxtapose" : ColorblindnessJuxtapose,
     "Mapper" : Mapper,
     "Poster" : Poster,
-    "Polarity" : Polarity,
+    "PolarityQuiz" : PolarityQuiz,
     "ContrastQuiz" : ContrastQuiz
 
   },

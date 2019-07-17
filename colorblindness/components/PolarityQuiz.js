@@ -54,8 +54,8 @@ export default{
   template: `
   <div style="padding: var(--base3) var(--base); border-radius:var(--border-radius); box-shadow: 0 0 3px 1px hsla(0, 0%, 0%, 0.2)">
 
-    <f-inline v-for="(item,i) in input" :key="'item'+i" style="justify-content: space-between; margin: 0;">
-      <div style="flex:0 1 20%; text-align:right;">
+    <div v-for="(item,i) in input" :key="'item'+i" style="display:flex; align-items: center; justify-content:space-between; margin: 0;">
+      <div style="flex:0 1 20%; text-align:right; line-height:1; padding-right:4px;">
         {{ item[0] }}
       </div>
       <div style="flex: 1 0 60%; position:relative;" >
@@ -68,10 +68,10 @@ export default{
         </div>
         <f-slider :from="from" :to="to" :step="step" integer style="width:100%; margin:0; padding:0;" />
       </div>
-      <div style="flex:0 1 20%">
+      <div style="flex:0 1 20%; line-height:1; padding-left:4px;">
         {{ item[1] }}
       </div>
-    </f-inline>
+        </div>
 
     <div style="text-align: center; margin-top:var(--base)">
       <a @click="showResults = !showResults" style="cursor:pointer">{{showResults ? 'HIDE' : 'SHOW'}}</a>

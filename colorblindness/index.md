@@ -957,7 +957,7 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 &nbsp;
 
-<Polarity :input="[ 
+<PolarityQuiz :input="[ 
   ['this','that',1], 
   ['one','another',2], 
   ['this is longer','short',3],
@@ -967,14 +967,14 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 &nbsp;
 
-<Polarity to="12" :input="[ 
+<PolarityQuiz to="12" :input="[ 
   ['this','has',4], 
   ['more','steps',10]
 ]" />
 
 &nbsp;
 
-<Polarity to="12" :ticks="false" :input="[ 
+<PolarityQuiz to="12" :ticks="false" :input="[ 
   ['this','has',4], 
   ['no','&quot;ticks&quot;',10]
 ]" />
