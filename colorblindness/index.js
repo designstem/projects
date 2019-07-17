@@ -9,6 +9,7 @@ import ColorblindnessJuxtapose from "./components/ColorblindnessJuxtapose.js";
 import Poster from "./components/Poster.js";
 import PolarityQuiz from "./components/PolarityQuiz.js";
 import ContrastQuiz from "./components/ContrastQuiz.js";
+import ColorPaletteWheel from "./components/ColorPaletteWheel.js";
 
 import Mapper from "./cv-mapper/Mapper.js";
 
@@ -19,7 +20,8 @@ fachwerk({
     "Mapper" : Mapper,
     "Poster" : Poster,
     "PolarityQuiz" : PolarityQuiz,
-    "ContrastQuiz" : ContrastQuiz
+    "ContrastQuiz" : ContrastQuiz,
+    "ColorPaletteWheel" : ColorPaletteWheel
 
   },
   theme: "light",

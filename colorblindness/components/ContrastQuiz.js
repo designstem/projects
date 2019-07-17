@@ -33,11 +33,11 @@ export default{
             >
                 {{ contrast[0] }}
             </p>
-        <div v-if="showResults" style="flex: 1 0 var(--base3); align-self:flex-end; text-align:right;">
+        <div v-if="showResults" style="flex: 1 0 var(--base3);  text-align:right;">
             <h4 v-if="get('cnt'+i) == contrast[1]">✔️</h4>
             <h4 v-else-if="get('cnt'+i) != contrast[1]">💥</h4> 
         </div>
-        <div v-else style="flex: 1 0 var(--base3); align-self:flex-end; text-align:right;">
+        <div v-else style="flex: 1 0 var(--base3);  text-align:right;">
             <h4 v-if="get('cntCheck1', false) == false">💣</h4>
         </div>
     </div>

@@ -1252,9 +1252,9 @@ If you want to find out about the subtractive color model, see this [wikipedia t
     :fill="hsb2hsl( get('h1'), get('s1'), get('b1') )"
   />
 </f-scene>
-<f-slider :value="get('h1', 0)" v-on:input="set('h1', $event)" from="0" to="360" integer title="H" />
-<f-slider :value="get('s1', 0)" v-on:input="set('s1', $event)" from="0" to="100" integer title="S" />
-<f-slider :value="get('b1', 50)" v-on:input="set('b1', $event)" from="0" to="100" integer title="B" />
+<f-slider :value="get('h1', 0)" v-on:input="set('h1', $event)" from="0" to="360" integer title="H (hue)" />
+<f-slider :value="get('s1', 0)" v-on:input="set('s1', $event)" from="0" to="100" integer title="S (saturation)" />
+<f-slider :value="get('b1', 50)" v-on:input="set('b1', $event)" from="0" to="100" integer title="B (brightness)" />
 
 -
 
@@ -1267,9 +1267,9 @@ If you want to find out about the subtractive color model, see this [wikipedia t
     :fill="hsb2hsl( get('h2') , get('s2'), get('b2') )"
   />
 </f-scene>
-<f-slider :value="get('h2', 0)" v-on:input="set('h2', $event)" from="0" to="360" integer title="H" />
-<f-slider :value="get('s2', 0)" v-on:input="set('s2', $event)" from="0" to="100" integer title="S" />
-<f-slider :value="get('b2', 50)" v-on:input="set('b2', $event)" from="0" to="100" integer title="B" />
+<f-slider :value="get('h2', 0)" v-on:input="set('h2', $event)" from="0" to="360" integer title="H (hue)" />
+<f-slider :value="get('s2', 0)" v-on:input="set('s2', $event)" from="0" to="100" integer title="S (saturation)" />
+<f-slider :value="get('b2', 50)" v-on:input="set('b2', $event)" from="0" to="100" integer title="B (brightness)" />
 
 -
 
@@ -1282,9 +1282,9 @@ If you want to find out about the subtractive color model, see this [wikipedia t
     :fill="hsb2hsl( get('h3') , get('s3'), get('b3') )"
   />
 </f-scene>
-<f-slider :value="get('h3', 0)" v-on:input="set('h3', $event)" from="0" to="360" integer title="H" />
-<f-slider :value="get('s3', 0)" v-on:input="set('s3', $event)" from="0" to="100" integer title="S" />
-<f-slider :value="get('b3', 50)" v-on:input="set('b3', $event)" from="0" to="100" integer title="B" />
+<f-slider :value="get('h3', 0)" v-on:input="set('h3', $event)" from="0" to="360" integer title="H (hue)" />
+<f-slider :value="get('s3', 0)" v-on:input="set('s3', $event)" from="0" to="100" integer title="S (saturation)" />
+<f-slider :value="get('b3', 50)" v-on:input="set('b3', $event)" from="0" to="100" integer title="B (brightness)" />
 
 -
 
@@ -1530,48 +1530,17 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 ~Find out about the seven contrasts online and match them with the pictures.~ 
 
-&nbsp;
-
 ~Which contrasts do you see?~
 
 <ContrastQuiz :input="[ 
-  ['Contrast of hue' , 0], 
-  ['Light-dark contrast', 1], 
-  ['Cold-warm contrast', 1],
-  ['Complementary contrast', 1],
-  ['Simultaneous contrast', 0],
-  ['Contrast of saturation', 1],
-  ['Contrast of extension', 0]
+  ['Contrast of hue',         0], 
+  ['Light-dark contrast',     1], 
+  ['Cold-warm contrast',      1],
+  ['Complementary contrast',  1],
+  ['Simultaneous contrast',   0],
+  ['Contrast of saturation',  1],
+  ['Contrast of extension',   0]
 ]" />
-
-
-<!-- &nbsp;
-
-<f-inline v-for="(contrast, i) in [ 
-  ['Contrast of hue' , 0], 
-  ['Light-dark contrast', 1], 
-  ['Cold-warm contrast', 1],
-  ['Complementary contrast', 1],
-  ['Simultaneous contrast', 0],
-  ['Contrast of saturation', 1],
-  ['Contrast of extension', 0]
-]" :key="'contrast'+i">
-  <f-toggle :set="'cnt'+i" style="cursor: pointer;" />
-  <div>
-
-  {{ contrast[0] }}
-  
-  </div>
-  <div>
-    <h4 v-if="get('cntCheck1', false) == false">💣</h4>
-    <h4 v-else-if="get('cnt'+i) == contrast[1]">👍</h4>
-    <h4 v-else-if="get('cnt'+i) != contrast[1]">💥</h4> 
-  </div> 
-</f-inline>
-
-<button @click="set('cntCheck1', get('cntCheck1') == true ? false : true)">Check answers</button>
-
-{{ get('cntCheck1') }} -->
 
 -
 
@@ -1579,7 +1548,10 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<f-next-button />
+
+
+
 
 
 
@@ -1602,42 +1574,21 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 ##### Color contrast and harmony
 # Task 1
 
-<!-- <f-hr  style="margin:var(--base6) 0" /> -->
-
 -
 
 ~Find out about the seven contrasts online and match them with the pictures.~ 
 
-&nbsp;
-
 ~Which contrasts do you see?~
 
 <ContrastQuiz :input="[ 
-  ['Contrast of hue' , 0], 
-  ['Light-dark contrast', 1], 
-  ['Cold-warm contrast', 1],
-  ['Complementary contrast', 1],
-  ['Simultaneous contrast', 0],
-  ['Contrast of saturation', 0],
-  ['Contrast of extension', 1]
+  ['Contrast of hue',         0], 
+  ['Light-dark contrast',     1], 
+  ['Cold-warm contrast',      1],
+  ['Complementary contrast',  1],
+  ['Simultaneous contrast',   0],
+  ['Contrast of saturation',  0],
+  ['Contrast of extension',   1]
 ]" />
-
-<!-- <f-inline v-for="(contrast, i) in [ 
-  ['Contrast of hue' , false], 
-  ['Light-dark contrast', true], 
-  ['Cold-warm contrast', true],
-  ['Complementary contrast', true],
-  ['Simultaneous contrast', false],
-  ['Contrast of saturation', false],
-  ['Contrast of extension', true]
-]" :key="i" style="margin-top:var(--base3)">
-  <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
-    <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
-    <span v-else-if="get('contrast'+i) == true">👍</span>
-    <span v-else-if="get('contrast'+i) == false">💥</span>  
-    {{ contrast[0] }}</h4>
-
-</f-inline> -->
 
 -
 
@@ -1645,7 +1596,9 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<f-next-button />
+
+
 
 
 
@@ -1667,44 +1620,22 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 ##### Color contrast and harmony
 # Task 1
 
-<!-- <f-hr  style="margin:var(--base6) 0" /> -->
-
 -
 
 ~Find out about the seven contrasts online and match them with the pictures.~ 
-
-&nbsp;
 
 ~Which contrasts do you see?~
 
 
 <ContrastQuiz :input="[ 
-  ['Contrast of hue' , 0], 
-  ['Light-dark contrast', 1], 
-  ['Cold-warm contrast', 0],
-  ['Complementary contrast', 0],
-  ['Simultaneous contrast', 1], 
-  ['Contrast of saturation', 1],
-  ['Contrast of extension', 1]
+  ['Contrast of hue',         0], 
+  ['Light-dark contrast',     1], 
+  ['Cold-warm contrast',      0],
+  ['Complementary contrast',  0],
+  ['Simultaneous contrast',   1], 
+  ['Contrast of saturation',  1],
+  ['Contrast of extension',   1]
 ]" />
-
-<!-- 
-<f-inline v-for="(contrast, i) in [ 
-  ['Contrast of hue' , false], 
-  ['Light-dark contrast', true], 
-  ['Cold-warm contrast', false],
-  ['Complementary contrast', false],
-  ['Simultaneous contrast', true], 
-  ['Contrast of saturation', true],
-  ['Contrast of extension', true]
-]" :key="i" style="margin-top:var(--base3)">
-  <h4 v-on:click="set('contrast'+i, contrast[1])" style="cursor: pointer;">
-    <span v-if="get('contrast'+i) == undefined || get('contrast'+i) == null">💣</span>
-    <span v-else-if="get('contrast'+i) == true">👍</span>
-    <span v-else-if="get('contrast'+i) == false">💥</span>  
-    {{ contrast[0] }}</h4>
-
-</f-inline> -->
 
 -
 
@@ -1712,29 +1643,30 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
-
-
-
-
-
-
-
-
+<f-next-button />
 
 ---
 
-| id: complementary
 
-| 1 1
+
+
+
+
+
+
+
+
+
+
+| id: complementary
+| rows: auto
+| 1 3
 | 2 3
-| 4 4
+| 5 4
 
 <!-- ##### EXPLAIN  -->
-# Color contrast and harmony
-## Complementary palette
-
-<f-hr  style="margin:var(--base6) 0" />
+##### Color contrast and harmony
+# Complementary palette
 
 -
 
@@ -1742,21 +1674,12 @@ In order to create a harmonious color palette, you can also use the color wheel.
 
 **Complementary colors** are high in contrast and have a very bold and aggressive effect. 
 
-<f-artboard width="600" height="200" style="margin:var(--base4) 0">
-  <f-box v-for="(c, i) in [0,6]" 
-    :key="'h1p'+i"
-    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
-    :position="{x: 100 + i*200, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   />
-</f-artboard>
-
 -
 
-<center>
-<f-scene width="400" height="400">
+<ColorPaletteWheel name="SplitComplementary" />
+
+
+<f-scene responsive width="400" height="400">
   <f-group :rotation="45" :scale="1">
     <f-arc
       v-for="(c,i) in range(0, 359, 360/12)" 
@@ -1777,10 +1700,28 @@ In order to create a harmonious color palette, you can also use the color wheel.
       :r="i==0 ? 0.15 : 0.1"
       :fill="i==0 ? 'white' : 'black'"  
     />
-
   </f-group>
 </f-scene>
-</center>
+
+-
+
+<f-artboard responsive width="600" height="200" >
+  <f-circle v-for="(c, i) in [0,6]" 
+    :key="'h1p'+i"
+    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
+    :position="{x: 150 + i*300, y: 50 }"
+    r="100"
+    stroke
+  />
+  <!-- <f-box v-for="(c, i) in [0,6]" 
+    :key="'h1p'+i"
+    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
+    :position="{x: 150 + i*300, y: 100 }"
+    width="300"
+    height="200"
+    stroke
+   /> -->
+</f-artboard>
 
 -
 
