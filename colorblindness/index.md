@@ -1756,7 +1756,7 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 -
 
-<ColorPaletteWheel name="Triadic" />
+<ColorPaletteWheel name="Triadic" sectors="24" />
 
 -
 
