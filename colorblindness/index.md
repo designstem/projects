@@ -1661,6 +1661,7 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 | id: complementary
 | theme: dark
 | rows: auto
+| cols: 3fr 2fr
 | 1 3
 | 2 3
 | 4 3
@@ -1671,222 +1672,99 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 -
 
-In order to create a harmonious color palette, you can also use the color wheel.
+~In order to create a harmonious color palette, you can also use the color wheel.~
 
-**Complementary colors** are high in contrast and have a very bold and aggressive effect. 
+~**Complementary colors** are high in contrast and have a very bold and aggressive effect.~ 
 
 -
 
 <ColorPaletteWheel name="Complementary" />
 
-<ColorPaletteWheel name="SplitComplementary" sectors="24" />
+
+-
+
+<f-next-button  />
+
+---
+
+
+
+
+
+
+
+
+
+
+| id: split-complementary
+| theme: dark
+| rows: auto
+| cols: 3fr 2fr
+| 1 3
+| 2 3
+| 4 3
+
+<!-- ##### EXPLAIN  -->
+##### Color contrast and harmony
+# Split complementary palette
+
+-
+
+~If you want a color palette which is more harmonious than complementary palette, but still bold, you might want to try a **split complementary palette**.~
+
+-
+
+<ColorPaletteWheel name="SplitComplementary" />
 
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
-
-
-
-
-
-
-
-
-
-
-
-
+<f-next-button  />
 
 ---
 
-| id: split complementary
 
+
+
+
+
+
+
+
+
+
+
+
+| id: double-complementary-triadic
+| theme: dark
+| rows: auto
 | 1 1
 | 2 3
 | 4 4
 
 <!-- ##### EXPLAIN  -->
-# Color contrast and harmony
-## Split complementary palette
+##### Color contrast and harmony
+# Double complementary and triadic palettes
 
-<f-hr  style="margin:var(--base6) 0" />
+~Besides split complementary palettes, there are also **double complementary** and **triadic palettes** which form bold contrasts.~
 
--
- 
-If you want a color palette which is more harmonious than complementary palette, but still bold, you might want to try a **split complementary palette**.
-
-<f-artboard width="600" height="200" style="margin:var(--base4) 0">
-  <f-box v-for="(c, i) in [0,5,7]" 
-    :key="'h2p'+i"
-    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
-    :position="{x: 100 + i*200, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   />
-</f-artboard>
+~Triads with primary colors are garish. You get softer palettes with secondary or tertiary colors. As for double complementary palettes be careful not to use equal volumes of the four colors. This can have a piercing effect.~
 
 -
 
-<center>
-<f-scene width="400" height="400">
-  <f-group :rotation="45" :scale="1">
-    <f-arc
-      v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="'h2w'+i"
-      :fill="hsl( hue2ai(c) )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    />
-    <f-circle 
-      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+5,  get('activeColor', 0)+7]"
-      :key="'h2c'+i"
-      :x="polarx(p*(360/12)+(360/24), 1.5)"
-      :y="polary(p*(360/12)+(360/24), 1.5)"
-      :r="i==0 ? 0.15 : 0.1"
-      :fill="i==0 ? 'white' : 'black'"  
-    />
-
-  </f-group>
-</f-scene>
-</center>
+<ColorPaletteWheel name="DoubleComplementary" />
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<ColorPaletteWheel name="Triadic" />
 
+-
 
-
-
-
-
-
+<f-next-button  />
 
 ---
 
 
-| 1 1
-| 2 2
-| 3 4
-| 5 5
-
-<!-- ##### EXPLAIN  -->
-# Color contrast and harmony
-## Double complementary and triadic palettes
-
-<f-hr  style="margin:var(--base6) 0" />
-
--
- 
-Besides split complementary palettes, there are also **double complementary** and **triadic palettes** which form bold contrasts.
-
-Triads with primary colors are garish. You get softer palettes with secondary or tertiary colors. As for double complementary palettes be careful not to use equal volumes of the four colors. This can have a piercing effect.
-
-<f-hr  style="margin:var(--base4) 0; visibility:hidden;" />
-
--
-
-
-#### Double complementary
-
-<center>
-
-<f-scene width="400" height="400">
-  <f-group :rotation="45" :scale="1">
-    <f-arc
-      v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="'h3w'+i"
-      :fill="hsl( hue2ai(c) )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    />
-    <f-circle 
-      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+4,  get('activeColor', 0)+6, get('activeColor', 0)+10]" 
-      :key="'h3c'+i"
-      :x="polarx(p*(360/12)+(360/24), 1.5)"
-      :y="polary(p*(360/12)+(360/24), 1.5)"
-      :r="i==0 ? 0.15 : 0.1"
-      :fill="i==0 ? 'white' : 'black'"  
-    />
-  </f-group>
-</f-scene>
-
-</center>
-
-<f-artboard width="600" height="200" style="margin:var(--base4) 0">
-  <f-box v-for="(c, i) in [0,4,6,10]" 
-    :key="'h3p'+i"
-    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
-    :position="{x: 75.5 + i*150, y: 100 }"
-    width="150"
-    height="200"
-    stroke
-   />
-</f-artboard>
-
-
-
-
--
-
-
-
-
-#### Triadic
-
-<center>
-
-<f-scene width="400" height="400">
-  <f-group :rotation="45" :scale="1">
-    <f-arc
-      v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="'h4w'+i"
-      :fill="hsl( hue2ai(c) )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    />
-    <f-circle 
-      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+3,  get('activeColor', 0)+9]"
-      :key="'h4c'+i"
-      :x="polarx(p*(360/12)+(360/24), 1.5)"
-      :y="polary(p*(360/12)+(360/24), 1.5)"
-      :r="i==0 ? 0.15 : 0.1"
-      :fill="i==0 ? 'white' : 'black'"  
-    />
-  </f-group>
-</f-scene>
-
-</center>
-
-<f-artboard width="600" height="200" style="margin:var(--base4) 0">
-  <f-box v-for="(c, i) in [0,3,9]" 
-    :key="'h4p'+i"
-    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
-    :position="{x: 100 + i*200, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   />
-</f-artboard>
-
-
-
--
-
-<f-next-button style="margin:var(--base6) 0" />
 
 
 
@@ -1895,167 +1773,84 @@ Triads with primary colors are garish. You get softer palettes with secondary or
 
 
 
-
----
 
 | id: analoguous
-
-| 1 1
+| theme: dark
+| rows: auto
+| cols: 3fr 2fr
+| 1 3
 | 2 3
-| 4 4
+| 4 3
 
 <!-- ##### EXPLAIN  -->
-# Color contrast and harmony
-## Analoguous palette
-
-<f-hr  style="margin:var(--base6) 0" />
-
--
- 
-**Analogous palettes** are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel, they are equally spaced from each other.
-
-
-<f-artboard width="600" height="200" style="margin:var(--base4) 0">
-  <f-box v-for="(c, i) in [1,0,11]" 
-    :key="'h5p'+i"
-    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
-    :position="{x: 100 + i*200, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   />
-</f-artboard>
+##### Color contrast and harmony
+# Analoguous palette
 
 -
 
-<center>
-<f-scene width="400" height="400">
-  <f-group :rotation="45" :scale="1">
-    <f-arc
-      v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="'h5w'+i"
-      :fill="hsl( hue2ai(c) )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    />
-    <f-circle 
-      v-for="(p,i) in [get('activeColor', 0)+1,  get('activeColor', 0),  get('activeColor', 0)+11]"
-      :key="'h5c'+i"
-      :x="polarx(p*(360/12)+(360/24), 1.5)"
-      :y="polary(p*(360/12)+(360/24), 1.5)"
-      :r="i==1 ? 0.15 : 0.1"
-      :fill="i==1 ? 'white' : 'black'"  
-    />
+~**Analogous palettes** are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel, they are equally spaced from each other.~
 
-  </f-group>
-</f-scene>
+-
 
-</center>
+<ColorPaletteWheel name="Analoguous" />
 
 
-- 
+-
 
-
-<f-next-button style="margin:var(--base6) 0" />
-
-
-
-
-
-
-
-
+<f-next-button  />
 
 ---
+
+
+
+
+
+
+
 
 | id: monochromatic
-
-| 1 1
+| theme: dark
+| rows: auto
+| cols: 3fr 2fr
+| 1 3
 | 2 3
-| 4 4
+| 4 3
 
 <!-- ##### EXPLAIN  -->
-# Color contrast and harmony
-## Monochromatic palette
-
-<f-hr  style="margin:var(--base6) 0" />
-
--
- 
-**Monochromatic palettes** have an even softer effect than analogous palettes, but they are also less prominent. 
-
-For monochromatic palettes you combine one hue with its different shades, either formed by variation of brightness or saturation. 
-
-
-
-<f-artboard width="600" height="200" style="margin:var(--base4) 0">
-  
-   <f-box 
-    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 50 )"
-    :position="{x: 100, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   />
-   <f-box 
-    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 65 )"
-    :position="{x: 300, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   />
-   <f-box 
-    :fill="hsl( hue2ai( get('activeColor',0) * (360/12)), 100, 80 )"
-    :position="{x: 500, y: 100 }"
-    width="200"
-    height="200"
-    stroke
-   />
-</f-artboard>
+##### Color contrast and harmony
+# Monochromatic palette
 
 -
 
-<center>
-<f-scene width="400" height="400">
-  <f-group :rotation="45" :scale="1">
-    <f-arc
-      v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="'h6w'+i"
-      :fill="hsl( hue2ai(c) )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    />
-    <f-circle 
-      v-for="(p,i) in [get('activeColor', 0)]"
-      :key="'h6c'+i"
-      :x="polarx(p*(360/12)+(360/24), 1.5)"
-      :y="polary(p*(360/12)+(360/24), 1.5)"
-      :r="i==0 ? 0.15 : 0.1"
-      :fill="i==0 ? 'white' : 'black'"  
-    />
+~**Monochromatic palettes** have an even softer effect than analogous palettes, but they are also less prominent.~
 
-  </f-group>
-</f-scene>
-</center>
+~For monochromatic palettes you combine one hue with its different shades, either formed by variation of brightness or saturation.~
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<ColorPaletteWheel name="Monochromatic" />
 
 
+-
 
-
-
+<f-next-button  />
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 | id: task2
 
@@ -2064,8 +1859,8 @@ For monochromatic palettes you combine one hue with its different shades, either
 | 5 5 5
 
 <!-- ##### EXPLAIN -->
-# Color contrast and harmony
-## Task 2
+##### Color contrast and harmony
+# Task 2
 
 <f-hr style="margin:var(--base6) 0" />
 
