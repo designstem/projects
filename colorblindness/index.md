@@ -1659,10 +1659,11 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 
 | id: complementary
+| theme: dark
 | rows: auto
 | 1 3
 | 2 3
-| 5 4
+| 4 3
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
@@ -1676,52 +1677,10 @@ In order to create a harmonious color palette, you can also use the color wheel.
 
 -
 
-<ColorPaletteWheel name="SplitComplementary" />
+<ColorPaletteWheel name="Complementary" />
 
+<ColorPaletteWheel name="SplitComplementary" sectors="24" />
 
-<f-scene responsive width="400" height="400">
-  <f-group :rotation="45" :scale="1">
-    <f-arc
-      v-for="(c,i) in range(0, 359, 360/12)" 
-      :key="'h1w'+i"
-      :fill="hsl( hue2ai(c) )"
-      stroke
-      :start-angle="i*(360/12)"
-      :end-angle="(i+1)*(360/12)"
-      :r="2"
-      :inner-radius="0.75"
-      v-on:click.native="set('activeColor', i)"
-    />
-    <f-circle 
-      v-for="(p,i) in [get('activeColor', 0),  get('activeColor', 0)+6]"
-      :key="'h1c'+i"
-      :x="polarx(p*(360/12)+(360/24), 1.5)"
-      :y="polary(p*(360/12)+(360/24), 1.5)"
-      :r="i==0 ? 0.15 : 0.1"
-      :fill="i==0 ? 'white' : 'black'"  
-    />
-  </f-group>
-</f-scene>
-
--
-
-<f-artboard responsive width="600" height="200" >
-  <f-circle v-for="(c, i) in [0,6]" 
-    :key="'h1p'+i"
-    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
-    :position="{x: 150 + i*300, y: 50 }"
-    r="100"
-    stroke
-  />
-  <!-- <f-box v-for="(c, i) in [0,6]" 
-    :key="'h1p'+i"
-    :fill="hsl( hue2ai( ((get('activeColor',0) * (360/12)) + (get('activeColor',0) + (c*(360/12)))) % 360 ))"
-    :position="{x: 150 + i*300, y: 100 }"
-    width="300"
-    height="200"
-    stroke
-   /> -->
-</f-artboard>
 
 -
 
