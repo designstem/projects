@@ -25,7 +25,7 @@ export default{
 
         <div>
           <a v-for="(item, i) in value" :key="'item'+i"
-            v-if="Object.values(item).toString().includes( query )"
+            v-if="Object.values(item).toString().toLowerCase().includes( query.toLowerCase() )"
             style="display:flex; padding: var(--base3); border-radius:var(--border-radius); box-shadow: 0 0 3px 1px hsla(0, 0%, 0%, 0.2); margin:3vmin; font-weight:normal; border:none;"
             :href="item.inputurl" target="_blank"
           >
