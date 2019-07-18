@@ -32,7 +32,7 @@ export default{
             <h3 style="flex:0 0 70px;"><span class="bullet" >{{i+1}}</span></h3>
             <div>
               <h5>{{item.title}}</h5>
-              <p style="font-family:var(--font-serif); font-style:italic;">{{item.metadescription}}</p>
+              <p style="font-family:var(--font-serif); ">{{item.metadescription}}</p>
               <p style="color:var(--blue); font-size:0.75em; border-bottom: none; text-decoration:underline; word-break: break-word; line-height:1.1">{{item.inputurl}}</p>
             </div>
           </a>
