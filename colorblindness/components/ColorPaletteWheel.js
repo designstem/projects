@@ -75,7 +75,7 @@ export default{
               :key="'h1c'+i"
               :x="polarx(animDeg + (p*(sectorSize)+(sectorSize/2)), 1.49)"
               :y="polary(animDeg + (p*(sectorSize)+(sectorSize/2)), 1.49)"
-              :r="i==0 ? 0.15 : 0.07"
+              :r="i==0 ? 0.12 : 0.07"
               fill="white"
               stroke="black"
               strokeWidth="2"

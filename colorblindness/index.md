@@ -1853,97 +1853,74 @@ H     H    A     A    R     R    M     M     OOOOO     N     N       Y
 
 
 | id: task2
-
-| 1 1 1
-| 2 3 4
-| 5 5 5
+| theme: dark
+| rows: auto
+| 1 2 2
+| 3 4 5
+| 6 6 6
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
 # Task 2
 
-<f-hr style="margin:var(--base6) 0" />
+-
 
-#### Change the given color palette so that:
+#### ~Change the given color palette so that:~
 
-It stays as closely as possible to the original colors
-a) It is more harmonious 
-b) It is more prominent
-
-Use the knowledge about contrasts and harmonies which you just found out about. If possible, discuss your results with someone else.
-
-
-<f-hr style="margin:var(--base4) 0; visibility:hidden;" />
+~It stays as closely as possible to the original colors~
+~a) It is **more harmonious**~
+~b) It is **more prominent**~
 
 -
 
+<f-scene responsive width="400" height="200">
+  <f-box 
+    width="8"
+    height="4"
+    stroke="none"
+    :fill="hsb2hsl( get('h11', 300), get('s11', 100), get('b11', 100) )"
+  />
+</f-scene>
 
+<f-slider :value="get('h11', 300)" v-on:input="set('h11',$event)" from="0" to="360" integer title="H" />
+<f-slider :value="get('s11', 100)" v-on:input="set('s11',$event)" from="0" to="100" integer title="S" />
+<f-slider :value="get('b11', 100)" v-on:input="set('b11',$event)" from="0" to="100" integer title="B" />
 
-<div>
+-
 
-<center>
+<f-scene responsive width="400" height="200">
+  <f-box 
+    width="8"
+    height="4"
+    stroke="none"
+    :fill="hsb2hsl( get('h21', 120) , get('s21', 100), get('b21', 100) )"
+  />
+</f-scene>
 
-  <f-scene width="400" height="300">
-    <f-box 
-      width="6"
-      height="4"
-      stroke="none"
-      :fill="hsb2hsl( get('h11', 300), get('s11', 100), get('b11', 100) )"
-    />
-  </f-scene>
+<f-slider :value="get('h21', 120)" v-on:input="set('h21',$event)" from="0" to="360" integer title="H" />
+<f-slider :value="get('s21', 100)" v-on:input="set('s21',$event)" from="0" to="100" integer title="S" />
+<f-slider :value="get('b21', 100)" v-on:input="set('b21',$event)" from="0" to="100" integer title="B" />
 
-</center>
+-
 
-  <f-slider :value="get('h11', 300)" v-on:input="set('h11',$event)" from="0" to="360" integer title="H" />
-  <f-slider :value="get('s11', 100)" v-on:input="set('s11',$event)" from="0" to="100" integer title="S" />
-  <f-slider :value="get('b11', 100)" v-on:input="set('b11',$event)" from="0" to="100" integer title="B" />
+<f-scene responsive width="400" height="200">
+  <f-box 
+    width="8"
+    height="4"
+    stroke="none"
+    :fill="hsb2hsl( get('h31', 180) , get('s31', 100), get('b31', 100) )"
+  />
+</f-scene>
+
+<f-slider :value="get('h31', 180)" v-on:input="set('h31',$event)" from="0" to="360" integer title="H" />
+<f-slider :value="get('s31', 100)" v-on:input="set('s31',$event)" from="0" to="100" integer title="S" />
+<f-slider :value="get('b31', 100)" v-on:input="set('b31',$event)" from="0" to="100" integer title="B" />
 </div>
 
 -
 
-<div>
-
-<center>
-
-  <f-scene width="400" height="300">
-    <f-box 
-      width="6"
-      height="4"
-      stroke="none"
-      :fill="hsb2hsl( get('h21', 120) , get('s21', 100), get('b21', 100) )"
-    />
-  </f-scene>
-
-</center>
-
-  <f-slider :value="get('h21', 120)" v-on:input="set('h21',$event)" from="0" to="360" integer title="H" />
-  <f-slider :value="get('s21', 100)" v-on:input="set('s21',$event)" from="0" to="100" integer title="S" />
-  <f-slider :value="get('b21', 100)" v-on:input="set('b21',$event)" from="0" to="100" integer title="B" />
-</div>
-
--
-
-<div>
-
-<center>
-
-  <f-scene width="400" height="300">
-    <f-box 
-      width="6"
-      height="4"
-      stroke="none"
-      :fill="hsb2hsl( get('h31', 180) , get('s31', 100), get('b31', 100) )"
-    />
-  </f-scene>
-
-</center>
-
-  <f-slider :value="get('h31', 180)" v-on:input="set('h31',$event)" from="0" to="360" integer title="H" />
-  <f-slider :value="get('s31', 100)" v-on:input="set('s31',$event)" from="0" to="100" integer title="S" />
-  <f-slider :value="get('b31', 100)" v-on:input="set('b31',$event)" from="0" to="100" integer title="B" />
-</div>
-
--
+> ~Use the knowledge about contrasts and harmonies which you just found out about. 
+If possible, discuss your results with someone else.~
 
 <f-next-button style="margin:var(--base4) 0;" />
 
