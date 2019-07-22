@@ -2079,6 +2079,89 @@ get('activeEl') == 'el3' ? {border : '1px dotted black'} : {border : '1px dotted
 
 
 
+
+
+
+
+| section: cb-designer
+| gap: 1vmin
+| rows: auto
+
+| 1 3 2 2
+| 4 5 6 7
+| 8 8 8 8
+
+
+~Here will be some space for instructions etc.~
+
+-
+
+<ColorMixer v-show=" get('pactive', 'p1') == 'p1' " colorModel="HSB" outputID="pcol1-" key="pmixer1" :values="[44, 77, 100]" title="Background color" />
+<ColorMixer v-show=" get('pactive') == 'p2' "colorModel="HSB" outputID="pcol2-" key="pmixer2" title="Heading color" :values="[44, 77, 77]" />
+<ColorMixer v-show=" get('pactive') == 'p3' "colorModel="HSB" outputID="pcol3-" key="pmixer3" title="Text color" :values="[44, 77, 50]" />
+
+-
+
+<f-toggle title="Background" v-on:click.native="set('pactive', 'p1')" :value="get('pactive', 'p1') == 'p1' ? 1 : 0 " />
+  <f-toggle title="Heading color" v-on:click.native="set('pactive', 'p2')" :value="get('pactive') == 'p2' ? 1 : 0 " />
+  <f-toggle title="Text color" v-on:click.native="set('pactive', 'p3')" :value="get('pactive') == 'p3' ? 1 : 0 " />
+
+
+-
+
+<Poster 
+  :bgColor="hsb2hsl( get('pcol1-1',44), get('pcol1-2',77), get('pcol1-3',77) )" 
+  :headingColor="hsb2hsl( get('pcol2-1',44), get('pcol2-2',77), get('pcol2-3',77) )" 
+  :textColor="hsb2hsl( get('pcol3-1',44), get('pcol3-2',77), get('pcol3-3',77) )" 
+  :type="'Normal'"
+/>
+
+-
+
+
+<Poster 
+  :bgColor="colorblind( hsb2hsl( get('pcol1-1',44), get('pcol1-2',77), get('pcol1-3',77) ), 'protanopia' )" 
+  :headingColor="colorblind( hsb2hsl( get('pcol2-1',44), get('pcol2-2',77), get('pcol2-3',77) ), 'protanopia' )" 
+  :textColor="colorblind( hsb2hsl( get('pcol3-1',44), get('pcol3-2',77), get('pcol3-3',77) ), 'protanopia' )" 
+  :type="'Protanopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( hsb2hsl( get('pcol1-1',44), get('pcol1-2',77), get('pcol1-3',77) ), 'deuteranopia' )" 
+  :headingColor="colorblind( hsb2hsl( get('pcol2-1',44), get('pcol2-2',77), get('pcol2-3',77) ), 'deuteranopia' )" 
+  :textColor="colorblind( hsb2hsl( get('pcol3-1',44), get('pcol3-2',77), get('pcol3-3',77) ), 'deuteranopia' )" 
+  :type="'Deuteranopia'"
+/>
+
+-
+
+<Poster 
+  :bgColor="colorblind( hsb2hsl( get('pcol1-1',44), get('pcol1-2',77), get('pcol1-3',77) ), 'tritanopia' )" 
+  :headingColor="colorblind( hsb2hsl( get('pcol2-1',44), get('pcol2-2',77), get('pcol2-3',77) ), 'tritanopia' )" 
+  :textColor="colorblind( hsb2hsl( get('pcol3-1',44), get('pcol3-2',77), get('pcol3-3',77) ), 'tritanopia' )" 
+  :type="'Tritanopia'"
+/>
+
+-
+
+<f-next-button title="Design time!" />
+
+#### &nbsp;
+
+---
+
+
+
+
+
+
+
+
+
+
+
 | section: cb-designer
 | gap: 1vmin
 | rows: auto
@@ -2210,8 +2293,6 @@ get('activeEl') == 'el3' ? {border : '1px dotted black'} : {border : '1px dotted
 <f-next-button title="Design time!" />
 
 #### &nbsp;
-
-
 
 ---
 
