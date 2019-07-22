@@ -47,7 +47,7 @@ export default{
       return `calc( ${percent}% - ${offset}px)`;
     }
   },
-  calculated: { 
+  computed: { 
     
 },
   

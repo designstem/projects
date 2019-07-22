@@ -1938,19 +1938,14 @@ If possible, discuss your results with someone else.~
 ---
 
 | id: contrast
-
+| rows: auto
 | 1 1 1 1
 | 2 2 2 3 
 | 4 4 5 5
 
 <!-- ##### EXPLAIN -->
-# Color contrast and harmony
-
-<f-hr style="margin:var(--base6) 0" />
-
--
-
-## Task 3
+##### Color contrast and harmony
+# Task 3
 
 Given are a headline and a text on a background. Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.
 
@@ -1959,10 +1954,6 @@ If possible, discuss your results with someone.
 -
 
 
-
--
-
-<f-hr style="margin:var(--base6) 0; visibility: hidden" />
 
 <f-inline>
 
@@ -2013,10 +2004,80 @@ If possible, discuss your results with someone.
 </div>
 
 
+---
 
 
+| rows: auto
+| cols: 1fr 1fr 2fr
+| 1 1 1
+| 2 3 4
+| 5 3 4
+
+##### Color contrast and harmony
+# Task 3
+
+-
+
+~Given are a headline and a text on a background. Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
+
+-
+
+<ColorMixer v-show=" get('activeEl', 'el1') == 'el1' " colorModel="HSB" outputID="col1-" key="mixer1" :values="[44, 77, 100]" title="Background" />
+<ColorMixer v-show=" get('activeEl') == 'el2' "colorModel="HSB" outputID="col2-" key="mixer2" title="Heading" :values="[44, 77, 77]" />
+<ColorMixer v-show=" get('activeEl') == 'el3' "colorModel="HSB" outputID="col3-" key="mixer3" title="Texts" :values="[44, 77, 50]" />
+
+&nbsp;
+
+<f-inline>
+  <f-toggle title="Background" v-on:click.native="set('activeEl', 'el1')" :value="get('activeEl', 'el1') == 'el1' ? 1 : 0 " />
+  <f-toggle title="Heading color" v-on:click.native="set('activeEl', 'el2')" :value="get('activeEl') == 'el2' ? 1 : 0 " />
+  <f-toggle title="Text color" v-on:click.native="set('activeEl', 'el3')" :value="get('activeEl') == 'el3' ? 1 : 0 " />
+</f-inline>
+
+-
+
+<div style="padding: 6vw; min-height:500px; height:100%; " 
+    :style="[{
+      background: hsb2hsl( get('col1-1',44), get('col1-2',77), get('col1-3',100) )
+    }, 
+    get('activeEl') == 'el1' ? {border : '2px dotted black'} : {border : '2px solid var(--darkgray)'}
+    ]"
+    @click.self="set('activeEl', 'el1')"
+>
+
+<h1 :style="[{
+  color: hsb2hsl( get('col2-1',44), get('col2-2',77), get('col2-3',77) )
+  },
+  get('activeEl') == 'el2' ? {border : '1px dotted black'} : {border : '1px dotted transparent'}
+  ]"
+  @click.prevent="set('activeEl', 'el2')"
+>Halloo</h1>
+
+<p :style="[{
+  color: hsb2hsl( get('col3-1',44), get('col3-2',77), get('col3-3',77) )
+},
+get('activeEl') == 'el3' ? {border : '1px dotted black'} : {border : '1px dotted transparent'}
+]"
+@click.prevent="set('activeEl', 'el3')">Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampf&shy;schiffahrts&shy;gesellschafts&shy;kapitän eu Kaftfahrzeug-Haftpflicht&shy;versicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.</p>
+
+</div>
+
+-
+
+> If possible, discuss your results with someone.
+
+<f-next-button />
 
 ---
+
+
+
+
+
+
+
+
+
 
 | section: cb-designer
 | gap: 1vmin
