@@ -2008,7 +2008,7 @@ If possible, discuss your results with someone.
 
 
 | rows: auto
-| cols: 1fr 1fr 2fr
+| cols: 1fr 2fr 2fr
 | 1 1 1
 | 2 3 4
 | 5 3 4
@@ -2018,21 +2018,21 @@ If possible, discuss your results with someone.
 
 -
 
-~Given are a headline and a text on a background. Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
+~Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
 
 -
 
-<ColorMixer v-show=" get('activeEl', 'el1') == 'el1' " colorModel="HSB" outputID="col1-" key="mixer1" :values="[44, 77, 100]" title="Background" />
-<ColorMixer v-show=" get('activeEl') == 'el2' "colorModel="HSB" outputID="col2-" key="mixer2" title="Heading" :values="[44, 77, 77]" />
-<ColorMixer v-show=" get('activeEl') == 'el3' "colorModel="HSB" outputID="col3-" key="mixer3" title="Texts" :values="[44, 77, 50]" />
+<ColorMixer v-show=" get('activeEl', 'el1') == 'el1' " colorModel="HSB" outputID="col1-" key="mixer1" :values="[44, 77, 100]" title="Background color" />
+<ColorMixer v-show=" get('activeEl') == 'el2' "colorModel="HSB" outputID="col2-" key="mixer2" title="Heading color" :values="[44, 77, 77]" />
+<ColorMixer v-show=" get('activeEl') == 'el3' "colorModel="HSB" outputID="col3-" key="mixer3" title="Text color" :values="[44, 77, 50]" />
 
 &nbsp;
 
-<f-inline>
+<!-- <f-inline> -->
   <f-toggle title="Background" v-on:click.native="set('activeEl', 'el1')" :value="get('activeEl', 'el1') == 'el1' ? 1 : 0 " />
   <f-toggle title="Heading color" v-on:click.native="set('activeEl', 'el2')" :value="get('activeEl') == 'el2' ? 1 : 0 " />
   <f-toggle title="Text color" v-on:click.native="set('activeEl', 'el3')" :value="get('activeEl') == 'el3' ? 1 : 0 " />
-</f-inline>
+<!-- </f-inline> -->
 
 -
 

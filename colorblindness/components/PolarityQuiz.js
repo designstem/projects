@@ -47,10 +47,6 @@ export default{
       return `calc( ${percent}% - ${offset}px)`;
     }
   },
-  computed: { 
-    
-},
-  
   template: `
   <div style="padding: var(--base3) var(--base); border-radius:var(--border-radius); box-shadow: 0 0 3px 1px hsla(0, 0%, 0%, 0.2)">
 
