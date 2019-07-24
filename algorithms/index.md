@@ -174,7 +174,7 @@ By following the steps of cutting and folding you were performing a so called <b
 
 # ~an <big>Algorithm</big>~
 
-#### ~in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).~
+##### ~in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).~
 
 <br />
 
@@ -204,6 +204,7 @@ Or to put it simple:
 
 
 | section: EVERYDAY_ALGORITHMS
+| rows: auto
 | 1 3
 | 1 3
 | 2 3 
@@ -220,7 +221,7 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 -
 
-<f-image src="./images/everyday-recipe.jpg" />
+<f-image src="./images/everyday-recipe_3.jpg" style="background-size: cover; background-position:90% 50%;" />
 
 <!-- ![Cooking](./images/everyday-recipe.jpg "Cooking")  -->
  
@@ -249,6 +250,7 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 ##### Folding a t-shirt
  
 ![T-shirt folding](./images/everyday-tshirt.jpg "T-shirt folding") 
+<!-- <f-image src="./images/everyday-tshirt.jpg" style="background-size: cover; background-position:50% 50%; --image-min-height: 30vh;" /> -->
  
 ~<center><small><small>*There are more than one methods to fold a t-shirt. Every method is a "different algorithm" of t-shirt folding.*</small></small></center>~
 
@@ -256,7 +258,9 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 ##### Building a brick wall
  
-![Brick wall](./images/everyday-wall.jpg "Brick wall") 
+![Brick wall](./images/everyday-wall_2.jpg "Brick wall") 
+
+<!-- <f-image src="./images/everyday-wall_2.jpg" style="background-size: contain; background-position:50% 50%;" /> -->
  
 ~<center><small><small>*Building a stable brick wall is based on an algorithm too: you have to put the bricks so that every other row of bricks is shifted by half compared to previous one.*</small></small></center>~
 
@@ -279,17 +283,17 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 
 | section: COMPUTER_ALGORITHMS
-| 1 1 3
-| 1 1 3
-| 1 1 3
-| 2 2 3
+| rows: auto
+| cols: 2fr 1fr
+| 1 3
+| 2 3
 
 # Computer generated algorithms
 
 
 Cooking, folding a t-shirt, building a wall. These activities consist of relatively simple instructions (i.e. ‘algorithms’).
 
-#### ~Computers also perform algorithms. More complex algorithms may require a lot of computing power &ndash; so much that normally people cannot manage it by themselves.~
+~**Computers also perform algorithms. More complex algorithms may require a lot of computing power &ndash; so much that normally people cannot manage it by themselves.**~
  
 Computers and design go together well. This last decade has seen the emergence of a new way of designing that’s all about the conscious use of algorithms mixed with the computational power of computers. A lot of designers, artists and architects have been using computers and complex algorithms to create stunning work.
 
@@ -307,11 +311,10 @@ Computers and design go together well. This last decade has seen the emergence o
 
 
 
-
-| 1 1 3
-| 1 1 3
-| 1 1 3
-| 2 2 3
+| rows: auto
+| cols: 2fr 1fr
+| 1 3
+| 2 3
 
 
 # It is important to remember:
@@ -520,9 +523,9 @@ http://protohouse.tumblr.com/
 
 
 | rows: auto
-| 1 1 3
-| 1 1 3
-| 2 2 3
+| cols: 2fr 1fr
+| 1 3
+| 2 3
 
 
 # That was nice!
@@ -554,35 +557,40 @@ You might think that probably they use very expensive supercomputers plus knowle
 | 2 3 4 5 6
 | 7 7 7 7 7 
 
-## But first, we have to understand the very basics of how computer algorithms work. It possesses five key aspects:
+### But first, we have to understand the very basics of how computer algorithms work. It possesses five key aspects:
 
 -
 
 # 1.
+
 #### FINITE&shy;NESS
 The algorithm **must always terminate** after a finite number of steps.
 
 -
 
 # 2.
+
 #### DEFINITE&shy;NESS
 **Each step must be precisely defined;** the actions to be carried out must be rigorously and unambiguously specified for each case.
 
 -
 
 # 3.
+
 #### INPUT 
 An algorithm **has zero or more inputs**, taken from a specified set of objects.
 
 -
 
 # 4.
+
 #### OUTPUT
 An algorithm **has one or more outputs**, which have a specified relation to the inputs.
 
 -
 
 # 5.
+
 #### EFFECTIVE&shy;NESS
 **All operations** to be performed must be **sufficiently basic** that they can be done exactly and in finite length (Knut 1997)
 
@@ -600,7 +608,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
 
 
 
-| rows: 1fr auto 1fr
+| rows: auto
 | 1 1 1
 | 2 3 4
 | 5 5 5
@@ -616,6 +624,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
 >
   
   # 1.
+
   ### INPUT 
   you feed some parameters (variables) or data to your algorithm
 
@@ -631,6 +640,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
 >
 
 # 2.
+
 ### PROCESSING 
 algorithm does the computing
 
@@ -645,6 +655,7 @@ algorithm does the computing
 >
 
 # 3.
+
 ### OUTPUT
 you get a result
 
@@ -706,7 +717,7 @@ With these examples you can see how most basic operations like **repeating, scal
 
 -
 
-<f-scene class="fullWidthScene" >
+<f-scene responsive class="fullWidthScene" >
   <f-grid-pattern 
     :cols="2+Math.round(4/get('step1',0.6))" 
     :rows="2+Math.round(4/get('step1',0.6))" 
@@ -726,14 +737,12 @@ With these examples you can see how most basic operations like **repeating, scal
 <f-slider title="Grid size" 
     from="0.2"
     to="2"
-    step="0.01"
     :value="0.6"
     set="step1"
 />
 <f-slider title="Line length" 
     from="-1"
     to="1"
-    step="0.01"
     :value="0.01"
     set="width1"
 />
@@ -741,8 +750,6 @@ With these examples you can see how most basic operations like **repeating, scal
 <br />
 
 <small>***HINT:*** *Try to make the grid size smaller than 0.5 and line longer than 0.2*</small>
-
-&nbsp;
 
 <f-next-button title="Next: add rotation" v-if="get('step1') < 0.5 && Math.abs(get('width1')) > 0.16" />
 
@@ -814,7 +821,7 @@ With these examples you can see how most basic operations like **repeating, scal
 
 <small>***HINT:*** *Try to make the grid size smaller than 0.4, line longer than 1 and rotation bigger than 30*</small>
 
-<br /><br />
+<br />
 
 <f-next-button title="Next: boxes" v-if="get('step2') < 0.4 && Math.abs(get('width2')) > 1 && Math.abs(get('rotation2')) > 30" />
 
@@ -846,13 +853,8 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 <f-scene responsive>
   <f-grid-pattern :cols="2+Math.round(4/get('step3',0.6))" :rows="2+Math.round(4/get('step3',0.6))" :step="get('step3',0.9)">
     <f-group :rotation="get('rotation3',0)"> 
-      <!-- <f-box 
-        :stroke-width="3"  
-        :width = "get('width3',0.6)" 
-        :height = "get('width3',0.6)" 
-      />  -->
       <f-box 
-        :stroke-width="2"  
+        :stroke-width="2"
         :scale="get('width3',0.6)" 
       /> 
     </f-group>
@@ -869,7 +871,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
     v-on:value="i => set('step3', i)"
 />
 <f-slider title="Box size" 
-    from="-3"
+    from="-1"
     to="3"
     step="0.02"
     :value="0.6"
@@ -886,8 +888,6 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 <br />
 
 <small>***HINT:*** *Try to make the grid size smaller than 0.5, box bigger than 1 and rotation higher than 45*</small>
-
-<br /><br />
 
 <f-next-button title="Next: circles" v-if="get('step3') < 0.5 && Math.abs(get('width3')) > 1 && Math.abs(get('rotation3')) > 45" />
 
@@ -920,7 +920,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
     <f-group> 
       <f-circle 
           :stroke-width="2"  
-          :r = "get('width4',0.2)" 
+          :scale = "get('width4',0.2)" 
         /> 
     </f-group>
   </f-grid-pattern>
@@ -946,8 +946,6 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 <br />
 
 <small>***HINT:*** *Try to make the grid size smaller than 0.4 and circle bigger than 1*</small>
-
-<br /><br />
 
 <f-next-button title="Next: random" v-if="get('step4') < 0.4 && get('width4') > 1" />
 
@@ -982,7 +980,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
     <f-group> 
       <f-circle 
           stroke-width="2"  
-          :r = "get('randomR', randomizer( 0.2, 1))" 
+          :scale = "get('randomR', randomizer( 0.2, 1))" 
         />  
     </f-group>
   </f-grid-pattern>
@@ -1020,9 +1018,9 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 | rows: auto
 | cols: 3fr 1fr
 
-| 1 
-| 2 
-| 3 
+| 1 3
+| 2 3
+| 4 3
 
 # This was just a beginning &ndash;
 #### like a tiny tip of a huge iceberg
@@ -1036,6 +1034,8 @@ When we add other important properties like colour, stroke width, transparency a
 Plus it is possible to let different functions and/or data, such as randomness, noise, sine wave, user input, voice, weather information, tweets etc affect the parameters and then we have much more options and complex results.
 
 But let all this be a subject for the next time &nbsp; or better yet &ndash; let this be something for you to discover by yourself :)
+
+-
 
 -
 

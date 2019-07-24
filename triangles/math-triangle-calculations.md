@@ -4,7 +4,7 @@
 
 # Calculations in triangles
 
-&nbsp;
+<!-- &nbsp; -->
 
 
 ---
@@ -40,19 +40,19 @@ First rule, we have to know, is...
 
 -
 
-<f-scene grid class="fullWidthScene">
+<f-scene grid responsive>
   <Triangle :points="[ [0,1.598],[-1.5,-1],[1.5,-1] ]" :angleMarkers="3" angleInfo />
 </f-scene>
 
 -
 
-<f-scene grid class="fullWidthScene">
+<f-scene grid responsive>
   <Triangle :points="[ [-1,1],[-1,-1],[1,-1] ]" :angleMarkers="3" angleInfo />
 </f-scene>
 
 -
 
-<f-scene grid class="fullWidthScene">
+<f-scene grid responsive>
   <Triangle :points="[ [0.3,1.6],[-1.5,-1],[1.2,-1.2] ]" :angleMarkers="3" angleInfo />
 </f-scene>
 

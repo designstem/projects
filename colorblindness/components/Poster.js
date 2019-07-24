@@ -23,7 +23,7 @@ export default{
   },
   template: `
   <div>
-    <div style="position: relative; padding: 6vmax 3vmax ; overflow:hidden; width:100%; border:1px solid var(--gray)" :style="{
+    <div style="position: relative; padding: 6vmax 3vmax ; overflow:hidden; width:100%; height:100%; border:1px solid var(--gray)" :style="{
         background: bgColor
     }">
 
@@ -35,7 +35,7 @@ export default{
 
     <p style="text-align:center; font-size: 1.75vmax; line-height:1.2" :style="{
         color: textColor
-    }">Not all color combi&shy;nations work equally well for all people!</p>
+    }">Not all color combi&shy;nations work equally well for everyone!</p>
     </div>
   </div>
   `

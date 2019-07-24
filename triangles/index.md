@@ -204,26 +204,31 @@
 -
 
 ## 1.
+
 ~Find a bird for which to build a nesting box.~
 
 -
 
 ## 2.
+
 ~Sketch your ideas.~
 
 -
 
 ## 3.
+
 ~Create prototype of nesting box using cardboard or paper.~
 
 -
 
 ## 4.
+
 ~Make and note all the calculations needed for building the nesting box.~
 
 -
 
 ## 5.
+
 ~Build the nesting box from wood or similar materials.~
 
 -
@@ -250,7 +255,9 @@
 
 <div>
 
-  # “But how?”
+  <h1 style="--base:16px">🤔</h1>
+
+  # ~“But how?”~
   ~you may ask...~
 
 ### &nbsp;
@@ -386,12 +393,12 @@
     :fill="color('yellow')"
     :opacity="0.7"
     />
-    </f-group3>
+  </f-group3>
 </f-scene3>
 
 <div style="text-align:center">
 
-### <f-leftarrow-icon />Polygons <f-rightarrow-icon />
+### <f-leftarrow-icon /> Polygons <f-rightarrow-icon />
 
 ~Find the polygons: the sides of a polyhedron~
 
@@ -424,7 +431,7 @@
 
 <div style="text-align: center">
 
-### <f-leftarrow-icon />Triangles
+### <f-leftarrow-icon /> Triangles
 
 ~Find triangles: the “building blocks” of polygons~
 
@@ -475,7 +482,7 @@
 
 -
 
-<f-scene class="fullWidthScene" v-slot="{ mouse }" grid>
+<f-scene responsive class="fullWidthScene" v-slot="{ mouse }" grid>
   <f-drag
     :mouse="mouse"
     points="-1.5 -1.2, 1.5 -1.2, 0 1.42"
@@ -588,7 +595,7 @@
 
 -
 
-<f-scene class="fullWidthScene">
+<f-scene responsive class="fullWidthScene">
   <f-regularpolygon count="6" scale="1" position="0 0" rotation="0" />
   <f-regularpolygon :fill="color('green')" count="3" scale="0.6" position="-1.2 1.2" rotation="20" />
   <f-regularpolygon :fill="color('blue')" count="3" scale="0.4" position="0.8 0" rotation="60" />
@@ -625,7 +632,7 @@
 
 -
 
-<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck1', true);}" v-on:mouseup.native="()=>{set('polyCheck1', false);}" v-on:touchstart.native="()=>{set('polyCheck1', true);}" v-on:touchend.native="()=>{set('polyCheck1', false);}">
+<f-scene grid responsive class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck1', true);}" v-on:mouseup.native="()=>{set('polyCheck1', false);}" v-on:touchstart.native="()=>{set('polyCheck1', true);}" v-on:touchend.native="()=>{set('polyCheck1', false);}">
   <f-group v-if="get('polyCheck1', false)">
     <Triangle :fill="color('yellow')" :points="[ [0,1], [0,-1.25], [1.27,-1.25] ]" :angleLabels="false" :strokeWidth="1" />
   </f-group>
@@ -634,7 +641,7 @@
 
 -
 
-<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck2', true);}" v-on:mouseup.native="()=>{set('polyCheck2', false);}" v-on:touchstart.native="()=>{set('polyCheck2', true);}" v-on:touchend.native="()=>{set('polyCheck2', false);}">
+<f-scene grid responsive class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck2', true);}" v-on:mouseup.native="()=>{set('polyCheck2', false);}" v-on:touchstart.native="()=>{set('polyCheck2', true);}" v-on:touchend.native="()=>{set('polyCheck2', false);}">
   <f-group v-if="get('polyCheck2', false)" v-for="(t,i) in 6" :key="'t'+i" :rotation="(360/5)*i">
     <Triangle :fill="i == 0 ? color('yellow') : 'none'" :points="[ [0,0], polarxy( 360/5*-0.5, 1.5), polarxy( 360/5*0.5, 1.5) ]" :angleLabels="false" :strokeWidth="1" />
   </f-group>
@@ -643,7 +650,7 @@
 
 -
 
-<f-scene grid class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck3', true);}" v-on:mouseup.native="()=>{set('polyCheck3', false);}" v-on:touchstart.native="()=>{set('polyCheck3', true);}" v-on:touchend.native="()=>{set('polyCheck3', false);}">
+<f-scene grid responsive class="fullWidthScene" v-on:mousedown.native="()=>{set('polyCheck3', true);}" v-on:mouseup.native="()=>{set('polyCheck3', false);}" v-on:touchstart.native="()=>{set('polyCheck3', true);}" v-on:touchend.native="()=>{set('polyCheck3', false);}">
   <f-group v-if="get('polyCheck3', false)" v-for="(t,i) in 6" :key="'t'+i" :rotation="(360/6)*i">
     <Triangle :fill="i == 0 ? color('yellow') : 'none'" :points="[ [0,0], polarxy( 360/6*-0.5, 1.5), polarxy( 360/6*0.5, 1.5) ]" :angleLabels="false" :strokeWidth="1" />
   </f-group>
@@ -702,7 +709,7 @@
 
 -
 
-<f-scene grid class="fullWidthScene">
+<f-scene grid responsive class="fullWidthScene">
   <f-group v-for="(t,i) in range( 1, get('polySides', 3) )" :key="'tr'+i" :rotation="i*(360/get('polySides', 3))">
     <Triangle 
       :points="[ [0,0], polarxy( 360/get('polySides', 3)*-0.5, 1.5), polarxy( 360/get('polySides', 3)*0.5, 1.5) ]" 

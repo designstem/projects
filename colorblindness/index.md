@@ -223,10 +223,11 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ---
 
-| height: 100vh
 | id: cbSimulator
-| 1 1 2 2 2
-| 3 3 2 2 2
+| rows: auto
+| cols: 2fr 3fr
+| 1 2
+| 3 2
 
 
 
@@ -237,19 +238,19 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 ~<f-arrow-icon rotation="90" /> Simulate color vision deficiency by applying different filters to the image.~
 <p />
 
-<f-card :title="get('cbType', 'protanopia') == 'protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType', 'protanopia') == 'protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'protanopia')">
+<f-card :title="get('cbType', 'protanopia') == 'protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType', 'protanopia') == 'protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native.stop="set('cbType', 'protanopia')">
 
 <p v-if="get('cbType', 'protanopia') == 'protanopia'" style="font-size:100%;">reduced sensitivity to <b>RED</b> light</p>
 
 </f-card>
 
-<f-card :title="get('cbType') == 'deuteranopia' ? 'Simulating Deuteranopia 👉' : 'Simulate Deuteranopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'deuteranopia')" >
+<f-card :title="get('cbType') == 'deuteranopia' ? 'Simulating Deuteranopia 👉' : 'Simulate Deuteranopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType') == 'deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native.stop="set('cbType', 'deuteranopia')" >
 
 <p v-if="get('cbType') == 'deuteranopia'" style="font-size:100%;">reduced sensitivity to <b>GREEN</b> light</p>
 
 </f-card>
 
-<f-card :title="get('cbType') == 'tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'tritanopia')">
+<f-card :title="get('cbType') == 'tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType') == 'tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native.stop="set('cbType', 'tritanopia')">
 
 <p v-if="get('cbType') == 'tritanopia'" style="font-size:100%">reduced sensitivity to <b>BLUE</b> light</p>
 
@@ -2087,25 +2088,28 @@ get('activeEl') == 'el3' ? {border : '1px dotted black'} : {border : '1px dotted
 | gap: 1vmin
 | rows: auto
 
-| 1 3 2 2
-| 4 5 6 7
-| 8 8 8 8
+| 1 2 2 2
+| 3 4 5 6
+| 7 7 7 7
 
 
 ~Here will be some space for instructions etc.~
 
 -
 
-<ColorMixer v-show=" get('pactive', 'p1') == 'p1' " colorModel="HSB" outputID="pcol1-" key="pmixer1" :values="[44, 77, 100]" title="Background color" />
-<ColorMixer v-show=" get('pactive') == 'p2' "colorModel="HSB" outputID="pcol2-" key="pmixer2" title="Heading color" :values="[44, 77, 77]" />
-<ColorMixer v-show=" get('pactive') == 'p3' "colorModel="HSB" outputID="pcol3-" key="pmixer3" title="Text color" :values="[44, 77, 50]" />
-
--
-
-<f-toggle title="Background" v-on:click.native="set('pactive', 'p1')" :value="get('pactive', 'p1') == 'p1' ? 1 : 0 " />
-  <f-toggle title="Heading color" v-on:click.native="set('pactive', 'p2')" :value="get('pactive') == 'p2' ? 1 : 0 " />
-  <f-toggle title="Text color" v-on:click.native="set('pactive', 'p3')" :value="get('pactive') == 'p3' ? 1 : 0 " />
-
+<f-inline>
+  <div style="flex: 1 0 60%">
+    <ColorMixer v-show=" get('pactive', 'p1') == 'p1' " colorModel="HSB" outputID="pcol1-" key="pmixer1" :values="[44, 77, 100]" title="Background color" />
+    <ColorMixer v-show=" get('pactive') == 'p2' "colorModel="HSB" outputID="pcol2-" key="pmixer2" title="Heading color" :values="[44, 77, 77]" />
+    <ColorMixer v-show=" get('pactive') == 'p3' "colorModel="HSB" outputID="pcol3-" key="pmixer3" title="Text color" :values="[44, 77, 50]" />
+  </div>
+  
+  <div style="flex: 1 0 30%; padding-left:3%;">
+  <f-toggle title="Background" v-on:click.native="set('pactive', 'p1')" :value="get('pactive', 'p1') == 'p1' ? 1 : 0 " />
+    <f-toggle title="Heading color" v-on:click.native="set('pactive', 'p2')" :value="get('pactive') == 'p2' ? 1 : 0 " />
+    <f-toggle title="Text color" v-on:click.native="set('pactive', 'p3')" :value="get('pactive') == 'p3' ? 1 : 0 " />
+  </div>
+</f-inline>
 
 -
 
