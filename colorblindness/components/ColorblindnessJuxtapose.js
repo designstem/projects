@@ -270,6 +270,10 @@ export default{
       // immediate: true,
       handler(newVal, oldVal) {
         this.imgStatus = "PROCESSING... " + newVal;
+
+        this.juxt.ctx.fillStyle = "white";
+        this.juxt.ctx.fillRect(0, 0, this.imgWidth, this.imgHeight);
+
         this.changeColorsProxy();
       },
     },
