@@ -62,7 +62,8 @@ export default{
       cbImage: {
         imageData: null,
         data: null,
-      }
+      },
+      loader: true
     }
   },
   methods: {
@@ -202,16 +203,17 @@ export default{
     changeColors(k) {
       
       this.activeType = k;
-      // let rgb;
-      // let newCol;
-
-      // console.time("oneCycle");
-      // let r = this.colorblind( this.rgb(this.normalImage.data[0], this.normalImage.data[0+1], this.normalImage.data[0+2]), "protanopia" );
-
-      // let nc = r.substring(4, r.length-1).replace(/ /g, '').split(',');
-      // console.timeEnd("oneCycle");
-
+      
       console.time("wholeLoop");
+
+    //   for (let i = 0, p = Promise.resolve(); i < 10; i++) {
+    //     p = p.then(_ => new Promise(resolve =>
+    //         setTimeout(function () {
+    //             console.log(i);
+    //             resolve();
+    //         }, Math.random() * 1000)
+    //     ));
+    // }
       for (let i = 0; i < this.normalImage.data.length; i += 4) {
         // if(i==0){console.time("oneCycle");} 
         let rgb = this.colorblind( this.rgb(this.normalImage.data[i], this.normalImage.data[i+1], this.normalImage.data[i+2]), k );
@@ -298,6 +300,10 @@ export default{
         <!-- <p class="cbs-canvas__info">{{activeType}}</p> -->
         <p class="cbs-canvas__status">{{ imgStatus }}</p>
     </div>
+
+    <!-- <div v-if="loader">
+      <Loader />
+    </div> -->
 
     <f-inline v-if="upload" style="margin-top:var(--base); border:3px solid var(--darkgray); padding:var(--base2); position:sticky; bottom:0px; background:var(--yellow)">
       <h5>Try it with your own image: </h5><input type="file" @change="changeImage">

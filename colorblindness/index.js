@@ -11,6 +11,7 @@ import PolarityQuiz from "./components/PolarityQuiz.js";
 import ContrastQuiz from "./components/ContrastQuiz.js";
 import ColorPaletteWheel from "./components/ColorPaletteWheel.js";
 import ColorMixer from "./components/ColorMixer.js";
+import Loader from "./components/Loader.js";
 
 import Mapper from "./cv-mapper/Mapper.js";
 
@@ -23,7 +24,8 @@ fachwerk({
     "PolarityQuiz" : PolarityQuiz,
     "ContrastQuiz" : ContrastQuiz,
     "ColorPaletteWheel" : ColorPaletteWheel,
-    "ColorMixer": ColorMixer
+    "ColorMixer": ColorMixer,
+    "Loader": Loader,
 
   },
   theme: "light",
