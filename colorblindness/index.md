@@ -59,32 +59,35 @@ The students’ awareness should be raised for the problems people with color vi
 
 <!-- <f-sidebar title="Menu" src="./menu.md" /> -->
 
-
-
-
-
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 | section: cb-explore-cb
-| gap: 3vmin
-| 1 3
-| 2 3
 | rows: auto
+| gap: 3vmin
+| 1 2
+| 3 2
+
 
 # Color blindness
 
--
-
 <div v-if="get('revealX') < 75">
 
-<f-inline>
-
-  ~This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
-  ~Actually there is **<span style="color:var(--red)">only one red tomato</span>** in this picture~
-
-</f-inline>
-
-&nbsp;
+~This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
+~Actually there is **<span style="color:var(--red)">only one red tomato</span>** in this picture~
 
 <f-inline>
 
@@ -94,12 +97,9 @@ The students’ awareness should be raised for the problems people with color vi
 
 </f-inline>
 
-&nbsp;
-
 <button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
 </div>
-
 
 <div v-if="get('revealX') > 75">
 
@@ -109,15 +109,21 @@ The students’ awareness should be raised for the problems people with color vi
   
    # 🤢
   
-  > ~For color deficient people choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.~
+  > ~<small>For color deficient people choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.</small>~
 
   </f-inline>
 
-  <small>~*BTW, you can also drag or click on the image to compare protanopia vs normal seeing*~</small>
-
-  <f-next-button title="Next: go outside!" />
-
 </div>
+
+-
+
+<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)" />
+
+<small v-if="get('revealX') > 75">~*BTW, you can also drag or click on the image to compare protanopia vs "normal" seeing*~</small>
+
+-
+
+<f-next-button title="Next: go outside!" v-if="get('revealX') > 75" />
 
 <f-notes>
   
@@ -129,16 +135,6 @@ The students’ awareness should be raised for the problems people with color vi
 
 </f-notes>
 
--
-
-<ColorblindnessJuxtapose :imageUrl="'images/tomatoes-test.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)" />
-
-
-
-
-
-
-
 
 
 
@@ -148,13 +144,13 @@ The students’ awareness should be raised for the problems people with color vi
 | id: cbSafari
 | gap: 0
 | padding: 0
-| 1 3
-| 2 3
+| 1 2
+| 3 2
 | rows: auto 25vh
 
 <section style="padding:var(--content-padding);">
 
-  <div>
+  <!-- <div> -->
   
   <!-- ##### EXPLORE -->
   # <f-icon :icon="'Activity'" :size="'large'" /> Photo safari
@@ -163,15 +159,14 @@ The students’ awareness should be raised for the problems people with color vi
 
   ~Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.~
 
-  <f-inline>
-
-  ~**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**~
-  
-  </f-inline>
-  
-  </div>
+  ~**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**~  
+  <!-- </div> -->
 
 </section>
+
+-
+
+<f-image src="images/explore-go-outside.jpg" />
 
 -
 
@@ -179,9 +174,8 @@ The students’ awareness should be raised for the problems people with color vi
   <f-next-button title="Analyze your photos" />
 </section>
 
--
 
-<f-image src="images/explore-go-outside.jpg" />
+
 
 
 
