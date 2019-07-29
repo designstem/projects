@@ -1,36 +1,40 @@
-| padding: 0
+| padding: var(--base2)
 
-<section>
+<!-- <section>
 
 <a href="../" class="quaternary"><f-leftarrow-icon /> Back to projects</a>
 
-</section>
+</section> -->
 
-<div class="grid" style="padding:var(--base8) var(--base2);">
-
-
+<div class="grid" style="grid-template-columns: 1fr; padding:var(--base3) var(--base2);">
 
 
-<f-section-card title="1: Explore color blindness" section="cb-explore-cb">
-- How does color vision deficiency affects people?
+
+
+
+<f-section-card title="Explore color blindness" section="cb-explore-cb">
+<!-- - How does color vision deficiency affects people? -->
 </f-section-card>
 
 
-<f-section-card title="2: Accessibility" section="cb-accessibility">
-- What is accessibility
+<f-section-card title="Accessibility" section="cb-accessibility">
+<!-- - What is accessibility -->
 </f-section-card>
 
 
-<f-section-card title="3: The eye" section="cb-eye">
-- How does the eye work?
+<f-section-card title="The eye" section="cb-the-eye">
+<!-- - How does the eye work? -->
 </f-section-card>
 
-<f-section-card title="4: Color mixing" section="cb-color-mixing">
-- Mix all colors from RED, GREEN and BLUE light
+<f-section-card title="Color mixing" section="cb-color-mixing">
+<!-- - Mix all colors from RED, GREEN and BLUE light -->
 </f-section-card>
 
+<f-section-card title="Contrast and harmony" section="cb-contrast-and-harmony" />
 
-
+<f-section-card title="Color palettes" section="cb-palettes">
+<!-- - Palettes -->
+</f-section-card>
 
 
 <!-- <f-section-card

@@ -328,7 +328,7 @@ export default{
     .cbs-canvas__status {
       position: absolute; 
       top:7px; 
-      left:0; 
+      right:0; 
       z-index: 100;
       font-size: var(--base2);
       background:var(--lightergray); 

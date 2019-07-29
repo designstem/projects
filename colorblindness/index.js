@@ -28,8 +28,14 @@ fachwerk({
     "Loader": Loader,
 
   },
+  src: [
+    "index.md", 
+    "index-08-contrast-and-harmony.md", 
+    "index-09-calculator.md", 
+    "index-extras.md"
+  ],
   theme: "light",
-  editor: "hide",
+  editor: "none",
   pager: true,
   home: false,
   utils:  localutils
