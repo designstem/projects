@@ -1,34 +1,16 @@
 
-
-<!--
-
-333333          PPPPPP     RRRRRR      OOOOO     PPPPPP      SSSSSS
-      3         P     P    R     R    O     O    P     P    S      
-  3333          P     P    R     R    O     O    P     P     SSSSS 
-      3         PPPPPP     RRRRRR     O     O    PPPPPP           S
-333333          P          R    R      OOOOO     P          SSSSSS  
-
--->
-
-
-
-
-
 | section: cb-3-properties
 | rows: auto
 | cols: 3fr 2fr
 | padding: 0
 | 1 2
 
-
 <section style="padding:var(--content-padding)">
 
 <!-- ##### EXPLAIN -->
 # Three properties of color
 
-<!-- <f-hr style="margin:var(--base6) 0" /> -->
-
-&nbsp;
+<!-- &nbsp; -->
 
 ~When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:~
 
@@ -38,13 +20,13 @@
 
 ~All three of these properties change the effect the color has.~
 
-&nbsp;
+<!-- &nbsp; --> 
 
 #### ~Have a look at these 2 greens~ 👉
 
 ~Both are greens, but they have different effects. Most people wouldn’t call the brighter color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
 
-<f-next-button style="margin:var(--base6) 0" />
+<f-next-button  />
 
 </section>
 
@@ -232,7 +214,7 @@
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<f-next-button />
 
 ---
 
@@ -324,7 +306,7 @@
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<f-next-button  />
 
 
 
@@ -362,7 +344,7 @@
 
 -
 
-~There is one condition: **all the shampoos smell like apples**~ 
+~There is one condition: **all three shampoos smell like apples**~ 
 
 -
 

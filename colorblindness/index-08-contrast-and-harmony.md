@@ -14,8 +14,10 @@
   
   <blockquote style="background: none;">
 
-  ~“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” <br />*(Johannes Itten)*~
+  ~*“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.”*~
   
+  <p style="text-align:right; font-size:small;">&mdash;Johannes Itten</p>
+
   </blockquote>
 
 <!-- </section> -->
@@ -91,7 +93,7 @@
 
 &nbsp;
 
-~Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. mono-chromatic color palettes. But that doesn’t mean that they are less harmonious.~
+~Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. mono-chromatic color palettes. But that doesn’t always mean that they are less harmonious.~
 
 ~In this example you have a **complementary contrast** of red and blue hues.~
 
@@ -709,27 +711,30 @@ If possible, discuss your results with someone.
 -
 
 <div style="padding: 6vw; min-height:500px; height:100%; " 
-    :style="[{
+    :style="{
       background: hsb2hsl( get('col1-1',44), get('col1-2',77), get('col1-3',100) )
-    }, 
-    get('activeEl') == 'el1' ? {border : '2px dotted black'} : {border : '2px solid var(--darkgray)'}
-    ]"
+    }"
+  :class="
+    get('activeEl') == 'el1' ? 'marchingants--active' : 'marchingants'  
+  "
     @click.self="set('activeEl', 'el1')"
 >
 
-<h1 :style="[{
+<h1 :style="{
   color: hsb2hsl( get('col2-1',44), get('col2-2',77), get('col2-3',77) )
-  },
-  get('activeEl') == 'el2' ? {border : '1px dotted black'} : {border : '1px dotted transparent'}
-  ]"
+  }"
+  :class="
+    get('activeEl') == 'el2' ? 'marchingants--active' : 'marchingants'  
+  "
   @click.prevent="set('activeEl', 'el2')"
 >Halloo</h1>
 
-<p :style="[{
+<p :style="{
   color: hsb2hsl( get('col3-1',44), get('col3-2',77), get('col3-3',77) )
-},
-get('activeEl') == 'el3' ? {border : '1px dotted black'} : {border : '1px dotted transparent'}
-]"
+}"
+:class="
+  get('activeEl') == 'el3' ? 'marchingants--active' : 'marchingants'  
+"
 @click.prevent="set('activeEl', 'el3')">Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampf&shy;schiffahrts&shy;gesellschafts&shy;kapitän eu Kaftfahrzeug-Haftpflicht&shy;versicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.</p>
 
 </div>

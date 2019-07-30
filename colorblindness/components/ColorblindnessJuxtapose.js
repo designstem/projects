@@ -1,9 +1,4 @@
 import { Css, utils, colorBlind } from "https://designstem.github.io/fachwerk/fachwerk.js";
-//  import { Vue, components, Css } from "http://127.0.0.1:8887/fachwerk.js";
-
-// for (const name in components) {
-//   Vue.component(name, components[name])
-// }
 
 export default{
   props: {
@@ -109,34 +104,24 @@ export default{
       this.activeType = type;
       
       console.time("processTime");
-
-      const bufferData = new Uint8ClampedArray(this.normalImage.data.length);
-      let cb, newCol;
-
+      // const bufferData = new Uint8ClampedArray(this.normalImage.data.length);
+      let cb;
 
       for (let i = 0; i < this.normalImage.data.length; i += 4) {
-        // if(i==400000){console.time("oneCycle");} 
         cb = this.colorblindRaw( 'rgb(' + this.normalImage.data[i] + ',' + this.normalImage.data[i+1] + ',' + this.normalImage.data[i+2] + ')', type );
         
-        // if(i==400000){console.timeEnd("oneCycle");}
-        //newCol = cb.substring(4, cb.length-1).replace(/ /g, '').split(',');
+        // bufferData[i]   = cb.R;
+        // bufferData[i+1] = cb.G;
+        // bufferData[i+2] = cb.B;
+        // bufferData[i+3] = this.normalImage.data[i+3];
         
-        bufferData[i]   = cb.R;
-        bufferData[i+1] = cb.G;
-        bufferData[i+2] = cb.B;
-        // bufferData[i]   = newCol[0];
-        // bufferData[i+1] = newCol[1];
-        // bufferData[i+2] = newCol[2];
-        bufferData[i+3] = this.normalImage.data[i+3];
-        
-        // this.cbImage.data[i] = newCol[0];
-        // this.cbImage.data[i+1] = newCol[1];
-        // this.cbImage.data[i+2] = newCol[2];
-        //this.cbImage.data[i+3] = newCol[3];
+        this.cbImage.data[i] = cb.R;
+        this.cbImage.data[i+1] = cb.G;
+        this.cbImage.data[i+2] = cb.B;
+        this.cbImage.data[i+3] = this.normalImage.data[i+3];
        }
 
-      
-      this.cbImage.data.set(bufferData);
+      // this.cbImage.data.set(bufferData);
       console.timeEnd("processTime");
       
       this.imgStatus = this.activeType.toUpperCase();
@@ -285,6 +270,9 @@ export default{
   template: `
   <div>
     <!-- {{revealed}} - {{juxtPos}} -->
+    <!-- <div v-if="loader">
+      <Loader />
+    </div> -->
     <div class="cb-juxt" >
         <canvas :id="juxtId" :width="imgWidth" :height="imgHeight" 
             @mousedown="mouseDown = true"
@@ -297,19 +285,14 @@ export default{
         <p class="cbs-canvas__status">{{ imgStatus }}</p>
     </div>
 
-    <!-- <div v-if="loader">
-      <Loader />
-    </div> -->
-
-    <f-inline v-if="upload" style="margin-top:var(--base); border:3px solid var(--darkgray); padding:var(--base2); position:sticky; bottom:0px; background:var(--yellow)">
-      <h5>Try it with your own image: </h5><input type="file" @change="changeImage">
+    <f-inline v-if="upload" style="padding:var(--base); position:sticky; bottom:0px; background:var(--yellow); margin:0; justify-content: space-between;">
+      <h5>Upload your own image: </h5><input type="file" @change="changeImage">
     </f-inline>
     
   </div>
   `,
   css: `
     .cb-juxt {
-      //padding-bottom: var(--base2); 
       position: relative;
     }
     .cbs-canvas__info {

@@ -245,4 +245,4 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 -
 
-<f-next-button style="margin:var(--base6) 0" />
+<f-next-button  />
