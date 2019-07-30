@@ -69,7 +69,9 @@ export default{
   methods: {
     ...utils,
     initImage(img){
-     
+      
+      this.showMessages("PROCESSING...");
+
       let scale = 1;
       const maxSize = 800;
 
@@ -90,41 +92,54 @@ export default{
       this.cbImage.imageData = this.juxt.ctx.getImageData(0, 0, this.imgWidth, this.imgHeight);
       this.cbImage.data = this.cbImage.imageData.data;
 
-      this.showMessages("PROCESSING...");
 
 
-      //this.changeColors( this.cbType.toLowerCase() );
-      //console.log("scale " + scale + " img.width " + img.width + " imgWidth " + this.imgWidth);
-
-      const _this = this;
-      setTimeout(function(){
-        _this.changeColors( _this.cbType.toLowerCase() );
-        //_this.juxt.ctx.putImageData(_this.cbImage.imageData, 0, 0);
-        _this.drawData2Canvas( _this.juxtPos );
-      }, 500)
+      this.changeColorsProxy();
         
     },
-    mouseDrag(e){
-      if(!this.mouseDown){
-        return;
-      } else {
-        if(this.locked){
-          return;
-        } else {
-          let rect = this.juxt.canvas.getBoundingClientRect();
-          let xPos = (e.clientX-rect.left)*(this.imgWidth/rect.width);
-          this.drawData2Canvas(xPos);
-        }
-      }
+    
+    changeColorsProxy(){
+      var _this = this;
+      setTimeout(function(){
+        _this.changeColors( _this.cbType.toLowerCase() );
+        _this.drawData2Canvas( _this.juxtPos );
+      }, 100);
     },
-    mouseClick(e){
-      if(this.locked){
-          return;
-      } else {
-        let rect = this.juxt.canvas.getBoundingClientRect();
-        let xPos = (e.clientX-rect.left)*(this.imgWidth/rect.width);
-        this.drawData2Canvas(xPos);
-      }
+    changeColors(type) {
+      this.activeType = type;
+      
+      console.time("processTime");
+
+      const bufferData = new Uint8ClampedArray(this.normalImage.data.length);
+      let cb, newCol;
+
+
+      for (let i = 0; i < this.normalImage.data.length; i += 4) {
+        // if(i==400000){console.time("oneCycle");} 
+        cb = this.colorblindRaw( 'rgb(' + this.normalImage.data[i] + ',' + this.normalImage.data[i+1] + ',' + this.normalImage.data[i+2] + ')', type );
+        
+        // if(i==400000){console.timeEnd("oneCycle");}
+        //newCol = cb.substring(4, cb.length-1).replace(/ /g, '').split(',');
+        
+        bufferData[i]   = cb.R;
+        bufferData[i+1] = cb.G;
+        bufferData[i+2] = cb.B;
+        // bufferData[i]   = newCol[0];
+        // bufferData[i+1] = newCol[1];
+        // bufferData[i+2] = newCol[2];
+        bufferData[i+3] = this.normalImage.data[i+3];
+        
+        // this.cbImage.data[i] = newCol[0];
+        // this.cbImage.data[i+1] = newCol[1];
+        // this.cbImage.data[i+2] = newCol[2];
+        //this.cbImage.data[i+3] = newCol[3];
+       }
+
+      
+      this.cbImage.data.set(bufferData);
+      console.timeEnd("processTime");
+      
+      this.imgStatus = this.activeType.toUpperCase();
     },
     drawData2Canvas(xPos){
       this.juxtPos = xPos;
@@ -200,52 +215,33 @@ export default{
       }
       reader.readAsDataURL(e.target.files[0]);     
     },
-    changeColors(k) {
-      
-      this.activeType = k;
-      
-      console.time("wholeLoop");
-
-    //   for (let i = 0, p = Promise.resolve(); i < 10; i++) {
-    //     p = p.then(_ => new Promise(resolve =>
-    //         setTimeout(function () {
-    //             console.log(i);
-    //             resolve();
-    //         }, Math.random() * 1000)
-    //     ));
-    // }
-      for (let i = 0; i < this.normalImage.data.length; i += 4) {
-        // if(i==0){console.time("oneCycle");} 
-        let rgb = this.colorblind( this.rgb(this.normalImage.data[i], this.normalImage.data[i+1], this.normalImage.data[i+2]), k );
-        // if(i==0){console.timeEnd("oneCycle");}
-        let newCol = rgb.substring(4, rgb.length-1).replace(/ /g, '').split(',');
-        
-        this.cbImage.data[i] = newCol[0];
-        this.cbImage.data[i+1] = newCol[1];
-        this.cbImage.data[i+2] = newCol[2];
-        //this.cbImage.data[i+3] = newCol[3];
+    mouseDrag(e){
+      if(!this.mouseDown){
+        return;
+      } else {
+        if(this.locked){
+          return;
+        } else {
+          let rect = this.juxt.canvas.getBoundingClientRect();
+          let xPos = (e.clientX-rect.left)*(this.imgWidth/rect.width);
+          this.drawData2Canvas(xPos);
+        }
       }
-      console.timeEnd("wholeLoop");
-      console.log(this.normalImage.data.length/4);
-      this.imgStatus = this.activeType.toUpperCase();
+    },
+    mouseClick(e){
+      if(this.locked){
+          return;
+      } else {
+        let rect = this.juxt.canvas.getBoundingClientRect();
+        let xPos = (e.clientX-rect.left)*(this.imgWidth/rect.width);
+        this.drawData2Canvas(xPos);
+      }
     },
     revealed2Width(pos){
       return this.imgWidth/100*pos;
     },
     showMessages(message){
       this.imgStatus = message;
-    },
-    changeColorsProxy(){
-      
-      var _this = this;
-      
-      setTimeout(function(){
-        _this.changeColors( _this.cbType.toLowerCase() );
-        //_this.juxt.ctx.putImageData(_this.cbImage.imageData, 0, 0);
-        _this.drawData2Canvas( _this.juxtPos );
-      }, 500)
-      // this.changeColors(this.cbType.toLowerCase());
-      // this.drawData2Canvas(this.juxtPos);
     },
   },
   mounted() {

@@ -1,4 +1,4 @@
-| padding: var(--base2)
+| padding: 0
 
 <!-- <section>
 
@@ -6,35 +6,82 @@
 
 </section> -->
 
-<div class="grid" style="grid-template-columns: 1fr; padding:var(--base3) var(--base2);">
+<button v-on:click="send('closemenu')">
+  Close menu
+</button>
 
 
+<dl class="cb-menu">
+  
+  <div :class="get('section') == 'cb-explore-cb' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
+    <dt v-on:click="goto('cb-blaa')">Explore color blindness</dt>
+    <dd v-on:click="goto('cb-itten')">How does it affect people</dd>
+    <dd v-on:click="goto('cb-task1')">Photo safari</dd>
+    <dd v-on:click="goto('cb-task1')">Analize images</dd>
+  </div>
+  
+  <div :class="get('section') == 'cb-accessibility' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
+    <dt v-on:click="goto('cb-accessibility')">What is accessibility</dt>
+  </div>
+  
+  <div :class="get('section') == 'cb-the-eye' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
+    <dt v-on:click="() => {send('closemenu', false); goto('cb-the-eye');}">The eye</dt>
+    <dd v-on:click="goto('cb-rods-and-cones')">Rods and cones</dd>
+    <dd v-on:click="goto('cb-color-vision-mapper')">Map your color vision</dd>
+  </div>
+
+  <div :class="get('section') == 'cb-color-mixing' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
+    <dt v-on:click="goto('cb-color-mixing')">Color mixing</dt>
+    <dd v-on:click="goto('cb-brightness')">Additive Color System</dd>
+    <dd v-on:click="goto('cb-saturation')">Mix RGB colors</dd>
+    <dd v-on:click="goto('cb-shampoo')">Task: shampoo colors</dd>
+  </div>
+
+  <div :class="get('section') == 'cb-3-properties' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
+    <dt v-on:click="goto('cb-3-properties')">Three properties of color</dt>
+    <dd v-on:click="goto('cb-brightness')">Brightness</dd>
+    <dd v-on:click="goto('cb-saturation')">Saturation</dd>
+    <dd v-on:click="goto('cb-shampoo')">Task: shampoo colors</dd>
+  </div>
+  
+  <div :class="get('section') == 'cb-contrast-and-harmony' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'" >
+    <dt v-on:click="goto('cb-contrast-and-harmony')">Contrast and harmony</dt>
+    <dd v-on:click="goto('cb-itten')">J. Itten</dd>
+    <dd v-on:click="goto('cb-task1')">Task: guess the contrasts</dd>
+  </div>
+  
+  <div :class="get('section') == 'cb-workshop' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'" >
+    <dt v-on:click="goto('cb-contrast-and-harmony')">Final task</dt>
+    <dd v-on:click="goto('cb-itten')">Design path</dd>
+    <dd v-on:click="goto('cb-task1')">STEM path</dd>
+    <dd v-on:click="goto('cb-task1')">Analize your work</dd>
+  </div>
+  
+</dl>
 
 
-
+<!-- 
 <f-section-card title="Explore color blindness" section="cb-explore-cb">
-<!-- - How does color vision deficiency affects people? -->
 </f-section-card>
 
 
 <f-section-card title="Accessibility" section="cb-accessibility">
-<!-- - What is accessibility -->
 </f-section-card>
 
 
 <f-section-card title="The eye" section="cb-the-eye">
-<!-- - How does the eye work? -->
 </f-section-card>
 
 <f-section-card title="Color mixing" section="cb-color-mixing">
-<!-- - Mix all colors from RED, GREEN and BLUE light -->
 </f-section-card>
 
-<f-section-card title="Contrast and harmony" section="cb-contrast-and-harmony" />
-
-<f-section-card title="Color palettes" section="cb-palettes">
-<!-- - Palettes -->
+<f-section-card title="Contrast and harmony" section="cb-contrast-and-harmony" >
+  <a href="" v-on:click.prevent="goto('cb-itten')">J. Itten</a>
 </f-section-card>
+
+<f-section-card title="Workshop" section="cb-workshop">
+- Final assignment
+</f-section-card> -->
 
 
 <!-- <f-section-card
@@ -42,14 +89,3 @@
   section="test"
   :completed="get('completed')"
 >{{ get('completed') ? 'Test done' : 'Do a test!' }}</f-section-card> -->
-</div>
-
-
-
-<!-- 
-<div class="grid" style="--cols: 1fr 1fr 1fr; --gap: var(--base);">
-        <f-card v-on:click.native="send('goto', 'cbSimulator')" style="border: 0px solid var(--primary); font-weight: normal;" :color="color('white')" :background="color('purple')">Start here</f-card>
-        <f-card v-on:click.native="send('goto', 'cbSafari')"  style="font-weight: normal;" :color="color('yellow')">
-            <h5 style="color: var(--darkgray);">Photo safari</h5>
-        </f-card>
-</div> -->

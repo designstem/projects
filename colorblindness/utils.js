@@ -1,6 +1,13 @@
-import { hsl } from 'https://designstem.github.io/fachwerk/fachwerk.js';
+import { hsl, chroma,
+    colorBlind } from 'https://designstem.github.io/fachwerk/fachwerk.js';
 
-export function colorWheelArcClick(active) {
+
+    // export const colorblindRaw = (color, type = "deuteranomaly") =>
+    // chroma(colorBlind[type](chroma(color).css("rgb"))).css("rgb");
+    export const colorblindRaw = (color, type = "deuteranomaly") =>
+    colorBlind[type](color, true);
+
+    export function colorWheelArcClick(active) {
     this.set('activeColor', active);
 }
 

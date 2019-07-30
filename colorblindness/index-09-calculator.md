@@ -1,4 +1,4 @@
-| section: cb-elaborate-overview
+| section: cb-workshop
 | rows: auto
 | 1 2
 

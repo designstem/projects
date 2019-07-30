@@ -1,27 +1,24 @@
 | section: cb-contrast-and-harmony
-| padding: 0
-| gap: 0
 | rows: auto
 | 1 2
 | 3 2
 
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<!-- <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)"> -->
   
   # Color contrast and harmony
 
-&nbsp;
-  
   ~A single color has an emotional and physical effect, but placing it in context with other colors can alter this effect.~
   
-  ~Designers create contrasting or allied color relationships/palettes to affect the viewer’s impression. They use contrasts and harmonies as stylistic devices.~
+  ~Designers create contrasting or allied color relationships i.e. **palettes** to affect the viewer’s impression. They use contrasts and harmonies as stylistic devices.~
   
-  &nbsp;
+  <blockquote style="background: none;">
+
+  ~“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” <br />*(Johannes Itten)*~
   
-  > ~“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.” <br />*(Johannes Itten)*~
+  </blockquote>
 
-
-</section>
+<!-- </section> -->
 
 -
 
@@ -29,10 +26,8 @@
 
 -
 
-&nbsp;
-<section style=" padding:0 var(--content-padding) var(--content-padding) var(--content-padding)">
-  <f-next-button />
-</section>
+<f-next-button />
+
 
 ---
 
@@ -125,7 +120,7 @@
 
 
 
-
+| id: cb-itten
 | padding: 0
 | gap: 0
 | rows: auto
@@ -164,7 +159,7 @@
 
 -
 
-<section style="padding:0 var(--content-padding) var(--content-padding) var(--content-padding)">
+<section style="padding:var(--base2) var(--content-padding) var(--content-padding) var(--content-padding)">
   <f-next-button />
 </section>
 
@@ -182,7 +177,7 @@
 
 
 
-| id: task1
+| id: cb-task1
 | rows: auto
 | cols: 2fr 3fr
 | 1 1
@@ -327,7 +322,7 @@
 
 
 
-| id: complementary
+| id: cb-wheels
 | theme: dark
 | rows: auto
 | cols: 3fr 2fr
@@ -593,18 +588,18 @@ If possible, discuss your results with someone else.~
 
 <f-next-button style="margin:var(--base4) 0;" />
 
-
-
-
-
-
-
-
-
-
-
-
 ---
+
+
+
+
+
+
+
+
+
+
+
 
 | id: contrast
 | rows: auto
@@ -621,8 +616,6 @@ Given are a headline and a text on a background. Choose the colors for the backg
 If possible, discuss your results with someone.
 
 -
-
-
 
 <f-inline>
 
@@ -674,6 +667,16 @@ If possible, discuss your results with someone.
 
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 
 | rows: auto
@@ -752,7 +755,6 @@ get('activeEl') == 'el3' ? {border : '1px dotted black'} : {border : '1px dotted
 
 
 
-| section: cb-designer
 | gap: 1vmin
 | rows: auto
 
@@ -833,7 +835,6 @@ get('activeEl') == 'el3' ? {border : '1px dotted black'} : {border : '1px dotted
 
 
 
-| section: cb-designer
 | gap: 1vmin
 | rows: auto
 
@@ -996,15 +997,14 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 | rows: auto
 | cols: 2fr 3fr
 | 1 2
-| 1 2
-| 1 2
-| 3 3
+| 3 2
 
- 
+&nbsp;
 
+<!-- ##### Color contrast and harmony -->
+# Tips for creating color palettes
 
-<!-- ##### EXPLAIN -->
-# Color palettes
+&nbsp;
 
 ~Creating color palettes with more than two or three colors takes time and reviewing. You should build it step by step. Here are some rules you can keep in mind when building a color palette:~
 
@@ -1105,7 +1105,6 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 -
 
-<f-next-button />
-
--
-
+<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
+    <f-next-button />
+</div>

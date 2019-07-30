@@ -30,12 +30,15 @@ fachwerk({
   },
   src: [
     "index.md", 
+    "index-05-the-eye.md",
+    "index-06-color-mixing.md",
+    "index-07-3-properties.md",
     "index-08-contrast-and-harmony.md", 
     "index-09-calculator.md", 
     "index-extras.md"
   ],
   theme: "light",
-  editor: "none",
+  editor: "hide",
   pager: true,
   home: false,
   utils:  localutils
