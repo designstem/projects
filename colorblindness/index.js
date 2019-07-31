@@ -30,11 +30,11 @@ fachwerk({
   },
   src: [
     "index.md", 
-    "index-05-the-eye.md",
-    "index-06-color-mixing.md",
-    "index-07-3-properties.md",
-    "index-08-contrast-and-harmony.md", 
-    "index-09-calculator.md", 
+    "index-02-the-eye.md",
+    "index-03-color-mixing.md",
+    "index-04-3-properties.md",
+    "index-05-contrast-and-harmony.md", 
+    "index-06-calculator.md", 
     "index-extras.md"
   ],
   theme: "light",

@@ -2,121 +2,66 @@
 
 ---
 
-
----
-
-
----
-
-RYB wheel
-
-
-
-
-
-<f-scene width="300" height="300" grid>
-  <f-group :rotation="-195">
-  <f-arc
-    v-for="(c,i) in colorscale('yellow','blue', 6)" 
-    :key="c+i"
-    :fill="c"
-    stroke
-    :start-angle="(360 / 12 * i)"
-    :end-angle="(360 / 12 * (i+1))"
-    :r="2"
-    :inner-radius="1"
-  />
-  <f-arc
-    v-for="(c,i) in colorscale('blue','red', 6)" 
-    :key="c+i"
-    :fill="c"
-    stroke
-    :start-angle="(360 / 12 * i + 120)"
-    :end-angle="(360 / 12 * (i+1) + 120)"
-    :r="2"
-    :inner-radius="1"
-  />
-  <f-arc
-    v-for="(c,i) in colorscale('red','yellow', 5)" 
-    :key="c+i"
-    :fill="c"
-    stroke
-    :start-angle="(360 / 12 * i + 120 + 120)"
-    :end-angle="(360 / 12 * (i+1) + 120 + 120)"
-    :r="2"
-    :inner-radius="1"
-  />
-  </f-group>
-</f-scene>
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-
+| theme: dark
+| cols: 3fr 2fr
 
 # RGB Explorer
 
 Commented out temporarily because of heavy CPU usage
 
-<!-- <f-scene3 grid>
-	<f-rotation3>
-  <f-group3 scale="0.5">
-  <f-line3
-  	points="0 0 0, 2 0 0"
-    :stroke="rgb(255,0,0)"
-  />
-  <f-line3
-  	points="0 0 0, 0 2 0"
-    :stroke="rgb(0,255,0)"
-  />
-  <f-line3
-  	points="0 0 0, 0 0 2"
-   :stroke="rgb(0,0,255)"
-  />
-  <f-line3
-  	points="0 0 0, 2 2 0"
-    :stroke="rgb(255,255,0)"
-  />
-  <f-line3
-  	points="0 0 0, 2 0 2"
-    :stroke="rgb(255,0,255)"
-  />
-  <f-line3
-  	points="0 0 0, 0 2 2"
-    :stroke="rgb(0,255,255)"
-  />
-	<f-group3 v-for="r in range(0,2)">
-    <f-group3 v-for="g in range(0,2)">
-      <f-point3
-        v-for="b in range(0,2)"
-        :stroke-width="70"
-        :x="r"
-        :y="g"
-        :z="b"
-        :stroke="rgb(r * 180,g * 180,b * 180)"
-      />
+<!-- <f-scene3 isometric responsive width="600" height="600" webgl>
+	<!-- <f-rotation3 duration="10000"> -->
+  <!-- <f-group3 scale="1" rotation="20 120 20" position="-1.2 -2 -1.2">
+    <f-group3 v-for="r in range(0,5)">
+      <f-group3 v-for="g in range(0,5)">
+        <f-box3
+          v-for="b in range(0,5)"
+          :r="0.4"
+          :position="[r*0.4, g*0.4, b*0.4]"
+          :fill="rgb(r * 60,g * 60,b * 60)"
+          :shading="false"
+        />
+      </f-group3>
+    </f-group3>
+  </f-group3> -->
+  <!-- </f-rotation3> -->
+<!-- </f-scene3> -->
+
+<f-scene3 isometric responsive width="600" height="600" webgl>
+<!-- <f-rotation3 duration="10000"> -->
+  <f-group3 scale="0.75" :rotation="[50, get('cylRot', 0), 0]" :position="[0, 1, 0]">
+  <f-group3 v-for="b in range(0,get('cylB',100)/10)"
+    :position="[0, -5.5 + b * 0.9 , 0 ]"
+    :scale="[1.1 - b*0.1, 1, 1.1 - b*0.1]"
+  >
+  <f-group3 v-for="h in range(0,get('cylH'))">
+      <f-group3 v-if="get('cylB', 100) >= b*10" :rotation="[0, 30*h, 0]">
+        <f-hedron3
+          v-if="get('cylH', 11) >= h"
+          count="4"
+          height="2"
+          r="0.733"
+          rotation="0 180 45"
+          :position="[0, 0, 2]"
+          :fill="hsl(ai2hue(h * 30), 100, 10+b*10)"
+          :stroke="hsl(ai2hue(h * 30), 100, b*10)"
+          :shading="false"
+        />
+      </f-group3>
+    </f-group3>
     </f-group3>
   </f-group3>
-  </f-group3>
-  </f-rotation3>
-</f-scene3>-->
+<!-- </f-rotation3> -->
+</f-scene3>
 
 
+-
 
+<f-slider set="cylB" to="100" title="brightness" value="100"  integer />
 
+<f-slider set="cylH" to="11" title="blah" value="11"  integer />
 
-
-
+<f-slider set="cylRot" to="360" title="Rotate tower" value="0"  integer />
 
 ---
 

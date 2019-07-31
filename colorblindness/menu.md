@@ -6,20 +6,29 @@
 
 </section> -->
 
-<button v-on:click="send('closemenu')">
+<!-- <button v-on:click="send('closemenu')">
   Close menu
-</button>
+</button> -->
 
 
 <dl class="cb-menu">
   
-  <div :class="get('section') == 'cb-explore-cb' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
-    <dt v-on:click="goto('cb-blaa')">Explore color blindness</dt>
-    <dd v-on:click="goto('cb-itten')">How does it affect people</dd>
-    <dd v-on:click="goto('cb-task1')">Photo safari</dd>
-    <dd v-on:click="goto('cb-task1')">Analize images</dd>
+  <div :class="get('section') == 'cb-start' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
+    <dt v-on:click="goto('cb-start')">Start</dt>
   </div>
   
+  <div :class="get('section') == 'cb-explore-cb' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
+    <dt v-on:click="goto('cb-explore-cb')">Understand color blindness</dt>
+    <dd v-on:click="goto('cb-explore-cb')">How does it affect people</dd>
+    <dd v-on:click="goto('cb-safari')">Photo safari</dd>
+    <dd v-on:click="goto('cb-simulate')">Analyze images</dd>
+    <dd v-on:click="goto('cb-analyze')">Analyze results</dd>
+  </div>
+  
+  <div :class="get('section') == 'cb-learning-stations' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
+    <dt v-on:click="goto('cb-learning-stations')">Learning stations</dt>
+  </div>
+
   <div :class="get('section') == 'cb-accessibility' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
     <dt v-on:click="goto('cb-accessibility')">What is accessibility</dt>
   </div>
@@ -48,10 +57,11 @@
     <dt v-on:click="goto('cb-contrast-and-harmony')">Contrast and harmony</dt>
     <dd v-on:click="goto('cb-itten')">J. Itten</dd>
     <dd v-on:click="goto('cb-task1')">Task: guess the contrasts</dd>
+    <dd v-on:click="goto('cb-wheels')">Color palettes</dd>
   </div>
   
   <div :class="get('section') == 'cb-workshop' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'" >
-    <dt v-on:click="goto('cb-contrast-and-harmony')">Final task</dt>
+    <dt v-on:click="goto('cb-workshop')">Final task</dt>
     <dd v-on:click="goto('cb-itten')">Design path</dd>
     <dd v-on:click="goto('cb-task1')">STEM path</dd>
     <dd v-on:click="goto('cb-task1')">Analize your work</dd>

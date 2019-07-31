@@ -1,35 +1,39 @@
 | section: cb-workshop
 | rows: auto
-| 1 2
+| 1 1
+| 2 3
 
 
 <!-- ##### Elaborate Overview  -->
 # Workshop
 
+-
+
 ~Now that you found out about the different topics surrounding designing for colorblind, it's time for some action.
 There are two different paths that you could take for the final task.
 Either you could choose the STEM or the DESIGN focus.~
 
-<mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark>
+<p style="--base:6px;">Should we explain here a bit more about what the "different paths" mean?</p>
 
-#### ~Choose your path:~
-<br>
-<button v-on:click="send('goto', 'workshopSTEM')">STEM path</button>
-<br>
-<button v-on:click="send('goto', 'workshopDESIGN')">DESIGN path</button> 
+<!-- <mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark> -->
 
 -
 
-<mark>
-	Here we need to add a picture.
-</mark>
+#### ~Choose your path:~
+
+<button class="primary" v-on:click="send('goto', 'cb-workshop-stem')">STEM path</button>
+
+<button class="primary" v-on:click="send('goto', 'cb-workshop-design')">DESIGN path</button> 
 
 ---
 
 
 
-| id: workshopSTEM
-| section: elaborate for biology
+
+
+
+
+| id: cb-workshop-stem
 | height: 100vh
 | 1 2
 
@@ -61,19 +65,13 @@ Create a new color scheme for a calculator with white buttons, which is also wor
   <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
 </figure>
 
-
-
-
-
-
 ---
 
 
 
 
 
-| id: workshopDESIGN
-| section: elaborate for design
+| id: cb-workshop-design
 | height: 100vh
 | 1 2
 

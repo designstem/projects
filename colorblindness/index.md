@@ -1,48 +1,25 @@
-
 | section: cb-start
 | theme: dark
+| style: background-position: 50% 50%;
 | background: './images/colorblind-subway.png'
-| tint: 0.9
-| rows: 2fr 1fr 1fr
+| tint: 0.85
+| rows: 1fr 1fr 
 | 1
-| 2
-| 3 
+| 2 
 
 
-<div style="padding-top:20vh;">
+<div style="padding-top:16vh; --base:16px;">
 
-# <big>Colour Vision Deficiency & <br />Accessibility</big>
+# Color Vision Deficiency<br />& Accessi&shy;bility
 
 </div>
 
 -
 
-#### How to design information for people whose colour perception is impaired.
+~How to design information for people whose colour perception is impaired.~
 
--
+<f-next-button title="Let's start" />
 
-<!-- <f-embed src="./menu.md" /> -->
-
-<f-next-button title="Let's start" style="margin: var(--base8) 0;" />
-
-
-
-
-
-
-<!-- <div style="opacity:0.2; margin-top:50vh;">
-<button v-on:click="send('goto', 'cbSimulator')">CB SIMULATOR</button> 
-<button v-on:click="send('goto','3properties')" >3 properties</button> 
-<button v-on:click="send('goto','shampoo')">Shampoo</button>
-<button v-on:click="send('goto','task1')">Task 1</button>
-<button v-on:click="send('goto','complementary')">Color harmonies</button>
-<button v-on:click="send('goto','task2')">Task 2</button>
-<button v-on:click="send('goto','contrast')">Contrast</button>
-<button v-on:click="send('goto','palettes')">Palettes</button>
-</div>
-
-
-</div> -->
 
 
 
@@ -125,8 +102,9 @@ The students’ awareness should be raised for the problems people with color vi
 
 <f-next-button title="Next: go outside!" v-if="get('revealX') > 75" />
 
+
+
 <f-notes>
-  
   <summary>Teachers note</summary>
   
   #### Aim
@@ -135,13 +113,17 @@ The students’ awareness should be raised for the problems people with color vi
 
 </f-notes>
 
-
-
-
-
 ---
 
-| id: cbSafari
+
+
+
+
+
+
+
+
+| id: cb-safari
 | gap: 0
 | padding: 0
 | 1 2
@@ -191,33 +173,9 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
-
-
-
-
-
-
-
-<!-- 
-
- SSSSSS    IIIIIII    M     M    U     U    L           AAAA     TTTTTTT     OOOOO     RRRRRR 
-S             I       M M  MM    U     U    L          A    A       T       O     O    R     R
- SSSSS        I       M  M  M    U     U    L          A    A       T       O     O    R     R
-      S       I       M     M    U     U    L          AAAAAA       T       O     O    RRRRRR 
-SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOOOO     R    R
-
- -->
-
-
-
-
-
-
-
-
 ---
 
-| id: cbSimulator
+| id: cb-simulate
 | rows: auto
 | cols: 2fr 3fr
 | 1 2
@@ -270,14 +228,7 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 ~Find out if any information on your pictures **get lost for colorblind people**. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
 
-
 <f-next-button style="margin:var(--base4) 0" />
-
-
-
-
-
-
 
 ---
 
@@ -289,14 +240,12 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 
 
-
+| id: cb-analyze
 | rows: auto
 | cols: 2fr 3fr
 | 1 1
 | 2 3
 | 4 4
-
-
 
 # Analyze results
 
@@ -314,15 +263,14 @@ SSSSSS     IIIIIII    M     M     UUUUU     LLLLLLL    A    A       T        OOO
 
 <f-next-button />
 
-
-
-
-
-
-
-
 ---
 
+
+
+
+
+
+| section: cb-learning-stations
 | rows: auto
 | 1 1
 | 2 3
@@ -403,16 +351,3 @@ You can work through the stations in the given order which is recommended if you
 -
 
 <f-next-button />
-
-
-
-
-
-
-
-
-
-
-
-
-

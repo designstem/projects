@@ -16,7 +16,7 @@
 
   ~*“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.”*~
   
-  <p style="text-align:right; font-size:small;">&mdash;Johannes Itten</p>
+  <p style="text-align:right; --base:8px;">&mdash;Johannes Itten</p>
 
   </blockquote>
 
@@ -404,25 +404,30 @@
 | id: double-complementary-triadic
 | theme: dark
 | rows: auto
-| 1 1
-| 2 3
-| 4 4
+| cols: 1fr 2fr 2fr
+| 1 1 1
+| 2 3 4
+| 5 5 5
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
 # Double complementary and triadic palettes
 
-~Besides split complementary palettes, there are also **double complementary** and **triadic palettes** which form bold contrasts.~
+-
 
-~Triads with primary colors are garish. You get softer palettes with secondary or tertiary colors. As for double complementary palettes be careful not to use equal volumes of the four colors. This can have a piercing effect.~
+~Besides split comple&shy;mentary palettes, there are also **double comple&shy;mentary** and **triadic palettes** which form bold contrasts.~
 
 -
 
 <ColorPaletteWheel name="DoubleComplementary" />
 
+~As for double comple&shy;mentary palettes be careful not to use equal volumes of the four colors. This can have a piercing effect.~
+
 -
 
 <ColorPaletteWheel name="Triadic" sectors="24" />
+
+~Triads with primary colors are garish. You get softer palettes with secondary or tertiary colors.~
 
 -
 

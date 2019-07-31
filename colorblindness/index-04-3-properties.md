@@ -156,7 +156,7 @@
 
 -
 
-~Here the brightness of each color is reduced to 50%, which means less light for the same hue.~
+~Here the **brightness** of each color is reduced by 50%, which means less light for the same hue.~
 
 ~Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue.~ 
 
@@ -248,7 +248,7 @@
 
 -
 
-~Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means a high degree of pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
+~Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means more pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
 
 ~Describe the different effect low and high saturated colors have, using adjectives.~
 
@@ -324,19 +324,18 @@
 
 | id: cb-shampoo
 | rows: auto
+| cols: 3fr 2fr 1fr
 | 1 1 1
-| 2 3 4
-| 5 5 5
+| 2 3 5
+| 4 4 5
 
 <!-- ##### EXPLAIN -->
 <!-- <f-activity-icon size="large" /> -->
-# Colors for shampoo brand
+# <f-activity-icon size="large" /> Colors for shampoo brand
 
 -
 
 ~Choose a color which could be used as primary color for the following products:~
-
--
 
 1. ~baby shampoo~ 
 2. ~shampoo for men 60+~
@@ -344,11 +343,15 @@
 
 -
 
+### 👈
+
 ~There is one condition: **all three shampoos smell like apples**~ 
 
 -
 
 <f-next-button title="Shampoo color designer" />
+
+-
 
 ---
 
@@ -360,7 +363,7 @@
 | rows: auto
 | 1 1 1
 | 2 3 4
-| 5 5 6
+| 6 5 5
 
 ### Shampoo color designer 
 
@@ -418,4 +421,4 @@
 
 -
 
-<f-next-button style="margin:var(--base4) 0;" />
+<f-next-button />
