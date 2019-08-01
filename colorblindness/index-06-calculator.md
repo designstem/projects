@@ -177,12 +177,12 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 <p style="--base:8px;"><i>Drag the red triangular handlers or click on image to see the difference</i></p>
 
-<ColorblindnessJuxtapose 
-  :imageUrl="'images/colorblind-subway.png'" 
-  :revealed="25" 
-  :locked="false"
-  :cbType="get('cbType', 'protanopia')"
-  style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)"
+<colorblindness-juxtapose 
+    :imageUrl="'images/colorblind-subway.png'" 
+    :revealed="25" 
+    :locked="false"
+    :cbType="get('cbType', 'protanopia')"
+    style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)"
 />
 
 </div>
