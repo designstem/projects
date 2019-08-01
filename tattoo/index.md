@@ -1,8 +1,12 @@
-| background: ./images/model.jpg
-| theme: dark
-| rows: 1fr auto
-| 1 3
-| 2 3
+| rows: 1fr 4fr 1fr
+| style: --primary: white
+| 1 1
+| 2 4
+| 3 4
+
+<Background />
+
+-
 
 # <big><big>Smart Tattoos</big></big>
 
