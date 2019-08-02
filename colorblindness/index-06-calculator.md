@@ -106,12 +106,18 @@ Design a calculator app that works for people with color vision deficiency, but 
   <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
 </figure>
 
+---
 
 
 
 
+
+
+<calculator-designer />
 
 ---
+
+
 
 
 
@@ -240,5 +246,3 @@ You could also start discussions on a meta level, e.g. *Reflect on what you lear
   ~In the first task, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.~
 
 </f-notes>
-
----

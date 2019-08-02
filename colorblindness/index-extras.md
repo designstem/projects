@@ -1,9 +1,4 @@
 
-<calculator-designer />
-
-
-
----
 
 | theme: dark
 | rows: auto

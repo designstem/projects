@@ -161,7 +161,7 @@ export default{
                 v-on:click="activeColor = i; changeColors()">
               </div>
               <a href="#" style="flex:0;margin-top:var(--base);" 
-              v-show="activePalette == -1 && i != 0"
+              v-show="activePalette == -1"
               v-on:click.prevent="activePaletteColor = palette[i].color; activePalette = i;" class="quaternary">Edit</a>
             </div>
           </div>
