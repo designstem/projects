@@ -33,6 +33,11 @@ export default{
       type: Boolean,
       required: false,
       default: true
+    },
+    global: {
+      type: Boolean,
+      required: false,
+      default: true
     }
   },
   data() {
@@ -48,27 +53,24 @@ export default{
             {letter: "H", to:360}, { letter: "S", to:100 }, { letter: "B", to:100 } 
           ],
         },
-      v0: 0,
-      v1: 0,
-      v2: 0,
-      mixerValues: [0, 0, 0]
+      mixerValues: {0:0, 1:0, 2:0}
     }
   },
   mounted(){
     this.values.forEach((v,i) => {
       this.set(this.outputID+(i+1), v);
     });
+    // console.log(this.mixerValues);
   },
   methods: {
     get, set, rgb, hsl, hsb2hsl,
     emitToParent() {
-      console.log('in child: ' + this.mixerValues);
-      this.$emit('getMixerData', this.mixerValues);
+      // console.log("mixerValues inside mixer: " + this.mixerValues);
+      this.$emit('getMixerData', [ this.mixerValues[0], this.mixerValues[1], this.mixerValues[2] ] );
     },
     changeChannelValue(i, value){
-      this.mixerValues[i] = parseFloat(value);
+      this.mixerValues[i] = value;
       this.emitToParent();
-      // console.log(this.mixerValues);
     }
   },
   computed: {
@@ -82,16 +84,15 @@ export default{
       }
     }
   },
-  watch: {
-    mixerValues : {
-      deep: true,
-      handler : function(after, before){
-        console.log('sada');
-        this.emitToParent();
-        this.set(this.outputID, this.mixerValues);
-      }
-    }
-  },
+  // watch: {
+  //   mixerValues : {
+  //     deep: true,
+  //     handler : function(after, before){
+  //       console.log('sada');
+  //       this.set(this.outputID, this.mixerValues);
+  //     }
+  //   }
+  // },
   template: `
   <div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1.5vmax; border-radius:var(--base);">
     <!-- <small style="flex:1"><small>{{colorModel}}({{get('r51',236)}},{{get('g51',95)}},{{get('b51',0)}})</small></small> -->
@@ -103,20 +104,23 @@ export default{
       ></div>
       <div style="flex:1 0 65%">
         <f-slider 
+          v-if="!global"
           v-for="(c,i) in colorModels[colorModel]" 
           :key="'c'+i" 
           :title="c.letter" 
           :to="c.to" 
           v-on:input="changeChannelValue(i, $event)"
+          :value="values[i]"
           integer style="--base:8px;" />
-        <!-- <f-slider 
+        <f-slider 
+          v-if="global"
           v-for="(c,i) in colorModels[colorModel]" 
           :key="'c'+i" 
           :title="c.letter" 
           :to="c.to" 
           v-on:input="set(outputID+(i+1), $event)"
           :value="get(outputID+(i+1))"
-          integer style="--base:8px;" /> -->
+          integer style="--base:8px;" />
       </div>
     </f-inline>
   </div>

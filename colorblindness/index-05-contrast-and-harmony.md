@@ -701,9 +701,9 @@ If possible, discuss your results with someone.
 
 -
 
-<ColorMixer v-show=" get('activeEl', 'el1') == 'el1' " colorModel="HSB" outputID="col1-" key="mixer1" :values="[44, 77, 100]" title="Background color" />
-<ColorMixer v-show=" get('activeEl') == 'el2' "colorModel="HSB" outputID="col2-" key="mixer2" title="Heading color" :values="[44, 77, 77]" />
-<ColorMixer v-show=" get('activeEl') == 'el3' "colorModel="HSB" outputID="col3-" key="mixer3" title="Text color" :values="[44, 77, 50]" />
+<color-mixer v-show=" get('activeEl', 'el1') == 'el1' " colorModel="HSB" outputID="col1-" key="mixer1" :values="[44, 77, 100]" title="Background color" />
+<color-mixer v-show=" get('activeEl') == 'el2' "colorModel="HSB" outputID="col2-" key="mixer2" title="Heading color" :values="[44, 77, 77]" />
+<color-mixer v-show=" get('activeEl') == 'el3' "colorModel="HSB" outputID="col3-" key="mixer3" title="Text color" :values="[44, 77, 50]" />
 
 &nbsp;
 

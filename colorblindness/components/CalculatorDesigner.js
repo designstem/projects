@@ -15,47 +15,47 @@ export default{
       W: 300,
       H: 440,
       keys : [
-        {label:"+TAX", type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"-TAX", type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"GT",   type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"→",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"CA",   type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"CM",   type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"RM",   type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"M-",   type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"M+",   type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"C•CE", type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"7",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"8",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"9",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"%",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"+/–",  type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"4",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"5",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"6",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"×",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"÷",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"1",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"2",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"3",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"",     type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"—",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"0",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"00",   type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"•",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"+",    type:"", active:false, color:[50,3,85], labelCol:'light'},
-        {label:"=",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"+TAX", type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"-TAX", type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"GT",   type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"→",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"CA",   type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"CM",   type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"RM",   type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"M-",   type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"M+",   type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"C•CE", type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"7",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"8",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"9",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"%",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"+/–",  type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"4",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"5",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"6",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"×",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"÷",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"1",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"2",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"3",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"",     type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"—",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"0",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"00",   type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"•",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"+",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
+        {label:"=",    type:"", active:false, palette: 0, color:[50,3,85], labelCol:'light'},
       ],
       palette: [
-        {color:[60,   85, 50], active:false},
-        {color:[120,  60, 60], active:false},
-        {color:[180,  80, 40], active:false},
-        {color:[240,  60, 60], active:false},
-        {color:[300,  60, 60], active:false},
-        {color:[360,  60, 60], active:false},
+        {color:[50,   3,    85], active:false},
+        {color:[0,    100,  50], active:false},
+        {color:[120,  100,  50], active:false},
+        {color:[240,  100,  50], active:false},
+        {color:[50,   3,    85], active:false},
+        {color:[50,   3,    85], active:false},
       ],
       activePalette: -1,
-      activePaletteColor: 0,
+      activePaletteColor: [22,50,50],
       activeColor: 0,
       labelColor: 0
     }
@@ -68,8 +68,12 @@ export default{
     buttY(i){
       return Math.floor(i/5)*(this.W * 0.155);
     },
-    getFill(b){
-      return this.hsl(b.color[0],b.color[1],b.color[2]);
+    getButtonFill(i){
+      // return this.hsl(b.color[0],b.color[1],b.color[2]);
+      return this.hsl(this.palette[this.keys[i].palette].color[0],this.palette[this.keys[i].palette].color[1],this.palette[this.keys[i].palette].color[2]);
+    },
+    getPaletteFill(p){
+      return this.hsl(p.color[0],p.color[1],p.color[2]);
     },
     getLabelFill(b){
       return b.labelCol == 'light' ? this.hsl(0,0,0) : this.hsl(0,0,100); 
@@ -78,8 +82,8 @@ export default{
       let _this = this;
       this.keys.filter(function(key) {
         if(key.active == true){
-          key.color = _this.activeColor;
-          // console.log(_this.activeColor);
+          // key.color = _this.activeColor;
+          key.palette = _this.activeColor;
         };
       });  
     },
@@ -101,7 +105,8 @@ export default{
       this.activePalette = -1;
     },
     getMixerData(value){
-      console.log(value);
+      this.activePaletteColor = value;
+      this.palette[this.activePalette].color = value;
     }
   },
   computed: {
@@ -127,7 +132,7 @@ export default{
               :height="W*0.13" 
               :x="buttX(i)"
               :y="buttY(i)" 
-              :fill="getFill(b)" 
+              :fill="getButtonFill(i)" 
               :stroke="b.active ? hsl(33,9,10) : hsl(33,9,40)"
               :stroke-width="b.active ? 3 : 2" 
               rx="3"
@@ -145,27 +150,26 @@ export default{
       
       <div style="display:grid; grid-template-rows: auto; grid-gap:5vh; position:sticky; top:10vh;">
         <div>
-          <h5>Color palette</h5>
+          <h5>Color palette / <span style="font-size:calc(var(--base) * 1.5)">change the colors</span></h5>
           
           <div style="display:flex; height:12vh; min-height:50px; max-height:200px;">
             <div v-for="(p, i) in palette" 
             v-show="activePalette == -1 || activePalette == i"
             style="flex:1; display:flex; flex-direction:column; align-items:center; " :style="{border: '3px solid transparent'}" >
               <div 
-                :style="{background: getFill(p)}" style="width:100%; align-self:stretch; height: 100%; border-radius:6px; cursor:pointer;"
-                  v-on:click="activeColor = p.color; changeColors()">
+                :style="{background: getPaletteFill(p)}" style="width:100%; align-self:stretch; height: 100%; border-radius:6px; cursor:pointer; border:1px solid var(--gray)"
+                v-on:click="activeColor = i; changeColors()">
               </div>
               <a href="#" style="flex:0;margin-top:var(--base);" 
-              v-show="activePalette == -1"
-              v-on:click.prevent="activePalette = i;" class="quaternary">Edit</a>
+              v-show="activePalette == -1 && i != 0"
+              v-on:click.prevent="activePaletteColor = palette[i].color; activePalette = i;" class="quaternary">Edit</a>
             </div>
           </div>
           
-          <div v-if="activePalette >= 0">
-            <color-mixer colorModel="HSL" outputID="calcMixer-" key="calcMixer" :values="palette[activePalette].color" :preview="false"
-            v-on:getMixerData="getMixerData" />
-            <a href="#" v-on:click="activePalette = -1" class="quaternary">close mixer</a>
-            HSL( {{ get('calcMixer-1') }}, {{ get('calcMixer-2') }}, {{ get('calcMixer-3') }} )
+          <div v-if="activePalette >= 0" style="display:flex; flex-direction:column;align-items:center;">
+            <color-mixer colorModel="HSL" outputID="calcMixer-" key="calcMixer" :values="activePaletteColor" :preview="false"
+            v-on:getMixerData="getMixerData" :global="false" style="width:100%;" />
+            <a href="#" v-on:click="activePalette = -1" class="tertiary">DONE</a>
           </div>
           
         </div>
@@ -175,7 +179,7 @@ export default{
         </div>
   
         <div>
-          <a href="#" v-on:click="deselectAll()" class="tertiary">deselect all</a><br /><span style="font-size:var(--base);">(OR press <b>alt+d</b> on keyboard)</span>
+          <a href="#" v-on:click="deselectAll()" class="tertiary">deselect all</a><br /><span style="font-size:calc(var(--base) * 1.25);">(OR press <b>alt+d</b> on keyboard)</span>
           <f-keyboard
             alt
             character="d"
