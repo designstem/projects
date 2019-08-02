@@ -13,49 +13,51 @@ export default{
   data() {
     return {
       W: 300,
-      H: 500,
+      H: 440,
       keys : [
-        {label:"+TAX", type:"", editable:false, color:[50,3,85]},
-        {label:"-TAX", type:"", editable:false, color:[50,3,85]},
-        {label:"GT",   type:"", editable:false, color:[50,3,85]},
-        {label:"→",    type:"", editable:false, color:[50,3,85]},
-        {label:"CA",   type:"", editable:false, color:[50,3,85]},
-        {label:"CM",   type:"", editable:false, color:[50,3,85]},
-        {label:"RM",   type:"", editable:false, color:[50,3,85]},
-        {label:"M-",   type:"", editable:false, color:[50,3,85]},
-        {label:"M+",   type:"", editable:false, color:[50,3,85]},
-        {label:"C•CE", type:"", editable:false, color:[50,3,85]},
-        {label:"7",    type:"", editable:false, color:[50,3,85]},
-        {label:"8",    type:"", editable:false, color:[50,3,85]},
-        {label:"9",    type:"", editable:false, color:[50,3,85]},
-        {label:"%",    type:"", editable:false, color:[50,3,85]},
-        {label:"+/–",  type:"", editable:false, color:[50,3,85]},
-        {label:"4",    type:"", editable:false, color:[50,3,85]},
-        {label:"5",    type:"", editable:false, color:[50,3,85]},
-        {label:"6",    type:"", editable:false, color:[50,3,85]},
-        {label:"×",    type:"", editable:false, color:[50,3,85]},
-        {label:"÷",    type:"", editable:false, color:[50,3,85]},
-        {label:"1",    type:"", editable:false, color:[50,3,85]},
-        {label:"2",    type:"", editable:false, color:[50,3,85]},
-        {label:"3",    type:"", editable:false, color:[50,3,85]},
-        {label:"",     type:"", editable:false, color:[50,3,85]},
-        {label:"—",    type:"", editable:false, color:[50,3,85]},
-        {label:"0",    type:"", editable:false, color:[50,3,85]},
-        {label:"00",   type:"", editable:false, color:[50,3,85]},
-        {label:"•",    type:"", editable:false, color:[50,3,85]},
-        {label:"+",    type:"", editable:false, color:[50,3,85]},
-        {label:"=",    type:"", editable:false, color:[50,3,85]},
+        {label:"+TAX", type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"-TAX", type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"GT",   type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"→",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"CA",   type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"CM",   type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"RM",   type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"M-",   type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"M+",   type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"C•CE", type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"7",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"8",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"9",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"%",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"+/–",  type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"4",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"5",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"6",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"×",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"÷",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"1",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"2",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"3",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"",     type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"—",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"0",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"00",   type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"•",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"+",    type:"", active:false, color:[50,3,85], labelCol:'light'},
+        {label:"=",    type:"", active:false, color:[50,3,85], labelCol:'light'},
       ],
       palette: [
-        {color:[60,   85, 50]},
-        {color:[120,  60, 60]},
-        {color:[180,  80, 40]},
-        {color:[240,  60, 60]},
-        {color:[300,  60, 60]},
-        {color:[360,  60, 60]},
+        {color:[60,   85, 50], active:false},
+        {color:[120,  60, 60], active:false},
+        {color:[180,  80, 40], active:false},
+        {color:[240,  60, 60], active:false},
+        {color:[300,  60, 60], active:false},
+        {color:[360,  60, 60], active:false},
       ],
-      paletteEdit: 0,
-      activeColor: 0
+      activePalette: -1,
+      activePaletteColor: 0,
+      activeColor: 0,
+      labelColor: 0
     }
   },
   methods: {
@@ -69,15 +71,37 @@ export default{
     getFill(b){
       return this.hsl(b.color[0],b.color[1],b.color[2]);
     },
+    getLabelFill(b){
+      return b.labelCol == 'light' ? this.hsl(0,0,0) : this.hsl(0,0,100); 
+    },
     changeColors(){
       let _this = this;
       this.keys.filter(function(key) {
-        if(key.editable == true){
+        if(key.active == true){
           key.color = _this.activeColor;
-          console.log(_this.activeColor);
+          // console.log(_this.activeColor);
         };
-        
       });  
+    },
+    changeLabelColors(){
+      let _this = this;
+      this.keys.filter(function(key) {
+        if(key.active == true){
+          key.labelCol == 'dark' ? key.labelCol = 'light' : key.labelCol = 'dark';
+          _this.getLabelFill(key);
+        };
+      });  
+    },
+    deselectAll(){
+      this.keys.filter(function(key) {
+        key.active = false;
+      });  
+    },
+    closeMixer(){
+      this.activePalette = -1;
+    },
+    getMixerData(value){
+      console.log(value);
     }
   },
   computed: {
@@ -86,7 +110,7 @@ export default{
   template: `
   <div style="display:grid; grid-template-columns: 1fr 1fr; grid-gap:var(--content-gap);">
     <div>
-      <f-artboard width="300" height="500" responsive id="calculator-design" download>
+      <f-artboard width="300" height="440" responsive id="calculator-design" download>
         <f-group>
           <rect width="100%" height="100%" rx="10" :fill="hsl(33,9,55)" />
           
@@ -96,37 +120,69 @@ export default{
             :fill="hsl(77,11,25)" :stroke="color('white')" 
           />
   
-          <g v-for="(b,i) in keys" transform="translate(30,200)"
-            v-on:click="b.editable = !b.editable">
+          <g v-for="(b,i) in keys" transform="translate(30,140)"
+            v-on:click="b.active = !b.active">
             <rect 
               :width="W*0.13" 
               :height="W*0.13" 
               :x="buttX(i)"
               :y="buttY(i)" 
               :fill="getFill(b)" 
-              :stroke="b.editable ? hsl(33,9,10) : hsl(33,9,40)"
-              :stroke-width="b.editable ? 3 : 2" 
+              :stroke="b.active ? hsl(33,9,10) : hsl(33,9,40)"
+              :stroke-width="b.active ? 3 : 2" 
               rx="3"
               style="cursor:pointer;" 
             />
-            <text :x="buttX(i)+18" :y="buttY(i)+20" dominant-baseline="middle" text-anchor="middle" letter-spacing="-1">{{b.label}}</text>
+            <text :x="buttX(i)+18" :y="buttY(i)+20" 
+            :fill="getLabelFill(b)"
+            :style="{fill:getLabelFill(b)}"
+            dominant-baseline="middle" text-anchor="middle" letter-spacing="-1">{{b.label}}</text>
           </g>
         </f-group>
         </f-artboard>
     </div>
     <div>
-
-      <h5>Color palette</h5>
-      <div style="display:flex; height:12vh; min-height:50px; max-height:200px;">
-        <div v-for="(p, i) in palette" style="flex:1; display:flex; flex-direction:column; align-items:center; " :style="{border: '3px solid transparent'}" >
-          <div 
-            :style="{background: getFill(p)}" style="width:100%; align-self:stretch; height: 100%; border-radius:6px; cursor:pointer;"
-            v-on:click="activeColor = p.color; changeColors()">
+      
+      <div style="display:grid; grid-template-rows: auto; grid-gap:5vh; position:sticky; top:10vh;">
+        <div>
+          <h5>Color palette</h5>
+          
+          <div style="display:flex; height:12vh; min-height:50px; max-height:200px;">
+            <div v-for="(p, i) in palette" 
+            v-show="activePalette == -1 || activePalette == i"
+            style="flex:1; display:flex; flex-direction:column; align-items:center; " :style="{border: '3px solid transparent'}" >
+              <div 
+                :style="{background: getFill(p)}" style="width:100%; align-self:stretch; height: 100%; border-radius:6px; cursor:pointer;"
+                  v-on:click="activeColor = p.color; changeColors()">
+              </div>
+              <a href="#" style="flex:0;margin-top:var(--base);" 
+              v-show="activePalette == -1"
+              v-on:click.prevent="activePalette = i;" class="quaternary">Edit</a>
+            </div>
           </div>
-          <a href="#" style="flex:0;margin-top:var(--base);" v-on:click.prevent="paletteEdit = i" class="quaternary">Edit</a>
+          
+          <div v-if="activePalette >= 0">
+            <color-mixer colorModel="HSL" outputID="calcMixer-" key="calcMixer" :values="palette[activePalette].color" :preview="false"
+            v-on:getMixerData="getMixerData" />
+            <a href="#" v-on:click="activePalette = -1" class="quaternary">close mixer</a>
+            HSL( {{ get('calcMixer-1') }}, {{ get('calcMixer-2') }}, {{ get('calcMixer-3') }} )
+          </div>
+          
+        </div>
+  
+        <div>
+          <f-toggle title="Swap label color (dark/light)" v-on:click.native="changeLabelColors()" style="cursor:pointer" />
+        </div>
+  
+        <div>
+          <a href="#" v-on:click="deselectAll()" class="tertiary">deselect all</a><br /><span style="font-size:var(--base);">(OR press <b>alt+d</b> on keyboard)</span>
+          <f-keyboard
+            alt
+            character="d"
+            v-on:keydown="deselectAll(); closeMixer();"
+          />
         </div>
       </div>
-      <!-- {{palette[activeColor].color}} -->
 
     </div>
 
@@ -135,9 +191,9 @@ export default{
   css: `
   .f-svg text {
     font-size: calc(var(--text-size) * 1.2) !important;
-    font-weight: bold;
+    font-weight: 500;
     font-family: var(--font-mono) monospace;
-    mix-blend-mode: multiply;
+    mix-blend-mode: normal;
   }
   `
 };
