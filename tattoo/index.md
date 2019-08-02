@@ -16,7 +16,7 @@
 
 <f-next-button title="Start" />
 
-<f-notes>
+---
 
 ### Learning goals
 
@@ -26,55 +26,101 @@
 
 * To learn about concepts in skin biology, indicator chemistry and icon design
 
-</f-notes>
-
 ---
 
 | rows: auto 1fr
-| 1 1 1
-| 2 3 4
+| padding: 0
+| 1 2
+| 1 2
 
-
-
-<f-icon-heading>Class activity</f-icon-heading>
-
-# Warming up with a pair
-
--
-
-<big><span class="bullet">1</span>"Tattoo" what you soon hear by gently tapping images to your partner’s back.</big>
-
--
-
-<big><span class="bullet">2</span>Take a pen and paper. One of you writes than words that a designer might use to talk about tattoos. The other one writes down words that a scientist might use. Tap these images to your partners back. See if you can guess the words.</big>
-
--
-
-<big><span class="bullet">3</span>Discuss with a pair: what kind of concepts are easy to “guess” from limited information</big>
-
----
-
-| rows: auto 1fr
-| 1 1
-| 2 3
+<section style="padding:var(--content-padding);">
 
 # What is smart tattoo?
-
--
 
 ~Tattoos have been around since ancient times.~
 
 ~They are done by punctuating the skin with a needle that injects ink under the skin.~
 
-~Now MIT-research group has suggested that some inks can be used to create smart tattoo’s that provide useful information for example about hydration, sugar and pH-levels.~
+~Now MIT-research group has suggested that some inks can be used to create smart tattoo’s that provide useful information about **hydration, sugar and pH-levels**.~
+
+<big>Work in a pair and design a "smart" tattoo<big>
+
+</section>
 
 -
 
-~The MIT-researchers used inks that functioned as indicators.~
+<f-image src="images/art-artist-drawing-1304469.jpg" />
 
-~Indicators are chemical substances that change color according to changes in surrounding chemical concentrations.~
 
-~In order to design a smart tattoo you need to figure out what type of biological substance you want to observe!~
+---
+
+| rows: auto 1fr
+| padding: 0
+| 1 2
+| 1 2
+
+<section style="padding:var(--content-padding);">
+
+
+
+<f-icon-heading></f-icon-heading>
+# Warming up
+
+~Tattooing is all about drawing images on the skin. These images are not always easy to recognize~
+
+<span class="bullet">1</span> Find a partner
+
+<span class="bullet">2</span> Select a concept and "tattoo" it to your partner’s back by gently tapping with a finger
+
+<span class="bullet">3</span> Try to guess the concept tattooed in your/your partner's back
+
+<span class="bullet">4</span> Discuss: what kind of concepts are easy to “guess” from limited information
+
+</section>
+
+-
+
+<f-image style="background-position: 40%" src="images/bags-best-friends-daylight-1516440.jpg" />
+
+---
+
+<center style="flex-direction: column">
+
+# 🧪
+
+## What to measure? 
+The MIT-researchers used inks that functioned as indicators. 
+Indicators are substances that provide useful information about their environment.
+For example, information about acids and bases.
+
+</center>
+
+---
+
+| rows: auto 1fr
+| 1 2
+
+# Acids and bases
+
+The acids and bases can be understood through the concentration of hydrogen-ion <f-math inline blue>(H+)</f-math> in a solution.
+
+The acid level is measured with pH-scale (pH originally comes from the power of hydrogen).
+
+pH-scale governed by the equation <f-math inline>pH = -log[H+]</f-math>
+
+&nbsp;
+
+<f-slider set="ph" :to=14 integer title="ph: "  />
+
+&nbsp;
+
+*Move the bar to explore the pH-scale. Talk with a friend: What is the pH-range that you would need to consider with tattoos?*
+
+-
+
+INTERACTIVE stuFF
+{{ get('ph') }}
+
 
 ---
 
@@ -88,15 +134,15 @@
 
 -
 
-<big><span class="bullet">1</span>Discuss with your pair what substances exist in human body and how do these influence human health.</big>
+<big><span class="bullet">1</span> Discuss with your pair what substances exist in human body and how do these influence human health.</big>
 
 -
 
-<big><span class="bullet">2</span>Choose which one you want to measure and why.</big>
+<big><span class="bullet">2</span> Choose which one you want to measure and why.</big>
 
 -
 
-<big><span class="bullet">3</span>When you have decided open a paint and draw a quick black and white icon of what you want to measure.   
+<big><span class="bullet">3</span> When you have decided open a paint and draw a quick black and white icon of what you want to measure.   
 
 Visit the icon designer to learn more about icons and make adjustments to your icon if necessary.</big>
 
@@ -114,15 +160,15 @@ Visit the icon designer to learn more about icons and make adjustments to your i
 
 -
 
-<big><span class="bullet">1</span>There are biological and chemical factors that you might want to take into account in your smart tattoo design.</big>
+<big><span class="bullet">1</span> There are biological and chemical factors that you might want to take into account in your smart tattoo design.</big>
 
 -
 
-<big><span class="bullet">2</span>Compare the word lists you wrote  earlier and tape them into each other. Think and draw the possible connections between these words.</big>
+<big><span class="bullet">2</span> Compare the word lists you wrote  earlier and tape them into each other. Think and draw the possible connections between these words.</big>
 
 -
 
-<big><span class="bullet">3</span>Test your design in smart tattoo simulator to explore further connections. Write these down as well.</big>
+<big><span class="bullet">3</span> Test your design in smart tattoo simulator to explore further connections. Write these down as well.</big>
 
 <f-next-button title="Go to the simulator" />
 

@@ -1,4 +1,7 @@
+import { Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
+
 export default {
+  mixins: [Css],
   template: `
     <div
       style="
@@ -23,13 +26,12 @@ export default {
   `,
   css: `
     .blink {
-      animation: pulse 5s infinite;
-      background-color: yellow;
+      animation: pulse 5s infinite alternate;
     }
     
     @keyframes pulse {
       0% {
-        opacity: .3;
+        opacity: .1;
       }
       100% {
         opacity: 1
