@@ -1,13 +1,21 @@
 
+<calculator-designer />
+
+
 
 ---
 
 | theme: dark
+| rows: auto
 | cols: 3fr 2fr
+| 1 1
+| 2 3
 
 # RGB Explorer
 
-Commented out temporarily because of heavy CPU usage
+-
+
+<!-- Commented out temporarily because of heavy CPU usage -->
 
 <!-- <f-scene3 isometric responsive width="600" height="600" webgl>
 	<!-- <f-rotation3 duration="10000"> -->
@@ -30,17 +38,18 @@ Commented out temporarily because of heavy CPU usage
 <f-scene3 isometric responsive width="600" height="600" webgl>
 <!-- <f-rotation3 duration="10000"> -->
   <f-group3 scale="0.75" :rotation="[50, get('cylRot', 0), 0]" :position="[0, 1, 0]">
-  <f-group3 v-for="b in range(0,get('cylB',100)/10)"
+  <f-group3 v-for="b in range(0,(get('cylB',100)/10)-1)"
+    :key="'b'+b"
     :position="[0, -5.5 + b * 0.9 , 0 ]"
-    :scale="[1.1 - b*0.1, 1, 1.1 - b*0.1]"
+    :scale="[1.4 - b*0.13, 0.4, 1.4 - b*0.13]"
   >
-  <f-group3 v-for="h in range(0,get('cylH'))">
-      <f-group3 v-if="get('cylB', 100) >= b*10" :rotation="[0, 30*h, 0]">
+  <f-group3 v-for="h in range(0,get('cylH'))" :key="'h'+h">
+      <f-group3 v-if="get('cylB', 100) >= b*10"  :rotation="[0, 30*h, 0]">
         <f-hedron3
           v-if="get('cylH', 11) >= h"
           count="4"
           height="2"
-          r="0.733"
+          r="0.75"
           rotation="0 180 45"
           :position="[0, 0, 2]"
           :fill="hsl(ai2hue(h * 30), 100, 10+b*10)"
@@ -54,14 +63,45 @@ Commented out temporarily because of heavy CPU usage
 <!-- </f-rotation3> -->
 </f-scene3>
 
+<f-scene3 isometric responsive width="500" height="500" webgl  >
+  <f-group3 scale="0.6" :rotation="[30, get('cylRot', 0), 0]" :position="[0, 0.7, 0]">
+  <f-group3 v-for="b in range(0,(get('cylB',100)/10)-1)"
+    :key="'b'+b"
+    :position="[0, -5.5 + b * 0.9 , 0 ]"
+    scale="1, 1, 1"
+  >
+  <f-group3 v-for="h in range(0,get('cylH'))" :key="'h'+h">
+      <f-group3 v-if="get('cylB', 100) >= b*10"  :rotation="[0, 30*h, 0]">
+        <f-polygon3
+          v-if="get('cylH', 11) >= h"
+          points="-1 1, -1 -1, 1 -1, 1 1"
+          rotation="0 0 0"
+          :position="[0, 0, 2.5]"
+          scale="0.66 0.45 1"
+          :fill="hsl(ai2hue(h * 30), 100, 10+b*10)"
+          :stroke="hsl(ai2hue(h * 30), 100, b*10)"
+          :shading="false"
+        />
+      </f-group3>
+    </f-group3>
+    </f-group3>
+  </f-group3>
+</f-scene3>
+
 
 -
 
-<f-slider set="cylB" to="100" title="brightness" value="100"  integer />
+<div style="position:sticky; top:15vh;">
+  <f-slider set="cylB" from="10" to="100" title="brightness" value="100"  integer />
+  
+  <!-- <f-slider set="cylS" to="100" title="saturation" value="20" integer /> -->
+  
+  <f-slider set="cylH" to="11" title="blah" value="11"  integer />
+  
+  <f-slider set="cylRot" to="360" title="Rotate tower" value="0"  integer />
+</div>
 
-<f-slider set="cylH" to="11" title="blah" value="11"  integer />
 
-<f-slider set="cylRot" to="360" title="Rotate tower" value="0"  integer />
 
 ---
 
