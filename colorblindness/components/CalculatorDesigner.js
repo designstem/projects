@@ -113,11 +113,11 @@ export default{
     
   },
   template: `
-  <div style="display:grid; grid-template-columns: 1fr 1fr; grid-gap:var(--content-gap);">
-    <div>
-      <f-artboard width="300" height="440" responsive id="calculator-design" download>
+  <div class="cells fit" style="grid-template-columns: 1fr 1fr; grid-gap:var(--content-gap);">
+    <div class="cell">
+      <f-artboard width="300" height="440" responsive id="calculator-design">
         <f-group>
-          <rect width="100%" height="100%" rx="10" :fill="hsl(33,9,55)" />
+          <rect width="100%" height="100%" rx="10" :fill="hsl(33,5,70)" />
           
           <rect x="50%" y="4%" width="27%" height="4.5%" rx="2" :fill="hsl(22, 39, 14)" :stroke="color('white')" />
           <rect 
@@ -146,7 +146,7 @@ export default{
         </f-group>
         </f-artboard>
     </div>
-    <div>
+    <div class="cell">
       
       <div style="display:grid; grid-template-rows: auto; grid-gap:5vh; position:sticky; top:10vh;">
         <div>

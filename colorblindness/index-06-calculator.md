@@ -34,79 +34,100 @@ Either you could choose the STEM or the DESIGN focus.~
 
 
 | id: cb-workshop-stem
-| height: 100vh
-| 1 2
-
-
+| rows: auto
+| 1 1
+| 2 3
+| 4 3
 
 <!-- ##### Elaborate STEM students -->
 # Workshop STEM
 
-<f-hr style="margin:var(--base6) 0" />
+-
 
 ~Congratulations! You chose the STEM path and this is your quest:
 Create a new color scheme for a calculator with white buttons, which is also works for people with color vision deficiency.~
 
-<br>
+<br />
 
-1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?
-2. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
-3. **Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](https://www.google.de).
+1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?~
+2. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
+3. ~**Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](https://www.google.de).~
 
-<br>
+<br />
 
-<mark> Here we need to add a picture of the calculator.</mark>
+<!-- <mark> Here we need to add a picture of the calculator.</mark> -->
 <mark> We need to add a link to a pdf with the calculator in task no. 3 - Link is now to google (color-me-in-sheet).</mark>
 
 -
-### This is the model calculator:
 
-<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+<figure style="width:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
   <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
+  <figcaption>
+  
+  *This is the model calculator*
+  
+  </figcaption>
 </figure>
 
+-
+
+<f-next-button />
+
 ---
+
+
+
 
 
 
 
 
 | id: cb-workshop-design
-| height: 100vh
-| 1 2
+| rows: auto
+| 1 1
+| 2 3
+| 4 3
 
 
 
 <!-- ##### Elaborate DESIGN students -->
 # Workshop DESIGN
 
-<f-hr style="margin:var(--base6) 0" />
+-
 
 ~Congratulations! You chose the DESIGN path and this is your quest:
 Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.~
 
-<br>
+<br />
 
-1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often?  How many colors would you need for your color scheme?
-2. **Target group**: Think about who will use it. What is most important to them? How does that affect your design?
-3. **Layout**: Scribble a layout for your calculator app. Use the calculator displayed here as a reference.
-4. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
-5. **Mockup**: Make a mockup of your design in a graphic program and apply your color scheme to it.
+1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many colors would you need for your color scheme?~
+2. ~**Target group**: Think about who will use it. What is most important to them? How does that affect your design?~
+3. ~**Layout**: Scribble a layout for your calculator app. Use the calculator displayed here as a reference.~
+4. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
+5. ~**Mockup**: Make a mockup of your design in a graphic program and apply your color scheme to it.~
 
-<br>
+<br />
 
-<mark> Here we need to add a picture of the calculator.</mark>
+<!-- <mark> Here we need to add a picture of the calculator.</mark> -->
 <mark> We need to add a link to a pdf with the calculator (color-me-in-sheet).</mark>
 
 -
 
-### This is the model calculator:
-
-<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
+<figure style="width:100%; display:flex; justify-content:center; flex-direction:column; align-items: center; margin: 0; position:sticky; top:15vh;">
   <img src="./images/color_blindness_accessibility_white_calculator.jpg" />
+  <figcaption>This is the model calculator</figcaption>
 </figure>
 
+-
+
+<f-next-button />
+
 ---
+
+
+
+
+
 
 
 
