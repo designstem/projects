@@ -11,10 +11,10 @@
 </button> -->
 
 
-<dl class="cb-menu">
+<dl class="cb-menu" style="cursor:default;">
   
   <div :class="get('section') == 'cb-start' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
-    <dt v-on:click="goto('cb-start')">Start</dt>
+    <dt v-on:click.self="send('closemenu'); goto('cb-start')">Start</dt>
   </div>
   
   <div :class="get('section') == 'cb-explore-cb' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'">
@@ -62,9 +62,9 @@
   
   <div :class="get('section') == 'cb-workshop' ? ['cb-menu__section', 'cb-menu__section--active'] : 'cb-menu__section'" >
     <dt v-on:click="goto('cb-workshop')">Final task</dt>
-    <dd v-on:click="goto('cb-itten')">Design path</dd>
-    <dd v-on:click="goto('cb-task1')">STEM path</dd>
-    <dd v-on:click="goto('cb-task1')">Analize your work</dd>
+    <dd v-on:click="goto('cb-workshop-stem')">STEM path</dd>
+    <dd v-on:click="goto('cb-workshop-design')">Design path</dd>
+    <dd v-on:click="goto('cb-workshop-test')">Analyze your work</dd>
   </div>
   
 </dl>

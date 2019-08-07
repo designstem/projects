@@ -150,42 +150,39 @@ EVALUATE PHASE
 
 
 
-| height: 100vh
-| id: cbSimulator2
-| 1 1 2 2 2
-| 3 3 2 2 2
+| rows: auto
+| id: cb-workshop-test
+| 1 2
+| 3 2
 
 
 
 <!-- ##### Evaluate testing  -->
-# TEST YOUR DESIGN
+# Test your design
 
-<f-hr style="margin:var(--base6) 0" />
+<br />
 
 ~Lets see how well your design works for people with color vision deficiency.
 Upload your picture into the CVD-simulator and check whether it works.~
 
-<p />
-
-<f-card :title="get('cbType', 'protanopia') == 'protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType', 'protanopia') == 'protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'protanopia')">
+<f-card :title="get('cbType', 'protanopia') == 'protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType', 'protanopia') == 'protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'protanopia')">
 
 <p v-if="get('cbType', 'protanopia') == 'protanopia'" style="font-size:100%;">reduced sensitivity to <b>RED</b> light</p>
 
 </f-card>
 
-<f-card :title="get('cbType') == 'deuteranopia' ? 'Simulating Deuteranopia 👉' : 'Simulate Deuteranopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'deuteranopia')" >
+<f-card :title="get('cbType') == 'deuteranopia' ? 'Simulating Deuteranopia 👉' : 'Simulate Deuteranopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType') == 'deuteranopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'deuteranopia')" >
 
 <p v-if="get('cbType') == 'deuteranopia'" style="font-size:100%;">reduced sensitivity to <b>GREEN</b> light</p>
 
 </f-card>
 
-<f-card :title="get('cbType') == 'tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5);" :style="get('cbType') == 'tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'tritanopia')">
+<f-card :title="get('cbType') == 'tritanopia' ? ' 👉 Simulating Tritanopia' : 'Simulate Tritanopia'" background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType') == 'tritanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'tritanopia')">
 
 <p v-if="get('cbType') == 'tritanopia'" style="font-size:100%">reduced sensitivity to <b>BLUE</b> light</p>
 
 </f-card>
 
-<p />
 
 <br>
 
@@ -194,13 +191,9 @@ Upload your picture into the CVD-simulator and check whether it works.~
 3. Present your design in class and be ready to explain your choices.
 
 
-<f-next-button style="margin:var(--base4) 0" />
-
-
-
 -
 
-<div style=" position:sticky; top:var(--content-padding)">
+<div style=" position:sticky; top:15vh;">
 
 <p style="--base:8px;"><i>Drag the red triangular handlers or click on image to see the difference</i></p>
 
@@ -214,23 +207,30 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 </div>
 
-
+-
 
 <f-notes>
+<summary>Teachers notes</summary>
   
-  <summary>Teachers notes</summary>
-  
-  ### Aim. 
-  ~In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.
-  <br>
-You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*~
+### Aim. 
+
+~In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.~
+
+~You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*~
 
 </f-notes>
 
-
-
+<f-next-button style="margin:var(--base4) 0" />
 
 ---
+
+
+
+
+
+
+
+
 
 | section: evaluate
 | height: 100vh

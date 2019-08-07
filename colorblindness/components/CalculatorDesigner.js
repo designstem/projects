@@ -151,7 +151,7 @@ export default{
       <div style="display:grid; grid-template-rows: auto; grid-gap:5vh; position:sticky; top:10vh;">
         <div>
           <h5>Color palette / <span style="font-size:calc(var(--base) * 1.5)">change the colors</span></h5>
-          
+        
           <div style="display:flex; height:12vh; min-height:50px; max-height:200px;">
             <div v-for="(p, i) in palette" 
             v-show="activePalette == -1 || activePalette == i"
