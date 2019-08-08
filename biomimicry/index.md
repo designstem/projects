@@ -1,13 +1,25 @@
 | section: start
+| theme: dark
+| background: ./images/01-biomimicry-start.jpg
+| tint: 0.65
+| style: background-position:50% 70%
 | rows: auto
 | 1
 | 2
+| 3
 
-# Biomimicry
+
 
 -
 
-### The importance of mimicry and minimal use of energy, plus the idea of continuous repetition
+<h1 style="--base: 24px">
+  Bio&shy;mimicry
+</h1>
+
+#### The importance of mimicry and minimal use of energy, 
+plus the idea of continuous repetition
+
+-
 
 
 ---
@@ -26,7 +38,7 @@
 
 -
 
-<div style="padding:76.19% 0 0 0;position:relative; "><iframe src="https://player.vimeo.com/video/111437252" style="position:absolute;top:0;left:0;width:100%;height:100%; max-width:1024px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<div style="padding:76.19% 0 0 0;position:relative; "><iframe src="https://player.vimeo.com/video/111437252?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%; max-width:1024px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 -
 
@@ -58,7 +70,7 @@
 ~On a wall-size scale we felt it was important to work with a complex material. We wanted to create a sort of lace pattern on a huge scale, a surface as complex as a leafy tree but as unified as camouflage.~
 ~The algae work like the leaves of a tree, dappling the light. Just like leaves they stop the light here and there. Naturally their changing density offers different type of light, from the very shaded to the light caress of the almost non-existent shadow.~
 
-<a href="http://www.bouroullec.com/?p=82" target="_blank">See more</a>
+<a href="http://www.bouroullec.com/?p=82" target="_blank">See the project</a>
 
 -
 
@@ -80,17 +92,36 @@
 
 
 
+| rows: auto
+| cols: 2fr 1fr 2fr
+| 1 1 4
+| 3 2 2
 
-# Engage
 
-      image
 
-https://vimeo.com/3745240
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/3745240?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
-"In any graduation,  one ought to move from the rigid structure of forms modulations, to organic forms ... one can not understand the visible world only through geometry: a large part of it is organic, and we must seek to understand this too, as far as our capacities are concerned. “
-Bruno Munari
+-
+
+<blockquote style="background: none;">
+
+  ~"In any graduation, one ought to move from the rigid structure of forms modulations, to organic forms... one can not understand the visible world only through geometry: a large part of it is organic, and we must seek to understand this too, as far as our capacities are concerned.“~
+
+  <span class="cite">Bruno Munari</span>
+
+</blockquote>
+
+<f-next-button />
+
+-
+
+-
+
 
 ---
+
+
+
 
 
 
@@ -126,29 +157,62 @@ Bruno Munari
 
 
 
+| rows: auto
+| cols: 2fr 3fr
+| 1 1
+| 3 2
 
 
+<div style="display:flex; margin: 0 calc( var(--content-padding) * -1) ; ">
+  <f-image src="./images/04-davinci-1.jpg" style="flex: 1" />
+  <f-image src="./images/04-davinci-2.jpg" style="flex: 1" />
+</div>
 
+-
 
-Leonardo da Vinci 
-Best enginier
+## Leonardo da Vinci 
 
-      images
+#### The best engineer
 
-https://www.thinglink.com/scene/649387411842793474
+<a href="https://www.thinglink.com/scene/649387411842793474" target="_blank" style="word-break: break-all; font-size: 75%;">www.thinglink.com/scene/649387411842793474</a>
+
+<f-next-button />
+
+-
+
 
 ---
 
 
+| rows: auto
+| 4 1 1
+| 2 2 2
+| 5 3 3 
 
 
+<blockquote style="background: none;">
 
+  ~‘I’am only a translator of nature’~
 
-‘I’am only a translator of nature’ 
+</blockquote>
 
-      images
+-
 
-In the 90’s Luigi Colani became notorious due to his use of biodynamic forms in products such as automobiles and airplanes:
+<div style="display:flex; margin: 0 calc( var(--content-padding) * -1) ; ">
+  <f-image src="./images/05-colani-1.jpg" style="flex: 1; background-position:50% 50%;" />
+  <f-image src="./images/05-colani-2.jpg" style="flex: 1" />
+  <f-image src="./images/05-colani-3.jpg" style="flex: 1; background-position:50% 50%;" />
+</div>
+
+-
+
+~In the 90’s **Luigi Colani** became notorious due to his use of biodynamic forms in products such as automobiles and airplanes.~
+
+<f-next-button />
+
+-
+
+-
 
 ---
 
