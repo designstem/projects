@@ -103,13 +103,15 @@ plus the idea of continuous repetition
 
 -
 
-<blockquote style="background: none;">
+<blockquote>
 
-  ~"In any graduation, one ought to move from the rigid structure of forms modulations, to organic forms... one can not understand the visible world only through geometry: a large part of it is organic, and we must seek to understand this too, as far as our capacities are concerned.“~
+  ~*In any graduation, one ought to move from the rigid structure of forms modulations, to organic forms... one can not understand the visible world only through geometry: a large part of it is organic, and we must seek to understand this too, as far as our capacities are concerned.*~
 
   <span class="cite">Bruno Munari</span>
 
 </blockquote>
+
+<br />
 
 <f-next-button />
 
@@ -137,8 +139,8 @@ plus the idea of continuous repetition
 -
 
 <div style="display:flex; margin: 0 calc( var(--content-padding) * -1) ; ">
-  <f-image src="./images/03-velcro-1.jpg" style="flex: 1" />
-  <f-image src="./images/03-velcro-2.jpg" style="flex: 1" />
+  <f-image src="./images/03-velcro-1.jpg" style="flex: 1" position="center" minHeight="40vh" />
+  <f-image src="./images/03-velcro-2.jpg" style="flex: 1" position="center" minHeight="40vh" />
 </div>
 
 -
@@ -147,7 +149,7 @@ plus the idea of continuous repetition
 
 -
 
-<f-image src="./images/03-velcro-3.jpg" style="flex: 1" />
+<f-image src="./images/03-velcro-3.jpg" style="flex: 1" position="center" />
 
 -
 
@@ -162,10 +164,11 @@ plus the idea of continuous repetition
 | 1 1
 | 3 2
 
+<br />
 
 <div style="display:flex; margin: 0 calc( var(--content-padding) * -1) ; ">
-  <f-image src="./images/04-davinci-1.jpg" style="flex: 1" />
-  <f-image src="./images/04-davinci-2.jpg" style="flex: 1" />
+  <f-image src="./images/04-davinci-1.jpg" style="flex: 1" position="center" minHeight="40vh" />
+  <f-image src="./images/04-davinci-2.jpg" style="flex: 1" position="center" minHeight="40vh" />
 </div>
 
 -
@@ -175,6 +178,8 @@ plus the idea of continuous repetition
 #### The best engineer
 
 <a href="https://www.thinglink.com/scene/649387411842793474" target="_blank" style="word-break: break-all; font-size: 75%;">www.thinglink.com/scene/649387411842793474</a>
+
+<br />
 
 <f-next-button />
 
@@ -190,23 +195,25 @@ plus the idea of continuous repetition
 | 5 3 3 
 
 
-<blockquote style="background: none;">
+<!-- <blockquote style="background: none;"> -->
 
-  ~‘I’am only a translator of nature’~
+##### ~*‘I’am only a translator of nature’*~
 
-</blockquote>
+<!-- </blockquote> -->
 
 -
 
 <div style="display:flex; margin: 0 calc( var(--content-padding) * -1) ; ">
-  <f-image src="./images/05-colani-1.jpg" style="flex: 1; background-position:50% 50%;" />
-  <f-image src="./images/05-colani-2.jpg" style="flex: 1" />
-  <f-image src="./images/05-colani-3.jpg" style="flex: 1; background-position:50% 50%;" />
+  <f-image src="./images/05-colani-1.jpg" style="flex: 1;" position="center" minHeight="40vh" />
+  <f-image src="./images/05-colani-2.jpg" style="flex: 1" minHeight="40vh" position="left 50%" />
+  <f-image src="./images/05-colani-3.jpg" style="flex: 1;" position="center" minHeight="40vh" />
 </div>
 
 -
 
 ~In the 90’s **Luigi Colani** became notorious due to his use of biodynamic forms in products such as automobiles and airplanes.~
+
+<br />
 
 <f-next-button />
 
@@ -217,34 +224,26 @@ plus the idea of continuous repetition
 ---
 
 
+| rows: 50vh auto
+| 1 3
+| 4 2
 
+<f-image src="./images/06-lovegrove.jpg" minHeight="400px" />
 
+-
 
-      image
+~**Ross Lovegrove’s** designs typically demonstrate a link between organic shapes and material science~
 
-Ross Lovegrove’s designs typically demonstrate a link between organic shapes 
-and material science
 http://www.rosslovegrove.com/
 
----
+<br />
 
+<f-next-button />
 
+-
 
+-
 
-
-      image
-
-We are trying to learn about spiders’ behavior and net making and we would like to learn more about the origin of the uni-verse…But maybe you could start by explaining the project first and also this analogy between the cosmic filaments and a spider web. 
-Tomás Saraceno
-
----
-
-
-
-
-      images
-
-https://studiotomassaraceno.org/
 
 ---
 
@@ -252,52 +251,29 @@ https://studiotomassaraceno.org/
 
 
 
-      images, videos
-
-Ingo Rechenberg, German researcher and professor currently in the field of bionics. Rechenberg is a pioneer of the fields of evolutionary computation and artificial evolution. In the 1960s and 1970s he invented a highly influential set of optimization methods known as evolution strategies (from German Evolutionsstrategie). His group successfully applied the new algorithms to challenging problems such as aerodynamic wing design. These were the first serious technical applications of artificial evolution, an important subset of the still growing field of bionics.
-
-https://www.youtube.com/watch?v=jGP5NxcCyjE&feature=youtu.be
-https://www.hybrid-plattform.org/en/events/hybrid-event/detail/roundup-hybrid-encounters-with-tomas-saraceno-art-biology-and-algorithms/
-
----
+| rows: auto
+| 1 3
+| 1 2
 
 
+<f-image src="./images/07-saraceno.jpg" minHeight="60vh" />
 
+-
 
-      images
+<blockquote>
 
-climbing axe modelled on the appearance and efficiency of a woodpecker.
-designed by Franc Lodato 
-See more about design and bionics with Industrial designer franco Lodato at: 
-https://www.media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf
+  ~*We are trying to learn about spiders’ behavior and net making and we would like to learn more about the origin of the universe... But maybe you could start by explaining the project first and also this analogy between the cosmic filaments and a spider web.*~
+  
+  <span class="cite">Tomás Saraceno</span>
 
----
+</blockquote>
 
+<br />
 
+<f-next-button />
 
+-
 
-
-
-      image
-
----
-
-
-
-
-
-
-      image
-
----
-
-
-
-
-
-
-
-      image
 
 ---
 
@@ -308,7 +284,169 @@ https://www.media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf
 
 
 
-      image
+
+
+| rows: auto auto 15vh
+| 1 2
+| 3 4
+| 5 6
+| padding: 0
+| gap: 0
+
+<f-image src="./images/07-saraceno-2.jpg" style="flex: 1;" position="center" minHeight="40vh" />
+
+-
+
+<f-image src="./images/07-saraceno-3.jpg" style="flex: 1" minHeight="40vh" position="center" />
+
+-
+
+<f-image src="./images/07-saraceno-4.jpg" style="flex: 1" minHeight="40vh" position="center" />
+
+-
+
+<f-image src="./images/07-saraceno-5.gif" style="flex: 1" minHeight="40vh" position="center" />
+
+-
+
+<section>
+  <a href="https://studiotomassaraceno.org/" target="_blank">studiotomassaraceno.org</a>
+</section>
+
+-
+
+<section>
+  <f-next-button style="margin:0;" />
+</section>
+
+---
+
+
+
+
+| rows: auto
+| 1 1
+| 2 3
+| 4 4
+| 5 5
+
+
+<br />
+
+<f-video src="https://www.youtube.com/watch?v=jGP5NxcCyjE" />
+
+<!-- <div style="display:flex; margin: 0 calc( var(--content-padding) * -1) ; ">
+  <f-video src="https://www.youtube.com/watch?v=jGP5NxcCyjE" style="flex: 2" />
+  <f-image src="./images/08-rechenberg.jpg" style="flex: 1" position="center" minHeight="40vh" />
+</div> -->
+
+-
+
+<f-image src="./images/08-rechenberg.jpg" position="center" minHeight="40vh" />
+
+-
+
+~**Ingo Rechenberg**, German researcher and professor currently in the field of bionics. Rechenberg is a pioneer of the fields of evolutionary computation and artificial evolution. In the 1960s and 1970s he invented a highly influential set of optimization methods known as evolution strategies (from German Evolutionsstrategie). His group successfully applied the new algorithms to challenging problems such as aerodynamic wing design. These were the first serious technical applications of artificial evolution, an important subset of the still growing field of bionics.~
+
+-
+
+<!-- <a href="https://www.youtube.com/watch?v=jGP5NxcCyjE" target="_blank" style="font-size: 85%">youtube.com/watch?v=jGP5NxcCyjE</a> -->
+
+<f-hr />
+
+<br />
+
+<a href="https://www.hybrid-plattform.org/en/events/hybrid-event/detail/roundup-hybrid-encounters-with-tomas-saraceno-art-biology-and-algorithms/" target="_blank">Roundup: Hybrid Encounters with Tomás Saraceno- Art, Biology and Algorithms</a>
+
+<br />
+
+<f-hr />
+
+-
+
+<f-next-button />
+
+
+---
+
+
+
+
+
+| rows: auto
+| cols: 2fr 1fr
+| 1 1
+| 2 3
+
+<br />
+
+<div style="display:flex; margin: 0 calc( var(--content-padding) * -1) ; ">
+  <f-image src="./images/09-lodato-1.jpg" style="flex: 1;" position="center top" minHeight="40vh" />
+  <f-image src="./images/09-lodato-2.jpg" style="flex: 2" minHeight="40vh" position="center 10%" />
+  <f-image src="./images/09-lodato-3.jpg" style="flex: 1;" position="center top" minHeight="40vh" />
+</div>
+
+-
+
+~Climbing axe modelled on the appearance and efficiency of a woodpecker, designed by **Franco Lodato**~ 
+
+~See more about design and bionics with Industrial designer Franco Lodato at: <a href="https://www.media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf" target="_blank">media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf</a>~
+
+<br />
+
+<f-next-button />
+
+-
+
+
+---
+
+
+
+| theme: blue
+| background: ./images/09-lodato-4.jpg
+| style: background-position: 80% center;
+| tint: 0
+
+<f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
+
+---
+
+
+
+
+| theme: blue
+| background: ./images/09-lodato-5.jpg
+| style: background-position: 40% 20%;
+| tint: 0
+
+<f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
+
+---
+
+
+
+
+
+| theme: blue
+| background: ./images/09-lodato-6.jpg
+| style: background-position: 100% 20%;
+| tint: 0
+
+<f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
+
+---
+
+
+
+
+
+| theme: blue
+| background: ./images/09-lodato-7.jpg
+| style: background-position: 25% 20%;
+| tint: 0
+
+<f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
 
 ---
 
@@ -317,7 +455,26 @@ https://www.media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf
 
 
 
-      image
+
+| height: 100vh
+| rows: auto
+| cols: 3fr 2fr
+| padding: 0
+| gap: 0
+| 1 3
+| 2 3
+
+<f-image src="./images/09-lodato-8.jpg" minHeight="40vh" position="center top" />
+
+-
+
+<f-image src="./images/09-lodato-9.jpg" minHeight="40vh" position="center top" />
+
+-
+
+<f-image src="./images/09-lodato-10.jpg" minHeight="70vh" position="center 20%"   />
+
+<f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
 
 ---
 
