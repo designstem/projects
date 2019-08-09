@@ -408,6 +408,10 @@ http://www.rosslovegrove.com/
 | style: background-position: 80% center;
 | tint: 0
 
+<h3 style="background:hsla(0, 0%, 0%, 0.2); padding:var(--base); display: inline-block">
+  Biodesign themes by Franco Lodato
+</h3> 
+
 <f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
 
 ---
@@ -419,6 +423,10 @@ http://www.rosslovegrove.com/
 | background: ./images/09-lodato-5.jpg
 | style: background-position: 40% 20%;
 | tint: 0
+
+<h3 style="background:hsla(0, 0%, 0%, 0.2); padding:var(--base); display: inline-block">
+  Biodesign themes by Franco Lodato
+</h3> 
 
 <f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
 
@@ -433,6 +441,10 @@ http://www.rosslovegrove.com/
 | style: background-position: 100% 20%;
 | tint: 0
 
+<h3 style="background:hsla(0, 0%, 0%, 0.2); padding:var(--base); display: inline-block">
+  Biodesign themes by Franco Lodato
+</h3> 
+
 <f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
 
 ---
@@ -445,6 +457,10 @@ http://www.rosslovegrove.com/
 | background: ./images/09-lodato-7.jpg
 | style: background-position: 25% 20%;
 | tint: 0
+
+<h3 style="background:hsla(0, 0%, 0%, 0.2); padding:var(--base); display: inline-block">
+  Biodesign themes by Franco Lodato
+</h3> 
 
 <f-next-button style="position: absolute; bottom:var(--content-padding); right:var(--content-padding);" />
 
@@ -482,13 +498,62 @@ http://www.rosslovegrove.com/
 
 
 
+| rows: auto
+| 1 1 1 
+| 2 2 2
+| 3 4 5
+| 6 6 6
 
+~See more about design and bionics with Industrial designer Franco Lodato at: 
+<a href="https://www.media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf" target="_blank">www.media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf</a>~
 
-Biodesign themes by Franc Lodato 
-See more about design and bionics with Industrial designer franco Lodato at: 
-https://www.media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf
+-
 
-      images with text
+<div style="display:flex; margin: 0 calc( var(--content-padding) * -1);">
+
+<f-image src="./images/09-lodato-11.jpg" size="contain" style="flex:1;" />
+
+</div>
+
+-
+
+### Bionic
+
+~Concepts and shapes that are rooted in nature~
+
+1. organic
+2. no straight lines
+3. textured
+4. color
+5. relates to nature
+
+-
+
+### Fractals
+
+~Visually translating AI and algorithmic technology~
+
+1. repeating elements
+2. systemic
+3. scaled patterns
+4. movement
+5. micro to macro
+
+-
+
+### Tech romance
+
+~Connect to the pioneering spirit of Motorola ```???```~
+
+1. machine aesthetic
+2. industrial
+3. homage to metals
+4. machined parts
+5. linear
+
+-
+
+<f-next-button />
 
 ---
 
@@ -497,27 +562,58 @@ https://www.media.mit.edu/events/di-2004-10-22/lodato2004-1022.pdf
 
 
 
-BioDesign Lessons by Franco Lodato: 
 
-Humility 
-Nature is THE master designer 
-Spider web vs. steel 
-Abalone shell vs. Kevlar
 
-Imitate, don’t duplicate 
-Be creative in your interpretation of natures lessons 
-Understand why nature chose its solution 
+| theme: yellow
+| rows: auto
+| 1 1 1
+| 2 3 4
+| 5 6 7
+| 8 8 8
 
-Biodesign ≠ Sustainability 
-Be clear about your motives for applying Biodesign
+# BioDesign Lessons 
+<span style="font-size:105%; ">*by Franco Lodato*</span> 
+
+-
+
+#### 1. Humility
+
+- Nature is THE master designer 
+- Spider web vs. steel 
+- Abalone shell vs. Kevlar
+
+-
+
+#### 2. Imitate, don’t duplicate 
+
+- Be creative in your interpretation of natures lessons 
+- Understand why nature chose its solution 
+
+-
+
+#### 3. Biodesign ≠ Sustainability 
+
+- Be clear about your motives for applying Biodesign
  
-Yet another argument for a multidisciplinary approach 
-The microscope is the designer’s new best friend Biologist+Designer > Many Designers 
+-
 
-Mimicry can be the first step towards creative thinking
- 
-We are on the cusp of a great movement 
-An opportunity for all of us to play a part
+#### 4. Yet another argument for a multidisciplinary approach 
+
+- The microscope is the designer’s new best friend Biologist+Designer > Many Designers 
+
+-
+
+#### 5. Mimicry can be the first step towards creative thinking
+
+-
+
+#### 6. We are on the cusp of a great movement 
+
+- An opportunity for all of us to play a part
+
+-
+
+<f-next-button />
 
 ---
 
