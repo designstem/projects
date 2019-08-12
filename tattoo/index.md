@@ -33,7 +33,7 @@
 | 1 2
 | 1 2
 
-<section style="padding:var(--content-padding);">
+<div style="padding:var(--content-padding);">
 
 # What is smart tattoo?
 
@@ -45,7 +45,7 @@
 
 <big>Work in a pair and design a "smart" tattoo<big>
 
-</section>
+</div>
 
 -
 
@@ -98,9 +98,19 @@ For example, information about acids and bases.
 ---
 
 | rows: auto 1fr
-| 1 2
+| padding: 0
+| 1 1 1 1 4 4
+| 2 2 2 3 4 4
+
+<div style="padding: var(--content-padding) var(--content-padding) 0 var(--content-padding);">
 
 # Acids and bases
+
+</div>
+
+-
+
+<div style="padding: 0 var(--content-padding);">
 
 The acids and bases can be understood through the concentration of hydrogen-ion <f-math inline blue>(H+)</f-math> in a solution.
 
@@ -110,17 +120,42 @@ pH-scale governed by the equation <f-math inline>pH = -log[H+]</f-math>
 
 &nbsp;
 
-<f-slider set="ph" :to=14 integer title="ph: "  />
+<f-slider set="ph" :value=7 :to=14 integer title="ph: "  />
 
 &nbsp;
 
 *Move the bar to explore the pH-scale. Talk with a friend: What is the pH-range that you would need to consider with tattoos?*
 
+</div>
+
 -
 
-INTERACTIVE stuFF
-{{ get('ph') }}
+<div style="display: flex; align-items: center; flex-direction: column; position: relative">
+  <f-artboard :width="280" :height="350" :step="20" style="margin-top: 5px" >
+  	<f-line :x1="40" :y1="310 - i*20" :x2="240" :y2="310 - i*20" v-for="i in 15" />
+    <f-rect :x="-100" :y="-290" :stroke="none" :fill="color('red')" :width="40" :height="280 - get('ph')*20" :rotation="180"/>
+    <f-rect :x="-220" :y="-290" :stroke="none" :fill="color('blue')" :width="40" :height="get('ph')*20" :rotation="180"/>
+    <f-text :x="20" :y="313 - i*20" v-for="i in 15">{{i-1}}</f-text>
+  </f-artboard><br>
+  <small style="position: absolute; bottom: 40px; left: 40px">
+    <small>
+      <f-math inline :update="get('ph')">
+      [H+] = 10^{(-{{ get('ph') }})}
+      </f-math>
+    </small>  
+  </small>
+  <small style="position: absolute; bottom: 40px; right: 20px">
+    <small>
+      <f-math inline :update="get('ph')">
+      [OH-] = 10^{({{ 14 - get('ph') }})}
+      </f-math>
+    </small>
+  </small>
+</div>
 
+-
+
+<f-image style="background-position: center center" :src="'images/ph/' + get('ph') + '.jpg'" />
 
 ---
 
