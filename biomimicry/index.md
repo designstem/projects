@@ -1,9 +1,10 @@
-| section: start
+| section: bm-start
 | theme: dark
 | background: ./images/01-biomimicry-start.jpg
 | tint: 0.65
 | style: background-position:50% 70%
 | rows: auto
+| height: 100vh
 | 1
 | 2
 | 3
@@ -12,33 +13,51 @@
 
 -
 
-<h1 style="--base: 24px">
+<h1 style="--base: 28px">
   Bio&shy;mimicry
 </h1>
 
-#### The importance of mimicry and minimal use of energy, 
-plus the idea of continuous repetition
+#### The importance of mimicry and minimal use of energy <br /> plus the idea of continuous repetition
 
 -
 
+<f-notes width="50vw">
+
+<section style="--primary:var(--darkergray); ">
+
+  1. ~Students will explore and experiment surfaces and structures~ 
+  2. ~Students will intercept tactile and tangible perceptions (emotional values)~ 
+  3. ~Students will learn how to interpret nature and the idea of bionic perception~
+  4. ~Natural and artificial dimension concerning material world~
+  5. ~Perception of Human kind artefacts in copying nature.~
+  6. ~Students will study the concept of Design, as intermediary relationship, In the concepts of Bionic Design, Ecologic Design and Symbiotic design~ 
+  7. ~Student’s will explore concepts from Victor Papanek’s, Luigi Colani’s and other designers~
+  8. ~**Students will learn codes through design repetition. Structure systematization up to patterns applications.**~ 
+
+</section>
+
+</f-notes>
 
 ---
 
 
-
-| theme: yellow
+| section: bm-explore
+| id: bm-boroullec
+| theme: dark
 | rows: auto
 | cols: 2fr 3fr
 | 1 2
 | 3 2
 
 
-#### Twigs and Algues, Ronan and Erwan Bouroullec exhibition
+#### Twigs and Algues,<br /> Ronan and Erwan Bouroullec exhibition
 <span class="cite">MOCA, Los Angeles, 2004</span>
 
 -
 
-<div style="padding:76.19% 0 0 0;position:relative; "><iframe src="https://player.vimeo.com/video/111437252?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%; max-width:1024px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<div style="display:flex; height:100%; align-items:flex-end;">
+  <div style="padding:76.19% 0 0 0; position:relative; width:100%;"><iframe src="https://player.vimeo.com/video/111437252?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%; max-width:1024px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+</div>
 
 -
 
@@ -57,20 +76,29 @@ plus the idea of continuous repetition
 
 
 
-| theme: yellow
+| theme: dark
 | rows: auto
 | cols: 1fr 1fr
 | 1 2
 | 3 2
 
 
-#### Twigs and Algues, Ronan and Erwan Bouroullec exhibition
+#### Twigs and Algues, <br />Ronan and Erwan Bouroullec exhibition
+
 <span class="cite">MOCA, Los Angeles, 2004</span>
 
-~On a wall-size scale we felt it was important to work with a complex material. We wanted to create a sort of lace pattern on a huge scale, a surface as complex as a leafy tree but as unified as camouflage.~
-~The algae work like the leaves of a tree, dappling the light. Just like leaves they stop the light here and there. Naturally their changing density offers different type of light, from the very shaded to the light caress of the almost non-existent shadow.~
+<br />
 
-<a href="http://www.bouroullec.com/?p=82" target="_blank">See the project</a>
+<blockquote>
+
+  ~*On a wall-size scale we felt it was important to work with a complex material. We wanted to create a sort of lace pattern on a huge scale, a surface as complex as a leafy tree but as unified as camouflage.*~
+  ~*The algae work like the leaves of a tree, dappling the light. Just like leaves they stop the light here and there. Naturally their changing density offers different type of light, from the very shaded to the light caress of the almost non-existent shadow.*~
+
+</blockquote>
+
+<br />
+
+<a href="http://www.bouroullec.com/?p=82" target="_blank">See the project <f-arrow-icon rotation="-45" /></a>
 
 -
 
@@ -92,6 +120,10 @@ plus the idea of continuous repetition
 
 
 
+
+
+
+| id: bm-munari
 | rows: auto
 | cols: 2fr 1fr 2fr
 | 1 1 4
@@ -127,6 +159,7 @@ plus the idea of continuous repetition
 
 
 
+| id: bm-velcro
 | rows: auto
 | 1 1
 | 2 2
@@ -145,7 +178,7 @@ plus the idea of continuous repetition
 
 -
 
-~One of the most disseminated examples of modern bio-inspiration is the amazing used material Velcro, which was invented in 1941 by Swiss engineer  **George de Mestral** <span class="cite">(US Patent by George de Mestral, 1955)</span>. Mestral inspiration came from observing thistles and little hooks and the way they got caught in his dog’s tail, also this plants have the particular capacity, specialy in winter to adhered to clothes. This one when passing thistles became full of small stamens derived from the plant. His study under the microscope revealed the shape of a hook that formed the principle of velcro formation. The expression “velcro“ comes from the French word *“velor“* and hook *“chochet“*.~
+~One of the most disseminated examples of modern bio-inspiration is the amazing used material Velcro, which was invented in 1941 by Swiss engineer **George de Mestral** <span class="cite">(US Patent by George de Mestral, 1955)</span>. Mestral inspiration came from observing thistles and little hooks and the way they got caught in his dog’s tail, also this plants have the particular capacity, specialy in winter to adhered to clothes. This one when passing thistles became full of small stamens derived from the plant. His study under the microscope revealed the shape of a hook that formed the principle of velcro formation. The expression “velcro“ comes from the French word *“velor“* and hook *“chochet“*.~
 
 -
 
@@ -159,6 +192,10 @@ plus the idea of continuous repetition
 
 
 
+
+
+
+| id: bm-davinci
 | rows: auto
 | cols: 2fr 3fr
 | 1 1
@@ -185,10 +222,14 @@ plus the idea of continuous repetition
 
 -
 
-
 ---
 
 
+
+
+
+
+| id: bm-colani
 | rows: auto
 | 4 1 1
 | 2 2 2
@@ -224,6 +265,10 @@ plus the idea of continuous repetition
 ---
 
 
+
+
+
+| id: bm-lovegrove
 | rows: 50vh auto
 | 1 3
 | 4 2
@@ -251,6 +296,8 @@ http://www.rosslovegrove.com/
 
 
 
+
+| id: bm-saraceno
 | rows: auto
 | 1 3
 | 1 2
@@ -323,7 +370,7 @@ http://www.rosslovegrove.com/
 
 
 
-
+| id: bm-rechenberg
 | rows: auto
 | 1 1
 | 2 3
@@ -372,7 +419,7 @@ http://www.rosslovegrove.com/
 
 
 
-
+| id: bm-lodato
 | rows: auto
 | cols: 2fr 1fr
 | 1 1
@@ -563,7 +610,7 @@ http://www.rosslovegrove.com/
 
 
 
-
+| section: bm-biodesign-lessons
 | theme: yellow
 | rows: auto
 | 1 1 1
