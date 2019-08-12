@@ -1,20 +1,5 @@
 export default {
   description: `
-Shows a content card.
-
-<f-card>Some content here</f-card>
-
-<f-card
-  title="Title"
-  subtitle="Subtitle"
-  height="calc(var(--base) * 20)"
-  color="var(--white)"
-  background="var(--red)"
->
-  Some content here
-</f-card>
-
-<p />
   `,
   props: {
     title: { default: "", type: String },
@@ -27,19 +12,21 @@ Shows a content card.
   template: `
     <div
       style="
-        border-radius: var(--border-radius);
+        border-radius: calc(var(--border-radius) * 1.5);
         height: 100%;
         cursor: pointer;
       "
       :style="{
         color,
         background,
+        border: '3px solid ' + border
       }"
     >
       <div :style="{
         borderTopLeftRadius: 'var(--border-radius)',
         borderTopRightRadius: 'var(--border-radius)',
-        backgroundImage: 'url(' + (image ? image : 'https://www.ethanallen.com/dw/image/v2/AAKH_PRD/on/demandware.static/-/Sites-main/default/dwbc5ddfe6/images/large/56739_parade.jpg?sw=469&sh=469&sm=fit') + ')',
+        backgroundImage: image ? 'url(' + image + ')' : '',
+        backgroundColor: !image ? '#eee' : '',
         backgroundSize: 'cover',
         height: '100px'
       }">

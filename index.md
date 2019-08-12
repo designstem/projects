@@ -136,4 +136,17 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
 
 </section>
 
+<section>
+
+
+<a id="about">
+  <h3>About</h3>
+</a>
+
+<p />
+
+DesignSTEM is an education initiative that creates immersive experiences for future learning. We are educators, teachers, designers and engineers from 10 countries 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪 around Europe.
+
+</section>
+
 <f-footer />
