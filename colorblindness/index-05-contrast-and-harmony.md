@@ -210,7 +210,7 @@
 
 -
 
-<f-image src="images/contrast-and-harmony-lake.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+<f-image src="images/contrast-and-harmony-lake.jpg" style="background-position:85% 50%; min-height:60vh; width:100%; height:100%;" />
 
 -
 
@@ -258,7 +258,7 @@
 
 -
 
-<f-image src="images/contrast-snow.png" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+<f-image src="images/contrast-snow.png" style="background-position:70% 50%; min-height:60vh; width:100%; height:100%;" />
 
 -
 
@@ -305,7 +305,7 @@
 
 -
 
-<f-image src="images/contrast-red.png" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+<f-image src="images/contrast-red.png" style="background-position:30% 50%; min-height:60vh; width:100%; height:100%;" />
 
 -
 
