@@ -3,20 +3,20 @@ export default {
   data: () => ({
     statuses: {
       feature: {
-        background: 'var(--yellow)',
-        border: 'var(--yellow)'
+        background: 'white',
+        border: 'var(--primary)'
       },
       progress: {
-        background: '#eee',
-        border: '#eee'
+        background: 'white',
+        border: 'var(--primary)'
       },
       preparation: {
-        background: '#eee',
-        border: '#eee'
+        background: 'white',
+        border: 'var(--primary)'
       },
       experiment: {
-        background: '#eee',
-        border: '#eee'
+        background: 'white',
+        border: 'var(--primary)'
       }
     }
   }),
@@ -59,6 +59,9 @@ export default {
       <span><f-tools-icon /></span>
       <small style="opacity: 0.65">{{ project.facilities }}</small>
       </f-inline>
+      <f-sidebar v-if="project.scenario == 'patterns'" :src="'./' + project.scenario + '/about.md'">
+          <button slot="button">About</button>
+      </f-sidebar>
   </f-card2>
   </a>
   `

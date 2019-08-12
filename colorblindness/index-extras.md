@@ -1,9 +1,4 @@
 
-<calculator-designer />
-
-
-
----
 
 | theme: dark
 | rows: auto
@@ -35,8 +30,7 @@
   <!-- </f-rotation3> -->
 <!-- </f-scene3> -->
 
-<f-scene3 isometric responsive width="600" height="600" webgl>
-<!-- <f-rotation3 duration="10000"> -->
+<!-- <f-scene3 isometric responsive width="600" height="600" webgl>
   <f-group3 scale="0.75" :rotation="[50, get('cylRot', 0), 0]" :position="[0, 1, 0]">
   <f-group3 v-for="b in range(0,(get('cylB',100)/10)-1)"
     :key="'b'+b"
@@ -60,10 +54,9 @@
     </f-group3>
     </f-group3>
   </f-group3>
-<!-- </f-rotation3> -->
-</f-scene3>
+</f-scene3> -->
 
-<f-scene3 isometric responsive width="500" height="500" webgl  >
+<!-- <f-scene3 isometric responsive width="500" height="500" webgl  >
   <f-group3 scale="0.6" :rotation="[30, get('cylRot', 0), 0]" :position="[0, 0.7, 0]">
   <f-group3 v-for="b in range(0,(get('cylB',100)/10)-1)"
     :key="'b'+b"
@@ -86,7 +79,19 @@
     </f-group3>
     </f-group3>
   </f-group3>
+</f-scene3> -->
+
+<f-scene3 isometric responsive width="500" height="500" webgl>
+  <f-box3
+      v-for="h in range(1, 70)"
+      :rotation="[h*3, h*3, 0]"
+      :position="[(-2+h*0.04), 0, 0]"
+      scale="0.66 0.45 1"
+      :fill="hsl(ai2hue(h * 3), 100, 50)"
+      :shading="false"
+    />
 </f-scene3>
+
 
 
 -
