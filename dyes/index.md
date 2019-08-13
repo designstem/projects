@@ -820,9 +820,114 @@ with guiding questions to preform the analysis of some ot together
 
 It is essential to support students through the analyse process. As students' experience to analyse both details and whole entity of item and design is still evolving, the most valuable experience they might achieve is developing observation and analysis skills. 
 
+</f-notes>
+
+---
+
+Art and Design 5
+
+#### Task: make design process map of your own products full stack process
+
+12. repeat steps 4-11, if necessary. 
+
+When you are happy with your product and design, it is time to look back and analyse the product design process in whole.
+
+SUBTASK: Using the design process chart as model, create your own chart with **clearly stated outcomes of each stage** together with your group mates. 
+
+**Present your work** and help other groups by asking questions about what they have reached.
+
 <f-notes>
 
+It is essential to support and encourage students through the analyzing process. As they lack experience to analyse both details and whole entity of item and design and their competencies are still evolving, this is the most valuable experience they get out of design and development stage of their project.
+
+Have large papers or flipchart and markers ready for each group.
+explain the chart to the class briefly
+
+Have each group to make process map of their own work according to the example
+
+Let each group present their flipchart and encourage other students to ask specifying questions straight after the presentation.
+
+Encourage students to make additions to their process maps.
+
+This task may serve as process evaluation tool, should you need to grade your students; as the design stage ends here.
+
+Weblink address of the chart is: https://infographicnow.com/wp-content/uploads/2017/05/business-infographic-design-deeper-design-deeper-maintenance-mode.jpg
+
+</f-notes>
+
+---
+
+# Product dyeing process
+
+First of all, **you need to plan ahead the dyeing process**. 
+
+It is best to do it together with your teammates. 
+
+Discuss dyeing techniques, that would suit best to your design.
+
+Remember to use your previous experience from bio/chem section, and your Process Map.
+
+Think, how using different techniques, such as tie-dye, stencil, iron rust etc. would be used to transfer your design onto your item. You can also combine different techniques in order to achieve more artistic approach.
+
+***TODO*** Link to Exploration Biology/Chemistry 1
+
+***TODO*** Link to Biology/Chemistry 12.5 
+Dyeing the fabric 3, summary
+
+---
+
+# Product dyeing process 2
+
+SUBTASK 1: create Dyeing Protocol of your product 
+
+SUBTASK 2: conduct the Dyeing Process accordingly
+
+Decide, how will you transfer your design to your item. (And still, if necessary, adapt your design.) Keep in mind, what kind of colour shades you will be able to gain (use your previous knowledge). 
+
+---
+
+# Product dyeing process 3
 
 
+To bring the pattern or text on the t-shirt, you could try:
 
+A. shibori technique to tie/fold the elements which will not be wearing the colour; 
 
+B. stencil technique to cover the part of the item which will not be wearing the colour;  
+
+C. use iron water to make the colours on the areas of design darker;
+
+D. pretreat the fabric by painting the pattern/text with soy milk.
+
+Follow the steps for dyeing the fabric, that you have use slides on Exploration 4). **LINK**
+
+NOTE: Keep the record of colouring process, time and results. 
+
+<f-notes>
+
+Demonstrate examples of techniques.
+
+Tie-dye: https://www.joann.com/tie-dye/
+
+Combined techniques: https://www.artistsnetwork.com/art-mediums/technique-tuesdays-10-tips-for-stenciling/
+
+</f-notes>
+
+---
+
+# Extension to printing (optional)
+
+**Get to know printmaking and painting techniques**, that can be used to decorate your message t-shirt. Experiment with techniques, different dyes and/or different fabrics and/or material. You can also combine techniques and/or add ready-made textile markers. 
+
+Discuss the process and results.
+
+Follow the steps for dyeing the fabric, that you have use slides on Exploration 4). 
+NOTE: Keep the record of colouring process, time and results. 
+
+---
+
+Brainstorming
+
+How could we make each step of the process even more environmental-friendly?
+
+SUBTASK 1: Write down the step by step protocol for improved experiment. 
