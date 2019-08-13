@@ -1,3 +1,19 @@
+# Simulating Rods and Cones with Electronic Circuits.
+
+In this activity you will use solar cells and LEDs to explore how rods and cones are arranged in the retina, why rods are more sensitive to low light intensity and how three different types of cone are used to detect a range of colours. 
+
+
+---
+
+
+
+
+
+
+
+
+
+
 
 
 | theme: dark
