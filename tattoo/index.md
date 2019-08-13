@@ -133,8 +133,8 @@ pH-scale governed by the equation <f-math inline>pH = -log[H+]</f-math>
 <div style="display: flex; align-items: center; flex-direction: column; position: relative">
   <f-artboard :width="280" :height="350" :step="20" style="margin-top: 5px" >
   	<f-line :x1="40" :y1="310 - i*20" :x2="240" :y2="310 - i*20" v-for="i in 15" />
-    <f-rect :x="-100" :y="-290" :stroke="none" :fill="color('red')" :width="40" :height="280 - get('ph')*20" :rotation="180"/>
-    <f-rect :x="-220" :y="-290" :stroke="none" :fill="color('blue')" :width="40" :height="get('ph')*20" :rotation="180"/>
+    <f-rect style="transition: all .2s ease-in-out" :x="-100" :y="-290" :stroke="none" :fill="color('red')" :width="40" :height="280 - get('ph')*20" :rotation="180"/>
+    <f-rect style="transition: all .2s ease-in-out" :x="-220" :y="-290" :stroke="none" :fill="color('blue')" :width="40" :height="get('ph')*20" :rotation="180"/>
     <f-text :x="20" :y="313 - i*20" v-for="i in 15">{{i-1}}</f-text>
   </f-artboard><br>
   <small style="position: absolute; bottom: 40px; left: 40px">
@@ -153,9 +153,41 @@ pH-scale governed by the equation <f-math inline>pH = -log[H+]</f-math>
   </small>
 </div>
 
+<f-notes title="attributions">
+https://www.pexels.com/photo/body-of-water-under-blue-and-white-skies-1533720/
+https://www.pexels.com/photo/nature-water-blue-abstract-67843/
+https://www.pexels.com/photo/flour-in-a-jar-5765/
+https://www.pexels.com/photo/chrome-circle-close-up-droplets-220612/
+https://commons.wikimedia.org/wiki/File:Clorox_Bleach_products.jpg
+https://www.flickr.com/photos/yourbestdigs/28692193236
+https://www.flickr.com/photos/horiavarlan/4263958356
+https://pixabay.com/photos/tums-pills-tablets-antacid-1528834/
+https://www.maxpixel.net/Inflammation-Urine-Container-Urine-The-Test-1006795
+https://www.pexels.com/photo/happy-coffee-6347/
+https://www.pexels.com/photo/tomato-shake-being-poured-in-drinking-glass-1365445/
+https://www.pexels.com/photo/close-up-photo-of-cold-cola-1571700/
+https://www.pexels.com/photo/close-up-photo-of-sliced-lemons-1536871/
+https://commons.wikimedia.org/wiki/File:Adult_Digestive_System.png
+https://www.needpix.com/photo/download/656916/offal-marking-medical-intestine-liver-small-intestine-colon-belly-human
+https://www.maxpixel.net/Motorcycle-Battery-Battery-Acid-Battery-2490122
+https://pxhere.com/en/photo/977978
+</f-notes>
+
 -
 
-<f-image style="background-position: center center" :src="'images/ph/' + get('ph') + '.jpg'" />
+<div style="position: relative; height: 100%">
+<big style="
+color: var(--white); 
+z-index: 1; 
+padding: var(--content-padding); 
+position: absolute; 
+bottom: 0; 
+left: 0; 
+right: 0;
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+">{{ ['Battery acid','Stomach acid','Lemon juice','Soda','Tomato juice','Black coffee','Urine (average)','Pure water','Seawater','Baking Soda','Antacid tablets','Soap','Ammonia','Bleach','Drain cleaner'][get('ph')] }}</big>
+<f-image style="z-index: -1; position: absolute; left: 0; top: 0; bottom: 0; right: 0; background-position: center center; background-size: cover" :src="'images/ph/' + get('ph') + '.jpg'" />
+</div>
 
 ---
 
