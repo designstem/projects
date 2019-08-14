@@ -29,7 +29,7 @@
   2. ~Students will intercept tactile and tangible perceptions (emotional values)~ 
   3. ~Students will learn how to interpret nature and the idea of bionic perception~
   4. ~Natural and artificial dimension concerning material world~
-  5. ~Perception of Human kind artefacts in copying nature.~
+  5. ~Perception of Human kind artifacts in copying nature.~
   6. ~Students will study the concept of Design, as intermediary relationship, In the concepts of Bionic Design, Ecologic Design and Symbiotic design~ 
   7. ~Student’s will explore concepts from Victor Papanek’s, Luigi Colani’s and other designers~
   8. ~**Students will learn codes through design repetition. Structure systematization up to patterns applications.**~ 
@@ -41,9 +41,12 @@
 ---
 
 
+
+
+
 | section: bm-explore
 | id: bm-boroullec
-| theme: dark
+| theme: light
 | rows: auto
 | cols: 2fr 3fr
 | 1 2
@@ -76,7 +79,7 @@
 
 
 
-| theme: dark
+| theme: light
 | rows: auto
 | cols: 1fr 1fr
 | 1 2
@@ -178,7 +181,7 @@
 
 -
 
-~One of the most disseminated examples of modern bio-inspiration is the amazing used material Velcro, which was invented in 1941 by Swiss engineer **George de Mestral** <span class="cite">(US Patent by George de Mestral, 1955)</span>. Mestral inspiration came from observing thistles and little hooks and the way they got caught in his dog’s tail, also this plants have the particular capacity, specialy in winter to adhered to clothes. This one when passing thistles became full of small stamens derived from the plant. His study under the microscope revealed the shape of a hook that formed the principle of velcro formation. The expression “velcro“ comes from the French word *“velor“* and hook *“chochet“*.~
+~One of the most disseminated examples of modern bio-inspiration is the amazing used material Velcro, which was invented in 1941 by Swiss engineer **George de Mestral** <span class="cite">(US Patent by George de Mestral, 1955)</span>. Mestral inspiration came from observing thistles and little hooks and the way they got caught in his dog’s tail, also this plants have the particular capacity, specially in winter to adhered to clothes. This one when passing thistles became full of small stamens derived from the plant. His study under the microscope revealed the shape of a hook that formed the principle of velcro formation. The expression “velcro“ comes from the French word *“velor“* and hook *“chochet“*.~
 
 -
 
@@ -279,7 +282,7 @@
 
 ~**Ross Lovegrove’s** designs typically demonstrate a link between organic shapes and material science~
 
-http://www.rosslovegrove.com/
+<a href="http://www.rosslovegrove.com/" target="_blank">rosslovegrove.com/</a>
 
 <br />
 
@@ -291,6 +294,7 @@ http://www.rosslovegrove.com/
 
 
 ---
+
 
 
 
@@ -545,6 +549,9 @@ http://www.rosslovegrove.com/
 
 
 
+
+
+
 | rows: auto
 | 1 1 1 
 | 2 2 2
@@ -676,9 +683,9 @@ Describe the trigger/hook/frame/context of the exercise:
 
 • Students will explore and experiment surfaces and structures 
 • Students will intercept tactile and tangible perceptions (emotional values) 
-• Students will learn how to interpret nature and the ideia of bionic perception
+• Students will learn how to interpret nature and the idea of bionic perception
 • Natural and artificial dimension concerning material world
-• Perception of Human kind artefacts in copying nature.
+• Perception of Human kind artifacts in copying nature.
 • Students will study the concept of Design, as intermediary relationship, In the concepts of Bionic Design, Ecologic Design and Symbiotic design 
 • Student’s will explore concepts from Victor Papanek’s, Luigi Colani’s and other designers
 • Students will learn codes through design repetition. Structure systematization up to patterns applications. 

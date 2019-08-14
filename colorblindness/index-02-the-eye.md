@@ -105,16 +105,9 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 | id: cb-color-vision-mapper
 
-<mark> Here we need to add Richards rod/cones mapping. Maybe we can add it to the learning station setting as an extra link? Not as a mandatory page. In the google slide it's in the back in the Elaborate phase, but it will fit better to the learning station, since it's not really and elaborate task.
-</mark>
+# Mapping Rods and Cones Activity.
 
-&nbsp;
-
-### Oliver:
-
-**I've added the mapping simulator to the next slide. But maybe it is better to open it in separate window? Anyway, we need to add some introduction or explanation what it is and how to use it.**
-
-&nbsp;
+Use this activity to map the rods and cones in your retina. Notice that when an object is first detected by rod cells located at the periphery of your retina, the object appears black. When the image is detected by cones cells located in the fovea the centre of your retina, the colour of the object becomes apparent.
 
 <f-next-button title="rod/cones mapping" />
 
