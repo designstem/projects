@@ -207,14 +207,13 @@ move the pH-bar. Why does the color change?
 
 > <small><small>Phenol red: The structural parts indicated by the red color undergo changes as the pH is increased changing the colour of the molecule.</small></small>
 
--
-
-INTERACTIVE STUFF
-
 </div>
 
 -
 
+<div :style="{background: hsl(get('ph'),100,50,0.5)}" style="position: relative; height: 100%">
+<f-image style="position: absolute; left: 0; top: 0; bottom: 0; right: 0; background-size: cover" src="images/glass.png" />
+</div>
 
 ---
 
