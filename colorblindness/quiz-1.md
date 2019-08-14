@@ -1,15 +1,7 @@
-
-
 | style: text-align: center;
 | rows: 40vh auto
 | 1
 | 2
-
-{{ set('q1', {answers: [['A. Osmoreceptors', false, 'NOT QUITE'], ['B. Baroreceptors', false, 'TRY AGAIN'], ['C. Photoreceptors', true, 'WELL DONE!'], ['D. Chemoreceptors', false, 'SORRY, NO...']], hint:'Clue: they detect light', status: false } ) }}
-
-{{set('q1.index', 'undefined')}}
-{{set('q1.correct', 'C. Photoreceptors')}}
-{{set('q1.status', false)}}
 
 # Retina Quiz
 
@@ -17,6 +9,12 @@
 
 ### ~Rods and cones are receptors in the retina of the eye.<br />What type of receptor are they?~
 
+{{ set('q1', {answers: [['A. Osmoreceptors', false, 'NOT QUITE'], ['B. Baroreceptors', false, 'TRY AGAIN'], ['C. Photoreceptors', true, 'WELL DONE!'], ['D. Chemoreceptors', false, 'SORRY, NO...']], hint:'Clue: they detect light', status: false } ) }}
+
+{{set('q1.index', 'undefined')}}
+{{set('q1.correct', 'C. Photoreceptors')}}
+{{set('q1.status', false)}}
+
 -
 
 <f-inline style="justify-content: space-between;">
@@ -52,6 +50,10 @@
 | rows: 40vh auto
 | 1
 | 2
+
+# Question 2
+
+#### ~Rods & cones contain light-sensitive pigments which undergo a chemical change when they absorb light.<br /> What is this chemical change called?~
 
 {{ set('q1', {answers: [['A. Bleaching', true, 'RIGHT YOU ARE!'], ['B. Neutralisation', false, 'NOT QUITE'], ['C. Hydrolysis', false, 'SORRY, NO...'], ['D. Condensation', false, 'TRY AGAIN']], hint:'Clue: the pigments become colourless when they undergo this chemical change.', status: false } ) }}
 
@@ -59,10 +61,6 @@
 {{set('q1.correct', 'A. Bleaching')}}
 {{set('q1.status', false)}}
 
-# Question 2
-
-#### ~Rods & cones contain light-sensitive pigments which undergo a chemical change when they absorb light.<br /> What is this chemical change called?~
-
 -
 
 <f-inline style="justify-content: space-between;">
@@ -98,15 +96,15 @@
 | 1
 | 2
 
+# Question 3
+
+#### ~When light bleaches the photosensitive pigments in rods and cones, the energy released causes the membranes of rods & cones to become...~
+
 {{ set('q1', {answers: [['A. Less permeable to Na+ ions', false, 'NOT REALLY...'], ['B. Less permeable to K+ ions', false, 'NOT QUITE'], ['C. More permeable to K+ ions.', false, 'SORRY, NO...'], ['D. More permeable to Na+ ions', true, 'RIGHT YOU ARE!']], hint:'Clue: the entry of these ions causes depolarisation (the inside of the membranes become more positive)', status: false } ) }}
 
 {{set('q1.index', 'undefined')}}
 {{set('q1.correct', 'D. More permeable to Na+ ions')}}
 {{set('q1.status', false)}}
-
-# Question 3
-
-#### ~When light bleaches the photosensitive pigments in rods and cones, the energy released causes the membranes of rods & cones to become...~
 
 -
 
