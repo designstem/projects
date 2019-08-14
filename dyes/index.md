@@ -25,7 +25,7 @@ Final aim of the study project is to **develop environmentally sustainable produ
 
 * Distributable message should be phrased by students. Remember to offer support, if required.
 
-* Encourage students to help plan the whole process at the beginning, including the core message to be spreaded.
+* Encourage students to help plan the whole process at the beginning, including the core message to be spread.
 
 * Inform your students at least 1 week before the start of chemistry part of the project, so there will be time to collect food residue and prepare other necessary materials.
 
@@ -73,8 +73,6 @@ British fashion designer **Vivienne Westwood** started revolutionary mission of 
 
 https://blog.viviennewestwood.com/the-story-so-far/
 
-https://www.viviennewestwoodmovie.com/
-
 Nowadays, mitigation of climate change is no longer an option, it is rather inevitable way of acting out in order to maintain our planet habitable. 
 
 </section></section>
@@ -83,18 +81,33 @@ Nowadays, mitigation of climate change is no longer an option, it is rather inev
 
 <f-image src="./images/westwood.jpg" />
 
-<f-notes>
+<f-notes style="--primary: var(--darkgray)">
+
+## See also:
+
+<f-video src="https://www.youtube.com/watch?v=qvYmFcAegH4" />
+
+https://www.viviennewestwoodmovie.com/
+
+Photo credit:
 http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.jpg
 </f-notes>
 
 ---
 
+| padding: 0
+
+<section><section>
+
 # The power of T-Shirt: wearing a message
 
 Nowadays,message T-shirt, being an iconic fashion item, is generally used to deliver the information to wide target groups and regrettably happens to be overused. 
 
-With its roots in subcultures, the message T-shirt is taken over by  marketing industry and has become the main communication agent since. We might consider, whether excessive production and underuse of Fast Fashion items are worth the load on the planet and what could we do about it.
+With its roots in subcultures, the message T-shirt is taken over by  marketing industry and has become the main communication agent since.
 
+We might consider, whether excessive production and underuse of Fast Fashion items are worth the load on the planet and what could we do about it.
+
+</section></section>
 -
 
 <f-image src="images/shirt.png" />
@@ -106,6 +119,8 @@ With its roots in subcultures, the message T-shirt is taken over by  marketing i
 Subject: consuming standards of western society, influence on third world countries population.
 
 ### How exactly does the fashion industry cause environmental damage?
+
+***TASK***
 
 1. Watch the video “The Life Cycle of a T-shirt”
 2. Discuss the video in group.
@@ -123,20 +138,34 @@ Final question: what did you learn?
 
 ---
 
+| padding: 0
+
+<section><section>
+
 # Fashion as Influencing agent II
 
 Look at the NASA image of the Aral Sea in Central Asia. This huge inland lake has shrunk to less than 10% of its original size because water from the rivers that feed it have been diverted to irrigate farmland, largely to grow cotton.
 
-(4) Group or individual work: Complete T-shirt QUIZ https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ
+###### 4. Group or individual work: Complete T-shirt [quiz](https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ)
+
+***TODO: Replace with real quiz*** 
 
 
-(5) Summarise all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimise this damage.
+###### 5. Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
+
+</section></section>
+
+-
+
+<img src="./images/aral.jpg" />
 
 ---
 
 # Greenwashing
 
 People are becoming more and more aware of the environmental issues. In 2015, global performance management company, [Nielsen](https://www.nielsen.com), that provides a comprehensive understanding of what consumers watch and buy,  reported that [73 percent of Millennials are willing to pay more for sustainable goods](https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-demonstrate-commitment-to-sustainability-outperform/).
+
+***TASK***
 
 **Discuss in group:** Are you willing to pay more for sustainable goods? Why or why not? Give some examples. 
 
@@ -148,7 +177,7 @@ https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-dem
 
 # Greenwashing 2
 
-However, some companies are becoming more adept at falsely claiming to be "green" by promoting environmentally-friendly initiatives or images without actually implementing business practices that minimise environmental impact. 
+However, some companies are becoming more adept at falsely claiming to be "green" by promoting environmentally-friendly initiatives or images without actually implementing business practices that minimize environmental impact. 
 
 This type of promotion is termed "green washing", a term coined in the 1980s by the environmentalist [Jay Westerveld](https://www.revolvy.com/page/Jay-Westerveld). 
 
@@ -167,6 +196,8 @@ http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashi
 
 # Greenwashing 3
 
+***TASK***
+
 How are the products being presented as “green products” i.e “greenwashed”?
 
 1. Make up two teams of students. 
@@ -179,35 +210,36 @@ Group 2: Read the article [Please Stop Saying Fashion is the 2nd Most Polluting 
 
 <f-notes>
 
-Society is becoming increasingly aware of environmental issues, including the impact of fast fashion on the environment. However, some companies are becoming more adept at falsely claiming to be ‘green’ by promoting environmentally-friendly initiatives or images without actually implementing business practices that minimise environmental impact. This type of promotion is termed “green washing”, a term coined in the 1980s by the environmentalist Jay Westerveld. 
+Society is becoming increasingly aware of environmental issues, including the impact of fast fashion on the environment. However, some companies are becoming more adept at falsely claiming to be "green" by promoting environmentally-friendly initiatives or images without actually implementing business practices that minimize environmental impact. This type of promotion is termed “green washing”, a term coined in the 1980s by the environmentalist Jay Westerveld. 
 
-The Oxford English Dictionary defines green wasting as the “dissemination is misinformation by an organisation so as to present an environmentally responsible public image.” This may involve misleading advertising, unsubstantiated claims or omission of important facts. For example, one clothing manufactures who claimed to sell eco-friendly bamboo-clothing actually sold rayon produced from bamboo. Processing of rayon uses harsh chemicals and releases hazardous air pollutants. Another manufacturer celebrated its position as the top user of organic cotton (grown without use of harmful pesticides), yet only 13.7% of the cotton used by this company is organic.
+The Oxford English Dictionary defines green wasting as the “dissemination is misinformation by an organization so as to present an environmentally responsible public image.” This may involve misleading advertising, unsubstantiated claims or omission of important facts. For example, one clothing manufactures who claimed to sell eco-friendly bamboo-clothing actually sold rayon produced from bamboo. Processing of rayon uses harsh chemicals and releases hazardous air pollutants. Another manufacturer celebrated its position as the top user of organic cotton (grown without use of harmful pesticides), yet only 13.7% of the cotton used by this company is organic.
 
 https://www.theguardian.com/sustainable-business/2016/aug/20/greenwashing-environmentalism-lies-companies
+
 http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashion_philosophy/
 
-***TRANSLATE***
 
-Tihti on ettevõtetel rohelised väited ning nad näitavad, et hoolivad keskkonnateemadest, kuid sisuliselt nad tegelikult seda ei tee. Näiteks 
-Kui inimesed kuulevad, et kiirmood on keskkonnale kahjulik ning nad tahaksid oma käitumist muuta, siis tihti on esimene samm see, et nad hakkavad jälgima, et riided oleksid tehtud orgaanilisest (mahe) puuvillast. Millele peaks tähelepanu pöörama väikeettevõtja, kes soovib võimalikult paljusid aspekte  arvestades teha keskkonnasõbralikke särke?
-
-</f-notes>
- 
 ---
 
-What could be done to reduce the impact of excessive consumption of textile products?
+# Pre-exploration
+
+### What could be done to reduce the impact of excessive consumption of textile products?
 
 Examples: 
 
-**Upcycling** as a way of reducing the impact of textile and fashion industries. Read and discuss the article: [Upcycling as a Fashion Philosophy](http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashion_philosophy/) by Una Meistere.
+**Upcycling** as a way of reducing the impact of textile and fashion industries.
 
-By **rebirthing** clothes through upcycling, you could save an estimated CO2 Saving of 12 kg per month (120 kg per year), just by extending the life of your clothing. One of the ways to do it is to **redye your clothes**. Read and discuss the article [How to Make Natural Dyes to Dye Fabric & Clothes at Home](https://www.1millionwomen.com.au/blog/how-to-make-natural-dyes-to-dye-fabric-clothes-at-home/) by 1 Million Women.
+***TASK*** Read and discuss the article: [Upcycling as a Fashion Philosophy](http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashion_philosophy/) by Una Meistere.
+
+By *rebirthing* clothes through upcycling, you could save an estimated CO2 Saving of 12 kg per month (120 kg per year), just by extending the life of your clothing. One of the ways to do it is to **redye your clothes**.
+
+***TASK*** Read and discuss the article [How to Make Natural Dyes to Dye Fabric & Clothes at Home](https://www.1millionwomen.com.au/blog/how-to-make-natural-dyes-to-dye-fabric-clothes-at-home/) by 1 Million Women.
 
 ---
 
 # Biology/Chemistry 1
 
-MAIN TASK: Dye some scraps of different natural fibers, using natural agents and mordants only. Work in small groups.
+***TASK*** Dye some scraps of different natural fibers, using natural agents and mordants only. Work in small groups.
 
 Workflow for production:
 
@@ -228,10 +260,11 @@ Remember: Main aim of this study project is to Integrate disciplines of design a
 
 # Biology/Chemistry 2
 
+***TASK***
+
 Explore natural pigments:
 
-1. With the help of information provided by teacher, 
-**find out about the natural pigments with colouring effect**.
+1. With the help of information provided by teacher, **find out about the natural pigments with colouring effect**.
 
 2. Discuss properties and usage of natural and artificial/chemical pigments in our environment. 
 
@@ -288,17 +321,23 @@ Viscose/rayon: https://www.textileschool.com/145/basics-of-rayon-fiber/
 
 # Biology/Chemistry 4
 
-TASK: testing the fabrics
+***TASK*** testing the fabrics
 
 We are to make two simple (nontechnical) tests to identify the type of fabric fibers. Nontechnical testing does not require any special equipment or setting. The different nontechnical methods of identifying the textile fibers are:
-
-<f-video src="https://www.youtube.com/watch?v=Ug9K0DHQSgc" />
-
-<f-video src="https://www.youtube.com/watch?v=kb4tCcnA6jo" />
 
 Conduct experiments in small groups. Follow teachers guidelines. Take notes.
 
 Discuss the findings all together.
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=Ug9K0DHQSgc" />
+
+Feeling test
+
+<f-video src="https://www.youtube.com/watch?v=kb4tCcnA6jo" />
+
+Burning test
 
 <f-notes>
 
@@ -340,6 +379,8 @@ Listen to teachers' explanations and/or watch the videos:
 
 https://www.khanacademy.org/science/high-school-biology/hs-biology-foundations/hs-biological-macromolecules/v/introduction-to-proteins-and-amino-acids
 
+-
+
 <f-video src="https://www.youtube.com/watch?v=wvTv8TqWC48" />
 
 ---
@@ -354,7 +395,11 @@ Easy explanation on tannins in plants: https://vinepair.com/wine-101/guide-to-ta
 
 <img src="./images/tannin.png" />
 
-Illustration: Tannins in grape: https://www.businessinsider.com.au/everything-you-need-to-know-about-wine-2013-8
+<f-notes>
+
+Image source: https://www.businessinsider.com.au/everything-you-need-to-know-about-wine-2013-8
+
+</f-notes>
 
 ---
 
@@ -366,9 +411,11 @@ Facts are to be presented by teacher, followed by a brief discussion about the i
 
 <f-notes>
 
-Reference: C. Ogugbue, T. Sawidis; Bioremediation and Detoxification of Synthetic Wastewater Containing Triarylmethane Dyes by AeromonashydrophilaIso-lated from Industrial Effluent, J. Biotechnology Research International, (2011). 
+References:
 
-(PDF) Assessment of Toxicity of Textile Dyes and Chemicals via Materials Safety Data Sheets.
+C. Ogugbue, T. Sawidis; Bioremediation and Detoxification of Synthetic Wastewater Containing Triarylmethane Dyes by AeromonashydrophilaIso-lated from Industrial Effluent, J. Biotechnology Research International, (2011).
+
+Assessment of Toxicity of Textile Dyes and Chemicals via Materials Safety Data Sheets.
 
 Available from: https://www.researchgate.net/publication/309155638_Assessment_of_Toxicity_of_Textile_Dyes_and_Chemicals_via_Materials_Safety_Data_Sheets [accessed Apr 19 2019].
 
@@ -376,34 +423,53 @@ Available from: https://www.researchgate.net/publication/309155638_Assessment_of
 
 ---
 
+| 1 1 1 1 1
+| 2 3 4 5 6
+| rows: auto
+
 # Biology/Chemistry 8: List of food residues that contain tannins 
 
-Avocado stones
-Avocado skins (especially Hass variety)
-Pomegranate skins
-Red onion peels
-Black tea
-Rooibos tea
-
----
+-
 
 <img src="./images/fruit1.jpg" />
 
+Avocado stones and Avocado skins (especially Hass variety)
+
+-
+
 <img src="./images/fruit2.jpg" />
+
+Pomegranate skins
+
+-
 
 <img src="./images/fruit3.jpg" />
 
+Red onion peels
+
+-
+
 <img src="./images/fruit4.jpg" />
 
+Black tea
+
+-
+
 <img src="./images/fruit5.jpg" />
+
+Rooibos tea
 
 ---
 
 # Biology/Chemistry 9 Mordants
 
-People are becoming more conscious about the issues related to fast fashion and use of toxic dyes. One of the least mentioned topics is mordants. It is important to consider using natural dyes since most natural dyes are not particularly toxic in themselves, but a mordant is invariably required for development of shade and dye fixation. Typically, a mordant is a heavy metal salt of aluminium, iron, copper, chromium or tin and have an effect to our health and environment. (See Ref1)
+People are becoming more conscious about the issues related to fast fashion and use of toxic dyes. One of the least mentioned topics is **mordants**.
 
-There are some alternatives to using the metal salts mordants. For example the material of the pot used for extracting the dye and dyeing can have an mordanting effect and different materials lead to different colors. Usually iron pots darken the color especially if there are tannins present and aluminium pots help to bring out the yellows from brown onion peels. 
+It is important to consider using natural dyes since most natural dyes are not particularly toxic in themselves, but a mordant is invariably required for development of shade and dye fixation.
+
+Typically, a mordant is a heavy metal salt of aluminum, iron, copper, chromium or tin and have an effect to our health and environment. ***TODO*** See Ref1
+
+There are some alternatives to using the metal salts mordants. For example the material of the pot used for extracting the dye and dyeing can have an mordanting effect and different materials lead to different colors. Usually iron pots darken the color especially if there are tannins present and aluminum pots help to bring out the yellows from brown onion peels. 
 
 <f-notes>
 
@@ -423,6 +489,7 @@ http://www.textilestudio.ca/guest%20artists/flint1.html
 Different traditional cultures have found their own unique ways to fix the colour on the fabric. For example, soy milk is used in Japan. You can buy it from the shops or make it on your own.
 
 More information here:
+
 https://www.pankuka-prints.com/post/217441097099/soy-milk-natural-dyes-paints
 
 -
@@ -435,7 +502,7 @@ https://www.pankuka-prints.com/post/217441097099/soy-milk-natural-dyes-paints
 
 One of the aspects to think about while choosing the fabric is to consider how much water has been consumed and polluted in the process of making the fabric. Other important aspects to consider are use of cropland, use of pesticides.Here you can find useful links to further research the environmental impact of different fabrics. 
 
-TASK: group work. Pick an article and research it. Presenting the findings in a compact form during discussion.
+***TASK***: group work. Pick an article and research it. Presenting the findings in a compact form during discussion.
 
 https://www.textileschool.com/154/eco-friendly-fibers/
 
@@ -447,7 +514,7 @@ Teacher notes:
 
 You might want to present some interesting facts in the beginning of the topic. These should be selected, following the interests on the group.
 
-Pick an interesting piece of information, visualise it.
+Pick an interesting piece of information, visualize it.
 
 Let students analyse the articles and present information in form of thesis/statements during follow-up discussion.
 
@@ -469,18 +536,18 @@ Workflow for experiment
 
 ---
 
-# Biology/Chemistry 12.1: Pretreating fibres in soy milk
+# Biology/Chemistry 12.1: Pre-treating fibres in soy milk
 
 List of materials
 
-* pot (aluminium, copper or iron)
+* pot (aluminum, copper or iron)
 * fabric (t-shirt)
 * Filter Cloth
 * soy milk (at least 1L)
 * wooden spoon (for stirring, one for each dye extract)
 * Protective clothing
 
-For pretreating the fabric you need to soak it in the soy milk for 12 hours. Keep the soaking solution in a cool place.
+For pre-treating the fabric you need to soak it in the soy milk for 12 hours. Keep the soaking solution in a cool place.
 Dry the fabric. Repeat the procedure 2-3 times.
 
 -
@@ -501,9 +568,9 @@ If necessary, explain, why pot of certain material and wooden spoon must be used
 
 Following food residues that contain tannins, can be used:
 
-1. pomegranade peels (you get bright yellow shade, using aluminium pot)
-2. avocado peels (you get pink shade, using aluminium pot)
-3. avocado stones (you get pink shade, using aluminium pot)
+1. pomegranate peels (you get bright yellow shade, using aluminum pot)
+2. avocado peels (you get pink shade, using aluminum pot)
+3. avocado stones (you get pink shade, using aluminum pot)
 
 Keep the materials in the dark and dry place. Drying of food residue is not compulsory. 
 
@@ -521,7 +588,7 @@ Avocado stones are around 12% of the total weight on an avocado.
 
 Workflow for experiment 
 
-1. Heat the selected food residue materials in the aluminium pot on medium temperature for 1,5h
+1. Heat the selected food residue materials in the aluminum pot on medium temperature for 1,5h
 
 2. Cool the mixture down.
 
@@ -535,7 +602,7 @@ Workflow for experiment
 
 # Biology/Chemistry 12.4: Dyeing the fabric. Workflow for experiment
 
-1. Pour dye extract into your dye pot. Use aluminium pot. 
+1. Pour dye extract into your dye pot. Use aluminum pot. 
 
 2. Wet the fabric and put it into dye pot.
 
@@ -560,7 +627,7 @@ Video example of dyeing fabric with avocado:
 Important notes: 
 
 * You will get the best results by working slowly. 
-* The fabric should stay in the dyepot for at least for 24h all together. This time is needed for dye molecules to create bonds with fabric fibres. 
+* The fabric should stay in the dye-pot for at least for 24h all together. This time is needed for dye molecules to create bonds with fabric fibres. 
 * The fabric should be stored for at least 7 days before you rinse it. 
 * Keep record of the dyeing process in order to gain better results on your product that will be 
 
@@ -574,7 +641,7 @@ Explain to the class, how the process of dyeing is happening.
 
 # Biology/Chemistry 12.5: Dyeing the fabric 3, summary
 
-TASK: make a process map of dyeing process 
+***TASK*** make a process map of dyeing process 
 
 * Work in small groups
 * Use your notes, discuss your experiments.
@@ -610,7 +677,7 @@ When mapping a process you simply draw a box for each step and connect them with
 
 It is time for us to make an effort to help the Earth. 
 
-**The MAIN TASK is to develop a handy, easy-to-make product**, which is  
+**The main task is to develop a handy, easy-to-make product**, which is  
 
 1. solving a problem
 2. made of recycled textile/cloth item
@@ -631,6 +698,8 @@ You will be using the simplified method of **design thinking**, which is widely 
 The process consists of 5 steps, which could be linear or not, depending on how the group is making a progress.
 
 ---
+
+| 1 2 2
 
 # Product Development 3 Process
 
@@ -708,17 +777,17 @@ Audience will have to ask specifying questions to refine and/or develop the idea
 
 ---
 
-Product Development 8: Refining ideas
+# Product Development 8: Refining ideas
 
 Discuss the results on presenting the ideas with your classmates and within your group.
 
-**Subtask 1: find out, whether and how the process of making your product is sustainable?**
+***Subtask 1:*** find out, whether and how the process of making your product is sustainable?
 
-Subtask 2: use the design thinking process with your group again (***TODO** See slide 39) and **find out and describe, how it is possible to make your process and/or product even more sustainable.** Remember themes you discussed earlier in bio/chem part of the learning project, such as issues of greenwashing, industrial textile production and fashion industry problems.
+***Subtask 2:*** use the design thinking process with your group again (***TODO*** See slide 39) and **find out and describe, how it is possible to make your process and/or product even more sustainable.** Remember themes you discussed earlier in bio/chem part of the learning project, such as issues of greenwashing, industrial textile production and fashion industry problems.
 
 ---
 
-Product Development 9: Preparing the marketing pitch for your product 
+# Product Development 9: Preparing the marketing pitch for your product 
 
 **Pitch**, also named **marketing pitch**, is a presentation of a **business idea** to potential investors.
 
@@ -726,9 +795,9 @@ People pitch ideas, because they need **resources** to fulfill their ideas. If t
 
 Other businesses pitch to potential **customers** to sell their product. Pitching is part of preparing the introduction of your idea and product to the audience and/or future customers.
 
-SUBTASK 1: Prepare the pitching presentation about your product. Rehearse within your group. Make your pitch stand out. 
+***SUBTASK 1*** Prepare the pitching presentation about your product. Rehearse within your group. Make your pitch stand out. 
 
-SUBTASK 2: Present your pitching presentation to your class. 
+***SUBTASK 2*** Present your pitching presentation to your class. 
 
 <f-notes>
 
@@ -758,12 +827,12 @@ Phrase the message that is clear enough to extend public understanding about eco
 
 Creating the visuals of your product
 
-4. Sketch your items and/or design on the paper by hand. Try to make variations, visualise and develop the idea, keep in mind the simplicity of the expression and composition :)
+###### 4. Sketch your items and/or design on the paper by hand. Try to make variations, visualize and develop the idea, keep in mind the simplicity of the expression and composition :)
 
-5. Digitalise your design. 
+###### 5. Digitalize your design. 
 Simplest way is to take a photo(s) with your smartphone.
 
-6. Process your images in a graphic software of your choice to make the etched model of your product. 
+###### 6. Process your images in a graphic software of your choice to make the etched model of your product. 
 
 <f-notes>
 
@@ -789,11 +858,11 @@ Image source: https://i.pinimg.com/564x/aa/2e/db/aa2edb0b73bd63bc481a94219703116
 
 #### Make digital/visual models of your product
 
-7. Analyse examples given by teacher together with your classmates.
+###### 7. Analyse examples given by teacher together with your classmates.
 
-8. With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on selected  t-shirt (use graphic testing module of t-shirt). Think concistency. 
+###### 8. With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on selected  t-shirt (use graphic testing module of t-shirt). Think consistency. 
 
-9. Ask for others' opinions on purposefulness of your message and (product) design, do they match? Try different variations, if required. 
+###### 9. Ask for others' opinions on purposefulness of your message and (product) design, do they match? Try different variations, if required. 
 
 <f-notes>
 
@@ -812,9 +881,9 @@ with guiding questions to preform the analysis of some ot together
 
 #### Matching Design and Technique
 
-11. Keep in mind that you are supposed to use only natural color and mordant agents to complete your task. Experiment to find the best way for applying design onto your item. Again, make changes to your design and/or item details, if necessary.  If you plan to make several items, be ready for differences, as outcome may differ due to the dyeing process.
+###### 11. Keep in mind that you are supposed to use only natural color and mordant agents to complete your task. Experiment to find the best way for applying design onto your item. Again, make changes to your design and/or item details, if necessary.  If you plan to make several items, be ready for differences, as outcome may differ due to the dyeing process.
 
-12. Make changes to your visual model, applying the knowledge you achieved of dyeing (and use processmap you've made). Again, analyse legibility, visual hierarchy, colour contrast as you did before to find out, whether your design is deliverable by natural dyeing process.
+###### 12. Make changes to your visual model, applying the knowledge you achieved of dyeing (and use process map you've made). Again, analyse legibility, visual hierarchy, colour contrast as you did before to find out, whether your design is deliverable by natural dyeing process.
  
 <f-notes>
 
@@ -824,15 +893,15 @@ It is essential to support students through the analyse process. As students' ex
 
 ---
 
-Art and Design 5
+# Art and Design 5
 
 #### Task: make design process map of your own products full stack process
 
-12. repeat steps 4-11, if necessary. 
+##### 12. repeat steps 4-11, if necessary. 
 
 When you are happy with your product and design, it is time to look back and analyse the product design process in whole.
 
-SUBTASK: Using the design process chart as model, create your own chart with **clearly stated outcomes of each stage** together with your group mates. 
+***SUBTASK*** Using the design process chart as model, create your own chart with **clearly stated outcomes of each stage** together with your group mates. 
 
 **Present your work** and help other groups by asking questions about what they have reached.
 
@@ -878,9 +947,9 @@ Dyeing the fabric 3, summary
 
 # Product dyeing process 2
 
-SUBTASK 1: create Dyeing Protocol of your product 
+***SUBTASK 1*** create Dyeing Protocol of your product 
 
-SUBTASK 2: conduct the Dyeing Process accordingly
+***SUBTASK 2*** conduct the Dyeing Process accordingly
 
 Decide, how will you transfer your design to your item. (And still, if necessary, adapt your design.) Keep in mind, what kind of colour shades you will be able to gain (use your previous knowledge). 
 
@@ -891,15 +960,15 @@ Decide, how will you transfer your design to your item. (And still, if necessary
 
 To bring the pattern or text on the t-shirt, you could try:
 
-A. shibori technique to tie/fold the elements which will not be wearing the colour; 
+A. Shibori technique to tie/fold the elements which will not be wearing the colour; 
 
-B. stencil technique to cover the part of the item which will not be wearing the colour;  
+B. Stencil technique to cover the part of the item which will not be wearing the colour;  
 
-C. use iron water to make the colours on the areas of design darker;
+C. Use iron water to make the colours on the areas of design darker;
 
-D. pretreat the fabric by painting the pattern/text with soy milk.
+D. Pretreat the fabric by painting the pattern/text with soy milk.
 
-Follow the steps for dyeing the fabric, that you have use slides on Exploration 4). **LINK**
+Follow the steps for dyeing the fabric, that you have use slides on Exploration 4). ***LINK***
 
 NOTE: Keep the record of colouring process, time and results. 
 
@@ -917,17 +986,59 @@ Combined techniques: https://www.artistsnetwork.com/art-mediums/technique-tuesda
 
 # Extension to printing (optional)
 
+***TASK***
+
 **Get to know printmaking and painting techniques**, that can be used to decorate your message t-shirt. Experiment with techniques, different dyes and/or different fabrics and/or material. You can also combine techniques and/or add ready-made textile markers. 
 
 Discuss the process and results.
 
 Follow the steps for dyeing the fabric, that you have use slides on Exploration 4). 
+
 NOTE: Keep the record of colouring process, time and results. 
 
 ---
 
-Brainstorming
+# Brainstorming
 
 How could we make each step of the process even more environmental-friendly?
 
-SUBTASK 1: Write down the step by step protocol for improved experiment. 
+***SUBTASK 1*** Write down the step by step protocol for improved experiment. 
+
+---
+
+# Pitching
+
+Presenting/Pitching the dyeing methods.
+Use your own dyed fabrics as examples.
+
+---
+
+# Explanation A
+
+Class will **compile the poster** in form of a mind map or similar, to demonstrate and explain, what they have learned about natural pigments, dyes and dyeing.
+
+Poster will be discussed and analysed during a class conversation, which should be led by teacher.
+
+---
+
+# References
+
+Taavi Nagel Photos https://www.facebook.com/Taavi%20Nagel%20Photos
+http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.jpg
+
+Vivienne Westwood official Website https://blog.viviennewestwood.com
+
+Documentary about Vivienne Westwood: https://www.viviennewestwoodmovie.com/
+
+The Life Cycle of a T-shirt: https://ia600802.us.archive.org/17/items/youtube-BiSYoeqb_VY/The_life_cycle_of_a_t-shirt_-_Angel_Chang-BiSYoeqb_VY.mp4
+
+T-shirt Quiz: https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ
+
+Jay Westerveld https://www.revolvy.com/page/Jay-Westerveld
+
+The History of Greenwashing. Jim Motavalli. Daily Finance, Feb 12th, 2011: https://web.archive.org/web/20150923212726/http://www.dailyfinance.com/2011/02/12/the-history-of-greenwashing-how-dirty-towels-impacted-the-green/
+
+
+
+
+
