@@ -205,13 +205,22 @@ move the pH-bar. Why does the color change?
 
 *When designing your indicator, you may need to consider the visibility of the color change. How accurate is the information offered by the color change?*
 
+
+<div style="display: flex">
+
 > <small><small>Phenol red: The structural parts indicated by the red color undergo changes as the pH is increased changing the colour of the molecule.</small></small>
+
+<img style="width: auto" src="images/phenol.png" />
+
+</div>
+
+
 
 </div>
 
 -
 
-<div :style="{background: hsl(get('ph'),100,50,0.5)}" style="position: relative; height: 100%">
+<div :style="{background: hsl(56-get('ph')*4,80,70,1)}" style="position: relative; height: 100%">
 <f-image style="position: absolute; left: 0; top: 0; bottom: 0; right: 0; background-size: cover" src="images/glass.png" />
 </div>
 
