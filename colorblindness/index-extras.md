@@ -2,6 +2,11 @@
 
 In this activity you will use solar cells and LEDs to explore how rods and cones are arranged in the retina, why rods are more sensitive to low light intensity and how three different types of cone are used to detect a range of colours. 
 
+<br />
+
+<a href="./files/Simulating-Rods-and-Cones-with-Electronic-Circuits.pdf" target="_blank" class="tertiary">See the activity (.pdf)</a>
+
+
 
 ---
 
@@ -9,6 +14,23 @@ In this activity you will use solar cells and LEDs to explore how rods and cones
 
 
 
+
+
+
+
+
+
+
+When you have read “Rods, Cones and Colour Perception”, try out these two quizzes to evaluate your understanding of rods and cones.
+
+These are found in “Extra Files”
+
+Rods and Cones Quiz (click on A to D and see if you answer correctly).
+
+Photoreceptor Summary Quiz (answers on click)
+
+
+---
 
 
 
@@ -72,7 +94,7 @@ In this activity you will use solar cells and LEDs to explore how rods and cones
   </f-group3>
 </f-scene3> -->
 
-<!-- <f-scene3 isometric responsive width="500" height="500" webgl  >
+<f-scene3 isometric responsive width="500" height="500" webgl  >
   <f-group3 scale="0.6" :rotation="[30, get('cylRot', 0), 0]" :position="[0, 0.7, 0]">
   <f-group3 v-for="b in range(0,(get('cylB',100)/10)-1)"
     :key="'b'+b"
@@ -95,9 +117,9 @@ In this activity you will use solar cells and LEDs to explore how rods and cones
     </f-group3>
     </f-group3>
   </f-group3>
-</f-scene3> -->
+</f-scene3>
 
-<f-scene3 isometric responsive width="500" height="500" webgl>
+<!-- <f-scene3 isometric responsive width="500" height="500" webgl>
   <f-box3
       v-for="h in range(1, 70)"
       :rotation="[h*3, h*3, 0]"
@@ -106,7 +128,7 @@ In this activity you will use solar cells and LEDs to explore how rods and cones
       :fill="hsl(ai2hue(h * 3), 100, 50)"
       :shading="false"
     />
-</f-scene3>
+</f-scene3> -->
 
 
 

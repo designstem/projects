@@ -100,8 +100,10 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 
 
-
-
+| rows: auto
+| cols: 3fr 2fr
+| 1 3
+| 2 3
 
 | id: cb-color-vision-mapper
 
@@ -109,20 +111,14 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 Use this activity to map the rods and cones in your retina. Notice that when an object is first detected by rod cells located at the periphery of your retina, the object appears black. When the image is detected by cones cells located in the fovea the centre of your retina, the colour of the object becomes apparent.
 
-<f-next-button title="rod/cones mapping" />
+<br />
 
----
+<a href="cv-mapper/" target="_blank" class="tertiary">Open the mapping tool (separate tab)</a>
 
+-
 
+<br />
 
+<f-next-button title="Next: color mixing" />
 
-
-
-
-
-
-
-| theme: dark
-| padding: 0
-
-<Mapper />
+-
