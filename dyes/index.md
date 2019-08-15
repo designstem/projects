@@ -122,8 +122,13 @@ Subject: consuming standards of western society, influence on third world countr
 
 ***TASK***
 
-1. Watch the video “The Life Cycle of a T-shirt”
-2. Discuss the video in group.
+### 1.
+
+Watch the video “The Life Cycle of a T-shirt”
+
+### 2.
+
+Discuss the video in group.
 
 -
 
@@ -146,12 +151,16 @@ Final question: what did you learn?
 
 Look at the NASA image of the Aral Sea in Central Asia. This huge inland lake has shrunk to less than 10% of its original size because water from the rivers that feed it have been diverted to irrigate farmland, largely to grow cotton.
 
-###### 4. Group or individual work: Complete T-shirt [quiz](https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ)
+### 4.
+
+Group or individual work: Complete T-shirt [quiz](https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ)
 
 ***TODO: Replace with real quiz*** 
 
 
-###### 5. Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
+### 5.
+
+Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
 
 </section></section>
 
@@ -278,9 +287,9 @@ Teacher notes:
 
 1. Teacher should prepare and make a short presentation according to the interests of students.
  
-Share references and/or sources to the material, that would help your students. 
+  Share references and/or sources to the material, that would help your students. 
 
-2. 3. depending on the profile of the group, historical facts might also be considered. You may include film clips, works of art etc.
+2. Depending on the profile of the group, historical facts might also be considered. You may include film clips, works of art etc.
 
 3. Ask students to make examples, explain the group, how chemical bond is forming. Make it simple.
 
@@ -349,7 +358,7 @@ Burning Test: box of matches or a lighter, candle, non-flammable stand, tweezers
 
 Explain and demonstrate both procedures  Let students experiment. Ask them to take notes. 
 
-Finalise the experiment with discussion on what and how they have learned.
+Finalize the experiment with discussion on what and how they have learned.
 
 </f-notes>
 
@@ -815,11 +824,17 @@ It is possible to arrange the pitching of ideas as (a part of) assessment.
 
 Phrase the message that is clear enough to extend public understanding about ecological issues and matches your product.
 
-1. Write the message on paper. Rephrase, if needed. Use extra help on language, if needed. Perform testing among the representatives of target audience.
+### 1.
 
-2. Think about lettering; pick/draw the images to be used (if any).
+Write the message on paper. Rephrase, if needed. Use extra help on language, if needed. Perform testing among the representatives of target audience.
 
-3. Brainstorm in your group, which items/products would be carrying the message AND be sustainable by nature as well.
+### 2.
+
+Think about lettering; pick/draw the images to be used (if any).
+
+### 3.
+
+Brainstorm in your group, which items/products would be carrying the message AND be sustainable by nature as well.
 
 ---
 
@@ -827,12 +842,18 @@ Phrase the message that is clear enough to extend public understanding about eco
 
 Creating the visuals of your product
 
-###### 4. Sketch your items and/or design on the paper by hand. Try to make variations, visualize and develop the idea, keep in mind the simplicity of the expression and composition :)
+### 4.
 
-###### 5. Digitalize your design. 
+Sketch your items and/or design on the paper by hand. Try to make variations, visualize and develop the idea, keep in mind the simplicity of the expression and composition :)
+
+### 5.
+
+Digitalize your design. 
 Simplest way is to take a photo(s) with your smartphone.
 
-###### 6. Process your images in a graphic software of your choice to make the etched model of your product. 
+### 6.
+
+Process your images in a graphic software of your choice to make the etched model of your product. 
 
 <f-notes>
 
@@ -856,13 +877,19 @@ Image source: https://i.pinimg.com/564x/aa/2e/db/aa2edb0b73bd63bc481a94219703116
 
 # Art and Design 3
 
-#### Make digital/visual models of your product
+### Make digital/visual models of your product
 
-###### 7. Analyse examples given by teacher together with your classmates.
+### 7.
 
-###### 8. With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on selected  t-shirt (use graphic testing module of t-shirt). Think consistency. 
+Analyse examples given by teacher together with your classmates.
 
-###### 9. Ask for others' opinions on purposefulness of your message and (product) design, do they match? Try different variations, if required. 
+### 8.
+
+With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on selected  t-shirt (use graphic testing module of t-shirt). Think consistency. 
+
+### 9.
+
+Ask for others' opinions on purposefulness of your message and (product) design, do they match? Try different variations, if required. 
 
 <f-notes>
 
@@ -879,11 +906,15 @@ with guiding questions to preform the analysis of some ot together
 
 # Art and Design 4
 
-#### Matching Design and Technique
+### Matching Design and Technique
 
-###### 11. Keep in mind that you are supposed to use only natural color and mordant agents to complete your task. Experiment to find the best way for applying design onto your item. Again, make changes to your design and/or item details, if necessary.  If you plan to make several items, be ready for differences, as outcome may differ due to the dyeing process.
+### 11.
 
-###### 12. Make changes to your visual model, applying the knowledge you achieved of dyeing (and use process map you've made). Again, analyse legibility, visual hierarchy, colour contrast as you did before to find out, whether your design is deliverable by natural dyeing process.
+Keep in mind that you are supposed to use only natural color and mordant agents to complete your task. Experiment to find the best way for applying design onto your item. Again, make changes to your design and/or item details, if necessary.  If you plan to make several items, be ready for differences, as outcome may differ due to the dyeing process.
+
+### 12.
+
+Make changes to your visual model, applying the knowledge you achieved of dyeing (and use process map you've made). Again, analyse legibility, visual hierarchy, colour contrast as you did before to find out, whether your design is deliverable by natural dyeing process.
  
 <f-notes>
 
@@ -895,9 +926,11 @@ It is essential to support students through the analyse process. As students' ex
 
 # Art and Design 5
 
-#### Task: make design process map of your own products full stack process
+### Task: make design process map of your own products full stack process
 
-##### 12. repeat steps 4-11, if necessary. 
+### 12.
+
+Repeat steps 4-11, if necessary. 
 
 When you are happy with your product and design, it is time to look back and analyse the product design process in whole.
 
