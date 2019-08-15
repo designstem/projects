@@ -1108,35 +1108,36 @@
 
 -
 
-##### <small>Show the pyramids</small>
-<f-slider set="pyraOffset" v-on:value=" v => { set('updateMe', v) }" to="1" step="0.01" />
+<f-buttons :buttons="['Dodecahedron','Cube']" set="hedronType" />
 
-##### <small>Rotate cube</small>
-<f-slider set="pyraRot" v-on:value=" v => { set('updateMe', v) }" to="180" step="0.1" value="0" />
+##### <small>Show the pyramids</small>
+<f-slider set="pyraOffset" v-on:value=" v => { set('updateMe', v) }" from="0" to="1" step="0.01"  />
+
+##### <small>Rotate hedron</small>
+<f-slider set="pyraRot" v-on:value=" v => { set('updateMe', v) }" to="180" value="60" />
 
 {{set('ddDih', 63.43495)}}
 {{set('ddRot', 72)}}
 
-<f-scene3 responsive isometric class="crisp">
-    <f-group3 :rotation=" '30 ' + get('pyraRot', 0) + ' 0' " scale="0.8">
-      <!-- first half  -->
-      <f-group3>
-        <f-group3 :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
-          <f-hedron3 
-              count="5" 
-              height="1" 
-              position="0 0 -1" 
-              r="0.764"
-              strokeWidth="0"
-              :fill="color('blue')"
-              :shading="false"
-            />
-        </f-group3>
+<f-scene3 v-if="get('hedronType',0) == 0" width="1000" height="1000" responsive isometric webgl class="crisp">
+  <f-group3 :rotation=" [ 0, get('pyraRot', 0) , 0 ] " scale="3">
+    <!-- first half  -->
+    <f-group3>
+      <f-group3 :position="[ 0, 0, -get('pyraOffset', 0) ]">
+        <f-hedron3 
+            count="5" 
+            height="1" 
+            position="0 0 -1" 
+            r="0.764"
+            strokeWidth="0"
+            :fill="color('blue')"
+            :shading="false"
+        />
       </f-group3>
-      <!-- <f-group3 v-for="(p, i) in range(0,4,1)" :rotation="' ' + get('ddDih') + ' 0 ' + (180+(get('ddRot')*p)) + ' '" :key="'pyramid'+i"> -->
-<f-group3 :rotation="get('ddDih') + ' 0 ' + (180+(get('ddRot')))">
-  <f-group3 :position="'0 0 ' + -get('pyraOffset', 0)" :rotation="'0 0 0'">
-    <f-hedron3 
+      <f-group3 v-for="p in range(0,4,1)" :rotation="[0,0,get('ddRot')*p]" :key="'pyramid'+p">
+        <f-group3 :rotation="[get('ddDih'),0,0]">
+          <f-group3 :position="[0, 0, -get('pyraOffset', 0)]" :rotation="[0,0,get('ddRot')/2]">
+            <f-hedron3 
               count="5" 
               height="1" 
               position="0 0 -1" 
@@ -1145,11 +1146,27 @@
               :fill="color('yellow')"
               :shading="false"
             />
+          </f-group3>
         </f-group3>
       </f-group3>
-<f-group3 :rotation="[get('ddDih'), 0 , 180+get('ddRot')]">
-  <f-group3 :position="'0 0 ' + -get('pyraOffset', 0)" :rotation="'0 0 0'">
-    <f-hedron3 
+    </f-group3>
+    <!-- second half  -->
+    <f-group3 :rotation="[0, 180, get('ddRot')/2]">
+      <f-group3 :position="[ 0, 0, -get('pyraOffset', 0) ]">
+        <f-hedron3 
+            count="5" 
+            height="1" 
+            position="0 0 -1" 
+            r="0.764"
+            strokeWidth="0"
+            :fill="color('blue')"
+            :shading="false"
+        />
+      </f-group3>
+      <f-group3 v-for="p in range(0,4,1)" :rotation="[0,0,get('ddRot')*p]" :key="'pyramid'+p">
+        <f-group3 :rotation="[get('ddDih'),0,0]">
+          <f-group3 :position="[0, 0, -get('pyraOffset', 0)]" :rotation="[0,0,get('ddRot')/2]">
+            <f-hedron3 
               count="5" 
               height="1" 
               position="0 0 -1" 
@@ -1158,27 +1175,16 @@
               :fill="color('green')"
               :shading="false"
             />
+          </f-group3>
         </f-group3>
       </f-group3>
-      <!-- <f-group3 v-for="(p, i) in range(0,4,1)" :rotation="get('ddDih') + ' 0 0'" :key="'pyramid'+i">
-        <f-group3 :position="'0 0 ' + -get('pyraOffset', 0)" :rotation="'0 ' + (63*i) +  ' 0 ' ">
-          <f-hedron3 
-              count="5" 
-              height="1" 
-              position="0 0 -1" 
-              r="0.764"
-              strokeWidth="0"
-              :fill="color('yellow')"
-              :shading="false"
-            />
-        </f-group3>
-      </f-group3> -->
     </f-group3>
+  </f-group3>
 </f-scene3>
 
 
-<f-scene3 responsive isometric class="crisp" >
-    <f-group3 :rotation=" '30 ' + get('pyraRot', 0) + ' 0' " scale="0.8">
+<f-scene3 v-else-if="get('hedronType') == 1" width="1000" height="1000" responsive webgl isometric class="crisp" >
+    <f-group3 :rotation=" '30 ' + get('pyraRot', 0) + ' 0' " scale="3">
       <!-- first pair  -->
       <f-group3>
         <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
