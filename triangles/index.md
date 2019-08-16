@@ -1,3 +1,5 @@
+| chapter: Introduction
+| section: First page
 | id: tr-start
 | padding: 10vmin
 | theme: blue
@@ -66,7 +68,7 @@
 
 
 
-
+| section: The assignment
 | id: tr-assignment
 | padding: 10vmin
 | height: 100vh
@@ -81,7 +83,7 @@
 &nbsp;
 
 1. ~Design a nesting box for a bird.~
-2. ~The design should be based on a <f-sidebar title="polyhedral shape" src="./math-polyhedra.md" width="43vw" />~
+2. ~The design should be based on a <f-sidebar title="polyhedral shape" src="./math-polyhedra.md" style="--sidebar-width: 50vw" overlay />~
 3. ~The material should have some thickness (wood, etc).~
 
 &nbsp;
@@ -106,7 +108,7 @@
 
 
 
-
+| section: Design problem
 | padding: 10vmin
 | 1 2 
 
@@ -142,7 +144,7 @@
 
 
 
-
+| section: Why polyhedral shape?
 | padding: 10vmin
 | 1 1
 | 2 3
@@ -190,7 +192,8 @@
 
 
 
-
+| chapter: Key steps
+| section: Key steps
 | padding: 10vmin
 | rows: auto auto auto
 | 1 1 1 1 1
@@ -312,7 +315,7 @@
 
 
 
-
+| section: Simplyfying the polyhedra
 | height: 100vh
 | padding: 10vmin
 | rows: auto auto auto
@@ -451,7 +454,8 @@
 
 
 
-
+| chapter: Triangles
+| section: Let's start with triangles
 | id: tr-triangles
 | padding: 10vmin
 | cols: 50vw auto
@@ -509,7 +513,7 @@
 
 
 
-
+| section: Geometry of triangles
 | padding: 10vmin
 | height: 100vh
 | rows: auto
@@ -525,7 +529,7 @@
 
 ~What defines a triangle and what kind of different triangles we know~
 
-<f-sidebar src="math-triangle-types.md" title="Triangle types" width="60vw" overlay> 
+<f-sidebar src="math-triangle-types.md" title="Triangle types" overlay style="--sidebar-width: 60vw"> 
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Triangle types <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
@@ -536,7 +540,7 @@
 ~Calculations based on triangle angles and sides~
 
 
-<f-sidebar src="math-triangle-calculations.md" title="Geometry of triangles" width="60vw" overlay>
+<f-sidebar src="math-triangle-calculations.md" title="Geometry of triangles" overlay style="--sidebar-width: 60vw">
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Geometry of triangles <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
@@ -546,7 +550,7 @@
 
 ~Calculations based on trigonometric functions~
 
-<f-sidebar src="math-triangle-trigonometry.md" title="Trigonometry" width="60vw" overlay>
+<f-sidebar src="math-triangle-trigonometry.md" title="Trigonometry" overlay style="--sidebar-width: 60vw">
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Trigonometry <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
@@ -562,13 +566,14 @@
 
 
 
-
+| chapter: Polygons
+| section: Polygons
 | id: tr-polygons
 | padding: 10vmin
 | height: 100vh
 | cols: 50vw auto
 | rows: auto
-| 1 1
+| 1 3
 | 2 3 
 
 # Polygons
@@ -595,17 +600,19 @@
 
 -
 
-<f-scene responsive class="fullWidthScene">
-  <f-regularpolygon count="6" scale="1" position="0 0" rotation="0" />
-  <f-regularpolygon :fill="color('green')" count="3" scale="0.6" position="-1.2 1.2" rotation="20" />
-  <f-regularpolygon :fill="color('blue')" count="3" scale="0.4" position="0.8 0" rotation="60" />
-  <f-regularpolygon count="4" scale="0.6" position="1.2 1.2" rotation="15" />
-  <f-regularpolygon :fill="color('red')" count="4" scale="0.4" position="-1 -0.2" rotation="-30" />
-  <f-regularpolygon :fill="color('yellow')" count="4" scale="0.3" position="0.3 1.7" rotation="45" />
-  <f-regularpolygon count="5" scale="0.6" position="1.2 -1.2" rotation="0" />
-  <f-regularpolygon :fill="color('yellow')" count="5" scale="0.3" position="0 -1.7" rotation="0" />
-  <f-regularpolygon  count="7" scale="0.6" position="-1.2 -1.2" rotation="0" />
-</f-scene>
+<div style="position:sticky; top: 20vh;">
+  <f-scene responsive >
+    <f-regularpolygon :fill="color('yellow')" stroke count="4" scale="1" position="-0.7 -0.4" rotation="-66" />
+    <f-regularpolygon count="6" scale="1" position="0 0" rotation="0" />
+    <f-regularpolygon count="3" scale="0.6" position="-1.2 1.2" rotation="20" />
+    <f-regularpolygon :fill="color('yellow')" stroke count="3" scale="0.4" position="0.8 0" rotation="40" />
+    <f-regularpolygon count="4" scale="0.6" position="1.2 1.2" rotation="15" />
+    <f-regularpolygon :fill="color('yellow')" stroke count="4" scale="0.3" position="0.3 1.7" rotation="45" />
+    <f-regularpolygon count="5" scale="0.6" position="1.2 -1.2" rotation="0" />
+    <f-regularpolygon :fill="color('yellow')" stroke count="5" scale="0.3" position="0 -1.7" rotation="0" />
+    <f-regularpolygon  count="7" scale="0.6" position="-1.1 -1.2" rotation="0" />
+  </f-scene>
+</div>
 
 ---
 
@@ -618,7 +625,7 @@
 
 
 
-
+| section: Simplification of polygons
 | padding: 10vmin
 | rows: auto
 | 1 1 1
@@ -699,7 +706,7 @@
 
 #### Here is how:
 
-<f-sidebar src="math-polygon.md" title="How to solve polygons" width="60vw" overlay>
+<f-sidebar src="math-polygon.md" title="How to solve polygons" overlay style="--sidebar-width: 60vw">
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Polygons and how to solve them <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
@@ -779,7 +786,8 @@
 
 
 
-
+| chapter: Polyhedra
+| section: Regular polyhedra
 | id: tr-polyhedra
 | height: 100vh
 | padding: 10vmin
@@ -787,7 +795,8 @@
 | rows: auto
 | 1 1 1 1 1
 | 2 3 4 5 6
-| 7 7 7 7 8
+| 7 7 7 7 7
+| 8 8 8 8 8
 
 
 # Polyhedra
@@ -829,7 +838,7 @@
 
 -
 
-<f-sidebar src="math-polyhedra.md" title="Polyhedra" width="60vw" overlay>
+<f-sidebar src="math-polyhedra.md" title="Polyhedra" overlay style="--sidebar-width: 60vw">
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
@@ -846,7 +855,7 @@
 
 
 
-
+| section: Simplification of polyhedron
 | padding: 10vmin
 | rows: auto
 | height: 100vh
@@ -934,14 +943,14 @@
 
 </blockquote>
 
-- ~The first one, *Icosahedron*, had **triangular** faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" width="60vw" />, to make the calculations.~ 
+- ~The first one, *Icosahedron*, had **triangular** faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" style="--sidebar-width: 60vw" overlay />, to make the calculations.~ 
 
 - ~The second one, *Dodecahedron*, was a bit more complicated, because its sides are **polygons** *(pentagons)*, so you need an **extra step**:~
 
 1. ~first: **find polygons**, and~ 
 2. ~then: **divide polygons to triangles**~
 
-~But, of course, this is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" width="60vw" />.~ 
+~But, of course, this is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" style="--sidebar-width: 60vw" overlay />.~ 
 
 -
 
@@ -976,10 +985,12 @@
 
 
 
-
+| chapter: Pyramids
+| section: Material thickness
 | id: tr-thickness
 | padding: 10vmin
 | background: lightergray
+| height: 100vh
 | rows: auto
 | cols: 50vw auto
 | gap: 5vw
@@ -1028,9 +1039,10 @@
 
 
 
-
+| section: Dihedral angle
 | background: lightergray
 | padding: 10vmin
+| height: 100vh
 | rows: auto
 | 1 1
 | 2 3
@@ -1070,14 +1082,14 @@
 { polyhedron: 'Icosahedron', dihedral: '138.19°' }]"/>
 
 
-
-
 ---
 
 
 
 
 
+
+| section: Why pyramids
 | id: tr-pyramids
 | padding: 10vmin
 | rows: auto
@@ -1097,10 +1109,6 @@
 
 - ~the **base** of a pyramid **is for the side of polyhedron** and~
 - ~the **tip** of the pyramid is at the **center point of the polyhedron**~
-
-<f-hr />
-
-<small>*We use **cube as an example**, because it is maybe the most familiar polyhedron and probably easiest to understand. But **the same stands for all regular polyhedra**.*</small>
 
 &nbsp;
 
@@ -1186,7 +1194,7 @@
 <f-scene3 v-else-if="get('hedronType') == 1" width="1000" height="1000" responsive webgl isometric class="crisp" >
     <f-group3 :rotation=" '30 ' + get('pyraRot', 0) + ' 0' " scale="3">
       <!-- first pair  -->
-      <f-group3>
+      <f-group3 key="ykkonen">
         <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
           <f-hedron3 
               :count="4" 
@@ -1211,7 +1219,7 @@
         </f-group3>
       </f-group3>
       <!-- second pair  -->
-      <f-group3 rotation="90 0 0">
+      <f-group3 rotation="90 0 0" key="kakkonen">
         <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
           <f-hedron3 
               :count="4" 
@@ -1236,7 +1244,7 @@
         </f-group3>
       </f-group3>
        <!-- third pair  -->
-      <f-group3 rotation="0 90 0">
+      <f-group3 rotation="0 90 0" key="kolmistovainen">
         <f-group3 rotation="0 0 45" :position="'0 0 ' + -get('pyraOffset', 0) + ' '">
           <f-hedron3 
               :count="4" 
@@ -1279,7 +1287,7 @@
 
 
 
-
+| section: Geometry of pyramids
 | padding: 10vmin
 | rows: auto
 | cols: 40vw auto
@@ -1301,7 +1309,7 @@
 
 &nbsp;
 
-<f-sidebar src="math-pyramid.md" title="MOre about pyramids" width="60vw" overlay>
+<f-sidebar src="math-pyramid.md" title="More about pyramids" style="--sidebar-width: 60vw" overlay>
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">How to solve the pyramids<f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
