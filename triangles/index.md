@@ -464,7 +464,7 @@
 | 1 1
 | 2 3 
 
-# Let’s start with triangles!
+# Let’s start with triangles! 
 
 -
 
@@ -478,7 +478,7 @@
 
 &nbsp;
 
-<small style="color:var(--gray)">👉 *You can drag the corners of the triangle*</small>
+<small>👉 *You can drag the corners of the triangle*</small>
 
 &nbsp;
 
@@ -521,7 +521,7 @@
 | 2 3 4
 | 5 5 5
 
-# Geometry of triangles 📐
+# Geometry of triangles 
 
 -
 

@@ -16,8 +16,6 @@ export default {
     },
     template: `
         <a-entity ref="scene" position="0 0 0" rotation="-30 -30 0">
-            
-        
             <!-- first half -->
             <a-entity>
             <a-entity rotation="0 0 0" >
