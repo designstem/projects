@@ -220,7 +220,7 @@ move the pH-bar. Why does the color change?
 
 -
 
-<div :style="{background: hsl(56-get('ph')*4,80,70,1)}" style="position: relative; height: 100%">
+<div :style="{backgroundColor: hsl(56-get('ph')*4,80,70,1)}" style="position: relative; height: 100%">
 <f-image style="position: absolute; left: 0; top: 0; bottom: 0; right: 0; background-size: cover" src="images/glass.png" />
 </div>
 
@@ -240,15 +240,64 @@ Write down the condition to a piece of paper.
 
 ---
 
-## Is it a dog or a wolf?
+<center style="flex-direction: column">
+
+# 👩‍🎨
+
+# <big>Designing a tattoo</big>
+Now we have to think about how our tattoo looks, feels, and most importantly - functions!
+
+</center>
+
+---
+
+| 1 2
+
+# Life or death? 
+
 How can you make sure that others understand what your tattoo is about? 
-Practice this by drawing a dog and a wolf.
-Discuss: What are the minimal requirements for making an image understandable for others? 
+
+Try to visualise some abstract phenomena, like life (or death), by sketching something on a piece of paper.
+
+After you've finished, show your creation to others, or draw it on a whiteboard.
+
+What kind of symbol did you draw, and why? Does it differ from your friend's drawings? 
+Why do we use these particular symbols, can everyone understand them the same way everywhere else, in all situations?
+
+-
+<div style="font-size: 128px; font-family: color-emoji; margin-left: var(--content-padding); width: 100%; height: 100%; position: relative; overflow: hidden">
+<div style="transform: scale(1); opacity: 0.5; position: absolute; right: -0.5em">💀</div>
+<div style="transform: scale(1); opacity: 0.5; position: absolute; right: -0.5em">😇</div> 
+</div>
+
+---
+
+# Context is key ☠️
+
+Symbols are always understood in some **context**. The symbol ☠ could refer to a dangerous area, a poisonous liquid, or a jolly pirate ship at a kid's birthday party.
+
+Symbols can also mean different things to different people. Symbols are **conventional**, which mean that they are agreed upon to mean something, and not everyone may know all of these agreements. A kid may link the ☠ symbol to pirates of the Carribean, a doctor in a hospital to something else entirely.
+
+---
+
+# Form or function?
+
+The way a symbol is presented is also part of the context. Simple lines and bold swatches of color are usually more readable at a glance. Detailed drawings are more decorative, but don't convey information that easily. For that reason, different styles are used for different purposes - if the purpose is to convey important information quickly, then the symbol should be as simple (readable) as possible.
+
+If the functionality of the symbol is not that important, or the main function of the symbol is to be decorative, then there is more room to experiment with the form - or how the symbol looks like. 
+
+---
+
+# Back to tattooing
+
+Tattoos have always had strong symbolic meaning - **cultural**, to convey some message about the bearer to other members of society - and / or **personal**, to mean something to the bearer herself.
+
+What meaning or function whould your **smart tattoo** have? Would it be personal, functional or cultural? Does it have to be understood by everyone, at a glance? Or could it be secret and personal, only understood by the bearer?
 
 ---
 
 ## Deeper into the design
-Visit the icon designer to learn more about how to make your tattoo as understandable as possible. Make adjustments to your first verstion if necessary
+Visit the icon designer to learn more about how to make your tattoo as understandable as possible. Make adjustments to your first version if necessary
 <a class="primary" href="../tattoo_icons">Go to icon designer</a>
 
 ---
