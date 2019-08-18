@@ -333,7 +333,10 @@ https://www.vitsoe.com/gb/about/good-design
 
 -
 
-<f-image src="./images/color_blindness_accessibility_braun.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+<figure style="width:100%; display:flex; justify-content:center; flex-direction:column; align-items: center; margin: 0; position:sticky; top:15vh;">
+  <img src="./images/color_blindness_accessibility_braun.jpg" />
+  <figcaption>This is Dieter Rams' calculator for BRAUN</figcaption>
+</figure>
 
 
 
