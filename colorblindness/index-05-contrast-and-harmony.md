@@ -538,9 +538,11 @@
 
 #### ~Change the given color palette so that:~
 
-~It stays as closely as possible to the original colors~
-~a) It is **more harmonious**~
-~b) It is **more prominent**~
+~It stays as closely as possible to the original colors and~
+~a) the palette is **more harmonious**~ or
+~b) the palette is **more prominent**~.
+
+~Keep in mind that colors influence one another (*see Itten's simultaneous contrast*). A color e.g. can appear colder or warmer, brighter or darker next to another color.~
 
 -
 
