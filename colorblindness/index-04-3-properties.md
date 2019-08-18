@@ -489,6 +489,12 @@ hint not a rule.
 
 </f-sidebar> 
 
+-
+
+-
+
+<f-image src="./images/color_blindness_accessibility_31.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
 
 
 
