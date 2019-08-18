@@ -244,11 +244,11 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 <br>
  
-1. Think of other methods to make information accessible other than color coding it. What could you do else?
-2. Reflect on what you learned. What was new for you or interesting? What was difficult or easy?
-3. Do you think the information will be useful for you as a designer?
-4. What about the social relevance: When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?
-
+1. Reflect on what you learned. What was new for you or interesting? What was difficult or easy?
+2. Do you think the information will be useful for you as a designer or STEM student?
+3. What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?
+<br>
+4. Think of other methods to make information more accessible other than color coding it. What could you do else?
 <br>
 
 
@@ -264,3 +264,79 @@ Upload your picture into the CVD-simulator and check whether it works.~
 -
 
 <f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+
+
+
+---
+
+
+| section: evaluate
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Evaluate meta  -->
+# EVALUATE | Design
+
+<f-hr style="margin:var(--base6) 0" />
+
+<br>
+ 
+1. Have a look at the famous calculator Dieter Rams designed for BRAUN. Compare his solution to yours. What is different?
+2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion!
+3. What should he have done different?
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Hint for teachers. 
+  ~This is the chance for you to lead over to Dieter Rams' 10 design principles.~
+
+</f-notes>
+
+-
+
+<f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+
+
+
+---
+
+
+| section: evaluate
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Evaluate meta  -->
+# EVALUATE | Biology
+
+<f-hr style="margin:var(--base6) 0" />
+
+<br>
+ 
+1. Have a look at the famous calculator Dieter Rams designed for BRAUN. Compare his solution to yours. What is different?
+2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion!
+3. What should he have done different?
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Hint for teachers. 
+  ~This is the chance for you to lead over to Dieter Rams' 10 design principles.~
+
+</f-notes>
+
+-
+
+<f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+
