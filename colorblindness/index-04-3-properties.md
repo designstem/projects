@@ -415,7 +415,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 
 
-| id: cb-saturation
+| id: cb-conclusion
 | rows: auto
 | cols: 1fr 2fr
 | 1 1
@@ -447,8 +447,7 @@ Whereas brighter colors feel louder, lighter, younger, more active, cheerful and
 The average effect of saturated colors is loud, bold, open, active, risky and cheerful.
 Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.
 <br>
-This is only the average impression - it can vary depending on the color's hue. So only take it as a
-hint not a rule.
+This is only the average impression - it can vary depending on the color's hue. **So only take it as a hint, not a rule.**
 
 </f-sidebar> 
 
