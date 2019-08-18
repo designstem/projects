@@ -338,8 +338,8 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 
 ##### TASKS
-~1. Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.
-2. Alter the polarity profiles below, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on *show*. But don't cheat!~
+1. Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.
+2. Alter the polarity profiles below, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on *show*. **But don't cheat!**
 
 
 -
