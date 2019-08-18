@@ -491,7 +491,8 @@ Now remember what you learned about how saturation and brightness can alter a co
 <br>
 👈
 
-~There is one condition: **All three shampoos smell like apples.**
+~There is one condition: 
+**All three shampoos smell like apples.**
 Go to the next page to choose your colors. 
 Be ready to explain your choices.~ 
 
