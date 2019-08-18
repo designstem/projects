@@ -434,7 +434,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 a) bright colors have in comparison to dark colors and 
 b) saturated colors have in comparison to desatured colors.~
 
-~Check your result after coming up with a conclusion.~
+~Check below after coming up with your own conclusion.~
 
 <f-sidebar title="Conclusion" overlay>
 
@@ -467,7 +467,7 @@ This is only the average impression - it can vary depending on the color's hue. 
 | cols: 3fr 2fr 1fr
 | 1 1 1
 | 2 2 2
-| 3 4 4
+| 3 3 4
 | 5 5 5
 
 <!-- ##### EXPLAIN -->
