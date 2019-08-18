@@ -246,11 +246,11 @@ Upload your picture into the CVD-simulator and check whether it works.~
 ~Lets reflect on what you achieved.~
 
 <br>
-
+ 
 1. Think of other methods to make information accessible other than color coding it. What could you do else?
-2. Reflect on what you learned. What was new for you or interesting? 
+2. Reflect on what you learned. What was new for you or interesting? What was difficult or easy?
 3. Do you think the information will be useful for you as a designer?
-4. What about the social relevance - do you think that designing for people with CVD helps them in their daily lives?
+4. What about the social relevance: When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?
 
 <br>
 
