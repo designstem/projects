@@ -416,11 +416,9 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 
 | id: cb-conclusion
+| theme: light
 | rows: auto
-| cols: 1fr 2fr
-| 1 1
-| 2 3
-| 4 4
+| 1 2
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
@@ -450,8 +448,6 @@ Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive,
 This is only the average impression - it can vary depending on the color's hue. **So only take it as a hint, not a rule.**
 
 </f-sidebar> 
-
--
 
 -
 
