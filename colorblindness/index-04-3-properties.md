@@ -418,7 +418,8 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | id: cb-conclusion
 | theme: light
 | rows: auto
-| 1 2
+| 1 1
+| 2 3
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
@@ -466,7 +467,8 @@ This is only the average impression - it can vary depending on the color's hue. 
 | cols: 3fr 2fr 1fr
 | 1 1 1
 | 2 2 2
-| 3 4 5
+| 3 4 4
+| 5 5 5
 
 <!-- ##### EXPLAIN -->
 <!-- <f-activity-icon size="large" /> -->
