@@ -254,10 +254,6 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 <br>
 
-<mark> Here we need to add a picture.</mark>
-
-
-
 
 <f-notes>
   
@@ -267,3 +263,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
   ~In the first task, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.~
 
 </f-notes>
+
+-
+
+<f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
