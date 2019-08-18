@@ -301,6 +301,149 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 ---
 
 
+<!-- ##### KRISTINS PLAYGROUND 3 -->
+
+
+
+
+| id: cb-saturation
+| rows: auto
+| cols: 1fr 2fr
+| 1 1
+| 2 3
+| 4 4
+
+<!-- ##### EXPLAIN -->
+##### Three properties of color
+# Saturation
+
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
+
+-
+
+~Next, the **saturation of the colors** can be changed. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means more pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
+
+~Again, we will work with polarity profiles to understand the effect a change in saturation can have on the color.~
+
+
+
+#####TASKS
+~1. Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.
+2. Alter the polarity profiles below, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on *show*. But don't cheat!~
+
+&nbsp;
+
+#### Effect of saturated colors
+
+<PolarityQuiz :input="[ 
+  ['light','heavy',4], 
+  ['cold','warm',3], 
+  ['quiet','loud',4],
+  ['young','old',2],
+  ['active', 'passive', 1]
+  ['cheerful','sad',1], 
+  ['serious','carefree',2], 
+  ['mysterious','predictable',2],
+  ['open','secretive',1],
+  ['risky', 'cautious', 1]
+  ['spontaneous', 'planning', 2]
+]" />
+
+
+&nbsp;
+
+
+#### Effect of desaturated colors
+
+<PolarityQuiz :input="[ 
+  ['light','heavy',1], 
+  ['cold','warm',2], 
+  ['quiet','loud',1],
+  ['young','old',4],
+  ['active', 'passive', 5]
+  ['cheerful','sad',4], 
+  ['serious','carefree',3], 
+  ['mysterious','predictable',3],
+  ['open','secretive',4],
+  ['risky', 'cautious', 5]
+  ['spontaneous', 'planning', 4]
+]" />
+
+
+
+
+
+
+
+-
+
+<f-scene width="600" height="200" responsive>
+  <f-box 
+    width="4"
+    height="4"
+    x="-4"
+    stroke="none"
+    :fill="hsb2hsl(340,100,67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    x="-4"
+    y="-1"
+    stroke="none"
+    :fill="hsb2hsl( 340, get('saturation',50), 67 )"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    stroke="none"
+    x="0"
+    :fill="hsb2hsl(134, 100, 67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    stroke="none"
+    x="0"
+    y="-1"
+    :fill="hsb2hsl( 134, get('saturation',50), 67 )"
+  />
+  <f-box 
+    width="4"
+    height="4"
+    x="4"
+    stroke="none"
+    :fill="hsb2hsl(247, 100, 67)"
+  />
+  <f-box 
+    width="4"
+    height="2"
+    x="4"
+    y="-1"
+    stroke="none"
+    :fill="hsb2hsl( 247, get('saturation',50), 67 )"
+  />
+</f-scene>
+
+<f-slider  to="100" :value="get('saturation', 67)" v-on:input="set('saturation', $event)" title="Adjust saturation" />
+
+-
+
+<f-next-button  />
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 
 
 
