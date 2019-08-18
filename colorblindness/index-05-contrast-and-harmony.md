@@ -612,7 +612,7 @@ If possible, discuss your results with someone else.~
 
 | id: contrast
 | rows: auto
-| 1 1 1 1
+| 1 1 1 3
 | 2 2 2 3 
 | 4 4 5 5
 
@@ -666,11 +666,11 @@ If possible, discuss your results with someone.
 
 <h1 :style="{
   color: hsb2hsl( get('h52',44), get('s52',77), get('b52',77) )
-}">Halloo</h1>
+}">Discover nature</h1>
 
 <p :style="{
   color: hsb2hsl( get('h53',44), get('s53',77), get('b53',77) )
-}">Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampfschiffahrtsgesellschaftskapitän eu Kaftfahrzeug-Haftpflichtversicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.</p>
+}">If you love nature, walks in the woods, mountain peaks reflected in lake waters, wildlife sanctuaries for observing animals in their own habitat, a whole range of flora... plan a holiday in the mountains!</p>
 
 </div>
 
