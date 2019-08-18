@@ -483,7 +483,7 @@ hint not a rule.
 # <f-activity-icon size="large" /> Colors for shampoo bottles
 
 -
-~Now remember what you learned about how saturation and brightness can alter a color's effect. ~
+~Now remember what you learned about how saturation and brightness can alter a color's effect.~
 
 #### TASK
 ~Choose a color which could be used as primary color for the following products:~
@@ -493,7 +493,9 @@ hint not a rule.
 3. ~Unisex shampoo~
 
 -
-
+<br>
+<br>
+<br>
 ### 👈
 
 ~There is one condition: **All three shampoos smell like apples.**
