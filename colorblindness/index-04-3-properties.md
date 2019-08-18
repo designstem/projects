@@ -418,7 +418,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | id: cb-conclusion
 | theme: light
 | rows: auto
-| 1 1
+| 1 3
 | 2 3
 
 <!-- ##### EXPLAIN -->
@@ -489,7 +489,7 @@ Now remember what you learned about how saturation and brightness can alter a co
 <br>
 <br>
 <br>
-### 👈
+👈
 
 ~There is one condition: **All three shampoos smell like apples.**
 Go to the next page to choose your colors. Be ready to explain your choices.~ 
