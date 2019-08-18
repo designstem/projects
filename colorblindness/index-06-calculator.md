@@ -48,7 +48,7 @@ For the STEM path you only need some paper, brushes and watercolors.~
 -
 
 ~Congratulations! You chose the STEM path and this is your quest:
-Create a new color scheme for a calculator with white buttons, which is also works for people with color vision deficiency.~
+Create a new color scheme for a calculator with white buttons, which also works for people with color vision deficiency.~
 
 <br />
 
@@ -73,8 +73,7 @@ Create a new color scheme for a calculator with white buttons, which is also wor
 </figure>
 
 -
-
-<f-next-button />
+<button class="primary" v-on:click="send('goto', 'cb-workshop-test')">Test your design</button>
 
 ---
 
@@ -111,8 +110,6 @@ Design a calculator app that works for people with color vision deficiency, but 
 
 <br />
 
-<!-- <mark> Here we need to add a picture of the calculator.</mark> -->
-<mark> We need to add a link to a pdf with the calculator (color-me-in-sheet).</mark>
 
 -
 
@@ -123,7 +120,7 @@ Design a calculator app that works for people with color vision deficiency, but 
 
 -
 
-<f-next-button />
+<button class="primary" v-on:click="send('goto', 'cb-workshop-test')">Test your design</button>
 
 ---
 
