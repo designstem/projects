@@ -423,7 +423,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
-# Conclusion
+# <f-note-icon size="large" /> Conclusion
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
