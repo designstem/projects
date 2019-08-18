@@ -701,21 +701,24 @@ hint not a rule.
 
 <!-- ##### EXPLAIN -->
 <!-- <f-activity-icon size="large" /> -->
-# <f-activity-icon size="large" /> Colors for shampoo brand
+# <f-activity-icon size="large" /> Colors for shampoo bottles
 
 -
-~Now think back on the effect ~
+~Now remember what you learned about how saturation and brightness can alter a color's effect. ~
+
+#### TASK
 ~Choose a color which could be used as primary color for the following products:~
 
-1. ~baby shampoo~ 
-2. ~shampoo for men 60+~
+1. ~Baby shampoo~ 
+2. ~Shampoo for men 60+~
 3. ~Unisex shampoo~
 
 -
 
 ### 👈
 
-~There is one condition: **all three shampoos smell like apples**~ 
+~There is one condition: **All three shampoos smell like apples.**
+Go to the next page to choose your colors. Be ready to explain your choices.~ 
 
 -
 
