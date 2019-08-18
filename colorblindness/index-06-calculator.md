@@ -13,12 +13,9 @@
 There are two different paths that you could take for the final task.
 Either you could choose the STEM or the DESIGN focus.~
 
-~The STEM path is for all students who don't have any access to or knowledge about design software (like Photoshop or Illustrator).
-Whereas the DESIGN path requires you to also use design software.
-For the STEM path you only need some paper, brushes and watercolors.~
+~*The STEM path is for all students who don't have any access to or knowledge about design software (like Photoshop or Illustrator).
+Whereas the DESIGN path requires you to also use design software. For the STEM path you only need some paper, brushes and watercolors*.~
 
-
-<!-- <mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark> -->
 
 -
 
