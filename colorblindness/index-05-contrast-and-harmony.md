@@ -697,7 +697,7 @@ If possible, discuss your results with someone.
 ##### Color contrast and harmony
 # Task 3
 
--
+
 
 ~Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
 
@@ -734,7 +734,7 @@ If possible, discuss your results with someone.
     get('activeEl') == 'el2' ? 'marchingants--active' : 'marchingants'  
   "
   @click.prevent="set('activeEl', 'el2')"
->Halloo</h1>
+>Discover nature</h1>
 
 <p :style="{
   color: hsb2hsl( get('col3-1',44), get('col3-2',77), get('col3-3',77) )
@@ -742,7 +742,7 @@ If possible, discuss your results with someone.
 :class="
   get('activeEl') == 'el3' ? 'marchingants--active' : 'marchingants'  
 "
-@click.prevent="set('activeEl', 'el3')">Deutsches Ipsum Dolor meliore Hockenheim et Spezi Te Käsefondue utamur genau Exerci Donaudampf&shy;schiffahrts&shy;gesellschafts&shy;kapitän eu Kaftfahrzeug-Haftpflicht&shy;versicherung Principes Hackfleisch eos Fußball His Wiener Schnitzel moderatius Deutsche Mark.</p>
+@click.prevent="set('activeEl', 'el3')">If you love nature, walks in the woods, mountain peaks reflected in lake waters, wildlife sanctuaries for observing animals in their own habitat, a whole range of flora... plan a holiday in the mountains!</p>
 
 </div>
 
