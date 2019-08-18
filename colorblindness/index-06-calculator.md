@@ -300,7 +300,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 -
 
-<f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+<f-image src="./images/color_blindness_accessibility_braun.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 
 
