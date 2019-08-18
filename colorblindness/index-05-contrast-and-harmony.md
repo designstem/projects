@@ -690,9 +690,9 @@ If possible, discuss your results with someone.
 
 | rows: auto
 | cols: 1fr 2fr 2fr
-| 1 1 1
-| 2 3 4
-| 5 3 4
+| 1 1 3
+| 2 2 3
+| 4 4 3
 
 ##### Color contrast and harmony
 # Task 3
