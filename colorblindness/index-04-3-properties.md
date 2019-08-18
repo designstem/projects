@@ -444,8 +444,50 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 
 
+---
 
 
+<!-- ##### KRISTINS PLAYGROUND 4 -->
+
+
+
+
+| id: cb-saturation
+| rows: auto
+| cols: 1fr 2fr
+| 1 1
+| 2 3
+| 4 4
+
+<!-- ##### EXPLAIN -->
+##### Three properties of color
+# Conclusion
+
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
+
+-
+#### So what did we learn?
+
+~Summarize in your own words the effect 
+a) bright colors have in comparison to dark colors and 
+b) saturated colors have in comparison to desatured colors.~
+
+~Check your result after coming up with a conclusion.~
+
+<f-sidebar title="Conclusion" overlay>
+
+### Conclusion
+
+The average feeling of darker colors is heavy, old, passive, slow, serious, sad, quiet.
+Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.
+<br>
+The average effect of saturated colors is loud, bold, open, active, risky and cheerful.
+Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.
+<br>
+This is only the average impression - it can vary depending on the color's hue. So only take it as a
+hint not a rule.
+
+</f-sidebar> 
 
 
 
@@ -662,7 +704,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 # <f-activity-icon size="large" /> Colors for shampoo brand
 
 -
-
+~Now think back on the effect ~
 ~Choose a color which could be used as primary color for the following products:~
 
 1. ~baby shampoo~ 
