@@ -770,12 +770,19 @@ If possible, discuss your results with someone.
 | gap: 1vmin
 | rows: auto
 
-| 1 2 2 2
+| 1 1 2 2
+| 1 1 2 2
 | 3 4 5 6
 | 7 7 7 7
 
+##### Color contrast and harmony
+# Task 4
 
-~Here will be some space for instructions etc.~
+~Earlier, we learned that people with color vision deficiency cannot see all colors, therefore it is hard for them to sometimes access information, especially when text is written in a color, or is placed on a colorful background.~
+
+1. Adjust the background, text and headlines colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad.
+2. Adjust the colors, so that the results in all three color vision deficiencies is the best you can get.
+3. Analyse the results and form a conclusion based on the following question: **When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?**
 
 -
 
