@@ -196,11 +196,14 @@ But what if we leave the hue unaltered and change the other two properties: satu
 You may use the slider beneath the color boxes to darken or brighten up the colors, then work on the following tasks.~
 
 <br>
+<br>
+<br>
+<br>
 
 ##### TASKS
 1. Observe how the colors' effect changes when they are darker or brighter by using the slider beneath the color boxes.
-2. Look at the polarity profiles (adjective pairs) below. You can drag the slider more to the left to indicate that the effect of the color relates more to the adjective on the left and the other way around. So for example, if you think that a color feels heavier, you could drag the slider more to the right. There are five different degrees. The further the slider points to one of the sides, the stronger the effect. So if the slider is positioned in the middle, it means that the effect is balanced between the two polarities.
-3. Now, alter the polarity profiles below, so that they show the effect the dark and the light colors have on you. After you are done, you can compare your results with average values by clicking on *show*.
+2. Look at the **polarity profiles** (adjective pairs) on the right. You can drag the slider more to the left to indicate that the effect of the color relates more to the adjective on the left and the other way around. So for example, if you think that a color feels heavier, you could drag the slider more to the right. There are five different degrees from which you can choose. The further the slider points to one of the sides, the stronger the effect of the adjective. So if the slider is positioned in the middle, it means that the effect is balanced between the two polarities.
+3. Now, alter the polarity profiles on the right, so that they show the effect the dark and the light colors have on **you**. After you are done, you can compare your results with average values by clicking on *SHOW*. **But don't cheat!**
 
 
 -
@@ -334,52 +337,9 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 
 
-#####TASKS
+##### TASKS
 ~1. Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.
 2. Alter the polarity profiles below, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on *show*. But don't cheat!~
-
-&nbsp;
-
-#### Effect of saturated colors
-
-<PolarityQuiz :input="[ 
-  ['light','heavy',4], 
-  ['cold','warm',3], 
-  ['quiet','loud',4],
-  ['young','old',2],
-  ['active', 'passive', 1],
-  ['cheerful','sad',1], 
-  ['serious','carefree',2], 
-  ['mysterious','predictable',2],
-  ['open','secretive',1],
-  ['risky', 'cautious', 1],
-  ['spontaneous', 'planning', 2]
-]" />
-
-
-&nbsp;
-
-
-#### Effect of desaturated colors
-
-<PolarityQuiz :input="[ 
-  ['light','heavy',1], 
-  ['cold','warm',2], 
-  ['quiet','loud',1],
-  ['young','old',4],
-  ['active', 'passive', 5],
-  ['cheerful','sad',4], 
-  ['serious','carefree',3], 
-  ['mysterious','predictable',3],
-  ['open','secretive',4],
-  ['risky', 'cautious', 5],
-  ['spontaneous', 'planning', 4]
-]" />
-
-
-
-
-
 
 
 -
@@ -433,6 +393,48 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 </f-scene>
 
 <f-slider  to="100" :value="get('saturation', 67)" v-on:input="set('saturation', $event)" title="Adjust saturation" />
+
+<br>
+
+&nbsp;
+
+#### Effect of saturated colors
+
+<PolarityQuiz :input="[ 
+  ['light','heavy',4], 
+  ['cold','warm',3], 
+  ['quiet','loud',4],
+  ['young','old',2],
+  ['active', 'passive', 1],
+  ['cheerful','sad',1], 
+  ['serious','carefree',2], 
+  ['mysterious','predictable',2],
+  ['open','secretive',1],
+  ['risky', 'cautious', 1],
+  ['spontaneous', 'planning', 2]
+]" />
+
+
+&nbsp;
+
+
+#### Effect of desaturated colors
+
+<PolarityQuiz :input="[ 
+  ['light','heavy',1], 
+  ['cold','warm',2], 
+  ['quiet','loud',1],
+  ['young','old',4],
+  ['active', 'passive', 5],
+  ['cheerful','sad',4], 
+  ['serious','carefree',3], 
+  ['mysterious','predictable',3],
+  ['open','secretive',4],
+  ['risky', 'cautious', 5],
+  ['spontaneous', 'planning', 4]
+]" />
+
+
 
 -
 
