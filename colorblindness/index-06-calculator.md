@@ -25,6 +25,31 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 
 <button class="primary" v-on:click="send('goto', 'cb-workshop-design')">DESIGN path</button> 
 
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Hint for teachers. 
+  ~The design object on which students test their knowledge can be diverse and adjusted to the subject. For example, you could also focus on the following objects:~
+  <br>
+* Posters
+* Brochures
+* Diagrams
+* Infographics
+* Websites
+* Packaging
+* Game design
+<br>
+~Whenever information needs to be conveyed visually, we have to think about accessibility, because it is not only about aesthetics anymore. It’s about enabling the target group to get the information they need. Therefore many products are suitable as learning objects for this project and can be adjusted to the students’ level. Feel free to use the following tasks as basis for your own.~
+
+</f-notes>
+
+
+
+
+
 ---
 
 
@@ -71,6 +96,10 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 -
 <button class="primary" v-on:click="send('goto', 'cb-workshop-test')">Test your design</button>
+
+
+
+
 
 ---
 
@@ -286,7 +315,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
  
 1. Have a look at the famous calculator Dieter Rams designed for BRAUN. Compare his solution to yours. What is different?
 2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion!
-3. What should he have done different?
+3. What should he have done differently?
 
 
 <f-notes>
@@ -295,6 +324,10 @@ Upload your picture into the CVD-simulator and check whether it works.~
   
   ### Hint for teachers. 
   ~This is the chance for you to lead over to Dieter Rams' 10 design principles.~
+  <br>
+~You can find a nice overview with examples on the following website:~
+https://www.vitsoe.com/gb/about/good-design
+~This could be interesting for students, since the functionality of BRAUN's (and Dieter Rams') product design has often been copied or taken as an inspiration, see Apple's products for example.~
 
 </f-notes>
 
@@ -332,6 +365,11 @@ Upload your picture into the CVD-simulator and check whether it works.~
   
   ### Hint for teachers. 
   ~This is the chance for you to lead over to Dieter Rams' 10 design principles.~
+  <br>
+~You can find a nice overview with examples on the following website:~
+https://www.vitsoe.com/gb/about/good-design
+~This could be interesting for students, since the functionality of BRAUN's (and Dieter Rams') product design has often been copied or taken as an inspiration, see Apple's products for example.~
+
 
 </f-notes>
 
