@@ -195,10 +195,10 @@ But what if we leave the hue unaltered and change the other two properties: satu
 ~Here the **brightness** of each color is reduced by 50%, which means less light for the same hue.
 You may use the slider beneath the color boxes to darken or brighten up the colors, then work on the following tasks.~
 
-#####TASKS
-~1. Observe how the colors' effect changes when they are darker or brighter by using the slider beneath the color boxes.
+##### TASKS
+1. Observe how the colors' effect changes when they are darker or brighter by using the slider beneath the color boxes.
 2. Look at the polarity profiles (adjective pairs) below. You can drag the slider more to the left to indicate that the effect of the color relates more to the adjective on the left and the other way around. So for example, if you think that a color feels heavier, you could drag the slider more to the right. There are five different degrees. The further the slider points to one of the sides, the stronger the effect. So if the slider is positioned in the middle, it means that the effect is balanced between the two polarities.
-3. Now, alter the polarity profiles below, so that they show the effect the dark and the light colors have on you. After you are done, you can compare your results with average values by clicking on *show*.~
+3. Now, alter the polarity profiles below, so that they show the effect the dark and the light colors have on you. After you are done, you can compare your results with average values by clicking on *show*.
 
 &nbsp;
 
@@ -209,12 +209,12 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
   ['cold','warm',3], 
   ['quiet','loud',1],
   ['young','old',4],
-  ['active', 'passive', 5]
+  ['active', 'passive', 5],
   ['cheerful','sad',4], 
   ['serious','carefree',2], 
   ['mysterious','predictable',2],
   ['open','secretive',4],
-  ['risky', 'cautious', 5]
+  ['risky', 'cautious', 5],
   ['spontaneous', 'planning', 5]
 ]" />
 
@@ -229,12 +229,12 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
   ['cold','warm',2], 
   ['quiet','loud',4],
   ['young','old',1],
-  ['active', 'passive', 1]
+  ['active', 'passive', 1],
   ['cheerful','sad',1], 
   ['serious','carefree',4], 
   ['mysterious','predictable',2],
   ['open','secretive',1],
-  ['risky', 'cautious', 2]
+  ['risky', 'cautious', 2],
   ['spontaneous', 'planning', 1]
 ]" />
 
@@ -340,12 +340,12 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
   ['cold','warm',3], 
   ['quiet','loud',4],
   ['young','old',2],
-  ['active', 'passive', 1]
+  ['active', 'passive', 1],
   ['cheerful','sad',1], 
   ['serious','carefree',2], 
   ['mysterious','predictable',2],
   ['open','secretive',1],
-  ['risky', 'cautious', 1]
+  ['risky', 'cautious', 1],
   ['spontaneous', 'planning', 2]
 ]" />
 
@@ -360,12 +360,12 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
   ['cold','warm',2], 
   ['quiet','loud',1],
   ['young','old',4],
-  ['active', 'passive', 5]
+  ['active', 'passive', 5],
   ['cheerful','sad',4], 
   ['serious','carefree',3], 
   ['mysterious','predictable',3],
   ['open','secretive',4],
-  ['risky', 'cautious', 5]
+  ['risky', 'cautious', 5],
   ['spontaneous', 'planning', 4]
 ]" />
 
