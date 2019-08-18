@@ -467,7 +467,7 @@ This is only the average impression - it can vary depending on the color's hue. 
 | cols: 3fr 2fr 1fr
 | 1 1 1
 | 2 2 2
-| 3 3 4
+| 3 4 4
 | 5 5 5
 
 <!-- ##### EXPLAIN -->
@@ -492,7 +492,8 @@ Now remember what you learned about how saturation and brightness can alter a co
 👈
 
 ~There is one condition: **All three shampoos smell like apples.**
-Go to the next page to choose your colors. Be ready to explain your choices.~ 
+Go to the next page to choose your colors. 
+Be ready to explain your choices.~ 
 
 -
 
@@ -515,7 +516,7 @@ Go to the next page to choose your colors. Be ready to explain your choices.~
 | 2 3 4
 | 6 5 5
 
-### Shampoo color designer 
+# <f-activity-icon size="large" />Shampoo color designer
 
 <!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
 
