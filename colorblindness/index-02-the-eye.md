@@ -267,7 +267,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
   <img src="./images/cvd_diagram_task2.svg" />
 </figure>
 
-3. ~For a female to be color blind, her father would have to be X^nY and her mother would have to be X^N X^n (a *carrier* with normal color vision) or X^n X^n (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages.~
+3. ~For a female to be color blind, her father would have to be <f-math inline> X^nY </f-math> and her mother would have to be <f-math inline> X^N X^n </f-math> (a *carrier* with normal color vision) or <f-math inline> X^n X^n </f-math> (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages.~
 
 </details>
 -
