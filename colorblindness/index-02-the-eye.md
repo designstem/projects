@@ -35,12 +35,6 @@
 
 
 
-
-
-
-
-
-
 | id: cb-rods-and-cones
 | rows: auto
 | height: 100vh
@@ -92,6 +86,7 @@ https://en.wikipedia.org/wiki/Color_vision~
 -
 
 ~On the next page, you can find out where your rods and cones are positioned.~
+
 <f-next-button title="Mapping rods and cones" />
 
 ---
@@ -157,14 +152,15 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 ~Michael also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations. He wants to avoid people staring at him.~
 <br>
 
+<f-next-button />
+
 -
+
 <figure style=" display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
   <img src="./images/color_blindness_accessibility_meat.jpg" />
 </figure>
 
 -
-
-<f-next-button />
 
 ---
 
