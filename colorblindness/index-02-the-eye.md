@@ -171,9 +171,9 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 | id: cb-cvd
 | rows: auto
 | height: 100vh
-| 1 3
-| 1 3
-| 4 4
+| 1 2
+| 1 2
+| 3 3
 
 
 <!-- ##### EXPLAIN  -->
