@@ -135,7 +135,7 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 
 
 
-| id: cb-cvd
+| id: cb-cvd1
 | rows: auto
 | height: 100vh
 | 1 3
@@ -145,8 +145,8 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 
 <!-- ##### EXPLAIN  -->
 
-##### The eye
-# Color Vision <br> Deficiency
+##### Color Vision Deficiency
+# This is Michael
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -168,7 +168,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 ---
 
-| id: cb-cvd
+| id: cb-cvd2
 | rows: auto
 | height: 100vh
 | 1 2
@@ -178,8 +178,8 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 <!-- ##### EXPLAIN  -->
 
-##### The eye
-# Color Vision <br> Deficiency
+##### Color Vision Deficiency
+# This is Michael
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -206,7 +206,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 ---
 
 
-| id: cb-cvd
+| id: cb-cvd3
 | rows: auto
 | height: 100vh
 | 1 2
@@ -216,8 +216,8 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 <!-- ##### EXPLAIN  -->
 
-##### The eye
-# Color Vision <br> Deficiency
+##### Color Vision Deficiency
+# Learning about CVD
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
