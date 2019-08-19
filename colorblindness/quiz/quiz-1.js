@@ -3,12 +3,12 @@ import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 // import * as localutils from "./utils.js";
 
-// import PolarityQuiz from "./components/PolarityQuiz.js";
+import SimpleQuiz from "../components/SimpleQuiz.js";
 // import ContrastQuiz from "./components/ContrastQuiz.js";
 
 fachwerk({ 
   components: { 
-    // "PolarityQuiz" : PolarityQuiz,
+    "SimpleQuiz" : SimpleQuiz,
     // "ContrastQuiz" : ContrastQuiz,
   },
   src: [

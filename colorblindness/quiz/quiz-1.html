@@ -4,96 +4,17 @@
   <meta charset="utf-8" />
   <title>Design for Color Vision Deficiancy. DesignSTEM.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Load CSS styles -->
   <link rel="stylesheet" href="https://designstem.github.io/fachwerk/fachwerk.css">
   <!-- <link rel="stylesheet" href="http://127.0.0.1:8887/fachwerk.css"> -->
   <style>
-    html {
-      box-sizing: border-box;
+    .button {
+      font-size: 150% !important;
     }
-    *, *:before, *:after {
-      box-sizing: inherit;
-    }
-    /* .cells {
-      --content-padding: 7vh;
-    } */
-    .scene--full-height {
-      height: 100vh;
-    }
-    .scene--full-height > div {
-      height: 100%;
-    }
-    .scene--full-height svg {
-      height: 100%;
-      width:100%;
-    }
-    .f-svg{
-      line-height: 0;
-    }
-
-    .cb-menu__section {
-      padding: calc(var(--base) * 0.5) var(--base) calc(var(--base) * 0.5) var(--base3);
-      /* border-radius: var(--border-radius); */
-    }
-    .cb-menu__section--active {
-      /* border-left: var(--base) solid var(--emphasis); */
-      background: var(--emphasis);
-    }
-    .cb-menu__section--active dd {
-      color: var(--primary) !important;
-    }
-
-    .cb-menu__section dt {
-      font-weight: 700;
-      font-size: 1.2;
-      padding-bottom: calc(var(--base) * 0.75);
-      cursor:pointer;
-    }
-    .cb-menu__section dd {
-      display: list-item;
-      list-style-type: disc;
-      padding-bottom: calc(var(--base)*0.5);
-      margin-inline-start: var(--base2);
-      margin-left: var(--base3);
-      color: var(--secondary);
-      cursor: pointer;
-    }
-
-    .cb-menu__section dt, .cb-menu__section dd {
-      border-right: var(--base) solid transparent;
-    } 
-    .cb-menu__section dt:hover, .cb-menu__section dd:hover {
-      border-right: var(--base) solid var(--purple);
-    } 
-
-    
-
-    /* @keyframes ants { to { background-position: 100% 100% } } */
-    .marchingants {
-	    border: 1px solid transparent;
-    }
-    .marchingants--active {
-	    border: 1px solid transparent;
-	    border-image: url('images/ants2.gif') 1 repeat repeat;
-      /* background: linear-gradient(transparent, transparent) padding-box, 
-      repeating-linear-gradient(-45deg, black 0, black 25%, transparent 0, transparent 50%) 0 / 8px 8px;
-	    
-      animation: ants 12s linear infinite; */
-    }
-
-    body > div > div > div > div > a.quaternary {
-      display:none;
-    }
-
   </style>
 </head>
 
 <body>
-  
-  <!-- Load main Javascript file index.js. Note: type="module" is required! -->
   <script src="./quiz-1.js" type="module"></script>
-  
-  <!-- Set up a placholder where framework can display its content -->
   <div id="fachwerk"></div>  
 </body>
 
