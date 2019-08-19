@@ -288,7 +288,7 @@ You can work through the stations in the given order which is recommended if you
 
 - ~<a href="#" v-on:click="goto('cb-accessibility')">Accessibility</a>~
 - ~<a href="#" v-on:click="goto('cb-the-eye')">The eye</a>~
-- ~<a href="#" v-on:click="goto('cb-cvd')">Color vision deficiency</a>~
+- ~<a href="#" v-on:click="goto('cb-cvd1')">Color vision deficiency</a>~
 - ~<a href="#" v-on:click="goto('cb-color-mixing')">Subtractive and additive color mixing</a>~
 - ~<a href="#" v-on:click="goto('cb-color-models')">Three dimensions of color (color space models)</a>~
 - ~<a href="#" v-on:click="goto('cb-contrast')">Color contrast and color harmony theory</a>~
