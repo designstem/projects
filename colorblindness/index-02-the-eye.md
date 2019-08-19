@@ -250,7 +250,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 ~Most people with a form of CVD have a genetic defect. But color blindness can also be caused by brain or retinal damages, e.g. due to accidents which produce swelling of the brain. Sometimes CVD is due to retinal damage caused by diabetes, Vintamin A deficiency or age-related macular degeneration. ~
 </details>
 
-2. ~Work out the genotypes of each individual, using the symbols <f-math>X^N</f-math> for an X chromosome with an allele for normal color vision, X^n for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision (see diagram on the right).~
+2. ~Work out the genotypes of each individual, using the symbols <f-math inline>X^N</f-math inline> for an X chromosome with an allele for normal color vision, <f-math inline>X^n</f-math inline> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision (see diagram on the right).~
 
 3. ~Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.~
 
