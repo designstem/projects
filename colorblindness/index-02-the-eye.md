@@ -236,15 +236,19 @@ When we cook together, he always asks me, if meat is still edible, because wheth
   
 ~Color Vision Deficiency (CVD) is commonly known as color blindness. It affects approximately 1 in 12 men (8%) and 1 in 200 women in the world.~
 
-~Complete color blindness, *Achromatopsia*, is very rare (affects approximately 3 in 100 000 people). This means that people only see black, white and shades of grey, because their cones don't function. Only their rods. In addition, they have troubles seeing in sunlight, because rods actually are needed for vision during twilight, not during daylight. Further, cones are neccessary for sharp vision, but since they are missing in the macula, people with Achromatopsia don't see sharp. This is genetic defect, which cannot be cured.~
+~Complete color blindness, *Achromatopsia*, is very rare (affects approximately 3 in 100 000 people). This means that people only see black, white and shades of grey, because their cones don't function. Only their rods. In addition, they have a decreased visual acuity and are uncomfortable in bright environments. These problems occur, because rods actually are needed for vision during twilight, not during daylight. Further, cones are neccessary for sharp vision, but since they are missing in the macula, people with Achromatopsia don't see sharp. This is genetic defect, which cannot be cured.~
 
-~**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.~
-~Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
+~There are three types of CVD, depending on the cones that are affected. We differenciate between **Protanopia** (red cones), **Deuteranopia** (green cones) and **Tritanopia** (blue cones).~
 
-~**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.~
-~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
-~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
-~That’s why you can’t see colors in the dark.~
+~**Protanopia** and **Deuteranopia** (and their milder versions **Protanomaly** and **Deuteranomaly**) are the more common forms of CVD, with Deuteranomaly being the most common. People with deuteranomaly and protanomaly are collectively known as **red-green color blind**. They have difficulty distinguishing between reds, greens, browns and oranges. They also commonly confuse different types of blue and purple.~
+
+~Protanopia and Deuteranopia are both caused by x-linked recessive alleles of genes for normal cone functioning. People with protanomaly do have red-sensitive cones but the photosensitive pigment they contain does not function. The same goes for deuteranomaly and green-sensitive cones.~
+
+~Males are much more likely to be red-green color vision deficient than females because males have the sex chromosomes XY, so have only one X chromosome. Therefore, to be color vision deficient, they need only one copy of the recessive allele for color blindness. In contrast, females have the sex chromosomes XX. Therefore, to be color blind, they would need two copies of the recessive allele, one on each X chromosome.~ 
+
+~**Tritanopia** and **Tritanomaly** are very rare color vision disturbances in which only the red and the green cone pigments are present, with a total absence of blue retinal receptors for Tritanopia. For Tritanomaly the S-cone is not missing, only malfunctioning. For people with tritanopia and tritanomaly, blue hues appear greenish, yellows and oranges appear pinkish and purple colors appear deep red.~
+
+~Most people with a form of CVD have a genetic defect. But color blindness can also be caused by brain or retinal damages, e.g. due to accidents which produce swelling of the brain. Sometimes CVD is due to retinal damage caused by diabetes, Vintamin A deficiency or age-related macular degeneration. ~
 </details>
 
 2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
