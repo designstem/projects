@@ -252,3 +252,14 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 </details>
 
 2. ~Work out the genotypes of each individual, using the symbols X^N for an X chromosome with an allele for normal color vision, X^n for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision (see diagram on the right).~
+
+3. ~Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.~
+
+-
+
+<f-image src="./images/color_blindness_accessibility_cvd1.jpg"  />
+<f-image src="./images/color_blindness_accessibility_cvd2.jpg"  />
+
+-
+
+<f-next-button />
