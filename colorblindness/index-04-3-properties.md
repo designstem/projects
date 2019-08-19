@@ -518,7 +518,7 @@ Be ready to explain your choices.~
 | rows: auto
 | 1 1 1
 | 2 3 4
-| 6 5 5
+| 5 5 6
 
 # <f-activity-icon size="large" />Shampoo color designer
 
