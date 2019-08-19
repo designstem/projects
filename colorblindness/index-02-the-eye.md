@@ -146,7 +146,7 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 <!-- ##### EXPLAIN  -->
 
 ##### Color Vision Deficiency
-# This is Michael
+# Life of a colorblind
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -179,7 +179,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 <!-- ##### EXPLAIN  -->
 
 ##### Color Vision Deficiency
-# This is Michael
+# Life of a colorblind
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
