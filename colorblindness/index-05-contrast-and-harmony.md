@@ -1,4 +1,6 @@
-| section: cb-contrast-and-harmony
+| chapter: Color contrast and harmony
+| section: Contrast and harmony
+| id: cb-contrast-and-harmony
 | rows: auto
 | 1 2
 | 3 2
@@ -30,7 +32,6 @@
 
 <f-next-button />
 
-
 ---
 
 
@@ -61,7 +62,7 @@
 
 -
 
-<f-image src="images/contrast-and-harmony-cereal.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+<f-image src="images/contrast-and-harmony-cereal.jpg" style="background-position:60% 50%; min-height:60vh; width:100%; height:100%;" />
 
 -
 
@@ -121,7 +122,7 @@
 
 
 
-
+| section: Johannes Itten
 | id: cb-itten
 | padding: 0
 | gap: 0
@@ -138,24 +139,17 @@
 
 ~**Johannes Itten**, who taught at Bauhaus between 1919 and 1923, tried to describe the relationship of colors and defined seven different color contrasts. In 1961, he also designed his famous color wheel, which you have probably already seen at some point. By using this color wheel, you can describe all of his contrasts.~
 
-
 #### Tasks
 
 1. ~Find out about the definitions and examples of the following contrasts online.~
 2. ~Find out how these contrasts work and which effect they have.~
 
 ##### 1. Contrast of hue
-
 ##### 2. Light-dark contrast
-
 ##### 3. Cold-warm contrast
-
 ##### 4. Complementary contrast
-
 ##### 5. Simultaneous contrast
-
 ##### 6. Contrast of saturation
-
 ##### 7. Contrast of extension
 
 <br> 
@@ -175,6 +169,7 @@
 -
 
 <section style="padding:var(--base2) var(--content-padding) var(--content-padding) var(--content-padding)">
+  <br />
   <f-next-button />
 </section>
 
@@ -189,7 +184,7 @@
 
 
 
-
+| section: TASK: Find the contrasts
 | id: cb-task1
 | rows: auto
 | cols: 2fr 3fr
@@ -226,8 +221,6 @@
 -
 
 <f-next-button />
-
-
 
 
 
@@ -332,7 +325,7 @@
 
 
 
-
+| section: Color palettes
 | id: cb-wheels
 | theme: dark
 | rows: auto
@@ -370,7 +363,6 @@
 
 
 
-
 | id: split-complementary
 | theme: dark
 | rows: auto
@@ -391,14 +383,11 @@
 
 <ColorPaletteWheel name="SplitComplementary" />
 
-
 -
 
 <f-next-button  />
 
 ---
-
-
 
 
 
@@ -516,10 +505,6 @@
 <f-next-button  />
 
 ---
-
-
-
-
 
 
 

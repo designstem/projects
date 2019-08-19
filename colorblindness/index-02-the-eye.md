@@ -1,6 +1,5 @@
-
-
-| section: cb-the-eye
+| chapter: The eye
+| section: The eye
 | rows: auto
 | cols: 2fr 3fr
 | 1 1
@@ -15,7 +14,6 @@
 
 ~When it comes to color vision, the **retina** is the part of the eye which is important.~
 ~It is at the back of the eye and contains two types of photoreceptor cells which detect light: **rods and cones**.~
-
 
 -
 
@@ -35,6 +33,9 @@
 
 
 
+
+
+| section: Rods and Cones
 | id: cb-rods-and-cones
 | rows: auto
 | height: 100vh
@@ -96,6 +97,7 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 
 
+| section: Tool for mapping rods and cones activity
 | rows: auto
 | cols: 3fr 2fr
 | 1 3
@@ -129,7 +131,8 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 
 
 
-
+| chapter: Color Vision Deficiency
+| section: Life of a colorblind
 | id: cb-cvd1
 | rows: auto
 | height: 100vh
@@ -164,10 +167,16 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 ---
 
+
+
+
+
+
+
 | id: cb-cvd2
 | rows: auto
+| cols: 3fr 2fr
 | height: 100vh
-| 1 2
 | 1 2
 | 3 3
 
@@ -179,7 +188,6 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
-
 ~Besides these minor problems, sometimes accessing information can be really hard for Michael: offline and online.~
 ~When he is new in a city and wants to take the subway, it is hard to read the maps, because they are color coded. Yes, in the end, he will take the right subway, but it takes him much longer than a person with average color vision.~
 ~Sometimes, however, it is nearly impossible for him to access information, like in the example on the right. Often, websites use colors to code functions or information. This is helpful for people with normal color vision, because we can navigate and get results much faster. But people like Michael are having a hard time, because they simply cannot see, what the website wants them to do. I remember Michael once sending me a screenshot, to find out what he was doing wrong while filling out an online form. He simply couldn't see the red marking which indicated that his input was faulty.~
@@ -187,25 +195,27 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 <f-arrow-icon /> ~**But why does he have these problems?** What makes him different from a person with average color vision?~ 
 ~Let's find out.~
 
-<br>
+<br />
 
 <f-next-button />
 
-
 -
 
-<figure style="display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
+<div style="height: 100%; position:sticky; top:5vh; display: flex; flex-direction: column; justify-content: center; ">
   <img src="./images/cvd_form_example.svg" />
-</figure>
+</div>
 
 
 ---
 
 
+
+
+
+| section: Why are people colorblind?
 | id: cb-cvd3
 | rows: auto
 | height: 100vh
-| 1 2
 | 1 2
 | 3 3
 
@@ -220,53 +230,58 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 #### Task
 
+
 1. ~Read through the text and find out about the different types of color blindness. Michael is red colorblind. What is the medical term for his condition and which colors does he have trouble seeing?~
+    <!-- PLEASE NOTE: The two tabs in front of the whole block that is inside of this first list item 1. ensure, that the list is not broken and next block starts with 2. It's a silly hack, but right now it is so. -->
+    <f-sidebar title="Open" overlay style="--sidebar-width:60vw;">
+      <a slot="button" class="tertiary" style="margin-bottom:3vh;">Read about CVD <f-arrow-icon rotation="-45" /></a>
+      
+      <!-- <summary>Click here to see the text</summary> -->
+      
+      ## Color Vision Deficiency
 
-<details>
-	<summary>Click here to see the text</summary>
-  
-~Color Vision Deficiency (CVD) is commonly known as color blindness. It affects approximately 1 in 12 men (8%) and 1 in 200 women in the world.~
+      ~Color Vision Deficiency (CVD) is commonly known as color blindness. It affects approximately 1 in 12 men (8%) and 1 in 200 women in the world.~
 
-~Complete color blindness, *Achromatopsia*, is very rare (affects approximately 3 in 100 000 people). This means that people only see black, white and shades of grey, because their cones don't function. Only their rods. In addition, they have a decreased visual acuity and are uncomfortable in bright environments. These problems occur, because rods actually are needed for vision during twilight, not during daylight. Further, cones are neccessary for sharp vision, but since they are missing in the macula, people with Achromatopsia don't see sharp. This is genetic defect, which cannot be cured.~
+      ~Complete color blindness, *Achromatopsia*, is very rare (affects approximately 3 in 100 000 people). This means that people only see black, white and shades of grey, because their cones don't function. Only their rods. In addition, they have a decreased visual acuity and are uncomfortable in bright environments. These problems occur, because rods actually are needed for vision during twilight, not during daylight. Further, cones are neccessary for sharp vision, but since they are missing in the macula, people with Achromatopsia don't see sharp. This is genetic defect, which cannot be cured.~
 
-~There are three types of CVD, depending on the cones that are affected. We differenciate between **Protanopia** (red cones), **Deuteranopia** (green cones) and **Tritanopia** (blue cones).~
+      ~There are three types of CVD, depending on the cones that are affected. We differenciate between **Protanopia** (red cones), **Deuteranopia** (green cones) and **Tritanopia** (blue cones).~
 
-~**Protanopia** and **Deuteranopia** (and their milder versions **Protanomaly** and **Deuteranomaly**) are the more common forms of CVD, with Deuteranomaly being the most common. People with deuteranomaly and protanomaly are collectively known as **red-green color blind**. They have difficulty distinguishing between reds, greens, browns and oranges. They also commonly confuse different types of blue and purple.~
+      ~**Protanopia** and **Deuteranopia** (and their milder versions **Protanomaly** and **Deuteranomaly**) are the more common forms of CVD, with Deuteranomaly being the most common. People with deuteranomaly and protanomaly are collectively known as **red-green color blind**. They have difficulty distinguishing between reds, greens, browns and oranges. They also commonly confuse different types of blue and purple.~
 
-~Protanopia and Deuteranopia are both caused by x-linked recessive alleles of genes for normal cone functioning. People with protanomaly do have red-sensitive cones but the photosensitive pigment they contain does not function. The same goes for deuteranomaly and green-sensitive cones.~
+      ~Protanopia and Deuteranopia are both caused by x-linked recessive alleles of genes for normal cone functioning. People with protanomaly do have red-sensitive cones but the photosensitive pigment they contain does not function. The same goes for deuteranomaly and green-sensitive cones.~
 
-~Males are much more likely to be red-green color vision deficient than females because males have the sex chromosomes XY, so have only one X chromosome. Therefore, to be color vision deficient, they need only one copy of the recessive allele for color blindness. In contrast, females have the sex chromosomes XX. Therefore, to be color blind, they would need two copies of the recessive allele, one on each X chromosome.~ 
+      ~Males are much more likely to be red-green color vision deficient than females because males have the sex chromosomes XY, so have only one X chromosome. Therefore, to be color vision deficient, they need only one copy of the recessive allele for color blindness. In contrast, females have the sex chromosomes XX. Therefore, to be color blind, they would need two copies of the recessive allele, one on each X chromosome.~ 
 
-~**Tritanopia** and **Tritanomaly** are very rare color vision disturbances in which only the red and the green cone pigments are present, with a total absence of blue retinal receptors for Tritanopia. For Tritanomaly the S-cone is not missing, only malfunctioning. For people with tritanopia and tritanomaly, blue hues appear greenish, yellows and oranges appear pinkish and purple colors appear deep red.~
+      ~**Tritanopia** and **Tritanomaly** are very rare color vision disturbances in which only the red and the green cone pigments are present, with a total absence of blue retinal receptors for Tritanopia. For Tritanomaly the S-cone is not missing, only malfunctioning. For people with tritanopia and tritanomaly, blue hues appear greenish, yellows and oranges appear pinkish and purple colors appear deep red.~
 
-~Most people with a form of CVD have a genetic defect. But color blindness can also be caused by brain or retinal damages, e.g. due to accidents which produce swelling of the brain. Sometimes CVD is due to retinal damage caused by diabetes, Vintamin A deficiency or age-related macular degeneration.~
-</details>
-
-<br>
+      ~Most people with a form of CVD have a genetic defect. But color blindness can also be caused by brain or retinal damages, e.g. due to accidents which produce swelling of the brain. Sometimes CVD is due to retinal damage caused by diabetes, Vintamin A deficiency or age-related macular degeneration.~
+    </f-sidebar>
 
 2. ~Work out the genotypes of each individual, using the symbols <f-math inline> X^N </f-math> for an X chromosome with an allele for normal color vision, <f-math inline> X^n </f-math> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision; see diagram on the right.~ <f-arrow-icon />
 
 3. ~Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.~
 
-<br>
+    <details>
+      <summary>Check out the answers but don't cheat</summary>
 
-<details>
-	<summary>Check out the answers but don't cheat</summary>
-	
-1. ~The term for Michael's condition is Protanopia. He has problems distinguishing between reds, greens, browns and oranges. For a protanope, the brightness of red, orange, and yellow are much reduced compared to normal color vision. This dimming can be so pronounced that reds may be confused with black or dark gray, and red traffic lights may appear to be extinguished. They may learn to distinguish reds from yellows primarily on the basis of their apparent brightness or lightness, not on any perceptible hue difference. Violet, lavender, and purple are indistinguishable from various shades of blue because their reddish components are so dimmed as to be invisible. For example, pink flowers, reflecting both red light and blue light, may appear just blue to the protanope.~
-  
-2. <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-  <img src="./images/cvd_diagram_task2.svg" />
-</figure>
+      <br />
 
-3. ~For a female to be color blind, her father would have to be <f-math inline> X^nY </f-math> and her mother would have to be <f-math inline> X^N X^n </f-math> (a *carrier* with normal color vision) or <f-math inline> X^n X^n </f-math> (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages.~
+      1. ~The term for Michael's condition is Protanopia. He has problems distinguishing between reds, greens, browns and oranges. For a protanope, the brightness of red, orange, and yellow are much reduced compared to normal color vision. This dimming can be so pronounced that reds may be confused with black or dark gray, and red traffic lights may appear to be extinguished. They may learn to distinguish reds from yellows primarily on the basis of their apparent brightness or lightness, not on any perceptible hue difference. Violet, lavender, and purple are indistinguishable from various shades of blue because their reddish components are so dimmed as to be invisible. For example, pink flowers, reflecting both red light and blue light, may appear just blue to the protanope.~
+        
+      2. <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
+        <img src="./images/cvd_diagram_task2.svg" />
+      </figure>
 
-</details>
+      3. ~For a female to be color blind, her father would have to be <f-math inline> X^nY </f-math> and her mother would have to be <f-math inline> X^N X^n </f-math> (a *carrier* with normal color vision) or <f-math inline> X^n X^n </f-math> (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages.~
+
+    </details>
+
+
 -
 
-<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
+<div style="position:sticky; top:15vh; margin: 0;">
   <img src="./images/cvd_diagram_task.svg" />
-</figure>
+</div>
 
 -
 
