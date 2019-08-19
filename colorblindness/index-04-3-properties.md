@@ -33,8 +33,8 @@
 -
 
 <div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:column;">
-  <div style="background: hsl(112,63%,36%); flex: 1 1 50%;"></div>
-  <div style="background: hsl(123,100%,51%); flex: 1 1 50%;"></div>
+  <div style="background: hsl(105,98%,34%); flex: 1 1 50%;"></div>
+  <div style="background: hsl(118,100%,50%); flex: 1 1 50%;"></div>
 <!-- <f-scene style="display:block; height:100%;" width="400" height="800" class="scene--full-height"> 
   <f-box 
     width="4"
