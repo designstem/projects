@@ -199,12 +199,8 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 -
 
 <figure style="display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
-  <img src="./images/color_blindness_accessibility_form.jpg" />
+  <img src="./images/cvd_form_example.svg" />
 </figure>
-
--
-
-<f-next-button />
 
 
 ---
