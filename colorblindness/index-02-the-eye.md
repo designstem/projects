@@ -122,3 +122,41 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 <f-next-button title="Next: color mixing" />
 
 -
+
+
+
+---
+
+
+
+
+
+
+
+| id: cb-cvd
+| rows: auto
+| height: 100vh
+| 1 1
+| 2 3
+
+
+<!-- ##### EXPLAIN  -->
+
+##### The eye
+# Color Vision Deficiency
+
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
+
+-
+
+~I have a friend. His name is Michael. He is colorblind. When we cook together, he always has to ask me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him.~
+
+<br>
+#### Task
+
+1. ~Read through the text and find out about the difference between rods and cones.~
+
+-
+
+<f-image src="./images/color_blindness_accessibility_meat.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
