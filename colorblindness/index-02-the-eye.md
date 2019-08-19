@@ -190,8 +190,6 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 ~**But why does he have these problems?** What makes him different from a person with average color vision?~ 
 ~Let's find out.~
 
-<br>
-
 -
 
 <figure style="display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
