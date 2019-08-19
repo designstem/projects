@@ -445,9 +445,7 @@ b) saturated colors have in comparison to desatured colors.~
 ~Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.~
 ~The average effect of saturated colors is loud, bold, open, active, risky and cheerful.~
 ~Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.~
-<br>
 ~This is only the average impression - it can vary depending on the color's hue.~ **So only take it as a hint, not a rule.**
-<br>
 ~Whenever you design with colors, remember that the hue is not the only component influencing the color's effect!
 Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
 </f-sidebar> 
