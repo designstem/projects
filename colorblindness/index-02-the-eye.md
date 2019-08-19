@@ -264,7 +264,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 1. ~The term for Michael's condition is Protanopia. He has problems distinguishing between reds, greens, browns and oranges. For a protanope, the brightness of red, orange, and yellow are much reduced compared to normal color vision. This dimming can be so pronounced that reds may be confused with black or dark gray, and red traffic lights may appear to be extinguished. They may learn to distinguish reds from yellows primarily on the basis of their apparent brightness or lightness, not on any perceptible hue difference. Violet, lavender, and purple are indistinguishable from various shades of blue because their reddish components are so dimmed as to be invisible. For example, pink flowers, reflecting both red light and blue light, may appear just blue to the protanope.~
   
 2. <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-  <img src="./images/color_blindness_accessibility_cvd3.jpg" />
+  <img src="./images/cvd_diagram_task2.svg" />
 </figure>
 
 3. ~For a female to be color blind, her father would have to be X^nY and her mother would have to be X^N X^n (a *carrier* with normal color vision) or X^n X^n (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages.~
