@@ -59,12 +59,12 @@ The students’ awareness should be raised for the problems people with color vi
 | 3 2
 
 
-# Color blindness
+# Pick one!
 
 <div v-if="get('revealX') < 75">
 
-~This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
-~Actually there is **<span style="color:var(--red)">only one red tomato</span>** in this picture~
+~This is an example of how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.~ 
+~Actually, in this picture there is **<span style="color:var(--red)">only one red tomato</span>**.~
 
 <f-inline>
 
@@ -80,7 +80,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 <div v-if="get('revealX') > 75">
 
-  ~**Did you guess right? If you picked the right tomato, congratulations!**~
+  ~**Did you guess right? If you picked the right tomato, congratulations!**~ 🎉
   
   <f-inline>
   
@@ -101,7 +101,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 -
 
-<f-next-button title="Next: go outside!" v-if="get('revealX') > 75" />
+<f-next-button />
 
 
 
@@ -116,6 +116,35 @@ The students’ awareness should be raised for the problems people with color vi
 
 ---
 
+
+| section: cb-explore-cb2
+| rows: auto
+| gap: 3vmin
+| 1 2
+| 3 2
+
+
+# More than tomatoes
+
+<div v-if="get('revealX') < 75">
+
+~**So what?! Is it that bad if a person eats a green tomato once in a while?**~
+~No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!~
+~Tomatoes are only one example for the problems people with Color Vision Deficiency (hereafter referred to as CVD) face on a daily basis.~
+~In this workshop, you are going to explore in which way people with CVD are affected and what you need to know to make their lives better.~
+~Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors.~
+<br>
+~This workshop is for both, STEM and Design students. At a later point, you will be able to choose a path connected to your field. But first, lets all explore our daily surroundings to get a better understanding.~ 
+
+-
+
+<f-image src="images/color_blindness_accessibility_21.jpg" />
+
+-
+
+<f-next-button title="Next: Go outside!" v-if="get('revealX') > 75" />
+
+---
 
 
 
