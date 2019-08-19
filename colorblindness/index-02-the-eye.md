@@ -171,7 +171,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 | rows: auto
 | height: 100vh
 | 1 3
-| 2 3
+| 1 3
 | 4 4
 
 
@@ -182,7 +182,6 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
--
 
 ~Besides these minor problems, sometimes accessing information can be really hard for Michael: offline and online.~
 ~When he is new in a city and wants to take the subway, it is hard to read the maps, because they are color coded. Yes, in the end, he will take the right subway, but it takes him much longer than a person with average color vision.~
@@ -199,3 +198,28 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 -
 
 <f-next-button />
+
+
+---
+
+
+| id: cb-cvd
+| rows: auto
+| height: 100vh
+| 1 3
+| 2 3
+| 4 4
+
+
+<!-- ##### EXPLAIN  -->
+
+##### The eye
+# Color Vision <br> Deficiency
+
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
+
+-
+
+#### Task
+
+1. ~R
