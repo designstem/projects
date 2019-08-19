@@ -149,14 +149,39 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 
 -
 
-~I have a friend. His name is Michael. He is colorblind. When we cook together, he always has to ask me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him.~
+~I have a friend, whose name is Michael. He is colorblind. When we cook together, he always has to ask me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him.~
 
 <br>
-#### Task
-
-1. ~Read through the text and find out about the difference between rods and cones.~
 
 -
 
 <f-image src="./images/color_blindness_accessibility_meat.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
+---
+
+| id: cb-cvd
+| rows: auto
+| height: 100vh
+| 1 1
+| 2 3
+
+
+<!-- ##### EXPLAIN  -->
+
+##### The eye
+# Color Vision Deficiency
+
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
+
+-
+
+~Michael also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations.~
+<br>
+~Besides these minor problems, sometimes accessing information can be really hard for him: offline and online.~
+~**But why does he have these problems?** Let's find out.~
+
+<br>
+
+-
+
+<f-image src="./images/color_blindness_accessibility_form.jpg" style="background-position:50% 50%; min-height: 90vh;" />
