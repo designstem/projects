@@ -156,8 +156,10 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 <br>
 
 -
+<figure style="width:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
+  <img src="./images/color_blindness_accessibility_meat.jpg" />
+</figure>
 
-<f-image src="./images/color_blindness_accessibility_meat.jpg" style="background-position:50% 50%; " />
 
 ---
 
@@ -189,4 +191,6 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 -
 
-<f-image src="./images/color_blindness_accessibility_form.jpg" style="background-position:50% 50%;" />
+<figure style="width:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
+  <img src="./images/color_blindness_accessibility_form.jpg" />
+</figure>
