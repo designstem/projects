@@ -1,4 +1,6 @@
-| section: cb-contrast-and-harmony
+| chapter: Color contrast and harmony
+| section: Contrast and harmony
+| id: cb-contrast-and-harmony
 | rows: auto
 | 1 2
 | 3 2
@@ -30,7 +32,6 @@
 
 <f-next-button />
 
-
 ---
 
 
@@ -61,7 +62,7 @@
 
 -
 
-<f-image src="images/contrast-and-harmony-cereal.jpg" style="background-position:50% 50%; min-height:60vh; width:100%; height:100%;" />
+<f-image src="images/contrast-and-harmony-cereal.jpg" style="background-position:60% 50%; min-height:60vh; width:100%; height:100%;" />
 
 -
 
@@ -121,7 +122,7 @@
 
 
 
-
+| section: Johannes Itten
 | id: cb-itten
 | padding: 0
 | gap: 0
@@ -134,23 +135,15 @@
 ##### Color contrast and harmony
 # Itten's contrasts
 
-&nbsp;
-
 ~**Johannes Itten**, who taught at Bauhaus, defined seven different color contrasts. Find out about the definitions and examples of these contrasts online:~
 
 
 ##### 1. Contrast of hue
-
 ##### 2. Light-dark contrast
-
 ##### 3. Cold-warm contrast
-
 ##### 4. Complementary contrast
-
 ##### 5. Simultaneous contrast
-
 ##### 6. Contrast of saturation
-
 ##### 7. Contrast of extension
 
 </section>
@@ -162,6 +155,7 @@
 -
 
 <section style="padding:var(--base2) var(--content-padding) var(--content-padding) var(--content-padding)">
+  <br />
   <f-next-button />
 </section>
 
@@ -178,7 +172,7 @@
 
 
 
-
+| section: TASK: Find the contrasts
 | id: cb-task1
 | rows: auto
 | cols: 2fr 3fr
@@ -215,8 +209,6 @@
 -
 
 <f-next-button />
-
-
 
 
 
@@ -321,7 +313,7 @@
 
 
 
-
+| section: Color palettes
 | id: cb-wheels
 | theme: dark
 | rows: auto
@@ -359,7 +351,6 @@
 
 
 
-
 | id: split-complementary
 | theme: dark
 | rows: auto
@@ -380,14 +371,11 @@
 
 <ColorPaletteWheel name="SplitComplementary" />
 
-
 -
 
 <f-next-button  />
 
 ---
-
-
 
 
 
@@ -505,10 +493,6 @@
 <f-next-button  />
 
 ---
-
-
-
-
 
 
 
