@@ -1,23 +1,30 @@
+| caption: Introduction
 | section: bm-start
-| theme: dark
-| background: ./images/01-biomimicry-start.jpg
-| tint: 0.65
-| style: background-position:50% 70%
+| style:  --primary:var(--middlegray)
 | rows: auto
+| cols: 1fr 2fr 1fr
 | height: 100vh
-| 1
-| 2
-| 3
+| 1 1 1
+| 3 2 4
 
 
+
+<div style="height:100%; display:flex; align-items: flex-end; padding-bottom: var(--content-padding); margin-left:calc(var(--content-padding) * -1)">
+
+  # <big><em>Bio</em>&shy;mimicry</big>
+
+</div>
 
 -
 
-<h1 style="--base: 28px">
-  Bio&shy;mimicry
-</h1>
+### <em>Bio</em>nic | Design + Nature + Science
 
-#### The importance of mimicry and minimal use of energy <br /> plus the idea of continuous repetition
+(...) ‘tend to discover processes, techniques and new principles applicable to technology. It examines principles, characteristics and systems with transposition of matter, with extension of commands, with transfer of energy and information. It takes as a starting point a natural phenomenon and from there a projectual solution can be developed.’
+<small>Bruno Munari</small>
+
+<br />
+
+<f-next-button title="Next" />
 
 -
 
@@ -38,37 +45,7 @@
 
 </f-notes>
 
----
-
-
-
-
-
-| section: bm-explore
-| id: bm-boroullec
-| theme: light
-| rows: auto
-| cols: 2fr 3fr
-| 1 2
-| 3 2
-
-
-#### Twigs and Algues,<br /> Ronan and Erwan Bouroullec exhibition
-<span class="cite">MOCA, Los Angeles, 2004</span>
-
 -
-
-<div style="display:flex; height:100%; align-items:flex-end;">
-  <div style="padding:76.19% 0 0 0; position:relative; width:100%;"><iframe src="https://player.vimeo.com/video/111437252?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%; max-width:1024px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-</div>
-
--
-
-<!-- <f-next-button title="Ready to move on?" /> -->
-
-<div style="height:100%; display:flex; align-items: flex-end;">
-  <f-next-button />
-</div>
 
 ---
 
@@ -78,42 +55,72 @@
 
 
 
+| theme: light
+| style:  --primary:var(--middlegray)
+
+| cols: 0.5fr 3fr 2fr
+| 4 1 2
+| 4 3 2
+
+<div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end;">
+
+  ## Actually, humankind looks further and further, sustainable solutions in <em>nature</em>.
+  
+  Most of the advanced solutions regarding materials, technology or items that we consume, come from this deep ability since long ago to observe and imitate nature.
+
+</div>
+
+-
+
+<div style="height:100%; min-height: 70vh; display:flex; flex-direction:column;">
+  <f-image src="./images/01-neanderthal.jpg" style="flex:1; min-height:50%; background-position:center;" />
+  <f-image src="./images/01-plane.jpg" style="flex:1; min-height:50%; background-position:center 30%;" />
+</div>
+
+-
+
+<f-next-button title="Next" />
+
+-
+
+---
 
 | theme: light
-| rows: auto
-| cols: 1fr 1fr
-| 1 2
-| 3 2
+| style:  --primary:var(--middlegray)
+| cols: 0.5fr 3fr 2fr
+| 4 1 2
+| 4 3 2
 
+<div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end;">
 
-#### Twigs and Algues, <br />Ronan and Erwan Bouroullec exhibition
+  ## What about <em>BIONICS</em>?
+  
+  is a science, where men see’s and interpret a new artificial culture, embraced by the amazing functional systems produced from natural ecology.
+  
+  Bionics attempt to propose a confluence between natural systems and the artificiality created by men, presenting ‘common’ characteristics that are observed in their functional or formal structure.
 
-<span class="cite">MOCA, Los Angeles, 2004</span>
-
-<br />
-
-<blockquote>
-
-  ~*On a wall-size scale we felt it was important to work with a complex material. We wanted to create a sort of lace pattern on a huge scale, a surface as complex as a leafy tree but as unified as camouflage.*~
-  ~*The algae work like the leaves of a tree, dappling the light. Just like leaves they stop the light here and there. Naturally their changing density offers different type of light, from the very shaded to the light caress of the almost non-existent shadow.*~
-
-</blockquote>
-
-<br />
-
-<a href="http://www.bouroullec.com/?p=82" target="_blank">See the project <f-arrow-icon rotation="-45" /></a>
-
--
-
-<f-image src="./images/02-twigs-and-algues.png" style="background-position: 50% 50%" />
-
--
-
-<!-- <f-next-button title="Ready to move on?" /> -->
-
-<div style="height:100%; display:flex; align-items: flex-end;">
-  <f-next-button />
 </div>
+
+-
+
+<div style="height:100%; min-height: 70vh; display:flex; flex-direction:column;">
+  <f-image src="" style="flex:1; min-height:50%; background-position:center;" />
+  <f-image src="" style="flex:1; min-height:50%; background-position:center 30%;" />
+</div>
+
+-
+
+<f-next-button title="Next" />
+
+-
+
+
+
+
+
+
+
+
 
 
 
