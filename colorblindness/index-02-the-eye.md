@@ -155,7 +155,7 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 
 -
 
-<f-image src="./images/color_blindness_accessibility_meat.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+<f-image src="./images/color_blindness_accessibility_meat.jpg" style="background-position:50% 50%; " />
 
 ---
 
@@ -184,4 +184,4 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 
 -
 
-<f-image src="./images/color_blindness_accessibility_form.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+<f-image src="./images/color_blindness_accessibility_form.jpg" style="background-position:50% 50%;" />
