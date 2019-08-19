@@ -91,7 +91,8 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 -
 
-<f-next-button />
+~On the next page, you can find out where your rods and cones are positioned.~
+<f-next-button title="Mapping rods and cones" />
 
 ---
 
@@ -138,6 +139,7 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 | height: 100vh
 | 1 3
 | 2 3
+| 4 4
 
 
 <!-- ##### EXPLAIN  -->
@@ -159,6 +161,9 @@ When we cook together, he always asks me, if meat is still edible, because wheth
   <img src="./images/color_blindness_accessibility_meat.jpg" />
 </figure>
 
+-
+
+<f-next-button />
 
 ---
 
@@ -167,6 +172,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 | height: 100vh
 | 1 3
 | 2 3
+| 4 4
 
 
 <!-- ##### EXPLAIN  -->
@@ -191,3 +197,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 <figure style="display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
   <img src="./images/color_blindness_accessibility_form.jpg" />
 </figure>
+
+-
+
+<f-next-button />
