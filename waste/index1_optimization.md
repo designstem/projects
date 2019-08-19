@@ -251,9 +251,9 @@ Continue for inspiration and information ***TODO: Continue to where?***
 
 ---
 
-| 1 1
-| 2 3
-
+| 1 1 1
+| 2 3 4
+ 
 <caption>Optimization with sticks and strings</caption>
 
 ## Exercise 2: Examples and resources
@@ -266,6 +266,19 @@ Continue for inspiration and information ***TODO: Continue to where?***
 
 <img src="./images/mat2.jpg" />
 
+-
+
+***TODO: Links?***
+
+**Computer-free Design using the Method of Force Cones** 
+C. Mattheck
+
+**Example topologies using the method of force cones** 
+C. Mattheck
+
+**Further verification of the method of force cones**
+C. Mattheck
+
 <f-notes title="Credits">
 
 Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without computers. Karlsruhe: Forschungszentrum Karlsruhe.
@@ -276,8 +289,10 @@ Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without compu
 
 | chapter: Optimization with cells
 | section: Hexagon for energy optimization
+| 1 1 1
+| 2 3 4
 
-# Optimization with cells
+<caption>Optimization with cells</caption>
 
 ## Hexagon for energy optimization
 
@@ -285,14 +300,27 @@ A hexagon is a form we see everywhere in nature when energy optimization is need
 
 For example in a honeycomb, radiolaria or dried clay.
 
+-
+
+<img src="./images/honey.jpg">
+
+-
+
+<img src="./images/radiolaria.jpg">
+
+-
+
+<img src="./images/clay.png">
+
 ---
 
 | section: Exercise: make a beeboard
 
+<caption>Optimization with cells</caption>
+
 ## Exercise: Make a beeboard
 
-Hexagons can also be found in a vast variety of man-made materials.
-For example, core infill for composite sandwiches used in aerospace structures. 
+Honeycombs can be found in a vast variety of structures. Especially it’s used as core infill for composite sandwiches used in aerospace structures or your everyday kitchen door. Honeycombs are hexagonal-shaped cells.
 
 It’s lightweight and when it’s pressed into a mould, it adapt to its form. 
 
@@ -306,37 +334,53 @@ Beeboard you’ll find in your everyday kitchen cabinet door.
 
 ---
 
-<section>Optimization with cells</section>
+<caption>Optimization with cells</caption>
 
 ## Exercise 1: the steps
 
+<img src="./images/bee1.jpg">
+
+<p />
+
 There are many ways to cut and etch paper. A laser cutter would probably be the fastest and most precise way to do it. But etching the paper with a ruler and cutter is fine too. First of all print the pattern in attachment.
 
-1.  Fold your sheets as seen in the illustration below. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
+<img src="./images/bee2.jpg">
 
-2.  Tape the ‘hills’ with double-sided tape. Than, put the other sheet on top of it, so you’ll have long honeycomb shape cylinders.
+***TODO: Steps***
+
+1. Fold your sheets as seen in the illustration above. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
+
+<img src="./images/bee3.jpg">
+
+<img src="./images/bee4.jpg">
+
+2. Tape the ‘hills’ with double-sided tape. Than, put the other sheet on top of it, so you’ll have long honeycomb shape cylinders.
+
+<img src="./images/bee5.jpg">
 
 3. Cut the taped sheets into shorter parts. Tape those shorter part on top of each other. 
 
+  <img src="./images/bee6.jpg">
+
 4. Stretch the parts, so the honeycomb beeboard will appear.
+
+  <img src="./images/bee7.jpg">
 
 ---
 
-<section>Optimization with cells</section>
+<caption>Optimization with cells</caption>
 
 ## Exercise 2: Soap bubbles
 
 The 3D version of a honeycomb you get when you stack balls in a crate and put weight on them, causing the walls to be pressed to each other. 
 
-The physicist Kelvin proposed that a 14-faced polyhedron (tetrakaidecahedron) can be considered the most ideal form to spread the forces exposed to it.
+The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
 
 Imagine the balls are soap bubbles, they even start to share the walls!
 
----
+***TODO: TOOL***
 
-<section>Optimization with cells</section>
-
-***TOOL***
+<f-notes title="TODO: NOTES FOR A TOOL" width="50vw">
 
 ## Spheres to polyhedrons
 
@@ -346,17 +390,6 @@ See the 3D-honeycomb created in slicr 3D.
 
 https://engineerdog.com/2015/03/08/3d-printing-a-3d-honeycomb-infill-concept/
 
--
-
-<img src="./images/balls.png" />
-
----
-
-<section>Optimization with cells</section>
-
-***TOOL***
-
-## Voronoi / Soap bubbles
 
 Furthermore, we were talking about a voronoi simulator. In principle the students will draw their own on paper. To understand what’s really happening.
 
@@ -364,15 +397,11 @@ But I found this simulator online: http://alexbeutel.com/webgl/voronoi.html whic
 
 https://www.visualcinnamon.com/2015/07/voronoi.html
 
+</f-notes>
+
 ---
 
-| 1 1
-| 2 3
-
-<section>Optimization with cells</section>
-
-## Soap bubbles and Voronoi
--
+<caption>Optimization with cells</caption>
 
 When you look at soap bubbles, you see they’re not regular; they vary in size and shape. 
 
@@ -384,9 +413,19 @@ Researching the Voronoi diagram
 
 Let’s see if we can mimic dried clay and soap bubbles and modify them into possible emergency plans!   
 
+<f-inline>
+
+<img src="./images/soap2.png" style="width: 50%">
+
+<img src="./images/clay2.png" style="width: 50%">
+
+</f-inline>
+
+***ERIK: Unknown sources***
+
 ---
 
-## Optimization with cells
+<caption>Optimization with cells</caption>
 
 ~Georgy Voronoi was a Russian mathematician. A Voronoi diagram is built out of various polygons. Imagine you’re are in region and you’re looking for the closest hospital. The region is divided in areas (polygons) with nodes. Every node represents a hospital.~
 
@@ -400,7 +439,7 @@ Let’s see if we can mimic dried clay and soap bubbles and modify them into pos
 | 2 3
 | rows: auto 1fr
 
-## Optimization with cells
+<caption>Optimization with cells</caption>
 
 ## Exercise 3
 
@@ -416,27 +455,30 @@ https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/
 
 ---
 
-## Optimization with cells
+<caption>Optimization with cells</caption>
 
-### Back to the bone!
+## Back to the bone!
 
 When you cut a thigh bone you’ll see a foam structure that is optimally formed by the forces it has to carry. So, bone is strong and light. 
 
 And: like foam bone could eliminate material by adapting to the change of the environment, but of course not at the same speed soap bubbles do! 
 
-<button v-on:click="goto('optimize')">Back to optimizations</button>
+-
+
+<img src="./images/soap2.png" />
+
+-
+
+<img src="./images/bone4.jpg" />
 
 ---
 
-| section: deformation
-| 1 1
-| 2 3
+| chapter: Optimization by deformation
+| section: Deformation
 
 ## Optimization by deformation
 
 The deformation (and even failure) of existing materials and structures under load can be very instructive for the designing and building of new ones.
-
--
 
 First of all, deformation teaches us about fundamental loads and stresses.
 
@@ -444,13 +486,25 @@ Prof. Dr. Claus Mattheck uses rubber plates and sheets of aluminum foil to help 
 
 -
 
-***IMAGE***
+<f-inline>
+
+<img src="./images/rubber1.jpg" style="width: 50%"/>
+
+<img src="./images/rubber2.jpg" style="width: 50%"/>
+
+</f-inline>
+
+<f-inline>
+
+<img src="./images/rubber3.jpg" style="width: 50%"/>
+
+<img src="./images/rubber4.jpg" style="width: 50%"/>
+
+</f-inline>
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
----
-
-***TOOL***
+<f-notes title="TODO: Notes for a tool">
 
 ## Virtual rubber sheet
 
@@ -466,18 +520,15 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 * Sheet and hole(s) are responding to applied forces making visible the effect and direction of compression, tension, shear and bending
 
--
 
 <img src="./images/rubber.png" />
 
----
-
 
 <img src="./images/shear1.png" />
 
--
-
 <img src="./images/shear1.png" />
+
+</f-notes>
 
 ---
 
@@ -487,11 +538,13 @@ Deformation also acts as a warning signal.
 
 -
 
-<f-image src="https://s0.geograph.org.uk/photos/34/64/346439_5a87708d.jpg" />
+<f-image src="./images/house.jpg" />
+
+<f-notes title="Credits">
 
 https://www.geograph.org.uk/photo/346439
-Nearly collapsed by Robin Webster
-Licensed under CC BY-SA 2.0
+
+</f-notes>
 
 ---
 
