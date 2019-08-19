@@ -247,10 +247,12 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 ~**Tritanopia** and **Tritanomaly** are very rare color vision disturbances in which only the red and the green cone pigments are present, with a total absence of blue retinal receptors for Tritanopia. For Tritanomaly the S-cone is not missing, only malfunctioning. For people with tritanopia and tritanomaly, blue hues appear greenish, yellows and oranges appear pinkish and purple colors appear deep red.~
 
-~Most people with a form of CVD have a genetic defect. But color blindness can also be caused by brain or retinal damages, e.g. due to accidents which produce swelling of the brain. Sometimes CVD is due to retinal damage caused by diabetes, Vintamin A deficiency or age-related macular degeneration. ~
+~Most people with a form of CVD have a genetic defect. But color blindness can also be caused by brain or retinal damages, e.g. due to accidents which produce swelling of the brain. Sometimes CVD is due to retinal damage caused by diabetes, Vintamin A deficiency or age-related macular degeneration.~
 </details>
 
-2. ~Work out the genotypes of each individual, using the symbols <f-math inline>X^N</f-math inline> for an X chromosome with an allele for normal color vision, <f-math inline>X^n</f-math inline> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision (see diagram on the right).~
+<br>
+
+2. ~Work out the genotypes of each individual, using the symbols <f-math inline> X^N </f-math> for an X chromosome with an allele for normal color vision, <f-math inline> X^n </f-math> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision (see diagram on the right).~
 
 3. ~Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.~
 
@@ -265,7 +267,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
   <img src="./images/color_blindness_accessibility_cvd3.jpg" />
 </figure>
 
-3. ~For a female to be color blind, her father would have to be X^nY and her mother would have to be X^N X^n (a *carrier* with normal color vision) or X^n X^n (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages. ~
+3. ~For a female to be color blind, her father would have to be X^nY and her mother would have to be X^N X^n (a *carrier* with normal color vision) or X^n X^n (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages.~
 
 </details>
 -
