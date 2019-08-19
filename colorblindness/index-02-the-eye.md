@@ -229,4 +229,23 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 #### Task
 
-1. ~R
+1. ~Read through the text and find out about the different types of color blindness.~
+
+<details>
+	<summary>Click here to see the text</summary>
+  
+~Color Vision Deficiency (CVD) is commonly known as color blindness. It affects approximately 1 in 12 men (8%) and 1 in 200 women in the world.~
+
+~Complete color blindness, *Achromatopsia*, is very rare (affects approximately 3 in 100 000 people). This means that people only see black, white and shades of grey, because their cones don't function. Only their rods. In addition, they have troubles seeing in sunlight, because rods actually are needed for vision during twilight, not during daylight. Further, cones are neccessary for sharp vision, but since they are missing in the macula, people with Achromatopsia don't see sharp. This is genetic defect, which cannot be cured.~
+
+~**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.~
+~Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
+
+~**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.~
+~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
+~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
+~That’s why you can’t see colors in the dark.~
+</details>
+
+2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
+https://en.wikipedia.org/wiki/Color_vision~
