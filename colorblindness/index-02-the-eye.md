@@ -1,5 +1,3 @@
-
-
 | chapter: The eye
 | section: The eye
 | rows: auto
@@ -17,7 +15,6 @@
 ~When it comes to color vision, the **retina** is the part of the eye which is important.~
 ~It is at the back of the eye and contains two types of photoreceptor cells which detect light: **rods and cones**.~
 
-
 -
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
@@ -29,7 +26,6 @@
 <f-next-button title="Rods and cones" />
 
 ---
-
 
 
 
@@ -91,6 +87,7 @@ https://en.wikipedia.org/wiki/Color_vision~
 -
 
 ~On the next page, you can find out where your rods and cones are positioned.~
+
 <f-next-button title="Mapping rods and cones" />
 
 ---
@@ -158,14 +155,15 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 ~Michael also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations. He wants to avoid people staring at him.~
 <br>
 
+<f-next-button />
+
 -
+
 <figure style=" display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
   <img src="./images/color_blindness_accessibility_meat.jpg" />
 </figure>
 
 -
-
-<f-next-button />
 
 ---
 
