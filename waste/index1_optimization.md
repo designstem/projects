@@ -103,9 +103,9 @@ Arch bridges are examples of **compressive structures**.
 
 -
 
-<img src="./images/bridge.jpg">
+<img src="./images/bridge.jpg" />
 
-<img src="./images/bridge2.jpg">
+<img src="./images/bridge2.jpg" />
 
 <f-notes title="Credits">
 
@@ -135,7 +135,7 @@ Another example of tension and compression members combined!
 
 -
 
-<img src="./images/bridge4.jpg">
+<img src="./images/bridge4.jpg" />
 
 <f-notes title="Credits">
 
@@ -157,7 +157,7 @@ Cables and ropes in functional constructions (like bridges and boats) echo the t
 
 -
 
-<img src="./images/bridge5.jpg">
+<img src="./images/bridge5.jpg" />
 
 <f-notes title="Credits">
 
@@ -181,9 +181,9 @@ https://pxhere.com/en/photo/1230998
 
 -
 
-<img src="./images/skeletal.png">
+<img src="./images/skeletal.png" />
 
-<img src="./images/musculatory.png">
+<img src="./images/musculatory.png" />
 
 <f-notes title="Credits">
 
@@ -202,40 +202,46 @@ https://academy.allaboutbirds.org/features/birdanatomy/
 Try to build a space frame using ice-cream sticks and strings/lines.
 For a building description of a space frame, look at the next page.
 
+<small>
+
+The space frame structure of a train station
+
+</small>
+
+-
+
+<f-image src="./images/roof.jpg" />
+
+<f-notes title="Credits">
+
+https://commons.wikimedia.org/wiki/File:Modern_steel_station_roof_of_Zaandam_as_a_space_truss_construction_to_give_maximum_transparancy_to_the_townhall_-_panoramio.jpg
+
+</f-notes>
+
 ---
 
-| 1 1
-| 2 3
-| rows: auto 1fr
+| 1 1 1
+| 2 3 4
 
 <caption>Optimization with sticks and strings</caption>
 
-## Exercise 2: Examples and resources
+-
+
+<img src="./images/doc1.jpg" />
+
+***TODO: Where is the content?***
 
 -
 
-***Image***
-
-Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without computers. Karlsruhe: Forschungszentrum Karlsruhe.
+<img src="./images/doc2.jpg" />
 
 -
 
-[Computer-free Design Using the Method of Force Cones](https://drive.google.com/file/d/1sVGEyxQY4fR1GYB_fR4cGckL2a33bWHL/view
-)
-
-
-[Example Topologies Found by the Method of Force Cones](https://drive.google.com/file/d/1OWZg59j0lppItRTOMVeWjzVCiyoABjKM/view
-)
-
-**Further verification of the method of force cones**
-
-***TODO: Link broken***
+<img src="./images/doc3.jpg" />
 
 ---
 
-## [Building description space frame]
-
----
+<caption>Optimization with sticks and strings</caption>
 
 ## Exercise 2
 
@@ -243,7 +249,28 @@ Now build a model of a functional structure using only sticks and strings.
 
 Continue for inspiration and information ***TODO: Continue to where?***
 
-<button v-on:click="goto('optimize')">Back to optimizations</button>
+---
+
+| 1 1
+| 2 3
+
+<caption>Optimization with sticks and strings</caption>
+
+## Exercise 2: Examples and resources
+
+-
+
+<img src="./images/mat1.jpg" />
+
+-
+
+<img src="./images/mat2.jpg" />
+
+<f-notes title="Credits">
+
+Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without computers. Karlsruhe: Forschungszentrum Karlsruhe.
+
+</f-notes>
 
 ---
 
