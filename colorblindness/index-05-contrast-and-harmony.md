@@ -136,7 +136,7 @@
 
 &nbsp;
 
-~**Johannes Itten**, who taught at Bauhaus, defined seven different color contrasts. Find out about the definitions and examples of these contrasts online:~
+~**Johannes Itten**, who taught at Bauhaus, tried to describe the relationship of colors and defined seven different color contrasts. Find out about the definitions and examples of these contrasts online. How do they work? Which effect do they have?~
 
 
 ##### 1. Contrast of hue
