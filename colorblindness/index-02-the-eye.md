@@ -217,7 +217,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 <!-- ##### EXPLAIN  -->
 
 ##### Color Vision Deficiency
-# Learning about CVD
+# Why are people colorblind?
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -274,4 +274,4 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 -
 
-<f-next-button />
+<f-next-button title="Color Mixing" />
