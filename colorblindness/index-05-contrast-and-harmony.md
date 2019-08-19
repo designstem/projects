@@ -136,8 +136,13 @@
 
 &nbsp;
 
-~**Johannes Itten**, who taught at Bauhaus, tried to describe the relationship of colors and defined seven different color contrasts. Find out about the definitions and examples of these contrasts online. How do they work? Which effect do they have?~
+~**Johannes Itten**, who taught at Bauhaus between 1919 and 1923, tried to describe the relationship of colors and defined seven different color contrasts. In 1961, he also designed his famous color wheel, which you have probably already seen at some point. By using this color wheel, you can describe all of his contrasts.~
 
+
+#### Tasks
+
+1. ~Find out about the definitions and examples of the following contrasts online.~
+2. ~Find out how these contrasts work and which effect they have.~
 
 ##### 1. Contrast of hue
 
@@ -153,26 +158,32 @@
 
 ##### 7. Contrast of extension
 
+<br> 
+
+#### Extra task:
+~Look at your daily surroundings more closely and try to find Itten's color contrasts in magazines, posters, on websites and everywhere, where there is color design.~
+
 </section>
 
 -
 
-<f-image src="images/johannes-itten.jpg" style="background-position:50% 10%; min-height:60vh; width:100%; height:100%;" />
+<f-image src="images/cvd_itten_colorwheel.svg" style="background-position:50% 10%; min-height:60vh; width:100%; height:100%;" />
 
+<!--
+<f-image src="images/johannes-itten.jpg" style="background-position:50% 10%; min-height:60vh; width:100%; height:100%;" />
+-->
 -
 
 <section style="padding:var(--base2) var(--content-padding) var(--content-padding) var(--content-padding)">
   <f-next-button />
 </section>
 
+
+
+
+
+
 ---
-
-
-
-
-
-
-
 
 
 
