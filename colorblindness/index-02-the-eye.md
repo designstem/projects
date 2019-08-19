@@ -136,21 +136,23 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 | id: cb-cvd
 | rows: auto
 | height: 100vh
-| 1 1
+| 1 3
 | 2 3
 
 
 <!-- ##### EXPLAIN  -->
 
 ##### The eye
-# Color Vision Deficiency
+# Color Vision <br> Deficiency
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 -
 
-~I have a friend, whose name is Michael. He is colorblind. When we cook together, he always has to ask me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him.~
-
+~I have a friend, whose name is Michael. He is colorblind. Red blind to be precise.
+When we cook together, he always asks me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him - like meat that is already off.~
+<br>
+~Michael also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations. He wants to avoid people staring at him.~
 <br>
 
 -
@@ -162,23 +164,26 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 | id: cb-cvd
 | rows: auto
 | height: 100vh
-| 1 1
+| 1 3
 | 2 3
 
 
 <!-- ##### EXPLAIN  -->
 
 ##### The eye
-# Color Vision Deficiency
+# Color Vision <br> Deficiency
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 -
 
-~Michael also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations.~
+~Besides these minor problems, sometimes accessing information can be really hard for Michael: offline and online.~
 <br>
-~Besides these minor problems, sometimes accessing information can be really hard for him: offline and online.~
-~**But why does he have these problems?** Let's find out.~
+~When he is new in a city and wants to take the subway, it is hard to read the maps, because they are color coded. Yes, in the end, he will take the right subway, but it takes him much longer than a person with average color vision.~
+<br>
+~Sometimes, however, it is nearly impossible for him to access information, like in the example on the right. Often, websites use colors to code functions or information. This is helpful for people with normal color vision, because we can navigate and get results much faster. But people like Michael are having a hard time, because they simply cannot see, what the website wants them to do. I remember Michael once sending me a screenshot, to find out what he was doing wrong while filling out an online form. He simply couldn't see the red marking which indicated that his input was faulty.~
+<br>
+~**But why does he have these problems?** What makes him different from a person with average color vision? Let's find out.~
 
 <br>
 
