@@ -121,7 +121,8 @@ The students’ awareness should be raised for the problems people with color vi
 | rows: auto
 | gap: 3vmin
 | 1 2
-| 3 2
+| 1 2
+| 3 3
 
 
 # More than tomatoes
@@ -131,9 +132,15 @@ The students’ awareness should be raised for the problems people with color vi
 ~**So what?! Is it that bad if a person eats a green tomato once in a while?**~
 ~No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!~
 ~Tomatoes are only one example for the problems people with Color Vision Deficiency (hereafter referred to as CVD) face on a daily basis.~
-~In this workshop, you are going to explore in which way people with CVD are affected and what you need to know to make their lives better.~
+
+<f-inline>
+
+# 🔭
+  
+~**In this workshop, you are going to explore in which way people with CVD are affected and what you need to know to make their lives better.**~
+</f-inline>
+
 ~Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors.~
-<br>
 ~This workshop is for both, STEM and Design students. At a later point, you will be able to choose a path connected to your field. But first, lets all explore our daily surroundings to get a better understanding.~ 
 
 -
