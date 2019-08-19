@@ -229,7 +229,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 #### Task
 
-1. ~Read through the text and find out about the different types of color blindness.~
+1. ~Read through the text and find out about the different types of color blindness. Michael is red colorblind. What is the medical term for his condition and which colors does he have trouble seeing?~
 
 <details>
 	<summary>Click here to see the text</summary>
@@ -251,5 +251,4 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 ~Most people with a form of CVD have a genetic defect. But color blindness can also be caused by brain or retinal damages, e.g. due to accidents which produce swelling of the brain. Sometimes CVD is due to retinal damage caused by diabetes, Vintamin A deficiency or age-related macular degeneration. ~
 </details>
 
-2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
-https://en.wikipedia.org/wiki/Color_vision~
+2. ~Work out the genotypes of each individual, using the symbols X^N for an X chromosome with an allele for normal color vision, X^n for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision (see diagram on the right).~
