@@ -302,7 +302,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 ##### TASKS
 1. Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.
-2. Alter the polarity profiles below, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on *show*. **But don't cheat!**
+2. Alter the polarity profiles on the right, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on *show*. **But don't cheat!**
 
 
 -
@@ -420,6 +420,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | rows: auto
 | 1 3
 | 2 3
+| 4 4
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
@@ -440,21 +441,25 @@ b) saturated colors have in comparison to desatured colors.~
 
 ### Conclusion
 
-The average feeling of darker colors is heavy, old, passive, slow, serious, sad, quiet.
-Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.
+~The average feeling of darker colors is heavy, old, passive, slow, serious, sad, quiet.~
+~Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.~
+~The average effect of saturated colors is loud, bold, open, active, risky and cheerful.~
+~Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.~
 <br>
-The average effect of saturated colors is loud, bold, open, active, risky and cheerful.
-Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.
+~This is only the average impression - it can vary depending on the color's hue.~ **So only take it as a hint, not a rule.**
 <br>
-This is only the average impression - it can vary depending on the color's hue. **So only take it as a hint, not a rule.**
-
+~Whenever you design with colors, remember that the hue is not the only component influencing the color's effect!
+Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
 </f-sidebar> 
 
 -
 
 <f-image src="./images/color_blindness_accessibility_31.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
+-
 
+
+<f-next-button title="Try out what you learned!" />
 
 
 ---

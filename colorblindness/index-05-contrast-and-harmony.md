@@ -136,7 +136,7 @@
 
 &nbsp;
 
-~**Johannes Itten**, who taught at Bauhaus, defined seven different color contrasts:~
+~**Johannes Itten**, who taught at Bauhaus, defined seven different color contrasts. Find out about the definitions and examples of these contrasts online:~
 
 
 ##### 1. Contrast of hue
@@ -188,13 +188,13 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# Task 1
+# Find the contrasts 1
 
 <!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
 -
 
-~Find out about the seven contrasts online and match them with the pictures.~ 
+~After you found out about Itten's contrasts, look at the pictures on the next pages and match the contrasts with the pictures. Don't cheat by being lazy and clicking on the answer key first! You're better than that.~ 😉  
 
 ~Which contrasts do you see?~
 
@@ -238,13 +238,12 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Task 1
+# Find the contrasts 2
 
 -
 
-~Find out about the seven contrasts online and match them with the pictures.~ 
+~Here is another example. How many color contrasts can you identify?~ 
 
-~Which contrasts do you see?~
 
 <ContrastQuiz :input="[ 
   ['Contrast of hue',         0], 
@@ -284,13 +283,12 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Task 1
+# Find the contrasts 3
 
 -
 
-~Find out about the seven contrasts online and match them with the pictures.~ 
+~One last example for you to prove that you are *Itten worthy*. Easy, isn't it?~ 🤔
 
-~Which contrasts do you see?~
 
 
 <ContrastQuiz :input="[ 
