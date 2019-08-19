@@ -1,11 +1,11 @@
 | theme: blue
+| chapter: Zero waste products
 
-# <big><big>Zero waste products</big></big>
-
-<big><big>Waste is a design mistake II</big></big>
+# <big>Zero waste products</big>
 
 ---
 
+| section: The Flax Chair
 | 1 2 2
 
 # The FLAX Chair by Christien Meindertsma
