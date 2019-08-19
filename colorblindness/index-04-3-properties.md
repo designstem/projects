@@ -18,13 +18,13 @@
 2. ~**SATURATION**~
 3. ~**BRIGHTNESS**~
 
-~All three of these properties change the effect the color has.~
-
 <!-- &nbsp; --> 
 
-#### ~Have a look at these 2 greens~ 👉
+#### ~Look at these two greens~ 👉
 
-~Both are greens, but they have different effects. Most people wouldn’t call the brighter color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
+~Both are greens, but have a different brightness and saturation. Most people wouldn’t call the lower color natural although green often is used to suggest organic, natural properties.~
+~In lots of books, you can get lists of properties or effects a hue can have. Sometimes these descritpions are very shallow, because not only the hue influences a colors effect. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
+~On the next few pages, we will look at this more closely.~
 
 <f-next-button  />
 
@@ -73,14 +73,19 @@
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
-# Hue, saturation, brightness
+# Color meaning (hue)
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 &nbsp;
 
-~All colors have a certain effect regarding their hue. Red is often associated with love, but also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.
-But what if we leave the hue unaltered and change the other two properties: saturation and brightness? Does this affect the colors effect? Lets try to find out on the next page.~
+~It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.
+But what if we leave the hue unaltered and modify the other two properties, saturation and brightness? Does this change the colors effect? We will try to find out on the next few pages.~
+
+#### Hint:
+~Since you probably already know (through your gut feeling) the effect hues can have, we will skip further explanations in this workshop. But if you feel, like you need more information on this, feel free to browse 
+<f-link to="https://en.wikipedia.org/wiki/Color_symbolism">this website</f-link>.~
+
 
 
 <f-next-button style="margin:var(--base6) 0" />
