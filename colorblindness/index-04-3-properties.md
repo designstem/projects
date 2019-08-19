@@ -420,6 +420,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | rows: auto
 | 1 3
 | 2 3
+| 4 4
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
