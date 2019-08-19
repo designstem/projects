@@ -255,10 +255,27 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 3. ~Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.~
 
+<br>
+
+<details>
+	<summary>Check out the answers but don't cheat</summary>
+  
+2. <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
+  <img src="./images/color_blindness_accessibility_cvd3.jpg" />
+</figure>
+
+3. ~For a female to be color blind, her father would have to be X^nY and her mother would have to be X^N X^n (a *carrier* with normal color vision) or X^n X^n (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages. ~
+
+</details>
 -
 
-<f-image src="./images/color_blindness_accessibility_cvd1.jpg"  />
-<f-image src="./images/color_blindness_accessibility_cvd2.jpg"  />
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
+  <img src="./images/color_blindness_accessibility_cvd1.jpg" />
+</figure>
+
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
+  <img src="./images/color_blindness_accessibility_cvd2.jpg" />
+</figure>
 
 -
 
