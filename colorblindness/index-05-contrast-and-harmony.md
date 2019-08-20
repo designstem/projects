@@ -687,10 +687,8 @@ If possible, discuss your results with someone else.~
 | rows: auto
 
 | 1 1 1 1
-| 1 1 1 1
-| 2 2 2 2
+| 2 2 3 3
 | 4 5 6 7
-| 3 3 3 3
 | 8 8 8 8
 
 ##### Color contrast and harmony
@@ -703,7 +701,7 @@ If possible, discuss your results with someone else.~
 
 -
 
-<f-sidebar title="Click to see the tasks!" style="--sidebar-width:60vw; --sidebar-mobile-width:75vw" overlay>
+## <f-sidebar title="Click to see the tasks!" style="--sidebar-width:60vw; --sidebar-mobile-width:75vw" overlay>
 
 1. ~Adjust the background, headline and text colors, so that they match your HSB values of the last task. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.~
 2. ~Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad really bad. Try to find out which color combinations don't work well.~
