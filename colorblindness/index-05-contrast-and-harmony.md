@@ -591,90 +591,9 @@ If possible, discuss your results with someone else.~
 
 <f-next-button style="margin:var(--base4) 0;" />
 
-<!--
----
 
-
-
-
-
-
-
-
-
-
-
-
-| id: contrast
-| rows: auto
-| 1 1 1 3
-| 2 2 2 3 
-| 4 4 5 5
-
-<!-- ##### EXPLAIN -->
-##### Color contrast and harmony
-# Task 3
-
-Given are a headline and a text on a background. Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.
-
-If possible, discuss your results with someone.
-
--
-
-<f-inline>
-
-<div style="flex:1">
-
-#### Background
-
-<f-slider title="H" :value="get('h51', 44)" v-on:input="set('h51', $event)" from="0" to="360" integer />
-<f-slider title="S" :value="get('s51', 77)" v-on:input="set('s51', $event)" to="100" integer />
-<f-slider title="B" :value="get('b51', 100)" v-on:input="set('b51', $event)" to="100" integer />
-
-</div>
-<div style="flex:1">
-
-#### Heading
-
-<f-slider title="H" :value="get('h52', 44)" v-on:input="set('h52', $event)" to="360" integer />
-<f-slider title="S" :value="get('s52', 77)" v-on:input="set('s52', $event)" to="100" integer />
-<f-slider title="B" :value="get('b52', 77)" v-on:input="set('b52', $event)" to="100" integer />
-
-</div>
-<div style="flex:1">
-
-#### Text
-
-<f-slider title="H" :value="get('h53', 44)" v-on:input="set('h53', $event)" to="360" integer />
-<f-slider title="S" :value="get('s53', 77)" v-on:input="set('s53', $event)" to="100" integer />
-<f-slider title="B" :value="get('b53', 77)" v-on:input="set('b53', $event)" to="100" integer />
-</div>
-
-
-</f-inline>
-
--
-
-<div style="padding: var(--base8); min-height:500px; height:100%" :style="{
-  background: hsb2hsl( get('h51',44), get('s51',77), get('b51',100) )
-}">
-
-<h1 :style="{
-  color: hsb2hsl( get('h52',44), get('s52',77), get('b52',77) )
-}">Discover nature</h1>
-
-<p :style="{
-  color: hsb2hsl( get('h53',44), get('s53',77), get('b53',77) )
-}">If you love nature, walks in the woods, mountain peaks reflected in lake waters, wildlife sanctuaries for observing animals in their own habitat, a whole range of flora... plan a holiday in the mountains!</p>
-
-</div>
-
--->
 
 ---
-
-
-
 
 
 
@@ -696,7 +615,7 @@ If possible, discuss your results with someone.
 
 
 ~Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
-~If possible, discuss your results with someone, i.e. *why did you choose a certain combination*, *how does it fit to the topic* and *does your result fulfill the criteria of the task*? Also, **write down/take a screenshot of your colors' HSB values** for later!~
+> ~Please, **write down/take a screenshot of your colors' HSB values** for later!~
 
 -
 
@@ -745,7 +664,7 @@ If possible, discuss your results with someone.
 
 -
 
-> If possible, discuss your results with someone.
+> If possible, discuss your results with someone, i.e. *why did you choose a certain combination*, *how does it fit to the topic* and *does your result fulfill the criteria of the task*?
 
 <f-next-button />
 
