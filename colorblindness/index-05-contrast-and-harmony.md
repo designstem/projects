@@ -526,7 +526,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# Task 2
+# Harmonious or <br> prominent?
 
 -
 
