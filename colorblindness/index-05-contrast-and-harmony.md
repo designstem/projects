@@ -769,17 +769,23 @@ If possible, discuss your results with someone.
 
 | 1 1 2 2
 | 1 1 2 2
-| 3 4 5 6
-| 7 7 7 7
+| 4 5 6 7
+| 3 3 3 8
 
 ##### Color contrast and harmony
-# Task 4
+# Create a CVD palette
 
-~Earlier, we learned that people with color vision deficiency cannot see all colors, therefore it is hard for them to sometimes access information, especially when text is written in a color, or is placed on a colorful background.~
+~Earlier, we learned that people with color vision deficiencies cannot only see certain colors, therefore it is hard for them to sometimes access information, especially when text is written in a color, or is placed on a colorful background.~
+~**For the this task, you will need the HSB values of the last task!**~
 
-1. Adjust the background, text and headlines colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad.
-2. Adjust the colors, so that the results in all three color vision deficiencies is the best you can get.
-3. Analyse the results and form a conclusion based on the following question: **When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?**
+> **Hint**: ~It will help you to take screenshots of your results in between, to compare them later (task 4) and draw conclusions.~
+
+-
+
+1. Adjust the background, headline and text colors, so that they match your HSB values of the last task. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.
+2. Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad really bad. Try to find out which color combinations don't work well.
+3. Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?
+4. Analyse the results and form a conclusion based on the following question: **When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?**
 
 -
 
