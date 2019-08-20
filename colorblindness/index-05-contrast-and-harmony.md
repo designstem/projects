@@ -1073,9 +1073,9 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 | section: cb-palettes
 | rows: auto
 | cols: 2fr 3fr
-| 1 1
-| 2 2
-| 3 3
+| 1 3
+| 2 3
+| 4 3
 
 &nbsp;
 
@@ -1088,8 +1088,6 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 -
 
-<!-- <f-inline style="--inline-gap:var(--base); --inline-align:flex-start; --inline-justify:space-around;"> -->
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
   
   ## 1.
   
@@ -1149,7 +1147,6 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
   
   
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
   
   ## 7.
   
@@ -1165,7 +1162,6 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
   
   
   
-  </f-inline>
 
 -
 
