@@ -1,4 +1,4 @@
-| caption: Introduction
+| chapter: Introduction
 | section: First page
 | style:  --primary:var(--middlegray)
 | rows: auto
@@ -122,7 +122,7 @@
 
 
 
-
+| section: Biodesign
 | theme: light
 | style:  --primary:var(--middlegray)
 | rows: auto 
@@ -143,7 +143,7 @@
 
 -
 
-<div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end; text-align: right; font-size:90%" >climbing axe modelled on the appearance<br />and efficiency of a woodpecker<br /><br /><small>Designer Franc Lodato</small></div>
+<div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end; text-align: right; font-size:90%" >climbing axe modelled on the appearance<br />and efficiency of a woodpecker<br /><br /><small>Designer Franco Lodato</small></div>
 
 -
 
@@ -167,7 +167,8 @@
 
 
 
-
+| chapter: The Orange
+| section: Bruno Munari and the orange methaphore
 | theme: dark
 | style: background: linear-gradient(45deg, hsl(45,100%,50%) 0%, hsl(40,100%,50%) 100%); --primary: #fff;
 | rows: auto 30vh auto
@@ -641,6 +642,8 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 
+| chapter: Biomimicry in action
+| section: Janine Benyus' TED talk
 | cols: 0.5fr 2fr 3fr
 | 4 1 2
 | 4 3 2
@@ -679,7 +682,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 
-
+| section: Velcro
 | cols: 0.5fr 3fr 2fr
 | 4 1 2
 | 4 3 2
@@ -720,7 +723,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 
-
+| section: Ross Lovegrove
 | cols: 0.5fr 3fr 2fr
 | 4 1 2
 | 4 3 2
@@ -742,7 +745,6 @@ all the senses have been aplied and most of the biodesign concepts have been **e
   <f-image src="./images/06-lovegrove-2.jpg" style="flex: 1; --image-position: center 100%" />
 </div>
 
-
 -
 
 <f-next-button title="Next" />
@@ -756,7 +758,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 
-
+| section: Tomás Sarraceno
 | cols: 0.5fr 3fr 2fr
 | 4 1 2
 | 4 3 2
@@ -801,7 +803,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 
-
+| section: Ingo Rechenberg
 | cols: 0.5fr 3fr 2fr
 | 4 1 2
 | 4 3 2
@@ -841,7 +843,8 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 
-
+| chapter: BioDesign Lessons
+| section: BioDesign Lessons by Franco Lodato
 | cols: 0.5fr 2fr 2fr
 | 4 1 2
 | 4 3 2
@@ -934,7 +937,8 @@ An opportunity for all of us to play a part
 
 
 
-
+| chapter: Explore the world
+| section: Be like William Morris
 | cols: 0.5fr 2fr 3fr
 | 4 1 2
 | 4 3 2
@@ -943,7 +947,7 @@ An opportunity for all of us to play a part
   
   ## Time to go the field
   
-  Be like William Morris, collect nature forms (bring to the draw them and explore their insights with possible tessellations)...
+  Be like **William Morris**, collect nature forms (bring to the draw them and explore their insights with possible tessellations)...
 
   Take notes about details, patterns, color pallet, replicate is form into different perspective, make photocopies, take pictures and draw again...
 
@@ -973,7 +977,8 @@ An opportunity for all of us to play a part
 
 
 
-
+| chapter: Tasks
+| section: Task 1
 | cols: 0.5fr 2fr 2fr
 | 4 1 2
 | 4 3 2
@@ -1051,7 +1056,7 @@ An opportunity for all of us to play a part
 
 
 
-
+| section: Task 2
 | cols: 0.5fr 2fr 2fr
 | 4 1 2
 | 4 3 2
