@@ -691,7 +691,7 @@ If possible, discuss your results with someone else.~
 | 4 4 4 4
 | 6 7 8 9
 | 5 5 5 5
-| 10 10 10 10
+
 
 ##### Color contrast and harmony
 # Create a CVD palette
@@ -734,6 +734,12 @@ If possible, discuss your results with someone else.~
   </div>
 </f-inline>
 
+<br>
+
+<f-next-button title="Design time!" />
+
+#### &nbsp;
+
 -
 
 <Poster 
@@ -770,11 +776,8 @@ If possible, discuss your results with someone else.~
   :type="'Tritanopia'"
 />
 
--
 
-<f-next-button title="Design time!" />
 
-#### &nbsp;
 
 ---
 
