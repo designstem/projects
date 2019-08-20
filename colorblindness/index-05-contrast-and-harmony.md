@@ -194,7 +194,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# Find the contrasts 1
+# <f-activity-icon /> Find the contrasts 1
 
 <!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
@@ -242,7 +242,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Find the contrasts 2
+# <f-activity-icon /> Find the contrasts 2
 
 -
 
@@ -287,7 +287,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Find the contrasts 3
+# <f-activity-icon /> Find the contrasts 3
 
 -
 
@@ -526,7 +526,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# Your turn!
+# <f-activity-icon /> Your turn!
 
 -
 
@@ -610,7 +610,7 @@ If possible, discuss your results with someone else.~
 | 4 4 3
 
 ##### Color contrast and harmony
-# Creating your first color palette
+# <f-activity-icon /> Create your first palette
 
 
 
@@ -694,7 +694,7 @@ If possible, discuss your results with someone else.~
 
 
 ##### Color contrast and harmony
-# Create a CVD palette
+# <f-activity-icon /> Create a CVD palette
 
 -
 
