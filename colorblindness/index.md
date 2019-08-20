@@ -1,4 +1,5 @@
-| section: cb-start
+| chapter: Introduction
+| section: First page
 | theme: dark
 | style: background-position: 50% 50%;
 | background: './images/colorblind-subway.png'
@@ -48,23 +49,19 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
-
-
-
-
-| section: cb-explore-cb
+| section: What is CVD?
 | rows: auto
 | gap: 3vmin
 | 1 2
 | 3 2
 
 
-# Color blindness
+# Pick one!
 
 <div v-if="get('revealX') < 75">
 
-~This is an example, how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
-~Actually there is **<span style="color:var(--red)">only one red tomato</span>** in this picture~
+~This is an example of how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.~ 
+~Actually, in this picture there is **<span style="color:var(--red)">only one red tomato</span>**.~
 
 <f-inline>
 
@@ -80,7 +77,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 <div v-if="get('revealX') > 75">
 
-  ~**Did you guess right? If you picked the right tomato, congratulations!**~
+  ~**Did you guess right? If you picked the right tomato, congratulations!**~ 🎉
   
   <f-inline>
   
@@ -101,7 +98,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 -
 
-<f-next-button title="Next: go outside!" v-if="get('revealX') > 75" />
+<f-next-button />
 
 
 
@@ -121,9 +118,48 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
+| rows: auto
+| 1 2
+| 1 2
+| 3 3
+
+
+# More than tomatoes
+
+<!-- <div v-if="get('revealX') < 75"> -->
+
+~**So what?! Is it that bad if a person eats a green tomato once in a while?**~
+~No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!~
+~Tomatoes are only one example for the problems people with Color Vision Deficiency (hereafter referred to as CVD) face on a daily basis.~
+
+<f-inline>
+
+# 🔭
+  
+~**In this workshop, you are going to explore in which way people with CVD are affected and what you need to know to make their lives better.**~
+
+</f-inline>
+
+~Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors.~
+~This workshop is for both, STEM and Design students. At a later point, you will be able to choose a path connected to your field. But first, lets all explore our daily surroundings to get a better understanding.~ 
+
+-
+
+<f-image src="./images/color_blindness_accessibility_21.jpg" style="height:100%; background-position:center; min-height:50vh;" />
+
+-
+
+<f-next-button title="Next: Go outside!" />
+
+---
 
 
 
+
+
+
+
+| section: Photo safari
 | id: cb-safari
 | gap: 0
 | padding: 0
@@ -168,14 +204,9 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
-
-
-
-
-
-
 ---
 
+| section: Apply CVD to your photos
 | id: cb-simulate
 | rows: auto
 | cols: 2fr 3fr
@@ -240,7 +271,6 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
-
 | id: cb-analyze
 | rows: auto
 | cols: 2fr 3fr
@@ -270,8 +300,8 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
-
-| section: cb-learning-stations
+| chapter: Learning stations
+| section: Learning stations
 | rows: auto
 | 1 1
 | 2 3
@@ -326,8 +356,9 @@ You can work through the stations in the given order which is recommended if you
 
 ---
 
+| chapter: Accessibility
+| section: What is accessibility?
 | id: cb-accessibility
-| section: cb-accessibility
 | rows: auto
 | 1 3
 | 2 3
