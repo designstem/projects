@@ -476,7 +476,7 @@ And: like foam bone could eliminate material by adapting to the change of the en
 | chapter: Optimization by deformation
 | section: Deformation
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
 The deformation (and even failure) of existing materials and structures under load can be very instructive for the designing and building of new ones.
 
@@ -532,9 +532,9 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 ---
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
-Deformation also acts as a warning signal.
+Deformation also acts as a **warning signal**.
 
 -
 
@@ -548,10 +548,9 @@ https://www.geograph.org.uk/photo/346439
 
 ---
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
-Last but not least:
-deformation can be seen as a kind of **shape optimization**.
+Last but not least: deformation can be seen as a kind of **shape optimization**.
 
 Let’s go back to the rubber plates and sheets of  aluminum foil of Prof. Dr. Mattheck.
 
@@ -559,40 +558,51 @@ The way these (isotropic) **materials** bend, fold, stretch and twist can be see
 
 -
 
-**IMAGE**
+<img src="./images/defor1.jpg" />
+
+<img src="./images/defor2.jpg" />
+
+<img src="./images/defor3.jpg" />
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 ---
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
-## Example 1
+### Example 1
 
 Holes and notches in a piece of rubber under stress deform in such a way that local concentrations of stresses are reduced and loads are distributed evenly.
-The shapes that ‘occur’ in this way are to be found all over in the natural and manmade world!
+
+The shapes that "occur" in this way are to be found all over in the natural and manmade world!
   
 -
 
-**IMAGE**
+<img src="./images/defor5.jpg" />
+
+<img src="./images/defor4.jpg" />
 
 Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 ---
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
 ## Example 2
 
-The way aluminum foil deforms (and eventually tears) under tension tells us a lot about lines of **compression and tension**.
+The way aluminum foil deforms (and eventually tears) under tension tells us a lot about **lines of compression and tension**.
 
 Here too, deformation offers us clues about the optimal shape given a particular load.
  
 -
 
+<img src="./images/defor6.jpg" />
+
 Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 ---
+
+<caption>Optimization by deformation</caption>
 
 The shape of components under stress can be used as a **template** for a new design that’s better suited for a particular load.
 
@@ -602,21 +612,23 @@ Basic idea:
 
 * Use the deformation as the basis of a manufactured form.
 
-Again … listen to the trees!
+Again... listen to the trees!
 
 -
 
-***IMAGE***
+<img src="./images/defor7.jpg" />
+
+<img src="./images/defor8.jpg" />
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 ---
 
-## Optimization by deformation
+| 1 1 2
+
+<caption>Optimization by deformation</caption>
 
 ## Exercise
-
-**IMAGE**
 
 1. Take a sponge and a piece of chamois cloth (‘shammy’).
 
@@ -624,8 +636,39 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 3. Observe the deformations closely and try to understand the loads and stresses that led to these shapes.
 
-4. Use the three shapes that appeal to you most, or in which you sense some technical use.
+4. Use the **three** shapes that appeal to you most, or in which you sense some technical use.
 
 5. Make a quick sketch of a product that utilizes these shapes.
 
-<button v-on:click="goto('optimize')">Back to optimizations</button>
+-
+
+<img src="./images/shammy.png" />
+
+---
+
+## Design assignment
+
+You have practiced with different ways and techniques to optimize strength and adaptability in your construction when designing a new product.
+
+Design a usable object using one or more of the techniques (optimization with folds, optimization with sticks and strings, optimization with cells, optimization by deformation).
+
+Do this by following the steps on the next slide.
+
+---
+
+## Design assignment
+
+1. Choose your preferred technique(s).
+
+2. Find a reference in nature or in an existing design object and describe why it appeals to you.
+
+3. Make at least three 2D sketches. 
+
+4. Choose one of or combine your 2D sketches and make a 3D sketch model of it.
+
+5. Evaluate your model, add or adjust where needed.  
+
+6. Make your final object.
+
+
+
