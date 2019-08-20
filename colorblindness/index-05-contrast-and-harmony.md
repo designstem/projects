@@ -591,6 +591,7 @@ If possible, discuss your results with someone else.~
 
 <f-next-button style="margin:var(--base4) 0;" />
 
+<!--
 ---
 
 
@@ -668,6 +669,7 @@ If possible, discuss your results with someone.
 
 </div>
 
+-->
 
 ---
 
@@ -689,11 +691,12 @@ If possible, discuss your results with someone.
 | 4 4 3
 
 ##### Color contrast and harmony
-# Task 3
+# Creating your first color palette
 
 
 
 ~Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
+~If possible, discuss your results with someone, i.e. *why did you choose a certain combination*, *how does it fit to the topic* and *does your result fulfill the criteria of the task*? Also, **write down/take a screenshot of your colors' HSB values** for later!~
 
 -
 
