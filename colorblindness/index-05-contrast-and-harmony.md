@@ -1073,8 +1073,9 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 | section: cb-palettes
 | rows: auto
 | cols: 2fr 3fr
-| 1 2
-| 3 2
+| 1 1
+| 2 2
+| 3 3
 
 &nbsp;
 
