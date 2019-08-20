@@ -1,4 +1,4 @@
-| theme: blue
+| theme: dark
 | chapter: Zero waste products
 
 # <big>Zero waste products</big>
@@ -11,8 +11,6 @@
 # The FLAX Chair by Christien Meindertsma
 
 With the Flax Chair Christien Meindertsma tried to use a **local biodegradable product** in a new contemporary way and she made sure to use the material **as economical as possible**. 
-
-> **Tip:** Use English subtitles on video
 
 -
 
