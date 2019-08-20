@@ -687,20 +687,25 @@ If possible, discuss your results with someone else.~
 | rows: auto
 
 | 1 1 1 1
-| 2 2 2 2
-| 4 5 6 7
-| 3 3 3 3
-| 8 8 8 8
+| 2 2 3 3
+| 4 4 4 4
+| 6 7 8 9
+| 5 5 5 5
+| 10 10 10 10
 
 ##### Color contrast and harmony
 # Create a CVD palette
 
-~Earlier, we learned that people with color vision deficiencies cannot only see certain colors, therefore it is hard for them to sometimes access information, especially when text is written in a color, or is placed on a colorful background.~
-~**For the this task, you will need the HSB values of the last task!**~
+-
 
-> **Hint**: ~You will need to take screenshots of your results in between, to compare them later.~
+~Earlier, we learned that people with color vision deficiencies cannot only see certain colors, therefore it is hard for them to sometimes access information, especially when text is written in a color, or is placed on a colorful background.~
 
 -
+
+> **Hints**: ~**For this task, you ned the HSB values of the last task!** Take screenshots of your results in between, to compare them later.~
+
+-
+
 #### Open the tasks in the sidebar:
 <f-sidebar title="Click me!" style="--sidebar-width:60vw; --sidebar-mobile-width:75vw" overlay>
 
