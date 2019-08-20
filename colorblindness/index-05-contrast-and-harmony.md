@@ -702,17 +702,18 @@ If possible, discuss your results with someone else.~
 
 -
 
-> **Hints**: ~**For this task, you ned the HSB values of the last task!** Take screenshots of your results in between, to compare them later.~
+> **Hints**: ~For this task, you need the HSB values of the last task! Take screenshots of your results in between, to compare them later.~
 
 -
+<br>
 
 #### Open the tasks in the sidebar:
-<f-sidebar title="Click me!" style="--sidebar-width:60vw; --sidebar-mobile-width:75vw" overlay>
+<f-sidebar title="Click me!" overlay>
 
-1. ~Adjust the background, headline and text colors, so that they match your HSB values of the last task. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.~
+1. ~Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.~
 2. ~Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad really bad. Try to find out which color combinations don't work well.~
 3. ~Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?~
-4. ~Analyse the results and form a conclusion based on the following question: **When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?**~
+4. ~Analyse the results and form a conclusion based on the following questions: *When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?*~
 
 </f-sidebar>
 
