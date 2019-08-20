@@ -1169,6 +1169,10 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 -
 
+<f-image src="./images/cvb_brushes.jpg" style="background-position:50% 20%; min-height:60vh; width:100%; height:100%; background-size: contain;" />
+
+-
+
 <div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
     <f-next-button />
 </div>
