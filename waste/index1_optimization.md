@@ -52,7 +52,9 @@ In the pictures you see two identical A4 papers folded in **hexagonal like** sha
 
 Which one do you think is the strongest?
 
-***IMAGE***
+***TODO: Sandra image ***
+
+***TODO: Sandra image ***
 
 ---
 
@@ -60,13 +62,19 @@ Which one do you think is the strongest?
 
 See what happens when you place the papers **horizontally** on the table and put a weight on it. 
 
-***IMAGE***
+***TODO: Sandra image ***
+
+***TODO: Sandra image ***
 
 ---
 
 <caption>Optimization with folds</caption>
 
 See what happens when you place the papers **vertically** on the table and put a weight on it. 
+
+***TODO: Sandra image ***
+
+***TODO: Sandra image ***
 
 ---
 
