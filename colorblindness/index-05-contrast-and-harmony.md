@@ -194,7 +194,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# <f-activity-icon /> Find the contrasts 1
+# <f-activity-icon size="large" /> Find the contrasts 1
 
 <!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
@@ -242,7 +242,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# <f-activity-icon /> Find the contrasts 2
+# <f-activity-icon size="large" /> Find the contrasts 2
 
 -
 
@@ -287,7 +287,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# <f-activity-icon /> Find the contrasts 3
+# <f-activity-icon size="large" /> Find the contrasts 3
 
 -
 
@@ -526,7 +526,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# <f-activity-icon /> Your turn!
+# <f-activity-icon size="large" /> Your turn!
 
 -
 
@@ -610,7 +610,7 @@ If possible, discuss your results with someone else.~
 | 4 4 3
 
 ##### Color contrast and harmony
-# <f-activity-icon /> Create your first palette
+# <f-activity-icon size="large" /> Create your first palette
 
 
 
@@ -694,11 +694,11 @@ If possible, discuss your results with someone else.~
 
 
 ##### Color contrast and harmony
-# <f-activity-icon /> Create a CVD palette
+# <f-activity-icon size="large" /> Create a CVD palette
 
 -
 
-~Earlier, we learned that people with color vision deficiencies cannot only see certain colors, therefore it is hard for them to sometimes access information, especially when text is written in a color, or is placed on a colorful background.~
+~Earlier, we learned that people with color vision deficiencies cannot see certain colors, therefore it is hard for them to sometimes access information, especially when texts are written using colors other than black, or are placed on colorful backgrounds other than just white.~
 
 -
 
@@ -964,7 +964,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 <!-- ##### Color contrast and harmony -->
 ##### Color palettes
-# <f-fact-icon /> Tips!
+# <f-fact-icon size="large" /> Tips!
 
 &nbsp;
 
