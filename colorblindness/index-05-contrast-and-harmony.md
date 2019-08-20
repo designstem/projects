@@ -687,8 +687,9 @@ If possible, discuss your results with someone else.~
 | rows: auto
 
 | 1 1 1 1
-| 2 2 3 3
+| 2 2 2 2
 | 4 5 6 7
+| 3 3 3 3
 | 8 8 8 8
 
 ##### Color contrast and harmony
@@ -700,8 +701,8 @@ If possible, discuss your results with someone else.~
 > **Hint**: ~You will need to take screenshots of your results in between, to compare them later.~
 
 -
-#### Tasks:
-<f-sidebar title="Open tasks in sidebar!" style="--sidebar-width:60vw; --sidebar-mobile-width:75vw" overlay>
+#### Open the tasks in the sidebar:
+<f-sidebar title="Click me!" style="--sidebar-width:60vw; --sidebar-mobile-width:75vw" overlay>
 
 1. ~Adjust the background, headline and text colors, so that they match your HSB values of the last task. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.~
 2. ~Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad really bad. Try to find out which color combinations don't work well.~
@@ -1080,6 +1081,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 &nbsp;
 
 <!-- ##### Color contrast and harmony -->
+##### Color palettes
 # Tips for creating color palettes
 
 &nbsp;
@@ -1089,83 +1091,79 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 -
 
   
-  ## 1.
+  ### 1.
   
   <details>
-      <summary> ~Figure out the purpose~
+      <summary> Figure out the purpose
       </summary>
-  ~Analyse the product and the target group for which you are going to design. Are there typical colors already in use by similar products?~
+  Analyse the product and the target group for which you are going to design. Are there typical colors already in use by similar products?
   
   </details>
 
   
-  ## 2.
+  ### 2.
   
   <details>
-      <summary> ~Review color basics~
+      <summary> Review color basics
       </summary>
-    ~Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.~
+    Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.
   </details>
   
 
   
-  ## 3.
+  ### 3.
   
   <details>
-      <summary> ~Choose a dominant color, then accent colors~
+      <summary> Choose a dominant color, then accent colors
       </summary>
-    ~First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.~
+    First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.
   </details>
 
   
-  ## 4.
+  ### 4.
   
    <details>
-      <summary> ~Select shades, then vary them~
+      <summary> Select shades, then vary them
       </summary>
-    ~Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).~
+    Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).
   </details>
 
   
-  ## 5.
+  ### 5.
   
   <details>
-      <summary> ~Look at compati&shy;bility of hues~
+      <summary> Look at compati&shy;bility of hues
       </summary>
-    ~Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.~
+    Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.
   </details>
 
 
   
-  ## 6.
+  ### 6.
 
   <details>
-      <summary> ~Limit the number of colors~
+      <summary> Limit the number of colors
       </summary>
-    ~Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.~
+    Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.
   </details>
 
   
   
   
-  ## 7.
+  ### 7.
   
   <details>
-      <summary> ~Put the colors into action~ 
+      <summary> Put the colors into action 
       </summary>
-    ~e.g. in a mock-up, so that you can better judge whether your color palette works.~
-  </details>
-    
-  #### ~Put the colors into action,~ 
-    
-  ~e.g. in a mock-up~
-  
+    e.g. in a mock-up, so that you can better judge whether your color palette works.
+  </details> 
   
   
 
 -
 
-<f-image src="./images/cvb_brushes.jpg" style="background-position:50% 20%; min-height:60vh; width:100%; height:100%; background-size: contain;" />
+
+<f-image src="./images/cvb_brushes.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 -
 
