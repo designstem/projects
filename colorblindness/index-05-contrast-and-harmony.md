@@ -1087,7 +1087,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 <!-- ##### Color contrast and harmony -->
 ##### Color palettes
-# Tips - Read carefully!
+# <f-fact-icon /> Read carefully!
 
 &nbsp;
 
