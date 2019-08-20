@@ -610,7 +610,7 @@ If possible, discuss your results with someone else.~
 | 4 4 3
 
 ##### Color contrast and harmony
-# <f-activity-icon size="large" /> Create your first palette
+# <f-activity-icon size="large" /> Create a palette
 
 
 
@@ -694,7 +694,7 @@ If possible, discuss your results with someone else.~
 
 
 ##### Color contrast and harmony
-# <f-activity-icon size="large" /> Create a CVD palette
+# <f-activity-icon size="large" /> CVD compatible palette
 
 -
 
@@ -798,7 +798,15 @@ If possible, discuss your results with someone else.~
 
 ~On this slide, I need to add texts and diagrams as a key to the last task, so that the students can check, whether what they found out is right/helpful.~
 
+-
 
+<f-image src="./images/cvb_brushes.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+-
+
+<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
+    <f-next-button />
+</div>
 
 
 ---
