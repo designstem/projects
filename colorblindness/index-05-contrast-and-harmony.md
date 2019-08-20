@@ -1087,16 +1087,14 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 <!-- ##### Color contrast and harmony -->
 ##### Color palettes
-# Tips for creating color palettes
+# Tips - Read carefully!
 
 &nbsp;
 
-~Creating color palettes with more than two or three colors takes time and reviewing. You should build it step by step. Here are some rules you can keep in mind when building a color palette:~
+~Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette doesn't work. Here are some tips you should keep in mind when building a color palette. It will make your life a bit easier 😎 :~
 
 -
 
-  
-  ### 1.
   
   <details>
       <summary> Figure out the purpose
@@ -1105,8 +1103,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
   
   </details>
 
-  
-  ### 2.
+
   
   <details>
       <summary> Review color basics
@@ -1116,7 +1113,6 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
   
 
   
-  ### 3.
   
   <details>
       <summary> Choose a dominant color, then accent colors
@@ -1124,8 +1120,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
     First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.
   </details>
 
-  
-  ### 4.
+
   
    <details>
       <summary> Select shades, then vary them
@@ -1134,7 +1129,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
   </details>
 
   
-  ### 5.
+
   
   <details>
       <summary> Look at compati&shy;bility of hues
@@ -1143,8 +1138,6 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
   </details>
 
 
-  
-  ### 6.
 
   <details>
       <summary> Limit the number of colors
@@ -1153,9 +1146,6 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
   </details>
 
   
-  
-  
-  ### 7.
   
   <details>
       <summary> Put the colors into action 
