@@ -946,133 +946,6 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 
 
-
-
-
-
-| section: cb-palettes
-| rows: auto
-| cols: 2fr 3fr
-| 1 2
-| 3 2
-
-&nbsp;
-
-<!-- ##### Color contrast and harmony -->
-# Tips for creating color palettes
-
-&nbsp;
-
-~Creating color palettes with more than two or three colors takes time and reviewing. You should build it step by step. Here are some rules you can keep in mind when building a color palette:~
-
--
-
-<!-- <f-inline style="--inline-gap:var(--base); --inline-align:flex-start; --inline-justify:space-around;"> -->
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 1.
-  
-  <div>
-  
-  #### ~Figure out the purpose~
-    
-  ~Analyse the product and the target group for which you are going to design. Are there typical colors already in use by similar products?~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 2.
-  
-  <div>
-  
-  #### ~Review color basics~
-    
-  ~Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 3.
-  
-  <div>
-
-  #### ~Choose a dominant color, then accent colors~
-    
-  ~First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 4.
-  
-  <div>
-
-  #### ~Select shades, then vary them~
-    
-  ~Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 5.
-  
-  <div>
-
-  #### ~Look at compati&shy;bility of hues~
-    
-  ~Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 6.
-
-  <div>
-
-  #### ~Limit the number of colors~
-    
-  ~Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 7.
-  
-  <div>
-    
-  #### ~Put the colors into action,~ 
-    
-  ~e.g. in a mock-up~
-  
-  </div>
-  
-  </f-inline>
-
--
-
-
-<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
-    <f-next-button />
-</div>
-
-
-
----
-
-
-
 <!-- KRISTINS PLAYGROUND -->
 
 
@@ -1091,14 +964,13 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 <!-- ##### Color contrast and harmony -->
 ##### Color palettes
-# <f-fact-icon /> Read carefully!
+# <f-fact-icon /> Tips!
 
 &nbsp;
 
-~Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette doesn't work. Here are some tips you should keep in mind when building a color palette. It will make your life a bit easier 😎 :~
+~Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier 😎 :~
 
 -
-
   
   <details>
       <summary> Figure out the purpose
