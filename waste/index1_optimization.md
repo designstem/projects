@@ -103,9 +103,9 @@ Arch bridges are examples of **compressive structures**.
 
 -
 
-<img src="./images/bridge.jpg">
+<img src="./images/bridge.jpg" />
 
-<img src="./images/bridge2.jpg">
+<img src="./images/bridge2.jpg" />
 
 <f-notes title="Credits">
 
@@ -135,7 +135,7 @@ Another example of tension and compression members combined!
 
 -
 
-<img src="./images/bridge4.jpg">
+<img src="./images/bridge4.jpg" />
 
 <f-notes title="Credits">
 
@@ -157,7 +157,7 @@ Cables and ropes in functional constructions (like bridges and boats) echo the t
 
 -
 
-<img src="./images/bridge5.jpg">
+<img src="./images/bridge5.jpg" />
 
 <f-notes title="Credits">
 
@@ -181,9 +181,9 @@ https://pxhere.com/en/photo/1230998
 
 -
 
-<img src="./images/skeletal.png">
+<img src="./images/skeletal.png" />
 
-<img src="./images/musculatory.png">
+<img src="./images/musculatory.png" />
 
 <f-notes title="Credits">
 
@@ -202,40 +202,46 @@ https://academy.allaboutbirds.org/features/birdanatomy/
 Try to build a space frame using ice-cream sticks and strings/lines.
 For a building description of a space frame, look at the next page.
 
+<small>
+
+The space frame structure of a train station
+
+</small>
+
+-
+
+<f-image src="./images/roof.jpg" />
+
+<f-notes title="Credits">
+
+https://commons.wikimedia.org/wiki/File:Modern_steel_station_roof_of_Zaandam_as_a_space_truss_construction_to_give_maximum_transparancy_to_the_townhall_-_panoramio.jpg
+
+</f-notes>
+
 ---
 
-| 1 1
-| 2 3
-| rows: auto 1fr
+| 1 1 1
+| 2 3 4
 
 <caption>Optimization with sticks and strings</caption>
 
-## Exercise 2: Examples and resources
+-
+
+<img src="./images/doc1.jpg" />
+
+***TODO: Where is the content?***
 
 -
 
-***Image***
-
-Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without computers. Karlsruhe: Forschungszentrum Karlsruhe.
+<img src="./images/doc2.jpg" />
 
 -
 
-[Computer-free Design Using the Method of Force Cones](https://drive.google.com/file/d/1sVGEyxQY4fR1GYB_fR4cGckL2a33bWHL/view
-)
-
-
-[Example Topologies Found by the Method of Force Cones](https://drive.google.com/file/d/1OWZg59j0lppItRTOMVeWjzVCiyoABjKM/view
-)
-
-**Further verification of the method of force cones**
-
-***TODO: Link broken***
+<img src="./images/doc3.jpg" />
 
 ---
 
-## [Building description space frame]
-
----
+<caption>Optimization with sticks and strings</caption>
 
 ## Exercise 2
 
@@ -243,14 +249,50 @@ Now build a model of a functional structure using only sticks and strings.
 
 Continue for inspiration and information ***TODO: Continue to where?***
 
-<button v-on:click="goto('optimize')">Back to optimizations</button>
+---
+
+| 1 1 1
+| 2 3 4
+ 
+<caption>Optimization with sticks and strings</caption>
+
+## Exercise 2: Examples and resources
+
+-
+
+<img src="./images/mat1.jpg" />
+
+-
+
+<img src="./images/mat2.jpg" />
+
+-
+
+***TODO: Links?***
+
+**Computer-free Design using the Method of Force Cones** 
+C. Mattheck
+
+**Example topologies using the method of force cones** 
+C. Mattheck
+
+**Further verification of the method of force cones**
+C. Mattheck
+
+<f-notes title="Credits">
+
+Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without computers. Karlsruhe: Forschungszentrum Karlsruhe.
+
+</f-notes>
 
 ---
 
 | chapter: Optimization with cells
 | section: Hexagon for energy optimization
+| 1 1 1
+| 2 3 4
 
-# Optimization with cells
+<caption>Optimization with cells</caption>
 
 ## Hexagon for energy optimization
 
@@ -258,14 +300,27 @@ A hexagon is a form we see everywhere in nature when energy optimization is need
 
 For example in a honeycomb, radiolaria or dried clay.
 
+-
+
+<img src="./images/honey.jpg">
+
+-
+
+<img src="./images/radiolaria.jpg">
+
+-
+
+<img src="./images/clay.png">
+
 ---
 
 | section: Exercise: make a beeboard
 
+<caption>Optimization with cells</caption>
+
 ## Exercise: Make a beeboard
 
-Hexagons can also be found in a vast variety of man-made materials.
-For example, core infill for composite sandwiches used in aerospace structures. 
+Honeycombs can be found in a vast variety of structures. Especially it’s used as core infill for composite sandwiches used in aerospace structures or your everyday kitchen door. Honeycombs are hexagonal-shaped cells.
 
 It’s lightweight and when it’s pressed into a mould, it adapt to its form. 
 
@@ -279,37 +334,53 @@ Beeboard you’ll find in your everyday kitchen cabinet door.
 
 ---
 
-<section>Optimization with cells</section>
+<caption>Optimization with cells</caption>
 
 ## Exercise 1: the steps
 
+<img src="./images/bee1.jpg">
+
+<p />
+
 There are many ways to cut and etch paper. A laser cutter would probably be the fastest and most precise way to do it. But etching the paper with a ruler and cutter is fine too. First of all print the pattern in attachment.
 
-1.  Fold your sheets as seen in the illustration below. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
+<img src="./images/bee2.jpg">
 
-2.  Tape the ‘hills’ with double-sided tape. Than, put the other sheet on top of it, so you’ll have long honeycomb shape cylinders.
+***TODO: Steps***
+
+1. Fold your sheets as seen in the illustration above. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
+
+<img src="./images/bee3.jpg">
+
+<img src="./images/bee4.jpg">
+
+2. Tape the ‘hills’ with double-sided tape. Than, put the other sheet on top of it, so you’ll have long honeycomb shape cylinders.
+
+<img src="./images/bee5.jpg">
 
 3. Cut the taped sheets into shorter parts. Tape those shorter part on top of each other. 
 
+  <img src="./images/bee6.jpg">
+
 4. Stretch the parts, so the honeycomb beeboard will appear.
+
+  <img src="./images/bee7.jpg">
 
 ---
 
-<section>Optimization with cells</section>
+<caption>Optimization with cells</caption>
 
 ## Exercise 2: Soap bubbles
 
 The 3D version of a honeycomb you get when you stack balls in a crate and put weight on them, causing the walls to be pressed to each other. 
 
-The physicist Kelvin proposed that a 14-faced polyhedron (tetrakaidecahedron) can be considered the most ideal form to spread the forces exposed to it.
+The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
 
 Imagine the balls are soap bubbles, they even start to share the walls!
 
----
+***TODO: TOOL***
 
-<section>Optimization with cells</section>
-
-***TOOL***
+<f-notes title="TODO: NOTES FOR A TOOL" width="50vw">
 
 ## Spheres to polyhedrons
 
@@ -319,17 +390,6 @@ See the 3D-honeycomb created in slicr 3D.
 
 https://engineerdog.com/2015/03/08/3d-printing-a-3d-honeycomb-infill-concept/
 
--
-
-<img src="./images/balls.png" />
-
----
-
-<section>Optimization with cells</section>
-
-***TOOL***
-
-## Voronoi / Soap bubbles
 
 Furthermore, we were talking about a voronoi simulator. In principle the students will draw their own on paper. To understand what’s really happening.
 
@@ -337,15 +397,11 @@ But I found this simulator online: http://alexbeutel.com/webgl/voronoi.html whic
 
 https://www.visualcinnamon.com/2015/07/voronoi.html
 
+</f-notes>
+
 ---
 
-| 1 1
-| 2 3
-
-<section>Optimization with cells</section>
-
-## Soap bubbles and Voronoi
--
+<caption>Optimization with cells</caption>
 
 When you look at soap bubbles, you see they’re not regular; they vary in size and shape. 
 
@@ -357,9 +413,19 @@ Researching the Voronoi diagram
 
 Let’s see if we can mimic dried clay and soap bubbles and modify them into possible emergency plans!   
 
+<f-inline>
+
+<img src="./images/soap2.png" style="width: 50%">
+
+<img src="./images/clay2.png" style="width: 50%">
+
+</f-inline>
+
+***ERIK: Unknown sources***
+
 ---
 
-## Optimization with cells
+<caption>Optimization with cells</caption>
 
 ~Georgy Voronoi was a Russian mathematician. A Voronoi diagram is built out of various polygons. Imagine you’re are in region and you’re looking for the closest hospital. The region is divided in areas (polygons) with nodes. Every node represents a hospital.~
 
@@ -373,7 +439,7 @@ Let’s see if we can mimic dried clay and soap bubbles and modify them into pos
 | 2 3
 | rows: auto 1fr
 
-## Optimization with cells
+<caption>Optimization with cells</caption>
 
 ## Exercise 3
 
@@ -389,27 +455,30 @@ https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/
 
 ---
 
-## Optimization with cells
+<caption>Optimization with cells</caption>
 
-### Back to the bone!
+## Back to the bone!
 
 When you cut a thigh bone you’ll see a foam structure that is optimally formed by the forces it has to carry. So, bone is strong and light. 
 
 And: like foam bone could eliminate material by adapting to the change of the environment, but of course not at the same speed soap bubbles do! 
 
-<button v-on:click="goto('optimize')">Back to optimizations</button>
+-
+
+<img src="./images/soap2.png" />
+
+-
+
+<img src="./images/bone4.jpg" />
 
 ---
 
-| section: deformation
-| 1 1
-| 2 3
+| chapter: Optimization by deformation
+| section: Deformation
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
 The deformation (and even failure) of existing materials and structures under load can be very instructive for the designing and building of new ones.
-
--
 
 First of all, deformation teaches us about fundamental loads and stresses.
 
@@ -417,13 +486,25 @@ Prof. Dr. Claus Mattheck uses rubber plates and sheets of aluminum foil to help 
 
 -
 
-***IMAGE***
+<f-inline>
+
+<img src="./images/rubber1.jpg" style="width: 50%"/>
+
+<img src="./images/rubber2.jpg" style="width: 50%"/>
+
+</f-inline>
+
+<f-inline>
+
+<img src="./images/rubber3.jpg" style="width: 50%"/>
+
+<img src="./images/rubber4.jpg" style="width: 50%"/>
+
+</f-inline>
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
----
-
-***TOOL***
+<f-notes title="TODO: Notes for a tool">
 
 ## Virtual rubber sheet
 
@@ -439,39 +520,37 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 * Sheet and hole(s) are responding to applied forces making visible the effect and direction of compression, tension, shear and bending
 
--
 
 <img src="./images/rubber.png" />
 
----
-
 
 <img src="./images/shear1.png" />
 
--
-
 <img src="./images/shear1.png" />
+
+</f-notes>
 
 ---
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
-Deformation also acts as a warning signal.
+Deformation also acts as a **warning signal**.
 
 -
 
-<f-image src="https://s0.geograph.org.uk/photos/34/64/346439_5a87708d.jpg" />
+<f-image src="./images/house.jpg" />
+
+<f-notes title="Credits">
 
 https://www.geograph.org.uk/photo/346439
-Nearly collapsed by Robin Webster
-Licensed under CC BY-SA 2.0
+
+</f-notes>
 
 ---
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
-Last but not least:
-deformation can be seen as a kind of **shape optimization**.
+Last but not least: deformation can be seen as a kind of **shape optimization**.
 
 Let’s go back to the rubber plates and sheets of  aluminum foil of Prof. Dr. Mattheck.
 
@@ -479,40 +558,51 @@ The way these (isotropic) **materials** bend, fold, stretch and twist can be see
 
 -
 
-**IMAGE**
+<img src="./images/defor1.jpg" />
+
+<img src="./images/defor2.jpg" />
+
+<img src="./images/defor3.jpg" />
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 ---
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
-## Example 1
+### Example 1
 
 Holes and notches in a piece of rubber under stress deform in such a way that local concentrations of stresses are reduced and loads are distributed evenly.
-The shapes that ‘occur’ in this way are to be found all over in the natural and manmade world!
+
+The shapes that "occur" in this way are to be found all over in the natural and manmade world!
   
 -
 
-**IMAGE**
+<img src="./images/defor5.jpg" />
+
+<img src="./images/defor4.jpg" />
 
 Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 ---
 
-## Optimization by deformation
+<caption>Optimization by deformation</caption>
 
 ## Example 2
 
-The way aluminum foil deforms (and eventually tears) under tension tells us a lot about lines of **compression and tension**.
+The way aluminum foil deforms (and eventually tears) under tension tells us a lot about **lines of compression and tension**.
 
 Here too, deformation offers us clues about the optimal shape given a particular load.
  
 -
 
+<img src="./images/defor6.jpg" />
+
 Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 ---
+
+<caption>Optimization by deformation</caption>
 
 The shape of components under stress can be used as a **template** for a new design that’s better suited for a particular load.
 
@@ -522,21 +612,23 @@ Basic idea:
 
 * Use the deformation as the basis of a manufactured form.
 
-Again … listen to the trees!
+Again... listen to the trees!
 
 -
 
-***IMAGE***
+<img src="./images/defor7.jpg" />
+
+<img src="./images/defor8.jpg" />
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 ---
 
-## Optimization by deformation
+| 1 1 2
+
+<caption>Optimization by deformation</caption>
 
 ## Exercise
-
-**IMAGE**
 
 1. Take a sponge and a piece of chamois cloth (‘shammy’).
 
@@ -544,8 +636,39 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 3. Observe the deformations closely and try to understand the loads and stresses that led to these shapes.
 
-4. Use the three shapes that appeal to you most, or in which you sense some technical use.
+4. Use the **three** shapes that appeal to you most, or in which you sense some technical use.
 
 5. Make a quick sketch of a product that utilizes these shapes.
 
-<button v-on:click="goto('optimize')">Back to optimizations</button>
+-
+
+<img src="./images/shammy.png" />
+
+---
+
+## Design assignment
+
+You have practiced with different ways and techniques to optimize strength and adaptability in your construction when designing a new product.
+
+Design a usable object using one or more of the techniques (optimization with folds, optimization with sticks and strings, optimization with cells, optimization by deformation).
+
+Do this by following the steps on the next slide.
+
+---
+
+## Design assignment
+
+1. Choose your preferred technique(s).
+
+2. Find a reference in nature or in an existing design object and describe why it appeals to you.
+
+3. Make at least three 2D sketches. 
+
+4. Choose one of or combine your 2D sketches and make a 3D sketch model of it.
+
+5. Evaluate your model, add or adjust where needed.  
+
+6. Make your final object.
+
+
+
