@@ -447,7 +447,7 @@ Especially when we design for people with CVD, using brightness and saturation c
 
 -
 
-<f-image src="./images/cvd_bubbles.jpg" />
+<f-image src="./images/cvd_soap.jpg"  style="background-position:50% 50%; min-height: 90vh;" />
 
 
 ---
