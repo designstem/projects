@@ -420,6 +420,48 @@ Especially when we design for people with CVD, using brightness and saturation c
 | section: Shampoo designer
 | id: cb-shampoo
 | rows: auto
+| 1 4 
+| 2 4 
+| 3 4
+ 
+
+<!-- ##### EXPLAIN -->
+<!-- <f-activity-icon size="large" /> -->
+##### Three properties of color
+# <f-activity-icon size="large" /> Apple shampoo
+
+-
+
+~You are asked to decide upon fitting **colors for shampoo bottles**. The three shampoos will smell like apple 🍏. But there are three different target groups - each one gets a shampoo bottle of their own. Choose a color which could be used as primary color for the following products:~
+
+1. ~Baby shampoo~ 
+2. ~Shampoo for men 60+~
+3. ~Unisex shampoo~
+
+<br>
+
+~Before you go to the next page, where you can design the color scheme, remember what you learned about color meaning and the effect saturation and brightness can have on a hue. Be ready to explain your choices in class.~ 
+
+-
+~Let's find some nice colors for our shampoo bottles~:
+<f-next-button title="Shampoo color designer" />
+
+-
+
+<f-image src="./images/cvd_soap.jpg"  style="background-position:50% 50%; min-height: 90vh;" />
+
+
+---
+
+
+
+
+
+<!-- ##### KRISTINS PLAYGROUND 5 COPY! -->
+
+| section: Shampoo designer
+| id: cb-shampoo
+| rows: auto
 | cols: 3fr 2fr 1fr
 | 1 3 
 | 2 3 
@@ -454,6 +496,9 @@ Especially when we design for people with CVD, using brightness and saturation c
 
 
 
+
+
+---
 
 
 
