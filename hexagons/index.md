@@ -3,17 +3,17 @@
 | 1 3
 | 2 3
 
-# <big>Of Bees and Packages</big>
+# Of Bees and Packages
 
-<big>How to optimize packaging, reduce loss of space and avoid material waste</big>
+How to optimize packaging, reduce loss of space and avoid material waste
 
-<!---***KJ: Image source and rights?***-->
+***ERIK: Image source and rights?***
 
 -
 
 <f-next-button title="Start" />
 
-<f-notes>
+<f-notes style="--primary: var(--darkgray)" >
 
 ### Learning goals
 
@@ -30,7 +30,7 @@
 | 5 5 5
 | rows: auto auto 1fr
 
-# Learn about history of human made packages
+## Learn about history of human made packages
 
 <!---***KJ: Unify the wording of steps 1 and 2 below***-->
 
@@ -38,20 +38,20 @@
 
 <f-image src="https://cdn.pixabay.com/photo/2012/04/13/10/58/paint-31831_960_720.png" />
 
-<!---***KJ: Image source and rights? Try [this](https://etc.usf.edu/clipart/64900/64993/64993_dollcase.htm) for historical images***
+<!---***KJ: Image source and rights? Try [this](https://etc.usf.edu/clipart/64900/64993/64993_dollcase.htm) for historical images***-->
 
 
 -
 
-<big><span class="bullet">1</span></big>
+<span class="bullet">1</span>
 
-<big>Packages evolution is strongly related to human history:</big>
+Packages evolution is strongly related to human history:
 
 <f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
 -
-<big><span class="bullet">2</span></big>
+<span class="bullet">2</span>
 
-### Task
+***Task***
 
 Look for packages around you and find differences between them
 </f-card>
@@ -61,35 +61,27 @@ Look for packages around you and find differences between them
 
 ---
 
-| 1 1 1
-| 3 2 2
+| 1 2 2
 | rows: auto 1fr 
 
-# Nowadays packaging is also marketing
+## Nowadays packaging is also marketing
 
-<big>… and sometimes marketing is misleading! </big>
+...and sometimes marketing is misleading! 
 
--
+Here is a X-Ray of a cereal package, showing the amount of product in relation to the size of the packaging.
 
-<f-image src="https://www.vzhh.de/sites/default/files/styles/crop_default/public/medien/167/bilder/Bensdorp_Kakao_final.png?itok=3xMh-LGX" />
+1. Do some of the packages you’ve found have misleading packaging?
 
-<!---***KJ: Image source and rights?***-->
-
-
--
-
-<big>Here is a X-Ray of a cereal package, showing the amount of product in relation to the size of the packaging.</big>
-
-<big><span class="bullet">1</span></big>
-
-Do some of the packages you’ve found have misleading packaging?
-
-<big><span class="bullet">2</span></big>
-
-What do you think and feel about it? Would you want to change it? Why and how?
+2. What do you think and feel about it? Would you want to change it? Why and how?
 
 
 <f-next-button />
+
+-
+
+<img src="https://www.vzhh.de/sites/default/files/styles/crop_default/public/medien/167/bilder/Bensdorp_Kakao_final.png?itok=3xMh-LGX" />
+
+<!---***KJ: Image source and rights?***-->
 
 ---
 
@@ -99,7 +91,7 @@ What do you think and feel about it? Would you want to change it? Why and how?
 | 7 7 7 7
 | rows: auto 1fr
 
-# Costly packaging
+## Costly packaging
 
 -
 
@@ -107,11 +99,11 @@ Sometimes the value of the package is higher than the value of the product itsel
 
 -
 
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Travel_mug.jpg" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Travel_mug.jpg" />
 
 -
 
-# Precious packaging
+## Precious packaging
 
 -
 
@@ -119,7 +111,7 @@ Sometime the package is part of the value
 
 -
 
-<f-image src="https://c.pxhere.com/photos/77/00/cosmetics_advertising_perfumes_perfume_studio_the_practice_of_acuteness_detail-1084407.jpg!d" />
+<img src="https://c.pxhere.com/photos/77/00/cosmetics_advertising_perfumes_perfume_studio_the_practice_of_acuteness_detail-1084407.jpg!d" />
 
 -
 
@@ -127,28 +119,23 @@ Sometime the package is part of the value
 
 ---
 
-| 1 2
+## Ethic packaging
 
-
-# Ethic packaging
-
-<big> **All the times**, reducing packaging is an ethic mission! </big>
+ **All the times**, reducing packaging is an ethic mission! 
 
 <f-next-button />
+
 -
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Make_a_difference%2C_understanding_Pendleton%27s_recycling_program_DVIDS536228.jpg/1200px-Make_a_difference%2C_understanding_Pendleton%27s_recycling_program_DVIDS536228.jpg" />
 
 ---
 
-| 1 2
+## Packaging in nature
 
+Nature has always evolved the best packaging for its products. 
 
-# Packaging in nature
-
-<big> Nature has always evolved the best packaging for its products. </big>
-
-<big> **How can we optimize packaging?** </big>
+**How can we optimize packaging?** 
 
 <f-next-button />
 -
@@ -160,12 +147,11 @@ Sometime the package is part of the value
 | 1 2
 | 3 3
 
-
-# Explore
+## Explore
 
 <!---***KJ: Title?***-->
 
-<big> Bring/take a milk or juice carton (square shape). </big>
+ Bring/take a milk or juice carton (square shape). 
 
 1. Cut off the top of the carton and fill it with rice until it is full.
 2. Weight the rice on a scale without the carton.
@@ -183,7 +169,7 @@ Sometime the package is part of the value
 
 | 1 1 1 2
 
-# Explore
+## Explore
 
 <!---***KJ: Title?***-->
 
@@ -263,9 +249,9 @@ Sometime the package is part of the value
 
 <!---***KJ: Title?***-->
 
-<big> <span class="bullet">1</span>Which shape optimize carton volume?</big>
+1. Which shape optimize carton volume?
 
-<big> <span class="bullet">2</span>What can you say about the relation between the perimeter of the base and the volume of the carton?</big>
+2. What can you say about the relation between the perimeter of the base and the volume of the carton?
 
 -
 
@@ -289,13 +275,13 @@ Sometime the package is part of the value
 
 ## Experiment how polygons area changes
 
-<big><span class="bullet">1</span> Start changing only the dimension of a square and a triangle with the same ***perimeter*** `p = {{ get('p') }}`</big>
+<span class="bullet">1</span> Start changing only the dimension of a square and a triangle with the same ***perimeter*** `p = {{ get('p') }}`
 <f-slider set="p" from="1" to="10"  >
 </f-slider>
 ***A*** Which is the ratio between square and triangle areas?
 ***B*** What can you say about the volume of a milk carton with triangle base?
 
-<big><span class="bullet">2</span> Now keep a fixed perimeter of `10` and change the ***number of edges*** `n = {{ get('n') }}`</big>
+<span class="bullet">2</span> Now keep a fixed perimeter of `10` and change the ***number of edges*** `n = {{ get('n') }}`
 
 <f-slider set="n" from="3" to="32" integer >
 </f-slider>
@@ -400,7 +386,7 @@ https://www.mathopenref.com/polygoncircumcircle.html
 
 -
 
-<big>If there are multiple pieces of the product, they have to be stacked/stored with the least waste of space in between the packages.</big>
+If there are multiple pieces of the product, they have to be stacked/stored with the least waste of space in between the packages.
 
 ***perimeter*** `p`
 <f-slider set="p" from="1" to="10"/>

@@ -1,3 +1,33 @@
+| chapter: Transformations
+| section: Introduction
+| padding: 0
+
+<section><section>
+
+## Geometric operations
+
+To make different designs you can use geometric operations such as:
+
+* translate
+
+* reflect
+
+* rotate
+
+* scale
+
+* affine transformation
+
+</section></section>
+
+-
+
+<f-image src="./images/bricks2.jpg" />
+
+---
+
+| section: Translation
+
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
 | style: --base: 8px
@@ -86,7 +116,7 @@ Here is the simple grid repetition on x and y axis.
 
 
 
-
+| section: Scaling
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
 | style: --base: 8px
@@ -169,7 +199,7 @@ When <var>scaling</var> is repeated we will multiple shapes in incrementally big
 
 
 
-
+| section: Rotation
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
 | style: --base: 8px
@@ -264,6 +294,7 @@ By applying rotation to an element multiple times we can create a circular set o
 
 ---
 
+| section: Reflection
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
@@ -277,7 +308,7 @@ By applying rotation to an element multiple times we can create a circular set o
 
 <f-inline style="--inline-justify: space-between">
 
-# Reflections
+# Reflection
 
 <f-next-button />
 
@@ -372,6 +403,8 @@ We can combine the <var>reflection</var> and transformations we learned ealier.
 
 
 ---
+
+| section: Combined transformations
 
 | background: lightergray
 | cols: 2fr 2fr 4fr 2fr
