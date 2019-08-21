@@ -46,35 +46,53 @@ By folding the edges of the metal top of the Pallas table Konstantin Krcic added
 
 ---
 
+| 1 2 2 3 3 
+
 <caption>Optimization with folds</caption>
 
 In the pictures you see two identical A4 papers folded in **hexagonal like** shapes.
 
 Which one do you think is the strongest?
 
-***TODO: Sandra image ***
+-
 
-***TODO: Sandra image ***
+<img src="./images/fold1a.jpg"  />
+
+-
+
+<img src="./images/fold1b.jpg"  />
 
 ---
+
+| 1 2 2 3 3
 
 <caption>Optimization with folds</caption>
 
 See what happens when you place the papers **horizontally** on the table and put a weight on it. 
 
-***TODO: Sandra image ***
+-
 
-***TODO: Sandra image ***
+<img src="./images/fold2a.jpg"  />
+
+-
+
+<img src="./images/fold2b.jpg"  />
 
 ---
+
+| 1 2 2 3 3
 
 <caption>Optimization with folds</caption>
 
 See what happens when you place the papers **vertically** on the table and put a weight on it. 
 
-***TODO: Sandra image ***
+-
 
-***TODO: Sandra image ***
+<img src="./images/fold3a.jpg"  />
+
+-
+
+<img src="./images/fold3b.jpg"  />
 
 ---
 
@@ -91,8 +109,6 @@ Take some paper and try different ways of folding to make a strong paper constru
 <a class="tertiary" src="https://drive.google.com/file/d/1vNI9KdNpWQHcdm1R6C7aWIkSFIZ6SnTx/view"><f-arrow-icon rotation="90" />Download hexagonal shape template</a>
 
 ***TODO: Copy PDFs to scenario, add legends***
-
-<button v-on:click="goto('optimize')">Back to optimizations</button>
 
 ---
 
@@ -129,7 +145,9 @@ Arch bridges are examples of **compressive structures**.
 
 Tension and compression members can also be combined.
 
-***IMAGE***
+-
+
+<img src="./images/bridge3.jpg" />
 
 ---
 
@@ -137,7 +155,7 @@ Tension and compression members can also be combined.
 
 Ropes and cables are lightweight, flexible and strong. Perfect for carrying loads!
 
-A sailing ship can sail because of its ***rigging***.
+A sailing ship can sail because of its **rigging**.
 
 Another example of tension and compression members combined!
 
@@ -145,11 +163,13 @@ Another example of tension and compression members combined!
 
 <img src="./images/bridge4.jpg" />
 
+***ERIK: Clarify credits***
+
 <f-notes title="Credits">
 
 Image by https://www.instagram.com/kdotcdott/
 
-From Roland: "I still have to check if we can use use instagram pictures… if not we have to look for alternative..." ***ERIK: Clarify credits*** 
+***From Roland: "I still have to check if we can use use instagram pictures… if not we have to look for alternative..."***
 
 </f-notes>
 
@@ -354,7 +374,7 @@ There are many ways to cut and etch paper. A laser cutter would probably be the 
 
 <img src="./images/bee2.jpg">
 
-***TODO: Steps***
+***TODO: Fix steps***
 
 1. Fold your sheets as seen in the illustration above. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
 
@@ -385,8 +405,6 @@ The 3D version of a honeycomb you get when you stack balls in a crate and put we
 The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
 
 Imagine the balls are soap bubbles, they even start to share the walls!
-
-***TODO: TOOL***
 
 <f-notes title="TODO: NOTES FOR A TOOL" width="50vw">
 
