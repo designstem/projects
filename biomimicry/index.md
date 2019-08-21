@@ -52,7 +52,6 @@
 
 
 
-
 | theme: light
 | style:  --primary:var(--middlegray)
 | cols: 0.5fr 3fr 2fr
@@ -67,7 +66,9 @@
 
 </div>
 
--
+  ## Actually, humankind looks further and further, sustainable solutions in <em>nature</em>.
+  
+  Most of the advanced solutions regarding materials, technology or items that we consume, come from this deep ability since long ago to observe and imitate nature.
 
 <div style="height:100%; min-height: 70vh; display:flex; flex-direction:column;">
   <f-image src="./images/01-neanderthal.jpg" style="flex:1; min-height:50%; background-position:center;" />
@@ -77,15 +78,13 @@
 -
 
 <f-next-button title="Next" />
+-
+
+<f-next-button title="Next" />
 
 -
 
 ---
-
-
-
-
-
 
 | section: Bionics
 | theme: light
@@ -118,9 +117,6 @@
 -
 
 ---
-
-
-
 
 | section: Biodesign
 | theme: light

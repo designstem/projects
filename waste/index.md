@@ -75,7 +75,7 @@ Write this down.
 
 ## Ocean Cleanup initiative
 
-***TODO: Shorten, add scructure***
+***TODO: Shorten, add stcructure***
 
 A lot of people are aware of our footprint and are taking action in order to make the world a better place to live
 
@@ -103,7 +103,7 @@ What do you think what is most remarkable about this project?
 2. Collect what you’ve found and discuss with the class why you choose these initiatives.
 
 
-***TODO: Unnkown image copyright***
+***ERIK: Unnkown image copyright***
 
 -
 

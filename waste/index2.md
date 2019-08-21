@@ -1,18 +1,16 @@
-| theme: blue
+| theme: dark
 | chapter: Zero waste products
 
-# <big>Zero waste products</big>
+## <big>Zero waste products</big>
 
 ---
 
 | section: The Flax Chair
 | 1 2 2
 
-# The FLAX Chair by Christien Meindertsma
+## The FLAX Chair by Christien Meindertsma
 
 With the Flax Chair Christien Meindertsma tried to use a **local biodegradable product** in a new contemporary way and she made sure to use the material **as economical as possible**. 
-
-> **Tip:** Use English subtitles on video
 
 -
 
@@ -20,17 +18,27 @@ With the Flax Chair Christien Meindertsma tried to use a **local biodegradable p
 
 ---
 
-# From flax to form
+## From flax to form
 
 A new **composite material** was created **to fit in a circular system**, using four layers of an existing woven flax textile and five layers of a newly developed dry-needle felted flax. 
 
 The soft pile of fabrics is heat pressed, melting the **flax** and **PLA** (a biodegradable plastic) into the shape of a rigid chair.
 
-***IMAGE***
+-
+
+<img src="./images/flax.jpg" />
+
+<f-notes title="Credits">
+
+https://christienmeindertsma.com/Flax-Chair
+
+</f-notes>
 
 ---
 
-# Design to disappear
+| section: Sustainable materials
+
+## Design to disappear
 
 In the past 20 years designers, artists and makers are looking more and more for **sustainable alternatives**. Ecology and design became an integrated practice.
 
@@ -38,7 +46,7 @@ As an answer to the throw-away society they choose for a **circular approach**. 
 
 ---
 
-# Experiment to design
+## Experiment to design
 
 With this circular approach designers, architects, makers, scientists and craftsmen all participate in the **experimentation with materials** and are forced to work together interdisciplinary.
 
@@ -46,7 +54,9 @@ Their inventiveness and creativity comes possible from this opportunity of **wor
 
 ---
 
-# Low value material - dung
+| section: Dung as a material
+
+## Low value material - dung
 
 **From disgust to desire!**
 
@@ -56,13 +66,26 @@ Poo is a low value natural material, and you could make functional products of i
 
 -
 
-***IMAGE***
+<img src="./images/merdacotta1.jpg" />
+
+***ERIK: What about copyright?***
+
+<img src="./images/merdacotta2.png" />
+
+***ERIK: Unknown source***
+
+
+<f-notes title="Credits">
+
+http://www.theshitmuseum.org/prodotti/i-prodotti-da-tavola/
+
+</f-notes>
 
 ---
 
-# Designers as material innovators 
+## Designers as material innovators 
 
-*~Imagine a world where biological fabrication replaces traditional manufacture, plants that grow products, and bacteria genetically re-programmed to ‘biofacture’ new materials, artefacts, energy or medicine.~*
+> *~Imagine a world where biological fabrication replaces traditional manufacture, plants that grow products, and bacteria genetically re-programmed to "biofacture" new materials, artifacts, energy or medicine.~*
 
 <small>Quote of Carole Collet at ‘Alive’ exhibition held in Paris, 2013</small>
 
@@ -73,26 +96,26 @@ How? Let’s have a look!
 
 ---
 
-# Living materials - mycelium
+| section: Living materials
 
-<big>~my·ce·li·um (mī-sē′lē-əm)~</big>
+## Living materials - mycelium
+
+<big><var>my·ce·li·um (mī-sē′lē-əm)</var></big>
 ~*n. pl.* my·ce·li·a (-lē-ə)~
 
-<small>
 1) The vegetative part of a fungus, consisting of a mass of branching, threadlike hyphae.
-</small>
 
-<small>
 2) A similar mass of fibers formed by certain bacteria.
-</small>
-
-<p />
 
 In other words: mycelium is a dense network of fungal threads of which mushroom sprout and of which one could make a variety of products.
 
+-
+
+<f-video src="https://www.youtube.com/watch?v=jBXGFOk5_Rs" />
+
 ---
 
-# Living materials - bacteria
+## Living materials - bacteria
 
 Susan Lee, textile designer, and David Hepworth, scientist, are pioneers of producing fabrics and clothing from bacteria-generated cellulose.
 
@@ -104,21 +127,27 @@ https://ideas.ted.com/the-skirt-and-shoe-made-from-kombucha/
 
 ---
 
-# Exercise
+| section: Exercise: Bio-based materials
+
+## Exercise
 
 We talked about three examples of bio-based material. Now research your own.
 
-Step 1. Per person find one other bio-based material and fill in the A5 Format you find below. (You can use this in Indesign or Photoshop)
+1. Per person find one other bio-based material and fill in the A5 Format you find below. (You can use this in Indesign or Photoshop)
 
-Step 2. Safe it as a PDF file and optionally print it on thick paper and cut to A5 size. 
+2. Safe it as a PDF file and optionally print it on thick paper and cut to A5 size. 
 
-Step 3. Combine all the cards to make your class library of bio-based materials. 
+3. Combine all the cards to make your class library of bio-based materials. 
 
 https://drive.google.com/file/d/1TZXeotMLKTi6G3FSeWWT4-mc6w9l6dpM/view
 
+***TODO*** Convert to PDF
+
 ---
 
-# Shape and Countershape
+| section: Shape and countershape
+
+## Shape and Countershape
 
 Remember Christien Meindertsma’s FLAX Chair? 
 
@@ -126,56 +155,106 @@ She made optimal use of the material **using the full sheet of cloth** to make a
 
 The principle behind this is **using shape and countershape**. 
 
+-
+
+<img src="./images/flax2.jpg" />
+
+<f-notes title="Credits">
+
+https://christienmeindertsma.com/Flax-Chair
+
+</f-notes>
+
 ---
 
-# Shape and Countershape
+<caption>Shape and Countershape</caption>
 
 The principle of shape and countershape is used across all art and design disciplines; graphic design, art, product design, etc. 
 
 Let’s look at some examples.
 
+-
+
+<img src="./images/shape1.png" />
 
 ---
 
-# Shape and Countershape
+| 1 2 2 3 3
+
+<caption>Shape and Countershape</caption>
 
 In graphic design...
 
 -
 
-***IMAGE***
+<img src="./images/shape2a.png" />
+
+<img src="./images/shape2b.png" />
+
+-
+
+<img src="./images/shape2c.png" />
+
+<img src="./images/shape2d.png" />
 
 ---
 
-# Shape and Countershape
+| 1 2 2 3 3
+
+<caption>Shape and Countershape</caption>
 
 In art...
 
+-
+
+<img src="./images/shape3a.png" />
+
+-
+
+<img src="./images/shape3b.jpg" />
+
 ---
 
-# Shape and Countershape
+| 1 2 2
+
+<caption>Shape and Countershape</caption>
 
 In product design...
 
 Here working with shape and countershape is a great way to make something and **minimize waste material** at the same time!
 
+-
+
+<img src="./images/shape4.png" />
+
 ---
 
-# Shape and Countershape
+<caption>Shape and Countershape</caption>
 
-Another example in product design is the Mobilier puzzle of Jean-Pierre Levasseur. 
+Another example in product design is the **Mobilier puzzle** of Jean-Pierre Levasseur. 
 
 It uses both shape and countershape to get a complete dollhouse interior out of one sheet of pre-cut plywood.
 
 Of course you could apply this on a bigger scale for life-size furniture...
 
+<img src="./images/mobilier3.png" />
+
+-
+
+<img src="./images/mobilier1.png" />
+
+<img src="./images/mobilier2.png" />
+
+
 ---
 
-# Shape and Countershape
+| section: Exercise: Shape and countershape
+
+<caption>Shape and Countershape</caption>
 
 ## Exercise
 
-1.  Choose your discipline, 2D (think graphic design) or 3D (think product design or art) 
+1. Choose your discipline, 2D (think graphic design) or 3D (think product design or art) 
 
 2. Find at least three images of examples within your discipline in which the technique of shape and countershape is being used. (10 minutes)
 
@@ -183,60 +262,114 @@ Of course you could apply this on a bigger scale for life-size furniture...
 
 ---
 
-# Folding
+| section: Folding
+
+## Folding
 
 To have **as little as possible waste** material, you can also use folding techniques. 
 
 For example the **Foldaroid stool** by Anthony Yu Wei Tong.
 
+<img src="./images/folaroid5.jpg" />
+
+-
+
+<f-inline>
+<img src="./images/folaroid1.jpg" style="width: 50%"/>
+<img src="./images/folaroid2.jpg" style="width: 50%"/>
+</f-inline>
+
+<f-inline>
+<img src="./images/folaroid3.jpg" style="width: 50%"/>
+<img src="./images/folaroid4.jpg" style="width: 50%"/>
+</f-inline>
+
 ---
 
-# Folding
+## Folding
 
 Or what do you think of the **Zseat** by Studio Stallinga.
 
+-
+
+<img src="./images/zseat.jpg" />
+
 ---
 
-# Cut and Fold
+| section: Cut and fold
+
+## Cut and Fold
 
 Another option for optimizing your material use and minimizing waste is **using a combination of cuts and folds**.
 
 A perfect example is the **Pop-up Lamp** by the French studio Well Well Designers is. It’s constructed from one sheet of paper with a special coating.
 
+-
+
+<img src="./images/popuplamp.png" />
+
 ---
 
-# Cut and Fold
+| 1 2 2 3 3
+
+<caption>Cut and Fold</caption>
 
 A bit more elaborate is the **Origami Folding Lamp** by Mirco Kirsch.
 
+-
+
+<img src="./images/origamilamp1.jpg" />
+
+<img src="./images/origamilamp3.jpg" />
+
+-
+
+<img src="./images/origamilamp2.jpg" />
+
+<img src="./images/origamilamp4.jpg" />
 
 ---
 
-# Cut and Fold
+<caption>Cut and Fold</caption>
 
 Zev Bianchi and Bcompact design used a fancier version of cutting and folding called **kerf bending** to make the **Aviator Chair** out of one sheet of plywood. To the right you see there prototypes in paper.
 
+<img src="./images/aviator3.png" />
+
+-
+
+<img src="./images/aviator1.png" />
+
+<img src="./images/aviator2.png" />
+
+
 ---
 
-# Cut and Fold
+<caption>Cut and Fold</caption>
 
 ## Exercise
 
+Try to make a chair out of paper using the cut and fold technique in the template. Print the PDF from the link below.
+
 https://drive.google.com/file/d/1GnK9yLvlw__J5pjTnHlRZXNJfShIlVeE/view
 
+***TODO Copy to github***
+
 ---
+
+| section: Design assignment
 
 | 1 1
 | 2 3
 | 4 4
 
-# Design assignment
+## Design assignment
 
 -
 
-You have practised with different ways and techniques to minimize waste when designing a new product. 
+You have practiced with different ways and techniques to minimize waste when designing a new product. 
 
-Design a usable object using one of the techniques (shape and countershape, folding, cut and fold). 
+Design a usable object using one of the techniques (shape and countershape folding, cut and fold). 
 
 Do this by following the steps on the next slide. 
 
@@ -253,10 +386,6 @@ Key steps
 4. Evaluate your model, add or adjust where needed.  
 
 5. Make your final object.
-
--
-
-<a class="primary" href="./index.html" v-on:click="goto(0)">Back to waste scenario</a>
 
 
 

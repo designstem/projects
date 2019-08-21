@@ -4,6 +4,8 @@
 
 # <big>Mimimal use of material</big>
 
+***ERIK: Can we use Joris photos?***
+
 ---
 
 | section: Bone Chair
@@ -13,8 +15,6 @@
 Due to innovative digital techniques we can create **customized, smart and more complex forms**. 
 
 Joris Laarman used topology optimization software based on the findings of professor Claus Mattheck to develop **a chair with a bone-like structure**.
-
-***ERIK: Can we use Joris photos?***
 
 -
 
@@ -54,7 +54,7 @@ Use [this form](https://docs.google.com/document/d/1WHGHGWO3R43I0yfy42PP_W9IsvWl
 
 -
 
-***ERIK: Chalk image / illustration***
+***ERIK: Chalk image / illustration needed***
 
 <f-notes>
 
@@ -161,6 +161,8 @@ During their lifecycle both these natural structures make **optimal use of mater
   <img src="./images/tree.png" style="width: 340px" />
 </f-inline>
 
+***ERIK: Unknown image sources***
+
 ---
 
 ## Trees ability to adapt
@@ -175,9 +177,7 @@ e.g. When a tree is constantly exposed to wind at one side, it grows thicker at 
 
 <f-notes title="Credits">
 
-Image source: pxhere.com
-https://pxhere.com/nl/photo/720601
-Creative Commons CC0 > no attribution required
+Image source: https://pxhere.com/nl/photo/720601
 
 </f-notes>
 
@@ -237,31 +237,24 @@ https://pxhere.com/en/photo/59627
 ---
 
 | section: Four ways to optimize
-| 1 1
-| 2 3
-| 4 5
-| 6 6
 
 ## Four ways to optimize
 
 The following four hands-on exercises introduce some useful principles in the designing and building of structures, with **minimal use of material** and therefore **maximized efficiency**.
 
--
+***TODO: Fix links***
+
+<!--
 
 <f-card @click.native="goto('folds')" background="var(--gray)" color="white" title="Optimization with folds" />
 
--
 <f-card @click.native="goto('sticks')" background="var(--gray)" color="white" title="Optimization with sticks and strings" />
-
--
 
 <f-card @click.native="goto('cells')" background="var(--gray)" color="white" title="Optimization with cells" />
 
--
-
 <f-card @click.native="goto('deformation')" background="var(--gray)" color="white" title="Optimization with deformation" />
 
--
+-->
 
-<button class="primary" v-on:click="goto('assignment')">Final assigment</button>
+
 
