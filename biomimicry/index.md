@@ -66,18 +66,13 @@
 
 </div>
 
-  ## Actually, humankind looks further and further, sustainable solutions in <em>nature</em>.
-  
-  Most of the advanced solutions regarding materials, technology or items that we consume, come from this deep ability since long ago to observe and imitate nature.
+-
 
 <div style="height:100%; min-height: 70vh; display:flex; flex-direction:column;">
   <f-image src="./images/01-neanderthal.jpg" style="flex:1; min-height:50%; background-position:center;" />
   <f-image src="./images/01-plane.jpg" style="flex:1; min-height:50%; background-position:center 30%;" />
 </div>
 
--
-
-<f-next-button title="Next" />
 -
 
 <f-next-button title="Next" />
@@ -199,7 +194,6 @@
   <small><f-link to="http://www.munart.org" style="--primary:var(--darkergray); text-align: right;">www.munart.org</f-link></small>
 </div>
 
-
 -
 
 <br />
@@ -251,7 +245,7 @@
 | 6 7 8
 | 9 9 9
 
-<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)"><big>Orange</big></h1>
+<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)">Orange</h1>
 
 <h5 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange); padding-top:0.5em;">
   <small>Bruno Munari, Design as Art, 2008</small>
@@ -311,7 +305,7 @@
 | 6 7 8
 | 9 9 9
 
-<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)"><big>Orange</big></h1>
+<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)">Orange</h1>
 
 <h5 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange); padding-top:0.5em;">
   <small>Bruno Munari, Design as Art, 2008</small>
@@ -371,7 +365,7 @@
 | 6 7 8
 | 9 9 9
 
-<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)"><big>Orange</big></h1>
+<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)">Orange</h1>
 
 <h5 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange); padding-top:0.5em;">
   <small>Bruno Munari, Design as Art, 2008</small>
@@ -431,7 +425,7 @@
 | 6 7 8
 | 9 9 9
 
-<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)"><big>Orange</big></h1>
+<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)">Orange</h1>
 
 <h5 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange); padding-top:0.5em;">
   <small>Bruno Munari, Design as Art, 2008</small>
@@ -490,7 +484,7 @@
 | 6 7 8
 | 9 9 9
 
-<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)"><big>Orange</big></h1>
+<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)">Orange</h1>
 
 <h5 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange); padding-top:0.5em;">
   <small>Bruno Munari, Design as Art, 2008</small>
@@ -537,7 +531,7 @@
 | 2 3
 | 4 3
 
-<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)"><big>Orange</big></h1>
+<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)">Orange</h1>
 
 <h5 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange); padding-top:0.5em;">
   <small>Bruno Munari, Design as Art, 2008</small>
@@ -593,7 +587,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 | 2 3
 | 4 3
 
-<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)"><big>Orange</big></h1>
+<h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)">Orange</h1>
 
 <h5 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange); padding-top:0.5em;">
   <small>Bruno Munari, Design as Art, 2008</small>
