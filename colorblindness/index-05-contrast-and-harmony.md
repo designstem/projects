@@ -194,7 +194,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# Find the contrasts 1
+# <f-activity-icon size="large" /> Find the contrasts 1
 
 <!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
@@ -242,7 +242,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Find the contrasts 2
+# <f-activity-icon size="large" /> Find the contrasts 2
 
 -
 
@@ -287,7 +287,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Find the contrasts 3
+# <f-activity-icon size="large" /> Find the contrasts 3
 
 -
 
@@ -526,7 +526,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# Task 2
+# <f-activity-icon size="large" /> Your turn!
 
 -
 
@@ -591,88 +591,9 @@ If possible, discuss your results with someone else.~
 
 <f-next-button style="margin:var(--base4) 0;" />
 
----
-
-
-
-
-
-
-
-
-
-
-
-
-| id: contrast
-| rows: auto
-| 1 1 1 3
-| 2 2 2 3 
-| 4 4 5 5
-
-<!-- ##### EXPLAIN -->
-##### Color contrast and harmony
-# Task 3
-
-Given are a headline and a text on a background. Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.
-
-If possible, discuss your results with someone.
-
--
-
-<f-inline>
-
-<div style="flex:1">
-
-#### Background
-
-<f-slider title="H" :value="get('h51', 44)" v-on:input="set('h51', $event)" from="0" to="360" integer />
-<f-slider title="S" :value="get('s51', 77)" v-on:input="set('s51', $event)" to="100" integer />
-<f-slider title="B" :value="get('b51', 100)" v-on:input="set('b51', $event)" to="100" integer />
-
-</div>
-<div style="flex:1">
-
-#### Heading
-
-<f-slider title="H" :value="get('h52', 44)" v-on:input="set('h52', $event)" to="360" integer />
-<f-slider title="S" :value="get('s52', 77)" v-on:input="set('s52', $event)" to="100" integer />
-<f-slider title="B" :value="get('b52', 77)" v-on:input="set('b52', $event)" to="100" integer />
-
-</div>
-<div style="flex:1">
-
-#### Text
-
-<f-slider title="H" :value="get('h53', 44)" v-on:input="set('h53', $event)" to="360" integer />
-<f-slider title="S" :value="get('s53', 77)" v-on:input="set('s53', $event)" to="100" integer />
-<f-slider title="B" :value="get('b53', 77)" v-on:input="set('b53', $event)" to="100" integer />
-</div>
-
-
-</f-inline>
-
--
-
-<div style="padding: var(--base8); min-height:500px; height:100%" :style="{
-  background: hsb2hsl( get('h51',44), get('s51',77), get('b51',100) )
-}">
-
-<h1 :style="{
-  color: hsb2hsl( get('h52',44), get('s52',77), get('b52',77) )
-}">Discover nature</h1>
-
-<p :style="{
-  color: hsb2hsl( get('h53',44), get('s53',77), get('b53',77) )
-}">If you love nature, walks in the woods, mountain peaks reflected in lake waters, wildlife sanctuaries for observing animals in their own habitat, a whole range of flora... plan a holiday in the mountains!</p>
-
-</div>
 
 
 ---
-
-
-
 
 
 
@@ -689,11 +610,12 @@ If possible, discuss your results with someone.
 | 4 4 3
 
 ##### Color contrast and harmony
-# Task 3
+# <f-activity-icon size="large" /> Create a palette
 
 
 
 ~Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
+> ~Please, **write down/take a screenshot of your colors' HSB values** for later!~
 
 -
 
@@ -742,7 +664,7 @@ If possible, discuss your results with someone.
 
 -
 
-> If possible, discuss your results with someone.
+> If possible, discuss your results with someone, i.e. *why did you choose a certain combination*, *how does it fit to the topic* and *does your result fulfill the criteria of the task*?
 
 <f-next-button />
 
@@ -764,19 +686,38 @@ If possible, discuss your results with someone.
 | gap: 1vmin
 | rows: auto
 
-| 1 1 2 2
-| 1 1 2 2
-| 3 4 5 6
-| 7 7 7 7
+| 1 1 1 1
+| 2 2 3 3
+| 4 4 4 4
+| 6 7 8 9
+| 5 5 5 5
+
 
 ##### Color contrast and harmony
-# Task 4
+# <f-activity-icon size="large" /> CVD compatible palette
 
-~Earlier, we learned that people with color vision deficiency cannot see all colors, therefore it is hard for them to sometimes access information, especially when text is written in a color, or is placed on a colorful background.~
+-
 
-1. Adjust the background, text and headlines colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad.
-2. Adjust the colors, so that the results in all three color vision deficiencies is the best you can get.
-3. Analyse the results and form a conclusion based on the following question: **When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?**
+~Earlier, we learned that people with color vision deficiencies cannot see certain colors, therefore it is hard for them to sometimes access information, especially when texts are written using colors other than black, or are placed on colorful backgrounds other than just white.~
+
+-
+
+> **Hints**: ~For this task, you need the HSB values of the last task! Take screenshots of your results in between, to compare them later.~
+
+-
+<br>
+
+#### Open the tasks in the sidebar:
+<f-sidebar title="Click me!" overlay>
+
+1. ~Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.~
+2. ~Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad really bad. Try to find out which color combinations don't work well.~
+3. ~Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?~
+4. ~Analyse the results and form a conclusion based on the following questions: *When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?*~
+
+</f-sidebar>
+
+<br>
 
 -
 
@@ -793,6 +734,12 @@ If possible, discuss your results with someone.
     <f-toggle title="Text color" v-on:click.native="set('pactive', 'p3')" :value="get('pactive') == 'p3' ? 1 : 0 " />
   </div>
 </f-inline>
+
+<br>
+
+<f-next-button title="Design time!" />
+
+#### &nbsp;
 
 -
 
@@ -830,154 +777,37 @@ If possible, discuss your results with someone.
   :type="'Tritanopia'"
 />
 
--
 
-<f-next-button title="Design time!" />
 
-#### &nbsp;
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-| gap: 1vmin
+| id: cb-contrasts
+| padding: 0
+| gap: 0
 | rows: auto
+| 1 2
+| 3 2
 
-| 1 1 1 1
-| 2 3 4 5
-| 6 6 6 6
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
+##### Color contrast and harmony
+# Contrasts for Colorblind
 
+&nbsp;
 
-<f-inline style="--base:8px; justify-content:space-between;">
+~On this slide, I need to add texts and diagrams as a key to the last task, so that the students can check, whether what they found out is right/helpful.~
 
-<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
+-
 
-<f-inline style="justify-content: space-between;">
+<f-image src="./images/cvb_brushes.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
-#### Back&shy;ground colour
+-
 
-<small style="flex:1"><small>rgb({{get('r51',236)}},{{get('g51',95)}},{{get('b51',0)}})</small></small>
-
-</f-inline>
-
-<f-inline>
-  <div 
-      style="width:8vw;height:8vw;" 
-      :style="{ background:rgb( get('r51',44), get('g51',77), get('b51',100) ) }"
-  ></div>
-  
-
-  <div style="flex:1">
-    <f-slider title="R" :value="get('r51', 236)" v-on:input="set('r51', $event)" to="255" integer />
-    <f-slider title="G" :value="get('g51', 95)" v-on:input="set('g51', $event)" to="255" integer />
-    <f-slider title="B" :value="get('b51', 0)" v-on:input="set('b51', $event)" to="255" integer />
-  </div>
-</f-inline>
+<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
+    <f-next-button />
 </div>
 
-<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
-
-<f-inline style="justify-content: space-between;">
-
-#### Heading colour
-
-<small style="flex:1"><small>rgb({{get('r52',236)}},{{get('g52',95)}},{{get('b52',0)}})</small></small>
-
-</f-inline>
-
-<f-inline>
-  <div 
-      style="width:8vw;height:8vw; " 
-      :style="{ background:rgb( get('r52',44), get('g52',77), get('b52',77) ) }"
-    ></div>
-
-  <div style="flex:1">
-    <f-slider title="R" :value="get('r52', 5)" v-on:input="set('r52', $event)" to="255" integer />
-    <f-slider title="G" :value="get('g52', 167)" v-on:input="set('g52', $event)" to="255" integer />
-    <f-slider title="B" :value="get('b52', 19)" v-on:input="set('b52', $event)" to="255" integer />
-  </div>
-</f-inline>
-
-</div>
-
-<div style="flex:0 1 32%; box-shadow:0 0 3px 0 hsla(0,0%,0%,0.3); padding:1vw;border-radius:var(--base)">
-
-<f-inline style="justify-content: space-between;">
-
-#### Text colour
-
-<small style="flex:1"><small>rgb({{get('r53',236)}},{{get('g53',95)}},{{get('b53',0)}})</small></small>
-
-</f-inline>
-
-<f-inline>
-    <div 
-      style="width:8vw;height:8vw; " 
-      :style="{ background:rgb( get('r53',44), get('g53',77), get('b53',77) ) }"
-    ></div>
-  <div style="flex:1">
-    <f-slider title="R" :value="get('r53', 201)" v-on:input="set('r53', $event)" to="255" integer />
-    <f-slider title="G" :value="get('g53', 171)" v-on:input="set('g53', $event)" to="255" integer />
-    <f-slider title="B" :value="get('b53', 93)" v-on:input="set('b53', $event)" to="255" integer />
-  </div>
-</f-inline>
-
-</div>
-
-
-</f-inline>
-
--
-
-<Poster 
-  :bgColor="rgb( get('r51',236), get('g51',95), get('b51',0) )" 
-  :headingColor="rgb( get('r52',5), get('g52',167), get('b52',19) )" 
-  :textColor="rgb( get('r53',201), get('g53',171), get('b53',93) )" 
-  :type="'Normal'"
-/>
-
--
-
-
-<Poster 
-  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'protanopia' )" 
-  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'protanopia' )" 
-  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'protanopia' )" 
-  :type="'Protanopia'"
-/>
-
--
-
-<Poster 
-  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'deuteranopia' )" 
-  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'deuteranopia' )" 
-  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'deuteranopia' )" 
-  :type="'Deuteranopia'"
-/>
-
--
-
-<Poster 
-  :bgColor="colorblind( rgb( get('r51',236), get('g51',95), get('b51',0) ), 'tritanopia' )" 
-  :headingColor="colorblind( rgb( get('r52',5), get('g52',167), get('b52',19) ), 'tritanopia' )" 
-  :textColor="colorblind( rgb( get('r53',201), get('g53',171), get('b53',93) ), 'tritanopia' )" 
-  :type="'Tritanopia'"
-/>
-
--
-
-<f-next-button />
-
-#### &nbsp;
 
 ---
 
@@ -1002,6 +832,9 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 
 
+<!-- KRISTINS PLAYGROUND -->
+
+
 
 
 
@@ -1009,112 +842,83 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 | section: cb-palettes
 | rows: auto
 | cols: 2fr 3fr
-| 1 2
-| 3 2
+| 1 3
+| 2 3
+| 4 3
 
-&nbsp;
 
 <!-- ##### Color contrast and harmony -->
-# Tips for creating color palettes
+##### Color palettes
+# <f-fact-icon size="large" /> Tips!
 
-&nbsp;
 
-~Creating color palettes with more than two or three colors takes time and reviewing. You should build it step by step. Here are some rules you can keep in mind when building a color palette:~
+~Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier 😎 :~
+
+-
+  
+  <details>
+      <summary> Figure out the purpose
+      </summary>
+  Analyse the product and the target group for which you are going to design. Are there typical colors already in use by similar products?
+  
+  </details>
+
+
+  
+  <details>
+      <summary> Review color basics
+      </summary>
+    Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.
+  </details>
+  
+
+  
+  
+  <details>
+      <summary> Choose a dominant color, then accent colors
+      </summary>
+    First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.
+  </details>
+
+
+  
+   <details>
+      <summary> Select shades, then vary them
+      </summary>
+    Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).
+  </details>
+
+  
+
+  
+  <details>
+      <summary> Look at compati&shy;bility of hues
+      </summary>
+    Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.
+  </details>
+
+
+
+  <details>
+      <summary> Limit the number of colors
+      </summary>
+    Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.
+  </details>
+
+  
+  
+  <details>
+      <summary> Put the colors into action 
+      </summary>
+    e.g. in a mock-up, so that you can better judge whether your color palette works.
+  </details> 
+  
+  
 
 -
 
-<!-- <f-inline style="--inline-gap:var(--base); --inline-align:flex-start; --inline-justify:space-around;"> -->
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 1.
-  
-  <div>
-  
-  #### ~Figure out the purpose~
-    
-  ~Analyse the product and the target group for which you are going to design. Are there typical colors already in use by similar products?~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 2.
-  
-  <div>
-  
-  #### ~Review color basics~
-    
-  ~Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 3.
-  
-  <div>
 
-  #### ~Choose a dominant color, then accent colors~
-    
-  ~First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 4.
-  
-  <div>
-
-  #### ~Select shades, then vary them~
-    
-  ~Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 5.
-  
-  <div>
-
-  #### ~Look at compati&shy;bility of hues~
-    
-  ~Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 6.
-
-  <div>
-
-  #### ~Limit the number of colors~
-    
-  ~Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.~
-  
-  </div>
-  
-  </f-inline>
-  <f-inline style="--inline-gap: var(--base3); --inline-align:flex-start;">
-  
-  ## 7.
-  
-  <div>
-    
-  #### ~Put the colors into action,~ 
-    
-  ~e.g. in a mock-up~
-  
-  </div>
-  
-  </f-inline>
+<f-image src="./images/cvb_brushes.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 -
 
