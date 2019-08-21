@@ -26,7 +26,7 @@
 
 -
 
-<f-image src="./images/contrast-and-harmony-dots.jpg" style="background-position:50% 20%; min-height:60vh; width:100%; height:100%; background-size: contain;" />
+<f-image src="./images/contrast-and-harmony-dots.jpg" style="background-position:50% 20%; min-height:60vh; width:100%; height:100%; />
 
 -
 
@@ -841,10 +841,9 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 | section: cb-palettes
 | rows: auto
-| cols: 2fr 3fr
-| 1 3 3
-| 2 3 3
-| 4 3 3
+| 1 3
+| 2 3
+| 4 3
 
 
 <!-- ##### Color contrast and harmony -->
