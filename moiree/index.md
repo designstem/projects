@@ -1,6 +1,6 @@
 
 ### Be aware:
-# <big><big>This is moiré!</big></big>
+# <big>This is moiré!</big>
 
 
 

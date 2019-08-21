@@ -1,9 +1,9 @@
 
 | theme: yellow
 
-# <big><big>Frequency & Motion</big></big>
+# <big>Frequency & Motion</big>
 
-<big><big>Learn about the beginnings of moving pictures, the art and the science behind it and why we are still so mesmerized watching those GIF memes.</big></big>
+<big>Learn about the beginnings of moving pictures, the art and the science behind it and why we are still so mesmerized watching those GIF memes.</big>
 
 **Skills:** frequency, framerate, sinusoidal wave
 **Tools:** turntable, paper, scissors, pencil(s), printer, smartphone/tablet/PC for online tool

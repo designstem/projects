@@ -3,7 +3,7 @@
 | 1 3
 | 2 3
 
-# <big><big>Of Bees and Packages</big></big>
+# <big>Of Bees and Packages</big>
 
 <big>How to optimize packaging, reduce loss of space and avoid material waste</big>
 
