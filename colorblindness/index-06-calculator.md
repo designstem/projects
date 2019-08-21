@@ -13,9 +13,9 @@
 There are two different paths that you could take for the final task.
 Either you could choose the STEM or the DESIGN focus.~
 
-<p style="--base:6px;">Should we explain here a bit more about what the "different paths" mean?</p>
+~*The STEM path is for all students who don't have any access to or knowledge about design software (like Photoshop or Illustrator).
+Whereas the DESIGN path requires you to also use design software. For the STEM path you only need some paper, brushes and watercolors*.~
 
-<!-- <mark> Here we need to add two links - one to the STEM path and one to the Design path, leading to the separate slides with the separate tasks.</mark> -->
 
 -
 
@@ -24,6 +24,31 @@ Either you could choose the STEM or the DESIGN focus.~
 <button class="primary" v-on:click="send('goto', 'cb-workshop-stem')">STEM path</button>
 
 <button class="primary" v-on:click="send('goto', 'cb-workshop-design')">DESIGN path</button> 
+
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Hint for teachers. 
+  ~The design object on which students test their knowledge can be diverse and adjusted to the subject. For example, you could also focus on the following objects:~
+  <br>
+* Posters
+* Brochures
+* Diagrams
+* Infographics
+* Websites
+* Packaging
+* Game design
+<br>
+~Whenever information needs to be conveyed visually, we have to think about accessibility, because it is not only about aesthetics anymore. It’s about enabling the target group to get the information they need. Therefore many products are suitable as learning objects for this project and can be adjusted to the students’ level. Feel free to use the following tasks as basis for your own.~
+
+</f-notes>
+
+
+
+
 
 ---
 
@@ -45,7 +70,7 @@ Either you could choose the STEM or the DESIGN focus.~
 -
 
 ~Congratulations! You chose the STEM path and this is your quest:
-Create a new color scheme for a calculator with white buttons, which is also works for people with color vision deficiency.~
+Create a new color scheme for a calculator with white buttons, which also works for people with color vision deficiency.~
 
 <br />
 
@@ -70,8 +95,11 @@ Create a new color scheme for a calculator with white buttons, which is also wor
 </figure>
 
 -
+<button class="primary" v-on:click="send('goto', 'cb-workshop-test')">Test your design</button>
 
-<f-next-button />
+
+
+
 
 ---
 
@@ -108,8 +136,6 @@ Design a calculator app that works for people with color vision deficiency, but 
 
 <br />
 
-<!-- <mark> Here we need to add a picture of the calculator.</mark> -->
-<mark> We need to add a link to a pdf with the calculator (color-me-in-sheet).</mark>
 
 -
 
@@ -120,7 +146,7 @@ Design a calculator app that works for people with color vision deficiency, but 
 
 -
 
-<f-next-button />
+<button class="primary" v-on:click="send('goto', 'cb-workshop-test')">Test your design</button>
 
 ---
 
@@ -246,17 +272,13 @@ Upload your picture into the CVD-simulator and check whether it works.~
 ~Lets reflect on what you achieved.~
 
 <br>
-
-1. Think of other methods to make information accessible other than color coding it. What could you do else?
-2. Reflect on what you learned. What was new for you or interesting? 
-3. Do you think the information will be useful for you as a designer?
-4. What about the social relevance - do you think that designing for people with CVD helps them in their daily lives?
-
+ 
+1. Reflect on what you learned. What was new for you or interesting? What was difficult or easy?
+2. Do you think the information will be useful for you as a designer or STEM student?
+3. What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?
 <br>
-
-<mark> Here we need to add a picture.</mark>
-
-
+4. Think of other methods to make information more accessible other than color coding it. What could you do else?
+<br>
 
 
 <f-notes>
@@ -267,3 +289,95 @@ Upload your picture into the CVD-simulator and check whether it works.~
   ~In the first task, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.~
 
 </f-notes>
+
+-
+
+<f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+
+
+
+---
+
+
+| section: evaluate
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Evaluate meta  -->
+# EVALUATE | Design
+
+<f-hr style="margin:var(--base6) 0" />
+
+<br>
+ 
+1. Have a look at the famous calculator Dieter Rams designed for BRAUN. Compare his solution to yours. What is different?
+2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion!
+3. What should he have done differently?
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Hint for teachers. 
+  ~This is the chance for you to lead over to Dieter Rams' 10 design principles.~
+  <br>
+~You can find a nice overview with examples on the following website:~
+https://www.vitsoe.com/gb/about/good-design
+~This could be interesting for students, since the functionality of BRAUN's (and Dieter Rams') product design has often been copied or taken as an inspiration, see Apple's products for example.~
+
+</f-notes>
+
+-
+
+<figure style="width:100%; display:flex; justify-content:center; flex-direction:column; align-items: center; margin: 0; position:sticky; top:15vh;">
+  <img src="./images/color_blindness_accessibility_braun.jpg" />
+  <figcaption>This is Dieter Rams' calculator for BRAUN</figcaption>
+</figure>
+
+
+
+
+---
+
+
+| section: evaluate
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Evaluate meta  -->
+# EVALUATE | Biology
+
+<f-hr style="margin:var(--base6) 0" />
+
+<br>
+ 
+1. Have a look at the famous calculator Dieter Rams designed for BRAUN. Compare his solution to yours. What is different?
+2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion!
+3. What should he have done different?
+
+
+<f-notes>
+  
+  <summary>Teachers notes</summary>
+  
+  ### Hint for teachers. 
+  ~This is the chance for you to lead over to Dieter Rams' 10 design principles.~
+  <br>
+~You can find a nice overview with examples on the following website:~
+https://www.vitsoe.com/gb/about/good-design
+~This could be interesting for students, since the functionality of BRAUN's (and Dieter Rams') product design has often been copied or taken as an inspiration, see Apple's products for example.~
+
+
+</f-notes>
+
+-
+
+<f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+

@@ -1,25 +1,29 @@
+| chapter: Introduction
 | theme: dark
 | background: https://www.commondreams.org/sites/default/files/styles/cd_large/public/views-article/plastic-a.jpg
 
 <center><div>
 
-# <big><big>Waste is a<br>design mistake</big><big>
+# <big>Waste is a<br>design mistake</big>
 
 ### Today's environmental challenges,<br>footprint calculator and material properties
 
-***TODO: Copyrighted image***
+***ERIK: Copyrighted image***
 
-</center></div>
+</div></center>
 
 <f-notes>
-Image: https://www.commondreams.org/views/2016/01/31/we-cant-let-it-be-more-plastic-fish-our-sea from https://blog.marine-conservation.org/tag/noaa-marine-debris-program
+
+Image source: https://www.commondreams.org/views/2016/01/31/we-cant-let-it-be-more-plastic-fish-our-sea from https://blog.marine-conservation.org/tag/noaa-marine-debris-program
+
 </f-notes>
 
 ---
 
+| section: Our planet
 | 1 2 2
 
-# Our planet
+## Our planet
 
 We all know that we can’t keep on wasting resources. 
 
@@ -27,7 +31,7 @@ We’re exhausting our planet!
 
 **What’s your feeling about that?**
 
-***TODO: Copyrighted image***
+***ERIK: Copyrighted image***
 
 -
 
@@ -42,7 +46,7 @@ Image: https://www.alamy.com/stock-photo-trash-on-a-hong-kong-coastline-sai-kung
 
 | 1 2 2 2
 
-# TED talk
+## TED talk
 
 ***TODO: Clearer title needed***
 
@@ -55,7 +59,9 @@ explain the core of what he’s saying.
 
 ---
 
-#  Your living habits make up your footprint 
+| section: Calculate your footprint
+
+##  Your living habits make up your footprint 
 
 https://footprint.wwf.org.uk/
 
@@ -65,9 +71,11 @@ Write this down.
 
 ---
 
-# Ocean Cleanup
+| section: Ocean Cleanup
 
-***TODO: Shorten, add scructure***
+## Ocean Cleanup initiative
+
+***TODO: Shorten, add stcructure***
 
 A lot of people are aware of our footprint and are taking action in order to make the world a better place to live
 
@@ -86,16 +94,16 @@ What do you think what is most remarkable about this project?
 
 ---
 
-<f-activity-icon />
+| section: Look for initiatives
 
-# Look for initiatives
+## Look for initiatives
 
 1. Look for 3 initiatives that have found solutions for a waste problem
 
 2. Collect what you’ve found and discuss with the class why you choose these initiatives.
 
 
-***TODO: Unnkown image copyright***
+***ERIK: Unnkown image copyright***
 
 -
 
@@ -108,7 +116,7 @@ What do you think what is most remarkable about this project?
 
 <f-activity-icon />
 
-# Choose 2 concepts and explain them
+## Choose 2 concepts and explain them
 
 You probably found a lot of initiatives to make the world cleaner and they all have their own methodologies and concepts.
 
@@ -137,7 +145,7 @@ Explain of the two concepts you have chosen how they contribute to make the worl
 | 1 3 3
 | 1 2 2
 
-# Example
+## Example
 
 <f-card background="none" border="var(--lightgray)">circular economy</f-card>
 
@@ -164,9 +172,9 @@ https://www.ellenmacarthurfoundation.org/resources/learn/courses
 
 ---
 
-<f-activity-icon />
+| section: Make a flat lay from waste
 
-# Make a flat lay from waste in your neighbourhood
+## Make a flat lay from waste in your neighbourhood
 
 ***TODO: Condense to 3 steps***
 
@@ -201,13 +209,15 @@ https://www.instagram.com/djhinva
 
 ---
 
+| section: Next steps
+
 | 1 1 1
 | 2 3 4
 | rows: auto 1fr
 
-# Choose your next path
+## Choose your next path
 
-## Design a product...
+### Design a product...
 
 -
 

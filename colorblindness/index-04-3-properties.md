@@ -1,16 +1,15 @@
-
-| section: cb-3-properties
+| chapter: Three properties of color
+| section: Three properties of color
+| id: cb-3-properties
+| padding: 0
 | rows: auto
 | cols: 3fr 2fr
-| padding: 0
 | 1 2
+| 3 2
 
-<section style="padding:var(--content-padding)">
+<section style="padding:var(--content-padding); padding-bottom:0;">
 
-<!-- ##### EXPLAIN -->
 # Three properties of color
-
-<!-- &nbsp; -->
 
 ~When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:~
 
@@ -18,13 +17,15 @@
 2. ~**SATURATION**~
 3. ~**BRIGHTNESS**~
 
-~All three of these properties change the effect the color has.~
-
 <!-- &nbsp; --> 
 
-#### ~Have a look at these 2 greens~ 👉
+#### ~Look at these two greens~ 👉
 
-~Both are greens, but they have different effects. Most people wouldn’t call the brighter color natural although green often is used to suggest organic, natural themes. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
+~Both are greens, but have a different brightness and saturation. Most people wouldn’t call the lower color natural although green often is used to suggest organic, natural properties.~
+~In lots of books, you can get lists of properties or effects a hue can have. Sometimes these descritpions are very shallow, because not only the hue influences a colors effect. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
+~On the next few pages, we will look at this more closely.~
+
+<br />
 
 <f-next-button  />
 
@@ -32,26 +33,10 @@
 
 -
 
-<div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:column;">
-  <div style="background: hsl(112,63%,36%); flex: 1 1 50%;"></div>
-  <div style="background: hsl(123,100%,51%); flex: 1 1 50%;"></div>
-<!-- <f-scene style="display:block; height:100%;" width="400" height="800" class="scene--full-height"> 
-  <f-box 
-    width="4"
-    height="4"
-    stroke="none"
-    position="0 2"
-    :fill="hsl(112,63,36)"
-  />
-  <f-box 
-    width="4"
-    height="4"
-    stroke="none"
-    rotation="0"
-    position="0 -2"
-    :fill="hsl(123,100,51)"
-  />
-</f-scene> -->
+<div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:column; min-height: 50vh;">
+  <div style="background: hsl(105,98%,34%); flex: 1 1 50%;"></div>
+  <div style="background: hsl(118,100%,50%); flex: 1 1 50%;"></div>
+
 </div>
 
 ---
@@ -61,8 +46,9 @@
 
 
 
+<!-- ##### KRISTINS PLAYGROUND -->
 
-
+| section: Hue, saturation, brightness
 | padding: 0
 | cols: 3fr 2fr
 | 1 2
@@ -72,13 +58,33 @@
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
-# Hue, saturation, brightness
+# Color meaning (hue)
 
-<!-- <f-hr style="margin:var(--base6) 0" /> -->
+~All colors have a certain effect regarding their hue. Red is often associated with love, but also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.~
 
-&nbsp;
+~It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.
+But what if we leave the hue unaltered and modify the other two properties, saturation and brightness? Does this change the colors effect? We will try to find out on the next few pages.~
 
-~Have a look at the following colors and find adjectives to describe them.~
+#### Hint:
+~Since you probably already know (through your gut feeling) the effect hues can have, we will skip further explanations in this workshop. But if you feel, like you need more information on this, feel free to browse 
+<f-link to="https://en.wikipedia.org/wiki/Color_symbolism">this website</f-link>.~
+
+<br />
+
+<f-next-button />
+
+</section>
+
+-
+
+<div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:row;">
+  <div style="flex: 1 1 33%;" :style="{'background' : hsl(340,100,35) }"></div>
+  <div style="flex: 1 1 34%;" :style="{'background' : hsl(134, 100, 35) }"></div>
+  <div style="flex: 1 1 33%;" :style="{'background' : hsl(247,100,35) }"></div>
+</div>
+
+
+<!--
 
 &nbsp;
 
@@ -104,43 +110,18 @@
   ['no','&quot;ticks&quot;',10]
 ]" />
 
-<!-- <mark> Here we need to add a polarity profile with adjectives - maybe as a slider, so that students can interact and have a basis for their analysis. This slider should also be on the next two pages about brightness and saturation, with the same adjectives. Maybe we can achieve that the positions they chose for the former are left for them to compare with the new choices they make. I will make a scribble and upload it in the image folder on github. </mark> -->
-
-
-<f-next-button style="margin:var(--base6) 0" />
-
-</section>
-
-
--
-
-<div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:row;">
-  <div style="flex: 1 1 33%;" :style="{'background' : hsl(340,100,35) }"></div>
-  <div style="flex: 1 1 34%;" :style="{'background' : hsl(134, 100, 35) }"></div>
-  <div style="flex: 1 1 33%;" :style="{'background' : hsl(247,100,35) }"></div>
-</div>
+-->
 
 ---
 
 
 
 
+<!-- ##### KRISTINS PLAYGROUND 2 -->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+| section: Brightness
 | id: cb-brightness
 | rows: auto
 | cols: 1fr 2fr
@@ -152,15 +133,18 @@
 ##### Three properties of color
 # Brightness
 
-<!-- <f-hr style="margin:var(--base6) 0" /> -->
+-
+
+~Here the **brightness** of each color is reduced by 50%, which means less light for the same hue.
+You may use the slider beneath the color boxes to darken or brighten up the colors, then work on the following tasks.~
+
+#### TASKS
+1. Observe how the colors' effect changes when they are darker or brighter by using the slider beneath the color boxes.
+2. Look at the **polarity profiles** (adjective pairs) on the right. You can drag the slider more to the left to indicate that the effect of the color relates more to the adjective on the left and the other way around. So for example, if you think that a color feels heavier, you could drag the slider more to the right. There are five different degrees from which you can choose. The further the slider points to one of the sides, the stronger the effect of the adjective. So if the slider is positioned in the middle, it means that the effect is balanced between the two polarities.
+3. Now, alter the polarity profiles on the right, so that they show the effect the dark and the light colors have on **you**. After you are done, you can compare your results with average values by clicking on *SHOW*. **But don't cheat!**
 
 -
 
-~Here the **brightness** of each color is reduced by 50%, which means less light for the same hue.~
-
-~Find adjectives to describe the effect bright colors have in comparison to dark colors of the same hue.~ 
-
--
 
 <f-scene width="600" height="200" responsive>
   <f-box 
@@ -212,6 +196,41 @@
 
 <f-slider  to="100" :value="get('brightness', 34)" v-on:input="set('brightness', $event)" title="Adjust brightness" />
 
+&nbsp;
+
+#### Effect of darker colors
+
+<PolarityQuiz :input="[ 
+  ['light','heavy',5], 
+  ['cold','warm',3], 
+  ['quiet','loud',1],
+  ['young','old',4],
+  ['active', 'passive', 5],
+  ['cheerful','sad',4], 
+  ['serious','carefree',2], 
+  ['mysterious','predictable',2],
+  ['open','secretive',4],
+  ['risky', 'cautious', 5],
+  ['spontaneous', 'planning', 5]
+]" />
+
+
+#### Effect of lighter colors
+
+<PolarityQuiz :input="[ 
+  ['light','heavy',1], 
+  ['cold','warm',2], 
+  ['quiet','loud',4],
+  ['young','old',1],
+  ['active', 'passive', 1],
+  ['cheerful','sad',1], 
+  ['serious','carefree',4], 
+  ['mysterious','predictable',2],
+  ['open','secretive',1],
+  ['risky', 'cautious', 2],
+  ['spontaneous', 'planning', 1]
+]" />
+
 -
 
 <f-next-button />
@@ -219,20 +238,11 @@
 ---
 
 
+<!-- ##### KRISTINS PLAYGROUND 3 -->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+| section: Saturation
 | id: cb-saturation
 | rows: auto
 | cols: 1fr 2fr
@@ -244,13 +254,15 @@
 ##### Three properties of color
 # Saturation
 
-<!-- <f-hr style="margin:var(--base6) 0" /> -->
-
 -
 
-~Next, the **saturation of the colors** is reduced. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means more pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
+~Next, the **saturation of the colors** can be changed. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means more pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
 
-~Describe the different effect low and high saturated colors have, using adjectives.~
+~Again, we will work with polarity profiles to understand the effect a change in saturation can have on the color.~
+
+##### TASKS
+1. Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.
+2. Alter the polarity profiles on the right, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on *show*. **But don't cheat!**
 
 -
 
@@ -304,54 +316,154 @@
 
 <f-slider  to="100" :value="get('saturation', 67)" v-on:input="set('saturation', $event)" title="Adjust saturation" />
 
+&nbsp;
+
+#### Effect of saturated colors
+
+<PolarityQuiz :input="[ 
+  ['light','heavy',4], 
+  ['cold','warm',3], 
+  ['quiet','loud',4],
+  ['young','old',2],
+  ['active', 'passive', 1],
+  ['cheerful','sad',1], 
+  ['serious','carefree',2], 
+  ['mysterious','predictable',2],
+  ['open','secretive',1],
+  ['risky', 'cautious', 1],
+  ['spontaneous', 'planning', 2]
+]" />
+
+&nbsp;
+
+#### Effect of desaturated colors
+
+<PolarityQuiz :input="[ 
+  ['light','heavy',1], 
+  ['cold','warm',2], 
+  ['quiet','loud',1],
+  ['young','old',4],
+  ['active', 'passive', 5],
+  ['cheerful','sad',4], 
+  ['serious','carefree',3], 
+  ['mysterious','predictable',3],
+  ['open','secretive',4],
+  ['risky', 'cautious', 5],
+  ['spontaneous', 'planning', 4]
+]" />
+
 -
 
 <f-next-button  />
 
+---
 
 
 
 
+<!-- ##### KRISTINS PLAYGROUND 4 -->
 
 
 
+| section: Conclusion
+| id: cb-conclusion
+| theme: light
+| rows: auto
+| 1 3
+| 2 3
+| 4 3
 
+<!-- ##### EXPLAIN -->
+##### Three properties of color
+# <f-note-icon size="large" /> Conclusion
 
+<!-- <f-hr style="margin:var(--base6) 0" /> -->
 
+-
+#### So what did we learn?
 
+~Summarize in your own words the effect 
+a) bright colors have in comparison to dark colors and 
+b) saturated colors have in comparison to desatured colors.~
+
+~Check below after coming up with your own conclusion.~
+
+<f-sidebar title="Conclusion" overlay style="--sidebar-width:50vw;">
+<!-- <a slot="button" class="tertiary">Conclusion<f-arrow-icon rotation="-45" /></a> -->
+
+### Conclusion
+
+~The average feeling of darker colors is heavy, old, passive, slow, serious, sad, quiet.~
+~Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.~
+~The average effect of saturated colors is loud, bold, open, active, risky and cheerful.~
+~Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.~
+~This is only the average impression - it can vary depending on the color's hue.~ **So only take it as a hint, not a rule.**
+~Whenever you design with colors, remember that the hue is not the only component influencing the color's effect!
+Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
+</f-sidebar> 
+
+-
+
+<f-image src="./images/color_blindness_accessibility_31.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+-
+
+<f-next-button title="Try out what you learned!" />
 
 ---
 
+
+
+
+<!-- ##### KRISTINS PLAYGROUND 5 -->
+
+| section: Shampoo designer
 | id: cb-shampoo
 | rows: auto
 | cols: 3fr 2fr 1fr
 | 1 1 1
-| 2 3 5
-| 4 4 5
+| 2 2 2
+| 3 4 4
+| 5 5 5
 
 <!-- ##### EXPLAIN -->
 <!-- <f-activity-icon size="large" /> -->
-# <f-activity-icon size="large" /> Colors for shampoo brand
+# <f-activity-icon size="large" /> Colors for shampoo bottles
 
 -
 
-~Choose a color which could be used as primary color for the following products:~
+~Now remember what you learned about how saturation and brightness can alter a color's effect.~
 
-1. ~baby shampoo~ 
-2. ~shampoo for men 60+~
+-
+
+#### TASK
+
+Choose a color which could be used as primary color for the following products:
+
+1. ~Baby shampoo~ 
+2. ~Shampoo for men 60+~
 3. ~Unisex shampoo~
 
 -
 
-### 👈
+<br>
+<br>
 
-~There is one condition: **all three shampoos smell like apples**~ 
+👈
+
+~There is one condition: 
+**All three shampoos smell like apples.**
+Go to the next page to choose your colors. 
+Be ready to explain your choices.~ 
 
 -
 
 <f-next-button title="Shampoo color designer" />
 
 -
+
+
+
 
 ---
 
@@ -363,9 +475,9 @@
 | rows: auto
 | 1 1 1
 | 2 3 4
-| 6 5 5
+| 5 5 6
 
-### Shampoo color designer 
+# <f-activity-icon size="large" /> Shampoo color designer
 
 <!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
 

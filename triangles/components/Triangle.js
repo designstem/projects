@@ -55,9 +55,9 @@ export default{
       myId: ''
     }
   },
-  beforeMount() {
+  mounted() {
     this.myId = this.randomid();
-    this.triangle.points = this.parseCoords(this.points);
+    // this.triangle.points = this.parseCoords(this.points);
     this.solveTriangle();
   },
   watch: { 
@@ -79,14 +79,12 @@ export default{
     },
     solveTriangle(){
         this.triangle.points = this.parseCoords(this.points);
-
         this.findSides();
         this.findAngles();
-        this.findSideAngles();
+        // this.findSideAngles();
     },
     findSides(){
       this.triangle.sides.length = 0;
-      
       let a = this.distanceBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
       let b = this.distanceBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
       let c = this.distanceBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
@@ -103,14 +101,14 @@ export default{
         this.triangle.angles.push(A, B, C);
         // console.log("angles: "+this.triangle.angles);
     },
-    findSideAngles(){
-      this.triangle.sideangles.length = 0;
-      let A1 = this.angleBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
-      let B1 = this.angleBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
-      let C1 = this.angleBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
-      this.triangle.sideangles.push(A1, B1, C1);
-      //console.warn("sideangles: " + this.triangle.sideangles);
-    },
+    // findSideAngles(){
+    //   this.triangle.sideangles.length = 0;
+    //   let A1 = this.angleBetweenPoints( this.triangle.points[0][0], this.triangle.points[0][1], this.triangle.points[1][0], this.triangle.points[1][1] );
+    //   let B1 = this.angleBetweenPoints( this.triangle.points[1][0], this.triangle.points[1][1], this.triangle.points[2][0], this.triangle.points[2][1] );
+    //   let C1 = this.angleBetweenPoints( this.triangle.points[2][0], this.triangle.points[2][1], this.triangle.points[0][0], this.triangle.points[0][1] );
+    //   this.triangle.sideangles.push(A1, B1, C1);
+    //   //console.warn("sideangles: " + this.triangle.sideangles);
+    // },
   },
   template: `
     <g style="pointer-events: none;" v-if="triangle.points.length" :opacity="opacity">
@@ -143,7 +141,7 @@ export default{
       </f-group>
       
       <f-group v-if="angleInfo" position="-1.85 1.75" scale="0.5">
-        <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in angleLabels" x="0" :y="i * 0.35" style="user-select: none;pointer-events: none;">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
+        <text transform="scale(1,-1)" :key="'angle'+i" v-for="(t,i) in angleLabels" x="0" :y="i * 0.35" style="user-select: none; pointer-events: none;">{{t}}:{{ Math.round(triangle.angles[i]) }}°</text>
       </f-group>
     </g>
   `
