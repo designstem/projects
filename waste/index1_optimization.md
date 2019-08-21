@@ -145,6 +145,8 @@ Arch bridges are examples of **compressive structures**.
 
 Tension and compression members can also be combined.
 
+***TODO: Credits***
+
 -
 
 <img src="./images/bridge3.jpg" />
@@ -328,6 +330,8 @@ A hexagon is a form we see everywhere in nature when energy optimization is need
 
 For example in a honeycomb, radiolaria or dried clay.
 
+***ERIK: Unknows sources***
+
 -
 
 <img src="./images/honey.jpg">
@@ -488,6 +492,8 @@ https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/
 When you cut a thigh bone you’ll see a foam structure that is optimally formed by the forces it has to carry. So, bone is strong and light. 
 
 And: like foam bone could eliminate material by adapting to the change of the environment, but of course not at the same speed soap bubbles do! 
+
+***ERIK: Image credits***
 
 -
 
@@ -667,5 +673,7 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 5. Make a quick sketch of a product that utilizes these shapes.
 
 -
+
+***ERIK: Image credits***
 
 <img src="./images/shammy.png" />

@@ -5,9 +5,9 @@
 | 2
 | rows: 1fr auto
 
-# <big><big>Let there be light</big></big>
+# <big>Let there be light</big>
 
-<big><big>Make your RGB lamp for /.../</big></big>
+<big>Make your RGB lamp for /.../</big>
 
 -
 

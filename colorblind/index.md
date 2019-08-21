@@ -5,7 +5,7 @@
 | 1 1 1
 | 2 2 3
 
-# <big><big>Design for<br>colour blindness</big></big> 
+# <big>Design for<br>colour blindness</big> 
 
 <big>What is <var class="gray">colour blindness</var>?</big>
 

@@ -228,9 +228,9 @@ https://pxhere.com/en/photo/59627
 
 <center><div>
 
-<big><big>~*Nature is a smart engineer*~</big></big>
+<big>~*Nature is a smart engineer*~</big>
 
-<big><big>~*Are you?*~</big></big>
+<big>~*Are you?*~</big>
 
 </div></center>
 
