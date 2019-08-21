@@ -46,10 +46,14 @@ http://archive.bridgesmathart.org/2017/bridges2017-63.pdf
 
 # Make the modular polyhedra model 
 
+***TODO*** Foldable polyhedra?
+
+<a class="tertiary" href="./files/geometry_fold.pdf"><f-download-icon /> Download</a>
+
 Make the modular polyhedra model from paper with slide-together technique. 
 
 ### 1. Print out worksheet on 160 g/m² A4 paper 
-<a class="tertiary" href="./files/geometry_printout.pdf"><f-download-icon /> Download</a>
+<a class="tertiary" href="./files/geometry_slidetogether.pdf"><f-download-icon /> Download</a>
 
 ### 2. Cut out 20 pieces of triangles with slits at the proper locations
 
