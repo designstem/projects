@@ -1,6 +1,9 @@
-# Textures & structures
+| chapter: From 2D to 3D patterns
+| section: Textures & structures
 
-## Exercise 1
+## Textures & structures
+
+### Exercise 1
 
 In this stage you will make a 2D pattern / texture using only the X and Y axes. You can try to make transformations with a ruler and compass or digitally:
 
@@ -19,9 +22,9 @@ https://www.mathsisfun.com/geometry/transformations.html
 
 ---
 
-# Textures & structures
+## Textures & structures
 
-## Exercise 2
+### Exercise 2
 
 Now let’s share all the findings!
 
@@ -33,7 +36,7 @@ Now let’s share all the findings!
 
 ---
 
-# Production method
+## Production method
 
 Depending on the production method you will choose, some materials are more suitable than others.
 
@@ -47,7 +50,7 @@ New techniques are useful for experimenting with material and integrating <var>s
 
 ---
 
-# Translation
+## Translation
 
 History shows that 2D patterns are translated to 3D as well. Sometimes in a very strict order and relation, like in The Bossche School. https://en.wikipedia.org/wiki/Bossche_School
 
@@ -75,9 +78,11 @@ The famous Le Corbusier invented a language in architecture, where 2D has been t
 
 ---
 
-# The fourth dimension: time
+| section: The fourth dimension
 
-## Exercise
+## The fourth dimension: time
+
+### Exercise
 
 Another addition to designing patterns could be the fourth dimension: time. This can be achieved with **light** (moving shadows alter the 3D view as well), **rhythm** (tapping to a song is a pattern...), **nature**, etc. 
 
@@ -91,7 +96,9 @@ Another addition to designing patterns could be the fourth dimension: time. This
 
 ---
 
-# Design assignment
+| section: Final assignment
+
+## Final assignment
 
 Key steps
 
@@ -101,7 +108,7 @@ Key steps
 
 ---
 
-# Evaluation of your pattern skills 
+## Evaluation of your pattern skills 
 
 After having worked with this scenario, your pattern skills have grown. Describe here what you have learned, for instance using these questions:
 

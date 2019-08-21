@@ -1,8 +1,11 @@
+| chapter: Patterns
+| section: Introduction
+
 | background: ./images/wall.jpg
 | tint: 0
 | theme: dark
 
-# <big><big>2D and 3D patterns</big></big>
+# <big>2D and 3D patterns</big>
 
 Will be in shape — whatever the shape. Over and over. 
 
@@ -12,7 +15,7 @@ Will be in shape — whatever the shape. Over and over.
 
 <section><section>
 
-# Orientation on patterns
+## Orientation on patterns
 
 In order to find inspiration in making your own 2D textures and 3D structures, you will have to be able to recognize, find and order them. 
 
@@ -26,9 +29,11 @@ Next you will find some questions and accompanying tasks to help you.
 
 ---
 
-# Orientation on patterns
+| section: Exercise 1
 
-## Exercise 1
+## Orientation on patterns
+
+### Exercise 1
 
 Answers these question and find some inspirational images to stimulate your brain:
 
@@ -45,9 +50,11 @@ your daily life. Take pictures of them, make sketches, etc.
 
 ---
 
-# Orientation on patterns
+| section: Exercise 2
 
-## Exercise 2
+## Orientation on patterns
+
+### Exercise 2
 
 This is how you can experiment with making patterns:
 
@@ -69,7 +76,9 @@ This is how you can experiment with making patterns:
 
 ---
 
-# Textures & structures
+| section: Adding 3D
+
+## Textures & structures
 
 A pattern is made when a shape is copied repeatedly. 
 
@@ -82,29 +91,3 @@ Be sure to keep in mind that **repetition is key** at all times!
 -
 
 <f-image src="./images/bricks1.png" />
-
----
-
-| padding: 0
-
-<section><section>
-
-# Geometric operations
-
-To make different designs you can use geometric operations such as:
-
-* translate
-
-* reflect
-
-* rotate
-
-* scale
-
-* affine transformation
-
-</section></section>
-
--
-
-<f-image src="./images/bricks2.jpg" />

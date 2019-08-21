@@ -1,6 +1,6 @@
 | 1 2
 
-# <big><big>Pottery<br>B💥om</big></big>
+# <big>Pottery<br>B💥om</big>
 
 ## How not to blow up your kiln
 

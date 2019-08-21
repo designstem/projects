@@ -5,7 +5,7 @@
 
 <center><div>
 
-# Become an <br /><big><big><big>Algorist!</big></big></big>
+# Become an <br /><big><big>Algorist!</big></big>
 
 <big>~*A brief introduction to algorithms and generative art/design*~</big>
 

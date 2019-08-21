@@ -11,7 +11,7 @@
 
 -
 
-# <big><big>Smart Tattoos</big></big>
+# <big>Smart Tattoos</big>
 
 <big>Design a biosensitive tattoo that expresses you life and can also save your life</big>
 

@@ -59,7 +59,7 @@ export default {
       <span><f-tools-icon /></span>
       <small style="opacity: 0.65">{{ project.facilities }}</small>
       </f-inline>
-      <f-sidebar v-if="project.scenario == 'patterns'" :src="'./' + project.scenario + '/about.md'">
+      <f-sidebar style="--sidebar-width: 40vw;" v-if="project.about" :src="'./' + project.scenario + '/about.md'">
           <button slot="button">About</button>
       </f-sidebar>
   </f-card2>

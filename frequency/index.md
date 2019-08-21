@@ -26,7 +26,7 @@
 
 <div style="position: relative">
 
-# <big><big>Frequency<br>& Motion</big></big>
+# <big>Frequency<br>& Motion</big>
 
 ***KIKA: Fix animation***
 
