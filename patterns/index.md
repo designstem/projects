@@ -2,7 +2,7 @@
 | tint: 0
 | theme: dark
 
-# <big><big>2D and 3D patterns</big></big>
+# <big>2D and 3D patterns</big>
 
 Will be in shape — whatever the shape. Over and over. 
 

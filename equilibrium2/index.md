@@ -4,7 +4,7 @@
 | 1 3
 | 2 3
 
-# <big><big>Equilibrium<var class="purple">vs</var><br>Equilibrium</big></big>
+# <big>Equilibrium<var class="purple">vs</var><br>Equilibrium</big>
 
 <big>Natural equilibrium and floating equilibrium</big>
 

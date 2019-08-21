@@ -1,21 +1,25 @@
 | background: ./images/map.png
 | theme: dark
+| chapter: Introduction
+| section: Course overview
 
 <center>
 
-# <big><big>Natural dyes</big></big>
+# <big>Natural dyes</big>
 
 </center>
 
-<f-notes width="50vw" style="--primary: var(--darkgray)">
+***TODO: Credits***
 
-### Overview
+<f-notes width="50vw" style="--primary: var(--darkgray)" title="Overview">
+
+## Overview
 
 Study Project "Natural Dyes" approaches the subject of chemical bonds in biology/chemistry via environmental issues by combining practical chemistry work with art/design-centered tasks and processes. 
 
 Final aim of the study project is to **develop environmentally sustainable product**, which originates from recycling and reusing the resources in order to reduce the environmental load of textile and fashion industry to the planet.
 
-### Suggestions
+## Suggestions
 
 * Items to be dyed should be chosen by students themselves. It is best, if they come up with special idea and/or develop the product. But it might be also just an ready-made item, which would carry the environmental message  - T-shirts, socks, blouses, shawls, headscarves etc.
 
@@ -33,18 +37,18 @@ Final aim of the study project is to **develop environmentally sustainable produ
 
 ***NOTE:*** There are several possible learning paths that could be designed with use of this learning project, depending on the interests and aims of both teachers and students. Try it out boldly, you are welcome to integrate this learning material with different study projects.
 
-### Time
+## Time
 
 **Quicklook:** 30 min
 
 **Full path:** up to 20 hrs during 3-6 weeks period: 12-16 hrs depending on dyeing process and level of task difficulty chosen plus 4 hrs for compendious group poster and pitching the idea and product
 
-### Class setting
+## Class setting
 
 * Individual work, groups of 3-4 students
 * Joint discussions and analyses in class lead by teacher
 
-### Materials
+## Materials
 
 Fiber / clothes to be dyed
 Food waste with coloring agents
@@ -63,11 +67,11 @@ Coloured markers.
 
 | theme: dark
 | padding: 0
+| section: Wearing a message
 
 <section><section>
 
-
-# The power of T-Shirt: wearing a message
+## The power of T-Shirt: wearing a message
 
 British fashion designer **Vivienne Westwood** started revolutionary mission of raising awareness on global climate issues, crossing age and state borders, and allowing people to express their attitude and values.
 
@@ -81,6 +85,8 @@ Nowadays, mitigation of climate change is no longer an option, it is rather inev
 
 <f-image src="./images/westwood.jpg" />
 
+***ERIK / JANIKA: Can we use the photo?***
+
 <f-notes style="--primary: var(--darkgray)">
 
 ## See also:
@@ -91,6 +97,7 @@ https://www.viviennewestwoodmovie.com/
 
 Photo credit:
 http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.jpg
+
 </f-notes>
 
 ---
@@ -99,7 +106,7 @@ http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.j
 
 <section><section>
 
-# The power of T-Shirt: wearing a message
+## The power of T-Shirt: wearing a message
 
 Nowadays,message T-shirt, being an iconic fashion item, is generally used to deliver the information to wide target groups and regrettably happens to be overused. 
 
@@ -112,18 +119,25 @@ We might consider, whether excessive production and underuse of Fast Fashion ite
 
 <f-image src="images/shirt.png" />
 
+***ERIK / JANIKA: Unknown image source***
+
 ---
 
-# Fashion as Influencing agent
+##  Fashion as Influencing agent
 
 Subject: consuming standards of western society, influence on third world countries population.
 
-### How exactly does the fashion industry cause environmental damage?
+**How exactly does the fashion industry cause environmental damage?**
 
 ***TASK***
 
-1. Watch the video “The Life Cycle of a T-shirt”
-2. Discuss the video in group.
+##### 1
+
+Watch the video “The Life Cycle of a T-shirt”
+
+##### 2
+
+Discuss the video in group.
 
 -
 
@@ -142,16 +156,19 @@ Final question: what did you learn?
 
 <section><section>
 
-# Fashion as Influencing agent II
+##  Fashion as Influencing agent II
 
 Look at the NASA image of the Aral Sea in Central Asia. This huge inland lake has shrunk to less than 10% of its original size because water from the rivers that feed it have been diverted to irrigate farmland, largely to grow cotton.
 
-###### 4. Group or individual work: Complete T-shirt [quiz](https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ)
+##### 4.
+
+Group or individual work: Complete T-shirt [quiz](https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ)
 
 ***TODO: Replace with real quiz*** 
 
+##### 5.
 
-###### 5. Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
+Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
 
 </section></section>
 
@@ -161,7 +178,7 @@ Look at the NASA image of the Aral Sea in Central Asia. This huge inland lake ha
 
 ---
 
-# Greenwashing
+##  Greenwashing
 
 People are becoming more and more aware of the environmental issues. In 2015, global performance management company, [Nielsen](https://www.nielsen.com), that provides a comprehensive understanding of what consumers watch and buy,  reported that [73 percent of Millennials are willing to pay more for sustainable goods](https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-demonstrate-commitment-to-sustainability-outperform/).
 
@@ -175,7 +192,7 @@ https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-dem
 
 ---
 
-# Greenwashing 2
+##  Greenwashing 2
 
 However, some companies are becoming more adept at falsely claiming to be "green" by promoting environmentally-friendly initiatives or images without actually implementing business practices that minimize environmental impact. 
 
@@ -194,7 +211,7 @@ http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashi
 
 ---
 
-# Greenwashing 3
+##  Greenwashing 3
 
 ***TASK***
 
@@ -221,9 +238,9 @@ http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashi
 
 ---
 
-# Pre-exploration
+##  Pre-exploration
 
-### What could be done to reduce the impact of excessive consumption of textile products?
+## What could be done to reduce the impact of excessive consumption of textile products?
 
 Examples: 
 
@@ -237,7 +254,12 @@ By *rebirthing* clothes through upcycling, you could save an estimated CO2 Savin
 
 ---
 
-# Biology/Chemistry 1
+| chapter: Biology / Chemistry
+| section: Dyeing and Mordanting
+
+***TODO: Titlecard***
+
+## Dyeing and Mordanting
 
 ***TASK*** Dye some scraps of different natural fibers, using natural agents and mordants only. Work in small groups.
 
@@ -258,11 +280,13 @@ Remember: Main aim of this study project is to Integrate disciplines of design a
 
 ---
 
-# Biology/Chemistry 2
+| section: Natural pigments
+
+##  Biology/Chemistry 2
 
 ***TASK***
 
-Explore natural pigments:
+## Explore natural pigments
 
 1. With the help of information provided by teacher, **find out about the natural pigments with colouring effect**.
 
@@ -288,7 +312,9 @@ Share references and/or sources to the material, that would help your students.
 
 ---
 
-# Biology/Chemistry 3
+| section: Choosing the fabric
+
+## Choosing the fabric
 
 There are many aspects to consider when **choosing the fabric** to be dyed. Most of the natural fabrics are made either of **cellulose** (modal, viscose rayon, cotton, hemp, bamboo, linen) or **protein** (soy fibre, silk, wool). See more in comprehensive [list of  textile fibers by its source](https://www.textileschool.com/amp/2782/comprehensive-list-of-textile-fibers/).
 
@@ -319,7 +345,7 @@ Viscose/rayon: https://www.textileschool.com/145/basics-of-rayon-fiber/
 
 ---
 
-# Biology/Chemistry 4
+##  Biology/Chemistry 4
 
 ***TASK*** testing the fabrics
 
@@ -355,7 +381,7 @@ Finalise the experiment with discussion on what and how they have learned.
 
 ---
 
-# Biology/Chemistry 4 Cellulose
+##  Biology/Chemistry 4 Cellulose
 
 Cellulose is an organic compound, more specifically a polysaccharide consisting of glucose units.
 
@@ -371,7 +397,7 @@ bio/chemistry teacher can work with his/her own materials of the topic, or add e
 
 ---
 
-# Biology/Chemistry 5 Proteins
+##  Biology/Chemistry 5 Proteins
 
 Proteins are organic compounds, consisting of long chains of amino acids.
 
@@ -385,7 +411,7 @@ https://www.khanacademy.org/science/high-school-biology/hs-biology-foundations/h
 
 ---
 
-# Biology/Chemistry 6 Tannins
+##  Biology/Chemistry 6 Tannins
 
 Tannins are water-soluble organic molecules that bind to and precipitate proteins.
 
@@ -395,6 +421,8 @@ Easy explanation on tannins in plants: https://vinepair.com/wine-101/guide-to-ta
 
 <img src="./images/tannin.png" />
 
+***ERIK / JANIKA: Can we use the illustration? Do we need this at all?***
+
 <f-notes>
 
 Image source: https://www.businessinsider.com.au/everything-you-need-to-know-about-wine-2013-8
@@ -403,7 +431,7 @@ Image source: https://www.businessinsider.com.au/everything-you-need-to-know-abo
 
 ---
 
-# Biology/Chemistry 7 Toxic Dyes
+##  Biology/Chemistry 7 Toxic Dyes
 
 "It is estimated that over 20 000 different dyes and pigments are used industrially and over 7x105 tons of synthetic dyes are annually produced worldwide."; see Ref.
 
@@ -427,7 +455,7 @@ Available from: https://www.researchgate.net/publication/309155638_Assessment_of
 | 2 3 4 5 6
 | rows: auto
 
-# Biology/Chemistry 8: List of food residues that contain tannins 
+##  Biology/Chemistry 8: List of food residues that contain tannins 
 
 -
 
@@ -459,9 +487,30 @@ Black tea
 
 Rooibos tea
 
+***ERIK / JANIKA: Can we use these photos?***
+
 ---
 
-# Biology/Chemistry 9 Mordants
+<f-notes title="Credits">
+
+https://cdn.shopify.com/s/files/1/2336/3219/products/shutterstock_766828153lambhassavo_x850.jpg?v=1531526746
+
+https://steemitimages.com/640x0/https://www.altibbi.com/global/img/website/xlarge/5a96a7f220e45article_4151_1.jpg
+
+https://www.boldsky.com/img/2017/06/coverimage-23-1498208010.jpg
+
+https://dhb3yazwboecu.cloudfront.net/1007/fotosProducto/tes/
+10110_VanillaBlackTea_1000x1000_l.jpg
+
+https://localteaco.com/wp-content/uploads/2014/03/Organic-Red-Rooibos-Loose-Leaf.jpg
+
+</f-notes>
+
+---
+
+| section: Mordants
+
+## Mordants
 
 People are becoming more conscious about the issues related to fast fashion and use of toxic dyes. One of the least mentioned topics is **mordants**.
 
@@ -481,7 +530,7 @@ http://www.textilestudio.ca/guest%20artists/flint1.html
 
 ---
 
-# Biology/Chemistry 10 Mordants (2)
+##  Mordants
 
 The list of alternatives is long e.g. vinegar, soy milk, buffalo milk and urine. You can read more about the topic here:
 http://www.textilestudio.ca/guest%20artists/flint1.html
@@ -496,9 +545,22 @@ https://www.pankuka-prints.com/post/217441097099/soy-milk-natural-dyes-paints
 
 <f-image src="./images/cloth.jpg" />
 
+***ERIK / JANIKA: Can we use this photo?***
+
+<f-notes title="Credits">
+
+Image source:
+
+https://img.etsystatic.com/isbi/18a48b/1386966743/isbi_fullxfull.1386966743_4ahdlfky.jpg?version=0
+
+
+</f-notes>
+
 ---
 
-# Biology/Chemistry 11: Choosing the fabric
+| section: Choosing the fabric
+
+## Choosing the fabric
 
 One of the aspects to think about while choosing the fabric is to consider how much water has been consumed and polluted in the process of making the fabric. Other important aspects to consider are use of cropland, use of pesticides.Here you can find useful links to further research the environmental impact of different fabrics. 
 
@@ -524,7 +586,11 @@ Alternative pathway: here could be an excellent possibility to include issues of
 
 ---
 
-# Biology/Chemistry 12: Experiment on dyeing
+| section: Experiment on dyeing
+| 1 1
+| 2 3
+
+## Experiment on dyeing
 
 Workflow for experiment 
 
@@ -534,9 +600,7 @@ Workflow for experiment
 4. Dyeing <small>1,5h</small>
 5. Aftercare of fabric
 
----
-
-# Biology/Chemistry 12.1: Pre-treating fibres in soy milk
+-
 
 List of materials
 
@@ -554,6 +618,8 @@ Dry the fabric. Repeat the procedure 2-3 times.
 
 <img src="./images/shutter.jpg">
 
+***ERIK / JANIKA: Can we use this photo? It's from Shutterstock***
+
 <f-notes>
 
 It is recommended, that you bring a set of necessary items to the classroom.
@@ -564,7 +630,7 @@ If necessary, explain, why pot of certain material and wooden spoon must be used
 
 ---
 
-# Biology/Chemistry 12.2: Collecting the food residues
+##  Collecting the food residues
 
 Following food residues that contain tannins, can be used:
 
@@ -584,7 +650,7 @@ Avocado stones are around 12% of the total weight on an avocado.
 
 ---
 
-# Biology/Chemistry 12.3: Extracting the dye
+##  Extracting the dye
 
 Workflow for experiment 
 
@@ -600,7 +666,7 @@ Workflow for experiment
 
 ---
 
-# Biology/Chemistry 12.4: Dyeing the fabric. Workflow for experiment
+##  Dyeing the fabric. Workflow for experiment
 
 1. Pour dye extract into your dye pot. Use aluminum pot. 
 
@@ -622,7 +688,7 @@ Video example of dyeing fabric with avocado:
 
 ---
 
-# Biology/Chemistry 12.4: Dyeing the fabric 2
+##  Dyeing the fabric 2
 
 Important notes: 
 
@@ -639,7 +705,7 @@ Explain to the class, how the process of dyeing is happening.
 
 ---
 
-# Biology/Chemistry 12.5: Dyeing the fabric 3, summary
+##  Dyeing the fabric 3, summary
 
 ***TASK*** make a process map of dyeing process 
 
@@ -673,7 +739,12 @@ When mapping a process you simply draw a box for each step and connect them with
 
 ---
 
-# Product Development 1
+| chapter: Product development
+| section: Introduction
+
+***TODO: Titlecard***
+
+##  Introduction
 
 It is time for us to make an effort to help the Earth. 
 
@@ -687,7 +758,9 @@ Try to find the idea(s), how would using such products help maintain the well-be
 
 ---
 
-# Product Development 2: Process
+| section: Process
+
+## TODO: title
 
 Form a small groups of 3-5 students.
 
@@ -701,7 +774,7 @@ The process consists of 5 steps, which could be linear or not, depending on how 
 
 | 1 2 2
 
-# Product Development 3 Process
+##  Design thinking
 
 **Design Thinking** has evolved from Human-Centered Design focusing on customer experience, to Service Design focusing on customer journeys and touch points between a business and its customer.
 
@@ -710,6 +783,8 @@ Design Thinking is a step-by-step, user-centered method to creative thinking and
 -
 
 <img src="./images/designthinking1.png" />
+
+***ERIK / JANIKA: Can we use this illustration?***
 
 <f-notes>
 
@@ -721,9 +796,11 @@ Image source: https://www.applicoinc.com/services/exchange-driven-design/
 
 ---
 
-# Product Development 4: Process
+## TODO: title
 
 <img src="./images/designthinking2.png" />
+
+***ERIK / JANIKA: Can we use this illustration?***
 
 <f-notes>
 
@@ -739,7 +816,7 @@ Image source: https://uploads-ssl.webflow.com/5bd07840d8493f0de57fbcd0/5cc19045f
 
 ---
 
-# Product Development 5 Process
+## TODO: title
 
 Although you are following the stages of a certain process, it might be confusing to find the solution to the problem. 
 
@@ -751,9 +828,11 @@ Eventually, you will find the answer :)
 
 ---
 
-# Product Development 6: Process
+## TODO: title
 
-<img src="./images/designthinking2.png" />
+<img src="./images/designthinking3.png" />
+
+***ERIK / JANIKA: Can we use this illustration?***
 
 <f-notes>
 
@@ -763,7 +842,9 @@ Image source: http://www.bullart.com.au/wp-content/uploads/2016/07/Design-Thinki
 
 ---
 
-# Product Development 7: Presenting ideas
+| section: Presenting ideas
+
+##  Presenting ideas
 
 After the process of product ideation is finished, the ideas are to be presented to the audience, whole class should be engaged. Feel free to present sketches, visualizations and/or example models of your product.
 
@@ -777,7 +858,7 @@ Audience will have to ask specifying questions to refine and/or develop the idea
 
 ---
 
-# Product Development 8: Refining ideas
+## Refining ideas
 
 Discuss the results on presenting the ideas with your classmates and within your group.
 
@@ -787,7 +868,7 @@ Discuss the results on presenting the ideas with your classmates and within your
 
 ---
 
-# Product Development 9: Preparing the marketing pitch for your product 
+## Preparing the marketing pitch for your product 
 
 **Pitch**, also named **marketing pitch**, is a presentation of a **business idea** to potential investors.
 
@@ -807,42 +888,57 @@ It is possible to arrange the pitching of ideas as (a part of) assessment.
 
 ---
 
-# Art and Design 1
+| chapter: Art and Design
+| section: Core message
 
-### Task: create visual design for your product
+***TODO: Titlecard***
 
-#### Core message and idea 
+## Core message
+
+***TASK*** create visual design for your product
+
+### Core message and idea 
 
 Phrase the message that is clear enough to extend public understanding about ecological issues and matches your product.
 
-1. Write the message on paper. Rephrase, if needed. Use extra help on language, if needed. Perform testing among the representatives of target audience.
+##### 1.
 
-2. Think about lettering; pick/draw the images to be used (if any).
+Write the message on paper. Rephrase, if needed. Use extra help on language, if needed. Perform testing among the representatives of target audience.
 
-3. Brainstorm in your group, which items/products would be carrying the message AND be sustainable by nature as well.
+##### 2.
+
+Think about lettering; pick/draw the images to be used (if any).
+
+##### 3.
+
+Brainstorm in your group, which items/products would be carrying the message AND be sustainable by nature as well.
 
 ---
 
-# Art and Design 1
+| section: Creating visuals
 
-Creating the visuals of your product
+##  Creating the visuals of your product
 
-###### 4. Sketch your items and/or design on the paper by hand. Try to make variations, visualize and develop the idea, keep in mind the simplicity of the expression and composition :)
+##### 4.
 
-###### 5. Digitalize your design. 
+Sketch your items and/or design on the paper by hand. Try to make variations, visualize and develop the idea, keep in mind the simplicity of the expression and composition :)
+
+##### 5.
+
+Digitalize your design. 
 Simplest way is to take a photo(s) with your smartphone.
 
-###### 6. Process your images in a graphic software of your choice to make the etched model of your product. 
+##### 6.
 
-<f-notes>
+Process your images in a graphic software of your choice to make the etched model of your product. 
 
 Visual message should be designed in a simplified and/or stylized  visual mode.
 
 Remember to advise using enough contrast
 
-<f-notes>
-
 ---
+
+***ERIK / JANIKA: Can we use this illustration?***
 
 <img src="./images/shirts.jpg" />
 
@@ -854,15 +950,21 @@ Image source: https://i.pinimg.com/564x/aa/2e/db/aa2edb0b73bd63bc481a94219703116
 
 ---
 
-# Art and Design 3
+| section: Making models
 
-#### Make digital/visual models of your product
+## Make digital / visual models of your product
 
-###### 7. Analyse examples given by teacher together with your classmates.
+##### 7.
 
-###### 8. With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on selected  t-shirt (use graphic testing module of t-shirt). Think consistency. 
+Analyse examples given by teacher together with your classmates.
 
-###### 9. Ask for others' opinions on purposefulness of your message and (product) design, do they match? Try different variations, if required. 
+##### 8.
+
+With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on selected  t-shirt (use graphic testing module of t-shirt). Think consistency. 
+
+##### 9.
+
+Ask for others' opinions on purposefulness of your message and (product) design, do they match? Try different variations, if required. 
 
 <f-notes>
 
@@ -877,13 +979,17 @@ with guiding questions to preform the analysis of some ot together
 
 ---
 
-# Art and Design 4
+| section: Matching design and technique
 
-#### Matching Design and Technique
+##  Matching design and technique
 
-###### 11. Keep in mind that you are supposed to use only natural color and mordant agents to complete your task. Experiment to find the best way for applying design onto your item. Again, make changes to your design and/or item details, if necessary.  If you plan to make several items, be ready for differences, as outcome may differ due to the dyeing process.
+##### 11.
 
-###### 12. Make changes to your visual model, applying the knowledge you achieved of dyeing (and use process map you've made). Again, analyse legibility, visual hierarchy, colour contrast as you did before to find out, whether your design is deliverable by natural dyeing process.
+Keep in mind that you are supposed to use only natural color and mordant agents to complete your task. Experiment to find the best way for applying design onto your item. Again, make changes to your design and/or item details, if necessary.  If you plan to make several items, be ready for differences, as outcome may differ due to the dyeing process.
+
+##### 12.
+
+Make changes to your visual model, applying the knowledge you achieved of dyeing (and use process map you've made). Again, analyse legibility, visual hierarchy, colour contrast as you did before to find out, whether your design is deliverable by natural dyeing process.
  
 <f-notes>
 
@@ -893,17 +999,28 @@ It is essential to support students through the analyse process. As students' ex
 
 ---
 
-# Art and Design 5
+| section: Process map
+| 1 1 2
 
-#### Task: make design process map of your own products full stack process
+##  Process map
 
-##### 12. repeat steps 4-11, if necessary. 
+### Task: make design process map of your own products full stack process
+
+##### 12.
+
+Repeat steps 4-11, if necessary. 
+
+<p />
 
 When you are happy with your product and design, it is time to look back and analyse the product design process in whole.
 
 ***SUBTASK*** Using the design process chart as model, create your own chart with **clearly stated outcomes of each stage** together with your group mates. 
 
 **Present your work** and help other groups by asking questions about what they have reached.
+
+-
+
+<img src="./images/designprocess.jpg" />
 
 <f-notes>
 
@@ -926,7 +1043,7 @@ Weblink address of the chart is: https://infographicnow.com/wp-content/uploads/2
 
 ---
 
-# Product dyeing process
+##  Product dyeing process
 
 First of all, **you need to plan ahead the dyeing process**. 
 
@@ -945,7 +1062,7 @@ Dyeing the fabric 3, summary
 
 ---
 
-# Product dyeing process 2
+## ***TODO: title***
 
 ***SUBTASK 1*** create Dyeing Protocol of your product 
 
@@ -955,8 +1072,7 @@ Decide, how will you transfer your design to your item. (And still, if necessary
 
 ---
 
-# Product dyeing process 3
-
+## ***TODO: title***
 
 To bring the pattern or text on the t-shirt, you could try:
 
@@ -984,7 +1100,7 @@ Combined techniques: https://www.artistsnetwork.com/art-mediums/technique-tuesda
 
 ---
 
-# Extension to printing (optional)
+## Extension to printing (optional)
 
 ***TASK***
 
@@ -998,7 +1114,7 @@ NOTE: Keep the record of colouring process, time and results.
 
 ---
 
-# Brainstorming
+##  Brainstorming
 
 How could we make each step of the process even more environmental-friendly?
 
@@ -1006,14 +1122,14 @@ How could we make each step of the process even more environmental-friendly?
 
 ---
 
-# Pitching
+##  Pitching
 
 Presenting/Pitching the dyeing methods.
 Use your own dyed fabrics as examples.
 
 ---
 
-# Explanation A
+##  Explanation A
 
 Class will **compile the poster** in form of a mind map or similar, to demonstrate and explain, what they have learned about natural pigments, dyes and dyeing.
 
@@ -1021,7 +1137,7 @@ Poster will be discussed and analysed during a class conversation, which should 
 
 ---
 
-# References
+##  References
 
 Taavi Nagel Photos https://www.facebook.com/Taavi%20Nagel%20Photos
 http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.jpg

@@ -1,6 +1,6 @@
 | background: ./images/dress_03_nw.jpg
 
-# <big><big><big>Metamerism</big></big></big>
+# <big><big>Metamerism</big></big>
 
 <big>Explore the differences in color perception in virtual reality</big>
 

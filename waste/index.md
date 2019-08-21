@@ -188,11 +188,15 @@ https://www.ellenmacarthurfoundation.org/resources/learn/courses
 
 5. Take a picture
 
+***TODO Better links***
+
 https://www.designboom.com/art/gabriel-orozco-asterisms-at-the-guggenheim-new-york/
 
 https://www.enlightapp.com/blog/7-fantastic-tips-for-fabulous-flat-lay-photography/
 
 https://www.instagram.com/djhinva
+
+http://www.slate.com/blogs/behold/2014/07/08/gregg_segal_photographs_people_with_a_week_s_worth_of_their_trash_in_his.html?via=gdpr-consent
 
 -
 

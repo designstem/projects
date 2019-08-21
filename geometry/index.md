@@ -1,7 +1,7 @@
 | background: ./images/photo3.jpg
 | theme: dark
 
-# <big><big>From geometry to design</big></big>
+# <big>From geometry to design</big>
 
 <big>How geometric object becomes a design object</big>
 

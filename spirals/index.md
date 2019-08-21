@@ -1,6 +1,6 @@
 | theme: dark
 
-# <big><big>Spirals</big></big>
+# <big>Spirals</big>
 
 ---
 
