@@ -60,7 +60,7 @@ Their inventiveness and creativity comes possible from this opportunity of **wor
 
 **From disgust to desire!**
 
-By 2050 when the population exceed nine billion, shit, hair and dust are among the few natural resources which are actually increasing.
+By 2050 when the population exceed nine billion, feces, hair and dust are among the few natural resources which are actually increasing.
 
 Poo is a low value natural material, and you could make functional products of it.
 
@@ -72,7 +72,8 @@ Poo is a low value natural material, and you could make functional products of i
 
 <img src="./images/merdacotta2.png" />
 
-***ERIK: Unknown source***
+***ERIK: Unknown source.*** The caption says "Manangoiene Lemkuu with her son in front of their house made of dung and clay."
+
 
 
 <f-notes title="Credits">
@@ -227,6 +228,12 @@ Here working with shape and countershape is a great way to make something and **
 
 <img src="./images/shape4.png" />
 
+<f-notes title="Credits">
+
+http://www.co-oproduct.org/rethink/design-cat/zero-waste-design/details/14/59-zero-waste-menswear
+
+</f-notes>
+
 ---
 
 <caption>Shape and Countershape</caption>
@@ -292,6 +299,8 @@ Or what do you think of the **Zseat** by Studio Stallinga.
 
 -
 
+***ERIK: Image credits***
+
 <img src="./images/zseat.jpg" />
 
 ---
@@ -306,6 +315,8 @@ A perfect example is the **Pop-up Lamp** by the French studio Well Well Designer
 
 -
 
+***ERIK: Image credits***
+
 <img src="./images/popuplamp.png" />
 
 ---
@@ -315,6 +326,8 @@ A perfect example is the **Pop-up Lamp** by the French studio Well Well Designer
 <caption>Cut and Fold</caption>
 
 A bit more elaborate is the **Origami Folding Lamp** by Mirco Kirsch.
+
+***ERIK: Image credits***
 
 -
 
@@ -333,6 +346,8 @@ A bit more elaborate is the **Origami Folding Lamp** by Mirco Kirsch.
 <caption>Cut and Fold</caption>
 
 Zev Bianchi and Bcompact design used a fancier version of cutting and folding called **kerf bending** to make the **Aviator Chair** out of one sheet of plywood. To the right you see there prototypes in paper.
+
+***ERIK: Image credits***
 
 <img src="./images/aviator3.png" />
 

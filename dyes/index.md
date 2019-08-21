@@ -9,6 +9,8 @@
 
 </center>
 
+***TODO: Credits***
+
 <f-notes width="50vw" style="--primary: var(--darkgray)" title="Overview">
 
 ## Overview
@@ -254,6 +256,8 @@ By *rebirthing* clothes through upcycling, you could save an estimated CO2 Savin
 
 | chapter: Biology / Chemistry
 | section: Dyeing and Mordanting
+
+***TODO: Titlecard***
 
 ## Dyeing and Mordanting
 
@@ -626,7 +630,7 @@ If necessary, explain, why pot of certain material and wooden spoon must be used
 
 ---
 
-##  Biology/Chemistry 12.2: Collecting the food residues
+##  Collecting the food residues
 
 Following food residues that contain tannins, can be used:
 
@@ -646,7 +650,7 @@ Avocado stones are around 12% of the total weight on an avocado.
 
 ---
 
-##  Biology/Chemistry 12.3: Extracting the dye
+##  Extracting the dye
 
 Workflow for experiment 
 
@@ -662,7 +666,7 @@ Workflow for experiment
 
 ---
 
-##  Biology/Chemistry 12.4: Dyeing the fabric. Workflow for experiment
+##  Dyeing the fabric. Workflow for experiment
 
 1. Pour dye extract into your dye pot. Use aluminum pot. 
 
@@ -684,7 +688,7 @@ Video example of dyeing fabric with avocado:
 
 ---
 
-##  Biology/Chemistry 12.4: Dyeing the fabric 2
+##  Dyeing the fabric 2
 
 Important notes: 
 
@@ -701,7 +705,7 @@ Explain to the class, how the process of dyeing is happening.
 
 ---
 
-##  Biology/Chemistry 12.5: Dyeing the fabric 3, summary
+##  Dyeing the fabric 3, summary
 
 ***TASK*** make a process map of dyeing process 
 
@@ -735,7 +739,12 @@ When mapping a process you simply draw a box for each step and connect them with
 
 ---
 
-##  Product Development 1
+| chapter: Product development
+| section: Introduction
+
+***TODO: Titlecard***
+
+##  Introduction
 
 It is time for us to make an effort to help the Earth. 
 
@@ -749,7 +758,9 @@ Try to find the idea(s), how would using such products help maintain the well-be
 
 ---
 
-##  Product Development 2: Process
+| section: Process
+
+## TODO: title
 
 Form a small groups of 3-5 students.
 
@@ -763,7 +774,7 @@ The process consists of 5 steps, which could be linear or not, depending on how 
 
 | 1 2 2
 
-##  Product Development 3 Process
+##  Design thinking
 
 **Design Thinking** has evolved from Human-Centered Design focusing on customer experience, to Service Design focusing on customer journeys and touch points between a business and its customer.
 
@@ -785,7 +796,7 @@ Image source: https://www.applicoinc.com/services/exchange-driven-design/
 
 ---
 
-##  Product Development 4: Process
+## TODO: title
 
 <img src="./images/designthinking2.png" />
 
@@ -805,7 +816,7 @@ Image source: https://uploads-ssl.webflow.com/5bd07840d8493f0de57fbcd0/5cc19045f
 
 ---
 
-##  Product Development 5 Process
+## TODO: title
 
 Although you are following the stages of a certain process, it might be confusing to find the solution to the problem. 
 
@@ -817,7 +828,7 @@ Eventually, you will find the answer :)
 
 ---
 
-##  Product Development 6: Process
+## TODO: title
 
 <img src="./images/designthinking3.png" />
 
@@ -831,7 +842,9 @@ Image source: http://www.bullart.com.au/wp-content/uploads/2016/07/Design-Thinki
 
 ---
 
-##  Product Development 7: Presenting ideas
+| section: Presenting ideas
+
+##  Presenting ideas
 
 After the process of product ideation is finished, the ideas are to be presented to the audience, whole class should be engaged. Feel free to present sketches, visualizations and/or example models of your product.
 
@@ -845,7 +858,7 @@ Audience will have to ask specifying questions to refine and/or develop the idea
 
 ---
 
-##  Product Development 8: Refining ideas
+## Refining ideas
 
 Discuss the results on presenting the ideas with your classmates and within your group.
 
@@ -855,7 +868,7 @@ Discuss the results on presenting the ideas with your classmates and within your
 
 ---
 
-##  Product Development 9: Preparing the marketing pitch for your product 
+## Preparing the marketing pitch for your product 
 
 **Pitch**, also named **marketing pitch**, is a presentation of a **business idea** to potential investors.
 
@@ -875,7 +888,12 @@ It is possible to arrange the pitching of ideas as (a part of) assessment.
 
 ---
 
-##  Art and Design 1
+| chapter: Art and Design
+| section: Core message
+
+***TODO: Titlecard***
+
+## Core message
 
 ***TASK*** create visual design for your product
 
@@ -897,9 +915,9 @@ Brainstorm in your group, which items/products would be carrying the message AND
 
 ---
 
-##  Art and Design 1
+| section: Creating visuals
 
-Creating the visuals of your product
+##  Creating the visuals of your product
 
 ##### 4.
 
@@ -914,13 +932,9 @@ Simplest way is to take a photo(s) with your smartphone.
 
 Process your images in a graphic software of your choice to make the etched model of your product. 
 
-<f-notes>
-
 Visual message should be designed in a simplified and/or stylized  visual mode.
 
 Remember to advise using enough contrast
-
-<f-notes>
 
 ---
 
@@ -936,9 +950,9 @@ Image source: https://i.pinimg.com/564x/aa/2e/db/aa2edb0b73bd63bc481a94219703116
 
 ---
 
-##  Art and Design 3
+| section: Making models
 
-### Make digital/visual models of your product
+## Make digital / visual models of your product
 
 ##### 7.
 
@@ -965,9 +979,9 @@ with guiding questions to preform the analysis of some ot together
 
 ---
 
-##  Art and Design 4
+| section: Matching design and technique
 
-### Matching Design and Technique
+##  Matching design and technique
 
 ##### 11.
 
@@ -985,9 +999,10 @@ It is essential to support students through the analyse process. As students' ex
 
 ---
 
+| section: Process map
 | 1 1 2
 
-##  Art and Design 5
+##  Process map
 
 ### Task: make design process map of your own products full stack process
 
@@ -1047,7 +1062,7 @@ Dyeing the fabric 3, summary
 
 ---
 
-##  Product dyeing process 2
+## ***TODO: title***
 
 ***SUBTASK 1*** create Dyeing Protocol of your product 
 
@@ -1057,8 +1072,7 @@ Decide, how will you transfer your design to your item. (And still, if necessary
 
 ---
 
-##  Product dyeing process 3
-
+## ***TODO: title***
 
 To bring the pattern or text on the t-shirt, you could try:
 
@@ -1086,7 +1100,7 @@ Combined techniques: https://www.artistsnetwork.com/art-mediums/technique-tuesda
 
 ---
 
-##  Extension to printing (optional)
+## Extension to printing (optional)
 
 ***TASK***
 
