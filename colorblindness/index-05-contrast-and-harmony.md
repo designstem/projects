@@ -845,6 +845,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 | 2 3
 | 4 3
 
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 <!-- ##### Color contrast and harmony -->
 ##### Color palettes
