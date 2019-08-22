@@ -1,12 +1,14 @@
 | chapter: Color contrast and harmony
 | section: Contrast and harmony
 | id: cb-contrast-and-harmony
+| padding: 0
+| gap: 0
 | rows: auto
 | 1 2
 | 3 2
 
 
-<!-- <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)"> -->
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
   
   # Color contrast and harmony
 
