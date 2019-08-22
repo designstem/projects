@@ -163,8 +163,14 @@
 </section>
 
 -
+<figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0;">
+  <img src="./images/cvd_itten_colorwheel.svg" />
+</figure>
 
+
+<!--
 <f-image src="images/cvd_itten_colorwheel.svg" style="background-position:50% 50%; min-height: 90vh;" />
+-->
 
 <!--
 <f-image src="images/johannes-itten.jpg" style="background-position:50% 10%; min-height:60vh; width:100%; height:100%;" />
