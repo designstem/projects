@@ -924,3 +924,97 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 <div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
     <f-next-button />
 </div>
+
+
+
+
+---
+
+<!-- Testpage -->
+
+| id: cb-contrasts
+| padding: 0
+| gap: 0
+| rows: auto
+| 1 2
+| 3 2
+
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+
+##### Color palettes
+# <f-fact-icon size="large" /> Tips!
+
+&nbsp;
+
+~Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier 😎 :~
+
+ 
+  <details>
+      <summary> Figure out the purpose
+      </summary>
+  Analyse the product and the target group for which you are going to design. Are there typical colors already in use by similar products?
+  
+  </details>
+
+
+  
+  <details>
+      <summary> Review color basics
+      </summary>
+    Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.
+  </details>
+  
+
+  
+  
+  <details>
+      <summary> Choose a dominant color, then accent colors
+      </summary>
+    First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.
+  </details>
+
+
+  
+   <details>
+      <summary> Select shades, then vary them
+      </summary>
+    Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).
+  </details>
+
+  
+
+  
+  <details>
+      <summary> Look at compati&shy;bility of hues
+      </summary>
+    Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.
+  </details>
+
+
+
+  <details>
+      <summary> Limit the number of colors
+      </summary>
+    Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.
+  </details>
+
+  
+  
+  <details>
+      <summary> Put the colors into action 
+      </summary>
+    e.g. in a mock-up, so that you can better judge whether your color palette works.
+  </details> 
+
+-
+
+<f-image src="./images/cvb_brushes.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+-
+
+<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
+    <f-next-button />
+</div>
+
+
+---
