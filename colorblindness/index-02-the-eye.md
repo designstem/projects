@@ -77,12 +77,12 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 
 -
+<!--
+<f-image src="./images/color_blindness_accessibility_6.jpg"  /> -->
 
-<f-image src="./images/color_blindness_accessibility_6.jpg"  />
-
-<!-- <figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0;">
+<figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0;">
   <img src="./images/color_blindness_accessibility_6.jpg" />
-</figure> -->
+</figure>
 
 -
 
