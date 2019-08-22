@@ -1,3 +1,6 @@
+| chapter: Of Bees and Packages
+| section: Start
+
 # <big>Of Bees and Packages</big>
 
 How to optimize packaging, reduce loss of space and avoid material waste
@@ -22,6 +25,8 @@ Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
 
 ---
 
+| section: History of packages
+
 <img src="https://etc.usf.edu/clipart/64900/64993/64993_dollcase_md.gif" />
 
 -
@@ -35,6 +40,8 @@ Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
 2. Look for packages around you and find differences between them
 
 ---
+
+| section: Packages as marketing
 
 | 1 2 2
 | rows: auto 1fr 
@@ -100,6 +107,8 @@ Sometime the package is part of the value
 
 ---
 
+| section: Packages in nature
+
 ## Packaging in nature
 
 Nature has always evolved the best packaging for its products. 
@@ -112,127 +121,95 @@ Nature has always evolved the best packaging for its products.
 
 ---
 
-| 1 2
-| 3 3
+| section: Exercise: milk carton
+| 1 1 2
 
-## Explore
-
-***KJ: Title?***
+## Exercise
 
 Bring/take a milk or juice carton (square shape). 
 
-##### 1. Cut off the top of the carton and fill it with rice until it is full.
+1. Cut off the top of the carton and fill it with rice until it is full.
 
-##### 2. Weight the rice on a scale without the carton.
+2. Weight the rice on a scale without the carton.
 
-##### 3. Take note of the weight.
+3. Take note of the weight.
+
+4. Cut off also the bottom of the carton and cut along one of the sides.
+
+5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
+
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <f-scene width="200" height="200">
+            <f-regularpolygon
+              scale="1.75"
+              count="3"
+              :stroke="color('red')"
+            />
+          </f-scene>
+        </td>
+        <td>
+          <f-scene width="200" height="200">
+            <f-regularpolygon
+              scale="1.75"
+              count="4"
+              :stroke="color('red')"
+            />
+          </f-scene>
+        </td>
+        <td>
+          <f-scene width="200" height="200">
+            <f-regularpolygon
+              scale="1.75"
+              count="5"
+              :stroke="color('red')"
+            />
+          </f-scene>
+        </td>
+        <td>
+          <f-scene width="200" height="200">
+            <f-regularpolygon
+              scale="1.75"
+              count="6"
+              :stroke="color('red')"
+            />
+          </f-scene>
+        </td>
+        <td>
+          <f-scene width="200" height="200">
+            <f-circle
+              scale="1.75"
+              :stroke="color('red')"
+              stroke-width="5"
+            />
+          </f-scene>
+        </td>
+      </tr>
+      <tr>
+        <td>Weight:</td>
+        <td>Weight:</td>
+        <td>Weight:</td>
+        <td>Weight:</td>
+        <td>Weight:</td>
+      </tr>
+    </tbody>
+  </table>
+
+6. Which shape optimize carton volume?
+
+7. What can you say about the relation between the perimeter of the base and the volume of the carton?
 
 -
 
+<!--
 <img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
-
--
-
-<f-next-button title="The experiment continues ..."/>
+-->
 
 ---
 
-| 1 1 1 2
-
-## Explore
-
-***KJ: Title?***
-
-##### 4. Cut off also the bottom of the carton and cut along one of the sides.
-
-##### 5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
-
-<table>
-  <tbody>
-    <tr>
-      <td>
-        <f-scene width="200" height="200">
-          <f-regularpolygon
-            scale="1.75"
-            count="4"
-            :stroke="color('red')"
-          />
-        </f-scene>
-      </td>
-      <td>
-        <f-scene width="200" height="200">
-          <f-regularpolygon
-            scale="1.75"
-            count="3"
-            :stroke="color('red')"
-          />
-        </f-scene>
-      </td>
-      <td>
-        <f-scene width="200" height="200">
-          <f-regularpolygon
-            scale="1.75"
-            count="5"
-            :stroke="color('red')"
-          />
-        </f-scene>
-      </td>
-      <td>
-        <f-scene width="200" height="200">
-          <f-regularpolygon
-            scale="1.75"
-            count="6"
-            :stroke="color('red')"
-          />
-        </f-scene>
-      </td>
-      <td>
-        <f-scene width="200" height="200">
-          <f-circle
-            scale="1.75"
-            :stroke="color('red')"
-          />
-        </f-scene>
-      </td>
-    </tr>
-    <tr>
-      <td>Weight:</td>
-      <td>Weight:</td>
-      <td>Weight:</td>
-      <td>Weight:</td>
-      <td>Weight:</td>
-    </tr>
-  </tbody>
-</table>
-
-<f-next-button />
-
--
-
-<img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
-
--
-
----
-
-| 1 2
-| 3 3
-
--***KJ: Title?***
-
-1. Which shape optimize carton volume?
-
-2. What can you say about the relation between the perimeter of the base and the volume of the carton?
-
--
-
-<img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
-
--
-
-<f-next-button/>
-
----
+| section: Explore polygon area and perimeter
 
 | 1 1 1 1
 | 2 2 3 3
@@ -247,9 +224,11 @@ Bring/take a milk or juice carton (square shape).
 ### Experiment how polygons area changes
 
 <span class="bullet">1</span> Start changing only the dimension of a square and a triangle with the same ***perimeter*** `p = {{ get('p') }}`
-<f-slider set="p" from="1" to="10"  >
-</f-slider>
+
+<f-slider set="p" from="1" to="10" />
+
 ***A*** Which is the ratio between square and triangle areas?
+
 ***B*** What can you say about the volume of a milk carton with triangle base?
 
 <span class="bullet">2</span> Now keep a fixed perimeter of `10` and change the ***number of edges*** `n = {{ get('n') }}`
@@ -296,23 +275,19 @@ Bring/take a milk or juice carton (square shape).
 </details>
 
 You can always ***rotate*** the polygons with the parameter `r`
-<f-slider set="r" from="0" to="360"  >
-</f-slider>
 
--
+<f-slider set="r" from="0" to="360" />
 
-<f-next-button/>
 
 ---
 
+| section: Tools for understanding regular shapes
 | 1 2 2
 
 
-#### Optional
+<caption>Optional</caption>
 
 ## Tools for understanding regular shapes
-
-<f-next-button/>
 
 -
 
@@ -330,6 +305,7 @@ https://www.mathopenref.com/polygoncircumcircle.html
 
 ---
 
+| section: Stacking multiple packages
 | 1 1 2
 
 ## Multiple packaging
@@ -337,8 +313,6 @@ https://www.mathopenref.com/polygoncircumcircle.html
 Take a lemon or an orange. Think about its parts and its packaging subdivision.
 
 Sometimes natural packagings do not optimize the amount per se, but they maximize the **outer container utilization**.
-
-<f-next-button/>
 
 -
 
@@ -348,9 +322,6 @@ Sometimes natural packagings do not optimize the amount per se, but they maximiz
 
 | 1 1
 | 2 3
-| 2 3
-| 4 4
-| rows: auto 1fr
 
 ## If we have to store multiple packages?
 
@@ -384,16 +355,11 @@ If there are multiple pieces of the product, they have to be stacked/stored with
   </f-group> 
 </f-scene>
 
--
-
-<f-next-button/>
 
 ---
 
 | 1 1 1
 | 2 3 3
-| 4 4 4
-| rows: auto 1fr
 
 ## If we have to store multiple packages?
 
@@ -409,10 +375,6 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 
 ***rotation*** `r`
 <f-slider set="r" from="0" to="360" />
-
-<p /><br>
-
-<f-next-button/>
 
 -
 
@@ -460,8 +422,7 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 
 ---
 
-| 1 2
-| 3 3
+***TODO: Integrate***
 
 ## Optimize the outer container
 
@@ -471,15 +432,9 @@ After this work, can you evaluate which is the optimal shape to store the maximu
 
 <img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
 
--
-
-<f-next-button/>
-
 ---
 
-| 1 2
-| 1 2
-| 3 3
+| section: Animal packaging
 
 ## Also animals package their goods
 
@@ -489,14 +444,10 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 
 <f-video src="https://www.youtube.com/watch?v=QEzlsjAqADA" />
 
--
-
-<f-next-button/>
 
 ---
 
-| 1 1
-| 2 2
+| section: Bees and packaging
 
 ## Of Bees and Packages
 
@@ -504,12 +455,9 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 
 2. Verify that the hexagon has the minimum perimeter (= min amount of vax, the packging!) among the stackable polygons with same area.
 
--
-
-<f-next-button />
-
 ---
 
+| section: Natural marketing
 | padding: 0
 
 <section><section>
@@ -541,6 +489,8 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 | rows: auto 1fr
 
 ## Design object task 
+
+***TODO: What?***
 
 -
 
