@@ -374,13 +374,15 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | 1 2
 
 <!-- ##### EXPLAIN -->
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+
 ##### Three properties of color
 # <f-note-icon size="large" /> Conclusion
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 <br>
+
 #### So what did we learn?
 
 ~Summarize in your own words the effect 
@@ -434,7 +436,6 @@ Especially when we design for people with CVD, using brightness and saturation c
 
 ##### Three properties of color
 # <f-activity-icon size="large" /> Apple shampoo
-
 
 
 ~You are asked to decide upon fitting **colors for shampoo bottles**. The three shampoos will smell like apple 🍏. But there are three different target groups - each one gets a shampoo bottle of their own. Choose a color which could be used as primary color for the following products:~
