@@ -23,6 +23,8 @@
   <p style="text-align:right; --base:8px;">&mdash;Johannes Itten</p>
 
   </blockquote>
+  
+  <f-next-button />
 
 <!-- </section> -->
 
@@ -31,9 +33,7 @@
                                                              
 <f-image src="./images/contrast-and-harmony-dots.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
--
 
-<f-next-button />
 
 ---
 
@@ -919,4 +919,31 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 
 
+
 ---
+
+| id: cb-learningstationsummary
+| padding: 0
+| gap: 0
+| rows: auto
+| 1 2
+| 3 2
+
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+
+##### Learning Station Summary
+# What next?
+
+&nbsp;
+
+~On this slide, I need to add some sort of summary for the learning station setting, that leads over to the final task.~
+
+-
+
+<f-image src="./images/cvb_bubbles.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+-
+
+<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
+    <f-next-button />
+</div>
