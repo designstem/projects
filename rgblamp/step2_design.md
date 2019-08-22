@@ -1,6 +1,5 @@
 | chapter: Design 
 | section: Introduction
-| 1 1 2
 
 # Design
 
