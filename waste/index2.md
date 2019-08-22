@@ -854,19 +854,25 @@ A hexagon is a form we see everywhere in nature when energy optimization is need
 
 For example in a honeycomb, radiolaria or dried clay.
 
-***ERIK: Unknows sources***
+-
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Apis_florea_nest_closeup2.jpg">
 
 -
 
-<img src="./images/honey.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Radiolaria_%28Challenger%29_Plate_135.jpg">
 
 -
 
-<img src="./images/radiolaria.jpg">
+<img src="./images/clayground.jpg">
 
--
 
-<img src="./images/clay.png">
+<f-notes title="Credits">
+
+Image sources: https://commons.wikimedia.org/wiki/File:Apis_florea_nest_closeup2.jpg
+https://commons.wikimedia.org/wiki/File:Radiolaria_(Challenger)_Plate_135.jpg
+
+</f-notes>
 
 ---
 
