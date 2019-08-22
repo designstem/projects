@@ -66,27 +66,20 @@ The source is from https://www.vzhh.de/themen/mogelpackungen/luftpackungen/mogel
 
 ---
 
-| 1 1 4 4
-| 2 3 5 6
-| 2 3 5 6
-| 7 7 7 7
-| rows: auto 1fr
+| 1 2 3 4
+| 5 5 6 6
 
-## Costly packaging
-
--
+### Costly packaging
 
 Sometimes the value of the package is higher than the value of the product itself
 
 -
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Travel_mug.jpg" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Travel_mug.jpg" style="width: 50%" />
 
 -
 
-## Precious packaging
-
--
+### Precious packaging
 
 Sometime the package is part of the value
 
@@ -94,10 +87,9 @@ Sometime the package is part of the value
 
 <img src="https://c.pxhere.com/photos/77/00/cosmetics_advertising_perfumes_perfume_studio_the_practice_of_acuteness_detail-1084407.jpg!d" />
 
+-
 
----
-
-## Ethic packaging
+### Ethic packaging
 
  **All the times**, reducing packaging is an ethic mission! 
 
