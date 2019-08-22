@@ -87,17 +87,12 @@ Sometime the package is part of the value
 
 <img src="https://c.pxhere.com/photos/77/00/cosmetics_advertising_perfumes_perfume_studio_the_practice_of_acuteness_detail-1084407.jpg!d" />
 
--
-
-<f-next-button />
 
 ---
 
 ## Ethic packaging
 
  **All the times**, reducing packaging is an ethic mission! 
-
-<f-next-button />
 
 -
 
@@ -111,7 +106,6 @@ Nature has always evolved the best packaging for its products.
 
 **How can we optimize packaging?** 
 
-<f-next-button />
 -
 
 <img src="https://etc.usf.edu/clipart/84800/84862/84862_lime_quat_md.gif" />
@@ -123,13 +117,21 @@ Nature has always evolved the best packaging for its products.
 
 ## Explore
 
--***KJ: Title?***
+***KJ: Title?***
 
- Bring/take a milk or juice carton (square shape). 
+Bring/take a milk or juice carton (square shape). 
 
-1. Cut off the top of the carton and fill it with rice until it is full.
-2. Weight the rice on a scale without the carton.
-3. Take note of the weight.
+#### 1.
+
+Cut off the top of the carton and fill it with rice until it is full.
+
+#### 2.
+
+Weight the rice on a scale without the carton.
+
+#### 3.
+
+Take note of the weight.
 
 -
 
@@ -145,7 +147,7 @@ Nature has always evolved the best packaging for its products.
 
 ## Explore
 
--***KJ: Title?***
+***KJ: Title?***
 
 4. Cut off also the bottom of the carton and cut along one of the sides.
 5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
