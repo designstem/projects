@@ -118,19 +118,21 @@ Alternatively, make the polyhedra model by **folding** the paper and glueing it 
 
 | section: The icosahedron
 
-| 1 1 1 2
-| 3 3 4 4
-| rows: auto
+| 1 1 2 2
+| 3 4 5 5
+| rows: 1fr auto
 
-<img src="./images/ico1.png" />
-
--
-
-<img src="./images/ico2.png" />
+<f-image src="./images/ico1.png" style="--image-size: contain; --image-position: right"/>
 
 -
 
-<img src="./images/ico3.png" />
+<f-image src="./images/ico2.png" style="--image-size: contain; --image-position: left"/>
+
+-
+
+-
+
+<f-image src="./images/ico3.png" style="--image-size: contain; --image-position: right top" />
 
 -
 
@@ -219,16 +221,26 @@ https://www.georgehart.com/icosahedral/icosahedral.html
 
 ---
 
+| 1
+| 2
+| rows: 1fr auto
+
 | padding: 0
 
-<img src="./images/example1.png" />
+<f-image style="--image-size: contain; --image-position: left top" src="./images/example1.png" />
 
-<section>
+-
 
-## This is Michiel Cornelissen 30 pencil icosahedron
+<section style="text-align: right">
 
-http://www.michielcornelissen.com/portfolio_page/30-pencil-icosahedron/
+_This is Michiel Cornelissen 30 pencil icosahedron_
+
+<small>
+http://www.michielcornelissen.com/portfolio_page/30-pencil-icosahedron/'
+</small><br>
+<small>
 https://www.amazon.ca/Ikea-Joxtrop-Renewable-Lampshade-Cardboard/dp/B01LXV2N2S
+</small>
 
 </section>
 
