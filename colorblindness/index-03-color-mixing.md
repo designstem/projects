@@ -10,6 +10,7 @@
 ##### Color mixing
 # Light and color
 
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 ~Color is derived from light, either natural or artificial. With little light, little or no color is present. With a lot of light comes lots of color.~
@@ -25,6 +26,7 @@ Go outside or look out of your window before the sun comes up. Experience how yo
 -
 
 <f-image src="./images/color_blindness_accessibility_20--opt.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
 
 <!-- <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: center; margin: 0;">
   <img src="./images/color_blindness_accessibility_20--opt.jpg" />
