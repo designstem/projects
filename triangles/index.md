@@ -17,19 +17,21 @@
 
 <div style="z-index:5; position:relative;">
 
-<div style="--base: 32px;">
+<div>
+<big>
 
   # Looking for triangles
 
+</big>
 </div>
 
 &nbsp;
 
-~*Design a polyhedral shape bird nesting box and learn the geometry behind it.*~
+~*Design a polyhedral shape bird nesting box<br /> and learn the geometry behind it.*~
 
 <!-- <f-sidebar src="geometry-triangles.md" title="Geometry of triangles" width="50vw" /> -->
 
-###  &nbsp;
+### &nbsp;
 
 <f-next-button title="Let's start!" />
 
@@ -73,12 +75,13 @@
 | padding: 10vmin
 | height: 100vh
 | 1 2
+| 3 2
 
 
 
 ### &nbsp;
 
-# 📝 The assignment
+## 📝 The assignment
 
 &nbsp;
 
@@ -86,15 +89,15 @@
 2. ~The design should be based on a <f-sidebar title="polyhedral shape" src="./math-polyhedra.md" style="--sidebar-width: 50vw" overlay />~
 3. ~The material should have some thickness (wood, etc).~
 
-&nbsp;
-
-<f-next-button />
-
 -
 
 <f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center center" />
 
+<small>*Nidusa birdhouse by Vladimir Sinelnikov (<f-link to="https://www.artlebedev.com/nidusa/">Art Lebedev Studio</f-link>)*</small>
 
+-
+
+<f-next-button />
 
 ---
 
@@ -111,16 +114,13 @@
 | section: Design problem
 | padding: 10vmin
 | 1 2 
+| 3 2
 
 
 
-# Design problem <sup>🤔</sup>
-
-#### &nbsp;
+## Design problem <sup>🤔</sup>
 
 ~There are birds that rely heavily on human made nesting boxes.~
-
-#### &nbsp;
 
 #### Find out….
 
@@ -128,13 +128,13 @@
 2. ~what kind of nesting boxes the birds need.~
 3. ~if designers can solve other problems with a similar design approach?~
 
-## &nbsp;
-
-<f-next-button />
-
 -
 
 <f-image src="./images/nesting-boxes__0,5x.jpg" style="background-position: 50% 50%;" />
+
+-
+
+<f-next-button />
 
 ---
 
@@ -200,7 +200,7 @@
 | 2 3 4 5 6
 | 7 7 7 7 7
 
-# Key steps
+## Key steps
 
 ~Design a nesting house based on a polyhedral shape.~
 
@@ -260,7 +260,7 @@
 
   <h1 style="--base:16px">🤔</h1>
 
-  # ~“But how?”~
+  # “But how?”
   ~you may ask...~
 
 ### &nbsp;
@@ -286,19 +286,19 @@
 | 4 4
 | rows: auto 
 
-# Geometry behind the nesting box
+## Geometry behind the nesting box
 
 ~For designing and building a solid polyhedral object you have to:~
 
 -
 
-# 1.
+## 1.
 
 ~**simplify the polyhedral object** into more basic geometrical objects, such as **polygons**, **triangles** and **pyramids**~
 
 -
 
-# 2.
+## 2.
 
 ~**use geometry** to calculate correct **dimensions and angles** of these “building blocks”~
 
@@ -462,9 +462,10 @@
 | rows: auto 
 | height: 100vh
 | 1 1
-| 2 3 
+| 2 3
+| 4 3
 
-# Let’s start with triangles! 
+## Let’s start with triangles! 
 
 -
 
@@ -476,15 +477,9 @@
 
 ~So let’s see, what type of triangles exist and what kind of relations exist between triangle’s sides and angles, that we can use in our project.~
 
-&nbsp;
-
-<small>👉 *You can drag the corners of the triangle*</small>
-
-&nbsp;
-
-<f-next-button title="Next: Geometry of triangles" />
-
 -
+
+<small>👇 *You can drag the corners of the triangle*</small>
 
 <f-scene responsive class="fullWidthScene" v-slot="{ mouse }" grid>
   <f-drag
@@ -507,6 +502,10 @@
   </f-drag>
 </f-scene> -->
 
+-
+
+<f-next-button title="Next: Geometry of triangles" />
+
 ---
 
 
@@ -521,7 +520,7 @@
 | 2 3 4
 | 5 5 5
 
-# Geometry of triangles 
+## Geometry of triangles 
 
 -
 
@@ -576,7 +575,7 @@
 | 1 3
 | 2 3 
 
-# Polygons
+## Polygons
 
 -
 
@@ -633,7 +632,7 @@
 | 5 5 5
 | 6 6 6
 
-# Simplification of polygons <sup>🤔</sup>
+## Simplification of polygons <sup>🤔</sup>
 
 ~Looking at these polygons below, **how would you simplify these shapes** *(based on what you know for now about triangles)* to calculate angles, sides, circumference, area etc of the polygon?~ 
 
@@ -668,7 +667,7 @@
 
 <center>
 
-  <f-arrow-icon rotation="-90" /> Click on a polygon to see the answers <f-arrow-icon rotation="-90" />
+  👆 <small>Click on a polygon to see the answers</small> ☝
 
 </center>
 
@@ -694,7 +693,7 @@
 | 1 1
 | 2 3
 
-# Simplification of polygons
+## Simplification of polygons
 
 -
 
@@ -799,7 +798,7 @@
 | 8 8 8 8 8
 
 
-# Polyhedra
+## Polyhedra
 
 ~**Regular polyhedra** *(polyhedra = polyhedron in plural form)* are comprised of **polygons**.~ 
 ~There are **5 convex regular polyhedra**, also known as **platonic solids**.~
@@ -862,13 +861,13 @@
 | 1 1 1
 | 2 3 4
 
-# Simplification of polyhedron
+## Simplification of polyhedron
 
 -
 
 ~Look at these polyhedra and try to find out, **how would you simplify them** to calculate angles and distances?~
 
-<small><f-rightarrow-icon /> *Click on a polyhedron to get the answer*</small>
+👉 <small>*Click on a polyhedron to get the answer*</small>
 
 &nbsp;
 
@@ -933,7 +932,7 @@
 | 2 3
 | 4 4 
 
-# Simplification of polyhedron
+## Simplification of polyhedron
 
 -
 
@@ -1002,7 +1001,7 @@
 
 -
 
-# Material thickness
+## Material thickness
 
 ~If we'd made a nesting box from paper or some other material that has none (or almost almost no)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
 
@@ -1048,7 +1047,7 @@
 | 2 3
 
 
-# Dihedral angle
+## Dihedral angle
 
 -
 
@@ -1097,7 +1096,7 @@
 | 1 1
 | 2 3
 
-# Why pyramids?
+## Why pyramids?
 
 -
 
@@ -1295,7 +1294,7 @@
 | 1 4 5
 
 
-# Pyramid
+## Pyramid
 
 &nbsp;
 

@@ -1,8 +1,9 @@
 | padding: 5vmin
 
-# Calculating angles in pyramids
+## Calculating angles in pyramids
 
 ---
+
 
 
 
@@ -16,7 +17,7 @@
 
 <blockquote style="background: none;">
 
-~Pyramid is a polyhedron formed by connecting a **polygonal base** and a point, called the **apex**.~
+  ~Pyramid is a polyhedron formed by connecting a **polygonal base** and a point, called the **apex**.~
 
 </blockquote>
 
@@ -26,15 +27,17 @@
 
 ### 1. 
 
-~At first let's calculate the angle between the **base** *(ABCD)* and **the lateral face** *(for example BCT)*~
+~At first you calculate the angle between the **base** and the **lateral face**. For example the angle between face **BCT** and **ABCD**.~
 
 -
+
+Your looking for a triangle in which you can calculate.
 
 
 
 <blockquote style="background: none;">
 
-  ~If we want to calculate the **angle between two faces**, we have to calculate the **angle between two lines that lie on both faces and are perpendicular to the edge**.~
+  ~If you want to calculate the angle between two faces, you have to calculate the angle between two lines that lie on both faces and are perpendicular to the edge.~
 
   ~**These lines and pyramid height form a right triangle**~
 
@@ -52,7 +55,7 @@
   
 ~**TM** is perpendicular to **BC** and **MS** is also perpendicular to **BC**.~
 
-~**TSM** is a **right-angled triangle** from which we know **two sides**.~
+~**TSM** is a **right-angled triangle** from which we know two sides.~
 
 -
 
@@ -129,7 +132,7 @@ so <f-math inline red>M = 51.84°</f-math>
 -
 
 <f-scene responsive grid>
-  <Triangle points="1.2 -1.5, -0.8 1.2, -0.8 -1.5 " :angleLabels="['M', 'T', 'S']" :angleMarkers="1" />
+  <Triangle points="1.2 -1.5, -0.8 1.2, -0.8 -1.5" :angleLabels="['M', 'T', 'S']" :angleMarkers="1" />
 </f-scene>
 
 ---
@@ -138,16 +141,165 @@ so <f-math inline red>M = 51.84°</f-math>
 
 
 | padding: 5vmin
+| 1 2
 
 ### 2.
 
-~Calculate the **angle between two lateral faces**, for instance **ABT** and **BCT**.~
+~Now we are going to look at the angle between **two lateral faces**, for instance **ABT** and **BCT**.~
+
+~First let's look at the surfaces ABT and BCT; **these are congruent**. With the Pythagorean theorem you can calculate the unknown sides and the height of these triangles.~
+
+~**AP is perpendicular to BT**. (the same applies, of course, to the line T in plane BCT)~
+
+-
+
+<div style="position:sticky; top:0;">
+<f-scene responsive>
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+    markerWidth="5" markerHeight="5"
+    orient="auto-start-reverse" fill="lightgray" >
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+  </marker>
+  </defs>
+  <triangle points="0 1.5, -1.5 -1, 1.5 -1" :angleLabels="['T', 'A', 'B']" />
+  <f-line points="-1.5 -1, 0.75 0.25" strokeWidth="1" />
+  <f-box r="0.3" strokeWidth="1" rotation="29" position="0.53 0.3" />
+  <polyline points="0,1.5 -1.5,-1" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)" style="transform: translate(-0.15px,0.15px)" />
+  <polyline points="-1.5,-1 1.5,-1" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)" style="transform: translate(0,-0.2px)" />
+  <f-text position="-1 0.5" rotation="54">10.64</f-text>
+  <f-text position="0 -1.5">11</f-text>
+  <f-text position="0.9 0.4">P</f-text>
+</f-scene>
+</div>
+
+---
 
 
-<f-hr />
 
 
-(More content will be added)
 
 
+| padding: 5vmin
+| 1 2
+
+To be able to calculate the length of AP, we first have to calculate angle B.
+
+<f-math>Tan \angle B = \frac {8.90}{5.5} = 1.62</f-math> so
+<f-math>\angle B = 58.90 \degree</f-math> so
+<f-math>AP = 11 \times sin(58.29\degree) = 9.36</f-math>
+
+-
+
+<div style="position:sticky; top:0;">
+<f-scene responsive >
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+          markerWidth="5" markerHeight="5"
+          orient="auto-start-reverse" fill="lightgray" >
+        <path d="M 0 0 L 10 5 L 0 10 z" />
+  </marker>
+  .helpline {stroke:var(--gray)}
+  </defs>
+
+  <triangle points="0 1.5, -1.5 -1, 1.5 -1" :angleLabels="['T', 'A', 'B']" />
+
+  <polyline points="0,1.5 -1.5,-1" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)" style="transform: translate(-0.15px,0.15px)" />
+  <polyline points="0,1.5 1.5,-1" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)" style="transform: translate(0.15px,0.15px)" />
+  <polyline points="0,1.32 0,-0.9" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)"  />
+  <polyline points="-1.5,-1 1.5,-1" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)" style="transform: translate(0,-0.2px)" />
+  <f-text position="-1 0.5" rotation="55">10.64</f-text>
+  <f-text position="1 0.5" rotation="-55">10.64</f-text>
+  <f-text position="0 -1.5">11</f-text>
+  <f-text position="-0.1 0" rotation="90">8.90</f-text>
+
+</f-scene>
+</div>
+
+---
+
+
+
+
+
+| padding: 5vmin
+
+~The triangle **APC** is the triangle where you can calculate the angle between the planes; that is angle **P**.~
+
+~AC is the diagonal of the base **ABCD** (calculate with the Pythagorean theorem)~
+
+-
+
+<!-- <f-slider set="rot" /> -->
+
+<div style="position:sticky; top:0 ">
+<f-scene3 responsive isometric static :key="get('rot')" >
+  <f-group3 :rotation="[0, 20, 0]" scale="1.6" position="0 -1 0" >
+    <f-hedron3 
+      :count="4" 
+      :height="1.2" 
+      :r="1.2"
+      :strokeWidth="0"
+      opacity="0.3"
+      rotation="-70 0 0"
+      :fill="color('green')"
+      :shading="false"
+    />
+    <f-polygon3 
+      points="  1.2 0 0,    -1.2 0 0,    0 -0.6 0.6,   1.2 0 0  " :stroke="color('blue')"  strokeWidth="3" fill rotation="-70 0 0" opacity="0.95" />
+  </f-group3>
+</f-scene3>
+<f-scene responsive style="position:absolute; top:0; left:0; width:100%; height:auto;">
+  <!-- <f-text position="0.25 1">T</f-text> -->
+  <f-group>
+    <f-text position="-1.9 -1.25">A</f-text>
+    <f-text position="0.65 -1.92" :fill="color('gray')">B</f-text>
+    <f-text position="1.9 -1.2">C</f-text>
+    <f-text position="-0.55 -0.25" :fill="color('lightergray')">D</f-text>
+  </f-group>
+  <f-group>
+    <f-text position="0.5 -0.3">P</f-text>
+    <!-- <f-text position="1.1 -1.55">M</f-text> -->
+  </f-group>
+</f-scene>
+
+</div>
+
+---
+
+
+
+
+| padding: 5vmin
+
+~**AS** is half of **AC** because triangle **APC** is isosceles.~
+
+<f-math>sin(\angle P^1) = \frac{7.78}{9.36} = 0.83</f-math> so
+<f-math>\angle P^1 = 56.22\degree</f-math> so
+<f-math>\angle P = 112.44\degree</f-math>
+
+-
+
+<f-scene responsive >
+  <defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+          markerWidth="5" markerHeight="5"
+          orient="auto-start-reverse" fill="lightgray" >
+        <path d="M 0 0 L 10 5 L 0 10 z" />
+  </marker>
+  .helpline {stroke:var(--gray)}
+  </defs>
+
+  <triangle points="0 0.75, -1.6 -0.5, 1.6 -0.5" :angleLabels="['P', 'A', 'C']" />
+  <f-line points="0 0.75, 0 -0.5" strokeWidth="1" />
+
+  <polyline points="0,0.75 -1.6,-0.5" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)" style="transform: translate(-0.15px,0.15px)" />
+  <f-text position="-1.1 0.4" rotation="35">9.36</f-text>
+  <f-text position="0 -0.73">S</f-text>
+  <f-text position="0 -1.4">15.56</f-text>
+  <polyline points="-1.6,-1.5 1.6,-1.5" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+  <f-text position="-0.75 -0.9">7.78</f-text>
+  <polyline points="-1.6,-1 0,-1" fill="none" stroke="lightgray" stroke-width="0.02" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+
+</f-scene>
 
