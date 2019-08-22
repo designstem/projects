@@ -121,17 +121,11 @@ Nature has always evolved the best packaging for its products.
 
 Bring/take a milk or juice carton (square shape). 
 
-#### 1.
+##### 1. Cut off the top of the carton and fill it with rice until it is full.
 
-Cut off the top of the carton and fill it with rice until it is full.
+##### 2. Weight the rice on a scale without the carton.
 
-#### 2.
-
-Weight the rice on a scale without the carton.
-
-#### 3.
-
-Take note of the weight.
+##### 3. Take note of the weight.
 
 -
 
@@ -149,8 +143,9 @@ Take note of the weight.
 
 ***KJ: Title?***
 
-4. Cut off also the bottom of the carton and cut along one of the sides.
-5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
+##### 4. Cut off also the bottom of the carton and cut along one of the sides.
+
+##### 5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
 
 <table>
   <tbody>
