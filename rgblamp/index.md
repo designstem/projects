@@ -1,82 +1,71 @@
-| theme: dark
-| background: ./images/cubes.jpg
-| tint: 0.1
-| 1
-| 2
+| chapter: Introduction
+| section: Start
 | rows: 1fr auto
+| padding: 0
 
-# <big>Let there be light</big>
+<section><section>
 
-<big>Make your RGB lamp for /.../</big>
+# <big>Let there be light.<br>RGB light</big>
 
--
+***TODO: Rewrite*** RBG Lamp scenario can be used to learn about RGB color model and and to improve the sense of initiative and entrepreneurship (a key competence of European Union) of students.
 
-<f-next-button title="Start" />
-
----
-
-| section: index
-
-***KJ: Lets rewrite title***
-
-# Design, Engineering and Make your own rgb lamp!
-
-***KJ: Add summary?***
 
 <f-inline>
-  <a class="primary" @click="goto('step0')">Let's get started: Design process</a>
-  <a class="secondary" href="../rgblamp_vision/index.html">E-tools</a>
+  <f-next-button title="Start building RGB light" />
+  <a class="secondary" href="../rgblamp_vision/index.html">Explore interactive tools</a>
 </f-inline>
-<br>
 
-<mark style="background:red; color: white">Task</mark> suggest you to perform some tasks.
-
-<mark style="background:green; color: white">Play</mark> suggest you to play with e-tools.
-
-<mark style="background:blue; color: white">Think</mark> suggest you to think about something.
-
-***KJ: Moved buying links to notes***
-
-<f-notes>
-
-## Buy an RGB Lamp
-
-* RGB Lamp <a href="https://www.amazon.it/s?k=rgb+lamp&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss">(amazon.it)</a>
-* RGB Lamp controlled by an app <a href="https://www.amazon.it/s?k=rgb+lamp+apps&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss">(amazon.it)</a>
-* RGB for Arduino <a href="https://www.amazon.it/s?k=rgb+arduino&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_2">(amazon.it)</a>
-
-
-</f-notes>
+</section></section>
 
 -
 
-## Roadmap
-
-1. <a @click="goto('step1')">Research</a>
-2. **2** <a @click="goto('step2')">Design</a>
-3. <a @click="goto('step3')">Detailed design</a>
-4. <a @click="goto('step4')">Engineering</a> (optional)
-5. <a @click="goto('step5')">Making</a> (optional)
-6. <a @click="goto('step6')">Communication</a>
-7. <a @click="goto('step7')">Self-Assessment</a>
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/2/21/3_color_LEDs.jpg" />
 
 ---
 
-| section: step0
+| section: Engineering design process
+| 1 1 1 1 1 1 1
+| 2 3 4 5 6 7 8
+| rows: auto 1fr
+| gap: 50px 15px
 
-# Design Process
+## Engineering design process
 
-The engineering design process is a series of steps that engineers follow to come up with a solution to a problem. Many times the solution involves designing a product (like a machine or computer code) that meets certain criteria and/or accomplishes a certain task...
-
-<a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
-Read more (www.sciencebuddies.org)</a>
-
-<p />
-
-<a class="primary" @click="goto('step1')">Go to Research step</a>
+The engineering design process is a series of steps that engineers follow to come up with a solution to a problem. Many times the solution involves designing a product (like a machine or computer code) that meets certain criteria and/or accomplishes a certain task. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</f-link>
 
 -
 
-<img src="./images/method.png" style="width:95%; max-height:90%"/>
+<f-card title="Problem definition" color="var(--darkgray)">
+</f-card>
 
+-
 
+<f-card title="Research" color="var(--darkgray)">
+</f-card>
+
+-
+
+<f-card title="Design" color="var(--darkgray)">
+</f-card>
+
+-
+
+<f-card title="Detailed design" color="var(--darkgray)">
+</f-card>
+
+-
+
+<f-card title="Engineering" color="var(--darkgray)" style="opacity: 0.5">
+  Optional
+</f-card>
+
+-
+
+<f-card title="Prototyping" color="var(--darkgray)" style="opacity: 0.5">
+  Optional
+</f-card>
+
+-
+
+<f-card title="Communication" color="var(--darkgray)">
+</f-card>

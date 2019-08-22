@@ -3,7 +3,7 @@
 
 ### 3. Detailed Design
 
-# Where are we?
+## Where are we?
 
 <big>Choose the Best Solution:</big> Look at whether each possible solution meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements.
 
@@ -25,7 +25,7 @@ read more (www.sciencebuddies.org)</a>
 
 ### 3. Detailed Design
 
-# How is color produced in devices?
+## How is color produced in devices?
 
 ***KJ: Long and boring***
 
@@ -53,7 +53,7 @@ The name of the model comes from the initials of the three additive primary colo
 
 ### 3. Detailed Design
 
-# How many bits are needed to represent your bit depth?
+## How many bits are needed to represent your bit depth?
 
 Bits|Colors|Description
 ---|---|---
@@ -85,7 +85,7 @@ Bits|Colors|Description
 
 ### 3. Detailed Design
 
-# RGB Colors
+## RGB Colors
 
 <mark style="background:blue; color: white">Think</mark> how are red, green and blue lights added together in various ways to reproduce a broad array of colors?
 
@@ -104,7 +104,7 @@ Bits|Colors|Description
 
 ### 3. Detailed Design
 
-#   Dynamic RGB Colors 
+##   Dynamic RGB Colors 
 <mark style="background:blue; color: white">Think</mark> how you can describe the changing of the lamp colors?
 
 <mark style="background:green; color: white">Play</mark> with <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/dynamic-mixing/index.html">Dynamic RBG Color Mixing</a>
@@ -122,7 +122,7 @@ Bits|Colors|Description
 
 ### 3. Detailed Design
 
-# Assignment: Engineering your own RGB Lamp
+## Assignment: Engineering your own RGB Lamp
 
 Grab a piece of paper and write a high-level description of how the values of the three different channels (red, green, blue) will react to the input from the environment.
 
@@ -149,7 +149,7 @@ Grab a piece of paper and write a high-level description of how the values of th
 
 ### 3. Detailed Design
 
-#  Assignment: Engineering your own RGB Lamp
+##  Assignment: Engineering your own RGB Lamp
 
 ***KJ: Feels incomplete***
 

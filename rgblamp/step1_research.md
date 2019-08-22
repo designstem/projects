@@ -1,87 +1,28 @@
-| section: step1
-| 1 1 1 2 2
+| chapter: Research
+| section: Introduction
+| 1 1
+| 2 3
+| rows: auto 1fr
 
-### 1. Research
+# Research
 
-# Where are we?
+-
 
-### Define the Problem
+### 1. Define the Problem
 
 The engineering design process starts when you ask the following questions about problems that you observe:
-<ul>
-<li>What is the need?</li>
-<li>Who has the need?</li>
-<li>Why is it important to satisfy the need?</li>
-</ul>
 
-### Do Background Research
-
-Learn from the experiences of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past.
-
-<a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
-read more (www.sciencebuddies.org)</a>
-<br/>
-<br/>
-<f-next-button title="Next" />
+* What is the need?
+* Who has the need?
+* Why is it important to satisfy the need?
 
 -
 
-<img src="./imgs/cap1_0.png" />
+### 2. Do Background Research
 
----
+Learn from the experiences of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
+Read more</f-link>
 
-| 1 2 2
-
-***KJ: Do not see the need for this page***
-
-### 1. Research
-
-## Real-life design object
-
-Design covers:
-
-* graphic design (colour models, psychology, function)
-* multimedia design (interaction, UI, functional perspective)
-* decorator-stylist craft (colour exploration, decorative, functional aspect)
-* furniture design (functional, decorative aspect)
-* interior design (decorative, psychological aspect)
-
-
-<f-next-button />
-
--
-
-<p>The <a style="float=top" href="https://www2.meethue.com/en-in">Philips Hue</a> Buld.</p>
-
-<img src="./images/philips_hue.jpg" style="width:95%; max-height:90%"/>
-
-
----
-
-| 1 2 2
-
-### 1. Research
-
-## Real-life design object
-
-***KJ: Why introduce design where when page is about case study of the design object?***
-
-Design covers:
-
-* graphic design (colour models, psychology, function)
-* multimedia design (interaction, UI, functional perspective)
-* decorator-stylist craft (colour exploration, decorative, functional aspect)
-* furniture design (functional, decorative aspect)
-* interior design (decorative, psychological aspect)
-
-
-<f-next-button />
-
--
-
-<img src="./images/philips_hue_b.jpg" style="width:95%; max-height:90%"/>
-
-A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a> bulb.
 
 ---
 
@@ -139,7 +80,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 #### Different functions of colored light
 
-# Light and information or communication
+## Light and information or communication
 
 
 <mark style="background:blue; color: white">Think</mark> about an incident you relied on a light which had a communicative function. 
@@ -168,7 +109,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 #### Different functions of colored light
 
-# Light and health
+## Light and health
 
 ~**Biodynamic lighting** is an artificial light source that replicates the dynamic variations of daylight and sunlight through a light management system.~
 
@@ -192,7 +133,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 #### Different functions of colored light
 
-# Light and health
+## Light and health
 
 ~Flying west is less tiring than flying east. This airplane shows blueish light to keep you more awake in order to abate your jetlag.~
 
@@ -228,32 +169,27 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 ---
 
-### 1. Research
+| padding: 0
 
-#### Different functions of colored light
+<section><section>
 
-# Light and health
+## Light and health
 
-~Light is one of the most important factors in healthy plant growth. Plants, unlike humans, can make their own food through a process called photosynthesis.~
+Light is one of the most important factors in healthy plant growth. Plants, unlike humans, can make their own food through a process called photosynthesis.~
 
-~The correct color of light, along with water and nutrient soil, will provide a plant with the sustenance of life.~
+The correct color of light, along with water and nutrient soil, will provide a plant with the sustenance of life.
 
 ### Plants prefer blue and red light
 
-~These two color qualities have the greatest influence on how a plant grows. Blue lights' responsibility is to promote leaf and vegetable growth, while red, when combined with blue, will make a plant flower.~
+These two color qualities have the greatest influence on how a plant grows. Blue lights' responsibility is to promote leaf and vegetable growth, while red, when combined with blue, will make a plant flower.
 
 <f-next-button title="Next" />
 
+</section></section>
+
 -
 
-<img src="./imgs/cap1_5.png" style="width:95%; max-height:90%"/>
-
-<p />
-
-***KJ: Could we use the images from Rotterdam museum we took there?***
-
-<a href="https://www.jestpic.com/u/dunyahalleri/">dunyahalleri</a>
-
+<img src="https://lh3.googleusercontent.com/gI8i5iiMbxRrk3-l2azsUEPK4DHTrathZ3rOwhmAg1yUbc970ideKwrwmL8Y-Nn7Yr7yTJIi24Tz5XLeqCHM5aluL-GqMtMH6H9XOR2RpivX90jcGoQxgTyVwigVToOoI1zLO6g1q9s7WAW6pEhnSD2sgJ77HJcSUOPsQek-FLsr6KTUAEi8z3uaSYXPby5NwGVGDw33AYFcWzxmC3ic2ujgvw1DjdY0dmdhDgYjZdhWwJVamCXdaiZZ793G6xwCjA9iOpXP0y6hNcrhENLxB9L1y_3dZVLOlQ8tv3_KvqS4jJUqZFOk_V9oj6Rq_wEM2FNvt1oC3mT9_r-JQo37OyooRwpLFORZ3VZJUqV6LQ-fM9EQnSm-SVfofLUup4ub3m25iQ8p-SCuJFt0zXzEsgxVEUGVktK5Qtk3mniczB8WPkqCQvUrU15ekJdOBrie3N8yvErxEW_e7PdLdT2ceKQQZs3abvHSr6wj7kM0JvdijZLeGHZCiTQ6IBRfSB4CNM4A66nPWbEXTUAbIV3SSXDMw67TcAybjdfRiJaiFN8fJEaNlVaBNHrFso0-OyshdkMPJBQ7BbDgpV2-pxByt798oJOwME-QeLNw3UJNBuv9Bivoqvp0wvjqNx_4daSrLGVY_WHkpJ2Lbih8g7LuqmCFWHcDkXzxiGHfmrDFu3cMMEixDUJ6wxE8ca9jrz4mjsOVLwbSIYMu07Xf5PqYk7WILg=w1000-h1332-no" style="width:95%; max-height:90%"/>
 
 ---
 
@@ -261,7 +197,7 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 
 #### Different functions of colored light
 
-# Light and psychology
+## Light and psychology
 
 ~**Color psychology** is the study of hues as a determinant of human behavior. Color influences perceptions that are not obvious, such as the taste of food <a href="https://en.wikipedia.org/wiki/Color_psychology">Wikipedia</a>~
 

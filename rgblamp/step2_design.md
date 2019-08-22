@@ -1,9 +1,10 @@
-| section: step2
+|   
+| section: Introduction
 | 1 1 2
 
 ### 1. Design
 
-# Where are we?
+## Where are we?
 
 <big>Specify Requirements:</big> Design requirements state the important characteristics that your solution must meet to succeed. One of the best ways to identify the design requirements for your solution is to analyze the concrete example of a similar, existing product, noting each of its key features.
 
@@ -25,7 +26,7 @@ read more (www.sciencebuddies.org)</a>
 
 ### 1. Design
 
-# Assignment: Design your own RGB Lamp
+## Assignment: Design your own RGB Lamp
 
 Grab a piece of paper and design/sketch your own lamp.
 

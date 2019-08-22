@@ -3,7 +3,7 @@
 
 ### 4. Engineering
 
-# Where are we?
+## Where are we?
 
 ### Develop the Solution
 
@@ -30,7 +30,7 @@ read more (www.sciencebuddies.org)</a>
 
 ### 4. Engineering
 
-# Assignment: Engineering your own RGB Lamp
+## Assignment: Engineering your own RGB Lamp
 
 Create a spreadsheet  and make a detailed description of how the values of the three different channels (red, green, blue) will react to the input from the environment.
 
