@@ -10,7 +10,7 @@
 
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
   
-  # Color contrast and harmony
+  ## Color contrast and harmony
 
   ~A single color has an emotional and physical effect, but placing it in context with other colors can alter this effect.~
   
@@ -53,7 +53,7 @@
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
   
   <!-- ##### EXPLAIN -->
-  # Color contrast and harmony
+  ## Color contrast and harmony
 
 &nbsp;
 
@@ -93,7 +93,7 @@
 
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
-# Color contrast and harmony
+## Color contrast and harmony
 
 &nbsp;
 
@@ -136,7 +136,7 @@
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Color contrast and harmony
-# Itten's contrasts
+## Itten's contrasts
 
 &nbsp;
 
@@ -203,7 +203,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# <f-activity-icon size="large" /> Find the contrasts 1
+## <f-activity-icon size="large" /> Find the contrasts 1
 
 <!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
@@ -251,7 +251,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# <f-activity-icon size="large" /> Find the contrasts 2
+## <f-activity-icon size="large" /> Find the contrasts 2
 
 -
 
@@ -296,7 +296,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# <f-activity-icon size="large" /> Find the contrasts 3
+## <f-activity-icon size="large" /> Find the contrasts 3
 
 -
 
@@ -345,7 +345,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Complementary palette
+## Complementary palette
 
 -
 
@@ -382,7 +382,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Split complementary palette
+## Split complementary palette
 
 -
 
@@ -418,7 +418,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Double complementary and triadic palettes
+## Double complementary and triadic palettes
 
 -
 
@@ -462,7 +462,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Analoguous palette
+## Analoguous palette
 
 -
 
@@ -496,7 +496,7 @@
 
 <!-- ##### EXPLAIN  -->
 ##### Color contrast and harmony
-# Monochromatic palette
+## Monochromatic palette
 
 -
 
@@ -535,7 +535,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Color contrast and harmony
-# <f-activity-icon size="large" /> Your turn!
+## <f-activity-icon size="large" /> Your turn!
 
 -
 
@@ -619,7 +619,7 @@ If possible, discuss your results with someone else.~
 | 4 4 3
 
 ##### Color contrast and harmony
-# <f-activity-icon size="large" /> Create a palette
+## <f-activity-icon size="large" /> Create a palette
 
 
 
@@ -703,7 +703,7 @@ If possible, discuss your results with someone else.~
 
 
 ##### Color contrast and harmony
-# <f-activity-icon size="large" /> CVD compatible palette
+## <f-activity-icon size="large" /> CVD compatible palette
 
 -
 
@@ -789,6 +789,10 @@ If possible, discuss your results with someone else.~
 
 
 
+
+
+
+
 ---
 
 | id: cb-contrasts
@@ -801,7 +805,7 @@ If possible, discuss your results with someone else.~
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Color contrast and harmony
-# Contrasts for Colorblind
+## Contrasts for Colorblind
 
 &nbsp;
 
@@ -850,7 +854,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Color palettes
-# <f-fact-icon size="large" /> Tips!
+## <f-fact-icon size="large" /> Tips!
 
 &nbsp;
 
@@ -938,7 +942,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Learning Station Summary
-# What next?
+## What next?
 
 &nbsp;
 
