@@ -1,3 +1,3 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-fachwerk({ style: { '--accent': 'var(--orange)', '--purple': 'var(--orange)', '--darkpurple': 'var(--red)' }})
+fachwerk({ style: { '--accent': 'var(--darkblue)', '--purple': 'var(--darkblue)', '--darkpurple': 'var(--darkblue)' }})
