@@ -30,7 +30,7 @@ The name of the model comes from the initials of the three additive primary colo
 
 <center>
 <f-scene>
-  <f-group scale="1.3">
+  <f-group scale="1.3" rotation="-180">
   <f-circle
     v-for="(c,i) in polarpoints(3,0.5)"
     :key="i"
@@ -46,11 +46,9 @@ The name of the model comes from the initials of the three additive primary colo
 
 ---
 
-***KJ: I need a grappa***
-
-### 3. Detailed Design
-
 ## How many bits are needed to represent your bit depth?
+
+***TODO: Add tool***
 
 Bits|Colors|Description
 ---|---|---
@@ -58,62 +56,43 @@ Bits|Colors|Description
 `4`|16|Many early games were presented in this color palette
 `8  `|256|8bit images are commonly used in games to save on memory for textures and sprites
 
-<mark style="background:green; color: white">Play</mark> with <a class="tertiary" href="https://designstem.github.io/scenarios/colorbits/">Bits and Colors</a>
-
-
-<f-next-button title="Next" />
-
--
-
-<p>
-<a href="https://it.m.wikipedia.org/wiki/File:Rgb-raster-image.svg">wikipedia</a>
-</p>
-
-<img src="./imgs/cap3_3a.png" style="width:95%; max-height:40%;"/>
-
-<p>
-<a href="https://docs.krita.org/en/general_concepts/colors/bit_depth.html">bit_depth</a>
-</p>
-
-<img src="./imgs/cap3_3b.png" style="width:95%; max-height:40%;"/>
-
+<a class="tertiary" href="https://designstem.github.io/scenarios/colorbits/">Bits and Colors</a>
 
 ---
-
-### 3. Detailed Design
 
 ## RGB Colors
 
-<mark style="background:blue; color: white">Think</mark> how are red, green and blue lights added together in various ways to reproduce a broad array of colors?
+#### 🤔 Think
 
-<mark style="background:green; color: white">Play</mark> with <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/labs.html">RBG virtual lab</a> <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/mixing/index.html">RBG color mixing</a>
+How red, green and blue lights added together in various ways to reproduce a broad array of colors?
+
+#### 🎛️ Play
+
+Play with <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/labs.html">RBG virtual lab</a> and <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/mixing/index.html">RBG color mixing</a>
+
+#### 🤔 Think
+
+Which colours will you able to obtain?
 
 
-<mark style="background:blue; color: white">Think</mark> Which colours will you able to obtain?
-
-<f-next-button title="Next" />
-
--
-
-<img src="./imgs/cap3_4.png" style="width:95%; max-height:90%;"/>
 
 ---
 
-### 3. Detailed Design
-
 ##   Dynamic RGB Colors 
-<mark style="background:blue; color: white">Think</mark> how you can describe the changing of the lamp colors?
 
-<mark style="background:green; color: white">Play</mark> with <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/dynamic-mixing/index.html">Dynamic RBG Color Mixing</a>
+#### 🤔 Think
 
-<mark style="background:blue; color: white">Think</mark> which sequence of colours are you able to obtain?
+How you can describe the changing of the lamp colors?
+
+#### 🎛️ Play
+
+Play with <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/dynamic-mixing/index.html">Dynamic RBG Color Mixing</a>
+
+#### 🤔 Think
+
+Think which sequence of colours are you able to obtain?
 
 <f-next-button title="Next" />
-
--
-
-<br/>
-<img src="./imgs/cap3_5.PNG" style="width:95%; max-height:90%;"/>
 
 ---
 

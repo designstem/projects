@@ -2,7 +2,7 @@ import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 fachwerk({
   theme: "dark",
-  style: { "--purple": "blue", "--accent": "red", "--darkestgray": "black", "--yellow": "yellow" },
+  style: { "--content-padding":"var(--base10) var(--base4) var(--base4 ) var(--base4)", "--purple": "blue", "--accent": "red", "--darkestgray": "black", "--yellow": "yellow" },
   src: [
     "./index.md",
     "./step1_research.md",

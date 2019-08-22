@@ -13,30 +13,29 @@ The design process involves multiple iterations and redesigns of your final solu
 
 ---
 
-## Assignment: Engineering your own RGB Lamp
+| 1 1
+| 2 3
+| rows: auto 1fr
 
-Create a spreadsheet  and make a detailed description of how the values of the three different channels (red, green, blue) will react to the input from the environment.
+<caption>Assignment</caption>
 
-***KJ: Lets work on wording here***
-
-### Suggestions
-
-* Build a relationship between environmental parameters and colors
-* How do you interpolate the missing values? (E.g. spline, keyframes)
-
-<f-inline>
-<a class="primary" @click="goto('step5')">Go to Making step</a>
-or <a class="secondary" @click="goto('step6')">Go to Communication step</a>
-
+## Engineering your own RGB Lamp
 
 -
 
-<img src="./imgs/cap4_2.png" style="width:95%; max-height:90%;"/>
+Create a spreadsheet  and make a detailed description of how the values of the three different channels (red, green, blue) will react to the input from the environment.
 
-<p />
+#### Key questions
 
-***KJ:***
+* What is the relationship between environmental parameters and colors?
+* How do you interpolate the missing values? (E.g. spline, keyframes)
 
-We|Can|Do
----|---|---
-Actual|Tables|Here :)
+***TODO: Skip to communicaiton***
+
+-
+
+Outside temperature|Color|Red|Green|Blue
+---|---|---|---|---
+Cold|Blue|`0`|`10`|`200`
+Warm|Yellow|`200`|`200`|`0`
+Hot|Red|200|`0`|`10`

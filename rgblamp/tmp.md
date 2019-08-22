@@ -155,3 +155,36 @@ A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a>
 <img src="./imgs/cap1_4.png" style="width:95%; max-height:90%"/>
 
 <a href="https://www.verywellhealth.com/bright-light-therapy-and-its-use-in-alzheimers-disease-98668">verywellhealth</a>
+
+---
+
+***KJ: I need a grappa***
+
+### 3. Detailed Design
+
+## How many bits are needed to represent your bit depth?
+
+Bits|Colors|Description
+---|---|---
+`1`|2|Only two colors in total, usually black and white
+`4`|16|Many early games were presented in this color palette
+`8  `|256|8bit images are commonly used in games to save on memory for textures and sprites
+
+<a class="tertiary" href="https://designstem.github.io/scenarios/colorbits/">Bits and Colors</a>
+
+
+<f-next-button title="Next" />
+
+-
+
+<p>
+<a href="https://it.m.wikipedia.org/wiki/File:Rgb-raster-image.svg">wikipedia</a>
+</p>
+
+<img src="./imgs/cap3_3a.png" style="width:95%; max-height:40%;"/>
+
+<p>
+<a href="https://docs.krita.org/en/general_concepts/colors/bit_depth.html">bit_depth</a>
+</p>
+
+<img src="./imgs/cap3_3b.png" style="width:95%; max-height:40%;"/>
