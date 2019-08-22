@@ -25,26 +25,11 @@ read more (www.sciencebuddies.org)</a>
 
 # Marketing
 
-(def.) The activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.
-
-***KJ: Bored with boring definitions***
-
-<f-next-button />
+***TODO: Rewrite*** The activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.
 
 -
 
-***KJ: Can we acually show how Hue marketing looks like in web?***
-
-<p>
-<a style="float=top" href="https://www2.meethue.com/en-in">Philips Hue</a>
-<ul>
-<li>Turn on your peace of mind</li>
-<li>Turn on your moments</li>
-<li>Turn on your imagination</li>
-</ul>
-</p>
-
-<img src="./imgs/cap6_2.jpg" style="width:95%; max-height:80%;"/>
+<f-video src="https://www.youtube.com/watch?v=7TOsFqqJgj4" />
 
 ---
 

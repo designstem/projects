@@ -135,3 +135,23 @@ Design covers:
 <img src="./images/philips_hue_b.jpg" style="width:95%; max-height:90%"/>
 
 A room illuminated by a <a href="https://www2.meethue.com/en-in">Philips Hue</a> bulb.
+
+
+---
+
+
+### 1. Research
+
+#### Different functions of colored light
+
+## Light and health
+
+~Flying west is less tiring than flying east. This airplane shows blueish light to keep you more awake in order to abate your jetlag.~
+
+<f-next-button />
+
+-
+
+<img src="./imgs/cap1_4.png" style="width:95%; max-height:90%"/>
+
+<a href="https://www.verywellhealth.com/bright-light-therapy-and-its-use-in-alzheimers-disease-98668">verywellhealth</a>
