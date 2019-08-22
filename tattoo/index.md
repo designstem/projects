@@ -404,11 +404,13 @@ What is better in your design, what could still be improved?
 
 Tattoos have always had strong symbolic meaning - **cultural**, to convey some message about the bearer to other members of society - and / or **personal**, to mean something to the bearer herself.
 
-What meaning or function whould your **smart tattoo** have? Would it be personal, functional or cultural? Does it have to be understood by everyone, at a glance? Or could it be secret and personal, only understood by the bearer?
+What meaning or function would your **smart tattoo** have? Would it be personal, functional or cultural? Does it have to be understood by everyone, at a glance? Or could it be secret and personal, only understood by the bearer?
 
 Tattoos become blurry over time and lose their sharpness. Think about how you should design icons for tattoos to reduce these effects?
 
 -
+
+**_ERIK: photo / illustration pls_**
 
 ---
 
@@ -423,7 +425,7 @@ Write down the condition to a piece of paper.
 
 -
 
-# 🧫
+**_ERIK: photo / illustration pls_**
 
 ---
 
@@ -443,7 +445,7 @@ Sketch out the appearance of the smart tattoo, considering
 
 -
 
-# 🧫
+**_ERIK: photo / illustration pls_**
 
 ---
 
@@ -453,6 +455,8 @@ Now it is time to look how your tattoo would look like.
 Test your design in smart tattoo simulator to explore further connections. Write these down as well.
 
 -
+
+**_ERIK: photo maybe_**
 
 ---
 
@@ -468,6 +472,8 @@ With the assistance of your paper share your ideas about your design and smart t
 
 -
 
+**_ERIK: photo maybe_**
+
 ---
 
 ## Continue
@@ -475,5 +481,7 @@ With the assistance of your paper share your ideas about your design and smart t
 The learning never stops. For example, you can next learn about:
 chemistry of inks by conducting experiments
 Tattoo permanence model by conducting biological experiments
+
+**_RICHARDS PRACTICAL MATERIAL WHERE?_**
 
 -
