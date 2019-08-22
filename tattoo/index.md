@@ -383,15 +383,15 @@ What is better in your design, what could still be improved?
 
 -
 
-<f-value :value="['../../tattoo_icons/images/beverages_icons_missing.png', '../../tattoo_icons/images/beverages_icons.png']" set="bevs" />
+<f-value :value="['./images/beverages_icons_missing.png', './images/beverages_icons.png']" set="bevs" />
 <img :src="get('bevs', [])[get('bevs_index')]" />
 <f-toggle title="Show the cup of tea" set="bevs_index" />
 
-<f-value :value="['../../tattoo_icons/images/candy_icons_missing.png', '../../tattoo_icons/images/candy_icons.png']" set="candy" />
+<f-value :value="['./images/candy_icons_missing.png', './images/candy_icons.png']" set="candy" />
 <img :src="get('candy', [])[get('candy_index')]" />
 <f-toggle title="Show the bag of popcorn" set="candy_index" />
 
-<f-value :value="['../../tattoo_icons/images/fastfood_icons_missing.png', '../../tattoo_icons/images/fastfood_icons.png']" set="food" />
+<f-value :value="['./images/fastfood_icons_missing.png', './images/fastfood_icons.png']" set="food" />
 <img :src="get('food', [])[get('food_index')]" />
 <f-toggle title="Show the double cheeseburger" set="food_index" />
 
