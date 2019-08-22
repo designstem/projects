@@ -8,7 +8,7 @@
 
 
 <!-- ##### EXPLAIN  -->
-# The eye
+## The eye
 
 -
 
@@ -46,7 +46,7 @@
 <!-- ##### EXPLAIN  -->
 
 ##### The eye
-# Rods and cones
+## Rods and cones
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -106,7 +106,7 @@ https://en.wikipedia.org/wiki/Color_vision~
 | id: cb-color-vision-mapper
 
 ##### The eye
-# Mapping Rods and Cones Activity
+## Mapping Rods and Cones Activity
 
 Use this activity to map the rods and cones in your retina. Notice that when an object is first detected by rod cells located at the periphery of your retina, the object appears black. When the image is detected by cones cells located in the fovea the centre of your retina, the colour of the object becomes apparent.
 
@@ -143,7 +143,7 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 <!-- ##### EXPLAIN  -->
 
 ##### Color Vision Deficiency
-# Life of a colorblind
+## Life of a colorblind
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -183,7 +183,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 <!-- ##### EXPLAIN  -->
 
 ##### Color Vision Deficiency
-# Life of a colorblind
+## Life of a colorblind
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -222,7 +222,7 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 <!-- ##### EXPLAIN  -->
 
 ##### Color Vision Deficiency
-# Why are people colorblind?
+## Why are people colorblind?
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 

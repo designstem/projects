@@ -11,7 +11,7 @@
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Color mixing
-# Light and color
+## Light and color
 
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
@@ -55,7 +55,7 @@ Go outside or look out of your window before the sun comes up. Experience how yo
 
 <!-- ##### EXPLAIN  -->
 ##### Color mixing
-# Additive Color System
+## Additive Color System
 
 ~In the Additive Color System, **<span style="color:red;" v-on:mouseover="set('activeCol', 'red')">RED</span>**, **<span style="color:lime;" v-on:mouseover="set('activeCol', 'lime')">GREEN</span>** and **<span style="color:hsl(230, 100%, 70%);" v-on:mouseover="set('activeCol', 'blue')">BLUE</span>** are the primary colors. When all three colors overlap, **WHITE** light is produced.~
 
@@ -126,7 +126,7 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 <section style="padding:var(--content-padding)">
 
 ##### Color mixing
-# Mix RGB Colors
+## Mix RGB Colors
 
 &nbsp;
 
@@ -168,7 +168,7 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 <!-- ##### EXPLAIN  -->
 ##### Color mixing
-# Mix RGB Colors
+## Mix RGB Colors
 
 ~**Now, check your assumptions by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example.**~
 

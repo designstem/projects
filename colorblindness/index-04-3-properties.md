@@ -9,7 +9,7 @@
 
 <section style="padding:var(--content-padding); padding-bottom:0;">
 
-# Three properties of color
+## Three properties of color
 
 ~When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:~
 
@@ -58,7 +58,7 @@
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
-# Color meaning (hue)
+## Color meaning (hue)
 
 ~All colors have a certain effect regarding their hue. Red is often associated with love, but also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.~
 
@@ -131,7 +131,7 @@ But what if we leave the hue unaltered and modify the other two properties, satu
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
-# Brightness
+## Brightness
 
 -
 
@@ -252,7 +252,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
-# Saturation
+## Saturation
 
 -
 
@@ -377,7 +377,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Three properties of color
-# <f-note-icon size="large" /> Conclusion
+## <f-note-icon size="large" /> Conclusion
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -435,7 +435,7 @@ Especially when we design for people with CVD, using brightness and saturation c
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Three properties of color
-# <f-activity-icon size="large" /> Apple shampoo
+## <f-activity-icon size="large" /> Apple shampoo
 
 
 ~You are asked to decide upon fitting **colors for shampoo bottles**. The three shampoos will smell like apple 🍏. But there are three different target groups - each one gets a shampoo bottle of their own. Choose a color which could be used as primary color for the following products:~
@@ -473,7 +473,7 @@ Especially when we design for people with CVD, using brightness and saturation c
 | 2 3 4
 | 5 5 6
 
-# <f-activity-icon size="large" /> Shampoo color designer
+## <f-activity-icon size="large" /> Shampoo color designer
 
 <!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
 

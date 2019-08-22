@@ -9,9 +9,13 @@
 | 2 
 
 
-<div style="padding-top:16vh; --base:16px;">
+<div style="padding-top:16vh;">
+
+<big>
 
 # Color Vision Deficiency<br />& Accessi&shy;bility
+
+</big>
 
 </div>
 
@@ -56,7 +60,7 @@ The students’ awareness should be raised for the problems people with color vi
 | 3 2
 
 
-# Pick one!
+## Pick one!
 
 <div v-if="get('revealX') < 75">
 
@@ -124,7 +128,7 @@ The students’ awareness should be raised for the problems people with color vi
 | 3 3
 
 
-# More than tomatoes
+## More than tomatoes
 
 <!-- <div v-if="get('revealX') < 75"> -->
 
@@ -172,7 +176,7 @@ The students’ awareness should be raised for the problems people with color vi
   <!-- <div> -->
   
   <!-- ##### EXPLORE -->
-  # <f-icon :icon="'Activity'" :size="'large'" /> Photo safari
+  ## <f-icon :icon="'Activity'" :size="'large'" /> Photo safari
 
   <p />
 
@@ -215,7 +219,7 @@ The students’ awareness should be raised for the problems people with color vi
 
 
 
-# Analyze images
+## Analyze images
 
 <p />
 
@@ -278,7 +282,7 @@ The students’ awareness should be raised for the problems people with color vi
 | 2 3
 | 4 4
 
-# Analyze results
+## Analyze results
 
 -
 
@@ -307,7 +311,7 @@ The students’ awareness should be raised for the problems people with color vi
 | 2 3
 | 4 4
 
-# Learning stations
+## Learning stations
 
 -
 
@@ -365,7 +369,7 @@ You can work through the stations in the given order which is recommended if you
 | 4 3
 
 
-# Accessibility
+## Accessibility
 
 -
 

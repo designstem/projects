@@ -5,7 +5,7 @@
 
 
 <!-- ##### Elaborate Overview  -->
-# Workshop
+## Workshop
 
 -
 
@@ -65,7 +65,7 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 | 4 3
 
 <!-- ##### Elaborate STEM students -->
-# Workshop STEM
+## Workshop STEM
 
 -
 
@@ -119,7 +119,7 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 
 <!-- ##### Elaborate DESIGN students -->
-# Workshop DESIGN
+## Workshop DESIGN
 
 -
 
@@ -184,7 +184,7 @@ EVALUATE PHASE
 
 
 <!-- ##### Evaluate testing  -->
-# Test your design
+## Test your design
 
 <br />
 
@@ -265,7 +265,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 
 <!-- ##### Evaluate meta  -->
-# EVALUATE
+## EVALUATE
 
 <f-hr style="margin:var(--base6) 0" />
 
@@ -307,7 +307,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 
 <!-- ##### Evaluate meta  -->
-# EVALUATE | Design
+## EVALUATE | Design
 
 <f-hr style="margin:var(--base6) 0" />
 
@@ -351,7 +351,7 @@ https://www.vitsoe.com/gb/about/good-design
 
 
 <!-- ##### Evaluate meta  -->
-# EVALUATE | Biology
+## EVALUATE | Biology
 
 <f-hr style="margin:var(--base6) 0" />
 
