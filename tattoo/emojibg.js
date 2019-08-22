@@ -1,7 +1,6 @@
-import { Css, utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { utils } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 export default {
-  mixins: [Css],
   methods: {
     ...utils
   },
@@ -31,6 +30,5 @@ export default {
 </f-scene>
 </f-fetch>
 </div>
-  `,
-  css: ``
+  `
 };
