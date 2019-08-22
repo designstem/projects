@@ -2,6 +2,8 @@
 | section: Light and color
 | id: cb-color-mixing
 | theme: light
+| padding: 0
+| gap: 0
 | rows: auto
 | 1 2
 
