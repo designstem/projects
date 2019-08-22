@@ -1,17 +1,12 @@
-| background: ./images/bee.jpg
-| theme: dark
-| 1 3
-| 2 3
-
-# Of Bees and Packages
+# <big>Of Bees and Packages</big>
 
 How to optimize packaging, reduce loss of space and avoid material waste
 
-***ERIK: Image source and rights?***
+<f-next-button title="Start" />
 
 -
 
-<f-next-button title="Start" />
+<img src="https://etc.usf.edu/clipart/6800/6853/honey-bee_6853_md.gif" />
 
 <f-notes style="--primary: var(--darkgray)" >
 
@@ -21,43 +16,23 @@ How to optimize packaging, reduce loss of space and avoid material waste
 
 * To learn about concepts in geometry and maths
 
+Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
+
 </f-notes>
 
 ---
 
-| 1 1 1
-| 3 4 2 
-| 5 5 5
-| rows: auto auto 1fr
-
-## Learn about history of human made packages
-
-<!---***KJ: Unify the wording of steps 1 and 2 below***-->
+<img src="https://etc.usf.edu/clipart/64900/64993/64993_dollcase_md.gif" />
 
 -
 
-<f-image src="https://cdn.pixabay.com/photo/2012/04/13/10/58/paint-31831_960_720.png" />
+## History of human made packages
 
-<!---***KJ: Image source and rights? Try [this](https://etc.usf.edu/clipart/64900/64993/64993_dollcase.htm) for historical images***-->
+1. Packages evolution is strongly related to human history. Watch the video overview.
 
+  <f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
 
--
-
-<span class="bullet">1</span>
-
-Packages evolution is strongly related to human history:
-
-<f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
--
-<span class="bullet">2</span>
-
-***Task***
-
-Look for packages around you and find differences between them
-</f-card>
--
-
-<f-next-button />
+2. Look for packages around you and find differences between them
 
 ---
 
@@ -75,13 +50,12 @@ Here is a X-Ray of a cereal package, showing the amount of product in relation t
 2. What do you think and feel about it? Would you want to change it? Why and how?
 
 
-<f-next-button />
-
 -
 
 <img src="https://www.vzhh.de/sites/default/files/styles/crop_default/public/medien/167/bilder/Bensdorp_Kakao_final.png?itok=3xMh-LGX" />
 
-<!---***KJ: Image source and rights?***-->
+-***ERIK: Can we use this image?***
+The source is from https://www.vzhh.de/themen/mogelpackungen/luftpackungen/mogelpackungen-jede-menge-luft-nach-oben and has "© Verbraucherzentrale Hamburg (vzhh)"***
 
 ---
 
@@ -113,17 +87,12 @@ Sometime the package is part of the value
 
 <img src="https://c.pxhere.com/photos/77/00/cosmetics_advertising_perfumes_perfume_studio_the_practice_of_acuteness_detail-1084407.jpg!d" />
 
--
-
-<f-next-button />
 
 ---
 
 ## Ethic packaging
 
  **All the times**, reducing packaging is an ethic mission! 
-
-<f-next-button />
 
 -
 
@@ -137,10 +106,9 @@ Nature has always evolved the best packaging for its products.
 
 **How can we optimize packaging?** 
 
-<f-next-button />
 -
 
-<img src="https://svgsilh.com/svg/32532.svg" />
+<img src="https://etc.usf.edu/clipart/84800/84862/84862_lime_quat_md.gif" />
 
 ---
 
@@ -149,17 +117,19 @@ Nature has always evolved the best packaging for its products.
 
 ## Explore
 
-<!---***KJ: Title?***-->
+***KJ: Title?***
 
- Bring/take a milk or juice carton (square shape). 
+Bring/take a milk or juice carton (square shape). 
 
-1. Cut off the top of the carton and fill it with rice until it is full.
-2. Weight the rice on a scale without the carton.
-3. Take note of the weight.
+##### 1. Cut off the top of the carton and fill it with rice until it is full.
+
+##### 2. Weight the rice on a scale without the carton.
+
+##### 3. Take note of the weight.
 
 -
 
-<f-image src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
+<img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
 
 -
 
@@ -171,10 +141,11 @@ Nature has always evolved the best packaging for its products.
 
 ## Explore
 
-<!---***KJ: Title?***-->
+***KJ: Title?***
 
-4. Cut off also the bottom of the carton and cut along one of the sides.
-5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
+##### 4. Cut off also the bottom of the carton and cut along one of the sides.
+
+##### 5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
 
 <table>
   <tbody>
@@ -238,7 +209,7 @@ Nature has always evolved the best packaging for its products.
 
 -
 
-<!--f-image src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" /-->
+<img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
 
 -
 
@@ -247,7 +218,7 @@ Nature has always evolved the best packaging for its products.
 | 1 2
 | 3 3
 
-<!---***KJ: Title?***-->
+-***KJ: Title?***
 
 1. Which shape optimize carton volume?
 
@@ -255,7 +226,7 @@ Nature has always evolved the best packaging for its products.
 
 -
 
-<f-image src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
+<img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
 
 -
 
@@ -269,11 +240,11 @@ Nature has always evolved the best packaging for its products.
 | 4 4 4 4
 | rows: auto 1fr 1fr auto
 
-# Drawing polygons with fixed perimeter
+## Drawing polygons with fixed perimeter
 
 -
 
-## Experiment how polygons area changes
+### Experiment how polygons area changes
 
 <span class="bullet">1</span> Start changing only the dimension of a square and a triangle with the same ***perimeter*** `p = {{ get('p') }}`
 <f-slider set="p" from="1" to="10"  >
@@ -339,7 +310,7 @@ You can always ***rotate*** the polygons with the parameter `r`
 
 #### Optional
 
-# Tools for understanding regular shapes
+## Tools for understanding regular shapes
 
 <f-next-button/>
 
@@ -347,13 +318,13 @@ You can always ***rotate*** the polygons with the parameter `r`
 
 1. Concept of regular polygons (particular attention to the hexagon) and their main characteristics:
 https://www.mathsisfun.com/geometry/interior-angles-polygons.html
-<br>
+
 2. Advanced concepts of regular polygons and measures:
 http://mathworld.wolfram.com/RegularPolygon.html
-<br>
+
 3. How to build a regular polygon:
 https://www.geogebra.org/m/WCFMxSce
-<br>
+
 4. Circumcircle of a polygon
 https://www.mathopenref.com/polygoncircumcircle.html
 
@@ -361,18 +332,17 @@ https://www.mathopenref.com/polygoncircumcircle.html
 
 | 1 1 2
 
-# Multiple packaging
+## Multiple packaging
 
-~Take a lemon or an orange. Think about its parts and its packaging subdivision.~
+Take a lemon or an orange. Think about its parts and its packaging subdivision.
 
-~Sometimes natural packagings do not optimize the amount per se, but they maximize the **outer container utilization**.~
+Sometimes natural packagings do not optimize the amount per se, but they maximize the **outer container utilization**.
 
 <f-next-button/>
 
 -
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Citrus_Limonum._Lemon_Wellcome_M0005888.jpg/681px-Citrus_Limonum._Lemon_Wellcome_M0005888.jpg" />
-
+<img src="https://etc.usf.edu/clipart/2200/2241/orange_1_md.gif" />
 
 ---
 
@@ -382,7 +352,7 @@ https://www.mathopenref.com/polygoncircumcircle.html
 | 4 4
 | rows: auto 1fr
 
-# If we have to store multiple packages?
+## If we have to store multiple packages?
 
 -
 
@@ -425,7 +395,7 @@ If there are multiple pieces of the product, they have to be stacked/stored with
 | 4 4 4
 | rows: auto 1fr
 
-# If we have to store multiple packages?
+## If we have to store multiple packages?
 
 -
 
@@ -493,13 +463,13 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 | 1 2
 | 3 3
 
-# Optimize the outer container
+## Optimize the outer container
 
 After this work, can you evaluate which is the optimal shape to store the maximum amount of rice with minimal cardboard material without loss of space in between the cartons?
 
 -
 
-<f-image src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
+<img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
 
 -
 
@@ -511,7 +481,7 @@ After this work, can you evaluate which is the optimal shape to store the maximu
 | 1 2
 | 3 3
 
-# Also animals package their goods
+## Also animals package their goods
 
 Find out how honeycombs are built and why bees choose hexagons and not other regular polygons. Watch the following video:
 
@@ -525,15 +495,10 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 
 ---
 
-| background: ./images/bee.jpg
-| theme: dark
-| tint: 0.5
 | 1 1
 | 2 2
 
-# Of Bees and Packages
-
-<!--***KJ: Backgrounds are cool but why now?***-->
+## Of Bees and Packages
 
 1. Verify that the hexagon has the maximum area (= bigger beehive cell) among the stackable polygons with same perimeter.
 
@@ -545,13 +510,11 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 
 ---
 
-| 1 2
-| 1 2
-| 1 2
-| 1 2
-| 3 3
+| padding: 0
 
-# Natural marketing in packaging 
+<section><section>
+
+## Natural marketing in packaging 
 
 Sometimes in nature the **packaging is part of the product**.
 
@@ -559,15 +522,17 @@ Sometimes in nature the **packaging is part of the product**.
 
 2. Do you know about a human made product having a package that is part of the product?  
 
--
-
-<img src="https://cdn.pixabay.com/photo/2012/04/13/14/02/apple-32524_1280.png" />
-
-<!--***KJ: Image source / copyright?***-->
+</section></section>
 
 -
 
-<f-next-button/>
+<img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pd20-040030-chim.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1600&s=c48b69e5dbf54bc2ab39026b09c62468" />
+
+<f-notes title="Credits">
+
+https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antique-book
+
+</f-notes>
 
 ---
 
@@ -575,7 +540,7 @@ Sometimes in nature the **packaging is part of the product**.
 | 2 2 3 4
 | rows: auto 1fr
 
-# Design object task 
+## Design object task 
 
 -
 

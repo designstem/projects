@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://designstem.github.io/fachwerk/fachwerk.css">
-  <script src="https://unpkg.com/aframe"></script>
-  <script src="https://unpkg.com/aframe-rounded"></script>
-  
-</head>
-<body>
-  <div id="fachwerk"></div>
-  <script src="index.js" type="module"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://designstem.github.io/fachwerk/fachwerk.css"
+    />
+    <script src="https://unpkg.com/aframe"></script>
+    <script src="https://unpkg.com/aframe-rounded"></script>
+    <style>
+      h5 {
+        font-weight: normal;
+        margin-top: var(--base3);
+      }
+      h5 .bullet {
+        font-weight: bold;
+        margin: calc(var(--base) * -0.25) var(--base) 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="fachwerk"></div>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
