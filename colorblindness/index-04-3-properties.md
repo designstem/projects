@@ -453,6 +453,8 @@ Especially when we design for people with CVD, using brightness and saturation c
 ~Let's find some nice colors for our shampoo bottles~:
 <f-next-button title="Shampoo color designer" />
 
+&nbsp;
+
 -
 
 <f-image src="./images/cvd_soap.jpg"  style="background-position:50% 50%; min-height: 90vh;" />
