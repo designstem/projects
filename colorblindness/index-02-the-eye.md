@@ -54,21 +54,21 @@
 
 1. ~Read through the text and find out about the difference between rods and cones.~
 
-<details>
-	<summary>Click here to see the text</summary>
-  
-~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
+    <details>
+      <summary>Click here to see the text</summary>
+      
+    ~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
 
-~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
+    ~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
 
-~**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.~
-~Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
+    ~**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.~
+    ~Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
 
-~**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.~
-~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
-~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
-~That’s why you can’t see colors in the dark.~
-</details>
+    ~**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.~
+    ~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
+    ~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
+    ~That’s why you can’t see colors in the dark.~
+    </details>
 
 2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
 https://en.wikipedia.org/wiki/Color_vision~
