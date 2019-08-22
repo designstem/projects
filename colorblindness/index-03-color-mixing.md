@@ -8,6 +8,7 @@
 | 1 2
 
 <!-- ##### EXPLAIN  -->
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Color mixing
 # Light and color
