@@ -301,10 +301,14 @@ Why do we use these particular things to mean something, can everyone understand
 ---
 
 | padding: 0
-| style: overflow: hidden
 | section: Glossary of signs
 
-<div style="padding: var(--content-padding);">
+<div style="
+  padding: var(--content-padding); 
+  background-color: var(--white);
+  border-radius: 0 0 1rem 0;
+  box-shadow: 0 0 10rem 10rem var(--white);
+">
 
 ## What are we talking about?
 
@@ -314,38 +318,19 @@ The study of how we describe meaning to something is called **semiotics**. The m
 
 -
 
-<div style=" position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;">
-    
-<f-fetch
-  src="https://unpkg.com/emoji.json/emoji-compact.json"
-  type="json"
-  v-slot="{ value }"
->
-<f-scene responsive>
-  <f-group rotation="-45" scale="1.2">
-    <f-brick-pattern cols="6" :rows="7" step="1">
-      <f-text :scale="2">{{ value[random(0, value.length)] }}</f-text>
-    </f-brick-pattern>
-    <f-brick-pattern position="1 1" cols="6" :rows="7" step="1">
-      <f-text :scale="2">{{ value[random(0, value.length)] }}</f-text>
-    </f-brick-pattern>
-    <f-brick-pattern position="0 0.5" cols="6" :rows="7" step="1">
-      <f-text :scale="2">{{ value[random(0, value.length)] }}</f-text>
-    </f-brick-pattern>
-    <f-brick-pattern position="0.5 0.5" cols="6" :rows="7" step="1">
-      <f-text :scale="2">{{ value[random(0, value.length)] }}</f-text>
-    </f-brick-pattern>
-  </f-group>
-</f-scene>
-</f-fetch>
-</div>
+<EmojiBg />
 
 ---
 
 | section: Context is key
+| padding: 0
+
+<div style="
+  padding: var(--content-padding); 
+  background-color: var(--white);
+  border-radius: 0 0 1rem 0;
+  box-shadow: 0 0 10rem 10rem var(--white);
+">
 
 ## Context is key
 
@@ -353,15 +338,23 @@ Symbols are always understood in some **context**. The symbol ☠️ could refer
 
 Symbols can also mean different things to different people. Symbols are **conventional**, which mean that they are agreed upon to mean something, and not everyone may know all of these agreements. A kid may link the ☠️ symbol to pirates of the Carribean, a doctor in a hospital to something else entirely.
 
+</div>
+
 -
 
-<div style="font-size: 128px; font-family: color-emoji; margin-left: var(--content-padding); width: 100%; height: 100%; position: relative; overflow: hidden">
-<div style="font-size: 3em; opacity: 1;  position: absolute; right: -0.5em"></div>
-</div>
+<EmojiBg />
 
 ---
 
 | section: Form & Style
+| padding: 0
+
+<div style="
+  padding: var(--content-padding); 
+  background-color: var(--white);
+  border-radius: 0 0 1rem 0;
+  box-shadow: 0 0 10rem 10rem var(--white);
+">
 
 ## Form or function?
 
@@ -369,7 +362,11 @@ The way a symbol is presented is also part of the context. Simple lines and bold
 
 If the functionality of the symbol is not that important, or the main function of the symbol is to be decorative, then there is more room to experiment with the form - or how the symbol looks like.
 
+</div>
+
 -
+
+<EmojiBg />
 
 ---
 
