@@ -451,7 +451,8 @@ Sketch out the appearance of the smart tattoo, considering
 
 Now it is time to look how your tattoo would look like.
 Test your design in smart tattoo simulator to explore further connections. Write these down as well.
-<f-next-button title="Go to the simulator" />
+
+-
 
 ---
 
@@ -465,6 +466,8 @@ Test your design in smart tattoo simulator to explore further connections. Write
 
 With the assistance of your paper share your ideas about your design and smart tattoos in general.
 
+-
+
 ---
 
 ## Continue
@@ -472,6 +475,5 @@ With the assistance of your paper share your ideas about your design and smart t
 The learning never stops. For example, you can next learn about:
 chemistry of inks by conducting experiments
 Tattoo permanence model by conducting biological experiments
-<- LINK TO RICHARDS PRACTICAL MATERIAL
 
----
+-
