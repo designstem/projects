@@ -147,13 +147,13 @@
 1. ~Find out about the definitions and examples of the following contrasts online.~
 2. ~Find out how these contrasts work and which effect they have.~
 
-##### 1. Contrast of hue
-##### 2. Light-dark contrast
-##### 3. Cold-warm contrast
-##### 4. Complementary contrast
-##### 5. Simultaneous contrast
-##### 6. Contrast of saturation
-##### 7. Contrast of extension
+##### * Contrast of hue
+##### * Light-dark contrast
+##### * Cold-warm contrast
+##### * Complementary contrast
+##### * Simultaneous contrast
+##### * Contrast of saturation
+##### * Contrast of extension
 
 <br> 
 
