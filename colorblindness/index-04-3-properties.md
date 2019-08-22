@@ -371,9 +371,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | padding: 0
 | gap: 0
 | rows: auto
-| 1 3
-| 2 3
-| 4 3
+| 1 2
 
 <!-- ##### EXPLAIN -->
 ##### Three properties of color
@@ -382,7 +380,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
--
+<br>
 #### So what did we learn?
 
 ~Summarize in your own words the effect 
@@ -405,13 +403,15 @@ b) saturated colors have in comparison to desatured colors.~
 Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
 </f-sidebar> 
 
+<br>
+
+<f-next-button title="Try out what you learned!" />
+
 -
 
 <f-image src="./images/color_blindness_accessibility_31.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
--
 
-<f-next-button title="Try out what you learned!" />
 
 ---
 
@@ -425,9 +425,7 @@ Especially when we design for people with CVD, using brightness and saturation c
 | padding: 0
 | gap: 0
 | rows: auto
-| 1 4 
-| 2 4 
-| 3 4
+| 1 2
  
 
 <!-- ##### EXPLAIN -->
@@ -437,7 +435,7 @@ Especially when we design for people with CVD, using brightness and saturation c
 ##### Three properties of color
 # <f-activity-icon size="large" /> Apple shampoo
 
--
+
 
 ~You are asked to decide upon fitting **colors for shampoo bottles**. The three shampoos will smell like apple 🍏. But there are three different target groups - each one gets a shampoo bottle of their own. Choose a color which could be used as primary color for the following products:~
 
@@ -449,7 +447,8 @@ Especially when we design for people with CVD, using brightness and saturation c
 
 ~Before you go to the next page, where you can design the color scheme, remember what you learned about color meaning and the effect saturation and brightness can have on a hue. Be ready to explain your choices in class.~ 
 
--
+<br>
+
 ~Let's find some nice colors for our shampoo bottles~:
 <f-next-button title="Shampoo color designer" />
 
@@ -458,7 +457,7 @@ Especially when we design for people with CVD, using brightness and saturation c
 <f-image src="./images/cvd_soap.jpg"  style="background-position:50% 50%; min-height: 90vh;" />
 
 
----
+
 
 
 
