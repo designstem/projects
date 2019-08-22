@@ -1,1 +1,0 @@
-## DesignSTEM Hexagons scenario
