@@ -368,6 +368,8 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | section: Conclusion
 | id: cb-conclusion
 | theme: light
+| padding: 0
+| gap: 0
 | rows: auto
 | 1 3
 | 2 3
@@ -377,6 +379,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 ##### Three properties of color
 # <f-note-icon size="large" /> Conclusion
 
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 -
@@ -419,6 +422,8 @@ Especially when we design for people with CVD, using brightness and saturation c
 
 | section: Shampoo designer
 | id: cb-shampoo
+| padding: 0
+| gap: 0
 | rows: auto
 | 1 4 
 | 2 4 
@@ -427,6 +432,8 @@ Especially when we design for people with CVD, using brightness and saturation c
 
 <!-- ##### EXPLAIN -->
 <!-- <f-activity-icon size="large" /> -->
+<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+
 ##### Three properties of color
 # <f-activity-icon size="large" /> Apple shampoo
 
