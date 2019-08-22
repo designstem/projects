@@ -420,55 +420,42 @@ Especially when we design for people with CVD, using brightness and saturation c
 | section: Shampoo designer
 | id: cb-shampoo
 | rows: auto
-| cols: 3fr 2fr 1fr
-| 1 1 1
-| 2 2 2
-| 3 4 4
-| 5 5 5
+| 1 4 
+| 2 4 
+| 3 4
+ 
 
 <!-- ##### EXPLAIN -->
 <!-- <f-activity-icon size="large" /> -->
-# <f-activity-icon size="large" /> Colors for shampoo bottles
+##### Three properties of color
+# <f-activity-icon size="large" /> Apple shampoo
 
 -
 
-~Now remember what you learned about how saturation and brightness can alter a color's effect.~
-
--
-
-#### TASK
-
-Choose a color which could be used as primary color for the following products:
+~You are asked to decide upon fitting **colors for shampoo bottles**. The three shampoos will smell like apple 🍏. But there are three different target groups - each one gets a shampoo bottle of their own. Choose a color which could be used as primary color for the following products:~
 
 1. ~Baby shampoo~ 
 2. ~Shampoo for men 60+~
 3. ~Unisex shampoo~
 
--
-
-<br>
 <br>
 
-👈
-
-~There is one condition: 
-**All three shampoos smell like apples.**
-Go to the next page to choose your colors. 
-Be ready to explain your choices.~ 
+~Before you go to the next page, where you can design the color scheme, remember what you learned about color meaning and the effect saturation and brightness can have on a hue. Be ready to explain your choices in class.~ 
 
 -
-
+~Let's find some nice colors for our shampoo bottles~:
 <f-next-button title="Shampoo color designer" />
 
 -
 
-
+<f-image src="./images/cvd_soap.jpg"  style="background-position:50% 50%; min-height: 90vh;" />
 
 
 ---
 
 
 
+---
 
 
 
