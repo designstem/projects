@@ -1,12 +1,8 @@
 | chapter: Research
 | section: Introduction
-| 1 1
-| 2 3
-| rows: auto 1fr
 
 # Research
 
--
 
 ### 1. Define the Problem
 
@@ -15,8 +11,6 @@ The engineering design process starts when you ask the following questions about
 * What is the need?
 * Who has the need?
 * Why is it important to satisfy the need?
-
--
 
 ### 2. Do Background Research
 

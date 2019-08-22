@@ -1,51 +1,48 @@
-| section: step3
-| 1 1 2
+| chapter: Detailed design 
+| section: Introduction
 
-### 3. Detailed Design
+# Detailed design
 
-## Where are we?
+### 1. Choose the Best Solution
 
-<big>Choose the Best Solution:</big> Look at whether each possible solution meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements.
+Look at whether each possible solution meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements.
 
-<big>Develop the Solution:</big> Development involves the refinement and improvement of a solution, and it continues throughout the design process, often even after a product ships to customers.
+### 2. Develop the Solution
 
-<a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
-read more (www.sciencebuddies.org)</a>
-
-<br/>
-<br />
-<f-next-button title="Next" />
-
--
-
-<br/>
-<img src="./imgs/cap3_1.png" style="width:95%; max-height:90%"/>
+Development involves the refinement and improvement of a solution, and it continues throughout the design process, often even after a product ships to customers. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
 
 ---
 
-### 3. Detailed Design
-
 ## How is color produced in devices?
 
-***KJ: Long and boring***
+The RGB color model is an additive color model in which red, green and blue light are added together in various ways to reproduce a broad array of colors.
+The name of the model comes from the initials of the three additive primary colors, red, green, and blue.
 
-~The RGB color model is an additive color model in which red, green and blue light are added together in various ways to reproduce a broad array of colors.
-The name of the model comes from the initials of the three additive primary colors, red, green, and blue.~
+##### 🎛️ Adjust the values to get the maximum brightness in the central area
 
-~The main purpose of the RGB color model is for the sensing, representation and display of images in electronic systems, such as televisions and computers, though it has also been used in conventional photography. Before the electronic age, the RGB color model already had a solid theory behind it, based in human perception of colors.~
+<f-slider title="Red" value="64" to="255" integer set="r" />
 
-<a href="https://en.wikipedia.org/wiki/RGB_color_model">Wikipedia</a>
+<f-slider title="Green" value="128" to="255" integer set="g" />
 
-<f-next-button />
+<f-slider title="Blue" value="196" to="255" integer set="b" />
 
 -
 
-<img src="./imgs/cap3_2a.png" style="width:95%; max-height:40%;"/>
-<a href="https://www.flickr.com/photos/sparkfun/30470462665">SparkFun Electronics</a>
-
-<img src="./imgs/cap3_2b.png" style="width:95%; max-height:40%;"/>
-
-<a href="https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg">wikipedia</a>
+<center>
+<f-scene>
+  <f-group scale="1.3">
+  <f-circle
+    v-for="(c,i) in polarpoints(3,0.5)"
+    :key="i"
+    :x="c.x"
+    :y="c.y"
+    :fill="[rgb(get('r',0),0,0),rgb(0,get('g',0),0),rgb(0,0,get('b',0))][i]"
+    stroke
+    style="mix-blend-mode: screen"
+  />
+  </f-group>
+</f-scene>
+</center>
 
 ---
 
@@ -131,42 +128,28 @@ Grab a piece of paper and write a high-level description of how the values of th
 <big>Suggestions:</big>
 <ul>
 <li>make a diagram or a graph showing the relationship between input and colors.</li>
-<li> ...continue...
-</ul>
-
-<f-next-button title="Next" />
-
-
--
-
-***MADONNNNNNNA MIAAAAA: Please do not use such images***
-
-<img src="./imgs/cap3_6.PNG" style="width:95%; max-height:90%;"/>
-
-<a style="float=top" href="https://www.publicdomainpictures.net/en/view-image.php?image=34795&picture=business-chart">www.publicdomainpictures.net</a>
 
 ---
 
-### 3. Detailed Design
+| padding: 0
 
-##  Assignment: Engineering your own RGB Lamp
+<section><section>
 
-***KJ: Feels incomplete***
+## Wheel of emotions
 
-### Suggestions:
+</section></section>
 
-...
-
-draw a picture showing  relationship between input and colors.</li>
-
-<f-inline>
-<a class="primary" @click="goto('step4')">Go to Engineering step</a> 
-or
-<a class="secondary" @click="goto('step6')">Go to Communication step</a>
-</f-inline>
 -
 
-<img src="./imgs/cap3_7.png" style="width:95%; max-height:90%;"/>
+<f-theme theme="light" style="background: white">
 
-<a  ref="https://en.wikipedia.org/wiki/Robert_Plutchik">wikipedia</a>
+<img src="./imgs/cap3_7.png" />
+
+<f-theme>
+
+<f-notes title="Credits">
+
+https://en.wikipedia.org/wiki/Robert_Plutchik
+
+</f-notes>
 

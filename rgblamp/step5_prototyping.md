@@ -1,5 +1,5 @@
-| section: step5
-| 1 1 2
+| chapter: Prototyping 
+| section: Introduction
 
 ### 5. Making
 

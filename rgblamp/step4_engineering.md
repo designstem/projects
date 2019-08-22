@@ -1,34 +1,17 @@
-| section: step4
-| 1 1 2
+| chapter: Engineering 
+| section: Introduction
 
-### 4. Engineering
+# Engineering
 
-## Where are we?
-
-### Develop the Solution
+### 1. Develop the Solution
 
 Development involves the refinement and improvement of a solution, and it continues throughout the design process, often even after a product ships to customers.
 
-### Test and Redesign
+### 2. Test and Redesign
 
-The design process involves multiple iterations and redesigns of your final solution. You will likely test your solution, find new problems, make changes, and test new solutions before settling on a final design.
-
-<a class="ternary" href="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
-read more (www.sciencebuddies.org)</a>
-<br/>
-<br />
-<f-next-button title="Next" />
-
--
-<br/>
-
-<img src="./imgs/cap4_1.PNG" style="width:95%; max-height:90%;"/>
-
+The design process involves multiple iterations and redesigns of your final solution. You will likely test your solution, find new problems, make changes, and test new solutions before settling on a final design. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
 
 ---
-
-
-### 4. Engineering
 
 ## Assignment: Engineering your own RGB Lamp
 
