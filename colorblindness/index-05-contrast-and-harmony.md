@@ -1005,16 +1005,16 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
       </summary>
     e.g. in a mock-up, so that you can better judge whether your color palette works.
   </details> 
+  
+  <div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
+    <f-next-button />
+</div>
 
 -
 
 <f-image src="./images/cvb_brushes.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
--
 
-<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
-    <f-next-button />
-</div>
 
 
 ---
