@@ -1,75 +1,202 @@
-| height: fit
-| padding: none
-| theme: light
+| chapter: Equilibrium vs Equilibrium
+| section: Start
+| background: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christo_Floating_Piers_6497.jpg/2560px-Christo_Floating_Piers_6497.jpg
+| tint: 0
+| rows: 1fr auto
+| 1 3
+| 2 3
 
-| 1 2
+# <big style="color: var(--darkblue)">Equilibrium</big>
 
-<section style="padding: var(--base5)">
-
-
-# <div style="text-align:center;width:400px">Equilibrium <br>vs<br> Equilibrium</div>
-
-<big>Natural equilibrium and floating equilibrium</big>
-
-Heavily influence the equilibrium of our Earth
-
-
-<f-next-button title="Next" />
-
+<big style="color: var(--darkblue)">Natural equilibrium and floating equilibrium</big>
 
 -
-<br><br><br>
-<f-image src="images/img_index2.gif" style="width:600px;height:400px;text-align:center"/>
+
+<f-next-button title="Start" />
+
+<f-notes title="Credits">
+
+https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3ASearch&go=Go&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1#/media/File:Christo_Floating_Piers_6497.jpg
+
+</f-notes>
 
 ---
 
-| height: fit
-| padding: none
-| theme: light
+| section: Plastic pollution
+| theme: dark
+| rows: 1fr auto
+| 1 2 2 2
 
-| 1 2
-
-<section style="padding: var(--base5)">
-
-# <div style="text-align:center;width:400px">Equilibrium <br>vs<br> Equilibrium</div>
-
-<big>Pollution</big>
+# Plastic pollution
 
 The sea is covered by "plastic floating islands"
 
 Plastic can sink and pollute the sea at all depths
 
-
-<f-next-button title="Next" />
-
+<a class="tertiary" href="../plastics" target="_blank">Learn how plastic floats</a>
 
 -
-<br><br><br>
-<f-iframe src="images/img1_index2.jpg" style="width:600px;height:400px;text-align:center"/>
-<iframe width="600" height="400" src="https://www.youtube.com/embed/31CdhLMV7Es" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<f-video src="https://www.youtube.com?v=31CdhLMV7Es" />
 
 ---
 
-| height: fit
-| padding: none
-| theme: light
+| section: Bad and good news
+| padding: 0
+| theme: dark
 
-| 1 2
+<section><section>
 
-<section style="padding: var(--base5)">
+### Bad news
 
-# <div style="text-align:center;width:400px">Equilibrium <br>vs<br> Equilibrium</div>
+Plastic is everywhere
 
-<big>Pollution</big>
+Plastic is a poison for our environment
 
-Find out how different plastics float or sink
+### Good news
 
-<a class="secondary" href="https://designstem.github.io/scenarios/plastics" target="_new">Play with Lighter than Air</a>
+<a href="https://science.howstuffworks.com/environmental/green-tech/sustainable/5-plastic-substitutes.htm" target="_blank">Top 10 Eco-friendly Substitutes for Plastic</a>
 
-<a class="primary" @click="send('first')" href="./index3.html">Go to Good News</a>
+<a href="https://news.nationalgeographic.com/2017/04/wax-worms-eat-plastic-polyethylene-trash-pollution-cleanup/" target="_blank">Worms eating plastic</a>
+
+<a href="https://www.explainthatstuff.com/bioplastics.html" target="_blank">Bioplastics and biodegradable plastics</a>
+
+### Discuss
+
+Can you find any other good news about plastic and environment?
+
+</section></section>
 
 -
 
-<f-image src="images/img1_index2.jpg" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BiodegradablePlasticUtensils1.jpg/1024px-BiodegradablePlasticUtensils1.jpg" />
 
+---
 
+| section: Plastic reuse and art
+| padding: 0
+
+<section><section>
+
+## Plastic reuse and art
+
+#### Christo "The Floating Piers", 2016
+
+Plastic can also be used to make you walk on water, <a href="https://christojeanneclaude.net/projects/the-floating-piers" target="_new">see this art installation</a>.
+
+#### Discuss
+
+What are your feelings about this installation?
+
+After which physical laws the piers were floating, even with many people walking on them?
+
+Concentrate on these terms:
+
+- <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a>
+
+- Weight density
+
+</section></section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/7/78/Christo_Floating_Piers_6587.jpg" />
+
+<f-notes title="Credits">
+
+https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3ASearch&go=Go&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1#/media/File:Christo_Floating_Piers_6587.jpg
+
+</f-notes>
+
+---
+
+| section: Make a boat
+
+| padding: 0
+
+<section><section>
+
+## Make a boat from recycled plastic
+
+1. Collect some plastic objects around you  
+
+2. Find out the type of plastic they are made of
+
+3. Design a boat or other floating structure<br><a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">See the example</a>.
+
+4. Verify that an boat can float even if built with a plastic material that sink. What’s the reason?<br><a href="https://www.youtube.com/watch?v=xniW3_afO-0" target="_blank">How do ships float?</a>
+
+5. Calculate your boat weight and its buoyancy in water
+
+</section></section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bottle_boat_racers_paddle_their_way_to_victory_150612-F-CH060-061.jpg/1024px-Bottle_boat_racers_paddle_their_way_to_victory_150612-F-CH060-061.jpg" />
+
+---
+
+| section: Does your boat float?
+
+| 1 2 3
+
+## Does your boat float?
+
+<big>How much weight can you add to your object before it sinks?</big>
+
+-
+
+##### 1.
+
+Measure the volume of your "boat". Hint: fill it with water then pour the water into a measuring cup. The amount of water that was in the boat tells you its volume.
+
+##### 2.
+
+Calculate how many grams of water the boat can hold (1 ml of water = 1 g).
+
+##### 3.
+
+Float the empty boat and start adding quarters one at a time. Add them slowly so you don’t flip the boat over! What happens to the boat as you add quarters? How many quarters does it take to sink the boat?
+
+-
+
+##### 4.
+
+Calculate how many grams of quarters were needed to sink the boat. One quarter of water has a mass of about 5.67 g.
+
+##### 5.
+
+Compare the total mass of water that sink the boat to the mass of water that fills the boat (see step 2). What do you notice?
+
+---
+
+| section: Finish your boat
+
+| background: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Floating_Piers_%E2%80%93_San_Paolo.jpg/1920px-Floating_Piers_%E2%80%93_San_Paolo.jpg
+| theme: dark
+
+| 2 2 1
+
+## Finish your boat
+
+#### Checklist:
+
+1. Is it made reusing materials?
+
+2. Does it havea an environmental purpose?
+
+3. Can it float when stressed with more weight? Stressed with movements? Stressed with distortions of original shape?
+
+#### Remember:
+
+- Earth pollution
+
+- raising of sea level
+
+-
+
+<f-notes>
+
+https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3ASearch&go=Go&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1#/media/File:Floating_Piers_%E2%80%93_San_Paolo.jpg
+
+</f-notes>

@@ -1,3 +1,16 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-fachwerk({ src: ["./index.md", "./step1.md", "./step2.md", "./step3.md", "./step4.md", "./step5.md", "./step6.md", "./step7.md"] });
+fachwerk({
+  theme: "dark",
+  style: { "--purple": "blue", "--accent": "red", "--darkestgray": "black", "--yellow": "yellow" },
+  src: [
+    "./index.md",
+    "./step1_research.md",
+    "./step2_design.md",
+    "./step3_detaileddesign.md",
+    "./step4_engineering.md",
+    "./step5_prototyping.md",
+    "./step6_communication.md",
+    "./step7_assessment.md"
+  ]
+});

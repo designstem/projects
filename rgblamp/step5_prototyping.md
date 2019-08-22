@@ -3,7 +3,7 @@
 
 ### 5. Making
 
-# Where are we?
+## Where are we?
 
 ### Build a Prototype
 
@@ -30,7 +30,7 @@ read more (www.sciencebuddies.org)</a>
 
 ### 5. Making
 
-# RGB Lamps made with Arduino
+## RGB Lamps made with Arduino
 
 How can I build a RGB lamp?
 
@@ -50,7 +50,7 @@ How can I build a RGB lamp?
 
 ### 5. Making
 
-#  Assignment: Build you own (virtual) RGB lamp with Arduino</big>
+##  Assignment: Build you own (virtual) RGB lamp with Arduino</big>
 
 <big>Start here:</big>
 <ul>
