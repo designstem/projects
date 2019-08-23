@@ -419,13 +419,13 @@ Easy explanation on tannins in plants: https://vinepair.com/wine-101/guide-to-ta
 
 -
 
-<img src="./images/tannin.png" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Woody_Dicot_Stem_One_Year_Quercus_%2835038421793%29.jpg/1280px-Woody_Dicot_Stem_One_Year_Quercus_%2835038421793%29.jpg" />
 
-***ERIK / JANIKA: Can we use the illustration? Do we need this at all?***
+<f-notes title="Credits">
 
-<f-notes>
+Image source:
 
-Image source: https://www.businessinsider.com.au/everything-you-need-to-know-about-wine-2013-8
+https://commons.wikimedia.org/wiki/File:Woody_Dicot_Stem_One_Year_Quercus_(35038421793).jpg
 
 </f-notes>
 
