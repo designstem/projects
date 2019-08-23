@@ -28,9 +28,7 @@
 
 # <big>Frequency<br>& Motion</big>
 
-***KIKA: Fix animation***
-
-Most of the information of our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* like *wheels rolling opposite direction* or *moving elements on a still picture*. Why this is happening?
+><small>Most of the information about our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* such as *wheels rolling opposite direction* or *moving elements on a still picture*. **Why this is happening?**</small>
 
 <big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and let's go!</big>
 
@@ -54,7 +52,7 @@ This lesson is divided into three main sections:
 
 1. Hands-on activity with the turntable to explore the meaning of frequency and movement.
 
-2. Virtual learning objects to elaborate and test how frame rate affects our perception of movement and how frequency can be presented as a form of sinusoidal wave and 
+2. Virtual learning objects to elaborate and test how frame rate affects our perception of movement and how frequency can be presented as a form of sinusoidal wave.
 
 3. Creative work to combine art and motion on a turntable.
 
@@ -139,9 +137,10 @@ This lesson is divided into three main sections:
 
 # What is frequency?
 
-Watch the following videos and define frequency with your own words and describe all possible ways to experience it.
-
+Watch the following videos and define frequency in your own words and describe all possible ways to experience it.
+<p0>
 <f-next-button />
+
 
 </section>
 
@@ -152,7 +151,7 @@ Watch the following videos and define frequency with your own words and describe
 
 -
 
-<f-video src="https://www.youtube.com/watch?v=yrfibt6Bkwc" />
+<f-video src="https://www.youtube.com/watch?v=tOvnQ9Vqptw&t=358" />
 
 -
 
@@ -199,9 +198,9 @@ Watch the following videos and define frequency with your own words and describe
 
 ### Objective
 
-By experimentation, students should discover how the speed of motion affects our visual perception on shapes and / or colour.
+By experimentation, students should discover how the speed of motion affects our visual perception of shapes and / or colour.
 
-Let students draw different ideas on cut-out circles and have them on the turntable’s platter rotating at different speed levels.
+Let students draw different ideas on cut-out circles and place them on the turntable’s platter rotating at different speed levels.
 
 It’s all about discovering new shapes and their alignment on a circle to produce visually exciting blends through movement.
 
@@ -210,7 +209,7 @@ Optionally, put on the vinyl record and put the paper template on it, so student
 ### Preparation
 
 > ##### You will need
-Printed paper templates, turntable, scissors, pencils
+Printed paper templates, turntable, scissors, pencils.
 
 Download and print out paper template to hand over to students. 
 
@@ -218,7 +217,7 @@ Download and print out paper template to hand over to students.
 <f-arrow-icon rotation="90" />Download PDF templates from here (.zip file)</a>
 
 <p />
-You'll find 6 template PDF's from the .zip file. In this excercise You'll need only the 1st template (plain).
+You will find 6 template PDFs from the .zip file. In this exercise, you will need only the 1st template (plain).
 <p />
 <img src="./images/zipContent.png" alt="Example" width="100%">
 <p />
@@ -237,16 +236,13 @@ You'll find 6 template PDF's from the .zip file. In this excercise You'll need o
 
 <span class="bullet">1</span> First you need a paper template
 
-***KIKA: Replace with download button***
-***KIKA: Fix viny labels***
-
 <a href="./files/plainCircle.pdf" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
-<span class="bullet">2</span> Use scissors to cut out circles from a paper and draw on it anything you would like to see spinning on a turntable. 
+<span class="bullet">2</span> Use scissors to cut out paper circles and draw on it anything you would like to see spinning on a turntable. 
 
-<span class="bullet">3</span>Put the paper circle on the turntable and start spinning.
+<span class="bullet">3</span> Put the paper circle on the turntable and start spinning.
 
-<span class="bullet">4</span>Draw different variations to find visually the most appealing and interesting combination of movement.
+<span class="bullet">4</span> Draw different variations to find the most visually appealing and interesting combination of movement.
 
 <f-next-button />
 
@@ -290,17 +286,18 @@ You'll find 6 template PDF's from the .zip file. In this excercise You'll need o
 
 -
 
-As you might have noticed with your drawings in order, to have a smooth animation or optical illusion, you have to manipulate two variables:
+As you might have noticed with your drawings in the correct order, to have a smooth animation or to create an optical illusion, you have to manipulate two variables:
 
 * <var>Rotational speed</var> of the turntable.
 
-* <var class="blue">Amount of elements</var>around the circle. 
+* <var class="blue">Number of elements</var>around the circle. 
 
 -
 
-~Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and be expressed on a form of [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.~
+><small>Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and can be expressed as [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.</small>
 
 -
+
 <p>
 
 <f-fact-icon size="small" />
@@ -479,9 +476,9 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 
 <p />
 
-~The most common way to experience noticeable visual distortion<br>caused by frequency is having the phenomenon occurring on a screen.~
+~The most common way to experience noticeable visual distortion<br>caused by frequency is by having the phenomenon occurring on a screen.~
 <br> 
-Watch following clip and notice <br><var>how wheels of the wagon are moving?</var>
+Watch following clip and observe <br><var> the movement of the wagon wheels </var>
 
 <p />
 
@@ -510,11 +507,11 @@ Watch following clip and notice <br><var>how wheels of the wagon are moving?</va
 
 -
 
-You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring on a movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the [rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe.
+You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring during the movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the [rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe.
 
 <br>
 
-<f-fact-icon size="small" /> ~In other words, as the movie clip is just a frequent series of pictures (frames) played really fast (movies usually have 24 fps) and **wheels were rotating fast enough not to be in sync in every frame** to produce natural visual impression of rotating wheel.~ 
+><f-fact-icon size="small" /><small> In other words, the movie clip is just a frequent series of pictures (frames) played very quickly (movies usually have 24 fps) and the **wheels were rotating quickly enough not to be in sync in every frame** ; this produces a natural visual impression of rotating wheel.</small> 
 
 -
 <div style= "width:81%">
@@ -526,7 +523,7 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 <br>
 -
 
-##### How does it work? Lets set up an experiment in the next slide
+##### How does it work? Let’s set up an experiment in the next slide.
 
 <f-next-button title="Go" />
 
@@ -534,9 +531,7 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 
 # Can You freeze the spinning wheel?
 
-#### Adjust the wheel speed so the lines will stop
-
-***KIKA: Bigger balls!***
+#### Adjust the wheel speed until the lines stop.
 
 Rotation speed is <var>{{ get('d', 800) }} milliseconds</var> per rotation.
 This is roughly <var>{{ get('d', 800) / 1000}} seconds</var>.
@@ -560,7 +555,7 @@ Hey, this is cheating! The wheel has to have *some* speed :)
 
 <f-fade v-if="get('d') == 500">
 
-Almost there! Wait...it seems it is still moving?
+Almost there! Wait...does it seem to be moving?
 
 </f-fade>
 
@@ -604,7 +599,7 @@ Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*
 
 #### Adjust the number of lines
 
-Not lets keep the rotation constant, <var>1 second</var> per rotation, and adjust number of lines to make it appear the wheel stops.
+Now let’s keep the rotation constant, <var>1 second</var> per rotation, and adjust the number of lines to make it appear the wheel stops.
 
 We have <var class="blue">{{ get('c') }} lines</var>
 
@@ -620,7 +615,7 @@ We have <var class="blue">{{ get('c') }} lines</var>
 
 <f-fade v-if="get('c') == 0">
 
-Really? Like *really really really*?
+Really? Are you completely sure?
 
 </f-fade>
 
@@ -632,7 +627,7 @@ Did it stop? My eyes are not sure.
 
 <f-fade v-if="get('c') == 30">
 
-Yes, it kind of stopped but this flicker is kind of annoying. Can you do better?.
+Yes, it seemed to stop but this flicker is rather annoying. Can you do better?.
 
 </f-fade>
 
@@ -647,13 +642,13 @@ It stopped exactly at <var class="blue">60 lines</var>. *Why*? Let's figure it o
 
 <f-fade v-if="get('c') == 90">
 
-Ok, you can call it stopping, I call it a flicker. Try some more!
+Ok, you call it stopping, I call it a flicker. Try some more!
 
 </f-fade>
 
 <f-fade v-if="get('c') == 120">
 
-Very good, it stopped! But can you do it with smaller number of lines as well?
+Very good, it stopped! But can you do it with a smaller number of lines as well?
 
 </f-fade>
 
@@ -688,7 +683,7 @@ Very good, it stopped! But can you do it with smaller number of lines as well?
 
 # All together now
 
-#### Adjust *both* the rotation <var>speed</var> and the number of <var class="blue">lines</var> so the wheel stops
+#### Adjust *both* the rotation <var>speed</var> and the number of <var class="blue">lines</var> until the wheel stops.
 
 Rotation speed is <var>{{ get('d2') }} ms</var> or<var> {{ get('d2') / 1000}} seconds</var> per rotation.
 
@@ -715,15 +710,15 @@ We have <var class="blue">{{ get('c2', 60) }} lines</var>
 
 <f-fade v-if="get('d2') == 0 || get('c2') == 0">
 
-Trust me, this value is just too low..
+Trust me, this value is simply too low.
 
 </f-fade>
 
 <div v-if="get('d2') == 1000 && get('c2') == 60">
 
-*Voilà!* We ended up in a place where we have <var>1 second</var> for a full rotation and <var class="blue">60 lines</var> on a wheel. Do you know how fast your monitor updates it's picture?
+*Voilà!* We ended up in a place where we have <var>1 second</var> for a full rotation and <var class="blue">60 lines</var> on a wheel. Do you know how fast your monitor updates its picture?
 
-It is <var class="blue">60 times</var><var class="red">per second</var>, also know as <var class="gray">60 Herz</var> or <var class="gray">60 Hz</var>.
+It is <var class="blue">60 times</var><var class="red">per second</var>, also known as <var class="gray">60 Herz</var> or <var class="gray">60 Hz</var>.
 
 The lines *never stopped*. They are moving *right now*. It is all an *illusion*.
 
@@ -761,7 +756,7 @@ The lines *never stopped*. They are moving *right now*. It is all an *illusion*.
 
 # Illusion of cinema
 
-~By replacing replace <var class="blue">lines</var> with <var class="blue">image frames</var> we created the most basic cinema projector.~
+~By replacing <var class="blue">lines</var> with <var class="blue">image frames</var> we created the most basic cinema projector.~
 
 Rotation speed is <var>{{ get('d3') }} ms</var> or<var> {{ get('d3') / 1000}} seconds</var> per rotation.
 
@@ -787,9 +782,11 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
 
 <p /><br>
 
-You just completed all the steps to experience visual distortion virtually on your screen. The same phenomenon occured in the movieclip with wagon wheels. 
+You have just completed all the steps required to experience visual distortion virtually on your screen. The same phenomenon occurred in the movie clip with wagon wheels. 
 
-<f-fact-icon size="small" /> ~In order to find visually interesting morphs play with the *rotational speed* and the *amount of elements* around the circle. <br />Remember, capturing animation with a camera will add a new variable to the equation – ***the frame rate***.~
+><f-fact-icon size="small" /><small> To find visually interesting morphs, play with the *rotational speed* and the *number of elements* around the circle. <br />Remember, capturing animation with a camera will add a new variable to the equation – ***the frame rate***.</small>
+
+<p0>
 
 <f-next-button />
 
@@ -824,47 +821,47 @@ You just completed all the steps to experience visual distortion virtually on yo
 
 ### Objective
 
-Students will acquire deeper knowledge about frequency and frame rate while producing artwork on the circles with grid.
+Students will acquire deeper knowledge about frequency and frame rate whilst producing artwork on the circles with grid.
 
-These circles will be used to replica [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect).
+These circles will be used to replicate the [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect).
 
 ### Preparation
 
 > ##### You will need
-Printed grid circles, turntable, scissors, pencils, smartphone/tablet/PC for online tool
+Printed grid circles, turntable, scissors, pencils, a smartphone/tablet/PC for using the online tool.
 
-Download and print out paper templates to hand over to students. You can download them from here
+Download and print out paper templates to hand out to students. You can download them from here:
 
 <a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download PDF templates</a>
 
 > ##### <f-fact-icon size="small" /> Printing tips
-1. Print the sheet 100% size, onesided
-2. Print more than 1 sheet for every student
+1. Print the sheet 100% size, one-sided.
+2. Print more than 1 sheet for every student.
 
-Students have to find the precise spinning speed to demonstrate the effect through the lens of smartphone / tablet / PC camera using the frame rate tool. 
+Students have to find the precise spinning speed to demonstrate the effect through the lens of a smartphone / tablet / PC camera using the frame rate tool. 
 
 <a class="tertiary" href="../frequency_camera">Open framerate camera app</a>
 
 
 </f-notes>
 
-<f-icon-heading icon="activity" size="small">Let's now observe our experiment trough the lens of a camera!</f-icon-heading>
+<f-icon-heading icon="activity" size="small">Let's now observe our experiment through the lens of a camera!</f-icon-heading>
 
 # Make a spinning animation II
 
 -
 
-<span class="bullet">1</span> First you need paper templates with spokes
+<span class="bullet">1</span> First you need paper templates with spokes.
 
 <a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download set of PDF templates (.zip file)</a>
 
-<span class="bullet">2</span> Draw in between the spokes
+<span class="bullet">2</span> Draw in between the spokes.
 
-<span class="bullet">3</span> Have the paper to rotate on the turntable
+<span class="bullet">3</span> Rotate the paper on the turntable.
 
-<span class="bullet">4</span> Experiment with turntable speeds so the lines (strokes) will stop
+<span class="bullet">4</span> Experiment with different turntable speeds until the lines (strokes) stop.
 
-<span class="bullet">4</span> Observe the rotation on your smartphone / tablet / computer and adjust the framerate:
+<span class="bullet">4</span> Observe the rotation on your smartphone / tablet / computer and adjust the frame rate:
 
 <a class="tertiary" href="../frequency_camera" target="_blank">Open framerate camera app</a>
 
@@ -910,17 +907,15 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
-Students will learn how to present frequency on a sinusoidal wave. To let them experiment and test their new knowledge about frequency in a more mathematical way of thinking
+Students will learn how to present frequency on a sinusoidal wave. This will allow them to experiment and test their new knowledge about frequency using a more mathematical way of thinking.
 
-~Frequency can be expressed with sinusoidal wave having two variables: time and cycle. On a two-dimensional space, if X-axis will represent time and Y-axis a cycle, we can start presenting frequency with the sinusoidal wave.~
+~Frequency can be expressed using a sinusoidal wave having two variables: time and cycle. in a two-dimensional space, if X-axis represents time and Y-axis a cycle, we can start presenting frequency using sinusoidal wave.~
 
-~On sinusoidal wave time lapses from left to right on the horizontal axis. Highest frequency has more cycles on a vertical axis representing faster rate.~
+~On a sinusoidal wave time lapses from left to right on the horizontal axis. The higher the frequency, the greater the number of cycles on the vertical axis, representing faster rate.~
 
 </f-notes>
 
 # Frequency as a wave
-
-***KIKA: Smaller balls!***
 
 ~After exploring spinning frequency and frame rate, let's define frequency as form of *wave*. The most common waveform might be the <a target="_blank" href="https://pudding.cool/2018/02/waveforms/">soundwave <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> but it can also represent <a href="../colorblindness">color <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a></a> or movement.~
 
@@ -935,7 +930,7 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 
 #### 2. Discuss
 
-What are you findings regarding waves moving in different speeds, on different frequencies? How can frequency be interpreted in other visual ways?
+What are you findings regarding waves moving at different speeds and different frequencies? How can frequency be interpreted in other visual ways?
 
 <f-next-button />
 
@@ -1103,30 +1098,29 @@ What are you findings regarding waves moving in different speeds, on different f
 
 # Final project
 
-As a final task, you will prepare an analog animation using rotational movement. You can visualize abstract morphing or use more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve visually attractive outcome. 
+As a final task, you will prepare an analog animation using rotational movement. You can visualize abstract morphing or use a more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve a visually attractive outcome. 
 
 #### Answer the questions
 
-1. What constraints did you experience with the process?
+1. What constraints did you experience during the process?
 
-2. Which variable (e.g. framerate, speed of the rotating device, spokes) had the most critical part in your animation?
+2. Which variable (e.g. frame rate, speed of the rotating device, spokes)was the most critical part in your animation?
 
 <a class="tertiary" href="..">← Back to projects</a>
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
-Final assignment is an individual work for students is to create analogue animation and capture it with any device that can record a video file.
+The final assignment is individual work for students, to create analogue animation and capture it with any device that can record a video file.
 
 > **You will need:** Any device that captures video, any kind of props
 
-There are many paths for students to take:
+There are many paths for students may follow:
 
-* They can make it as a flat 2D animation
-* They can go more complex and make it with a 3D shape
+* They can make it as a flat 2D animation.
+* They can make it with a 3D shape, which is more complex.
 
-There is possibility to manipulate visuals with strobe light or use any other device than turntable to rotate the artwork.
-
-It is teacher, who can decide according to the planned curriculum, how complex the pathway should be to take.
+It is also possible to manipulate visuals using a strobe light or use any other device other than a turntable to rotate the artwork.
+The teacher can decide how complex the pathway should be to take, depending on the planned curriculum,
 
 </f-notes>
 
@@ -1138,11 +1132,4 @@ It is teacher, who can decide according to the planned curriculum, how complex t
 
 <f-video src="https://www.youtube.com/watch?v=9n-DtqB0sNc" />
 
-<!--
 
-~In everyday life most of the information of our surroundings is perceived visually or audibly.~
-
-~Our brain processes this data and gives a meaningful context to it (e.g. colour vision), but sometimes it fails to process this info and we might experience visual anomalies like wheels rolling opposite to a driving direction ([wagon-wheel effect](https://en.wikipedia.org/wiki/Wagon-wheel_effect)) or moving elements on a still picture ([optical art](https://en.wikipedia.org/wiki/Op_art)).~
-
-
--->
