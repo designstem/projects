@@ -1,74 +1,107 @@
+| chapter: Introduction
+| topic: First page
+
 | theme: dark
+| background: ./images/tech-7.jpg
+| tint: 0.7
+
+| rows: auto
+| 1
+| 2
+
+-
+
+<big>
 
 # <big>Spirals</big>
+
+</big>
+
+&nbsp;
+
+<f-next-button title="Start" />
 
 ---
 
 
-# Discovering Spirals
 
-Spiral is a very common shape in nature and in as well as every day life. In the natural world, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/nature6.jpg?w=91&h=213)
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/nature7.jpg?w=125&h=180)
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/nature2.jpg?w=164&h=131)
+| cols: 1fr 3fr
+| 1 2
+| 3 4
+| 5 6
+| 7 8
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/nature1.jpg?w=162&h=123)
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/nature3.jpg?w=179&h=119)
+## Discove&shy;ring Spirals
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/nature4.jpg?w=165&h=129)
+Spiral is a very common shape in nature and in as well as every day life. In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/nature5.jpg?w=237&h=133)
+-
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/nature8.jpg?w=183&h=130)
-
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap:0; height:40vh;">
+  <f-image src="./images/nature-1.jpg" />
+  <f-image src="./images/nature-2.jpg" />
+  <f-image src="./images/nature-3.jpg" />
+  <f-image src="./images/nature-4.jpg" />
+  <f-image src="./images/nature-5.jpg" />
+  <f-image src="./images/nature-6.jpg" />
+  <f-image src="./images/nature-7.jpg" />
+  <f-image src="./images/nature-9.jpg" />
 </div>
 
-Spiral  patterns can be also met in parts of mechanical constructions, turbines, propellers, screws, drills, springs etc.
+-
 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
+Spiral  patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs etc.
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/mechanics3.jpg?w=136&h=132)
+-
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/mechanics6.jpg?w=156&h=155)
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/mechanics5.jpg?w=123&h=123)
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/mechanics4.jpg?w=222&h=97)
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/mechanics1.jpg?w=148&h=110)
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/mechanics2.jpg?w=87&h=87)
-
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap:0; height:40vh;">
+  <f-image src="./images/tech-1.jpg" />
+  <f-image src="./images/tech-2.jpg" />
+  <f-image src="./images/tech-3.jpg" />
+  <f-image src="./images/tech-4.jpg" />
+  <f-image src="./images/tech-5.jpg" />
+  <f-image src="./images/tech-6.jpg" />
+  <f-image src="./images/tech-7.jpg" />
+  <f-image src="./images/tech-8.jpg" />
 </div>
 
-Architects also use the spirals to shape buildings and components like stairs.
+-
 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
+**Architects** also use the spirals to shape buildings and components like stairs.
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/architecture1.jpg?w=195&h=129)
+-
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/architecture21.jpg?w=228&h=128)
-
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap:0; height:40vh;">
+  <f-image src="./images/architecture-1.jpg" />
+  <f-image src="./images/architecture-2.jpg" />
+  <f-image src="./images/architecture-3.jpg" />
+  <f-image src="./images/architecture-4.jpg" />
+  <f-image src="./images/architecture-5.jpg" />
+  <f-image src="./images/architecture-6.jpg" />
+  <f-image src="./images/architecture-7.jpg" />
+  <!-- <f-image src="./images/architecture-8.jpg" /> -->
 </div>
 
-Finally spiral shaped artworks, figures and artifacts are used in every day life objects, even in the  ancient time.
+-
 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
+Finally spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time.
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/artwork2.jpg?w=132&h=92)
+-
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/artwork1.jpg?w=110&h=107)  
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/artwork4.jpg?w=101&h=85)  
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/07/artwork3.jpg?w=82&h=84)
-
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap:0; height:40vh;">
+  <f-image src="./images/nature-1.jpg" />
+  <f-image src="./images/nature-2.jpg" />
+  <f-image src="./images/nature-3.jpg" />
+  <f-image src="./images/nature-4.jpg" />
+  <f-image src="./images/nature-5.jpg" />
+  <f-image src="./images/nature-6.jpg" />
+  <f-image src="./images/nature-7.jpg" />
+  <f-image src="./images/nature-8.jpg" />
 </div>
 
 ---
