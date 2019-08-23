@@ -154,7 +154,7 @@ https://www.halodesign.dk/brands/iq-light/?lang=en
 | chapter: History & examples
 | section: Who Discovered the Icosahedron?
 
-<section><section>
+<section>
 
 ## Who Discovered the Icosahedron?
 
@@ -162,7 +162,7 @@ It has been suggested that the regular icosahedron is the first example of a geo
 
 WHY? HOW?
 
-</section></section>
+</section>
 
 -
 
@@ -173,7 +173,7 @@ WHY? HOW?
 | padding: 0
 | section: Viruses
 
-<section><section>
+<section>
 
 ## Viruses
 
@@ -185,7 +185,7 @@ https://www.khanacademy.org/science/high-school-biology/hs-human-body-systems/hs
 
 https://viralzone.expasy.org/678
 
-</section></section>
+</section>
 
 -
 

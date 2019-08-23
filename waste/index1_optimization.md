@@ -9,9 +9,13 @@ Palm Trees have very clever leaves. In nice weather the leaves spread out to cat
 
 -
 
-<img src="./images/palm.png"  />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Close_Up_look_of_Leaves.jpg"  />
 
-***ERIK: Unknown source***
+<f-notes title="Credits">
+
+Image sources: https://commons.wikimedia.org/wiki/File:Close_Up_look_of_Leaves.jpg
+
+</f-notes>
 
 ---
 
@@ -24,9 +28,15 @@ The folds help the thin layered shells to be resistant to predators and rough ci
 
 -
 
-<img src="./images/shell.png"  />
+<img src="./images/shells.jpg"  />
 
-***ERIK: Unknown source***
+<f-notes title="Credits">
+
+Image source:
+https://pixnio.com/still-life/seashells-mollusk-still-life-object-decoration-macro
+
+</f-notes>
+
 
 ---
 
@@ -36,13 +46,11 @@ The folds help the thin layered shells to be resistant to predators and rough ci
 
 So now we have looked at nature and we understand that through folding materials you can **add strength** to them.
 
-By folding the edges of the metal top of the Pallas table Konstantin Krcic added strength to it.  
+By folding the edges of the metal top of the Pallas table Konstantin Grcic added strength to it.  
 
 -
 
-<img src="./images/bench.jpg"  />
-
-***ERIK: Unknown source***
+<img src="./images/pallastable.jpg"  />
 
 ---
 
@@ -145,11 +153,17 @@ Arch bridges are examples of **compressive structures**.
 
 Tension and compression members can also be combined.
 
-***TODO: Credits***
 
 -
 
-<img src="./images/bridge3.jpg" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg" />
+
+<f-notes title="Credits">
+
+Image source:
+https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg
+
+</f-notes>
 
 ---
 
@@ -163,15 +177,12 @@ Another example of tension and compression members combined!
 
 -
 
-<img src="./images/bridge4.jpg" />
+<img src="./images/sailing.jpg" />
 
-***ERIK: Clarify credits***
 
 <f-notes title="Credits">
 
-Image by https://www.instagram.com/kdotcdott/
-
-***From Roland: "I still have to check if we can use use instagram pictures… if not we have to look for alternative..."***
+Screen capture from a video: https://vimeo.com/wiltel/bodacious2014#t=140s
 
 </f-notes>
 
@@ -330,19 +341,25 @@ A hexagon is a form we see everywhere in nature when energy optimization is need
 
 For example in a honeycomb, radiolaria or dried clay.
 
-***ERIK: Unknows sources***
+-
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Apis_florea_nest_closeup2.jpg">
 
 -
 
-<img src="./images/honey.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Radiolaria_%28Challenger%29_Plate_135.jpg">
 
 -
 
-<img src="./images/radiolaria.jpg">
+<img src="./images/clayground.jpg">
 
--
 
-<img src="./images/clay.png">
+<f-notes title="Credits">
+
+Image sources: https://commons.wikimedia.org/wiki/File:Apis_florea_nest_closeup2.jpg
+https://commons.wikimedia.org/wiki/File:Radiolaria_(Challenger)_Plate_135.jpg
+
+</f-notes>
 
 ---
 
@@ -445,13 +462,18 @@ Let’s see if we can mimic dried clay and soap bubbles and modify them into pos
 
 <f-inline>
 
-<img src="./images/soap2.png" style="width: 50%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/This_must_be_art_%28explored%29_%284457914327%29.jpg/1280px-This_must_be_art_%28explored%29_%284457914327%29.jpg" style="width: 56%">
 
-<img src="./images/clay2.png" style="width: 50%">
+<img src="./images/clayground.jpg" style="width: 50%">
 
 </f-inline>
 
-***ERIK: Unknown sources***
+<f-notes title="Credits">
+
+Image sources: https://commons.wikimedia.org/wiki/File:This_must_be_art_(explored)_(4457914327).jpg
+https://pixabay.com/photos/drought-ground-clay-cracks-dry-964339/
+
+</f-notes>
 
 ---
 
@@ -493,15 +515,22 @@ When you cut a thigh bone you’ll see a foam structure that is optimally formed
 
 And: like foam bone could eliminate material by adapting to the change of the environment, but of course not at the same speed soap bubbles do! 
 
-***ERIK: Image credits***
+-
+
+<img src="./images/bubbles.jpg" style="width: 80%"/>
 
 -
 
-<img src="./images/soap2.png" />
+<img src="./images/bonestructure.jpg" />
 
--
+<f-notes title="Credits">
 
-<img src="./images/bone4.jpg" />
+Image sources:
+https://www.flickr.com/photos/roderickt-uk/6901706105/
+
+https://commons.wikimedia.org/wiki/File:Femur_(caput_femoris)_-_bone_structure_detail_(vertical_cut).jpg
+
+</f-notes>
 
 ---
 
@@ -674,6 +703,11 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 -
 
-***ERIK: Image credits***
+<img src="./images/sponge.jpg" />
 
-<img src="./images/shammy.png" />
+<f-notes title="Credits">
+
+Image source:
+https://commons.wikimedia.org/wiki/File:Sponge-viscose.jpg
+
+</f-notes>

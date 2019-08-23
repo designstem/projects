@@ -2,7 +2,7 @@
 | section: Introduction
 | padding: 0
 
-<section><section>
+<section>
 
 ## Geometric operations
 
@@ -18,7 +18,7 @@ To make different designs you can use geometric operations such as:
 
 * affine transformation
 
-</section></section>
+</section>
 
 -
 

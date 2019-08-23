@@ -13,7 +13,7 @@ Will be in shape — whatever the shape. Over and over.
 
 | padding: 0
 
-<section><section>
+<section>
 
 ## Orientation on patterns
 
@@ -21,7 +21,7 @@ In order to find inspiration in making your own 2D textures and 3D structures, y
 
 Next you will find some questions and accompanying tasks to help you. 
 
-</section></section>
+</section>
 
 -
 

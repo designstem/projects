@@ -452,7 +452,7 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 | section: Natural marketing
 | padding: 0
 
-<section><section>
+<section>
 
 ## Natural marketing in packaging 
 
@@ -462,7 +462,7 @@ Sometimes in nature the **packaging is part of the product**.
 
 2. Do you know about a human made product having a package that is part of the product?  
 
-</section></section>
+</section>
 
 -
 

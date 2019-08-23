@@ -35,7 +35,7 @@ There are always many good possibilities for solving design problems. If you foc
 | section: Assignment: Design your own lamp
 | padding: 0
 
-<section><section>
+<section>
 
 <caption>Assignment</caption>
 
@@ -49,7 +49,7 @@ Grab a piece of paper and design/sketch your own lamp.
 * How will your RGB lamp interact with the environment?
 * Which input from the environment does your lamp react to? (e.g. time, light, noise, music, temperature, heart rate, feelings)
 
-</section></section>
+</section>
 
 -
 

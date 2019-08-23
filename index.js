@@ -23,5 +23,5 @@ fachwerk({
   //footer: true,
   menu: false,
   pager: false,
-  style: { "--image-min-height": "100px" }
+  style: { "--image-min-height": "100px", "--content-padding": "var(--base4)" }
 });
