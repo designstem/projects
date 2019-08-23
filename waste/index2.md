@@ -489,7 +489,7 @@ The following four hands-on exercises introduce some useful principles in the de
 
 ***TODO: Fix links***
 
-<!--
+<!--foldin
 
 <f-card @click.native="goto('folds')" background="var(--gray)" color="white" title="Optimization with folds" />
 
@@ -975,13 +975,18 @@ Let’s see if we can mimic dried clay and soap bubbles and modify them into pos
 
 <f-inline>
 
-<img src="./images/soap2.png" style="width: 50%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/This_must_be_art_%28explored%29_%284457914327%29.jpg/1280px-This_must_be_art_%28explored%29_%284457914327%29.jpg" style="width: 56%">
 
-<img src="./images/clay2.png" style="width: 50%">
+<img src="./images/clayground.jpg" style="width: 50%">
 
 </f-inline>
 
-***ERIK: Unknown sources***
+<f-notes title="Credits">
+
+Image sources: https://commons.wikimedia.org/wiki/File:This_must_be_art_(explored)_(4457914327).jpg
+https://pixabay.com/photos/drought-ground-clay-cracks-dry-964339/
+
+</f-notes>
 
 ---
 
@@ -1023,15 +1028,22 @@ When you cut a thigh bone you’ll see a foam structure that is optimally formed
 
 And: like foam bone could eliminate material by adapting to the change of the environment, but of course not at the same speed soap bubbles do! 
 
-***ERIK: Image credits***
+-
+
+<img src="./images/bubbles.jpg" style="width: 80%"/>
 
 -
 
-<img src="./images/soap2.png" />
+<img src="./images/bonestructure.jpg" />
 
--
+<f-notes title="Credits">
 
-<img src="./images/bone4.jpg" />
+Image sources:
+https://www.flickr.com/photos/roderickt-uk/6901706105/
+
+https://commons.wikimedia.org/wiki/File:Femur_(caput_femoris)_-_bone_structure_detail_(vertical_cut).jpg
+
+</f-notes>
 
 ---
 
@@ -1204,10 +1216,14 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 -
 
-***ERIK: Image credits***
+<img src="./images/sponge.jpg" />
 
-<img src="./images/shammy.png" />
+<f-notes title="Credits">
 
+Image source:
+https://commons.wikimedia.org/wiki/File:Sponge-viscose.jpg
+
+</f-notes>
 
 <!-- End of index1_optimization.md -->
 
@@ -1319,19 +1335,17 @@ Poo is a low value natural material, and you could make functional products of i
 
 <img src="./images/merdacotta1.jpg" />
 
-***ERIK: What about copyright?***
-
-<img src="./images/merdacotta2.png" />
-
-***ERIK: Unknown source.*** The caption says "Manangoiene Lemkuu with her son in front of their house made of dung and clay."
-
-
+<img src="./images/merdacotta2.jpg" />
 
 <f-notes title="Credits">
 
-http://www.theshitmuseum.org/prodotti/i-prodotti-da-tavola/
+Image source:
+
+Henrik Blomqvist for Museo della Merda
+
 
 </f-notes>
+
 
 ---
 
@@ -1546,13 +1560,20 @@ For example the **Foldaroid stool** by Anthony Yu Wei Tong.
 
 ## Folding
 
-Or what do you think of the **Zseat** by Studio Stallinga.
+Or what do you think of the **Z seat** by Studio Stallinga.
 
 -
 
-***ERIK: Image credits***
-
 <img src="./images/zseat.jpg" />
+
+<f-notes title="Credits">
+
+Image source:
+
+Studio Stallinga, www.stallinga.nl
+
+</f-notes>
+
 
 ---
 
@@ -1566,9 +1587,15 @@ A perfect example is the **Pop-up Lamp** by the French studio Well Well Designer
 
 -
 
-***ERIK: Image credits***
+<img src="./images/popuplamp.jpg" />
 
-<img src="./images/popuplamp.png" />
+<f-notes title="Credits">
+
+Image source:
+
+Well Well Designers, www.wellwelldesigners.com
+
+</f-notes>
 
 ---
 
@@ -1577,8 +1604,6 @@ A perfect example is the **Pop-up Lamp** by the French studio Well Well Designer
 <caption>Cut and Fold</caption>
 
 A bit more elaborate is the **Origami Folding Lamp** by Mirco Kirsch.
-
-***ERIK: Image credits***
 
 -
 
@@ -1592,13 +1617,20 @@ A bit more elaborate is the **Origami Folding Lamp** by Mirco Kirsch.
 
 <img src="./images/origamilamp4.jpg" />
 
+<f-notes title="Credits">
+
+Image source:
+
+Design Boom, www.designboom.com
+
+</f-notes>
+
 ---
 
 <caption>Cut and Fold</caption>
 
 Zev Bianchi and Bcompact design used a fancier version of cutting and folding called **kerf bending** to make the **Aviator Chair** out of one sheet of plywood. To the right you see there prototypes in paper.
 
-***ERIK: Image credits***
 
 <img src="./images/aviator3.png" />
 
@@ -1608,6 +1640,13 @@ Zev Bianchi and Bcompact design used a fancier version of cutting and folding ca
 
 <img src="./images/aviator2.png" />
 
+<f-notes title="Credits">
+
+Image source:
+
+Core77, www.core77.com
+
+</f-notes>
 
 ---
 
