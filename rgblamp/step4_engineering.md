@@ -1,11 +1,30 @@
-| chapter: Engineering 
-| section: Introduction
+| chapter: Engineering
+| section: Engineering introduction
+
+| 1 1
+| 2 2
+| 3 4
+| rows: auto auto 1fr
+
+<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+  <f-card
+    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    :background="i == 4 ? 'blue' :  'var(--transparent)'"
+    border="blue"
+    :title="c"/>
+</div>
+
+-
 
 # Engineering
+
+-
 
 ### 1. Develop the Solution
 
 Development involves the refinement and improvement of a solution, and it continues throughout the design process, often even after a product ships to customers.
+
+-
 
 ### 2. Test and Redesign
 
@@ -30,12 +49,10 @@ Create a spreadsheet  and make a detailed description of how the values of the t
 * What is the relationship between environmental parameters and colors?
 * How do you interpolate the missing values? (E.g. spline, keyframes)
 
-***TODO: Skip to communicaiton***
-
 -
 
 Outside temperature|Color|Red|Green|Blue
 ---|---|---|---|---
 Cold|Blue|`0`|`10`|`200`
 Warm|Yellow|`200`|`200`|`0`
-Hot|Red|200|`0`|`10`
+Hot|Red|`200`|`0`|`10`

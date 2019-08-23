@@ -1,11 +1,30 @@
-| chapter: Design 
-| section: Introduction
+| chapter: Research
+| section: Design introduction
+
+| 1 1
+| 2 2
+| 3 4
+| rows: auto auto 1fr
+
+<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+  <f-card
+    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    :background="i == 2 ? 'blue' :  'var(--transparent)'"
+    border="blue"
+    :title="c"/>
+</div>
+
+-
 
 # Design
+
+-
 
 ### 1. Specify Requirements
 
 Design requirements state the important characteristics that your solution must meet to succeed. One of the best ways to identify the design requirements for your solution is to analyze the concrete example of a similar, existing product, noting each of its key features.
+
+-
 
 ### 2. Brainstorm Solutions
 
@@ -13,7 +32,14 @@ There are always many good possibilities for solving design problems. If you foc
 
 ---
 
-## Assignment: Design your own RGB Lamp
+| section: Assignment: Design your own lamp
+| padding: 0
+
+<section><section>
+
+<caption>Assignment</caption>
+
+## Design your own RGB Lamp
 
 Grab a piece of paper and design/sketch your own lamp.
 
@@ -21,12 +47,13 @@ Grab a piece of paper and design/sketch your own lamp.
 
 * What is its function?  (e.g. aesthetics, decoration, information, communication, health, psychology)
 * How will your RGB lamp interact with the environment?
-* Which input from the environment does your lamp react to?  (e.g. time, light, noise, music, temperature, heart rate, feelings)
+* Which input from the environment does your lamp react to? (e.g. time, light, noise, music, temperature, heart rate, feelings)
 
+</section></section>
 
 -
 
-<img src="./imgs/cap2_2.png" style="width:95%; max-heigth:90%"/>
+<f-image src="./imgs/cap2_2.png" />
 
 <f-notes title="Credits">
 

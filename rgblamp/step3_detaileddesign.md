@@ -1,11 +1,30 @@
-| chapter: Detailed design 
-| section: Introduction
+| chapter: Detailed design
+| section: Detailed design introduction
+
+| 1 1
+| 2 2
+| 3 4
+| rows: auto auto 1fr
+
+<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+  <f-card
+    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    :background="i == 3 ? 'blue' :  'var(--transparent)'"
+    border="blue"
+    :title="c"/>
+</div>
+
+-
 
 # Detailed design
+
+-
 
 ### 1. Choose the Best Solution
 
 Look at whether each possible solution meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements.
+
+-
 
 ### 2. Develop the Solution
 
@@ -16,9 +35,9 @@ Development involves the refinement and improvement of a solution, and it contin
 ## How is color produced in devices?
 
 The RGB color model is an additive color model in which red, green and blue light are added together in various ways to reproduce a broad array of colors.
-The name of the model comes from the initials of the three additive primary colors, red, green, and blue.
 
-##### 🎛️ Adjust the values to get the maximum brightness in the central area
+
+##### 🎛️ Tune RGB to get the maximum brightness in the center
 
 <f-slider title="Red" value="64" to="255" integer set="r" />
 

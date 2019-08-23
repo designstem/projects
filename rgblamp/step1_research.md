@@ -1,35 +1,26 @@
 | chapter: Research
 | section: Introduction
 
-# Research
+| 1 1 1
+| 2 2 3
+| rows: auto 1fr
 
+<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+  <f-card
+    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    :background="i == 1 ? 'blue' :  'var(--transparent)'"
+    border="blue"
+    :title="c"/>
+</div>
 
-### 1. Define the Problem
+-
 
-The engineering design process starts when you ask the following questions about problems that you observe:
-
-* What is the need?
-* Who has the need?
-* Why is it important to satisfy the need?
-
-### 2. Do Background Research
+# Background research
 
 Learn from the experiences of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
 Read more</f-link>
 
-
----
-
-| background: ./images/philips_hue_b.jpg
-| theme: dark
-
-<center><div>
-
-***NOTE*** Can you use this image? If so, make it big 
-
-<f-next-button />
-
-</div></center>
+-
 
 ---
 
@@ -194,3 +185,4 @@ https://commons.wikimedia.org/w/index.php?search=fish+counter&title=Special%3ASe
 https://commons.wikimedia.org/w/index.php?sort=relevance&search=meat+counter&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1#/media/File:Maxim's_MX,_Chinese_Preserved_Meat_(Hong_Kong).jpg
 
 </f-notes>
+

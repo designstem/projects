@@ -1,10 +1,26 @@
 | chapter: Communication
-| section: Introduction
+| section: Communication introduction
+
+| 1 1 1
+| 2 2 3
+
+| rows: auto auto 1fr
+
+<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+  <f-card
+    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    :background="i == 6 ? 'blue' :  'var(--transparent)'"
+    border="blue"
+    :title="c"/>
+</div>
+
+-
 
 # Communication
 
 To complete your project, communicate your results to others in a final report and/or a display board. Professional engineers always do the same, thoroughly documenting their solutions so that they can be manufactured and supported. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
 
+-
 
 ---
 
