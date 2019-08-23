@@ -156,22 +156,6 @@ These two color qualities have the greatest influence on how a plant grows. Blue
 
 ---
 
--
-
-<f-theme theme="light" style="background: white">
-
-<img src="./imgs/cap3_7.png" />
-
-<f-theme>
-
-<f-notes title="Credits">
-
-https://en.wikipedia.org/wiki/Robert_Plutchik
-
-</f-notes>
-
----
-
 | padding: 0
 | gap: 0
 | 2 1 3
