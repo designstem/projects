@@ -5,9 +5,9 @@
 | 2 2 3
 | rows: auto 1fr
 
-<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+<div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
-    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    v-for="(c,i) in ['Problem definition','Background research','Design','Engineering','Prototyping','Communication']"
     :background="i == 1 ? 'blue' :  'var(--transparent)'"
     border="blue"
     :title="c"/>
@@ -153,6 +153,22 @@ These two color qualities have the greatest influence on how a plant grows. Blue
 -
 
 <f-image src="https://lh3.googleusercontent.com/gI8i5iiMbxRrk3-l2azsUEPK4DHTrathZ3rOwhmAg1yUbc970ideKwrwmL8Y-Nn7Yr7yTJIi24Tz5XLeqCHM5aluL-GqMtMH6H9XOR2RpivX90jcGoQxgTyVwigVToOoI1zLO6g1q9s7WAW6pEhnSD2sgJ77HJcSUOPsQek-FLsr6KTUAEi8z3uaSYXPby5NwGVGDw33AYFcWzxmC3ic2ujgvw1DjdY0dmdhDgYjZdhWwJVamCXdaiZZ793G6xwCjA9iOpXP0y6hNcrhENLxB9L1y_3dZVLOlQ8tv3_KvqS4jJUqZFOk_V9oj6Rq_wEM2FNvt1oC3mT9_r-JQo37OyooRwpLFORZ3VZJUqV6LQ-fM9EQnSm-SVfofLUup4ub3m25iQ8p-SCuJFt0zXzEsgxVEUGVktK5Qtk3mniczB8WPkqCQvUrU15ekJdOBrie3N8yvErxEW_e7PdLdT2ceKQQZs3abvHSr6wj7kM0JvdijZLeGHZCiTQ6IBRfSB4CNM4A66nPWbEXTUAbIV3SSXDMw67TcAybjdfRiJaiFN8fJEaNlVaBNHrFso0-OyshdkMPJBQ7BbDgpV2-pxByt798oJOwME-QeLNw3UJNBuv9Bivoqvp0wvjqNx_4daSrLGVY_WHkpJ2Lbih8g7LuqmCFWHcDkXzxiGHfmrDFu3cMMEixDUJ6wxE8ca9jrz4mjsOVLwbSIYMu07Xf5PqYk7WILg=w1000-h1332-no" />
+
+---
+
+-
+
+<f-theme theme="light" style="background: white">
+
+<img src="./imgs/cap3_7.png" />
+
+<f-theme>
+
+<f-notes title="Credits">
+
+https://en.wikipedia.org/wiki/Robert_Plutchik
+
+</f-notes>
 
 ---
 

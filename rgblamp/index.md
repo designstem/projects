@@ -35,65 +35,15 @@
 
 <f-video src="https://www.youtube.com/watch?v=7TOsFqqJgj4" />
 
-
----
-
-| section: Engineering design process
-| 1 1 1 1 1 1 1
-| 2 3 4 5 6 7 8
-| rows: auto 1fr
-| gap: 50px 15px
-
-## Engineering design process
-
-The engineering design process is a series of steps that engineers follow to come up with a solution to a problem. Many times the solution involves designing a product (like a machine or computer code) that meets certain criteria and/or accomplishes a certain task. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</f-link>
-
--
-
-<f-card title="Problem definition" color="var(--darkgray)">
-</f-card>
-
--
-
-<f-card title="Research" color="var(--darkgray)">
-</f-card>
-
--
-
-<f-card title="Design" color="var(--darkgray)">
-</f-card>
-
--
-
-<f-card title="Detailed design" color="var(--darkgray)">
-</f-card>
-
--
-
-<f-card title="Engineering" color="var(--darkgray)" style="opacity: 0.5">
-  Optional
-</f-card>
-
--
-
-<f-card title="Prototyping" color="var(--darkgray)" style="opacity: 0.5">
-  Optional
-</f-card>
-
--
-
-<f-card title="Communication" color="var(--darkgray)">
-</f-card>
-
 ---
 
 | 1 1 1
 | 2 2 3
 | rows: auto 1fr
 
-<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+<div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
-    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    v-for="(c,i) in ['Problem definition','Background research','Design','Engineering','Prototyping','Communication']"
     :background="i == 0 ? 'blue' :  'var(--transparent)'"
     border="blue"
     :title="c"/>

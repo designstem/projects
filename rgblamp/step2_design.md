@@ -6,9 +6,9 @@
 | 3 4
 | rows: auto auto 1fr
 
-<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+<div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
-    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    v-for="(c,i) in ['Problem definition','Background research','Design','Engineering','Prototyping','Communication']"
     :background="i == 2 ? 'blue' :  'var(--transparent)'"
     border="blue"
     :title="c"/>
@@ -39,7 +39,7 @@ There are always many good possibilities for solving design problems. If you foc
 
 <caption>Assignment</caption>
 
-## Design your own RGB Lamp
+## Sketch a RGB lamp
 
 Grab a piece of paper and design/sketch your own lamp.
 

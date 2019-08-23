@@ -1,14 +1,14 @@
-| chapter: Detailed design
-| section: Detailed design introduction
+| chapter: Engineering
+| section: Engineering introduction
 
-| 1 1
-| 2 2
-| 3 4
+| 1 1 1
+| 2 2 2
+| 3 4 5
 | rows: auto auto 1fr
 
-<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+<div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
-    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
+    v-for="(c,i) in ['Problem definition','Background research','Design','Engineering','Prototyping','Communication']"
     :background="i == 3 ? 'blue' :  'var(--transparent)'"
     border="blue"
     :title="c"/>
@@ -16,11 +16,11 @@
 
 -
 
-# Detailed design
+# Engineering
 
 -
 
-### 1. Choose the Best Solution
+### 1. Choose best Solution
 
 Look at whether each possible solution meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements.
 
@@ -29,6 +29,13 @@ Look at whether each possible solution meets your design requirements. Some solu
 ### 2. Develop the Solution
 
 Development involves the refinement and improvement of a solution, and it continues throughout the design process, often even after a product ships to customers. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+
+-
+
+### 3. Test and Redesign
+
+The design process involves multiple iterations and redesigns of your final solution. You will likely test your solution, find new problems, make changes, and test new solutions before settling on a final design. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+
 
 ---
 
@@ -65,17 +72,29 @@ The RGB color model is an additive color model in which red, green and blue ligh
 
 ---
 
+| 1 1
+| 2 3
+| rows: auto 1fr
+
 ## How many bits are needed to represent your bit depth?
 
-***TODO: Add tool***
+-
+
+#### 🎛️ Play
+
+Play with <a class="tertiary" href="https://designstem.github.io/scenarios/colorbits/">Bits and Colors</a>
+
+#### Read more
+
+https://docs.krita.org/en/general_concepts/colors/bit_depth.html
+
+-
 
 Bits|Colors|Description
 ---|---|---
 `1`|2|Only two colors in total, usually black and white
 `4`|16|Many early games were presented in this color palette
 `8  `|256|8bit images are commonly used in games to save on memory for textures and sprites
-
-<a class="tertiary" href="https://designstem.github.io/scenarios/colorbits/">Bits and Colors</a>
 
 ---
 
@@ -93,9 +112,7 @@ Play with <a class="tertiary" href="https://designstem.github.io/scenarios/rgbla
 
 Which colours will you able to obtain?
 
-
-
----
+-
 
 ##   Dynamic RGB Colors 
 
@@ -111,43 +128,31 @@ Play with <a class="tertiary" href="https://designstem.github.io/scenarios/rgbla
 
 Think which sequence of colours are you able to obtain?
 
-<f-next-button title="Next" />
-
 ---
 
-### 3. Detailed Design
+| 1 1 
+| 2 3
+| rows: auto 1fr
 
-## Assignment: Engineering your own RGB Lamp
+<caption>Assignment</caption>
 
-Grab a piece of paper and write a high-level description of how the values of the three different channels (red, green, blue) will react to the input from the environment.
-
-***KJ: The task is not entirely clear and image does not help***
-
-<big>Suggestions:</big>
-<ul>
-<li>make a diagram or a graph showing the relationship between input and colors.</li>
-
----
-
-| padding: 0
-
-<section><section>
-
-## Wheel of emotions
-
-</section></section>
+## RGB light reacting to external sources
 
 -
 
-<f-theme theme="light" style="background: white">
+Grab a piece of paper and write a high-level description of how the values of the three different channels (red, green, blue) will react to the input from the environment.
 
-<img src="./imgs/cap3_7.png" />
+Make a diagram or a graph showing the relationship between input and colors
 
-<f-theme>
+#### Key questions
 
-<f-notes title="Credits">
+* What is the relationship between environmental parameters and colors?
+* How do you interpolate the missing values? (E.g. spline, keyframes)
 
-https://en.wikipedia.org/wiki/Robert_Plutchik
+-
 
-</f-notes>
-
+Outside temperature|Color|Red|Green|Blue
+---|---|---|---|---
+Cold|Blue|`0`|`10`|`200`
+Warm|Yellow|`200`|`200`|`0`
+Hot|Red|`200`|`0`|`10`

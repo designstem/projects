@@ -6,10 +6,10 @@
 | 3 4
 | rows: auto auto 1fr
 
-<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+<div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
-    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
-    :background="i == 5 ? 'blue' :  'var(--transparent)'"
+    v-for="(c,i) in ['Problem definition','Background research','Design','Engineering','Prototyping','Communication']"
+    :background="i == 4 ? 'blue' :  'var(--transparent)'"
     border="blue"
     :title="c"/>
 </div>
@@ -29,40 +29,6 @@ A prototype is an operating version of a solution. Often it is made with differe
 ### 2. Test and Redesign
 
 The design process involves multiple iterations and redesigns of your final solution. You will likely test your solution, find new problems, make changes, and test new solutions before settling on a final design. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
-
----
-
-| padding: 0
-| gap: 0
-| 1 1 2 3 4
-
-<section><section>
-
-<caption>🛠️ Assignment</caption>
-
-## Build a RGB lamp
-
-Based on the access to physical hardware build either a **virtual** RGB lamp using <f-link to="https://www.tinkercad.com/">Tinkercad</f-link> or a **phsyical** prototype using Arduino and related hardware.
-
-<section><section>
-
--
-
-<f-image src="https://cdn.instructables.com/FI6/C4GA/JBQUIJS0/FI6C4GAJBQUIJS0.LARGE.jpg?auto=webp&frame=1&width=300&height=1024&fit=bounds"/>
-
--
-
-<f-image src="https://cdn.instructables.com/FZ4/Y44J/JBQUIJNJ/FZ4Y44JJBQUIJNJ.LARGE.jpg?auto=webp&frame=1&width=300&height=1024&fit=bounds">
-
--
-
-<f-image src="https://cdn.instructables.com/FM0/G22Z/JBQUIJO6/FM0G22ZJBQUIJO6.LARGE.jpg?auto=webp&frame=1&width=300&height=1024&fit=bounds" />
-
-<f-notes title="Credits">
-
-https://www.instructables.com/id/RGB-Lamp/
-
-</f-notes>
 
 ---
 
@@ -166,3 +132,37 @@ Temperature sensor TMP36|U1|`1`
 
 <f-image src="./images/arduino3.png" />
 
+---
+
+
+| padding: 0
+| gap: 0
+| 1 1 2 3 4
+
+<section><section>
+
+<caption>🛠️ Assignment</caption>
+
+## Build a RGB lamp
+
+Based on the access to physical hardware build either a **virtual** RGB lamp using <f-link to="https://www.tinkercad.com/">Tinkercad</f-link> or a **phsyical** prototype using Arduino and related hardware.
+
+<section><section>
+
+-
+
+<f-image src="https://cdn.instructables.com/FI6/C4GA/JBQUIJS0/FI6C4GAJBQUIJS0.LARGE.jpg?auto=webp&frame=1&width=300&height=1024&fit=bounds"/>
+
+-
+
+<f-image src="https://cdn.instructables.com/FZ4/Y44J/JBQUIJNJ/FZ4Y44JJBQUIJNJ.LARGE.jpg?auto=webp&frame=1&width=300&height=1024&fit=bounds">
+
+-
+
+<f-image src="https://cdn.instructables.com/FM0/G22Z/JBQUIJO6/FM0G22ZJBQUIJO6.LARGE.jpg?auto=webp&frame=1&width=300&height=1024&fit=bounds" />
+
+<f-notes title="Credits">
+
+https://www.instructables.com/id/RGB-Lamp/
+
+</f-notes>

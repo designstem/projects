@@ -6,10 +6,10 @@
 
 | rows: auto auto 1fr
 
-<div class="grid" style="--cols: repeat(7,1fr); --gap: 10px">
+<div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
-    v-for="(c,i) in ['Problem definition','Background research','Design','Detailed design','Engineering','Prototyping','Communication']"
-    :background="i == 6 ? 'blue' :  'var(--transparent)'"
+    v-for="(c,i) in ['Problem definition','Background research','Design','Engineering','Prototyping','Communication']"
+    :background="i == 5 ? 'blue' :  'var(--transparent)'"
     border="blue"
     :title="c"/>
 </div>
