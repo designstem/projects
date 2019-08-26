@@ -1,4 +1,4 @@
-| section: START
+| section: Introduction
 | theme: dark
 | rows: 1fr auto
 | 1 1 1 1 1 3 3 3
