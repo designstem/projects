@@ -1,3 +1,4 @@
+
 | chapter: Introduction
 | topic: First page
 
@@ -26,6 +27,8 @@
 -
 
 ---
+
+
 
 
 
@@ -652,6 +655,62 @@ Following the previous example, assume now that the point A is known by its pola
 
 
 
+<f-slider 
+    title="Circle radius"
+    :value="100" 
+    set="radius"
+    from="0"
+    to="200" 
+/>
+<f-slider 
+    title="Active point"
+    :value="8" 
+    set="active"
+    from="0"
+    to="35"
+    :step="1" 
+/>
+
+-
+
+<f-artboard responsive width="600" height="400">
+  <g transform="translate(300 200)">
+    <Spiral :cycles="1" :padding="0" :startX="get('radius', 100)" :activePoint="get('active', 8)" :info="false" />
+  </g>
+</f-artboard>
+
+-
+
+<f-slider 
+    title="Cycles"
+    :value="2" 
+    set="cycles"
+    from="0"
+    to="20" 
+/>
+<f-slider 
+    title="Spiral growth"
+    :value="20" 
+    set="padding"
+    from="0"
+    to="200" 
+/>
+
+-
+
+<f-artboard responsive width="600" height="600">
+  <g transform="translate(300 300)">
+    <Spiral 
+      :cycles="get('cycles')" 
+      :padding="get('padding')" 
+      :startX="get('radius', 100)" 
+      :info="true" 
+      :activePoint="get('active', 8)"
+      />
+  </g>
+</f-artboard>
+
+---
 
 
 
