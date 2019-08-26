@@ -4,10 +4,12 @@
 | theme: dark
 | background: ./images/tech-7.jpg
 | tint: 0.7
+| style: background-position:center;
 
+| cols: 1fr 4fr
 | rows: auto
-| 1
-| 2
+| 3 1
+| 3 2
 
 -
 
@@ -21,6 +23,8 @@
 
 <f-next-button title="Start" />
 
+-
+
 ---
 
 
@@ -28,38 +32,53 @@
 
 
 
-
-| cols: 1fr 3fr
-| 1 2
-| 3 4
-| 5 6
-| 7 8
+| theme: dark
 
 
-## Discove&shy;ring Spirals
+
+<!-- ## Discove&shy;ring Spirals
 
 Spiral is a very common shape in nature and in as well as every day life. In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
 
--
+Spiral patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs etc.
 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap:0; height:40vh;">
+**Architects** also use the spirals to shape buildings and components like stairs.
+
+Finally spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time. -->
+
+
+<div class="grid masonry" style="--cols: 1fr 1fr 1fr 1fr; grid-template-rows:repeat( 1fr) ; --gap:0;">
+
+  <div style="padding:var(--base3); grid-column:1 / span 2">
+    
+  ## Dis&shy;cove&shy;ring spirals
+  
+  Spiral is a very common shape in nature and in as well as every day life. 
+
+  </div>
+
   <f-image src="./images/nature-1.jpg" />
   <f-image src="./images/nature-2.jpg" />
-  <f-image src="./images/nature-3.jpg" />
+  <f-image src="./images/nature-3.jpg"  />
   <f-image src="./images/nature-4.jpg" />
+
+  <div style="padding:var(--base3)">
+
+  In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
+  
+  </div>
+
   <f-image src="./images/nature-5.jpg" />
   <f-image src="./images/nature-6.jpg" />
   <f-image src="./images/nature-7.jpg" />
   <f-image src="./images/nature-9.jpg" />
-</div>
 
--
+  <div style="padding:var(--base3)">
 
-Spiral  patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs etc.
+  Spiral patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs etc.
+  
+  </div>
 
--
-
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap:0; height:40vh;">
   <f-image src="./images/tech-1.jpg" />
   <f-image src="./images/tech-2.jpg" />
   <f-image src="./images/tech-3.jpg" />
@@ -68,49 +87,48 @@ Spiral  patterns can be also met in parts of **mechanical constructions**: turbi
   <f-image src="./images/tech-6.jpg" />
   <f-image src="./images/tech-7.jpg" />
   <f-image src="./images/tech-8.jpg" />
-</div>
 
--
+  <div style="padding:var(--base3)">
 
-**Architects** also use the spirals to shape buildings and components like stairs.
+  **Architects** also use the spirals to shape buildings and components like stairs.
+  
+  </div>
 
--
-
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap:0; height:40vh;">
   <f-image src="./images/architecture-1.jpg" />
   <f-image src="./images/architecture-2.jpg" />
-  <f-image src="./images/architecture-3.jpg" />
+  <f-image src="./images/architecture-9.jpg" />
   <f-image src="./images/architecture-4.jpg" />
   <f-image src="./images/architecture-5.jpg" />
   <f-image src="./images/architecture-6.jpg" />
-  <f-image src="./images/architecture-7.jpg" />
-  <!-- <f-image src="./images/architecture-8.jpg" /> -->
-</div>
+  <f-image src="./images/architecture-8.jpg" />
+  <f-image src="./images/architecture-7.jpg" style="grid-column:1 / span 2" />
 
--
+  <div style="padding:var(--base3)">
 
-Finally spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time.
+  Spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time.
+  
+  </div>
 
--
-
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap:0; height:40vh;">
-  <f-image src="./images/nature-1.jpg" />
-  <f-image src="./images/nature-2.jpg" />
-  <f-image src="./images/nature-3.jpg" />
-  <f-image src="./images/nature-4.jpg" />
-  <f-image src="./images/nature-5.jpg" />
-  <f-image src="./images/nature-6.jpg" />
-  <f-image src="./images/nature-7.jpg" />
-  <f-image src="./images/nature-8.jpg" />
+  <f-image src="./images/art-3.jpg" />
+  <f-image src="./images/art-4.jpg" />
+  <f-image src="./images/art-5.jpg" />
+  <f-image src="./images/art-6.jpg" />
+  <f-image src="./images/art-7.jpg" />
 </div>
 
 ---
 
-| 1 1 1 1
-| 2 3 4 5
+
+
+
+
+
+| theme: light
+| 1 1 1 
+| 2 3 4 
 | rows: auto
 
-***TASK***
+***TASK*** <f-activity-icon />
 
 Watch the following videos about the spirals and try answer the questions in the following [worksheet](https://spiralsdesignstem.files.wordpress.com/2018/07/worksheet-1-1.docx)
 
@@ -128,197 +146,520 @@ Demo on Fibonacci Sequence Spirals in Nature – The Golden Ratio
 
 -
 
-<f-video src="https://www.youtube.com/watch?v=GiSd2OrYP8s" />
-
-Spiral shapes in nature
-
--
-
 <f-video src="https://www.youtube.com/watch?v=aIUu5uMKB70" />
 
 Why Are Most Galaxies Spiral-Shaped?
 
 ---
 
+
+
+
+
+
+
+
+| rows: auto
+
 <!-- 2. Working with spirals -->
+## Practicing in Spreadsheets
 
+Here, you will be able to draw different Archimedean spiral shapes using an Excel spreadsheet. The Excel file contains two spreadsheets: the first labeled “Archimedean Spiral” in which you may type in the basic parameters and draw the corresponding spiral and the second labeled “Explanation” in which you are given the instructions how to setup your own spiral shape in Excel.
 
-# Practicing in Spreadsheets
+You can download the Excel spreadsheet here: [Spiral Shape in Excel](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral-shape-in-excel1.xls) (XSL)
 
-Here, you will be able to draw different Archimedean spiral shapes using an Excel spreadsheet. The Excel file contains two spreadsheets :  the first labeled “Archimedean Spiral” in which you may type in the basic parameters and draw the corresponding spiral and the second labeled “Explanation” in which you are given the instructions how to setup your own spiral shape in Excel.
+<br>
 
-<div class="grid">
+<f-next-button />
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/excel1.jpg?w=434&h=456) 
+-
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/excel21.jpg?w=585&h=460)
+<div style="height:80vh; ">
+
+<f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/excel1.jpg" style="--image-min-height:40vh; --image-height:40vh;" />
+<f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/excel21.jpg" style="--image-min-height:40vh; --image-height:40vh;" />
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/excel1.jpg?w=434&h=456) 
+
+![](https://spiralsdesignstem.files.wordpress.com/2018/09/excel21.jpg?w=585&h=460) -->
 
 </div>
 
-You may download the Excel spreadsheet here: [Spiral Shape in Excel](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral-shape-in-excel1.xls) (XSL)
+
+
+
+
+
 
 
 ---
 
-# 2D, 3D Spirals in Geogebra
+| rows: auto 
+| cols: 3fr 2fr
+| 1 1
+| 2 3
+| 4 4
 
+## 2D, 3D Spirals in Geogebra
+
+-
 
 Geogebra is a free online math tools for graphing, geometry, 3D modelling etc.
 
-The 3D version of Geogebra is available in the following link:
+<br>
 
-https://www.geogebra.org/3d
+<f-inline>
 
-Also, in the link below you can access a brief introduction of the Geogebra tool:
+  <f-link to="https://www.geogebra.org/2d" class="button tertiary">Geogebra 2D version</f-link>
 
-https://spiralsdesignstem.files.wordpress.com/2018/10/what-is-geogebra.pdf
+  <f-link to="https://www.geogebra.org/3d" class="button tertiary">Geogebra 3D version</f-link>
 
-In this example it will be used as a practicing tool for creating 3D spirals.
+</f-inline>
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/pic4.jpg)
+<br>
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/pic5.jpg)
+<f-link to="https://spiralsdesignstem.files.wordpress.com/2018/10/what-is-geogebra.pdf">Short introduction to Geogebra</f-link> (pdf)
 
-## Geogebra examples
+In our example Geogebra will be used as a practicing tool for creating 3D spirals.
 
-Spiral 1: https://www.geogebra.org/m/usfyzvuc
+-
 
-Spiral 2: https://www.geogebra.org/m/scky7tbf
+### Geogebra examples
 
-Spiral 3: https://www.geogebra.org/m/yctfkmjg
+<f-link to="https://www.geogebra.org/m/aKC2MESg">Spiral types in Geogebra</f-link>
 
-Spiral 4: https://www.geogebra.org/m/jkvcnjpd
+#### 3D spiral examples:
 
-Screw: https://www.geogebra.org/m/pdrtw9uv
+Spiral 1: <f-link to="https://www.geogebra.org/m/usfyzvuc">geogebra.org/m/usfyzvuc</f-link>
+Spiral 2: <f-link to="https://www.geogebra.org/m/scky7tbf">geogebra.org/m/scky7tbf</f-link>
+Spiral 3: <f-link to="https://www.geogebra.org/m/yctfkmjg">geogebra.org/m/yctfkmjg</f-link>
+Spiral 4: <f-link to="https://www.geogebra.org/m/jkvcnjpd">geogebra.org/m/jkvcnjpd</f-link>
+Screw:    <f-link to="https://www.geogebra.org/m/pdrtw9uv">geogebra.org/m/pdrtw9uv</f-link>
 
-***TASK*** 1
+-
 
-Open the Geogebra application in https://www.geogebra.org/3d
-
-Start practicing in creating 3D spirals, following the instructions of the [Worksheet 1](https://spiralsdesignstem.files.wordpress.com/2018/10/worksheet-spiral.pdf) (PDF)
-
-***TASK*** 2
-
-Open the Geogebra application in https://www.geogebra.org/3d
-
-Start practicing in creating 3D spirals, following the instructions of the [Worksheet 2](https://spiralsdesignstem.files.wordpress.com/2018/11/archimedean-spiral-worksheet.pdf) (PDF)
+<f-next-button />
 
 ---
 
+
+
+
+
+
+
+
+| 1 
+| 2
+| 3 
+
+
+## <f-activity-icon /> Task 1
+
+Open the Geogebra application in https://www.geogebra.org/3d
+
+Start practicing in creating 3D spirals, following the instructions of the <f-link to="https://spiralsdesignstem.files.wordpress.com/2018/10/worksheet-spiral.pdf">Worksheet 1</f-link> (PDF)
+
+-
+
+## <f-activity-icon /> Task 2
+
+Open the Geogebra application in https://www.geogebra.org/3d
+
+Start practicing in creating 3D spirals, following the instructions of the <f-link to="https://spiralsdesignstem.files.wordpress.com/2018/11/archimedean-spiral-worksheet.pdf">Worksheet 2</f-link> (PDF)
+
+-
+
+<f-next-button />
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| theme: dark
+
+<center>
+<div style="padding:5vh 10vw">
+
+  # Basics of trigono&shy;metry and polar coordi&shy;nates
+  
+  <br />
+
+  <f-next-button />
+  
+</div>
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
 <!-- 3. Background -->
 
-# Basics of trigonometry, Polar coordinates
 
-In order to design a spiral you first need to recall the basic knowledge from trigonometry, a know the basic notation of trigonometry which is the branch of mathematics dealing with the relations of the sides and angles of triangles.
+| 1 3
+| 2 3
+| 4 4
 
-## The sides of an orthogonal triangle
+<caption>Basics of trigonometry and polar coordinates</caption>
 
-Assume that there is an orthogonal triangle (a triangle with one angle equal to 90o). The side that is always is always opposite the right angle is called “hypotenuse”. This is the longest side in the orthogonal triangle.
+## Basics of trigonometry
 
-If we choose an angle θ other the right angle, the side that lies opposite to it is called  “opposite”. The third angle, not in the opposite side is called “adjacent” sides. Next figure  shows the sides of the orthogonal triangle, labeled a, b and c.
+-
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/triangle.jpg)
+In order to design a spiral you first need to recall the basic knowledge from trigonometry, a know the basic notation of trigonometry which is the branch of mathematics dealing with the **relations of the sides and angles of triangles**.
 
-The length of the three sides a, b and c of an orthogonal triangle are linked with “Pythagorean equation” equation
+### The sides of an orthogonal triangle
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq1.jpg?w=134&h=42&zoom=2)
+Assume that there is an orthogonal triangle (a triangle with one angle equal to 90°). The side that is always opposite to the right angle is called <f-math inline red>**"hypotenuse"**</f-math>. This is the longest side in the orthogonal triangle.
 
-This equation states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.
+If we choose an angle <f-math inline>θ</f-math> other the right angle, the side that lies opposite to it is called <f-math inline blue>"opposite"</f-math>. The third angle, not in the opposite side is called <f-math inline green>"adjacent"</f-math> sides. Let's call the sides <f-math inline green>a</f-math>, <f-math inline blue>b</f-math> and <f-math inline red>c</f-math>.
+
+The length of the three sides <f-math inline green>a</f-math>, <f-math inline blue>b</f-math> and <f-math inline red>c</f-math> of an orthogonal triangle are linked with **“Pythagorean equation”**
+
+<f-math>\color{blue}a^2 \color{black}+ \color{green}b^2 \color{black}= \color{red}c^2</f-math>
+
+This equation states that **the square of the hypotenuse** (the side opposite the right angle) is equal to **the sum of the squares of the other two sides**.
+
+-
+
+<div style="position:sticky; top:0;">
+  <f-scene responsive style="max-width:700px;">
+    <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="5" markerHeight="5"
+      orient="auto-start-reverse" fill="lightgray" >
+        <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+    </defs>
+    <f-arc position="-1.5 -1" start-angle="90" end-angle="130" r="0.4" inner-radius="0.4" stroke-width="2" />
+    <f-line points="-1.5 -1, 1 -1"  :stroke="color('green')" />
+    <f-line points="1 -1, 1  1"     :stroke="color('blue')" />
+    <f-line points="1 1, -1.5 -1"     :stroke="color('red')" />
+    <f-box r="0.2" position="0.9 -0.9" strokeWidth="2" />
+    <polyline points="-1.05,-0.85 0.85,-0.1" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
+    <polyline points="0.9,-0.9 -0.2,-0.1" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
+    <f-text :fill="color('red')" position="-0.6 0.5">Hypotenuse:c</f-text>
+    <f-text :fill="color('green')" position="-0.2 -1.3">Adjascent:a</f-text>
+    <f-text :fill="color('blue')" position="1.3 0" rotation="90">Opposite:b</f-text>
+    <f-text position="-1.5 -0.8" style="font-size:120%">θ</f-text>
+  </f-scene>
+</div>
+
+-
+
+<br>
+
+<f-next-button />
+
+---
+
+
+
+| 1 2
+| 3 4
+| 5 5
+
+<caption>Basics of trigonometry and polar coordinates</caption>
 
 ## Trigonometric Ratios
 
 The ratios (fractions) of the sides a, b and c  of an orthogonal right triangle are called trigonometric ratios. Three common trigonometric ratios are the sine (**sin**), cosine (**cos**), and tangent (**tan**). For any angle θ such that of the triangle in Figure 1, these are defined for as follows:
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq21.jpg)
+<f-math>sin(θ) = \frac{\color{blue}Opposite}{\color{red}Hypotenuse} = \frac{\color{blue}b}{\color{red}c}</f-math><f-math>cos(θ) = \frac{\color{green}Adjascent}{\color{red}Hypotenuse} = \frac{\color{green}a}{\color{red}c}</f-math><f-math>tan(θ) = \frac{\color{blue}Opposite}{\color{green}Adjascent} = \frac{sin θ}{cos θ} = \frac{\color{blue}b}{\color{green}a}</f-math>
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq31.jpg)
+To remember these definitions, note the following:
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq41.jpg)
+<f-math>Sine = \frac{\color{blue}Opposite}{\color{red}Hypotenuse}</f-math><f-math>Cosine = \frac{\color{green}Adjascent}{\color{red}Hypotenuse}</f-math><f-math>Tangent = \frac{\color{blue}Opposite}{\color{green}Adjascent}</f-math>
 
-To remember these definitions, note the following :
+By applying the Pythagorean equation to the trigonometric ratios derives that, for any angle θ in an orthogonal triangle holds
 
-Sine = Opposite ÷ Hypotenuse
+<f-math>sin^2(θ) + cos^2(θ) = 1</f-math>
 
-Cosine = Adjacent ÷ Hypotenuse
+-
 
-Tangent = Opposite ÷ Adjacent
+<div style="position:sticky; top:0;">
+  <f-scene responsive style="max-width:700px;">
+    <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="5" markerHeight="5"
+      orient="auto-start-reverse" fill="lightgray" >
+        <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+    </defs>
+    <f-arc position="-1.5 -1" start-angle="90" end-angle="130" r="0.4" inner-radius="0.4" stroke-width="2" />
+    <f-line points="-1.5 -1, 1 -1"  :stroke="color('green')" />
+    <f-line points="1 -1, 1  1"     :stroke="color('blue')" />
+    <f-line points="1 1, -1.5 -1"     :stroke="color('red')" />
+    <f-box r="0.2" position="0.9 -0.9" strokeWidth="2" />
+    <polyline points="-1.05,-0.85 0.85,-0.1" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
+    <polyline points="0.9,-0.9 -0.2,-0.1" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
+    <f-text :fill="color('red')" position="-0.6 0.5">Hypotenuse:c</f-text>
+    <f-text :fill="color('green')" position="-0.2 -1.3">Adjascent:a</f-text>
+    <f-text :fill="color('blue')" position="1.3 0" rotation="90">Opposite:b</f-text>
+    <f-text position="-1.5 -0.8" style="font-size:120%">θ</f-text>
+  </f-scene>
+</div>
 
-By applying the Pythagorean equation to the trigonometric ratios derives that, for any angle θ  in an orthogonal triangle holds
+-
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq6.jpg)
+### Example
 
-#### Example
+Let the triangle <f-math inline>ABC</f-math> be with sides 3, 4 and 5.
 
-Let the triangle ABC with length sides 5, 4 and 3.
+In the above triangle <f-math inline>ABC</f-math>, the trigonometric ratios of the angle <f-math inline>A</f-math> are calculated:
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/triangle1.jpg?w=135&zoom=2)
+<f-math>sin(A) = \frac{\color{blue}CB}{\color{red}AB} = \frac{\color{blue}3}{\color{red}5} = 0.6</f-math><f-math>cos(A) = \frac{\color{green}AC}{\color{red}AB} = \frac{\color{green}4}{\color{red}5} = 0.8</f-math><f-math>tan(A) = \frac{\color{blue}CB}{\color{green}AC} = \frac{\color{blue}3}{\color{green}4} = 0.75</f-math>
 
-In the above triangle ABC,  the trigonometric ratios of the angle A are calculated:
+or by using the values of <f-math inline>sin(A)</f-math> and <f-math inline>cos(A)</f-math> 
 
-<f-math>
-sin(A) = \frac{CB}{AB} = \frac{3}{5}= 0.6
-</f-math>
-
-<f-math>
-cos(A) = \frac{AC}{AB} = \frac{4}{5} = 0.8
-</f-math>
-
-<f-math>
-tan(A) = \frac{CD}{AC} = \frac{3}{4} = 0.75
-</f-math>
-
-or by using the values of sin A and cos A  tan A=sin A / cos A = 0.6/0.8 = 0.75.
+<f-math>tan(A) = \frac{sin(A)}{cos(A)} = \frac{0.6}{0.8} = 0.75</f-math>
 
 In this example we can verify that 
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq5.jpg)
+<f-math>\color{red}AB\color{black}^2 = \color{green}AC\color{black}^2 + \color{blue}BC\color{black}^2 or</f-math><f-math>\color{red}5\color{black}^2 = \color{green}4\color{black}^2 + \color{blue}3\color{black}^2 or</f-math><f-math>\color{red}25\color{black} = \color{green}16\color{black} + \color{blue}9\color{black}</f-math>
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq5.jpg) -->
 
 Moreover,  
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq72.jpg)
+<f-math inline>sin^2(A) + cos^2(A) = 1 </f-math> or<br /><f-math inline>0.6^2 + 0.8^2 = 0.36 + 0.64 = 1</f-math>
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq72.jpg) -->
+
+-
+
+<div style="position:sticky; top:0;">
+  <f-scene responsive style="max-width:600px;">
+    <f-arc position="-1.5 -1" start-angle="90" end-angle="125" r="0.4" inner-radius="0.4" stroke-width="2" />
+    <f-line points="-1.5 -1, 1.5 -1"  :stroke="color('green')" />
+    <f-line points="1.5 -1, 1.5  1.25"     :stroke="color('blue')" />
+    <f-line points="1.5 1.25, -1.5 -1"     :stroke="color('red')" />
+    <f-box r="0.2" position="1.4 -0.9" strokeWidth="2" />
+    <f-text :fill="color('red')" position="0 0.4">5</f-text>
+    <f-text :fill="color('green')" position="0 -1.3">4</f-text>
+    <f-text :fill="color('blue')" position="1.3 0">3</f-text>
+    <f-text position="-1.6 -1.2">A</f-text>
+    <f-text position="1.6 1.3">B</f-text>
+    <f-text position="1.6 -1.2">C</f-text>
+  </f-scene>
+</div>
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/triangle1.jpg?w=135&zoom=2) -->
+
+-
+
+<br />
+
+<f-next-button />
 
 
-## Cartesian and Polar Coordinates 
 
-Any point in the plane can be defined by its coordinates (**X**, **Y**). (X, Y) is a pair of numbers denoting the distances from two perpendicular lines: the vertical line (-axis) and the horizontal line (-axis). For example, in the next figure  the point A is defined as a pair (3,4) , where X=3 and Y=4. These are called Cartesian coordinates.
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg)
 
-However, in many cases such that of drawing a spiral, a different expression is needed. One may notice that instead of using (x , y) as the coordinates of point A, the distance from the zero point r and the angle θ may equivalently be used. This means that the position of any point in the plane can be described by the pair (r, θ). These are called Polar coordinates of the point A.
 
-Cartesian and Polar coordinates are equivalent and can be converted from one type to another.
 
-#### Example 1. Find the Polar coordinates
 
-Assume that  a point A(3,4)  is given. According to the next figure, the grey triangle is orthogonal with opposite and adjacent sides equal to y=4 and x=3, respectively.
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/plane21.jpg)
-
-The hypotenuse is the distance r and can be estimated by applying the Pythagorean equation as
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq8.jpg)
-
-From the same triangle, angle θ can be estimated indirectly in terms of the tan(θ) ratio.
-
-Indeed
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq9.jpg)
-
-Note the value of  θ derives by the  inverse function of tan. Any typical scientific calculator includes this option.
-
-## Example 2
-
-Following the Example 1 , assume now that the point A is known by its polar coordinates (5, 53,06º). Its Cartesian coordinates derive by applying the trigonometric ratios cos() and sin() as follows.
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq10.jpg)
 
 ---
 
-# Mathematics of 2D and 3D Archimedean spirals
+| 1 1
+| 2 3
+| 4 5
+| 6 6
 
-This section will help you understand the mathematics and particular the equations and formulas from which 2D and 3D spirals derive.
+<caption>Basics of trigonometry and polar coordinates</caption>
 
-## Equations of 2D Archimedean spirals
+## Cartesian and Polar Coordinates 
+
+-
+
+### Cartesian coordinates
+
+Any point in the plane can be defined by its coordinates (**X**, **Y**). (X, Y) is a pair of numbers denoting the distances from two perpendicular lines: the vertical line (-axis) and the horizontal line (-axis). For example, in the next figure the point A is defined as a pair (3,4), where X=3 and Y=4. These are called Cartesian coordinates.
+
+-
+
+<f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg" style="--image-size:contain; --image-height:30vh;" />
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg) -->
+
+-
+
+### Polar coordinates
+
+However, in many cases such that of drawing a spiral, a different expression is needed. One may notice that instead of using (x, y) as the coordinates of point A, the **distance from the zero point r and the angle θ** may equivalently be used. This means that the position of any point in the plane can be described by the pair (r, θ). These are called **Polar coordinates of the point A**.
+
+> Cartesian and Polar coordinates are equivalent and can be converted from one type to another.
+
+-
+
+<f-image src="./images/polar-coordinates.png" style="--image-size:contain; --image-height:30vh; --image-position:center;" />
+
+<!-- ![](./images/polar-coordinates.png) -->
+
+-
+
+<f-next-button />
+
+---
+
+
+
+
+| 1 1
+| 2 3
+| 4 3
+| 5 5
+
+<caption>Basics of trigonometry and polar coordinates</caption>
+
+## Calculation of Polar coordinates
+
+-
+
+#### 1. Find the Polar coordinates from Cartesian coordinates
+
+Assume that a point A(3,4) is given. According to the next figure, the grey triangle is orthogonal with opposite and adjacent sides equal to y=4 and x=3, respectively.
+
+The **hypotenuse is the distance r** and can be estimated by applying the Pythagorean equation as
+
+<f-math>\color{red}r^2 \color{black} = \color{blue}x^2 \color{blaxk}+ \color{green}y^2 \color{black}= \color{blue}3^2 \color{black}+ \color{green}4^2 \color{black}= \color{blue}9 \color{black}+ \color{green}16 \color{black}= 25</f-math><f-math>\color{red}r \color{black}= \sqrt{25} = 5</f-math>
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq8.jpg) -->
+
+From the same triangle, **angle θ can be estimated** indirectly in terms of the tan(θ) ratio.
+
+Indeed
+
+<f-math>tan(θ) = \frac{\color{green}y}{\color{blue}x} = \frac{\color{green}4}{\color{blue}3} = 1.33</f-math><f-math>θ = tan^{-1}(1.33) = 53.06\degree</f-math>
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq9.jpg) -->
+
+👉Note the value of θ derives by the **inverse function of tangens** (tan<sup>-1</sup>). Any typical scientific calculator includes this option.
+
+-
+
+<f-scene responsive style="position:sticky; top:25vh; max-width:700px;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="5" markerHeight="5"
+      orient="auto-start-reverse" fill="lightgray" >
+        <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+    </defs>
+    <polyline points="0,-1.9 0,1.9" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
+    <polyline points="-1.9,0 1.9,0" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
+    <f-circle r="1.5" strokeWidth="2" :stroke="color('gray')" />
+    <f-polygon :points="[ [0,0], polarxy(90,0.75), polarxy(150, 1.5) ]" :fill="color('yellow')" stroke opacity="0.6" />
+    <f-line points="0 0, 0 1.31" :stroke="color('green')" />
+    <f-polygon :points="[ [0,0], polarxy(90,0.75), polarxy(150, 1.5) ]" strokeWidth="2" />
+    <f-line points="0 0, 0.75 0" :stroke="color('blue')" />
+    <f-line :points="[[0,0],polarxy(150, 1.5)]" :stroke="color('red')" />
+    <f-arc position="0 0" start-angle="90" end-angle="150" r="0.45" inner-radius="0.45" stroke-width="1" />
+    <f-box r="0.1" position="0.7 0.05" strokeWidth="1" />
+    <f-text :position="polarxy(140,1.9)">A(x:3,y:4)</f-text>
+    <f-text position="-0.1 0.6" :fill="color('green')" rotation="90" scale="0.75">sin θ</f-text>
+    <f-text position="0.4 -0.25" :fill="color('blue')" scale="0.75">cos θ</f-text>
+    <f-text :position="polarxy(155, 0.75)" :fill="color('red')" scale="0.75">r</f-text>
+    <f-text position="0.22 0.05" >θ</f-text>
+    <f-text position="1.9 0.1" scale="0.75">x</f-text>
+    <f-text position="0.15 1.85" scale="0.75">y</f-text>
+    
+</f-scene>
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/plane21.jpg) -->
+
+-
+
+#### 2. From Polar to Cartesian coordinates
+
+Following the previous example, assume now that the point A is known by its polar coordinates (5, 53.06°). Its Cartesian coordinates derive by applying the trigonometric ratios cos() and sin() as follows.
+
+<f-math>cos(θ) = \frac{\color{blue}x}{\color{red}r}</f-math><f-math>{\color{blue}x} = {\color{red}r} \times cos(θ) = {\color{red}5} \times cos(53.06\degree) = {\color{red}5} \times 0.6 = \color{blue}3</f-math>
+<f-math>sin(θ) = \frac{\color{green}y}{\color{red}r}</f-math><f-math>{\color{green}y} = {\color{red}r} \times sin(θ) = {\color{red}5} \times sin(53.06\degree) = {\color{red}5} \times 0.8 = \color{green}4</f-math>
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq10.jpg) -->
+
+-
+
+<f-next-button />
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+| theme: dark
+
+<center>
+<div style="padding:5vh 10vw">
+
+  # Mathe&shy;matics of 2D and 3D Archi&shy;medean spirals
+
+  This section will help you understand the mathematics and particular the equations and formulas from which 2D and 3D spirals derive.
+
+  <br />
+
+  <f-next-button />
+  
+</div>
+</center>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<caption>Mathematics of 2D and 3D Archimedean spirals</caption>
+
+## Equations of 2D Archi&shy;medean spirals
 
 Assume that a point is described by its polar coordinates (r, θ). Remember that r is the radius, the distance of the point from the center of the axes and θ is the angle formed between the radius and x axis (see next figure).
 
@@ -330,8 +671,8 @@ In the previous movement, if we assume that *r* is not constant but increases gr
 
 To draw an Archimedian spiral, two basic parameters need to define :
 
-*   the starting point on the x axis (lets call it **α**) and
-*   the distance **d** between two consecutive lines of the spiral.
+- the starting point on the x axis (lets call it **α**) and
+- the distance **d** between two consecutive lines of the spiral.
 
 The most usual case  of an Archimedian spiral is that when the spiral shape begins from the beginning of the axes x and y. In such a case  α=0.
 
@@ -348,6 +689,13 @@ The following figure, explains the above equations in terms of the polar coordin
 ![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-1.jpg?w=1024&h=671)
 
 Based on the above equations,  any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates  x and y are calculated and the corresponding point (x,y) in plotted in the plane.
+
+---
+
+
+
+
+
 
 ## Equations of 3D spirals
 
