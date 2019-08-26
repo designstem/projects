@@ -487,9 +487,6 @@ Black tea
 
 Rooibos tea
 
-***ERIK / JANIKA: Can we use these photos?***
-
----
 
 <f-notes title="Credits">
 
