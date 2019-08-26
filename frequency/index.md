@@ -171,7 +171,7 @@ Watch the following videos and define frequency in your own words and describe a
 
 ---
 
-| background: images/example.jpg
+| background: images/frequency.jpg
 | theme: dark
 | tint: 0.2
 
@@ -478,7 +478,7 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 
 ~The most common way to experience noticeable visual distortion<br>caused by frequency is by having the phenomenon occurring on a screen.~
 <br> 
-Watch following clip and observe <br><var> the movement of the wagon wheels </var>
+Watch following clip <small>(first 5 sec)</small> and observe <br>the movement of the <var>wagon wheels</var>
 
 <p />
 
@@ -511,14 +511,14 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 
 <br>
 
-><f-fact-icon size="small" /><small> In other words, the movie clip is just a frequent series of pictures (frames) played very quickly (movies usually have 24 fps) and the **wheels were rotating quickly enough not to be in sync in every frame** ; this produces a natural visual impression of rotating wheel.</small> 
+><f-fact-icon size="small" /><small> In other words, the movie clip is just a frequent series of pictures (frames) played very quickly (movies usually have 24 fps) and the **wheels were rotating quickly enough not to be in sync in every frame**; this produces a natural visual impression of rotating wheel.</small> 
 
 -
 <div style= "width:81%">
 	<div style= "display:flex; align-items:center; justify-content:center; height:100%">
 		<img src="./images/frameRate.png">
 	</div>
-<small>Without arrow symbol, wheel appears to be rotating slowly backwards.</small>
+<small>Without red dot, wheel appears to be rotating slowly backwards.</small>
 </div>
 <br>
 -
@@ -720,7 +720,9 @@ Trust me, this value is simply too low.
 
 It is <var class="blue">60 times</var><var class="red">per second</var>, also known as <var class="gray">60 Herz</var> or <var class="gray">60 Hz</var>.
 
-The lines *never stopped*. They are moving *right now*. It is all an *illusion*.
+The lines *never stopped*. They are moving *right now*.
+
+[It is just an *illusion :)*](https://www.youtube.com/watch?v=jWEs7u4Xeww)
 
 <f-next-button />
 
@@ -808,6 +810,32 @@ You have just completed all the steps required to experience visual distortion v
     </f-group>
   </f-spinner>
 </f-scene>
+
+---
+
+| theme: dark
+
+<center><div>
+
+<f-fact-icon />
+
+<p />
+
+~Let's have a 2 minute break before the next hands-on exercise.~
+<small>Following clip shows You different turntable animations.</small>
+
+<p />
+
+<f-next-button title="Go" />
+
+</div><center>
+
+---
+
+| theme: dark
+
+<f-video src="https://www.youtube.com/watch?v=jWEs7u4Xeww" />
+
 
 ---
 
