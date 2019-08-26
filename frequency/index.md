@@ -121,7 +121,7 @@ This lesson is divided into three main sections:
 
 ---
 
-| section: Definition of Frequency
+| section: How to Define Frequency?
 | padding: 0
 | gap: 0
 | theme: dark
