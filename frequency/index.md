@@ -1,4 +1,4 @@
-| section: Introduction
+| section: Intoduction
 | theme: dark
 | rows: 1fr auto
 | 1 1 1 1 1 3 3 3
@@ -121,7 +121,7 @@ This lesson is divided into three main sections:
 
 ---
 
-| section: DISCUSS_1
+| section: Definition of Frequency
 | padding: 0
 | gap: 0
 | theme: dark
@@ -187,7 +187,7 @@ Watch the following videos and define frequency in your own words and describe a
 
 ---
 
-| section: ACTIVITY_1
+| section: Make Your First Animation
 | rows: auto 1fr
 
 | 1 1 1
@@ -275,7 +275,7 @@ You will find 6 template PDFs from the .zip file. In this exercise, you will nee
 
 ---
 
-| section: THEORY_1
+| section: From Spinning to Frequency
 | rows: auto auto 1fr
 
 | 1 1
@@ -494,7 +494,7 @@ Watch following clip <small>(first 5 sec)</small> and observe <br>the movement o
 
 ---
 
-| section: EXPERIMENT_1
+| section: What happened to the Wheels?
 | rows: auto auto 1fr
 | gap: 30px
 
@@ -839,7 +839,7 @@ You have just completed all the steps required to experience visual distortion v
 
 ---
 
-| section: ACTIVITY_2
+| section: Make Your Second Animation
 | rows: auto 1fr
 
 | 1 1 1
@@ -929,7 +929,7 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 ---
 
-| section: THEORY_2
+| section: Frequency as a Wave
 
 | 1 1 2 2
 
@@ -1117,7 +1117,7 @@ What are you findings regarding waves moving at different speeds and different f
 
 ---
 
-| section: ACTIVITY_3
+| section: Capture Your Frequency!
 
 | 1 2
 | 1 3
@@ -1148,7 +1148,7 @@ There are many paths for students may follow:
 * They can make it with a 3D shape, which is more complex.
 
 It is also possible to manipulate visuals using a strobe light or use any other device other than a turntable to rotate the artwork.
-The teacher can decide how complex the pathway should be to take, depending on the planned curriculum,
+The teacher can decide how complex the pathway should be to take, depending on the planned curriculum.
 
 </f-notes>
 
