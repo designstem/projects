@@ -1,29 +1,37 @@
-import DragResize from "./DragResize.js"
+import DragResize from "./DragResize.js";
 
-const chooseColor = (h,s,l,alpha = 1) => {
-  return 'hsla('+h+','+s+'%,'+l+'%,'+alpha+')'
-}
-const fade = (item) => {
-  if(item.fade) {return 0} else {return 1}
-}
+const chooseColor = (h, s, l, alpha = 1) => {
+  return "hsla(" + h + "," + s + "%," + l + "%," + alpha + ")";
+};
+const fade = item => {
+  if (item.fade) {
+    return 0;
+  } else {
+    return 1;
+  }
+};
 
 export default {
-    props: ["src","type", "index", "item"],
-    components: {DragResize},
-    data: () => ({
-        width: 100,
-        height: 100,
-        aspect: true
-    }),
-    computed: {
-      switchAspect: function () {
-        if(this.type !== 'circ') { return false } else { return true }
+  props: ["src", "type", "index", "item"],
+  components: { DragResize },
+  data: () => ({
+    width: 100,
+    height: 100,
+    aspect: true
+  }),
+  computed: {
+    switchAspect: function() {
+      if (this.type !== "circ") {
+        return false;
+      } else {
+        return true;
       }
-    },
+    }
+  },
 
   //TODO: (3d) rotation
   methods: { chooseColor, fade },
-    template: `
+  template: `
         <drag-resize 
             :w="width" 
             :h="height" 
@@ -50,7 +58,8 @@ export default {
             :style="{
                 backgroundColor: item.color,
                 transition: 'opacity ' + item.time + 's linear',
-                opacity: fade(item)
+                mixBlendMode: 'multiply',
+                opacity: fade(item),
                 }"
             ></div>
             <div
@@ -59,7 +68,8 @@ export default {
             :style="{
                 backgroundColor: item.color,
                 transition: 'opacity ' + item.time + 's linear',
-                opacity: fade(item)
+                mixBlendMode: 'multiply',
+                opacity: fade(item),
                 }"
             ></div>
             <!--<p>{{item}}</p>-->

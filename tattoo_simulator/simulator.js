@@ -5,12 +5,11 @@ import SceneLayer from "./components/SceneLayer.js";
 import Layer from "./components/Layer.js";
 import ButtonGroup from "./components/ButtonGroup.js";
 import ColorButton from "./components/ColorButton.js";
-import DragResize from "./components/DragResize.js"
+import DragResize from "./components/DragResize.js";
 import Hand from "./components/Hand.js";
 
 // import { FLeftarrowIcon } from 'https://designstem.github.io/fachwerk/fachwerk.js'
 // Vue.component('FLeftarrowIcon', FLeftarrowIcon);
-
 
 //import VueDragResize from 'https://unpkg.com/vue-drag-resize@1.2.3/src/components/vue-drag-resize.js'
 //import VueDragResize from "https://unpkg.com/vue-drag-resize@1.2.3/dist/index.js";
@@ -54,6 +53,7 @@ export default {
     start: false,
     selected: "",
     imgs: [],
+    blur: 0,
     x: 0,
     y: 0
   }),
@@ -62,6 +62,7 @@ export default {
       this.imgs.push({
         hide: true,
         fade: false,
+        blur: 0,
         time: 1,
         type: type,
         alpha: 0.9,
@@ -87,14 +88,13 @@ export default {
   },
 
   template: `
-      <div class="h-100 flex flex-column">
-            <div class="flex h-100">
-                <div class="ui">
-                <h1>Design a smart tattoo</h1>
+    <div class="cells fit" style="grid-template-columns: 1fr 1fr; grid-gap:var(--content-gap);">
+        <div class="cell">
+                <h2>Design a smart tattoo</h2>
                 <!--<label>skin tone: <code>{{skincolors[skindex]}}</code></label>-->
                 
                 <!--<input type="range" v-model="index" :max="skincolors.length-1"/>-->
-                <h3><span class="bullet">1</span>Pick a skin tone</h3>
+                <h3><span class="bullet">1</span> Pick a skin tone</h3>
                 <p>Every person is different, so is their skin. <b>Pick a skin tone that matches yours</b>, or return here
                 later to see how your design would look on different backgrounds.</p>
                 <br>
@@ -106,7 +106,7 @@ export default {
                 </ButtonGroup>
              
                 <br>
-                <h3><span class="bullet">2</span>Add a tattoo and biosensors</h3>
+                <h3><span class="bullet">2</span> Add a tattoo and biosensors</h3>
                 <p>Upload an image of your tattoo design, preferably drawn with a pen (not with a pencil). 
                 Add simple shapes or images as biosensors, that would react to the environment or biological stimuly.</p><p>Find out how long would
                 your preferred biosensor take to light up under the skin, and test it by adjusting the trigger time on your added layer.</p>
@@ -122,20 +122,33 @@ export default {
         
                 <br><br>
 
-                <h3><span class="bullet">3</span>Reflect</h3>
-                <div class="text">
-                    <p>Do you think your tattoo would work? What is good about it? What do you think you can still improve?</p>
-                </div>
+                 <h3><span class="bullet">3</span> Tattoos age</h3>
+                <p>The tattoo will fade and lines will go blurry as some of the tattoo ink is moved 
+                    or removed in the skin. Play with sliders to see how the tattoo might change. 
+                    How long do you think it takes for your tattoo to turn “unreadable”?
+                </p>
 
-                </div>
+                <br>
+
+                <f-slider v-model="blur" integer :value=0 :to=50 title="years: " />
+
+                <br>
+
+                <f-link to="https://www.youtube.com/watch?v=6I9tenSb-Zg">Learn about the biology behind tattoo permanence <f-arrow-icon rotation="-45" /></f-link>                </small>
+
+                <br>
+
+
+                <h3><span class="bullet">4</span> Reflect</h3>
+                <p>Do you think your tattoo would work? What is good about it? What do you think you can still improve?</p>
+        </div>
+        <div class="cell">
             <Scene :size="size" :bgcolor="'transparent'">
                 <Hand :fill="skincolors[skindex]"/>
-                <SceneLayer v-for="(item, index) in imgs" :index="index" :item="item" :src="item.pic" :type="item.type" />
+                <SceneLayer :style="{filter: 'blur( ' + blur / 8 + 'px ) opacity( ' + (1 - blur / 150) + ' )'}" v-for="(item, index) in imgs" :index="index" :item="item" :src="item.pic" :type="item.type" />
             </Scene>
-
-
         </div>
-        </div>
+    </div>
     `,
   css: `
   .h-100 {
@@ -144,8 +157,6 @@ export default {
 
 .flex {
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*width: 100%;*/
 }
 .v-center {
     align-items: center;
@@ -155,11 +166,6 @@ export default {
 }
 .flex-column {
     flex-direction: column;
-}
-.ui {
-    flex: 0 1 550px;
-    padding: 2rem;
-    overflow-y: auto;
 }
 img.layer {
     width: 100%;
@@ -296,6 +302,7 @@ img.layer {
     border: 3px solid;
     border-radius: 3px;
     margin-top: -3px;
+    box-sizing: content-box;
 }
   `
-}
+};

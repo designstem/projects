@@ -112,20 +112,12 @@ For example, information about acids and bases.
 
 | section: Acids and bases
 
-| rows: auto 1fr
 | padding: 0
-| 1 1 1 1 4 4
-| 2 2 2 3 4 4
+| 1 1 1 2 3 3
 
-<div style="padding: var(--content-padding) var(--content-padding) 0 var(--content-padding);">
+<section>
 
-# Acids and bases
-
-</div>
-
--
-
-<div style="padding: 0 var(--content-padding);">
+## Acids and bases
 
 The acids and bases can be understood through the concentration of hydrogen-ion <f-math inline blue>(H+)</f-math> in a solution.
 
@@ -137,32 +129,32 @@ pH-scale governed by the equation <f-math inline>pH = -log[H+]</f-math>
 
 _Move the bar to explore the pH-scale. Talk with a friend: What is the pH-range that you would need to consider with tattoos?_
 
-</div>
+</section>
 
 -
 
+<section>
 <div style="display: flex; align-items: center; flex-direction: column; position: relative">
-  <f-artboard :width="280" :height="350" :step="20" style="margin-top: 5px" >
+  <f-artboard :width="280" :height="300" :step="20" style="margin-top: 5px" >
   	<f-line :x1="40" :y1="310 - i*20" :x2="240" :y2="310 - i*20" v-for="i in 15" />
     <f-rect style="transition: all .2s ease-in-out" :x="-100" :y="-290" :stroke="none" :fill="color('red')" :width="40" :height="280 - get('ph')*20" :rotation="180"/>
     <f-rect style="transition: all .2s ease-in-out" :x="-220" :y="-290" :stroke="none" :fill="color('blue')" :width="40" :height="get('ph')*20" :rotation="180"/>
     <f-text :x="20" :y="313 - i*20" v-for="i in 15">{{i-1}}</f-text>
-  </f-artboard><br>
-  <small style="position: absolute; bottom: 40px; left: 40px">
+  </f-artboard>
+  <div style="display: flex; justify-content: center"> 
     <small>
       <f-math inline :update="get('ph')">
       [H+] = 10^{(-{{ get('ph') }})}
       </f-math>
     </small>  
-  </small>
-  <small style="position: absolute; bottom: 40px; right: 20px">
     <small>
       <f-math inline :update="get('ph')">
       [OH-] = 10^{({{ 14 - get('ph') }})}
       </f-math>
     </small>
-  </small>
+    </div>
 </div>
+</section>
 
 <f-notes title="credits">
 https://www.pexels.com/photo/body-of-water-under-blue-and-white-skies-1533720/
@@ -203,21 +195,11 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 ---
 
 | section: Indicators
-
-| rows: auto 1fr
 | padding: 0
-| 1 1 1 3 3 3
-| 2 2 2 3 3 3
 
-<div style="padding: var(--content-padding) var(--content-padding) 0 var(--content-padding);">
+<section>
 
-# Indicators
-
-</div>
-
--
-
-<div style="padding: 0 var(--content-padding);">
+## Indicators
 
 move the pH-bar. Why does the color change?
 
@@ -233,7 +215,7 @@ _When designing your indicator, you may need to consider the visibility of the c
 
 </div>
 
-</div>
+</section>
 
 -
 
@@ -400,7 +382,7 @@ What is better in your design, what could still be improved?
 | chapter: Testing the tattoo
 | section: Back to tattooing
 
-# Back to tattooing
+## Back to tattooing
 
 Tattoos have always had strong symbolic meaning - **cultural**, to convey some message about the bearer to other members of society - and / or **personal**, to mean something to the bearer herself.
 
@@ -443,20 +425,14 @@ Sketch out the appearance of the smart tattoo, considering
 
 4. the basic principles of pictography and icon design
 
+### Time to test your tattoo
+
+After sketching it is time to look how your tattoo would look like. Test your design in real life,
+by sketching it on a friend 😃, and/or by uploading it to the tattoo-simulator on the next slide.
+
 -
 
 **_ERIK: photo / illustration pls_**
-
----
-
-## Time to test your tattoo
-
-Now it is time to look how your tattoo would look like.
-Test your design in smart tattoo simulator to explore further connections. Write these down as well.
-
--
-
-**_ERIK: photo maybe_**
 
 ---
 

@@ -1,38 +1,34 @@
 import HslaSlider from "./HslaSlider.js";
 
 export default {
-    props: ["index", "item", "imgs", "file"],
-    components: { HslaSlider },
-    data: () => ({
-    }),
-    computed: {
+  props: ["index", "item", "imgs", "file"],
+  components: { HslaSlider },
+  data: () => ({}),
+  computed: {},
+
+  methods: {
+    onFileChange(e) {
+      var files = e.target.files || e.dataTransfer.files;
+      if (!files.length) return;
+      this.createImage(files[0]);
     },
+    createImage(file) {
+      var image = new Image();
 
-    methods: {
-        onFileChange(e) {
-            var files = e.target.files || e.dataTransfer.files;
-            if (!files.length) return;
-            this.createImage(files[0]);
-        },
-        createImage(file) {
-            var image = new Image();
+      var reader = new FileReader();
+      var vm = this;
 
-            var reader = new FileReader();
-            var vm = this;
-
-
-
-            reader.onload = e => {
-                vm.item.pic = e.target.result;
-            };
-            reader.readAsDataURL(file);
-            image.onload = e => {
-                vm.item.imgwidth = this.width;
-                vm.item.imgheight = this.height;
-            };
-        },
-    },
-    template: `
+      reader.onload = e => {
+        vm.item.pic = e.target.result;
+      };
+      reader.readAsDataURL(file);
+      image.onload = e => {
+        vm.item.imgwidth = this.width;
+        vm.item.imgheight = this.height;
+      };
+    }
+  },
+  template: `
         <div class="item ui-layer">
         <div class="flex v-center" style="margin-bottom: 10px">
                 <span>{{item.type}}</span>
@@ -50,7 +46,7 @@ export default {
                 </div>
                 <span>in</span>      
                 <input type="number" v-model="item.time" style="max-width: 50px">  
-                <span>seconds</span>      
+                <span>seconds</span>
         </div>
         <div class="close" @click="imgs.splice(index, 1)">×</div>
 
