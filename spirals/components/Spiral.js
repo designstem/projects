@@ -2,16 +2,17 @@ import { utils, d3 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 export default {
   props: {
-    pointCount: { default: 36, type: Number },
-    padding: { default: 20, type: Number },
-    cycles: { default: 3, type: Number },
-    startX: { default: 20, type: Number },
-    activePoint: { default:20 , type: Number },
-    r: { default:3 , type: Number },
+    pointCount: { default: 36, type: [Number, String] },
+    padding: { default: 20, type: [Number, String] },
+    cycles: { default: 3, type: [Number, String] },
+    startX: { default: 20, type: [Number, String] },
+    activePoint: { default:0 , type: [Number, String] },
+    r: { default:3 , type: [Number, String] },
     info: { default:false , type: Boolean },
+    triangle: { default:true , type: Boolean },
   },
   data: () => ({
-    activePointIndex: 1
+    activePointIndex: 0
   }),
   computed: {
     d3Line(){
@@ -56,6 +57,9 @@ export default {
       this.activePointIndex = value;
     }
   },
+  mounted(){
+    this.updateActivePoint(this.activePoint);
+  },
   watch: {
     activePoint: function(_newVal, _oldVal) { 
       this.updateActivePoint(_newVal);
@@ -63,10 +67,16 @@ export default {
   },
   template: `
     <g>
+    <path v-if="triangle"
+        :d="computedTriangle"  
+        :stroke="color('purple')"
+        stroke-width="2"
+        :fill="color('lighteryellow')"
+      /> 
       <circle r="3" />
       <path
         :d="d3Line(computedPoints)"
-        stroke="black"
+        :stroke="color('gray')"
         stroke-width="1"
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -76,8 +86,9 @@ export default {
         :cx="p[0]"
         :cy="p[1]"
         :r="r"
-        stroke="rgba(0,0,0,0)"
-        stroke-width="7"
+        :stroke="color('gray')"
+        :fill="color('darkgray')"
+        stroke-width="0"
         v-on:click="updateActivePoint(i)"
         class="hoverable"
       />
@@ -87,12 +98,6 @@ export default {
         r="9" 
         stroke="red"
         stroke-width="3"
-        fill="none"
-      /> 
-      <path 
-        :d="computedTriangle"  
-        stroke="purple"
-        stroke-width="1.5"
         fill="none"
       /> 
       <g :transform="'translate( -200 , -200 )'" v-if="info" >

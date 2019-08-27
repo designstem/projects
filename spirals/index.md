@@ -588,8 +588,8 @@ Indeed
     <f-arc position="0 0" start-angle="90" end-angle="150" r="0.45" inner-radius="0.45" stroke-width="1" />
     <f-box r="0.1" position="0.7 0.05" strokeWidth="1" />
     <f-text :position="polarxy(140,1.9)">A(x:3,y:4)</f-text>
-    <f-text position="-0.1 0.6" :fill="color('green')" rotation="90" scale="0.75">sin θ</f-text>
-    <f-text position="0.4 -0.25" :fill="color('blue')" scale="0.75">cos θ</f-text>
+    <f-text position="-0.1 0.6" :fill="color('green')" rotation="90" scale="0.75">r⋅sin(θ)</f-text>
+    <f-text position="0.4 -0.25" :fill="color('blue')" scale="0.75">r⋅cos(θ)</f-text>
     <f-text :position="polarxy(155, 0.75)" :fill="color('red')" scale="0.75">r</f-text>
     <f-text position="0.22 0.05" >θ</f-text>
     <f-text position="1.9 0.1" scale="0.75">x</f-text>
@@ -605,8 +605,8 @@ Indeed
 
 Following the previous example, assume now that the point A is known by its polar coordinates (5, 53.06°). Its Cartesian coordinates derive by applying the trigonometric ratios cos() and sin() as follows.
 
-<f-math>cos(θ) = \frac{\color{blue}x}{\color{red}r}</f-math><f-math>{\color{blue}x} = {\color{red}r} \times cos(θ) = {\color{red}5} \times cos(53.06\degree) = {\color{red}5} \times 0.6 = \color{blue}3</f-math>
-<f-math>sin(θ) = \frac{\color{green}y}{\color{red}r}</f-math><f-math>{\color{green}y} = {\color{red}r} \times sin(θ) = {\color{red}5} \times sin(53.06\degree) = {\color{red}5} \times 0.8 = \color{green}4</f-math>
+<f-math>cos(θ) = \frac{\color{blue}x}{\color{red}r}</f-math><f-math>{\color{blue}x} = {\color{red}r} \cdot cos(θ) = {\color{red}5} \cdot cos(53.06\degree) = {\color{red}5} \cdot 0.6 = \color{blue}3</f-math>
+<f-math>sin(θ) = \frac{\color{green}y}{\color{red}r}</f-math><f-math>{\color{green}y} = {\color{red}r} \cdot sin(θ) = {\color{red}5} \cdot sin(53.06\degree) = {\color{red}5} \cdot 0.8 = \color{green}4</f-math>
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq10.jpg) -->
 
@@ -652,67 +652,10 @@ Following the previous example, assume now that the point A is known by its pola
 
 
 
-
-
-
-<f-slider 
-    title="Circle radius"
-    :value="100" 
-    set="radius"
-    from="0"
-    to="200" 
-/>
-<f-slider 
-    title="Active point"
-    :value="8" 
-    set="active"
-    from="0"
-    to="35"
-    :step="1" 
-/>
-
--
-
-<f-artboard responsive width="600" height="400">
-  <g transform="translate(300 200)">
-    <Spiral :cycles="1" :padding="0" :startX="get('radius', 100)" :activePoint="get('active', 8)" :info="false" />
-  </g>
-</f-artboard>
-
--
-
-<f-slider 
-    title="Cycles"
-    :value="2" 
-    set="cycles"
-    from="0"
-    to="20" 
-/>
-<f-slider 
-    title="Spiral growth"
-    :value="20" 
-    set="padding"
-    from="0"
-    to="200" 
-/>
-
--
-
-<f-artboard responsive width="600" height="600">
-  <g transform="translate(300 300)">
-    <Spiral 
-      :cycles="get('cycles')" 
-      :padding="get('padding')" 
-      :startX="get('radius', 100)" 
-      :info="true" 
-      :activePoint="get('active', 8)"
-      />
-  </g>
-</f-artboard>
-
----
-
-
+| 1 1
+| 2 4
+| 3 5
+| 6 6
 
 
 
@@ -720,34 +663,140 @@ Following the previous example, assume now that the point A is known by its pola
 
 ## Equations of 2D Archi&shy;medean spirals
 
+-
+
 Assume that a point is described by its polar coordinates (r, θ). Remember that r is the radius, the distance of the point from the center of the axes and θ is the angle formed between the radius and x axis (see next figure).
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-2.jpg?w=300&h=261)
+-
 
-Now, image what happens if the angle θ gradually  increases from the zero degrees (θ=0º) to θ=90º and then to θ=180º up to θ=360º. If the radius *r* remains constant , the corresponding point, will move along the blue circle.   This is the basic movement to produce a spiral shape.
+<f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-2.jpg?w=300&h=261" style="--image-size:contain; --image-height:35vh; " />
 
-In the previous movement, if we assume that *r* is not constant but increases gradually as the angle θ ranges from 0º to 360º, then we get a perfect spiral shape.
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-2.jpg?w=300&h=261) -->
 
-To draw an Archimedian spiral, two basic parameters need to define :
+-
+
+Now, image what happens if the angle θ gradually increases from the zero degrees (θ=0º) to θ=90º and then to θ=180º up to θ=360º. If the radius *r* remains constant, the corresponding point, will move along the blue circle. This is the basic movement to produce a circular shape.
+
+-
+
+<f-slider set="circleProgress" value="0" to="360" title="θ" />
+
+<f-scene grid responsive style="max-width:400px;">
+  <f-circle r="1.5" strokeWidth="1" :stroke="color('blue')" />
+  <f-group rotation="90">
+    <!-- <f-line :points="[[0,0], polarxy(get('circleProgress'),1.5) ]" /> -->
+    <f-arc r="1.5" inner-radius="0" :stroke="color('red')" start-angle="0" :end-angle="get('circleProgress', 0)" stroke-width="4" />
+    <f-circle r="0.1" :stroke="color('red')" :position="polarxy( get('circleProgress', 0), 1.5)"  />
+  </f-group>
+  <f-text :position="polarxy( get('circleProgress', 0)+90, 1.75)">r</f-text>
+  <f-text position="0 0.1">θ={{Math.round(get('circleProgress', 0))}}°</f-text>
+</f-scene>
+
+-
+
+<f-next-button />
+
+---
+
+
+
+| gap: 7vh 5vw
+| 1 1
+| 2 3
+| 4 5
+| 6 6
+
+<caption>Mathematics of 2D and 3D Archimedean spirals</caption>
+
+## Equations of 2D Archi&shy;medean spirals
+
+-
+
+In the previous movement, if we assume that **r is not constant** but changes gradually as the angle θ ranges from 0º to 360º, then we get a **perfect spiral shape**.
+
+To draw an Archimedian spiral, two basic parameters need to define:
 
 - the starting point on the x axis (lets call it **α**) and
 - the distance **d** between two consecutive lines of the spiral.
 
-The most usual case  of an Archimedian spiral is that when the spiral shape begins from the beginning of the axes x and y. In such a case  α=0.
+<f-slider 
+    title="α"
+    :value="150" 
+    set="radius"
+    from="0"
+    to="200" 
+/>
+<f-slider 
+    title="d"
+    :value="0" 
+    set="padding"
+    from="0"
+    to="100" 
+/>
+<f-slider 
+    title="Active point"
+    :value="0" 
+    set="active"
+    from="0"
+    to="180"
+    :step="1" 
+/>
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-3.jpg?w=300&h=276)
+The most usual case of an Archimedian spiral is that when the spiral shape begins from the beginning of the axes x and y. In such a case α=0.
 
-Any point (x,y) of the plane belongs to a spiral shape if satisfies the following equations
+-
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq11.jpg?w=300&h=138)
+<f-artboard responsive grid width="600" height="400">
+  <g transform="translate(300 200)">
+    <Spiral :cycles="5" :padding="get('padding', 0)" :startX="get('radius', 100)" :activePoint="get('active', 0)" :info="false" />
+  </g>
+</f-artboard>
 
-Note that π is the well known pi number equal to 3.14159.
+-
+
+
+
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-3.jpg?w=300&h=276) -->
+
+**Any point (x,y) of the plane belongs to a spiral shape if satisfies the following equations**
+
+<f-math>x = r \cdot cos(θ)</f-math><f-math>y = r \cdot sin(θ)</f-math><f-math>r = a + \frac{d}{2π} \cdot θ</f-math><f-math>θ = 0°...360°</f-math>
+
+Note that π is the well known PI number equal to 3.14159.
 
 The following figure, explains the above equations in terms of the polar coordinates explained in the previous section.
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-1.jpg?w=1024&h=671)
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-1.jpg?w=1024&h=671) -->
 
-Based on the above equations,  any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates  x and y are calculated and the corresponding point (x,y) in plotted in the plane.
+Based on the above equations, any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates  x and y are calculated and the corresponding point (x,y) in plotted in the plane.
+
+-
+
+<!-- <f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-1.jpg?w=1024&h=671" style="--image-size:contain; --image-min-height:40vh" /> -->
+
+<f-artboard responsive width="600" height="400">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+    markerWidth="3" markerHeight="3"
+    orient="auto-start-reverse" :fill="color('darkgray')" >
+    <path d="M 0 0 L 10 5 L 0 10 z" />
+  </marker>
+  </defs>
+  <g transform="translate(300 200)">
+    <Spiral :cycles="3" :padding="60" :startX="150" activePoint="6" :info="false" :triangle="true" />
+    <f-line :points="[ [0,30], [polarx(90, 150), polary(90, 150)+30] ]" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+    <f-line :points="[ [polarx(90,150), 0], [polarx(90, 210), 0] ]" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+    <f-text position="45 -5" scale="1.5">x</f-text>
+    <f-text position="90 -60" scale="1.5">y</f-text>
+    <f-text position="30 -70" scale="1.5">r</f-text>
+    <f-text position="80 50" scale="1.5">α</f-text>
+    <f-text position="180 20" scale="1.5">d</f-text>
+  </g>
+</f-artboard>
+
+-
+
+<f-next-button />
 
 ---
 
