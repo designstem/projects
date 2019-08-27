@@ -9,8 +9,6 @@
 
 Will be in shape — whatever the shape. Over and over. 
 
-***ERIK: Let's replace it with actual pattern image. Emphasis is on 2D/3D sculptural pattern***
-
 ---
 
 | padding: 0
