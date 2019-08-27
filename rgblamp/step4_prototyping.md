@@ -54,7 +54,7 @@ https://www.instructables.com/id/RGB-Lamp/
 
 | padding: 0
 
-<section><section>
+<section>
 
 ## Simple RGB lamp
 
@@ -70,7 +70,7 @@ Arduino Uno R3|U1|`1`
 1 LED RGB|D1|`1`
 220 Ω resistor|R1, R2, R3|`3` 
 
-</section></section>
+</section>
 
 -
 
@@ -80,7 +80,7 @@ Arduino Uno R3|U1|`1`
 
 | padding: 0
 
-<section><section>
+<section>
 
 ## RGB lamp with manual control
 
@@ -98,7 +98,7 @@ LED RGB|D1|`1`
 330 Ω resistor|R1, R2, R3|`3`
 250 kΩ potentiometer|Rpot1, Rpot2, Rpot3|`3`
 
-</section></section>
+</section>
 
 -
 
@@ -108,7 +108,7 @@ LED RGB|D1|`1`
 
 | padding: 0
 
-<section><section>
+<section>
 
 ## RGB lamp with temperature control
 
@@ -126,7 +126,7 @@ LED RGB|D1|`1`
 Temperature sensor TMP36|U1|`1`
 
 
-</section></section>
+</section>
 
 -
 
@@ -139,7 +139,7 @@ Temperature sensor TMP36|U1|`1`
 | gap: 0
 | 1 1 2 3 4
 
-<section><section>
+<section>
 
 <caption>🛠️ Assignment</caption>
 
@@ -147,7 +147,7 @@ Temperature sensor TMP36|U1|`1`
 
 Based on the access to physical hardware build either a **virtual** RGB lamp using <f-link to="https://www.tinkercad.com/">Tinkercad</f-link> or a **phsyical** prototype using Arduino and related hardware.
 
-<section><section>
+<section>
 
 -
 

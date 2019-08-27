@@ -1,10 +1,10 @@
 | theme: blue
 | chapter: Minimal use of material
-| background: https://www.jorislaarman.com/wp-content/uploads/2015/11/boneweblast-1500x630.jpg
+| background: https://raw.githubusercontent.com/designstem/scenarios/master/waste/images/bonechair.jpg
 
 # <big>Mimimal use of material</big>
 
-***ERIK: Can we use Joris photos?***
+***ERIK: Can we use Joris photos? Dunno ***
 
 ---
 
@@ -54,7 +54,7 @@ Use [this form](https://docs.google.com/document/d/1WHGHGWO3R43I0yfy42PP_W9IsvWl
 
 -
 
-***ERIK: Chalk image / illustration needed***
+<f-image src="./images/chalk.png" />
 
 <f-notes>
 
@@ -152,16 +152,21 @@ Take for instance the growth of **trees** and **bones**.
 During their lifecycle both these natural structures make **optimal use of material** in dealing with stresses and loads. But in different ways. 
 
 <f-inline>
-  <img src="./images/bone.png" style="width: 260px" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Awl%2Cbone%2C1933.379%2C_%28r%29.jpg" style="width: 360px" />
   <div>
     <f-rightarrow-icon />
     <br>
     <f-leftarrow-icon />
   </div>
-  <img src="./images/tree.png" style="width: 340px" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Imbondeiro_Tree.jpg" style="width: 360px" />
 </f-inline>
 
-***ERIK: Unknown image sources***
+<f-notes title="Credits">
+
+Image sources: https://commons.wikimedia.org/wiki/File:Awl,bone,1933.379,_(r).jpg
+https://commons.wikimedia.org/wiki/File:Imbondeiro_Tree.jpg
+
+</f-notes>
 
 ---
 
@@ -188,7 +193,7 @@ Image source: https://pxhere.com/nl/photo/720601
 Bones also produce extra material where needed, but they are also able to **eliminate material** in less loaded spots.
 
 <f-inline>
-  <img src="./images/bone1.jpg"  />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Bone_cross-section.svg" style="width: 400px" />
   <img src="./images/bone2.jpg"  />
   <img src="./images/bone3.jpg"  />
 </f-inline>
@@ -196,7 +201,7 @@ Bones also produce extra material where needed, but they are also able to **elim
 
 <f-notes title="Credits">
 
-1. Image source: National Cancer Institute ***ERIK: Copyright?***
+1. https://commons.wikimedia.org/wiki/File:Bone_cross-section.svg
 
 2. https://en.wikipedia.org/wiki/Hip#/media/File:Hip.jpg
 
@@ -244,7 +249,7 @@ The following four hands-on exercises introduce some useful principles in the de
 
 ***TODO: Fix links***
 
-<!--
+<!--foldin
 
 <f-card @click.native="goto('folds')" background="var(--gray)" color="white" title="Optimization with folds" />
 
@@ -255,6 +260,3 @@ The following four hands-on exercises introduce some useful principles in the de
 <f-card @click.native="goto('deformation')" background="var(--gray)" color="white" title="Optimization with deformation" />
 
 -->
-
-
-

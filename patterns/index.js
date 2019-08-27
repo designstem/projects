@@ -83,7 +83,7 @@ const FTarget2 = {
 };
 
 fachwerk({
-  src: ['./index.md','./index2.md','./index3.md'],
+  src: ['./index.md'],
   components: { FLetter, FSource, FTarget, FPolargrid },
   style: {
     "--purple": "var(--darkgray)",

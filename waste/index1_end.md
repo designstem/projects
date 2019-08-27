@@ -21,6 +21,3 @@ Do this by following the steps on the next slide.
 5. Evaluate your model, add or adjust where needed.  
 
 6. Make your final object.
-
-
-

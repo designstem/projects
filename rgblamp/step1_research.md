@@ -59,7 +59,7 @@ Share your story with your classmates.
 | background: https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ocracoke_Lighthouse_with_the_Milky_Way_Galaxy.jpg/1920px-Ocracoke_Lighthouse_with_the_Milky_Way_Galaxy.jpg
 | tint: 0.5
 
-<section><section>
+<section>
 
 ## Light for information or communication
 
@@ -72,7 +72,7 @@ Think about an incident you relied on a light which had a communicative function
 
 Share your story with your classmates. What happened? What did you do?  Collect these stories. 
 
-</section></section>
+</section>
 
 -
 
@@ -86,7 +86,7 @@ https://commons.wikimedia.org/wiki/Lighthouse#/media/File:Ocracoke_Lighthouse_wi
 
 | padding: 0
 
-<section><section>
+<section>
 
 ## Light and health
 
@@ -98,7 +98,7 @@ https://commons.wikimedia.org/wiki/Lighthouse#/media/File:Ocracoke_Lighthouse_wi
 
 What has light to do with health? How does light influence our bodies?
 
-</section></section>
+</section>
 
 -
 
@@ -136,7 +136,7 @@ https://en.wikipedia.org/wiki/Delta_Air_Lines#/media/File:Interior_of_Delta_Air_
 
 | padding: 0
 
-<section><section>
+<section>
 
 ## Light and plants
 
@@ -148,7 +148,7 @@ The correct color of light, along with water and nutrient soil, will provide a p
 
 These two color qualities have the greatest influence on how a plant grows. Blue lights' responsibility is to promote leaf and vegetable growth, while red, when combined with blue, will make a plant flower.
 
-</section></section>
+</section>
 
 -
 
@@ -160,7 +160,7 @@ These two color qualities have the greatest influence on how a plant grows. Blue
 | gap: 0
 | 2 1 3
 
-<section><section>
+<section>
 
 ## Light and psychology
 
@@ -168,7 +168,7 @@ These two color qualities have the greatest influence on how a plant grows. Blue
 
 Colored light is used in stores to make certain products more attractive to buyers: Fish counters are often lighted cold blue hue to make the food more attractive while meat counters have warm yellow hues.
 
-</section></section>
+</section>
 
 -
 

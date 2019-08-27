@@ -45,7 +45,7 @@ Plastic can sink and pollute the sea at all depths
 | padding: 0
 | theme: dark
 
-<section><section>
+<section>
 
 ### Bad news
 
@@ -65,7 +65,7 @@ Plastic is a poison for our environment
 
 Can you find any other good news about plastic and environment?
 
-</section></section>
+</section>
 
 -
 
@@ -76,7 +76,7 @@ Can you find any other good news about plastic and environment?
 | section: Plastic reuse and art
 | padding: 0
 
-<section><section>
+<section>
 
 ## Plastic reuse and art
 
@@ -96,7 +96,7 @@ Concentrate on these terms:
 
 - Weight density
 
-</section></section>
+</section>
 
 -
 
@@ -114,7 +114,7 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 | padding: 0
 
-<section><section>
+<section>
 
 ## Make a boat from recycled plastic
 
@@ -128,7 +128,7 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 5. Calculate your boat weight and its buoyancy in water
 
-</section></section>
+</section>
 
 -
 

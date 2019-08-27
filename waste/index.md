@@ -1,20 +1,18 @@
 | chapter: Introduction
 | theme: dark
-| background: https://www.commondreams.org/sites/default/files/styles/cd_large/public/views-article/plastic-a.jpg
+| background: https://upload.wikimedia.org/wikipedia/commons/b/bd/Aerial%40sendai.jpg
 
 <center><div>
 
-# <big>Waste is a<br>design mistake</big>
+# <big>Waste is a<br>design mistake!</big>
 
 ### Today's environmental challenges,<br>footprint calculator and material properties
-
-***ERIK: Copyrighted image***
 
 </div></center>
 
 <f-notes>
 
-Image source: https://www.commondreams.org/views/2016/01/31/we-cant-let-it-be-more-plastic-fish-our-sea from https://blog.marine-conservation.org/tag/noaa-marine-debris-program
+Image source: https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
 
 </f-notes>
 
@@ -31,15 +29,14 @@ We’re exhausting our planet!
 
 **What’s your feeling about that?**
 
-***ERIK: Copyrighted image***
 
 -
 
-<f-image src="https://c7.alamy.com/comp/A1M16R/trash-on-a-hong-kong-coastline-sai-kung-country-park-new-territories-A1M16R.jpg" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Aterro_Sanitario.jpg" />
 
 
 <f-notes>
-Image: https://www.alamy.com/stock-photo-trash-on-a-hong-kong-coastline-sai-kung-country-park-new-territories-10286494.html
+Image source: https://commons.wikimedia.org/wiki/File:Aterro_Sanitario.jpg
 <f-notes>
 
 ---
@@ -103,11 +100,9 @@ What do you think what is most remarkable about this project?
 2. Collect what you’ve found and discuss with the class why you choose these initiatives.
 
 
-***ERIK: Unnkown image copyright***
-
 -
 
-<f-image src="https://www.mibellegroup.com/blog/wp-content/uploads/2017/03/Workshop_Design-Thinking_Mibelle-Group-1024x768.jpg" />
+<f-image src="https://github.com/designstem/scenarios/blob/master/waste/images/discussion.jpg?raw=true" />
 
 
 <f-notes>Image https://www.mibellegroup.com/blog/general/design-thinking/</f-notes>

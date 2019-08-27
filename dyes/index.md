@@ -69,7 +69,7 @@ Coloured markers.
 | padding: 0
 | section: Wearing a message
 
-<section><section>
+<section>
 
 ## The power of T-Shirt: wearing a message
 
@@ -79,7 +79,7 @@ https://blog.viviennewestwood.com/the-story-so-far/
 
 Nowadays, mitigation of climate change is no longer an option, it is rather inevitable way of acting out in order to maintain our planet habitable. 
 
-</section></section>
+</section>
 
 -
 
@@ -103,7 +103,7 @@ http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.j
 
 | padding: 0
 
-<section><section>
+<section>
 
 ## The power of T-Shirt: wearing a message
 
@@ -113,7 +113,7 @@ With its roots in subcultures, the message T-shirt is taken over by  marketing i
 
 We might consider, whether excessive production and underuse of Fast Fashion items are worth the load on the planet and what could we do about it.
 
-</section></section>
+</section>
 -
 
 <f-image src="images/shirt.png" />
@@ -158,7 +158,7 @@ Final question: what did you learn?
 
 | padding: 0
 
-<section><section>
+<section>
 
 ##  Fashion as Influencing agent II
 
@@ -174,7 +174,7 @@ Group or individual work: Complete T-shirt [quiz](https://drive.google.com/drive
 
 Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
 
-</section></section>
+</section>
 
 -
 

@@ -4,7 +4,7 @@
 | background: ./images/philips_hue_b.jpg
 | 1 1 2
 
-<section><section>
+<section>
 
 # <big>Let there be a RGB light</big>
 
@@ -13,7 +13,7 @@
   <a class="secondary" href="../rgblamp_vision/index.html">Explore interactive tools</a>
 </f-inline>
 
-</section></section>
+</section>
 
 -
 
