@@ -840,8 +840,12 @@ If possible, discuss your results with someone else.~
 1. ~Look at the last task on the last page (task 4 on *CVD compatible palette*) and review what you found out.~
 2. ~When you are really sure that you have come up with your own conclusion, click on the following link. **Don't cheat!**~
 
-<f-sidebar title="Click me when you're ready!" style="--sidebar-width:60vw; --sidebar-mobile-width:75vw" overlay>
-  ~In order to get color schemes that work for nearly everyone, you need to pay attention to the following guideline:~
+
+<details>
+	<summary>Click me when you're ready!</summary>
+  
+
+  ~**In order to get color schemes that work for nearly everyone, you need to pay attention to the following guideline.**~
   
   &nbsp;
   
@@ -878,7 +882,7 @@ If possible, discuss your results with someone else.~
   ~**On the whole, try to make colors differ more dramatically in hue, saturation and brightness, than you would usually do for a person with average color vision.** This helps create stronger contrasts that also work for people with a CVD.~
   
   
-</f-sidebar>
+</details>
 
 
 
