@@ -165,4 +165,14 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 </section>
 
+<section>
+
+<a id="pedagogy">
+  <h3>Pedagogy</h3>
+</a>
+
+PEDA!
+
+</section>
+
 <f-footer />
