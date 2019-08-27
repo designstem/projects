@@ -840,10 +840,7 @@ If possible, discuss your results with someone else.~
 1. ~Look at the last task on the last page (task 4 on *CVD compatible palette*) and review what you found out.~
 2. ~When you are really sure that you have come up with your own conclusion, click on the following link. **Don't cheat!**~
 
-
-<details>
-	<summary>Click me when you're ready!</summary>
-  
+<f-sidebar title="Click me when you're ready!" style="--sidebar-width:60vw; --sidebar-mobile-width:75vw" overlay>
 
   ~**In order to get color schemes that work for nearly everyone, you need to pay attention to the following guideline.**~
   
@@ -851,10 +848,10 @@ If possible, discuss your results with someone else.~
   
   ~Try to increase the difference between foreground and background colors as much as possible. Further, avoid colors that are next to each other in the color wheel and close in brightness. The first example compares a bad color combination (on the left), to a better one (on the right). Below it, you can see how it would look like to a colorblind person with Protanopia.~
   <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-    <img src="./images/cvd_effective1.jpg" />
+    <img src="./images/cvb_effective1.jpg" />
   </figure>
   <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-    <img src="./images/cvd_effective2.jpg" />
+    <img src="./images/cvb_effective2.jpg" />
   </figure>
   
   &nbsp;
@@ -862,11 +859,11 @@ If possible, discuss your results with someone else.~
   ~Next, colors can have the same saturation and brightness, and still feel darker or lighter than others. Look at the color wheel below. You should choose dark color hues from the bottom and add them to light color hues from the top half. Never use light colors from the bottom half, against dark colors from the top one. Good example on the left, bad one on the right.~
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-    <img src="./images/cvd_effective3.jpg" />
+    <img src="./images/cvb_effective3.jpg" />
 </figure>
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-    <img src="./images/cvd_effective4.jpg" />
+    <img src="./images/cvb_effective4.jpg" />
 </figure>
 
   &nbsp;
@@ -874,7 +871,7 @@ If possible, discuss your results with someone else.~
   ~Don't use colors that are neighbors in the color wheel. Try to choose colors that are as far away from each other as possible. This increases the contrast.~
   
   <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-    <img src="./images/cvd_effective5.jpg" />
+    <img src="./images/cvb_effective5.jpg" />
 </figure>
   
   &nbsp;
@@ -882,7 +879,7 @@ If possible, discuss your results with someone else.~
   ~**On the whole, try to make colors differ more dramatically in hue, saturation and brightness, than you would usually do for a person with average color vision.** This helps create stronger contrasts that also work for people with a CVD.~
   
   
-</details>
+</f-sidebar>
 
 
 
