@@ -85,7 +85,6 @@ Nowadays, mitigation of climate change is no longer an option, it is rather inev
 
 <f-image src="./images/westwood.jpg" />
 
-***ERIK / JANIKA: Can we use the photo?***
 
 <f-notes style="--primary: var(--darkgray)">
 
@@ -119,7 +118,12 @@ We might consider, whether excessive production and underuse of Fast Fashion ite
 
 <f-image src="images/shirt.png" />
 
-***ERIK / JANIKA: Unknown image source***
+<f-notes title="Credits">
+
+Image source:
+https://www.lyst.com/clothing/vivienne-westwood-climate-revolution-cotton-jersey-t-shirt-white/
+
+</f-notes>
 
 ---
 
@@ -506,6 +510,8 @@ https://localteaco.com/wp-content/uploads/2014/03/Organic-Red-Rooibos-Loose-Leaf
 ---
 
 | section: Mordants
+| 1 1 1
+| 2 3 3
 
 ## Mordants
 
@@ -515,9 +521,15 @@ It is important to consider using natural dyes since most natural dyes are not p
 
 Typically, a mordant is a heavy metal salt of aluminum, iron, copper, chromium or tin and have an effect to our health and environment. ***TODO*** See Ref1
 
+-
+
+<img src="./images/pot.jpg"/>
+
+-
+
 There are some alternatives to using the metal salts mordants. For example the material of the pot used for extracting the dye and dyeing can have an mordanting effect and different materials lead to different colors. Usually iron pots darken the color especially if there are tannins present and aluminum pots help to bring out the yellows from brown onion peels. 
 
-<f-notes>
+<f-notes title="Credits">
 
 https://www.sciencedirect.com/topics/chemistry/azo-dye
 
@@ -540,15 +552,18 @@ https://www.pankuka-prints.com/post/217441097099/soy-milk-natural-dyes-paints
 
 -
 
-<f-image src="./images/cloth.jpg" />
+<f-image src="./images/puuvillsojas.jpg" />
 
-***ERIK / JANIKA: Can we use this photo?***
 
 <f-notes title="Credits">
 
 Image source:
 
-https://img.etsystatic.com/isbi/18a48b/1386966743/isbi_fullxfull.1386966743_4ahdlfky.jpg?version=0
+It is possible for you to make brief summary on the topic to save time.
+It is a good option if your students are not fluent in English.
+Also, here is a good option to widen the topic, if your students are interested.
+
+http://www.textilestudio.ca/guest%20artists/flint1.html
 
 
 </f-notes>
@@ -584,7 +599,7 @@ Alternative pathway: here could be an excellent possibility to include issues of
 ---
 
 | section: Experiment on dyeing
-| 1 1
+| 1 3
 | 2 3
 
 ## Experiment on dyeing
@@ -613,15 +628,17 @@ Dry the fabric. Repeat the procedure 2-3 times.
 
 -
 
-<img src="./images/shutter.jpg">
+<img src="./images/mordant.jpg">
 
-***ERIK / JANIKA: Can we use this photo? It's from Shutterstock***
 
 <f-notes>
 
 It is recommended, that you bring a set of necessary items to the classroom.
 
 If necessary, explain, why pot of certain material and wooden spoon must be used.
+
+Image source:
+http://wooltribulations.blogspot.com/2017/08/contact-printing-cotton-t-shirt-with.html
 
 </f-notes>
 
@@ -663,6 +680,9 @@ Workflow for experiment
 
 ---
 
+| 1 3
+| 2 3
+
 ##  Dyeing the fabric. Workflow for experiment
 
 1. Pour dye extract into your dye pot. Use aluminum pot. 
@@ -677,11 +697,16 @@ Workflow for experiment
 
 6. Gently squeeze out the the excess dye and let the fabric dry in the shade.
 
+-
+
 Video example of dyeing fabric with avocado:
+
+<f-video src="https://www.youtube.com/watch?v=pb8Zvv-I6Fk" />
 
 -
 
-<f-video src="https://www.youtube.com/watch?v=pb8Zvv-I6Fk" />
+<f-image src="./images/avopomshirt.jpg" />
+
 
 ---
 
@@ -732,7 +757,7 @@ When mapping a process you simply draw a box for each step and connect them with
 
 ---
 
-<img src="./images/process.png" /> 
+<img src="./images/process.png" style="width: 60%"> 
 
 ---
 
@@ -769,7 +794,7 @@ The process consists of 5 steps, which could be linear or not, depending on how 
 
 ---
 
-| 1 2 2
+| 1 1 2
 
 ##  Design thinking
 
@@ -779,15 +804,14 @@ Design Thinking is a step-by-step, user-centered method to creative thinking and
 
 -
 
-<img src="./images/designthinking1.png" />
-
-***ERIK / JANIKA: Can we use this illustration?***
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Processus_de_Design_Thinking_selon_d.school.png" style="width: 70%"/>
 
 <f-notes>
 
 Illustration shows the main aims of every stage of Design Thinking Process. 
 Starting point is Empathy stage, which might need a more substantive analysis together with students.
-Image source: https://www.applicoinc.com/services/exchange-driven-design/
+
+Image source: https://commons.wikimedia.org/wiki/File:Processus_de_Design_Thinking_selon_d.school.png
 
 </f-notes>
 
@@ -795,9 +819,7 @@ Image source: https://www.applicoinc.com/services/exchange-driven-design/
 
 ## TODO: title
 
-<img src="./images/designthinking2.png" />
-
-***ERIK / JANIKA: Can we use this illustration?***
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Double_diamond.gif" style="width: 60%"/>
 
 <f-notes>
 
@@ -807,11 +829,14 @@ The class will be using the Double Diamond of Design Thinking, which is more clo
 
 Explain, how to work using divergent and convergent thinking processes in order to follow the Double Diamond Tool.
 
-Image source: https://uploads-ssl.webflow.com/5bd07840d8493f0de57fbcd0/5cc19045f13ccec4952cdd43_Asset%206%402x.png
+Image source: https://commons.wikimedia.org/wiki/File:Double_diamond.gif
 
 </f-notes>
 
 ---
+
+| 1 1
+| 2 2
 
 ## TODO: title
 
@@ -823,19 +848,9 @@ Encourage yourself to the freedom of thinking, keep notes/record of your ideas, 
 
 Eventually, you will find the answer :)
 
----
+-
 
-## TODO: title
-
-<img src="./images/designthinking3.png" />
-
-***ERIK / JANIKA: Can we use this illustration?***
-
-<f-notes>
-
-Image source: http://www.bullart.com.au/wp-content/uploads/2016/07/Design-Thinking2.png
-
-</f-notes>
+<img src="./images/designthinking5.png" style="width: 50%"/>
 
 ---
 
@@ -913,6 +928,8 @@ Brainstorm in your group, which items/products would be carrying the message AND
 ---
 
 | section: Creating visuals
+| 1 3
+| 2 3
 
 ##  Creating the visuals of your product
 
@@ -929,21 +946,15 @@ Simplest way is to take a photo(s) with your smartphone.
 
 Process your images in a graphic software of your choice to make the etched model of your product. 
 
+-
+
 Visual message should be designed in a simplified and/or stylized  visual mode.
 
 Remember to advise using enough contrast
 
----
+-
 
-***ERIK / JANIKA: Can we use this illustration?***
-
-<img src="./images/shirts.jpg" />
-
-<f-notes>
-
-Image source: https://i.pinimg.com/564x/aa/2e/db/aa2edb0b73bd63bc481a94219703116b.jpg
-
-</f-notes>
+<img src="./images/pineapple.png" />
 
 ---
 
@@ -997,7 +1008,7 @@ It is essential to support students through the analyse process. As students' ex
 ---
 
 | section: Process map
-| 1 1 2
+| 1 1 2 2
 
 ##  Process map
 
@@ -1011,13 +1022,13 @@ Repeat steps 4-11, if necessary.
 
 When you are happy with your product and design, it is time to look back and analyse the product design process in whole.
 
-***SUBTASK*** Using the design process chart as model, create your own chart with **clearly stated outcomes of each stage** together with your group mates. 
+***SUBTASK*** Using the design process chart as model <small>(see teacher notes)</small>, create your own chart with **clearly stated outcomes of each stage** together with your group mates. 
 
 **Present your work** and help other groups by asking questions about what they have reached.
 
 -
 
-<img src="./images/designprocess.jpg" />
+<img src="./images/pineappletshirt.jpg" />
 
 <f-notes>
 
@@ -1037,6 +1048,15 @@ This task may serve as process evaluation tool, should you need to grade your st
 Weblink address of the chart is: https://infographicnow.com/wp-content/uploads/2017/05/business-infographic-design-deeper-design-deeper-maintenance-mode.jpg
 
 </f-notes>
+
+<f-notes title="Credits">
+
+Image source:
+
+Photo by glaramknits, https://www.flickr.com/photos/21907219@N02/14376614428/
+
+</f-notes>
+
 
 ---
 
@@ -1150,8 +1170,3 @@ T-shirt Quiz: https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGg
 Jay Westerveld https://www.revolvy.com/page/Jay-Westerveld
 
 The History of Greenwashing. Jim Motavalli. Daily Finance, Feb 12th, 2011: https://web.archive.org/web/20150923212726/http://www.dailyfinance.com/2011/02/12/the-history-of-greenwashing-how-dirty-towels-impacted-the-green/
-
-
-
-
-
