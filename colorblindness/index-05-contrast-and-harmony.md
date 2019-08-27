@@ -1,8 +1,12 @@
 | chapter: Color contrast and harmony
 | section: Contrast and harmony
 | id: cb-contrast-and-harmony
+
+<!--
 | padding: 0
 | gap: 0
+-->
+
 | rows: auto
 | 1 2
 | 3 2
@@ -43,9 +47,11 @@
 
 
 
-
+<!--
 | padding: 0
 | gap: 0
+-->
+
 | rows: auto
 | 1 2
 | 3 2
@@ -84,9 +90,11 @@
 
 
 
-
+<!--
 | padding: 0
 | gap: 0
+-->
+
 | rows: auto
 | 1 2
 | 3 2
@@ -127,8 +135,12 @@
 
 | section: Johannes Itten
 | id: cb-itten
+
+<!--
 | padding: 0
 | gap: 0
+-->
+
 | rows: auto
 | 1 2
 | 3 2
@@ -353,6 +365,11 @@
 
 ~**Complementary colors** are high in contrast and have a very bold and aggressive effect.~ 
 
+&nbsp;
+
+~You can drag the white dots around the color wheel to get new complementary colors.~
+~**Try it!**~ 🧐
+
 -
 
 <ColorPaletteWheel name="Complementary" />
@@ -387,6 +404,9 @@
 -
 
 ~If you want a color palette which is more harmonious than complementary palette, but still bold, you might want to try a **split complementary palette**.~
+&nbsp;
+~Remember, the example on the right is only for one level of brightness and saturation. Of course, you can and should also alter the brightness and/or saturation of the color palette. Maybe choose one bold color that should really stand out (your primary color) and then alter the other colors so that they form a hierarchy, their contrast is still high enough, without feeling disharmonious.~
+~The same goes for each color palette that you create.~
 
 -
 
@@ -423,6 +443,7 @@
 -
 
 ~Besides split comple&shy;mentary palettes, there are also **double comple&shy;mentary** and **triadic palettes** which form bold contrasts.~
+~**Please, scroll down.**~
 
 -
 
@@ -467,6 +488,7 @@
 -
 
 ~**Analogous palettes** are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel, they are equally spaced from each other.~
+~Again, remember to alter brightness and saturation to receive a more prominent or harmonious effect.~
 
 -
 
@@ -541,7 +563,7 @@
 
 #### ~Change the given color palette so that:~
 
-~It stays as closely as possible to the original colors and~
+~It stays as closely as possible to the original hues and~
 ~a) the palette is **more harmonious**~ or
 ~b) the palette is **more prominent**~.
 
@@ -624,7 +646,7 @@ If possible, discuss your results with someone else.~
 
 
 ~Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
-> ~Please, **write down/take a screenshot of your colors' HSB values** for later!~
+> ~Please, **write down/take a screenshot of your final colors' HSB values** for later!~ 👈
 
 -
 
@@ -711,7 +733,7 @@ If possible, discuss your results with someone else.~
 
 -
 
-> **Hints**: ~For this task, you need the HSB values of the last task! Take screenshots of your results in between, to compare them later.~
+> **Hints**: ~For this task, you need the HSB values of the last task! Also, take screenshots of your results on this page in between, to compare them later and to have a future reference for the final task of this workshop.~
 
 -
 <br>
@@ -720,7 +742,7 @@ If possible, discuss your results with someone else.~
 <f-sidebar title="Click me!" overlay>
 
 1. ~Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.~
-2. ~Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad really bad. Try to find out which color combinations don't work well.~
+2. ~Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad, and I mean *really bad* 💩. Try to find out which color combinations don't work well.~
 3. ~Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?~
 4. ~Analyse the results and form a conclusion based on the following questions: *When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?*~
 
@@ -796,8 +818,12 @@ If possible, discuss your results with someone else.~
 ---
 
 | id: cb-contrasts
+
+<!--
 | padding: 0
 | gap: 0
+-->
+
 | rows: auto
 | 1 2
 | 3 2
@@ -845,8 +871,12 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 
 | id: cb-palettes
+
+<!--
 | padding: 0
 | gap: 0
+-->
+
 | rows: auto
 | 1 2
 | 3 2
