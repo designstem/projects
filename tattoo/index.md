@@ -284,6 +284,7 @@ Why do we use these particular things to mean something, can everyone understand
 
 | padding: 0
 | section: Glossary of signs
+| style: overflow-x: hidden
 
 <div style="
   padding: var(--content-padding); 
@@ -306,6 +307,7 @@ The study of how we describe meaning to something is called **semiotics**. The m
 
 | section: Context is key
 | padding: 0
+| style: overflow-x: hidden
 
 <div style="
   padding: var(--content-padding); 
@@ -330,6 +332,7 @@ Symbols can also mean different things to different people. Symbols are **conven
 
 | section: Form & Style
 | padding: 0
+| style: overflow-x: hidden
 
 <div style="
   padding: var(--content-padding); 

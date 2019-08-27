@@ -113,7 +113,7 @@ export default {
                 
                 <p />
 
-                <div class="flex" />
+                <div class="flex"></div>
                 <div class="button_primary"  @click="pushType('img')">Add Image</div>
                 <div class="button_primary"  @click="pushType('box')">Add Square</div>
                 <div class="button_primary"  @click="pushType('circ')">Add Circle</div>
@@ -142,7 +142,7 @@ export default {
                 <h3><span class="bullet">4</span> Reflect</h3>
                 <p>Do you think your tattoo would work? What is good about it? What do you think you can still improve?</p>
         </div>
-        <div class="cell">
+        <div class="cell" style="position: relative">
             <Scene :size="size" :bgcolor="'transparent'">
                 <Hand :fill="skincolors[skindex]"/>
                 <SceneLayer :style="{filter: 'blur( ' + blur / 8 + 'px ) opacity( ' + (1 - blur / 150) + ' )'}" v-for="(item, index) in imgs" :index="index" :item="item" :src="item.pic" :type="item.type" />

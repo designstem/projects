@@ -2,10 +2,9 @@ export default {
   template: `
         <div
             style="
-            position: fixed;
-            top: 0;
-            height: 100%;
+            position: absolute;
             width: 100%;
+            height: 100%;
             overflow: hidden;
             "
         >
