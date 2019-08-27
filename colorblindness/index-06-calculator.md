@@ -391,17 +391,15 @@ https://www.vitsoe.com/gb/about/good-design
 
 <br>
  
-~We hope that what you learned in this workshop, will help you in your further life, so that you can help other people with your knowledge and skills - especially people with CVD. ~
-~Create nice color schemes that work for all!~
+~We hope that you enjoyed doing this workshop, and that it will help you in your further life to create nice color schemes that work for all!~
 
 <br>
 
-~*This workshop is dedicated to Michael, who was the inspiration for it, and people like him. People whose accessibility is restricted
-in their everyday life, which designers can fix easily if they know how.* **You do now!**~
+~*This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you know now, that this problem can be easily fixed.~
 
 <br>
 
-~If you are still motivated to learn more, check out the other workshops~
+~**If you are still motivated to learn more, you are welcome tocheck out the other workshops.**~ 😉
 
 
 -
