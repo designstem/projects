@@ -60,14 +60,13 @@
 ##### Three properties of color
 ## Color meaning (hue)
 
-~All colors have a certain effect regarding their hue. Red is often associated with love, but also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.~
 
-~It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.
-But what if we leave the hue unaltered and modify the other two properties, saturation and brightness? Does this change the colors effect? We will try to find out on the next few pages.~
+~It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.~
+~But what if we leave the hue unaltered and modify the other two properties, saturation and brightness? Does this change the colors effect? We will try to find out on the next few pages.~
 
 #### Hint:
-~Since you probably already know (through your gut feeling) the effect hues can have, we will skip further explanations in this workshop. But if you feel, like you need more information on this, feel free to browse 
-<f-link to="https://en.wikipedia.org/wiki/Color_symbolism">this website</f-link>.~
+~Since (through your gut feeling) you probably already know the meaning hues can have, we will skip further explanations in this workshop. But if you feel, like you need more information on this, you're welcome to look at 
+<f-link to="https://en.wikipedia.org/wiki/Color_symbolism">this article</f-link>.~
 
 <br />
 
@@ -141,7 +140,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 #### TASKS
 1. Observe how the colors' effect changes when they are darker or brighter by using the slider beneath the color boxes.
 2. Look at the **polarity profiles** (adjective pairs) on the right. You can drag the slider more to the left to indicate that the effect of the color relates more to the adjective on the left and the other way around. So for example, if you think that a color feels heavier, you could drag the slider more to the right. There are five different degrees from which you can choose. The further the slider points to one of the sides, the stronger the effect of the adjective. So if the slider is positioned in the middle, it means that the effect is balanced between the two polarities.
-3. Now, alter the polarity profiles on the right, so that they show the effect the dark and the light colors have on **you**. After you are done, you can compare your results with average values by clicking on *SHOW*. **But don't cheat!**
+3. Now, alter the polarity profiles on the right, so that they show the effect the dark and the light colors have on **you**. After you are done, you can compare your results with average values by clicking on the button SHOW. **But don't cheat!** 🤨
 
 -
 
@@ -256,13 +255,13 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 -
 
-~Next, the **saturation of the colors** can be changed. You can compare this effect to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means more pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
-
+~Further, the **saturation of colors** can influence their meaning. You can compare changing a color's saturation to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means more pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
+&nbsp;
 ~Again, we will work with polarity profiles to understand the effect a change in saturation can have on the color.~
 
 ##### TASKS
 1. Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.
-2. Alter the polarity profiles on the right, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on *show*. **But don't cheat!**
+2. Alter the polarity profiles on the right, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on the button SHOW. **But don't cheat!** 🤨
 
 -
 
