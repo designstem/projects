@@ -1,13 +1,12 @@
 | section: cb-workshop
 | rows: auto
-| 1 1
-| 2 3
+| 1 2
 
 
 <!-- ##### Elaborate Overview  -->
 ## Workshop
 
--
+&nbsp;
 
 ~Now that you found out about the different topics surrounding designing for colorblind, it's time for some action.
 There are two different paths that you could take for the final task.
@@ -16,14 +15,19 @@ Either you could choose the STEM or the DESIGN focus.~
 ~*The STEM path is for all students who don't have any access to or knowledge about design software (like Photoshop or Illustrator).
 Whereas the DESIGN path requires you to also use design software. For the STEM path you only need some paper, brushes and watercolors*.~
 
-
--
+&nbsp;
 
 #### ~Choose your path:~
 
 <button class="primary" v-on:click="send('goto', 'cb-workshop-stem')">STEM path</button>
 
 <button class="primary" v-on:click="send('goto', 'cb-workshop-design')">DESIGN path</button> 
+
+-
+
+<figure style="width:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
+  <img src="./images/cvd_path.jpg" />
+</figure>
 
 
 
