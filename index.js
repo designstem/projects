@@ -19,7 +19,7 @@ const FImage2 = {
 fachwerk({
   components: { FProjectCard, FTag, FImage2, FCard2 },
   editor: "none",
-  //type: "document",
+  type: "document",
   //footer: true,
   menu: false,
   pager: false,

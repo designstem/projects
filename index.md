@@ -167,6 +167,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 <section>
 
+---
 
 <a id="pedagogy">
   <h3>Pedagogical Methods and Models</h3>
@@ -178,6 +179,8 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 <p />
 
 Integrated studies are a growing part of the modern problem-based learning and learner-centred education. Integrated studies have been shown to increase students’ understanding and retention of information and thereby enhance student’s ability to identify, assess, and adapt learned information to different kinds of problems. Among all above, students have developed a more genuine application of general concepts. Students have shown to have a better overall understanding of global aspects and their interdependencies, along with the development of multiple perspectives. Students have also been reported to have an increased ability to make decisions and think critically and creatively. Finally, integrating studies has been reported to increase students’ academic motivation and awaken a feeling of importance due to being a as a meaningful member of a community.
+
+-
 
 >DesignSTEM integrates design - developing functional, sustainable and aesthetic goods, services, processes, messages and environments - , and STEM - science, technology, engineering/craft, mathematics.
 

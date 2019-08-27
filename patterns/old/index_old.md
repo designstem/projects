@@ -1,31 +1,41 @@
 | chapter: Patterns
 | section: Introduction
 
-| background: https://c.pxhere.com/photos/85/e4/photo-365034.jpg!d
+| background: ./images/wall.jpg
 | tint: 0
 | theme: dark
 
-# <big>2D and 3D<br />patterns</big>
+# <big>2D and 3D patterns</big>
 
-<f-next-button title="Start" />
-
-<f-notes title="Credits">
-
-https://pxhere.com/en/photo/365034
-
-</f-notes>
-
+Will be in shape — whatever the shape. Over and over. 
 
 ---
 
-| section: Exercise: Look for patterns
 | padding: 0
 
 <section>
 
-<caption>🤔 Exercise</caption>
+## Orientation on patterns
 
-## Look for patterns
+In order to find inspiration in making your own 2D textures and 3D structures, you will have to be able to recognize, find and order them. 
+
+Next you will find some questions and accompanying tasks to help you. 
+
+</section>
+
+-
+
+<f-image src="./images/face.jpg" />
+
+***ERIK: No idea about origin***
+
+---
+
+| section: Exercise 1
+
+## Orientation on patterns
+
+### Exercise 1
 
 Answers these question and find some inspirational images to stimulate your brain:
 
@@ -38,72 +48,79 @@ your daily life. Take pictures of them, make sketches, etc.
 
 4. Find at least three patterns **from other cultures**.
 
-5. And at last: what pattern **defines you**? Think about your daily habits.
-
-</section>
-
--
-
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Igreja_de_Campanha_Azulejo_4.jpg" />
-
-<f-notes title="Credits">
-
-https://commons.wikimedia.org/wiki/Pattern#/media/File:Igreja_de_Campanha_Azulejo_4.jpg
-
-</f-notes>
+5. And at last: what pattern **defines you**? Think about your daily habits...
 
 ---
 
-| padding: 0
-| 2 1
+| section: Exercise 2
 
-<section>
+## Orientation on patterns
 
-<caption>🛠️ Do</caption>
+### Exercise 2
 
-## Share the patterns
+This is how you can experiment with making patterns:
 
-1. Make a moodboard or poster to show others the examples of 2D & 3D pattern designs that have inspired your ideas and findings.
+* Use LEGO®
 
-2. Explain during group discussions the ideas and constructions on your moodboard / poster. 
+* Use Tangram puzzles
 
-3. Give each other feedback on the work.
+* Find similar leaves, stones, flowers, packaging, emoji, … etc.
 
-</section>
+* Use the Adobe Capture app https://www.adobe.com/products/capture.html
 
--
+* Investigate the world of tessellations
 
-<f-image src="./images/floor.jpg" />
+  * with paper cutting http://tessellations.org/methods-diy-papercut.shtml
+  
+  * this online interactive tool http://www.shodor.org/interactivate/activities/Tessellate/
+
+  * or the Amaziograph https://amaziograph.com/education.html app.
 
 ---
 
-| section: Textures & structures
-| padding: 0
-
-<section>
+| section: Adding 3D
 
 ## Textures & structures
 
-A <var>pattern</var> is made when a shape is copied repeatedly while geometric transformations are applied to it
+A pattern is made when a shape is copied repeatedly. 
 
-A<var>texture</var> is a 2D surface where the pattern is only repeated in X and Y axes. 
+The definition of <var>texture</var> we use when it’s a 2D surface where the pattern is only repeated in X and Y axes. 
 
-A <var>structure</var> is a 3D object where pattern is repeated in X, Y and Z axes.
+The definition of <var>structure</var> we use for 3D patterns were the Z-axe gets in, for example with LEGO® or in Minecraft. 
 
-Let's explore the geometric transformations and repetitions in the next section.
+Be sure to keep in mind that **repetition is key** at all times!
+
+-
+
+<f-image src="./images/bricks1.png" />
+
+---
+
+| chapter: Transformations
+| section: Introduction
+| padding: 0
+
+<section>
+
+## Geometric operations
+
+To make different designs you can use geometric operations such as:
+
+* translate
+
+* reflect
+
+* rotate
+
+* scale
+
+* affine transformation
 
 </section>
 
 -
 
-<f-image src="https://66.media.tumblr.com/46004abc5737531df4dbc7ef9a78c7b0/tumblr_ocdoorm7AE1qe593go1_1280.gifv" />
-
-<f-notes title="Credits">
-
-https://hyperglu.tumblr.com/post/149380467308/inspired-by-the-azulejo-tiles-that-i-saw-some
-
-</f-notes>
-
+<f-image src="./images/bricks2.jpg" />
 
 ---
 
@@ -122,13 +139,17 @@ https://hyperglu.tumblr.com/post/149380467308/inspired-by-the-azulejo-tiles-that
 
 # Translation
 
+<f-next-button />
+
 </f-inline>
 
 -
 
 #### Single translation
 
-A <var>translation</var> is a <var class="gray">geometric transformation</var> that moves a shape in a certain direction, without changing its shape or angle,
+A <var>translation</var> is a <var class="gray">transformation</var> that moves a figure in a specific direction, without changing its angle or shape.
+
+In the 2D coordinates, we can specify a translation by how far the shape is moved along the axises.
 
 > Adjust the translation along the axises to see the effect
 
@@ -206,6 +227,8 @@ Here is the simple grid repetition on x and y axis.
 <f-inline style="--inline-justify: space-between">
 
 # Scaling
+
+<f-next-button />
 
 </f-inline>
 
@@ -296,6 +319,8 @@ When <var>scaling</var> is repeated we will multiple shapes in incrementally big
 <f-inline style="--inline-justify: space-between">
 
 # Rotation
+
+<f-next-button />
 
 </f-inline>
 
@@ -391,6 +416,8 @@ By applying rotation to an element multiple times we can create a circular set o
 <f-inline style="--inline-justify: space-between">
 
 # Reflection
+
+<f-next-button />
 
 </f-inline>
 
@@ -495,9 +522,11 @@ We can combine the <var>reflection</var> and transformations we learned ealier.
 
 | rows: auto 1fr
 
-<f-inline style="--inline-justify : space-between">
+<f-inline style="--inline-justify: space-between">
 
 # Combined transformations
+
+<f-next-button />
 
 </f-inline>
 
@@ -597,14 +626,114 @@ To get more creative you can adjust the blend mode of the elements, creating a w
 
 <f-buttons :value="get('c_m',0)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+| chapter: From 2D to 3D patterns
+| section: Textures & structures
+
+## Textures & structures
+
+### Exercise 1
+
+In this stage you will make a 2D pattern / texture using only the X and Y axes. You can try to make transformations with a ruler and compass or digitally:
+
+https://www.mathsisfun.com/geometry/symmetry-artist.html
+
+https://www.mathsisfun.com/geometry/transformations.html
+
+* **Describe the grid** that was used with the patterns you found in the orientation exercises.
+
+* **Generate a flat surface tessellation** with a pattern that describes you, by hand or with a digital tool.
+
+<f-inline>
+  <a class="primary" href="../patterns_editor">Go to tessellation editor</a>
+  <a class="primary" href="../patterns_playground">Go to pattern playground</a>
+</f-inline>
+
+---
+
+## Textures & structures
+
+### Exercise 2
+
+Now let’s share all the findings!
+
+1. Make a moodboard or poster to show others the examples of 2D & 3D pattern designs that have inspired your ideas and findings.
+
+2. Explain during group discussions the ideas and constructions on your moodboard / poster. 
+
+3. Give each other feedback on the work.
+
+---
+
+## Production method
+
+Depending on the production method you will choose, some materials are more suitable than others.
+
+New techniques are useful for experimenting with material and integrating <var>sequences</var> (series) or <var>algorithms</var>(arithmetic methods) in your design. 
+
+> See also scenario on [algorithms](https://github.com/designstem/scenarios/algorithms)
+
+-
+
+<f-image src="./images/physical1.png" />
+
+---
+
+## Translation
+
+History shows that 2D patterns are translated to 3D as well. Sometimes in a very strict order and relation, like in The Bossche School. https://en.wikipedia.org/wiki/Bossche_School
+
+The famous Le Corbusier invented a language in architecture, where 2D has been translated into 3D. http://papers.cumincad.org/data/works/att/3642.content.pdf
+
+-
+
+<f-image src="./images/house.jpg" />
+
+---
+
+| padding: 0
+| 1 1 1 1 1 2 2
+
+<f-image src="./images/wall.jpg" />
+
+-
+
+<section>
+
+<img src="./images/mac.png" />
+
+</section>
+
+
 ---
 
 | section: The fourth dimension
 
-<caption>Exercise</caption>
-
 ## The fourth dimension: time
 
+### Exercise
 
 Another addition to designing patterns could be the fourth dimension: time. This can be achieved with **light** (moving shadows alter the 3D view as well), **rhythm** (tapping to a song is a pattern...), **nature**, etc. 
 
@@ -620,8 +749,6 @@ Another addition to designing patterns could be the fourth dimension: time. This
 
 | section: Final assignment
 
-<caption>Exercise</caption>
-
 ## Final assignment
 
 Key steps
@@ -631,8 +758,6 @@ Key steps
 2. When you think you're done with making your best 2D/3D pattern, find at least two students to get peer reviews. You will need them in the next stage to make improvements to the design.
 
 ---
-
-<caption>Reflect</caption>
 
 ## Evaluation of your pattern skills 
 
@@ -648,40 +773,8 @@ After having worked with this scenario, your pattern skills have grown. Describe
 
 * Will you see more patterns in your daily life from now on?
 
----
 
-| padding: 0
-| theme: dark
-| 1 1 2
 
-<section>
-
-## More fun with patterns
-
-Explore the following tools to create more patterns:
-
-#### Try digital tools
-
-<f-inline>
-  <a class="primary" href="../patterns_editor">Go to tessellation editor</a>
-  <a class="primary" href="../patterns_playground">Go to pattern playground</a>
-</f-inline>
-
-Amaziograph https://amaziograph.com
-
-Adobe Capture app https://www.adobe.com/products/capture.html
-
-#### Go analog
-
-* Find similar leaves, stones, flowers, packaging, emoji, … etc.
-
-* Investigate the world of tessellations http://tessellations.org/methods-diy-papercut.shtml
-
-</section>
-
--
-
-<f-image src="https://c.pxhere.com/photos/85/e4/photo-365034.jpg!d" />
 
 
 
