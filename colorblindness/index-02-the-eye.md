@@ -15,6 +15,9 @@
 ~When it comes to color vision, the **retina** is the part of the eye which is important.~
 ~It is at the back of the eye and contains two types of photoreceptor cells which detect light: **rods and cones**.~
 
+1. Besides the retina, there are other parts of the eye which are important for a functioning vision. On the right, you can see several terms that might be new to you. Find out what they mean online.
+2. Further, find out what the terms *macula* and *black spot* mean (They are also connected to rods and cones, about which you will learn more on the next slide).
+
 -
 
 <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
