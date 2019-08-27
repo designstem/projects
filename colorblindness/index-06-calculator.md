@@ -4,9 +4,7 @@
 
 
 <!-- ##### Elaborate Overview  -->
-## Workshop
-
-&nbsp;
+## Final task
 
 ~Now that you found out about the different topics surrounding designing for colorblind, it's time for some action.
 There are two different paths that you could take for the final task.
@@ -15,7 +13,6 @@ Either you could choose the STEM or the DESIGN focus.~
 ~*The STEM path is for all students who don't have any access to or knowledge about design software (like Photoshop or Illustrator).
 Whereas the DESIGN path requires you to also use design software. For the STEM path you only need some paper, brushes and watercolors*.~
 
-&nbsp;
 
 #### ~Choose your path:~
 
@@ -270,8 +267,6 @@ Upload your picture into the CVD-simulator and check whether it works.~
 <!-- ##### Evaluate meta  -->
 ## EVALUATE
 
-<f-hr style="margin:var(--base6) 0" />
-
 ~Lets reflect on what you achieved.~
 
 <br>
@@ -311,8 +306,6 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Design
-
-<f-hr style="margin:var(--base6) 0" />
 
 <br>
  
@@ -356,7 +349,6 @@ https://www.vitsoe.com/gb/about/good-design
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Biology
 
-<f-hr style="margin:var(--base6) 0" />
 
 <br>
  
@@ -384,3 +376,35 @@ https://www.vitsoe.com/gb/about/good-design
 <f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 
+---
+
+
+
+| section: final
+| height: 100vh
+| 1 2
+
+
+
+<!-- ##### Evaluate meta  -->
+## You did it! 😄
+
+<br>
+ 
+~We hope that what you learned in this workshop, will help you in your further life, so that you can help other people with your knowledge and skills - especially people with CVD. ~
+~Create nice color schemes that work for all!~
+
+<br>
+
+~*This workshop is dedicated to Michael, who was the inspiration for it, and people like him. People whose accessibility is restricted
+in their everyday life, which designers can fix easily if they know how.* **You do now!**~
+
+<br>
+
+~If you are still motivated to learn more, check out the other workshops~
+
+
+-
+
+
+<f-image src="./images/cvd_success.jpg" style="background-position:50% 50%; min-height: 90vh;" />
