@@ -157,23 +157,41 @@ _Move the bar to explore the pH-scale. Talk with a friend: What is the pH-range 
 </section>
 
 <f-notes title="credits">
+
 https://www.pexels.com/photo/body-of-water-under-blue-and-white-skies-1533720/
+
 https://www.pexels.com/photo/nature-water-blue-abstract-67843/
+
 https://www.pexels.com/photo/flour-in-a-jar-5765/
+
 https://www.pexels.com/photo/chrome-circle-close-up-droplets-220612/
+
 https://commons.wikimedia.org/wiki/File:Clorox_Bleach_products.jpg
+
 https://www.flickr.com/photos/yourbestdigs/28692193236
+
 https://www.flickr.com/photos/horiavarlan/4263958356
+
 https://pixabay.com/photos/tums-pills-tablets-antacid-1528834/
+
 https://www.maxpixel.net/Inflammation-Urine-Container-Urine-The-Test-1006795
+
 https://www.pexels.com/photo/happy-coffee-6347/
+
 https://www.pexels.com/photo/tomato-shake-being-poured-in-drinking-glass-1365445/
+
 https://www.pexels.com/photo/close-up-photo-of-cold-cola-1571700/
+
 https://www.pexels.com/photo/close-up-photo-of-sliced-lemons-1536871/
+
 https://commons.wikimedia.org/wiki/File:Adult_Digestive_System.png
+
 https://www.needpix.com/photo/download/656916/offal-marking-medical-intestine-liver-small-intestine-colon-belly-human
+
 https://www.maxpixel.net/Motorcycle-Battery-Battery-Acid-Battery-2490122
+
 https://pxhere.com/en/photo/977978
+
 </f-notes>
 
 -
