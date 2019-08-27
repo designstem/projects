@@ -128,7 +128,7 @@ This lesson is divided into three main sections:
 | section: How to Define Frequency?
 | padding: 0
 | gap: 0
-| theme: dark
+| theme: light
 | 1 2 3
 | 1 4 5
 | 1 6 7
