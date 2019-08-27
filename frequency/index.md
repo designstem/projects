@@ -4,6 +4,7 @@
 | 1 1 1 1 1 3 3 3
 | 2 2 2 2 2 3 3 3
 
+<!--
 <f-scene width="1100" height="1100" style="position: fixed; top: -470px; right: -600px; z-index: 0;">
   <f-circle r="0.1" :stroke="color('darkgray')" />
   <f-circle r="1.26" :stroke="color('darkgray')" />
@@ -22,7 +23,10 @@
     />
     </f-group>
   </f-spinner>
-</f-scene>
+</f-scene> 
+-->
+
+<img src="./images/vinyl.png" style= "width: 50%; position: fixed; top: -40px; right: -10px; z-index: 0;">
 
 <div style="position: relative">
 
@@ -1159,5 +1163,3 @@ The teacher can decide how complex the pathway should be to take, depending on t
 -
 
 <f-video src="https://www.youtube.com/watch?v=9n-DtqB0sNc" />
-
-
