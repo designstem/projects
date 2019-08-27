@@ -84,6 +84,8 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 <br />
 
+> Hint: ~If you cannot work with watercolors, you might want to try the following online tool. It is a bit more difficult to work with than watercolors, but it basically works like the color mixing tools you used in the tasks before. Click on *Edit* under a color, to change it (upper right). Then click on a calculator button to select it and next on the color you want to apply. After working on the button, you should deselect it. You can also select several buttons at the same time. Further, you can switch the label color between black and white. When you are happy with your color scheme, take a screenshot of it, to save it for later!~
+
 <!-- <mark> Here we need to add a picture of the calculator.</mark> -->
 <mark> We need to add a link to a pdf with the calculator in task no. 3 - Link is now to google (color-me-in-sheet).</mark>
 
@@ -102,6 +104,17 @@ Create a new color scheme for a calculator with white buttons, which also works 
 <button class="primary" v-on:click="send('goto', 'cb-workshop-test')">Test your design</button>
 
 
+
+
+
+
+
+---
+
+
+
+
+<calculator-designer />
 
 
 
@@ -151,20 +164,6 @@ Design a calculator app that works for people with color vision deficiency, but 
 -
 
 <button class="primary" v-on:click="send('goto', 'cb-workshop-test')">Test your design</button>
-
----
-
-
-
-
-
-
-
-
-
-
-
-<calculator-designer />
 
 ---
 
