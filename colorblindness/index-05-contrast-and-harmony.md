@@ -1018,15 +1018,19 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 <section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
 
 ##### Learning Station Summary
-## What next?
+## <f-fact-icon /> What's next?
 
 &nbsp;
 
-~On this slide, I need to add some sort of summary for the learning station setting, that leads over to the final task.~
-
+~You are close to the finish line and learned a lot, but **the big endgame is still before you**.~
+~So you need to gather your knowledge and skills on *accessibility, the eye, color vision deficiency, color mixing, the properties of color, color contrasts and color palettes* to prove in a final task, that you have the ability to design well working color palettes for people with CVD.~
+&nbsp;
+~On the next slide, you may choose the path that you want to take: STEM or Design.~
+~**Choose wisely.**~ 🧐
+  
 -
 
-<f-image src="./images/cvb_bubbles.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+<f-image src="./images/cvd_finishline.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 -
 
