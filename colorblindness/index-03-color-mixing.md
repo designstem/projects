@@ -2,12 +2,8 @@
 | section: Light and color
 | id: cb-color-mixing
 | theme: light
-
-<!--
 | padding: 0
 | gap: 0
--->
-
 | rows: auto
 | 1 2
 
@@ -145,27 +141,26 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 &nbsp;
 
-To get you started, here is some information about the RGB color systems values.
+To get you started, here is some information about the RGB color system's values.
 
 <details>
-	<summary>Check your answers - but don't cheat.</summary>
+	<summary>How does the RGB system work when I want to pick a color?</summary>
 	
-	When you pick a color in the RGB color model, depending on the layout you can always see three sliders or forms where you can fill in numbers manually. Three because we need one for each channel/color: Red, Green and Blue .
-	The values that you can pick go from 0 (for no light, 0%) to 255 (for full light, 100%).
-	If I have the value 255,0,0, this means that I get a very bright red.
+~When you pick a color in the RGB color model, depending on the layout you can always see three sliders or forms where you can fill in numbers manually. Three because we need one for each channel/color: Red, Green and Blue.~
+~The values that you can pick go from 0 (for no light, 0%) to 255 (for full light, 100%).~
+~If you have the value 255,0,0, this means that you get a very bright red.~
 	
-	<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-        <img src="./images/cvd_rgb_picker.jpg" />
-      </figure>
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
+	<img src="./images/cvd_rgb_picker.jpg" />
+</figure>
       
-	Of course I can pick whatever color I want, therefore I can alter the values in all three channels randomly until I get the color I want.
+~Of course I can pick whatever color I want, therefore I can alter the values in all three channels randomly until I get the color I want. See in the following example:~
 	
-	<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
-        <img src="./images/cvd_rgb_picker2.jpg" />
-      </figure>
+<figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
+	<img src="./images/cvd_rgb_picker2.jpg" />
+</figure>
 	
-	&nbsp;
-	For those of you, who already know their way around bits and bytes, this means that we have 8 bits per channel, therefore we get (256 x 256 x 256 = )  16777216 combinations of R, G and B, therefore over 16 million different colors that we can display. Neat, isn't it? 🙃
+~For those of you, who already know their way around bits and bytes, this means that we have 8 bits per channel, therefore we get (256 x 256 x 256 = )  16777216 combinations of R, G and B, therefore over 16 million different colors that we can display. Neat, isn't it?~ 🙃
 	
 	
 </details>
@@ -202,7 +197,7 @@ To get you started, here is some information about the RGB color systems values.
 ##### Color mixing
 ## Mix RGB Colors
 
-~**Now, check your assumptions by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example.**~
+~Now, **check your assumptions** by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example. But first think, then pull the sliders.~ 🤓
 
 -
 
