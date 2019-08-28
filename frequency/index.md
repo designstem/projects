@@ -26,7 +26,7 @@
 </f-scene> 
 -->
 
-<img src="./images/vinyl.png" style= "width: 50%; position: fixed; top: -40px; right: -10px; z-index: 0;">
+<img src="./images/vinyl.png" style= "width: 45%; position: fixed; top: -40px; right: -10px; z-index: 0;">
 
 <div style="position: relative">
 
@@ -472,7 +472,9 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 
 ---
 
+| background: images/vinylblurry.png
 | theme: dark
+| tint: 0.8
 
 <center><div>
 
@@ -836,7 +838,9 @@ You have just completed all the steps required to experience visual distortion v
 
 ---
 
+| background: images/vinylblurry.png
 | theme: dark
+| tint: 0.8
 
 <center><div>
 
@@ -844,7 +848,7 @@ You have just completed all the steps required to experience visual distortion v
 
 <p />
 
-~Let's have a 2 minute break before the next hands-on exercise.~
+~Let's have a 3 minute break before the next hands-on exercise.~
 <small>Following clip shows You different experiments with the medium.</small>
 
 <p />
