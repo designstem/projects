@@ -28,8 +28,8 @@ export default {
     :border="statuses[status].border"
     :image="project.image"
   >
-      <h5>{{ project.title }}</h5>
-      <small>{{ project.desc }}</small>
+      <h5 style="margin-top: var(--base);">{{ project.title }}</h5>
+      <p style="font-size: calc(var(--base) * 1.75)">{{ project.desc }}</p>
       <p />
       <div style="display: flex; flex-wrap: wrap;">
         <f-tag
@@ -41,12 +41,12 @@ export default {
         <f-tag
           v-for="(tag,j) in project.stemtags.split(',')"
           :key="'j' + j"
-          style="background: var(--lightblue)"
         >
           {{ tag }}
         </f-tag>
       </div>
       <p />
+      <!--
       <f-inline v-if="project.time">
         <span><f-clock-icon duration2="15" /></span>
         <small style="opacity: 0.65">{{ project.time }}</small>
@@ -59,6 +59,7 @@ export default {
       <span><f-tools-icon /></span>
       <small style="opacity: 0.65">{{ project.facilities }}</small>
       </f-inline>
+      -->
       <f-sidebar style="--sidebar-width: 40vw;" v-if="project.about" :src="'./' + project.scenario + '/about.md'">
           <button slot="button">About</button>
       </f-sidebar>

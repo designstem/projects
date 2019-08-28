@@ -19,7 +19,7 @@ export default {
       :style="{
         color,
         background,
-        border: '3px solid ' + border
+        border: '2px solid ' + border
       }"
     >
       <div :style="{
@@ -28,10 +28,10 @@ export default {
         backgroundImage: image ? 'url(' + image + ')' : '',
         backgroundColor: !image ? '#eee' : '',
         backgroundSize: 'cover',
-        height: '100px'
+        height: '180px'
       }">
       </div>
-      <div style="padding: var(--base2)">
+      <div style="padding: var(--base) var(--base2)">
       <div style="
         display: flex;
         justify-content: space-between;

@@ -1,51 +1,33 @@
-| padding: 0
-| gap: 0
-| rows: 300px 1fr
-| 1 2 3 4
-| 5 5 5 5
-| 6 6 7 7
-| 8 8 8 8
-| 9 9 9 9
-
-<f-image2 src="https://designstem.github.io/slides/haridusfond/images/1.jpg" />
-
--
-
-<f-image2 src="https://designstem.github.io/slides/haridusfond/images/5.jpg" />
-
--
-
-<f-image2 src="https://designstem.github.io/slides/haridusfond/images/4.jpg" />
-
--
-
-<f-image2 src="https://designstem.github.io/slides/haridusfond/images/6.jpg" />
-
--
-
-<section style="padding: var(--base7) var(--base3) 0 var(--base3)">
-
-# DesignSTEM projects
-
-</section>
-
--
 
 <section>
 
-DesignSTEM is an education initiative that creates immersive experiences for future learning. We are educators, teachers, designers and engineers from 10 countries 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪 around Europe.
+# <big>DesignSTEM<br>projects</big>
+
+<big>
+
+DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The scenarios are powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.
+
+</big>
 
 </section>
 
 -
 
-<section>
+<div class="grid" style="--cols: 1fr 1fr; --gap: 0; height: 90vh;">
 
-Our interactive scenarios help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The scenarios are powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework, development progress can be tracked <a href="https://designstem.github.io/homepage">here</a>
+  <f-image src="https://designstem.github.io/slides/haridusfond/images/1.jpg" />
 
-</section>
+  <f-image src="https://designstem.github.io/slides/haridusfond/images/5.jpg" />
 
--
+  <f-image src="https://designstem.github.io/slides/haridusfond/images/4.jpg" />
+
+  <f-image src="https://designstem.github.io/slides/haridusfond/images/6.jpg" />
+
+</div>
+
+---
+
+| background: var(--lightergray)
 
 <section>
 
@@ -53,11 +35,7 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
   v-slot="{ value: projects }"
 >
-<!--f-fetch
-  type="json"
-  src="./feed.json"
-  v-slot="{ value: projects }"
--->
+
 <div>
 
 <div class="grid" style="--cols: 1fr 1fr">
@@ -66,34 +44,18 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
   <div style="display: flex; flex-wrap: wrap;">
     <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer" v-on:click.native="set('dt', t == get('dt') ? '' : t)" />
   </div>
-  </div>
+</div>
+
 <div>
   <h3>STEM topics</h3>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightblue)" v-on:click.native="set('st', t == get('st') ? '' : t)" />
+    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer;" v-on:click.native="set('st', t == get('st') ? '' : t)" />
   </div>
   </div>
 </div>
 
-<p /><br>
+## Projects
 
-### Featured projects {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' about ' + get('st') : '' }} <button v-if="get('dt') || get('st')" v-on:click="set('dt',''); set('st','')">Show all</button>
-
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
-  <f-fade
-    v-for="(project,i) in projects.filter(p => p.type == 'featured').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
-    :key="i"
-  >
-  <f-project-card
-    :project="project"
-    status="feature"
-  />
-  </f-fade>
-</div>
-
-<br><br>
-
-### Projects in progress {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' about ' + get('st') : '' }} 
 <div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
   <f-project-card
     v-for="(project,i) in projects.filter(p => p.type == 'progress').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
@@ -103,19 +65,7 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
   />
 </div>
 
-<br><br>
-
-### Projects in Google slides or external sites {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' about ' + get('st') : '' }} 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
-  <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'preparation').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
-    :key="i"
-    :project="project"
-    status="preparation"
-  />
-</div>
-
-<br><br>
+<br>
 
 ### Various experiments {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' about ' + get('st') : '' }} 
 
@@ -131,13 +81,16 @@ Our interactive scenarios help young designers and craftsmen learn STEM topics i
 <br><br>
 
 </div>
-<!--/f-fetch-->
+
 </f-sheet>
 
 </section>
 
-<section>
 
+
+---
+
+<section>
 
 <a id="about">
   <h3>About</h3>
