@@ -12,7 +12,7 @@
 | 3 2
 
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section style="padding:var(--content-padding)">
   
   ## Color contrast and harmony
 
@@ -28,16 +28,16 @@
 
   </blockquote>
   
+  &nbsp;
+
   <f-next-button />
 
-<!-- </section> -->
+</section>
 
 -
 
                                                              
 <f-image src="./images/contrast-and-harmony-dots.jpg" style="background-position:50% 50%; min-height: 90vh;" />
-
-
 
 ---
 
@@ -56,12 +56,10 @@
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section style="padding:var(--content-padding); padding-bottom:0;">
   
   <!-- ##### EXPLAIN -->
   ## Color contrast and harmony
-
-&nbsp;
 
   ~But harmony not only exists if color combinations are made up by colors which are neighbours in the color wheel or by colors with the same hue but different brightness, like in this example.~
   
@@ -75,8 +73,7 @@
 
 -
 
-&nbsp;
-<section style=" padding:0 var(--content-padding) var(--content-padding) var(--content-padding)">
+<section style=" padding:var(--content-padding); padding-top:0;">
   <f-next-button />
 </section>
 
@@ -99,11 +96,9 @@
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section style="padding:var(--content-padding); padding-bottom:0;">
 
 ## Color contrast and harmony
-
-&nbsp;
 
 ~Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. mono-chromatic color palettes. But that doesn’t always mean that they are less harmonious.~
 
@@ -121,8 +116,7 @@
 
 -
 
-&nbsp;
-<section style=" padding:0 var(--content-padding) var(--content-padding) var(--content-padding)">
+<section style="padding:var(--content-padding); padding-top:0;">
   <f-next-button />
 </section>
 
@@ -145,12 +139,11 @@
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section style="padding:var(--content-padding); padding-bottom:0;">
 
-##### Color contrast and harmony
+<caption>Color contrast and harmony</caption>
+
 ## Itten's contrasts
-
-&nbsp;
 
 ~**Johannes Itten**, who taught at Bauhaus between 1919 and 1923, tried to describe the relationship of colors and defined seven different color contrasts. In 1961, he also designed his famous color wheel, which you have probably already seen at some point. By using this color wheel, you can describe all of his contrasts.~
 
@@ -159,15 +152,13 @@
 1. ~Find out about the definitions and examples of the following contrasts online.~
 2. ~Find out how these contrasts work and which effect they have.~
 
-##### * Contrast of hue
-##### * Light-dark contrast
-##### * Cold-warm contrast
-##### * Complementary contrast
-##### * Simultaneous contrast
-##### * Contrast of saturation
-##### * Contrast of extension
-
-<br> 
+- ##### Contrast of hue
+- ##### Light-dark contrast
+- ##### Cold-warm contrast
+- ##### Complementary contrast
+- ##### Simultaneous contrast
+- ##### Contrast of saturation
+- ##### Contrast of extension
 
 #### Extra task:
 ~Look at your daily surroundings more closely and try to find Itten's color contrasts in magazines, posters, on websites and everywhere, where there is color design.~
@@ -175,7 +166,7 @@
 </section>
 
 -
-<figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0;">
+<figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0; padding:var(--content-padding)">
   <img src="./images/cvd_itten_colorwheel.svg" />
 </figure>
 
@@ -189,8 +180,7 @@
 -->
 -
 
-<section style="padding:var(--base2) var(--content-padding) var(--content-padding) var(--content-padding)">
-  <br />
+<section style="padding:var(--content-padding);">
   <f-next-button />
 </section>
 
@@ -214,8 +204,9 @@
 | 4 4
 
 <!-- ##### EXPLAIN -->
-##### Color contrast and harmony
-## <f-activity-icon size="large" /> Find the contrasts 1
+<caption>Color contrast and harmony</caption>
+
+## <f-activity-icon size="medium" /> Find the contrasts 1
 
 <!-- <f-hr  style="margin:var(--base6) 0" /> -->
 
@@ -262,8 +253,9 @@
 | 4 4
 
 <!-- ##### EXPLAIN  -->
-##### Color contrast and harmony
-## <f-activity-icon size="large" /> Find the contrasts 2
+<caption>Color contrast and harmony</caption>
+
+## <f-activity-icon size="medium" /> Find the contrasts 2
 
 -
 
@@ -307,8 +299,9 @@
 | 4 4
 
 <!-- ##### EXPLAIN  -->
-##### Color contrast and harmony
-## <f-activity-icon size="large" /> Find the contrasts 3
+<caption>Color contrast and harmony</caption>
+
+## <f-activity-icon size="medium" /> Find the contrasts 3
 
 -
 
@@ -349,14 +342,14 @@
 | section: Color palettes
 | id: cb-wheels
 | theme: dark
-| rows: auto
 | cols: 3fr 2fr
 | 1 3
 | 2 3
 | 4 3
 
 <!-- ##### EXPLAIN  -->
-##### Color contrast and harmony
+<caption>Color contrast and harmony</caption>
+
 ## Complementary palette
 
 -
@@ -398,7 +391,8 @@
 | 4 3
 
 <!-- ##### EXPLAIN  -->
-##### Color contrast and harmony
+<caption>Color contrast and harmony</caption>
+
 ## Split complementary palette
 
 -
@@ -437,7 +431,8 @@
 | 5 5 5
 
 <!-- ##### EXPLAIN  -->
-##### Color contrast and harmony
+<caption>Color contrast and harmony</caption>
+
 ## Double complementary and triadic palettes
 
 -
@@ -482,7 +477,8 @@
 | 4 3
 
 <!-- ##### EXPLAIN  -->
-##### Color contrast and harmony
+<caption>Color contrast and harmony</caption>
+
 ## Analoguous palette
 
 -
@@ -517,7 +513,8 @@
 | 4 3
 
 <!-- ##### EXPLAIN  -->
-##### Color contrast and harmony
+<caption>Color contrast and harmony</caption>
+
 ## Monochromatic palette
 
 -
@@ -556,8 +553,9 @@
 | 6 6 6
 
 <!-- ##### EXPLAIN -->
-##### Color contrast and harmony
-## <f-activity-icon size="large" /> Your turn!
+<caption>Color contrast and harmony</caption>
+
+## <f-activity-icon size="medium" /> Your turn!
 
 -
 
@@ -640,8 +638,9 @@ If possible, discuss your results with someone else.~
 | 2 2 3
 | 4 4 3
 
-##### Color contrast and harmony
-## <f-activity-icon size="large" /> Create a palette
+<caption>Color contrast and harmony</caption>
+
+## <f-activity-icon size="medium" /> Create a palette
 
 
 
@@ -724,8 +723,9 @@ If possible, discuss your results with someone else.~
 | 5 5 5 5
 
 
-##### Color contrast and harmony
-## <f-activity-icon size="large" /> CVD compatible palette
+<caption>Color contrast and harmony</caption>
+
+## <f-activity-icon size="medium" /> CVD compatible palette
 
 -
 
@@ -738,7 +738,8 @@ If possible, discuss your results with someone else.~
 -
 <br>
 
-#### Open the tasks in the sidebar:
+#### Open the tasks in the sidebar: 
+
 <f-sidebar title="Click me!" overlay>
 
 1. ~Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.~
@@ -828,9 +829,10 @@ If possible, discuss your results with someone else.~
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section style="padding:var(--content-padding)">
 
-##### Color contrast and harmony
+<caption>Color contrast and harmony</caption>
+
 ## Contrasts for Colorblind
 
 &nbsp;
@@ -881,7 +883,7 @@ If possible, discuss your results with someone else.~
   
 </f-sidebar>
 
-
+</section>
 
 -
 
@@ -889,9 +891,9 @@ If possible, discuss your results with someone else.~
 
 -
 
-<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
+<section>
     <f-next-button />
-</div>
+</section>
 
 
 ---
@@ -927,76 +929,61 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section style="padding:var(--content-padding)">
 
-##### Color palettes
-## <f-fact-icon size="large" /> Tips!
+<caption>Color palettes</caption>
 
-&nbsp;
+## <f-fact-icon size="medium" /> Tips!
 
-~Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier 😎 :~
+~Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier 😎:~
 
- 
-  <details>
-      <summary> Figure out the purpose
-      </summary>
+<details>
+  <summary> Figure out the purpose</summary>
+
   Analyse the product and the target group for which you are going to design. Are there typical colors already in use by similar products?
-  
-  </details>
+</details>
 
+<details>
+  <summary> Review color basics</summary>
+  
+  Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.
+</details>
+  
+<details>
+  <summary> Choose a dominant color, then accent colors</summary>
+  
+  First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.
+</details>
 
+<details>
+  <summary> Select shades, then vary them</summary>
   
-  <details>
-      <summary> Review color basics
-      </summary>
-    Make sure you remember all the basics about the three properties of color, color meanings, color contrast and harmony, before you get started.
-  </details>
-  
+  Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).
+</details>
 
-  
-  
-  <details>
-      <summary> Choose a dominant color, then accent colors
-      </summary>
-    First, decide for a color for the largest areas (e.g. the background color), then choose an accent color. If there is a corporate color, choose the dominant color with it in mind.
-  </details>
-
-
-  
-   <details>
-      <summary> Select shades, then vary them
-      </summary>
-    Play with saturation and brightness to create different effects (cheerful, dramatic, cold, warm etc.).
-  </details>
-
-  
-
-  
-  <details>
-      <summary> Look at compati&shy;bility of hues
-      </summary>
+<details>
+  <summary> Look at compati&shy;bility of hues</summary>
     Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.
   </details>
 
+<details>
+  <summary> Limit the number of colors</summary>
 
-
-  <details>
-      <summary> Limit the number of colors
-      </summary>
-    Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.
-  </details>
+  Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.
+</details>
 
   
+<details>
+  <summary> Put the colors into action </summary>
+
+  e.g. in a mock-up, so that you can better judge whether your color palette works.
+</details> 
   
-  <details>
-      <summary> Put the colors into action 
-      </summary>
-    e.g. in a mock-up, so that you can better judge whether your color palette works.
-  </details> 
-  
-  <div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
-    <f-next-button />
-</div>
+&nbsp;
+
+<f-next-button />
+
+</section>
 
 -
 
@@ -1015,25 +1002,29 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section style="padding:var(--content-padding)">
 
-##### Learning Station Summary
+<caption>Learning Station Summary</caption>
+
 ## <f-fact-icon /> What's next?
 
 &nbsp;
 
 ~You are close to the finish line and learned a lot, but **the big endgame is still before you**.~
 ~So you need to gather your knowledge and skills on *accessibility, the eye, color vision deficiency, color mixing, the properties of color, color contrasts and color palettes* to prove in a final task, that you have the ability to design well working color palettes for people with CVD.~
-&nbsp;
+
 ~On the next slide, you may choose the path that you want to take: STEM or Design.~
+
 ~**Choose wisely.**~ 🧐
-  
+
+</section>
+
 -
 
 <f-image src="./images/cvd_finishline.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 -
 
-<div style="display:inline-grid; height:100%; align-items: flex-end; padding-bottom:var(--base3)">
-    <f-next-button />
-</div>
+<section>
+  <f-next-button />
+</section>
