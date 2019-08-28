@@ -1384,7 +1384,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 
-| theme: dark
+| theme: blue
 | chapter: Epilogue
 | section: Wrapping up
 | cols: 2fr 3fr
@@ -1397,7 +1397,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ##### Related DesignSTEM projects:
 
-<a href="https://designstem.github.io/scenarios/geometry">From geometry to design</a> - polyhedra and paper
+<a href="https://designstem.github.io/scenarios/geometry">From geometry to design</a> - polyhedra and paper - from 2D to 3D
 
 <a href="https://designstem.github.io/scenarios/spirals">Spirals</a> - another trigonomy-related project
 
@@ -1405,9 +1405,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ##### Other materials:
 
-<a href="https://polyhedra.tessera.li/" target="_blank">Polyhedra Viewer</a> by Nat Alison (@tesseralis) - watch also her talk at !!Con2019 and fall in love with... polyhedra :)
+<a href="https://polyhedra.tessera.li/" target="_blank">Polyhedra Viewer</a> by Nat Alison (@tesseralis) - watch also her talk at !!Con2019 and fall in love (with polyhedra)
 
-<a href="http://polyhedra.stacyspeyer.net/" target="_blank">Stacy Speyer</a> - everything from polyhedra art to polyhedra parties
+<a href="http://polyhedra.stacyspeyer.net/" target="_blank">Stacy Speyer</a> - everything from polyhedra-art to polyhedra-parties
 
 &nbsp;
 
