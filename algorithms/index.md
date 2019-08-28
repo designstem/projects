@@ -1,4 +1,5 @@
-| background: http://www.michael-hansmeyer.com/images/digital-grotesque-I/digital-grotesque-design-3-l.webp
+| background: ./images/start.jpg
+| style: background-position:center;
 | tint: 0.5
 | theme: dark
 | chapter: Introduction
@@ -1092,52 +1093,60 @@ Try to create a different algorithm from the one we started with. Experiment wit
 
 
 | section: What next?
+| padding: 0
 | rows: auto
+| cols: 3fr 2fr
 
 
 
 
-## What to do next?
+<section>
 
-##### Related DesignSTEM projects:
+  ## What to do next?
+  
+  ##### Related DesignSTEM projects:
+  
+  <a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a>
+  <small>allows to play around with 2D pattern compositions.</small>
+  
+  &nbsp;
+  
+  ##### Other materials:
+  
+  BBC Ideas video: <a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a>
+  
+  <a href="https://algorithms.design/" target="_blank">How Artificial Intelligence is Changing Design</a>
+  
+  <a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Khan Academy Algorithms course</a>
+  
+  <a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">Artur Neufeld: About creativity, algorithms and the future of graphic design</a>
+  
+  Matt DesLauriers, an artist and freelance creative coder: 
+  <a href="https://www.youtube.com/watch?v=8Uo6zFwSO78" target="_blank">Talk at FITC</a> | <a href="https://mattdesl.svbtle.com/">Blog</a>  
+  
+  <a href="https://generated.space/" target="_blank">Generated Spaces</a> by Kjetil Golid
+  
+  <a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. And a <a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with him.
+  
+  Plotter art <a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a>
+  
+  <a href="https://www.openprocessing.org/browse/#">OpenProcessing</a> 
+  
+  <a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a>
+  
+  <a href="http://weavesilk.com/" target="_blank">Weave Silk</a> online tool
+  
+  <a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a>
+  
+  <a href="https://www.derivative.ca/" target="_blank">Touch Designer</a>
+  
+  &nbsp;
+  
+  <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+</section>
 
-<a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a>
-<small>allows to play around with 2D pattern compositions.</small>
+-
 
-
-
-##### Other materials:
-
-BBC Ideas video: <a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a>
-
-<a href="https://algorithms.design/" target="_blank">How Artificial Intelligence is Changing Design</a>
-
-<a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Khan Academy Algorithms course</a>
-
-<a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">Artur Neufeld: About creativity, algorithms and the future of graphic design</a>
-
-
-#### Related stuff
-
-Matt DesLauriers, an artist and freelance creative coder: 
-<a href="https://www.youtube.com/watch?v=8Uo6zFwSO78" target="_blank">Talk at FITC</a> | <a href="https://mattdesl.svbtle.com/">Blog</a>  
-
-<a href="https://generated.space/" target="_blank">Generated Spaces</a> by Kjetil Golid
-
-<a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. And a <a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with him.
-
-Plotter art <a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a>
-
-<a href="https://www.openprocessing.org/browse/#">OpenProcessing</a> 
-
-<a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a>
-
-<a href="http://weavesilk.com/" target="_blank">Weave Silk</a> online tool
-
-<a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a>
-
-<a href="https://www.derivative.ca/" target="_blank">Touch Designer</a>
-
-&nbsp;
-
-<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+<div style="position:sticky; top:0; height:100vh;">
+  <f-image src="./images/start.jpg" style="--image-height:100%; --image-position:90% center" />
+</div>
