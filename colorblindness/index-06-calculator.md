@@ -347,8 +347,10 @@ https://www.vitsoe.com/gb/about/good-design
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Biology
 
-Do you still know everything there is to know about rods and cones? Find out in this quiz!
+Do you still know everything there is to know about rods and cones? Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_quiz1_answerkey.pdf).~
 
+
+<!--
 a) Rods and cones are receptors in the retina of the eye. What kind of receptor are they?
 <ContrastQuiz :input="[ 
   ['Osmoreceptors',         0], 
@@ -356,9 +358,6 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
   ['Photoreceptors',      1],
   ['Chemoreceptors',  0]
 ]" />
-
-<br>
-
 ~b) Rods and cones contain light-sensitive pigments which undergo a chemical change when they absorb light. What is this chemical change called?~
 <ContrastQuiz :input="[ 
   ['Bleaching',         1], 
@@ -366,9 +365,6 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
   ['Hydrolysis',      0],
   ['Condensation',  0]
 ]" />
-
-<br>
-
 ~c) When light bleaches the photosensitive pigments in rods and cones, the energy released causes the membranes of rods and cones to become...?~
 <ContrastQuiz :input="[ 
   ['less permeable to Na+ ions',         0], 
@@ -376,9 +372,6 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
   ['more permeable to K+ ions',      0],
   ['more permeable to Na+ ions',  1]
 ]" />
-
-<br>
-
 ~d) Which is the correct sequence of ‘potentials’ following depolarisation of rod and cone membranes?~
 <ContrastQuiz :input="[ 
   ['Generator, Action, Threshold',         0], 
@@ -386,6 +379,7 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
   ['Generator, Threshold, Action',      1],
   ['Threshold, Generator, Action',  0]
 ]" />
+-->
 
 <f-notes>
   
