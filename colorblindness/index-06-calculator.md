@@ -78,7 +78,6 @@ Create a new color scheme for a calculator with white buttons, which also works 
 1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?~
 2. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
 3. ~**Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](./files/designstem_cvd_worksheet_stem.pdf).~
-<f-link to="./files/designstem_cvd_worksheet_stem.pdf">calculator worksheet</f-link>
 
 <br />
 
@@ -348,12 +347,25 @@ https://www.vitsoe.com/gb/about/good-design
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Biology
 
+Do you still know everything there is to know about rods and cones? Find out in this quiz!
+
+a) Rods and cones are receptors in the retina of the eye. What kind of receptor are they?
+<RodsandconesQuiz :input="[ 
+  ['Osmoreceptors',         0], 
+  ['Baroreceptors',     0], 
+  ['Photoreceptors',      1],
+  ['Chemoreceptors',  0],
+]" />
 
 <br>
- 
-1. Have a look at the famous calculator Dieter Rams designed for BRAUN. Compare his solution to yours. What is different?
-2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion!
-3. What should he have done different?
+
+~b) Rods and cones contain light-sensitive pigments which undergo a chemical change when they absorb light. What is this chemical change called?~
+<RodsandconesQuiz :input="[ 
+  ['Bleaching',         1], 
+  ['Neutralisation',     0], 
+  ['Hydrolysis',      0],
+  ['Condensation',  0],
+]" />
 
 
 <f-notes>
@@ -361,11 +373,7 @@ https://www.vitsoe.com/gb/about/good-design
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
-  ~This is the chance for you to lead over to Dieter Rams' 10 design principles.~
-  <br>
-~You can find a nice overview with examples on the following website:~
-https://www.vitsoe.com/gb/about/good-design
-~This could be interesting for students, since the functionality of BRAUN's (and Dieter Rams') product design has often been copied or taken as an inspiration, see Apple's products for example.~
+  ~Through these quizzes, you can evaluate your students increase of knowledge. Maybe also use the questions in a test.~
 
 
 </f-notes>
