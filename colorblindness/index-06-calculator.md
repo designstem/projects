@@ -347,7 +347,13 @@ https://www.vitsoe.com/gb/about/good-design
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Biology
 
-Do you still know everything there is to know about rods and cones? Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_quiz1_answerkey.pdf).~
+~Do you still know everything there is to know about the eye and in specific about rods and cones? Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_quiz1_answerkey.pdf).~
+
+<br>
+
+~**Here are some further questions to think about:**~
+1. In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?
+2. In terms of rods and cones, how would you expect the retina of a nocturnal mammal to be different from that of a diurnal mammal? Can you explain it?
 
 
 <!--
