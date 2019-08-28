@@ -1,7 +1,8 @@
 | background: http://www.michael-hansmeyer.com/images/digital-grotesque-I/digital-grotesque-design-3-l.webp
 | tint: 0.5
 | theme: dark
-| section: START
+| chapter: Introduction
+| section: Start
 
 <center><div>
 
@@ -95,14 +96,14 @@ The task can be evaluated by describing what is an algorithm, how it links to de
 
 
 
-
-| section: WARMUP
+| chapter: Warming up
+| section: A small warm-up exercise
 | rows: auto
 | 1 1
 | 2 3 
 
 
-# Warming up... 
+## Warming up... 
 
 -
  
@@ -118,7 +119,7 @@ Let's start with a small warming-up exercise.
 
 <br />
 
-<f-prev-button /> <f-next-button title="Next: see the result" />
+ <f-next-button title="Next: see the result" />
 
 -
 
@@ -140,7 +141,7 @@ Let's start with a small warming-up exercise.
 | 1 2 
 | 3 2
  
-# Nice work! 
+## Nice work! 
 
 &nbsp;
 
@@ -154,7 +155,7 @@ By following the steps of cutting and folding you were performing a so called <b
 
 -
 
-<f-prev-button /> <f-next-button title="Next: definition" />
+ <f-next-button title="Next: definition" />
 
 <!-- ![Origami result](./images/origami-output.jpg "Origami result") -->
 
@@ -168,11 +169,12 @@ By following the steps of cutting and folding you were performing a so called <b
 
 
 
-| section: DEFINITION
+| chapter: Algorithms
+| section: Definition
 
 <div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh; text-align:center; padding:0 10vw">
 
-# ~an <big>Algorithm</big>~
+# an <big>Algorithm</big>
 
 ##### ~in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).~
 
@@ -188,7 +190,7 @@ Or to put it simple:
   
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next: they are everywhere!" />
+ <f-next-button title="Next: they are everywhere!" />
 </div>
   
 
@@ -203,11 +205,11 @@ Or to put it simple:
 
 
 
-| section: EVERYDAY_ALGORITHMS
+| section: Everyday algorithms
 | rows: auto
-| 1 3
-| 1 3
-| 2 3 
+| 1 2
+| 1 2
+| 3 2 
  
 ## Actually, we solve problems with algorithms every day
 
@@ -217,15 +219,15 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 -
 
-<f-prev-button /> <f-next-button title="Next: more everyday algorithms" />
-
--
-
 <f-image src="./images/everyday-recipe_3.jpg" style="background-size: cover; background-position:90% 50%;" />
 
 <!-- ![Cooking](./images/everyday-recipe.jpg "Cooking")  -->
  
-~<center><small><small>*You have to follow certain steps (recipe) to make a delicious meal.*</small></small></center>~
+<small>*You have to follow certain steps (recipe) to make a delicious meal.*</small>
+
+-
+
+ <f-next-button title="Next: more everyday algorithms" />
 
 ---
 
@@ -243,7 +245,9 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 | 2 3
 | 4 4
 
-# More examples of everyday algorithms
+## More examples of everyday algorithms
+
+<br />
 
 -
 
@@ -252,7 +256,7 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 ![T-shirt folding](./images/everyday-tshirt.jpg "T-shirt folding") 
 <!-- <f-image src="./images/everyday-tshirt.jpg" style="background-size: cover; background-position:50% 50%; --image-min-height: 30vh;" /> -->
  
-~<center><small><small>*There are more than one methods to fold a t-shirt. Every method is a "different algorithm" of t-shirt folding.*</small></small></center>~
+<small>*There are more than one methods to fold a t-shirt. Every method is a "different algorithm" of t-shirt folding.*</small>
 
 -
 
@@ -262,16 +266,13 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 <!-- <f-image src="./images/everyday-wall_2.jpg" style="background-size: contain; background-position:50% 50%;" /> -->
  
-~<center><small><small>*Building a stable brick wall is based on an algorithm too: you have to put the bricks so that every other row of bricks is shifted by half compared to previous one.*</small></small></center>~
+<small>*Building a stable brick wall is based on an algorithm too: you have to put the bricks so that every other row of bricks is shifted by half compared to previous one.*</small>
 
 -
 
-<f-hr />
 <br />
 
-<f-prev-button /> <f-next-button title="Next: computer algorithms" />
-
-## &nbsp;
+<f-next-button title="Next: computer algorithms" />
 
 ---
 
@@ -282,13 +283,13 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 
 
-| section: COMPUTER_ALGORITHMS
+| section: Computer algorithms
 | rows: auto
 | cols: 2fr 1fr
 | 1 3
 | 2 3
 
-# Computer generated algorithms
+## Computer generated algorithms
 
 
 Cooking, folding a t-shirt, building a wall. These activities consist of relatively simple instructions (i.e. ‘algorithms’).
@@ -299,7 +300,7 @@ Computers and design go together well. This last decade has seen the emergence o
 
 -
 
-<f-prev-button /> <f-next-button title="Next" />
+ <f-next-button title="Next" />
 
 -
 
@@ -317,7 +318,7 @@ Computers and design go together well. This last decade has seen the emergence o
 | 2 3
 
 
-# It is important to remember:
+## It is important to remember:
 
 ## &nbsp;
 
@@ -331,7 +332,7 @@ Computers and design go together well. This last decade has seen the emergence o
 
 -
 
-<f-prev-button /> <f-next-button title="Next: algorithms in design" />
+ <f-next-button title="Next: algorithms in design" />
 
 -
 
@@ -343,7 +344,8 @@ Computers and design go together well. This last decade has seen the emergence o
 
 
 
-| section: EXAMPLES 
+| chapter: Algorithmic art 
+| section: Examples
 | rows: auto
 | 1 1 2
 | 1 1 3
@@ -367,7 +369,7 @@ Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucc
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next" />
+ <f-next-button title="Next" />
 
 ---
 
@@ -402,7 +404,7 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next" />
+ <f-next-button title="Next" />
 
 
 ---
@@ -437,7 +439,7 @@ https://lynnemaclachlan.co.uk/
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next" />
+ <f-next-button title="Next" />
 
 ---
 
@@ -471,7 +473,7 @@ https://inconvergent.net/
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next" />
+ <f-next-button title="Next" />
 
 ---
 
@@ -512,7 +514,7 @@ http://protohouse.tumblr.com/
 
 <br /><br />
 
-<f-prev-button /> <f-next-button title="Next" />
+ <f-next-button title="Next" />
 
 ---
 
@@ -528,7 +530,7 @@ http://protohouse.tumblr.com/
 | 2 3
 
 
-# That was nice!
+## That was nice!
 
 &nbsp;
 
@@ -536,7 +538,7 @@ You might think that probably they use very expensive supercomputers plus knowle
 
 -
 
-<f-prev-button /> <f-next-button />
+ <f-next-button />
 
 -
 
@@ -551,45 +553,47 @@ You might think that probably they use very expensive supercomputers plus knowle
 
 
 
-| section: THEORY
+| section: How computer algorithms work?
 | rows: auto
 | 1 1 1 1 1
 | 2 3 4 5 6
 | 7 7 7 7 7 
 
-### But first, we have to understand the very basics of how computer algorithms work. It possesses five key aspects:
+## How computer algorithms work?
+
+### It possesses five key aspects:
 
 -
 
-# 1.
+## 1.
 
 #### FINITE&shy;NESS
 The algorithm **must always terminate** after a finite number of steps.
 
 -
 
-# 2.
+## 2.
 
 #### DEFINITE&shy;NESS
 **Each step must be precisely defined;** the actions to be carried out must be rigorously and unambiguously specified for each case.
 
 -
 
-# 3.
+## 3.
 
 #### INPUT 
 An algorithm **has zero or more inputs**, taken from a specified set of objects.
 
 -
 
-# 4.
+## 4.
 
 #### OUTPUT
 An algorithm **has one or more outputs**, which have a specified relation to the inputs.
 
 -
 
-# 5.
+## 5.
 
 #### EFFECTIVE&shy;NESS
 **All operations** to be performed must be **sufficiently basic** that they can be done exactly and in finite length (Knut 1997)
@@ -598,7 +602,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
 
 <br />
 
-<f-prev-button /> <f-next-button title="Next" />
+<f-next-button title="Next" />
 
 ---
 
@@ -623,7 +627,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
   style="text-align: center;"
 >
   
-  # 1.
+  ## 1.
 
   ### INPUT 
   you feed some parameters (variables) or data to your algorithm
@@ -639,7 +643,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
   style="text-align: center;"
 >
 
-# 2.
+## 2.
 
 ### PROCESSING 
 algorithm does the computing
@@ -654,7 +658,7 @@ algorithm does the computing
   style="text-align: center;"
 >
 
-# 3.
+## 3.
 
 ### OUTPUT
 you get a result
@@ -663,7 +667,7 @@ you get a result
 
 -
 
-<f-prev-button /> <f-next-button />
+ <f-next-button />
 
 ---
 
@@ -674,7 +678,7 @@ you get a result
 
 
 
-| section: INTERACTIVE
+| chapter: Step by step interactive
 
 
 <center>
@@ -687,7 +691,7 @@ With these examples you can see how most basic operations like **repeating, scal
 
 ### &nbsp;
 
-<f-prev-button /> <f-next-button title="Go!" />
+ <f-next-button title="Go!" />
 
 </div>
 
@@ -703,7 +707,7 @@ With these examples you can see how most basic operations like **repeating, scal
 
 
 
-
+| section: Lines
 | rows: auto
 | cols: 20% 50% 20%
 | 1 1 1
@@ -764,7 +768,7 @@ With these examples you can see how most basic operations like **repeating, scal
 
 
 
-
+| section: Rotation
 | rows: auto
 | cols: 20% 50% 20%
 | 1 1 1
@@ -836,7 +840,7 @@ With these examples you can see how most basic operations like **repeating, scal
 
 
 
-
+| section: Boxes
 | rows: auto
 | cols: 20% 50% 20%
 | 1 1 1
@@ -901,7 +905,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 
 
-
+| section: Circles
 | rows: auto
 | cols: 20% 50% 20%
 | 1 1 1
@@ -961,7 +965,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 
 
-
+| section: Random circles
 | rows: auto
 | cols: 20% 50% 20%
 | 1 1 1
@@ -1014,7 +1018,8 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 
 
-
+| chapter: Finally
+| section: Conclusion
 | rows: auto
 | cols: 3fr 1fr
 
@@ -1022,7 +1027,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 | 2 3
 | 4 3
 
-# This was just a beginning &ndash;
+## This was just a beginning &ndash;
 #### like a tiny tip of a huge iceberg
 
 -
@@ -1055,7 +1060,7 @@ But let all this be a subject for the next time &nbsp; or better yet &ndash; let
 ---
 
 | rows: auto
-| section: FINAL
+| section: Last task
 | 1 1
 | 2 3
 | 4 4
@@ -1086,73 +1091,53 @@ Try to create a different algorithm from the one we started with. Experiment wit
 
 
 
+| section: What next?
 | rows: auto
-| cols: 1fr 1fr 1fr
-| 1 1 1
-| 2 3 4
-| 5 5 5
 
 
 
-# What to do next?
+
+## What to do next?
+
+##### Related DesignSTEM projects:
+
+<a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a>
+<small>allows to play around with 2D pattern compositions.</small>
 
 
 
--
+##### Other materials:
 
-~If you are interested in simiar topics, you may find these links useful~
+BBC Ideas video: <a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a>
 
-Let's start with Designstem's <a href="../patterns">patterns scenario</a>
+<a href="https://algorithms.design/" target="_blank">How Artificial Intelligence is Changing Design</a>
 
--
+<a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Khan Academy Algorithms course</a>
 
-#### More about algorithms and generative art
+<a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">Artur Neufeld: About creativity, algorithms and the future of graphic design</a>
 
-&nbsp;
-
-- BBC Ideas video: <a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a>
-
-- How Artificial Intelligence is Changing Design: <a href="https://algorithms.design/" target="_blank">list of links</a>
-
-- Khan Academy course: <a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Algorithms</a>
-
-- Artur Neufeld: <a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">About creativity, algorithms and the future of graphic design</a>
-
-
-
--
 
 #### Related stuff
 
-&nbsp;
-
-
-- Matt DesLauriers, an artist and freelance creative coder: 
+Matt DesLauriers, an artist and freelance creative coder: 
 <a href="https://www.youtube.com/watch?v=8Uo6zFwSO78" target="_blank">Talk at FITC</a> | <a href="https://mattdesl.svbtle.com/">Blog</a>  
 
-- <a href="https://generated.space/" target="_blank">Generated Spaces</a> by Kjetil Golid
+<a href="https://generated.space/" target="_blank">Generated Spaces</a> by Kjetil Golid
 
-- <a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. And a <a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with him.
+<a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. And a <a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with him.
 
-- Plotter art <a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a>
+Plotter art <a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a>
 
-- <a href="https://www.openprocessing.org/browse/#">OpenProcessing</a> 
+<a href="https://www.openprocessing.org/browse/#">OpenProcessing</a> 
 
-- <a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a>
+<a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a>
+
+<a href="http://weavesilk.com/" target="_blank">Weave Silk</a> online tool
+
+<a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a>
+
+<a href="https://www.derivative.ca/" target="_blank">Touch Designer</a>
 
 &nbsp;
 
-#### Tools, toys, exapmles
-
-- <a href="http://weavesilk.com/" target="_blank">Weave Silk</a> online tool
-
-- <a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a>
-
-- <a href="https://www.derivative.ca/" target="_blank">Touch Designer</a>
-
--
-
-
-## That's it! Thank you!
-
-<a class="tertiary" href="../">← Back to projects</a>
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>

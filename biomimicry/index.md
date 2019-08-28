@@ -1100,7 +1100,8 @@ Enjoy yourself with nature…
 
 
 | section: Wrapping up
-
+| cols: 0.5fr 4fr
+| 2 1
 <!-- <section> -->
 
 ## Wrapping up
@@ -1110,13 +1111,13 @@ Enjoy yourself with nature…
 <a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a>
 <small>allows to play around with 2D pattern compositions.</small>
 <a href="https://designstem.github.io/scenarios/dyes">Natural dyes</a>
-<small>***TODO***</small>
+<small>***TODO*** description</small>
 
 
 
 ##### Other materials:
 
-<a href="https://asknature.org/?s=&p=0&hFR%5Bpost_type_label%5D%5B0%5D=Resources">Askanture.org</a> 
+<a href="https://asknature.org/?s=&p=0&hFR%5Bpost_type_label%5D%5B0%5D=Resources">Asknature.org</a> 
 <small>A huge list of biomimicry resources</small>
 
 
@@ -1125,3 +1126,5 @@ Enjoy yourself with nature…
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
 <!-- </section> -->
+
+-
