@@ -78,13 +78,11 @@ Create a new color scheme for a calculator with white buttons, which also works 
 1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?~
 2. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
 3. ~**Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](https://www.google.de).~
+<f-link to="./files/designstem_cvd_worksheet_stem.pdf">calculator worksheet</f-link>
 
 <br />
 
 > Hint: ~If you cannot work with watercolors, you might want to try the following online tool. It is a bit more difficult to work with than watercolors, but it basically works like the color mixing tools you used in the tasks before. Click on *Edit* under a color, to change it (upper right). Then click on a calculator button to select it and next on the color you want to apply. After working on the button, you should deselect it. You can also select several buttons at the same time. Further, you can switch the label color between black and white. When you are happy with your color scheme, take a screenshot of it, to save it for later!~
-
-<!-- <mark> Here we need to add a picture of the calculator.</mark> -->
-<mark> We need to add a link to a pdf with the calculator in task no. 3 - Link is now to google (color-me-in-sheet).</mark>
 
 -
 
