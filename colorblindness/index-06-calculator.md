@@ -77,7 +77,7 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?~
 2. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
-3. ~**Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](https://www.google.de).~
+3. ~**Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](./files/designstem_cvd_worksheet_stem.pdf).~
 <f-link to="./files/designstem_cvd_worksheet_stem.pdf">calculator worksheet</f-link>
 
 <br />
