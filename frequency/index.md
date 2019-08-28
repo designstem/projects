@@ -505,7 +505,8 @@ Watch following clip <small>(first 5 sec)</small> and observe <br>the movement o
 | 1 1 1 1
 | 2 2 3 3
 | 2 2 3 3
-| 0 0 4 4
+| 2 2 4 5
+| 0 0 6 6
 
 # What happened to the wheels?
 
@@ -519,12 +520,31 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 
 -
 <div style= "width:81%">
-	<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+	<div style= "display:flex; align-items:center; justify-content:center; height:60%">
 		<img src="./images/frameRate.png">
 	</div>
 <small>Without red dot, wheel appears to be rotating slowly backwards.</small>
 </div>
+-
+
+<div style= "width:40%">
+	<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+		<img src="./images/wheel.gif">
+	</div>
+<small>The same wheel rotating slowly.</small>
+</div>
+
+-
+
+<div style= "width:40%">
+	<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+    <img src="./images/wheelfast.gif">
+	</div>
+<small>The same wheel rotating fast.</small>
+</div>
+
 <br>
+
 -
 
 ##### How does it work? Let’s set up an experiment in the next slide.
