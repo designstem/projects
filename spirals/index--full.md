@@ -854,15 +854,88 @@ In the above equations, **R** represents the radius of the cycle in the plane X-
 ---
 
 
+<!-- 4. 3D Models -->
 
+# 3D Models
 
+Three-dimensional (3D) modeling is the process of developing a mathematical representation of any surface of an object in three dimensions via specialized software. The final product is called a 3D model.
 
+3D models represent a physical body using a collection of points in 3D spaces, connected by various geometric entities such as triangles, lines, curved surfaces, etc. 3D models can be created by hand, algorithmically (procedural modeling), or scanned. A 3D model can also be physically created using 3D printing devices.
 
-## Design your own objects
+To produce 3D models, 3D modeling software is used. Examples are displayed in following sections.
+
+<f-notes title="Source">
+
+**TODO ERIK: Can we just copy Wikipedia?***
+
+[https://en.wikipedia.org/wiki/3D\_modeling](https://en.wikipedia.org/wiki/3D_modeling)
+
+</f-notes>
+
+---
+
+# 3D Design Software
+
+In this section, we present some of the 3D design software tools that can be used to create 3D objects, including spirals.
+
+## TinkerCad
+    
+TinkerCad is a free online collection of software tools that people can use in order to design 3D objects. More specifically, they can place objects, adjust them or make combinations of objects and also design 3D objects by using code. Furthermore, it offers the option of exporting in STL or SVG file formats for 3D printing or laser cutting.
+
+![Tinkercad-by-Autodesk](https://spiralsdesignstem.files.wordpress.com/2018/09/tinkercad-by-autodesk.jpg?w=129&h=129)
+
+Source: [www.tinkercad.com](http://www.tinkercad.com)
+
+## Blender
+    
+Blender a free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation. It is fully customizable and can also offer Python scripting for advanced users. It can be used it for 3D design after a short installation process in PC devices and produce STL file formats for further 3D Printing use.
+
+![blenderlogosocket](https://spiralsdesignstem.files.wordpress.com/2018/09/blenderlogosocket.png?w=284&h=91)
+
+Source: [www.blender.org](http://www.blender.org)
+
+## SketchUp
+    
+SketchUp is a 3D modelling software program that can be used for a wide range of drawing applications and for the production of a variety of 3D objects. It is available as a free web-based application (SketchUp Free), as well as a freeware (SketchUp Make) or paid (SketchUp Pro) version that require installation on a PC device.
+
+![Sketchup_logo](https://spiralsdesignstem.files.wordpress.com/2018/09/sketchup_logo.png?w=234&h=51)
+
+Source: [www.sketchup.com](http://www.sketchup.com)
+
+---
+
+# 3D Design
+
+In this section you can use a 3D Design software to produce objects relevant to spirals or search the internet to find 3D Models online.
+
+##  Find objects online
+
+You can find and download 3D Models by visiting the webpages below:
+
+* [https://www.thingiverse.com/](https://www.thingiverse.com/)
+* [https://www.youmagine.com/](https://www.youmagine.com/)
+
+***TASK***
+
+Find a 3D Model you like by visiting the above websites.
+
+*   Download the files of the 3D Model you selected.
+
+*   Extract the .zip file of the 3D Model after you download it.
+
+*   What are the files extensions?
+
+*   Are these extensions known to you?
+
+*   What the .stl file stands for?
+
+---
+
+# Design your own objects
 
 ***TASK*** 
 
-Use the online **Tinkercad software**, available at: [http://www.tinkercad.com](http://www.tinkercad.com) and try to complete the tasks of the following **worksheets.**
+Use the online **Tinkercad software**, available at: [http://www.tinkercad.com, ](http://www.tinkercad.com, ) and try to complete the tasks of the following **worksheets.**
 
 [Worksheet 1 – Create a simple 3D Spiral Shape – Clockspring](https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-1.pdf "Worksheet 1")
 
@@ -873,11 +946,6 @@ Use the online **Tinkercad software**, available at: [http://www.tinkercad.com](
 [WorkSheet 4 –  Create a Helical Compression Spring](https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-4.pdf "Worksheet 4")
 
 ---
-
-
-
-
-
 
 # 3D Printing
 
