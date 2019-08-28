@@ -1186,7 +1186,7 @@ The teacher can decide how complex the pathway should be to take, depending on t
 https://polyhedra.tessera.li/ by Nat Alison visualizes the entire family of polyhedra. Here is also a related [conference talk](https://www.youtube.com/watch?v=jhdJHBD9Fts) about her work.
 -->
 
-<a class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</a>
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
 </section>
 

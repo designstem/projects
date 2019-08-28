@@ -436,20 +436,14 @@ Key steps
 
 #### Related DesignSTEM projects
 
-<!--
-<a href="../triangles">Looking for Triangles</a> offers a comprehensive set interactive tools for exploring polyhedrons and understanding the math behind them.
--->
+<a href="../biomimicry">Biomimicry</a> explores the concept of <var>biodesign</var>, <var>bionics</var> and new kind of <var>artificial ecology</var>.
 
-#### Other materials
+<a href="../equilibrium">Equilibrium</a> project allows to experiment with different plastic types and their buoyancy.
 
-<!--
-https://polyhedra.tessera.li/ by Nat Alison visualizes the entire family of polyhedra. Here is also a related [conference talk](https://www.youtube.com/watch?v=jhdJHBD9Fts) about her work.
--->
-
-<a class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</a>
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
 </section>
 
 -
 
-<f-image src="./images/vinyl.png" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg" />

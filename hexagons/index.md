@@ -525,6 +525,23 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 ***fun*** `f`
 <f-slider set="r" from="0" to="360" />
 
+---
+
+| section: Wrapping up
+
+## Wrapping up
+
+#### Related DesignSTEM projects
+
+<a href="../waste">Waste is a Design Mistake</a> explores the material and packaging optimization in 3D.
+
+<a href="../patterns">2D/3D Patterns</a> allows to play around with 2D pattern compositions.
+
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+
+-
+
+<img src="https://etc.usf.edu/clipart/6800/6853/honey-bee_6853_md.gif" />
 
 
 
