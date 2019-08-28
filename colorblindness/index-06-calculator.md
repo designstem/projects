@@ -350,23 +350,42 @@ https://www.vitsoe.com/gb/about/good-design
 Do you still know everything there is to know about rods and cones? Find out in this quiz!
 
 a) Rods and cones are receptors in the retina of the eye. What kind of receptor are they?
-<RodsandconesQuiz :input="[ 
+<ContrastQuiz :input="[ 
   ['Osmoreceptors',         0], 
   ['Baroreceptors',     0], 
   ['Photoreceptors',      1],
-  ['Chemoreceptors',  0],
+  ['Chemoreceptors',  0]
 ]" />
 
 <br>
 
 ~b) Rods and cones contain light-sensitive pigments which undergo a chemical change when they absorb light. What is this chemical change called?~
-<RodsandconesQuiz :input="[ 
+<ContrastQuiz :input="[ 
   ['Bleaching',         1], 
   ['Neutralisation',     0], 
   ['Hydrolysis',      0],
-  ['Condensation',  0],
+  ['Condensation',  0]
 ]" />
 
+<br>
+
+~c) When light bleaches the photosensitive pigments in rods and cones, the energy released causes the membranes of rods and cones to become...?~
+<ContrastQuiz :input="[ 
+  ['less permeable to Na+ ions',         0], 
+  ['less permeable to K+ ions',     0], 
+  ['more permeable to K+ ions',      0],
+  ['more permeable to Na+ ions',  1]
+]" />
+
+<br>
+
+~d) Which is the correct sequence of ‘potentials’ following depolarisation of rod and cone membranes?~
+<ContrastQuiz :input="[ 
+  ['Generator, Action, Threshold',         0], 
+  ['Action, Generator, Threshold',     0], 
+  ['Generator, Threshold, Action',      1],
+  ['Threshold, Generator, Action',  0]
+]" />
 
 <f-notes>
   
