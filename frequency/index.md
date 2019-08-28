@@ -1181,13 +1181,14 @@ The teacher can decide how complex the pathway should be to take, depending on t
 
 ##### Other materials:
 
-<a href="https://pudding.cool/2018/02/waveforms/">Let's Learn About Waveforms</a> by Josh Comeau.<small>
-</small>This interactive guide introduces and explores waveforms.
+<a href="https://pudding.cool/2018/02/waveforms/">Let's Learn About Waveforms</a> by Josh Comeau.
+<small>This interactive guide introduces and explores waveforms.</small>
 
-<a href="https://drewtetz.com">Animated Records</a> by Drew Tetz.<small>
-</small>Animation experiments and <a href="https://itunes.apple.com/us/app/vinylstrobe/id1342661977?mt=8">VinylStrobe</a> iOS app.
+<a href="https://drewtetz.com">Animated Records</a> by Drew Tetz.
+<small>Animation experiments and <a href="https://itunes.apple.com/us/app/vinylstrobe/id1342661977?mt=8">VinylStrobe</a> iOS app.</small>
 
 <br>
+<p>
 
 <a class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</a>
 
