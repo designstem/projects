@@ -1,7 +1,10 @@
+| padding: 0
 
 <section>
 
-# <big>DesignSTEM<br>projects</big>
+# &nbsp;
+
+# <big><big><big><span style="color: var(--red); letter-spacing: -0.06ch;">Design</span><sup style="letter-spacing: -0.05ch; font-size: 0.5em">STEM</sup></big></big></big>
 
 <big>
 
@@ -13,7 +16,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 -
 
-<div class="grid" style="--cols: 1fr 1fr; --gap: 0; height: 90vh;">
+<div class="grid" style="--cols: 1fr 1fr; --gap: 0; height: 100%">
 
   <f-image src="https://designstem.github.io/slides/haridusfond/images/1.jpg" />
 
@@ -28,8 +31,6 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 ---
 
 | background: var(--lightergray)
-
-<section>
 
 <f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
@@ -54,7 +55,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
   </div>
 </div>
 
-## Projects
+### Projects
 
 <div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
   <f-project-card
@@ -84,13 +85,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 </f-sheet>
 
-</section>
-
-
-
 ---
-
-<section>
 
 <a id="about">
   <h3>About</h3>
@@ -99,10 +94,6 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 <p />
 
 DesignSTEM is an education initiative that creates immersive experiences for future learning. We are educators, teachers, designers and engineers from 10 countries 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪 around Europe.
-
-</section>
-
-<section>
 
 <a id="contacts">
   <h3>Contacts</h3>
@@ -116,18 +107,14 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 **Lead Developer:** Kristjan Jansen, Kuressaare Regional Training Centre, design department kristjan.jansen@gmail.com.
 
-</section>
-
 ---
 
-| theme: yellow
+| background: var(--lightergray)
 
 
 | 1 2 
 | 1 2 
 | 3 3 
-
-<section>
 
 <a id="pedagogy">
   <h3>Pedagogical Methods and Models</h3>
@@ -189,6 +176,8 @@ Uzunöz, Abdulkadir. "The effects of the activities of current textbook and 5 E 
 
 </p>
 
-</section>
+---
+
+| padding: 0
 
 <f-footer />
