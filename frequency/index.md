@@ -502,11 +502,10 @@ Watch following clip <small>(first 5 sec)</small> and observe <br>the movement o
 | rows: auto auto 1fr
 | gap: 30px
 
-| 1 1 1 1
-| 2 2 3 3
-| 2 2 3 3
-| 2 2 4 5
-| 0 0 6 6
+| 1 1 1 1 1 1
+| 2 2 2 3 3 3
+| 2 2 2 4 5 6
+| 0 0 0 0 7 7
 
 # What happened to the wheels?
 
@@ -527,23 +526,23 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 </div>
 -
 
-<div style= "width:40%">
-	<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+<small>.. and the same wheel animated *(slow and fast frame rate)*:</small>
+
+-
+
+<div style= "width:70%">
+	<div style= "display:flex; align-items:center; justify-content:center; height:90%">
 		<img src="./images/wheel.gif">
 	</div>
-<small>The same wheel rotating slowly.</small>
 </div>
 
 -
 
-<div style= "width:40%">
-	<div style= "display:flex; align-items:center; justify-content:center; height:100%">
+<div style= "width:70%">
+	<div style= "display:flex; align-items:center; justify-content:center; height:90%">
     <img src="./images/wheelfast.gif">
 	</div>
-<small>The same wheel rotating fast.</small>
 </div>
-
-<br>
 
 -
 
