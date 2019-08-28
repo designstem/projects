@@ -18,9 +18,11 @@ export default{
       v-slot="{ value }">
       <div style="display: grid; grid-template-columns:1fr 2fr">
 
-        <div style="padding-top:15vh;">
-          <span style="font-size:0.75em; font-weight:700; color:var(--darkgray)">SEARCH FOR:</span>
-          <input type="text" v-model="query" style="width:100%;" />
+        <div>
+          <div  style="position:sticky; top:15vh;">
+            <span style="font-size:0.85em; font-weight:700; color:var(--darkgray);">SEARCH FOR:</span>
+            <input type="text" v-model="query" style="width:100%; margin-top:0.25em;" />
+          </div>
         </div>
 
         <div>

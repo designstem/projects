@@ -20,6 +20,5 @@ fachwerk({
   theme: "light",
   pager: true,
   home: false,
-  type: "slides",
   utils:  localutils
 });

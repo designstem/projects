@@ -1,7 +1,6 @@
 | chapter: Introduction
 | section: First page
 | id: tr-start
-| padding: 10vmin
 | theme: blue
 | cols: 60vw auto
 | rows: auto auto auto
@@ -72,7 +71,6 @@
 
 | section: The assignment
 | id: tr-assignment
-| padding: 10vmin
 | height: 100vh
 | 1 2
 | 3 2
@@ -91,7 +89,7 @@
 
 -
 
-<f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center center" />
+<f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center" />
 
 <small>*Nidusa birdhouse by Vladimir Sinelnikov (<f-link to="https://www.artlebedev.com/nidusa/">Art Lebedev Studio</f-link>)*</small>
 
@@ -112,7 +110,6 @@
 
 
 | section: Design problem
-| padding: 10vmin
 | 1 2 
 | 3 2
 
@@ -130,7 +127,7 @@
 
 -
 
-<img src="./images/birdsnest.jpg" style= "width: 100%;" >
+<f-image src="./images/birdsnest.jpg" style="--image-min-height:50vh; " />
 
 -
 <f-notes title="Credits">
@@ -151,7 +148,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | section: Why polyhedral shape?
-| padding: 10vmin
 | 1 1
 | 2 3
 | rows: auto
@@ -200,7 +196,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 | chapter: Key steps
 | section: Key steps
-| padding: 10vmin
 | rows: auto auto auto
 | 1 1 1 1 1
 | 2 3 4 5 6
@@ -256,7 +251,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 
-| padding: 10vmin
 | height: 100vh
 | theme: blue 
 
@@ -286,7 +280,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | id: tr-geometry
-| padding: 10vmin
 | 1 1
 | 2 3
 | 4 4
@@ -323,7 +316,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 | section: Simplyfying the polyhedra
 | height: 100vh
-| padding: 10vmin
 | rows: auto auto auto
 | 1 1 1
 | 2 3 4
@@ -463,7 +455,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | chapter: Triangles
 | section: Let's start with triangles
 | id: tr-triangles
-| padding: 10vmin
 | cols: 50vw auto
 | rows: auto 
 | height: 100vh
@@ -519,7 +510,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | section: Geometry of triangles
-| padding: 10vmin
 | height: 100vh
 | rows: auto
 | 1 1 1
@@ -574,7 +564,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | chapter: Polygons
 | section: Polygons
 | id: tr-polygons
-| padding: 10vmin
 | height: 100vh
 | cols: 50vw auto
 | rows: auto
@@ -631,7 +620,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | section: Simplification of polygons
-| padding: 10vmin
+
 | rows: auto
 | 1 1 1
 | 2 3 4
@@ -693,7 +682,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | height: 100vh
-| padding: 10vmin
+
 | rows: auto
 | cols: 50vw auto
 | 1 1
@@ -748,7 +737,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | height: 100vh
-| padding: 10vmin
+
 | rows: auto
 | cols: 75% auto
 | theme: blue
@@ -795,7 +784,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | section: Regular polyhedra
 | id: tr-polyhedra
 | height: 100vh
-| padding: 10vmin
+
 | gap: 0
 | rows: auto
 | 1 1 1 1 1
@@ -861,7 +850,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | section: Simplification of polyhedron
-| padding: 10vmin
+
 | rows: auto
 | height: 100vh
 | 1 1 1
@@ -931,7 +920,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 
-| padding: 10vmin
+
 | rows: auto
 | cols: 50vw auto
 | 1 1
@@ -993,7 +982,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | chapter: Pyramids
 | section: Material thickness
 | id: tr-thickness
-| padding: 10vmin
+
 | background: lightergray
 | height: 100vh
 | rows: auto
@@ -1046,7 +1035,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 | section: Dihedral angle
 | background: lightergray
-| padding: 10vmin
+
 | height: 100vh
 | rows: auto
 | 1 1
@@ -1096,7 +1085,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 | section: Why pyramids
 | id: tr-pyramids
-| padding: 10vmin
+
 | rows: auto
 | cols: 50vw auto
 | 1 1
@@ -1293,7 +1282,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | section: Geometry of pyramids
-| padding: 10vmin
+
 | rows: auto
 | cols: 40vw auto
 | 1 2 3
@@ -1394,8 +1383,38 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 
-| padding: 10vmin
 
-<f-hr />
+| theme: dark
+| chapter: Epilogue
+| section: Wrapping up
+| cols: 2fr 3fr
+| 1 1
+| 2 3
 
-Conclusion and final touches will be added 
+## Wrapping up
+
+-
+
+##### Related DesignSTEM projects:
+
+<a href="https://designstem.github.io/scenarios/geometry">From geometry to design</a> - polyhedra and paper
+
+<a href="https://designstem.github.io/scenarios/spirals">Spirals</a> - another trigonomy-related project
+
+&nbsp;
+
+##### Other materials:
+
+<a href="https://polyhedra.tessera.li/" target="_blank">Polyhedra Viewer</a> by Nat Alison (@tesseralis) - watch also her talk at !!Con2019 and fall in love with... polyhedra :)
+
+<a href="http://polyhedra.stacyspeyer.net/" target="_blank">Stacy Speyer</a> - everything from polyhedra art to polyhedra parties
+
+&nbsp;
+
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+
+<!-- </section> -->
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=XjvyELtrPF4" /> 
