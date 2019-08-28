@@ -1,6 +1,6 @@
 | chapter: Introduction
 | theme: dark
-| background: https://upload.wikimedia.org/wikipedia/commons/b/bd/Aerial%40sendai.jpg
+| background: https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg
 
 <center><div>
 
@@ -102,7 +102,7 @@ What do you think what is most remarkable about this project?
 
 -
 
-<f-image src="https://github.com/designstem/scenarios/blob/master/waste/images/discussion.jpg?raw=true" />
+<f-image src="./images/discussion.jpg" />
 
 
 <f-notes>Image https://www.mibellegroup.com/blog/general/design-thinking/</f-notes>

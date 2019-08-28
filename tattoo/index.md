@@ -482,3 +482,26 @@ Tattoo permanence model by conducting biological experiments
 **_RICHARDS PRACTICAL MATERIAL WHERE?_**
 
 -
+
+---
+
+| section: Wrapping up
+| 1 2
+| padding: 0
+
+<section>
+
+## Wrapping up
+
+#### Related DesignSTEM projects
+
+[Color Vision Deficiency & Accessi­bility](../colorblindness) contains a lot of interactive material about color and considering human condition.
+
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+
+
+</section>
+
+-
+
+<f-image src="./images/model2.jpg" />

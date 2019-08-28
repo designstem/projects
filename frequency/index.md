@@ -1192,7 +1192,7 @@ The teacher can decide how complex the pathway should be to take, depending on t
 <br>
 <p>
 
-<a class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</a>
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
 </section>
 

@@ -424,3 +424,26 @@ Key steps
 4. Evaluate your model, add or adjust where needed.  
 
 5. Make your final object.
+
+---
+
+| section: Wrapping up
+| padding: 0
+
+<section>
+
+## Wrapping up
+
+#### Related DesignSTEM projects
+
+<a href="../biomimicry">Biomimicry</a> explores the concept of <var>biodesign</var>, <var>bionics</var> and new kind of <var>artificial ecology</var>.
+
+<a href="../equilibrium">Equilibrium</a> project allows to experiment with different plastic types and their buoyancy.
+
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+
+</section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg" />

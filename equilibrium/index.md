@@ -200,3 +200,24 @@ Compare the total mass of water that sink the boat to the mass of water that fil
 https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3ASearch&go=Go&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1#/media/File:Floating_Piers_%E2%80%93_San_Paolo.jpg
 
 </f-notes>
+
+---
+
+| section: Wrapping up
+| padding: 0
+
+<section>
+
+## Wrapping up
+
+#### Related DesignSTEM projects
+
+<a href="../waste">Waste is a Design Mistake</a> digs deep into designing products with a lesser materials and lesser waste, including reduced use of plastic.
+
+<a class="tertiary" href=".."><f-leftarrow-icon /> Back to projects</a>
+
+</section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christo_Floating_Piers_6497.jpg/2560px-Christo_Floating_Piers_6497.jpg" />

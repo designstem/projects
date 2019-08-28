@@ -1162,7 +1162,12 @@ Poster will be discussed and analysed during a class conversation, which should 
 
 #### Related DesignSTEM projects
 
+...at least one link here
+
 #### Other materials
+
+...some links here
+...some links here
 
 <f-link class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</f-link>
 
