@@ -8,5 +8,6 @@ fachwerk({
   theme: "light",
   editor: "hide",
   pager: true,
-  home: false
+  home: false,
+  style: { "--content-padding": "6vmin" }
 });

@@ -541,7 +541,7 @@
 
 ## 14. Now!!!
 
-## You touch<br />You see<br />You smell it<br />and I hope you eat it
+### You touch<br />You see<br />You smell it<br />and I hope you eat it
 
 all the senses have been aplied and most of the biodesign concepts have been **experienced**.
 
@@ -595,7 +595,9 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 -
 
-## Can you imagine, *STEM* questions in your mind to this nature ‘design’ product
+&nbsp;
+
+### Can you imagine *STEM* questions in your mind to this nature ‘design’ product
 
 ##### *A few STEM QUESTIONS*
 
@@ -1094,4 +1096,32 @@ Enjoy yourself with nature…
 
 
 
-Final slide to add
+
+
+
+| section: Wrapping up
+
+<!-- <section> -->
+
+## Wrapping up
+
+##### Related DesignSTEM projects:
+
+<a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a>
+<small>allows to play around with 2D pattern compositions.</small>
+<a href="https://designstem.github.io/scenarios/dyes">Natural dyes</a>
+<small>***TODO***</small>
+
+
+
+##### Other materials:
+
+<a href="https://asknature.org/?s=&p=0&hFR%5Bpost_type_label%5D%5B0%5D=Resources">Askanture.org</a> 
+<small>A huge list of biomimicry resources</small>
+
+
+&nbsp;
+
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+
+<!-- </section> -->
