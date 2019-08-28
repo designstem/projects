@@ -35,12 +35,14 @@ export default {
         <f-tag
           v-for="(tag,i) in project.designtags.split(',')"
           :key="'i' + i"
+          style="background: var(--lightyellow)"
         >
           {{ tag }}
         </f-tag>
         <f-tag
           v-for="(tag,j) in project.stemtags.split(',')"
           :key="'j' + j"
+          style="background: hsl(203, 77%, 86%)"
         >
           {{ tag }}
         </f-tag>

@@ -1,8 +1,8 @@
 | padding: 0
+| height: auto
+| padding: var(--base8) var(--base8) 0 var(--base8) 
 
-<section>
-
-# &nbsp;
+## &nbsp;
 
 # <big><big><big><span style="color: var(--red); letter-spacing: -0.06ch;">Design</span><sup style="letter-spacing: -0.05ch; font-size: 0.5em">STEM</sup></big></big></big>
 
@@ -12,11 +12,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 </big>
 
-</section>
-
--
-
-<div class="grid" style="--cols: 1fr 1fr; --gap: 0; height: 100%">
+<!--div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap: 0; height: 45vh">
 
   <f-image src="https://designstem.github.io/slides/haridusfond/images/1.jpg" />
 
@@ -26,11 +22,11 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
   <f-image src="https://designstem.github.io/slides/haridusfond/images/6.jpg" />
 
-</div>
+</div-->
 
 ---
 
-| background: var(--lightergray)
+| 2 2 2 1
 
 <f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
@@ -39,25 +35,39 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 <div>
 
-<div class="grid" style="--cols: 1fr 1fr">
+#### &nbsp;
+
   <div>
-  <h3>Design topics</h3>
+  <caption>Design topics</caption>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer" v-on:click.native="set('dt', t == get('dt') ? '' : t)" />
+    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightyellow);" v-on:click.native="set('dt', t == get('dt') ? '' : t)" />
   </div>
 </div>
+
+#### &nbsp;
 
 <div>
-  <h3>STEM topics</h3>
+  <caption>STEM topics</caption>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer;" v-on:click.native="set('st', t == get('st') ? '' : t)" />
-  </div>
+    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: hsl(203, 77%, 86%);" v-on:click.native="set('st', t == get('st') ? '' : t)" />
   </div>
 </div>
 
-### Projects
+</div>
 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
+</f-sheet>
+
+-
+
+### Projects {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }} 
+<f-sheet
+  id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+  v-slot="{ value: projects }"
+>
+
+<div>
+
+<div class="grid" style="--cols: 1fr 1fr 1fr">
   <f-project-card
     v-for="(project,i) in projects.filter(p => p.type == 'progress').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
     :key="i"
@@ -68,14 +78,15 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 <br>
 
-### Various experiments {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' about ' + get('st') : '' }} 
+### Various experiments {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }} 
 
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
+<div class="grid" style="--cols: 1fr 1fr 1fr">
   <f-project-card
     v-for="(project,i) in projects.filter(p => p.type == 'experiment').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
     :key="i"
     :project="project"
     status="experiment"
+    small="true"
   />
 </div>
 

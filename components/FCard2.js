@@ -15,6 +15,7 @@ export default {
         border-radius: calc(var(--border-radius) * 1.5);
         height: 100%;
         cursor: pointer;
+        bbox-shadow: 0 0 5px var(--lightgray);
       "
       :style="{
         color,
@@ -28,7 +29,8 @@ export default {
         backgroundImage: image ? 'url(' + image + ')' : '',
         backgroundColor: !image ? '#eee' : '',
         backgroundSize: 'cover',
-        height: '180px'
+        height: '180px',
+        fffilter: 'grayscale(100%)'
       }">
       </div>
       <div style="padding: var(--base) var(--base2)">
