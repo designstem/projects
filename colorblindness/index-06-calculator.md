@@ -305,11 +305,12 @@ Upload your picture into the CVD-simulator and check whether it works.~
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Design
 
-<br>
+> ~Dieter Rams (born 20 May 1932 in Wiesbaden, Hessen) is a German industrial designer and retired academic[1] closely associated with the consumer products company Braun, the furniture company Vitsœ, and the functionalist school of industrial design. His unobtrusive approach and belief in "less but better" design generated a timeless quality in his products and have influenced the design of many products, which also secured Rams worldwide recognition and appreciation. Rams designed the famous calculator BRAUN ET66 in 1987 together with his colleague Dietrich Lubs.~
+
  
-1. Have a look at the famous calculator Dieter Rams designed for BRAUN. Compare his solution to yours. What is different?
+1. Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?
 2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion!
-3. What should he have done differently?
+3. If so, what should he have done differently to improve it?
 
 
 <f-notes>
