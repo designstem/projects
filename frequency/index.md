@@ -860,7 +860,7 @@ These circles will be used to replicate the [stroboscopic effect](https://en.wik
 ### Preparation
 
 > ##### You will need
-Printed grid circles, turntable, scissors, pencils, a smartphone/tablet/PC for using the online tool.
+Printed grid circles, turntable, scissors, pencils, a smartphone / tablet / PC for using the online tool.
 
 Download and print out paper templates to hand out to students. You can download them from here:
 
@@ -870,7 +870,7 @@ Download and print out paper templates to hand out to students. You can download
 1. Print the sheet 100% size, one-sided.
 2. Print more than 1 sheet for every student.
 
-Students have to find the precise spinning speed to demonstrate the effect through the lens of a smartphone / tablet / PC camera using the frame rate tool. 
+Students have to find the precise spinning speed to demonstrate the effect through the **lens of a smartphone / tablet / PC camera** using the frame rate tool. 
 
 <a class="tertiary" href="../frequency_camera">Open framerate camera app</a>
 
@@ -881,6 +881,7 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 # Make a spinning animation II
 
+When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless animation.
 -
 
 <span class="bullet">1</span> First you need paper templates with spokes.
@@ -897,6 +898,7 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 <a class="tertiary" href="../frequency_camera" target="_blank">Open framerate camera app</a>
 
+<br>
 <f-next-button />
 
 -
@@ -949,7 +951,7 @@ Students will learn how to present frequency on a sinusoidal wave. This will all
 
 # Frequency as a wave
 
-~After exploring spinning frequency and frame rate, let's define frequency as form of *wave*. The most common waveform might be the <a target="_blank" href="https://pudding.cool/2018/02/waveforms/">soundwave <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> but it can also represent <a href="../colorblindness">color <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a></a> or movement.~
+After exploring spinning frequency and frame rate, let's define frequency as form of *wave*. The most common waveform might be the <a target="_blank" href="https://pudding.cool/2018/02/waveforms/">soundwave <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> but it can also represent <a href="../colorblindness">color <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> or movement.
 
 #### 1. Explore the waveform
 
