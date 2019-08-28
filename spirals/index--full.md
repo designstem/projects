@@ -549,7 +549,7 @@ However, in many cases such that of drawing a spiral, a different expression is 
 
 #### 1. Find the Polar coordinates from Cartesian coordinates
 
-Assume that a point A(3,4) is given. According to the next figure, the grey triangle is orthogonal with opposite and adjacent sides equal to y=4 and x=3, respectively.
+Assume that a point **A** with coordinates x=3 and y=4 is given. According to the next figure, the yellow triangle is orthogonal with opposite and adjacent sides length equal to 3 and 4, respectively.
 
 The **hypotenuse is the distance r** and can be estimated by applying the Pythagorean equation as
 
@@ -601,9 +601,11 @@ Indeed
 
 -
 
+<br />
+
 #### 2. From Polar to Cartesian coordinates
 
-Following the previous example, assume now that the point A is known by its polar coordinates (5, 53.06°). Its Cartesian coordinates derive by applying the trigonometric ratios cos() and sin() as follows.
+Following the previous example, assume now that the **point A is known by its polar coordinates** (5, 53.06°). Its Cartesian coordinates derive by applying the trigonometric ratios cos() and sin() as follows.
 
 <f-math>cos(θ) = \frac{\color{blue}x}{\color{red}r}</f-math><f-math>{\color{blue}x} = {\color{red}r} \cdot cos(θ) = {\color{red}5} \cdot cos(53.06\degree) = {\color{red}5} \cdot 0.6 = \color{blue}3</f-math>
 <f-math>sin(θ) = \frac{\color{green}y}{\color{red}r}</f-math><f-math>{\color{green}y} = {\color{red}r} \cdot sin(θ) = {\color{red}5} \cdot sin(53.06\degree) = {\color{red}5} \cdot 0.8 = \color{green}4</f-math>
@@ -665,7 +667,7 @@ Following the previous example, assume now that the point A is known by its pola
 
 -
 
-Assume that a point is described by its polar coordinates (r, θ). Remember that r is the radius, the distance of the point from the center of the axes and θ is the angle formed between the radius and x axis (see next figure).
+Assume that a point is described by its polar coordinates (r, θ). Remember that **r is the radius**, the distance of the point from the center of the axes and **θ is the angle** formed between the radius and x axis (see next figure).
 
 -
 
@@ -697,6 +699,8 @@ Now, image what happens if the angle θ gradually increases from the zero degree
 <f-next-button />
 
 ---
+
+
 
 
 
@@ -768,7 +772,7 @@ The following figure, explains the above equations in terms of the polar coordin
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-1.jpg?w=1024&h=671) -->
 
-Based on the above equations, any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates  x and y are calculated and the corresponding point (x,y) in plotted in the plane.
+> Based on the above equations, any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates  x and y are calculated and the corresponding point (x,y) in plotted in the plane.
 
 -
 
@@ -803,21 +807,51 @@ Based on the above equations, any flat, 2D Archimedian spiral can be drawn if th
 
 
 
+| cols: 3fr 2fr
+| 1 1
+| 2 3
+| 4 4
 
+<caption>Mathematics of 2D and 3D Archimedean spirals</caption>
 
 ## Equations of 3D spirals
 
-The equations of  a 3D spiral or helix are similar to those presented above.
+-
 
-In three dimensions we assume that a third axis z denoting the height is added to the plane. For that new axis and the two horizontal x, y , the equations are as follows:
+The equations of a 3D spiral or helix are similar to those presented before.
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/10/eq121.jpg?w=300&h=148)
+In three dimensions we assume that a **third axis z denoting the height** is added to the plane. For that new axis and the two horizontal (x and y), the equations are as follows:
 
-In the above equations, **R** represents the radius of the cycle in the plane X-Y  and t varies between 0 and 2π in the  right-hand direction full cycle. The factor **c** is constant so the value **2πc** to denote the vertical separation of the helix’s loop.
+<f-math>x = R \cdot cos(t)</f-math><f-math>y = R \cdot sin(t)</f-math><f-math>z = c \cdot t</f-math><f-math>t = {0...2\pi}  =  {0\degree...360\degree}</f-math>
 
-Next figure presents  the shape of a helix  drawn in the three dimensions.
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/10/eq121.jpg?w=300&h=148) -->
+
+In the above equations, **R** represents the radius of the cycle in the plane X-Y and **t** varies between 0 and 2π in the right-hand direction full cycle. The factor **c** is constant so the value **2πc** denotes the vertical separation of the helix’s loop.
+
+<!-- Next figure presents the shape of a helix drawn in the three dimensions. -->
 
 ![](https://spiralsdesignstem.files.wordpress.com/2018/10/spiral3d.jpg?w=287&h=300)
+
+-
+
+<f-slider set="t" from="0" to="0.2" step="0.02" value="0" title="t" />
+<f-slider set="rad" from="0.2" to="1.8" step="0.1" value="1" title="R" />
+<f-slider set="rot" to="360" step="1" value="20" title="Rotate spiral" />
+
+<f-scene3 responsive isometric style="max-width:700px">
+  <f-group3 :rotation="[60, 0, get('rot', 20)]" :key="get('t', 0)">
+  <f-point3 :key="get('rad')"
+    :points="range(-10,10,0.1).map(x => [get('rad', 1)*Math.cos(x),get('rad', 1)*Math.sin(x),x*get('t',0)])"
+    :stroke="color('gray')"
+  />
+  </f-group3>
+</f-scene3>
+
+-
+
+<f-next-button />
+
+---
 
 
 <!-- 4. 3D Models -->
@@ -1073,9 +1107,6 @@ https://www.youmagine.com/ and https://www.thingiverse.com
 3D Printing of a **DNA chain** II
 
 ---
-| 1 2 
-| 3 3 
-| 4 5 
 
 <!-- 5. The dice cylinder -->
 
@@ -1085,13 +1116,11 @@ https://www.youmagine.com/ and https://www.thingiverse.com
 
 Dice games are board games played by dice. They are very popular especially among children. The backgammon, chuck-a-luck (bird cage), ludo etc are examples of dice games. A list of several dice games can be found at [http://www.dice-play.com/GamesAZ.htm](http://www.dice-play.com/GamesAZ.htm)
 
+![eikona1](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona1.png?w=263&h=207)
+
 Dice games are based on rules according to which a player throws the dice and depending on the result, an action is performed. In these games the random outcome of the dice is very important.  The dice must have enough space to roll several times so to end up randomly to their final position. Moreover, the throw should be such that the outcome is not determined by their initial status.
 
--
-
-<img src="./images/dicegame.jpg" style= "width: 100%;" >
-
--
+![eikona2](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona2.png?w=161&h=103)
 
 ## **The design problem**
 
@@ -1107,44 +1136,28 @@ Such a dice-cylinder should :
 
 The problem of the dice-cylinder  is to think, design and implement a rolling path for the dice within the cylinder so to let them move and roll sufficient distance, greater than the height of the cylinder, so to ensure the random dice outcome. Moreover, the movement of the dice should be smooth, without obstacles and such to ensure that they will not stick in an intermediate position and come down directly.
 
--
-
 ## Directions for the design
 
-Look carefully the following pictures, what are the common design parts on these?
+Look carefully the following pictures (Source : [http://www.pexels.com](http://www.pexels.com)) What are the common design parts on these?
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/14/SpiralStairs%2CArielRiosBldg.jpg/1024px-SpiralStairs%2CArielRiosBldg.jpg" style= "width: 100%;" >
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Industrial_spiral_staircase.png" style= "width: 70%;" >
+![eikona3](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona3.png?w=196&h=130)![eikona4](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona4.png?w=88&h=132)
 
 Look at the metallic stair in the previous picture. You may notice the round tube-shaped central column and the stairs linked to it. The most important part of this stair is the helix shape.
-<!--
-Below there are some pictures of such objects. In the rolling path of the dice, some of them use obstacles to ensure the random rolling and few of them use a helix stair.
--->
-
--
-
-<img src="./images/diecetower.jpg" style= "width: 70%" >
 
 Similar dice throwing objects has been previously designed and sold. For example in the e-shop [https://www.etsy.com/search?q=dice%20tower](https://www.etsy.com/search?q=dice%20tower) you may find different implementations of the basic vertical dice throwing idea. They are made of different materials (plastic, wood, paper etc.), shapes (tower, folding boxes, spiral cylinders etc.)
 
-<f-notes title="Credits">
+Below there are some pictures of such objects. In the rolling path of the dice, some of them use obstacles to ensure the random rolling and few of them use a helix stair.
 
-Image sources:
-https://www.etsy.com/listing/687789732/dice-tower-assembly-required?ref=reviews
-https://en.wikipedia.org/wiki/File:SpiralStairs,ArielRiosBldg.jpg
-https://en.wikipedia.org/wiki/File:Industrial_spiral_staircase.png
-http://www.pexels.com
-
-</f-notes>
-
-<!---
 <div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
+
+[![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona5.png?w=150&h=150)](https://spiralsdesignstem.wordpress.com/eikona5/)
+
 [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona6.png?w=80&h=150)](https://spiralsdesignstem.wordpress.com/eikona6/)
 
 [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona7.png?w=150&h=137)](https://spiralsdesignstem.wordpress.com/eikona7/)
 
 [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona8.png?w=96&h=150)](https://spiralsdesignstem.wordpress.com/eikona8/)
--->
+
 </div>
 
 A dice-cylinder should look like the following picture.
@@ -1241,6 +1254,7 @@ The **N** stairs are placed in equal positions by using a grid. Next figure pres
 ![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona18.png?w=550&h=430)
 
 The level of each stair is presented by the red line and the green diagonal line represents the helix path of the stair. The length **S** of this path is computed as the hypotenuse of the rectangular triangle with sides **h** and **2πr**. From the Pythagoras theorem derives that **S2 =(2πr)2+h2** so **S = square root ((2πr)2+h2).**
+
 
 ---
 

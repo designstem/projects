@@ -130,9 +130,15 @@
 
 -
 
-<f-image src="./images/nesting-boxes__0,5x.jpg" style="background-position: 50% 50%;" />
+<img src="./images/birdsnest.jpg" style= "width: 100%;" >
 
 -
+<f-notes title="Credits">
+
+Image source:
+Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-planter
+
+</f-notes>
 
 <f-next-button />
 
@@ -1393,23 +1399,3 @@
 <f-hr />
 
 Conclusion and final touches will be added 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

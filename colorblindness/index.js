@@ -35,7 +35,7 @@ fachwerk({
     "index-04-3-properties.md",
     "index-05-contrast-and-harmony.md", 
     "index-06-calculator.md", 
-    "index-extras.md"
+    // "index-extras.md"
   ],
   theme: "light",
   editor: "hide",
