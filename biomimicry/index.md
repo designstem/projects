@@ -1118,7 +1118,7 @@ Enjoy yourself with nature…
 ##### Other materials:
 
 <a href="https://asknature.org/?s=&p=0&hFR%5Bpost_type_label%5D%5B0%5D=Resources">Asknature.org</a> 
-<small>A huge list of biomimicry resources</small>
+<small>A huge list of biomimicry-related resources</small>
 
 
 &nbsp;

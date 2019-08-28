@@ -40,15 +40,15 @@
 
 | section: Rods and Cones
 | id: cb-rods-and-cones
-| rows: auto
-| height: 100vh
+
 | 1 2
 | 3 2
 
 
 <!-- ##### EXPLAIN  -->
 
-##### The eye
+<caption>The eye</caption>
+
 ## Rods and cones
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
@@ -88,7 +88,7 @@ https://en.wikipedia.org/wiki/Color_vision~
 <!--
 <f-image src="./images/color_blindness_accessibility_6.jpg"  /> -->
 
-<figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0;">
+<figure style="width:100%; height:90vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0;">
   <img src="./images/color_blindness_accessibility_6.jpg" />
 </figure>
 
@@ -113,7 +113,8 @@ https://en.wikipedia.org/wiki/Color_vision~
 
 | id: cb-color-vision-mapper
 
-##### The eye
+<caption>The eye</caption>
+
 ## Mapping Rods and Cones Activity
 
 Use this activity to map the rods and cones in your retina. Notice that when an object is first detected by rod cells located at the periphery of your retina, the object appears black. When the image is detected by cones cells located in the fovea the centre of your retina, the colour of the object becomes apparent.
@@ -150,7 +151,8 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 
 <!-- ##### EXPLAIN  -->
 
-##### Color Vision Deficiency
+<caption>Color Vision Deficiency</caption>
+
 ## Life of a colorblind
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
@@ -190,7 +192,8 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 <!-- ##### EXPLAIN  -->
 
-##### Color Vision Deficiency
+<caption>Color Vision Deficiency</caption>
+
 ## Life of a colorblind
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
@@ -229,7 +232,8 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 <!-- ##### EXPLAIN  -->
 
-##### Color Vision Deficiency
+<caption>Color Vision Deficiency</caption>
+
 ## Why are people colorblind?
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
@@ -273,16 +277,25 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
       <br />
 
-      1. ~The term for Michael's condition is Protanopia. He has problems distinguishing between reds, greens, browns and oranges. For a protanope, the brightness of red, orange, and yellow are much reduced compared to normal color vision. This dimming can be so pronounced that reds may be confused with black or dark gray, and red traffic lights may appear to be extinguished. They may learn to distinguish reds from yellows primarily on the basis of their apparent brightness or lightness, not on any perceptible hue difference. Violet, lavender, and purple are indistinguishable from various shades of blue because their reddish components are so dimmed as to be invisible. For example, pink flowers, reflecting both red light and blue light, may appear just blue to the protanope.~
+      <ol>
+      <li>
+
+      ~The term for Michael's condition is Protanopia. He has problems distinguishing between reds, greens, browns and oranges. For a protanope, the brightness of red, orange, and yellow are much reduced compared to normal color vision. This dimming can be so pronounced that reds may be confused with black or dark gray, and red traffic lights may appear to be extinguished. They may learn to distinguish reds from yellows primarily on the basis of their apparent brightness or lightness, not on any perceptible hue difference. Violet, lavender, and purple are indistinguishable from various shades of blue because their reddish components are so dimmed as to be invisible. For example, pink flowers, reflecting both red light and blue light, may appear just blue to the protanope.~
+      
+      </li>
         
-      2. <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
+      <li>
+      <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
         <img src="./images/cvd_diagram_task2.svg" />
       </figure>
-
-      3. ~For a female to be color blind, her father would have to be <f-math inline> X^nY </f-math> and her mother would have to be <f-math inline> X^N X^n </f-math> (a *carrier* with normal color vision) or <f-math inline> X^n X^n </f-math> (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages.~
-
+      </li>
+      <li>
+      
+      ~For a female to be color blind, her father would have to be <f-math inline> X^nY </f-math> and her mother would have to be <f-math inline> X^N X^n </f-math> (a *carrier* with normal color vision) or <f-math inline> X^n X^n </f-math> (color vision deficient herself). This is rare and more likely to happen in small or isolated populations where there is a higher frequency of cousin-cousin marriages.~
+      
+      </li>
+      </ol>
     </details>
-
 
 -
 

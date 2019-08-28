@@ -57,7 +57,8 @@
 <section style="padding:var(--content-padding)">
 
 <!-- ##### EXPLAIN -->
-##### Three properties of color
+<caption>Three Properties of Color</caption>
+
 ## Color meaning (hue)
 
 
@@ -129,7 +130,8 @@
 | 4 4
 
 <!-- ##### EXPLAIN -->
-##### Three properties of color
+<caption>Three Properties of Color</caption>
+
 ## Brightness
 
 -
@@ -250,7 +252,8 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | 4 4
 
 <!-- ##### EXPLAIN -->
-##### Three properties of color
+<caption>Three Properties of Color</caption>
+
 ## Saturation
 
 -
@@ -373,10 +376,11 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 | 1 2
 
 <!-- ##### EXPLAIN -->
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section>
 
-##### Three properties of color
-## <f-note-icon size="large" /> Conclusion
+<caption>Three Properties of Color</caption>
+
+## <f-note-icon size="medium" /> Conclusion
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
@@ -391,7 +395,8 @@ b) saturated colors have in comparison to desatured colors.~
 ~Check below after coming up with your own conclusion.~
 
 <f-sidebar title="Conclusion" overlay style="--sidebar-width:50vw;">
-<!-- <a slot="button" class="tertiary">Conclusion<f-arrow-icon rotation="-45" /></a> -->
+
+<a slot="button" class="tertiary">Conclusion<f-arrow-icon rotation="-45" /></a>
 
 ### Conclusion
 
@@ -399,14 +404,17 @@ b) saturated colors have in comparison to desatured colors.~
 ~Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.~
 ~The average effect of saturated colors is loud, bold, open, active, risky and cheerful.~
 ~Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.~
-~This is only the average impression - it can vary depending on the color's hue.~ **So only take it as a hint, not a rule.**
-~Whenever you design with colors, remember that the hue is not the only component influencing the color's effect!
-Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
+~This is only the average impression - it can vary depending on the color's hue.~ **So only take it as a hint, not a rule.**~
+~Whenever you design with colors, remember that the hue is not the only component influencing the color's effect!~
+~Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
+
 </f-sidebar> 
 
-<br>
+&nbsp;
 
 <f-next-button title="Try out what you learned!" />
+
+</section>
 
 -
 
@@ -431,10 +439,11 @@ Especially when we design for people with CVD, using brightness and saturation c
 
 <!-- ##### EXPLAIN -->
 <!-- <f-activity-icon size="large" /> -->
-<section style="padding:var(--content-padding) var(--content-padding) 0 var(--content-padding)">
+<section style="padding:var(--content-padding); padding-bottom:0;">
 
-##### Three properties of color
-## <f-activity-icon size="large" /> Apple shampoo
+<caption>Three Properties of Color</caption>
+
+## <f-activity-icon size="medium" /> Apple shampoo
 
 
 ~You are asked to decide upon fitting **colors for shampoo bottles**. The three shampoos will smell like apple 🍏. But there are three different target groups - each one gets a shampoo bottle of their own. Choose a color which could be used as primary color for the following products:~
@@ -450,9 +459,13 @@ Especially when we design for people with CVD, using brightness and saturation c
 <br>
 
 ~Let's find some nice colors for our shampoo bottles~:
+
+
 <f-next-button title="Shampoo color designer" />
 
-&nbsp;
+</section>
+
+
 
 -
 
@@ -472,7 +485,9 @@ Especially when we design for people with CVD, using brightness and saturation c
 | 2 3 4
 | 5 5 6
 
-## <f-activity-icon size="large" /> Shampoo color designer
+<caption>Three Properties of Color</caption>
+
+## <f-activity-icon size="medium" /> Shampoo color designer
 
 <!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
 
