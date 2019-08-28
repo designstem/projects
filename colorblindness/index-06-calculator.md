@@ -386,7 +386,7 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
-  ~Through these quizzes, you can evaluate your students increase of knowledge. Maybe also use the questions in a test.~
+  ~Through this quiz, on the one hand, you can go deeper into the topic or on the other hand, you can evaluate your students increase of knowledge. Maybe also use the questions in a test for grading?~
 
 
 </f-notes>
@@ -397,24 +397,6 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 
 
 ---
-| section: final
-| height: 100vh
-| 1 2
-
-## Test quiz
-
-~b) Rods and cones contain light-sensitive pigments which undergo a chemical change when they absorb light. What is this chemical change called?~
-<ContrastQuiz :input="[ 
-  ['Bleaching',         1], 
-  ['Neutralisation',     0], 
-  ['Hydrolysis',      0],
-  ['Condensation',  0]
-]" />
-
-
-
----
-
 
 
 | section: final
