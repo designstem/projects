@@ -9,9 +9,7 @@
 
 </center>
 
-***TODO: Credits***
-
-<f-notes width="50vw" style="--primary: var(--darkgray)" title="Overview">
+<f-notes width="50vw" style="--primary: var(--darkgray)">
 
 ## Overview
 
@@ -1154,6 +1152,28 @@ Poster will be discussed and analysed during a class conversation, which should 
 
 ---
 
+| section: Wrapping up
+| 1 2
+| padding: 0
+
+<section>
+
+## Wrapping up
+
+#### Related DesignSTEM projects
+
+#### Other materials
+
+<f-link class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</f-link>
+
+</section>
+
+-
+
+<f-image src="./images/map.png" />
+
+<f-notes title="References">
+
 ##  References
 
 Taavi Nagel Photos https://www.facebook.com/Taavi%20Nagel%20Photos
@@ -1170,3 +1190,5 @@ T-shirt Quiz: https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGg
 Jay Westerveld https://www.revolvy.com/page/Jay-Westerveld
 
 The History of Greenwashing. Jim Motavalli. Daily Finance, Feb 12th, 2011: https://web.archive.org/web/20150923212726/http://www.dailyfinance.com/2011/02/12/the-history-of-greenwashing-how-dirty-towels-impacted-the-green/
+
+</f-notes>

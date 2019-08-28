@@ -283,4 +283,29 @@ As in the digital world, there is no limit to hands-on method, moreover, expandi
 
 Let's start with paper, ordinary and available material.
 
+---
+
+| section: Wrapping up
+| 1 2
+| padding: 0
+
+<section>
+
+## Wrapping up
+
+#### Related DesignSTEM projects
+
+<a href="../triangles">Looking for Triangles</a> offers a comprehensive set interactive tools for exploring polyhedrons and understanding the math behind them.
+
+#### Other materials
+
+https://polyhedra.tessera.li/ by Nat Alison visualizes the entire family of polyhedra. Here is also a related [conference talk](https://www.youtube.com/watch?v=jhdJHBD9Fts) about her work.
+
+<a class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</a>
+
+</section>
+
 -
+
+<f-image src="./images/photo3.jpg" />
+

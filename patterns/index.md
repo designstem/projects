@@ -667,9 +667,10 @@ Explore the following tools to create more patterns:
   <a class="primary" href="../patterns_playground">Go to pattern playground</a>
 </f-inline>
 
+http://weavesilk.com/
+
 Amaziograph https://amaziograph.com
 
-Adobe Capture app https://www.adobe.com/products/capture.html
 
 #### Go analog
 
