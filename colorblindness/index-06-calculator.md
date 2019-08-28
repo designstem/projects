@@ -304,11 +304,11 @@ Upload your picture into the CVD-simulator and check whether it works.~
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Design
 
-> ~Dieter Rams (born 20 May 1932 in Wiesbaden, Hessen) is a German industrial designer and retired academic[1] closely associated with the consumer products company Braun, the furniture company Vitsœ, and the functionalist school of industrial design. His unobtrusive approach and belief in "less but better" design generated a timeless quality in his products and have influenced the design of many products, which also secured Rams worldwide recognition and appreciation. Rams designed the famous calculator BRAUN ET66 in 1987 together with his colleague Dietrich Lubs.~
+> ~Dieter Rams (born 20 May 1932 in Wiesbaden, Hessen) is a German industrial designer and retired academic closely associated with the consumer products company Braun, the furniture company Vitsœ, and the functionalist school of industrial design. His unobtrusive approach and belief in "less but better" design generated a timeless quality in his products and have influenced the design of many companies, including Apple, which also secured Rams worldwide recognition and appreciation. Rams designed the famous calculator BRAUN ET66 in 1987 (which you can see on the right) together with his colleague Dietrich Lubs.~
 
  
 1. Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?
-2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion!
+2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion! If possible, also check it in the CVD simulator to strengthen your arguments.
 3. If so, what should he have done differently to improve it?
 
 
@@ -400,6 +400,23 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 -
 
 <f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+
+---
+| section: final
+| height: 100vh
+| 1 2
+
+## Test quiz
+
+~b) Rods and cones contain light-sensitive pigments which undergo a chemical change when they absorb light. What is this chemical change called?~
+<ContrastQuiz :input="[ 
+  ['Bleaching',         1], 
+  ['Neutralisation',     0], 
+  ['Hydrolysis',      0],
+  ['Condensation',  0]
+]" />
+
 
 
 ---
