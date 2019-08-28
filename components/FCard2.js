@@ -15,11 +15,12 @@ export default {
         border-radius: calc(var(--border-radius) * 1.5);
         height: 100%;
         cursor: pointer;
+        bbox-shadow: 0 0 5px var(--lightgray);
       "
       :style="{
         color,
         background,
-        border: '3px solid ' + border
+        border: '2px solid ' + border
       }"
     >
       <div :style="{
@@ -28,10 +29,11 @@ export default {
         backgroundImage: image ? 'url(' + image + ')' : '',
         backgroundColor: !image ? '#eee' : '',
         backgroundSize: 'cover',
-        height: '100px'
+        height: '180px',
+        fffilter: 'grayscale(100%)'
       }">
       </div>
-      <div style="padding: var(--base2)">
+      <div style="padding: var(--base) var(--base2)">
       <div style="
         display: flex;
         justify-content: space-between;

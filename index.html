@@ -13,6 +13,11 @@
       border-bottom: 2px solid var(--primary);
       font-weight: bold;
     }
+    a:hover {
+      filter: brightness(100%) !important;
+      transform: scale(1.01);
+      transition: all 0.1s;
+    }
     @media (max-width: 800px) {
       .project-card {
         margin-bottom: var(--base2);
@@ -30,7 +35,7 @@
   </style>
 </head>
 <body>
-  <header>
+  <!--header
   <div>
     <a href="./">Projects</a>&nbsp;&nbsp; 
     <a href="#about">About</a>&nbsp;&nbsp; 
@@ -38,7 +43,7 @@
     <a href="#pedagogy">Pedagogy</a>&nbsp;&nbsp; 
     <a href="https://github.com/designstem/scenarios" target="_blank">Github</a>
   </div>
-  </header>
+  </header-->
   <div id="fachwerk"></div>
   <script src="./index.js" type="module"></script>
 </body>
