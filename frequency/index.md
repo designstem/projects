@@ -34,7 +34,10 @@
 
 ><small>Most of the information about our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* such as *wheels rolling opposite direction* or *moving elements on a still picture*. **Why this is happening?**</small>
 
-<big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and let's go!</big>
+<br>
+<p/>
+
+<big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and <a href="#">let's go!</a></big>
 
 </div>
 
@@ -74,8 +77,8 @@ This lesson is divided into three main sections:
 
 <center><div>
 
-### The tools you need
-
+### The tools you'll need
+<br>
 <f-next-button />
 
 </div></center>
@@ -177,7 +180,7 @@ Watch the following videos and define frequency in your own words and describe a
 
 | background: images/frequency.jpg
 | theme: dark
-| tint: 0.2
+| tint: 0.6
 
 <center><div>
 
@@ -474,7 +477,7 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 
 | background: images/vinylblurry.png
 | theme: dark
-| tint: 0.8
+| tint: 0.7
 
 <center><div>
 
@@ -482,10 +485,10 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 
 <p />
 
-~The most common way to experience noticeable visual distortion<br>caused by frequency is by having the phenomenon occurring on a screen.~
-<br> 
-Watch following clip <small>(first 5 sec)</small> and observe <br>the movement of the <var>wagon wheels</var>
-
+The most common way to experience noticeable visual distortion<br>caused by frequency is by having the phenomenon occurring on a screen.
+ 
+<small>Watch following clip *(first 5 sec)* and observe <br>the movement of the **wagon wheels**.</small>
+<br>
 <p />
 
 <f-next-button title="Go" />
@@ -840,7 +843,7 @@ You have just completed all the steps required to experience visual distortion v
 
 | background: images/vinylblurry.png
 | theme: dark
-| tint: 0.8
+| tint: 0.7
 
 <center><div>
 
@@ -848,9 +851,9 @@ You have just completed all the steps required to experience visual distortion v
 
 <p />
 
-~Let's have a 3 minute break before the next hands-on exercise.~
+Let's have a 3 minute break before the next hands-on exercise.
 <small>Following clip shows You different experiments with the medium.</small>
-
+<br>
 <p />
 
 <f-next-button title="Go" />
@@ -869,8 +872,8 @@ You have just completed all the steps required to experience visual distortion v
 | section: Make Your Second Animation
 | rows: auto 1fr
 
-| 1 1 1
-| 2 2 3
+| 1 1 1 1
+| 2 2 2 3
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
@@ -904,7 +907,9 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 # Make a spinning animation II
 
-When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless animation.
+
+><f-fact-icon size="small" /> When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless animation.
+
 -
 
 <span class="bullet">1</span> First you need paper templates with spokes.
@@ -960,15 +965,17 @@ When the shutter speed of the camera syncs up with the speed of the turntable, Y
 
 | section: Frequency as a Wave
 
-| 1 1 2 2
+| 1 1 3 3 3 3
+| 4 4 3 3 3 3
+| 4 4 2 2 0 0
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
 Students will learn how to present frequency on a sinusoidal wave. This will allow them to experiment and test their new knowledge about frequency using a more mathematical way of thinking.
 
-~Frequency can be expressed using a sinusoidal wave having two variables: time and cycle. in a two-dimensional space, if X-axis represents time and Y-axis a cycle, we can start presenting frequency using sinusoidal wave.~
+>Frequency can be expressed using a sinusoidal wave having two variables: **time and cycle**. In a two-dimensional space, if X-axis represents time and Y-axis a cycle, we can start presenting frequency using sinusoidal wave.
 
-~On a sinusoidal wave time lapses from left to right on the horizontal axis. The higher the frequency, the greater the number of cycles on the vertical axis, representing faster rate.~
+On a sinusoidal wave time lapses from left to right on the horizontal axis. The higher the frequency, the greater the number of cycles on the vertical axis, representing faster rate.
 
 </f-notes>
 
@@ -976,20 +983,16 @@ Students will learn how to present frequency on a sinusoidal wave. This will all
 
 After exploring spinning frequency and frame rate, let's define frequency as form of *wave*. The most common waveform might be the <a target="_blank" href="https://pudding.cool/2018/02/waveforms/">soundwave <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> but it can also represent <a href="../colorblindness">color <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> or movement.
 
-#### 1. Explore the waveform
+-
+
+<br>
+
+### Explore the waveform
 
 Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('a') / Math.PI,2) }} × π</var>
 
 <f-slider set="a" :from="-Math.PI" :to="Math.PI" duration="1000" />
 <small>Precise value is <var class="gray">{{ get('a') }}</var>
-
-<p />
-
-#### 2. Discuss
-
-What are you findings regarding waves moving at different speeds and different frequencies? How can frequency be interpreted in other visual ways?
-
-<f-next-button />
 
 -
 
@@ -1039,6 +1042,7 @@ What are you findings regarding waves moving at different speeds and different f
       :y1="-Math.PI"
       :y2="Math.PI"
     />
+ 
 </f-scene>
 
 <p />
@@ -1141,8 +1145,20 @@ What are you findings regarding waves moving at different speeds and different f
       :y1="Math.sin((get('a') * 2) - Math.PI)"
       :y2="Math.sin((get('a') * 2) - Math.PI)"
     />
-      
+   
 </f-scene>
+
+-
+
+<p/>
+
+><f-icon-heading icon="activity" size="small">Discuss</f-icon-heading>*What are you findings regarding different shapes of waves? <br>
+How can frequency be interpreted in other visual ways?* 
+
+<br>
+<p/>
+
+<f-next-button />
 
 ---
 
@@ -1163,8 +1179,6 @@ As a final task, you will prepare an analog animation using rotational movement.
 
 2. Which variable (e.g. frame rate, speed of the rotating device, spokes) was the most critical part in your animation?
 
-<a class="tertiary" href="..">← Back to projects</a>
-
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
 The final assignment is individual work for students, to create analogue animation and capture it with any device that can record a video file.
@@ -1176,7 +1190,8 @@ There are many paths for students may follow:
 * They can make it as a flat 2D animation.
 * They can make it with a 3D shape, which is more complex.
 
-It is also possible to manipulate visuals using a strobe light or use any other device other than a turntable to rotate the artwork.
+It is also possible to manipulate visuals using a strobe light <small><a href="https://itunes.apple.com/us/app/vinylstrobe/id1342661977?mt=8">*(e.g. VinylStrobe iOS app)*</a></small> or use any other device other than a turntable to rotate the artwork.
+
 The teacher can decide how complex the pathway should be to take, depending on the planned curriculum.
 
 </f-notes>
