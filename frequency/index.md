@@ -826,7 +826,7 @@ You have just completed all the steps required to experience visual distortion v
 <p />
 
 ~Let's have a 2 minute break before the next hands-on exercise.~
-<small>Following clip shows You different turntable animations.</small>
+<small>Following clip shows You different experiments with the medium.</small>
 
 <p />
 
@@ -1136,7 +1136,7 @@ As a final task, you will prepare an analog animation using rotational movement.
 
 1. What constraints did you experience during the process?
 
-2. Which variable (e.g. frame rate, speed of the rotating device, spokes)was the most critical part in your animation?
+2. Which variable (e.g. frame rate, speed of the rotating device, spokes) was the most critical part in your animation?
 
 <a class="tertiary" href="..">← Back to projects</a>
 
@@ -1174,17 +1174,20 @@ The teacher can decide how complex the pathway should be to take, depending on t
 
 ## Wrapping up
 
-#### Related DesignSTEM projects
+##### Related DesignSTEM projects:
 
-<!--
-<a href="../triangles">Looking for Triangles</a> offers a comprehensive set interactive tools for exploring polyhedrons and understanding the math behind them.
--->
+<a href="https://designstem.github.io/scenarios/colorblindness/">Color Vision Deficiency & Accessibility</a>
+<small>How to design information for people whose colour perception is impaired.</small>
 
-#### Other materials
+##### Other materials:
 
-<!--
-https://polyhedra.tessera.li/ by Nat Alison visualizes the entire family of polyhedra. Here is also a related [conference talk](https://www.youtube.com/watch?v=jhdJHBD9Fts) about her work.
--->
+<a href="https://pudding.cool/2018/02/waveforms/">Let's Learn About Waveforms</a> by Josh Comeau.<small>
+</small>This interactive guide introduces and explores waveforms.
+
+<a href="https://drewtetz.com">Animated Records</a> by Drew Tetz.<small>
+</small>Animation experiments and <a href="https://itunes.apple.com/us/app/vinylstrobe/id1342661977?mt=8">VinylStrobe</a> iOS app.
+
+<br>
 
 <a class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</a>
 
