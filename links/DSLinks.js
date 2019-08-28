@@ -21,7 +21,7 @@ export default{
         <div>
           <div  style="position:sticky; top:15vh;">
             <span style="font-size:0.85em; font-weight:700; color:var(--darkgray);">SEARCH FOR:</span>
-            <input type="text" v-model="query" style="width:100%; margin-top:0.25em;" />
+            <input type="text" v-model="query" style="width:100%; margin-top:0.5em;" />
           </div>
         </div>
 
