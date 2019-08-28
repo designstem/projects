@@ -495,7 +495,7 @@ Tattoo permanence model by conducting biological experiments
 
 #### Related DesignSTEM projects
 
-[Color Vision Deficiency & Accessi­bility](../colorblindness) contains a lot of interactive material about color and considering human condition.
+<a href="../colorblindness">Color Vision Deficiency & Accessi­bility</a>  contains a lot of interactive material about color and considering human condition.
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 

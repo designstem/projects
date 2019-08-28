@@ -29,7 +29,7 @@ export default {
         backgroundImage: image ? 'url(' + image + ')' : '',
         backgroundColor: !image ? '#eee' : '',
         backgroundSize: 'cover',
-        height: '180px',
+        height: image ? '180px' : 0,
         fffilter: 'grayscale(100%)'
       }">
       </div>

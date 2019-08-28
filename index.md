@@ -98,19 +98,14 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 ---
 
-<a id="about">
-  <h3>About</h3>
-</a>
+<!--
+<a id="about"><h3>About</h3></a>
 
-<p />
+We are educators, teachers, designers and engineers from 10 countries 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪 around Europe.
 
-DesignSTEM is an education initiative that creates immersive experiences for future learning. We are educators, teachers, designers and engineers from 10 countries 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪 around Europe.
+-->
 
-<a id="contacts">
-  <h3>Contacts</h3>
-</a>
-
-<p />
+<a id="contacts"><h3>Contacts</h3></a>
 
 **Project Manager**: Merit Karise, Kuressaare Regional Trainin Centre, design department merit.karise@ametikool.ee
 

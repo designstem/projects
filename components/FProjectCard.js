@@ -1,5 +1,5 @@
 export default {
-  props: ['project', 'status'],
+  props: ['project', 'status', 'small'],
   data: () => ({
     statuses: {
       feature: {
@@ -26,7 +26,7 @@ export default {
     class="project-card"
     :background="statuses[status].background"
     :border="statuses[status].border"
-    :image="project.image"
+    :image="small ? '' : project.image"
   >
       <h5 style="margin-top: var(--base);">{{ project.title }}</h5>
       <p style="font-size: calc(var(--base) * 1.75)">{{ project.desc }}</p>

@@ -22,7 +22,7 @@
 
 #### Related DesignSTEM projects
 
-[Color Vision Deficiency & Accessi­bility](../colorblindness) contains a comprehensive section about RGB color with interactive tools and quizzes.
+<a href="../colorblindness">Color Vision Deficiency & Accessi­bility</a> contains a comprehensive section about RGB color with interactive tools and quizzes.
 
 #### Other materials
 

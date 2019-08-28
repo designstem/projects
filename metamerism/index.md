@@ -252,7 +252,7 @@ Light influences our perception of colors. This is called _metamerism_
 
 #### Related DesignSTEM projects
 
-[Color Vision Deficiency & Accessi­bility](../colorblindness) contains a lot of interactive material about color and perception of color.
+<a href="../colorblindness">Color Vision Deficiency & Accessi­bility</a> contains a lot of interactive material about color and perception of color.
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
