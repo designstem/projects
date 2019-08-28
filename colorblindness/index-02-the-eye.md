@@ -71,6 +71,11 @@
     ~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
     ~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
     ~That’s why you can’t see colors in the dark.~
+    
+    <br>
+    
+    You can find more information in this [worksheet](./files/designstem_cvd_worksheet_stem_color_perception.pdf).
+    
     </details>
 
 2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
