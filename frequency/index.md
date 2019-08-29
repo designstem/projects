@@ -527,6 +527,7 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 	<div style= "display:flex; align-items:center; justify-content:center; height:60%">
 		<img src="./images/frameRate.png">
 	</div>
+  
 <small>Without red dot, wheel appears to be rotating slowly backwards.</small>
 </div>
 -
