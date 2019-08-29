@@ -4,8 +4,6 @@
 
 ## &nbsp;
 
-***TODO*** menu, vector logo
-
 # <big><big><big><span style="color: var(--red); letter-spacing: -0.06ch;">Design</span><sup style="letter-spacing: -0.05ch; font-size: 0.5em">STEM</sup></big></big></big>
 
 <big>
@@ -42,7 +40,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
   <div>
   <caption>Design topics</caption>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightyellow);" v-on:click.native="set('dt', t == get('dt') ? '' : t)" />
+    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightgray);" v-on:click.native="set('dt', t == get('dt') ? '' : t)" />
   </div>
 </div>
 
@@ -51,7 +49,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 <div>
   <caption>STEM topics</caption>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: hsl(203, 77%, 86%);" v-on:click.native="set('st', t == get('st') ? '' : t)" />
+    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightergray);" v-on:click.native="set('st', t == get('st') ? '' : t)" />
   </div>
 </div>
 

@@ -663,7 +663,7 @@ After having worked with this scenario, your pattern skills have grown. Describe
 
 <section>
 
-***TODO*** rewrite, link to frequency, algorithms, hexagons
+***TODO*** rewrite, link to frequency, algorithms, packaging
 
 ## More fun with patterns
 

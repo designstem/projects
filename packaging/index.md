@@ -1,15 +1,17 @@
 | chapter: Of Bees and Packages
 | section: Start
-| 1 1 1 2 2
-
-***TODO*** Content
+| 1 1 1 3 3
+| 2 2 2 3 3
+| rows: 1fr auto
 
 
 ***TODO*** layout
 
 # <big>Of Bees and Packages</big>
 
-How to optimize packaging, reduce loss of space and avoid material waste
+<big>How to optimize packaging,<br>reduce excess space<br>and avoid material waste</big>
+
+-
 
 <f-next-button title="Start" />
 
@@ -52,8 +54,7 @@ Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
 
 | section: Packages as marketing
 
-| 1 2 2
-| rows: auto 1fr 
+| 1 1 2 2 2
 
 ## Nowadays packaging is also marketing
 
@@ -70,13 +71,15 @@ Here is a X-Ray of a cereal package, showing the amount of product in relation t
 
 <img src="https://www.vzhh.de/sites/default/files/styles/crop_default/public/medien/167/bilder/Bensdorp_Kakao_final.png?itok=3xMh-LGX" />
 
--***ERIK: Can we use this image?***
-The source is from https://www.vzhh.de/themen/mogelpackungen/luftpackungen/mogelpackungen-jede-menge-luft-nach-oben and has "© Verbraucherzentrale Hamburg (vzhh)"***
+<f-notes title="Credits">
+
+[© Verbraucherzentrale Hamburg (vzhh)](https://www.vzhh.de/themen/mogelpackungen/luftpackungen/mogelpackungen-jede-menge-luft-nach-oben)
 
 ---
 
-| 1 2 3 4
-| 5 5 6 6
+| 2 4 6
+| 1 3 5
+| rows: 50vh auto
 
 ### Costly packaging
 
@@ -84,7 +87,7 @@ Sometimes the value of the package is higher than the value of the product itsel
 
 -
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Travel_mug.jpg" style="width: 50%" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/RapidRide_water_bottle_%285042358699%29.jpg/1024px-RapidRide_water_bottle_%285042358699%29.jpg" />
 
 -
 
@@ -94,7 +97,7 @@ Sometime the package is part of the value
 
 -
 
-<img src="https://c.pxhere.com/photos/77/00/cosmetics_advertising_perfumes_perfume_studio_the_practice_of_acuteness_detail-1084407.jpg!d" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chanel_N%C2%B05.jpg/1024px-Chanel_N%C2%B05.jpg" />
 
 -
 
@@ -109,6 +112,13 @@ Sometime the package is part of the value
 ---
 
 | section: Packages in nature
+| 1 2 3 4
+| cols: 0.1fr 1fr 1fr 0.1fr
+| gap: var(--base4)
+
+-
+
+<center><div style="text-align: left">
 
 ## Packaging in nature
 
@@ -116,93 +126,103 @@ Nature has always evolved the best packaging for its products.
 
 **How can we optimize packaging?** 
 
+</div></center>
+
 -
 
 <img src="https://etc.usf.edu/clipart/84800/84862/84862_lime_quat_md.gif" />
 
+-
+
 ---
 
 | section: Exercise: milk carton
-| 1 1 2
+| 1 1
+| 2 3
+| 4 4
 
-## Exercise
+<caption>Exercise</caption>
 
-***TODO layout***
+## Perimeter vs volume
 
-Bring/take a milk or juice carton (square shape). 
+-
 
-1. Cut off the top of the carton and fill it with rice until it is full.
+<span class="bullet">1</span>  Bring/take a milk or juice carton (square shape). Cut off the top of the carton and fill it with rice until it is full.
 
-2. Weight the rice on a scale without the carton.
+<span class="bullet">2</span> Weight the rice on a scale without the carton.
 
-3. Take note of the weight.
+<span class="bullet">3</span> Take note of the weight.
 
-4. Cut off also the bottom of the carton and cut along one of the sides.
+<span class="bullet">4</span> Cut off also the bottom of the carton and cut along one of the sides.
 
-5. Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
+-
 
-  <table>
-    <tbody>
-      <tr>
-        <td>
-          <f-scene width="200" height="200">
-            <f-regularpolygon
-              scale="1.75"
-              count="3"
-              :stroke="color('red')"
-            />
-          </f-scene>
-        </td>
-        <td>
-          <f-scene width="200" height="200">
-            <f-regularpolygon
-              scale="1.75"
-              count="4"
-              :stroke="color('red')"
-            />
-          </f-scene>
-        </td>
-        <td>
-          <f-scene width="200" height="200">
-            <f-regularpolygon
-              scale="1.75"
-              count="5"
-              :stroke="color('red')"
-            />
-          </f-scene>
-        </td>
-        <td>
-          <f-scene width="200" height="200">
-            <f-regularpolygon
-              scale="1.75"
-              count="6"
-              :stroke="color('red')"
-            />
-          </f-scene>
-        </td>
-        <td>
-          <f-scene width="200" height="200">
-            <f-circle
-              scale="1.75"
-              :stroke="color('red')"
-              stroke-width="5"
-            />
-          </f-scene>
-        </td>
-      </tr>
-      <tr>
-        <td>Weight:</td>
-        <td>Weight:</td>
-        <td>Weight:</td>
-        <td>Weight:</td>
-        <td>Weight:</td>
-      </tr>
-    </tbody>
-  </table>
+<span class="bullet">5</span> Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
 
-6. Which shape optimize carton volume?
+<span class="bullet">6</span>  Which shape optimize carton volume?
 
-7. What can you say about the relation between the perimeter of the base and the volume of the carton?
+<span class="bullet">7</span>  What can you say about the relation between the <var>perimeter</var> of the base and the <var>volume</var> of the carton?
+
+-
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <f-scene width="200" height="200">
+          <f-regularpolygon
+            scale="1.75"
+            count="3"
+            :stroke="color('red')"
+          />
+        </f-scene>
+      </td>
+      <td>
+        <f-scene width="200" height="200">
+          <f-regularpolygon
+            scale="1.75"
+            count="4"
+            :stroke="color('red')"
+          />
+        </f-scene>
+      </td>
+      <td>
+        <f-scene width="200" height="200">
+          <f-regularpolygon
+            scale="1.75"
+            count="5"
+            :stroke="color('red')"
+          />
+        </f-scene>
+      </td>
+      <td>
+        <f-scene width="200" height="200">
+          <f-regularpolygon
+            scale="1.75"
+            count="6"
+            :stroke="color('red')"
+          />
+        </f-scene>
+      </td>
+      <td>
+        <f-scene width="200" height="200">
+          <f-circle
+            scale="1.75"
+            :stroke="color('red')"
+            stroke-width="5"
+          />
+        </f-scene>
+      </td>
+    </tr>
+    <tr>
+      <td>Weight:</td>
+      <td>Weight:</td>
+      <td>Weight:</td>
+      <td>Weight:</td>
+      <td>Weight:</td>
+    </tr>
+  </tbody>
+</table>
 
 -
 
@@ -213,42 +233,40 @@ Bring/take a milk or juice carton (square shape).
 ---
 
 | section: Explore polygon area and perimeter
-
-| 1 1 1 1
-| 2 2 3 3
-| 2 2 3 3
-| 4 4 4 4
-| rows: auto 1fr 1fr auto
-
-***TODO format***
+| 1 1 1 2 2
 
 ## Drawing polygons with fixed perimeter
 
+
+**Experiment how polygons area changes**
+
+1. Start changing only the dimension of a square and a triangle with the same <var>perimeter</var> <f-math inline :update="get('p')">p = \color{red}{ {{ get('p') }} }</f-math>
+
+  <f-slider set="p" from="1" to="10" />
+
+  <small>
+
+  Which is the ratio between square and triangle areas?<br>What can you say about the volume of a milk carton with triangle base?
+
+  </small>
+
+2. Now keep a fixed perimeter of <f-math inline red>10</f-math> and change the <var>number of edges</var> <f-math inline :update="get('n')">n = \color{red}{ {{ get('n') }} }</f-math>
+
+  <f-slider set="n" from="3" to="32" integer >
+  </f-slider>
+
+  <small>
+
+  How the ratio between square and polygons changes?
+  Given a fixed perimeter, which is the polygon with the bigger area?
+  What can you say about the volume of the milk carton?
+  Have you ever seen packages with a not square base?
+
+  </small>
+
 -
 
-### Experiment how polygons area changes
-
-<span class="bullet">1</span> Start changing only the dimension of a square and a triangle with the same ***perimeter*** `p = {{ get('p') }}`
-
-<f-slider set="p" from="1" to="10" />
-
-***A*** Which is the ratio between square and triangle areas?
-
-***B*** What can you say about the volume of a milk carton with triangle base?
-
-<span class="bullet">2</span> Now keep a fixed perimeter of `10` and change the ***number of edges*** `n = {{ get('n') }}`
-
-<f-slider set="n" from="3" to="32" integer >
-</f-slider>
-
-***A*** How the ratio between square and polygons changes?
-***B*** Given a fixed perimeter, which is the polygon with the bigger area?
-***C*** What can you say about the volume of the milk carton?
-***D*** Have you ever seen packages with a not square base?
-
--
-
-<f-scene grid step="0.5" >
+<f-scene grid step="0.5" responsive>
 	<f-group :rotation="get('r',0)">
 		<f-circle opacity="0.1" :r="crEP(get('n',3),get('p',1))" :stroke="color('yellow')/>
 		<f-circle :r="crEP(32,get('p',1))" opacity="0.2" />
@@ -271,6 +289,7 @@ Bring/take a milk or juice carton (square shape).
 	</f-group>
 </f-scene>
 
+<!--
 <details>
 	<summary>Geom properties involved</summary>
 	1 perimeter of the polygon
@@ -283,6 +302,7 @@ You can always ***rotate*** the polygons with the parameter `r`
 
 <f-slider set="r" from="0" to="360" />
 
+-->
 
 ---
 

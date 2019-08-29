@@ -30,7 +30,7 @@ export default {
         backgroundColor: !image ? '#eee' : '',
         backgroundSize: 'cover',
         height: image ? '180px' : 0,
-        fffilter: 'grayscale(100%)'
+        filter: 'grayscale(100%)'
       }">
       </div>
       <div style="padding: var(--base) var(--base2)">
