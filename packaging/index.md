@@ -165,7 +165,7 @@ Nature has always evolved the best packaging for its products.
   <tbody>
     <tr>
       <td>
-        <f-scene width="200" height="200">
+        <f-scene responsive width="200" height="200">
           <f-regularpolygon
             scale="1.75"
             count="3"
@@ -174,7 +174,7 @@ Nature has always evolved the best packaging for its products.
         </f-scene>
       </td>
       <td>
-        <f-scene width="200" height="200">
+        <f-scene responsive width="200" height="200">
           <f-regularpolygon
             scale="1.75"
             count="4"
@@ -183,7 +183,7 @@ Nature has always evolved the best packaging for its products.
         </f-scene>
       </td>
       <td>
-        <f-scene width="200" height="200">
+        <f-scene responsive width="200" height="200">
           <f-regularpolygon
             scale="1.75"
             count="5"
@@ -192,7 +192,7 @@ Nature has always evolved the best packaging for its products.
         </f-scene>
       </td>
       <td>
-        <f-scene width="200" height="200">
+        <f-scene responsive width="200" height="200">
           <f-regularpolygon
             scale="1.75"
             count="6"
@@ -201,7 +201,7 @@ Nature has always evolved the best packaging for its products.
         </f-scene>
       </td>
       <td>
-        <f-scene width="200" height="200">
+        <f-scene responsive width="200" height="200">
           <f-circle
             scale="1.75"
             :stroke="color('red')"
@@ -230,6 +230,7 @@ Nature has always evolved the best packaging for its products.
 
 | section: Explore polygon area and perimeter
 | 1 1 1 2 2
+| background: var(--lightergray)
 
 ## Drawing polygons with fixed perimeter
 
@@ -262,7 +263,7 @@ Nature has always evolved the best packaging for its products.
 
 -
 
-<f-scene grid step="0.5" responsive>
+<f-scene dots step="0.5" responsive>
 	<f-group :rotation="get('r',0)">
 		<f-circle opacity="0.1" :r="crEP(get('n',3),get('p',1))" :stroke="color('yellow')/>
 		<f-circle :r="crEP(32,get('p',1))" opacity="0.2" />
@@ -449,22 +450,19 @@ After this work, can you evaluate which is the **optimal shape to store the maxi
 
 ---
 
-| section: Animal packaging
-| 1 1 1 1 1
-| 2 2 3 3 3
-| rows: auto 1fr
+| section: Bees and packaging
+| 1 2 2
 
-## Also animals package their goods
+## Bees and packaging
 
--
 
 Find out how honeycombs are built and why bees choose hexagons and not other regular polygons. 
 
 1. Watch the video
 
-2. Verify that the hexagon has the maximum area (= bigger beehive cell) among the stackable polygons with same perimeter.
+2. Verify that the hexagon has the maximum area among the stackable polygons with same perimeter.
 
-3. Verify that the hexagon has the minimum perimeter (= min amount of vax, the packging!) among the stackable polygons with same area.
+3. Verify that the hexagon has the minimum perimeter among the stackable polygons with same area.
 
 -
 
@@ -501,17 +499,15 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 ---
 
-| 1 1 1 1
-| 2 2 3 4
-| rows: auto 1fr
+| caption: Final assignment
+| 1 1 2 2 2
+| padding: 0
 
-## Design object task 
+<section>
 
-***TODO: What?***
+<caption>Final assignment</caption>
 
--
-
-### Think about an object which does not have a reusable package
+## Create a package
 
 1. Imagine how you can design a new reusable package, possibly suitable for different purposes
 
@@ -519,9 +515,14 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 3. What if you have to store several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
 
-  **Remember:** You have learned how to optimize your packaging to reduce costs and waste, apply your knowledge to this problem
+</section>
 
 -
+
+<f-image src="./images/hazeline.jpg" />
+
+<!--
+**Remember:** You have learned how to optimize your packaging to reduce costs and waste, apply your knowledge to this problem
 
 <f-scene>
   <f-rotation>
@@ -539,7 +540,6 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
   </f-rotation>
 </f-scene>
 
--
 
 ***perimeter*** `p`
 <f-slider set="p" from="1" to="10" />
@@ -549,6 +549,8 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 ***fun*** `f`
 <f-slider set="r" from="0" to="360" />
+
+-->
 
 ---
 
