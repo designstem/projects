@@ -1,15 +1,14 @@
 | chapter: Introduction
 | section: First page
-| style:  --primary:var(--middlegray)
+| style:  --primary:var(--middlegray);
 | rows: auto
-| cols: 1fr 2fr 1fr
+| cols: 0.5fr 2fr 1fr
 | height: 100vh
 | 1 1 1
 | 3 2 4
 
 
-
-<div style="height:100%; display:flex; align-items: flex-end; padding-bottom: var(--content-padding); margin-left:calc(var(--content-padding) * -1)">
+<div style="height:100%; display:flex; align-items: flex-end; padding-bottom: var(--content-padding); margin-left:calc(var(--content-padding) * -0.75)">
 
   # <big><em>Bio</em>&shy;mimicry</big>
 
@@ -19,7 +18,7 @@
 
 ### <em>Bio</em>nic | Design + Nature + Science
 
-(...) ‘tend to discover processes, techniques and new principles applicable to technology. It examines principles, characteristics and systems with transposition of matter, with extension of commands, with transfer of energy and information. It takes as a starting point a natural phenomenon and from there a projectual solution can be developed.’
+(...) ‘tend to discover processes, techniques and new principles applicable to technology. It examines principles, characteristics and systems with transposition of matter, with extension of commands, with transfer of energy and information. It takes as a starting point a **natural phenomenon** and from there a projectual solution can be developed.’
 <small>Bruno Munari</small>
 
 <br />
@@ -54,7 +53,7 @@
 
 | theme: light
 | style:  --primary:var(--middlegray)
-| cols: 0.5fr 3fr 2fr
+| cols: 0.25fr 3fr 2fr
 | 4 1 2
 | 4 3 2
 
@@ -84,7 +83,7 @@
 | section: Bionics
 | theme: light
 | style:  --primary:var(--middlegray)
-| cols: 0.5fr 3fr 2fr
+| cols: 0.25fr 3fr 2fr
 | 4 1 2
 | 4 3 2
 
@@ -117,10 +116,11 @@
 | theme: light
 | style:  --primary:var(--middlegray)
 | rows: auto 
-| cols: 0.5fr 3fr 2fr
+| cols: 0.25fr 4fr 2fr
 | 5 1 2
 | 5 3 3
 | 5 4 4
+
 
 <div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end;">
 
@@ -161,7 +161,7 @@
 | chapter: The Orange
 | section: Bruno Munari and the orange methaphore
 | theme: dark
-| style: background: linear-gradient(45deg, hsl(45,100%,50%) 0%, hsl(40,100%,50%) 100%); --primary: #fff;
+| style: background: hsl(45,100%,50%); --primary: #fff;
 | rows: auto 30vh auto
 | 2 1
 | 3 3
@@ -173,7 +173,7 @@
 
 <div style="height:100%; display: flex; flex-direction:column; justify-content: flex-end; ">
 
-  ## Why nature is crucial to men's <span style="text-decoration:underline;">mimicry</span>?
+  ## Why nature is crucial to men's mimicry?
 
 </div>
 
@@ -205,24 +205,26 @@
 
 
 
-| style:  --primary:var(--middlegray)
-| cols: 10vw 3fr 2fr
+| style: --primary:var(--middlegray)
+| cols: 0.25fr 3fr 2fr
 | rows: auto
 | 4 1 5
 | 4 2 5
 | 4 3 5
 
-<div style="height: 100%; display: flex; flex-direction:column; justify-content:flex-end;">
+<div class="bottom">
 
-  ## Let’s start with a basic exercise to understand design and how nature resolves problems.
+  ##### Let’s start with a basic exercise to
+  <h2 style="margin-top:0">understand design and how nature resolves problems.</h2>
 
 </div>
 
 -
 
-1. Pick a Orange while you are passing this slides with Bruno Munari designer’s head.
-2. Do not start, unfolding or eat the Orange before the slides come through.
-3. Pick the Orange at the center of your hands and start to explore is shape in these steps:
+<!-- 1. Pick a Orange while you are passing this slides with Bruno Munari designer’s head. -->
+1. Pick a Orange.
+2. Do not peel or eat the Orange before the slides come through.
+3. Hold the Orange and start to explore its shape in these steps:
 
 -
 
@@ -477,12 +479,12 @@
 
 
 
-| cols: 50vw auto
+| cols: 1fr 1fr 1fr
 | 1 1 1
-| 2 3 4
-| 5 5 5
-| 6 7 8
-| 9 9 9
+| 6 2 7
+| 6 3 7
+| 6 4 7
+| 6 5 7
 
 <h1 style="text-align: right; margin:0; margin-right:calc(var(--content-padding) * -1); color: var(--darkorange)">Orange</h1>
 
@@ -494,10 +496,6 @@
 
 #### 13. 
 *The only concession to decorativeness, if we may say so, is the highly sophisticated material of the outer container, treated as it is in such a way as to produce the ‘orange skin’ effect. Perhaps this is done to remind the consumer of the juicy pulp to be found inside the plastic containers. Anyway, a minimum of decoration must be allowed for, especially when as justified as it is in this case*
-
--
-
--
 
 -
 
@@ -513,11 +511,11 @@
 
 -
 
--
-
--
-
 <f-next-button title="Next" />
+
+-
+
+-
 
 ---
 
@@ -541,7 +539,7 @@
 
 ## 14. Now!!!
 
-### You touch<br />You see<br />You smell it<br />and I hope you eat it
+### You touch it<br />you see it<br />you smell it<br />and I hope you eat it
 
 all the senses have been aplied and most of the biodesign concepts have been **experienced**.
 
@@ -636,11 +634,11 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 | chapter: Biomimicry in action
 | section: Janine Benyus' TED talk
-| cols: 0.5fr 2fr 3fr
+| cols: 0.25fr 2fr 3fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
   ## Why nature is crucial to men's mimicry?
   
@@ -652,7 +650,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 <!-- <f-image src="./images/02-benyus.jpg" style="--image-size:contain; --image-min-height: 40vh" /> -->
 
-<div class="vertical-bottom-column" style="justify-content: center;">
+<div class="bottom" style="justify-content: center;">
 
   <f-video src="https://www.youtube.com/watch?v=k_GFq12w5WU" />
 
@@ -675,11 +673,11 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 | section: Velcro
-| cols: 0.5fr 3fr 2fr
+| cols: 0.25fr 3fr 2fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
   ## See closer. See better. See deeper.
   
@@ -693,7 +691,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 <!-- <f-image src="./images/02-benyus.jpg" style="--image-size:contain; --image-min-height: 40vh" /> -->
 
-<div class="vertical-bottom-column" style="">
+<div class="bottom" style="">
   <f-image src="./images/03-velcro-3.jpg" style="flex: 2" />
   <f-image src="./images/03-velcro-1.jpg" style="flex: 1" />
   <f-image src="./images/03-velcro-2.jpg" style="flex: 1" />
@@ -716,11 +714,11 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 | section: Ross Lovegrove
-| cols: 0.5fr 3fr 2fr
+| cols: 0.25fr 3fr 2fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
   ## The shape drop light mimics
   
@@ -732,7 +730,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 -
 
-<div class="vertical-bottom-column" style="">
+<div class="bottom" style="">
   <f-image src="./images/06-lovegrove-1.jpg" style="flex: 1; --image-position:center;" />
   <f-image src="./images/06-lovegrove-2.jpg" style="flex: 1; --image-position: center 100%" />
 </div>
@@ -751,11 +749,11 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 | section: Tomás Sarraceno
-| cols: 0.5fr 3fr 2fr
+| cols: 0.25fr 3fr 2fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
   ## The scale repetion proposition
   
@@ -777,7 +775,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 -
 
-<div class="vertical-bottom-column" style="">
+<div class="bottom" style="">
   <f-image src="./images/07-saraceno-1.jpg" style="flex: 3; --image-position:center;" />
   <f-image src="./images/07-saraceno-2.jpg" style="flex: 2; --image-position: center 100%" />
 </div>
@@ -796,11 +794,11 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 | section: Ingo Rechenberg
-| cols: 0.5fr 3fr 2fr
+| cols: 0.25fr 3fr 2fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
   ## Desert Spider Robotics mimicry by Ingo Rechenberg
   
@@ -816,7 +814,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 -
 
-<div class="vertical-bottom-column" style="">
+<div class="bottom" style="">
   <f-image src="./images/08-rechenberg-1.jpg" style="flex: 3; --image-position: center;" />
   <f-image src="./images/08-rechenberg-2.jpg" style="flex: 1; --image-position: center 20%" />
   <f-image src="./images/08-rechenberg-3.jpg" style="flex: 1; --image-position: center 50%; --image-size:cover ;" />
@@ -837,11 +835,11 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 | chapter: BioDesign Lessons
 | section: BioDesign Lessons by Franco Lodato
-| cols: 0.5fr 2fr 2fr
+| cols: 0.25fr 2fr 2fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
   ## These are only a few examples of men’s repetition
   
@@ -852,7 +850,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 -
 
-<div class="vertical-bottom-column" style="">
+<div class="bottom" style="">
   <f-image src="./images/09-lodato-5.jpg" style="flex: 1; --image-position: center top; --image-size:cover contain" />
   <f-image src="./images/09-lodato-6.jpg" style="flex: 1; --image-position: right top;" />
   <f-image src="./images/09-lodato-7.jpg" style="flex: 1; --image-position: center top;" />
@@ -874,11 +872,11 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 
 
-| cols: 0.5fr 1fr 2fr
+| cols: 0.25fr 1fr 2fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column" style="justify-content: center">
+<div class="bottom" style="justify-content: center">
   
   ## BioDesign Lessons by Franco Lodato:
 
@@ -886,7 +884,7 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 -
 
-<div class="vertical-bottom-column">
+<div class="bottom">
 
 **Humility**
 Nature is THE master designer
@@ -912,7 +910,7 @@ An opportunity for all of us to play a part
 
 -
 
-<div class="vertical-bottom-column">
+<div class="bottom">
 
 <div>
   <f-next-button title="Next" style="flex:0" />
@@ -931,11 +929,11 @@ An opportunity for all of us to play a part
 
 | chapter: Explore the world
 | section: Be like William Morris
-| cols: 0.5fr 2fr 3fr
+| cols: 0.25fr 2fr 3fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
   ## Time to go the field
   
@@ -943,12 +941,11 @@ An opportunity for all of us to play a part
 
   Take notes about details, patterns, color pallet, replicate is form into different perspective, make photocopies, take pictures and draw again...
 
-
 </div>
 
 -
 
-<div class="vertical-bottom-column" style="justify-content: center;">
+<div class="bottom" style="justify-content: center;">
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/98246303?portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
@@ -971,12 +968,14 @@ An opportunity for all of us to play a part
 
 | chapter: Tasks
 | section: Task 1
-| cols: 0.5fr 2fr 2fr
+| cols: 0.25fr 2fr 2fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
+  <caption>Task 1</caption>
+
   <h2 style="margin-bottom:0;">
     Close to me A
   </h2>
@@ -998,7 +997,7 @@ An opportunity for all of us to play a part
 
 -
 
-<div class="vertical-bottom-column" style="">
+<div class="bottom">
   <f-image src="./images/10-tshirt-1.jpg" style="flex: 1; --image-position: center top; --image-size:cover" />
   <f-image src="./images/10-tshirt-2.jpg" style="flex: 1; --image-position: 30% center;" />
   <f-image src="./images/10-tshirt-3.jpg" style="flex: 1; --image-position: center top;" />
@@ -1026,7 +1025,7 @@ An opportunity for all of us to play a part
 | cols: 3fr 2fr
 | 1 2
 
-<div class="vertical-bottom-column" style="justify-content: center;"> 
+<div class="bottom" style="justify-content: center;"> 
 
   ## The importance of mimicry and minimal use of energy, plus the idea of continuous repetition
   
@@ -1049,12 +1048,14 @@ An opportunity for all of us to play a part
 
 
 | section: Task 2
-| cols: 0.5fr 2fr 2fr
+| cols: 0.25fr 2fr 2fr
 | 4 1 2
 | 4 3 2
 
-<div class="vertical-bottom-column">
+<div class="bottom">
   
+  <caption>Task 2</caption>
+
   <h2 style="margin-bottom:0;">
     Close to me B
   </h2>
@@ -1081,7 +1082,7 @@ Enjoy yourself with nature…
 
 -
 
-<div class="vertical-bottom-column" style="">
+<div class="bottom" style="">
   <f-image src="./images/11-final-1.jpg" style="flex: 1; --image-position: center top; --image-size:cover" />
   <f-image src="./images/11-final-2.jpg" style="flex: 1; --image-position: center top;" />
 </div>
@@ -1100,18 +1101,15 @@ Enjoy yourself with nature…
 
 
 | section: Wrapping up
-| cols: 0.5fr 4fr
+| cols: 0.25fr 4fr
 | 2 1
-<!-- <section> -->
 
 ## Wrapping up
 
 ##### Related DesignSTEM projects:
 
-<a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a>
-<small>allows to play around with 2D pattern compositions.</small>
-<a href="https://designstem.github.io/scenarios/dyes">Natural dyes</a>
-<small>***TODO*** description</small>
+<a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a> allows to play around with 2D pattern compositions.
+<a href="https://designstem.github.io/scenarios/dyes">Natural dyes</a> ***TODO*** description
 
 
 
@@ -1125,6 +1123,5 @@ Enjoy yourself with nature…
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
-<!-- </section> -->
 
 -

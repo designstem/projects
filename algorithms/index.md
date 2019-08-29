@@ -144,19 +144,19 @@ Let's start with a small warming-up exercise.
  
 ## Nice work! 
 
-&nbsp;
-
 Now if you fold the paper open, you probably end up with something like shown on this picture. 
  
-By following the steps of cutting and folding you were performing a so called <big>**ALGORITHM**</big>.
+**By following the steps of cutting and folding you were performing a so called <var>algorithm</var>.**
 
 -
 
-<f-image src="./images/origami-output.jpg" style="background-position:50% 50%;" />
+<f-image src="./images/origami-output.jpg" style="background-position:50% 50%; --image-min-height:50vh;" />
 
 -
 
- <f-next-button title="Next: definition" />
+ <div class="bottom">
+   <f-next-button title="Next: definition"  />
+ </div>
 
 <!-- ![Origami result](./images/origami-output.jpg "Origami result") -->
 
@@ -175,9 +175,9 @@ By following the steps of cutting and folding you were performing a so called <b
 
 <div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh; text-align:center; padding:0 10vw">
 
-# an <big>Algorithm</big>
+# <big>Algorithm</big>
 
-##### ~in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).~
+~in mathematics and computer science, is an unambiguous specification of how to solve a class of problems [(Wikipedia)](https://en.wikipedia.org/wiki/Algorithm).~
 
 <br />
 
@@ -1098,9 +1098,8 @@ Try to create a different algorithm from the one we started with. Experiment wit
 | section: What next?
 | padding: 0
 | rows: auto
-| cols: 3fr 2fr
 
-
+TODO 3 columns
 
 
 <section>
