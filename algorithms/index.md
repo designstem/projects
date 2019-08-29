@@ -254,7 +254,7 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 ##### Folding a t-shirt
  
-![T-shirt folding](./images/everyday-tshirt.jpg "T-shirt folding") 
+![T-shirt folding](./images/shirt.gif "T-shirt folding") 
 <!-- <f-image src="./images/everyday-tshirt.jpg" style="background-size: cover; background-position:50% 50%; --image-min-height: 30vh;" /> -->
  
 <small>*There are more than one methods to fold a t-shirt. Every method is a "different algorithm" of t-shirt folding.*</small>
