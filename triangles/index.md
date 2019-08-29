@@ -91,7 +91,7 @@
 
 -
 
-<f-image src="./images/polyhedron-nestbox.jpg" style="background-size: contain; background-repeat:no-repeat; background-position:center" />
+<f-image src="./images/polyhedron-nestbox.jpg" style="--image-size: contain; --image-repeat:no-repeat; --image-position:center; --image-min-height:60vh" />
 
 <small>*Nidusa birdhouse by Vladimir Sinelnikov (<f-link to="https://www.artlebedev.com/nidusa/">Art Lebedev Studio</f-link>)*</small>
 
@@ -117,7 +117,7 @@
 
 
 
-## Design problem <sup>🤔</sup>
+## Design problem 🤔
 
 ~There are birds that rely heavily on human made nesting boxes.~
 
@@ -302,7 +302,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ## 1.
 
-~**simplify the polyhedral object** into more basic geometrical objects, such as <var>polygons</var>, <var>triangles</var> and <var>pyramids</var>~
+~**simplify the polyhedral object** into more basic geometrical objects, such as <var>pyramids</var>, <var>polygons</var> and <var>triangles</var>~
 
 -
 
@@ -518,7 +518,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 
-
 | section: Geometry of triangles
 | height: 100vh
 | rows: auto
@@ -536,7 +535,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 ~What defines a triangle and what kind of different triangles we know~
 
 <f-sidebar src="math-triangle-types.md" title="Triangle types" overlay style="--sidebar-width: 60vw"> 
-  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Triangle types <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base); ">Triangle types <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 -
@@ -547,7 +546,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 <f-sidebar src="math-triangle-calculations.md" title="Geometry of triangles" overlay style="--sidebar-width: 60vw">
-  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Geometry of triangles <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base);">Geometry of triangles <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 -
@@ -557,7 +556,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 ~Calculations based on trigonometric functions~
 
 <f-sidebar src="math-triangle-trigonometry.md" title="Trigonometry" overlay style="--sidebar-width: 60vw">
-  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Trigonometry <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base);">Trigonometry <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 -
@@ -714,7 +713,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 #### Here is how:
 
 <f-sidebar src="math-polygon.md" title="How to solve polygons" overlay style="--sidebar-width: 60vw">
-  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">Polygons and how to solve them <f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base);">Polygons and how to solve them <f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 ## &nbsp;
@@ -846,7 +845,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 -
 
 <f-sidebar src="math-polyhedra.md" title="Polyhedra" overlay style="--sidebar-width: 60vw">
-  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
+  <a slot="button" class="tertiary" style="padding:var(--base);">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 -
@@ -952,9 +951,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 > ~We know now, that the **sides of a polyhedron are made of polygons**.~ 
 
-- ~The first one, *Icosahedron*, had **triangular** faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" style="--sidebar-width: 60vw" overlay />, to make the calculations.~ 
+- ~The first one, <var>Icosahedron</var>, had triangular faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" style="--sidebar-width: 60vw" overlay />, to make the calculations.~ 
 
-- ~The second one, *Dodecahedron*, was a bit more complicated, because its sides are **polygons** *(pentagons)*, so you need an **extra step**:~
+- ~The second one, <var>Dodecahedron</var>, was a bit more complicated, because its sides are **polygons** *(pentagons)*, so you need an extra step:~
 
 1. ~first: **find polygons**, and~ 
 2. ~then: **divide polygons to triangles**~
@@ -1013,13 +1012,10 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ## Material thickness
 
-~If we'd made a nesting box from paper or some other material that has none (or almost almost no)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
+~If we'd made a nesting box from paper or some other material that has no (or almost almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
 
-<blockquote style="background:none;">
+> ~We have to cut the edges of material at **certain angle**, so that they could fit together.~
 
- ~We have to cut the edges of material at **certain angle**, so that they could fit together.~
-
-</blockquote>
 
 &nbsp;
 
@@ -1043,9 +1039,52 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 ---
 
 
+-
+
+<f-slider set="matThickness" to="3" value="1" title="thickness" />
+<f-slider set="matAngle" to="180" value="90" title="angle" />
+
+<f-scene responsive style="background:var(--white); box-shadow: 0 0 10px 0 hsla(0, 0%, 0%, 0.2); border-radius: var(--base)" >
+  <!-- <f-box width="1" height="4" position="-1 0.5" />
+  <f-box width="4" height="1" position="0.5 -1" />
+  <f-line points="-1.5 -1.5, -0.5 -0.5" /> -->
+  <f-group>
+    <f-line :points="[ 
+        [0, polary(0, get('matThickness', 1)*0.5)], 
+        [0, polary(0, -get('matThickness', 1)*0.5)], 
+        [
+          polarx( get('matAngle', 90), 4 ), 
+          polary( get('matAngle', 90), 4 ) + polary(0, -get('matThickness', 1)*0.5)
+        ],
+        [
+          polarx( get('matAngle', 90), 4 ), 
+          polary( get('matAngle', 90), 4 ) + polary(0, get('matThickness', 1)*0.5)
+        ]
+      ]" 
+      closed :position="[[ get('matOffset'), 0]]" :fill="color('lightblue')" />
+      <f-line :points="[ 
+        [0, polary(0, get('matThickness', 1)*0.5)], 
+        [0, polary(0, -get('matThickness', 1)*0.5)], 
+        [
+          -polarx( get('matAngle', 90), 4 ), 
+          polary( get('matAngle', 90), 4 ) + polary(0, -get('matThickness', 1)*0.5)
+        ],
+        [
+          -polarx( get('matAngle', 90), 4 ), 
+          polary( get('matAngle', 90), 4 ) + polary(0, get('matThickness', 1)*0.5)
+        ]
+      ]" 
+      closed :position="[[ get('matOffset'), 0]]" :fill="color('lightblue')" />
+    
+  </f-group>
+</f-scene>
 
 
 
+
+
+
+---
 
 
 | section: Dihedral angle

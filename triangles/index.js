@@ -19,5 +19,6 @@ fachwerk({
   theme: "light",
   pager: true,
   home: false,
-  utils: localutils
+  utils: localutils,
+  // style: {"--accent":"var(--blue)"}
 });
