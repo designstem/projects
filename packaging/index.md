@@ -4,12 +4,9 @@
 | 2 2 2 3 3
 | rows: 1fr auto
 
-
-***TODO*** layout
-
 # <big>Of Bees and Packages</big>
 
-<big>How to optimize packaging,<br>reduce excess space<br>and avoid material waste</big>
+<big style="line-height: 1.75em"><big>How to optimize packaging,<br>reduce excess space<br>and avoid material waste</big></big>
 
 -
 
@@ -34,6 +31,8 @@ Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
 ---
 
 | section: History of packages
+| 1 1 2 2 2
+| gap: var(--base5)
 
 <img src="https://etc.usf.edu/clipart/64900/64993/64993_dollcase_md.gif" />
 
@@ -112,13 +111,11 @@ Sometime the package is part of the value
 ---
 
 | section: Packages in nature
-| 1 2 3 4
-| cols: 0.1fr 1fr 1fr 0.1fr
-| gap: var(--base4)
+| cols: 1fr 1fr
+| gap: 10vw
+| padding: 0
 
--
-
-<center><div style="text-align: left">
+<center><div style="text-align: left; padding-left: 10vw">
 
 ## Packaging in nature
 
@@ -130,9 +127,7 @@ Nature has always evolved the best packaging for its products.
 
 -
 
-<img src="https://etc.usf.edu/clipart/84800/84862/84862_lime_quat_md.gif" />
-
--
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Edward_Julius_Detmold_-_The_Fruits_of_the_Earth.jpg/800px-Edward_Julius_Detmold_-_The_Fruits_of_the_Earth.jpg" />
 
 ---
 
@@ -140,6 +135,7 @@ Nature has always evolved the best packaging for its products.
 | 1 1
 | 2 3
 | 4 4
+| rows: auto 1fr
 
 <caption>Exercise</caption>
 
@@ -306,32 +302,11 @@ You can always ***rotate*** the polygons with the parameter `r`
 
 ---
 
-| section: Tools for understanding regular shapes
-| 1 2 2
-
-
-<caption>Optional</caption>
-
-## Tools for understanding regular shapes
-
--
-
-1. Concept of regular polygons (particular attention to the hexagon) and their main characteristics:
-https://www.mathsisfun.com/geometry/interior-angles-polygons.html
-
-2. Advanced concepts of regular polygons and measures:
-http://mathworld.wolfram.com/RegularPolygon.html
-
-3. How to build a regular polygon:
-https://www.geogebra.org/m/WCFMxSce
-
-4. Circumcircle of a polygon
-https://www.mathopenref.com/polygoncircumcircle.html
-
----
-
 | section: Stacking multiple packages
-| 1 1 2
+| gap: 10vw
+| padding: 0
+
+<center><div style="text-align: left; padding-left: 10vw">
 
 ## Multiple packaging
 
@@ -339,41 +314,48 @@ Take a lemon or an orange. Think about its parts and its packaging subdivision.
 
 Sometimes natural packagings do not optimize the amount per se, but they maximize the **outer container utilization**.
 
+</center></div>
+
 -
 
-<img src="https://etc.usf.edu/clipart/2200/2241/orange_1_md.gif" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/1280px-Ambersweet_oranges.jpg" />
 
 ---
 
 | 1 1
 | 2 3
+| rows: auto 1fr
+| background: var(--lightergray)
 
-## If we have to store multiple packages?
+## What if  we have to store<br>multiple packages?
 
 -
 
 If there are multiple pieces of the product, they have to be stacked/stored with the least waste of space in between the packages.
 
-***perimeter*** `p`
+<var>perimeter</var> <f-math inline :update="get('p')">p = {{ get('p') }}</f-math>
+
 <f-slider set="p" from="1" to="10"/>
 
-***number of edges*** `n`
+<var>number of edges</var> <f-math inline :update="get('n')">n = {{ get('n') }}</f-math>
+
 <f-slider set="n" from="3" to="32" integer />
 
-***rotation*** `r`
+<var>rotation</var> <f-math inline :update="get('r')">n = {{ get('r') }}</f-math>
+
 <f-slider set="r" from="0" to="360" />
 
 -
 
-<f-scene grid>
+<f-scene>
   <f-group scale="1">
     <f-grid-pattern cols="3" rows="3" step="1">
-      <f-box :stroke="color('black')" />
+      <f-box :stroke="color('darkgray')" fill="white" />
       <f-group :rotation="get('r',0)">
         <f-line 
           closed
           :points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
-          :stroke="color('blue')"
+          :stroke="color('red')"
         />
       />
     </f-grid-pattern>
@@ -385,60 +367,68 @@ If there are multiple pieces of the product, they have to be stacked/stored with
 
 | 1 1 1
 | 2 3 3
+| rows: auto 1fr
+| background: var(--lightergray)
 
-## If we have to store multiple packages?
+## What if  we have to store<br>multiple packages?
 
 -
 
 Try to fill all the gaps between packages optimizing perimeter in different pattern.
 
-***perimeter*** `p`
+<var>perimeter</var> <f-math inline :update="get('p')">p = {{ get('p') }}</f-math>
+
 <f-slider set="p" from="1" to="10" />
 
-***number of edges*** `n`
+<var>number of edges</var> <f-math inline :update="get('n')">n = {{ get('n') }}</f-math>
+
 <f-slider set="n" from="3" to="32" integer />
 
-***rotation*** `r`
+<var>rotation</var> <f-math inline :update="get('r')">n = {{ get('r') }}</f-math>
+
 <f-slider set="r" from="0" to="360" />
 
 -
 
-<f-scene grid width="220" height="220">
+<f-scene width="220" height="220">
   <f-group scale="1">
     <f-grid-pattern cols="3" rows="3" step="1">
       <f-group :rotation="get('r',0)">
         <f-line 
           closed
           :points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
-          :stroke="color('blue')"
+          :stroke="color('red')"
+          fill="white"
         />
       />
     </f-grid-pattern>
   </f-group> 
 </f-scene>
 
-<f-scene grid width="220" height="220">
+<f-scene width="220" height="220">
   <f-group scale="1">
     <f-hex-pattern cols="3" rows="3" step="0.5">
       <f-group :rotation="get('r',0)">
         <f-line 
           closed
           :points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
-          :stroke="color('blue')"
+          :stroke="color('red')"
+          fill="white"
         />
       />
     </f-grid-pattern>
   </f-group> 
 </f-scene>
 
-<f-scene grid width="220" height="220">
+<f-scene width="220" height="220">
   <f-group scale="1">
     <f-spin-pattern>
       <f-group :rotation="get('r',0)">
         <f-line 
           closed
           :points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
-          :stroke="color('blue')"
+          :stroke="color('red')"
+          fill="white"
         />
       />
     </f-grid-pattern>
@@ -447,40 +437,38 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 
 ---
 
-***TODO: Integrate***
+| 1 2 2 2
 
-## Optimize the outer container
+## Time to think
 
-After this work, can you evaluate which is the optimal shape to store the maximum amount of rice with minimal cardboard material without loss of space in between the cartons?
+After this work, can you evaluate which is the **optimal shape to store the maximum amount of rice with minimal cardboard material** without loss of space in between the cartons?
 
 -
 
-<img src="https://cdn.pixabay.com/photo/2012/04/03/14/50/box-25203_960_720.png" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Multiple_dairy_cartons_%28226051%29.jpg/1920px-Multiple_dairy_cartons_%28226051%29.jpg" />
 
 ---
 
 | section: Animal packaging
-
-***TODO layout***
+| 1 1 1 1 1
+| 2 2 3 3 3
+| rows: auto 1fr
 
 ## Also animals package their goods
 
-Find out how honeycombs are built and why bees choose hexagons and not other regular polygons. Watch the following video:
+-
+
+Find out how honeycombs are built and why bees choose hexagons and not other regular polygons. 
+
+1. Watch the video
+
+2. Verify that the hexagon has the maximum area (= bigger beehive cell) among the stackable polygons with same perimeter.
+
+3. Verify that the hexagon has the minimum perimeter (= min amount of vax, the packging!) among the stackable polygons with same area.
 
 -
 
 <f-video src="https://www.youtube.com/watch?v=QEzlsjAqADA" />
-
-
----
-
-| section: Bees and packaging
-
-## Of Bees and Packages
-
-1. Verify that the hexagon has the maximum area (= bigger beehive cell) among the stackable polygons with same perimeter.
-
-2. Verify that the hexagon has the minimum perimeter (= min amount of vax, the packging!) among the stackable polygons with same area.
 
 ---
 
@@ -488,6 +476,8 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 | padding: 0
 
 <section>
+
+<caption>Discuss</caption>
 
 ## Natural marketing in packaging 
 
@@ -529,7 +519,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 3. What if you have to store several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
 
-**Remember:** You have learned how to optimize your packaging to reduce costs and waste, apply your knowledge to this problem
+  **Remember:** You have learned how to optimize your packaging to reduce costs and waste, apply your knowledge to this problem
 
 -
 
@@ -563,15 +553,34 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 ---
 
 | section: Wrapping up
-| 1 1 1 2 2
+| 1 1 1 1 5 5 5
+| 2 2 3 3 5 5 5
+| 4 4 4 4 5 5 5
 
 ## Wrapping up
+
+-
 
 #### Related DesignSTEM projects
 
 <a href="../waste">Waste is a Design Mistake</a> explores the material and packaging optimization in 3D.
 
 <a href="../patterns">2D/3D Patterns</a> allows to play around with 2D pattern compositions.
+
+-
+
+#### Understanding regular shapes
+
+[Concept of regular polygons (particular attention to the hexagon) and their main characteristics](https://www.mathsisfun.com/geometry/interior-angles-polygons.html)
+
+[Advanced concepts of regular polygons and measures](http://mathworld.wolfram.com/RegularPolygon.html
+)
+
+[How to build a regular polygon](https://www.geogebra.org/m/WCFMxSce)
+
+[Circumcircle of a polygon](https://www.mathopenref.com/polygoncircumcircle.html)
+
+-
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
