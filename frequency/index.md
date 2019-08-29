@@ -1171,13 +1171,16 @@ How can frequency be interpreted in other visual ways?*
 
 # Final project
 
-As a final task, you will prepare an analog animation using rotational movement. You can visualize abstract morphing or use a more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve a visually attractive outcome. 
+As a final task, you will record an analog animation using rotational movement. You can visualize abstract morphing or use a more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve a visually attractive outcome. 
+</p>
+<br>
 
-#### Answer the questions
-
-1. What constraints did you experience during the process?
-
-2. Which variable (e.g. frame rate, speed of the rotating device, spokes) was the most critical part in your animation?
+<f-icon-heading icon="activity" >Show & Discuss</f-icon-heading> 
+1. Present your recorded animation to the class. 
+<br></p>
+2. What constraints did you experience during the process?
+<br></p>
+3. Which variable (e.g. frame rate, speed of the rotating device, spokes) was the most critical part in your animation?
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
