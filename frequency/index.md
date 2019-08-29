@@ -32,7 +32,7 @@
 
 # <big>Frequency<br>& Motion</big>
 
-><small>Most of the information about our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience *visual anomalies* such as *wheels rolling opposite direction* or *moving elements on a still picture*. **Why this is happening?**</small>
+><small>*Most of the information about our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience visual anomalies such as wheels rolling opposite direction or moving elements on a still picture.* **Why this is happening?**</small>
 
 <br>
 <p/>
@@ -301,7 +301,7 @@ As you might have noticed with your drawings in the correct order, to have a smo
 
 -
 
-><small>Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and can be expressed as [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.</small>
+><f-fact-icon size="small" /><small> *Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and can be expressed as [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.*</small>
 
 -
 
@@ -520,7 +520,7 @@ You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Strob
 
 <br>
 
-><f-fact-icon size="small" /><small> In other words, the movie clip is just a frequent series of pictures (frames) played very quickly (movies usually have 24 fps) and the **wheels were rotating quickly enough not to be in sync in every frame**; this produces a natural visual impression of rotating wheel.</small> 
+><f-fact-icon size="small" /><small> *In other words, the movie clip is just a frequent series of pictures (frames) played very quickly (movies usually have 24 fps) and the **wheels were rotating quickly enough not to be in sync in every frame**; this produces a natural visual impression of rotating wheel.*</small> 
 
 -
 <div style= "width:81%">
@@ -907,8 +907,11 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 # Make a spinning animation II
 
+<div style="width: 63%">
 
-><f-fact-icon size="small" /> When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless animation.
+><f-fact-icon size="small" /><small> *When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless animation.*</small>
+
+</div>
 
 -
 
@@ -1152,8 +1155,9 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 
 <p/>
 
-><f-icon-heading icon="activity" size="small">Discuss</f-icon-heading>*What are you findings regarding different shapes of waves? <br>
-How can frequency be interpreted in other visual ways?* 
+<f-icon-heading icon="activity">Discuss</f-icon-heading>
+1. What are you findings regarding different shapes of waves? <br>
+2. How can frequency be interpreted in other visual ways? 
 
 <br>
 <p/>
