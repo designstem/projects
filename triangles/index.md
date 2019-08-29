@@ -42,8 +42,8 @@
 
 -
 
-<div style="position:absolute; top:0; right:0; width:70vw; height:100vh; overflow:hidden;">
-<div style="position:absolute; top:-60vh; right:-40vw; width:130vw; height:160vh; overflow:hidden;">
+<div style="position:absolute; top:0; right:0; width:100vw; height:100vh; overflow:hidden;">
+<div style="position:absolute; top:-60vmin; right:-70vmin; width:230vmin; height:230vmin; overflow:hidden;">
 
 <f-scene3 style="width:100%; height:100%; opacity:0.75" class="fp-hedron crisp" isometric static>
   <!-- <f-rotation3 duration="60000"> -->
@@ -86,8 +86,8 @@
 &nbsp;
 
 1. ~Design a nesting box for a bird.~
-2. ~The design should be based on a <f-sidebar title="polyhedral shape" src="./math-polyhedra.md" style="--sidebar-width: 50vw" overlay />~
-3. ~The material should have some thickness (wood, etc).~
+2. ~The design should be based on a <var><f-sidebar title="polyhedral shape" src="./math-polyhedra.md" style="--sidebar-width: 50vw" overlay /></var>~
+3. ~The material should have some <var>thickness</var> (wood, etc).~
 
 -
 
@@ -302,13 +302,13 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ## 1.
 
-~**simplify the polyhedral object** into more basic geometrical objects, such as **polygons**, **triangles** and **pyramids**~
+~**simplify the polyhedral object** into more basic geometrical objects, such as <var>polygons</var>, <var>triangles</var> and <var>pyramids</var>~
 
 -
 
 ## 2.
 
-~**use geometry** to calculate correct **dimensions and angles** of these “building blocks”~
+~use <var>geometry</var> to calculate correct <var>dimensions</var> and <var>angles</var> of these “building blocks”~
 
 -
 
@@ -938,21 +938,19 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 | rows: auto
-| cols: 50vw auto
+| cols: 3fr 2fr
 | 1 1
 | 2 3
-| 4 4 
+| 4 3 
 
 
 ## Simplification of polyhedron
 
 -
 
-<blockquote style="background: none;">
 
-  ~We know now, that the **sides of a polyhedron are made of polygons**.~ 
 
-</blockquote>
+> ~We know now, that the **sides of a polyhedron are made of polygons**.~ 
 
 - ~The first one, *Icosahedron*, had **triangular** faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" style="--sidebar-width: 60vw" overlay />, to make the calculations.~ 
 
