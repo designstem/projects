@@ -25,11 +25,21 @@
 | 2 3 3
 | rows: auto 1fr
 
-## Introduction
+## Let's start
 
 -
 
-***TODO: Content*** 
+Look at the [Philips hue](https://www2.meethue.com/en-us) commercial in the right. Dicuss the following topics:
+
+<span class="bullet">?</span> What problem the product solves?
+  
+<span class="bullet">?</span> How it affects the lives of its users?
+
+<span class="bullet">?</span> How does it work? What it can do? How it reacts to user input?
+
+<span class="bullet">?</span> What electric and software components it might have?
+
+All these questions are the core of <var>design engineering</var>. Let's start exploring how it works.
 
 -
 

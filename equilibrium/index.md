@@ -1,4 +1,3 @@
-| chapter: Equilibrium vs Equilibrium
 | section: Start
 | background: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christo_Floating_Piers_6497.jpg/2560px-Christo_Floating_Piers_6497.jpg
 | tint: 0
@@ -59,7 +58,7 @@ Plastic is a poison for our environment
 
 <a href="https://news.nationalgeographic.com/2017/04/wax-worms-eat-plastic-polyethylene-trash-pollution-cleanup/" target="_blank">Worms eating plastic</a>
 
-<a href="https://www.explainthatstuff.com/bioplastics.html" target="_blank">Bioplastics and biodegradable plastics</a>
+<a href="https://www.explainthatstuff.com/bioplastics.html" target="_blank">Bioplastics and biodegradable plastics</a> (see the picture)
 
 ### Discuss
 
@@ -70,6 +69,12 @@ Can you find any other good news about plastic and environment?
 -
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BiodegradablePlasticUtensils1.jpg/1024px-BiodegradablePlasticUtensils1.jpg" />
+
+<f-notes title="Credits">
+
+https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
+
+</notes>
 
 ---
 
@@ -134,6 +139,12 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bottle_boat_racers_paddle_their_way_to_victory_150612-F-CH060-061.jpg/1024px-Bottle_boat_racers_paddle_their_way_to_victory_150612-F-CH060-061.jpg" />
 
+<f-notes title="Credits">
+
+https://commons.wikimedia.org/wiki/File:Bottle_boat_racers_paddle_their_way_to_victory_150612-F-CH060-061.jpg
+
+</f-notes>
+
 ---
 
 | section: Does your boat float?
@@ -186,12 +197,6 @@ Compare the total mass of water that sink the boat to the mass of water that fil
 2. Does it havea an environmental purpose?
 
 3. Can it float when stressed with more weight? Stressed with movements? Stressed with distortions of original shape?
-
-#### Remember:
-
-- Earth pollution
-
-- raising of sea level
 
 -
 

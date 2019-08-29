@@ -37,7 +37,7 @@
 <br>
 <p/>
 
-<big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and <a href="#">let's go!</a></big>
+<big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and <f-link to="second">let's go!</f-link></big>
 
 </div>
 
@@ -45,7 +45,7 @@
 
 <div style="position: relative">
 
-<f-next-button title="Start" />
+<!-- <f-next-button title="Start" /> -->
 
 </div>
 
@@ -67,7 +67,7 @@ This lesson is divided into three main sections:
 
 
 ---
-
+| id: second
 | 4 1 6
 | 3 1 8
 | 5 2 7
@@ -241,16 +241,16 @@ You will find 6 template PDFs from the .zip file. In this exercise, you will nee
 
 -
 
-<span class="bullet">1</span> First you need a paper template
+1. First you need a paper template
 
-<a href="./files/plainCircle.pdf" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
+	<a href="./files/plainCircle.pdf" class="tertiary"><f-arrow-icon rotation="90" />Download PDF template</a>
 
-<span class="bullet">2</span> Use scissors to cut out paper circles and draw on it anything you would like to see spinning on a turntable. 
+2.  Use scissors to cut out paper circles and draw on it anything you would like to see spinning on a turntable. 
 
-<span class="bullet">3</span> Put the paper circle on the turntable and start spinning.
+3. Put the paper circle on the turntable and start spinning.
 
-<span class="bullet">4</span> Draw different variations to find the most visually appealing and interesting combination of movement.
-
+4. Draw different variations to find the most visually appealing and interesting combination of movement.
+<br>
 <f-next-button />
 
 -
@@ -301,7 +301,7 @@ As you might have noticed with your drawings in the correct order, to have a smo
 
 -
 
-><f-fact-icon size="small" /><small> *Both variables can be described as [frequency](https://en.wikipedia.org/wiki/Frequency) and can be expressed as [sine waves](https://en.wikipedia.org/wiki/Sine_wave). Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.*</small>
+><f-fact-icon size="small" /><small> *Both variables can be described as <var>[frequency](https://en.wikipedia.org/wiki/Frequency)</var> and can be expressed as <var>[sine waves](https://en.wikipedia.org/wiki/Sine_wave)</var>. Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.*</small>
 
 -
 
@@ -516,7 +516,7 @@ The most common way to experience noticeable visual distortion<br>caused by freq
 
 -
 
-You just experienced a [stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect) occurring during the movie clip. It is visible because the recording has slower [frame rate](https://en.wikipedia.org/wiki/Frame_rate) than the [rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute) the object had in a given timeframe.
+You just experienced a <var>[stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect)</var> occurring during the movie clip. It is visible because the recording has slower <var>[frame rate](https://en.wikipedia.org/wiki/Frame_rate)</var> than the <var>[rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute)</var> the object had in a given timeframe.
 
 <br>
 
@@ -815,7 +815,7 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
 
 You have just completed all the steps required to experience visual distortion virtually on your screen. The same phenomenon occurred in the movie clip with wagon wheels. 
 
-><f-fact-icon size="small" /><small> To find visually interesting morphs, play with the *rotational speed* and the *number of elements* around the circle. <br />Remember, capturing animation with a camera will add a new variable to the equation – ***the frame rate***.</small>
+><f-fact-icon size="small" /><small> To find visually interesting morphs, play with the *rotational speed* and the *number of elements* around the circle. <br />Remember, capturing animation with a camera will add a new variable to the equation – the <var>frame rate</var>.</small>
 
 <p0>
 
@@ -910,25 +910,25 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 <div style="width: 63%">
 
-><f-fact-icon size="small" /><small> *When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless animation.*</small>
+><f-fact-icon size="small" /><small> *When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless <var>animation.</var>*</small>
 
 </div>
 
 -
 
-<span class="bullet">1</span> First you need paper templates with spokes.
+1. First you need paper templates with spokes.
 
-<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download set of PDF templates (.zip file)</a>
+	<a href="./files/frequency_templates.zip" class="tertiary"><f-arrow-icon rotation="90" />Download set of PDF templates (.zip file)</a>
 
-<span class="bullet">2</span> Draw in between the spokes.
+2. Draw in between the spokes.
 
-<span class="bullet">3</span> Rotate the paper on the turntable.
+3. Rotate the paper on the turntable.
 
-<span class="bullet">4</span> Experiment with different turntable speeds until the lines (strokes) stop.
+4. Experiment with different turntable speeds until the lines (strokes) stop.
 
-<span class="bullet">4</span> Observe the rotation on your smartphone / tablet / computer and adjust the frame rate:
+5. Observe the rotation on your smartphone / tablet / computer and adjust the frame rate:
 
-<a class="tertiary" href="../frequency_camera" target="_blank">Open framerate camera app</a>
+	<a class="tertiary" href="../frequency_camera" target="_blank">Open framerate camera app</a>
 
 <br>
 <f-next-button />
@@ -937,6 +937,12 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 <f-scene width="400" height="400">
   <f-rotation>
+  
+  
+  
+  
+  
+  
   <f-circle r="1.9" />
   <f-arc
     v-for="r in range(0.2,1.8,1.8 / 18)"
@@ -985,7 +991,7 @@ On a sinusoidal wave time lapses from left to right on the horizontal axis. The 
 
 # Frequency as a wave
 
-After exploring spinning frequency and frame rate, let's define frequency as form of *wave*. The most common waveform might be the <a target="_blank" href="https://pudding.cool/2018/02/waveforms/">soundwave <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> but it can also represent <a href="../colorblindness">color <f-arrow-icon rotation="-45" style="--icon-stroke: var(--gray)" /></a> or movement.
+After exploring spinning frequency and frame rate, let's define frequency as form of <var>wave</var>. The most common waveform might be the <var><f-link to="https://pudding.cool/2018/02/waveforms/">soundwave</f-link></var> but it can also represent <var><a href="../colorblindness">color</a></var> or movement.
 
 -
 

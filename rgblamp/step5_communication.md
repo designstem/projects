@@ -32,7 +32,17 @@ To complete your project, communicate your results to others in a final report a
 
 -
 
-***TODO: Rewrite*** The activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.
+Remember [Philips hue](https://www2.meethue.com/en-us) commercial? Watch it again but not notice how the product is **communicted**.
+
+<span class="bullet">?</span> Who are promoting the product?
+  
+<span class="bullet">?</span> How the music is used?
+
+<span class="bullet">?</span> How often you see the actual product and the app controlling it?
+
+<span class="bullet">?</span> And most important: **how does it make you feel**?
+
+All these questions are the core of <var>marketing</var>, the art of selling you not just a product but also a feeling.
 
 -
 

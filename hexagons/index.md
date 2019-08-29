@@ -1,5 +1,8 @@
 | chapter: Of Bees and Packages
 | section: Start
+| 1 1 1 2 2
+
+***TODO*** Content
 
 
 ***TODO*** layout
@@ -38,7 +41,10 @@ Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
 
 1. Packages evolution is strongly related to human history. Watch the video overview.
 
-  <f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
+  <details>
+    <summary>Watch the video overview</summary>
+    <f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
+  </details>
 
 2. Look for packages around you and find differences between them
 
@@ -120,6 +126,8 @@ Nature has always evolved the best packaging for its products.
 | 1 1 2
 
 ## Exercise
+
+***TODO layout***
 
 Bring/take a milk or juice carton (square shape). 
 
@@ -211,6 +219,8 @@ Bring/take a milk or juice carton (square shape).
 | 2 2 3 3
 | 4 4 4 4
 | rows: auto 1fr 1fr auto
+
+***TODO format***
 
 ## Drawing polygons with fixed perimeter
 
@@ -431,6 +441,8 @@ After this work, can you evaluate which is the optimal shape to store the maximu
 
 | section: Animal packaging
 
+***TODO layout***
+
 ## Also animals package their goods
 
 Find out how honeycombs are built and why bees choose hexagons and not other regular polygons. Watch the following video:
@@ -531,6 +543,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 ---
 
 | section: Wrapping up
+| 1 1 1 2 2
 
 ## Wrapping up
 
