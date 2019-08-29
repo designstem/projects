@@ -18,6 +18,18 @@
         font-weight: bold;
         margin: calc(var(--base) * -0.25) var(--base) 0 0;
       }
+      details {
+        border-left: 3px solid var(--transparent);
+      }
+      details[open] {
+        border-left: 3px solid var(--emphasis);
+      }
+      summary {
+        cursor: pointer;
+      }
+      details[open] summary {
+        margin-bottom: var(--base);
+      }
     </style>
   </head>
   <body>

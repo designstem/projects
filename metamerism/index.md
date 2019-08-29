@@ -1,5 +1,8 @@
 | chapter: Preface
 | section: Getting started
+| 1 3
+| 2 3
+| rows: 1fr auto
 
 # <big><big>Metamerism</big></big>
 
@@ -11,20 +14,9 @@
 
 <br><br>
 
-<f-inline>
-  <div><f-clock-icon duration2="45" /></div>
-  <p>Time: 45 min</p>
-</f-inline>
+-
 
-<f-inline>
-  <div><f-people-icon /></div>
-  <p>Individual work,  2-5 people groups</p>
-</f-inline>
-
-<f-inline>
-  <div><f-tools-icon /></div>
-  <p>Equipment: VR headset, computer or smartphone</p>
-</f-inline>
+🥽 For optimal experience please use a VR headset
 
 -
 
@@ -63,8 +55,9 @@ The learning scenario may be used to make students understand that different sou
 
 -
 
-Which colors does this dress have?
-<small><small><small>Original photo posted on swiked.tumblr.com</small></small></small>
+#### Which colors does this dress have?
+
+<small>Original photo posted on https://swiked.tumblr.com</small>
 
 ---
 
@@ -75,8 +68,6 @@ Which colors does this dress have?
 | 2 3
 | chapter: VR-experiments
 | section: Experiment 1 - The dress in VR
-
-<f-activity-icon />
 
 ## Experiment 1
 
@@ -182,7 +173,7 @@ Do whatever you think suits your situation best and be creative!
 | 2 3
 | section: Experiment 2 - Colored lighting
 
-## <f-activity-icon />Experiment 2
+## Experiment 2
 
 -
 
@@ -221,21 +212,27 @@ possible) and enter the second experiment.
 | chapter: Conclusion
 | section: Discussion
 
-## <f-fact-icon />Discuss
+## Discuss
 
 -
 
-<span class="bullet">1</span> Explain the connection between lighting and the way we see colors.
+### 1.
+
+Explain the connection between lighting and the way we see colors.
 
 Light influences our perception of colors. This is called _metamerism_
 
 -
 
-<span class="bullet">2</span>When does lighting affect colors? Find examples (work, hobby, everyday life
+### 2.
+
+When does lighting affect colors? Find examples (work, hobby, everyday life
 
 -
 
-<span class="bullet">3</span>Find solutions to your example of color change. Present them to the others!
+### 3. 
+
+Find solutions to your example of color change. Present them to the others!
 
 -
 
