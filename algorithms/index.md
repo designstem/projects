@@ -254,7 +254,10 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 ##### Folding a t-shirt
  
-![T-shirt folding](./images/shirt.gif "T-shirt folding") 
+<!-- ![T-shirt folding](./images/shirt.gif "T-shirt folding")  -->
+
+<f-image src="./images/shirt.gif" style="--image-size: cover; --image-position:center; --image-height:51.5vh;" />
+
 <!-- <f-image src="./images/everyday-tshirt.jpg" style="background-size: cover; background-position:50% 50%; --image-min-height: 30vh;" /> -->
  
 <small>*There are more than one methods to fold a t-shirt. Every method is a "different algorithm" of t-shirt folding.*</small>
@@ -263,9 +266,9 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 ##### Building a brick wall
  
-![Brick wall](./images/everyday-wall_2.jpg "Brick wall") 
+  <!-- ![Brick wall](./images/everyday-wall_2.jpg "Brick wall")  -->
 
-<!-- <f-image src="./images/everyday-wall_2.jpg" style="background-size: contain; background-position:50% 50%;" /> -->
+<f-image src="./images/everyday-wall_2.jpg" style="--image-size: cover; --image-position:center; --image-height:51.5vh;" />
  
 <small>*Building a stable brick wall is based on an algorithm too: you have to put the bricks so that every other row of bricks is shifted by half compared to previous one.*</small>
 
