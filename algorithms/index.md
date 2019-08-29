@@ -1098,57 +1098,77 @@ Try to create a different algorithm from the one we started with. Experiment wit
 | section: What next?
 | padding: 0
 | rows: auto
-
-TODO 3 columns
-
+| cols: 2fr 2fr 1fr
+| 1 1 5
+| 2 3 5
+| 4 3 5
+<!-- <section> -->
 
 <section>
 
   ## What to do next?
+</section>
+
+-
+
+<div style="padding:var(--content-padding); padding-right:0; padding-top:0;">
+
   
-  ##### Related DesignSTEM projects:
   
-  <a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a>
-  <small>allows to play around with 2D pattern compositions.</small>
+  #### Related DesignSTEM projects:
+
+  <br>
   
-  &nbsp;
+  <a href="../patterns">2D/3D patterns</a> allows to play around with 2D pattern compositions.
+
+  <a href="../frequency">Frequency and Motion</a> From praxiscope to cinema to GIFs: learn the science behind the moving image.
+
+</div>
   
-  ##### Other materials:
+-
   
-  BBC Ideas video: <a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a>
+<div style="padding:var(--content-padding); padding-left:0; padding-right:0; padding-top:0;">
+
+  #### Other materials:
+
+  <br>
+  
+  <a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a> BBC Ideas video
   
   <a href="https://algorithms.design/" target="_blank">How Artificial Intelligence is Changing Design</a>
   
   <a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Khan Academy Algorithms course</a>
   
-  <a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">Artur Neufeld: About creativity, algorithms and the future of graphic design</a>
+  <a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">Artur Neufeld:</a> About creativity, algorithms and the future of graphic design
   
-  Matt DesLauriers, an artist and freelance creative coder: 
-  <a href="https://www.youtube.com/watch?v=8Uo6zFwSO78" target="_blank">Talk at FITC</a> | <a href="https://mattdesl.svbtle.com/">Blog</a>  
+  <a href="https://www.youtube.com/watch?v=8Uo6zFwSO78" target="_blank">Talk at FITC</a> and <a href="https://mattdesl.svbtle.com/">Blog</a> of Matt DesLauriers, an artist and freelance creative coder
   
   <a href="https://generated.space/" target="_blank">Generated Spaces</a> by Kjetil Golid
   
-  <a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. And a <a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with him.
+  <a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. 
+  <a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with Tim Holman.
   
-  Plotter art <a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a>
+  <a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a> - plotter art.
+  
+  <a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a> - digital art blog
+  
+  <a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a> - a Chrome experiment
   
   <a href="https://www.openprocessing.org/browse/#">OpenProcessing</a> 
-  
-  <a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a>
-  
-  <a href="http://weavesilk.com/" target="_blank">Weave Silk</a> online tool
-  
-  <a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a>
-  
+
   <a href="https://www.derivative.ca/" target="_blank">Touch Designer</a>
-  
-  &nbsp;
-  
+
+</div>
+<!-- </section> -->
+
+-
+
+<section>
   <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 </section>
 
 -
 
-<div style="position:sticky; top:0; height:100vh;">
-  <f-image src="./images/start.jpg" style="--image-height:100%; --image-position:90% center" />
+<div style="position:sticky; top:0; height:100vh; ">
+  <f-image src="./images/start.jpg" style="--image-height:100%; --image-position:66% center" />
 </div>

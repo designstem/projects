@@ -45,13 +45,15 @@
 <div style="position:absolute; top:0; right:0; width:70vw; height:100vh; overflow:hidden;">
 <div style="position:absolute; top:-60vh; right:-40vw; width:130vw; height:160vh; overflow:hidden;">
 
-<f-scene3 style="width:100%; height:100%; opacity:0.2" class="fp-hedron crisp" isometric static>
+<f-scene3 style="width:100%; height:100%; opacity:0.75" class="fp-hedron crisp" isometric static>
   <!-- <f-rotation3 duration="60000"> -->
   <f-polyhedron3
       hedron="Icosahedron"
       position="0 0 0"
       rotation="0 10 20"
       scale="1"
+      :shading="false"
+      :fill="color('blue')"
     />
     <!-- </f-rotation3> -->
 </f-scene3>
@@ -154,23 +156,22 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | cols: 40% auto
 
 
-<h3>🙋‍<sup><sup>💬</sup></sup><span style="font-family:var(--font-serif); font-weight:400;font-style:italic;font-size:70%;">Do these birds absolutely HAVE TO live inside a polyhedron?</span></h3>
+<div class="center-vertical">
+
+  <h3>🙋‍<sup><sup>💬</sup></sup><span style="font-family:var(--font-serif); font-weight:400;font-style:italic;font-size:70%;">Do these birds absolutely HAVE TO live inside a polyhedron?</span></h3>
+
+</div>
 
 -
 
 #### ~No, not really...~
-
-<!-- A nesting box, as such, doesn't have to be a polyhedron, there are other options too.  -->
-
 ### ...so why are we making one?
 
 
 <blockquote style="background: none;">
-  <section>
 
   ~Let's think of our nesting box as a **small-scale model to solve much bigger problems**.👉~
-  
-  </section>
+
 </blockquote>
 
 ##### &nbsp;
@@ -196,14 +197,18 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 | chapter: Key steps
 | section: Key steps
-| rows: auto auto auto
+| rows: 1fr 1fr 1fr
 | 1 1 1 1 1
 | 2 3 4 5 6
 | 7 7 7 7 7
 
-## Key steps
+<div class="center-vertical">
 
-~Design a nesting house based on a polyhedral shape.~
+  ## Key steps
+  
+  ~Design a nesting house based on a polyhedral shape.~
+
+</div>
 
 -
 
@@ -285,9 +290,13 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | 4 4
 | rows: auto 
 
-## Geometry behind the nesting box
+<div class="center-vertical">
 
-~For designing and building a solid polyhedral object you have to:~
+  ## Geometry behind the nesting box
+  
+  ~For designing and building a solid polyhedral object you have to:~
+
+</div>
 
 -
 
@@ -316,7 +325,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 | section: Simplyfying the polyhedra
 | height: 100vh
-| rows: auto auto auto
+| rows: auto 1fr auto
 | 1 1 1
 | 2 3 4
 | 5 5 5
@@ -325,12 +334,14 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-<f-scene3 isometric class="fullWidthScene crisp" static>
-  <f-polyhedron3 hedron="Cube" rotation="15 10 0" position="-0.7 0.7 -1" scale="1" :fill="color('yellow')" :shading="true" />
-  <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" position="1 1 0" scale="0.8" :fill="color('blue')" :shading="true" />
-  <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="0.8" :fill="color('green')" :shading="true" />
-  <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" position="1 -1 1" scale="1" :fill="color('yellow')" :shading="true" />
-  <f-polyhedron3 hedron="Tetrahedron" rotation="0 10 20" position="-1 -0.8 1" scale="1.2" :fill="color('orange')" :shading="true" />
+<f-scene3 isometric responsive class="crisp" static>
+  <f-group3 scale="0.8">
+    <f-polyhedron3 hedron="Cube" rotation="15 10 0" position="-0.7 0.7 -1" scale="1" :fill="color('yellow')" :shading="true" />
+    <f-polyhedron3 hedron="Octahedron" rotation="0 20 20" position="1 1 0" scale="0.8" :fill="color('blue')" :shading="true" />
+    <f-polyhedron3 hedron="Icosahedron" rotation="0 10 20" scale="0.8" :fill="color('green')" :shading="true" />
+    <f-polyhedron3 hedron="Dodecahedron" rotation="0 10 20" position="1 -1 1" scale="1" :fill="color('yellow')" :shading="true" />
+    <f-polyhedron3 hedron="Tetrahedron" rotation="0 10 20" position="-1 -0.8 1" scale="1.2" :fill="color('orange')" :shading="true" />
+  </f-group3>
   
 </f-scene3>
 
@@ -466,11 +477,8 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-<blockquote style="background:none;">
+> ~**Triangle is the basic element** that polygons and polyhedra are made of.~
 
-  ~**Triangle is the basic element** that polygons and polyhedra are made of.~
-  
-</blockquote>
 
 ~So let’s see, what type of triangles exist and what kind of relations exist between triangle’s sides and angles, that we can use in our project.~
 
@@ -478,7 +486,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 <small>👇 *You can drag the corners of the triangle*</small>
 
-<f-scene responsive class="fullWidthScene" v-slot="{ mouse }" grid>
+<f-scene responsive v-slot="{ mouse }" grid style="max-width:600px;">
   <f-drag
     :mouse="mouse"
     points="-1.5 -1.2, 1.5 -1.2, 0 1.42"
@@ -501,7 +509,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-<f-next-button title="Next: Geometry of triangles" />
+<div class="center-vertical">
+  <f-next-button title="Next: Geometry of triangles" />
+</div>
 
 ---
 
@@ -515,6 +525,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | 1 1 1
 | 2 3 4
 | 5 5 5
+
 
 ## Geometry of triangles 
 
@@ -627,9 +638,10 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | 5 5 5
 | 6 6 6
 
-## Simplification of polygons <sup>🤔</sup>
 
-~Looking at these polygons below, **how would you simplify these shapes** *(based on what you know for now about triangles)* to calculate angles, sides, circumference, area etc of the polygon?~ 
+## Simplification of polygons 
+
+~🤔 Looking at these polygons below, **how would you simplify these shapes** *(based on what you know for now about triangles)* to calculate angles, sides, circumference, area etc of the polygon?~ 
 
 -
 
@@ -687,6 +699,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | cols: 50vw auto
 | 1 1
 | 2 3
+
 
 ## Simplification of polygons
 
@@ -855,6 +868,8 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | height: 100vh
 | 1 1 1
 | 2 3 4
+| 5 3 4
+
 
 ## Simplification of polyhedron
 
@@ -864,9 +879,6 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 👉 <small>*Click on a polyhedron to get the answer*</small>
 
-&nbsp;
-
-<f-next-button />
 
 -
 
@@ -911,6 +923,10 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
     </f-group3>
 </f-scene3> -->
 
+-
+
+<f-next-button />
+
 ---
 
 
@@ -926,6 +942,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | 1 1
 | 2 3
 | 4 4 
+
 
 ## Simplification of polyhedron
 
