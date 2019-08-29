@@ -1,6 +1,8 @@
 | theme: dark
 | chapter: Zero waste products
 
+***TODO*** image
+
 ## <big>Zero waste products</big>
 
 ---
@@ -165,6 +167,8 @@ https://christienmeindertsma.com/Flax-Chair
 </f-notes>
 
 ---
+
+***TODO*** ERIK credits
 
 <caption>Shape and Countershape</caption>
 

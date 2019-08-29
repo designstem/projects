@@ -40,6 +40,9 @@ https://pixnio.com/still-life/seashells-mollusk-still-life-object-decoration-mac
 
 ---
 
+***TODO*** title
+***TODO*** ERIK credits
+
 | section: Adding strength
 
 <caption>Optimization with folds</caption>
@@ -123,6 +126,8 @@ Take some paper and try different ways of folding to make a strong paper constru
 | chapter: Optimization with sticks and strings
 | section: Tension and compression
 
+***TODO*** layout
+
 ## Optimization with sticks and strings
 
 ### Tension and compression
@@ -167,6 +172,8 @@ https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg
 
 ---
 
+***TODO*** crop
+
 <caption>Optimization with sticks and strings</caption>
 
 Ropes and cables are lightweight, flexible and strong. Perfect for carrying loads!
@@ -187,6 +194,8 @@ Screen capture from a video: https://vimeo.com/wiltel/bodacious2014#t=140s
 </f-notes>
 
 ---
+
+***TODO*** layout
 
 <caption>Optimization with sticks and strings</caption>
 
@@ -212,6 +221,8 @@ https://pxhere.com/en/photo/1230998
 
 | 1 1 2
 
+***TODO*** layout
+
 <caption>Optimization with sticks and strings</caption>
 
 > ...~*Ligament and membrane, muscle and tendon, run between bone and bone...*~
@@ -233,6 +244,8 @@ https://academy.allaboutbirds.org/features/birdanatomy/
 <f-notes>
 
 ---
+
+***TODO*** layout
 
 | section: Exercise: Create a space frame
 
@@ -332,6 +345,8 @@ Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without compu
 | section: Hexagon for energy optimization
 | 1 1 1
 | 2 3 4
+
+***TODO*** layout
 
 <caption>Optimization with cells</caption>
 
@@ -477,6 +492,8 @@ https://pixabay.com/photos/drought-ground-clay-cracks-dry-964339/
 
 ---
 
+***TODO*** layout
+
 <caption>Optimization with cells</caption>
 
 ~Georgy Voronoi was a Russian mathematician. A Voronoi diagram is built out of various polygons. Imagine you’re are in region and you’re looking for the closest hospital. The region is divided in areas (polygons) with nodes. Every node represents a hospital.~
@@ -506,6 +523,8 @@ https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/
 <f-video src="https://www.youtube.com/watch?v=bmaUtG4CbOs" />
 
 ---
+
+***TODO*** layout
 
 <caption>Optimization with cells</caption>
 

@@ -4,7 +4,10 @@
 
 # <big>Mimimal use of material</big>
 
-***ERIK: Can we use Joris photos? Dunno ***
+
+***TODO*** credits?
+
+
 
 ---
 
@@ -13,7 +16,6 @@
 ## Bone Chair by Joris Laarman
 
 Due to innovative digital techniques we can create **customized, smart and more complex forms**. 
-
 Joris Laarman used topology optimization software based on the findings of professor Claus Mattheck to develop **a chair with a bone-like structure**.
 
 -
@@ -187,6 +189,9 @@ Image source: https://pxhere.com/nl/photo/720601
 </f-notes>
 
 ---
+
+***TODO*** layout
+
 
 ## Bones ability to adapt
 

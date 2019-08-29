@@ -4,7 +4,9 @@
 
 <center><div>
 
-# <big>Waste is a<br>design mistake!</big>
+***TODO 2*** rewrite intro 
+
+# <big>Waste is a<br>design mistake</big>
 
 ### Today's environmental challenges,<br>footprint calculator and material properties
 
@@ -20,6 +22,8 @@ Image source: https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
 
 | section: Our planet
 | 1 2 2
+
+***TODO 2*** layout
 
 ## Our planet
 
@@ -57,6 +61,8 @@ explain the core of what he’s saying.
 ---
 
 | section: Calculate your footprint
+
+***TODO 2*** empty 
 
 ##  Your living habits make up your footprint 
 
@@ -105,9 +111,9 @@ What do you think what is most remarkable about this project?
 <f-image src="./images/discussion.jpg" />
 
 
-<f-notes>Image https://www.mibellegroup.com/blog/general/design-thinking/</f-notes>
-
 ---
+
+***TODO*** styling
 
 <f-activity-icon />
 
@@ -207,6 +213,8 @@ http://www.slate.com/blogs/behold/2014/07/08/gregg_segal_photographs_people_with
 </f-notes>
 
 ---
+
+***TODO*** rethink
 
 | section: Next steps
 
