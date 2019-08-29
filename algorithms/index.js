@@ -2,7 +2,7 @@ import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 import * as utils from "./utils.js";
 
-fachwerk({ utils, editor:"hide" });
+fachwerk({ title: 'Algorithms', utils, editor:"hide" });
 
 
 // import {

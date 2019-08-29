@@ -1,6 +1,7 @@
 import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 fachwerk({
+  title: 'RGB lamp',
   theme: "dark",
   style: { "--content-padding":"var(--base10) var(--base4) var(--base4 ) var(--base4)", "--purple": "blue", "--accent": "blue ", "--darkestgray": "black", "--yellow": "yellow" },
   src: [

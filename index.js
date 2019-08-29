@@ -17,6 +17,7 @@ const FImage2 = {
 };
 
 fachwerk({
+  title: 'Scenarios',
   components: { FProjectCard, FTag, FImage2, FCard2 },
   editor: "none",
   type: "document",

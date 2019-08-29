@@ -6,6 +6,7 @@ for (const name in components) {
 }
 
 new Vue({
+  title: 'Pottery',
   el: "#app",
   methods: { ...utils },
   data: { preview: 0, header: 1, advanced: 1 },

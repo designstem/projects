@@ -4,4 +4,4 @@ import Simulator from "../tattoo_simulator/simulator.js";
 import Background from "./background.js";
 import EmojiBg from "./emojibg.js";
 
-fachwerk({ editor: "hide", components: { Simulator, Background, EmojiBg } });
+fachwerk({ title: 'Tattoo', editor: "hide", components: { Simulator, Background, EmojiBg } });

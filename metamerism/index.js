@@ -5,6 +5,7 @@ import Scene2 from "./Scene2.js";
 import intro from "./intro.js";
 
 fachwerk({
+  title: 'Metamerism',
   editor: "hide",
   theme: "dark",
   components: { Scene1, Scene2, intro }

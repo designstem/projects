@@ -16,6 +16,7 @@ import CalculatorDesigner from "./components/CalculatorDesigner.js";
 import Mapper from "./cv-mapper/Mapper.js";
 
 fachwerk({ 
+  title: 'Colorblindness',
   components: { 
         //"ImageCompare" : ImageCompare,
     "ColorblindnessJuxtapose" : ColorblindnessJuxtapose,
