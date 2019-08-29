@@ -7,6 +7,8 @@
 
 # <big>2D and 3D<br />patterns</big>
 
+***TODO*** intro
+
 <f-next-button title="Start" />
 
 <f-notes title="Credits">
@@ -33,8 +35,7 @@ Answers these question and find some inspirational images to stimulate your brai
 
 2. How would you **describe** a pattern?
 
-3. Find at least three **meaningful examples** of patterns from 
-your daily life. Take pictures of them, make sketches, etc.
+3. Find at least three **meaningful examples** of patterns from your daily life. Take pictures of them, make sketches, etc.
 
 4. Find at least three patterns **from other cultures**.
 
@@ -117,6 +118,8 @@ https://hyperglu.tumblr.com/post/149380467308/inspired-by-the-azulejo-tiles-that
 | 2 3 4 5
 
 | rows: auto 1fr
+
+***TODO*** rewrite
 
 <f-inline style="--inline-justify: space-between">
 
@@ -601,6 +604,8 @@ To get more creative you can adjust the blend mode of the elements, creating a w
 
 | section: The fourth dimension
 
+***TODO*** ERIK adds video
+
 <caption>Exercise</caption>
 
 ## The fourth dimension: time
@@ -619,6 +624,8 @@ Another addition to designing patterns could be the fourth dimension: time. This
 ---
 
 | section: Final assignment
+
+***TODO 2*** rethink 
 
 <caption>Exercise</caption>
 
@@ -655,6 +662,8 @@ After having worked with this scenario, your pattern skills have grown. Describe
 | 1 1 2
 
 <section>
+
+***TODO*** rewrite, link to frequency, algorithms, hexagons
 
 ## More fun with patterns
 

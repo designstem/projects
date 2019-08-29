@@ -11,6 +11,8 @@
 
 -
 
+***TODO*** check bg image
+
 # <big>Smart Tattoos</big>
 
 <big>Design a biosensitive tattoo that expresses you life and can also save your life</big>
@@ -20,6 +22,8 @@
 <f-next-button title="Start" />
 
 ---
+
+***TODO*** to teacher notes
 
 ## Learning goals
 
@@ -116,6 +120,8 @@ For example, information about acids and bases.
 | 1 1 1 2 3 3
 
 <section>
+
+***TODO*** layout
 
 ## Acids and bases
 
@@ -457,11 +463,15 @@ by sketching it on a friend 😃, and/or by uploading it to the tattoo-simulator
 
 ---
 
+***TODO*** skin postion:sticky?
+
 <Simulator />
 
 ---
 
 | section: Further activities
+
+***TODO*** naffi
 
 ## Share your ideas
 
@@ -472,6 +482,8 @@ With the assistance of your paper share your ideas about your design and smart t
 **_ERIK: photo maybe_**
 
 ---
+
+***TODO*** integrate with mapping up
 
 ## Continue
 

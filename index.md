@@ -4,6 +4,8 @@
 
 ## &nbsp;
 
+***TODO*** menu, vector logo
+
 # <big><big><big><span style="color: var(--red); letter-spacing: -0.06ch;">Design</span><sup style="letter-spacing: -0.05ch; font-size: 0.5em">STEM</sup></big></big></big>
 
 <big>
