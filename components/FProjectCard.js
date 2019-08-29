@@ -28,21 +28,21 @@ export default {
     :border="statuses[status].border"
     :image="small ? '' : project.image"
   >
-      <h5 style="margin-top: var(--base);">{{ project.title }}</h5>
-      <p style="font-size: calc(var(--base) * 1.75)">{{ project.desc }}</p>
+      <h4 style="margin-top: var(--base);">{{ project.title }}</h4>
+      <p style="font-size: calc(var(--base) * 2)">{{ project.desc }}</p>
       <p />
       <div style="display: flex; flex-wrap: wrap;">
         <f-tag
           v-for="(tag,i) in project.designtags.split(',')"
           :key="'i' + i"
-          style="background: var(--lightyellow)"
+          style="background: var(--gray)"
         >
           {{ tag }}
         </f-tag>
         <f-tag
           v-for="(tag,j) in project.stemtags.split(',')"
           :key="'j' + j"
-          style="background: hsl(203, 77%, 86%)"
+          style="background: var(--lightergray)"
         >
           {{ tag }}
         </f-tag>
