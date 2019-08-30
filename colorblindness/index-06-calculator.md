@@ -209,9 +209,9 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 <br>
 
-1. Check if your color schemes is flawed.
-2. Adjust your color scheme, if necessary, and check again.
-3. Present your design in class and be ready to explain your choices.
+1. ~Check if your color schemes is flawed.~
+2. ~Adjust your color scheme, if necessary, and check again.~
+3. ~Present your design in class and be ready to explain your choices.~
 
 
 -
