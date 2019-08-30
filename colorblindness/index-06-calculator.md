@@ -442,7 +442,7 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 
   <a href="../dyes">Natural dyes</a> Making your own dye is not only fun but also environmental friendly.
   
-  <a href="../waste">Waste is a design mistake</a> Find out how to design environmental friendly with zero waste.
+  <a href="../waste">Waste is a design mistake</a> Explore how to design products with zero waste.
   
 </div>
 
