@@ -418,11 +418,11 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 
 <br>
 
-~*This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you know now, that this problem can be easily fixed.~
+~*This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you are a pro now and know, that this problem can be fixed easily.~
 
 <br>
 
-~**If you are still motivated to learn more, you are welcome tocheck out the other workshops.**~ 😉
+~**If you are still motivated to learn more, you are welcome to check out the other workshops.**~ 😉
 
 
 -
