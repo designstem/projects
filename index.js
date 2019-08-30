@@ -13,12 +13,12 @@ const FImage2 = {
     height: '100%',
     minHeight: '300px'
   }">&nbsp;</div>
-`
+  `
 };
 
 fachwerk({
   title: 'Scenarios',
-  components: { FProjectCard, FTag, FImage2, FCard2 },
+  components: { FProjectCard, FTag, FCard2 },
   editor: "none",
   type: "document",
   //footer: true,

@@ -1,4 +1,7 @@
+import FTeam from "./FTeam.js";
+
 export default {
+  components: { FTeam },
   props: ['project', 'status', 'small'],
   data: () => ({
     statuses: {
@@ -62,8 +65,17 @@ export default {
       <small style="opacity: 0.65">{{ project.facilities }}</small>
       </f-inline>
       -->
-      <f-sidebar style="--sidebar-width: 40vw;" v-if="project.about" :src="'./' + project.scenario + '/about.md'">
-          <button slot="button">About</button>
+      <f-sidebar v-if="project.about" :srcc="'./' + project.scenario + '/about.md'">
+        <button>About</button>
+        <div slot="content" style="padding: var(--base3)">
+          <br />
+          <h3>{{ project.title }}</h3>
+          <p><big>{{ project.desc }}</big></p>
+          <div v-if="project.team">
+            <h4>Team</h4>
+            <f-team :team="project.team.split(',').map(t => t.trim())" />
+          </div>
+        </div>
       </f-sidebar>
   </f-card2>
   </a>
