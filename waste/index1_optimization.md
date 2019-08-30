@@ -43,9 +43,11 @@ https://pixnio.com/still-life/seashells-mollusk-still-life-object-decoration-mac
 ***TODO*** title
 ***TODO*** ERIK credits
 
+---
+
 | section: Adding strength
 
-<caption>Optimization with folds</caption>
+## Adding strenght
 
 So now we have looked at nature and we understand that through folding materials you can **add strength** to them.
 
@@ -54,6 +56,14 @@ By folding the edges of the metal top of the Pallas table Konstantin Grcic added
 -
 
 <img src="./images/pallastable.jpg"  />
+<caption>Optimization with folds</caption>
+
+<f-notes title="Credits">
+
+Pallas, Konstantin Grcic 2003, downloaded from: https://www.classicon.com/en/product/pallas.html
+
+</f-notes>
+
 
 ---
 
