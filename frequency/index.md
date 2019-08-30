@@ -33,16 +33,19 @@
 
 <section>
 
+<br>
+
 <div style="position: relative">
 
-# <big>Frequency<br>& Motion</big>
+# <big>Frequency</big><br><sup><sup><u>and</u></sup></sup><small><big><big><big><big>Motion</big></big></big></big></small>
 
 ><small>*Most of the information about our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience visual anomalies such as wheels rolling opposite direction or moving elements on a still picture.* **Why this is happening?**</small>
 
 <br>
+<br>
 <p/>
 
-<big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and <f-link to="second">let's go!</f-link></big>
+<big>Ready to trick your brain and explore your creativity?<br>Prepare your turntable and <f-link to="second">*let's go!*</f-link></big>
 
 </div>
 
@@ -576,6 +579,7 @@ You just experienced a <var>[stroboscopic effect](https://en.wikipedia.org/wiki/
 <caption>The same wheel animated 10 FPS</caption>
 
 -
+
 **How does it work?** Let’s set up an experiment in the <f-link to="fifth">next slide.</f-link>
 
 ---
