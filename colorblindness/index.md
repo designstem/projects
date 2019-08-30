@@ -281,7 +281,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 | id: cb-analyze
 | rows: auto
 | cols: 2fr 3fr
-| 1 1
+| 1 3
 | 2 3
 
 ## Analyze results
