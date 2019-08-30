@@ -6,7 +6,7 @@
 | tint: 0.85
 | rows: 1fr 1fr 
 | 1
-| 2 
+
 
 
 <div style="padding-top:16vh;">
@@ -19,9 +19,10 @@
 
 </div>
 
--
 
 ~How to design information for people whose colour perception is impaired.~
+
+<br>
 
 <f-next-button title="Let's start" />
 
@@ -34,7 +35,7 @@
 
 #### Aim
 
-The students’ awareness should be raised for the problems people with color vision deficiency have to face in their everyday life. They should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all.
+This workshop aimes to raise the students' awareness for the problems people with color vision deficiency have to face in their everyday life. The students should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all. Further, especially design students should learn how to choose color schemes so that even people with CVD can access information easily.
 
 </f-notes> -->
 
@@ -81,13 +82,13 @@ The students’ awareness should be raised for the problems people with color vi
 
 <div v-if="get('revealX') > 75">
 
-  ~**Did you guess right? If you picked the right tomato, congratulations!**~ 🎉
+  ~**Did you guess right? If you picked the right tomato, congratulations!**~
   
   <f-inline>
   
    # 🤢
   
-  > ~<small>For color deficient people choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.</small>~
+  > ~<small>For color vision deficient people, choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.</small>~
 
   </f-inline>
 
@@ -183,6 +184,8 @@ The students’ awareness should be raised for the problems people with color vi
   ~Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.~
 
   ~**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**~  
+  
+  ~Take at least **five different pictures**. You will need them for the next task.~
   <!-- </div> -->
 
 </section>
@@ -280,7 +283,6 @@ The students’ awareness should be raised for the problems people with color vi
 | cols: 2fr 3fr
 | 1 1
 | 2 3
-| 4 4
 
 ## Analyze results
 
@@ -288,15 +290,17 @@ The students’ awareness should be raised for the problems people with color vi
 
 ~Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:~
 
--
-
 1. ~Find out what the main problem is regarding the color scheme.~
 2. ~Phrase a hypothesis on how this problem could be solved.~
 3. ~Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
 
--
+<br>
 
 <f-next-button />
+
+-
+
+<f-image src="images/cvd_detective.jpg" />
 
 ---
 
