@@ -274,6 +274,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
 <br>
 4. Think of other methods to make information more accessible other than color coding it. What could you do else?
 <br>
+<f-next-button style="margin:var(--base4) 0" />
 
 
 <f-notes>
@@ -306,11 +307,13 @@ Upload your picture into the CVD-simulator and check whether it works.~
 
 > ~Dieter Rams (born 20 May 1932 in Wiesbaden, Hessen) is a German industrial designer and retired academic closely associated with the consumer products company Braun, the furniture company Vitsœ, and the functionalist school of industrial design. His unobtrusive approach and belief in "less but better" design generated a timeless quality in his products and have influenced the design of many companies, including Apple, which also secured Rams worldwide recognition and appreciation. Rams designed the famous calculator BRAUN ET66 in 1987 (which you can see on the right) together with his colleague Dietrich Lubs.~
 
+<br>
  
 1. Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?
 2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion! If possible, also check it in the CVD simulator to strengthen your arguments.
 3. If so, what should he have done differently to improve it?
-
+<br>
+<f-next-button style="margin:var(--base4) 0" />
 
 <f-notes>
   
@@ -352,6 +355,10 @@ https://www.vitsoe.com/gb/about/good-design
 ~**Here are some further questions to think about:**~
 1. In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?
 2. In terms of rods and cones, how would you expect the retina of a nocturnal mammal to be different from that of a diurnal mammal? Can you explain it?
+
+<br>
+
+<f-next-button style="margin:var(--base4) 0" />
 
 
 <!--
