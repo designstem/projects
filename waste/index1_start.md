@@ -5,8 +5,11 @@
 # <big>Mimimal use of material</big>
 
 
-***TODO*** credits?
+<f-notes title="Credits">
 
+Photo courtesy of Joris Laarman Lab, downloaded from: https://www.cooperhewitt.org/2017/05/16/cooper-hewitt-smithsonian-design-museum-to-present-joris-laarman-lab-design-in-the-digital-age/
+
+</f-notes>
 
 
 ---
