@@ -844,9 +844,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-<f-sidebar src="math-polyhedra.md" title="Polyhedra" overlay style="--sidebar-width: 60vw">
-  <a slot="button" class="tertiary" style="padding:var(--base);">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
-</f-sidebar>
+<f-sidebar2 src="math-polyhedra.md" size="wide" overlay>
+  <a class="tertiary" style="padding:var(--base);">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
+</f-sidebar2>
 
 -
 
@@ -980,7 +980,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-<f-next-button title="Next: Is thats all?" />
+<f-next-button title="Next: Is that all?" />
 
 ---
 
@@ -1004,9 +1004,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | gap: 5vw
 | 1 1
 | 2 3
-| 4 4
+| 4 3
 
-~We're almost done, but there's **one more problem**...~
+~We're almost done, but there is **one more problem**...~
 
 -
 
@@ -1014,19 +1014,58 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ~If we'd made a nesting box from paper or some other material that has no (or almost almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
 
-> ~We have to cut the edges of material at **certain angle**, so that they could fit together.~
+~We have to **cut the edges of material at certain angle**, so that they could fit together.~
+
+> ~**The angle between polyhedron sides is called Dihedral angle**~
 
 
-&nbsp;
-
-<f-next-button />
 
 -
 
-<f-scene responsive style="background:var(--white); box-shadow: 0 0 10px 0 hsla(0, 0%, 0%, 0.2); border-radius: var(--base)" >
-  <!-- <f-box width="1" height="4" position="-1 0.5" />
-  <f-box width="4" height="1" position="0.5 -1" />
-  <f-line points="-1.5 -1.5, -0.5 -0.5" /> -->
+
+
+<f-slider set="matThickness" to="3" value="1" title="material thickness" />
+<f-slider set="matAngle" from="0" to="180" :value="90" title="dihedral angle" step="1" />
+
+<f-value set="matOffset" value="0.03" />
+
+<div style="position:relative;">
+  <f-scene responsive style="background:var(--white); box-shadow: 0 0 10px 0 hsla(0, 0%, 0%, 0.2); border-radius: var(--base)" >
+    <f-group>
+      <f-line :points="[ 
+          [0, polary(0, get('matThickness', 1)*0.5)], 
+          [0, polary(0, -get('matThickness', 1)*0.5)], 
+          [
+            polarx( get('matAngle', 90)/2, 4 ), 
+            polary( get('matAngle', 90)/2, 4 ) + polary(0, -get('matThickness', 1)*0.5)
+          ],
+          [
+            polarx( get('matAngle', 90)/2, 4 ), 
+            polary( get('matAngle', 90)/2, 4 ) + polary(0, get('matThickness', 1)*0.5)
+          ]
+        ]" 
+        closed :position="[[ get('matOffset'), 0]]" :fill="color('lightblue')" />
+        <f-line :points="[ 
+          [0, polary(0, get('matThickness', 1)*0.5)], 
+          [0, polary(0, -get('matThickness', 1)*0.5)], 
+          [
+            -polarx( get('matAngle', 90)/2, 4 ), 
+            polary( get('matAngle', 90)/2, 4 ) + polary(0, -get('matThickness', 1)*0.5)
+          ],
+          [
+            -polarx( get('matAngle', 90)/2, 4 ), 
+            polary( get('matAngle', 90)/2, 4 ) + polary(0, get('matThickness', 1)*0.5)
+          ]
+        ]" 
+        closed :position="[[ -get('matOffset'), 0]]" :fill="color('lightblue')" />
+    </f-group>
+  </f-scene>
+  <div style="position:absolute; top:0; left:var(--base2)">
+    cut angle <code>{{ get('matAngle')/2}}</code>
+  </div>
+</div>
+
+<!-- <f-scene responsive style="background:var(--white); box-shadow: 0 0 10px 0 hsla(0, 0%, 0%, 0.2); border-radius: var(--base)" >
   <f-group position="0.5 0.5">
     <f-line points="-1.5 -1.5, -0.5 -0.5" :stroke="color('red')" />
     <f-line points="-1.5 2.5, -1.5 -1.5, -0.5 -0.5, -0.5 2.5" closed :position=" '0 ' + get('matOffset') " />
@@ -1034,77 +1073,56 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
   </f-group>
 </f-scene>
 
-<f-slider set="matOffset" to="0.5" value="0.1" />
+<f-slider set="matOffset" to="0.5" value="0.1" /> -->
 
----
+<!-- {{ realthickness(53.06,4) }}
 
+<f-scene responsive style="background:var(--white); box-shadow: 0 0 10px 0 hsla(0, 0%, 0%, 0.2); border-radius: var(--base)" >
+  <f-group>
+    <f-line :points="[ 
+        [0, polary(0, realthickness(get('matAngle', 90), get('matThickness', 1))*0.5)], 
+        [0, polary(0, -realthickness(get('matAngle', 90), get('matThickness', 1))*0.5)], 
+        [
+          polarx( get('matAngle', 90)/2, 4 ), 
+          polary( get('matAngle', 90)/2, 4 ) + polary(0, realthickness(get('matAngle', 90), get('matThickness', 1))*0.5)
+        ],
+        [
+          polarx( get('matAngle', 90)/2, 4 ), 
+          polary( get('matAngle', 90)/2, 4 ) + polary(0, realthickness(get('matAngle', 90), get('matThickness', 1))*0.5)
+        ]
+      ]" 
+      closed :position="[[ get('matOffset'), 0]]" :fill="color('lightblue')" />
+  </f-group>
+</f-scene> -->
 
 -
 
-<f-slider set="matThickness" to="3" value="1" title="thickness" />
-<f-slider set="matAngle" to="180" value="90" title="angle" />
-
-<f-scene responsive style="background:var(--white); box-shadow: 0 0 10px 0 hsla(0, 0%, 0%, 0.2); border-radius: var(--base)" >
-  <!-- <f-box width="1" height="4" position="-1 0.5" />
-  <f-box width="4" height="1" position="0.5 -1" />
-  <f-line points="-1.5 -1.5, -0.5 -0.5" /> -->
-  <f-group>
-    <f-line :points="[ 
-        [0, polary(0, get('matThickness', 1)*0.5)], 
-        [0, polary(0, -get('matThickness', 1)*0.5)], 
-        [
-          polarx( get('matAngle', 90), 4 ), 
-          polary( get('matAngle', 90), 4 ) + polary(0, -get('matThickness', 1)*0.5)
-        ],
-        [
-          polarx( get('matAngle', 90), 4 ), 
-          polary( get('matAngle', 90), 4 ) + polary(0, get('matThickness', 1)*0.5)
-        ]
-      ]" 
-      closed :position="[[ get('matOffset'), 0]]" :fill="color('lightblue')" />
-      <f-line :points="[ 
-        [0, polary(0, get('matThickness', 1)*0.5)], 
-        [0, polary(0, -get('matThickness', 1)*0.5)], 
-        [
-          -polarx( get('matAngle', 90), 4 ), 
-          polary( get('matAngle', 90), 4 ) + polary(0, -get('matThickness', 1)*0.5)
-        ],
-        [
-          -polarx( get('matAngle', 90), 4 ), 
-          polary( get('matAngle', 90), 4 ) + polary(0, get('matThickness', 1)*0.5)
-        ]
-      ]" 
-      closed :position="[[ get('matOffset'), 0]]" :fill="color('lightblue')" />
-    
-  </f-group>
-</f-scene>
-
-
-
-
-
+<f-next-button />
 
 ---
+
+
+
+
+
+
+
+
 
 
 | section: Dihedral angle
 | background: lightergray
-
-| height: 100vh
 | rows: auto
 | 1 1
 | 2 3
+| 4 3
 
 
 ## Dihedral angle
 
 -
 
-<blockquote style="background: none">
-
-  ~**The angle between polyhedron sides is called Dihedral angle**~
-  
-</blockquote>
+> ~**The angle between polyhedron sides is called Dihedral angle**~
 
 &nbsp;
 
@@ -1114,21 +1132,21 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ~Let's look **inside of a polyhedron**, where we will find...~
 
-## &nbsp;
-
-<f-next-button title="Pyramids" />
-
 -
 
 ##### Dihedral angles of regular polyhedra
 
 <f-table :rows="[
-{ polyhedron: 'Tetrahedron', 'dihedral angle': '70.53°' },
-{ polyhedron: 'Cube', dihedral: '90°' },
-{ polyhedron: 'Octahedron', dihedral: '109.47°' },
-{ polyhedron: 'Dodecahedron', dihedral: '116.57°' },
-{ polyhedron: 'Icosahedron', dihedral: '138.19°' }]"/>
+{ polyhedron: 'Tetrahedron', 'dihedral': '70.53°', 'cut angle': '35.27°' },
+{ polyhedron: 'Cube', dihedral: '90°', 'cut angle': '45°' },
+{ polyhedron: 'Octahedron', dihedral: '109.47°', 'cut angle': '54.74°' },
+{ polyhedron: 'Dodecahedron', dihedral: '116.57°', 'cut angle': '58.29°' },
+{ polyhedron: 'Icosahedron', dihedral: '138.19°', 'cut angle': '69.1°' }]"
+/>
 
+-
+
+<f-next-button title="Pyramids" />
 
 ---
 
@@ -1144,23 +1162,23 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | cols: 50vw auto
 | 1 1
 | 2 3
+| 4 3
 
 ## Why pyramids?
 
 -
 
-~If you imagine of a regular polyhedron, that is made of **solid material** and you want to separate all its sides so, that you end up with **similar congruent pieces**.~
+<div class="center-vertical">
 
-&nbsp;
-
-~To achieve this you ***end up with pyramids***, where:~
-
-- ~the **base** of a pyramid **is for the side of polyhedron** and~
-- ~the **tip** of the pyramid is at the **center point of the polyhedron**~
-
-&nbsp;
-
-<f-next-button />
+  ~If you imagine of a regular polyhedron, that is made of **solid material** and you want to separate all its sides so, that you end up with **similar congruent pieces**.~
+  
+  &nbsp;
+  
+  ~To achieve this you ***end up with pyramids***, where:~
+  
+  - ~the **base** of a pyramid **is for the side of polyhedron** and~
+  - ~the **tip** of the pyramid is at the **center point of the polyhedron**~
+</div>
 
 -
 
@@ -1321,9 +1339,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
     </f-group3>
 </f-scene3>
 
+-
 
-
-
+<f-next-button />
 
 ---
 
@@ -1340,7 +1358,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | rows: auto
 | cols: 40vw auto
 | 1 2 3
-| 1 4 5
+| 6 4 5
 
 
 ## Pyramid
@@ -1361,9 +1379,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
   <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">How to solve the pyramids<f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
-## &nbsp;
-
-<f-next-button />
+&nbsp;
 
 -
 
@@ -1430,6 +1446,10 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
     </f-group3>
 </f-scene3>
 
+-
+
+<f-next-button />
+
 ---
 
 
@@ -1441,7 +1461,8 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | theme: blue
 | chapter: Epilogue
 | section: Wrapping up
-| cols: 2fr 3fr
+| gap: 7vmin
+| cols: 1fr 2fr
 | 1 1
 | 2 3
 
