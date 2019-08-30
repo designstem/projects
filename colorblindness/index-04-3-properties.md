@@ -394,19 +394,26 @@ b) saturated colors have in comparison to desatured colors.~
 
 ~Check below after coming up with your own conclusion.~
 
-<f-sidebar title="Conclusion" overlay style="--sidebar-width:50vw;">
+<f-sidebar title="Conclusion" overlay size="half">
 
-<a slot="button" class="tertiary">Conclusion<f-arrow-icon rotation="-45" /></a>
+<a class="tertiary">Conclusion<f-arrow-icon rotation="-45" /></a>
 
-### Conclusion
+<div slot="content" class="sidebar-content">
+  
+  ### Conclusion
+  
+  ~The average feeling of darker colors is heavy, old, passive, slow, serious, sad, quiet.~
+  ~Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.~
 
-~The average feeling of darker colors is heavy, old, passive, slow, serious, sad, quiet.~
-~Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.~
-~The average effect of saturated colors is loud, bold, open, active, risky and cheerful.~
-~Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.~
-~This is only the average impression - it can vary depending on the color's hue.~ **So only take it as a hint, not a rule.**~
-~Whenever you design with colors, remember that the hue is not the only component influencing the color's effect!~
-~Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
+  ~The average effect of saturated colors is loud, bold, open, active, risky and cheerful.~
+  ~Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.~
+
+  ~This is only the average impression - it can vary depending on the color's hue.~ **So only take it as a hint, not a rule.**~
+  
+  ~Whenever you design with colors, remember that the hue is not the only component influencing the color's effect!~
+  ~Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
+
+</div>
 
 </f-sidebar> 
 

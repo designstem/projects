@@ -245,28 +245,30 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 
 1. ~Read through the text and find out about the different types of color blindness. Michael is red colorblind. What is the medical term for his condition and which colors does he have trouble seeing?~
     <!-- PLEASE NOTE: The two tabs in front of the whole block that is inside of this first list item 1. ensure, that the list is not broken and next block starts with 2. It's a silly hack, but right now it is so. -->
-    <f-sidebar title="Open" overlay style="--sidebar-width:60vw;">
-      <a slot="button" class="tertiary" style="margin-bottom:3vh;">Read about CVD <f-arrow-icon rotation="-45" /></a>
+    <f-sidebar title="Open" overlay size="half">
+      <a class="tertiary" style="margin-bottom:3vh;">Read about CVD <f-arrow-icon rotation="-45" /></a>
       
-      <!-- <summary>Click here to see the text</summary> -->
-      
+      <div slot="content" class="sidebar-content">
+        
       ## Color Vision Deficiency
-
+  
       ~Color Vision Deficiency (CVD) is commonly known as color blindness. It affects approximately 1 in 12 men (8%) and 1 in 200 women in the world.~
-
+  
       ~Complete color blindness, *Achromatopsia*, is very rare (affects approximately 3 in 100 000 people). This means that people only see black, white and shades of grey, because their cones don't function. Only their rods. In addition, they have a decreased visual acuity and are uncomfortable in bright environments. These problems occur, because rods actually are needed for vision during twilight, not during daylight. Further, cones are neccessary for sharp vision, but since they are missing in the macula, people with Achromatopsia don't see sharp. This is genetic defect, which cannot be cured.~
-
+  
       ~There are three types of CVD, depending on the cones that are affected. We differenciate between **Protanopia** (red cones), **Deuteranopia** (green cones) and **Tritanopia** (blue cones).~
-
+  
       ~**Protanopia** and **Deuteranopia** (and their milder versions **Protanomaly** and **Deuteranomaly**) are the more common forms of CVD, with Deuteranomaly being the most common. People with deuteranomaly and protanomaly are collectively known as **red-green color blind**. They have difficulty distinguishing between reds, greens, browns and oranges. They also commonly confuse different types of blue and purple.~
-
+  
       ~Protanopia and Deuteranopia are both caused by x-linked recessive alleles of genes for normal cone functioning. People with protanomaly do have red-sensitive cones but the photosensitive pigment they contain does not function. The same goes for deuteranomaly and green-sensitive cones.~
-
+  
       ~Males are much more likely to be red-green color vision deficient than females because males have the sex chromosomes XY, so have only one X chromosome. Therefore, to be color vision deficient, they need only one copy of the recessive allele for color blindness. In contrast, females have the sex chromosomes XX. Therefore, to be color blind, they would need two copies of the recessive allele, one on each X chromosome.~ 
-
+  
       ~**Tritanopia** and **Tritanomaly** are very rare color vision disturbances in which only the red and the green cone pigments are present, with a total absence of blue retinal receptors for Tritanopia. For Tritanomaly the S-cone is not missing, only malfunctioning. For people with tritanopia and tritanomaly, blue hues appear greenish, yellows and oranges appear pinkish and purple colors appear deep red.~
-
+  
       ~Most people with a form of CVD have a genetic defect. But color blindness can also be caused by brain or retinal damages, e.g. due to accidents which produce swelling of the brain. Sometimes CVD is due to retinal damage caused by diabetes, Vintamin A deficiency or age-related macular degeneration.~
+      </div>
+
     </f-sidebar>
 
 2. ~Work out the genotypes of each individual, using the symbols <f-math inline> X^N </f-math> for an X chromosome with an allele for normal color vision, <f-math inline> X^n </f-math> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision; see diagram on the right.~ <f-arrow-icon />
