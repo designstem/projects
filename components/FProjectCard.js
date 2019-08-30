@@ -54,38 +54,29 @@ export default {
       
       <h4>&nbsp;</h4>
 
-      <!--
-      <f-inline v-if="project.time">
-        <span><f-clock-icon duration2="15" /></span>
-        <small style="opacity: 0.65">{{ project.time }}</small>
-      </f-inline>
-      <f-inline v-if="project.people">
-      <span><f-people-icon /></span>
-        <small style="opacity: 0.65">{{ project.people }}</small>
-      </f-inline>
-      <f-inline v-if="project.people">
-      <span><f-tools-icon /></span>
-      <small style="opacity: 0.65">{{ project.facilities }}</small>
-      </f-inline>
-      -->
       <f-sidebar size="half">
         <button style="position: absolute; left: var(--base2); bottom: var(--base2);">About</button>
         <div slot="content" style="padding: var(--base3)">
           <h2>{{ project.title }}</h2>
-          <p><big>{{ project.desc }}</big></p>
-          <a class="primary" :href="'./' + project.scenario">Go to scenario<f-rightarrow-icon /></a>
-          <p />
+          <f-inline v-if="project.time">
+            <span><f-clock-icon duration2="15" /></span>
+            <p style="opacity: 0.65">{{ project.time }}</p>
+          </f-inline>
+          <f-inline v-if="project.people">
+            <span><f-people-icon /></span>
+            <p style="opacity: 0.65">{{ project.people }}</p>
+          </f-inline>
+          <f-inline v-if="project.people">
+            <span><f-tools-icon /></span>
+            <p style="opacity: 0.65">{{ project.facilities }}</p>
+          </f-inline>
+          <!--p><big>{{ project.desc }}</big></p-->
+          <a class="primary" style="--purple: var(--red); --darkpurple: var(--red);" :href="'./' + project.scenario">Go to scenario<f-rightarrow-icon /></a>
+          <br><br>
           <div v-if="project.team">
-            <!-- <f-fetch :src="'./' + project.scenario + '/about.md'"  v-slot="{ value }">
-              <f-content
-                :content="value"
-                type="document"
-              />
-            </f-fetch> -->
-            <f-embed :src="'./' + project.scenario + '/about.md'" />
-            <h3>Team</h3>
-            <f-team :team="project.team.split(',').map(t => t.trim())" />
-          </div>
+          <f-embed :src="'./' + project.scenario + '/about.md'" />
+          <h3>Team</h3>
+          <f-team :team="project.team.split(',').map(t => t.trim())" />
         </div>
       </f-sidebar>
   </f-card2>
