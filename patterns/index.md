@@ -4,7 +4,7 @@
 | section: Introduction
 
 | background: https://c.pxhere.com/photos/85/e4/photo-365034.jpg!d
-| tint: 0.5
+| tint: 0.65
 | theme: dark
 | 1 2 2
 
@@ -642,17 +642,15 @@ Another addition to designing patterns could be the fourth dimension: time. This
 
 ## Final assignment
 
-#### Key steps
-
 -
 
-#### 1.
+### 1.
 
 Now that you improved your knowledge and skills, find a way to produce your pattern, texture or structure. You can use stamp, stencil, cut out vinyl, 3D printers, laser cutters, AR/VR... Get your skates on!
 
 -
 
-#### 2.
+### 2.
 
 When you think you're done with making your best 2D/3D pattern, find at least two students to get peer reviews. You will need them in the next stage to make improvements to the design.
 
