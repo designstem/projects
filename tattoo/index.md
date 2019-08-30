@@ -483,11 +483,13 @@ by sketching it on a friend 😃, and/or by uploading it to the tattoo-simulator
 
 #### Related DesignSTEM projects
 
-The learning never stops. For example, you can next learn about:
-chemistry of inks by conducting experiments
-Tattoo permanence model by conducting biological experiments
-
 <a href="../colorblindness">Color Vision Deficiency & Accessi­bility</a> contains a lot of interactive material about color and considering human condition.
+
+#### The learning never stops.
+
+For example, you can next learn about chemistry of inks by conducting experiments, or the tattoo permanence model by conducting biological experiments.
+
+<br>
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
