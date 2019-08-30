@@ -1,3 +1,5 @@
+<!-- Start of ./index.md -->
+
 | chapter: Patterns
 | section: Introduction
 
@@ -608,6 +610,7 @@ To get more creative you can adjust the blend mode of the elements, creating a w
 ---
 
 | section: The fourth dimension
+| 1 2 2
 
 <caption>Exercise</caption>
 
@@ -623,6 +626,10 @@ Another addition to designing patterns could be the fourth dimension: time. This
 * What could be the changes to your designs? How do you sense it?
 
 * What would be the purpose for your pattern? Can you explain why?
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=lmIFXIXQQ_E" />
 
 ---
 
@@ -704,3 +711,6 @@ After having worked with this scenario, your pattern skills have grown. Describe
 
 
 
+
+
+<!-- End of ./index.md -->
