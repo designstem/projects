@@ -134,15 +134,11 @@ export default {
 
                 <br>
 
-                <f-link to="https://www.youtube.com/watch?v=6I9tenSb-Zg">Learn about the biology behind tattoo permanence <f-arrow-icon rotation="-45" /></f-link>                </small>
-
-                <br>
-
 
                 <h3><span class="bullet">4</span> Reflect</h3>
                 <p>Do you think your tattoo would work? What is good about it? What do you think you can still improve?</p>
         </div>
-        <div class="cell" style="position: relative">
+        <div class="cell" style="position: sticky; height: 80vh; top: 10vh">
             <Scene :size="size" :bgcolor="'transparent'">
                 <Hand :fill="skincolors[skindex]"/>
                 <SceneLayer :style="{filter: 'blur( ' + blur / 8 + 'px ) opacity( ' + (1 - blur / 150) + ' )'}" v-for="(item, index) in imgs" :index="index" :item="item" :src="item.pic" :type="item.type" />

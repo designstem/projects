@@ -20,7 +20,7 @@
 
 -
 
-<intro style="width: 100%; height: 100%" />
+<intro />
 
 <f-notes>
 
@@ -230,7 +230,7 @@ When does lighting affect colors? Find examples (work, hobby, everyday life
 
 -
 
-### 3. 
+### 3.
 
 Find solutions to your example of color change. Present them to the others!
 
@@ -257,5 +257,4 @@ Find solutions to your example of color change. Present them to the others!
 
 -
 
-
-<intro style="width: 100%; height: 100%" />
+<intro outro />

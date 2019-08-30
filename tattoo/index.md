@@ -1,5 +1,5 @@
 | rows: 1fr 4fr 1fr
-| style: --primary: white
+| style: --primary: var(--white)
 | 1 1
 | 2 4
 | 3 4
@@ -11,7 +11,7 @@
 
 -
 
-***TODO*** check bg image
+**_TODO_** check bg image
 
 # <big>Smart Tattoos</big>
 
@@ -21,9 +21,7 @@
 
 <f-next-button title="Start" />
 
----
-
-***TODO*** to teacher notes
+<f-notes style="--primary: var(--black)">
 
 ## Learning goals
 
@@ -33,7 +31,7 @@
 
 - To learn about concepts in skin biology, indicator chemistry and icon design
 
--
+</f-notes>
 
 ---
 
@@ -121,7 +119,7 @@ For example, information about acids and bases.
 
 <section>
 
-***TODO*** layout
+**_TODO_** layout
 
 ## Acids and bases
 
@@ -415,11 +413,15 @@ Tattoos have always had strong symbolic meaning - **cultural**, to convey some m
 
 What meaning or function would your **smart tattoo** have? Would it be personal, functional or cultural? Does it have to be understood by everyone, at a glance? Or could it be secret and personal, only understood by the bearer?
 
-Tattoos become blurry over time and lose their sharpness. Think about how you should design icons for tattoos to reduce these effects?
+Tattoos become <span style="filter: blur(1px)">**blurry**</span> over time and lose their sharpness. Think about how you should design icons for tattoos to reduce these effects?
+
+> ~learn more about tattoo permanence~ <f-rightarrow-icon />
 
 -
 
-**_ERIK: photo / illustration pls_**
+<f-video src="https://www.youtube.com/watch?v=DMuBif1mJz0" />
+
+<f-video src="https://www.youtube.com/watch?v=6I9tenSb-Zg" />
 
 ---
 
@@ -463,43 +465,17 @@ by sketching it on a friend 😃, and/or by uploading it to the tattoo-simulator
 
 ---
 
-***TODO*** skin postion:sticky?
-
 <Simulator />
 
 ---
 
-| section: Further activities
-
-***TODO*** naffi
-
-## Share your ideas
-
-With the assistance of your paper share your ideas about your design and smart tattoos in general.
-
--
-
-**_ERIK: photo maybe_**
-
----
-
-***TODO*** integrate with mapping up
-
-## Continue
-
-The learning never stops. For example, you can next learn about:
-chemistry of inks by conducting experiments
-Tattoo permanence model by conducting biological experiments
-
-**_RICHARDS PRACTICAL MATERIAL WHERE?_**
-
--
-
----
-
 | section: Wrapping up
-| 1 2
+| 1 1 2
 | padding: 0
+
+<f-image src="./images/model2.jpg" style="transform: scale(-1, 1); " />
+
+-
 
 <section>
 
@@ -507,13 +483,12 @@ Tattoo permanence model by conducting biological experiments
 
 #### Related DesignSTEM projects
 
-<a href="../colorblindness">Color Vision Deficiency & Accessi­bility</a>  contains a lot of interactive material about color and considering human condition.
+The learning never stops. For example, you can next learn about:
+chemistry of inks by conducting experiments
+Tattoo permanence model by conducting biological experiments
+
+<a href="../colorblindness">Color Vision Deficiency & Accessi­bility</a> contains a lot of interactive material about color and considering human condition.
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
-
 </section>
-
--
-
-<f-image src="./images/model2.jpg" />
