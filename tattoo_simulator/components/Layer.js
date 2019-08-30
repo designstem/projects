@@ -31,11 +31,15 @@ export default {
   template: `
         <div class="item ui-layer">
         <div class="flex v-center" style="margin-bottom: 10px">
-                <span>{{item.type}}</span>
-                <template v-if="item.type !== 'img'">
-                <input type="color" value="#e66465" v-model="item.color">
+                <strong>{{item.type}}</strong>
+                <template v-if="item.type === 'text'">
+                  <input type="text" style="min-width: 10rem" v-model="item.text">
+                  <f-slider v-model="item.textSize" integer :value="24" :from=12 :to=72 title="text size: " />
                 </template>
-                <template v-else >
+                <template v-if="item.type !== 'img'">
+                <input type="color" value="gray" v-model="item.color">
+                </template>
+                <template v-if="item.type === 'img'" >
                 <input style="width: 200px" type="file" @change="onFileChange">
                 </template>
         </div>

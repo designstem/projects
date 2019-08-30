@@ -12,7 +12,7 @@ const fade = item => {
 };
 
 export default {
-  props: ["src", "type", "index", "item"],
+  props: ["src", "type", "index", "item", "text"],
   components: { DragResize },
   data: () => ({
     width: 100,
@@ -40,12 +40,11 @@ export default {
             :minw="2"
         >
             <img 
-            v-if="item.pic" 
+            v-if="item.pic && type === 'img'" 
             ref="layerimg"
             :style="{
                 transition: 'opacity ' + item.time + 's linear',
                 opacity: fade(item),
-                mixBlendMode: 'multiply',
                 width: item.imgwidth,
                 height: item.imgheight,
                 }"
@@ -58,7 +57,6 @@ export default {
             :style="{
                 backgroundColor: item.color,
                 transition: 'opacity ' + item.time + 's linear',
-                mixBlendMode: 'multiply',
                 opacity: fade(item),
                 }"
             ></div>
@@ -68,10 +66,26 @@ export default {
             :style="{
                 backgroundColor: item.color,
                 transition: 'opacity ' + item.time + 's linear',
-                mixBlendMode: 'multiply',
                 opacity: fade(item),
                 }"
             ></div>
+            
+            <div
+            v-if="type === 'text'"
+            class="text"
+            :style="{
+                color: item.color,
+                transition: 'opacity ' + item.time + 's linear',
+                opacity: fade(item),
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100%',
+                fontWeight: '700',
+                fontSize: item.textSize + 'pt',
+                textAlign: 'center'
+                }"
+            >{{ text }}</div>
             <!--<p>{{item}}</p>-->
         </drag-resize>
         `

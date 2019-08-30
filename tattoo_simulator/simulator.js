@@ -49,7 +49,7 @@ export default {
     ],
     skindex: 0,
     size: 400,
-    pic: "",
+    pic: "../tattoo_simulator/anchor.png",
     start: false,
     selected: "",
     imgs: [],
@@ -69,7 +69,9 @@ export default {
         imgwidth: "",
         imgheight: "",
         pic: this.pic,
-        color: "#e66465"
+        color: "var(--darkestgray)",
+        text: "Mum 💘",
+        textSize: 24
       });
       if (type === "img") {
         // this.onFileChange()
@@ -115,10 +117,11 @@ export default {
 
                 <div class="flex"></div>
                 <div class="button_primary"  @click="pushType('img')">Add Image</div>
+                <div class="button_primary"  @click="pushType('text')">Add Text</div>
                 <div class="button_primary"  @click="pushType('box')">Add Square</div>
                 <div class="button_primary"  @click="pushType('circ')">Add Circle</div>
                 
-                <Layer v-for="(item, index) in imgs" :index="index" :item="item" :imgs="imgs"></Layer>
+                <Layer v-for="(item, index) in imgs" :index="index" :item="item" :imgs="imgs" :key="index" ></Layer>
         
                 <br><br>
 
@@ -141,7 +144,7 @@ export default {
         <div class="cell" style="position: sticky; height: 80vh; top: 10vh">
             <Scene :size="size" :bgcolor="'transparent'">
                 <Hand :fill="skincolors[skindex]"/>
-                <SceneLayer :style="{filter: 'blur( ' + blur / 8 + 'px ) opacity( ' + (1 - blur / 150) + ' )'}" v-for="(item, index) in imgs" :index="index" :item="item" :src="item.pic" :type="item.type" />
+                <SceneLayer :style="{filter: 'blur( ' + blur / 8 + 'px ) opacity( ' + (1 - blur / 150) + ' )'}" v-for="(item, index) in imgs" :index="index" :item="item" :src="item.pic" :text="item.text" :type="item.type" />
             </Scene>
         </div>
     </div>
@@ -285,6 +288,7 @@ img.layer {
 .button-group {
     display: flex;
     margin-bottom: 1em;
+    cursor: pointer;
 }
 .button-group > *:first-child {
     border-bottom-left-radius: var(--border-radius);
