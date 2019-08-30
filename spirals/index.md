@@ -688,6 +688,8 @@ Now, image what happens if the angle θ gradually increases from the zero degree
 
 -
 
+Lets try to simulate this:
+
 <f-slider set="circleProgress" value="0" to="360" title="θ" />
 
 <f-scene grid responsive style="max-width:600px;">
@@ -868,11 +870,11 @@ You can find and download 3D Models by visiting the webpages below:
 
 #### Design your own objects
 
-Use the online **Tinkercad software**, available at: <f-link to="http://www.tinkercad.com">www.tinkercad.com</f-link> and try to complete the tasks of the following **worksheets.**
+Use the online **Tinkercad software**, available at: <f-link to="http://www.tinkercad.com">www.tinkercad.com</f-link> and try to complete the tasks of the following **worksheets.** (pdf)
 
 <f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-1.pdf">Worksheet 1</f-link> – Create a simple 3D Spiral Shape – Clockspring
 
-<f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-2.pdf">Worksheet 2</f-slide> – Implement a 2D Spiral shape and transform it into a 3D Spiral Shape
+<f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-2.pdf">Worksheet 2</f-link> – Implement a 2D Spiral shape and transform it into a 3D Spiral Shape
 
 <f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-3.pdf">Worksheet 3</f-link> – Create a simple Screw with Spiral Shapes
 
@@ -890,95 +892,6 @@ Use the online **Tinkercad software**, available at: <f-link to="http://www.tink
 
 
 
-
-
-
-## Design your own objects
-
-***TASK*** 
-
-Use the online **Tinkercad software**, available at: <f-link to="http://www.tinkercad.com">www.tinkercad.com</f-link> and try to complete the tasks of the following **worksheets.**
-
-[Worksheet 1 – Create a simple 3D Spiral Shape – Clockspring](https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-1.pdf "Worksheet 1")
-
-[Worksheet 2 – Implement a 2D Spiral shape and transform it into a 3D Spiral Shape](https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-2.pdf "Worksheet 2")
-
-[Worksheet 3 – Create a simple Screw with Spiral Shapes](https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-3.pdf "Worksheet 3")
-
-[WorkSheet 4 –  Create a Helical Compression Spring](https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-4.pdf "Worksheet 4")
-
----
-
-# 3D Printing
-
-3D printing is the process of making three dimensional solid objects that derive from a digital file. The creation of a 3D printed object is achieved by laying down successive layers of material until the object is created. Each of these layers can be seen as a thinly sliced horizontal cross-section of the object. Objects can be of almost of any shape or geometry and typically are produced using digital model data from a 3D Model or another electronic data source.
-
-## 3D Printing Techniques
-
-**Fused Deposition Modeling (FDM)**. A common 3D printing technique that creates objects by melting filament and extruding it through a small nozzle that moves in three dimensions.
-
-**Selective Laser Sintering (SLS)**. A 3D printing technology that uses high intensity light to sinter a powdered material.
-
-**Stereolithography (SLA)**. A 3D printing technology which makes objects by using a high intensity light or a laser to harden a plastic resin
-
-## 3D Printing Materials
-When it comes to 3D Printing there are many materials one can choose from. Some of the most popular in use are presented below.
-
-### PLA
-
-Poly (lactic acid) or polylactic acid or polylactide (PLA) is a biodegradable (more nature friendly) and bioactive thermoplastic aliphatic polyester derived from renewable resources, such as corn starch cassava roots, chips or starch, or sugarcane.
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/3d-printer-filament-pla.jpg?w=456&h=428)
-
-### ABS
-
-ABS is derived from acrylonitrile, butadiene, and styrene. Acrylonitrile is a synthetic monomer produced from propylene and ammonia; butadiene is a petroleum hydrocarbon obtained from the C4 fraction of steam cracking; styrene monomer is made by dehydrogenationof ethyl benzene — a hydrocarbon obtained in the reaction of ethylene and benzene.
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/abs1.jpg?w=596&h=260)
-
-Other types of materials that can be used are: NYLON (Polyamide), Flexible, Polycarbonate, Wood PLA, Metal PLA etc.
-
-## Interesting Websites
-
-* https://ultimaker.com/en/blog/17956-ultimaker-schooling-maintenance
-* https://all3dp.com/1/3d-printing-materials-guide-3d-printer-material/
-* https://www.simplify3d.com/support/materials-guide/properties-table/
-
-
-## 3D Printer Parts
-
-Before starting the 3D printing process you need to be informed of the 3D Printer’s parts. Every 3D Printer haw a user’s manual where all the printer’s parts are displayed and explained. For example, for the Ultimaker 2+ 3D Printer you can see the manual on the following link:
-
-https://ultimaker.com/download/19573/UserManual_UM2+_EN.pdf
-
-According to the manual listed above an Ultimaker 2+ 3D Printer has the parts shown in the following images:
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/ultimaker-parts1.jpg)
-
-![](https://spiralsdesignstem.files.wordpress.com/2018/09/ultimaker-parts2.jpg)
-
-## 3D Printing Implementation
-
-When you have a 3D model ready for printing first you need to prepare a file suitable for your 3D Printer. If you have prepared an .STL or .OBJ file you need a slicing program to create the G-code that is actually a set of intructions for your 3D Printer. One popular slicing software for Ultimaker 3D Printers is the Cura Software.
-
-See additional information about the Cura Software on the following link:
-
-https://ultimaker.com/en/resources/21932-mastering-cura
-
-Download the Cura Software from the following link:
-
-https://ultimaker.com/en/products/ultimaker-cura-software
-
-
-<f-notes title="Sources">
-
-https://en.wikipedia.org/wiki/3D_printing,_https://www.sd3d.com/materials/
-
-https://wiki.commonslab.gr/w/3D_printing
-
-</f-notes>
-
----
 
 ## 3D Printing Gallery
 
