@@ -30,6 +30,7 @@ export default {
     :background="statuses[status].background"
     :border="statuses[status].border"
     :image="small ? '' : project.image"
+    style="position: relative"
   >
       <h4 style="margin-top: var(--base);">{{ project.title }}</h4>
       <p style="font-size: calc(var(--base) * 2)">{{ project.desc }}</p>
@@ -50,7 +51,9 @@ export default {
           {{ tag }}
         </f-tag>
       </div>
-      <p />
+      
+      <h4>&nbsp;</h4>
+
       <!--
       <f-inline v-if="project.time">
         <span><f-clock-icon duration2="15" /></span>
@@ -66,10 +69,12 @@ export default {
       </f-inline>
       -->
       <f-sidebar size="half">
-        <button>About</button>
+        <button style="position: absolute; left: var(--base2); bottom: var(--base2);">About</button>
         <div slot="content" style="padding: var(--base3)">
           <h2>{{ project.title }}</h2>
           <p><big>{{ project.desc }}</big></p>
+          <a class="primary" :href="'./' + project.scenario">Go to scenario<f-rightarrow-icon /></a>
+          <p />
           <div v-if="project.team">
             <!-- <f-fetch :src="'./' + project.scenario + '/about.md'"  v-slot="{ value }">
               <f-content
