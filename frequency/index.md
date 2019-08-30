@@ -89,7 +89,7 @@ This lesson is divided into three main sections:
 
 <center><div>
 
- ### The tools you'll need
+ ## The tools you'll need
 
 <br>
 <f-next-button />
@@ -200,7 +200,7 @@ Watch the following videos and define frequency in your own words and describe a
 
 <f-activity-icon />
 
-### Time for first hands-on exercise
+## Time for first hands-on exercise
 
 <br>
 
@@ -301,9 +301,9 @@ You will find 6 template PDFs from the .zip file. In this exercise, you will nee
 | section: From Spinning to Frequency
 | rows: auto auto 1fr
 
-| 1 1
-| 2 3
-| 4 4
+| 1 1 1 1 1
+| 2 2 2 3 3
+| 4 4 4 5 5
 
 ## From spinning to frequency
 
@@ -323,13 +323,10 @@ As you might have noticed with your drawings in the correct order, to have a smo
 
 <p>
 
-<f-fact-icon size="small" />
-
-<f-sidebar title="Later You'll learn what frequency means in waves">
+<f-fact-icon size="small"/>
+Later You'll learn how the number of waves can <f-sidebar title="describe frequency.">
 
 <div slot="content">
-
-
 
 <p />
 
@@ -580,7 +577,7 @@ You just experienced a <var>[stroboscopic effect](https://en.wikipedia.org/wiki/
 
 -
 
-**How does it work?** Let’s set up an experiment in the <f-link to="fifth">next slide.</f-link>
+**How does it work?** Let’s set up an experiment in the <f-link to="fifth">*next slide.*</f-link>
 
 ---
 
@@ -1033,6 +1030,10 @@ On a sinusoidal wave time lapses from left to right on the horizontal axis. The 
 ## Frequency as a wave
 
 After exploring spinning frequency and frame rate, let's define frequency as form of <var>wave</var>. The most common waveform might be the <var><f-link to="https://pudding.cool/2018/02/waveforms/">soundwave</f-link></var> but it can also represent <var><a href="../colorblindness">color</a></var> or movement.
+
+<br>
+
+><small>*Notice how the orange circle is twice as fast as the blue one and thus the waves are different.*</small>
 
 -
 
