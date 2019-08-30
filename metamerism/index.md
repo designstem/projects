@@ -57,7 +57,11 @@ The learning scenario may be used to make students understand that different sou
 
 #### Which colors does this dress have?
 
-<small>Original photo posted on https://swiked.tumblr.com</small>
+<f-notes title="Credits">
+
+Original photo posted on https://swiked.tumblr.com
+
+</f-notes>
 
 ---
 

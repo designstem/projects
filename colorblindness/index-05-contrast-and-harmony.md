@@ -972,10 +972,12 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 <details>
   <summary> Look at compati&shy;bility of hues</summary>
-    Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.
-  </details>
+    
+  Review the color combi&shy;nations and contrasts. Are they **pleasing**? Are they **piercing**? Maybe you can use **split comple&shy;mentary** palettes instead to make the contrast softer.
+</details>
 
 <details>
+  
   <summary> Limit the number of colors</summary>
 
   Two or three colors are mostly enough. More can get too complex. If you choose more than three colors for a palette, be careful. Always have **dominant colors** and some colors for the back&shy;ground. Decide if you really need them all, or if you can limit your palette more.

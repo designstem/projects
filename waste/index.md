@@ -1,58 +1,69 @@
 | chapter: Introduction
 | theme: dark
 | background: https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg
+| tint: 0.6
 
 <center><div>
 
-***TODO 2*** rewrite intro 
-
 # <big>Waste is a<br>design mistake</big>
 
-### Today's environmental challenges,<br>footprint calculator and material properties
+<big>Face the today's environmental challenges and design products<br>with minimal use of resources and creating zero waste</big>
+
+<f-next-button title="Let's start" />
 
 </div></center>
 
-<f-notes>
+<f-notes title="Credits">
 
-Image source: https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
+https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
 
 </f-notes>
 
 ---
 
 | section: Our planet
-| 1 2 2
+| 2 2 1
+| theme: dark
+| padding: 0
 
-***TODO 2*** layout
+<section>
 
-## Our planet
+## How this image makes you feel?
 
-We all know that we can’t keep on wasting resources. 
+We all know that we can’t keep on wasting resources and exhausting our planet.
 
-We’re exhausting our planet!
+What could we do? Let's explore how to produce and consume without excess waste. 
 
-**What’s your feeling about that?**
-
+</section>
 
 -
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Aterro_Sanitario.jpg" />
 
 
-<f-notes>
+<f-notes title="Credits">
+
 Image source: https://commons.wikimedia.org/wiki/File:Aterro_Sanitario.jpg
+
 <f-notes>
 
 ---
 
-| 1 2 2 2
+| 1 2 2
+| gap: var(--base4)
+| theme: dark
 
-## TED talk
+<caption>📺💬 Watch and discuss</caption>
 
-***TODO: Clearer title needed***
+## Let's make a toaster
 
-Look at the TED talk of Thomas Twaites and 
-explain the core of what he’s saying.
+Thomas Thwaites is a British designer that attempted to build a kitchen toaster from the scratch and mine all the neccessary raw materials.
+
+[The Toaster project](http://www.thomasthwaites.com/the-toaster-project/)
+
+<p />
+
+Look at the TED talk of Thomas Twaites and explain the core of what he’s saying.
 
 -
 

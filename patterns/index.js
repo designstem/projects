@@ -87,9 +87,10 @@ fachwerk({
   src: ['./index.md'],
   components: { FLetter, FSource, FTarget, FPolargrid },
   style: {
-    "--purple": "var(--darkgray)",
+    "--purple": "var(--blue)",
     "--darkpurple": "var(--darkergray)",
     "--emphasis": "var(--blue)",
-    "--lightemphasis": "var(--transparent)"
+    "--lightemphasis": "var(--transparent)",
+    "--accent": "var(--blue)"
   }
 });

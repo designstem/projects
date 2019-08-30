@@ -11,11 +11,17 @@
 
 -
 
-**_TODO_** check bg image
-
 # <big>Smart Tattoos</big>
 
 <big>Design a biosensitive tattoo that expresses you life and can also save your life</big>
+
+
+<f-notes title="Credits">
+
+Image source: 
+https://www.pexels.com/
+
+</f-notes>
 
 -
 
@@ -436,7 +442,15 @@ Write down the condition to a piece of paper.
 
 -
 
-**_ERIK: photo / illustration pls_**
+<img src="./images/whattattoo.png" style= "width:50%">
+
+<f-notes title="Credits">
+
+Image source: 
+https://www.needpix.com
+
+</f-notes>
+
 
 ---
 
@@ -461,7 +475,14 @@ by sketching it on a friend 😃, and/or by uploading it to the tattoo-simulator
 
 -
 
-**_ERIK: photo / illustration pls_**
+<img src="./images/food.jpg" style= "width:70%">
+
+<f-notes title="Credits">
+
+Image source: 
+https://www.needpix.com
+
+</f-notes>
 
 ---
 

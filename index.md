@@ -98,12 +98,19 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 ---
 
-<!--
-<a id="about"><h3>About</h3></a>
+| padding: 0
+
+<section>
+
+<a id="team"><h3>Team</h3></a>
 
 We are educators, teachers, designers and engineers from 10 countries 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪 around Europe.
 
--->
+</section>
+
+<f-teams />
+
+---
 
 <a id="contacts"><h3>Contacts</h3></a>
 

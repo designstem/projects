@@ -150,6 +150,12 @@
 
 -
 
+<f-notes title="Credits">
+
+Image source: https://www.media.mit.edu/
+
+</f-notes>
+
 <f-next-button title="Next" />
 
 -
@@ -190,9 +196,18 @@
 
 -
 
+<!--
 <div style="text-align: right;">
   <small><f-link to="http://www.munart.org" style="--primary:var(--darkergray); text-align: right;">www.munart.org</f-link></small>
 </div>
+-->
+
+<f-notes title="Credits">
+
+Image source: http://www.munart.org/
+
+</f-notes>
+
 
 -
 
@@ -687,14 +702,24 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 </div>
 
+<f-notes title="Credits">
+
+Image sources:
+https://commons.wikimedia.org/wiki/File:Velcro.jpg
+https://ru.m.wikipedia.org/wiki/Файл:Velcro_photomicrograph.jpg
+https://commons.wikimedia.org/wiki/File:Micrograph_of_hook_and_loop_fastener,(Velcro_like).jpg
+
+
+</f-notes>
+
 -
 
 <!-- <f-image src="./images/02-benyus.jpg" style="--image-size:contain; --image-min-height: 40vh" /> -->
 
 <div class="bottom" style="">
-  <f-image src="./images/03-velcro-3.jpg" style="flex: 2" />
-  <f-image src="./images/03-velcro-1.jpg" style="flex: 1" />
-  <f-image src="./images/03-velcro-2.jpg" style="flex: 1" />
+  <f-image src="https://upload.wikimedia.org/wikipedia/commons/2/28/Velcro.jpg" style="flex: 1" />
+  <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Velcro_photomicrograph.jpg/1280px-Velcro_photomicrograph.jpg" style="flex: 1" />
+  <f-image src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Micrograph_of_hook_and_loop_fastener%2C%28Velcro_like%29.jpg" style="flex: 1" />
 </div>
 
 
@@ -727,6 +752,13 @@ all the senses have been aplied and most of the biodesign concepts have been **e
   <f-link to="http://www.rosslovegrove.com/">www.rosslovegrove.com/</f-link>
 
 </div>
+
+<f-notes title="Credits">
+
+Ross Lovegrove, Manga, http://www.rosslovegrove.com
+
+</f-notes>
+
 
 -
 
@@ -782,6 +814,12 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 -
 
+<f-notes title="Credits">
+
+Tomás Saraceno, How to Entangle the Universe in a Spider Web, https://studiotomassaraceno.org/
+
+</f-notes>
+
 <f-next-button title="Next" />
 
 -
@@ -811,6 +849,13 @@ all the senses have been aplied and most of the biodesign concepts have been **e
   <small><f-link to="https://www.hybrid-plattform.org/en/events/hybrid-event/detail/roundup-hybrid-encounters-with-tomas-saraceno-art-biology-and-algorithms/">Roundup: Hybrid Encounters with Tomás Saraceno- Art, Biology and Algorithms</f-link></small>
 
 </div>
+
+<f-notes title="Credits">
+
+Dr Ingo Rechenberg, BionicWheelBot, https://www.festo.com/group/en/cms/13129.htm
+
+</f-notes>
+
 
 -
 
@@ -857,6 +902,14 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 </div>
 
 -
+
+<f-notes title="Credits">
+
+Image source: Mit Media Lab, https://www.media.mit.edu/
+
+</f-notes>
+
+
 
 <f-next-button title="Next" />
 
@@ -995,6 +1048,14 @@ An opportunity for all of us to play a part
 
 </div>
 
+<f-notes title="Credits">
+
+Image source: 
+Student work, photo by Jacinta Costa.
+
+</f-notes>
+
+
 -
 
 <div class="bottom">
@@ -1080,6 +1141,13 @@ Enjoy yourself with nature…
 
 </div>
 
+<f-notes title="Credits">
+
+Image source: 
+Student work, photo by Jacinta Costa.
+
+</f-notes>
+
 -
 
 <div class="bottom" style="">
@@ -1094,10 +1162,6 @@ Enjoy yourself with nature…
 -
 
 ---
-
-
-
-
 
 
 | section: Wrapping up
