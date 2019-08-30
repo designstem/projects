@@ -331,7 +331,7 @@ Discuss!
 
 <section>
 
-We are reaching the end of our short geometrical journey, but - <var>why use your hands and paper?</var> - may you ask.
+We are reaching the end of our short geometrical journey, but — ~_why use your hands and paper?_~ — may you ask.
 
 Alongside _high-tech trends_, it is just as important to experiment with your own hands. Using our hands will eventually lead us to a world of complex design and science.
 
