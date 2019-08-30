@@ -2,6 +2,7 @@ import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 import FProjectCard from "./components/FProjectCard.js";
 import FTag from "./components/FTag.js";
 import FCard2 from "./components/FCard2.js";
+import FTeams from "./components/FTeams.js";
 
 const FImage2 = {
   props: ["src"],
@@ -18,7 +19,7 @@ const FImage2 = {
 
 fachwerk({
   title: 'Scenarios',
-  components: { FProjectCard, FTag, FCard2 },
+  components: { FProjectCard, FTag, FCard2, FTeams },
   editor: "none",
   type: "document",
   //footer: true,

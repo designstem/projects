@@ -65,14 +65,20 @@ export default {
       <small style="opacity: 0.65">{{ project.facilities }}</small>
       </f-inline>
       -->
-      <f-sidebar v-if="project.about" :srcc="'./' + project.scenario + '/about.md'">
+      <f-sidebar size="half">
         <button>About</button>
         <div slot="content" style="padding: var(--base3)">
-          <br />
-          <h3>{{ project.title }}</h3>
+          <h2>{{ project.title }}</h2>
           <p><big>{{ project.desc }}</big></p>
           <div v-if="project.team">
-            <h4>Team</h4>
+            <!-- <f-fetch :src="'./' + project.scenario + '/about.md'"  v-slot="{ value }">
+              <f-content
+                :content="value"
+                type="document"
+              />
+            </f-fetch> -->
+            <f-embed :src="'./' + project.scenario + '/about.md'" />
+            <h3>Team</h3>
             <f-team :team="project.team.split(',').map(t => t.trim())" />
           </div>
         </div>
