@@ -333,8 +333,6 @@ https://www.vitsoe.com/gb/about/good-design
 </figure>
 
 
-
-
 ---
 
 
