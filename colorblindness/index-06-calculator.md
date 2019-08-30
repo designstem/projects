@@ -431,6 +431,20 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 
 ~**If you are still motivated to learn more, you are welcome to check out the other workshops.**~ 😉
 
+<br>
+  
+  
+  #### Related DesignSTEM projects:
+
+  <br>
+  
+  <a href="../metamerism">Color perception</a> shows you that even if an object has one fixed color, it can still look different.
+
+  <a href="../dyes">Natural dyes</a> Making your own dye is not only fun but also environmental friendly.
+  
+  <a href="../waste">Waste is a design mistake</a> Find out how to design environmental friendly with zero waste.
+  
+</div>
 
 -
 
