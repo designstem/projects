@@ -2,14 +2,17 @@
 | section: Introduction
 
 | background: https://c.pxhere.com/photos/85/e4/photo-365034.jpg!d
-| tint: 0
+| tint: 0.5
 | theme: dark
+| 1 2 2
 
-# <big>2D and 3D<br />patterns</big>
+# <big>2D & 3D<br />patterns</big>
 
-***TODO*** intro
+Visual patterns and creative geometry go back to the beginnings of mankind. Experiment how to create rich visuals based on simple <var>geometric operations</var> and <var>repetitions</var>, after this learn how to bring the patterns to third and fourth dimension.
 
 <f-next-button title="Start" />
+
+-
 
 <f-notes title="Credits">
 
@@ -25,7 +28,7 @@ https://pxhere.com/en/photo/365034
 
 <section>
 
-<caption>🤔 Exercise</caption>
+<caption>🤔 Discuss</caption>
 
 ## Look for patterns
 
@@ -39,7 +42,7 @@ Answers these question and find some inspirational images to stimulate your brai
 
 4. Find at least three patterns **from other cultures**.
 
-5. And at last: what pattern **defines you**? Think about your daily habits.
+5. And at last: what pattern defines **you**? Think about your daily habits.
 
 </section>
 
@@ -60,7 +63,7 @@ https://commons.wikimedia.org/wiki/Pattern#/media/File:Igreja_de_Campanha_Azulej
 
 <section>
 
-<caption>🛠️ Do</caption>
+<caption>🛠️ Exercise</caption>
 
 ## Share the patterns
 
@@ -119,8 +122,6 @@ https://hyperglu.tumblr.com/post/149380467308/inspired-by-the-azulejo-tiles-that
 
 | rows: auto 1fr
 
-***TODO*** rewrite
-
 <f-inline style="--inline-justify: space-between">
 
 # Translation
@@ -129,9 +130,9 @@ https://hyperglu.tumblr.com/post/149380467308/inspired-by-the-azulejo-tiles-that
 
 -
 
-#### Single translation
+#### 1. Single translation
 
-A <var>translation</var> is a <var class="gray">geometric transformation</var> that moves a shape in a certain direction, without changing its shape or angle,
+A <var>translation</var> is a <var class="gray">geometric transformation</var> that moves a shape in a certain direction.
 
 > Adjust the translation along the axises to see the effect
 
@@ -173,7 +174,7 @@ A <var>translation</var> is a <var class="gray">geometric transformation</var> t
 
 -
 
-#### Repeated translation
+#### 2. Repeated translation
 
 When <var>translation</var> is applied repeatedly, we willl see the visual patterns emerge.
 
@@ -222,11 +223,11 @@ Here is the simple grid repetition on x and y axis.
   <f-source />
 </div>
 
-#### Single scaling
+#### 1. Single scaling
 
-A <var>scaling</var> is a transformation that resizes a shape.
+A <var>scaling</var> is a <var class="gray">transformation</var> that resizes a shape.
 
-Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> that generate <var class="gray">congurate</var> shapes, scaling generates <var>similar</var> shapes.
+While <var class="gray">translation</var> and <var class="gray">rotation</var> generate <var class="gray">congurate</var> shapes, scaling generates <var>similar</var> shapes.
 
 -
 
@@ -257,9 +258,9 @@ Unlike <var class="gray">translation</var> and <var class="gray">rotation</var> 
 
 -
 
-#### Repeated scaling
+#### 2. Repeated scaling
 
-When <var>scaling</var> is repeated we will multiple shapes in incrementally bigger sizes.
+When <var>scaling</var> is repeated, we will get multiple shapes in incrementally bigger sizes.
 
 ##### Maximum scaling factor `{{ get('s_s2',1) }} ×`
 
@@ -312,9 +313,9 @@ When <var>scaling</var> is repeated we will multiple shapes in incrementally big
   <f-source />
 </div>
 
-#### Single rotation
+#### 1. Single rotation
 
-A <var>rotation</var> is a transformation is a transformation that turns a shape by a certain angle around a fixed point. That point is called the<br><span style="color: var(--red)">●</span> <var>center of rotation</var>.
+A <var>rotation</var> is a transformation that rotates a shape by a certain angle around a fixed point. It is called <br><span style="color: var(--red)">●</span> <var>center of rotation</var>.
 
 -
 
@@ -365,7 +366,7 @@ A <var>rotation</var> is a transformation is a transformation that turns a shape
 
 -
 
-#### Repeated rotation
+#### 2. Repeated rotation
 
 By applying rotation to an element multiple times we can create a circular set of elements with all elements having <var>rotational symmetry</var>.
 
@@ -399,7 +400,9 @@ By applying rotation to an element multiple times we can create a circular set o
 
 -
 
-A shape has <var>reflectional symmetry</var> if it looks the same after being reflected. The line of reflection is called the <var>axis of symmetry</var>, and it splits the shape into two <var class="gray">congruent</var> halves.
+#### 1. Single reflections
+
+A shape has <var>reflectional symmetry</var> if it looks the same after reflection. The reflection line is called the <var>axis of symmetry</var>, and it splits the shape into two <var class="gray">congruent</var> halves.
 
 -
 
@@ -460,7 +463,7 @@ A shape has <var>reflectional symmetry</var> if it looks the same after being re
 
 -
 
-#### Repeated reflection
+#### 2. Repeated reflection
 
 We can combine the <var>reflection</var> and transformations we learned ealier.
 
@@ -521,19 +524,19 @@ A true power of transformations will come out when they are combined, this means
 
 -
 
-#### Translation
+#### 1. Translation
 
 ##### x and y axis `{{ get('c_x1',0.05) }}`
 
 <f-slider set="c_x1" value="0.05" from="0" to="4" />
 
-#### Scaling
+#### 2. Scaling
 
 ##### Element scaling `{{ get('c_s1', 4) }} ×`
 
 <f-slider set="c_s1" value="4" from="0.1" to="5" />
 
-#### Rotation
+#### 3. Rotation
 
 ##### Element rotation `{{ get('c_r1', 1) }} ×`
 
@@ -580,7 +583,7 @@ A true power of transformations will come out when they are combined, this means
       :rotation="get('c_r1',0)"
     >
       <f-group :scale="svgscale">
-        <f-target :mode="['normal','multiply','difference'][get('c_m',0)]" transform="translate(-50, 50) scale(1,-1)" />
+        <f-target :mode="['normal','multiply','difference'][get('c_m',1)]" transform="translate(-50, 50) scale(1,-1)" />
       </f-group>
     </f-group>
   </f-group>
@@ -588,23 +591,23 @@ A true power of transformations will come out when they are combined, this means
 
 -
 
-#### Choose pattern
+#### 4. Choose a pattern
+
+<p />
 
 <f-buttons :value="get('c_p',0)" v-on:value="v => set('c_p',v)" :buttons="['Grid pattern','Circle pattern']"  />
 
 Choose between <var>translational</var> and <var>rotational</var> <var class="gray">symmetry</var>. 
 
-#### Bring in creativity
+#### 5. Bring in creativity
 
 To get more creative you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
 
-<f-buttons :value="get('c_m',0)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
+<f-buttons :value="get('c_m',1)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
 
 ---
 
 | section: The fourth dimension
-
-***TODO*** ERIK adds video
 
 <caption>Exercise</caption>
 
@@ -624,18 +627,27 @@ Another addition to designing patterns could be the fourth dimension: time. This
 ---
 
 | section: Final assignment
-
-***TODO 2*** rethink 
+| 1 1
+| 2 3
+| rows: auto 1fr
 
 <caption>Exercise</caption>
 
 ## Final assignment
 
-Key steps
+#### Key steps
 
-1. Now that you improved your knowledge and skills, find a way to produce your pattern, texture or structure. You can use stamp, stencil, cut out vinyl, 3D printers, laser cutters, AR/VR... Get your skates on!
+-
 
-2. When you think you're done with making your best 2D/3D pattern, find at least two students to get peer reviews. You will need them in the next stage to make improvements to the design.
+#### 1.
+
+Now that you improved your knowledge and skills, find a way to produce your pattern, texture or structure. You can use stamp, stencil, cut out vinyl, 3D printers, laser cutters, AR/VR... Get your skates on!
+
+-
+
+#### 2.
+
+When you think you're done with making your best 2D/3D pattern, find at least two students to get peer reviews. You will need them in the next stage to make improvements to the design.
 
 ---
 
@@ -659,33 +671,23 @@ After having worked with this scenario, your pattern skills have grown. Describe
 
 | padding: 0
 | theme: dark
-| 1 1 2
+
 
 <section>
 
-***TODO*** rewrite, link to frequency, algorithms, packaging
+## Wrapping up
 
-## More fun with patterns
+#### Related DesignSTEM projects
 
-Explore the following tools to create more patterns:
+<a href="../frequency">Frequency and Motion</a> explores pattern-making in <var>motion</var>, mixed with <var>visual illusions</var> and music.
 
-#### Try digital tools
+<a href="../algorithms">Algorithms</a> takes you into a mind of a machine, showing how simple <var>geometric transformations</var> and <var>random decisions</var> can make mesmerizing generative art and design.
 
-<f-inline>
-  <a class="primary" href="../patterns_editor">Go to tessellation editor</a>
-  <a class="primary" href="../patterns_playground">Go to pattern playground</a>
-</f-inline>
+#### Other materials
 
-http://weavesilk.com/
+[Silk](http://weavesilk.com/) website and [Amaziograph](https://amaziograph.com) app are true pioneers in digital pattern-making.
 
-Amaziograph https://amaziograph.com
-
-
-#### Go analog
-
-* Find similar leaves, stones, flowers, packaging, emoji, … etc.
-
-* Investigate the world of tessellations http://tessellations.org/methods-diy-papercut.shtml
+<f-link class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</f-link>
 
 </section>
 
