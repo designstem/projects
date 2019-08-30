@@ -3,7 +3,7 @@
 
 # Regular polyhedra
 
-~When regular polygons are expanded and seen in the three dimensions, form the **Regular Polyhedra**. These are solid objects bounded by flat surfaces.~
+~When regular polygons are expanded and seen in the three dimensions, form the <var>Regular Polyhedra</var>. These are solid objects bounded by flat surfaces.~
 
 <center>
     <f-scene3 style="position:relative;" isometric class="crisp">
@@ -16,7 +16,7 @@
     </f-scene3>
 </center>
 
-~In regular polyhedron we distinguish **Faces**, **Edges** and **Vertices**. **Faces** are the bounded surfaces that consist the external surface of the structure. Two adjacent faces are connected together with an **Edge**. Three or more adjacent faces intersect to a **Vertex**.~
+~In regular polyhedron we distinguish <var>Faces</var>, <var>Edges</var> and <var>Vertices</var>. **Faces** are the bounded surfaces that consist the external surface of the structure. Two adjacent faces are connected together with an **Edge**. Three or more adjacent faces intersect to a **Vertex**.~
 
 ~**In regular polyhedra all the faces are identical.**~
 
@@ -27,7 +27,7 @@
 | padding: 5vmin
 
 
-### Most common regular polyherdra ~*(also known as Platonic solids)*~ are:
+### Most common regular polyherdra *(also known as <var>Platonic solids</var>)* are:
 
 ### &nbsp;
 
@@ -62,7 +62,7 @@
 </center>
 
 
-#### 3. Dodecahedron
+#### 4. Dodecahedron
 ~12 faces, 30 edges, 20 vertices~
 
 <center>
@@ -72,7 +72,7 @@
 </center>
 
 
-#### 4. Icosahedron
+#### 5. Icosahedron
 ~20 faces, 30 edges, 12 vertices~
 
 <center>

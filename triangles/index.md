@@ -86,7 +86,7 @@
 &nbsp;
 
 1. ~Design a nesting box for a bird.~
-2. ~The design should be based on a <var><f-sidebar title="polyhedral shape" src="./math-polyhedra.md" style="--sidebar-width: 50vw" overlay /></var>~
+2. ~The design should be based on a <f-sidebar src="./math-polyhedra.md" size="half" overlay ><var>polyhedral shape</var></f-sidebar>~
 3. ~The material should have some <var>thickness</var> (wood, etc).~
 
 -
@@ -349,7 +349,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ### Polyhedra <f-rightarrow-icon />
 
-~Get to know the 5 regular polyhedral shapes a.k.a. **Platonic solids**~
+~Get to know the 5 regular polyhedral shapes a.k.a. <var>Platonic solids</var>~
 
 </div>
 
@@ -530,34 +530,46 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-#### The triangle 
+<f-sidebar src="math-triangle-types.md" overlay size="half"> 
+  
+  #### <button>Triangle types <f-arrow-icon rotation="-45" /></button>
+
+</f-sidebar>
+
+<br />
 
 ~What defines a triangle and what kind of different triangles we know~
 
-<f-sidebar src="math-triangle-types.md" title="Triangle types" overlay style="--sidebar-width: 60vw"> 
-  <a slot="button" class="tertiary" style="padding:var(--base); ">Triangle types <f-arrow-icon rotation="-45" /></a>
-</f-sidebar>
+
 
 -
 
-#### Geometry
+<f-sidebar src="math-triangle-calculations.md" overlay size="half">
+  
+  #### <button>Geometry of triangles <f-arrow-icon rotation="-45" /></button>
+
+</f-sidebar>
+
+<br />
 
 ~Calculations based on triangle angles and sides~
 
 
-<f-sidebar src="math-triangle-calculations.md" title="Geometry of triangles" overlay style="--sidebar-width: 60vw">
-  <a slot="button" class="tertiary" style="padding:var(--base);">Geometry of triangles <f-arrow-icon rotation="-45" /></a>
-</f-sidebar>
+
 
 -
 
-#### Trigonometry
+<f-sidebar src="math-triangle-trigonometry.md" overlay size="half">
+  
+  #### <button>Trigonometry <f-arrow-icon rotation="-45" /></button>
+
+</f-sidebar>
+
+<br />
 
 ~Calculations based on trigonometric functions~
 
-<f-sidebar src="math-triangle-trigonometry.md" title="Trigonometry" overlay style="--sidebar-width: 60vw">
-  <a slot="button" class="tertiary" style="padding:var(--base);">Trigonometry <f-arrow-icon rotation="-45" /></a>
-</f-sidebar>
+
 
 -
 
@@ -590,9 +602,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
   
 </blockquote>
 
-~Polygons can be of any shape, but we concentrate on the ***regular polygons***, because **those form the sides of regular polyhedra**, we are interested in.~
+~Polygons can be of any shape, but we concentrate on the <var>regular polygons</var>, because **those form the sides of regular polyhedra**, we are interested in.~
 
-<small style="color: var(--gray)">*By the way, the equilateral triangle itself is the simplest regular polygon.*</small>
+<small>*By the way, the equilateral triangle itself is the simplest regular polygon.*</small>
 
 ~So, in order to build a polyhedron, let’s first get familiar with it’s sides – **the polygons**.~
 
@@ -698,6 +710,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | cols: 50vw auto
 | 1 1
 | 2 3
+| 4 3
 
 
 ## Simplification of polygons
@@ -712,13 +725,11 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 #### Here is how:
 
-<f-sidebar src="math-polygon.md" title="How to solve polygons" overlay style="--sidebar-width: 60vw">
-  <a slot="button" class="tertiary" style="padding:var(--base);">Polygons and how to solve them <f-arrow-icon rotation="-45" /></a>
+<f-sidebar src="math-polygon.md" overlay size="half">
+  
+  #### <button>Polygons and how to solve them <f-arrow-icon rotation="-45" /></button>
+
 </f-sidebar>
-
-## &nbsp;
-
-<f-next-button title="Next: 2D to 3D" />
 
 -
 
@@ -736,6 +747,10 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 </f-scene>
 
 <f-slider set="polySides" from="3" to="12" integer value="3" title="Number of sides" />
+
+-
+
+<f-next-button title="Next: 2D to 3D" />
 
 ---
 
@@ -844,9 +859,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-<f-sidebar2 src="math-polyhedra.md" size="wide" overlay>
+<f-sidebar src="math-polyhedra.md" size="half" overlay>
   <a class="tertiary" style="padding:var(--base);">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
-</f-sidebar2>
+</f-sidebar>
 
 -
 
@@ -947,18 +962,16 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-
-
 > ~We know now, that the **sides of a polyhedron are made of polygons**.~ 
 
-- ~The first one, <var>Icosahedron</var>, had triangular faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" style="--sidebar-width: 60vw" overlay />, to make the calculations.~ 
+- ~The first one, <var>Icosahedron</var>, had triangular faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" size="half" overlay />, to make the calculations.~ 
 
 - ~The second one, <var>Dodecahedron</var>, was a bit more complicated, because its sides are **polygons** *(pentagons)*, so you need an extra step:~
 
 1. ~first: **find polygons**, and~ 
 2. ~then: **divide polygons to triangles**~
 
-~But, of course, this is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" style="--sidebar-width: 60vw" overlay />.~ 
+~But, of course, this is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" size="half" overlay />.~ 
 
 -
 
@@ -1174,10 +1187,10 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
   
   &nbsp;
   
-  ~To achieve this you ***end up with pyramids***, where:~
+  ~To achieve this you end up with <var>pyramids</var>, where:~
   
-  - ~the **base** of a pyramid **is for the side of polyhedron** and~
-  - ~the **tip** of the pyramid is at the **center point of the polyhedron**~
+  - ~the <var>base</var> of a pyramid **is for the side of polyhedron** and~
+  - ~the <var>tip</var> of the pyramid is at the **center point of the polyhedron**~
 </div>
 
 -
@@ -1367,7 +1380,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 <blockquote style="background: none;">
 
-  ~Pyramid is a polyhedron formed by connecting a **polygonal base** and a point, called the **apex**.~
+  ~Pyramid is a polyhedron formed by connecting a **polygonal base** and a point, called the <var>apex</var>.~
 
 </blockquote>
 
@@ -1375,8 +1388,8 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 &nbsp;
 
-<f-sidebar src="math-pyramid.md" title="More about pyramids" style="--sidebar-width: 60vw" overlay>
-  <a slot="button" class="tertiary" style="padding:var(--base); background:var(--yellow)">How to solve the pyramids<f-arrow-icon rotation="-45" /></a>
+<f-sidebar src="math-pyramid.md" size="half" overlay>
+  <a class="tertiary" style="padding:var(--base);">How to solve the pyramids<f-arrow-icon rotation="-45" /></a>
 </f-sidebar>
 
 &nbsp;
