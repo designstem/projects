@@ -2,20 +2,27 @@
 | theme: dark
 | chapter: Introduction
 | section: Getting started
+| 1
+| 2
+| rows: 1fr 4fr
 
 <br>
 
+<f-image src="./images/ico1.png" style="mix-blend-mode: screen; filter: invert(1); --image-size: auto 80%; --image-position: left;" />
+
+-
+
 # <big>From geometry to design</big>
 
-<big>How a geometric object becomes a design object</big>
+<big>_Go on a journey of polyhedrons and icosahedrons..._</big>
 
 <f-notes title="Outline" width="50vw" style="--primary: var(--darkgray)">
 
 ## Scenario outline
 
-1. Discover the slide-together technique which uses two-dimensional shape to create three-dimensional object
+1. Discover the slide-together technique which uses two-dimensional shape to create a three-dimensional object
 
-2. Make the modular polyhedra model from 20 pieces paper triangles
+2. Make a modular polyhedra model from 20 pieces paper triangles
 
 3. Icosahedron explanation
 
@@ -27,18 +34,131 @@
 
 ---
 
+| style: align-items: center; grid-template-columns: 0.5fr 1.5fr 1fr 1fr 0.2fr;
+| chapter: History & examples
+| section: The icosahedron
+| rows: 1fr min-content 1fr
+| theme: dark
+| 1 1 1 1 1
+| 2 3 4 4 5
+| 6 6 6 6 6
+
+-
+
+-
+
+<f-scene3 isometric responsive>
+    <f-rotation3>
+        <f-polyhedron3 scale="2" :shading="true" hedron="Icosahedron" />
+    </f-rotation3>
+</f-scene3>
+
+-
+
+## The icosahedron is a 20-faced polyhedron
+
+<div style="display: flex; width: 100%; height: 5rem">
+    <f-image src="./images/ico2.png" 
+    style="mix-blend-mode: screen; filter: invert(1); --image-size: contain; --image-position: center; width: 6rem" />
+    <f-image src="./images/ico1.png" 
+    style="mix-blend-mode: screen; filter: invert(1); --image-size: contain; --image-position: center; width: 15rem" />
+    <f-image src="./images/ico3.png" 
+    style="mix-blend-mode: screen; filter: invert(1); --image-size: contain; --image-position: center; width: 10rem" />
+</div>
+
+<br>
+
+When balanced on a point, the icosahedron can be understood as a "ring" of 10 triangular faces with a rosette of 5 faces above and another rosette of 5 below.
+
+http://mathworld.wolfram.com/Icosahedron.html
+
+https://www.flickr.com/photos/fdecomite/3604422381/in/photostream/
+
+https://www.halodesign.dk/brands/iq-light/?lang=en
+
+---
+
+| padding: 0
+| section: Who Discovered the Icosahedron?
+| theme: dark
+
+<section>
+
+## Who Discovered the Icosahedron?
+
+It has been suggested that the regular icosahedron is the first example of a geometrical object that was the free creation of human thought, not the result of observations in nature.
+
+WHY? HOW?
+
+</section>
+
+-
+
+<f-image src="./images/example3.jpg" style="--image-position: center" />
+
+---
+
+| padding: 0
+| section: Viruses
+| theme: dark
+| style: align-items: center
+
+<f-image src="./images/example4.png" style="--image-height: 100vh"/>
+
+-
+
+<section>
+
+## Viruses
+
+Icosahedrons can't be seen in nature with the naked eye. At microscopic scale things can be different - viruses can be of various geometric shapes, including icosahedra. This is a diagram of an Adenovirus.
+
+https://www.khanacademy.org/science/high-school-biology/hs-human-body-systems/hs-the-immune-system/a/intro-to-viruses
+
+https://viralzone.expasy.org/678
+
+</section>
+
+---
+
+| chapter: Making shapes
+| padding: 0
+| section: Scissors and glue
+
+<section>
+
+## Let's make a _polyhedra_ model!
+
+One way to make a _polyhedra_ model is by **folding** paper and glueing it together. To do that, you can:
+
+1. Print out a worksheet on a plain A3 paper
+
+   <a class="tertiary" href="./files/geometry_fold.pdf" style="margin-bottom: .8em"><f-download-icon /> Download</a>
+
+2. Cut out the layout of the polyhedra by following the continuous lines.
+
+3. Fold the polyhedra, line up the corresponding numbers and glue them together.
+
+</section>
+
+-
+
+<f-image src="./images/geometry_fold.png" style="--image-size: 110vh auto; --image-position: left" />
+
+---
+
 | section: The slide-together technique
 | padding: 0
 
 <section>
 
-## Discover the slide-together technique
+## ...or better yet, discover the _slide-together_ technique
 
-**...which uses a two-dimensional shape to create three-dimensional object**
+**which uses a two-dimensional shape to create a three-dimensional object**
 
-Nature has been called the greatest designer. Lets learn nature’s design process and create ourselves.How nature creates? **Repetition**, repeating patterns.
+Nature has been called the greatest designer. Lets learn nature’s design process and be creative ourselves. How does nature create? **Repetition**, repeating patterns.
 
-Geometric patterns are useful tool in graphic design, but not only. Geometric 3D models can give ideas for creating everyday domestic objects with beauty and character.
+Geometric patterns are a useful tool in graphic design, but not only. Geometric 3D models can give ideas for creating everyday domestic objects with beauty and character.
 
 **See**
 
@@ -50,33 +170,31 @@ http://archive.bridgesmathart.org/2017/bridges2017-63.pdf
 
 -
 
-<f-image src="./images/geometry_slidetogether.png" />
+<f-image src="./images/geometry_slidetogether.png" style="--image-size: 110vh auto; --image-position: left"/>
 
 ---
 
-| chapter: Making shapes
-| section: The polyhedra
 | padding: 0
 
 <section>
 
-## Make a modular polyhedra model...
+## Now let's make a <var>modular</var> polyhedra model...
 
-Make a modular polyhedra model from paper with **slide-together** technique.
+...using the **slide-together** technique:
 
-1. Print out worksheet on 160 g/m² A4 paper
+1. Print out a worksheet on 160 g/m² A4 paper
 
-<a class="tertiary" href="./files/geometry_slidetogether.pdf"><f-download-icon /> Download</a>
+   <a class="tertiary" href="./files/geometry_slidetogether.pdf" style="margin-bottom: .8em"><f-download-icon /> Download</a>
 
 2. Cut out 20 pieces of triangles with slits at the proper locations
 
-3. Slide triangles together
+3. Slide the triangles together
 
 </section>
 
 -
 
-<f-image src="./images/geometry_slidetogether.png" />
+<f-image src="./images/geometry_slidetogether.png" style="--image-size: 110vh auto; --image-position: left"/>
 
 <f-notes>
 
@@ -92,119 +210,30 @@ http://makingmathvisible.com/PaperTriangleBall/PaperTriangleBall.html
 
 ---
 
-| padding: 0
+| section: From geometry to feelings
+| padding: 0;
 
 <section>
 
-## ...or use scissors and glue
+## From geometry to <var>feelings</var> 😊
 
-Alternatively, make the polyhedra model by **folding** the paper and glueing it together.
-
-1. Print out worksheet on a plain A3 paper
-
-<a class="tertiary" href="./files/geometry_fold.pdf"><f-download-icon /> Download</a>
-
-2. Cut out the layout of the polyhedra by following the continuous lines.
-
-3. Fold the polyhedra, line up the corresponding numbers and glue them together.
+Alter the base triangle in a way that makes the composed structure express an emotion, by using curved or angular cuts, or whatever you come up with!
 
 </section>
 
 -
 
-<f-image src="./images/geometry_fold.png" />
+<f-image src="./images/photo1.jpg">
 
----
+<f-notes>
 
-| section: The icosahedron
+**_TRANSLATE_**
 
-| 1 1 2 2
-| 3 4 5 5
-| rows: 1fr auto
+Kolmnurgast saab slide-together tehnikaga luua ka teisi geomeetrilisi kujundeid...
 
-<f-image src="./images/ico1.png" style="--image-size: contain; --image-position: right"/>
+https://www.halodesign.dk/brands/iq-light/
 
--
-
-<f-image src="./images/ico2.png" style="--image-size: contain; --image-position: left"/>
-
--
-
--
-
-<f-image src="./images/ico3.png" style="--image-size: contain; --image-position: right top" />
-
--
-
-## The icosahedron is a 20-faced polyhedron
-
-When balanced on a point, the icosahedron can be understood as a "ring" of 10 triangular faces with a rosette of 5 faces above and another rosette of 5 below.
-
-When balanced on a point, the icosahedron can be understood as a "ring" of 10 triangular faces with a rosette of 5 faces above and another rosette of 5 below.
-
-http://mathworld.wolfram.com/Icosahedron.html
-
-https://www.flickr.com/photos/fdecomite/3604422381/in/photostream/
-
-https://www.halodesign.dk/brands/iq-light/?lang=en
-
----
-
-| padding: 0
-| chapter: History & examples
-| section: Who Discovered the Icosahedron?
-
-<section>
-
-## Who Discovered the Icosahedron?
-
-It has been suggested that the regular icosahedron is the first example of a geometrical object that was the free creation of human thought, not the result of observations in nature.
-
-WHY? HOW?
-
-</section>
-
--
-
-<img src="./images/example3.jpg" />
-
----
-
-| padding: 0
-| section: Viruses
-
-<section>
-
-## Viruses
-
-Icosahedron is not seen in nature human scale, only at microscopic scales for example the structure of virus can be icosahedral shape.
-
-This is diagram of an Adenovirus.
-
-https://www.khanacademy.org/science/high-school-biology/hs-human-body-systems/hs-the-immune-system/a/intro-to-viruses
-
-https://viralzone.expasy.org/678
-
-</section>
-
--
-
-<img src="./images/example4.png" />
-
----
-
-| section: Examples
-
-## History
-
-Twenty-sided die (icosahedron) with faces inscribed with Greek letters.
-Created: 2nd century B.C.–4th century A.D. Period: Ptolemaic Period–Roman Period
-
-https://www.georgehart.com/icosahedral/icosahedral.html
-
--
-
-<img src="./images/example2.jpg" />
+</f-notes>
 
 ---
 
@@ -215,9 +244,37 @@ https://www.georgehart.com/icosahedral/icosahedral.html
 
 <center>
 
-# Math model as a base for design
+<section>
+
+# Geometric models as a base for design
+
+Let's look at some examples of polyhedra in product design
+
+</section>
 
 </center>
+
+---
+
+| padding: 0
+| style: align-items: flex-end
+
+<section>
+
+_Twenty-sided die (icosahedron) with faces inscribed with Greek letters._
+
+<small>
+Created: 2nd century B.C.–4th century A.D. Period: Ptolemaic Period–Roman Period
+</small><br>
+<small>
+https://www.georgehart.com/icosahedral/icosahedral.html
+</small>
+
+</section>
+
+-
+
+<f-image src="./images/example2.jpg" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: -1; --image-height: 100%; --image-size: auto 100vh; --image-position: 90% bottom"/>
 
 ---
 
@@ -233,7 +290,7 @@ https://www.georgehart.com/icosahedral/icosahedral.html
 
 <section style="text-align: right">
 
-_This is Michiel Cornelissen 30 pencil icosahedron_
+_Michiel Cornelissen's 30 pencil icosahedron_
 
 <small>
 http://www.michielcornelissen.com/portfolio_page/30-pencil-icosahedron/'
@@ -246,42 +303,43 @@ https://www.amazon.ca/Ikea-Joxtrop-Renewable-Lampshade-Cardboard/dp/B01LXV2N2S
 
 ---
 
-| section: From geometry to feelings
+| theme: light
+| chapter: Math, design and feelings
+| section: Math model as a base for design
 
-## From geometry to feelings
+<center>
 
-Alter the base triangle in a way that makes the composed structure to have “feelings”
+<section>
 
-<f-arrow-icon size="4" />
+## Do you know any polyhedra-based design objects?
 
--
+Discuss!
 
----
+</section>
 
-| background: ./images/photo1.jpg
-
-<f-notes>
-
-**_TRANSLATE_**
-
-Kolmnurgast saab slide-together tehnikaga luua ka teisi geomeetrilisi kujundeid...
-
-https://www.halodesign.dk/brands/iq-light/
-
-</f-notes>
+</center>
 
 ---
 
 | chapter: Epilogue
 | section: Conclusion
+| padding: 0
 
-## Why hands and paper?
+<f-image src="./images/paper-creative-workshop-handmade.jpg">
 
-Alongside the new high-tech trend, it is just as important to experiment with your own hands. Thinking with hands will eventually lead us to a world of complex design and science.
+-
+
+<section>
+
+We are reaching the end of our short geometrical journey, but — ~_why use your hands and paper?_~ — may you ask.
+
+Alongside _high-tech trends_, it is just as important to experiment with your own hands. Using our hands will eventually lead us to a world of complex design and science.
 
 As in the digital world, there is no limit to hands-on method, moreover, expanding its boundaries is equally accessible to everyone.
 
-Let's start with paper, ordinary and available material.
+Let's start with **the humble sheet of paper**, an ordinary and available material.
+
+</section>
 
 ---
 
@@ -300,7 +358,6 @@ Let's start with paper, ordinary and available material.
 #### Other materials
 
 https://polyhedra.tessera.li/ by Nat Alison visualizes the entire family of polyhedra. Here is also a related [conference talk](https://www.youtube.com/watch?v=jhdJHBD9Fts) about her work.
-
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 

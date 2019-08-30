@@ -1,4 +1,5 @@
 | section: Introduction
+| padding: 0
 | theme: dark
 | rows: 1fr auto
 | 1 1 1 1 1 3 3 3
@@ -26,7 +27,11 @@
 </f-scene> 
 -->
 
+<!--
 <img src="./images/vinyl.png" style= "width: 45%; position: fixed; top: -40px; right: -10px; z-index: 0;">
+-->
+
+<section>
 
 <div style="position: relative">
 
@@ -65,6 +70,10 @@ This lesson is divided into three main sections:
 
 </f-notes>
 
+</section>
+
+<f-image src="./images/vinyl.png" />
+
 
 ---
 | id: second
@@ -77,7 +86,8 @@ This lesson is divided into three main sections:
 
 <center><div>
 
-### The tools you'll need
+ ### The tools you'll need
+
 <br>
 <f-next-button />
 
@@ -140,17 +150,18 @@ This lesson is divided into three main sections:
 
 <p />
 
-<f-icon-heading icon="fact" size="small">Discuss</f-icon-heading>
+<f-icon-heading icon="fact" size="small">*Discuss*</f-icon-heading>
 
-# What is frequency?
+## What is frequency?
 
 Watch the following videos and define frequency in your own words and describe all possible ways to experience it.
-<p0>
+
+<p>
+<br>
+
 <f-next-button />
 
-
 </section>
-
 
 -
 
@@ -187,6 +198,8 @@ Watch the following videos and define frequency in your own words and describe a
 <f-activity-icon />
 
 ### Time for first hands-on exercise
+
+<br>
 
 <f-next-button title="Start" />
 
@@ -235,9 +248,9 @@ You will find 6 template PDFs from the .zip file. In this exercise, you will nee
 
 </f-notes>
 
-<f-icon-heading icon="activity" size="small">You are now ready to make your own visual experiments!</f-icon-heading>
+<f-icon-heading icon="activity" size="small">*You are now ready to make your own visual experiments!* </f-icon-heading>
 
-# Make a spinning animation
+## Make a spinning animation
 
 -
 
@@ -289,7 +302,7 @@ You will find 6 template PDFs from the .zip file. In this exercise, you will nee
 | 2 3
 | 4 4
 
-# From spinning to frequency
+## From spinning to frequency
 
 -
 
@@ -301,14 +314,19 @@ As you might have noticed with your drawings in the correct order, to have a smo
 
 -
 
-><f-fact-icon size="small" /><small> *Both variables can be described as <var>[frequency](https://en.wikipedia.org/wiki/Frequency)</var> and can be expressed as <var>[sine waves](https://en.wikipedia.org/wiki/Sine_wave)</var>. Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.*</small>
+><small> *Both variables can be described as <var>[frequency](https://en.wikipedia.org/wiki/Frequency)</var> and can be expressed as <var>[sine waves](https://en.wikipedia.org/wiki/Sine_wave)</var>. Frequency is an important parameter used in science and engineering to specify the rate of a phenomenon.*</small>
 
 -
 
 <p>
 
 <f-fact-icon size="small" />
+
 <f-sidebar title="Later You'll learn what frequency means in waves">
+
+<div slot="content">
+
+
 
 <p />
 
@@ -469,6 +487,10 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
       
 </f-scene>
 
+</div>
+
+</f-sidebar>
+
 -
 
 <f-next-button />
@@ -507,12 +529,12 @@ The most common way to experience noticeable visual distortion<br>caused by freq
 | rows: auto auto 1fr
 | gap: 30px
 
-| 1 1 1 1 1 1
-| 2 2 2 3 3 3
-| 2 2 2 4 5 6
-| 0 0 0 0 7 7
+| 1 1 1 1 1 1 1
+| 2 2 2 3 3 3 3
+| 2 2 2 4 4 5 5
+| 2 2 2 0 0 6 6
 
-# What happened to the wheels?
+## What happened to the wheels?
 
 -
 
@@ -520,47 +542,52 @@ You just experienced a <var>[stroboscopic effect](https://en.wikipedia.org/wiki/
 
 <br>
 
-><f-fact-icon size="small" /><small> *In other words, the movie clip is just a frequent series of pictures (frames) played very quickly (movies usually have 24 fps) and the **wheels were rotating quickly enough not to be in sync in every frame**; this produces a natural visual impression of rotating wheel.*</small> 
+<!-- <f-fact-icon/> -->
+
+><small>*In other words, the movie clip is just a frequent series of pictures (frames) played very quickly (movies usually have 24 <var>FPS</var>) and the **wheels were rotating quickly enough not to be in sync in every frame;** this produces a natural visual impression of rotating wheel.*</small>
 
 -
 <div style= "width:81%">
 	<div style= "display:flex; align-items:center; justify-content:center; height:60%">
 		<img src="./images/frameRate.png">
 	</div>
-  
-<small>Without red dot, wheel appears to be rotating slowly backwards.</small>
+<br> 
+<caption>Without red dot, wheel appears to be rotating slowly backwards.</caption>
 </div>
--
-
-<small>.. and the same wheel animated *(slow and fast frame rate)*:</small>
 
 -
 
-<div style= "width:70%">
-	<div style= "display:flex; align-items:center; justify-content:center; height:90%">
+<div style= "width:33%">
+	<div style= "display:flex; align-items:center; justify-content:center; height:50%">
 		<img src="./images/wheel.gif">
 	</div>
 </div>
+<br>
+<caption>The same wheel animated 0.2 FPS</caption>
 
 -
 
-<div style= "width:70%">
-	<div style= "display:flex; align-items:center; justify-content:center; height:90%">
+<div style= "width:33%">
+	<div style= "display:flex; align-items:center; justify-content:center; height:50%">
     <img src="./images/wheelfast.gif">
 	</div>
 </div>
+<br>
+<caption>The same wheel animated 10 FPS</caption>
 
 -
 
-##### How does it work? Let’s set up an experiment in the next slide.
-
-<f-next-button title="Go" />
+**How does it work?** Let’s set up an experiment in the <f-link to="fifth">next slide.</f-link>
 
 ---
 
-# Can You freeze the spinning wheel?
+| id: fifth
 
-#### Adjust the wheel speed until the lines stop.
+## Can You freeze the spinning wheel?
+
+<div style="width: 73%">
+
+Adjust the wheel speed until the lines stop.
 
 Rotation speed is <var>{{ get('d', 800) }} milliseconds</var> per rotation.
 This is roughly <var>{{ get('d', 800) / 1000}} seconds</var>.
@@ -576,6 +603,8 @@ This is roughly <var>{{ get('d', 800) / 1000}} seconds</var>.
 
 <p /><br>
 
+</div>
+
 <f-fade v-if="get('d') == 0">
 
 Hey, this is cheating! The wheel has to have *some* speed :)
@@ -590,7 +619,8 @@ Almost there! Wait...does it seem to be moving?
 
 <f-fade v-if="get('d') == 1000">
 
-Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*? Let's move to the next step to figure it out.
+Great! So it takes exactly <var>1 second</var> to make the wheel stop.<br>*But why*? Let's move to the next step to figure it out.
+<br>
 
 <f-next-button />
 
@@ -624,11 +654,13 @@ Great! So it takes exactly <var>1 second</var> to make the wheel stop. *But why*
 
 ---
 
-# Make it stop, again
+## Make it stop, again
 
-#### Adjust the number of lines
+<div style="width: 73%">
 
-Now let’s keep the rotation constant, <var>1 second</var> per rotation, and adjust the number of lines to make it appear the wheel stops.
+Now, adjust the number of lines until the wheel doesn't move anymore. 
+
+The<var><f-link to="https://en.wikipedia.org/wiki/Rotational_speed">speed of revolution</f-link></var> is constantly 1 second per cycle.
 
 We have <var class="blue">{{ get('c') }} lines</var>
 
@@ -641,6 +673,8 @@ We have <var class="blue">{{ get('c') }} lines</var>
 />
 
 <p /><br>
+
+</div>
 
 <f-fade v-if="get('c') == 0">
 
@@ -663,7 +697,7 @@ Yes, it seemed to stop but this flicker is rather annoying. Can you do better?.
 
 <f-fade v-if="get('c') == 60">
 
-It stopped exactly at <var class="blue">60 lines</var>. *Why*? Let's figure it out in the next step.
+It stopped exactly at <var class="blue">60 lines</var>.<br>*Why*? Let's figure it out in the next step.
 
 <f-next-button />
 
@@ -710,10 +744,12 @@ Very good, it stopped! But can you do it with a smaller number of lines as well?
 
 ---
 
-# All together now
+## All together now
 
-#### Adjust *both* the rotation <var>speed</var> and the number of <var class="blue">lines</var> until the wheel stops.
+<div style="width: 77%">
 
+Adjust the rotation <var>speed</var> and the number of <var class="blue">lines</var> until the wheel stops.
+<br>
 Rotation speed is <var>{{ get('d2') }} ms</var> or<var> {{ get('d2') / 1000}} seconds</var> per rotation.
 
 <f-slider
@@ -734,6 +770,8 @@ We have <var class="blue">{{ get('c2', 60) }} lines</var>
   integer
   title=""
 />
+
+</div>
 
 <p /><br>
 
@@ -785,9 +823,11 @@ The lines *never stopped*. They are moving *right now*.
 
 ---
 
-# Illusion of cinema
+## Illusion of cinema
 
-~By replacing <var class="blue">lines</var> with <var class="blue">image frames</var> we created the most basic cinema projector.~
+<div style="width: 73%">
+
+><small>*By replacing <var class="blue">lines</var> with <var class="blue">image frames</var> we create the most basic cinema projector, which is similar to the pre-cinema animation device called <var><f-link to="https://en.wikipedia.org/wiki/Phenakistiscope">phenakistiscope</f-link></var>*</small>
 
 Rotation speed is <var>{{ get('d3') }} ms</var> or<var> {{ get('d3') / 1000}} seconds</var> per rotation.
 
@@ -797,7 +837,7 @@ Rotation speed is <var>{{ get('d3') }} ms</var> or<var> {{ get('d3') / 1000}} se
   to="2000"
   step="10"
   integer
-  title=""
+ title=""
 />
 
 We have <var class="blue">{{ get('c3', 60) }} image frames</var>
@@ -810,16 +850,13 @@ We have <var class="blue">{{ get('c3', 60) }} image frames</var>
   integer
   title=""
 />
+</div>
 
 <p /><br>
 
-You have just completed all the steps required to experience visual distortion virtually on your screen. The same phenomenon occurred in the movie clip with wagon wheels. 
-
-><f-fact-icon size="small" /><small> To find visually interesting morphs, play with the *rotational speed* and the *number of elements* around the circle. <br />Remember, capturing animation with a camera will add a new variable to the equation – the <var>frame rate</var>.</small>
-
-<p0>
-
-<f-next-button />
+You have just completed all the steps required to experience visual distortion virtually on your screen. The same phenomenon occurred in the movie clip with wagon wheels. <br>
+<f-fact-icon size="small" /><small> To find visually interesting morphs, play with the *rotational speed* and the *number of elements* around the circle. Remember, capturing animation with a camera will add a new variable to the equation – the <var>frame rate</var>.</small>
+<br><f-next-button />
 
 </div>
 
@@ -857,7 +894,7 @@ Let's have a 3 minute break before the next hands-on exercise.
 <br>
 <p />
 
-<f-next-button title="Go" />
+<f-next-button title="Watch" />
 
 </div><center>
 
@@ -904,13 +941,13 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 
 </f-notes>
 
-<f-icon-heading icon="activity" size="small">Let's now observe our experiment through the lens of a camera!</f-icon-heading>
+<f-icon-heading icon="activity" size="small">*Let's now observe our experiment through the lens of a camera!*</f-icon-heading>
 
-# Make a spinning animation II
+## Make a spinning animation II
 
 <div style="width: 63%">
 
-><f-fact-icon size="small" /><small> *When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless <var>animation.</var>*</small>
+><small> *When the shutter speed of the camera syncs up with the speed of the turntable, You'll notice how frames will blend together into a seamless <var>animation.</var>*</small>
 
 </div>
 
@@ -976,7 +1013,6 @@ Students have to find the precise spinning speed to demonstrate the effect throu
 | section: Frequency as a Wave
 
 | 1 1 3 3 3 3
-| 4 4 3 3 3 3
 | 4 4 2 2 0 0
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
@@ -989,13 +1025,13 @@ On a sinusoidal wave time lapses from left to right on the horizontal axis. The 
 
 </f-notes>
 
-# Frequency as a wave
+<f-icon-heading icon="activity" size="small">*Explore and discuss*</f-icon-heading>
+
+## Frequency as a wave
 
 After exploring spinning frequency and frame rate, let's define frequency as form of <var>wave</var>. The most common waveform might be the <var><f-link to="https://pudding.cool/2018/02/waveforms/">soundwave</f-link></var> but it can also represent <var><a href="../colorblindness">color</a></var> or movement.
 
 -
-
-<br>
 
 ### Explore the waveform
 
@@ -1155,16 +1191,15 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
       :y1="Math.sin((get('a') * 2) - Math.PI)"
       :y2="Math.sin((get('a') * 2) - Math.PI)"
     />
-   
+  
 </f-scene>
 
 -
 
-<p/>
+### *Discuss*
+1. *What are your findings regarding different shapes of waves?* <br>
 
-<f-icon-heading icon="activity">Discuss</f-icon-heading>
-1. What are you findings regarding different shapes of waves? <br>
-2. How can frequency be interpreted in other visual ways? 
+2. *How can frequency be interpreted in other visual ways?* 
 
 <br>
 <p/>
@@ -1178,20 +1213,19 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 | 1 2
 | 1 3
 
-<f-icon-heading icon="activity" size="small">Create and present an animation</f-icon-heading>
+<f-icon-heading icon="activity" size="small">*Create and present an animation*</f-icon-heading>
 
-# Final project
+## Final project
 
-As a final task, you will record an analog animation using rotational movement. You can visualize abstract morphing or use a more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve a visually attractive outcome. 
-</p>
-<br>
+As a final task, you will record an analog animation using rotational movement. You can visualize abstract morphing or use a more illustrative style for the animation. Experiment and use your knowledge gathered from previous exercises to achieve a visually attractive outcome.
 
-<f-icon-heading icon="activity" >Show & Discuss</f-icon-heading> 
-1. Present your recorded animation to the class. 
-<br></p>
-2. What constraints did you experience during the process?
-<br></p>
-3. Which variable (e.g. frame rate, speed of the rotating device, spokes) was the most critical part in your animation?
+### *Show & Discuss*
+
+1. *Present your recorded animation to the class.*
+
+2. *What constraints did you experience during the process?*
+
+3. *Which variable (e.g. frame rate, speed of the rotating device, spokes) was the most critical part in your animation?*
 
 <f-notes class-name="tertiary" width="50vw" style="--base: 9px">
 
@@ -1228,12 +1262,12 @@ The teacher can decide how complex the pathway should be to take, depending on t
 
 ## Wrapping up
 
-##### Related DesignSTEM projects:
+##### *Related DesignSTEM projects:*
 
 <a href="https://designstem.github.io/scenarios/colorblindness/">Color Vision Deficiency & Accessibility</a>
 <small>How to design information for people whose colour perception is impaired.</small>
 
-##### Other materials:
+##### *Other materials:*
 
 <a href="https://pudding.cool/2018/02/waveforms/">Let's Learn About Waveforms</a> by Josh Comeau.
 <small>This interactive guide introduces and explores waveforms.</small>
