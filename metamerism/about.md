@@ -4,5 +4,4 @@
 
 ### Motivation
 
-> As I am curious about experimenting with new technology and also creating something from scratch the combination of color perception 
-with virtual reality environments offered the opportunity to do something completely new.
+> As I am curious about experimenting with new technology and also creating something from scratch the combination of color perception with virtual reality environments offered the opportunity to do something completely new.
