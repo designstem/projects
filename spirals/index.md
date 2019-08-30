@@ -128,7 +128,8 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
 | theme: light
 | 1 1 1 
-| 2 3 4 
+| 2 3 4
+| 5 5 5
 | rows: auto
 
 ***TASK*** <f-activity-icon />
@@ -153,6 +154,10 @@ Demo on Fibonacci Sequence Spirals in Nature – The Golden Ratio
 
 Why Are Most Galaxies Spiral-Shaped?
 
+-
+
+<f-next-button />
+
 ---
 
 
@@ -163,6 +168,8 @@ Why Are Most Galaxies Spiral-Shaped?
 
 
 | rows: auto
+| 1 2
+| 3 2
 
 <!-- 2. Working with spirals -->
 ## Practicing in Spreadsheets
@@ -171,9 +178,6 @@ Here, you will be able to draw different Archimedean spiral shapes using an Exce
 
 You can download the Excel spreadsheet here: [Spiral Shape in Excel](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral-shape-in-excel1.xls) (XSL)
 
-<br>
-
-<f-next-button />
 
 -
 
@@ -188,14 +192,17 @@ You can download the Excel spreadsheet here: [Spiral Shape in Excel](https://spi
 
 </div>
 
+-
 
-
-
-
-
-
+<f-next-button />
 
 ---
+
+
+
+
+
+
 
 | rows: auto 
 | cols: 3fr 2fr
@@ -251,10 +258,9 @@ Screw:    <f-link to="https://www.geogebra.org/m/pdrtw9uv">geogebra.org/m/pdrtw9
 
 
 
-
-| 1 
-| 2
-| 3 
+| 4 4
+| 1 2
+| 3 3
 
 
 ## <f-activity-icon /> Task 1
@@ -275,9 +281,9 @@ Start practicing in creating 3D spirals, following the instructions of the <f-li
 
 <f-next-button />
 
+-
+
 ---
-
-
 
 
 
@@ -325,7 +331,7 @@ Start practicing in creating 3D spirals, following the instructions of the <f-li
 
 <!-- 3. Background -->
 
-
+| cols: 3fr 2fr
 | 1 3
 | 2 3
 | 4 4
@@ -353,7 +359,7 @@ This equation states that **the square of the hypotenuse** (the side opposite th
 -
 
 <div style="position:sticky; top:0;">
-  <f-scene responsive style="max-width:700px;">
+  <f-scene responsive style="max-width:600px;">
     <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
       markerWidth="5" markerHeight="5"
@@ -361,17 +367,19 @@ This equation states that **the square of the hypotenuse** (the side opposite th
         <path d="M 0 0 L 10 5 L 0 10 z" />
     </marker>
     </defs>
-    <f-arc position="-1.5 -1" start-angle="90" end-angle="130" r="0.4" inner-radius="0.4" stroke-width="2" />
-    <f-line points="-1.5 -1, 1 -1"  :stroke="color('green')" />
-    <f-line points="1 -1, 1  1"     :stroke="color('blue')" />
-    <f-line points="1 1, -1.5 -1"     :stroke="color('red')" />
-    <f-box r="0.2" position="0.9 -0.9" strokeWidth="2" />
-    <polyline points="-1.05,-0.85 0.85,-0.1" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
-    <polyline points="0.9,-0.9 -0.2,-0.1" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
-    <f-text :fill="color('red')" position="-0.6 0.5">Hypotenuse:c</f-text>
-    <f-text :fill="color('green')" position="-0.2 -1.3">Adjascent:a</f-text>
-    <f-text :fill="color('blue')" position="1.3 0" rotation="90">Opposite:b</f-text>
-    <f-text position="-1.5 -0.8" style="font-size:120%">θ</f-text>
+    <f-group position="0.4 0">
+      <f-arc position="-1.5 -1" start-angle="90" end-angle="130" r="0.4" inner-radius="0.4" stroke-width="2" />
+      <f-line points="-1.5 -1, 1 -1"  :stroke="color('green')" />
+      <f-line points="1 -1, 1  1"     :stroke="color('blue')" />
+      <f-line points="1 1, -1.5 -1"     :stroke="color('red')" />
+      <f-box r="0.2" position="0.9 -0.9" strokeWidth="2" />
+      <polyline points="-1.05,-0.85 0.85,-0.1" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
+      <polyline points="0.9,-0.9 -0.2,-0.1" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
+      <f-text :fill="color('red')" position="-0.6 0.5">Hypotenuse:c</f-text>
+      <f-text :fill="color('green')" position="-0.2 -1.3">Adjascent:a</f-text>
+      <f-text :fill="color('blue')" position="1.3 0" rotation="90">Opposite:b</f-text>
+      <f-text position="-1.5 -0.8" style="font-size:120%">θ</f-text>
+    </f-group>
   </f-scene>
 </div>
 
@@ -385,6 +393,7 @@ This equation states that **the square of the hypotenuse** (the side opposite th
 
 
 
+| cols: 3fr 2fr
 | 1 2
 | 3 4
 | 5 5
@@ -408,7 +417,7 @@ By applying the Pythagorean equation to the trigonometric ratios derives that, f
 -
 
 <div style="position:sticky; top:0;">
-  <f-scene responsive style="max-width:700px;">
+  <f-scene responsive style="max-width:600px;">
     <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
       markerWidth="5" markerHeight="5"
@@ -459,7 +468,7 @@ Moreover,
 -
 
 <div style="position:sticky; top:0;">
-  <f-scene responsive style="max-width:600px;">
+  <f-scene responsive style="max-width:550px;">
     <f-arc position="-1.5 -1" start-angle="90" end-angle="125" r="0.4" inner-radius="0.4" stroke-width="2" />
     <f-line points="-1.5 -1, 1.5 -1"  :stroke="color('green')" />
     <f-line points="1.5 -1, 1.5  1.25"     :stroke="color('blue')" />
@@ -536,6 +545,7 @@ However, in many cases such that of drawing a spiral, a different expression is 
 
 
 
+| cols: 3fr 2fr
 | 1 1
 | 2 3
 | 4 3
@@ -569,7 +579,7 @@ Indeed
 
 -
 
-<f-scene responsive style="position:sticky; top:25vh; max-width:700px;">
+<f-scene responsive style="position:sticky; top:25vh; max-width:600px;">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
       markerWidth="5" markerHeight="5"
@@ -605,8 +615,7 @@ Indeed
 
 Following the previous example, assume now that the point A is known by its polar coordinates (5, 53.06°). Its Cartesian coordinates derive by applying the trigonometric ratios cos() and sin() as follows.
 
-<f-math>cos(θ) = \frac{\color{blue}x}{\color{red}r}</f-math><f-math>{\color{blue}x} = {\color{red}r} \cdot cos(θ) = {\color{red}5} \cdot cos(53.06\degree) = {\color{red}5} \cdot 0.6 = \color{blue}3</f-math>
-<f-math>sin(θ) = \frac{\color{green}y}{\color{red}r}</f-math><f-math>{\color{green}y} = {\color{red}r} \cdot sin(θ) = {\color{red}5} \cdot sin(53.06\degree) = {\color{red}5} \cdot 0.8 = \color{green}4</f-math>
+<f-math>cos(θ) = \frac{\color{blue}x}{\color{red}r}</f-math><f-math>{\color{blue}x} = {\color{red}r} \cdot cos(θ) = {\color{red}5} \cdot cos(53.06\degree) = {\color{red}5} \cdot 0.6 = \color{blue}3</f-math><f-math>sin(θ) = \frac{\color{green}y}{\color{red}r}</f-math><f-math>{\color{green}y} = {\color{red}r} \cdot sin(θ) = {\color{red}5} \cdot sin(53.06\degree) = {\color{red}5} \cdot 0.8 = \color{green}4</f-math>
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq10.jpg) -->
 
@@ -651,11 +660,11 @@ Following the previous example, assume now that the point A is known by its pola
 
 
 
-
-| 1 1
-| 2 4
-| 3 5
-| 6 6
+| cols: 2fr 1fr 2fr
+| 1 1 1
+| 2 4 5
+| 3 4 5
+| 6 6 6
 
 
 
@@ -681,7 +690,7 @@ Now, image what happens if the angle θ gradually increases from the zero degree
 
 <f-slider set="circleProgress" value="0" to="360" title="θ" />
 
-<f-scene grid responsive style="max-width:400px;">
+<f-scene grid responsive style="max-width:600px;">
   <f-circle r="1.5" strokeWidth="1" :stroke="color('blue')" />
   <f-group rotation="90">
     <!-- <f-line :points="[[0,0], polarxy(get('circleProgress'),1.5) ]" /> -->
@@ -807,101 +816,88 @@ Based on the above equations, any flat, 2D Archimedian spiral can be drawn if th
 
 ## Equations of 3D spirals
 
-The equations of  a 3D spiral or helix are similar to those presented above.
+The equations of a 3D spiral or helix are similar to those presented above.
 
 In three dimensions we assume that a third axis z denoting the height is added to the plane. For that new axis and the two horizontal x, y , the equations are as follows:
 
-![](https://spiralsdesignstem.files.wordpress.com/2018/10/eq121.jpg?w=300&h=148)
 
-In the above equations, **R** represents the radius of the cycle in the plane X-Y  and t varies between 0 and 2π in the  right-hand direction full cycle. The factor **c** is constant so the value **2πc** to denote the vertical separation of the helix’s loop.
+<f-math>x = R \cdot cos(t)</f-math><f-math>y = R \cdot sin(t)</f-math><f-math>r = c \cdot t</f-math><f-math>t = 0...2\pi = 0...360\degree</f-math>
 
-Next figure presents  the shape of a helix  drawn in the three dimensions.
+<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/10/eq121.jpg?w=300&h=148) -->
+
+In the above equations, <var>R</var> represents the radius of the cycle in the plane X-Y and <var>t</var> varies between 0 and 2π in the right-hand direction full cycle. The factor <var>c</var> is constant so the value **2πc** to denote the vertical separation of the helix’s loop.
+
+Next figure presents the shape of a helix  drawn in the three dimensions.
+
+-
 
 ![](https://spiralsdesignstem.files.wordpress.com/2018/10/spiral3d.jpg?w=287&h=300)
 
-
-<!-- 4. 3D Models -->
-
-# 3D Models
-
-Three-dimensional (3D) modeling is the process of developing a mathematical representation of any surface of an object in three dimensions via specialized software. The final product is called a 3D model.
-
-3D models represent a physical body using a collection of points in 3D spaces, connected by various geometric entities such as triangles, lines, curved surfaces, etc. 3D models can be created by hand, algorithmically (procedural modeling), or scanned. A 3D model can also be physically created using 3D printing devices.
-
-To produce 3D models, 3D modeling software is used. Examples are displayed in following sections.
-
-<f-notes title="Source">
-
-**TODO ERIK: Can we just copy Wikipedia?***
-
-[https://en.wikipedia.org/wiki/3D\_modeling](https://en.wikipedia.org/wiki/3D_modeling)
-
-</f-notes>
-
 ---
 
-# 3D Design Software
 
-In this section, we present some of the 3D design software tools that can be used to create 3D objects, including spirals.
 
-## TinkerCad
-    
-TinkerCad is a free online collection of software tools that people can use in order to design 3D objects. More specifically, they can place objects, adjust them or make combinations of objects and also design 3D objects by using code. Furthermore, it offers the option of exporting in STL or SVG file formats for 3D printing or laser cutting.
 
-![Tinkercad-by-Autodesk](https://spiralsdesignstem.files.wordpress.com/2018/09/tinkercad-by-autodesk.jpg?w=129&h=129)
 
-Source: [www.tinkercad.com](http://www.tinkercad.com)
+| 1 1
+| 2 3
+| 4 3
 
-## Blender
-    
-Blender a free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation. It is fully customizable and can also offer Python scripting for advanced users. It can be used it for 3D design after a short installation process in PC devices and produce STL file formats for further 3D Printing use.
-
-![blenderlogosocket](https://spiralsdesignstem.files.wordpress.com/2018/09/blenderlogosocket.png?w=284&h=91)
-
-Source: [www.blender.org](http://www.blender.org)
-
-## SketchUp
-    
-SketchUp is a 3D modelling software program that can be used for a wide range of drawing applications and for the production of a variety of 3D objects. It is available as a free web-based application (SketchUp Free), as well as a freeware (SketchUp Make) or paid (SketchUp Pro) version that require installation on a PC device.
-
-![Sketchup_logo](https://spiralsdesignstem.files.wordpress.com/2018/09/sketchup_logo.png?w=234&h=51)
-
-Source: [www.sketchup.com](http://www.sketchup.com)
-
----
-
-# 3D Design
+## 3D Design
 
 In this section you can use a 3D Design software to produce objects relevant to spirals or search the internet to find 3D Models online.
 
-##  Find objects online
+-
+
+#### Find objects online
 
 You can find and download 3D Models by visiting the webpages below:
 
-* [https://www.thingiverse.com/](https://www.thingiverse.com/)
-* [https://www.youmagine.com/](https://www.youmagine.com/)
+* <f-link to="https://www.thingiverse.com/">www.thingiverse.com</f-link>
+* <f-link to="https://www.youmagine.com/">www.youmagine.com</f-link>
 
-***TASK***
+**Find a 3D Model you like by visiting the above websites.**
 
-Find a 3D Model you like by visiting the above websites.
+1. Download the files of the 3D Model you selected.
+2. Extract the .zip file of the 3D Model after you download it.
+3. What are the files extensions?
+4. Are these extensions known to you?
+5. What the .stl file stands for?
 
-*   Download the files of the 3D Model you selected.
+-
 
-*   Extract the .zip file of the 3D Model after you download it.
+#### Design your own objects
 
-*   What are the files extensions?
+Use the online **Tinkercad software**, available at: <f-link to="http://www.tinkercad.com">www.tinkercad.com</f-link> and try to complete the tasks of the following **worksheets.**
 
-*   Are these extensions known to you?
+<f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-1.pdf">Worksheet 1</f-link> – Create a simple 3D Spiral Shape – Clockspring
 
-*   What the .stl file stands for?
+<f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-2.pdf">Worksheet 2</f-slide> – Implement a 2D Spiral shape and transform it into a 3D Spiral Shape
+
+<f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-3.pdf">Worksheet 3</f-link> – Create a simple Screw with Spiral Shapes
+
+<f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-4.pdf">Worksheet 4</f-link> – Create a Helical Compression Spring
+
+
+-
+
+<f-next-button />
+
 
 ---
 
-# Design your own objects
+
+
+
+
+
+
+
+## Design your own objects
 
 ***TASK*** 
 
-Use the online **Tinkercad software**, available at: [http://www.tinkercad.com, ](http://www.tinkercad.com, ) and try to complete the tasks of the following **worksheets.**
+Use the online **Tinkercad software**, available at: <f-link to="http://www.tinkercad.com">www.tinkercad.com</f-link> and try to complete the tasks of the following **worksheets.**
 
 [Worksheet 1 – Create a simple 3D Spiral Shape – Clockspring](https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-1.pdf "Worksheet 1")
 
