@@ -281,7 +281,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 | id: cb-analyze
 | rows: auto
 | cols: 2fr 3fr
-| 1 1
+| 1 3
 | 2 3
 
 ## Analyze results
@@ -300,7 +300,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 -
 
-<f-image src="images/cvd_detective.jpg" />
+<f-image src="images/cvd_glasses.jpg" />
 
 ---
 
@@ -329,8 +329,8 @@ You can work through the stations in the given order which is recommended if you
 - ~<a href="#" v-on:click="goto('cb-the-eye')">The eye</a>~
 - ~<a href="#" v-on:click="goto('cb-cvd1')">Color vision deficiency</a>~
 - ~<a href="#" v-on:click="goto('cb-color-mixing')">Subtractive and additive color mixing</a>~
-- ~<a href="#" v-on:click="goto('cb-color-models')">Three dimensions of color (color space models)</a>~
-- ~<a href="#" v-on:click="goto('cb-contrast')">Color contrast and color harmony theory</a>~
+- ~<a href="#" v-on:click="goto('cb-3-properties')">Three dimensions of color (color space models)</a>~
+- ~<a href="#" v-on:click="goto('cb-contrast-and-harmony')">Color contrast and color harmony theory</a>~
 - ~<a href="#" v-on:click="goto('cb-palettes')">Design rules for creating color palettes</a>~
 
 -

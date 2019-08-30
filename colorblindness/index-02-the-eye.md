@@ -1,5 +1,6 @@
 | chapter: The eye
 | section: The eye
+| id: cb-the-eye
 | rows: auto
 | cols: 2fr 3fr
 | 1 1
