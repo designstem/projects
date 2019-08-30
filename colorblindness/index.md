@@ -300,7 +300,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 -
 
-<f-image src="images/cvd_detective.jpg" />
+<f-image src="images/cvd_glasses.jpg" />
 
 ---
 
