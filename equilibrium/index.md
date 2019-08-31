@@ -46,6 +46,7 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 <br>
 
 ~When you found out about the properties of plastics' floating behaviour, continue your journey through the workshop:~
+
 <f-next-button />
 
 -
@@ -119,15 +120,16 @@ TASK
 3. ~Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.~
 4. ~Discuss your ideas in class. Is it very difficult to be eco friendly?~
 
+<br>
+
+<f-next-button />
+
 <f-notes title="Credits">
 
 https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
 
 </notes>
 
-<br>
-
-<f-next-button />
 
 -
 
@@ -159,9 +161,9 @@ So plastic can also be used to make you walk on water, <a href="https://christoj
 
 #### TASKS
 
-1. ~What are your feelings about this installation?~
+1. ~What are your feelings about this installation? Is it interesting, beautiful or even stupid and redundant? Find out about the artists' reasons for creating it.~
 
-2. ~Which physical laws are used in this example to keep the piers floating even when people walked on them? **Focus on the following two terms** and find out what they mean. Note down your results:~
+2. ~Which physical laws are used in this example to keep the piers floating even when people walked on them? **Focus on the following two terms** and find out what they mean. Write down your results:~
 
 - <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a>
 
@@ -290,12 +292,6 @@ Compare the total mass of water that sinks the boat, to the mass of water that f
 
 3. Can it float when stressed with more weight, or with movements or even if it is distorted from its original shape?
 
-
-#### TASK
-
-~Think of alternative uses for this project. Where would it be handy to create floating objects out of used plastic objects? Could this be used with a benefit in product design or in developing countries?~
-
-
 <br>
 
 <f-next-button />
@@ -307,6 +303,35 @@ Compare the total mass of water that sinks the boat, to the mass of water that f
 https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3ASearch&go=Go&ns0=1&ns6=1&ns12=1&ns14=1&ns100=1&ns106=1#/media/File:Floating_Piers_%E2%80%93_San_Paolo.jpg
 
 </f-notes>
+
+---
+
+| section: Bad and good news
+| padding: 0
+| rows: auto
+| 1 2
+
+<section>
+
+## Think further! 🧐
+
+#### TASKS
+
+~Think of alternative uses for this project.~
+~Where would it be handy to create floating objects out of used plastic objects?~
+~Could this be useful in product design or even in developing countries, where, sadly, a lot of our plastic waste ends up?~
+
+<br>
+
+~See for example the following project where Alfredo Moser from Brazil invented a way to make lives (literally) brighter by repurposing used plastic bottles:~
+<br><a href="https://en.wikipedia.org/wiki/Liter_of_Light" target="_new">Liter of light</a>.
+
+-
+
+
+<f-image src="./images/equilibrium_literoflight.jpg" />
+
+
 
 ---
 
