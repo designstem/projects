@@ -685,11 +685,11 @@ Assume that a point is described by its polar coordinates (r, θ). Remember that
 
 -
 
-Now, image what happens if the angle θ gradually increases from the zero degrees (θ=0º) to θ=90º and then to θ=180º up to θ=360º. If the radius *r* remains constant, the corresponding point, will move along the blue circle. This is the basic movement to produce a circular shape.
+Now, image what happens if the angle θ gradually increases from the zero degrees (θ=0º) to θ=90º and then to θ=180º up to θ=360º. If the radius *r* remains constant, the corresponding point will move along the blue circle. This is the basic movement to produce a circular shape.
 
 -
 
-Lets try to simulate this situation:
+Lets simulate this:
 
 <f-slider set="circleProgress" value="0" to="360" title="θ" />
 
@@ -903,7 +903,7 @@ You can find and download 3D Models by visiting the webpages below:
 
 #### Design your own objects
 
-Use the online **Tinkercad software**, available at: <f-link to="http://www.tinkercad.com">www.tinkercad.com</f-link> and try to complete the tasks of the following **worksheets.** (pdf)
+Use the online **Tinkercad software**, available at: <f-link to="http://www.tinkercad.com">www.tinkercad.com</f-link> and try to complete the tasks of the following pdf worksheets.
 
 <f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-1.pdf">Worksheet 1</f-link> – Create a simple 3D Spiral Shape – Clockspring
 
@@ -913,18 +913,16 @@ Use the online **Tinkercad software**, available at: <f-link to="http://www.tink
 
 <f-link to="https://spiralsdesignstem.files.wordpress.com/2018/09/worksheet-4.pdf">Worksheet 4</f-link> – Create a Helical Compression Spring
 
-
 -
 
 <f-next-button />
-
 
 ---
 
 
 
 
-
+<!-- 
 
 ## 3D Printing Gallery
 
@@ -976,9 +974,11 @@ Use the online **Tinkercad software**, available at: <f-link to="http://www.tink
 
 [![Ultimakersample_node1](https://spiralsdesignstem.files.wordpress.com/2018/09/ultimakersample_node1.jpg?w=121&h=121&crop=1 "Ultimakersample_node1")](https://spiralsdesignstem.wordpress.com/ultimakersample_node1/) 
 
-</div>
+</div> -->
 
----
+
+
+
 
 | 1 1 
 | 2 3
