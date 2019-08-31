@@ -41,14 +41,24 @@ Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
 
 ## History of human made packages
 
-1. Packages evolution is strongly related to human history. Watch the video overview.
+1. The evolution of packaging is strongly related to human history. Watch the following video:
 
   <details>
     <summary>Watch the video overview</summary>
     <f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
   </details>
 
-2. Look for packages around you and find differences between them
+2. Look for packaging around you and find differences between them regarding their shape. 
+
+3. Take pictures of these packagings for future reference.
+
+<br>
+
+
+<f-next-button />
+
+
+
 
 ---
 
