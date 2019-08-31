@@ -5,9 +5,9 @@
 | 1 3
 | 2 3
 
-# <big style="color: var(--darkblue)">Equilibrium</big>
+# <big style="color: var(--darkblue)">Equilibrium & Plastic</big>
 
-<big style="color: var(--darkblue)">Finding out about natural equilibrium and floating equilibrium</big>
+<big style="color: var(--darkblue)">Finding out about natural equilibrium, floating equilibrium and plastic pollution.</big>
 
 -
 
