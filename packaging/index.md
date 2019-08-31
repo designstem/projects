@@ -7,6 +7,7 @@
 | rows: auto
 
 <section>
+	
 # Of Bees and Packaging
 
 <big style="line-height: 1.75em"><big>How to optimize packaging,<br>reduce excess space<br>and avoid material waste</big></big>
@@ -148,7 +149,7 @@ On the right, you can see an X-Ray of a cocoa package, showing the amount of pro
 ### Costly packaging
 
 Sometimes the value of the package is higher than the value of the product itself, depending on the material in use and the further processing to make the product look more valuable.
-<f-arrow-icon /> ~**Find other examples!**~
+<f-arrow-icon /> ~***Find other examples!***~
 
 -
 
@@ -159,7 +160,7 @@ Sometimes the value of the package is higher than the value of the product itsel
 ### Precious packaging
 
 Sometimes the package is part of the value, like with perfume bottles. Some people even collect them. Walk through a perfume store and look at the different and extraordinary shapes. No one would put so much effort into designing bottles, if it wasn't what the customer wanted.
-<f-arrow-icon /> ~**Which other examples for precious packaging can you find?**~
+<f-arrow-icon /> ~***Which other examples for precious packaging can you find?***~
 
 -
 
@@ -171,7 +172,7 @@ Sometimes the package is part of the value, like with perfume bottles. Some peop
 
  Reducing packaging is an ethic mission &ndash; **always**! And it is getting out of hand, because one product can be wrapped multiple times, e.g. cornflakes. They are wrapped in a plastic bag, inside a cardboard box.
 
-<f-arrow-icon /> ~**Find other examples for multiple times wrapped products. What is the purpose?**~
+<f-arrow-icon /> ~***Find other examples for multiple times wrapped products. What is the purpose?***~
 
 
 <br>
@@ -635,7 +636,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 ## <f-activity-icon /> Design your own packaging!
 
-~Now that you've learned so much about packaging, it's time that you design one yourself. Choose one of the following two tasks:~
+~Now that you've learned so much about packaging, it's time that you design one yourself. Choose one of the following three tasks:~
 
 #### TASK A
 
@@ -678,7 +679,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 -
 
-<f-image src="./images/hazeline.jpg" />
+<f-image src="./images/bees_eggs.jpg" />
 
 <!--
 **Remember:** You have learned how to optimize your packaging to reduce costs and waste, apply your knowledge to this problem
