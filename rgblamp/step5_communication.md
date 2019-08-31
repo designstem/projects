@@ -18,7 +18,21 @@
 
 # Communication
 
-To complete your project, communicate your results to others in a final report and/or a display board. Professional engineers always do the same, thoroughly documenting their solutions so that they can be manufactured and supported. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+~**Now it is time to complete your project!**~ 🧐
+
+#### TASKS
+
+1. ~Build a complete prototype, i.e. combine your lamp shade with your RGB lamp!~
+2. ~Write a short essay, documenting your design process and explaining your design choices.~
+3. ~Be prepared to present your results!~
+
+<br>
+
+Professional engineers always do the same, thoroughly documenting their solutions so that they can be manufactured and supported.<f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+
+<br>
+
+<f-next-button />
 
 -
 
@@ -32,17 +46,23 @@ To complete your project, communicate your results to others in a final report a
 
 -
 
-Remember [Philips hue](https://www2.meethue.com/en-us) commercial? Watch it again but not notice how the product is **communicted**.
+Remember the [Philips hue](https://www2.meethue.com/en-us) commercial? Watch it again but focus on how the product is **communicated**. Try to answer the following questions:
 
-<span class="bullet">?</span> Who are promoting the product?
+1. ~Who promotes the product?~
   
-<span class="bullet">?</span> How the music is used?
+2. ~How is the music is used?~
 
-<span class="bullet">?</span> How often you see the actual product and the app controlling it?
+3. ~How often do you see the actual product and the app controlling it?~
 
-<span class="bullet">?</span> And most important: **how does it make you feel**?
+4. ~And most important: **How does the commercial make you feel**?~
 
-All these questions are the core of <var>marketing</var>, the art of selling you not just a product but also a feeling.
+All these questions are the core of <var>marketing</var>, the art of selling not just a product, but also a feeling!
+**Keep in mind, what you just learned! You will need it on the next page!**
+
+
+<br>
+
+<f-next-button />
 
 -
 
@@ -56,16 +76,26 @@ All these questions are the core of <var>marketing</var>, the art of selling you
 
 <caption>Assignment</caption>
 
-##  Make your presentation
+##  Prepare your presentation
 
 -
 
-#### Key questions
+In order to give a good presentation, you need to think like someone from marketing. How will you make people interested in what you did? Follow the questions below, to help you prepare your presentation:
 
-1. Who is our ideal customer?
-2. How can we best add value to that customer's life?
-3. How can we articulate that value to the customer in 15 words or less?
-4. Why are we better than the alternatives?
+#### TASKS
+
+1. Describe your ideal customer.
+2. In which way, does your product add value to the customer's life?
+3. How can you articulate this value to the customer in 15 words or less? Can you put it in just one slogan?
+4. Why is your idea better than the alternatives?
+
+<br>
+~Create an outline for your presentation, to convince your audience of your product's value. Think of the story telling of good movies: They start with an interesting beginning (a riddle), then build up to the solution and have a grande finale!~
+
+
+<br>
+
+<f-next-button />
 
 -
 
