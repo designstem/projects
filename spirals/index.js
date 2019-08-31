@@ -6,5 +6,6 @@ fachwerk({
   title: "Spirals",
   components: {
     Spiral: Spiral
-  }
+  },
+  src: "index.md"
 });

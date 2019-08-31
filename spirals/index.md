@@ -660,6 +660,7 @@ Following the previous example, assume now that the point A is known by its pola
 
 
 
+
 | cols: 2fr 1fr 2fr
 | 1 1 1
 | 2 4 5
@@ -688,7 +689,7 @@ Now, image what happens if the angle θ gradually increases from the zero degree
 
 -
 
-Lets try to simulate this:
+Lets try to simulate this situation:
 
 <f-slider set="circleProgress" value="0" to="360" title="θ" />
 
@@ -708,6 +709,8 @@ Lets try to simulate this:
 <f-next-button />
 
 ---
+
+
 
 
 
@@ -779,7 +782,7 @@ The following figure, explains the above equations in terms of the polar coordin
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-1.jpg?w=1024&h=671) -->
 
-Based on the above equations, any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates  x and y are calculated and the corresponding point (x,y) in plotted in the plane.
+> Based on the above equations, any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates  x and y are calculated and the corresponding point (x,y) in plotted in the plane.
 
 -
 
@@ -814,28 +817,58 @@ Based on the above equations, any flat, 2D Archimedian spiral can be drawn if th
 
 
 
+| cols: 3fr 2fr
+| 1 1
+| 2 3
+| 4 4
 
+<caption>Mathematics of 2D and 3D Archimedean spirals</caption>
 
 ## Equations of 3D spirals
 
-The equations of a 3D spiral or helix are similar to those presented above.
+-
 
-In three dimensions we assume that a third axis z denoting the height is added to the plane. For that new axis and the two horizontal x, y , the equations are as follows:
+The equations of a 3D spiral or helix are similar to those presented before.
 
+In three dimensions we assume that a **third axis z denoting the height** is added to the plane. For that new axis and the two horizontal (x and y), the equations are as follows:
 
-<f-math>x = R \cdot cos(t)</f-math><f-math>y = R \cdot sin(t)</f-math><f-math>r = c \cdot t</f-math><f-math>t = 0...2\pi = 0...360\degree</f-math>
+<f-math>x = R \cdot cos(t)</f-math><f-math>y = R \cdot sin(t)</f-math><f-math>z = c \cdot t</f-math><f-math>t = {0...2\pi}  =  {0\degree...360\degree}</f-math>
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/10/eq121.jpg?w=300&h=148) -->
 
-In the above equations, <var>R</var> represents the radius of the cycle in the plane X-Y and <var>t</var> varies between 0 and 2π in the right-hand direction full cycle. The factor <var>c</var> is constant so the value **2πc** to denote the vertical separation of the helix’s loop.
+In the above equations, **R** represents the radius of the cycle in the plane X-Y and **t** varies between 0 and 2π in the right-hand direction full cycle. The factor **c** is constant so the value **2πc** denotes the vertical separation of the helix’s loop.
 
-Next figure presents the shape of a helix  drawn in the three dimensions.
-
--
+<!-- Next figure presents the shape of a helix drawn in the three dimensions. -->
 
 ![](https://spiralsdesignstem.files.wordpress.com/2018/10/spiral3d.jpg?w=287&h=300)
 
+-
+
+<f-slider set="t" from="0" to="0.2" step="0.02" value="0" title="t" />
+<f-slider set="rad" from="0.2" to="1.8" step="0.1" value="1" title="R" />
+<f-slider set="rot" to="360" step="1" value="20" title="Rotate spiral" />
+
+<f-scene3 responsive isometric style="max-width:700px">
+  <f-group3 :rotation="[60, 0, get('rot', 20)]" :key="get('t', 0)">
+  <f-point3 :key="get('rad')"
+    :points="range(-10,10,0.1).map(x => [get('rad', 1)*Math.cos(x),get('rad', 1)*Math.sin(x),x*get('t',0)])"
+    :stroke="color('gray')"
+  />
+  </f-group3>
+</f-scene3>
+
+-
+
+<f-next-button />
+
 ---
+
+
+
+
+
+
+
 
 
 
