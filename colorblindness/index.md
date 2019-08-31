@@ -18,18 +18,18 @@
 </big>
 
 </div>
+<br>
 
-
-~How to design information for people whose colour perception is impaired.~
+~How to design information for people whose color perception is impaired.~
 
 <br>
 
-<f-next-button title="Let's start" />
+<f-next-button title="START" />
 
 
 
 
-<!-- <f-notes>
+<f-notes>
 
 <summary>Teachers note</summary>
 
@@ -37,14 +37,57 @@
 
 This workshop aimes to raise the students' awareness for the problems people with color vision deficiency have to face in their everyday life. The students should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all. Further, especially design students should learn how to choose color schemes so that even people with CVD can access information easily.
 
-</f-notes> -->
+</f-notes>
 
 
 <!-- <f-sidebar title="Menu" src="./menu.md" /> -->
 
+
+
+
 ---
 
+| theme: dark
+| rows: auto
+| 1 2
+| 3 2
 
+
+
+## Read first!
+
+
+~Before you will dive into the workshop, in order to improve your learning experience, we recommend the following:~
+
+<br>
+
+1.~**Keep a journal**, where you write down all the results to the tasks and your insights. This journal can also be digital (like a *.doc file*), so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.~
+2. ~Follow the tasks in a chronological order and don't skip tasks in order to get through faster. In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it. Otherwise, **never skip tasks**.~
+
+<br>
+
+~In order to get the best out of this workshop, you need to really focus on it. Just quickly clicking through it, won't give you insight, because **most of what you learn in here is through practically trying (and sometimes failing), through your own experience, and most of the time not through learning ready-made information by heart**.~
+
+<br>
+
+~This being said, we hope you will use this workshop for your own and other people's benefit. And sometimes in between, you are even allowed to enjoy it.~ 😉
+
+
+-
+
+<f-image src="./images/cvd_stop.jpg" style="height:100%; background-position:center; min-height:50vh;" />
+
+-
+
+<f-next-button title="Next: Let's start!" />
+
+
+
+
+
+
+
+---
 
 
 
@@ -146,7 +189,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 </f-inline>
 
 ~Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors.~
-~This workshop is for both, STEM and Design students. At a later point, you will be able to choose a path connected to your field. But first, lets all explore our daily surroundings to get a better understanding.~ 
+~**This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field. But first, lets go outside and explore our daily surroundings to get a better understanding of how color vision deficiencies affect lives.~ 
 
 -
 
@@ -183,9 +226,9 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
   ~Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.~
 
-  ~**Take pictures of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day. Only choose things which convey information.**~  
+  ~**Take at least five pictures** of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day, where color is used in plenty. Only choose items which convey information.~  
   
-  ~Take at least **five different pictures**. You will need them for the next task.~
+  ~**You will the pictures for the next task. So don't skip it!**~🧐
   <!-- </div> -->
 
 </section>
@@ -264,9 +307,13 @@ This workshop aimes to raise the students' awareness for the problems people wit
 </div>
 
 -
+<f-inline>
+  
+# <f-note-icon />
 
-~Find out if any information on your pictures **get lost for colorblind people**. Does it concern important information? Would it impair the ability to understand the meaning in part or completely?~
+~Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely? **Take notes!**~
 
+</f-inline>
 <f-next-button style="margin:var(--base4) 0" />
 
 ---
