@@ -545,9 +545,15 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 
 | 1 2 2 2
 
-## Time to think
+## Let's put it together!
 
-After this work, can you evaluate which is the **optimal shape to store the maximum amount of rice with minimal cardboard material** without loss of space in between the cartons?
+Take all the information you gathered during the last pages! Can you evaluate which is the **optimal shape to store the maximum amount of rice with minimal cardboard material** without loss of space in between the cartons?
+~**Which shape would you pick? Explain your choice!**~
+
+
+<br>
+
+<f-next-button />
 
 -
 
