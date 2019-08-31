@@ -17,8 +17,14 @@
 
 # Background research
 
-Learn from the experiences of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
-Read more</f-link>
+Learn from the experience of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past.
+<br>
+<f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
+Find out more!</f-link>
+
+<br>
+
+<f-next-button />
 
 -
 
@@ -29,13 +35,21 @@ Read more</f-link>
 
 ## Different functions of colored light
 
-#### 🤔 Think
+#### 🤔 Think:
 
-Find another example of a light object which the main function is a decorative function. What would you change in order to make it more engaging for your teacher?
+1. Find another example of a light object where the main function is a decorative. 
+2. What would you change in order to make it more engaging?
+3. Can you come up with further uses other than in the videos on the right?
 
-#### 💬 Discuss
 
-Share your story with your classmates. 
+#### 💬 Discuss:
+
+Share your ideas with your classmates. 
+
+<br>
+
+
+<f-next-button />
 
 -
 
@@ -55,6 +69,9 @@ Share your story with your classmates.
 
 ---
 
+
+
+
 | padding: 0
 | background: https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ocracoke_Lighthouse_with_the_Milky_Way_Galaxy.jpg/1920px-Ocracoke_Lighthouse_with_the_Milky_Way_Galaxy.jpg
 | tint: 0.5
@@ -66,13 +83,21 @@ Share your story with your classmates.
 
 #### 🤔 Think
 
-Think about an incident you relied on a light which had a communicative function. 
+1. In which situations would you use light as communicator?
+2. Have you ever been in a situation where you needed to rely on light to communicate? 
 
 #### 💬 Discuss
 
 Share your story with your classmates. What happened? What did you do?  Collect these stories. 
 
+<br>
+
+<f-next-button />
+
 </section>
+
+
+
 
 -
 
@@ -94,11 +119,20 @@ https://commons.wikimedia.org/wiki/Lighthouse#/media/File:Ocracoke_Lighthouse_wi
 
 <var>Chronobiology</var> is a field of biology that examines periodic (cyclic) phenomena in living organisms and their adaptation to solar- and lunar-related rhythms.
 
-#### 🤔 Think
+#### TASK
 
-What has light to do with health? How does light influence our bodies?
+1. Find out more about biodynamic lighting and Chronobiology online. 
+2. Find out what light has to do with health.
+3. In which way does light influence our bodies?
+
+
+<br>
+
+
+<f-next-button />
 
 </section>
+
 
 -
 
@@ -118,11 +152,11 @@ https://commons.wikimedia.org/w/index.php?title=Special:Search&limit=500&offset=
 
 <center><div>
 
-### Did you knew?
+### Did you know?
 
-Flying west is less tiring than flying east
+Flying west is less tiring than flying east. **Why is that? Try to find it out!**
 
-This airplane shows blueish light<br>to keep you more awake in order to abate your jetlag
+This airplane shows blueish light<br>to keep you more awake in order to abate your jetlag. **Why does blue light keep you awake and yellow light makes you sleepy? Find out!**
 
 </div></center>
 
@@ -140,13 +174,17 @@ https://en.wikipedia.org/wiki/Delta_Air_Lines#/media/File:Interior_of_Delta_Air_
 
 ## Light and plants
 
-Light is one of the most important factors in healthy plant growth. Plants, unlike humans, can make their own food through a process called photosynthesis.~
+Did you know, that light is one of the most important factors in healthy plant growth? Plants, unlike humans, can make their own food through a process called photosynthesis.
 
 The correct color of light, along with water and nutrient soil, will provide a plant with the sustenance of life.
 
-**Plants prefer blue and red light**
+**By the way, plants prefer blue and red light.**
 
 These two color qualities have the greatest influence on how a plant grows. Blue lights' responsibility is to promote leaf and vegetable growth, while red, when combined with blue, will make a plant flower.
+
+<br>
+
+<f-next-button />
 
 </section>
 
@@ -164,11 +202,24 @@ These two color qualities have the greatest influence on how a plant grows. Blue
 
 ## Light and psychology
 
-<var>Color psychology</var> is the study of hues as a determinant of human behavior. Color influences perceptions that are not obvious, such as the taste of food <f-link to="https://en.wikipedia.org/wiki/Color_psychology">Source</f-link>
+<var>Color psychology</var> is the study of hues as a determinant of human behavior. Color influences the perception, such as the taste of food <f-link to="https://en.wikipedia.org/wiki/Color_psychology">Source</f-link>
 
-Colored light is used in stores to make certain products more attractive to buyers: Fish counters are often lighted cold blue hue to make the food more attractive while meat counters have warm yellow hues.
+Further, colored light is used in stores to make certain products more attractive to buyers: Fish counters are often lighted cold blue hue to make the food more attractive while meat counters have warm yellow hues.
+
+#### TASK
+
+1. Find out about the term **color temperature**.
+2. Is it really a temperature, i.e. is the color hot or cold?
+3. In the example they use blue light for fish counters. Why is that?
+4. Where else could this knowledge be used, other than in the supermarket?
+
+<br>
+
+
+<f-next-button />
 
 </section>
+ 
 
 -
 
