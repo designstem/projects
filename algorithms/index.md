@@ -144,7 +144,7 @@ Let's start with a small warming-up exercise.
  
 ## Nice work! 
 
-Now if you fold the paper open, you probably end up with something like shown on this picture. 
+Now if you open the paper, you probably end up with something similar to this picture. 
  
 **By following the steps of cutting and folding you were performing a so called <var>algorithm</var>.**
 
@@ -216,7 +216,7 @@ Or to put it simple:
 
 Probably without even noticing. These are often called <mark>everyday algorithms</mark>. Let's take a look at some examples. 
  
-Maybe the most common example of an everyday algorithm is **cooking**.
+Maybe the most common example of an everyday algorithm is **cooking**. You have to follow certain steps (recipe) to make a delicious meal.
 
 -
 
@@ -224,7 +224,7 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 <!-- ![Cooking](./images/everyday-recipe.jpg "Cooking")  -->
  
-<small>*You have to follow certain steps (recipe) to make a delicious meal.*</small>
+<small>*Preparing food means using algorithms.*</small>
 
 -
 
@@ -260,7 +260,7 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 <!-- <f-image src="./images/everyday-tshirt.jpg" style="background-size: cover; background-position:50% 50%; --image-min-height: 30vh;" /> -->
  
-<small>*There are more than one methods to fold a t-shirt. Every method is a "different algorithm" of t-shirt folding.*</small>
+<small>*There is more than one method to fold a t-shirt. Every method is a "different algorithm" of t-shirt folding.*</small>
 
 -
 
@@ -270,7 +270,7 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 
 <f-image src="./images/everyday-wall_2.jpg" style="--image-size: cover; --image-position:center; --image-height:51.5vh;" />
  
-<small>*Building a stable brick wall is based on an algorithm too: you have to put the bricks so that every other row of bricks is shifted by half compared to previous one.*</small>
+<small>*Building a stable brick wall is based on an algorithm too: You have to put the bricks so that every other row of bricks is shifted by half of its size compared to the previous row.*</small>
 
 -
 
@@ -296,7 +296,7 @@ Maybe the most common example of an everyday algorithm is **cooking**.
 ## Computer generated algorithms
 
 
-Cooking, folding a t-shirt, building a wall. These activities consist of relatively simple instructions (i.e. ‘algorithms’).
+Cooking, folding a t-shirt, building a wall &ndash; these activities consist of relatively simple instructions (i.e. ‘algorithms’).
 
 ~**Computers also perform algorithms. More complex algorithms may require a lot of computing power &ndash; so much that normally people cannot manage it by themselves.**~
  
@@ -322,17 +322,17 @@ Computers and design go together well. This last decade has seen the emergence o
 | 2 3
 
 
-## It is important to remember:
+## Keep in mind:
 
 ## &nbsp;
 
-1. Not all computational design is generative design
+1. Not all computational design is generative design,
 2. And not all generative design is computational.
-3. Not every use of computer in design is ‘generative’
+3. Not every use of computer in design is ‘generative’.
 
 ### &nbsp;
 
-#### Let's take a look at some examples of computer generated algorithms design
+#### And now, let's take a look at some examples of computer generated algorithms in design:
 
 -
 
@@ -538,7 +538,9 @@ http://protohouse.tumblr.com/
 
 &nbsp;
 
-You might think that probably they use very expensive supercomputers plus knowledge of wizardry to make such stuff. However, with basic knowledge of coding we can demonstrate that ***even quite simple sets of rules can create quite interesting results***. 
+You might think that probably they use very expensive supercomputers plus knowledge of wizardry to make such stuff. 
+<br
+However, with basic knowledge of coding we can demonstrate that ***even simple sets of rules can create quite interesting results***. 
 
 -
 
@@ -563,9 +565,9 @@ You might think that probably they use very expensive supercomputers plus knowle
 | 2 3 4 5 6
 | 7 7 7 7 7 
 
-## How computer algorithms work?
+## How do computer algorithms work?
 
-### It possesses five key aspects:
+### There are five key aspects:
 
 -
 
@@ -634,7 +636,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
   ## 1.
 
   ### INPUT 
-  you feed some parameters (variables) or data to your algorithm
+  You feed some parameters (variables) or data to your algorithm.
 
 
 </f-card>
@@ -650,7 +652,7 @@ An algorithm **has one or more outputs**, which have a specified relation to the
 ## 2.
 
 ### PROCESSING 
-algorithm does the computing
+The algorithm does the computing.
 
 </f-card>
 
@@ -665,7 +667,7 @@ algorithm does the computing
 ## 3.
 
 ### OUTPUT
-you get a result
+You get a result.
 
 </f-card>
 
@@ -691,7 +693,9 @@ you get a result
 
 ## Let's play with some interactive examples
 
-With these examples you can see how most basic operations like **repeating, scaling and rotating** can generate quite complex patterns from most basic objects like **lines, squares and circles**.    
+On the following page, you can see how most basic operations like **repeating, scaling and rotating** can generate quite complex patterns from most basic objects like **lines, squares and circles**.    
+<br>
+**Go crazy and play around!**
 
 ### &nbsp;
 
@@ -717,7 +721,7 @@ With these examples you can see how most basic operations like **repeating, scal
 | 1 1 1
 | 2 3 4 
  
-## A. just some lines
+## A) Just some lines
 
 -
 
@@ -757,7 +761,7 @@ With these examples you can see how most basic operations like **repeating, scal
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.5 and line longer than 0.2*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.5 and the lines longer than 0.2*</small>
 
 <f-next-button title="Next: add rotation" v-if="get('step1') < 0.5 && Math.abs(get('width1')) > 0.16" />
 
@@ -778,11 +782,11 @@ With these examples you can see how most basic operations like **repeating, scal
 | 1 1 1
 | 2 3 4
 
-## B. Let's add rotation
+## B) Let's add rotation
 
 -
 
-<small>Ok, now you have three sliders - we have added ***rotation***. Play with them and see if you can create any interesting output. </small>
+<small>Ok, now you have three sliders &ndash; we have added ***rotation***. Play with them and see if you can create any interesting output. </small>
 
 -
 
@@ -827,7 +831,7 @@ With these examples you can see how most basic operations like **repeating, scal
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.4, line longer than 1 and rotation bigger than 30*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.4, the lines longer than 1 and the rotation bigger than 30.*</small>
 
 <br />
 
@@ -850,7 +854,7 @@ With these examples you can see how most basic operations like **repeating, scal
 | 1 1 1
 | 2 3 4
 
-## C. Boxes
+## C) Boxes
 
 -
 
@@ -895,7 +899,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.5, box bigger than 1 and rotation higher than 45*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.5, the box bigger than 1 and the rotation higher than 45.*</small>
 
 <f-next-button title="Next: circles" v-if="get('step3') < 0.5 && Math.abs(get('width3')) > 1 && Math.abs(get('rotation3')) > 45" />
 
@@ -915,11 +919,11 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 | 1 1 1
 | 2 3 4
 
-## D. Circles
+## D) Circles
 
 -
 
-***Circles are just CRAZY!*** Remember - all we are doing here is to repeat one simple circle and adjusting its radius, but the visual output can get very complex and interenting.
+***Circles are just CRAZY!*** Remember: All we are doing here is to repeat one simple circle and adjusting its radius, but the visual output can get very complex and interesting.
 
 -
 
@@ -953,7 +957,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 <br />
 
-<small>***HINT:*** *Try to make the grid size smaller than 0.4 and circle bigger than 1*</small>
+<small>***HINT:*** *Try to make the grid size smaller than 0.4 and the circle bigger than 1.*</small>
 
 <f-next-button title="Next: random" v-if="get('step4') < 0.4 && get('width4') > 1" />
 
@@ -975,11 +979,11 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 | 1 1 1
 | 2 3 4
 
-## E. Random
+## E) Random
 
 -
 
-Too much control may not always be a good thing &mdash; sometimes you get more interesting and unexpected results if you just let things to happen. Let's allow the computer to generate ***random*** patterns &mdash; all you have to do is to ***press the button***. 
+Too much control may not always be a good thing &mdash; sometimes you get more interesting and unexpected results if you just let things happen. Let's allow the computer to generate ***random*** patterns &mdash; all you have to do is to ***press the button***. 
 
 -
 
@@ -1000,7 +1004,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
     v-on:click="set( 'randomR', randomizer( 0.2, 1) )" class="primary"
     style="background:var(--blue)">Random generator</button>
 
-<small v-if="get('randomR')">***HINT:*** *If the pattern looks boring, press the button again - you'll get a new one*</small>
+<small v-if="get('randomR')">***HINT:*** *If the pattern looks boring, press the button again - you'll get a new pattern.*</small>
 
 <!-- &nbsp;
 
@@ -1031,16 +1035,16 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 | 2 3
 | 4 3
 
-## This was just a beginning &ndash;
-#### like a tiny tip of a huge iceberg
+## This was just the beginning &ndash;
+#### like a tiny tip of a huge iceberg!
 
 -
 
-But hopefully with these super basic examples you saw how simple shapes combined and some basic operations like repeating, scaling and rotating can generate a lot of complex patterns.
+But hopefully with these super basic examples, you saw how simple shapes can be combined and some basic operations like repeating, scaling and rotating can generate a lot of complex patterns.
 
-When we add other important properties like colour, stroke width, transparency and so on, we can alter the algorithm further and have different output.
+When we add other important properties like colour, stroke width, transparency and so on, we can alter the algorithm further and receive different output.
 
-Plus it is possible to let different functions and/or data, such as randomness, noise, sine wave, user input, voice, weather information, tweets etc affect the parameters and then we have much more options and complex results.
+Plus, it is possible to let different functions and/or data, such as randomness, noise, sine wave, user input, voice, weather information, tweets etc affect the parameters and then we have much more options and complex results.
 
 But let all this be a subject for the next time &nbsp; or better yet &ndash; let this be something for you to discover by yourself :)
 
@@ -1079,13 +1083,15 @@ Try to create a different algorithm from the one we started with. Experiment wit
 
 -
 
-1. Create a 5-step algorithm
+1. Create a 5-step algorithm.
 
-2. Define and enumerate the steps
+2. Define and enumerate the steps.
 
-3. Discuss what is your algorithm and how it can be improved
+3. Discuss what is your algorithm and how it can be improved.
 
-4. **Have fun! :)**
+4. In which way can algorithms be used in design other than in architecture. Research other options where this can be applied to e.g. graphic design or product design.
+
+5. **Have fun! :)**
 
 -
 
