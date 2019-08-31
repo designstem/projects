@@ -120,15 +120,17 @@ Bits|Colors|Description
 
 #### 🤔 Think
 
-How red, green and blue lights added together in various ways to reproduce a broad array of colors?
+How do red, green and blue lights added together in various ways reproduce a broad array of colors?
 
 #### 🎛️ Play
 
-Play with <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/labs.html">RBG virtual lab</a> and <a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/mixing/index.html">RBG color mixing</a>
+Play with the following e-tools to find out:
+<a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/labs.html">RBG virtual lab</a> 
+<a class="tertiary" href="https://designstem.github.io/scenarios/rgblamp_vision/mixing/index.html">RBG color mixing</a>
 
 #### 🤔 Think
 
-Which colours will you able to obtain?
+Which colours will you be able to obtain?
 
 -
 
@@ -136,7 +138,7 @@ Which colours will you able to obtain?
 
 #### 🤔 Think
 
-How you can describe the changing of the lamp colors?
+How you can describe the changing of the lamps' colors?
 
 #### 🎛️ Play
 
@@ -144,7 +146,12 @@ Play with <a class="tertiary" href="https://designstem.github.io/scenarios/rgbla
 
 #### 🤔 Think
 
-Think which sequence of colours are you able to obtain?
+Find out which sequence of colours are you able to obtain?
+
+
+<br>
+
+<f-next-button />
 
 ---
 
@@ -160,12 +167,12 @@ Think which sequence of colours are you able to obtain?
 
 Grab a piece of paper and write a high-level description of how the values of the three different channels (red, green, blue) will react to the input from the environment.
 
-Make a diagram or a graph showing the relationship between input and colors
+Make a diagram or a graph showing the relationship between input and colors!
 
 #### Key questions
 
-* What is the relationship between environmental parameters and colors?
-* How do you interpolate the missing values? (E.g. spline, keyframes)
+1. ~What is the relationship between environmental parameters and colors?~
+2. ~How do you interpolate the missing values? (E.g. spline, keyframes)~
 
 -
 
@@ -174,3 +181,9 @@ Outside temperature|Color|Red|Green|Blue
 Cold|Blue|`0`|`10`|`200`
 Warm|Yellow|`200`|`200`|`0`
 Hot|Red|`200`|`0`|`10`
+
+
+<br>
+
+<f-next-button />
+
