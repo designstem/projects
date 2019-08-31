@@ -29,7 +29,8 @@ Look at whether each possible solution/idea meets your design requirements. Some
 ### 2. Develop the idea
 
 Development involves the refinement and improvement of an idea, and it continues throughout the design process, often even after a product ships to customers. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
-So don't stop developing, even if you are content with the result in between. ***There is always a better solution at the horizon.***
+<br>
+So don't stop developing, even if you are content with the result in between. **There is always a better solution at the horizon.**
 
 -
 
@@ -67,7 +68,9 @@ For further information, see also the workshop on Color Vision Deficiency! There
 
 
 <br>
-~**When you know how RGB works, please continue on the following page:**~
+
+**When you know how RGB works, please continue on the following page:**
+
 <f-next-button />
 
 -
@@ -105,6 +108,12 @@ Play with <a class="tertiary" href="https://designstem.github.io/scenarios/color
 #### Read more
 
 https://docs.krita.org/en/general_concepts/colors/bit_depth.html
+
+
+<br>
+
+<f-next-button />
+
 
 -
 
