@@ -575,6 +575,11 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 
 3. Verify that the hexagon has the minimum perimeter among the stackable polygons with same area.
 
+<br>
+
+<f-next-button />
+
+
 -
 
 <f-video src="https://www.youtube.com/watch?v=QEzlsjAqADA" />
@@ -595,6 +600,11 @@ Sometimes in nature the **packaging is part of the product**.
 1. Take an apple. Think about its skin, core and seeds. What is product and what is packaging?
 
 2. Do you know about a human made product having a package that is part of the product?  
+
+
+<br>
+
+<f-next-button />
 
 </section>
 
