@@ -90,6 +90,7 @@ In order to give a good presentation, you need to think like someone from market
 4. Why is your idea better than the alternatives?
 
 <br>
+
 ~Create an outline for your presentation, to convince your audience of your product's value. Think of the story telling of good movies: They start with an interesting beginning (a riddle), then build up to the solution and have a grande finale!~
 
 
