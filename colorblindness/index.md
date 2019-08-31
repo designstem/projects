@@ -61,16 +61,26 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 <br>
 
-1.~**Keep a journal**, where you write down all the results to the tasks and your insights. This journal can also be digital (like a *.doc file*), so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.~
-2. ~Follow the tasks in a chronological order and don't skip tasks in order to get through faster. In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it. Otherwise, **never skip tasks**.~
+1. ~**Keep a journal**, where you write down all the results to the tasks and your insights. This journal can also be digital (like a *.doc file*), so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.~
+2. ~**Never skip tasks!** Follow the tasks in a chronological order and don't skip some in order to get through faster. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.~
 
 <br>
 
-~In order to get the best out of this workshop, you need to really focus on it. Just quickly clicking through it, won't give you insight, because **most of what you learn in here is through practically trying (and sometimes failing), through your own experience, and most of the time not through learning ready-made information by heart**.~
+<f-inline>
+  
+# 🛑
+
+> Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing (and sometimes failing), through your own experience and conclusions, and not by just reading ready-made information**.
 
 <br>
 
-~This being said, we hope you will use this workshop for your own and other people's benefit. And sometimes in between, you are even allowed to enjoy it.~ 😉
+<f-inline>
+
+# 😉
+
+> This being said, we hope you will use this workshop for your own and other people's benefit. **And sometimes in between, you are even allowed to enjoy it.**
+
+</f-inline>
 
 
 -
