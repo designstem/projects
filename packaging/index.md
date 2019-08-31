@@ -173,6 +173,12 @@ Sometimes the package is part of the value, like with perfume bottles. Some peop
  <br>
  ~**Find other examples for multiple times wrapped products. What is the purpose?**~
 
+
+<br>
+
+
+<f-next-button />
+
 -
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Make_a_difference%2C_understanding_Pendleton%27s_recycling_program_DVIDS536228.jpg/1200px-Make_a_difference%2C_understanding_Pendleton%27s_recycling_program_DVIDS536228.jpg" />
@@ -190,7 +196,19 @@ Sometimes the package is part of the value, like with perfume bottles. Some peop
 
 Nature has always evolved the best packaging for its products. 
 
+#### TASK
+
+~Where in nature can you find packaging examples? Think of fruits for example.~
+
+<br>
+
+But let's think further:
 **How can we optimize packaging?** 
+
+<br>
+
+
+<f-next-button />
 
 </div></center>
 
