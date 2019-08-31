@@ -6,7 +6,7 @@
 | 2 1
 | rows: auto
 
-# <big>Of Bees and Packaging</big>
+# Of Bees and Packaging
 
 <big style="line-height: 1.75em"><big>How to optimize packaging,<br>reduce excess space<br>and avoid material waste</big></big>
 
@@ -45,7 +45,7 @@ Image credits: www.unsplash.com
 | rows: auto
 
 
-## So what next?
+## What next?
 
 ~In this workshop, you will look at different aspects regarding packaging design and use knowledge in mathematics to complete your final task sucessfully.~
 
@@ -315,7 +315,7 @@ Let's compare perimeter vs volume!
 | 1 1 1 2 2
 | background: var(--lightergray)
 
-## Drawing polygons with fixed perimeter
+## Eplore: Polygons with fixed perimeter
 
 
 **Experiment how polygons area changes**
@@ -337,12 +337,17 @@ Let's compare perimeter vs volume!
 
   <small>
 
-  How the ratio between square and polygons changes?
-  Given a fixed perimeter, which is the polygon with the bigger area?
+  How do the ratio between square and polygons change?
+  Given a fixed perimeter, which is the polygon with the biggest area?
   What can you say about the volume of the milk carton?
-  Have you ever seen packages with a not square base?
+  Have you ever seen packages where the base is not square?
 
   </small>
+
+
+<br>
+
+<f-next-button />
 
 -
 
@@ -397,6 +402,11 @@ You can always ***rotate*** the polygons with the parameter `r`
 Take a lemon or an orange. Think about its parts and its packaging subdivision.
 
 Sometimes natural packagings do not optimize the amount per se, but they maximize the **outer container utilization**.
+
+
+<br>
+
+<f-next-button />
 
 </center></div>
 
@@ -471,6 +481,18 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 <var>rotation</var> <f-math inline :update="get('r')">n = {{ get('r') }}</f-math>
 
 <f-slider set="r" from="0" to="360" />
+
+<br>
+
+#### TASKS
+
+1. ~Which polygon is the best regarding the storage, which is the worst?~
+2. ~Reflect on your result from no. 1 and compare it to shelves at home or at the supermarket. Which shape would be best here?~
+
+
+<br>
+
+<f-next-button />
 
 -
 
