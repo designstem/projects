@@ -58,11 +58,9 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 
 <section>
 
-### Bad news
+### The bad news is
 
-Plastic is everywhere
-
-Plastic is a poison for our environment
+Plastic is everywhere and poisons our environment. It not only destroys nature, but also kills animals, who eat it, suffocate or get trapped in it. And in the end, through the food chain, it also kills us.
 
 ### Good news
 
@@ -87,6 +85,80 @@ Can you find any other good news about plastic and environment?
 https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
 
 </notes>
+
+---
+
+
+| section: Bad and good news
+| padding: 0
+| theme: dark
+| rows: auto
+| 1 2
+| 3 2
+
+<section>
+
+### The bad news is...
+
+Plastic is everywhere and poisons our environment. It not only destroys nature, but also **kills animals**, who eat it, suffocate by it or get trapped in it. And in the end, through the food chain, it also kills us.
+
+~You can find more information on this via <f-link to="https://www.peta.org/">PeTA</f-link>~. Search for **plastic** and you will find many articles which are related to plastic hurting animals.
+
+~Further you can find more information on plastic destroying nature via <f-link to="https://www.greenpeace.org/international/">Greenpeace</f-link>~. Also search for the keyword "plastic" and find out where it destroys nature's beauty.
+
+</section>
+
+-
+
+<f-image src="./images/equilibrium_fish.jpg" />
+
+-
+
+<f-next-button />
+
+
+
+---
+
+| section: Bad and good news
+| padding: 0
+| theme: dark
+| rows: auto
+| 1 2
+| 3 2
+
+<section>
+  
+### The good news is...
+
+~There are eco friendly substitutes for plastic, that you can use.~
+
+<a href="https://science.howstuffworks.com/environmental/green-tech/sustainable/5-plastic-substitutes.htm" target="_blank">Top 10 Eco-friendly Substitutes for Plastic</a>
+
+<a href="https://news.nationalgeographic.com/2017/04/wax-worms-eat-plastic-polyethylene-trash-pollution-cleanup/" target="_blank">Worms eating plastic</a>
+
+<a href="https://www.explainthatstuff.com/bioplastics.html" target="_blank">Bioplastics and biodegradable plastics</a> (see the picture)
+
+<br>
+
+TASK
+1. ~Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.~
+2. ~Discuss your ideas in class.~
+
+<f-notes title="Credits">
+
+https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
+
+</notes>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BiodegradablePlasticUtensils1.jpg/1024px-BiodegradablePlasticUtensils1.jpg" />
+
+-
+
+
+<f-next-button />
 
 ---
 
