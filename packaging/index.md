@@ -599,7 +599,9 @@ Sometimes in nature the **packaging is part of the product**.
 
 1. Take an apple. Think about its skin, core and seeds. What is product and what is packaging?
 
-2. Do you know about a human made product having a package that is part of the product?  
+2. Do you know about a human made product having a package that is part of the product? Research on the internet if neccessary!
+
+3. What do you think about products where the package is part of the product? What are advantages and what are disadvantages?
 
 
 <br>
@@ -628,13 +630,46 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 <caption>Final assignment</caption>
 
-## Create a package
+## <f-activity-icon /> Design your own packaging!
 
-1. Imagine how you can design a new reusable package, possibly suitable for different purposes
+~Now that you've learned so much about packaging, it's time that you design one yourself. Choose one of the following two tasks:~
 
-2. Evaluate what’s the best material for your package; keep in mind that it has to be reusable 
+#### TASK A
 
-3. What if you have to store several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
+1. ~Choose an object that you want to design a cardboard package for. You can use multiple small objects (like rice, cornflakes, pasta etc.) or a bigger object.~
+
+2. ~Remember what you've learned about fraud packaging. Sometimes a little air inside is needed to protect the product during a bumpy ride, but too much is misleading. Plan your sizing carefully! Decide upon a shape that is best.~
+
+3. What if you have to store/stack several packages? How could you optimize the shape of your package in order to reduce loss of space between them?
+
+4. Additional task: Think about the packaging inside the cardboard package. Fragile objects need extra packaging. How can you guarantee that the object won't break, while trying not to waste material?
+
+
+#### TASK B
+
+1. Try to design a reusable package, possibly suitable for different purposes. Take this example: At LUSH, you will get reusable packaging for soaps, so you'll go there and can get a refil into your old packaging.
+
+2. Choose a product for your reusable packaging.
+
+3. Evaluate what’s the best material for your package; keep in mind that it has to be reusable! 
+
+4. What if you have to store/stack several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
+
+
+#### TASK C
+
+1. ~Design a packaging for different spices which together will form a pattern but can be used individually! It should not only be functional, but also look unusual/nice/fresh.~
+
+2. ~Make scribbles to plan your modules and the complete packaging including all modules.~
+
+3. ~Evaluate what’s the best material for your package.~
+
+<br>
+
+**For both tasks**: Create a dummy of your packaging and be ready to explain why you designed it this way!
+
+<f-next-button />
+
 
 </section>
 
@@ -672,6 +707,30 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 <f-slider set="r" from="0" to="360" />
 
 -->
+
+---
+
+
+
+| caption: Final assignment
+| 1 2
+| padding: 0
+
+<section>
+
+<caption>Final assignment</caption>
+
+##  Evaluate your packaging
+
+Congratulations on creating your packaging! Let's have a closer look!
+
+1. ~What was most difficult about designing it? Where did you struggle?~
+2. ~What did you learn about packaging design? Is there anything new that you didn't know yet?~
+3. ~On a daily basis, we throw away cardboard packagings or recycle them. This immensely increased throughout the last fifty years. But also plastic is being used massively for packaging. Can you imagine alternatives? Browse the internet to find new ideas on alternatives for cardboard or plastic packaging.~
+
+
+
+
 
 ---
 
