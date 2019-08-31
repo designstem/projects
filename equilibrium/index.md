@@ -161,11 +161,15 @@ So plastic can also be used to make you walk on water, <a href="https://christoj
 
 1. ~What are your feelings about this installation?~
 
-2. ~Which physical laws are used here to keep the piers floating even when people walked on them? **Focus on the following two terms** and find out what they mean:~
+2. ~Which physical laws are used in this example to keep the piers floating even when people walked on them? **Focus on the following two terms** and find out what they mean. Note down your results:~
 
 - <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a>
 
 - Weight density
+
+<br>
+
+<f-next-button />
 
 </section>
 
@@ -182,22 +186,28 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 ---
 
 | section: Make a boat
-
 | padding: 0
 
 <section>
 
-## Make a boat from recycled plastic
+## <f-activity-icon /> Build a boat from recycled plastic
 
-1. Collect some plastic objects around you  
+1. ~Collect plastic objects around you in your everyday life. Find as many as you can.~  
 
-2. Find out the type of plastic they are made of
+2. ~Research the type of plastic they are made of. What is their floating or sinking behaviour?~
 
-3. Design a boat or other floating structure<br><a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">See the example</a>.
+3. Design a boat or other floating structure. You can build it for one person or several people. Try to make your design work. <br><a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">Use this example as a clue</a>.
 
-4. Verify that an boat can float even if built with a plastic material that sink. What’s the reason?<br><a href="https://www.youtube.com/watch?v=xniW3_afO-0" target="_blank">How do ships float?</a>
+4. Verify that a boat can float even if it is made out of plastic that usually sinks. What is the reason for it? For further information, see this link: <br><a href="https://www.youtube.com/watch?v=xniW3_afO-0" target="_blank">How do ships float?</a>
 
-5. Calculate your boat weight and its buoyancy in water
+5. Finally, calculate your boat's weight and its buoyancy in water.
+
+
+<br>
+
+
+<f-next-button />
+
 
 </section>
 
@@ -210,6 +220,12 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 https://commons.wikimedia.org/wiki/File:Bottle_boat_racers_paddle_their_way_to_victory_150612-F-CH060-061.jpg
 
 </f-notes>
+
+
+
+
+
+
 
 ---
 
