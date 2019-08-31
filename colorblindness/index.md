@@ -47,7 +47,6 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 ---
 
-| theme: dark
 | rows: auto
 | 1 2
 | 3 2
@@ -62,7 +61,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 <br>
 
 1. ~**Keep a journal**, where you write down all the results to the tasks and your insights. This journal can also be digital (like a *.doc file*), so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.~
-2. ~**Never skip tasks!** Follow the tasks in a chronological order and don't skip some in order to get through faster. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.~
+2. ~**Never skip tasks!** Follow the tasks in a chronological order and don't skip any in order to get through faster. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.~
 
 <br>
 
