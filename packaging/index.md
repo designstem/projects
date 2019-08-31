@@ -1,6 +1,9 @@
 | chapter: Of Bees and Packages
 | section: Start
-| 1 2
+| theme: light
+| padding: 0
+| gap: 0
+| 2 1
 | rows: auto
 
 # <big>Of Bees and Packaging</big>
@@ -14,7 +17,7 @@
 
 -
 
-<img src="./images/bees_title.jpg" />
+<f-image src="./images/bees_title.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 
 <f-notes style="--primary: var(--darkgray)" >
@@ -23,11 +26,48 @@
 
 * To promote interest towards learning both design and STEM
 
+* To learn about packaging design
+
 * To learn about concepts in geometry and maths
 
-Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
+Image credits: www.unsplash.com
+
 
 </f-notes>
+
+---
+
+| chapter: Of Bees and Packages
+| section: Start
+| theme: light
+| padding: 0
+| gap: 0
+| 1 2
+| rows: auto
+
+
+## So what next?
+
+~In this workshop, you will look at different aspects regarding packaging design and use knowledge in mathematics to complete your final task sucessfully.~
+
+~We will be focussing on packaging made out of cardboard, but there are so many other ways to "wrap" products. But the main aims are always the same:~
+
+* Protect the product (against damage, stealing...)
+* Make the product look more appealing from the outside (sell the product to the customer)
+
+<br>
+
+~**Enjoy exploring!**~ 🙂
+
+<br>
+
+
+<f-next-button />
+
+-
+
+<f-image src="./images/bees_title.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
 
 ---
 
@@ -39,18 +79,21 @@ Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
 
 -
 
-## History of human made packages
+## Human made packaging
 
-1. The evolution of packaging is strongly related to human history. Watch the following video:
+Whenever products are sold, they need to be protected for their transport, before their use. Whether salesmen wrap fish into old newspaper at a market or whether we have high-end hifi products that are put into shiny, colorful packaging. Packaging has always been there whenever there were products which have been sold and/or transported.
+
+1. The evolution of packaging is strongly related to human history. Watch the following video and find out more:
 
   <details>
     <summary>Watch the video overview</summary>
     <f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
   </details>
 
-2. Look for packaging around you and find differences between them regarding their shape. 
+2. Look for packaging around you and find differences between them regarding their shape. Compare the shape to the product inside. In which way does the packaging mirror the inside?
 
 3. Take pictures of these packagings for future reference.
+
 
 <br>
 
@@ -66,16 +109,25 @@ Image credits: https://etc.usf.edu/clipart/6800/6853/honey-bee_6853.htm
 
 | 1 1 2 2 2
 
-## Nowadays packaging is also marketing
+## Fraud packaging
 
-...and sometimes marketing is misleading! 
+Today, packaging is not only protection but also marketing and therefore, often misleading! 
 
-Here is a X-Ray of a cereal package, showing the amount of product in relation to the size of the packaging.
+On the right, you can see an X-Ray of a cocoa package, showing the amount of product in relation to the size of the packaging.
 
-1. Do some of the packages you’ve found have misleading packaging?
+#### TASKS
 
-2. What do you think and feel about it? Would you want to change it? Why and how?
+1. Look through your cupboards at home or walk through your neighborhood supermarket: Are there any product packagings that are misleading (i.e. content is smaller than the packaging suggests)?
 
+2. What do you think and feel about it?
+
+3. Which environmental consequences do fraud packages have?
+
+
+<br>
+
+
+<f-next-button />
 
 -
 
@@ -93,7 +145,9 @@ Here is a X-Ray of a cereal package, showing the amount of product in relation t
 
 ### Costly packaging
 
-Sometimes the value of the package is higher than the value of the product itself
+Sometimes the value of the package is higher than the value of the product itself, depending on the material in use and the further processing to make the product look more valuable.
+<br>
+~**Find other examples!~
 
 -
 
@@ -103,7 +157,9 @@ Sometimes the value of the package is higher than the value of the product itsel
 
 ### Precious packaging
 
-Sometime the package is part of the value
+Sometimes the package is part of the value, like with perfume bottles. Some people even collect them. Walk through a perfume store and look at the different and extraordinary shapes. No one would put so much effort into designing bottles, if it wasn't what the customer wanted.
+<br>
+~**Which other examples for precious packaging can you find?**~
 
 -
 
@@ -113,7 +169,9 @@ Sometime the package is part of the value
 
 ### Ethic packaging
 
- **All the times**, reducing packaging is an ethic mission! 
+ Reducing packaging is an ethic mission &ndash; **always**! And it is getting out of hand, because one product can be wrapped multiple times, e.g. cornflakes. They are wrapped in a plastic bag, inside a cardboard box.
+ <br>
+ ~**Find other examples for multiple times wrapped products. What is the purpose?**~
 
 -
 
