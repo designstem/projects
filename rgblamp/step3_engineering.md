@@ -20,37 +20,55 @@
 
 -
 
-### 1. Choose best Solution
+### 1. Choose best idea
 
-Look at whether each possible solution meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements.
-
--
-
-### 2. Develop the Solution
-
-Development involves the refinement and improvement of a solution, and it continues throughout the design process, often even after a product ships to customers. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+Look at whether each possible solution/idea meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements!
 
 -
 
-### 3. Test and Redesign
+### 2. Develop the idea
 
-The design process involves multiple iterations and redesigns of your final solution. You will likely test your solution, find new problems, make changes, and test new solutions before settling on a final design. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+Development involves the refinement and improvement of an idea, and it continues throughout the design process, often even after a product ships to customers. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+So don't stop developing, even if you are content with the result in between. ***There is always a better solution at the horizon.***
 
+-
+
+### 3. Test and redesign
+
+The design process involves multiple iterations and redesigns of your final solution. You will likely test it, find new problems, make changes, and test again before settling on a final design. This is important, so don't be lazy! 😉 <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+
+
+<br>
+
+<f-next-button />
 
 ---
 
 ## How is color produced in devices?
 
-The RGB color model is an additive color model in which red, green and blue light are added together in various ways to reproduce a broad array of colors.
+~Before you start to build your RGB lamp, you need to understand how RGB works!~
+~The RGB color model is an additive color model in which red, green and blue light are added together to reproduce a broad array of colors. Our eyes also work with RGB, because we have red, green and blue cones in our retina.~
+<br>
+~In the RGB color model, 0% means no light, whereas 255 means 100% of light. So if I have Red 255, Green 0 and Blue 0, I will get red light.~
+**Try it yourself!**
 
 
-##### 🎛️ Tune RGB to get the maximum brightness in the center
+##### 🎛️ Try to produce white light in the center! Which settings will you need?
 
 <f-slider title="Red" value="64" to="255" integer set="r" />
 
 <f-slider title="Green" value="128" to="255" integer set="g" />
 
 <f-slider title="Blue" value="196" to="255" integer set="b" />
+
+<br>
+
+For further information, see also the workshop on Color Vision Deficiency! There you will find a detailed explanation on the RGB model and also tasks that will help you understand it better. <a href="../colorblindness">Click here!</a>
+
+
+<br>
+~**When you know how RGB works, please continue on the following page:**~
+<f-next-button />
 
 -
 
