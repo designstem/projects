@@ -81,7 +81,8 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 <br />
 
-> Hint: ~If you cannot work with watercolors, you might want to try the following online tool. It is a bit more difficult to work with than watercolors, but it basically works like the color mixing tools you used in the tasks before. Click on *Edit* under a color, to change it (upper right). Then click on a calculator button to select it and next on the color you want to apply. After working on the button, you should deselect it. You can also select several buttons at the same time. Further, you can switch the label color between black and white. When you are happy with your color scheme, take a screenshot of it, to save it for later!~
+
+> Hint: ~If you cannot work with watercolors, you might want to try the following <a href="#" v-on:click="goto('cb-calc')">online tool</a>. It is a bit more difficult to work with than watercolors, but it basically works like the color mixing tools you used in the tasks before. Click on *Edit* under a color, to change it (upper right). Then click on a calculator button to select it and next on the color you want to apply. After working on the button, you should deselect it. You can also select several buttons at the same time. Further, you can switch the label color between black and white. When you are happy with your color scheme, take a screenshot of it, to save it for later!~
 
 -
 
@@ -105,7 +106,7 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 ---
 
-
+| id: cb-calc
 
 
 <calculator-designer />
