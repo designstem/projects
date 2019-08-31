@@ -65,7 +65,7 @@
 ~It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.~
 ~But what if we leave the hue unaltered and modify the other two properties, saturation and brightness? Does this change the colors effect? We will try to find out on the next few pages.~
 
-#### Hint:
+#### 💡 Hint:
 ~Since (through your gut feeling) you probably already know the meaning hues can have, we will skip further explanations in this workshop. But if you feel, like you need more information on this, you're welcome to look at 
 <f-link to="https://en.wikipedia.org/wiki/Color_symbolism">this article</f-link>.~
 
@@ -140,9 +140,9 @@
 You may use the slider beneath the color boxes to darken or brighten up the colors, then work on the following tasks.~
 
 #### TASKS
-1. Observe how the colors' effect changes when they are darker or brighter by using the slider beneath the color boxes.
-2. Look at the **polarity profiles** (adjective pairs) on the right. You can drag the slider more to the left to indicate that the effect of the color relates more to the adjective on the left and the other way around. So for example, if you think that a color feels heavier, you could drag the slider more to the right. There are five different degrees from which you can choose. The further the slider points to one of the sides, the stronger the effect of the adjective. So if the slider is positioned in the middle, it means that the effect is balanced between the two polarities.
-3. Now, alter the polarity profiles on the right, so that they show the effect the dark and the light colors have on **you**. After you are done, you can compare your results with average values by clicking on the button SHOW. **But don't cheat!** 🤨
+1. ~Observe how the colors' effect changes when they are darker or brighter by using the slider beneath the color boxes.~
+2. ~Look at the **polarity profiles** (adjective pairs) on the right. You can drag the slider more to the left to indicate that the effect of the color relates more to the adjective on the left and the other way around. So for example, if you think that a color feels heavier, you could drag the slider more to the right. There are five different degrees from which you can choose. The further the slider points to one of the sides, the stronger the effect of the adjective. So if the slider is positioned in the middle, it means that the effect is balanced between the two polarities.~
+3. ~Now, alter the polarity profiles on the right, so that they show the effect the dark and the light colors have on **you**. After you are done, you can compare your results with average values by clicking on the button SHOW. **But don't cheat!**~ 🤨
 
 -
 
@@ -263,8 +263,8 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 ~Again, we will work with polarity profiles to understand the effect a change in saturation can have on the color.~
 
 ##### TASKS
-1. Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.
-2. Alter the polarity profiles on the right, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on the button SHOW. **But don't cheat!** 🤨
+1. ~Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.~
+2. ~Alter the polarity profiles on the right, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on the button SHOW. **But don't cheat!**~ 🤨
 
 -
 
@@ -408,7 +408,7 @@ b) saturated colors have in comparison to desatured colors.~
   ~The average effect of saturated colors is loud, bold, open, active, risky and cheerful.~
   ~Whereas desaturated colors feel old, unclear, reserved, serious, quiet, passive, cautious and light.~
 
-  ~This is only the average impression - it can vary depending on the color's hue.~ **So only take it as a hint, not a rule.**~
+  ~This is only the average impression - it can vary depending on the color's hue. **So only take it as a hint, not a rule.**~
   
   ~Whenever you design with colors, remember that the hue is not the only component influencing the color's effect!~
   ~Especially when we design for people with CVD, using brightness and saturation can be helpful to get a good result.~
@@ -546,7 +546,7 @@ b) saturated colors have in comparison to desatured colors.~
 
 -
 
-> ~If possible **compare your results** with someone and **explain why** you chose this color regarding the three properties of color.~
+> ~If possible **compare your results** with someone and **explain why** you chose this color regarding the three properties of color. **Alternativeley, write it down in your journal.**~
 
 -
 
