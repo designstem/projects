@@ -735,6 +735,10 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 <f-next-button />
 
+-
+
+<f-image src="./images/bees_boxes.jpg" />
+
 
 
 ---
