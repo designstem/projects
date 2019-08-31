@@ -100,3 +100,23 @@ In order to give a good presentation, you need to think like someone from market
 -
 
 <f-video src="https://www.youtube.com/watch?v=MnIPpUiTcRc" />
+
+---
+
+| 1 1 1
+| 2 3 3
+| rows: auto 1fr
+
+<caption>Assignment</caption>
+
+##  So what did you learn?
+
+-
+
+~Think back of what was new for you in this project? Reflect on which info you already knew about and what was completely new about it.~
+
+~Are there any interesting facts, which might be useful for you in your further life?~
+
+<br>
+
+<f-next-button />
