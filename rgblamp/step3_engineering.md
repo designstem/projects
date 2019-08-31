@@ -63,7 +63,7 @@ The design process involves multiple iterations and redesigns of your final solu
 
 <br>
 
-For further information, see also the workshop on Color Vision Deficiency! There you will find a detailed explanation on the RGB model and also tasks that will help you understand it better. <a href="../colorblindness">Click here!</a>
+For further information, see also the workshop on Color Vision Deficiency! There you will find a detailed explanation on the RGB model and also tasks that will help you understand it better. <a href="../colorblindness/index-02-the-eye.md">Click here!</a>
 
 
 <br>
