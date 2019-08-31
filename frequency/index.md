@@ -37,7 +37,7 @@
 
 <div style="position: relative">
 
-# <big>Frequency</big><br><sup><sup><u>and</u></sup></sup><small><big><big><big><big>Motion</big></big></big></big></small>
+# <big>Frequency</big><br><sup><sup><u>and</u></sup></sup><small><big><big><big><big>*Motion*</big></big></big></big></small>
 
 ><small>*Most of the information about our surroundings is perceived visually or audibly. Our brain processes this data and gives a meaningful context to it, but sometimes it fails and we might experience visual anomalies such as wheels rolling opposite direction or moving elements on a still picture.* **Why this is happening?**</small>
 
