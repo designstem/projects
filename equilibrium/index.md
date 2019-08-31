@@ -24,13 +24,13 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 | section: Plastic pollution
 | theme: dark
 | rows: 1fr auto
-| 1 2 2 2
+| 1 1 2 2
 
 # Plastic pollution
 
 Our sea is covered by "plastic floating islands", because plastic can not only sink but also float. It pollutes the sea at all depths.
 
-#### TASK
+#### TASKS
 
 1. ~Watch the following video about a diver in Bali and learn about sea pollution.~
 2. ~How does the video make you feel?~
@@ -38,7 +38,9 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 4. ~Find out about organizations that try to counteract sea pollution.~
 
 <br>
-**~In the following simulation, you can learn which plastic floats and which sinks:~**
+
+**In the following simulation, you can learn which plastic floats and which sinks:**
+
 <a class="tertiary" href="../plastics" target="_blank">Learn how plastic floats</a>
 
 <br>
@@ -50,41 +52,6 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 
 <f-video src="https://www.youtube.com?v=31CdhLMV7Es" />
 
----
-
-| section: Bad and good news
-| padding: 0
-| theme: dark
-
-<section>
-
-### The bad news is
-
-Plastic is everywhere and poisons our environment. It not only destroys nature, but also kills animals, who eat it, suffocate or get trapped in it. And in the end, through the food chain, it also kills us.
-
-### Good news
-
-<a href="https://science.howstuffworks.com/environmental/green-tech/sustainable/5-plastic-substitutes.htm" target="_blank">Top 10 Eco-friendly Substitutes for Plastic</a>
-
-<a href="https://news.nationalgeographic.com/2017/04/wax-worms-eat-plastic-polyethylene-trash-pollution-cleanup/" target="_blank">Worms eating plastic</a>
-
-<a href="https://www.explainthatstuff.com/bioplastics.html" target="_blank">Bioplastics and biodegradable plastics</a> (see the picture)
-
-### Discuss
-
-Can you find any other good news about plastic and environment?
-
-</section>
-
--
-
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BiodegradablePlasticUtensils1.jpg/1024px-BiodegradablePlasticUtensils1.jpg" />
-
-<f-notes title="Credits">
-
-https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
-
-</notes>
 
 ---
 
@@ -94,7 +61,6 @@ https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
 | theme: dark
 | rows: auto
 | 1 2
-| 3 2
 
 <section>
 
@@ -102,19 +68,26 @@ https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
 
 Plastic is everywhere and poisons our environment. It not only destroys nature, but also **kills animals**, who eat it, suffocate by it or get trapped in it. And in the end, through the food chain, it also kills us.
 
+
+#### TASKS
+
+~Get informed!~
+
 ~You can find more information on this via <f-link to="https://www.peta.org/">PeTA</f-link>~. Search for **plastic** and you will find many articles which are related to plastic hurting animals.
 
-~Further you can find more information on plastic destroying nature via <f-link to="https://www.greenpeace.org/international/">Greenpeace</f-link>~. Also search for the keyword "plastic" and find out where it destroys nature's beauty.
+~Further you can find more information on plastic destroying nature via <f-link to="https://www.greenpeace.org/international/">Greenpeace</f-link>~. Also search for the keyword **plastic** and find out where it destroys nature's beauty.
+
+<br>
+
+<f-next-button />
 
 </section>
+
 
 -
 
 <f-image src="./images/equilibrium_fish.jpg" />
 
--
-
-<f-next-button />
 
 
 
@@ -125,7 +98,6 @@ Plastic is everywhere and poisons our environment. It not only destroys nature, 
 | theme: dark
 | rows: auto
 | 1 2
-| 3 2
 
 <section>
   
@@ -142,8 +114,9 @@ Plastic is everywhere and poisons our environment. It not only destroys nature, 
 <br>
 
 TASK
-1. ~Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.~
-2. ~Discuss your ideas in class.~
+1. ~Find other eco friendly substitutes for plastic or other similar projects.~
+2. ~Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.~
+3. ~Discuss your ideas in class.~
 
 <f-notes title="Credits">
 
@@ -151,14 +124,16 @@ https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
 
 </notes>
 
+<br>
+
+<f-next-button />
+
 -
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/BiodegradablePlasticUtensils1.jpg/1024px-BiodegradablePlasticUtensils1.jpg" />
 
--
 
 
-<f-next-button />
 
 ---
 
