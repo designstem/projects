@@ -66,7 +66,7 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 
 ### The bad news is...
 
-Plastic is everywhere and poisons our environment. It not only destroys nature, but also **kills animals**, who eat it, suffocate by it or get trapped in it. And in the end, through the food chain, it also kills us.
+Plastic is everywhere and poisons our environment. It not only destroys nature, but also **kills animals**, who eat it, suffocate by it or get trapped in it. And in the end, through the food chain, it also affects our health.
 
 
 #### TASKS
