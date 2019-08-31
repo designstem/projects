@@ -15,9 +15,12 @@
 
 -
 
-# Background research
+# Before you can design...
 
-Learn from the experience of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past.
+**Do some background research first!**
+On the following pages, you will learn from the experience of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past.
+
+**Take notes of the core facts, while you read through the pages.** You will need this information for your final task!
 <br>
 <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
 Find out more!</f-link>
@@ -156,7 +159,7 @@ https://commons.wikimedia.org/w/index.php?title=Special:Search&limit=500&offset=
 
 Flying west is less tiring than flying east. **Why is that? Try to find it out!**
 
-This airplane shows blueish light<br>to keep you more awake in order to abate your jetlag. **Why does blue light keep you awake and yellow light makes you sleepy? Find out!**
+This airplane shows blueish light<br>to keep you more awake in order to abate your jetlag. <br> **Why does blue light keep you awake and yellow light make you sleepy? <br> Find out!**
 
 </div></center>
 
