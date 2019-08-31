@@ -6,6 +6,7 @@
 | 2 1
 | rows: auto
 
+<section>
 # Of Bees and Packaging
 
 <big style="line-height: 1.75em"><big>How to optimize packaging,<br>reduce excess space<br>and avoid material waste</big></big>
@@ -14,6 +15,8 @@
 
 
 <f-next-button title="Start" />
+
+</section>
 
 -
 
@@ -623,7 +626,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 ---
 
 | caption: Final assignment
-| 1 1 2 2 2
+| 1 2
 | padding: 0
 
 <section>
@@ -722,13 +725,15 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 ##  Evaluate your packaging
 
-Congratulations on creating your packaging! Let's have a closer look!
+**Congratulations on creating your packaging!** Let's have a closer look!
 
 1. ~What was most difficult about designing it? Where did you struggle?~
 2. ~What did you learn about packaging design? Is there anything new that you didn't know yet?~
 3. ~On a daily basis, we throw away cardboard packagings or recycle them. This immensely increased throughout the last fifty years. But also plastic is being used massively for packaging. Can you imagine alternatives? Browse the internet to find new ideas on alternatives for cardboard or plastic packaging.~
 
+<br>
 
+<f-next-button />
 
 
 
