@@ -6,7 +6,7 @@
 
 <section>
 
-# <big>Let there be a RGB light</big>
+# <big>Let there be an RGB light</big>
 
 <f-inline>
   <f-next-button title="Start building RGB light" />
@@ -29,17 +29,23 @@
 
 -
 
-Look at the [Philips hue](https://www2.meethue.com/en-us) commercial in the right. Dicuss the following topics:
+Look at the [Philips hue](https://www2.meethue.com/en-us) commercial on the right. Dicuss the following questions. Write down your answers:
 
-<span class="bullet">?</span> What problem the product solves?
+1. ~What problem does the product solve?~
   
-<span class="bullet">?</span> How it affects the lives of its users?
+2. ~How does it affect the lives of its users?~
 
-<span class="bullet">?</span> How does it work? What it can do? How it reacts to user input?
+3. ~How does it work? What can it do? How does it react to user input?~
 
-<span class="bullet">?</span> What electric and software components it might have?
+4. ~Which electric and software components might it have?~
 
-All these questions are the core of <var>design engineering</var>. Let's start exploring how it works.
+<br> 
+
+All these questions are at the core of <var>design engineering</var>. Let's start exploring how it works.
+
+<br>
+
+<f-next-button />
 
 -
 
@@ -65,10 +71,15 @@ All these questions are the core of <var>design engineering</var>. Let's start e
 
 The engineering design process starts when you ask the following questions about problems that you observe:
 
-#### <span class="bullet">?</span> What is the need?
+#### 1. What is the need?
 
-#### <span class="bullet">?</span> Who has the need?
+#### 2. Who has the need?
 
-#### <span class="bullet">?</span> Why is it important to satisfy the need?
+#### 3. Why is it important to satisfy the need?
+
+<br>
+
+
+<f-next-button />
 
 -
