@@ -228,19 +228,19 @@ But let's think further:
 Let's compare perimeter vs volume!
 -
 
-1.  Bring/take a milk or juice carton (square shape). Cut off the top of the carton and fill it with rice until it is full.
+<span class="bullet">1</span>  Bring/take a milk or juice carton (square shape). Cut off the top of the carton and fill it with rice until it is full.
 
-2. Weigh the rice on a scale without the carton (pour it into a bowl). Note the weight!
+<span class="bullet">2</span> Weigh the rice on a scale without the carton (pour it into a bowl). Note the weight!
 
-3. Also, cut off the bottom of the carton and cut along one of the sides, to open it up..
+<span class="bullet">3</span> Also, cut off the bottom of the carton and cut along one of the sides, to open it up..
 
 -
 
-4. Change the base of the carton into different regular shapes (see below) and check if the resulting boxes contain different amounts of rice at the same amount of carton wrapping.
+<span class="bullet">4</span> Change the base of the carton into different regular shapes (see below) and check if the resulting boxes contain different amounts of rice at the same amount of carton wrapping.
 
-5. Which shape optimizes the carton's volume?
+<span class="bullet">5</span> Which shape optimizes the carton's volume?
 
-6. What can you say about the relation between the <var>perimeter</var> of the base and the <var>volume</var> of the carton?
+<span class="bullet">6</span> What can you say about the relation between the <var>perimeter</var> of the base and the <var>volume</var> of the carton?
 
 -
 
