@@ -3,7 +3,7 @@
 | theme: light
 | padding: 0
 | gap: 0
-| 2 2 1
+| 2 1
 | rows: auto
 
 # <big>Of Bees and Packaging</big>
@@ -40,8 +40,7 @@ Image credits: www.unsplash.com
 | chapter: Of Bees and Packages
 | section: Start
 | theme: light
-| padding: 0
-| gap: 0
+| gap: var(--base5)
 | 1 2
 | rows: auto
 
@@ -66,7 +65,7 @@ Image credits: www.unsplash.com
 
 -
 
-<f-image src="./images/bees_title.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+<f-image src="./images/bees_package.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 
 ---
@@ -146,8 +145,7 @@ On the right, you can see an X-Ray of a cocoa package, showing the amount of pro
 ### Costly packaging
 
 Sometimes the value of the package is higher than the value of the product itself, depending on the material in use and the further processing to make the product look more valuable.
-<br>
-~**Find other examples!~
+<f-arrow-icon /> ~**Find other examples!**~
 
 -
 
@@ -158,8 +156,7 @@ Sometimes the value of the package is higher than the value of the product itsel
 ### Precious packaging
 
 Sometimes the package is part of the value, like with perfume bottles. Some people even collect them. Walk through a perfume store and look at the different and extraordinary shapes. No one would put so much effort into designing bottles, if it wasn't what the customer wanted.
-<br>
-~**Which other examples for precious packaging can you find?**~
+<f-arrow-icon /> ~**Which other examples for precious packaging can you find?**~
 
 -
 
@@ -170,8 +167,8 @@ Sometimes the package is part of the value, like with perfume bottles. Some peop
 ### Ethic packaging
 
  Reducing packaging is an ethic mission &ndash; **always**! And it is getting out of hand, because one product can be wrapped multiple times, e.g. cornflakes. They are wrapped in a plastic bag, inside a cardboard box.
- <br>
- ~**Find other examples for multiple times wrapped products. What is the purpose?**~
+
+<f-arrow-icon /> ~**Find other examples for multiple times wrapped products. What is the purpose?**~
 
 
 <br>
@@ -226,25 +223,24 @@ But let's think further:
 
 <caption>Exercise</caption>
 
-## Perimeter vs volume
+## <f-activity-icon /> Your turn!
+
+Let's compare perimeter vs volume!
+-
+
+1.  Bring/take a milk or juice carton (square shape). Cut off the top of the carton and fill it with rice until it is full.
+
+2. Weigh the rice on a scale without the carton (pour it into a bowl). Note the weight!
+
+3. Also, cut off the bottom of the carton and cut along one of the sides, to open it up..
 
 -
 
-<span class="bullet">1</span>  Bring/take a milk or juice carton (square shape). Cut off the top of the carton and fill it with rice until it is full.
+4. Change the base of the carton into different regular shapes (see below) and check if the resulting boxes contain different amounts of rice at the same amount of carton wrapping.
 
-<span class="bullet">2</span> Weight the rice on a scale without the carton.
+5. Which shape optimizes the carton's volume?
 
-<span class="bullet">3</span> Take note of the weight.
-
-<span class="bullet">4</span> Cut off also the bottom of the carton and cut along one of the sides.
-
--
-
-<span class="bullet">5</span> Change the base of the carton into different regular shapes and check if the resulting boxes contain different amount of rice.
-
-<span class="bullet">6</span>  Which shape optimize carton volume?
-
-<span class="bullet">7</span>  What can you say about the relation between the <var>perimeter</var> of the base and the <var>volume</var> of the carton?
+6. What can you say about the relation between the <var>perimeter</var> of the base and the <var>volume</var> of the carton?
 
 -
 
