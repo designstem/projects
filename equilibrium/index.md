@@ -7,7 +7,7 @@
 
 # <big style="color: var(--darkblue)">Equilibrium</big>
 
-<big style="color: var(--darkblue)">Natural equilibrium and floating equilibrium</big>
+<big style="color: var(--darkblue)">Finding out about natural equilibrium and floating equilibrium</big>
 
 -
 
@@ -28,11 +28,23 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 # Plastic pollution
 
-The sea is covered by "plastic floating islands"
+Our sea is covered by "plastic floating islands", because plastic can not only sink but also float. It pollutes the sea at all depths.
 
-Plastic can sink and pollute the sea at all depths
+#### TASK
 
+1. ~Watch the following video about a diver in Bali and learn about sea pollution.~
+2. ~How does the video make you feel?~
+3. ~Did you ever come across water pollution like this close to where you live (for example in lakes or rivers)?~
+4. ~Find out about organizations that try to counteract sea pollution.~
+
+<br>
+**~In the following simulation, you can learn which plastic floats and which sinks:~**
 <a class="tertiary" href="../plastics" target="_blank">Learn how plastic floats</a>
+
+<br>
+
+~When you found out about the properties of plastics' floating behaviour, continue your journey through the workshop:~
+<f-next-button />
 
 -
 
