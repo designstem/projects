@@ -23,7 +23,7 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 -
 
 <figure style="width:100%; display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
-  <img src="./images/cvd_path.jpg" />
+  <img src="./images/cvd_crossroad.jpg" />
 </figure>
 
 
