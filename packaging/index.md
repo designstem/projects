@@ -1,20 +1,21 @@
 | chapter: Of Bees and Packages
 | section: Start
-| 1 1 1 3 3
-| 2 2 2 3 3
-| rows: 1fr auto
+| 1 2
+| rows: auto
 
-# <big>Of Bees and Packages</big>
+# <big>Of Bees and Packaging</big>
 
 <big style="line-height: 1.75em"><big>How to optimize packaging,<br>reduce excess space<br>and avoid material waste</big></big>
 
--
+<br>
+
 
 <f-next-button title="Start" />
 
 -
 
-<img src="https://etc.usf.edu/clipart/6800/6853/honey-bee_6853_md.gif" />
+<img src="./images/bees_title.jpg" />
+
 
 <f-notes style="--primary: var(--darkgray)" >
 
