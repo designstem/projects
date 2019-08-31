@@ -115,8 +115,9 @@ Plastic is everywhere and poisons our environment. It not only destroys nature, 
 
 TASK
 1. ~Find other eco friendly substitutes for plastic or other similar projects.~
-2. ~Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.~
-3. ~Discuss your ideas in class.~
+2. ~Look around at your home. How much plastic do you use? Find out if there are alternatives for items made of plastic, e.g. there are toothbrushes made of bamboo.~
+3. ~Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.~
+4. ~Discuss your ideas in class. Is it very difficult to be eco friendly?~
 
 <f-notes title="Credits">
 
@@ -146,15 +147,21 @@ https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
 
 #### Christo "The Floating Piers", 2016
 
-Plastic can also be used to make you walk on water, <a href="https://christojeanneclaude.net/projects/the-floating-piers" target="_new">see this art installation</a>.
+ <blockquote style="background: none;">
 
-#### Discuss
+  ~*“The Floating Piers was a temporary, site-specific work of art by Christo and Jeanne-Claude, consisting of 70,000 square meters of yellow fabric, carried by a modular floating dock system of 226,000 high-density polyethylene cubes installed in 2016 at Lake Iseo near Brescia, Italy. The fabric created a walkable surface between Sulzano, Monte Isola and the island of San Paolo.”*~
+  
+  <p style="text-align:right; --base:8px;">&mdash;wikipedia.org</p>
 
-What are your feelings about this installation?
+ </blockquote>
 
-After which physical laws the piers were floating, even with many people walking on them?
+So plastic can also be used to make you walk on water, <a href="https://christojeanneclaude.net/projects/the-floating-piers" target="_new">see this art installation</a>.
 
-Concentrate on these terms:
+#### TASKS
+
+1. ~What are your feelings about this installation?~
+
+2. ~Which physical laws are used here to keep the piers floating even when people walked on them? **Focus on the following two terms** and find out what they mean:~
 
 - <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a>
 
