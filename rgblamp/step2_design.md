@@ -87,13 +87,13 @@ https://www.flickr.com/photos/62449696@N00/9522596028
 
 ## Design analysis
 
-You have still got your idea in mind? **Then let's start planning!** 🙂
+You have still got your rough idea in mind? **Then let's start planning!** 🙂
 
-Use the following questions as guidelines to get you started.
+***Try to come up with as many ideas as possible! More than one is a requirement!***
 
-<!-- Grab a piece of paper and design/sketch your own lamp. -->
+~Write down your answers to the following questions! You will need them later:~
 
-#### Key questions:
+#### TASKS:
 
 1. ~What is your target group? Is there a certain person that you will design it for? What does your target group need or expect?~
 2. ~What is its basic function? Remember your research results of before e.g. information, communication, health, psychology...~
@@ -101,7 +101,7 @@ Use the following questions as guidelines to get you started.
 4. ~In which way will your RGB lamp interact with the environment or people?~
 5. ~Which input from the environment does your lamp react to (e.g. time, light, noise, music, temperature, heart rate, feelings...)?~
 
-~**When you answer these questions, try to be as precise as possible.** The better you plan, the better the outcome! **So take your time and don't rush it!**~
+~***When you answer these questions, try to be as precise as possible.*** The better you plan, the better the outcome! ***So take your time and don't rush it!***~
 
 <br>
 
