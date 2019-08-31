@@ -66,11 +66,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 <br>
 
-<f-inline>
-  
-# 🛑
-
-> Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing (and sometimes failing), through your own experience and conclusions, and not by just reading ready-made information**.
+~Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing (and sometimes failing), through your own experience and conclusions, and not by just reading ready-made information**~.
 
 <br>
 
