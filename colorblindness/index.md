@@ -120,7 +120,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 # 🤔
 
-~**Look at the tomatoes and try to guess which one of the tomatoes is already ripe, red and therefore edible.**~
+~**Look at the tomatoes and try to guess which one of them is already ripe, red and therefore edible.**~
 
 </f-inline>
 
@@ -130,7 +130,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 <div v-if="get('revealX') > 75">
 
-  ~**Did you guess right? If you picked the right tomato, congratulations!**~
+  ~**Did you guess right? If you picked the right one, congratulations!**~
   
   <f-inline>
   
