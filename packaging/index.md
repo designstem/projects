@@ -675,6 +675,18 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 <f-next-button />
 
 
+<f-notes style="--primary: var(--darkgray)" >
+
+### Additional information
+
+Depending on your students' proficiency, you can also let them design the layout of the packaging itself, that means add texts, logo, pictures etc. Maybe also come up with ideas for refinement to make the packaging more appealing.
+
+Image credits: www.unsplash.com
+
+
+</f-notes>
+
+
 </section>
 
 -
