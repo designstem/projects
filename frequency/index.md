@@ -538,6 +538,8 @@ The most common way to experience noticeable visual distortion<br>caused by freq
 
 -
 
+<div style= "width:89%">
+
 You just experienced a <var>[stroboscopic effect](https://en.wikipedia.org/wiki/Stroboscopic_effect)</var> occurring during the movie clip. It is visible because the recording has slower <var>[frame rate](https://en.wikipedia.org/wiki/Frame_rate)</var> than the <var>[rate of revolutions](https://en.wikipedia.org/wiki/Revolutions_per_minute)</var> the object had in a given timeframe.
 
 <br>
@@ -545,6 +547,8 @@ You just experienced a <var>[stroboscopic effect](https://en.wikipedia.org/wiki/
 <!-- <f-fact-icon/> -->
 
 ><small>*In other words, the movie clip is just a frequent series of pictures (frames) played very quickly (movies usually have 24 <var>FPS</var>) and the **wheels were rotating quickly enough not to be in sync in every frame;** this produces a natural visual impression of rotating wheel.*</small>
+
+</div>
 
 -
 <div style= "width:81%">
