@@ -202,6 +202,11 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 5. Finally, calculate your boat's weight and its buoyancy in water.
 
+<br>
+
+#### Hint:
+~If there is no lake or river close to you, you can also build a smaller version of your boat and test it in the sink or bath tub.~
+
 
 <br>
 
@@ -232,16 +237,17 @@ https://commons.wikimedia.org/wiki/File:Bottle_boat_racers_paddle_their_way_to_v
 | section: Does your boat float?
 
 | 1 2 3
+| 4 4 4
 
-## Does your boat float?
+## Let's experiment! 🤪
 
-<big>How much weight can you add to your object before it sinks?</big>
+<big>Does your boat float? How much weight can you add to your object before it sinks?</big>
 
 -
 
 ##### 1.
 
-Measure the volume of your "boat". Hint: fill it with water then pour the water into a measuring cup. The amount of water that was in the boat tells you its volume.
+**Measure the volume** of your boat. Hint: Fill it with water then pour the water into a measuring cup. The amount of water that was in the boat tells you its volume.
 
 ##### 2.
 
@@ -249,7 +255,7 @@ Calculate how many grams of water the boat can hold (1 ml of water = 1 g).
 
 ##### 3.
 
-Float the empty boat and start adding quarters one at a time. Add them slowly so you don’t flip the boat over! What happens to the boat as you add quarters? How many quarters does it take to sink the boat?
+Float the empty boat and start adding quarters, one at a time. Add them slowly so you don’t flip the boat over! What happens to the boat as you add quarters? How many quarters does it take to sink the boat?
 
 -
 
@@ -259,7 +265,11 @@ Calculate how many grams of quarters were needed to sink the boat. One quarter o
 
 ##### 5.
 
-Compare the total mass of water that sink the boat to the mass of water that fills the boat (see step 2). What do you notice?
+Compare the total mass of water that sinks the boat, to the mass of water that fills the boat (see step 2). What do you notice?
+
+-
+
+<f-next-button />
 
 ---
 
@@ -270,15 +280,25 @@ Compare the total mass of water that sink the boat to the mass of water that fil
 
 | 2 2 1
 
-## Finish your boat
+## Examine your boat
 
 #### Checklist:
 
-1. Is it made reusing materials?
+1. Is it only made by reusing/repurposing plastic?
 
-2. Does it havea an environmental purpose?
+2. Does it have an environmental purpose? 
 
-3. Can it float when stressed with more weight? Stressed with movements? Stressed with distortions of original shape?
+3. Can it float when stressed with more weight, or with movements or even if it is distorted from its original shape?
+
+
+#### TASK
+
+~Think of alternative uses for this project. Where would it be handy to create floating objects out of used plastic objects? Could this be used with a benefit in product design or in developing countries?~
+
+
+<br>
+
+<f-next-button />
 
 -
 
@@ -299,7 +319,13 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 #### Related DesignSTEM projects
 
-<a href="../waste">Waste is a Design Mistake</a> digs deep into designing products with a lesser materials and lesser waste, including reduced use of plastic.
+<a href="../waste">Waste is a Design Mistake</a> digs deep into designing products with less use of materials and less waste, including the reduction of plastic.
+
+<a href="../dyes">Natural dyes</a> looks into creating eco friendly dyes from natural objects to reduce the environmental load of textile and fashion industry to the planet.
+
+<br>
+
+You can find more projects and workshops via the following link:
 
 <a class="tertiary" href=".."><f-leftarrow-icon /> Back to projects</a>
 
