@@ -3,7 +3,7 @@
 | theme: light
 | padding: 0
 | gap: 0
-| 2 1
+| 2 2 1
 | rows: auto
 
 # <big>Of Bees and Packaging</big>
