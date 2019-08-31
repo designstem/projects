@@ -1029,7 +1029,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 
 
-| chapter: Finally
+| chapter: Epilogue
 | section: Conclusion
 | rows: auto
 | cols: 3fr 1fr

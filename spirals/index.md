@@ -1015,15 +1015,25 @@ https://www.youmagine.com/ and https://www.thingiverse.com
 3D Printing of a **DNA chain** II
 
 ---
+
+
+
+
+
+
+
+
+
+
 | 1 2 
 | 3 3 
 | 4 5 
 
 <!-- 5. The dice cylinder -->
 
-# The Dice Cylinder Design Problem
+## The Dice Cylinder Design Problem
 
-## **Dice Games**
+#### **Dice Games**
 
 Dice games are board games played by dice. They are very popular especially among children. The backgammon, chuck-a-luck (bird cage), ludo etc are examples of dice games. A list of several dice games can be found at [http://www.dice-play.com/GamesAZ.htm](http://www.dice-play.com/GamesAZ.htm)
 
@@ -1035,11 +1045,11 @@ Dice games are based on rules according to which a player throws the dice and de
 
 -
 
-## **The design problem**
+#### **The design problem**
 
 Assume that you want to design an object that could help rolling the dice efficiently in a restricted space. Let such an object be a dice-cylinder, i.e. a cylinder that when the player lets the dice from the top, it will let them go down rolling and let them exit at the bottom level.
 
-Such a dice-cylinder should :
+Such a dice-cylinder should:
 
 1. Be easy to use
 2. Allow one more dice roll down simultaneously
