@@ -161,6 +161,11 @@ Flying west is less tiring than flying east. **Why is that? Try to find it out!*
 
 This airplane shows blueish light<br>to keep you more awake in order to abate your jetlag. <br> **Why does blue light keep you awake and yellow light make you sleepy? <br> Find out!**
 
+<br>
+
+<f-next-button />
+
+
 </div></center>
 
 <f-notes title="Credits">
