@@ -325,6 +325,10 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 ~See for example the following project, where Alfredo Moser from Brazil invented a way to make lives (literally) brighter by repurposing used plastic bottles:~
 <br><a href="https://en.wikipedia.org/wiki/Liter_of_Light" target="_new">Liter of light</a>.
 
+<br>
+
+<f-next-button />
+
 -
 
 
