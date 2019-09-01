@@ -407,9 +407,9 @@ Of course you can add further questions and tasks for your students or adapt the
 ~Caring about high accessibility of information in your design products is crucial. And color is an important part of design.~ 
 ~In the following **learning stations** you can find impulses and tasks which &ndash; in the end &ndash; should enable you to get the skills to optimize your design products. STEM students could use this for example when you choose a color scheme for diagrams.~ 
 
-#### <f-arrow-icon /> ***How to use the learning stations***
+### ***<f-arrow-icon /> How to use the learning stations***
 ~You can **work through the stations in the given order** (which is recommended if you are a beginner). If you are already familiar with a certain topic, you can directly navigate to one that is new for you. Throughout the following pages, you can switch to other learning stations via the burger menu in the top left corner.~
-~**But don't cheat and skip ahead, before you are not sure that you know everything!**~🧐
+***But don't cheat and skip ahead, before you are not sure that you know everything!*** 🧐
 
 <br>
 
