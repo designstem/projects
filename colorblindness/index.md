@@ -392,6 +392,7 @@ Of course you can add further questions and tasks for your students or adapt the
 
 | chapter: Learning stations
 | section: Learning stations
+| theme: blue
 | rows: 1fr auto
 | 1 1
 | 2 3
