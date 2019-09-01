@@ -121,7 +121,7 @@ Of course you can add further questions and tasks for your students or adapt the
 
 
 | section: What is CVD?
-| rows: auto
+| rows: 1fr auto
 | gap: 3vmin
 | 1 2
 | 3 2
@@ -172,15 +172,6 @@ Of course you can add further questions and tasks for your students or adapt the
 <f-next-button />
 
 
-
-<f-notes>
-  <summary>Teachers note</summary>
-  
-  #### Aim
-
-  ~Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, which all people should be able to access.~
-
-</f-notes>
 
 ---
 
@@ -236,7 +227,7 @@ Of course you can add further questions and tasks for your students or adapt the
 | padding: 0
 | 1 2
 | 3 2
-| rows: auto 25vh
+| rows: 1fr auto
 
 <section style="padding:var(--content-padding);">
 
@@ -266,6 +257,16 @@ Of course you can add further questions and tasks for your students or adapt the
   <f-next-button title="Analyze your photos" />
 </section>
 
+
+<f-notes>
+  <summary>Teachers note</summary>
+  
+  #### Aim
+
+  ~Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, that all people should be able to access.~
+  ~After the photo safari, students should get a chance to thoroughly examine what they found. In this phase, you, as a teacher, should stand back. Maybe it would be helpful if two students would work together, share their results and discuss them.~
+
+</f-notes>
 
 
 
@@ -349,7 +350,7 @@ Of course you can add further questions and tasks for your students or adapt the
 
 
 | id: cb-analyze
-| rows: auto
+| rows: 1fr auto
 | cols: 2fr 3fr
 | 1 3
 | 2 3
@@ -371,6 +372,17 @@ Of course you can add further questions and tasks for your students or adapt the
 -
 
 <f-image src="images/cvd_glasses.jpg" />
+
+
+<f-notes>
+  <summary>Teachers note</summary>
+  
+  #### Hint
+
+  ~After this phase, you as a teacher, are in the focus again and should **lead a discussion in class**. Let the students present what they found out, collect results, come up with first ideas/explanations, that the students will test in the learning station setting..~ 
+ ~This phase is crucial for the learning process, so don't skip it. After the students explored their daily surroundings, they should have a chance to form some kind of conclusion and check with their classmates. At the end of the whole workshop, then, they will have the chance to review their first assumptions and therefore hopefully see their increase of knowledge for themselves.~
+
+</f-notes>
 
 ---
 
