@@ -434,8 +434,12 @@ In the following **learning stations** you will find tasks which &ndash; in the 
 <f-next-button style="margin:6vh 0" title="Next: Accessibility" />
 
 -
+
+<div style="margin-left: 2vw">
+  
 ### Level up and get your skills ready, <br> before you face the "endboss"! 🧐
 
+</div>
 
 -
 <br>
