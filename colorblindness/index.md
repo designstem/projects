@@ -57,7 +57,7 @@ Further, especially design students should learn how to choose color schemes so 
 ## Read first!
 
 
-Before you are going dive into the workshop, in order to improve your learning experience, we recommend the following:
+Before you dive into the workshop, in order to improve your learning experience, we recommend the following:
 
 <br>
 
