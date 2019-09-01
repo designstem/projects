@@ -131,6 +131,17 @@ Use this activity to map the rods and cones in your retina. Notice that when an 
 <f-next-button title="Next: Color Vision Deficiency" />
 
 
+<f-notes>
+
+<summary>Teachers note</summary>
+
+#### Aim
+
+This is an additional task to go deeper into Rods and Cones, but is not necessary for the whole workshop. We added it for STEM teachers to go a bit deeper into "The eye" setting. So feel free to skip it with your class.
+
+</f-notes>
+
+
 
 
 ---
@@ -172,6 +183,18 @@ When we cook together, he always asks me, if meat is still edible, because wheth
 <figure style=" display:flex; flex-direction:column; justify-content:center; align-items:center; margin:0; position:sticky; top:15vh;">
   <img src="./images/color_blindness_accessibility_meat.jpg" />
 </figure>
+
+
+
+<f-notes>
+
+<summary>Teachers note</summary>
+
+#### Aim
+
+Don't skip this topic - especially not if you are a design teacher. In this chapter, the students should not only develop empathy for people with a form of CVD, but also get some ideas on which colors are affected most. **They will need this information for later learning stations and for the final task!**
+
+</f-notes>
 
 -
 
