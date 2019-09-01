@@ -396,13 +396,13 @@ b) saturated colors have in comparison to desatured colors.
 
 Check below **after** coming up with your own conclusion.
 
-<f-sidebar title="Conclusion" overlay size="half">
+<f-sidebar title="Answer key" overlay size="half">
 
 <a class="tertiary">Conclusion<f-arrow-icon rotation="-45" /></a>
 
 <div slot="content" class="sidebar-content">
   
-  ### Conclusion
+  ### Answer key
   
   ~The average feeling of darker colors is heavy, old, passive, slow, serious, sad, quiet.~
   ~Whereas brighter colors feel louder, lighter, younger, more active, cheerful and carefree.~
@@ -497,8 +497,11 @@ Let's find some nice colors for our shampoo bottles:
 <caption>Three Properties of Color</caption>
 
 ## <f-activity-icon size="medium" /> Shampoo color designer
+
 <br>
+
 > ~If possible **compare your results** with someone and **explain why** you chose this color regarding the three properties of color. **Alternativeley, write it down in your journal.**~
+
 
 <!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
 
