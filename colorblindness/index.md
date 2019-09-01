@@ -453,10 +453,10 @@ You can work through the stations in the given order which is recommended if you
 
 | chapter: Learning stations
 | section: Learning stations
-| style: background-position: 50% 50%;
-| background: './images/cvd_learningstations.png'
-| tint: 0.85
 | theme: blue
+| style: background-position: 50% 50%;
+| background: './images/cvd_learningstations.jpg'
+| tint: 0.7
 | rows: 1fr auto
 | 1 1
 | 2 3
