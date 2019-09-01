@@ -249,11 +249,11 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
 
   <p />
 
-  ~Use a digital camera, such as the camera of your mobile phone, and go on a photo safari of your everyday life.~
+Use a digital camera, such as the camera of your mobile phone, and **go on a photo safari of your everyday life**.
 
-  ~**Take at least five pictures** of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day, where color is used in plenty. Choose only things which convey information.~  
+ ~**Take at least five pictures** of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day, where color is used in plenty. Choose only things which convey information.~  
   
-  ~**You will need the pictures for the next task. So don't skip it!**~🧐
+ **You will need the pictures for the next task. So don't skip it!** 🧐
   <!-- </div> -->
 
 </section>
@@ -274,8 +274,8 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
   
   #### Aim
 
-  ~Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to keep accessibility in mind when designing products that contain important information, which all people should be able to access.~
-  ~After the photo safari, students should get a chance to thoroughly examine what they found. In this phase, you, as a teacher, should stand back. Maybe it would be helpful if two students would work together, share their results and discuss them.~
+  Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to keep accessibility in mind when designing products that contain important information, which all people should be able to access.
+  After the photo safari, students should get a chance to thoroughly examine what they found. In this phase, you, as a teacher, should stand back. Maybe it would be helpful if two students would work together, share their results and discuss them.
 
 </f-notes>
 
@@ -304,7 +304,7 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
 
 <p />
 
-~<f-arrow-icon rotation="90" /> Simulate color vision deficiency by applying different filters to the image.~
+<f-arrow-icon rotation="90" /> Simulate color vision deficiency by applying different filters to the image.
 <p />
 
 <f-card :title="get('cbType', 'protanopia') == 'protanopia' ? 'Simulating Protanopia' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType', 'protanopia') == 'protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native.stop="set('cbType', 'protanopia')">
@@ -346,7 +346,7 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
   
 # <f-note-icon />
 
-~Find out if any information on your pictures **is not accessible to color vision deficient people**. Does it concern important information? Would it impair the ability to understand the meaning in part or completely? **Take notes!**~
+> Find out if any information on your pictures **is not accessible to color vision deficient people**. Does it concern important information? Would it impair the ability to understand the meaning in part or completely? **Take notes!**
 
 </f-inline>
 <f-next-button style="margin:var(--base4) 0" />
@@ -370,7 +370,7 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
 
 -
 
-~Now that you found out about possible weaknesses in the color design of objects in your everyday life, take a closer look:~
+Now that you found out about possible weaknesses in the color design of objects in your everyday life, take a closer look:
 
 1. ~Find out what the main problem is regarding the color scheme.~
 2. ~Phrase a hypothesis on how this problem could be solved.~
@@ -390,8 +390,9 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
   
   #### Hint
 
-  ~After this phase, you as a teacher, are in the focus again and should **lead a discussion in class**. Let the students present what they found out, collect results, come up with first ideas/explanations, that the students will test in the learning station setting..~ 
- ~This phase is crucial for the learning process, so don't skip it. After the students explored their daily surroundings, they should have a chance to form some kind of conclusion and check with their classmates. At the end of the whole workshop, then, they will have the chance to review their first assumptions and therefore hopefully see their increase of knowledge for themselves.~
+ After this phase, you as a teacher, are in the focus again and should **lead a discussion in class**. Let the students present what they found out, collect results, come up with first ideas/explanations, that the students will test in the learning station setting.
+ 
+This phase is crucial for the learning process, so don't skip it. After the students explored their daily surroundings, they should have a chance to form some kind of conclusion and check with their classmates. At the end of the whole workshop, then, they will have the chance to review their first assumptions and therefore hopefully see their increase of knowledge for themselves.
 
 </f-notes>
 
@@ -415,8 +416,8 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
 
 -
 
-~Caring about high accessibility of information in your design products is crucial. And color is an important part of design.~ 
-~In the following **learning stations** you will find tasks which &ndash; in the end &ndash; should enable you to develope the skills required to optimize your design products. STEM students could use this for example when they choose a color scheme for diagrams.~ 
+Caring about high accessibility of information in your design products is crucial. And color is an important part of design. 
+In the following **learning stations** you will find tasks which &ndash; in the end &ndash; should enable you to develope the skills required to optimize your design products. STEM students could use this for example when they choose a color scheme for diagrams. 
 
 ### <f-arrow-icon /> How to use the learning stations
 ~You can **work through the stations in the given order** (which is recommended if you are a beginner). If you are already familiar with a certain topic, you can navigate straight to a topic that is new to you. Throughout the following pages, you can switch to other learning stations via the burger menu in the top left corner.~
@@ -448,17 +449,17 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
   
   
   ### Aim 
-  ~To know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for color vision deficient people or not. This also includes the biological background of color vision deficiency.~
-  ~For design teachers, we kept the biology part as simple as possible (so don't be afraid of the new topic), but STEM teachers are incouraged to add more information themselves, if they want to dive deeper into the topics "eye" or "CVD".~
-  ~**This phase should focus on making sure that the students end up with the correct information** (so not too experimental, but mostly informative).
-   ~If they are beginners, students should do all of the work stations. However, if they already know about certain topics, they may do the tasks for each learning station for revision, or they can even skip them completely. You, as their teacher, make that decision based on their level.~
+ To know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for color vision deficient people or not. This also includes the biological background of color vision deficiency.
+ For design teachers, we kept the biology part as simple as possible (so don't be afraid of the new topic), but STEM teachers are incouraged to add more information themselves, if they want to dive deeper into the topics "eye" or "CVD".
+ **This phase should focus on making sure that the students end up with the correct information** (so not too experimental, but mostly informative).
+ If they are beginners, students should do all of the work stations. However, if they already know about certain topics, they may do the tasks for each learning station for revision, or they can even skip them completely. You, as their teacher, make that decision based on their level.
   
   ### Your role as a teacher
-   ~Many learning stations have tasks where students can check concepts with e-tools, to verify what they read/learned. So in between it might be necessary for the teacher to provide help or the opportunity to discuss/share results.~
+   Many learning stations have tasks where students can check concepts with e-tools, to verify what they read/learned. So in between it might be necessary for the teacher to provide help or the opportunity to discuss/share results.
  
   ### Learning journal
-  ~From now on, keeping a learning journal is not only recommended, but absolutely necessary, because the students will come across many new concepts, that they need to not only find out about, but also gather their insight somewhere. Encourage them to take screenshots while they work on tasks, so not only of the final results. This should help them to go back to a result if need be. Also, they might need these screenshots for future reference and group discussions in class.~
-  ~You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.~
+  From now on, keeping a learning journal is not only recommended, but absolutely necessary, because the students will come across many new concepts, that they need to not only find out about, but also gather their insight somewhere. Encourage them to take screenshots while they work on tasks, so not only of the final results. This should help them to go back to a result if need be. Also, they might need these screenshots for future reference and group discussions in class.
+  You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.
 
 </f-notes>
 
@@ -498,6 +499,8 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
 ## Accessibility
 
 -
+
+Let's find out what this concept means and why it is important:
 
 #### Tasks
 
