@@ -4,7 +4,7 @@
 | style: background-position: 50% 50%;
 | background: './images/colorblind-subway.png'
 | tint: 0.85
-| rows: 1fr 1fr 
+| rows: 1fr auto
 | 1
 
 
