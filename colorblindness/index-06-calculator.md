@@ -452,3 +452,39 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 
 
 <f-image src="./images/cvd_success.jpg" style="background-position:50% 50%; min-height: 90vh;" />
+
+
+
+
+<f-notes>
+
+<summary>Credits</summary>
+
+#### Pictures
+
+<a href="https://www.unsplash.com"> Unsplash.com </a>
+<a href="https://www.commons.wikimedia.org"> Wikipedia </a>
+
+All other graphics by Kristin Kreer.
+
+
+#### Literature
+
+~Adams, Sean. Morioka, Noreen. Stone, Terry. (Jan 1, 2006). Color Design Workbook.~
+~Itten, Johannes. (1970). The Elements of Color.~
+~Hideaki Chijiwa. (Sep 1, 1987). Color Harmony: A Guide to Creative Color Combinations.~
+
+
+#### Other
+
+Color-blindness.com. (November 2018) https://www.color-blindness.com/coblis-color-blindness-simulator/
+Wikipedia.org. (November 2018) https://en.wikipedia.org/wiki/Accessibility
+
+
+
+</f-notes>
+
+
+
+
+
