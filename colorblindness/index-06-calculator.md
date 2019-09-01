@@ -445,11 +445,11 @@ We hope that you enjoyed doing this workshop, and that it will help you in your 
   #### Related DesignSTEM projects:
 
   
-  <a href="../metamerism">Color perception</a> shows you that even if an object has one fixed color, it can still look different.
+  <a href="../metamerism">Color perception</a> <small>shows you that even if an object has one fixed color, it can still look different.</small>
 
-  <a href="../dyes">Natural dyes</a> Making your own dye is not only fun but also environmental friendly.
+  <a href="../dyes">Natural dyes</a> <small>Making your own dye is not only fun but also environmental friendly.</small>
   
-  <a href="../waste">Waste is a design mistake</a> Explore how to design products with zero waste.
+  <a href="../waste">Waste is a design mistake</a> <small>Explore how to design products with zero waste.</small>
   
 </div>
 
