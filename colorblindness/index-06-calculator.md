@@ -356,7 +356,7 @@ https://www.vitsoe.com/gb/about/good-design
 ## EVALUATE | Biology
 
 Do you still know everything there is to know about the eye and in specific about rods and cones? 
-<br>
+
 Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_quiz1_answerkey.pdf).
 
 
@@ -434,13 +434,13 @@ We hope that you enjoyed doing this workshop, and that it will help you in your 
 > ~*This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you are a pro now and know, that this problem can be fixed easily.~
 
 
-**If you are still motivated to learn more, you are welcome to check out the other workshops.** 😉
+If you are still motivated to learn more, you are welcome to check out the other DesignSTEM workshops. 😉
 
   
   #### Related DesignSTEM projects:
 
   
-  <a href="../metamerism">Color perception</a> <small>shows you that even if an object has one fixed color, it can still look different.</small>
+  <a href="../metamerism">Color perception</a> <br><small>shows you that even if an object has one fixed color, it can still look different.</small>
 
   <a href="../dyes">Natural dyes</a> <small>Making your own dye is not only fun but also environmental friendly.</small>
   
