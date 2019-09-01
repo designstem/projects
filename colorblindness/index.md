@@ -47,7 +47,7 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 ---
 
-| rows: auto
+| rows: 1fr auto
 | 1 2
 | 3 2
 
@@ -86,6 +86,24 @@ This workshop aimes to raise the students' awareness for the problems people wit
 
 <f-next-button title="Next: Let's start!" />
 
+
+<f-notes>
+
+<summary>Teachers note</summary>
+
+#### Journal
+
+Please, encourage your students to keep a journal. Learning about color design is often not something where you have straight facts, but where you need to discuss and share ideas, in order to figure out what works best.
+Maybe you could provide them the following questions/tasks:
+
+1. Start a new chapter for each new topic.
+2. Write down all the facts, that you might forget about, but that seem important, so that you can look them up later (for the final task).
+3. When there are tasks, keep notes of your results (also of your intermediate results), so that you can see your progress or can go back to a result if necessary. If you keep a digital journal, you can add screenshots.
+4. At the end of each chapter, write some lines on "These are my new insights". Maybe something that surprised you or was new to you. Something that you find fascinating.
+
+Of course you can add further questions and tasks for your students or adapt these tasks to your students' level.
+
+</f-notes>
 
 
 
