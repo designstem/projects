@@ -35,7 +35,8 @@
 
 #### Aim
 
-This workshop aimes to raise the students' awareness for the problems people with color vision deficiency have to face in their everyday life. The students should realize that it’s not only about the absence of certain colors and therefore being somehow “aesthetically impaired” by seeing less colors. Instead they should experience that not being able to see all colors can have a serious impact, because people might get the wrong information or no information at all. Further, especially design students should learn how to choose color schemes so that even people with CVD can access information easily.
+This workshop aimes to raise the students' awareness for the problems people with color vision deficiency have to face in their everyday life. They should realize that it is not just about the inability to see certain colors and therefore being somehow “aesthetically impaired” by seeing fewer colors. In addition, they should experience that not being able to see all colors can have a serious impact, because people might receive the wrong information or no information at all.
+Further, especially design students should learn how to choose color schemes so that even people with CVD can access information easily.
 
 </f-notes>
 
@@ -131,8 +132,8 @@ Of course you can add further questions and tasks for your students or adapt the
 
 <div v-if="get('revealX') < 75">
 
-~This is an example of how a color vision deficient person (with protanopia, i.e. red blindness) would see tomatoes.~ 
-~Actually, in this picture there is **<span style="color:var(--red)">only one red tomato</span>**.~
+~This is an example of how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
+~Actually, there is **<span style="color:var(--red)">only one red tomato</span>** in this picture.~
 
 <f-inline>
 
@@ -148,7 +149,7 @@ Of course you can add further questions and tasks for your students or adapt the
 
 <div v-if="get('revealX') > 75">
 
-  ~**Did you guess right? If you picked the right one, congratulations!**~
+  ~**Did you guess correctly? If you picked the right one, congratulations!**~
   
   <f-inline>
   
@@ -238,9 +239,9 @@ Of course you can add further questions and tasks for your students or adapt the
 
   <p />
 
-  ~Take a digital camera, e.g. the camera of your mobile phone, and go on a photo safari of your everyday life.~
+  ~Use a digital camera, such as the camera of your mobile phone, and go on a photo safari of your everyday life.~
 
-  ~**Take at least five pictures** of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day, where color is used in plenty. Only choose items which convey information.~  
+  ~**Take at least five pictures** of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day, where color is used in plenty. Choose only things which convey information.~  
   
   ~**You will need the pictures for the next task. So don't skip it!**~🧐
   <!-- </div> -->
@@ -263,7 +264,7 @@ Of course you can add further questions and tasks for your students or adapt the
   
   #### Aim
 
-  ~Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to also keep accessibility in mind when designing products which contain important information, that all people should be able to access.~
+  ~Students explore which parts of their everyday life might cause problems for color vision deficient people. Therefore, we raise awareness for the need to keep accessibility in mind when designing products that contain important information, which all people should be able to access.~
   ~After the photo safari, students should get a chance to thoroughly examine what they found. In this phase, you, as a teacher, should stand back. Maybe it would be helpful if two students would work together, share their results and discuss them.~
 
 </f-notes>
@@ -335,7 +336,7 @@ Of course you can add further questions and tasks for your students or adapt the
   
 # <f-note-icon />
 
-~Find out if any information on your pictures get lost for colorblind people. Does it concern important information? Would it impair the ability to understand the meaning in part or completely? **Take notes!**~
+~Find out if any information on your pictures **is not accessible to color vision deficient people**. Does it concern important information? Would it impair the ability to understand the meaning in part or completely? **Take notes!**~
 
 </f-inline>
 <f-next-button style="margin:var(--base4) 0" />
@@ -359,11 +360,11 @@ Of course you can add further questions and tasks for your students or adapt the
 
 -
 
-~Now that you found out about possible weak spots in the color design of objects in your everyday life, have a closer look at it:~
+~Now that you found out about possible weaknesses in the color design of objects in your everyday life, take a closer look:~
 
 1. ~Find out what the main problem is regarding the color scheme.~
 2. ~Phrase a hypothesis on how this problem could be solved.~
-3. ~Are there also weak spots that can impair people with full color vision? In which way are they different from the other weak spots?~
+3. ~Are there also weaknesses that can impair people with full color vision? In which way are they different from the other weaknesses?~
 
 <br>
 
@@ -405,11 +406,13 @@ Of course you can add further questions and tasks for your students or adapt the
 -
 
 ~Caring about high accessibility of information in your design products is crucial. And color is an important part of design.~ 
-~In the following **learning stations** you can find impulses and tasks which &ndash; in the end &ndash; should enable you to get the skills to optimize your design products. STEM students could use this for example when you choose a color scheme for diagrams.~ 
+~In the following **learning stations** you will find tasks which &ndash; in the end &ndash; should enable you to develope the skills required to optimize your design products. STEM students could use this for example when they choose a color scheme for diagrams.~ 
 
 ### ***<f-arrow-icon /> How to use the learning stations***
-~You can **work through the stations in the given order** (which is recommended if you are a beginner). If you are already familiar with a certain topic, you can directly navigate to one that is new for you. Throughout the following pages, you can switch to other learning stations via the burger menu in the top left corner.~
+~You can **work through the stations in the given order** (which is recommended if you are a beginner). If you are already familiar with a certain topic, you can navigate straight to a topic that is new to you. Throughout the following pages, you can switch to other learning stations via the burger menu in the top left corner.~
 ***But don't cheat and skip ahead, before you are not sure that you know everything!*** 🧐
+
+
 
 <br>
 
@@ -429,13 +432,14 @@ Of course you can add further questions and tasks for your students or adapt the
 
 <f-notes>
   
-  <summary>Teachers notes</summary>
+  <summary>Teachers notes</summary>  
+  
   
   ### Aim 
-  ~In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not. This also includes the biological background of color vision deficiency.~
+  ~To know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for color vision deficient people or not. This also includes the biological background of color vision deficiency.~
   ~For design teachers, we kept the biology part as simple as possible (so don't be afraid of the new topic), but STEM teachers are incouraged to add more information themselves, if they want to dive deeper into the topics "eye" or "CVD".~
   ~**This phase should focus on making sure that the students end up with the correct information** (so not too experimental, but mostly informative).
-   ~The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely. You, as their teacher, make the decision based on their level.~
+   ~If they are beginners, students should do all of the work stations. However, if they already know about certain topics, they may do the tasks for each learning station for revision, or they can even skip them completely. You, as their teacher, make that decision based on their level.~
   
   ### Your role as a teacher
    ~Many learning stations have tasks where students can check concepts with e-tools, to verify what they read/learned. So in between it might be necessary for the teacher to provide help or the opportunity to discuss/share results.~
@@ -486,8 +490,8 @@ Of course you can add further questions and tasks for your students or adapt the
 #### Tasks
 
 1. ~What do you understand by “accessibility”? Have you ever come across that term? In which context have you heard about it?~
-2. ~Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition.~
-3. ~Get an overview of the areas in which we need to improve accessibility.~
+2. ~Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition of accessibility.~
+3. ~Gain an overview of the areas in which we need to improve accessibility.~
 4. ~Further, find out about the difference between “accessibility” and “usability”.~
 
 -
