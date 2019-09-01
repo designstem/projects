@@ -135,7 +135,6 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 Now that you know about the RGB color system, **look at these two colors**. They are both made up in parts of red, green and blue.
 
-&nbsp;
 
 #### Task
 
@@ -204,7 +203,7 @@ Now that you know about the RGB color system, **look at these two colors**. They
 
 ## Mix RGB Colors
 
-Now, **check your assumptions** by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example. But **first think**, then pull the sliders. 🤓
+Now, **check your assumptions** by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example. <br> But **first think**, then pull the sliders. 🤓
 
 -
 
