@@ -16,9 +16,9 @@
   
   ## Color contrast and harmony
 
-  ~A single color has an emotional and physical effect, but placing it in context with other colors can alter this effect.~
+  A single color has an emotional and physical effect, but placing it in context with other colors can alter this effect.
   
-  ~Designers create contrasting or allied color relationships i.e. **palettes** to affect the viewer’s impression. They use contrasts and harmonies as stylistic devices.~
+  Designers create contrasting or allied color relationships i.e. **palettes** to affect the viewer’s impression. They use contrasts and harmonies as stylistic devices.
   
   <blockquote style="background: none;">
 
@@ -61,9 +61,9 @@
   <!-- ##### EXPLAIN -->
   ## Color contrast and harmony
 
-  ~But harmony not only exists if color combinations are made up by colors which are neighbours in the color wheel or by colors with the same hue but different brightness, like in this example.~
+  But harmony not only exists if color combinations are made up by colors which are neighbours in the color wheel or by colors with the same hue but different brightness, like in this example.
   
-  ~**Color contrasts can also be harmonious.** Don’t equate contrast and harmony with ‘disagreeable’ and ‘agreeable’.~
+  **Color contrasts can also be harmonious.** Don’t equate contrast and harmony with *disagreeable* and *agreeable*.
 
 </section>
 
@@ -100,13 +100,13 @@
 
 ## Color contrast and harmony
 
-~Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. mono-chromatic color palettes. But that doesn’t always mean that they are less harmonious.~
+Color combinations with high contrasts can feel bolder and louder. They attract your attention much more than e.g. monochromatic color palettes. But that doesn’t always mean that they are less harmonious.
 
-~In this example you have a **complementary contrast** of red and blue hues.~
+This example shows a **complementary contrast** of red and blue hues.
 
-~It feels bolder and louder than the last picture with the cereal bowl, but still harmonious and pleasing to the eye.~
+It feels bolder and louder than the last picture with the cereal bowl, but still harmonious and pleasing to the eye.
 
-~Therefore, don’t mix up color contrast with discord.~
+Therefore, don’t mix up color contrast with discord. Even loud and bold color combinations can feel harmonious.
 
 </section>
 
@@ -145,7 +145,7 @@
 
 ## Itten's contrasts
 
-~**Johannes Itten**, who taught at Bauhaus between 1919 and 1923, tried to describe the relationship of colors and defined seven different color contrasts. In 1961, he also designed his famous color wheel, which you have probably already seen at some point. By using this color wheel, you can describe all of his contrasts.~
+**Johannes Itten**, who taught at Bauhaus between 1919 and 1923, tried to describe the relationship of colors and defined seven different color contrasts. In 1961, he also designed his famous color wheel, which you have probably already seen at some point. By using this color wheel, you can describe all of his contrasts.
 
 #### Tasks
 
@@ -161,7 +161,7 @@
 - ##### Contrast of extension
 
 #### Extra task:
-~Look at your daily surroundings more closely and try to find Itten's color contrasts in magazines, posters, on websites and everywhere, where there is color design.~
+~Look at your daily surroundings more closely and try to find Itten's color contrasts in magazines, posters, on websites and everywhere, where there is color design. Which purpose do the contrasts serve? Analyse them, keeping the target group and product in mind!~
 
 </section>
 
@@ -212,7 +212,7 @@
 
 -
 
-~After you found out about Itten's contrasts, look at the pictures on the next pages and match the contrasts with the pictures. Don't cheat by being lazy and clicking on the answer key first! You're better than that.~ 😉  
+After you found out about Itten's contrasts, look at the pictures on the next pages and match the contrasts with the pictures. **Don't cheat** by being lazy and clicking on the answer key first! You're better than that. 😉  
 
 ~Which contrasts do you see?~
 
@@ -259,7 +259,7 @@
 
 -
 
-~Here is another example. How many color contrasts can you identify?~ 
+~How many color contrasts can you identify in this example?~ 
 
 
 <ContrastQuiz :input="[ 
@@ -308,7 +308,6 @@
 ~One last example for you to prove that you are *Itten worthy*. Easy, isn't it?~ 🤔
 
 
-
 <ContrastQuiz :input="[ 
   ['Contrast of hue',         0], 
   ['Light-dark contrast',     1], 
@@ -354,14 +353,15 @@
 
 -
 
-~In order to create a harmonious color palette, you can also use the color wheel.~
+In order to create a harmonious color palette, you can also use the color wheel.
 
-~**Complementary colors** are high in contrast and have a very bold and aggressive effect.~ 
+**Complementary colors** are high in contrast and have a very bold and aggressive effect.
 
 &nbsp;
 
-~You can drag the white dots around the color wheel to get new complementary colors.~
-~**Try it!**~ 🧐
+#### Hint:
+You can change the position of the white dots around the color wheel to get new complementary colors.
+**Try it!** 🧐
 
 -
 
@@ -397,10 +397,10 @@
 
 -
 
-~If you want a color palette which is more harmonious than complementary palette, but still bold, you might want to try a **split complementary palette**.~
+If you want a color palette which is more harmonious than complementary palette, but still bold, you might want to try a **split complementary palette**.
 &nbsp;
-~Remember, the example on the right is only for one level of brightness and saturation. Of course, you can and should also alter the brightness and/or saturation of the color palette. Maybe choose one bold color that should really stand out (your primary color) and then alter the other colors so that they form a hierarchy, their contrast is still high enough, without feeling disharmonious.~
-~The same goes for each color palette that you create.~
+**Remember**, the example on the right is only for one level of brightness and saturation. Of course, you can and should also alter the brightness and/or saturation of the color palette. Maybe choose one bold color that should really stand out (your primary color) and then alter the other colors so that they form a hierarchy, their contrast is still high enough, without feeling disharmonious.
+The same goes for each color palette that you create.
 
 -
 
@@ -437,20 +437,20 @@
 
 -
 
-~Besides split comple&shy;mentary palettes, there are also **double comple&shy;mentary** and **triadic palettes** which form bold contrasts.~
-~**Please, scroll down.**~
+Besides split comple&shy;mentary palettes, there are also **double comple&shy;mentary** and **triadic palettes** which form bold contrasts.
+**Please, scroll down to get more information.**
 
 -
 
 <ColorPaletteWheel name="DoubleComplementary" />
 
-~As for double comple&shy;mentary palettes be careful not to use equal volumes of the four colors. This can have a piercing effect.~
+As for double comple&shy;mentary palettes be careful not to use equal volumes of the four colors. This can have a piercing effect.
 
 -
 
 <ColorPaletteWheel name="Triadic" sectors="24" />
 
-~Triads with primary colors are garish. You get softer palettes with secondary or tertiary colors.~
+Triads with primary colors are garish. You get softer palettes with secondary or tertiary colors.
 
 -
 
@@ -483,8 +483,8 @@
 
 -
 
-~**Analogous palettes** are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel, they are equally spaced from each other.~
-~Again, remember to alter brightness and saturation to receive a more prominent or harmonious effect.~
+**Analogous palettes** are pleasing to the eye, because they are build by colors with similar light ray wavelengths. In the color wheel, they are equally spaced from each other.
+Again, remember to alter brightness and saturation to receive a more prominent or harmonious effect.
 
 -
 
@@ -519,9 +519,9 @@
 
 -
 
-~**Monochromatic palettes** have an even softer effect than analogous palettes, but they are also less prominent.~
+**Monochromatic palettes** have an even softer effect than analogous palettes, but they are also less prominent.
 
-~For monochromatic palettes you combine one hue with its different shades, either formed by variation of brightness or saturation.~
+For monochromatic palettes, you combine one hue with its different shades, either formed by variation of brightness or saturation.
 
 -
 
@@ -559,13 +559,13 @@
 
 -
 
-#### ~Change the given color palette so that:~
+#### Change the given color palette so that:
 
 ~It stays as closely as possible to the original hues and~
 ~a) the palette is **more harmonious**~ or
 ~b) the palette is **more prominent**~.
 
-~Keep in mind that colors influence one another (*see Itten's simultaneous contrast*). A color e.g. can appear colder or warmer, brighter or darker next to another color.~
+Keep in mind that colors influence one another (*see Itten's simultaneous contrast*). A color e.g. can appear colder or warmer, brighter or darker next to another color.
 
 -
 
@@ -615,8 +615,8 @@
 
 -
 
-> ~Use the knowledge about contrasts and harmonies which you just found out about. 
-If possible, discuss your results with someone else.~
+> Use the knowledge about contrasts and harmonies which you just found out about. 
+If possible, **exchange and discuss your results** with someone else.
 
 <f-next-button style="margin:var(--base4) 0;" />
 
@@ -638,14 +638,14 @@ If possible, discuss your results with someone else.~
 | 2 2 3
 | 4 4 3
 
-<caption>Color contrast and harmony</caption>
+<caption>Color palettes</caption>
 
 ## <f-activity-icon size="medium" /> Create a palette
 
 
 
 ~Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
-> ~Please, **write down/take a screenshot of your final colors' HSB values** for later!~ 👈
+> Please, **take a screenshot of your final colors' HSB values** for later! 👈
 
 -
 
@@ -723,24 +723,26 @@ If possible, discuss your results with someone else.~
 | 5 5 5 5
 
 
-<caption>Color contrast and harmony</caption>
+<caption>Color palettes</caption>
 
 ## <f-activity-icon size="medium" /> CVD compatible palette
 
 -
 
-~Earlier, we learned that people with color vision deficiencies cannot see certain colors, therefore it is hard for them to sometimes access information, especially when texts are written using colors other than black, or are placed on colorful backgrounds other than just white.~
+Earlier, we learned that people with color vision deficiencies cannot see certain colors, therefore it is hard for them to sometimes access information, especially when texts are written using colors other than black, or are placed on colorful backgrounds other than just white. Now we will find out what it needs to get functioning color schemes for people with CVD.
 
 -
+<div style="margin-left: 1vw;">
+  
+> **Hints**: For this task, you need the HSB values of the last task! Also, take screenshots of your results on this page in between, to compare them later and to have a future reference for the final task of this workshop.
 
-> **Hints**: ~For this task, you need the HSB values of the last task! Also, take screenshots of your results on this page in between, to compare them later and to have a future reference for the final task of this workshop.~
-
+</div>
 -
 <br>
 
 #### Open the tasks in the sidebar: 
 
-<f-sidebar title="Click me!" overlay size="half">
+<big> <f-sidebar title="Click me!" overlay size="half"> </big>
 
 <div slot="content" class="sidebar-content">
 
@@ -835,24 +837,26 @@ If possible, discuss your results with someone else.~
 
 <section style="padding:var(--content-padding)">
 
-<caption>Color contrast and harmony</caption>
+<caption>Color palettes</caption>
 
-## Contrasts for Colorblind
+## Palettes for CVD
 
 &nbsp;
 
-~After you have tried out different color schemes, lets summarize what you found out and draw some conclusions about color design for people with color vision deficiency.~
+After you have tried out different color schemes, let's summarize what you found out and draw some conclusions about color design for people with color vision deficiency.
 
 1. ~Look at the last task on the last page (task 4 on *CVD compatible palette*) and review what you found out.~
 2. ~When you are really sure that you have come up with your own conclusion, click on the following link. **Don't cheat!**~
 
 <f-sidebar  overlay size="half">
 
+&nbsp; 
+
 <button>Click me when you're ready!</button>
 
 <div slot="content" class="sidebar-content">
   
-  ~**In order to get color schemes that work for nearly everyone, you need to pay attention to the following guideline.**~
+  **In order to get color schemes that work for nearly everyone, you need to pay attention to the following guideline.**
     
   &nbsp;
     
@@ -944,7 +948,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 ## <f-fact-icon size="medium" /> Tips!
 
-~Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier 😎:~
+Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier 😎:
 
 <details>
   <summary> Figure out the purpose</summary>
@@ -1021,12 +1025,12 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 &nbsp;
 
-~You are close to the finish line and learned a lot, but **the big endgame is still before you**.~
-~So you need to gather your knowledge and skills on *accessibility, the eye, color vision deficiency, color mixing, the properties of color, color contrasts and color palettes* to prove in a final task, that you have the ability to design well working color palettes for people with CVD.~
+You leveled up and are close to the finish line. You learned a lot, but **the big endgame is still before you**.
+Gather your knowledge and skills on *accessibility, the eye, color vision deficiency, color mixing, the properties of color, color contrasts and color palettes* to prove in a final task, that you have the ability to design well working color palettes for people with CVD.
 
-~On the next slide, you may choose the path that you want to take: STEM or Design.~
+On the next slide, **you may choose the path that you want to take: STEM or Design.**
 
-~**Choose wisely.**~ 🧐
+**Choose wisely.** 🧐
 
 </section>
 
