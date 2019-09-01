@@ -444,6 +444,8 @@ In the following **learning stations** you will find tasks which &ndash; in the 
 -
 <br>
 
+<div style="margin-left: 2vw">
+  
 - ~<a href="#" v-on:click="goto('cb-accessibility')">Accessibility</a>~
 - ~<a href="#" v-on:click="goto('cb-the-eye')">The eye</a>~
 - ~<a href="#" v-on:click="goto('cb-cvd1')">Color vision deficiency</a>~
@@ -452,6 +454,7 @@ In the following **learning stations** you will find tasks which &ndash; in the 
 - ~<a href="#" v-on:click="goto('cb-contrast-and-harmony')">Color contrast and color harmony theory</a>~
 - ~<a href="#" v-on:click="goto('cb-palettes')">Design rules for creating color palettes</a>~
 
+</div>
 
 <f-notes>
   
