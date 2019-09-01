@@ -146,17 +146,17 @@ Explain of the two concepts you have chosen how they contribute to make the worl
 -
 
 
-<big><big><big><span style="color: var(--red)">●</span> <var>circular economy</var></big></big></big>
+<big><big><big><var>circular economy</var></big></big></big>
 
-<big><big><big><span style="color: var(--red)">●</span> <var>upcycle, recycle, downcycle</var></big></big></big>
+<big><big><big><var>upcycle, recycle, downcycle</var></big></big></big>
 
-<big><big><big><span style="color: var(--red)">●</span> <var>cradle to cradle</var></big></big></big>
+<big><big><big><var>cradle to cradle</var></big></big></big>
 
-<big><big><big><span style="color: var(--red)">●</span> <var>sustainability</var></big></big></big>
+<big><big><big><var>sustainability</var></big></big></big>
 
-<big><big><big><span style="color: var(--red)">●</span> <var>urban mining</var></big></big></big>
+<big><big><big><var>urban mining</var></big></big></big>
 
-<big><big><big><span style="color: var(--red)">●</span> <var>shared economy</var></big></big></big>
+<big><big><big><var>shared economy</var></big></big></big>
 
 
 ---
