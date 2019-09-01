@@ -57,7 +57,7 @@ Further, especially design students should learn how to choose color schemes so 
 ## Read first!
 
 
-~Before you will dive into the workshop, in order to improve your learning experience, we recommend the following:~
+Before you are going dive into the workshop, in order to improve your learning experience, we recommend the following:
 
 <br>
 
@@ -66,7 +66,7 @@ Further, especially design students should learn how to choose color schemes so 
 
 <br>
 
-~Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing (and sometimes failing), through your own experience and conclusions, and not by just reading ready-made information**~.
+Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing** (and sometimes failing), **through your own experience and conclusions, and not by just reading ready-made information**.
 
 <br>
 
@@ -74,7 +74,7 @@ Further, especially design students should learn how to choose color schemes so 
 
 # 😉
 
-> This being said, we hope you will use this workshop for your own and other people's benefit. **And sometimes in between, you are even allowed to enjoy it.**
+> This being said, we hope you will improve your skillset and sometimes in between, **you are even allowed to enjoy it.**
 
 </f-inline>
 
@@ -132,16 +132,20 @@ Of course you can add further questions and tasks for your students or adapt the
 
 <div v-if="get('revealX') < 75">
 
-~This is an example of how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes.~ 
-~Actually, there is **<span style="color:var(--red)">only one red tomato</span>** in this picture.~
+This is an example of how a color vision deficient person (with protanopia, i.e. red blindness) could see tomatoes. 
+Actually, there is **<span style="color:var(--red)">only one red tomato</span>** in this picture.
+
+<br>
 
 <f-inline>
 
 # 🤔
 
-~**Look at the tomatoes and try to guess which one of them is already ripe, red and therefore edible.**~
+**Try to guess which one of them is already ripe, red and therefore edible.**
 
 </f-inline>
+
+<br>
 
 <button @click="()=>{set('revealX', 80); set('revealLocked', false);}" v-if="get('revealX') < 70">Check your answer</button>
 
@@ -149,7 +153,7 @@ Of course you can add further questions and tasks for your students or adapt the
 
 <div v-if="get('revealX') > 75">
 
-  ~**Did you guess correctly? If you picked the right one, congratulations!**~
+  Did you guess correctly? If you picked the right one, **congratulations!**
   
   <f-inline>
   
@@ -161,7 +165,8 @@ Of course you can add further questions and tasks for your students or adapt the
 
 </div>
 
-<!-- tomatoes-test -->
+
+
 -
 
 <ColorblindnessJuxtapose :imageUrl="'images/color_blindness_accessibility_0.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)" />
@@ -191,20 +196,25 @@ Of course you can add further questions and tasks for your students or adapt the
 
 <!-- <div v-if="get('revealX') < 75"> -->
 
-~**So what?! Is it that bad if a person eats a green tomato once in a while?**~
-~No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!~
+**So what?! Is it that bad if a person eats a green tomato once in a while?**
+<small> ~No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!~
 ~Tomatoes are only one example for the problems people with Color Vision Deficiency (hereafter referred to as CVD) face on a daily basis.~
+</small>
 
 <f-inline>
 
 # 🔭
   
-~**In this workshop, you are going to explore in which way people with CVD are affected and what you need to know to make their lives better.**~
+**In this workshop, you are going to explore in which way people with CVD are affected and what you need to know to make their lives better.**
 
 </f-inline>
 
+<small>
 ~Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors.~
-~**This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field. But first, lets go outside and explore our daily surroundings to get a better understanding of how color vision deficiencies affect lives.~ 
+~**This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field.~
+</small>
+
+But first, **let's go outside** and explore our daily surroundings to get a better understanding of how color vision deficiencies affect lives.
 
 -
 
