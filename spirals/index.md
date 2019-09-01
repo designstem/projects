@@ -1026,137 +1026,242 @@ https://www.youmagine.com/ and https://www.thingiverse.com
 
 
 | 1 2 
-| 3 3 
-| 4 5 
-
-<!-- 5. The dice cylinder -->
-
-## The Dice Cylinder Design Problem
-
-#### **Dice Games**
-
-Dice games are board games played by dice. They are very popular especially among children. The backgammon, chuck-a-luck (bird cage), ludo etc are examples of dice games. A list of several dice games can be found at [http://www.dice-play.com/GamesAZ.htm](http://www.dice-play.com/GamesAZ.htm)
-
-Dice games are based on rules according to which a player throws the dice and depending on the result, an action is performed. In these games the random outcome of the dice is very important.  The dice must have enough space to roll several times so to end up randomly to their final position. Moreover, the throw should be such that the outcome is not determined by their initial status.
+| 3 2 
+ 
+## Let's play dice!
+  
+#### **Dice games**
+  
+Dice games are board games that you play with a dice. The Backgammon, Chuck-a-Luck (Bird cage), Ludo etc are examples of dice games. A list of several dice games can be found at <f-link to="http://www.dice-play.com/GamesAZ.htm">dice-play.com/GamesAZ.htm</f-link>
+  
+Dice games are based on rules according to which a player throws the dice and depending on the result, an action is performed. In these games the random outcome of the dice is very important. The dice must have **enough space** to roll several times so to end up randomly to their final position.
 
 -
 
-<img src="./images/dicegame.jpg" style= "width: 100%;" >
+<f-image src="./images/dice-game.jpg" style="--image-min-height:40vw;" />
 
 -
 
-#### **The design problem**
-
-Assume that you want to design an object that could help rolling the dice efficiently in a restricted space. Let such an object be a dice-cylinder, i.e. a cylinder that when the player lets the dice from the top, it will let them go down rolling and let them exit at the bottom level.
-
-Such a dice-cylinder should:
-
-1. Be easy to use
-2. Allow one more dice roll down simultaneously
-3. Assure the random outcome of the dice
-4. Save space
-5. Be fair. The player may not able to manipulate the throwing in any manner.
-
-The problem of the dice-cylinder  is to think, design and implement a rolling path for the dice within the cylinder so to let them move and roll sufficient distance, greater than the height of the cylinder, so to ensure the random dice outcome. Moreover, the movement of the dice should be smooth, without obstacles and such to ensure that they will not stick in an intermediate position and come down directly.
-
--
-
-## Directions for the design
-
-Look carefully the following pictures, what are the common design parts on these?
-
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/14/SpiralStairs%2CArielRiosBldg.jpg/1024px-SpiralStairs%2CArielRiosBldg.jpg" style= "width: 100%;" >
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Industrial_spiral_staircase.png" style= "width: 70%;" >
-
-Look at the metallic stair in the previous picture. You may notice the round tube-shaped central column and the stairs linked to it. The most important part of this stair is the helix shape.
-<!--
-Below there are some pictures of such objects. In the rolling path of the dice, some of them use obstacles to ensure the random rolling and few of them use a helix stair.
--->
-
--
-
-<img src="./images/diecetower.jpg" style= "width: 70%" >
-
-Similar dice throwing objects has been previously designed and sold. For example in the e-shop [https://www.etsy.com/search?q=dice%20tower](https://www.etsy.com/search?q=dice%20tower) you may find different implementations of the basic vertical dice throwing idea. They are made of different materials (plastic, wood, paper etc.), shapes (tower, folding boxes, spiral cylinders etc.)
+<f-next-button />
 
 <f-notes title="Credits">
 
-Image sources:
-https://www.etsy.com/listing/687789732/dice-tower-assembly-required?ref=reviews
-https://en.wikipedia.org/wiki/File:SpiralStairs,ArielRiosBldg.jpg
-https://en.wikipedia.org/wiki/File:Industrial_spiral_staircase.png
-http://www.pexels.com
+https://www.pexels.com/photo/blur-board-game-business-challenge-278918/
 
 </f-notes>
 
-<!---
-<div class="grid" style="--cols: 1fr 1fr 1fr 1fr">
-[![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona6.png?w=80&h=150)](https://spiralsdesignstem.wordpress.com/eikona6/)
+---
 
-[![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona7.png?w=150&h=137)](https://spiralsdesignstem.wordpress.com/eikona7/)
 
-[![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona8.png?w=96&h=150)](https://spiralsdesignstem.wordpress.com/eikona8/)
--->
+
+
+| 1 2
+| 3 2
+
+
+<div class="bottom">
+  
+  ## The design problem
+  
+  There's often not enough space to throw the dice – it often ends up under a couch or punches other game pieces all over the place.
+
+  Can we come up with a solution, that would:
+
+1. be easy to use
+2. allow one more dice roll down simultaneously
+3. assure the random outcome of the dice
+4. save space
+5. be fair – the players should not to be able to manipulate the outcome.
 </div>
 
-A dice-cylinder should look like the following picture.
+-
 
-![eikona9](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona9.png?w=107&h=164)
+<div style="height:100%;">
+  <f-image src="./images/dice-throw.jpg" style="--image-min-height:50vh; --image-position:5% center" />
+</div>
 
-To solve such a problem, consider the spiral theory. The path that follows the dice down to the exit of the cylinder may be a helix tube or a round staircase. Focusing to the case of the spiral stairs, several questions may arise:
+-
 
-* Why such a helix staircase might be an efficient structure in terms of space capacity and length of the rolling path?
-* Given of some parameters such the height, the number of spirals, and the diameter of the cylinder base, how the helix staircase can be designed ? How long should be the helix path? How many stairs can be used in the specific cylinder height?
+<f-next-button />
+
+<f-notes title="Credits">
+
+https://www.goodfreephotos.com/other-photos/Gambling-game-in-a-casino.jpg.php
+
+</f-notes>
 
 ---
 
-# The Dice Cylinder Basic Maths & Calculations
 
-## The helix within a cylinder
 
-But how one can easily design a helix ? Consider the following example.
 
-Get a rectangular piece of paper and draw its diagonal with a pencil. Try to bend the paper so to gradually form a cylinder, a tube. Then, you may notice that the round shape automatically transforms the diagonal line to a helix ! This helix line will be the basic direction for the stairs to be linked. Further note that this is a simple, one spiral helix.
+| 1 2
+| 3 2
 
-The following figure illustrates this structure.
 
-![eikona10](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona10.png?w=590&h=220)
+## The solution
+
+Such dice throwing objects has been previously designed and sold. For example in the e-shop <f-link to="https://www.etsy.com/search?q=dice%20tower">Etsy.com</f-link> you find different implementations of the basic vertical dice throwing idea. They are made of different materials (plastic, wood, paper etc.), shapes (tower, folding boxes, spiral cylinders etc.)
+
+A dice-tower – i.e. a cylinder that when the player lets the dice from the top, it will let them go down rolling and let them exit at the bottom level.
+
+The problem of the dice-cylinder is to think, design and implement a rolling path for the dice within the cylinder so to let them move and roll sufficient distance, greater than the height of the cylinder, so to ensure the random dice outcome. Moreover, the movement of the dice should be smooth, without obstacles and such to ensure that they will not stick in an intermediate position and come down directly.
+
+-
+
+<f-image src="./images/dice-tower.jpg" style="--image-min-height:50vh">
+
+-
+
+<f-next-button />
+
+<f-notes title="Credits">
+
+https://www.etsy.com/listing/692902098/dice-tower-board-game
+
+</f-notes>
+
+---
+
+
+
+
+| 1 2
+| 3 2
+
+
+<div class="bottom">
+  
+## Directions for the design
+  
+To solve such a problem, consider the spiral theory. The path that follows the dice down to the exit of the cylinder may be a helix tube or a round staircase. Focusing to the case of the spiral stairs, several questions may arise:
+
+- Why such a helix staircase might be an efficient structure in terms of space capacity and length of the rolling path?
+- Given of some parameters such the height, the number of spirals, and the diameter of the cylinder base how the helix staircase can be designed? How long should be the helix path? How many stairs can be used in the specific cylinder height?
+  
+Look at the metallic stairs. You notice the round tube-shaped central column and the stairs linked to it. The most important characteristics of this stair is the helix shape.
+</div>
+
+-
+
+<f-image src="./images/dice-stairs.jpg" />
+
+-
+
+<f-next-button />
+
+<f-notes title="Credits">
+
+  #### Image sources:
+
+  https://pxhere.com/en/photo/1556977 
+</f-notes>
+
+---
+
+
+
+| gap: 8vmin
+| 1 1
+| 2 3
+| 4 5
+| 6 6
+
+
+## The Dice Cylinder Basic Math & Calculations
+
+### The helix within a cylinder
+
+But how can one easily design such a helix? Consider the following example.
+
+-
+
+##### Step 1
+
+Get a rectangular piece of paper and draw its diagonal with a pencil. Try to bend the paper so to gradually form a cylinder, a tube. Then, you may notice that the round shape automatically transforms the diagonal line to a helix! This helix line will be the basic direction for the stairs to be linked. Further note that this is a simple, one spiral helix.
+
+<img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona10.png" style="width:100%; height:auto; float:left;" />
+
+
+-
+
+##### Step 2
+
+<!-- <img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona11.png" style="width:50%; height:auto; float:left;" /> -->
+
+<f-scene responsive style="width:50%; height:auto; float: left; max-width:400px; margin-bottom:20px;">
+  <f-group position="-0.1 0.5" scale="1.2">
+    <f-line points="-1.5 1, -1.5 -1, 1.5 -1, 1.5 1" closed :fill="color('lightestgray')" stroke-width="2" />
+    <f-line points="-1.5 1, 1.5 0" :stroke="color('red')" stroke-width="2" />
+    <f-line points="-1.5 0, 1.5 -1" :stroke="color('red')" stroke-width="2" />
+    <f-line points="-1.6 0, 1.6 0" stroke-width="1" />
+  </f-group>
+</f-scene>
 
 Further note that in the previous figure the helix is simple, with only one spiral. What will be the design if one wants to make a two-spiral helix? This is simple. Start by dividing the rectangular piece of paper into two equal horizontal parts (see next figure). Then draw the diagonals in both parts. If you bend this structure, the red lines will form a two-spiral helix.
-
-![eikona11](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona11.png?w=322&h=155)
-
+  
 Helix with more than two spirals can be also formed by dividing the basic rectangular into appropriate number of equal parts.
+
+-
+
+##### Step 3
+
+
+<f-scene responsive style="width:50%; height:auto; float: left; max-width:360px; margin-bottom:20px;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5"
+      markerWidth="5" markerHeight="5"
+      orient="auto-start-reverse" :fill="color('blue')" >
+        <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+  </defs>
+  <f-group position="0 0.15">
+    <f-circle r="1.5" stroke-width="2" :fill="color('lightestgray')" />
+    <f-circle r="0.5" stroke-width="2" fill="#ffffff" />
+    <f-line v-for="(l, i) in 12" :key="'line'+i" 
+      :rotation="360/12*i"
+      points="0 1.55, 0 -1.55" stroke-width="1" :stroke="color('gray')" />
+    <f-arc r="1.64" inner-radius="1.64" start-angle="180" end-angle="210" stroke-width="1" />
+    <f-text position="-0.5 1.65" scale="0.85">30°</f-text>
+    <f-line points="-0.5 0, -0.5 -1.6" :stroke="color('blue')" stroke-width="0.5" />
+    <f-line points="0.5 0, 0.5 -1.6" :stroke="color('blue')" stroke-width="0.5" />
+    <f-line points="-0.5 -1.63, 0.5 -1.63" :stroke="color('blue')" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+    <f-text position="0 -1.80" scale="0.7">Diameter of the column</f-text>
+    <f-line points="-1.5 0, -1.5 -1.9" :stroke="color('blue')" stroke-width="0.5" />
+    <f-line points="1.5 0, 1.5 -1.9" :stroke="color('blue')" stroke-width="0.5" />
+    <f-line points="-1.5 -1.93, 1.5 -1.93" :stroke="color('blue')" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)" />
+    <f-text position="0 -2.1" scale="0.7">Diameter of the circle base</f-text>
+  </f-group>
+</f-scene>
 
 Assuming that the helix column has been constructed, the stairs may be designed as equal triangles. The number of the steps required is depended on the height of the stair and the distance between two consecutive steps while their size is linked to the size of the circular base of the stair.
 
 For example, if 12 steps are needed, the following figure presents the 12 equal triangles.
 
-![eikona12](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona12.png?w=330&h=345)
+
+<!-- ![eikona12](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona12.png?w=330&h=345) -->
+
+-
+
+<img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona13.png" style="width:40%; float:right;" />
+
+##### Step 4
 
 To form the final stair structure, the triangle steps are linked with the helix in equal distances, as next figure presents.
 
-![eikona13](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona13.png?w=183&h=197)
+-
 
-## Mathematics of the helix
+<f-next-button />
 
-A 3D Archimedean spiral follows certain rules described by mathematical trigonometric equations, similar to those of a 2D spiral. File [The\_Dice\_Cylinder\_Long\_Learning\_Path.docx](https://drive.google.com/drive/u/0/folders/1fTixXq1ow-ggx7BNahmdHWRxrCgkzPk7) contains the necessary supporting mathematical background for these.
+---
 
-In three dimensions we assume that a third axis z denoting the height is added to the plane. For that new axis and the two horizontal x, y , the equations are as follows:
 
-![eikona14](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona14.png?w=300&h=148)
 
-In the above equations,
 
-* R represents the radius of the cycle in the plane X-Y  and
-* t varies between 0 and 2π in the right-hand direction full cycle.
-* factor c is constant so the value 2πc to denote the vertical separation of the helix’s loop.
 
-Next figure presents  the shape of a helix  drawn in the three dimensions.
-
-![eikona15](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona15.png?w=287&h=300)
 
 ## Basic calculations for the dice cylinder
+
 
 As mentioned in previous texts, the proposed dice cylinder will include an internal helix staircase which will be the path for the dice. This document presents the basic calculations for that construction.
 
@@ -1195,6 +1300,11 @@ The **N** stairs are placed in equal positions by using a grid. Next figure pres
 The level of each stair is presented by the red line and the green diagonal line represents the helix path of the stair. The length **S** of this path is computed as the hypotenuse of the rectangular triangle with sides **h** and **2πr**. From the Pythagoras theorem derives that **S2 =(2πr)2+h2** so **S = square root ((2πr)2+h2).**
 
 ---
+
+
+
+
+
 
 # Build the Dice Cylinder
 
@@ -1291,6 +1401,11 @@ Follow the steps.
   Put the paper staircase model with in the plastic cylinder.
 
   ![eikona36](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona36.png?w=298&h=397)
+
+---
+
+
+
 
 ## Dice cylinder paper sheet template
 
