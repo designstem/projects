@@ -11,19 +11,19 @@
 
 ## Three properties of color
 
-~When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:~
+When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:
 
-1. ~**HUE**~
-2. ~**SATURATION**~
-3. ~**BRIGHTNESS**~
+1. **HUE**
+2. **SATURATION**
+3. **BRIGHTNESS**
 
 <!-- &nbsp; --> 
 
-#### ~Look at these two greens~ 👉
+#### Look at these two greens 👉
 
-~Both are greens, but have a different brightness and saturation. Most people wouldn’t call the lower color natural although green often is used to suggest organic, natural properties.~
-~In lots of books, you can get lists of properties or effects a hue can have. Sometimes these descritpions are very shallow, because not only the hue influences a colors effect. Therefore we have to look closely when working with colors and not only judge the color’s effect by its hue.~
-~On the next few pages, we will look at this more closely.~
+Both are greens, but have a different brightness and saturation. Most people wouldn’t call the lower color natural although green often is used to suggest organic, natural properties.
+~In a lot of books, you can find lists of properties/meanings/effects hues can have. Sometimes these descritpions are very shallow, because not only the hue influences a colors effect. Therefore we have to look more closely when working with colors and **not only judge the color’s effect by its hue.**~
+On the next few pages, we will look at this more closely.
 
 <br />
 
@@ -62,12 +62,12 @@
 ## Color meaning (hue)
 
 
-~It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.~
-~But what if we leave the hue unaltered and modify the other two properties, saturation and brightness? Does this change the colors effect? We will try to find out on the next few pages.~
+It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.
+**But what if we leave the hue unaltered and modify the other two properties**, saturation and brightness? Does this change the colors effect? Let's find it out on the next pages!
 
 #### 💡 Hint:
-~Since (through your gut feeling) you probably already know the meaning hues can have, we will skip further explanations in this workshop. But if you feel, like you need more information on this, you're welcome to look at 
-<f-link to="https://en.wikipedia.org/wiki/Color_symbolism">this article</f-link>.~
+Since (through your gut feeling) you probably already know the meaning hues can have, we will skip further explanations in this workshop. But if you feel, like you need more information on this, you're welcome to look at 
+<f-link to="https://en.wikipedia.org/wiki/Color_symbolism">this article</f-link>.
 
 <br />
 
@@ -136,10 +136,11 @@
 
 -
 
-~Here the **brightness** of each color is reduced by 50%, which means less light for the same hue.
-You may use the slider beneath the color boxes to darken or brighten up the colors, then work on the following tasks.~
+On the right the **brightness** of each color is reduced by 50%, which means less light for the same hue.
+You may use the slider beneath the color boxes to darken or brighten up the colors, then work on the following tasks.
 
-#### TASKS
+#### Tasks
+
 1. ~Observe how the colors' effect changes when they are darker or brighter by using the slider beneath the color boxes.~
 2. ~Look at the **polarity profiles** (adjective pairs) on the right. You can drag the slider more to the left to indicate that the effect of the color relates more to the adjective on the left and the other way around. So for example, if you think that a color feels heavier, you could drag the slider more to the right. There are five different degrees from which you can choose. The further the slider points to one of the sides, the stronger the effect of the adjective. So if the slider is positioned in the middle, it means that the effect is balanced between the two polarities.~
 3. ~Now, alter the polarity profiles on the right, so that they show the effect the dark and the light colors have on **you**. After you are done, you can compare your results with average values by clicking on the button SHOW. **But don't cheat!**~ 🤨
@@ -258,11 +259,12 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 -
 
-~Further, the **saturation of colors** can influence their meaning. You can compare changing a color's saturation to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means more pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).~
+As well as the brightness, the **saturation** can influence a color's meaning. You can compare changing a color's saturation to dissolving watercolors in water. Low saturation means less pigment in the water. High saturation means more pigment dissolved in water. Depending on the brightness of the color, with no saturation you either get a grey hue (light or dark) or even black (no light, no saturation).
 &nbsp;
-~Again, we will work with polarity profiles to understand the effect a change in saturation can have on the color.~
+Again, we will work with polarity profiles to understand the effect a change in saturation can have on the color.
 
-##### TASKS
+##### Tasks
+
 1. ~Observe how the colors' effect changes when they are desaturated or saturated by using the slider beneath the color boxes.~
 2. ~Alter the polarity profiles on the right, so that they show the effect the saturated and the desaturated colors have on you. After you are done, you can compare your results with average values by clicking on the button SHOW. **But don't cheat!**~ 🤨
 
@@ -388,11 +390,11 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 
 #### So what did we learn?
 
-~Summarize in your own words the effect 
+Summarize in your own words the effect 
 a) bright colors have in comparison to dark colors and 
-b) saturated colors have in comparison to desatured colors.~
+b) saturated colors have in comparison to desatured colors.
 
-~Check below after coming up with your own conclusion.~
+Check below **after** coming up with your own conclusion.
 
 <f-sidebar title="Conclusion" overlay size="half">
 
@@ -453,7 +455,7 @@ b) saturated colors have in comparison to desatured colors.~
 ## <f-activity-icon size="medium" /> Apple shampoo
 
 
-~You are asked to decide upon fitting **colors for shampoo bottles**. The three shampoos will smell like apple 🍏. But there are three different target groups - each one gets a shampoo bottle of their own. Choose a color which could be used as primary color for the following products:~
+You are asked to decide upon fitting **colors for shampoo bottles**. The three shampoos will smell like apple 🍏. But there are three different target groups - each one gets a shampoo bottle of their own. Choose a color which could be used as primary color for the following products:
 
 1. ~Baby shampoo~ 
 2. ~Shampoo for men 60+~
@@ -461,11 +463,11 @@ b) saturated colors have in comparison to desatured colors.~
 
 <br>
 
-~Before you go to the next page, where you can design the color scheme, remember what you learned about color meaning and the effect saturation and brightness can have on a hue. Be ready to explain your choices in class.~ 
+**Before** you go to the next page, where you can design the color scheme, **remember** what you learned about color meaning and the effect saturation and brightness can have on a hue. Be ready to **explain your choices** in class.
 
 <br>
 
-~Let's find some nice colors for our shampoo bottles~:
+Let's find some nice colors for our shampoo bottles:
 
 
 <f-next-button title="Shampoo color designer" />
@@ -495,6 +497,8 @@ b) saturated colors have in comparison to desatured colors.~
 <caption>Three Properties of Color</caption>
 
 ## <f-activity-icon size="medium" /> Shampoo color designer
+<br>
+> ~If possible **compare your results** with someone and **explain why** you chose this color regarding the three properties of color. **Alternativeley, write it down in your journal.**~
 
 <!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
 
