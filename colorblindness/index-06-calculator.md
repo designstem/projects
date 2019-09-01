@@ -33,7 +33,8 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
-  ~The design object on which students test their knowledge can be diverse and adjusted to the subject. For example, you could also focus on the following objects:~
+  ~The design object (product design) which we propose on the next pages, tries to offer students of all levels an opportunity to try out their skills and knowledge. It is simple, but can be made more complex by you, the teacher.~ 
+  ~Of course the design object on which students test their knowledge can be very diverse and adjusted to the subject you teach. For example, you could also focus on the following objects:~
   <br>
 * Posters
 * Brochures
@@ -43,7 +44,7 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 * Packaging
 * Game design
 <br>
-~Whenever information needs to be conveyed visually, we have to think about accessibility, because it is not only about aesthetics anymore. It’s about enabling the target group to get the information they need. Therefore many products are suitable as learning objects for this project and can be adjusted to the students’ level. Feel free to use the following tasks as basis for your own.~
+~Whenever information needs to be conveyed visually, we have to think about accessibility, because it is not only about aesthetics anymore. It’s about enabling the target group to get the information they need. Therefore many products are suitable as learning objects for this project and can be adjusted to the students’ level. Feel free to use the following tasks as basis for your own ideas and change the design object so it fits your needs.~
 
 </f-notes>
 
