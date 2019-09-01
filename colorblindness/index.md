@@ -209,10 +209,7 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 
 </f-inline>
 
-<small>
-~Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors.~
-~**This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field.~
-</small>
+<small> ~Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors. **This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field.~ </small>
 
 But first, **let's go outside** and explore our daily surroundings to get a better understanding of how color vision deficiencies affect lives.
 
