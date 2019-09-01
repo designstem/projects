@@ -62,7 +62,7 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 
 | id: cb-workshop-stem
 | rows: auto
-| 1 1
+| 1 3
 | 2 3
 | 4 3
 
@@ -74,7 +74,7 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 Congratulations! You chose the STEM path and **this is your quest**:
 ~Create a new color scheme for a calculator with white buttons, which also works for people with color vision deficiency.~
 
-<br />
+
 
 #### Tasks
 
@@ -127,7 +127,7 @@ Congratulations! You chose the STEM path and **this is your quest**:
 
 | id: cb-workshop-design
 | rows: auto
-| 1 1
+| 1 3
 | 2 3
 | 4 3
 
@@ -141,7 +141,6 @@ Congratulations! You chose the STEM path and **this is your quest**:
 Congratulations! You chose the DESIGN path and **this is your quest**:
 ~Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.~
 
-<br />
 
 #### Tasks
 
@@ -151,7 +150,6 @@ Congratulations! You chose the DESIGN path and **this is your quest**:
 4. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
 5. ~**Mockup**: Make a mockup of your design in a graphic program and apply your color scheme to it.~
 
-<br />
 
 
 -
@@ -273,7 +271,6 @@ Let's see how well your design works for people with color vision deficiency.
 
 Lets reflect on what you achieved.
 
-<br>
 
 #### Tasks
  
@@ -316,7 +313,6 @@ Lets reflect on what you achieved.
 
 > Dieter Rams (born 20 May 1932 in Wiesbaden, Hessen) is a German industrial designer and retired academic closely associated with the consumer products company Braun, the furniture company Vitsœ, and the functionalist school of industrial design. His unobtrusive approach and belief in "less but better" design generated a timeless quality in his products and have influenced the design of many companies, including Apple, which also secured Rams worldwide recognition and appreciation. Rams designed the famous calculator BRAUN ET66 in 1987 (which you can see on the right) together with his colleague Dietrich Lubs.
 
-<br>
 
 #### Tasks
  
@@ -363,7 +359,6 @@ Do you still know everything there is to know about the eye and in specific abou
 <br>
 Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_quiz1_answerkey.pdf).
 
-<br>
 
 **Here are some further questions to think about:**
 1. ~In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?~
