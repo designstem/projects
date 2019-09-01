@@ -391,7 +391,7 @@ Of course you can add further questions and tasks for your students or adapt the
 
 | chapter: Learning stations
 | section: Learning stations
-| theme: blue
+| theme: dark
 | style: background-position: 50% 50%;
 | background: './images/cvd_learningstations.jpg'
 | tint: 0.85
