@@ -456,7 +456,7 @@ You can work through the stations in the given order which is recommended if you
 | theme: blue
 | style: background-position: 50% 50%;
 | background: './images/cvd_learningstations.jpg'
-| tint: 0.7
+| tint: 0.9
 | rows: 1fr auto
 | 1 1
 | 2 3
