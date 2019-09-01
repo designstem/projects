@@ -392,7 +392,7 @@ Of course you can add further questions and tasks for your students or adapt the
 
 | chapter: Learning stations
 | section: Learning stations
-| rows: auto
+| rows: 1fr auto
 | 1 1
 | 2 3
 | 4 4
@@ -424,14 +424,17 @@ You can work through the stations in the given order which is recommended if you
   <summary>Teachers notes</summary>
   
   ### Aim 
-  In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not.
-  This phase should focus on making sure that the students end up with the correct information (so not too experimental, but mostly informative).
-  The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely.
+  ~In order to know how to design products/information using color (color combinations), the students need to gather knowledge about different concepts, that influence whether a color combination works for colorblind people or not. This also includes the biological background of color vision deficiency.~
+  ~For design teachers, we kept the biology part as simple as possible (so don't be afraid of the new topic), but STEM teachers are incouraged to add more information themselves, if they want to dive deeper into the topics "eye" or "CVD".~
+  ~**This phase should focus on making sure that the students end up with the correct information** (so not too experimental, but mostly informative).
+   ~The students should do all of the working stations, if they are still beginners. But if they already know about certain topics, they may just do the tasks for each learning station for repetition, or they can even skip them completely. You, as their teacher, make the decision based on their level.~
   
-  <br>
-  
+  ### Your role as a teacher
+   ~Many learning stations have tasks where students can check concepts with e-tools, to verify what they read/learned. So in between it might be necessary for the teacher to provide help or the opportunity to discuss/share results.~
+ 
   ### Learning journal
-  From now on, you could add a learning journal, in which the students should not only write down what they've learned, but they can also add screenshots of their results for future reference. You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.
+  ~From now on, keeping a learning journal is not only recommended, but absolutely necessary, because the students will come across many new concepts, that they need to not only find out about, but also gather their insight somewhere. Encourage them to take screenshots while they work on tasks, so not only of the final results. This should help them to go back to a result if need be. Also, they might need these screenshots for future reference and group discussions in class.~
+  ~You could also use it at the end of the project, for the students to reflect on their learning process on a meta level.~
 
 </f-notes>
 
