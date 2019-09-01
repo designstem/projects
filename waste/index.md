@@ -109,6 +109,10 @@ What do you think what is most remarkable about this project?
 ---
 
 | section: Look for initiatives
+| 1 2 2
+| padding: 0
+
+<section>
 
 ## Look for initiatives
 
@@ -116,6 +120,7 @@ What do you think what is most remarkable about this project?
 
 2. Collect what you’ve found and discuss with the class why you choose these initiatives.
 
+</section>
 
 -
 
@@ -124,45 +129,46 @@ What do you think what is most remarkable about this project?
 
 ---
 
-***TODO*** styling
+| rows: auto 1fr
+| 1 1 1
+| 2 3 3
 
-<f-activity-icon />
+<caption>Explain</caption>
 
 ## Choose 2 concepts and explain them
 
+-
+
 You probably found a lot of initiatives to make the world cleaner and they all have their own methodologies and concepts.
-
-For example:
-
-<div class="grid" style="--cols: 1fr 1fr 1fr">
-
-<f-card background="none" border="var(--lightgray)">circular economy</f-card>
-
-<f-card background="none" border="var(--lightgray)">upcycle, recycle, downcycle</f-card>
-
-<f-card background="none" border="var(--lightgray)">cradle to cradle</f-card>
-
-<f-card background="none" border="var(--lightgray)">sustainability</f-card>
-
-<f-card  background="none" border="var(--lightgray)">urban mining</f-card>
-
-<f-card  background="none" border="var(--lightgray)">shared economy</f-card>
-
-</div>
 
 Explain of the two concepts you have chosen how they contribute to make the world cleaner from waste.
 
+-
+
+
+<big><big><big><span style="color: var(--red)">●</span> <var>circular economy</var></big></big></big>
+
+<big><big><big><span style="color: var(--red)">●</span> <var>upcycle, recycle, downcycle</var></big></big></big>
+
+<big><big><big><span style="color: var(--red)">●</span> <var>cradle to cradle</var></big></big></big>
+
+<big><big><big><span style="color: var(--red)">●</span> <var>sustainability</var></big></big></big>
+
+<big><big><big><span style="color: var(--red)">●</span> <var>urban mining</var></big></big></big>
+
+<big><big><big><span style="color: var(--red)">●</span> <var>shared economy</var></big></big></big>
+
+
 ---
 
-| 1 3 3
-| 1 2 2
+| 1 1 1
+| 2 3 3 
 
-## Example
+## Example: <var>circular economy</var>
 
-<f-card background="none" border="var(--lightgray)">circular economy</f-card>
+-
 
-In a nutshell this animation shows the concept of circular economy.
-Before you watch the animation look at the following questions.
+Watch the video and and answer the following questions.
 
 1. What is the difference between human and nature concerning waste?
 
@@ -171,12 +177,6 @@ Before you watch the animation look at the following questions.
 3. Which solutions for our waste problem does this animation show us?
 
 Share what you’ve seen with the class.
-
--
-
-https://www.ellenmacarthurfoundation.org/resources/learn/courses
-
-***TODO: Perhaps add a better link with actual information, not just a course promotion?***
 
 -
 
