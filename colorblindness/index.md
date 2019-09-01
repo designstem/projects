@@ -442,7 +442,6 @@ In the following **learning stations** you will find tasks which &ndash; in the 
 </div>
 
 -
-<br>
 
 <div style="margin-left: 2vw">
   
