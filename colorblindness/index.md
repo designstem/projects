@@ -412,8 +412,8 @@ This phase is crucial for the learning process, so don't skip it. After the stud
 | background: './images/cvd_learningstations.jpg'
 | tint: 0.85
 | rows: 1fr auto
-| 1 1
-| 2 3
+| 1 3
+| 2 4
 
 
 ## Let's find out more
@@ -434,8 +434,10 @@ In the following **learning stations** you will find tasks which &ndash; in the 
 <f-next-button style="margin:6vh 0" title="Next: Accessibility" />
 
 -
-***Level up and get your skills ready, before you face the "endboss"!*** 🧐
+### Level up and get your skills ready, <br> before you face the "endboss"! 🧐
 
+
+-
 <br>
 
 - ~<a href="#" v-on:click="goto('cb-accessibility')">Accessibility</a>~
