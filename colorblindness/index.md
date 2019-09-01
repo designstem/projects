@@ -248,7 +248,14 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
 
 Use a digital camera, such as the camera of your mobile phone, and **go on a photo safari of your everyday life**.
 
- ~**Take at least five pictures** of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day, where color is used in plenty. Choose only things which convey information.~  
+
+<f-inline>
+
+# 📸
+
+> **Take at least five pictures** of objects, packagings, posters, signs, magazines, websites, texts etc. that you come across throughout your day, where color is used in plenty. Choose only things which convey information.
+
+</f-inline>
   
  **You will need the pictures for the next task. So don't skip it!** 🧐
   <!-- </div> -->
