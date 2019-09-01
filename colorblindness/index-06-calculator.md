@@ -6,15 +6,15 @@
 <!-- ##### Elaborate Overview  -->
 ## Final task
 
-~Now that you found out about the different topics surrounding designing for colorblind, it's time for some action.
+Now that you found out about the different topics surrounding designing for people with CVD, it's time for some action.
 There are two different paths that you could take for the final task.
-Either you could choose the STEM or the DESIGN focus.~
+Either you could choose the STEM or the DESIGN focus.
 
 ~*The STEM path is for all students who don't have any access to or knowledge about design software (like Photoshop or Illustrator).
 Whereas the DESIGN path requires you to also use design software. For the STEM path you only need some paper, brushes and watercolors*.~
 
 
-#### ~Choose your path:~
+#### Choose your path:
 
 <button class="primary" v-on:click="send('goto', 'cb-workshop-stem')">STEM path</button>
 
@@ -71,10 +71,12 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 
 -
 
-~Congratulations! You chose the STEM path and this is your quest:
-Create a new color scheme for a calculator with white buttons, which also works for people with color vision deficiency.~
+Congratulations! You chose the STEM path and **this is your quest**:
+~Create a new color scheme for a calculator with white buttons, which also works for people with color vision deficiency.~
 
 <br />
+
+#### Tasks
 
 1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?~
 2. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
@@ -82,8 +84,8 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 <br />
 
-
-> Hint: ~If you cannot work with watercolors, you might want to try the following <a href="#" v-on:click="goto('cb-calc')">online tool</a>. It is a bit more difficult to work with than watercolors, but it basically works like the color mixing tools you used in the tasks before. Click on *Edit* under a color, to change it (upper right). Then click on a calculator button to select it and next on the color you want to apply. After working on the button, you should deselect it. You can also select several buttons at the same time. Further, you can switch the label color between black and white. When you are happy with your color scheme, take a screenshot of it, to save it for later!~
+#### Hint
+> If you cannot work with watercolors, you might want to try the following <a href="#" v-on:click="goto('cb-calc')">online tool</a>. It is a bit more difficult to work with than watercolors, but it basically works like the color mixing tools you used in the tasks before. Click on *Edit* under a color, to change it (upper right). Then click on a calculator button to select it and next on the color you want to apply. After working on the button, you should deselect it. You can also select several buttons at the same time. Further, you can switch the label color between black and white. When you are happy with your color scheme, take a screenshot of it, to save it for later!
 
 -
 
@@ -136,10 +138,12 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 -
 
-~Congratulations! You chose the DESIGN path and this is your quest:
-Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.~
+Congratulations! You chose the DESIGN path and **this is your quest**:
+~Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.~
 
 <br />
+
+#### Tasks
 
 1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many colors would you need for your color scheme?~
 2. ~**Target group**: Think about who will use it. What is most important to them? How does that affect your design?~
@@ -187,8 +191,8 @@ EVALUATE PHASE
 
 <br />
 
-~Lets see how well your design works for people with color vision deficiency.
-Upload your picture into the CVD-simulator and check whether it works.~
+Let's see how well your design works for people with color vision deficiency.
+~Upload your picture into the CVD-simulator and check whether it works.~
 
 <f-card :title="get('cbType', 'protanopia') == 'protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType', 'protanopia') == 'protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'protanopia')">
 
@@ -267,15 +271,17 @@ Upload your picture into the CVD-simulator and check whether it works.~
 <!-- ##### Evaluate meta  -->
 ## EVALUATE
 
-~Lets reflect on what you achieved.~
+Lets reflect on what you achieved.
 
 <br>
+
+#### Tasks
  
-1. Reflect on what you learned. What was new for you or interesting? What was difficult or easy?
-2. Do you think the information will be useful for you as a designer or STEM student?
-3. What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?
+1. ~Reflect on what you learned. What was new for you or interesting? What was difficult or easy?~
+2. ~Do you think the information will be useful for you as a designer or STEM student?~
+3. ~What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?~
 <br>
-4. Think of other methods to make information more accessible other than color coding it. What could you do else?
+4. ~Think of further ways to make information more accessible other than color coding it. What could you do else?~
 <br>
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -285,7 +291,7 @@ Upload your picture into the CVD-simulator and check whether it works.~
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
-  ~In the first task, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.~
+  ~In task 4, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.~
 
 </f-notes>
 
@@ -308,13 +314,15 @@ Upload your picture into the CVD-simulator and check whether it works.~
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Design
 
-> ~Dieter Rams (born 20 May 1932 in Wiesbaden, Hessen) is a German industrial designer and retired academic closely associated with the consumer products company Braun, the furniture company Vitsœ, and the functionalist school of industrial design. His unobtrusive approach and belief in "less but better" design generated a timeless quality in his products and have influenced the design of many companies, including Apple, which also secured Rams worldwide recognition and appreciation. Rams designed the famous calculator BRAUN ET66 in 1987 (which you can see on the right) together with his colleague Dietrich Lubs.~
+> Dieter Rams (born 20 May 1932 in Wiesbaden, Hessen) is a German industrial designer and retired academic closely associated with the consumer products company Braun, the furniture company Vitsœ, and the functionalist school of industrial design. His unobtrusive approach and belief in "less but better" design generated a timeless quality in his products and have influenced the design of many companies, including Apple, which also secured Rams worldwide recognition and appreciation. Rams designed the famous calculator BRAUN ET66 in 1987 (which you can see on the right) together with his colleague Dietrich Lubs.
 
 <br>
+
+#### Tasks
  
-1. Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?
-2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion! If possible, also check it in the CVD simulator to strengthen your arguments.
-3. If so, what should he have done differently to improve it?
+1. ~Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?~
+2. ~Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion! If possible, also check it in the CVD simulator to strengthen your arguments.~
+3. ~If so, what should he have done differently to improve it?~
 <br>
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -351,13 +359,15 @@ https://www.vitsoe.com/gb/about/good-design
 <!-- ##### Evaluate meta  -->
 ## EVALUATE | Biology
 
-~Do you still know everything there is to know about the eye and in specific about rods and cones? Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_quiz1_answerkey.pdf).~
+Do you still know everything there is to know about the eye and in specific about rods and cones? 
+<br>
+Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_quiz1_answerkey.pdf).
 
 <br>
 
-~**Here are some further questions to think about:**~
-1. In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?
-2. In terms of rods and cones, how would you expect the retina of a nocturnal mammal to be different from that of a diurnal mammal? Can you explain it?
+**Here are some further questions to think about:**
+1. ~In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?~
+2. ~In terms of rods and cones, how would you expect the retina of a nocturnal mammal to be different from that of a diurnal mammal? Can you explain it?~
 
 <br>
 
@@ -422,24 +432,18 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 <!-- ##### Evaluate meta  -->
 ## You did it! 😄
 
-<br>
  
-~We hope that you enjoyed doing this workshop, and that it will help you in your further life to create nice color schemes that work for all!~
+We hope that you enjoyed doing this workshop, and that it will help you in your further life to create nice color schemes that work for all!
 
-<br>
 
-~*This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you are a pro now and know, that this problem can be fixed easily.~
+> ~*This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you are a pro now and know, that this problem can be fixed easily.~
 
-<br>
 
-~**If you are still motivated to learn more, you are welcome to check out the other workshops.**~ 😉
+**If you are still motivated to learn more, you are welcome to check out the other workshops.** 😉
 
-<br>
-  
   
   #### Related DesignSTEM projects:
 
-  <br>
   
   <a href="../metamerism">Color perception</a> shows you that even if an object has one fixed color, it can still look different.
 
@@ -457,7 +461,7 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 
 
 
-<f-notes>
+<f-notes title="credits">
 
 <summary>Credits</summary>
 
