@@ -408,9 +408,9 @@ Of course you can add further questions and tasks for your students or adapt the
 ~Caring about high accessibility of information in your design products is crucial. And color is an important part of design.~ 
 ~In the following **learning stations** you will find tasks which &ndash; in the end &ndash; should enable you to develope the skills required to optimize your design products. STEM students could use this for example when they choose a color scheme for diagrams.~ 
 
-### ***<f-arrow-icon /> How to use the learning stations***
+### <f-arrow-icon /> How to use the learning stations
 ~You can **work through the stations in the given order** (which is recommended if you are a beginner). If you are already familiar with a certain topic, you can navigate straight to a topic that is new to you. Throughout the following pages, you can switch to other learning stations via the burger menu in the top left corner.~
-***But don't cheat and skip ahead, before you are not sure that you know everything!*** 🧐
+
 
 
 
@@ -419,7 +419,9 @@ Of course you can add further questions and tasks for your students or adapt the
 <f-next-button style="margin:6vh 0" title="Next: Accessibility" />
 
 -
+***Level up and get your skills ready, before you face the "endboss"!*** 🧐
 
+<br>
 
 - ~<a href="#" v-on:click="goto('cb-accessibility')">Accessibility</a>~
 - ~<a href="#" v-on:click="goto('cb-the-eye')">The eye</a>~
