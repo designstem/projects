@@ -732,7 +732,7 @@ If possible, **exchange and discuss your results** with someone else.
 Earlier, we learned that people with color vision deficiencies cannot see certain colors, therefore it is hard for them to sometimes access information, especially when texts are written using colors other than black, or are placed on colorful backgrounds other than just white. Now we will find out what it needs to get functioning color schemes for people with CVD.
 
 -
-<div style="margin-left: 1vw;">
+<div style="margin-left: 2vw;">
   
 > **Hints**: For this task, you need the HSB values of the last task! Also, take screenshots of your results on this page in between, to compare them later and to have a future reference for the final task of this workshop.
 
@@ -742,7 +742,7 @@ Earlier, we learned that people with color vision deficiencies cannot see certai
 
 #### Open the tasks in the sidebar: 
 
-<big> <f-sidebar title="Click me!" overlay size="half"> </big>
+<f-sidebar title="Click me!" overlay size="half">
 
 <div slot="content" class="sidebar-content">
 
