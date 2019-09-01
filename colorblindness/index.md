@@ -416,7 +416,7 @@ This phase is crucial for the learning process, so don't skip it. After the stud
 | 2 4
 
 
-## Let's find out more
+## <f-fact-icon /> Learning stations
 
 -
 
