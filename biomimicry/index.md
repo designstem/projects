@@ -59,9 +59,9 @@
 
 <div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end;">
 
-  ## Actually, humankind looks further and further, sustainable solutions in <em>nature</em>.
+  ## Actually, humankind looks further and further, for sustainable solutions in <em>nature</em>.
   
-  Most of the advanced solutions regarding materials, technology or items that we consume, come from this deep ability since long ago to observe and imitate nature.
+  Most of the advanced solutions regarding materials, technology or items that we consume, come from the ability to observe and imitate nature.
 
 </div>
 
@@ -91,9 +91,9 @@
 
   ## What about <em>BIONICS</em>?
   
-  is a science, where men see’s and interpret a new **artificial culture**, embraced by the amazing functional systems produced from **natural ecology**.
+  It is a science, where we see and interpret a new **artificial culture**, embraced by the amazing functional systems produced from **natural ecology**.
   
-  Bionics attempt to propose a confluence between natural systems and the artificiality created by men, presenting **‘common’ characteristics** that are observed in their **functional** or **formal structure**.
+  Bionics attempts to connect natural and artificial systems created by humans, presenting **‘common’ characteristics** that are observed in their **functional** or **formal structure**.
 
 </div>
 
@@ -124,17 +124,17 @@
 
 <div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end;">
 
-  ## Concerning <em>Biodesign</em>?
+  ## What is <em>Biodesign</em>?
   
-  Biodesign, codes a product, an object, a system, assembling nature mechanisms, reproducing it through a kind of mimicry. Proposing ‘inventions’ that minimize impact and maximize is performance, esthetically and functionally
+  Biodesign codes a product, an object, a system, assembling nature mechanisms and reproducing them through a kind of mimicry. Proposing *inventions* that minimize the impact and maximize the performance, esthetics and functionality.
 
-  ...proposing a new **‘artificial ecology’**.
+  This means introducing a new **‘artificial ecology’**. See in the example below!
 
 </div>
 
 -
 
-<div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end; text-align: right; font-size:90%" >climbing axe modelled on the appearance<br />and efficiency of a woodpecker<br /><br /><small>Designer Franco Lodato</small></div>
+<div style="height: 100%; display:flex; flex-direction:column; justify-content: flex-end; text-align: right; font-size:90%" >A climbing axe modelled on the appearance<br />and efficiency of a woodpecker<br /><br /><small>Designer Franco Lodato</small></div>
 
 -
 
@@ -179,7 +179,7 @@ Image source: https://www.media.mit.edu/
 
 <div style="height:100%; display: flex; flex-direction:column; justify-content: flex-end; ">
 
-  ## Why nature is crucial to men's mimicry?
+  ## Why is nature crucial for human mimicry?
 
 </div>
 
@@ -189,7 +189,7 @@ Image source: https://www.media.mit.edu/
   <section style="height:100%; display: flex; flex-direction:column; justify-content: flex-end; padding:calc(var(--content-padding) * 0.66) var(--content-padding)">
     
   ## Read and eat!
-  Bruno Munari and the orange methaphore...<br />descontruction to resolve a design problem.
+  Bruno Munari and the orange methaphore...<br />descontruction to resolve a design problem. <br> See on the next page!
 
   </section>
 </div>
@@ -237,9 +237,9 @@ Image source: http://www.munart.org/
 -
 
 <!-- 1. Pick a Orange while you are passing this slides with Bruno Munari designer’s head. -->
-1. Pick a Orange.
-2. Do not peel or eat the Orange before the slides come through.
-3. Hold the Orange and start to explore its shape in these steps:
+1. Take an orange, but don't peel or eat it before the next pages!
+2. Just hold the orange in your hands. 
+3. Start to **explore its shape and design by following and comprehending the steps on the next pages**!
 
 -
 
@@ -361,7 +361,7 @@ Image source: http://www.munart.org/
 
 -
 
-**Suitable material for unwrap each container + usability**
+**Suitable material for unwrapping each container + usability**
 
 -
 
@@ -413,7 +413,7 @@ Image source: http://www.munart.org/
 
 -
 
-**Adequate Material resistance + adhesives**
+**Adequate material resistance + adhesiveness**
 
 -
 
@@ -451,7 +451,7 @@ Image source: http://www.munart.org/
 -
 
 #### 10. 
-*Apart from juice the sections generally contain a small seed from the same plant that produced the fruit. This is a small free gift offered by the firm to the client in case the latter wishes to start a production of these objects on his own account.*
+*Apart from juice, the sections generally contain a small seed from the same plant that produced the fruit. This is a small free gift offered by the firm to the client in case the latter wishes to start a production of these objects on his own account.*
 
 -
 
@@ -552,11 +552,13 @@ Image source: http://www.munart.org/
 
 -
 
-## 14. Now!!!
+## 14. Now, go ahead...
 
-### You touch it<br />you see it<br />you smell it<br />and I hope you eat it
+### Touch it<br />see it<br />smell it<br />and finally eat it!
 
-all the senses have been aplied and most of the biodesign concepts have been **experienced**.
+<br>
+
+All your senses have been applied and most of its biodesign concepts have been **experienced**.
 
 -
 
@@ -564,15 +566,15 @@ all the senses have been aplied and most of the biodesign concepts have been **e
   
   ### Design concepts
 
-  - Recognizable geometry + Modular optimization
+  - Recognizable geometry + modular optimization
   - Easy assemblage with repeated elements
   - Organic
-  - Organized + Packed together
+  - Organized + packed together
   - Unique material and color
-  - Strong Packging + interior protection
+  - Strong packging + interior protection
   - Systemic elements + precise in each function
   - Suitable material for unwrap each container + usability
-  - Adequate Material resistance + adhesives 
+  - Adequate material resistance + adhesives 
   - Biodegradable 
   - Ergonomic + adaptable to every consumer 
   - Humbled, sustainable + ecological
@@ -610,14 +612,32 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 &nbsp;
 
-### Can you imagine *STEM* questions in your mind to this nature ‘design’ product
+### Can you find *STEM* related questions after you observed this ‘design’ product of nature?
 
-##### *A few STEM QUESTIONS*
 
-- How much total weight?
-- How much juice
-- How much can you strech the Orange?
-- What physical characteristics do you think that the orange have
+<details>
+	<summary>#### *Questions to get you started*</summary>
+  
+- How much total weight does the object have?
+- How much juice does it contain?
+- How much can you strech the orange?
+- What physical characteristics do you think that the orange has?
+- Which material &ndash; the containers inside or the external support protection material of the orange outside &ndash; is lighter or heavier?
+- Can you see, microscopically, the film that fixes the containers of the orange and guess how they stick together?
+- Do you think the object is proportional to your hand or your head?
+- Can you calculate the weight of the orange splitting the materials?
+- Can you calculate the angles between the containers?
+- Can you calculate the dimensions of the orange (length, with, thickness, perimeter)?
+
+</details>
+
+
+##### *A few questions to get you started*
+
+- How much total weight does the object have?
+- How much juice does it contain?
+- How much can you strech the orange?
+- What physical characteristics do you think that the orange has
 - Do you think that the material inside containers and the external support protection material of the orange is lighter or heavier?
 - Can you see in a microscopic approach the film that fixes the containers of the orange and guess how they stay together?
 - Do you think the object is proportional to your hand and to your head?
@@ -631,9 +651,10 @@ all the senses have been aplied and most of the biodesign concepts have been **e
   
   ### Finally
 
-  If you make a section cut in the fruit, and you pretend to create a new sandwich material similar to the orange, ...what mass production materials do you think that can substitute better the orange performance?
+  If you make a section cut in the fruit and pretend to create a new sandwich material similar to the orange, which mass production materials could substitute the orange's performance?
 
-  #### Make your own orange with simple materials such as cardboard, honeycomb, plastic protection bubbles, sheet of metal, reused plastic, plywood...
+  #### Task
+  Make your own orange with simple materials such as cardboard, honeycomb, plastic protection bubbles, a sheet of metal, reused plastic, plywood etc. Try to mimic the oranges different functions that we just learned about.
 
 </div>
 
@@ -655,9 +676,15 @@ all the senses have been aplied and most of the biodesign concepts have been **e
 
 <div class="bottom">
   
-  ## Why nature is crucial to men's mimicry?
+  ## Let's find out...
   
-  **Janine Benyus** and the design problem through nature look.
+  why nature is crucial to mankinds' mimicry!
+  
+  #### Task
+  
+  Watch the following video, where **Janine Benyus** explains the importance of biomimicry.
+  Learn how nature solves design problems and see it through nature's eyes.
+  Take notes of what you find out for future reference.
 
 </div>
 
@@ -696,9 +723,9 @@ all the senses have been aplied and most of the biodesign concepts have been **e
   
   ## See closer. See better. See deeper.
   
-  One of the most disseminated examples of modern bio inspiration is the amazing used material Velcro, which was invented in 1941 by Swiss engineer George de Mestral <small>*(US Patent by George de Mestral, 1955)*</small>.
-  Mestral inspiration came from observing thistles and little hooks and the way they got caught in his dog’s tail, also this plants have the particular capacity, specialy in winter to adhered to clothes. **This one when passing thistles became full of small stamens derived from the plant. His study under the microscope revealed the shape of a hook that formed the principle of velcro formation.
-  The expression <i>"velcro"</i> comes from the French word <i>"velor"</i> and <i>"chochet"</i> (hook)**
+  One of the most disseminated examples of modern bio inspiration is the amazing material Velcro, which was invented in 1941 by Swiss engineer George de Mestral <small>*(US Patent by George de Mestral, 1955)*</small>.
+  Mestral's inspiration came from observing thistles and little hooks and the way they got caught in his dog's tail. Further, these plants have the particular capacity, especially in winter, to stick to clothes. When passing thistles, clothes or his dog were full of small stamens derived from the plant. Mestral's study under the microscope revealed the shape of a hook that formed the principle of velcro fasteners.
+  The expression <i>"velcro"</i> comes from the French word <i>"velor"</i> and <i>"chochet"</i> (hook)**.
 
 </div>
 
@@ -747,7 +774,7 @@ https://commons.wikimedia.org/wiki/File:Micrograph_of_hook_and_loop_fastener,(Ve
   
   ## The shape drop light mimics
   
-  **Ross Lovegrove’s** designs typically demonstrate a link between organic shapes and material science. The designer’s work is always embraced in nature, in this particucar case, tropical fruit ‘manga’ are redesigned in a mimic drop tear light bulbs from the trees.
+  **Ross Lovegrove’s** designs typically demonstrate a link between organic shapes and material science. The designer’s work is always a reflection of nature &ndash; in this particucar case, of a tropical fruit: Mango. The light bulbs mimic the shape of mangos and raindrops, hanging from leaves.
 
   <f-link to="http://www.rosslovegrove.com/">www.rosslovegrove.com/</f-link>
 
@@ -789,13 +816,13 @@ Ross Lovegrove, Manga, http://www.rosslovegrove.com
   
   ## The scale repetion proposition
   
-  Reproducing structures, seeing how web spider is created, Tomás Sarraceno propose this inside outside monumental installation.
+  Reproducing structures, seeing how a spider web is created, Tomás Sarraceno proposes this inside outside monumental installation.
 
   <br />
 
   <blockquote>
 
-  “We are trying to learn about spiders’ behaviour and net making and we would like to learn more about the origin of the universe…But maybe you could start by explaining the project first and also this analogy between the cosmic filaments and a spider web.”
+  “We are trying to learn about spiders’ behaviour and net making and we would like to learn more about the origin of the universe… But maybe you could start by explaining the project first and also this analogy between the cosmic filaments and a spider web.”
   
   <small>*— Tomás Saraceno*</small>
 
@@ -840,7 +867,7 @@ Tomás Saraceno, How to Entangle the Universe in a Spider Web, https://studiotom
   
   ## Desert Spider Robotics mimicry by Ingo Rechenberg
   
-  **Rechenberg** is a pioneer in the of bionics and evolutionary computation, plus artificial evolution. In the 1960s and 1970s he invented a highly influential set of optimization methods known as evolution strategies (from German *Evolutionsstrategie*)
+  **Rechenberg** is a pioneer in the field of bionics and evolutionary computation, plus artificial evolution. In the 1960s and 1970s he invented a highly influential set of optimization methods known as evolution strategies (from German *Evolutionsstrategie*).
   
   His group successfully applied algorithms to challenging problems such as aerodynamic wing design. These were serious technical applications of artificial evolution created in this case to imitate spider movements.
 
@@ -886,10 +913,13 @@ Dr Ingo Rechenberg, BionicWheelBot, https://www.festo.com/group/en/cms/13129.htm
 
 <div class="bottom">
   
-  ## These are only a few examples of men’s repetition
+  ## These are only a few examples of human mimicry
   
-  You might now know need some close up and exercise yourself in the very basic storm of nature replication.
-  Let’s review **Franco Lodato Bio Design Lessons**:
+ <!-- You might now know need some close up and exercise yourself in the very basic storm of nature replication.
+  Let’s review **Franco Lodato Bio Design Lessons**: -->
+  
+  In the following, you will do some exercises yourself to replicate nature itself.<br>
+  Let's first review **Franco Lodato's bio design lessons**!
 
 </div>
 
@@ -940,24 +970,25 @@ Image source: Mit Media Lab, https://www.media.mit.edu/
 <div class="bottom">
 
 **Humility**
-Nature is THE master designer
+Nature is **the** master designer, e.g.
 Spider web vs. steel
 Abalone shell vs. Kevlar
 
 **Imitate, don’t duplicate**
-Be creative in your interpretation of natures lessons
-Understand why nature chose its solution
+Be creative in your interpretation of natures lessons.
+Understand why nature chose its solution.
 
 **Biodesign ≠ Sustainability**
-Be clear about your motives for applying Biodesign
+Be clear about your motives for applying biodesign.
 
 **Yet another argument for a multidisciplinary approach**
-The microscope is the designer’s new best friend Biologist+Designer > Many Designers
+The microscope is the designer’s new best friend 
+Biologist + Designer > Many Designers
 
 **Mimicry can be the first step towards creative thinking**
 
 **We are on the cusp of a great movement**
-An opportunity for all of us to play a part
+An opportunity for all of us to play a part!
 
 </div>
 
@@ -988,12 +1019,18 @@ An opportunity for all of us to play a part
 
 <div class="bottom">
   
-  ## Time to go the field
+  ## Time to go outside!
   
-  Be like **William Morris**, collect nature forms (bring to the draw them and explore their insights with possible tessellations)...
+  Be like **William Morris**, who collected natural forms.
+  
+  <!--bring to the draw them and explore their insights with possible tessellations)...-->
+  
+  1. Collect them, draw them (from different perspectives) and explore their features. Also try out tesselations. Make photocopies, take pictures and draw some more.
 
-  Take notes about details, patterns, color pallet, replicate is form into different perspective, make photocopies, take pictures and draw again...
+  2. Take notes about details, patterns, the color palette and try to replicate their forms.
 
+
+~Use the video as a source of inspiration!~
 </div>
 
 -
@@ -1036,11 +1073,13 @@ An opportunity for all of us to play a part
     argument for a <em>multidisciplinary approach</em>
   </h5>
   
-  ### The microscope is the designer’s new best friend
+  ### The microscope is the designer’s new best friend!
 
-  See it closer, explore texture, physics be closer to biologists...
+  1. Under the microscope, take a closer look at what you found. Explore the textures. Physics be closer to biologists...
 
-  Collect patterns macro scale see them in laboratories. Take picture’s. See their structure. Draw again by hand or computer the elements and try to repeat it, propose several patterns for t-shirts.
+  2. Collect patterns that you find under the microscope and macro scale them. Take pictures of your results. See their structure. Draw again by hand or computer the single elements.
+  
+  3. Try to repeat the elements by forming several patterns, that you could for example later apply to a t-shirt.
   
   <br />
 
@@ -1124,20 +1163,24 @@ Student work, photo by Jacinta Costa.
     argument for a <em>multidisciplinary approach</em>
   </h5>
   
-#### The microscope is the designer’s new best friend
+#### The microscope is the designer’s new best friend!
 
-See it closer, explore texture, physics be closer to biologists...
+<!-- See it closer, explore texture, physics be closer to biologists...-->
 
-Collect patterns macro scale see them in laboratories. Take picture’s. See their structure. 
+<!--Collect patterns macro scale see them in laboratories. Take picture’s. See their structure.-->
 
-Reproduce this modules in 3d, create mock-ups with paper, and cardboard. See their ability to intercept each other.
+1. Under the microscope, take a closer look at what you found. Explore the textures. Physics be closer to biologists...
 
-If you have the opportunity, print in 3d and test with different scales. Test their resistance in labs or in normal use with different users.
+2. Collect patterns that you find under the microscope and macro scale them. Take pictures of your results. See their structure. Draw again by hand or computer the single elements.
   
-- Try to reinforce the curves and perception of their geometry;
+3. Reproduce these modules in 3D, create mock-ups with paper and cardboard. See their ability to intercept/connect each other.
+
+4. If you have the opportunity, print them in 3D and test with different scales. Test their resistance in labs or in normal use with different users.
+  
+- Try to reinforce the curves and perception of their geometry.
 - Try to reduce the material involved maintaining the same performance.
 
-Enjoy yourself with nature…
+**Enjoy what nature has to offer you!**
 
 </div>
 
