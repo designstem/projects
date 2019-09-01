@@ -61,7 +61,7 @@ Our eyes have three color receptor cells or cones: red, green and blue. As a res
 
 ## Additive Color System
 
-~In the Additive Color System, **<span style="color:red;" v-on:mouseover="set('activeCol', 'red')">RED</span>**, **<span style="color:lime;" v-on:mouseover="set('activeCol', 'lime')">GREEN</span>** and **<span style="color:hsl(230, 100%, 70%);" v-on:mouseover="set('activeCol', 'blue')">BLUE</span>** are the primary colors. When all three colors overlap, **WHITE** light is produced.~
+In the Additive Color System, **<span style="color:red;" v-on:mouseover="set('activeCol', 'red')">RED</span>**, **<span style="color:lime;" v-on:mouseover="set('activeCol', 'lime')">GREEN</span>** and **<span style="color:hsl(230, 100%, 70%);" v-on:mouseover="set('activeCol', 'blue')">BLUE</span>** are the primary colors. When all three colors overlap, **WHITE** light is produced.
 
 #### Task
 
@@ -133,10 +133,11 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 ## Mix RGB Colors
 
-#### Task
-~**Now that you know about the RGB color system, look at these two colors. They are both made up in parts of red, green and blue.**~
+Now that you know about the RGB color system, **look at these two colors**. They are both made up in parts of red, green and blue.
 
 &nbsp;
+
+#### Task
 
 1. ~In your mind, try to disassemble them into their three color components (red, green and blue). How much red, green and blue would you need to create these colors? A lot? Only little?~
 
@@ -203,7 +204,7 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 
 ## Mix RGB Colors
 
-~Now, **check your assumptions** by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example. But **first think**, then pull the sliders.~ 🤓
+Now, **check your assumptions** by adjusting the RGB controllers so that you receive a color that is as similar as possible to the given example. But **first think**, then pull the sliders. 🤓
 
 -
 
