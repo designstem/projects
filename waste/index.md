@@ -114,6 +114,8 @@ What do you think what is most remarkable about this project?
 
 <section>
 
+<caption>💻💬 Research and discuss</caption>
+
 ## Look for initiatives
 
 1. Look for 3 initiatives that have found solutions for a waste problem
@@ -133,7 +135,7 @@ What do you think what is most remarkable about this project?
 | 1 1 1
 | 2 3 3
 
-<caption>Explain</caption>
+<caption>💬 Discuss</caption>
 
 ## Choose 2 concepts and explain them
 
@@ -164,6 +166,8 @@ Explain of the two concepts you have chosen how they contribute to make the worl
 | 1 1 1
 | 2 3 3 
 
+<caption>📺💬 Watch and discuss</caption>
+
 ## Example: <var>circular economy</var>
 
 -
@@ -185,23 +189,27 @@ Share what you’ve seen with the class.
 ---
 
 | section: Make a flat lay from waste
+| padding: 0
+| 1 2 2
+<section>
 
-## Make a flat lay from waste in your neighbourhood
+<caption>📷 Take photos</caption>
 
-***TODO: Condense to 3 steps***
+## Insta-waste
 
-1. Go outside for 15 minutes
+**Make a flat lay from waste in your neighbourhood**
 
-2. Collect roaming waste
+1. Go outside for 15 minutes and collect some waste
 
-3. Take it back to the classroom
+2. Make a nice composition for the flat-lay
 
-4. Make a nice composition for the flat-lay
+3. Take some photos
 
-5. Take a picture
+***TODO: Add f-sidebar to explain what flay lay is***
 
-***TODO Better links***
+</section>
 
+<!--
 https://www.designboom.com/art/gabriel-orozco-asterisms-at-the-guggenheim-new-york/
 
 https://www.enlightapp.com/blog/7-fantastic-tips-for-fabulous-flat-lay-photography/
@@ -209,6 +217,8 @@ https://www.enlightapp.com/blog/7-fantastic-tips-for-fabulous-flat-lay-photograp
 https://www.instagram.com/djhinva
 
 http://www.slate.com/blogs/behold/2014/07/08/gregg_segal_photographs_people_with_a_week_s_worth_of_their_trash_in_his.html?via=gdpr-consent
+
+-->
 
 -
 
