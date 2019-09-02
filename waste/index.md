@@ -226,10 +226,22 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 -
 
-<f-card style="height: 80vh" background="white" color="var(--darkgray)" @click.native="goto('Mimimal use of material')">
-<h3 style="margin: 0; color: var(--darkgray);">Mimimal use of material</h3>
+<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with folds</h4>
 </f-card>
 
 -
 
-<f-card  style="height: 80vh" background="white" color="var(--darkgray)" @click.native="goto('Zero waste products')"><h3 style="margin: 0; color: var(--darkgray);">Zero waste products</h3></f-card>
+<f-card  style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')"><h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4></f-card>
+
+-
+
+<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with cells</h4>
+</f-card>
+
+-
+
+<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
+</f-card>

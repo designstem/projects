@@ -1,51 +1,51 @@
 | chapter: Optimization with folds
-| section: Looking at nature
-
-## Optimization with folds
-
-### Palm trees
-
-Palm Trees have very clever leaves. In nice weather the leaves spread out to catch the sunlight, but during storms they fold up. The folding makes the leaves compact and thus stronger and more resistant to these circumstances. 
-
--
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Close_Up_look_of_Leaves.jpg"  />
-
-<f-notes title="Credits">
-
-Image sources: https://commons.wikimedia.org/wiki/File:Close_Up_look_of_Leaves.jpg
-
-</f-notes>
-
----
+| section: Optimization with folds
+| 1 1
+| 3 5
+| 2 4
+| rows: auto 33vh 33vh
 
 <caption>Optimization with folds</caption>
 
-### Shells
+## Palms and shells
+
+-
+
+#### Palmtree leaves
+
+Palm trees have very clever leaves. In nice weather the leaves spread out to catch the sunlight, but during storms they fold up. The folding makes the leaves compact and thus stronger and more resistant to these circumstances. 
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Close_Up_look_of_Leaves.jpg"  />
+
+-
+
+#### Sea shells
 
 Shells are designed with the purpose of carrying external loads efficiently.
 The folds help the thin layered shells to be resistant to predators and rough circumstances. 
 
 -
 
-<img src="./images/shells.jpg"  />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Small_sea_shell.jpg/1024px-Small_sea_shell.jpg"  />
+
 
 <f-notes title="Credits">
+
+Image source: https://commons.wikimedia.org/wiki/File:Close_Up_look_of_Leaves.jpg
 
 Image source:
 https://pixnio.com/still-life/seashells-mollusk-still-life-object-decoration-macro
 
 </f-notes>
 
-
----
-
-***TODO*** title
-***TODO*** ERIK credits
-
 ---
 
 | section: Adding strength
+| 1 2 2
+
+<caption>Optimization with folds</caption>
 
 ## Adding strenght
 
@@ -56,7 +56,6 @@ By folding the edges of the metal top of the Pallas table Konstantin Grcic added
 -
 
 <img src="./images/pallastable.jpg"  />
-<caption>Optimization with folds</caption>
 
 <f-notes title="Credits">
 
@@ -67,9 +66,12 @@ Pallas, Konstantin Grcic 2003, downloaded from: https://www.classicon.com/en/pro
 
 ---
 
-| 1 2 2 3 3 
+| theme: dark
+| 1 2 3
 
 <caption>Optimization with folds</caption>
+
+## Adding strenght
 
 In the pictures you see two identical A4 papers folded in **hexagonal like** shapes.
 
@@ -85,11 +87,15 @@ Which one do you think is the strongest?
 
 ---
 
-| 1 2 2 3 3
+| theme: dark
+| 1 2 3
+| 1 4 5
 
 <caption>Optimization with folds</caption>
 
-See what happens when you place the papers **horizontally** on the table and put a weight on it. 
+## Put some weight on it
+
+See what happens when you place the papers **horizontally** or **vertically** on the table and put a weight on it. 
 
 -
 
@@ -98,14 +104,6 @@ See what happens when you place the papers **horizontally** on the table and put
 -
 
 <img src="./images/fold2b.jpg"  />
-
----
-
-| 1 2 2 3 3
-
-<caption>Optimization with folds</caption>
-
-See what happens when you place the papers **vertically** on the table and put a weight on it. 
 
 -
 
@@ -118,18 +116,45 @@ See what happens when you place the papers **vertically** on the table and put a
 ---
 
 | section: Exercise: Paper construction
+| theme: dark
+| 1 2 3 4
+| 1 2 5 6
+| cols: 1.5fr var(--base4) 1fr 1fr
 
 <caption>Optimization with folds</caption>
 
-## Exercise
+## Now it is your turn
 
-Take some paper and try different ways of folding to make a strong paper construction.
+Take some paper and try different ways of folding to make a strong paper construction. Download the templates below:
 
-<a class="tertiary" src="https://drive.google.com/file/d/1eI9cVsdktE5wh2lVQHV3nnVB5rvTbVWa/view"><f-arrow-icon rotation="90" />Download rectangular shape template</a>
+<a class="tertiary" href="./files/folding_hexagon.pdf"><f-arrow-icon rotation="90" />Download rectangular PDF</a>
 
-<a class="tertiary" src="https://drive.google.com/file/d/1vNI9KdNpWQHcdm1R6C7aWIkSFIZ6SnTx/view"><f-arrow-icon rotation="90" />Download hexagonal shape template</a>
+<a class="tertiary" href="./files/folding_hexagon.pdf"><f-arrow-icon rotation="90" />Download hexagonal PDF</a>
 
-***TODO: Copy PDFs to scenario, add legends***
+-
+
+-
+
+<f-card style="height: 40vh; opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with folds</h4>
+</f-card>
+
+-
+
+<f-card  style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')"><h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4></f-card>
+
+-
+
+<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with cells</h4>
+</f-card>
+
+-
+
+<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
+</f-card>
+
 
 ---
 
