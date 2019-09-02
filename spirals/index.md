@@ -1028,8 +1028,11 @@ https://www.youmagine.com/ and https://www.thingiverse.com
 | 1 2 
 | 3 2 
  
+
+# 🎲
+
 ## Let's play dice!
-  
+
 #### **Dice games**
   
 Dice games are board games that you play with a dice. The Backgammon, Chuck-a-Luck (Bird cage), Ludo etc are examples of dice games. A list of several dice games can be found at <f-link to="http://www.dice-play.com/GamesAZ.htm">dice-play.com/GamesAZ.htm</f-link>
@@ -1072,6 +1075,7 @@ https://www.pexels.com/photo/blur-board-game-business-challenge-278918/
 3. assure the random outcome of the dice
 4. save space
 5. be fair – the players should not to be able to manipulate the outcome.
+
 </div>
 
 -
@@ -1109,7 +1113,7 @@ The problem of the dice-cylinder is to think, design and implement a rolling pat
 
 -
 
-<f-image src="./images/dice-tower.jpg" style="--image-min-height:50vh">
+<f-image src="./images/dice-tower.jpg" style="--image-min-height:50vh" />
 
 -
 
@@ -1155,6 +1159,7 @@ Look at the metallic stairs. You notice the round tube-shaped central column and
   #### Image sources:
 
   https://pxhere.com/en/photo/1556977 
+
 </f-notes>
 
 ---
@@ -1168,7 +1173,7 @@ Look at the metallic stairs. You notice the round tube-shaped central column and
 | 6 6
 
 
-## The Dice Cylinder Basic Math & Calculations
+## The Dice Cylinder 
 
 ### The helix within a cylinder
 
@@ -1176,25 +1181,50 @@ But how can one easily design such a helix? Consider the following example.
 
 -
 
-##### Step 1
+##### 1.
 
 Get a rectangular piece of paper and draw its diagonal with a pencil. Try to bend the paper so to gradually form a cylinder, a tube. Then, you may notice that the round shape automatically transforms the diagonal line to a helix! This helix line will be the basic direction for the stairs to be linked. Further note that this is a simple, one spiral helix.
 
-<img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona10.png" style="width:100%; height:auto; float:left;" />
+<!-- {{ range(-1,1,0.2).map( x => [Math.sin(x),Math.cos(x)]) }} -->
+
+<f-scene responsive width="600" height="200">
+  <f-group position="-4 0">
+    <f-box width="4" height="3" :fill="color('lightgray')" stroke />
+    <f-line points="-2 1.5, 2 -1.5" :stroke="color('red')" strokeWidth="2" />
+  </f-group>
+  <f-group position="0.75 0">
+    <f-box width="2" height="3" :fill="color('lightgray')" stroke />
+    <f-line points="-1 1.47, -0.85 1, -0.6 0.5, 0 0, 0.6 -0.5, 0.85 -1, 1 -1.5" :stroke="color('red')" curved strokeWidth="2" />
+    <f-circle r="1" :fill="color('white')" scale="1 0.3" position="0 1.5" stroke />
+    <!-- <f-line :points="range(-Math.PI,Math.PI,0.5).map(x => [Math.cos(x), 1.5 - ( Math.sin(x) * Math.cos(x) ) ])" curved  -->
+      :stroke="color('red')"  />
+    <f-circle r="1" :fill="color('lightgray')" scale="1 0.3" position="0 -1.5" stroke />
+  </f-group>
+  <f-group position="4 0">
+    <f-box width="1" height="3" :fill="color('lightgray')" stroke />
+    <f-circle r="0.5" :fill="color('lightgray')" scale="1 0.6" position="0 -1.5" stroke />
+    <f-line points="-0.5 1.47, -0.25 0.9, 0.3 0.4, 0.5 0.3" :stroke="color('red')" strokeWidth="2" curved />
+    <f-line points="-0.5 1.47, -0.25 0.9, 0.3 0.4, 0.5 0.3" position="0 -1.8" :stroke="color('red')" strokeWidth="2" curved />
+    <f-circle r="0.5" :fill="color('lightgray')" scale="1 0.5" position="0 1.5" stroke />
+    <f-circle r="0.42" :fill="color('white')" scale="1 0.5" position="0 1.5" stroke />
+  </f-group>
+</f-scene>
+
+<!-- <img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona10.png" style="width:100%; height:auto; float:left;" /> -->
 
 
 -
 
-##### Step 2
+##### 2.
 
 <!-- <img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona11.png" style="width:50%; height:auto; float:left;" /> -->
 
-<f-scene responsive style="width:50%; height:auto; float: left; max-width:400px; margin-bottom:20px;">
-  <f-group position="-0.1 0.5" scale="1.2">
-    <f-line points="-1.5 1, -1.5 -1, 1.5 -1, 1.5 1" closed :fill="color('lightestgray')" stroke-width="2" />
+<f-scene responsive width="400" height="300" style="width:50%; height:auto; float: left; max-width:400px;">
+  <f-group position="-0.1 0" scale="1.6">
+    <f-line points="-1.5 1, -1.5 -1, 1.5 -1, 1.5 1" closed :fill="color('lightgray')" stroke />
     <f-line points="-1.5 1, 1.5 0" :stroke="color('red')" stroke-width="2" />
     <f-line points="-1.5 0, 1.5 -1" :stroke="color('red')" stroke-width="2" />
-    <f-line points="-1.6 0, 1.6 0" stroke-width="1" />
+    <f-line points="-1.6 0, 1.6 0" strokeWidth="1" stroke-dasharray="0.05" />
   </f-group>
 </f-scene>
 
@@ -1204,7 +1234,7 @@ Helix with more than two spirals can be also formed by dividing the basic rectan
 
 -
 
-##### Step 3
+##### 3.
 
 
 <f-scene responsive style="width:50%; height:auto; float: left; max-width:360px; margin-bottom:20px;">
@@ -1220,7 +1250,7 @@ Helix with more than two spirals can be also formed by dividing the basic rectan
     <f-circle r="0.5" stroke-width="2" fill="#ffffff" />
     <f-line v-for="(l, i) in 12" :key="'line'+i" 
       :rotation="360/12*i"
-      points="0 1.55, 0 -1.55" stroke-width="1" :stroke="color('gray')" />
+      points="0 1.55, 0 -1.55" stroke-width="1" :stroke="color('gray')" stroke-dasharray="0.05" />
     <f-arc r="1.64" inner-radius="1.64" start-angle="180" end-angle="210" stroke-width="1" />
     <f-text position="-0.5 1.65" scale="0.85">30°</f-text>
     <f-line points="-0.5 0, -0.5 -1.6" :stroke="color('blue')" stroke-width="0.5" />
@@ -1245,7 +1275,7 @@ For example, if 12 steps are needed, the following figure presents the 12 equal 
 
 <img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona13.png" style="width:40%; float:right;" />
 
-##### Step 4
+##### 4.
 
 To form the final stair structure, the triangle steps are linked with the helix in equal distances, as next figure presents.
 
@@ -1260,34 +1290,46 @@ To form the final stair structure, the triangle steps are linked with the helix 
 
 
 
+| cols: 3fr 2fr
+| 1 2
+| 3 4
+| 5 5
+
+
+
 ## Basic calculations for the dice cylinder
 
+<img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona16.png" style="float:left; width:25%; margin-right:var(--base3); margin-bottom:var(--base)" />
 
 As mentioned in previous texts, the proposed dice cylinder will include an internal helix staircase which will be the path for the dice. This document presents the basic calculations for that construction.
 
-![eikona16](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona16.png?w=287&h=382)
+-
+
+<!-- <f-image src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona16.png" style="--image-min-height:40vh;" /> -->
+
+-
 
 By inspecting the basic structure, we notice that the basic part of the helix staircase is the inner cylinder column in which the triagonal-shaped stairs are adopted. The following figure presents these parts and shows the parameters used for the calculations.
 
-![eikona17](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona17.png?w=542&h=408)
-
 These are
 
-**h** = the height of the stair
+<var>h</var> = the height of the stair
 
-**R** = the radius of the basic cycle
+<var>R</var> = the radius of the basic cycle
 
-**r** = the radius of the inner column
+<var>r</var> = the radius of the inner column
 
-**d** = the distance (height) between two consecutive stairs
+<var>d</var> = the distance (height) between two consecutive stairs
 
-**θ** = the angle of the trigonal stair
+<var>θ</var> = the angle of the trigonal stair
 
-**N** \= the number of stairs
+<var>N</var> = the number of stairs
 
-Assume that the parameter **h, R, r** and **d** are predetermined and known, the rest  of them derive as follows :
+Assume that the parameter <var>h</var>, <var>R</var>, <var>r</var> and <var>d</var> are predetermined and known, the rest of them derive as follows:
 
-The number of stairs **N** are dependent on the height **h** and the distance **d** between the stairs and related with the formula  **h = d (N+1)** By solving the equation, **N** derives as **N=1 – h/d**.
+The number of stairs <var>N</var> are dependent on the height <var>h</var> and the distance <var>d</var> between the stairs and related with the formula <f-math inline>h = d \cdot (N + 1)</f-math>. By solving the equation, <var>N</var> derives as <f-math inline>N = 1 - \frac{h}{d}</f-math>.
+
+
 
 The base cycle is divided into N equal triangles, so their angle can be computed as  **θ = 3600 / Ν**
 
@@ -1295,9 +1337,39 @@ The inner column, seen as a cylinder with base radius **r** and when expanded, i
 
 The **N** stairs are placed in equal positions by using a grid. Next figure presents such a grid for **N=12** stairs.
 
-![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona18.png?w=550&h=430)
-
 The level of each stair is presented by the red line and the green diagonal line represents the helix path of the stair. The length **S** of this path is computed as the hypotenuse of the rectangular triangle with sides **h** and **2πr**. From the Pythagoras theorem derives that **S2 =(2πr)2+h2** so **S = square root ((2πr)2+h2).**
+
+-
+
+<f-image src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona17.png" style="--image-size:contain; --image-height:60vh; --image-min-height:40vh;" />
+
+
+<f-artboard responsive width="270" height="220">
+  <defs>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="10" refY="5"
+      markerWidth="5" markerHeight="5"
+      orient="auto-start-reverse" :fill="color('blue')" >
+        <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+  </defs>
+  <f-group position="5 5">
+      <f-line v-for="h in range(0,13)" :key="'h'+h" :points="[ [h*18,0], [h*18,182] ]" strokeWidth="0.5" />
+      <f-line v-for="v in range(0,13)" :key="'v'+v" :points="[ [0,v*14], [234,v*14] ]" strokeWidth="0.5" />
+      <f-line :points="[[0,0],[ 13*18, 13*14 ]]" strokeWidth="2" :stroke="color('green')" />
+      <f-group v-for="s in range(0,11)" :key="'s'+s" :position="[s*18, s*14+14]">
+        <f-text position="9 10" scale="0.85">{{s+1}}</f-text>
+        <f-line points="0 0, 18 0" strokeWidth="2" :stroke="color('red')" />
+      </f-group>
+      <f-line points="250 0, 250 182" :stroke="color('blue')" strokeWidth="1" marker-start="url(#arrowBlue)" marker-end="url(#arrowBlue)" />
+      <f-text position="260 96" :fill="color('blue')">h</f-text>
+      <f-line points="0 190, 234 190" :stroke="color('blue')" strokeWidth="1" marker-start="url(#arrowBlue)" marker-end="url(#arrowBlue)" />
+      <f-text position="120 205" :fill="color('blue')">2·π·r</f-text>
+  </f-group>
+</f-artboard>
+
+-
+
+<f-next-button />
 
 ---
 
@@ -1306,9 +1378,107 @@ The level of each stair is presented by the red line and the green diagonal line
 
 
 
-# Build the Dice Cylinder
+## Build the Dice Cylinder
 
-## Instructions for the paper model
+<div class="grid masonry" style="--cols: 1fr 1fr 1fr; grid-template-rows:repeat( 1fr) ; --gap:2vw;">
+
+<div>
+
+  ### Instructions for the paper model
+
+  <f-link class="tertiary" to="https://spiralsdesignstem.files.wordpress.com/2019/05/the_dice_cylinder_paper_sheet_template.pdf">Download the template</f-link>
+
+  🖨 Open and print the pages of the template sheet.
+
+</div>
+
+
+
+<div>
+  
+To construct the paper model of the dice staircase we need :
+
+* 2 A4 sheets of thick paper where we print the template
+* Pair of scissors
+* Liquid paper glue
+* Plastic A4 sheet e.g. overhead transparency film sheet
+
+</div>
+
+
+<div>
+
+ ##### 1.
+
+ <img src="./images/tower-01.jpg" style="width:100%; height:auto;" />
+
+ Cut the 12 triangle stairs and the base.
+
+</div>
+<div>
+
+ ##### 2.
+
+ <img src="./images/tower-02.jpg" style="width:100%; height:auto;" />
+
+ Cut the column.
+
+</div>
+<div>
+
+ ##### 3.
+
+ <img src="./images/tower-03.jpg" style="width:100%; height:auto;" />
+
+ Incise the vertical stripes so to bend the paper along the horizontal dimension. Connect the two edges with glue.
+
+</div>
+<div>
+
+ ##### 4.
+
+ <img src="./images/tower-04.jpg" style="width:100%; height:auto;" />
+
+ Stick the column to the base using glue.
+
+</div>
+<div>
+
+ ##### 5.
+
+ <img src="./images/tower-05.jpg" style="width:100%; height:auto;" />
+
+ Stick the stairs in the column. Use the direction of the black helix line. For every stair, bend the narrow white part of the triangle up to the dotted line so to form a right angle with the rest grey part. Glue the stairs in the column, at the level of the black horizontal line.
+
+</div>
+<div>
+
+ ##### 6.
+
+ <img src="./images/tower-06.jpg" style="width:100%; height:auto;" />
+
+ Make the external cylinder from a plastic sheet. Use an A4 plastic film. Cut a piece of 12 cm width. Cut a rectangular piece at the bottom to let the dice exit. Bend the plastic sheet so to form a cylinder and stick the two edges using the glue.
+
+</div>
+<div>
+
+ ##### 7.
+
+ <img src="./images/tower-07.jpg" style="width:100%; height:auto;" />
+
+ Put the paper staircase model with in the plastic cylinder.
+
+</div>
+
+
+</div>
+
+
+
+
+
+#### again
+
 
 To construct the paper model of the dice staircase we need :
 
