@@ -161,21 +161,21 @@ Take some paper and try different ways of folding to make a strong paper constru
 | chapter: Optimization with sticks and strings
 | section: Tension and compression
 
-***TODO*** layout
+<big><caption>Optimization with sticks and strings</caption></big>
 
-## Optimization with sticks and strings
+## Tension and compression
 
-### Tension and compression
+Useful and efficient structures can be built using only <var>tension</var> or only <var>compression<var>.
 
-Useful and efficient structures can be built using **only tension** or **only compression**.
+Simple suspension bridges are examples of <var>tensile structures<var>.
 
-Simple suspension bridges are examples of **tensile structures**.
-
-Arch bridges are examples of **compressive structures**.
+Arch bridges are examples of <var>compressive structures</var>.
 
 -
 
 <img src="./images/bridge.jpg" />
+
+<p />
 
 <img src="./images/bridge2.jpg" />
 
@@ -189,14 +189,14 @@ Arch bridges are examples of **compressive structures**.
 
 ---
 
-<caption>Optimization with sticks and strings</caption>
+| theme: dark
+| background: https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg
 
-Tension and compression members can also be combined.
+<center>
 
+<var style="color: white">tension</var> and <var style="color: white">compression</var><br>can also be combined
 
--
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg" />
+</center>
 
 <f-notes title="Credits">
 
@@ -207,19 +207,26 @@ https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg
 
 ---
 
-***TODO*** crop
+| 1 2 2
+| padding: 0
+
+<section>
 
 <caption>Optimization with sticks and strings</caption>
 
-Ropes and cables are lightweight, flexible and strong. Perfect for carrying loads!
+## Rigging
 
-A sailing ship can sail because of its **rigging**.
+Ropes and cables are lightweight, flexible and strong, Perfect for carrying loads.
 
-Another example of tension and compression members combined!
+A sailing ship can sail because of its <var>rigging</var>.
+
+This is another example of <var class="gray">tension</var> and <var class="gray">compression</var> combined.
+
+</section>
 
 -
 
-<img src="./images/sailing.jpg" />
+<f-image src="./images/sailing.jpg" />
 
 
 <f-notes title="Credits">
@@ -230,19 +237,20 @@ Screen capture from a video: https://vimeo.com/wiltel/bodacious2014#t=140s
 
 ---
 
-***TODO*** layout
+| 1 1 1 2 2
 
 <caption>Optimization with sticks and strings</caption>
 
-## ...in Nature
+## Optimization in nature
 
 Cables and ropes in functional constructions (like bridges and boats) echo the tendon, ligaments and muscles in animal skeletons.
 
-<img src="./images/leg.gif">
+<img src="./images/bridge5.jpg" style="width: 70%"/>
 
 -
 
-<img src="./images/bridge5.jpg" />
+<img src="./images/leg.gif">
+
 
 <f-notes title="Credits">
 
@@ -254,21 +262,21 @@ https://pxhere.com/en/photo/1230998
 
 ---
 
-| 1 1 2
-
-***TODO*** layout
+| 1 1 1 2 2
 
 <caption>Optimization with sticks and strings</caption>
 
-> ...~*Ligament and membrane, muscle and tendon, run between bone and bone...*~
+## On Growth and Form
 
-> ... ~*The beauty and strength of the mechanical construction lie not in one part or in another, but in the harmonics concatenation which all parts, soft and hard, rigid and flexible, tension bearing and pressure-bearing, make up together...*~
+> ~*The beauty and strength of the mechanical construction lie not in one part or in another, but in the harmonics concatenation which all parts, soft and hard, rigid and flexible, tension bearing and pressure-bearing, make up together*~
 
 <small>Thompson, D. A. W., & Bonner, J. T. (2014). On Growth and Form. Cambridge, United Kingdom: Cambridge University Press.</small>
 
 -
 
 <img src="./images/skeletal.png" />
+
+<p />
 
 <img src="./images/musculatory.png" />
 
@@ -378,10 +386,10 @@ Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without compu
 
 | chapter: Optimization with cells
 | section: Hexagon for energy optimization
-| 1 1 1
-| 2 3 4
+| 1 1 1 2 2
+| padding: 0
 
-***TODO*** layout
+<section>
 
 <caption>Optimization with cells</caption>
 
@@ -391,18 +399,19 @@ A hexagon is a form we see everywhere in nature when energy optimization is need
 
 For example in a honeycomb, radiolaria or dried clay.
 
+<div class="grid">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Apis_florea_nest_closeup2.jpg" />
+
+<img src="./images/clayground.jpg" />
+
+</div>
+
+</section>
+
 -
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Apis_florea_nest_closeup2.jpg">
-
--
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Radiolaria_%28Challenger%29_Plate_135.jpg">
-
--
-
-<img src="./images/clayground.jpg">
-
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/The_royal_natural_history_%281893%29_%2814778597471%29.jpg/800px-The_royal_natural_history_%281893%29_%2814778597471%29.jpg" />
 
 <f-notes title="Credits">
 
@@ -531,11 +540,15 @@ https://pixabay.com/photos/drought-ground-clay-cracks-dry-964339/
 
 <caption>Optimization with cells</caption>
 
-~Georgy Voronoi was a Russian mathematician. A Voronoi diagram is built out of various polygons. Imagine you’re are in region and you’re looking for the closest hospital. The region is divided in areas (polygons) with nodes. Every node represents a hospital.~
+Georgy Voronoi was a Russian mathematician. A Voronoi diagram is built out of various polygons. Imagine you’re are in region and you’re looking for the closest hospital. The region is divided in areas (polygons) with nodes. Every node represents a hospital.
 
-~**At any point in the polygon you’re closer to the node it contains than to any other node in the whole region.**~
+**At any point in the polygon you’re closer to the node it contains than to any other node in the whole region.**
 
-~And, at any point along the boundaries of the polygons, you are at the same distance from at least two nodes. This makes these diagrams very useful for many applications such as mapping and zoning, for example to find the nearest hospital.~
+And, at any point along the boundaries of the polygons, you are at the same distance from at least two nodes. This makes these diagrams very useful for many applications such as mapping and zoning, for example to find the nearest hospital.
+
+-
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Voronoi_growth_euclidean.gif" />
 
 ---
 
