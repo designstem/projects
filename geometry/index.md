@@ -86,9 +86,7 @@ https://www.halodesign.dk/brands/iq-light/?lang=en
 
 ## Who Discovered the Icosahedron?
 
-It has been suggested that the regular icosahedron is the first example of a geometrical object that was the free creation of human thought, not the result of observations in nature.
-
-WHY? HOW?
+It has been suggested that the regular icosahedron is the first example of a geometrical object that was the free creation of human thought, not the result of observations in nature...
 
 </section>
 
@@ -111,7 +109,7 @@ WHY? HOW?
 
 ## Viruses
 
-Icosahedrons can't be seen in nature with the naked eye. At microscopic scale things can be different - viruses can be of various geometric shapes, including icosahedra. This is a diagram of an Adenovirus.
+...probably because icosahedrons can't be seen in nature with the naked eye. At microscopic scale things can be different - viruses can be of various geometric shapes, including icosahedra. This is a diagram of an Adenovirus.
 
 https://www.khanacademy.org/science/high-school-biology/hs-human-body-systems/hs-the-immune-system/a/intro-to-viruses
 
@@ -121,7 +119,24 @@ https://viralzone.expasy.org/678
 
 ---
 
+| background: ./images/photo2.jpg
+| theme: dark
 | chapter: Making shapes
+
+<center>
+
+<section>
+
+# Making shapes
+
+Let's make some polyhedra of our own!
+
+</section>
+
+</center>
+
+---
+
 | padding: 0
 | section: Scissors and glue
 
