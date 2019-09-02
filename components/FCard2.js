@@ -23,14 +23,15 @@ export default {
         border: '2px solid ' + border
       }"
     >
-      <div :style="{
+      <div
+        class="FCard2__image"
+        :style="{
         borderTopLeftRadius: 'var(--border-radius)',
         borderTopRightRadius: 'var(--border-radius)',
         backgroundImage: image ? 'url(' + image + ')' : '',
         backgroundColor: !image ? '#eee' : '',
         backgroundSize: 'cover',
         height: image ? '180px' : 0,
-        filter: 'grayscale(100%)'
       }">
       </div>
       <div style="padding: var(--base) var(--base2)">

@@ -137,13 +137,13 @@ What do you think what is most remarkable about this project?
 
 <caption>💬 Discuss</caption>
 
-## Choose 2 concepts and explain them
+## How to make world cleaner?
 
 -
 
 You probably found a lot of initiatives to make the world cleaner and they all have their own methodologies and concepts.
 
-Explain of the two concepts you have chosen how they contribute to make the world cleaner from waste.
+**Explain two concepts you have chosen how they contribute to make the world cleaner from waste.**
 
 -
 
@@ -172,15 +172,13 @@ Explain of the two concepts you have chosen how they contribute to make the worl
 
 -
 
-Watch the video and and answer the following questions.
+**Watch the video and and answer the following questions.**
 
 1. What is the difference between human and nature concerning waste?
 
 2. What is meant by linear economy?
 
 3. Which solutions for our waste problem does this animation show us?
-
-Share what you’ve seen with the class.
 
 -
 
@@ -199,62 +197,39 @@ Share what you’ve seen with the class.
 
 **Make a flat lay from waste in your neighbourhood**
 
-1. Go outside for 15 minutes and collect some waste
+<!--
+***TODO: Add f-sidebar to explain what flay lay is and add links / examles***
+-->
+
+1. Go outside for 15 minutes and collect some waste. Divide the group into pairs and use rubber gloves.
 
 2. Make a nice composition for the flat-lay
 
-3. Take some photos
+3. Take photos
 
-***TODO: Add f-sidebar to explain what flay lay is***
 
 </section>
-
-<!--
-https://www.designboom.com/art/gabriel-orozco-asterisms-at-the-guggenheim-new-york/
-
-https://www.enlightapp.com/blog/7-fantastic-tips-for-fabulous-flat-lay-photography/
-
-https://www.instagram.com/djhinva
-
-http://www.slate.com/blogs/behold/2014/07/08/gregg_segal_photographs_people_with_a_week_s_worth_of_their_trash_in_his.html?via=gdpr-consent
-
--->
 
 -
 
 <f-image src="./images/wastelay.jpg" />
 
-
-<f-notes>
-
-> #### Tips
-* Divide the group into pairs
-* User rubber gloves
-
-</f-notes>
-
 ---
 
-***TODO*** rethink
+| theme: dark
+| section: Choose a next step
+| gap: var(--base4)
 
-| section: Next steps
+## <big>Choose your strategy</big>
 
-| 1 1 1
-| 2 3 4
-| rows: auto 1fr
-
-## Choose your next path
-
-### Design a product...
+<big>There are different ways to optimize the material use for production. Choose one of the strategies:</big>
 
 -
 
-<a class="primary" style="display: block; height: 20vh;" href="./index1.html">with minimal use of resources</a>
+<f-card style="height: 80vh" background="white" color="var(--darkgray)" @click.native="goto('Mimimal use of material')">
+<h3 style="margin: 0; color: var(--darkgray);">Mimimal use of material</h3>
+</f-card>
 
 -
 
-<a class="primary" style="display: block; height: 20vh;" href="./index2.html">with zero waste</a>
-
--
-
-<a class="primary" style="display: block; height: 20vh;" href="./index3.html">from waste only</a>
+<f-card  style="height: 80vh" background="white" color="var(--darkgray)" @click.native="goto('Zero waste products')"><h3 style="margin: 0; color: var(--darkgray);">Zero waste products</h3></f-card>

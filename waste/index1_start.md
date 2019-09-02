@@ -1,15 +1,9 @@
 | theme: blue
 | chapter: Minimal use of material
-| background: https://raw.githubusercontent.com/designstem/scenarios/master/waste/images/bonechair.jpg
+| section: Mimimal use of material
+| background: ./images/bonechair.jpg
 
 # <big>Mimimal use of material</big>
-
-
-<f-notes title="Credits">
-
-Photo courtesy of Joris Laarman Lab, downloaded from: https://www.cooperhewitt.org/2017/05/16/cooper-hewitt-smithsonian-design-museum-to-present-joris-laarman-lab-design-in-the-digital-age/
-
-</f-notes>
 
 
 ---
@@ -26,11 +20,12 @@ Joris Laarman used topology optimization software based on the findings of profe
 <f-video src="https://www.youtube.com/watch?v=z5HSzxGsUdI" />
 
 
-<f-notes title="Source">
+<f-notes title="Credits">
 
-  Source: https://www.jorislaarman.com/work/bone-chair/
+Photo courtesy of Joris Laarman Lab, downloaded from: https://www.cooperhewitt.org/2017/05/16/cooper-hewitt-smithsonian-design-museum-to-present-joris-laarman-lab-design-in-the-digital-age/
 
 </f-notes>
+
 
 ---
 
