@@ -89,7 +89,7 @@ https://www.flickr.com/photos/62449696@N00/9522596028
 
 You have still got your rough idea in mind? **Then let's start planning!** 🙂
 
-***Try to come up with as many ideas as possible! More than one is a requirement!***
+***Try to come up with as many ideas as possible! <br> More than one is a requirement!***
 
 ~Write down your answers to the following questions! You will need them later:~
 
@@ -101,7 +101,7 @@ You have still got your rough idea in mind? **Then let's start planning!** 🙂
 4. ~In which way will your RGB lamp interact with the environment or people?~
 5. ~Which input from the environment does your lamp react to (e.g. time, light, noise, music, temperature, heart rate, feelings...)?~
 
-~***When you answer these questions, try to be as precise as possible.*** The better you plan, the better the outcome! ***So take your time and don't rush it!***~
+~***When you answer these questions, try to be as precise as possible.*** The better you plan, the better the outcome! <br> ***So take your time and don't rush it!***~
 
 <br>
 
