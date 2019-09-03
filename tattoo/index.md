@@ -362,7 +362,7 @@ _When designing your indicator, you may need to consider the visibility of the c
 
 Now we have to think about how our tattoo looks, feels, and most importantly - functions!
 
-**But first, let's find out what symbols, icons, pictograms are!** 🧐
+**Let's get creative!** 🧐
 <br>
 
 
@@ -370,102 +370,10 @@ Now we have to think about how our tattoo looks, feels, and most importantly - f
 
 </center>
 
----
-
-
-| padding: 0
-| rows: auto
-| 1 2
-
-<div style="padding: var(--content-padding);">
-
-## Sign? Icon? Symbol? Pictogramm? *Tattoo*?
-
-As a designer, it is important to keep these terms apart.
-
-
-#### Task
-
-1. Read the definitions and try to understand the differences between logo, icon, symbol and pictogram.
-2. Discuss: Which of these signs is suitable for a smart tattoo. Why?
-
-<br>
-
-<details>
-	<summary>Symbol</summary>
-  
-  Visualizes abstract terms, like love ❤️, that something is correct ✔️. <br>
-  The peace symbol is also very famous ☮ <br>
-  or even symbols for religions: ✝, ✡, ☪, ☯, 🕉...
-  
-  <br>
-  
-  We need symbols to visualise what we cannot paint easily, with few brushstrokes. Some concepts are too complex
-  to be quickly visualiszed. So small groups start with symbols that eventually become accepted throughout all of society.
-  **But careful:** The meaning of symbols has to be learned. You cannot automatically know what it's about. If you grow up in a certain society, as a child, you automatically learn its symbolism. But if you are new to a group or a culture, you might find new symbols whose meaning you don't understand.
-
-</details>
-
-
-<details>
-	<summary>Sign</summary>
-  
-  Signs are visual, auditive or tactile representations of information.<br>
-  A handshake is a tactile sign, to indicate that you greet someone. <br>
-  Sirens are auditive signs, to inform you of an emergency case, like fire or a passing ambulance. <br>
-  Visual signs are what we are dealing with: Logos, icons, symbols, pictograms are all visual signs.
-  
-
-</details>
-
-
-
-<details>
-	<summary>Logo</summary>
-  
- Logos and signets are visual representations of companies or brands. They usually contain writing (then it's called logo &ndash; because logo comes from the Greek *logos* which means *word*). There are several sub-categories: Logos with just wording, like in CocaCola; logos with single letters like in IBM; logos with numbers in them: 7/11; and logos that combine wording with signets, like *adidas*, *Puma*, *KFC* etc. Signet (from Latin *signum* for *seal*) stands for brand visualisations without writing, so just pictures. You problably all know the *Nike swoosh* or the *Apple* apple 🍏 . Sometimes combined logos are reduced to just the signet. This happenes often when the brand is very popular. For example *Starbucks* lost it's writing and is just working with the mermaid.
-
-
-</details>
-
-
-<details>
-	<summary>Icon</summary>
-  
-Today, the term icon is used for everything that visualizes something. But originally, it was meant to show functions on computer displays, so that interfaces are easier to work with for people who are new to computers.<br>
-One of the first was the icon for the *search function* &ndash; but it didn't start with the magnifying glass. It started with a very simple silhouette of Sherlock Holmes! People knew that Sherlock is a detective and searches for things, so when they saw this icon, they automatically new, that they could look for things, when they clicked on it. At some point the silhouette got lost, but the magnifying glass, as the most distinctive item of a detective, remained. 🔎
-<br>
-Icons started as metaphors (see *recycling bin*). Nowadays, they can also be abstract: ⏮️▶️⏭⏹️⏺️⏏️ <br>
-Icons like these need to me learned, but they are also used for displays or buttons, to indicate a certain function.
-<br>
-Software also uses icons or we have favicons on our website, to help us recognize more easily which website we are looking at.
-
-</details>
-
-<details>
-	<summary>Pictogram</summary>
-  
-Pictograms are visual guiding systems. They tell you what to do or what not to do. They offer orientation. We find them at airports, trainstations and in general in public spaces. Pictograms should therefore be language-independent, that means, you have to design them in a way that they don't cause misunderstandings and are easily understood without cultural context or knowledge.
-Therefore pictograms are always very simple. One of the most universal pictograms is the *escape pictogram*, with a green background, white rectangle and a human silhouette running towards the rectangle. Some pictograms are more complex or contain symbols ♻️ or even writing 🚾 🚻. Sometimes they forbid certain actions: 🚭 🚳 📵. And then there are super abstract ones, which need to be learned, for example traffic signs: ⛔.
-
-</details>
-
-
--
-
-
-<f-image src="./images/tattoo_picto.jpg" />
-
-
-<f-notes title="credits">
-Photo by Filip Bodlak on Unsplash,
-https://unsplash.com/photos/5MvqNDyizBo
-</f-notes>
-
 
 
 ---
-
+| Section: Introduction to signs
 | padding: 0
 | style: overflow: hidden
 
@@ -475,12 +383,16 @@ https://unsplash.com/photos/5MvqNDyizBo
 
 How can you make sure that others understand what your tattoo is about?
 
-Try to visualise some abstract phenomena, like life (or death), by sketching something on a piece of paper.
+#### Tasks
+1. Visualise an abstract phenomena, like life or death, by sketching a picture on a piece of paper.
+2. Compare your picture to that of others. In which way are they similar or different?
+3. Can everyone understand their meaning?
+3. Can you explain why some are different and others are similiar?
 
-After you've finished, show your creation to others, or draw it on a whiteboard.
+<br>
 
-What did you draw, and why? Does it differ from your friend's drawings?
-Why do we use these particular things to mean something, can everyone understand them the same way everywhere else, in all situations?
+
+<f-next-button />
 
 </div>
 
@@ -506,53 +418,111 @@ Why do we use these particular things to mean something, can everyone understand
 </f-scene>
 </div>
 
+
 ---
 
-| padding: 0
+
+
+
+
 | section: Glossary of signs
-| style: overflow-x: hidden
-
-<div style="
-  padding: var(--content-padding); 
-  background-color: var(--white);
-  border-radius: 0 0 1rem 0;
-  box-shadow: 0 0 10rem 10rem var(--white);
-">
-
-## What are we talking about?
-
-The study of how we describe meaning to something is called **semiotics**. The main subject of semiotics is the **sign**, i. e. something that has meaning to someone else, in some context. **symbol** is a type of sign, and a **pictogram** is a type of visual symbol, that could also be called an **icon**.
-
-</div>
-
--
-
-<EmojiBg />
-
----
-
-| section: Context is key
 | padding: 0
-| style: overflow-x: hidden
+| rows: auto
+| 1 2
 
-<div style="
-  padding: var(--content-padding); 
-  background-color: var(--white);
-  border-radius: 0 0 1rem 0;
-  box-shadow: 0 0 10rem 10rem var(--white);
-">
+<div style="padding: var(--content-padding);">
 
-## Context is key
+## Sign? Icon? Symbol? Pictogramm? *Tattoo*?
 
-Symbols are always understood in some **context**. The symbol ☠️ could refer to a dangerous area, a poisonous liquid, or a jolly pirate ship at a kid's birthday party.
+As a designer, it is important to keep these terms apart.
 
-Symbols can also mean different things to different people. Symbols are **conventional**, which mean that they are agreed upon to mean something, and not everyone may know all of these agreements. A kid may link the ☠️ symbol to pirates of the Carribean, a doctor in a hospital to something else entirely.
 
-</div>
+#### Task
+
+1. Read the definitions and try to understand the differences between logo, icon, symbol and pictogram.
+2. Which of these signs did you paint in the task before (visualising life or death)? Can you guess why you used them?
+2. Discuss: Which of these signs is suitable for a smart tattoo. Why?
+
+<br>
+
+<details>
+	<summary>Sign</summary>
+  
+  Signs are visual, auditive or tactile representations of information.<br>
+  A handshake is a tactile sign, to indicate that you greet someone. <br>
+  Sirens are auditive signs, to inform you of an emergency case, like fire or a passing ambulance. <br>
+  Visual signs are what we are dealing with: Logos, icons, symbols, pictograms are all visual signs.
+  
+
+</details>
+
+<details>
+	<summary>Symbol</summary>
+  
+  Visualizes abstract terms, like love ❤️, that something is correct ✔️. <br>
+  The peace symbol is also very famous ☮ <br>
+  or even symbols for religions: ✝, ✡, ☪, ☯, 🕉...
+  
+  <br>
+  
+  We need symbols to visualise what we cannot paint easily, with few brushstrokes. Some concepts are too complex
+  to be quickly visualiszed. So small groups start with symbols that eventually become accepted throughout all of society.
+  **But careful:** The meaning of symbols has to be learned. You cannot automatically know what it's about. If you grow up in a certain society, as a child, you automatically learn its symbolism. But if you are new to a group or a culture, you might find new symbols whose meaning you don't understand.
+  Symbols are **conventional**, which means that they are agreed upon to mean something, and not everyone may know all of these agreements. A kid may link the ☠️ symbol to pirates of the Carribean, a doctor in a hospital to something else entirely. Context is often key - also for pictograms.
+
+</details>
+
+
+
+
+<details>
+	<summary>Logo</summary>
+  
+ Logos and signets are visual representations of companies or brands. They usually contain writing (then it's called logo &ndash; because logo comes from the Greek *logos* which means *word*). There are several sub-categories: Logos with just wording, like in CocaCola; logos with single letters like in IBM; logos with numbers in them: 7/11; and logos that combine wording with signets, like *adidas*, *Puma*, *KFC* etc. Signet (from Latin *signum* for *seal*) stands for brand visualisations without writing, so just pictures. You problably all know the *Nike swoosh* or the *Apple* apple 🍏 . Sometimes combined logos are reduced to just the signet. This happenes often when the brand is very popular. For example *Starbucks* lost it's writing and is just working with the mermaid.
+
+
+</details>
+
+
+<details>
+	<summary>Icon</summary>
+  
+Today, the term icon is used for everything that visualizes something. But originally, it was meant to show functions on computer displays, so that interfaces are easier to work with for people who are new to computers.<br>
+One of the first was the icon for the *search function* &ndash; but it didn't start with the magnifying glass. It started with a very simple silhouette of Sherlock Holmes! People knew that Sherlock is a detective and searches for things, so when they saw this icon, they automatically new, that they could look for things, when they clicked on it. At some point the silhouette got lost, but the magnifying glass, as the most distinctive item of a detective, remained. 🔎
+Icons started as metaphors (see *recycling bin*). Nowadays, they can also be abstract: ⏮️▶️⏭⏹️⏺️⏏️
+Icons like these need to me learned, but they are also used for displays or buttons, to indicate a certain function.
+Software also uses icons or we have favicons on our website, to help us recognize more easily which website we are looking at.
+
+</details>
+
+<details>
+	<summary>Pictogram</summary>
+  
+Pictograms are visual guiding systems. They tell you what to do or what not to do. They offer orientation. We find them at airports, trainstations and in general in public spaces. Pictograms should therefore be language-independent, that means, you have to design them in a way that they don't cause misunderstandings and are easily understood without cultural context or knowledge.
+Therefore pictograms are always very simple. One of the most universal pictograms is the *escape pictogram*, with a green background, white rectangle and a human silhouette running towards the rectangle. Some pictograms are more complex or contain symbols ♻️ or even writing 🚾 🚻. Sometimes they forbid certain actions: 🚭 🚳 📵. And then there are super abstract ones, which need to be learned, for example traffic signs: ⛔.
+
+</details>
+
+<br>
+
+
+<f-next-button />
 
 -
 
-<EmojiBg />
+
+<f-image src="./images/tattoo_picto.jpg" />
+
+
+<f-notes title="credits">
+Photo by Filip Bodlak on Unsplash,
+https://unsplash.com/photos/5MvqNDyizBo
+</f-notes>
+
+
+
+
+
 
 ---
 
