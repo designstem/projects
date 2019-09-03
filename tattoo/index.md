@@ -640,6 +640,12 @@ On a daily basis, you are confronted with interfaces, from digital devices to we
 
 For a smart tattoo, it is important to guarantee, that the user will understand how it works quickly. So again, it's not just about good looks.
 
+#### Task
+
+Summarize the following hints by finding one headline for each hint.
+Keep them in mind, when you later design your own smart tattoo.
+
+
 #### Hints:
 
 1. Before you start, always sketch a layout! Think of things you want to include. Come up with ideas on how to visualize them. Plan, before you design! Decide what is absolutely necessary and what unnecessary for your user. 
