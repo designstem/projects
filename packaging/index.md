@@ -620,7 +620,7 @@ Honeycombs are not only used for packaging, but also for **packaging materials**
 -
 
 
-<img src="./images/images/bees_honeycomb_packaging.jpg"/>
+<img src="./images/bees_honeycomb_packaging.jpg"/>
 
 
 
