@@ -58,7 +58,7 @@ Some people wear so called **medical alert tattoos**, which are not pure decorat
 
 #### Tasks
 
-1. Research via Google Pictures for *medical alert tattoos" and find out their functions.
+1. Research via Google Pictures for *medical alert tattoos* and find out their functions.
 2. Which medical alerts are covered? Can you think of other uses?
 3. What's your opinion: Do you think tattoos like this should be mandatory?
 
@@ -72,7 +72,7 @@ Some people wear so called **medical alert tattoos**, which are not pure decorat
 
 -
 
-<img src="./images/tattoo_bee.jpg" />
+<f-image src="./images/tattoo_bee.jpg" />
 
 
 
@@ -225,6 +225,13 @@ The pH-scale is governed by the equation <f-math inline>pH = -log[H+]</f-math>
 
 _Move the bar to explore the pH-scale. Talk with a friend: What is the pH-range that you would need to consider with tattoos?_
 
+
+<br>
+
+
+<f-next-button />
+
+
 </section>
 
 -
@@ -368,12 +375,21 @@ Now we have to think about how our tattoo looks, feels, and most importantly - f
 
 | padding: 0
 | rows: auto
+| 1 2
 
 <div style="padding: var(--content-padding);">
 
 ## Sign? Icon? Symbol? Pictogramm? *Tattoo*?
 
 As a designer, it is important to keep these terms apart.
+
+
+#### Task
+
+1. Read the definitions and try to understand the differences between logo, icon, symbol and pictogram.
+2. Discuss: Which of these signs is suitable for a smart tattoo. Why?
+
+<br>
 
 <details>
 	<summary>Symbol</summary>
@@ -417,7 +433,7 @@ As a designer, it is important to keep these terms apart.
 	<summary>Icon</summary>
   
 Today, the term icon is used for everything that visualizes something. But originally, it was meant to show functions on computer displays, so that interfaces are easier to work with for people who are new to computers.<br>
-One of the first was the icon for the *search function* &ndash; but it didn't start with the magnifying glass. It started with a very simple silhouette of Sherlock Holmes! People knew that Sherlock is a detective and searches for things, so when they saw this icon, they automatically new, that they could look for things, when they clicked on it. At some point the silhouette got lost, but the magnifying glass, as the most distinctive item of a detective, remained.
+One of the first was the icon for the *search function* &ndash; but it didn't start with the magnifying glass. It started with a very simple silhouette of Sherlock Holmes! People knew that Sherlock is a detective and searches for things, so when they saw this icon, they automatically new, that they could look for things, when they clicked on it. At some point the silhouette got lost, but the magnifying glass, as the most distinctive item of a detective, remained. 🔎
 <br>
 Icons started as metaphors (see *recycling bin*). Nowadays, they can also be abstract: ⏮️▶️⏭⏹️⏺️⏏️ <br>
 Icons like these need to me learned, but they are also used for displays or buttons, to indicate a certain function.
@@ -435,9 +451,16 @@ Therefore pictograms are always very simple. One of the most universal pictogram
 </details>
 
 
+-
 
 
+<f-image src="./image/tattoo_picto.jpg" />
 
+
+<f-notes title="credits">
+Photo by Filip Bodlak on Unsplash,
+https://unsplash.com/photos/5MvqNDyizBo
+</f-notes>
 
 
 
