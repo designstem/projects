@@ -682,7 +682,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 ~Now that you've learned so much about packaging, it's time that you design one yourself. Choose one of the following three tasks:~
 
-#### TASK A
+#### <div style="background-color: #fec938"> TASK A </div>
 
 1. ~Choose an object that you want to design a cardboard package for. You can use multiple small objects (like rice, cornflakes, pasta etc.) or a bigger object.~
 
