@@ -590,6 +590,12 @@ To your right, you can find three sets of icons. Look at them more closely.
 2. What are the don'ts when designing icons?
 
 
+
+<br>
+
+
+<f-next-button />
+
 -
 
 <f-value :value="['./images/beverages_icons_missing.png', './images/beverages_icons.png']" set="bevs" />
@@ -618,7 +624,42 @@ To your right, you can find three sets of icons. Look at them more closely.
 
 ## Interface design
 
-Here I need to add info on interface design.
+Maybe you plan to cover several functions with your Smart Tattoo &ndash; all at once in one small area. Then you need to deal with interface design, also called **UID** (user interface design). UIDs are created to connect human and machine, so that a person can communicate with a device more easily. The aim is to offer functionality to a wide target group without the need to explain how it works.
+
+On a daily basis, you are confronted with interfaces, from digital devices to websites, which &ndash; ideally &ndash; work intuitively. **Usability is key!** If a user cannot understand what he can do, he won't do it. In this case, the functionality of your interface is nonexistant. 
+
+For a smart tattoo, it is important to guarantee, that the user will understand how it works quickly. So again, it's not just about good looks.
+
+#### Hints:
+
+1. Before you start, always sketch a layout! Think of things you want to include. Come up with ideas on how to visualize them. Plan, before you design! Decide what is absolutely necessary and what unnecessary for your user. 
+2. Start your design in black and white only. This makes you focus on the relevant details and guides you to simplify your information. If you start with colors, this can get messy pretty quickly. Using black and white only, forces you to deal with proportions, depth of detail, order of elements etc.
+3. Leave some space around items. Always remember that your user needs to access information quickly. If pictures and texts that don't belong together are too close to one another, this might make it more difficult to read the interface. So be generous with white space!
+4. If you think about including fonts, keep it simple. Don't use decorative fonts or fonts with serifs. Keep it clean and open. Don't use fonts with small x-heights, because it is harder to read from a distance.
+5. If you include colors, use high contrasts and few colors. Stick to a small palette - this ensures that your user is not confronted with too much information at once. Choose higher contrasts for higher readability.
+
+If you want to learn more about color design and how to create color palettes, you can also see the workshop on Color Vision Deficiency:
+<a href="../colorblindness">Click here to get there!</a>
+
+<br>
+
+
+<f-next-button />
+
+
+-
+
+
+
+<f-image src="./images/tattoo_uid.jpg" />
+
+
+<f-notes title="credits">
+Photo by Tomáš Hustoles on Unsplash,
+https://unsplash.com/photos/Q14jHrGyg34
+</f-notes>
+
+
 
 
 ---
