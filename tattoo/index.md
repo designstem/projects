@@ -575,7 +575,12 @@ If the tattoo is just decorative and doesn't have an additional function, you ca
 | padding: 0
 | style: overflow-x: hidden
 
-
+<div style="
+  padding: var(--content-padding); 
+  background-color: var(--white);
+  border-radius: 0 0 1rem 0;
+  box-shadow: 0 0 10rem 10rem var(--white);
+">
 
 
 ## Style or substance?
@@ -619,7 +624,12 @@ To your right, you can find three sets of icons. Look at them more closely.
 | padding: 0
 | style: overflow-x: hidden
 
-
+<div style="
+  padding: var(--content-padding); 
+  background-color: var(--white);
+  border-radius: 0 0 1rem 0;
+  box-shadow: 0 0 10rem 10rem var(--white);
+">
 
 
 ## Interface design
