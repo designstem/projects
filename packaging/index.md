@@ -616,6 +616,9 @@ Honeycombs are not only used for packaging, but also for **packaging materials**
 1. Research further possible applications for honeycomb cardboards. Where are they used else, other than packaging?
 2. Find out the advantages honeycomb cardboard has, in comparison to wood or other materials. What makes it so attractive to work with?
 
+<br>
+
+<f-next-button />
 
 -
 
