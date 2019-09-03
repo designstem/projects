@@ -72,7 +72,10 @@ Some people wear so called **medical alert tattoos**, which are not pure decorat
 
 -
 
-<f-image src="´./images/tattoo_bee.jpg" />
+<img src="./images/tattoo_bee.jpg" />
+
+
+
 
 <f-notes title="credits">
 Photo by Savs on Unsplash,
@@ -95,7 +98,9 @@ Currently, a research group from *Harvard Medical School* and *MIT* has suggeste
 The so-called biosensitive inks are paired with the traditional way of tattooing to overcome the limitations of current biomedical monitor devices and to create *medical alert tattoos 2.0*.
 
 <blockquote>
-The Dermal Abyss tattoo inks change color according to the chemistry of the body’s interstitial fluid, which can be used as a surrogate for constituents of the blood. One ink changes from green to brown as glucose concentration increases. The team has also developed a green ink, viewable under blue light, that grows more intense as sodium concentration rises, an indication of dehydration. 
+	
+~*The Dermal Abyss tattoo inks change color according to the chemistry of the body’s interstitial fluid, which can be used as a surrogate for constituents of the blood. One ink changes from green to brown as glucose concentration increases. The team has also developed a green ink, viewable under blue light, that grows more intense as sodium concentration rises, an indication of dehydration.*~
+
 </blockquote>
 
 #### Tasks
