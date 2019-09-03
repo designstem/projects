@@ -1,6 +1,6 @@
 ### Learning Goals
 
-Students learn to define <var style="color: var(--blue)">frequency</var> and <var style="color: var(--blue)">motion</var> <var style="color: var(--gray)">philosophically and</var> <var style="color: var(--gray)">technologically</var> by <var style="color: var(--gray)">hands-on</var> tasks such as creating a simple <var style="color: var(--blue)">analogue</var> animation with the help of the turntable. 
+Students learn to define <var style="color: var(--blue)">frequency</var> and <var style="color: var(--blue)">motion</var> <var style="color: var(--gray)">philosophically</var> and <var style="color: var(--gray)">technologically</var> by <var style="color: var(--gray)">hands-on</var> tasks such as creating a simple <var style="color: var(--blue)">analogue animation </var> with the help of the turntable. 
 
 ### Motivation
 
