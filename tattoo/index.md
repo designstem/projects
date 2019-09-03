@@ -13,7 +13,7 @@
 
 # <big>Smart Tattoos</big>
 
-<big>Design a biosensitive tattoo that expresses you life and can also save your life</big>
+<big>Design a biosensitive tattoo that expresses your character and can save your life</big>
 
 
 <f-notes title="Credits">
@@ -48,15 +48,72 @@ https://www.pexels.com/
 
 <div style="padding:var(--content-padding);">
 
-## What is a smart tattoo?
+## Smart Tattoo 1.0
 
 Tattoos have been around since ancient times.
 
 They are done by punctuating the skin with a needle that injects ink under the skin.
 
-Now MIT-research group has suggested that some inks can be used to create smart tattoo’s that provide useful information about **hydration, sugar and pH-levels**.
+Some people wear so called **medical alert tattoos**, which are not pure decoration or to express themselves, but have an additional function.
+
+#### Tasks
+
+1. Research via Google Pictures for *medical alert tattoos" and find out their functions.
+2. Which medical alerts are covered? Can you think of other uses?
+3. What's your opinion: Do you think tattoos like this should be mandatory?
+
+<br>
+
+
+<f-next-button />
 
 </div>
+
+-
+
+<f-image src="´./images/tattoo_bee.jpg" />
+
+<f-notes title="credits">
+Photo by Savs on Unsplash,
+https://unsplash.com/photos/5duK901QD2g
+</f-notes>
+
+
+---
+
+
+| rows: auto 1fr
+| padding: 0
+| 1 2
+| 1 2
+
+<div style="padding:var(--content-padding);">
+
+## Smart Tattoo 2.0
+Currently, a research group from *Harvard Medical School* and *MIT* has suggested that some inks can be used to create smart tattoos that provide useful information about **hydration, sugar and pH-levels**.
+The so-called biosensitive inks are paired with the traditional way of tattooing to overcome the limitations of current biomedical monitor devices and to create *medical alert tattoos 2.0*.
+
+<blockquote>
+The Dermal Abyss tattoo inks change color according to the chemistry of the body’s interstitial fluid, which can be used as a surrogate for constituents of the blood. One ink changes from green to brown as glucose concentration increases. The team has also developed a green ink, viewable under blue light, that grows more intense as sodium concentration rises, an indication of dehydration. 
+</blockquote>
+
+#### Tasks
+
+1. Read the full article from The Harvard Gazette (link in Credits).
+2. Which other uses do they mention, besides indicating glucose level and dehydration level?
+3. Think of other uses/functions that would be interesting.
+
+
+<br>
+
+
+<f-next-button />
+
+
+
+</div>
+
+
 
 -
 
@@ -65,7 +122,14 @@ Now MIT-research group has suggested that some inks can be used to create smart 
 <f-notes title="credits">
 photo by Isabella Mendes,
 https://www.pexels.com/photo/selective-focus-photography-of-tattoo-artist-drawing-a-tatoo-1304469/
+  
+<br>
+
+Quote from:"Feeling woozy? Time to check the tattoo", The Havard Gazette; by Alvin Powell, September 28, 2017.
+https://news.harvard.edu/gazette/story/2017/09/harvard-researchers-help-develop-smart-tattoos/
+
 </f-notes>
+
 
 ---
 
