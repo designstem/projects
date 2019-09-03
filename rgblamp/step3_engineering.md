@@ -54,7 +54,7 @@ The design process involves multiple iterations and redesigns of your final solu
 **Try it yourself!**
 
 
-##### 🎛️ Try to produce white light in the center! Which settings will you need?
+##### Try to produce white light in the center! Which settings will you need?
 
 <f-slider title="Red" value="64" to="255" integer set="r" />
 
@@ -64,7 +64,7 @@ The design process involves multiple iterations and redesigns of your final solu
 
 <br>
 
-For further information, see also the workshop on Color Vision Deficiency! There you will find a detailed explanation on the RGB model and also tasks that will help you understand it better. <a href="../colorblindness/index-02-the-eye.md">Click here!</a>
+For further information, see also the workshop on Color Vision Deficiency! There you will find a detailed explanation on the RGB model and also tasks that will help you understand it better. <a href="../colorblindness/">Click here!</a>
 
 
 <br>
