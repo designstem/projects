@@ -26,7 +26,7 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 | rows: 1fr auto
 | 1 1 2 2
 
-# Plastic pollution
+## Plastic pollution
 
 Our sea is covered by "plastic floating islands", because plastic can not only sink but also float. It pollutes the sea at all depths.
 
@@ -53,10 +53,14 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 
 | section: Plastic Definition
 | theme: dark
-| rows: 1fr auto
+| padding: 0
+| rows: auto
 | 1 2
 
-# Plastic fantastic?
+
+<section>
+  
+## Plastic fantastic?
 
 Plastic is a multi-purpose material. There are different categories of plastic, which have different properties and are therefore used for different products.
 
@@ -86,6 +90,8 @@ Plastic is a multi-purpose material. There are different categories of plastic, 
 
 <f-next-button />
 
+
+</section>
 -
 
 
