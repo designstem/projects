@@ -454,7 +454,7 @@ Therefore pictograms are always very simple. One of the most universal pictogram
 -
 
 
-<f-image src="./image/tattoo_picto.jpg" />
+<f-image src="./images/tattoo_picto.jpg" />
 
 
 <f-notes title="credits">
