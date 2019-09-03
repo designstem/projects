@@ -69,6 +69,7 @@ Some people wear so called **medical alert tattoos**, which are not pure decorat
 
 </div>
 
+
 -
 
 <f-image src="´./images/tattoo_bee.jpg" />
@@ -152,6 +153,13 @@ Tattooing is all about drawing images on the skin. These images are not always e
 
 4. Discuss: what kind of concepts are easy to “guess” from limited information
 
+
+
+<br>
+
+
+<f-next-button />
+
 </section>
 
 -
@@ -174,9 +182,18 @@ https://www.pexels.com/photo/three-men-standing-near-window-1516440/
 
 ## What to measure?
 
-The MIT-researchers used inks that functioned as indicators.
+The MIT and Harvard researchers used inks that functioned as indicators.
 Indicators are substances that provide useful information about their environment.
 For example, information about acids and bases.
+
+<br>
+
+**Let's find out more!**
+
+<br>
+
+
+<f-next-button />
 
 </center>
 
@@ -193,11 +210,11 @@ For example, information about acids and bases.
 
 ## Acids and bases
 
-The acids and bases can be understood through the concentration of hydrogen-ion <f-math inline blue>(H+)</f-math> in a solution.
+The acids and bases can be understood through the concentration of hydrogen-ions <f-math inline blue>(H+)</f-math> in a solution.
 
 The acid level is measured with pH-scale (pH originally comes from the power of hydrogen).
 
-pH-scale governed by the equation <f-math inline>pH = -log[H+]</f-math>
+The pH-scale is governed by the equation <f-math inline>pH = -log[H+]</f-math>
 
 <f-slider set="ph" :value=7 :to=14 integer title="ph: " style="padding: calc(var(--content-padding)/2) 0" />
 
@@ -293,7 +310,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 
 ## Indicators
 
-move the pH-bar. Why does the color change?
+Move the pH-bar. **Why does the color change?**
 
 <f-slider set="ph" :value=7 :to=14 integer title="ph: "  style="padding: calc(var(--content-padding)/2) 0" />
 
@@ -301,11 +318,16 @@ _When designing your indicator, you may need to consider the visibility of the c
 
 <div style="display: flex">
 
-> <small><small>Phenol red: The structural parts indicated by the red color undergo changes as the pH is increased changing the colour of the molecule.</small></small>
+> <small><small>Phenol red: The structural parts indicated by the red color undergo changes as the pH is increased changing the color of the molecule.</small></small>
 
 <img style="width: auto" src="images/phenol.png" />
 
 </div>
+
+<br>
+
+
+<f-next-button />
 
 </section>
 
@@ -328,7 +350,91 @@ _When designing your indicator, you may need to consider the visibility of the c
 
 Now we have to think about how our tattoo looks, feels, and most importantly - functions!
 
+**But first, let's find out what symbols, icons, pictograms are!** 🧐
+<br>
+
+
+<f-next-button />
+
 </center>
+
+---
+
+
+| padding: 0
+| rows: auto
+
+<div style="padding: var(--content-padding);">
+
+## Sign? Icon? Symbol? Pictogramm? *Tattoo*?
+
+As a designer, it is important to keep these terms apart.
+
+<details>
+	<summary>Symbol</summary>
+  
+  Visualizes abstract terms, like love ❤️, that something is correct ✔️. <br>
+  The peace symbol is also very famous ☮ <br>
+  or even symbols for religions: ✝, ✡, ☪, ☯, 🕉...
+  
+  <br>
+  
+  We need symbols to visualise what we cannot paint easily, with few brushstrokes. Some concepts are too complex
+  to be quickly visualiszed. So small groups start with symbols that eventually become accepted throughout all of society.
+  **But careful:** The meaning of symbols has to be learned. You cannot automatically know what it's about. If you grow up in a certain society, as a child, you automatically learn its symbolism. But if you are new to a group or a culture, you might find new symbols whose meaning you don't understand.
+
+</details>
+
+
+<details>
+	<summary>Sign</summary>
+  
+  Signs are visual, auditive or tactile representations of information.<br>
+  A handshake is a tactile sign, to indicate that you greet someone. <br>
+  Sirens are auditive signs, to inform you of an emergency case, like fire or a passing ambulance. <br>
+  Visual signs are what we are dealing with: Logos, icons, symbols, pictograms are all visual signs.
+  
+
+</details>
+
+
+
+<details>
+	<summary>Logo</summary>
+  
+ Logos and signets are visual representations of companies or brands. They usually contain writing (then it's called logo &ndash; because logo comes from the Greek *logos* which means *word*). There are several sub-categories: Logos with just wording, like in CocaCola; logos with single letters like in IBM; logos with numbers in them: 7/11; and logos that combine wording with signets, like *adidas*, *Puma*, *KFC* etc. Signet (from Latin *signum* for *seal*) stands for brand visualisations without writing, so just pictures. You problably all know the *Nike swoosh* or the *Apple* apple 🍏 . Sometimes combined logos are reduced to just the signet. This happenes often when the brand is very popular. For example *Starbucks* lost it's writing and is just working with the mermaid.
+
+
+</details>
+
+
+<details>
+	<summary>Icon</summary>
+  
+Today, the term icon is used for everything that visualizes something. But originally, it was meant to show functions on computer displays, so that interfaces are easier to work with for people who are new to computers.<br>
+One of the first was the icon for the *search function* &ndash; but it didn't start with the magnifying glass. It started with a very simple silhouette of Sherlock Holmes! People knew that Sherlock is a detective and searches for things, so when they saw this icon, they automatically new, that they could look for things, when they clicked on it. At some point the silhouette got lost, but the magnifying glass, as the most distinctive item of a detective, remained.
+<br>
+Icons started as metaphors (see *recycling bin*). Nowadays, they can also be abstract: ⏮️▶️⏭⏹️⏺️⏏️ <br>
+Icons like these need to me learned, but they are also used for displays or buttons, to indicate a certain function.
+<br>
+Software also uses icons or we have favicons on our website, to help us recognize more easily which website we are looking at.
+
+</details>
+
+<details>
+	<summary>Pictogram</summary>
+  
+Pictograms are visual guiding systems. They tell you what to do or what not to do. They offer orientation. We find them at airports, trainstations and in general in public spaces. Pictograms should therefore be language-independent, that means, you have to design them in a way that they don't cause misunderstandings and are easily understood without cultural context or knowledge.
+Therefore pictograms are always very simple. One of the most universal pictograms is the *escape pictogram*, with a green background, white rectangle and a human silhouette running towards the rectangle. Some pictograms are more complex or contain symbols ♻️ or even writing 🚾 🚻. Sometimes they forbid certain actions: 🚭 🚳 📵. And then there are super abstract ones, which need to be learned, for example traffic signs: ⛔.
+
+</details>
+
+
+
+
+
+
+
 
 ---
 
