@@ -565,7 +565,7 @@ Take all the information you gathered during the last pages! Can you evaluate wh
 
 ---
 
-| section: Bees and packaging
+| section: Bees and packaging 1
 | 1 2 2
 
 ## Bees and packaging
@@ -596,7 +596,7 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 ---
 
 
-| section: Bees and packaging
+| section: Bees and packaging 2
 | 1 2 2
 
 ## Bees and packaging
