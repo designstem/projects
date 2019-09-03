@@ -665,8 +665,8 @@ If you want to learn more about color design and how to create color palettes, y
 
 
 <f-notes title="credits">
-Photo by Tomáš Hustoles on Unsplash,
-https://unsplash.com/photos/Q14jHrGyg34
+Photo by Kelly Sikkema on Unsplash,
+https://unsplash.com/photos/ECxsxbjAmMY
 </f-notes>
 
 
