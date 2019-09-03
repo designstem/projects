@@ -37,21 +37,53 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 3. ~Did you ever come across water pollution like this close to where you live (for example in lakes or rivers)?~
 4. ~Find out about organizations that try to counteract sea pollution.~
 
-<br>
-
-**In the following simulation, you can learn which plastic floats and which sinks:**
-
-<a class="tertiary" href="../plastics" target="_blank">Learn how plastic floats</a>
 
 <br>
 
-~When you found out about the properties of plastics' floating behaviour, continue your journey through the workshop:~
 
 <f-next-button />
 
 -
 
 <f-video src="https://www.youtube.com?v=31CdhLMV7Es" />
+
+
+
+---
+
+| section: Plastic Definition
+| theme: dark
+| rows: 1fr auto
+| 1 2
+
+# Plastic fantastic?
+
+Plastic is a multi-purpose material. There are different categories of plastic, which have different properties and are therefore used for different products.
+
+#### TASKS
+
+1. ~Find out what the following abbreviations mean.~
+2. ~Not only find out about their properties, but also about their main usage.~
+3. ~When you are done, use the following simulation (see link below) to learn which plastic floats and which sinks and therefore in which way plastic causes sea pollution.~
+
+* PET
+* LDPE
+* PP
+* HDPE
+* PVC
+* PS
+
+<br>
+
+**Start the simulation:**
+
+<a class="tertiary" href="../plastics" target="_blank">Learn how plastic floats</a>
+
+
+
+
+<f-image src="./images/equilibrium_plasticbottles.jpg" />
+
 
 
 ---
