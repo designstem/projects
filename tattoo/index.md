@@ -492,6 +492,8 @@ One of the first was the icon for the *search function* &ndash; but it didn't st
 Icons started as metaphors (see *recycling bin*). Nowadays, they can also be abstract: ⏮️▶️⏭⏹️⏺️⏏️
 Icons like these need to me learned, but they are also used for displays or buttons, to indicate a certain function.
 Software also uses icons or we have favicons on our website, to help us recognize more easily which website we are looking at.
+<br>
+Today, the word icon can have an additional meaning. Often signs are also called icons, when they are a simplified representation of an object, like 📗 💡 📁 📞. 
 
 </details>
 
@@ -551,24 +553,42 @@ If the tattoo is just decorative and doesn't have an additional function, you ca
 
 **So when you design your smart tattoo, always remember that information has to be readable and quickly accessible. Always think about the big toe in the sand!**
 
+<br>
+
+
+<f-next-button />
+
 </div>
 
 -
 
 <EmojiBg />
 
+
+
+
+
 ---
+
+
+| section: Form & Style
+| padding: 0
+| style: overflow-x: hidden
+
+
+
 
 ## Style or substance?
 
-Think and discuss - what are the things you need to pay attention to when designing a good icon? What are the dos and the don't-s?
+To your right, you can find three sets of icons. Look at them more closely.
 
-To your right there are three sets of symbols, or icons, of different level of detail and style of drawing.
-Try to think, in what context, and for what these could be used, and try to sketch the missing icon in the corresponding style.
+#### Tasks
 
-When you have finished, click the button to reveal the original icon design and compare it to your result.
+1. One icon is missing in each set. Draw the matching icon that fits the row (first: *cup of tea*; second: *popcorn*; third: *cheeseburger*).
+2. When you're done sketching, click the button to reveal the original icon design and compare it to your result. Is it similiar? Why is that so? What can still be improved about your design?
+1. Again, have a look at the sets of icons. What do you think is important when designing an icon? Try to name four important criteria for icon design.
+2. What are the don'ts when designing icons?
 
-What is better in your design, what could still be improved?
 
 -
 
@@ -583,6 +603,23 @@ What is better in your design, what could still be improved?
 <f-value :value="['./images/fastfood_icons_missing.png', './images/fastfood_icons.png']" set="food" />
 <img :src="get('food', [])[get('food_index')]" />
 <f-toggle title="Show the double cheeseburger" set="food_index" />
+
+
+---
+
+
+
+| section: Interface design
+| padding: 0
+| style: overflow-x: hidden
+
+
+
+
+## Interface design
+
+Here I need to add info on interface design.
+
 
 ---
 
