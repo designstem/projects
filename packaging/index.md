@@ -682,7 +682,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 ~Now that you've learned so much about packaging, it's time that you design one yourself. Choose one of the following three tasks:~
 
-#### <div style="background-color: #fec938"> TASK A </div>
+#### <div style="background-color: #fec938";> TASK A </div>
 
 1. ~Choose an object that you want to design a cardboard package for. You can use multiple small objects (like rice, cornflakes, pasta etc.) or a bigger object.~
 
@@ -693,7 +693,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 4. Additional task: Think about the packaging inside the cardboard package. Fragile objects need extra packaging. How can you guarantee that the object won't break, while trying not to waste material?
 
 
-#### <div style="background-color: #ff595e> TASK B </div>
+#### <div style="background-color: #ff595e;> TASK B </div>
 
 1. Try to design a reusable package, possibly suitable for different purposes. Take this example: At LUSH, you will get reusable packaging for soaps, so you'll go there and can get a refil into your old packaging.
 
@@ -704,7 +704,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 4. What if you have to store/stack several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
 
 
-#### <div style="background-color: #1982c4> TASK C </div>
+#### <div style="background-color: #1982c4;> TASK C </div>
 
 1. ~Design a packaging for different spices which together will form a pattern but can be used individually! It should not only be functional, but also look unusual/nice/fresh.~
 
