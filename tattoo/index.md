@@ -537,11 +537,19 @@ https://unsplash.com/photos/5MvqNDyizBo
   box-shadow: 0 0 10rem 10rem var(--white);
 ">
 
-## Form or function?
+## Form follows function
 
-The way a symbol is presented is also part of the context. Simple lines and bold swatches of color are usually more readable at a glance. Detailed drawings are more decorative, but don't convey information that easily. For that reason, different styles are used for different purposes - if the purpose is to convey important information quickly, then the symbol should be as simple (readable) as possible.
+The way a sign is presented is also part of the context. Simple lines and bold swatches of color are usually more readable at a glance. Detailed drawings are more decorative, but don't convey information that easily. For this reason, different styles are used for different purposes - if the purpose is to convey important information quickly, then the sign should be as simple (readable) as possible.
 
-If the functionality of the symbol is not that important, or the main function of the symbol is to be decorative, then there is more room to experiment with the form - or how the symbol looks like.
+*Kurt Weidemann*, a German designer once said something, that is not only important for logos, but for all signs:
+
+<blockquote>
+	~*A logo is well done, if you can scratch it into sand with your big toe.*~
+</blockquote>
+
+If the tattoo is just decorative and doesn't have an additional function, you can go crazy with details. For our smart tattoo, this would reduce the functionality drastically.
+
+**So when you design your smart tattoo, always remember that information has to be readable and quickly accessible. Always think about the big toe in the sand!**
 
 </div>
 
