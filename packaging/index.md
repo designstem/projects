@@ -588,6 +588,47 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 
 <f-video src="https://www.youtube.com/watch?v=QEzlsjAqADA" />
 
+
+
+
+
+
+---
+
+
+| section: Bees and packaging
+| 1 2 2
+
+## Bees and packaging
+
+
+Honeycombs are not only used for packaging, but also for **packaging materials**.
+
+<blockquote>
+
+~Cardboard honeycomb panels consist of two supporting surface layers and a honeycomb core, similar to that of a honeycomb from a beehive.~
+	
+</blockquote>
+
+
+#### Tasks
+
+1. Research further possible applications for honeycomb cardboards. Where are they used else, other than packaging?
+2. Find out the advantages honeycomb cardboard has, in comparison to wood or other materials. What makes it so attractive to work with?
+
+
+-
+
+
+<img src="./images/images/bees_honeycomb_packaging.jpg"/>
+
+
+
+
+
+
+
+
 ---
 
 | section: Natural marketing
