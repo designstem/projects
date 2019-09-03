@@ -435,7 +435,7 @@ In the following **learning stations** you will find tasks which &ndash; in the 
 
 -
 
-<div style="margin-left: 2vw; background-color: #fec938; color: black;">
+<div style="margin-left: 2vw; background-color: #4c2672; padding: 1vw;">
   
 ### Level up and get your skills ready, <br> before you face the "endboss"! 
 
