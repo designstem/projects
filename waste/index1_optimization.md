@@ -123,7 +123,7 @@ See what happens when you place the papers **horizontally** or **vertically** on
 
 <caption>Optimization with folds</caption>
 
-## Now it is your turn
+## Paper construction
 
 Take some paper and try different ways of folding to make a strong paper construction. Download the templates below:
 
@@ -159,7 +159,7 @@ Take some paper and try different ways of folding to make a strong paper constru
 ---
 
 | chapter: Optimization with sticks and strings
-| section: Tension and compression
+| section: Optimization with sticks and strings
 
 <big><caption>Optimization with sticks and strings</caption></big>
 
@@ -194,7 +194,7 @@ Arch bridges are examples of <var>compressive structures</var>.
 
 <center>
 
-<var style="color: white">tension</var> and <var style="color: white">compression</var><br>can also be combined
+<big><var style="color: white">tension</var> and <var style="color: white">compression</var><br>can also be combined</big>
 
 </center>
 
@@ -288,22 +288,21 @@ https://academy.allaboutbirds.org/features/birdanatomy/
 
 ---
 
-***TODO*** layout
-
 | section: Exercise: Create a space frame
+| padding: 0
+| 1 2 2
+
+<section>
 
 <caption>Optimization with sticks and strings</caption>
 
-## Exercise 1
+<caption>🛠️ Hands-on exercise</caption>
+
+## Create a space frame
 
 Try to build a space frame using ice-cream sticks and strings/lines.
-For a building description of a space frame, look at the next page.
 
-<small>
-
-The space frame structure of a train station
-
-</small>
+</section>
 
 -
 
@@ -315,24 +314,15 @@ https://commons.wikimedia.org/wiki/File:Modern_steel_station_roof_of_Zaandam_as_
 
 </f-notes>
 
----
-
-| 1 1 1
-| 2 3 4
+***TODO: What to do with this stuff?***
 
 <caption>Optimization with sticks and strings</caption>
 
--
-
 <img src="./images/doc1.jpg" />
 
-***TODO: Where is the content?***
-
--
 
 <img src="./images/doc2.jpg" />
 
--
 
 <img src="./images/doc3.jpg" />
 
@@ -365,15 +355,14 @@ Continue for inspiration and information ***TODO: Continue to where?***
 
 -
 
-***TODO: Links?***
+### Claus Mattheck
 
-**Computer-free Design using the Method of Force Cones** 
+<a href="https://publikationen.bibliothek.kit.edu/220080224/3815736">Computer-free Design using the Method of Force Cones</a> (PDF)
+
+<a href="https://publikationen.bibliothek.kit.edu/220080225/3815737">Example topologies using the method of force cones</a>
 C. Mattheck
 
-**Example topologies using the method of force cones** 
-C. Mattheck
-
-**Further verification of the method of force cones**
+<a href="https://publikationen.bibliothek.kit.edu/220078860/3815665">Further verification of the method of force cones</a>
 C. Mattheck
 
 <f-notes title="Credits">
@@ -384,8 +373,42 @@ Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without compu
 
 ---
 
+| theme: dark
+| 1 1 1 1 2 3 3 3 4 4 4
+| 1 1 1 1 2 5 5 5 6 6 6
+
+## Two more<br>to go
+
+There is two more deformation types to go, take your pick.
+
+-
+
+-
+
+<f-card style="height: 40vh; opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with folds</h4>
+</f-card>
+
+-
+
+<f-card  style="height: 40vh;  opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')"><h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4></f-card>
+
+-
+
+<f-card style="height: 40vh;" background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with cells</h4>
+</f-card>
+
+-
+
+<f-card style="height: 40vh;" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
+</f-card>
+
+---
+
 | chapter: Optimization with cells
-| section: Hexagon for energy optimization
+| section: Optimization with cells
 | 1 1 1 2 2
 | padding: 0
 
@@ -399,11 +422,11 @@ A hexagon is a form we see everywhere in nature when energy optimization is need
 
 For example in a honeycomb, radiolaria or dried clay.
 
-<div class="grid">
+<div class="grid" style="--cols: 1fr 1fr; --rows: 25vh">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Apis_florea_nest_closeup2.jpg" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bee_on_his_alvear.jpg/1920px-Bee_on_his_alvear.jpg" />
 
-<img src="./images/clayground.jpg" />
+<f-image src="./images/clayground.jpg" />
 
 </div>
 
@@ -423,10 +446,17 @@ https://commons.wikimedia.org/wiki/File:Radiolaria_(Challenger)_Plate_135.jpg
 ---
 
 | section: Exercise: make a beeboard
+| 1 1
+| 2 3
+| rows: auto 1fr
 
 <caption>Optimization with cells</caption>
 
-## Exercise: Make a beeboard
+<caption>🛠️ ️️Hands-on exercise<caption>
+
+## Make a beeboard
+
+-
 
 Honeycombs can be found in a vast variety of structures. Especially it’s used as core infill for composite sandwiches used in aerospace structures or your everyday kitchen door. Honeycombs are hexagonal-shaped cells.
 
@@ -434,45 +464,96 @@ It’s lightweight and when it’s pressed into a mould, it adapt to its form.
 
 Beeboard you’ll find in your everyday kitchen cabinet door.
 
-> #### What you will need
+-
+
+> #### You will need
 * Two sheets of paper format A3, if you use thicker paper you probably need a ruler and a cutter to etch the lines first
-* Pencil
-* Double-sided tape
-* Cutter
+* pencil
+* double-sided tape
+* cutter
+
 
 ---
 
+| 1 1 1 
+| 2 3 3
+| 4 5 5
+| 6 7 7
+| 8 9 9
+
 <caption>Optimization with cells</caption>
 
-## Exercise 1: the steps
+<caption>🛠️ ️️Hands-on exercise<caption>
+
+## Make a beeboard: the steps
+
+-
 
 <img src="./images/bee1.jpg">
 
-<p />
+-
 
-There are many ways to cut and etch paper. A laser cutter would probably be the fastest and most precise way to do it. But etching the paper with a ruler and cutter is fine too. First of all print the pattern in attachment.
+#### 1.
+
+Print out the PDF attachment in two copies (it is advised to use differently colored papers).
+
+<a class="tertiary" href="./files/beeboard.pdf"><f-arrow-icon rotation="90" />Download beeboard PDF</a>
+
+***TODO/SANDRA: Where is downloadable template?***
+
+-
 
 <img src="./images/bee2.jpg">
 
-***TODO: Fix steps***
+-
 
-1. Fold your sheets as seen in the illustration above. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
+#### 2.
 
-<img src="./images/bee3.jpg">
+Fold your sheets as seen in the illustration above. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
+
+---
+
+| 1 1 1 
+| 2 3 3
+| 4 5 5
+
+<caption>🛠️ ️️Hands-on exercise<caption>
+
+## Make a beeboard: the steps
+
+-
 
 <img src="./images/bee4.jpg">
 
-2. Tape the ‘hills’ with double-sided tape. Than, put the other sheet on top of it, so you’ll have long honeycomb shape cylinders.
+-
 
-<img src="./images/bee5.jpg">
+#### 3. 
 
-3. Cut the taped sheets into shorter parts. Tape those shorter part on top of each other. 
+Tape the "hills" with double-sided tape. Then put the other sheet on top of it, so you’ll have long honeycomb shape cylinders.
 
-  <img src="./images/bee6.jpg">
+-
 
-4. Stretch the parts, so the honeycomb beeboard will appear.
+<img src="./images/bee6.jpg">
 
-  <img src="./images/bee7.jpg">
+-
+
+#### 4. 
+
+Cut the taped sheets into shorter parts. Tape those shorter part on top of each other. 
+
+---
+
+| background: ./images/bee7.jpg
+| theme: dark
+| tint: 0.3
+
+<center>
+
+#### 5. 
+
+Stretch the parts, so the<br>honeycomb beeboard will appear.
+
+</center>
 
 ---
 
@@ -485,25 +566,6 @@ The 3D version of a honeycomb you get when you stack balls in a crate and put we
 The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
 
 Imagine the balls are soap bubbles, they even start to share the walls!
-
-<f-notes title="TODO: NOTES FOR A TOOL" width="50vw">
-
-## Spheres to polyhedrons
-
-Illustration that when you stack flexible balls in a crate and you put some pressure on it they deform into a polyhedron.
-
-See the 3D-honeycomb created in slicr 3D. 
-
-https://engineerdog.com/2015/03/08/3d-printing-a-3d-honeycomb-infill-concept/
-
-
-Furthermore, we were talking about a voronoi simulator. In principle the students will draw their own on paper. To understand what’s really happening.
-
-But I found this simulator online: http://alexbeutel.com/webgl/voronoi.html which is movin
-
-https://www.visualcinnamon.com/2015/07/voronoi.html
-
-</f-notes>
 
 ---
 
@@ -552,19 +614,17 @@ And, at any point along the boundaries of the polygons, you are at the same dist
 
 ---
 
-| 1 1
-| 2 3
-| rows: auto 1fr
+| 1 2 2 2
 
 <caption>Optimization with cells</caption>
 
-## Exercise 3
+<caption>🛠️ Hands-on exercise</caption>
 
--
+## Hand-drawn
 
 Now make your own Voronoi diagram based on the nodes that represents...
 
-https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/
+[See the instruction on Instructables](https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/)
 
 -
 
@@ -572,41 +632,70 @@ https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/
 
 ---
 
-***TODO*** layout
+| padding: 0
+| 2 2 1
+
+<section>
 
 <caption>Optimization with cells</caption>
 
-## Back to the bone!
+## Back to the bone
 
 When you cut a thigh bone you’ll see a foam structure that is optimally formed by the forces it has to carry. So, bone is strong and light. 
 
 And: like foam bone could eliminate material by adapting to the change of the environment, but of course not at the same speed soap bubbles do! 
 
--
-
-<img src="./images/bubbles.jpg" style="width: 80%"/>
+</section>
 
 -
 
-<img src="./images/bonestructure.jpg" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Bone_structure_marco_photo.jpg/1920px-Bone_structure_marco_photo.jpg" />
 
-<f-notes title="Credits">
+---
 
-Image sources:
-https://www.flickr.com/photos/roderickt-uk/6901706105/
+| theme: dark
+| 1 1 1 1 2 3 3 3 4 4 4
+| 1 1 1 1 2 5 5 5 6 6 6
 
-https://commons.wikimedia.org/wiki/File:Femur_(caput_femoris)_-_bone_structure_detail_(vertical_cut).jpg
+## Almost there
 
-</f-notes>
+We are almost done with the optimization types, there is just one more to go. Here comes the <var>deformation</var>.
+
+-
+
+-
+
+<f-card style="height: 40vh; opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with folds</h4>
+</f-card>
+
+-
+
+<f-card  style="height: 40vh;  opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')"><h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4></f-card>
+
+-
+
+<f-card style="height: 40vh; opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with cells</h4>
+</f-card>
+
+-
+
+<f-card style="height: 40vh;" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
+</f-card>
 
 ---
 
 | chapter: Optimization by deformation
-| section: Deformation
+| section: Optimization by deformation
+| 1 2 2
 
-<caption>Optimization by deformation</caption>
+<caption><big>Optimization by deformation</big></caption>
 
-The deformation (and even failure) of existing materials and structures under load can be very instructive for the designing and building of new ones.
+## Deformation
+
+The <var>deformation</var> (and even <var>failure</var>) of existing materials and structures under load can be very instructive for the designing and building of new ones.
 
 First of all, deformation teaches us about fundamental loads and stresses.
 
@@ -614,25 +703,22 @@ Prof. Dr. Claus Mattheck uses rubber plates and sheets of aluminum foil to help 
 
 -
 
-<f-inline>
+<div class="grid" style="--cols: 1fr 1fr; --rows: 40vh 40vh">
+  <f-image src="./images/rubber1.jpg"/>
+  <f-image src="./images/rubber2.jpg"/>
+  <f-image src="./images/rubber3.jpg"/>
+  <f-image src="./images/rubber4.jpg"/>
+</div>
 
-<img src="./images/rubber1.jpg" style="width: 50%"/>
-
-<img src="./images/rubber2.jpg" style="width: 50%"/>
-
-</f-inline>
-
-<f-inline>
-
-<img src="./images/rubber3.jpg" style="width: 50%"/>
-
-<img src="./images/rubber4.jpg" style="width: 50%"/>
-
-</f-inline>
+<f-notes title="Credits">
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
-<f-notes title="TODO: Notes for a tool">
+</f-notes>
+
+<!--
+
+TODO: Notes for a tool
 
 ## Virtual rubber sheet
 
@@ -656,17 +742,18 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 <img src="./images/shear1.png" />
 
-</f-notes>
+-->
 
 ---
 
-<caption>Optimization by deformation</caption>
+| background: ./images/house.jpg
+| theme: dark
 
-Deformation also acts as a **warning signal**.
+<center>
 
--
+<big>Deformation also acts as a<br>**warning signal**</big>
 
-<f-image src="./images/house.jpg" />
+</center>
 
 <f-notes title="Credits">
 
@@ -678,7 +765,9 @@ https://www.geograph.org.uk/photo/346439
 
 <caption>Optimization by deformation</caption>
 
-Last but not least: deformation can be seen as a kind of **shape optimization**.
+## Deformation as a shape optimization
+
+Last but not least: deformation can be seen as a kind of <var>shape optimization</var>.
 
 Let’s go back to the rubber plates and sheets of  aluminum foil of Prof. Dr. Mattheck.
 
@@ -688,17 +777,23 @@ The way these (isotropic) **materials** bend, fold, stretch and twist can be see
 
 <img src="./images/defor1.jpg" />
 
+-
+
 <img src="./images/defor2.jpg" />
 
 <img src="./images/defor3.jpg" />
 
+<f-notes title="Credits">
+
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
+
+</f-notes>
 
 ---
 
 <caption>Optimization by deformation</caption>
 
-### Example 1
+## Shapes under stress
 
 Holes and notches in a piece of rubber under stress deform in such a way that local concentrations of stresses are reduced and loads are distributed evenly.
 
@@ -708,17 +803,25 @@ The shapes that "occur" in this way are to be found all over in the natural and 
 
 <img src="./images/defor5.jpg" />
 
+-
+
 <img src="./images/defor4.jpg" />
+
+<f-notes title="Credits">
 
 Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Institute of Technology.
 
+</f-notes>
+
 ---
+
+| 1 1 2 2 2
 
 <caption>Optimization by deformation</caption>
 
-## Example 2
+## Deformation as a clue
 
-The way aluminum foil deforms (and eventually tears) under tension tells us a lot about **lines of compression and tension**.
+The way aluminum foil deforms (and eventually tears) under tension tells us a lot about lines of <var class="gray">compression</var> and <var class="gray">tension</var>.
 
 Here too, deformation offers us clues about the optimal shape given a particular load.
  
@@ -726,37 +829,49 @@ Here too, deformation offers us clues about the optimal shape given a particular
 
 <img src="./images/defor6.jpg" />
 
+<f-notes title="Credits">
+
 Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Institute of Technology.
+
+</f-notes>
 
 ---
 
+| 2 2 3 3
+| 1 1 1 4
+| rows: 1fr 3fr
+
 <caption>Optimization by deformation</caption>
 
-The shape of components under stress can be used as a **template** for a new design that’s better suited for a particular load.
+## Stressed shape as a template
 
-Basic idea:
+The shape of components under stress can be used as a <var>template</var> for a new design that’s better suited for a particular load:
 
-* Apply force and observe the  deformation.
+1. Apply force and observe the  deformation.
 
-* Use the deformation as the basis of a manufactured form.
-
-Again... listen to the trees!
+2. Use the deformation as the basis of a manufactured form.
 
 -
 
-<img src="./images/defor7.jpg" />
+<img src="./images/defor7.jpg" style="width: 80%" />
 
-<img src="./images/defor8.jpg" />
+-
+
+<img src="./images/defor8.jpg"  style="width: 80%"  />
+
+-
+
+<f-notes title="Credits">
 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
----
+</f-notes>
 
-| 1 1 2
+---
 
 <caption>Optimization by deformation</caption>
 
-## Exercise
+## Push, pull, bend and twist
 
 1. Take a sponge and a piece of chamois cloth (‘shammy’).
 

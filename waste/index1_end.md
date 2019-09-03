@@ -1,14 +1,21 @@
+| theme: dark
+| 1 1
+| 2 3
+| rows: auto 1fr
+
 ## Design assignment
+
+-
+
+#### The challenge
 
 You have practiced with different ways and techniques to optimize strength and adaptability in your construction when designing a new product.
 
-Design a usable object using one or more of the techniques (optimization with folds, optimization with sticks and strings, optimization with cells, optimization by deformation).
+**Design a usable object using one or more of the optimization techniques** (optimization with folds, optimization with sticks and strings, optimization with cells, optimization by deformation).
 
-Do this by following the steps on the next slide.
+-
 
----
-
-## Design assignment
+#### Key steps
 
 1. Choose your preferred technique(s).
 
