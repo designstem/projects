@@ -28,7 +28,7 @@ https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
 
 <section>
 
-## How this image makes you feel?
+## How does this image make you feel?
 
 We all know that we can’t keep on wasting resources and exhausting our planet.
 
@@ -57,13 +57,13 @@ Image source: https://commons.wikimedia.org/wiki/File:Aterro_Sanitario.jpg
 
 ## Let's make a toaster
 
-Thomas Thwaites is a British designer that attempted to build a kitchen toaster from the scratch and mine all the neccessary raw materials.
+Thomas Thwaites is a British designer who attempted to build a kitchen toaster from scratch and mines all the neccessary raw materials himself.
 
 [The Toaster project](http://www.thomasthwaites.com/the-toaster-project/)
 
 <p />
 
-Look at the TED talk of Thomas Twaites and explain the core of what he’s saying.
+Look at Thomas Twaites' TED talk and explain the core of what he’s saying.
 
 -
 
@@ -79,19 +79,19 @@ Look at the TED talk of Thomas Twaites and explain the core of what he’s sayin
 
 https://footprint.wwf.org.uk/
 
-What could you do to make your footprint less?
+What could you do to reduce your footprint?
 
-Write this down. 
+Write it down. 
 
 ---
 
 | section: Ocean Cleanup
 
-## Ocean Cleanup initiative
+## Ocean cleanup initiative
 
 ***TODO: Shorten, add stcructure***
 
-A lot of people are aware of our footprint and are taking action in order to make the world a better place to live
+A lot of people are aware of their footprint and are taking action in order to make the world a better place to live.
 
 At age 16 (2011), Boyan Slat came across more plastic than fish while diving in Greece. He decided to devote a high school project for deeper investigation into ocean plastic pollution and why it was considered impossible to clean up.
 
@@ -100,7 +100,7 @@ He later came up with the idea to build a passive system, using the circulating 
 https://www.theoceancleanup.com/
 
 Have a look at his Ocean Cleanup foundation at the website.  
-What do you think what is most remarkable about this project?
+In your opinion, what is most remarkable about this project?
 
 -
 
@@ -118,9 +118,9 @@ What do you think what is most remarkable about this project?
 
 ## Look for initiatives
 
-1. Look for 3 initiatives that have found solutions for a waste problem
+1. Look for three initiatives that have found solutions for the waste problem.
 
-2. Collect what you’ve found and discuss with the class why you choose these initiatives.
+2. Collect what you’ve found and, in class, discuss why you chose these initiatives.
 
 </section>
 
@@ -143,7 +143,7 @@ What do you think what is most remarkable about this project?
 
 You probably found a lot of initiatives to make the world cleaner and they all have their own methodologies and concepts.
 
-Explain of the two concepts you have chosen how they contribute to make the world cleaner from waste.
+Explain, how the two concepts, that you chose, can contribute to clean the world from waste.
 
 -
 
@@ -172,7 +172,7 @@ Explain of the two concepts you have chosen how they contribute to make the worl
 
 -
 
-Watch the video and and answer the following questions.
+Watch the video and answer the following questions.
 
 1. What is the difference between human and nature concerning waste?
 
@@ -180,7 +180,7 @@ Watch the video and and answer the following questions.
 
 3. Which solutions for our waste problem does this animation show us?
 
-Share what you’ve seen with the class.
+Share what you’ve seen in class.
 
 -
 
@@ -199,11 +199,11 @@ Share what you’ve seen with the class.
 
 **Make a flat lay from waste in your neighbourhood**
 
-1. Go outside for 15 minutes and collect some waste
+1. Go outside for 15 minutes and collect waste.
 
-2. Make a nice composition for the flat-lay
+2. Make a nice composition for the flat-lay.
 
-3. Take some photos
+3. Take pictures.
 
 ***TODO: Add f-sidebar to explain what flay lay is***
 
@@ -229,7 +229,7 @@ http://www.slate.com/blogs/behold/2014/07/08/gregg_segal_photographs_people_with
 
 > #### Tips
 * Divide the group into pairs
-* User rubber gloves
+* Use rubber gloves
 
 </f-notes>
 
