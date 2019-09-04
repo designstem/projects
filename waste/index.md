@@ -1146,9 +1146,10 @@ The 3D version of a honeycomb you get when you stack balls in a crate and put we
 
 The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
 
-Imagine the balls are soap bubbles, they even start to share the walls!
+Imagine the balls are soap bubbles, they even start to share the walls
 
-https://www.designcoding.net/weaire-phelan-structure/
+[See more](https://www.designcoding.net/weaire-phelan-structure/)
+
 
 ---
 
@@ -1191,9 +1192,48 @@ Georgy Voronoi was a Russian mathematician. A Voronoi diagram is built out of va
 
 And, at any point along the boundaries of the polygons, you are at the same distance from at least two nodes. This makes these diagrams very useful for many applications such as mapping and zoning, for example to find the nearest hospital.
 
+---
+
+...
+
 -
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Voronoi_growth_euclidean.gif" />
+<f-animation set="r" from="0" to="1.2" duration="10500" />
+
+<f-scene responsive>
+	<defs>
+  	<clipPath id="clip">
+      <polygon
+        :points="polarpoints(6, 1).map(({ x, y }) => x + ',' + y).join(' ')"
+      />
+     </clipPath>
+  </defs>
+  <f-group scale="1.53">
+  <f-hex-pattern scale="0.5" rows="4" v-slot="{ row }">
+  <f-circle
+  	fill="#aaa"
+		clip-path="url(#clip)"
+    :r="get('r')"
+    stroke
+  />
+  <f-circle stroke fill="black" r="0.05" />
+  </f-hex-pattern>
+  <f-hex-pattern scale="0.5" rows="4">
+  <f-hexagon
+    stroke="white"
+  />
+  </f-hex-pattern>
+  </f-group>
+</f-scene>
+
+-
+
+<img style="filter: grayscale(100%)" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Voronoi_growth_euclidean.gif" />
+
+<p />
+
+When extending **irregular** circles, we end up with a structure that. Mathemathically it is called <var>Voronoi diagram</var>
+ or its dual, <var>Delaunay triangulation</var>.
 
 ---
 
@@ -1204,11 +1244,11 @@ And, at any point along the boundaries of the polygons, you are at the same dist
 
 <caption>🛠️ Hands-on exercise</caption>
 
-## Hand-drawn
+## Hand-drawn Voronoi
 
 Now make your own Voronoi diagram based on the nodes that represents...
 
-[See the instruction on Instructables](https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/)
+[See the instructions on Instructables](https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/)
 
 -
 
@@ -1448,9 +1488,9 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 <section style="background: var(--lightergray)">
 
-<caption>🛠️ ️️Hands-on exercise</caption>
-
 <caption>Optimization by deformation</caption>
+
+<caption>🛠️ ️️Hands-on exercise</caption>
 
 ## Push, pull,<br>bend and twist
 
