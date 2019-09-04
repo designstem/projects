@@ -1,4 +1,5 @@
 | chapter: Introduction
+| section: Start
 | theme: dark
 | background: https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg
 | tint: 0.6
@@ -21,14 +22,14 @@ https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
 
 ---
 
-| section: Our planet
+| section: The image
 | 2 2 1
 | theme: dark
 | padding: 0
 
 <section>
 
-## How this image makes you feel?
+## How does this image makes you feel?
 
 We all know that we can’t keep on wasting resources and exhausting our planet.
 
@@ -49,13 +50,16 @@ Image source: https://commons.wikimedia.org/wiki/File:Aterro_Sanitario.jpg
 
 ---
 
-| 1 2 2
+| 1 1 1
+| 2 3 3
 | gap: var(--base4)
-| theme: dark
+| rows: auto 1fr
 
 <caption>📺💬 Watch and discuss</caption>
 
-## Let's make a toaster
+## Let's make a toaster from scratch
+
+-
 
 Thomas Thwaites is a British designer that attempted to build a kitchen toaster from the scratch and mine all the neccessary raw materials.
 
@@ -72,24 +76,35 @@ Look at the TED talk of Thomas Twaites and explain the core of what he’s sayin
 ---
 
 | section: Calculate your footprint
+| background: https://footprint.wwf.org.uk/images/new/sky.jpg
+| theme: dark
 
-***TODO 2*** empty 
+<center>
 
-##  Your living habits make up your footprint 
+##  Your living habits<br>make up your footprint 
 
 https://footprint.wwf.org.uk/
 
-What could you do to make your footprint less?
+What could you do to make your footprint less?<br>Write this down
 
-Write this down. 
+</center>
+
+<f-notes>
+
+https://footprint.wwf.org.uk/
+
+<f-notes>
 
 ---
 
 | section: Ocean Cleanup
+| 1 1 1 1 1
+| 2 2 3 3 3
+
 
 ## Ocean Cleanup initiative
 
-***TODO: Shorten, add stcructure***
+-
 
 A lot of people are aware of our footprint and are taking action in order to make the world a better place to live
 
@@ -97,14 +112,13 @@ At age 16 (2011), Boyan Slat came across more plastic than fish while diving in 
 
 He later came up with the idea to build a passive system, using the circulating ocean currents to his advantage, which he presented at a TEDx talk in Delft in 2012.
 
-https://www.theoceancleanup.com/
-
-Have a look at his Ocean Cleanup foundation at the website.  
-What do you think what is most remarkable about this project?
-
 -
 
 <f-video src="https://www.youtube.com/watch?v=ROW9F-c0kIQ" />
+
+<caption>📺💬 Watch and discuss</caption>
+
+Have a look at his [Ocean Cleanup foundation website](https://www.theoceancleanup.com/). What do you think what is most remarkable about this project?
 
 ---
 
@@ -165,10 +179,11 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 | 1 1 1
 | 2 3 3 
+| rows: auto 1fr
 
 <caption>📺💬 Watch and discuss</caption>
 
-## Example: <var>circular economy</var>
+<big><big><big><var>circular economy</var></big></big></big>
 
 -
 
@@ -219,10 +234,251 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 | theme: dark
 | section: Choose a next step
 | gap: var(--base4)
+| 1 2 3
+| 1 4 5
 
 ## <big>Choose your strategy</big>
 
 <big>There are different ways to optimize the material use for production. Choose one of the strategies:</big>
+
+-
+
+<f-card style="height: 80vh;" background="white" color="var(--darkgray)" @click.native="goto('Minimal use of material')">
+<h3 style="margin: 0; color: var(--darkgray);">Minimal use of material</h3>
+</f-card>
+
+-
+
+<f-card  style="height: 80vh;" background="white" color="var(--darkgray)" @click.native="goto('Zero waste products')"><h3 style="margin: 0; color: var(--darkgray);">Zero waste products</h3></f-card>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+| chapter: Minimal use of material
+| section: Minimal use of material
+| tint: 0
+| padding: 0
+
+<section>
+
+## Minimal use of material
+
+### Bone Chair
+
+Due to innovative digital techniques we can create **customized, smart and more complex forms**. 
+Joris Laarman used topology optimization software based on the findings of professor Claus Mattheck to develop **a chair with a bone-like structure**.
+
+<details>
+  <summary><big>📺💬 Watch and discuss</big></summary>
+<f-video src="https://www.youtube.com/watch?v=z5HSzxGsUdI" />
+
+</details>
+
+</section>
+
+-
+
+<f-image src="./images/bonechair.jpg" />
+
+
+<f-notes title="Credits">
+
+Photo courtesy of Joris Laarman Lab, downloaded from: https://www.cooperhewitt.org/2017/05/16/cooper-hewitt-smithsonian-design-museum-to-present-joris-laarman-lab-design-in-the-digital-age/
+
+</f-notes>
+
+
+---
+
+| section: Chalk challenge
+| 1 1 1 2
+
+<caption>🛠️ Hands-on activity</caption>
+
+## Chalk challenge
+
+1. Take a sidewalk chalk and weigh it.
+
+2. Place it vertically and put a weight on it.
+
+3. Use a knife, rasp or file to take some material off. **Note:** the length of the chalk must stay the same.
+
+4. Try to leave just as much chalk as you need to keep a strong construction. Be careful that is does not break.
+
+5. If you think you have reached the optimum… Let’s put the weight back on.
+
+6. Did it break? If it doesn’t try to scrape off some more and test it again.
+
+
+<p><a href="./files/chalk_challenge.pdf" class="tertiary">
+<f-arrow-icon rotation="90" />Download PDF form</a> and document the results.</p>
+
+
+-
+
+<f-image src="./images/chalk.png" />
+
+---
+
+| padding: 0
+
+<section>
+
+## Why we mimic nature?
+
+There’s a **duality** between nature and engineering, when it comes to lightweight constructions.
+
+* **Nature survives with a minimal use of energy**. As engineers we can learn from nature to reduce material, energy and thus costs.
+
+* **Nature has the ability to adapt** to its changing surroundings during its life time. For example, the skin of a <var>sea cucumber</var> is extremely flexible, but becomes very rigid in a blink of an eye when it’s threatened. As engineers we can learn from nature’s strategy to make more resilient structures.
+
+</section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Stichopus_herrmanni_%28Mayotte%29.jpg/1920px-Stichopus_herrmanni_%28Mayotte%29.jpg" />
+
+---
+
+| 1 1
+| 2 2
+| 3 4
+| rows: 40vh auto 1fr
+| padding: 0
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/First_flight3.jpg/1920px-First_flight3.jpg" />
+
+
+-
+
+<section style="padding-top: var(--base); padding-bottom: 0;">
+
+## Efficiency of construction
+
+</section>
+
+-
+
+<section style="padding-top: 0;">
+
+Making constructions is not only a matter of choosing the right <var>material</var>.
+
+It’s the combination of <var>material</var>, <var>form</var> and <var>production process</var> process which makes the construction **light** and **strong**.
+
+You can imagine when it comes to lightweight constructions the balance of the trinity becomes more critical!
+
+</section>
+
+-
+
+<section style="padding-top: 0;">
+
+The efficiency of construction also depends on <var>type&nbsp;of&nbsp;load</var> the construction has to carry. 
+
+Loads on a construction could be: <var class="gray">bending, pressure, tension, shear, torsion, vibration</var> etc.
+
+When designing an object an engineer investigates all its possible loads. 
+
+</section>
+
+---
+
+| 1 1 1 2 2 2 4 4 4
+| 1 1 1 3 3 3 5 5 5
+
+## Growth of trees and bones
+
+During their lifecycle both these natural structures make **optimal use of material** in dealing with stresses and loads.
+
+-
+
+<img src="./images/tree2.jpg"  />
+
+-
+
+#### Trees
+
+Trees **only add material where it is needed** by producing thicker tree rings at heavier loaded spots e.g. when a tree is constantly exposed to wind at one side, it grows thicker at the other side. 
+
+-
+
+<img src="./images/bone2.jpg"  />
+
+-
+
+#### Bones
+
+Bones also produce extra material where needed, but they are also able to **eliminate material** in less loaded spots.
+
+
+<f-notes title="Credits">
+
+Image sources: https://pxhere.com/nl/photo/720601 https://en.wikipedia.org/wiki/Hip#/media/File:Hip.jpg
+
+</f-notes>
+
+---
+
+| theme: dark
+| background: #000
+| 1 1 1 2 2
+| padding: 0
+
+<center style="padding: 0 var(--base10)">
+
+## Adaptive growth
+
+This growing and killing of material in response to mechanical forces is called **adaptive growth**.
+ 
+An everyday (visible) example of adaptive growth is the growth of callus on the soles of feet!
+
+</center>
+
+-
+
+<img src="./images/feet.jpg"  />
+
+<f-notes title="Credits">
+
+https://pxhere.com/en/photo/59627
+
+</f-notes>
+
+---
+
+| section: Four ways to optimize
+| theme: dark
+| 1 2 3
+| 1 4 5
+
+## Four ways to optimize
+
+The following four hands-on exercises introduce some useful principles in the designing and building of structures, with **minimal use of material** and therefore **maximized efficiency**.
 
 -
 
@@ -245,3 +501,1532 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 <f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
 <h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
 </f-card>
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+| chapter: Optimization with folds
+| section: Optimization with folds
+| 1 1
+| 3 5
+| 2 4
+| rows: auto 33vh 33vh
+
+<caption>Optimization with folds</caption>
+
+## Palms and shells
+
+-
+
+#### Palmtree leaves
+
+Palm trees have very clever leaves. In nice weather the leaves spread out to catch the sunlight, but during storms they fold up. The folding makes the leaves compact and thus stronger and more resistant to these circumstances. 
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Close_Up_look_of_Leaves.jpg"  />
+
+-
+
+#### Sea shells
+
+Shells are designed with the purpose of carrying external loads efficiently.
+The folds help the thin layered shells to be resistant to predators and rough circumstances. 
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Small_sea_shell.jpg/1024px-Small_sea_shell.jpg"  />
+
+
+<f-notes title="Credits">
+
+Image source: https://commons.wikimedia.org/wiki/File:Close_Up_look_of_Leaves.jpg
+
+Image source:
+https://pixnio.com/still-life/seashells-mollusk-still-life-object-decoration-macro
+
+</f-notes>
+
+---
+
+| section: Adding strength
+| 1 2 2
+
+<caption>Optimization with folds</caption>
+
+## Adding strenght
+
+So now we have looked at nature and we understand that through folding materials you can **add strength** to them.
+
+By folding the edges of the metal top of the Pallas table Konstantin Grcic added strength to it.  
+
+-
+
+<img src="./images/pallastable.jpg"  />
+
+<f-notes title="Credits">
+
+Pallas, Konstantin Grcic 2003, downloaded from: https://www.classicon.com/en/product/pallas.html
+
+</f-notes>
+
+
+---
+
+| theme: dark
+| 1 2 3
+
+<caption>Optimization with folds</caption>
+
+## Adding strenght
+
+In the pictures you see two identical A4 papers folded in **hexagonal like** shapes.
+
+Which one do you think is the strongest?
+
+-
+
+<img src="./images/fold1a.jpg"  />
+
+-
+
+<img src="./images/fold1b.jpg"  />
+
+---
+
+| theme: dark
+| 1 2 3
+| 1 4 5
+
+<caption>Optimization with folds</caption>
+
+## Put some weight on it
+
+See what happens when you place the papers **horizontally** or **vertically** on the table and put a weight on it. 
+
+-
+
+<img src="./images/fold2a.jpg"  />
+
+-
+
+<img src="./images/fold2b.jpg"  />
+
+-
+
+<img src="./images/fold3a.jpg"  />
+
+-
+
+<img src="./images/fold3b.jpg"  />
+
+---
+
+| section: Exercise: Paper construction
+| theme: dark
+| 1 2 3 4
+| 1 2 5 6
+| cols: 1.5fr var(--base4) 1fr 1fr
+
+<caption>Optimization with folds</caption>
+
+## Paper construction
+
+Take some paper and try different ways of folding to make a strong paper construction. Download the templates below:
+
+<a class="tertiary" href="./files/folding_hexagon.pdf"><f-arrow-icon rotation="90" />Download rectangular PDF</a>
+
+<a class="tertiary" href="./files/folding_hexagon.pdf"><f-arrow-icon rotation="90" />Download hexagonal PDF</a>
+
+-
+
+-
+
+<f-card style="height: 40vh; opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with folds</h4>
+</f-card>
+
+-
+
+<f-card  style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')"><h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4></f-card>
+
+-
+
+<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with cells</h4>
+</f-card>
+
+-
+
+<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
+</f-card>
+
+
+---
+
+| chapter: Optimization with sticks and strings
+| section: Optimization with sticks and strings
+
+<big><caption>Optimization with sticks and strings</caption></big>
+
+## Tension and compression
+
+Useful and efficient structures can be built using only <var>tension</var> or only <var>compression<var>.
+
+Simple suspension bridges are examples of <var>tensile structures<var>.
+
+Arch bridges are examples of <var>compressive structures</var>.
+
+-
+
+<img src="./images/bridge.jpg" />
+
+<p />
+
+<img src="./images/bridge2.jpg" />
+
+<f-notes title="Credits">
+
+[Capilano Suspension Bridge](https://commons.wikimedia.org/wiki/File:Capilano_Suspension_Bridge,_Vancouver,_Canada_(July_2016)_1.jpg) by Markus Säynevirta
+
+[Boulder Bridge, Rock Creek Park](https://commons.wikimedia.org/wiki/File:Boulder_Bridge,_Rock_Creek_Park.jpg) by Carol M. Highsmith
+
+</f-notes>
+
+---
+
+| theme: dark
+| background: https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg
+
+<center>
+
+<big><var style="color: white">tension</var> and <var style="color: white">compression</var><br>can also be combined</big>
+
+</center>
+
+<f-notes title="Credits">
+
+Image source:
+https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg
+
+</f-notes>
+
+---
+
+| 1 2 2
+| padding: 0
+
+<section>
+
+<caption>Optimization with sticks and strings</caption>
+
+## Rigging
+
+Ropes and cables are lightweight, flexible and strong, Perfect for carrying loads.
+
+A sailing ship can sail because of its <var>rigging</var>.
+
+This is another example of <var class="gray">tension</var> and <var class="gray">compression</var> combined.
+
+</section>
+
+-
+
+<f-image src="./images/sailing.jpg" />
+
+
+<f-notes title="Credits">
+
+Screen capture from a video: https://vimeo.com/wiltel/bodacious2014#t=140s
+
+</f-notes>
+
+---
+
+| 1 1 1 2 2
+
+<caption>Optimization with sticks and strings</caption>
+
+## Optimization in nature
+
+Cables and ropes in functional constructions (like bridges and boats) echo the tendon, ligaments and muscles in animal skeletons.
+
+<img src="./images/bridge5.jpg" style="width: 70%"/>
+
+-
+
+<img src="./images/leg.gif">
+
+
+<f-notes title="Credits">
+
+http://biodidac.bio.uottawa.ca/thumbnails/filedet.htm?File_name=AVES029B&File_type=GIF
+
+https://pxhere.com/en/photo/1230998
+
+</f-notes>
+
+---
+
+| 1 1 1 2 2
+
+<caption>Optimization with sticks and strings</caption>
+
+## On Growth and Form
+
+> ~*The beauty and strength of the mechanical construction lie not in one part or in another, but in the harmonics concatenation which all parts, soft and hard, rigid and flexible, tension bearing and pressure-bearing, make up together*~
+
+<small>Thompson, D. A. W., & Bonner, J. T. (2014). On Growth and Form. Cambridge, United Kingdom: Cambridge University Press.</small>
+
+-
+
+<img src="./images/skeletal.png" />
+
+<p />
+
+<img src="./images/musculatory.png" />
+
+<f-notes title="Credits">
+
+https://academy.allaboutbirds.org/features/birdanatomy/
+
+<f-notes>
+
+---
+
+| section: Exercise: Create a space frame
+| padding: 0
+| 1 2 2
+
+<section>
+
+<caption>Optimization with sticks and strings</caption>
+
+<caption>🛠️ Hands-on exercise</caption>
+
+## Create a space frame
+
+Try to build a space frame using ice-cream sticks and strings/lines.
+
+</section>
+
+-
+
+<f-image src="./images/roof.jpg" />
+
+<f-notes title="Credits">
+
+https://commons.wikimedia.org/wiki/File:Modern_steel_station_roof_of_Zaandam_as_a_space_truss_construction_to_give_maximum_transparancy_to_the_townhall_-_panoramio.jpg
+
+</f-notes>
+
+---
+
+***TODO: What to do here?***
+
+<caption>Optimization with sticks and strings</caption>
+
+-
+
+<img src="./images/doc1.jpg" />
+
+-
+
+
+<img src="./images/doc2.jpg" />
+
+-
+
+<img src="./images/doc3.jpg" />
+
+---
+
+<caption>Optimization with sticks and strings</caption>
+
+## Exercise 2
+
+Now build a model of a functional structure using only sticks and strings. 
+
+Continue for inspiration and information ***TODO: Continue to where?***
+
+---
+
+| 1 1 1
+| 2 3 4
+ 
+<caption>Optimization with sticks and strings</caption>
+
+## Exercise 2: Examples and resources
+
+-
+
+<img src="./images/mat1.jpg" />
+
+-
+
+<img src="./images/mat2.jpg" />
+
+-
+
+### Claus Mattheck
+
+<a href="https://publikationen.bibliothek.kit.edu/220080224/3815736">Computer-free Design using the Method of Force Cones</a> (PDF)
+
+<a href="https://publikationen.bibliothek.kit.edu/220080225/3815737">Example topologies using the method of force cones</a> (PDF)
+
+<a href="https://publikationen.bibliothek.kit.edu/220078860/3815665">Further verification of the method of force cones</a> (PDF)
+
+
+<f-notes title="Credits">
+
+Mattheck, C. (2007). Secret design rules of nature: Optimum shapes without computers. Karlsruhe: Forschungszentrum Karlsruhe.
+
+</f-notes>
+
+---
+
+| theme: dark
+| 1 1 1 1 2 3 3 3 4 4 4
+| 1 1 1 1 2 5 5 5 6 6 6
+
+## Two more<br>to go
+
+There is two more deformation types to go, take your pick.
+
+-
+
+-
+
+<f-card style="height: 40vh; opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with folds</h4>
+</f-card>
+
+-
+
+<f-card  style="height: 40vh;  opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')"><h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4></f-card>
+
+-
+
+<f-card style="height: 40vh;" background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with cells</h4>
+</f-card>
+
+-
+
+<f-card style="height: 40vh;" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
+</f-card>
+
+---
+
+| chapter: Optimization with cells
+| section: Optimization with cells
+| 1 1 1 2 2
+| padding: 0
+
+<section>
+
+<caption>Optimization with cells</caption>
+
+## Hexagon for energy optimization
+
+A hexagon is a form we see everywhere in nature when energy optimization is needed. 
+
+For example in a honeycomb, radiolaria or dried clay.
+
+<div class="grid" style="--cols: 1fr 1fr; --rows: 25vh">
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bee_on_his_alvear.jpg/1920px-Bee_on_his_alvear.jpg" />
+
+<f-image src="./images/clayground.jpg" />
+
+</div>
+
+</section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/The_royal_natural_history_%281893%29_%2814778597471%29.jpg/800px-The_royal_natural_history_%281893%29_%2814778597471%29.jpg" />
+
+<f-notes title="Credits">
+
+Image sources: https://commons.wikimedia.org/wiki/File:Apis_florea_nest_closeup2.jpg
+https://commons.wikimedia.org/wiki/File:Radiolaria_(Challenger)_Plate_135.jpg
+
+</f-notes>
+
+---
+
+| section: Exercise: make a beeboard
+| 1 1
+| 2 3
+| rows: auto 1fr
+
+<caption>Optimization with cells</caption>
+
+<caption>🛠️ ️️Hands-on exercise<caption>
+
+## Make a beeboard
+
+-
+
+Honeycombs can be found in a vast variety of structures. Especially it’s used as core infill for composite sandwiches used in aerospace structures or your everyday kitchen door. Honeycombs are hexagonal-shaped cells.
+
+It’s lightweight and when it’s pressed into a mould, it adapt to its form. 
+
+Beeboard you’ll find in your everyday kitchen cabinet door.
+
+-
+
+> #### You will need
+* Two sheets of paper format A3, if you use thicker paper you probably need a ruler and a cutter to etch the lines first
+* pencil
+* double-sided tape
+* cutter
+
+
+---
+
+| 1 1 1 
+| 2 3 3
+| 4 5 5
+| 6 7 7
+| 8 9 9
+
+<caption>Optimization with cells</caption>
+
+<caption>🛠️ ️️Hands-on exercise<caption>
+
+## Make a beeboard: the steps
+
+-
+
+<img src="./images/bee1.jpg">
+
+-
+
+#### 1.
+
+Print out the PDF attachment in two copies (it is advised to use differently colored papers).
+
+<a class="tertiary" href="./files/beeboard.pdf"><f-arrow-icon rotation="90" />Download beeboard PDF</a>
+
+***TODO/SANDRA: Where is downloadable template?***
+
+-
+
+<img src="./images/bee2.jpg">
+
+-
+
+#### 2.
+
+Fold your sheets as seen in the illustration above. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
+
+---
+
+| 1 1 1 
+| 2 3 3
+| 4 5 5
+
+<caption>Optimization with cells</caption>
+
+<caption>🛠️ ️️Hands-on exercise<caption>
+
+## Make a beeboard: the steps
+
+-
+
+<img src="./images/bee4.jpg">
+
+-
+
+#### 3. 
+
+Tape the "hills" with double-sided tape. Then put the other sheet on top of it, so you’ll have long honeycomb shape cylinders.
+
+-
+
+<img src="./images/bee6.jpg">
+
+-
+
+#### 4. 
+
+Cut the taped sheets into shorter parts. Tape those shorter part on top of each other. 
+
+---
+
+| background: ./images/bee7.jpg
+| theme: dark
+| tint: 0.3
+
+<center>
+
+#### 5. 
+
+Stretch the parts, so the<br>honeycomb beeboard will appear.
+
+</center>
+
+---
+
+| 1 2
+| 3 4
+
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Molecular_world.jpg" />
+
+-
+
+<f-image src="http://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_06_20-watercube1.jpg" />
+
+-
+
+<f-image src="http://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_06_20-watercube2.jpg" />
+
+-
+
+<f-image src="https://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_05_15-tetrakaidecahedron-19.jpg" />
+
+---
+
+| 1 1 2
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Olympic2008_watercube02_night.jpg" />
+
+-
+
+<f-image style="--image-position: left center" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Fireworks_-_panoramio_-_wuqiang_beijing_%282%29.jpg" />
+
+---
+
+<caption>Optimization with cells</caption>
+
+## Exercise 2: Soap bubbles
+
+The 3D version of a honeycomb you get when you stack balls in a crate and put weight on them, causing the walls to be pressed to each other. 
+
+The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
+
+Imagine the balls are soap bubbles, they even start to share the walls!
+
+---
+
+<caption>Optimization with cells</caption>
+
+When you look at soap bubbles, you see they’re not regular; they vary in size and shape. 
+
+This depends on the external forces, but also on the material properties of the bubble itself, like surface tension, viscosity or the competitive growth of the bubbles due to the air or gas. 
+
+-
+
+Researching the Voronoi diagram
+
+Let’s see if we can mimic dried clay and soap bubbles and modify them into possible emergency plans!   
+
+<f-inline>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/This_must_be_art_%28explored%29_%284457914327%29.jpg/1280px-This_must_be_art_%28explored%29_%284457914327%29.jpg" style="width: 56%">
+
+<img src="./images/clayground.jpg" style="width: 50%">
+
+</f-inline>
+
+<f-notes title="Credits">
+
+Image sources: https://commons.wikimedia.org/wiki/File:This_must_be_art_(explored)_(4457914327).jpg
+https://pixabay.com/photos/drought-ground-clay-cracks-dry-964339/
+
+</f-notes>
+
+---
+
+***TODO*** layout
+
+<caption>Optimization with cells</caption>
+
+Georgy Voronoi was a Russian mathematician. A Voronoi diagram is built out of various polygons. Imagine you’re are in region and you’re looking for the closest hospital. The region is divided in areas (polygons) with nodes. Every node represents a hospital.
+
+**At any point in the polygon you’re closer to the node it contains than to any other node in the whole region.**
+
+And, at any point along the boundaries of the polygons, you are at the same distance from at least two nodes. This makes these diagrams very useful for many applications such as mapping and zoning, for example to find the nearest hospital.
+
+-
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Voronoi_growth_euclidean.gif" />
+
+---
+
+| 1 2 2 2
+
+<caption>Optimization with cells</caption>
+
+<caption>🛠️ Hands-on exercise</caption>
+
+## Hand-drawn
+
+Now make your own Voronoi diagram based on the nodes that represents...
+
+[See the instruction on Instructables](https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/)
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=bmaUtG4CbOs" />
+
+---
+
+| padding: 0
+| 2 2 1
+
+<section>
+
+<caption>Optimization with cells</caption>
+
+## Back to the bone
+
+When you cut a thigh bone you’ll see a foam structure that is optimally formed by the forces it has to carry. So, bone is strong and light. 
+
+And: like foam bone could eliminate material by adapting to the change of the environment, but of course not at the same speed soap bubbles do! 
+
+</section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Bone_structure_marco_photo.jpg/1920px-Bone_structure_marco_photo.jpg" />
+
+---
+
+| theme: dark
+| 1 1 1 1 2 3 3 3 4 4 4
+| 1 1 1 1 2 5 5 5 6 6 6
+
+## Almost there
+
+We are almost done with the optimization types, there is just one more to go. Here comes the <var>deformation</var>.
+
+-
+
+-
+
+<f-card style="height: 40vh; opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with folds</h4>
+</f-card>
+
+-
+
+<f-card  style="height: 40vh;  opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')"><h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4></f-card>
+
+-
+
+<f-card style="height: 40vh; opacity: 0.25" background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with cells</h4>
+</f-card>
+
+-
+
+<f-card style="height: 40vh;" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
+</f-card>
+
+---
+
+| chapter: Optimization by deformation
+| section: Optimization by deformation
+| 1 2 2
+
+<caption><big>Optimization by deformation</big></caption>
+
+## Deformation
+
+The <var>deformation</var> (and even <var>failure</var>) of existing materials and structures under load can be very instructive for the designing and building of new ones.
+
+First of all, deformation teaches us about fundamental loads and stresses.
+
+Prof. Dr. Claus Mattheck uses rubber plates and sheets of aluminum foil to help you visualize loads and stresses in structures.
+
+-
+
+<div class="grid" style="--cols: 1fr 1fr; --rows: 40vh 40vh">
+  <f-image src="./images/rubber1.jpg"/>
+  <f-image src="./images/rubber2.jpg"/>
+  <f-image src="./images/rubber3.jpg"/>
+  <f-image src="./images/rubber4.jpg"/>
+</div>
+
+<f-notes title="Credits">
+
+Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
+
+</f-notes>
+
+<!--
+
+TODO: Notes for a tool
+
+## Virtual rubber sheet
+
+#### Graphics
+
+* A black square with (the suggestion) of a frame made out of four wooden struts that can hinge (see below)
+
+* With 1 or more holes
+
+* A slight 3D/axonometric view also possible (object turned a little relative to the camera)
+
+#### Animation/interaction
+
+* Sheet and hole(s) are responding to applied forces making visible the effect and direction of compression, tension, shear and bending
+
+
+<img src="./images/rubber.png" />
+
+
+<img src="./images/shear1.png" />
+
+<img src="./images/shear1.png" />
+
+-->
+
+---
+
+| background: ./images/house.jpg
+| theme: dark
+
+<center>
+
+<big>Deformation also acts as a<br>**warning signal**</big>
+
+</center>
+
+<f-notes title="Credits">
+
+https://www.geograph.org.uk/photo/346439
+
+</f-notes>
+
+---
+
+<caption>Optimization by deformation</caption>
+
+## Deformation as a shape optimization
+
+Last but not least: deformation can be seen as a kind of <var>shape optimization</var>.
+
+Let’s go back to the rubber plates and sheets of  aluminum foil of Prof. Dr. Mattheck.
+
+The way these (isotropic) **materials** bend, fold, stretch and twist can be seen as an effective adaptation to loads.
+
+-
+
+<img src="./images/defor1.jpg" />
+
+-
+
+<img src="./images/defor2.jpg" />
+
+<img src="./images/defor3.jpg" />
+
+<f-notes title="Credits">
+
+Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
+
+</f-notes>
+
+---
+
+<caption>Optimization by deformation</caption>
+
+## Shapes under stress
+
+Holes and notches in a piece of rubber under stress deform in such a way that local concentrations of stresses are reduced and loads are distributed evenly.
+
+The shapes that "occur" in this way are to be found all over in the natural and manmade world!
+  
+-
+
+<img src="./images/defor5.jpg" />
+
+-
+
+<img src="./images/defor4.jpg" />
+
+<f-notes title="Credits">
+
+Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Institute of Technology.
+
+</f-notes>
+
+---
+
+| 1 1 2 2 2
+
+<caption>Optimization by deformation</caption>
+
+## Deformation as a clue
+
+The way aluminum foil deforms (and eventually tears) under tension tells us a lot about lines of <var class="gray">compression</var> and <var class="gray">tension</var>.
+
+Here too, deformation offers us clues about the optimal shape given a particular load.
+ 
+-
+
+<img src="./images/defor6.jpg" />
+
+<f-notes title="Credits">
+
+Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Institute of Technology.
+
+</f-notes>
+
+---
+
+| 2 2 3 3
+| 1 1 1 4
+| rows: 1fr 3fr
+
+<caption>Optimization by deformation</caption>
+
+## Stressed shape as a template
+
+The shape of components under stress can be used as a <var>template</var> for a new design that’s better suited for a particular load:
+
+1. Apply force and observe the  deformation.
+
+2. Use the deformation as the basis of a manufactured form.
+
+-
+
+<img src="./images/defor7.jpg" style="width: 80%" />
+
+-
+
+<img src="./images/defor8.jpg"  style="width: 80%"  />
+
+-
+
+<f-notes title="Credits">
+
+Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
+
+</f-notes>
+
+---
+
+<caption>Optimization by deformation</caption>
+
+## Push, pull, bend and twist
+
+1. Take a sponge and a piece of chamois cloth (‘shammy’).
+
+2. Push, pull, bend, twist and/or tear them any way you want. 
+
+3. Observe the deformations closely and try to understand the loads and stresses that led to these shapes.
+
+4. Use the **three** shapes that appeal to you most, or in which you sense some technical use.
+
+5. Make a quick sketch of a product that utilizes these shapes.
+
+-
+
+<img src="./images/sponge.jpg" />
+
+<f-notes title="Credits">
+
+Image source:
+https://commons.wikimedia.org/wiki/File:Sponge-viscose.jpg
+
+</f-notes>
+
+
+
+
+
+
+---
+
+
+
+
+
+
+| theme: dark
+| 1 1
+| 2 3
+| rows: auto 1fr
+
+## Design assignment
+
+-
+
+#### The challenge
+
+You have practiced with different ways and techniques to optimize strength and adaptability in your construction when designing a new product.
+
+**Design a usable object using one or more of the optimization techniques** (optimization with folds, optimization with sticks and strings, optimization with cells, optimization by deformation).
+
+-
+
+#### Key steps
+
+1. Choose your preferred technique(s).
+
+2. Find a reference in nature or in an existing design object and describe why it appeals to you.
+
+3. Make at least three 2D sketches. 
+
+4. Choose one of or combine your 2D sketches and make a 3D sketch model of it.
+
+5. Evaluate your model, add or adjust where needed.  
+
+6. Make your final object.
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+| chapter: Zero waste products
+| section: Zero waste products
+| 1 1
+| 2 3
+| rows: 1fr auto
+| padding: 0
+
+<f-image src="./images/flax.jpg" />
+
+-
+
+<section style="padding-top: var(--base2)">
+
+## Zero waste products
+
+With the Flax Chair Christien Meindertsma tried to use a **local biodegradable product** in a new contemporary way and she made sure to use the material as economical as possible, leaving **zero wasted material**
+
+</section>
+
+-
+
+<section style="padding-top: var(--base2)">
+
+<f-video src="https://www.youtube.com/watch?v=eb7zJCavMJ0" />
+
+</section>
+
+---
+
+## From flax to form
+
+A new **composite material** was created **to fit in a circular system**, using four layers of an existing woven flax textile and five layers of a newly developed dry-needle felted flax. 
+
+The soft pile of fabrics is heat pressed, melting the **flax** and **PLA** (a biodegradable plastic) into the shape of a rigid chair.
+
+-
+
+<img src="./images/flax.jpg" />
+
+<f-notes title="Credits">
+
+https://christienmeindertsma.com/Flax-Chair
+
+</f-notes>
+
+---
+
+| section: Sustainable materials
+
+## Design to disappear
+
+In the past 20 years designers, artists and makers are looking more and more for **sustainable alternatives**. Ecology and design became an integrated practice.
+
+As an answer to the throw-away society they choose for a **circular approach**. Their ideal is that disposable products are fully degradable or be a raw material for something new. Making degradable objects could be done with biobased material.
+
+-
+
+## Experiment to design
+
+With this circular approach designers, architects, makers, scientists and craftsmen all participate in the **experimentation with materials** and are forced to work together interdisciplinary.
+
+Their inventiveness and creativity comes possible from this opportunity of **working with hands, new techniques** and by **working interdisciplinary**.
+
+---
+
+| section: Dung as a material
+| 1 1 2 2 2
+| 1 1 3 3 3
+| gap: var(--base2) var(--base10)
+
+## From disgust to desire
+
+By 2050 when the population exceed nine billion, feces, hair and dust are among the few natural resources which are actually increasing.
+
+Dung is a low value natural material, and you could make functional products of it.
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Arianit_Brod_image151.jpg">
+
+-
+
+<f-image src="./images/merdacotta1.jpg" />
+
+<f-notes title="Credits">
+
+Image source:
+
+Henrik Blomqvist for Museo della Merda
+
+
+</f-notes>
+
+
+---
+
+| theme: dark
+| background: https://alternativecommunication.files.wordpress.com/2013/09/exposition-alive-fondation-edf-paris_2013-05.jpg?w=1309&h=978
+| tint: 0.5
+
+<center style="padding: 0 var(--base10)">
+
+<big>*~Imagine a world where biological fabrication replaces traditional manufacture, plants that grow products, and bacteria genetically re-programmed to "biofacture" new materials, artifacts, energy or medicine.~*</big>
+
+<small>Quote of Carole Collet at ‘Alive’ exhibition held in Paris, 2013</small>
+
+</center>
+
+<f-notes title="Credits">
+
+https://alternativecommunication.wordpress.com/2013/09/04/exhibition-alive-at-the-design-frontiers/
+
+</f-notes>
+
+---
+
+| section: Living materials
+| 1 2 2
+
+## Living materials - mycelium
+
+<big><var>my·ce·li·um (mī-sē′lē-əm)</var></big>
+~*n. pl.* my·ce·li·a (-lē-ə)~
+
+1) The vegetative part of a fungus, consisting of a mass of branching, threadlike hyphae.
+
+2) A similar mass of fibers formed by certain bacteria.
+
+In other words: mycelium is a dense network of fungal threads of which mushroom sprout and of which one could make a variety of products.
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=jBXGFOk5_Rs" />
+
+---
+
+## Living materials - bacteria
+
+Susan Lee, textile designer, and David Hepworth, scientist, are pioneers of producing fabrics and clothing from bacteria-generated cellulose.
+
+https://ideas.ted.com/the-skirt-and-shoe-made-from-kombucha/
+
+-
+
+<f-video src="https://www.youtube.com/watch?v=Ds8ZFzOwGeI" />
+
+---
+
+| section: Exercise: Bio-based materials
+
+## Exercise
+
+We talked about three examples of bio-based material. Now research your own.
+
+1. Per person find one other bio-based material and fill in the A5 Format you find below. (You can use this in Indesign or Photoshop)
+
+2. Safe it as a PDF file and optionally print it on thick paper and cut to A5 size. 
+
+3. Combine all the cards to make your class library of bio-based materials. 
+
+https://drive.google.com/file/d/1TZXeotMLKTi6G3FSeWWT4-mc6w9l6dpM/view
+
+***TODO*** Convert to PDF
+
+---
+
+| section: Shape and countershape
+
+## Shape and Countershape
+
+Remember Christien Meindertsma’s FLAX Chair? 
+
+She made optimal use of the material **using the full sheet of cloth** to make a chair.
+
+The principle behind this is **using shape and countershape**. 
+
+-
+
+<img src="./images/flax2.jpg" />
+
+<f-notes title="Credits">
+
+https://christienmeindertsma.com/Flax-Chair
+
+</f-notes>
+
+---
+
+***TODO*** ERIK credits
+
+<caption>Shape and Countershape</caption>
+
+The principle of shape and countershape is used across all art and design disciplines; graphic design, art, product design, etc. 
+
+Let’s look at some examples.
+
+-
+
+<img src="./images/shape1.png" />
+
+---
+
+| 1 2 2 3 3
+
+<caption>Shape and Countershape</caption>
+
+In graphic design...
+
+-
+
+<img src="./images/shape2a.png" />
+
+<img src="./images/shape2b.png" />
+
+-
+
+<img src="./images/shape2c.png" />
+
+<img src="./images/shape2d.png" />
+
+---
+
+| 1 2 2 3 3
+
+<caption>Shape and Countershape</caption>
+
+In art...
+
+-
+
+<img src="./images/shape3a.png" />
+
+-
+
+<img src="./images/shape3b.jpg" />
+
+---
+
+| 1 2 2
+
+<caption>Shape and Countershape</caption>
+
+In product design...
+
+Here working with shape and countershape is a great way to make something and **minimize waste material** at the same time!
+
+-
+
+<img src="./images/shape4.png" />
+
+<f-notes title="Credits">
+
+http://www.co-oproduct.org/rethink/design-cat/zero-waste-design/details/14/59-zero-waste-menswear
+
+</f-notes>
+
+---
+
+<caption>Shape and Countershape</caption>
+
+Another example in product design is the **Mobilier puzzle** of Jean-Pierre Levasseur. 
+
+It uses both shape and countershape to get a complete dollhouse interior out of one sheet of pre-cut plywood.
+
+Of course you could apply this on a bigger scale for life-size furniture...
+
+<img src="./images/mobilier3.png" />
+
+-
+
+<img src="./images/mobilier1.png" />
+
+<img src="./images/mobilier2.png" />
+
+
+---
+
+| section: Exercise: Shape and countershape
+
+<caption>Shape and Countershape</caption>
+
+## Exercise
+
+1. Choose your discipline, 2D (think graphic design) or 3D (think product design or art) 
+
+2. Find at least three images of examples within your discipline in which the technique of shape and countershape is being used. (10 minutes)
+
+3. Design a 2D or 3D design using the shape and countershape technique. Make a small prototype/sketch within. (30 minutes)
+
+---
+
+| section: Folding
+| rows: auto 1fr
+| 1 1 1
+| 2 2 3
+| padding: 0
+
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap: 0; height: 40vh">
+  <f-image src="./images/folaroid1.jpg" />
+  <f-image src="./images/folaroid2.jpg" />
+  <f-image src="./images/folaroid3.jpg" />
+  <f-image src="./images/folaroid4.jpg" />
+</f-inline>
+
+-
+
+<section>
+
+<caption>Folding</caption>
+
+## Foldaroid
+
+To have **as little as possible waste** material, you can also use folding techniques. 
+
+For example the **Foldaroid stool** by Anthony Yu Wei Tong.
+
+</section>
+
+-
+
+<img src="./images/folaroid5.jpg" />
+
+---
+
+| background: ./images/zseat.jpg
+| theme: dark
+
+<center>
+
+<big>Here is folded **Z seat** by Studio Stallinga</big>
+
+</center>
+
+<f-notes title="Credits">
+
+Image source:
+
+Studio Stallinga, www.stallinga.nl
+
+</f-notes>
+
+
+---
+
+| section: Cut and fold
+| padding: 0
+| 1 2 2
+
+<section>
+
+<caption>Cut and Fold</caption>
+
+## Pop-up Lamp
+
+Another option for optimizing your material use and minimizing waste is **using a combination of cuts and folds**.
+
+A perfect example is the **Pop-up Lamp** by the French studio Well Well Designers is. It’s constructed from one sheet of paper with a special coating.
+
+</section>
+
+-
+
+<f-image src="./images/popuplamp.jpg" />
+
+<f-notes title="Credits">
+
+Image source: Well Well Designers, www.wellwelldesigners.com
+
+</f-notes>
+
+---
+
+| 2 3 1
+| 4 5 1
+| padding: 0
+| gap: 0
+
+<section>
+
+<caption>Cut and Fold</caption>
+
+## Origami Folding Lamp
+
+A bit more elaborate is the **Origami Folding Lamp** by Mirco Kirsch.
+
+</section>
+
+-
+
+<f-image src="./images/origamilamp1.jpg" />
+
+-
+
+<f-image src="./images/origamilamp3.jpg" />
+
+-
+
+<f-image src="./images/origamilamp2.jpg" />
+
+-
+
+<f-image src="./images/origamilamp4.jpg" />
+
+<f-notes title="Credits">
+
+Image source:
+
+Design Boom, www.designboom.com
+
+</f-notes>
+
+---
+
+| background: ./images/aviator3.png
+| tint: 0
+| 1 2 2 2 
+ 
+<caption>Cut and Fold</caption>
+
+## Aviator Chair
+
+Zev Bianchi and Bcompact design used a fancier version of cutting and folding called **kerf bending** to make the **Aviator Chair** out of one sheet of plywood. To the right you see there prototypes in paper.
+
+-
+
+<f-notes title="Credits">
+
+Image source: Core77, www.core77.com
+
+</f-notes>
+
+---
+
+| theme: dark
+| 1 2 2
+| 1 3 3
+
+<caption>Cut and Fold</caption>
+
+<caption>🛠️ ️️Hands-on exercise<caption>
+
+## Paper Aviator 
+
+Try to make a chair out of paper using the cut and fold technique in the template. Print the PDF from the link below.
+
+<a class="tertiary" href="./files/cut_and_fold_chair.pdf"><f-arrow-icon rotation="90" />Download chair PDF</a>
+
+-
+
+<f-image src="./images/aviator1.png" />
+
+-
+
+<f-image src="./images/aviator2.png" />
+
+
+---
+
+| section: Design assignment
+| theme: dark
+| 1 1 1
+| 2 3 3
+| 4 4 4
+
+
+## Design assignment
+
+-
+
+You have practiced with different ways and techniques to minimize waste when designing a new product. 
+
+Design a usable object using one of the techniques (shape and countershape folding, cut and fold). 
+
+Do this by following the steps on the next slide. 
+
+-
+
+#### Key steps
+
+1. Choose your material and look at the dimensions of the material. 
+
+2. Make at least three 2D sketches. Keep in mind that you cannot have waste material. For example if you use a sheet of hardboard take the standard size to work with. (You can also make your design in such a way that you can make multiple out of one sheet.)
+
+3. Choose one of or combine your 2D sketches and make a 3D sketch model of it. 
+
+4. Evaluate your model, add or adjust where needed.  
+
+5. Make your final object.
+
+---
+
+| section: Wrapping up
+| padding: 0
+
+<section>
+
+## Wrapping up
+
+#### Related DesignSTEM projects
+
+<a href="../biomimicry">Biomimicry</a> explores the concept of <var>biodesign</var>, <var>bionics</var> and new kind of <var>artificial ecology</var>.
+
+<a href="../equilibrium">Equilibrium</a> project allows to experiment with different plastic types and their buoyancy.
+
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+
+</section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg" />
