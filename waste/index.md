@@ -1108,51 +1108,6 @@ Stretch the parts, so the<br>honeycomb beeboard will appear.
 
 ---
 
-| 1 2
-| 3 4
-
-
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Molecular_world.jpg" />
-
--
-
-<f-image src="http://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_06_20-watercube1.jpg" />
-
--
-
-<f-image src="http://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_06_20-watercube2.jpg" />
-
--
-
-<f-image src="https://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_05_15-tetrakaidecahedron-19.jpg" />
-
----
-
-| 1 1 2
-
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Olympic2008_watercube02_night.jpg" />
-
--
-
-<f-image style="--image-position: left center" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Fireworks_-_panoramio_-_wuqiang_beijing_%282%29.jpg" />
-
----
-
-<caption>Optimization with cells</caption>
-
-## Exercise 2: Soap bubbles
-
-The 3D version of a honeycomb you get when you stack balls in a crate and put weight on them, causing the walls to be pressed to each other. 
-
-The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
-
-Imagine the balls are soap bubbles, they even start to share the walls
-
-[See more](https://www.designcoding.net/weaire-phelan-structure/)
-
-
----
-
 <caption>Optimization with cells</caption>
 
 When you look at soap bubbles, you see they’re not regular; they vary in size and shape. 
@@ -1194,7 +1149,13 @@ And, at any point along the boundaries of the polygons, you are at the same dist
 
 ---
 
-...
+## 2D construction
+
+Let's see how nature comes up with structures like hexagons and soap bubbles. 
+
+For simplification let's tackle two dimensions first and use a set of circles arranged in 2D plane.
+
+**Let's extend the circle radiuses so they extend and collide with other circles.**
 
 -
 
@@ -1226,18 +1187,21 @@ And, at any point along the boundaries of the polygons, you are at the same dist
   </f-group>
 </f-scene>
 
+<p />
+
+When extending **regular** set of circles, we end up with a <var>hexagonal</var> structure.
+
 -
 
 <img style="filter: grayscale(100%)" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Voronoi_growth_euclidean.gif" />
 
 <p />
 
-When extending **irregular** circles, we end up with a structure that. Mathemathically it is called <var>Voronoi diagram</var>
- or its dual, <var>Delaunay triangulation</var>.
+When extending **irregular** set of circles, we end up with a dried clay like structure. It is called <var>Voronoi diagram</var> or its dual <var>Delaunay triangulation</var>.
 
 ---
 
-| 1 2 2 2
+| 1 2 2
 | background: var(--lightergray)
 
 <caption>Optimization with cells</caption>
@@ -1246,13 +1210,59 @@ When extending **irregular** circles, we end up with a structure that. Mathemath
 
 ## Hand-drawn Voronoi
 
-Now make your own Voronoi diagram based on the nodes that represents...
+The algorithm how Voronoi diagram is drawn is [explained here](https://observablehq.com/@mbostock/the-delaunays-dual). But let's get hands on and make our own Voronoi with paper, ruler and pencil.
 
 [See the instructions on Instructables](https://www.instructables.com/id/Hand-Drawn-Voronoi-Diagrams/)
 
 -
 
 <f-video src="https://www.youtube.com/watch?v=bmaUtG4CbOs" />
+
+---
+
+| 1 2 3
+| 1 4 5
+
+## 3D structure
+
+The 3D version of a honeycomb you get when you stack balls in a crate and put weight on them, causing the walls to be pressed to each other, creating soap bubble foam like structure.
+
+The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
+
+[See more](https://www.designcoding.net/weaire-phelan-structure/)
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Molecular_world.jpg" />
+
+-
+
+<f-image src="http://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_06_20-watercube1.jpg" />
+
+-
+
+<f-image src="http://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_06_20-watercube2.jpg" />
+
+-
+
+<f-image src="https://www.designcoding.net/decoder/wp-content/uploads/2013/05/2013_05_15-tetrakaidecahedron-19.jpg" />
+
+---
+
+| 1 1 2
+| 3 3 3
+| rows: 1fr auto
+| background: #000
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Olympic2008_watercube02_night.jpg" />
+
+-
+
+<f-image style="--image-position: left center" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Fireworks_-_panoramio_-_wuqiang_beijing_%282%29.jpg" />
+
+-
+
+China...
 
 ---
 
