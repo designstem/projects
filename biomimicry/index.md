@@ -615,9 +615,14 @@ All your senses have been applied and most of its biodesign concepts have been *
 ### Can you find *STEM* related questions after you observed this ‘design’ product of nature?
 
 
-<details>
-	<summary>#### *Questions to get you started*</summary>
-  
+<!-- <details>
+
+<summary>
+
+#### Questions to get you started
+    
+</summary>
+
 - How much total weight does the object have?
 - How much juice does it contain?
 - How much can you strech the orange?
@@ -629,7 +634,7 @@ All your senses have been applied and most of its biodesign concepts have been *
 - Can you calculate the angles between the containers?
 - Can you calculate the dimensions of the orange (length, with, thickness, perimeter)?
 
-</details>
+</details> -->
 
 
 ##### *A few questions to get you started*
@@ -1207,42 +1212,16 @@ Student work, photo by Jacinta Costa.
 ---
 
 
+
+
+
+
+
+
 | section: Wrapping up
-| cols: 0.25fr 4fr
-| 2 1
-
-## Wrapping up
-
-##### Related DesignSTEM projects:
-
-<a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a> allows to play around with 2D pattern compositions.
-<a href="https://designstem.github.io/scenarios/dyes">Natural dyes</a> ***TODO*** description
-
-
-
-##### Other materials:
-
-<a href="https://asknature.org/?s=&p=0&hFR%5Bpost_type_label%5D%5B0%5D=Resources">Asknature.org</a> 
-<small>A huge list of biomimicry-related resources</small>
-
-
-&nbsp;
-
-<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
-
-
--
-
----
-
-
-
-
-
 | cols: 0.25fr 2fr 2fr
-| 5 1 1
-| 5 2 4
-| 5 3 4
+| 4 1 1
+| 4 2 3
 
 ## Past, present and future
 
@@ -1250,14 +1229,18 @@ Student work, photo by Jacinta Costa.
 
 Looking for further action regarding bionics and biomimicry, here we have some useful links and books.
 
-##### Related DesignSTEM projects:
+#### Related DesignSTEM projects:
 
 <a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a> allows to play around with 2D pattern compositions.
 <a href="https://designstem.github.io/scenarios/dyes">Natural dyes</a> ***TODO*** description
 
--
+<br />
 
 Do not forget to see the amazing design classic video by Charles and Ray Eames – <f-link to="https://youtu.be/0fKBhvDjuy0">Power of Ten</f-link> and then go to the future and see the 3 episodes of <f-link to="https://www.youtube.com/playlist?list=PLcaslO5tNg4QX0EI0YQjK8vtz47n42NcX">Nature Tech</f-link>
+
+<br />
+
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
 -
 
