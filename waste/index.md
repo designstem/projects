@@ -125,6 +125,7 @@ Have a look at his [Ocean Cleanup foundation website](https://www.theoceancleanu
 | section: Look for initiatives
 | 1 2 2
 | padding: 0
+| background: var(--lightergray)
 
 <section>
 
@@ -148,6 +149,7 @@ Have a look at his [Ocean Cleanup foundation website](https://www.theoceancleanu
 | rows: auto 1fr
 | 1 1 1
 | 2 3 3
+| background: var(--lightergray)
 
 <caption>💬 Discuss</caption>
 
@@ -180,6 +182,7 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 | 1 1 1
 | 2 3 3 
 | rows: auto 1fr
+| background: var(--lightergray)
 
 <caption>📺💬 Watch and discuss</caption>
 
@@ -204,6 +207,8 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 | section: Make a flat lay from waste
 | padding: 0
 | 1 2 2
+| background: var(--lightergray)
+
 <section>
 
 <caption>📷 Take photos</caption>
@@ -243,13 +248,21 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 -
 
-<f-card style="height: 80vh;" background="white" color="var(--darkgray)" @click.native="goto('Minimal use of material')">
-<h3 style="margin: 0; color: var(--darkgray);">Minimal use of material</h3>
+<f-card style="height: 80vh; padding: var(--base4);" background="white" color="var(--darkgray)" @click.native="goto('Minimal use of material')">
+<div>
+<h2 style="padding: 0"><span class="bullet">1</span></h2>
+<h3 style="margin: 0; color: var(--darkgray);">Minimal use<br>of material</h3>
+</div>
 </f-card>
 
 -
 
-<f-card  style="height: 80vh;" background="white" color="var(--darkgray)" @click.native="goto('Zero waste products')"><h3 style="margin: 0; color: var(--darkgray);">Zero waste products</h3></f-card>
+<f-card  style="height: 80vh; padding: var(--base4);" background="white" color="var(--darkgray)" @click.native="goto('Zero waste products')">
+<div>
+<h2 style="padding: 0"><span class="bullet">2</span></h2>
+<h3 style="margin: 0; color: var(--darkgray);">Zero waste products</h3>
+</div>
+</f-card>
 
 
 
@@ -279,16 +292,18 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 
 
-| chapter: Minimal use of material
+| chapter: 1. Minimal use of material
 | section: Minimal use of material
 | tint: 0
 | padding: 0
-
+| 1 1 1 2 2 
 <section>
+
+## 1.
 
 ## Minimal use of material
 
-### Bone Chair
+#### Bone Chair
 
 Due to innovative digital techniques we can create **customized, smart and more complex forms**. 
 Joris Laarman used topology optimization software based on the findings of professor Claus Mattheck to develop **a chair with a bone-like structure**.
@@ -317,6 +332,7 @@ Photo courtesy of Joris Laarman Lab, downloaded from: https://www.cooperhewitt.o
 
 | section: Chalk challenge
 | 1 1 1 2
+| background: var(--lightergray)
 
 <caption>🛠️ Hands-on activity</caption>
 
@@ -349,7 +365,7 @@ Photo courtesy of Joris Laarman Lab, downloaded from: https://www.cooperhewitt.o
 
 <section>
 
-## Why we mimic nature?
+## Why mimic nature?
 
 There’s a **duality** between nature and engineering, when it comes to lightweight constructions.
 
@@ -591,12 +607,12 @@ Pallas, Konstantin Grcic 2003, downloaded from: https://www.classicon.com/en/pro
 
 ---
 
-| theme: dark
+| background: var(--lightergray)
 | 1 2 3
 
 <caption>Optimization with folds</caption>
 
-## Adding strenght
+## Which is strongest?
 
 In the pictures you see two identical A4 papers folded in **hexagonal like** shapes.
 
@@ -612,7 +628,7 @@ Which one do you think is the strongest?
 
 ---
 
-| theme: dark
+| background: var(--lightergray)
 | 1 2 3
 | 1 4 5
 
@@ -980,6 +996,7 @@ https://commons.wikimedia.org/wiki/File:Radiolaria_(Challenger)_Plate_135.jpg
 | 1 1
 | 2 3
 | rows: auto 1fr
+| background: var(--lightergray)
 
 <caption>Optimization with cells</caption>
 
@@ -1011,6 +1028,7 @@ Beeboard you’ll find in your everyday kitchen cabinet door.
 | 4 5 5
 | 6 7 7
 | 8 9 9
+| background: var(--lightergray)
 
 <caption>Optimization with cells</caption>
 
@@ -1130,6 +1148,8 @@ The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahed
 
 Imagine the balls are soap bubbles, they even start to share the walls!
 
+https://www.designcoding.net/weaire-phelan-structure/
+
 ---
 
 <caption>Optimization with cells</caption>
@@ -1178,6 +1198,7 @@ And, at any point along the boundaries of the polygons, you are at the same dist
 ---
 
 | 1 2 2 2
+| background: var(--lightergray)
 
 <caption>Optimization with cells</caption>
 
@@ -1378,11 +1399,9 @@ Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Ins
 
 ---
 
-| 1 1 2 2 2
-
 <caption>Optimization by deformation</caption>
 
-## Deformation as a clue
+## Deformation<br>as a clue
 
 The way aluminum foil deforms (and eventually tears) under tension tells us a lot about lines of <var class="gray">compression</var> and <var class="gray">tension</var>.
 
@@ -1400,9 +1419,10 @@ Mattheck, C. (2018). Pauli explains the form in nature. Karlsruhe: Karlsruhe Ins
 
 ---
 
-| 2 2 3 3
-| 1 1 1 4
-| rows: 1fr 3fr
+<f-inline>
+  <img src="./images/defor7.jpg" style="width: 33%" />
+  <img src="./images/defor8.jpg"  style="width: 33%"  />
+</f-inline>
 
 <caption>Optimization by deformation</caption>
 
@@ -1414,15 +1434,6 @@ The shape of components under stress can be used as a <var>template</var> for a 
 
 2. Use the deformation as the basis of a manufactured form.
 
--
-
-<img src="./images/defor7.jpg" style="width: 80%" />
-
--
-
-<img src="./images/defor8.jpg"  style="width: 80%"  />
-
--
 
 <f-notes title="Credits">
 
@@ -1432,9 +1443,16 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 ---
 
+| padding: 0
+| 1 1 1 2 2
+
+<section style="background: var(--lightergray)">
+
+<caption>🛠️ ️️Hands-on exercise</caption>
+
 <caption>Optimization by deformation</caption>
 
-## Push, pull, bend and twist
+## Push, pull,<br>bend and twist
 
 1. Take a sponge and a piece of chamois cloth (‘shammy’).
 
@@ -1446,9 +1464,15 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 5. Make a quick sketch of a product that utilizes these shapes.
 
+</section>
+
 -
 
+<center>
+
 <img src="./images/sponge.jpg" />
+
+</center>
 
 <f-notes title="Credits">
 
@@ -1469,7 +1493,7 @@ https://commons.wikimedia.org/wiki/File:Sponge-viscose.jpg
 
 
 
-| theme: dark
+| background: var(--lightergray)
 | 1 1
 | 2 3
 | rows: auto 1fr
@@ -1519,44 +1543,29 @@ You have practiced with different ways and techniques to optimize strength and a
 
 
 
-| chapter: Zero waste products
+| chapter: 2. Zero waste products
 | section: Zero waste products
-| 1 1
-| 2 3
-| rows: 1fr auto
 | padding: 0
 
-<f-image src="./images/flax.jpg" />
+<section>
 
--
-
-<section style="padding-top: var(--base2)">
+## 2.
 
 ## Zero waste products
 
+#### Flax chair
+
 With the Flax Chair Christien Meindertsma tried to use a **local biodegradable product** in a new contemporary way and she made sure to use the material as economical as possible, leaving **zero wasted material**
 
-</section>
-
--
-
-<section style="padding-top: var(--base2)">
-
+<details>
+  <summary><big>📺💬 Watch and discuss</big></summary>
 <f-video src="https://www.youtube.com/watch?v=eb7zJCavMJ0" />
 
 </section>
 
----
-
-## From flax to form
-
-A new **composite material** was created **to fit in a circular system**, using four layers of an existing woven flax textile and five layers of a newly developed dry-needle felted flax. 
-
-The soft pile of fabrics is heat pressed, melting the **flax** and **PLA** (a biodegradable plastic) into the shape of a rigid chair.
-
 -
 
-<img src="./images/flax.jpg" />
+<f-image src="https://freight.cargo.site/w/1500/q/94/i/44fadf736ae492d48224200ab3b0c0e3680f50ca5034528209e720e25b8bc0c3/812-ChristienWEBrepro_61108-1LOW.jpg" />
 
 <f-notes title="Credits">
 
@@ -1566,9 +1575,32 @@ https://christienmeindertsma.com/Flax-Chair
 
 ---
 
+| 1 1 1
+| 2 2 3
+| rows: 1fr auto
+| padding: 0
+
+<f-image src="./images/flax.jpg" />
+
+-
+
+<section style="padding-top: var(--base2)">
+
+## From flax to form
+
+A new **composite material** was created **to fit in a circular system**, using four layers of an existing woven flax textile and five layers of a newly developed dry-needle felted flax. 
+
+The soft pile of fabrics is heat pressed, melting the **flax** and **PLA** (a biodegradable plastic) into the shape of a rigid chair.
+
+</section>
+
+-
+
+---
+
 | section: Sustainable materials
 
-## Design to disappear
+## Design<br>to disappear
 
 In the past 20 years designers, artists and makers are looking more and more for **sustainable alternatives**. Ecology and design became an integrated practice.
 
@@ -1576,7 +1608,7 @@ As an answer to the throw-away society they choose for a **circular approach**. 
 
 -
 
-## Experiment to design
+## Experiment<br>to design
 
 With this circular approach designers, architects, makers, scientists and craftsmen all participate in the **experimentation with materials** and are forced to work together interdisciplinary.
 
@@ -1585,9 +1617,9 @@ Their inventiveness and creativity comes possible from this opportunity of **wor
 ---
 
 | section: Dung as a material
-| 1 1 2 2 2
-| 1 1 3 3 3
-| gap: var(--base2) var(--base10)
+| 2 2 3 3
+| 1 1 1 4
+| rows: 1fr auto
 
 ## From disgust to desire
 
@@ -1603,12 +1635,11 @@ Dung is a low value natural material, and you could make functional products of 
 
 <f-image src="./images/merdacotta1.jpg" />
 
+-
+
 <f-notes title="Credits">
 
-Image source:
-
-Henrik Blomqvist for Museo della Merda
-
+Image source: Henrik Blomqvist for Museo della Merda
 
 </f-notes>
 
@@ -1636,40 +1667,39 @@ https://alternativecommunication.wordpress.com/2013/09/04/exhibition-alive-at-th
 ---
 
 | section: Living materials
-| 1 2 2
+| 1 1
+| 2 3
 
-## Living materials - mycelium
-
-<big><var>my·ce·li·um (mī-sē′lē-əm)</var></big>
-~*n. pl.* my·ce·li·a (-lē-ə)~
-
-1) The vegetative part of a fungus, consisting of a mass of branching, threadlike hyphae.
-
-2) A similar mass of fibers formed by certain bacteria.
-
-In other words: mycelium is a dense network of fungal threads of which mushroom sprout and of which one could make a variety of products.
+## Living materials
 
 -
 
 <f-video src="https://www.youtube.com/watch?v=jBXGFOk5_Rs" />
 
----
+#### Mycelium
 
-## Living materials - bacteria
-
-Susan Lee, textile designer, and David Hepworth, scientist, are pioneers of producing fabrics and clothing from bacteria-generated cellulose.
-
-https://ideas.ted.com/the-skirt-and-shoe-made-from-kombucha/
+<var>mycelium</var> is a dense network of fungal threads of which mushroom sprout and of which one could make a variety of products.
 
 -
 
 <f-video src="https://www.youtube.com/watch?v=Ds8ZFzOwGeI" />
 
+#### Bacteria
+
+Susan Lee, textile designer, and David Hepworth, scientist, are pioneers of producing fabrics and clothing from <var>bacteria-generated cellulose</var>. [Learn more](https://ideas.ted.com/the-skirt-and-shoe-made-from-kombucha/
+)
+
 ---
 
+| background: var(--lightergray)
 | section: Exercise: Bio-based materials
+| padding: 0
 
-## Exercise
+<section>
+
+<caption>🕵️ Do research</caption>
+
+## Find a bio-based material
 
 We talked about three examples of bio-based material. Now research your own.
 
@@ -1679,21 +1709,34 @@ We talked about three examples of bio-based material. Now research your own.
 
 3. Combine all the cards to make your class library of bio-based materials. 
 
-https://drive.google.com/file/d/1TZXeotMLKTi6G3FSeWWT4-mc6w9l6dpM/view
+<a class="tertiary" href="./files/biomaterial.pdf"><f-arrow-icon rotation="90" />Download bio-based material PDF</a>
 
-***TODO*** Convert to PDF
+</section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Research_Lab_%2841640935301%29.jpg/1920px-Research_Lab_%2841640935301%29.jpg" />
 
 ---
 
 | section: Shape and countershape
+| padding: 0
+
+<section>
 
 ## Shape and Countershape
 
 Remember Christien Meindertsma’s FLAX Chair? 
 
-She made optimal use of the material **using the full sheet of cloth** to make a chair.
+She made optimal use of the material using the full sheet of cloth to make a chair.
 
-The principle behind this is **using shape and countershape**. 
+The principle behind this is using <var>shape</var> and <var>countershape</var>. 
+
+The principle of shape and countershape is used across all art and design disciplines: **graphic design**, **art**, **product design** etc. 
+
+Let’s look at some examples.
+
+</section>
 
 -
 
@@ -1707,49 +1750,30 @@ https://christienmeindertsma.com/Flax-Chair
 
 ---
 
-***TODO*** ERIK credits
-
-<caption>Shape and Countershape</caption>
-
-The principle of shape and countershape is used across all art and design disciplines; graphic design, art, product design, etc. 
-
-Let’s look at some examples.
-
--
-
-<img src="./images/shape1.png" />
-
----
-
-| 1 2 2 3 3
-
-<caption>Shape and Countershape</caption>
-
-In graphic design...
-
--
-
-<img src="./images/shape2a.png" />
+| 1 1 1 2 2 2 3 3
+| 1 1 1 2 2 2 4 4
 
 <img src="./images/shape2b.png" />
 
 -
 
-<img src="./images/shape2c.png" />
-
-<img src="./images/shape2d.png" />
-
----
-
-| 1 2 2 3 3
-
-<caption>Shape and Countershape</caption>
-
-In art...
+<f-image src="./images/shape2a.png" />
 
 -
 
-<img src="./images/shape3a.png" />
+<img src="./images/shape2c.png" />
+
+<p />
+
+<img src="./images/shape2d.png" />
+
+
+---
+
+| 1 1 1 2 2
+
+
+<f-image src="./images/shape3a.png" />
 
 -
 
@@ -1757,17 +1781,19 @@ In art...
 
 ---
 
-| 1 2 2
-
-<caption>Shape and Countershape</caption>
-
-In product design...
-
-Here working with shape and countershape is a great way to make something and **minimize waste material** at the same time!
+| background: ./images/shape4.png
+| tint: 0
+| 1 2
+| 1 3
+| rows: 1fr auto
 
 -
 
-<img src="./images/shape4.png" />
+-
+
+Here working with shape and countershape is a great way to make something and **minimize waste material** at the same time.
+
+-
 
 <f-notes title="Credits">
 
@@ -1777,36 +1803,45 @@ http://www.co-oproduct.org/rethink/design-cat/zero-waste-design/details/14/59-ze
 
 ---
 
-<caption>Shape and Countershape</caption>
+| 1 1 1 1 2 2 2 2
+| 3 3 3 3 3 3 4 4 
+| rows: 1fr auto
 
-Another example in product design is the **Mobilier puzzle** of Jean-Pierre Levasseur. 
-
-It uses both shape and countershape to get a complete dollhouse interior out of one sheet of pre-cut plywood.
-
-Of course you could apply this on a bigger scale for life-size furniture...
-
-<img src="./images/mobilier3.png" />
+<f-image src="./images/mobilier1.png" />
 
 -
 
-<img src="./images/mobilier1.png" />
+<f-image src="./images/mobilier2.png" />
 
-<img src="./images/mobilier2.png" />
+-
+
+<caption>Shape and Countershape</caption>
+
+## Mobilier puzzle
+
+Another example in product design is the Mobilier puzzle of Jean-Pierre Levasseur.  It uses both shape and countershape to get a complete dollhouse interior out of one sheet of pre-cut plywood.
+
+-
+
+<img src="./images/mobilier3.png" />
 
 
 ---
 
 | section: Exercise: Shape and countershape
+| background: var(--lightergray)
 
 <caption>Shape and Countershape</caption>
 
-## Exercise
+## Find your shape.<br>And countershape
 
 1. Choose your discipline, 2D (think graphic design) or 3D (think product design or art) 
 
-2. Find at least three images of examples within your discipline in which the technique of shape and countershape is being used. (10 minutes)
+2. Find at least three images of examples within your discipline in which the technique of shape and countershape is being used. <br><small><f-clock-icon duration="10" /> 10 minutes</small>
 
-3. Design a 2D or 3D design using the shape and countershape technique. Make a small prototype/sketch within. (30 minutes)
+3. Design a 2D or 3D design using the shape and countershape technique. Make a small prototype/sketch within.<br><small><f-clock-icon duration="30" /> 30 minutes</small>
+
+-
 
 ---
 
@@ -1940,7 +1975,7 @@ Design Boom, www.designboom.com
 
 ## Aviator Chair
 
-Zev Bianchi and Bcompact design used a fancier version of cutting and folding called **kerf bending** to make the **Aviator Chair** out of one sheet of plywood. To the right you see there prototypes in paper.
+Zev Bianchi and Bcompact design used a fancier version of cutting and folding called <var>kerf&nbsp;bending</var> to make the **Aviator Chair** out of one sheet of plywood. To the right you see there prototypes in paper.
 
 -
 
@@ -1952,13 +1987,15 @@ Image source: Core77, www.core77.com
 
 ---
 
-| theme: dark
+| background: var(--lightergray)
 | 1 2 2
-| 1 3 3
+| padding: 0
+
+<section>
 
 <caption>Cut and Fold</caption>
 
-<caption>🛠️ ️️Hands-on exercise<caption>
+<caption>🛠️ ️️Hands-on exercise</caption>
 
 ## Paper Aviator 
 
@@ -1966,25 +2003,28 @@ Try to make a chair out of paper using the cut and fold technique in the templat
 
 <a class="tertiary" href="./files/cut_and_fold_chair.pdf"><f-arrow-icon rotation="90" />Download chair PDF</a>
 
+</section>
+
 -
+
+<f-theme theme="dark" style="height: 50vh">
 
 <f-image src="./images/aviator1.png" />
 
--
-
 <f-image src="./images/aviator2.png" />
 
+</f-theme>
 
 ---
 
 | section: Design assignment
-| theme: dark
+| background: var(--lightergray)
 | 1 1 1
 | 2 3 3
 | 4 4 4
 
 
-## Design assignment
+## Final assignment
 
 -
 
@@ -2012,6 +2052,9 @@ Do this by following the steps on the next slide.
 
 | section: Wrapping up
 | padding: 0
+| background: https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg
+| tint: 0.5
+| theme: dark
 
 <section>
 
@@ -2029,4 +2072,3 @@ Do this by following the steps on the next slide.
 
 -
 
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg" />
