@@ -1232,3 +1232,73 @@ Student work, photo by Jacinta Costa.
 
 
 -
+
+---
+
+
+
+
+
+| cols: 0.25fr 2fr 2fr
+| 5 1 1
+| 5 2 4
+| 5 3 4
+
+## Past, present and future
+
+-
+
+Looking for further action regarding bionics and biomimicry, here we have some useful links and books.
+
+##### Related DesignSTEM projects:
+
+<a href="https://designstem.github.io/scenarios/patterns">2D/3D patterns</a> allows to play around with 2D pattern compositions.
+<a href="https://designstem.github.io/scenarios/dyes">Natural dyes</a> ***TODO*** description
+
+-
+
+Do not forget to see the amazing design classic video by Charles and Ray Eames – <f-link to="https://youtu.be/0fKBhvDjuy0">Power of Ten</f-link> and then go to the future and see the 3 episodes of <f-link to="https://www.youtube.com/playlist?list=PLcaslO5tNg4QX0EI0YQjK8vtz47n42NcX">Nature Tech</f-link>
+
+-
+
+#### Books you should read:
+<div>
+  
+  - **Benyus**, J. (1997). Biomimicry - Innovation Inspired by Nature. New York, Harper Collins Publishers
+  
+  - **De Noblet**, Jocelyn (1996). Industrial Design: Reflection of a Century - 19th To 21st Century. Hardcover, Ed. Flammarion
+  
+  - **Fuller**, Richard Buckminster, (1972). Critical Path, New York, St. Martin’s Press, 1981. Dorfles, Gillo, Naturaleza y Artificio, Barcelona, Editorial Lúmen.
+  
+  - **Helms**, M., Vattam, S.S., Goel, A. (2009). ‘Biologically inspired design: process and products’, Design Studies, Vol. 30, No. -, pp. 606-622
+  
+  - **Lovegrove**, R. (2004). Supernatural: the work of Ross Lovegrove, New York, NY : Phaidon
+  
+  - **Manzini**, Ezio (1993a). A matéria da invenção. Ed. Centro Português de Design. Porto Editora, Porto
+  
+  - **Mueller**, T. (2008). ‘Biomimetismo – Desenho Natural’, National Geographic, Maio, p.60
+  
+  - **Munari**, Bruno (1978). Artista e Designer. Colecção Dimensões, n.º 3. Lisboa: Presença.
+  
+  - **Munari**, Bruno (1982). Das coisas nascem coisas. Edição Portuguesa, Coleção Arte e Comunicação, Edições 70, Lisboa.
+  
+  - **Pernodet** Michael; Mehly, Bruce (2000). Colani (Luigi Colani), Paris, Edition Disvoir,.
+  
+  - **Portoghesi**, Paolo (1999). La nature leçon permanent. In Revista Domus nº 818 Ed. Editoriale Domus, Milano.
+  
+  - **Portoghesi**, Paolo (1999). Learning from Nature. La nature leçon permanente. In, Domus nº 818 Ed. Editoriale Domus, Milano.
+  
+  - **Wilson**, J.O., Rosen, D., Nelsen, B.A., Yen, J. (2010) ‘The effects of biological examples in idea generation’, Design Studies, Vol. 31 (2), 169-186.
+
+</div>
+
+#### More online reading
+
+<f-link to="https://www.raco.cat/index.php/Temes/article/view/29402">Physis i disseny. Interaccions entre natura i cultura</f-link> By **Ezio Manzini**.
+
+The institute developed by **Janine Benyus** where you can find plus information, challenge, creative collaboration <f-link to="https://biomimicry.org/">biomimicryinstitute.org</f-link> last visit in 2019
+
+<f-link to="http://wikid.io.tudelft.nl/WikID/index.php/Biomimicry">Wiki Design Delft</f-link>, where you can find step-by-step design methods and biomimicry tools.
+
+-
+

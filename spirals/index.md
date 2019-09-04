@@ -1290,7 +1290,6 @@ To form the final stair structure, the triangle steps are linked with the helix 
 
 
 
-| cols: 3fr 2fr
 | 1 2
 | 3 4
 | 5 5
@@ -1299,7 +1298,7 @@ To form the final stair structure, the triangle steps are linked with the helix 
 
 ## Basic calculations for the dice cylinder
 
-<img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona16.png" style="float:left; width:25%; margin-right:var(--base3); margin-bottom:var(--base)" />
+<!-- <img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona16.png" style="float:left; width:25%; margin-right:var(--base3); margin-bottom:var(--base)" /> -->
 
 As mentioned in previous texts, the proposed dice cylinder will include an internal helix staircase which will be the path for the dice. This document presents the basic calculations for that construction.
 
@@ -1328,6 +1327,8 @@ These are
 Assume that the parameter <var>h</var>, <var>R</var>, <var>r</var> and <var>d</var> are predetermined and known, the rest of them derive as follows:
 
 The number of stairs <var>N</var> are dependent on the height <var>h</var> and the distance <var>d</var> between the stairs and related with the formula <f-math inline>h = d \cdot (N + 1)</f-math>. By solving the equation, <var>N</var> derives as <f-math inline>N = 1 - \frac{h}{d}</f-math>.
+
+
 
 
 
