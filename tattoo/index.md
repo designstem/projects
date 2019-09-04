@@ -546,7 +546,7 @@ The way a sign is presented is also part of the context. Simple lines and bold s
 *Kurt Weidemann*, a German designer once said something, that is not only important for logos, but for all signs:
 
 <blockquote>
-~A logo is well done, if you can scratch it into sand with your big toe.~
+A logo is well done, if you can scratch it into sand with your big toe.
 </blockquote>
 
 If the tattoo is just decorative and doesn't have an additional function, you can go crazy with details. For our smart tattoo, this would reduce the functionality drastically.
