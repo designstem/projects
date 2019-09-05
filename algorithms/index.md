@@ -178,14 +178,13 @@ Now if you open the paper, you probably end up with something similar to this pi
 
 
 
-
 | chapter: Algorithms
 | section: Definition
+| height: 100vh
 
+<div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height:100%; text-align:center;">
 
-<div style="display:flex; flex-direction:column; justify-content: center; align-items: center; height: 85vh; text-align:center; padding:0 15vw">
-
-## <big><var>algorithm</var></big>
+## <var>algorithm</var>
 
 in mathematics and computer science, is an unambiguous specification of how to solve a class of problems <f-link to="https://en.wikipedia.org/wiki/Algorithm">Wikipedia</f-link>
 
@@ -193,11 +192,12 @@ in mathematics and computer science, is an unambiguous specification of how to s
 
 <small>Or to put it simple:</small>
 
->  #### algorithm *is a set of certain steps needed to solve a problem*
+> #### algorithm *is a set of certain steps needed to solve a problem*
   
-<br /><br />
+<br />
 
  <f-next-button title="Next: they are everywhere!" />
+
 </div>
   
 
@@ -386,7 +386,7 @@ Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucc
 <!-- ![Example 1](./images/candy-hansmeyer.jpg "Example 1") -->
 <f-image src="./images/candy-hansmeyer.jpg" style="background-position:50% 90%; --image-min-height:80vh;" />
 
-<f-notes title="Credits">
+<f-notes title="Credits" size="half">
 
   Zauberflöte 2018 (available at http://www.michael-hansmeyer.com/zauberfloete, accessed on 24.01.2019)
 
@@ -422,7 +422,7 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 <!-- ![Example 1](./images/candy-hansmeyer.jpg "Example 1") -->
 <f-image src="./images/candy-dezeen.jpg" style="background-position:30% 50%; --image-min-height:80vh;" />
 
-<f-notes title="Credits">
+<f-notes title="Credits" size="half">
 
   Tucker 2016, (available at https://www.dezeen.com/2016/03/26/stefan-bassing-barlett-school-architecture-digital-modelling-table-no-1-2-identical-components/, accessed on 24.01.2019)
 
@@ -529,7 +529,7 @@ The ProtoHouse project was developed in the Architectural Association School's D
 
 -
 
-<f-image src="./images/candy-sandspline.jpg" style="background-position:50% 50%; --image-min-height:80vh;" />
+<f-image src="./images/candy-softkill.jpg" style="background-position:50% 50%; --image-min-height:80vh;" />
 
 <f-notes title="Credits">
 

@@ -61,13 +61,13 @@ Image source: https://commons.wikimedia.org/wiki/File:Aterro_Sanitario.jpg
 
 -
 
-Thomas Thwaites is a British designer that attempted to build a kitchen toaster from the scratch and mine all the neccessary raw materials.
+Thomas Thwaites is a British designer who attempted to build a kitchen toaster from scratch and mines all the neccessary raw materials himself.
 
 [The Toaster project](http://www.thomasthwaites.com/the-toaster-project/)
 
 <p />
 
-Look at the TED talk of Thomas Twaites and explain the core of what he’s saying.
+Look at Thomas Twaites' TED talk and explain the core of what he’s saying.
 
 -
 
@@ -102,16 +102,24 @@ https://footprint.wwf.org.uk/
 | 2 2 3 3 3
 
 
-## Ocean Cleanup initiative
+## Ocean cleanup initiative
 
 -
 
-A lot of people are aware of our footprint and are taking action in order to make the world a better place to live
+A lot of people are aware of their footprint and are taking action in order to make the world a better place to live.
 
 At age 16 (2011), Boyan Slat came across more plastic than fish while diving in Greece. He decided to devote a high school project for deeper investigation into ocean plastic pollution and why it was considered impossible to clean up.
 
 He later came up with the idea to build a passive system, using the circulating ocean currents to his advantage, which he presented at a TEDx talk in Delft in 2012.
 
+<<<<<<< HEAD
+=======
+https://www.theoceancleanup.com/
+
+Have a look at his Ocean Cleanup foundation at the website.  
+In your opinion, what is most remarkable about this project?
+
+>>>>>>> master
 -
 
 <f-video src="https://www.youtube.com/watch?v=ROW9F-c0kIQ" />
@@ -133,9 +141,9 @@ Have a look at his [Ocean Cleanup foundation website](https://www.theoceancleanu
 
 ## Look for initiatives
 
-1. Look for 3 initiatives that have found solutions for a waste problem
+1. Look for three initiatives that have found solutions for the waste problem.
 
-2. Collect what you’ve found and discuss with the class why you choose these initiatives.
+2. Collect what you’ve found and, in class, discuss why you chose these initiatives.
 
 </section>
 
@@ -223,7 +231,7 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 1. Go outside for 15 minutes and collect some waste. Divide the group into pairs and use rubber gloves.
 
-2. Make a nice composition for the flat-lay
+2. Make a nice composition for the flat-lay.
 
 3. Take photos
 

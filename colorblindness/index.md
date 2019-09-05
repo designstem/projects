@@ -435,9 +435,9 @@ In the following **learning stations** you will find tasks which &ndash; in the 
 
 -
 
-<div style="margin-left: 2vw">
+<div style="margin-left: 3vw; margin-top: 1vw;">
   
-### Level up and get your skills ready, <br> before you face the "endboss"! 🧐
+### Level up and get your skills ready, <br> before you face the "endboss"! 🦄
 
 </div>
 

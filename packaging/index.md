@@ -565,7 +565,7 @@ Take all the information you gathered during the last pages! Can you evaluate wh
 
 ---
 
-| section: Bees and packaging
+| section: Bees and packaging 1
 | 1 2 2
 
 ## Bees and packaging
@@ -587,6 +587,50 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 -
 
 <f-video src="https://www.youtube.com/watch?v=QEzlsjAqADA" />
+
+
+
+
+
+
+---
+
+
+| section: Bees and packaging 2
+| 1 2 2
+
+## Bees and packaging
+
+
+Honeycombs are not only used for packaging, but also for **packaging materials**.
+
+<blockquote>
+
+~Cardboard honeycomb panels consist of two supporting surface layers and a honeycomb core, similar to that of a honeycomb from a beehive.~
+	
+</blockquote>
+
+
+#### Tasks
+
+1. Research further possible applications for honeycomb cardboards. Where are they used else, other than packaging?
+2. Find out the advantages honeycomb cardboard has, in comparison to wood or other materials. What makes it so attractive to work with?
+
+<br>
+
+<f-next-button />
+
+-
+
+
+<img src="./images/bees_honeycomb_packaging.jpg"/>
+
+
+
+
+
+
+
 
 ---
 
@@ -638,7 +682,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 ~Now that you've learned so much about packaging, it's time that you design one yourself. Choose one of the following three tasks:~
 
-#### TASK A
+#### <mark> TASK A </mark> 
 
 1. ~Choose an object that you want to design a cardboard package for. You can use multiple small objects (like rice, cornflakes, pasta etc.) or a bigger object.~
 
@@ -649,7 +693,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 4. Additional task: Think about the packaging inside the cardboard package. Fragile objects need extra packaging. How can you guarantee that the object won't break, while trying not to waste material?
 
 
-#### TASK B
+#### <mark> TASK B </mark>
 
 1. Try to design a reusable package, possibly suitable for different purposes. Take this example: At LUSH, you will get reusable packaging for soaps, so you'll go there and can get a refil into your old packaging.
 
@@ -660,7 +704,7 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 4. What if you have to store/stack several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
 
 
-#### TASK C
+#### <mark> TASK C </mark>
 
 1. ~Design a packaging for different spices which together will form a pattern but can be used individually! It should not only be functional, but also look unusual/nice/fresh.~
 

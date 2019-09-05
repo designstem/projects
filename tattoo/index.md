@@ -13,7 +13,7 @@
 
 # <big>Smart Tattoos</big>
 
-<big>Design a biosensitive tattoo that expresses you life and can also save your life</big>
+<big>Design a biosensitive tattoo that expresses your character and can save your life</big>
 
 
 <f-notes title="Credits">
@@ -48,15 +48,78 @@ https://www.pexels.com/
 
 <div style="padding:var(--content-padding);">
 
-## What is a smart tattoo?
+## Smart Tattoo 1.0
 
 Tattoos have been around since ancient times.
 
 They are done by punctuating the skin with a needle that injects ink under the skin.
 
-Now MIT-research group has suggested that some inks can be used to create smart tattoo’s that provide useful information about **hydration, sugar and pH-levels**.
+Some people wear so called **medical alert tattoos**, which are not pure decoration or to express themselves, but have an additional function.
+
+#### Tasks
+
+1. Research via Google Pictures for *medical alert tattoos* and find out their functions.
+2. Which medical alerts are covered? Can you think of other uses?
+3. What's your opinion: Do you think tattoos like this should be mandatory?
+
+<br>
+
+
+<f-next-button />
 
 </div>
+
+
+-
+
+<f-image src="./images/tattoo_bee.jpg" />
+
+
+
+
+<f-notes title="credits">
+Photo by Savs on Unsplash,
+https://unsplash.com/photos/5duK901QD2g
+</f-notes>
+
+
+---
+
+
+| rows: auto 1fr
+| padding: 0
+| 1 2
+| 1 2
+
+<div style="padding:var(--content-padding);">
+
+## Smart Tattoo 2.0
+Currently, a research group from *Harvard Medical School* and *MIT* has suggested that some inks can be used to create smart tattoos that provide useful information about **hydration, sugar and pH-levels**.
+The so-called biosensitive inks are paired with the traditional way of tattooing to overcome the limitations of current biomedical monitor devices and to create *medical alert tattoos 2.0*.
+
+<blockquote>
+	
+~*The Dermal Abyss tattoo inks change color according to the chemistry of the body’s interstitial fluid, which can be used as a surrogate for constituents of the blood. One ink changes from green to brown as glucose concentration increases. The team has also developed a green ink, viewable under blue light, that grows more intense as sodium concentration rises, an indication of dehydration.*~
+
+</blockquote>
+
+#### Tasks
+
+1. Read the full article from The Harvard Gazette (link in Credits).
+2. Which other uses do they mention, besides indicating glucose level and dehydration level?
+3. Think of other uses/functions that would be interesting.
+
+
+<br>
+
+
+<f-next-button />
+
+
+
+</div>
+
+
 
 -
 
@@ -65,7 +128,14 @@ Now MIT-research group has suggested that some inks can be used to create smart 
 <f-notes title="credits">
 photo by Isabella Mendes,
 https://www.pexels.com/photo/selective-focus-photography-of-tattoo-artist-drawing-a-tatoo-1304469/
+  
+<br>
+
+Quote from:"Feeling woozy? Time to check the tattoo", The Havard Gazette; by Alvin Powell, September 28, 2017.
+https://news.harvard.edu/gazette/story/2017/09/harvard-researchers-help-develop-smart-tattoos/
+
 </f-notes>
+
 
 ---
 
@@ -87,6 +157,13 @@ Tattooing is all about drawing images on the skin. These images are not always e
 3. Try to guess the concept tattooed in your/your partner's back
 
 4. Discuss: what kind of concepts are easy to “guess” from limited information
+
+
+
+<br>
+
+
+<f-next-button />
 
 </section>
 
@@ -110,9 +187,18 @@ https://www.pexels.com/photo/three-men-standing-near-window-1516440/
 
 ## What to measure?
 
-The MIT-researchers used inks that functioned as indicators.
+The MIT and Harvard researchers used inks that functioned as indicators.
 Indicators are substances that provide useful information about their environment.
 For example, information about acids and bases.
+
+<br>
+
+**Let's find out more!**
+
+<br>
+
+
+<f-next-button />
 
 </center>
 
@@ -129,15 +215,22 @@ For example, information about acids and bases.
 
 ## Acids and bases
 
-The acids and bases can be understood through the concentration of hydrogen-ion <f-math inline blue>(H+)</f-math> in a solution.
+The acids and bases can be understood through the concentration of hydrogen-ions <f-math inline blue>(H+)</f-math> in a solution.
 
 The acid level is measured with pH-scale (pH originally comes from the power of hydrogen).
 
-pH-scale governed by the equation <f-math inline>pH = -log[H+]</f-math>
+The pH-scale is governed by the equation <f-math inline>pH = -log[H+]</f-math>
 
 <f-slider set="ph" :value=7 :to=14 integer title="ph: " style="padding: calc(var(--content-padding)/2) 0" />
 
 _Move the bar to explore the pH-scale. Talk with a friend: What is the pH-range that you would need to consider with tattoos?_
+
+
+<br>
+
+
+<f-next-button />
+
 
 </section>
 
@@ -229,7 +322,7 @@ background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
 
 ## Indicators
 
-move the pH-bar. Why does the color change?
+Move the pH-bar. **Why does the color change?**
 
 <f-slider set="ph" :value=7 :to=14 integer title="ph: "  style="padding: calc(var(--content-padding)/2) 0" />
 
@@ -237,11 +330,16 @@ _When designing your indicator, you may need to consider the visibility of the c
 
 <div style="display: flex">
 
-> <small><small>Phenol red: The structural parts indicated by the red color undergo changes as the pH is increased changing the colour of the molecule.</small></small>
+> <small><small>Phenol red: The structural parts indicated by the red color undergo changes as the pH is increased changing the color of the molecule.</small></small>
 
 <img style="width: auto" src="images/phenol.png" />
 
 </div>
+
+<br>
+
+
+<f-next-button />
 
 </section>
 
@@ -264,10 +362,18 @@ _When designing your indicator, you may need to consider the visibility of the c
 
 Now we have to think about how our tattoo looks, feels, and most importantly - functions!
 
+**Let's get creative!** 🧐
+<br>
+
+
+<f-next-button />
+
 </center>
 
----
 
+
+---
+| Section: Introduction to signs
 | padding: 0
 | style: overflow: hidden
 
@@ -277,12 +383,16 @@ Now we have to think about how our tattoo looks, feels, and most importantly - f
 
 How can you make sure that others understand what your tattoo is about?
 
-Try to visualise some abstract phenomena, like life (or death), by sketching something on a piece of paper.
+#### Tasks
+1. Visualise an abstract phenomena, like life or death, by sketching a picture on a piece of paper.
+2. Compare your picture to that of others. In which way are they similar or different?
+3. Can everyone understand their meaning?
+3. Can you explain why some are different and others are similiar?
 
-After you've finished, show your creation to others, or draw it on a whiteboard.
+<br>
 
-What did you draw, and why? Does it differ from your friend's drawings?
-Why do we use these particular things to mean something, can everyone understand them the same way everywhere else, in all situations?
+
+<f-next-button />
 
 </div>
 
@@ -308,53 +418,113 @@ Why do we use these particular things to mean something, can everyone understand
 </f-scene>
 </div>
 
+
 ---
 
-| padding: 0
+
+
+
+
 | section: Glossary of signs
-| style: overflow-x: hidden
-
-<div style="
-  padding: var(--content-padding); 
-  background-color: var(--white);
-  border-radius: 0 0 1rem 0;
-  box-shadow: 0 0 10rem 10rem var(--white);
-">
-
-## What are we talking about?
-
-The study of how we describe meaning to something is called **semiotics**. The main subject of semiotics is the **sign**, i. e. something that has meaning to someone else, in some context. **symbol** is a type of sign, and a **pictogram** is a type of visual symbol, that could also be called an **icon**.
-
-</div>
-
--
-
-<EmojiBg />
-
----
-
-| section: Context is key
 | padding: 0
-| style: overflow-x: hidden
+| rows: auto
+| 1 2
 
-<div style="
-  padding: var(--content-padding); 
-  background-color: var(--white);
-  border-radius: 0 0 1rem 0;
-  box-shadow: 0 0 10rem 10rem var(--white);
-">
+<div style="padding: var(--content-padding);">
 
-## Context is key
+## Sign? Icon? Symbol? Pictogramm? *Tattoo*?
 
-Symbols are always understood in some **context**. The symbol ☠️ could refer to a dangerous area, a poisonous liquid, or a jolly pirate ship at a kid's birthday party.
+As a designer, it is important to keep these terms apart.
 
-Symbols can also mean different things to different people. Symbols are **conventional**, which mean that they are agreed upon to mean something, and not everyone may know all of these agreements. A kid may link the ☠️ symbol to pirates of the Carribean, a doctor in a hospital to something else entirely.
 
-</div>
+#### Task
+
+1. Read the definitions and try to understand the differences between logo, icon, symbol and pictogram.
+2. Which of these signs did you paint in the task before (visualising life or death)? Can you guess why you used them?
+2. Discuss: Which of these signs is suitable for a smart tattoo. Why?
+
+<br>
+
+<details>
+	<summary>Sign</summary>
+  
+  Signs are visual, auditive or tactile representations of information.<br>
+  A handshake is a tactile sign, to indicate that you greet someone. <br>
+  Sirens are auditive signs, to inform you of an emergency case, like fire or a passing ambulance. <br>
+  Visual signs are what we are dealing with: Logos, icons, symbols, pictograms are all visual signs.
+  
+
+</details>
+
+<details>
+	<summary>Symbol</summary>
+  
+  Visualizes abstract terms, like love ❤️, that something is correct ✔️. <br>
+  The peace symbol is also very famous ☮ <br>
+  or even symbols for religions: ✝, ✡, ☪, ☯, 🕉...
+  
+  <br>
+  
+  We need symbols to visualise what we cannot paint easily, with few brushstrokes. Some concepts are too complex
+  to be quickly visualiszed. So small groups start with symbols that eventually become accepted throughout all of society.
+  **But careful:** The meaning of symbols has to be learned. You cannot automatically know what it's about. If you grow up in a certain society, as a child, you automatically learn its symbolism. But if you are new to a group or a culture, you might find new symbols whose meaning you don't understand.
+  Symbols are **conventional**, which means that they are agreed upon to mean something, and not everyone may know all of these agreements. A kid may link the ☠️ symbol to pirates of the Carribean, a doctor in a hospital to something else entirely. Context is often key - also for pictograms.
+
+</details>
+
+
+
+
+<details>
+	<summary>Logo</summary>
+  
+ Logos and signets are visual representations of companies or brands. They usually contain writing (then it's called logo &ndash; because logo comes from the Greek *logos* which means *word*). There are several sub-categories: Logos with just wording, like in CocaCola; logos with single letters like in IBM; logos with numbers in them: 7/11; and logos that combine wording with signets, like *adidas*, *Puma*, *KFC* etc. Signet (from Latin *signum* for *seal*) stands for brand visualisations without writing, so just pictures. You problably all know the *Nike swoosh* or the *Apple* apple 🍏 . Sometimes combined logos are reduced to just the signet. This happenes often when the brand is very popular. For example *Starbucks* lost it's writing and is just working with the mermaid.
+
+
+</details>
+
+
+<details>
+	<summary>Icon</summary>
+  
+Today, the term icon is used for everything that visualizes something. But originally, it was meant to show functions on computer displays, so that interfaces are easier to work with for people who are new to computers.<br>
+One of the first was the icon for the *search function* &ndash; but it didn't start with the magnifying glass. It started with a very simple silhouette of Sherlock Holmes! People knew that Sherlock is a detective and searches for things, so when they saw this icon, they automatically new, that they could look for things, when they clicked on it. At some point the silhouette got lost, but the magnifying glass, as the most distinctive item of a detective, remained. 🔎
+Icons started as metaphors (see *recycling bin*). Nowadays, they can also be abstract: ⏮️▶️⏭⏹️⏺️⏏️
+Icons like these need to me learned, but they are also used for displays or buttons, to indicate a certain function.
+Software also uses icons or we have favicons on our website, to help us recognize more easily which website we are looking at.
+<br>
+Today, the word icon can have an additional meaning. Often signs are also called icons, when they are a simplified representation of an object, like 📗 💡 📁 📞. 
+
+</details>
+
+<details>
+	<summary>Pictogram</summary>
+  
+Pictograms are visual guiding systems. They tell you what to do or what not to do. They offer orientation. We find them at airports, trainstations and in general in public spaces. Pictograms should therefore be language-independent, that means, you have to design them in a way that they don't cause misunderstandings and are easily understood without cultural context or knowledge.
+Therefore pictograms are always very simple. One of the most universal pictograms is the *escape pictogram*, with a green background, white rectangle and a human silhouette running towards the rectangle. Some pictograms are more complex or contain symbols ♻️ or even writing 🚾 🚻. Sometimes they forbid certain actions: 🚭 🚳 📵. And then there are super abstract ones, which need to be learned, for example traffic signs: ⛔.
+
+</details>
+
+<br>
+
+
+<f-next-button />
 
 -
 
-<EmojiBg />
+
+<f-image src="./images/tattoo_picto.jpg" />
+
+
+<f-notes title="credits">
+Photo by Filip Bodlak on Unsplash,
+https://unsplash.com/photos/5MvqNDyizBo
+</f-notes>
+
+
+
+
+
 
 ---
 
@@ -369,11 +539,24 @@ Symbols can also mean different things to different people. Symbols are **conven
   box-shadow: 0 0 10rem 10rem var(--white);
 ">
 
-## Form or function?
+## Form follows function
 
-The way a symbol is presented is also part of the context. Simple lines and bold swatches of color are usually more readable at a glance. Detailed drawings are more decorative, but don't convey information that easily. For that reason, different styles are used for different purposes - if the purpose is to convey important information quickly, then the symbol should be as simple (readable) as possible.
+The way a sign is presented is also part of the context. Simple lines and bold swatches of color are usually more readable at a glance. Detailed drawings are more decorative, but don't convey information that easily. For this reason, different styles are used for different purposes - if the purpose is to convey important information quickly, then the sign should be as simple (readable) as possible.
 
-If the functionality of the symbol is not that important, or the main function of the symbol is to be decorative, then there is more room to experiment with the form - or how the symbol looks like.
+*Kurt Weidemann*, a German designer once said something, that is not only important for logos, but for all signs:
+
+<blockquote>
+A logo is well done, if you can scratch it into sand with your big toe.
+</blockquote>
+
+If the tattoo is just decorative and doesn't have an additional function, you can go crazy with details. For our smart tattoo, this would reduce the functionality drastically.
+
+**So when you design your smart tattoo, always remember that information has to be readable and quickly accessible. Always think about the big toe in the sand!**
+
+<br>
+
+
+<f-next-button />
 
 </div>
 
@@ -381,18 +564,42 @@ If the functionality of the symbol is not that important, or the main function o
 
 <EmojiBg />
 
+
+
+
+
 ---
+
+
+| section: Form & Style
+| padding: 0
+| style: overflow-x: hidden
+
+<div style="
+  padding: var(--content-padding); 
+  background-color: var(--white);
+  border-radius: 0 0 1rem 0;
+  box-shadow: 0 0 10rem 10rem var(--white);
+">
+
 
 ## Style or substance?
 
-Think and discuss - what are the things you need to pay attention to when designing a good icon? What are the dos and the don't-s?
+To your right, you can find three sets of icons. Look at them more closely.
 
-To your right there are three sets of symbols, or icons, of different level of detail and style of drawing.
-Try to think, in what context, and for what these could be used, and try to sketch the missing icon in the corresponding style.
+#### Tasks
 
-When you have finished, click the button to reveal the original icon design and compare it to your result.
+1. One icon is missing in each set. Draw the matching icon that fits the row (first: *cup of tea*; second: *popcorn*; third: *cheeseburger*).
+2. When you're done sketching, click the button to reveal the original icon design and compare it to your result. Is it similiar? Why is that so? What can still be improved about your design?
+1. Again, have a look at the sets of icons. What do you think is important when designing an icon? Try to name four important criteria for icon design.
+2. What are the don'ts when designing icons?
 
-What is better in your design, what could still be improved?
+
+
+<br>
+
+
+<f-next-button />
 
 -
 
@@ -407,6 +614,69 @@ What is better in your design, what could still be improved?
 <f-value :value="['./images/fastfood_icons_missing.png', './images/fastfood_icons.png']" set="food" />
 <img :src="get('food', [])[get('food_index')]" />
 <f-toggle title="Show the double cheeseburger" set="food_index" />
+
+
+---
+
+
+
+| section: Interface design
+| padding: 0
+| style: overflow-x: hidden
+
+<div style="
+  padding: var(--content-padding); 
+  background-color: var(--white);
+  border-radius: 0 0 1rem 0;
+  box-shadow: 0 0 10rem 10rem var(--white);
+">
+
+
+## Interface design
+
+Maybe you plan to cover several functions with your Smart Tattoo &ndash; all at once in one small area. Then you need to deal with interface design, also called **UID** (user interface design). UIDs are created to connect human and machine, so that a person can communicate with a device more easily. The aim is to offer functionality to a wide target group without the need to explain how it works.
+
+On a daily basis, you are confronted with interfaces, from digital devices to websites, which &ndash; ideally &ndash; work intuitively. **Usability is key!** If a user cannot understand what he can do, he won't do it. In this case, the functionality of your interface is nonexistant. 
+
+For a smart tattoo, it is important to guarantee, that the user will understand how it works quickly. So again, it's not just about good looks.
+
+#### Task
+
+Summarize the following hints by finding one headline for each hint.
+Keep them in mind, when you later design your own smart tattoo.
+
+
+#### Hints:
+
+1. Before you start, always sketch a layout! Think of things you want to include. Come up with ideas on how to visualize them. Plan, before you design! Decide what is absolutely necessary and what unnecessary for your user. 
+2. Start your design in black and white only. This makes you focus on the relevant details and guides you to simplify your information. If you start with colors, this can get messy pretty quickly. Using black and white only, forces you to deal with proportions, depth of detail, order of elements etc.
+3. Leave some space around items. Always remember that your user needs to access information quickly. If pictures and texts that don't belong together are too close to one another, this might make it more difficult to read the interface. So be generous with white space!
+4. If you think about including fonts, keep it simple. Don't use decorative fonts or fonts with serifs. Keep it clean and open. Don't use fonts with small x-heights, because it is harder to read from a distance.
+5. If you include colors, use high contrasts and few colors. Stick to a small palette - this ensures that your user is not confronted with too much information at once. Choose higher contrasts for higher readability.
+
+If you want to learn more about color design and how to create color palettes, you can also see the workshop on Color Vision Deficiency:
+<a href="../colorblindness">Click here to get there!</a>
+
+<br>
+
+
+<f-next-button />
+
+
+-
+
+
+
+<f-image src="./images/tattoo_uid.jpg" />
+
+
+<f-notes title="credits">
+Photo by Kelly Sikkema on Unsplash,
+https://unsplash.com/photos/ECxsxbjAmMY
+</f-notes>
+
+
+
 
 ---
 

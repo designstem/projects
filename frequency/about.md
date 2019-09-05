@@ -1,6 +1,6 @@
-### About
+### Learning Goals
 
-In this project, students will create a simple <var style="color: var(--gray)">analogue animation</var> with the help of the turntable. This <var style="color: var(--gray)">hands-on</var> creative task is the core of the project, helping to define the <var style="color: var(--gray)">frequency</var> and <var style="color: var(--gray)">motion</var> philosophically and technologically.
+Students learn to define <var style="color: var(--blue)">frequency</var> and <var style="color: var(--blue)">motion</var> <var style="color: var(--gray)">philosophically</var> and <var style="color: var(--gray)">technologically</var> by <var style="color: var(--gray)">hands-on</var> tasks such as creating a simple <var style="color: var(--blue)">analogue animation </var> with the help of the turntable. 
 
 ### Motivation
 
