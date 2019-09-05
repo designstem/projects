@@ -1056,6 +1056,7 @@ Fold your sheets as seen in the illustration above. The blue lines must be folde
 | 1 1 1 
 | 2 3 3
 | 4 5 5
+| background: var(--lightergray)
 
 <caption>Optimization with cells</caption>
 
