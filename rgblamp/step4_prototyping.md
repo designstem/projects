@@ -33,44 +33,23 @@ The design process involves multiple iterations and redesigns of your final solu
 
 <br>
 
-<f-next-button />
+
 
 ---
 
-| chapter: Prototyping
-| section: Prototyping introduction
+| section: Make a lamp prototype
+| 1 1 2
 
-| 1 1
-| 2 2
-| 3 4
-| rows: auto auto 1fr
+# Make a lamp prototype
 
-<div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
-  <f-card
-    v-for="(c,i) in ['Problem definition','Background research','Design','Engineering','Prototyping','Communication']"
-    :background="i == 4 ? 'blue' :  'var(--transparent)'"
-    border="blue"
-    :title="c"/>
-</div>
+### Key steps
+
+1. Based on your analysis and your planning before, make a scribble of your lamp and lampshade. Remember not only to draw it from the front, but also from the side and from above as a reference for your production.
+2. Use cardboard or any other material of your choice and create a dummy for your lampshade. This dummy should help you and others visualize how it will look like and also to find flaws in the design, which you need to eliminate.
+3. Based on your dummy, analyse your product and correct it if neccessary.
+4. Discuss your protoype in class.
 
 -
-
-# Prototyping
-
--
-
-### TASK
-
-1. ~Based on your analysis and your planning before, make a scribble of your lamp and lampshade. Remember not only to draw it from the front, but also from the side and from above as a reference for your production.~
-2. ~Use cardboard or any other material of your choice and create a dummy for your lampshade. This dummy should help you and others visualize how it will look like and also to find flaws in the design, which you need to eliminate.~
-3. ~Based on your dummy, analyse your product and correct it if neccessary.~
-4. ~Discuss your protoype in class.~
-
-<br>
-
-<f-next-button />
-
-
 
 ---
 
@@ -82,7 +61,7 @@ The design process involves multiple iterations and redesigns of your final solu
 
 <br>
 
-~Use the following tutorial videos, to help you get started on producing a functioning RGB lamp!~
+Use the following tutorial videos, to help you get started on producing a functioning RGB lamp!
 -
 
 <f-video src="https://www.youtube.com/watch?v=IPOHARgRLE0" />
@@ -97,7 +76,7 @@ https://www.instructables.com/id/RGB-Lamp/
 
 <br>
 
-<f-next-button />
+
 
 ---
 
@@ -122,7 +101,7 @@ Arduino Uno R3|U1|`1`
 
 <br>
 
-<f-next-button />
+
 
 </section>
 
@@ -155,7 +134,7 @@ LED RGB|D1|`1`
 
 <br>
 
-<f-next-button />
+
 
 </section>
 
@@ -186,7 +165,7 @@ Temperature sensor TMP36|U1|`1`
 
 <br>
 
-<f-next-button />
+
 
 </section>
 
@@ -212,7 +191,7 @@ Based on the access to physical hardware, build either a **virtual** RGB lamp us
 
 <br>
 
-<f-next-button />
+
 
 <section>
 

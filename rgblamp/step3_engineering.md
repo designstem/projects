@@ -4,6 +4,7 @@
 | 1 1 1
 | 2 2 2
 | 3 4 5
+| 6 6 6
 | rows: auto auto 1fr
 
 <div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
@@ -28,33 +29,35 @@ Look at whether each possible solution/idea meets your design requirements. Some
 
 ### 2. Develop the idea
 
-Development involves the refinement and improvement of an idea, and it continues throughout the design process, often even after a product ships to customers. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
-<br>
-So don't stop developing, even if you are content with the result in between. **There is always a better solution at the horizon.**
-
+Development involves the refinement and improvement of an idea, and it continues throughout the design process, often even after a product ships to customers.
 -
 
 ### 3. Test and redesign
 
-The design process involves multiple iterations and redesigns of your final solution. You will likely test it, find new problems, make changes, and test again before settling on a final design. This is important, so don't be lazy! 😉 <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+The design process involves multiple iterations and redesigns of your final solution. You will likely test it, find new problems, make changes, and test again before settling on a final design. This is important, so don't be lazy! 😉
 
+-
 
-<br>
+Don't stop developing, even if you are content with the result in between. **There is always a better solution at the horizon.**
 
-<f-next-button />
 
 ---
 
+| 1 1 1
+| 2 3 4
+| rows: auto 1fr
+
 ## How is color produced in devices?
 
-~Before you start to build your RGB lamp, you need to understand how RGB works!~
-~The RGB color model is an additive color model in which red, green and blue light are added together to reproduce a broad array of colors. Our eyes also work with RGB, because we have red, green and blue cones in our retina.~
-<br>
-~In the RGB color model, 0% means no light, whereas 255 means 100% of light. So if I have Red 255, Green 0 and Blue 0, I will get red light.~
-**Try it yourself!**
+-
 
+Before you start to build your RGB lamp, you need to understand how RGB works. 
 
-##### Try to produce white light in the center! Which settings will you need?
+The RGB color model is an <var>additive color model</var> in which red, green and blue light are added together to reproduce a broad array of colors. Our eyes also work with RGB, because we have red, green and blue cones in our retina.
+
+-
+
+##### Try to produce white light in the center
 
 <f-slider title="Red" value="64" to="255" integer set="r" />
 
@@ -62,21 +65,11 @@ The design process involves multiple iterations and redesigns of your final solu
 
 <f-slider title="Blue" value="196" to="255" integer set="b" />
 
-<br>
-
-For further information, see also the workshop on Color Vision Deficiency! There you will find a detailed explanation on the RGB model and also tasks that will help you understand it better. <a href="../colorblindness/">Click here!</a>
-
-
-<br>
-
-**When you know how RGB works, please continue on the following page:**
-
-<f-next-button />
+For further information, see also the workshop on  <a href="../colorblindness/">Color Vision Deficiency</a> There you will find a detailed explanation on the RGB model and also tasks that will help you understand it better.
 
 -
 
-<center>
-<f-scene>
+<f-scene responsive>
   <f-group scale="1.3" rotation="-180">
   <f-circle
     v-for="(c,i) in polarpoints(3,0.5)"
@@ -89,7 +82,8 @@ For further information, see also the workshop on Color Vision Deficiency! There
   />
   </f-group>
 </f-scene>
-</center>
+
+<br>
 
 ---
 
@@ -97,7 +91,7 @@ For further information, see also the workshop on Color Vision Deficiency! There
 | 2 3
 | rows: auto 1fr
 
-## How many bits are needed to represent your bit depth?
+## How many bits are needed to for RGB color?
 
 -
 
@@ -105,14 +99,7 @@ For further information, see also the workshop on Color Vision Deficiency! There
 
 Play with <a class="tertiary" href="https://designstem.github.io/scenarios/colorbits/">Bits and Colors</a>
 
-#### Read more
-
-https://docs.krita.org/en/general_concepts/colors/bit_depth.html
-
-
-<br>
-
-<f-next-button />
+[Read more here](https://docs.krita.org/en/general_concepts/colors/bit_depth.html)
 
 
 -
@@ -160,7 +147,7 @@ Find out which sequence of colours are you able to obtain?
 
 <br>
 
-<f-next-button />
+
 
 ---
 
@@ -180,8 +167,8 @@ Make a diagram or a graph showing the relationship between input and colors!
 
 #### Key questions
 
-1. ~What is the relationship between environmental parameters and colors?~
-2. ~How do you interpolate the missing values? (E.g. spline, keyframes)~
+1. What is the relationship between environmental parameters and colors?
+2. How do you interpolate the missing values? (E.g. spline, keyframes)
 
 -
 
@@ -194,5 +181,5 @@ Hot|Red|`200`|`0`|`10`
 
 <br>
 
-<f-next-button />
+
 

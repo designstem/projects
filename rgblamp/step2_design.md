@@ -36,12 +36,15 @@ There are always many ways for solving design problems. If you focus on just one
 <br>
 
 
-<f-next-button />
+
 
 ---
 
 | section: Assignment: Design your own lamp
 | padding: 0
+| 1 3 4
+| 2 3 4
+| rows: auto 1fr
 
 <section>
 
@@ -49,19 +52,27 @@ There are always many ways for solving design problems. If you focus on just one
 
 ## Now it's your turn!
 
-In the final task, you will design your own RGB lamp! **But not just a pretty lamp, but one with a specific function!**
+</section>
+
+-
+
+<section style="padding-top: var(--base2);">
+
+In the final task, you will design your own RGB lamp! But not just a pretty lamp, but one with a <var>specific function</var>.
 
 Before your planning goes into detail on the next slide (which will help you on your design journey), **let's do some brainstorming!** 
-<br>
-~**Think of a situation in your everyday life, where an RGB lamp might be useful**~. 
-Think back to the Philips Hue spot at the beginning of this workshop - they used it for deaf people to indicate that the doorbell rang. Maybe an RGB lamp that is tailored to someones' needs, might be useful for a friend of yours, your family or even you? Where could you use it? At home? At school? In public? In which situations would it be useful? In the morning? While you play video games? While you eat?
 
-**When you have come up with a rough idea of what you want to produce, click on the button below.**  🙂
+</section>
 
-<br>
+-
 
+<section>
 
-<f-next-button />
+**Think of a situation in your everyday life, where an RGB lamp might be useful**. 
+
+Think back to the **Philips hue** - they used it for deaf people to indicate that the doorbell rang. Maybe an RGB lamp that is tailored to someones' needs, might be useful for your friend, family or even you? Where could you use it? At home? At school? In which situations would it be useful? In the morning? While you play video games? While you eat?
+
+**When you have come up with a rough idea of what you want to produce, let's move to next step**
 
 </section>
 
@@ -77,46 +88,45 @@ https://www.flickr.com/photos/62449696@N00/9522596028
 
 ---
 
-
 | section: Assignment: Design your own lamp
 | padding: 0
+| 1 1 1 1 1
+| 2 2 3 3 3
 
-<section>
+<section style="padding-bottom: 0">
 
-<caption>Assignment</caption>
+<caption>✍️ Written assignment</caption>
 
 ## Design analysis
-
-You have still got your rough idea in mind? **Then let's start planning!** 🙂
-
-***Try to come up with as many ideas as possible! <br> More than one is a requirement!***
-
-~Write down your answers to the following questions! You will need them later:~
-
-#### TASKS:
-
-1. ~What is your target group? Is there a certain person that you will design it for? What does your target group need or expect?~
-2. ~What is its basic function? Remember your research results of before e.g. information, communication, health, psychology...~
-3. ~Which properties/features does your lamp need according to your target group and the situation that it will be used in?~
-4. ~In which way will your RGB lamp interact with the environment or people?~
-5. ~Which input from the environment does your lamp react to (e.g. time, light, noise, music, temperature, heart rate, feelings...)?~
-
-~***When you answer these questions, try to be as precise as possible.*** The better you plan, the better the outcome! <br> ***So take your time and don't rush it!***~
-
-<br>
-
-
-<f-next-button />
 
 </section>
 
 -
 
-<f-image src="./imgs/cap2_2.png" />
+<section style="padding-top: 0">
 
-<f-notes title="Credits">
+You have still got your rough idea in mind? Then let's start planning! 🙂
 
-https://www.flickr.com/photos/62449696@N00/9522596028
+**Write down as many idea as possible, more than one ideea is a requirement**
 
-</f-notes>
+When you answer these questions, try to be *as precise as possible.* The better you plan, the better the outcome. Take your time and don't rush it.
 
+</section>
+
+-
+
+<section style="padding-top: 0">
+
+#### Key questions:
+
+1. What is your target group? Is there a certain person that you will design it for? What does your target group need or expect?
+
+2. What is its basic function? Remember your research results of before e.g. information, communication, health, psychology...
+
+3. Which properties/features does your lamp need according to your target group and the situation that it will be used in?
+
+4. In which way will your RGB lamp interact with the environment or people?
+
+5. Which input from the environment does your lamp react to (e.g. time, light, noise, music, temperature, heart rate, feelings...)?
+
+</section>
