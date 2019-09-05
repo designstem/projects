@@ -18,16 +18,12 @@
 # Before you can design...
 
 **Do some background research first!**
+
 On the following pages, you will learn from the experience of others — this can help you find out about existing solutions to similar problems, and avoid mistakes that were made in the past.
 
-**Take notes of the core facts, while you read through the pages.** You will need this information for your final task!
-<br>
-<f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">
-Find out more!</f-link>
+**Take notes of the core facts, while you read through the pages**
 
-<br>
-
-<f-next-button />
+You will need this information for your final task
 
 -
 
@@ -36,23 +32,13 @@ Find out more!</f-link>
 | 1 2 3
 | 1 4 5
 
-## Different functions of colored light
+<caption>🤔💬 Think and discuss</caption>
 
-#### 🤔 Think:
+## Different functions of colored light
 
 1. Find another example of a light object where the main function is a decorative. 
 2. What would you change in order to make it more engaging?
 3. Can you come up with further uses other than in the videos on the right?
-
-
-#### 💬 Discuss:
-
-Share your ideas with your classmates. 
-
-<br>
-
-
-<f-next-button />
 
 -
 
@@ -81,21 +67,14 @@ Share your ideas with your classmates.
 
 <section>
 
+<caption>🤔💬 Think and discuss</caption>
+
 ## Light for information or communication
-
-
-#### 🤔 Think
 
 1. In which situations would you use light as communicator?
 2. Have you ever been in a situation where you needed to rely on light to communicate? 
 
-#### 💬 Discuss
-
 Share your story with your classmates. What happened? What did you do?  Collect these stories. 
-
-<br>
-
-<f-next-button />
 
 </section>
 
@@ -122,7 +101,9 @@ https://commons.wikimedia.org/wiki/Lighthouse#/media/File:Ocracoke_Lighthouse_wi
 
 <var>Chronobiology</var> is a field of biology that examines periodic (cyclic) phenomena in living organisms and their adaptation to solar- and lunar-related rhythms.
 
-#### TASK
+<br>
+
+<caption>🕵️ Do research</caption>
 
 1. Find out more about biodynamic lighting and Chronobiology online. 
 2. Find out what light has to do with health.
@@ -132,7 +113,7 @@ https://commons.wikimedia.org/wiki/Lighthouse#/media/File:Ocracoke_Lighthouse_wi
 <br>
 
 
-<f-next-button />
+
 
 </section>
 
@@ -151,19 +132,23 @@ https://commons.wikimedia.org/w/index.php?title=Special:Search&limit=500&offset=
 
 | background: ./imgs/cap1_4.png
 | theme: dark
-| tint: 0.6
+| tint: 0.7
 
 <center><div>
 
 ### Did you know?
 
-Flying west is less tiring than flying east. **Why is that? Try to find it out!**
+<var style="color: #1982c4">Flying west is less tiring than flying east<var>
 
-This airplane shows blueish light<br>to keep you more awake in order to abate your jetlag. <br> **Why does blue light keep you awake and yellow light make you sleepy? <br> Find out!**
+Why is that?
+
+<var style="color: #1982c4">This airplane shows blueish light<br>to keep you more awake in order to abate your jetlag.</var><br> 
+
+Why does blue light keep you awake and<br>yellow light make you sleepy? Find out!
 
 <br>
 
-<f-next-button />
+
 
 
 </div></center>
@@ -192,7 +177,7 @@ These two color qualities have the greatest influence on how a plant grows. Blue
 
 <br>
 
-<f-next-button />
+
 
 </section>
 
@@ -224,7 +209,7 @@ Further, colored light is used in stores to make certain products more attractiv
 <br>
 
 
-<f-next-button />
+
 
 </section>
  

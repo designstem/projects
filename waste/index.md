@@ -1039,8 +1039,6 @@ Print out the PDF attachment in two copies (it is advised to use differently col
 
 <a class="tertiary" href="./files/beeboard.pdf"><f-arrow-icon rotation="90" />Download beeboard PDF</a>
 
-***TODO/SANDRA: Where is downloadable template?***
-
 -
 
 <img src="./images/bee2.jpg">
@@ -1500,7 +1498,7 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 | padding: 0
 | 1 1 1 2 2
 
-<section style="background: var(--lightergray)">
+<section style="background: var(--lightergray); height: 100vh">
 
 <caption>Optimization by deformation</caption>
 

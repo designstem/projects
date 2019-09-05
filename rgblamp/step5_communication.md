@@ -18,13 +18,13 @@
 
 # Communication
 
-~**Now it is time to complete your project!**~ 🧐
+**Now it is time to complete your project!** 🧐
 
 #### TASKS
 
-1. ~Build a complete prototype, i.e. combine your lamp shade with your RGB lamp!~
-2. ~Write a short essay, documenting your design process and explaining your design choices.~
-3. ~Be prepared to present your results!~
+1. Build a complete prototype, i.e. combine your lamp shade with your RGB lamp!
+2. Write a short essay, documenting your design process and explaining your design choices.
+3. Be prepared to present your results!
 
 <br>
 
@@ -32,7 +32,7 @@ Professional engineers always do the same, thoroughly documenting their solution
 
 <br>
 
-<f-next-button />
+
 
 -
 
@@ -48,21 +48,19 @@ Professional engineers always do the same, thoroughly documenting their solution
 
 Remember the [Philips hue](https://www2.meethue.com/en-us) commercial? Watch it again but focus on how the product is **communicated**. Try to answer the following questions:
 
-1. ~Who promotes the product?~
+1. Who promotes the product?
   
-2. ~How is the music is used?~
+2. How is the music is used?
 
-3. ~How often do you see the actual product and the app controlling it?~
+3. How often do you see the actual product and the app controlling it?
 
-4. ~And most important: **How does the commercial make you feel**?~
+4. And most important: **How does the commercial make you feel**?
 
-All these questions are the core of <var>marketing</var>, the art of selling not just a product, but also a feeling!
-**Keep in mind, what you just learned! You will need it on the next page!**
-
+All these questions are the core of <var>marketing</var>, the art of selling not just a product, but also a feeling.
 
 <br>
 
-<f-next-button />
+
 
 -
 
@@ -80,7 +78,7 @@ All these questions are the core of <var>marketing</var>, the art of selling not
 
 -
 
-In order to give a good presentation, you need to think like someone from marketing. How will you make people interested in what you did? Follow the questions below, to help you prepare your presentation:
+How will you make people interested in what you did? Follow the questions below, to help you prepare your presentation:
 
 #### TASKS
 
@@ -91,12 +89,12 @@ In order to give a good presentation, you need to think like someone from market
 
 <br>
 
-~Create an outline for your presentation, to convince your audience of your product's value. Think of the story telling of good movies: They start with an interesting beginning (a riddle), then build up to the solution and have a grande finale!~
+Create an outline for your presentation, to convince your audience of your product's value. Think of the story telling of good movies: They start with an interesting beginning (a riddle), then build up to the solution and have a grande finale!
 
 
 <br>
 
-<f-next-button />
+
 
 -
 
@@ -104,20 +102,24 @@ In order to give a good presentation, you need to think like someone from market
 
 ---
 
-| 1 1 1
-| 2 3 3
-| rows: auto 1fr
+| 1 2 2 
 
-<caption>Assignment</caption>
+##  We are done
 
-##  So what did you learn?
+**So what did you learn?**
+
+Think back of what was new for you in this project? Reflect on which info you already knew about and what was completely new about it.
+
+Are there any interesting facts, which might be useful for you in your further life?
 
 -
 
-~Think back of what was new for you in this project? Reflect on which info you already knew about and what was completely new about it.~
+## Homework grading
 
-~Are there any interesting facts, which might be useful for you in your further life?~
+&nbsp;|5|4|3|2|Grades
+--- |--- |--- |--- |--- |---
+**Creativity**|Excellent work|Work with some original ideas|Lack of original work|Copied work
+**Quality**|Accurate. All elements are designed accurately|Really good. Most elements are  designed accurately|Good. Needs some reviewing|Needs reviewing
+**Cooperation**|Perfect|Really good|Good|Needs reviewing
+**Quality**|Accurate. All phases have been accurately followed|Really good. Most of the work has been accurately done|Good. Needs some reviewing|Needs reviewing
 
-<br>
-
-<f-next-button />
