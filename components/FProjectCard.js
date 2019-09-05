@@ -54,7 +54,7 @@ export default {
       
       <h4>&nbsp;</h4>
 
-      <f-sidebar size="half">
+      <f-sidebar size="wide">
         <button style="position: absolute; left: var(--base2); bottom: var(--base2);">About</button>
         <div slot="content" style="padding: var(--base3)">
           <h2>{{ project.title }}</h2>

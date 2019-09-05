@@ -4,6 +4,4 @@ Students learn to define <var style="color: var(--blue)">frequency</var> and <va
 
 ### Motivation
 
->Technology is advancing rapidly and teaching methods are evolving towards digitization. However, the world out of screen resolution limits shouldn't be left unexplored, which brought me up with an idea to combine tangible real-life experience with digital learning objects. The main goal of the project is driven by hands-on creative tasks which intrigue students to raise questions and find answers. I'm convinced that building bridges between technology and art helps everybody to achieve their learning goals beyond their expectations. <br>
-<small>*Frequency and motion adds creativity to STEM!*
-&mdash; Erik Riige</small>
+> <big>~*It is clear that as technology is advancing rapidly, teaching and its methods are evolving towards digitization. Thus, it's not all negative by itself, I decided to create a project, which lets students creativeness explore the world out of screen resolution limits. The main goal of the project is driven by creative tasks which intrigue students to raise questions and find answers. Frequency and motion adds creativity to STEM!*~</big><br>Erik Riige

@@ -1,22 +1,29 @@
-| theme: dark
 | chapter: Zero waste products
-
-***TODO*** image
-
-## <big>Zero waste products</big>
-
----
-
 | section: The Flax Chair
-| 1 2 2
+| 1 1
+| 2 3
+| rows: 1fr auto
+| padding: 0
 
-## The FLAX Chair by Christien Meindertsma
-
-With the Flax Chair Christien Meindertsma tried to use a **local biodegradable product** in a new contemporary way and she made sure to use the material **as economical as possible**. 
+<f-image src="./images/flax.jpg" />
 
 -
 
+<section style="padding-top: var(--base2)">
+
+## Zero waste products
+
+With the Flax Chair Christien Meindertsma tried to use a **local biodegradable product** in a new contemporary way and she made sure to use the material as economical as possible, leaving **zero wasted material**
+
+</section>
+
+-
+
+<section style="padding-top: var(--base2)">
+
 <f-video src="https://www.youtube.com/watch?v=eb7zJCavMJ0" />
+
+</section>
 
 ---
 
@@ -46,7 +53,7 @@ In the past 20 years designers, artists and makers are looking more and more for
 
 As an answer to the throw-away society they choose for a **circular approach**. Their ideal is that disposable products are fully degradable or be a raw material for something new. Making degradable objects could be done with biobased material.
 
----
+-
 
 ## Experiment to design
 
@@ -57,20 +64,23 @@ Their inventiveness and creativity comes possible from this opportunity of **wor
 ---
 
 | section: Dung as a material
+| 1 1 2 2 2
+| 1 1 3 3 3
+| gap: var(--base2) var(--base10)
 
-## Low value material - dung
-
-**From disgust to desire!**
+## From disgust to desire
 
 By 2050 when the population exceed nine billion, feces, hair and dust are among the few natural resources which are actually increasing.
 
-Poo is a low value natural material, and you could make functional products of it.
+Dung is a low value natural material, and you could make functional products of it.
 
 -
 
-<img src="./images/merdacotta1.jpg" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Arianit_Brod_image151.jpg">
 
-<img src="./images/merdacotta2.jpg" />
+-
+
+<f-image src="./images/merdacotta1.jpg" />
 
 <f-notes title="Credits">
 
@@ -84,20 +94,28 @@ Henrik Blomqvist for Museo della Merda
 
 ---
 
-## Designers as material innovators 
+| theme: dark
+| background: https://alternativecommunication.files.wordpress.com/2013/09/exposition-alive-fondation-edf-paris_2013-05.jpg?w=1309&h=978
+| tint: 0.5
 
-> *~Imagine a world where biological fabrication replaces traditional manufacture, plants that grow products, and bacteria genetically re-programmed to "biofacture" new materials, artifacts, energy or medicine.~*
+<center style="padding: 0 var(--base10)">
+
+<big>*~Imagine a world where biological fabrication replaces traditional manufacture, plants that grow products, and bacteria genetically re-programmed to "biofacture" new materials, artifacts, energy or medicine.~*</big>
 
 <small>Quote of Carole Collet at ‘Alive’ exhibition held in Paris, 2013</small>
 
-In the years after the Alive exhibition the gap between the above mentioned **concept and reality** shrinks. 
+</center>
 
-How? Let’s have a look!
+<f-notes title="Credits">
 
+https://alternativecommunication.wordpress.com/2013/09/04/exhibition-alive-at-the-design-frontiers/
+
+</f-notes>
 
 ---
 
 | section: Living materials
+| 1 2 2
 
 ## Living materials - mycelium
 
@@ -272,36 +290,46 @@ Of course you could apply this on a bigger scale for life-size furniture...
 ---
 
 | section: Folding
+| rows: auto 1fr
+| 1 1 1
+| 2 2 3
+| padding: 0
 
-## Folding
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap: 0; height: 40vh">
+  <f-image src="./images/folaroid1.jpg" />
+  <f-image src="./images/folaroid2.jpg" />
+  <f-image src="./images/folaroid3.jpg" />
+  <f-image src="./images/folaroid4.jpg" />
+</f-inline>
+
+-
+
+<section>
+
+<caption>Folding</caption>
+
+## Foldaroid
 
 To have **as little as possible waste** material, you can also use folding techniques. 
 
 For example the **Foldaroid stool** by Anthony Yu Wei Tong.
 
-<img src="./images/folaroid5.jpg" />
+</section>
 
 -
 
-<f-inline>
-<img src="./images/folaroid1.jpg" style="width: 50%"/>
-<img src="./images/folaroid2.jpg" style="width: 50%"/>
-</f-inline>
-
-<f-inline>
-<img src="./images/folaroid3.jpg" style="width: 50%"/>
-<img src="./images/folaroid4.jpg" style="width: 50%"/>
-</f-inline>
+<img src="./images/folaroid5.jpg" />
 
 ---
 
-## Folding
+| background: ./images/zseat.jpg
+| theme: dark
 
-Or what do you think of the **Z seat** by Studio Stallinga.
+<center>
 
--
+<big>Here is folded **Z seat** by Studio Stallinga</big>
 
-<img src="./images/zseat.jpg" />
+</center>
 
 <f-notes title="Credits">
 
@@ -315,44 +343,63 @@ Studio Stallinga, www.stallinga.nl
 ---
 
 | section: Cut and fold
+| padding: 0
+| 1 2 2
 
-## Cut and Fold
+<section>
+
+<caption>Cut and Fold</caption>
+
+## Pop-up Lamp
 
 Another option for optimizing your material use and minimizing waste is **using a combination of cuts and folds**.
 
 A perfect example is the **Pop-up Lamp** by the French studio Well Well Designers is. It’s constructed from one sheet of paper with a special coating.
 
+</section>
+
 -
 
-<img src="./images/popuplamp.jpg" />
+<f-image src="./images/popuplamp.jpg" />
 
 <f-notes title="Credits">
 
-Image source:
-
-Well Well Designers, www.wellwelldesigners.com
+Image source: Well Well Designers, www.wellwelldesigners.com
 
 </f-notes>
 
 ---
 
-| 1 2 2 3 3
+| 2 3 1
+| 4 5 1
+| padding: 0
+| gap: 0
+
+<section>
 
 <caption>Cut and Fold</caption>
 
+## Origami Folding Lamp
+
 A bit more elaborate is the **Origami Folding Lamp** by Mirco Kirsch.
 
--
-
-<img src="./images/origamilamp1.jpg" />
-
-<img src="./images/origamilamp3.jpg" />
+</section>
 
 -
 
-<img src="./images/origamilamp2.jpg" />
+<f-image src="./images/origamilamp1.jpg" />
 
-<img src="./images/origamilamp4.jpg" />
+-
+
+<f-image src="./images/origamilamp3.jpg" />
+
+-
+
+<f-image src="./images/origamilamp2.jpg" />
+
+-
+
+<f-image src="./images/origamilamp4.jpg" />
 
 <f-notes title="Credits">
 
@@ -364,46 +411,57 @@ Design Boom, www.designboom.com
 
 ---
 
+| background: ./images/aviator3.png
+| tint: 0
+| 1 2 2 2 
+ 
 <caption>Cut and Fold</caption>
+
+## Aviator Chair
 
 Zev Bianchi and Bcompact design used a fancier version of cutting and folding called **kerf bending** to make the **Aviator Chair** out of one sheet of plywood. To the right you see there prototypes in paper.
 
-
-<img src="./images/aviator3.png" />
-
 -
-
-<img src="./images/aviator1.png" />
-
-<img src="./images/aviator2.png" />
 
 <f-notes title="Credits">
 
-Image source:
-
-Core77, www.core77.com
+Image source: Core77, www.core77.com
 
 </f-notes>
 
 ---
 
+| theme: dark
+| 1 2 2
+| 1 3 3
+
 <caption>Cut and Fold</caption>
 
-## Exercise
+<caption>🛠️ ️️Hands-on exercise<caption>
+
+## Paper Aviator 
 
 Try to make a chair out of paper using the cut and fold technique in the template. Print the PDF from the link below.
 
-https://drive.google.com/file/d/1GnK9yLvlw__J5pjTnHlRZXNJfShIlVeE/view
+<a class="tertiary" href="./files/cut_and_fold_chair.pdf"><f-arrow-icon rotation="90" />Download chair PDF</a>
 
-***TODO Copy to github***
+-
+
+<f-image src="./images/aviator1.png" />
+
+-
+
+<f-image src="./images/aviator2.png" />
+
 
 ---
 
 | section: Design assignment
+| theme: dark
+| 1 1 1
+| 2 3 3
+| 4 4 4
 
-| 1 1
-| 2 3
-| 4 4
 
 ## Design assignment
 
@@ -417,7 +475,7 @@ Do this by following the steps on the next slide.
 
 -
 
-Key steps
+#### Key steps
 
 1. Choose your material and look at the dimensions of the material. 
 
