@@ -384,8 +384,9 @@ There’s a **duality** between nature and engineering, when it comes to lightwe
 | 1 1
 | 2 2
 | 3 4
-| rows: 40vh auto 1fr
+| rows: 1fr auto auto
 | padding: 0
+| gap: var(--base2) 0
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/First_flight3.jpg/1920px-First_flight3.jpg" />
 
@@ -406,17 +407,13 @@ Making constructions is not only a matter of choosing the right <var>material</v
 
 It’s the combination of <var>material</var>, <var>form</var> and <var>production process</var> process which makes the construction **light** and **strong**.
 
-You can imagine when it comes to lightweight constructions the balance of the trinity becomes more critical!
-
 </section>
 
 -
 
 <section style="padding-top: 0;">
 
-The efficiency of construction also depends on <var>type&nbsp;of&nbsp;load</var> the construction has to carry. 
-
-Loads on a construction could be: <var class="gray">bending, pressure, tension, shear, torsion, vibration</var> etc.
+The efficiency of construction also depends on <var>type&nbsp;of&nbsp;load</var> the construction has to carry such as <var class="gray">bending, pressure, tension, shear, torsion, vibration</var> etc.
 
 When designing an object an engineer investigates all its possible loads. 
 
@@ -640,19 +637,19 @@ See what happens when you place the papers **horizontally** or **vertically** on
 
 -
 
-<img src="./images/fold2a.jpg"  />
+<f-image src="./images/fold2a.jpg"  />
 
 -
 
-<img src="./images/fold2b.jpg"  />
+<f-image src="./images/fold2b.jpg"  />
 
 -
 
-<img src="./images/fold3a.jpg"  />
+<f-image src="./images/fold3a.jpg"  />
 
 -
 
-<img src="./images/fold3b.jpg"  />
+<f-image src="./images/fold3b.jpg"  />
 
 ---
 
@@ -701,6 +698,8 @@ Take some paper and try different ways of folding to make a strong paper constru
 
 | chapter: Optimization with sticks and strings
 | section: Optimization with sticks and strings
+| 1 2 
+| 1 3
 
 <big><caption>Optimization with sticks and strings</caption></big>
 
@@ -714,11 +713,11 @@ Arch bridges are examples of <var>compressive structures</var>.
 
 -
 
-<img src="./images/bridge.jpg" />
+<f-image src="./images/bridge.jpg" />
 
-<p />
+-
 
-<img src="./images/bridge2.jpg" />
+<f-image src="./images/bridge2.jpg" />
 
 <f-notes title="Credits">
 
@@ -832,6 +831,7 @@ https://academy.allaboutbirds.org/features/birdanatomy/
 | section: Exercise: Create a space frame
 | padding: 0
 | 1 2 2
+| background: var(--lightergray)
 
 <section>
 
@@ -857,59 +857,46 @@ https://commons.wikimedia.org/wiki/File:Modern_steel_station_roof_of_Zaandam_as_
 
 ---
 
-***TODO: What to do here?***
+| 1 1 2 2 3 3
+| padding: 0
+| gap: 0
 
-<caption>Optimization with sticks and strings</caption>
+<section style="background: var(--lightergray); height: 100vh;">
 
--
+## Model with sticks and strings
 
-<img src="./images/doc1.jpg" />
+Now build a model of a functional structure using only sticks and strings. For inspiration, study the materials by Claus Mattheck:
 
--
-
-
-<img src="./images/doc2.jpg" />
-
--
-
-<img src="./images/doc3.jpg" />
-
----
-
-<caption>Optimization with sticks and strings</caption>
-
-## Exercise 2
-
-Now build a model of a functional structure using only sticks and strings. 
-
-Continue for inspiration and information ***TODO: Continue to where?***
-
----
-
-| 1 1 1
-| 2 3 4
- 
-<caption>Optimization with sticks and strings</caption>
-
-## Exercise 2: Examples and resources
-
--
-
-<img src="./images/mat1.jpg" />
-
--
-
-<img src="./images/mat2.jpg" />
-
--
-
-### Claus Mattheck
+<div style="--base: 8px">
 
 <a href="https://publikationen.bibliothek.kit.edu/220080224/3815736">Computer-free Design using the Method of Force Cones</a> (PDF)
 
 <a href="https://publikationen.bibliothek.kit.edu/220080225/3815737">Example topologies using the method of force cones</a> (PDF)
 
 <a href="https://publikationen.bibliothek.kit.edu/220078860/3815665">Further verification of the method of force cones</a> (PDF)
+
+</div>
+
+</section>
+
+-
+
+<section>
+
+<img src="./images/mat1.jpg" style="width: 100%"/>
+
+</section>
+
+-
+
+<section>
+
+<img src="./images/mat2.jpg" style="width: 100%"/>
+
+</section>
+
+-
+
 
 
 <f-notes title="Credits">
@@ -956,8 +943,8 @@ There is two more deformation types to go, take your pick.
 
 | chapter: Optimization with cells
 | section: Optimization with cells
-| 1 1 1 2 2
 | padding: 0
+| gap: 0
 
 <section>
 
@@ -967,17 +954,13 @@ There is two more deformation types to go, take your pick.
 
 A hexagon is a form we see everywhere in nature when energy optimization is needed. 
 
-For example in a honeycomb, radiolaria or dried clay.
-
-<div class="grid" style="--cols: 1fr 1fr; --rows: 25vh">
-
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bee_on_his_alvear.jpg/1920px-Bee_on_his_alvear.jpg" />
-
-<f-image src="./images/clayground.jpg" />
-
-</div>
+We can see it in <var>honeycombs</var> or <var>radiolaria</var>.
 
 </section>
+
+-
+
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mesilask%C3%A4rg.jpg/1024px-Mesilask%C3%A4rg.jpg" />
 
 -
 
@@ -1108,25 +1091,44 @@ Stretch the parts, so the<br>honeycomb beeboard will appear.
 
 ---
 
-<caption>Optimization with cells</caption>
+| 1 2
+| 3 3
+| 4 5
+| rows: 1fr auto auto
+| padding: 0
+| gap: 0
 
-When you look at soap bubbles, you see they’re not regular; they vary in size and shape. 
-
-This depends on the external forces, but also on the material properties of the bubble itself, like surface tension, viscosity or the competitive growth of the bubbles due to the air or gas. 
+<f-image src="./images/clayground.jpg">
 
 -
 
-Researching the Voronoi diagram
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/This_must_be_art_%28explored%29_%284457914327%29.jpg/1280px-This_must_be_art_%28explored%29_%284457914327%29.jpg">
 
-Let’s see if we can mimic dried clay and soap bubbles and modify them into possible emergency plans!   
+-
 
-<f-inline>
+<section style="padding-top: var(--base4); padding-bottom: 0">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/This_must_be_art_%28explored%29_%284457914327%29.jpg/1280px-This_must_be_art_%28explored%29_%284457914327%29.jpg" style="width: 56%">
+<caption>Optimization with cells</caption>
 
-<img src="./images/clayground.jpg" style="width: 50%">
+## Clay and bubbles
 
-</f-inline>
+-
+
+<section style="padding-top: 0">
+
+When you look at **dried clay** or **soap bubbles**, you see they’re not regular, they vary in size and shape. This depends on the external forces, but also on the material properties of the bubble itself, like <var class="gray">surface tension</var>, <var class="gray">viscosity</var> or the <var class="gray">competitive growth</var> of the bubbles due to the air or gas. 
+
+</section>
+
+-
+
+<section style="padding-top: 0">
+
+Let’s see how nature comes up with <var>2D&nbsp;structures</var> like dried clay and <var>3D&nbsp;structures</var> like soap bubbles and how it can inspire us to have better material and energy optimization.  
+
+</section>
+
+-
 
 <f-notes title="Credits">
 
@@ -1137,19 +1139,9 @@ https://pixabay.com/photos/drought-ground-clay-cracks-dry-964339/
 
 ---
 
-***TODO*** layout
-
 <caption>Optimization with cells</caption>
 
-Georgy Voronoi was a Russian mathematician. A Voronoi diagram is built out of various polygons. Imagine you’re are in region and you’re looking for the closest hospital. The region is divided in areas (polygons) with nodes. Every node represents a hospital.
-
-**At any point in the polygon you’re closer to the node it contains than to any other node in the whole region.**
-
-And, at any point along the boundaries of the polygons, you are at the same distance from at least two nodes. This makes these diagrams very useful for many applications such as mapping and zoning, for example to find the nearest hospital.
-
----
-
-## 2D construction
+## 2D structure optimization
 
 Let's see how nature comes up with structures like hexagons and soap bubbles. 
 
@@ -1223,11 +1215,13 @@ The algorithm how Voronoi diagram is drawn is [explained here](https://observabl
 | 1 2 3
 | 1 4 5
 
-## 3D structure
+<caption>Optimization with cells</caption>
 
-The 3D version of a honeycomb you get when you stack balls in a crate and put weight on them, causing the walls to be pressed to each other, creating soap bubble foam like structure.
+## 3D structure optimization
 
-The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be considered the most ideal form to spread the forces exposed to it.
+Let's explore how a regular or irregular set of spheres behave when combined together.
+
+The physicist Lord Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be the structure that the nature creates. The structure was later improved by physicists Weaire and Phelan.
 
 [See more](https://www.designcoding.net/weaire-phelan-structure/)
 
@@ -1253,6 +1247,7 @@ The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahed
 | 3 3 3
 | rows: 1fr auto
 | background: #000
+| theme: dark
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Olympic2008_watercube02_night.jpg" />
 
@@ -1262,7 +1257,7 @@ The physicist Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahed
 
 -
 
-China...
+The Beijing National Aquatics Center built for the 2008 Olympics is one of the buildings where<br><var>Weaire\-Phelan structure</var> is used.
 
 ---
 
@@ -2119,6 +2114,3 @@ Do this by following the steps on the next slide.
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
 </section>
-
--
-
