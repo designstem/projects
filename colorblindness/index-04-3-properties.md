@@ -159,7 +159,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     x="-4"
     y="-1"
     stroke="none"
-    :fill="hsb2hsl( 340, 100, get('brightness',34) )"
+    :fill="hsb2hsl( 340, 100, get('brightness',50) )"
   />
   <f-box 
     width="4"
@@ -174,7 +174,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     stroke="none"
     x="0"
     y="-1"
-    :fill="hsb2hsl( 134, 100, get('brightness',34) )"
+    :fill="hsb2hsl( 134, 100, get('brightness',50) )"
   />
   <f-box 
     width="4"
@@ -189,7 +189,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     x="4"
     y="-1"
     stroke="none"
-    :fill="hsb2hsl( 247, 100, get('brightness',34) )"
+    :fill="hsb2hsl( 247, 100, get('brightness',50) )"
   />
 </f-scene>
 
@@ -272,7 +272,7 @@ Again, we will work with polarity profiles to understand the effect a change in 
     height="4"
     x="-4"
     stroke="none"
-    :fill="hsb2hsl(340,100,67)"
+    :fill="hsb2hsl(340,100,100)"
   />
   <f-box 
     width="4"
@@ -280,14 +280,14 @@ Again, we will work with polarity profiles to understand the effect a change in 
     x="-4"
     y="-1"
     stroke="none"
-    :fill="hsb2hsl( 340, get('saturation',50), 67 )"
+    :fill="hsb2hsl( 340, get('saturation',50), 100 )"
   />
   <f-box 
     width="4"
     height="4"
     stroke="none"
     x="0"
-    :fill="hsb2hsl(134, 100, 67)"
+    :fill="hsb2hsl(134, 100, 100)"
   />
   <f-box 
     width="4"
@@ -295,14 +295,14 @@ Again, we will work with polarity profiles to understand the effect a change in 
     stroke="none"
     x="0"
     y="-1"
-    :fill="hsb2hsl( 134, get('saturation',50), 67 )"
+    :fill="hsb2hsl( 134, get('saturation',50), 100 )"
   />
   <f-box 
     width="4"
     height="4"
     x="4"
     stroke="none"
-    :fill="hsb2hsl(247, 100, 67)"
+    :fill="hsb2hsl(247, 100, 100)"
   />
   <f-box 
     width="4"
@@ -310,7 +310,7 @@ Again, we will work with polarity profiles to understand the effect a change in 
     x="4"
     y="-1"
     stroke="none"
-    :fill="hsb2hsl( 247, get('saturation',50), 67 )"
+    :fill="hsb2hsl( 247, get('saturation',50), 100 )"
   />
 </f-scene>
 
