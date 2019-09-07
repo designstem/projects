@@ -59,7 +59,7 @@ On the next few pages, we will look at this more closely.
 ## Color meaning (hue)
 
 
-It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Green lets us first think of nature, freshness and growth, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.
+It's true that all colors have a certain meaning regarding their hue. You probably already know that red is often associated with love, also anger and blood, but all in all with strong emotions. Yellow lets us first think of fruits, juice, summer and sunshine, whereas blue hues are connected to the sky and ocean, therefore are said to have a cooling, calm, quiet and solid effect.
 **But what if we leave the hue unaltered and modify the other two properties**, saturation and brightness? Does this change the colors effect? Let's find it out on the next pages!
 
 #### Hint:
@@ -166,7 +166,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     height="4"
     stroke="none"
     x="0"
-    :fill="hsb2hsl(48, 100, 72)"
+    :fill="hsb2hsl(48, 100, 100)"
   />
   <f-box 
     width="4"
@@ -287,7 +287,7 @@ Again, we will work with polarity profiles to understand the effect a change in 
     height="4"
     stroke="none"
     x="0"
-    :fill="hsb2hsl(48, 100, 72)"
+    :fill="hsb2hsl(48, 100, 100)"
   />
   <f-box 
     width="4"
@@ -295,7 +295,7 @@ Again, we will work with polarity profiles to understand the effect a change in 
     stroke="none"
     x="0"
     y="-1"
-    :fill="hsb2hsl( 48, get('saturation',50), 72 )"
+    :fill="hsb2hsl( 48, get('saturation',50), 100 )"
   />
   <f-box 
     width="4"
