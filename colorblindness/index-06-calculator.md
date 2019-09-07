@@ -82,9 +82,9 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 #### Tasks
 
-1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?
-2. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
-3. **Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](./files/designstem_cvd_worksheet_stem.pdf).
+1. **Product**: *First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?*
+2. **Color design**: *Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.*
+3. **Mockup**: *Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](./files/designstem_cvd_worksheet_stem.pdf).*
 
 <br />
 
@@ -149,11 +149,11 @@ Design a calculator app that works for people with color vision deficiency, but 
 
 #### Tasks
 
-1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many colors would you need for your color scheme?
-2. **Target group**: Think about who will use it. What is most important to them? How does that affect your design?
-3. **Layout**: Scribble a layout for your calculator app. Use the calculator displayed here as a reference.
-4. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
-5. **Mockup**: Make a mockup of your design in a graphic program and apply your color scheme to it.
+1. **Product**: *First, group the buttons and find hierarchies. Which are important buttons that you use often? How many colors would you need for your color scheme?*
+2. **Target group**: *Think about who will use it. What is most important to them? How does that affect your design?*
+3. **Layout**: *Scribble a layout for your calculator app. Use the calculator displayed here as a reference.*
+4. **Color design**: *Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.*
+5. **Mockup**: *Make a mockup of your design in a graphic program and apply your color scheme to it.*
 
 
 
@@ -281,11 +281,11 @@ Lets reflect on what you achieved.
 
 #### Tasks
  
-1. Reflect on what you learned. What was new for you or interesting? What was difficult or easy?
-2. Do you think the information will be useful for you as a designer or STEM student?
-3. What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?
+1. *Reflect on what you learned. What was new for you or interesting? What was difficult or easy?*
+2. *Do you think the information will be useful for you as a designer or STEM student?*
+3. *What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?*
 <br>
-4. Think of further ways to make information more accessible other than color coding it. What could you do else?
+4. *Think of further ways to make information more accessible other than color coding it. What could you do else?*
 <br>
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -324,9 +324,9 @@ Lets reflect on what you achieved.
 
 #### Tasks
  
-1. Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?
-2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion! If possible, also check it in the CVD simulator to strengthen your arguments.
-3. If so, what should he have done differently to improve it?
+1. *Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?*
+2. *Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion! If possible, also check it in the CVD simulator to strengthen your arguments.*
+3. *If so, what should he have done differently to improve it?*
 <br>
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -369,8 +369,8 @@ Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_qu
 
 
 **Here are some further questions to think about:**
-1. In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?
-2. In terms of rods and cones, how would you expect the retina of a nocturnal mammal to be different from that of a diurnal mammal? Can you explain it?
+1. *In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?*
+2. *In terms of rods and cones, how would you expect the retina of a nocturnal mammal to be different from that of a diurnal mammal? Can you explain it?*
 
 <br>
 
