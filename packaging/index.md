@@ -51,16 +51,16 @@ Image credits: www.unsplash.com
 
 ## What next?
 
-~In this workshop, you will look at different aspects regarding packaging design and use knowledge in mathematics to complete your final task sucessfully.~
+In this workshop, you will look at different aspects regarding packaging design and use knowledge in mathematics to complete your final task sucessfully.
 
-~We will be focussing on packaging made out of cardboard, but there are so many other ways to "wrap" products. But the main aims are always the same:~
+We will be focussing on packaging made out of cardboard, but there are so many other ways to "wrap" products. But the main aims are always the same:
 
 * Protect the product (against damage, stealing...)
 * Make the product look more appealing from the outside (sell the product to the customer)
 
 <br>
 
-~**Enjoy exploring!**~ 🙂
+**Enjoy exploring!** 🙂
 
 <br>
 
@@ -199,7 +199,7 @@ Nature has always evolved the best packaging for its products.
 
 #### TASK
 
-~Where in nature can you find packaging examples? Think of fruits for example.~
+Where in nature can you find packaging examples? Think of fruits for example.
 
 <br>
 
@@ -418,48 +418,6 @@ Sometimes natural packagings do not optimize the amount per se, but they maximiz
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/1280px-Ambersweet_oranges.jpg" />
 
----
-
-| 1 1
-| 2 3
-| rows: auto 1fr
-| background: var(--lightergray)
-
-## What if  we have to store<br>multiple packages?
-
--
-
-If there are multiple pieces of the product, they have to be stacked/stored with the least waste of space in between the packages.
-
-<var>perimeter</var> <f-math inline :update="get('p')">p = {{ get('p') }}</f-math>
-
-<f-slider set="p" from="1" to="10"/>
-
-<var>number of edges</var> <f-math inline :update="get('n')">n = {{ get('n') }}</f-math>
-
-<f-slider set="n" from="3" to="32" integer />
-
-<var>rotation</var> <f-math inline :update="get('r')">n = {{ get('r') }}</f-math>
-
-<f-slider set="r" from="0" to="360" />
-
--
-
-<f-scene>
-  <f-group scale="1">
-    <f-grid-pattern cols="3" rows="3" step="1">
-      <f-box :stroke="color('darkgray')" fill="white" />
-      <f-group :rotation="get('r',0)">
-        <f-line 
-          closed
-          :points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
-          :stroke="color('red')"
-        />
-      />
-    </f-grid-pattern>
-  </f-group> 
-</f-scene>
-
 
 ---
 
@@ -490,8 +448,8 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 
 #### TASKS
 
-1. ~Which polygon is the best regarding the storage, which is the worst?~
-2. ~Reflect on your result from no. 1 and compare it to shelves at home or at the supermarket. Which shape would be best here?~
+1. Which polygon is the best regarding the storage, which is the worst?
+2. Reflect on your result from no. 1 and compare it to shelves at home or at the supermarket. Which shape would be best here?
 
 
 <br>
@@ -552,7 +510,7 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 ## Let's put it together!
 
 Take all the information you gathered during the last pages! Can you evaluate which is the **optimal shape to store the maximum amount of rice with minimal cardboard material** without loss of space in between the cartons?
-~**Which shape would you pick? Explain your choice!**~
+**Which shape would you pick? Explain your choice!**
 
 
 <br>
@@ -606,7 +564,7 @@ Honeycombs are not only used for packaging, but also for **packaging materials**
 
 <blockquote>
 
-~Cardboard honeycomb panels consist of two supporting surface layers and a honeycomb core, similar to that of a honeycomb from a beehive.~
+Cardboard honeycomb panels consist of two supporting surface layers and a honeycomb core, similar to that of a honeycomb from a beehive.
 	
 </blockquote>
 
@@ -680,13 +638,13 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 ## <f-activity-icon /> Design your own packaging!
 
-~Now that you've learned so much about packaging, it's time that you design one yourself. Choose one of the following three tasks:~
+Now that you've learned so much about packaging, it's time that you design one yourself. Choose one of the following three tasks:
 
 #### <mark> TASK A </mark> 
 
-1. ~Choose an object that you want to design a cardboard package for. You can use multiple small objects (like rice, cornflakes, pasta etc.) or a bigger object.~
+1. Choose an object that you want to design a cardboard package for. You can use multiple small objects (like rice, cornflakes, pasta etc.) or a bigger object.
 
-2. ~Remember what you've learned about fraud packaging. Sometimes a little air inside is needed to protect the product during a bumpy ride, but too much is misleading. Plan your sizing carefully! Decide upon a shape that is best.~
+2. Remember what you've learned about fraud packaging. Sometimes a little air inside is needed to protect the product during a bumpy ride, but too much is misleading. Plan your sizing carefully! Decide upon a shape that is best.
 
 3. What if you have to store/stack several packages? How could you optimize the shape of your package in order to reduce loss of space between them?
 
@@ -706,11 +664,11 @@ https://www.rawpixel.com/image/321681/free-illustration-image-pear-antique-antiq
 
 #### <mark> TASK C </mark>
 
-1. ~Design a packaging for different spices which together will form a pattern but can be used individually! It should not only be functional, but also look unusual/nice/fresh.~
+1. Design a packaging for different spices which together will form a pattern but can be used individually! It should not only be functional, but also look unusual/nice/fresh.
 
-2. ~Make scribbles to plan your modules and the complete packaging including all modules.~
+2. Make scribbles to plan your modules and the complete packaging including all modules.
 
-3. ~Evaluate what’s the best material for your package.~
+3. Evaluate what’s the best material for your package.
 
 <br>
 
@@ -784,9 +742,9 @@ Image credits: www.unsplash.com
 
 **Congratulations on creating your packaging!** Let's have a closer look!
 
-1. ~What was most difficult about designing it? Where did you struggle?~
-2. ~What did you learn about packaging design? Is there anything new that you didn't know yet?~
-3. ~On a daily basis, we throw away cardboard packagings or recycle them. This immensely increased throughout the last fifty years. But also plastic is being used massively for packaging. Can you imagine alternatives? Browse the internet to find new ideas on alternatives for cardboard or plastic packaging.~
+1. What was most difficult about designing it? Where did you struggle?
+2. What did you learn about packaging design? Is there anything new that you didn't know yet?
+3. On a daily basis, we throw away cardboard packagings or recycle them. This immensely increased throughout the last fifty years. But also plastic is being used massively for packaging. Can you imagine alternatives? Browse the internet to find new ideas on alternatives for cardboard or plastic packaging.
 
 <br>
 
