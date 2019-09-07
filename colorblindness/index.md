@@ -449,13 +449,13 @@ You can **work through the stations in the given order** (which is recommended i
 
 <div style="margin-left: 2vw">
   
-- ~<a href="#" v-on:click="goto('cb-accessibility')">Accessibility</a>~
-- ~<a href="#" v-on:click="goto('cb-the-eye')">The eye</a>~
-- ~<a href="#" v-on:click="goto('cb-cvd1')">Color vision deficiency</a>~
-- ~<a href="#" v-on:click="goto('cb-color-mixing')">Light & Color (color mixing)</a>~
-- ~<a href="#" v-on:click="goto('cb-3-properties')">Three dimensions of color</a>~
-- ~<a href="#" v-on:click="goto('cb-contrast-and-harmony')">Color contrast and color harmony theory</a>~
-- ~<a href="#" v-on:click="goto('cb-palettes')">Design rules for creating color palettes</a>~
+- <a href="#" v-on:click="goto('cb-accessibility')">Accessibility</a>
+- <a href="#" v-on:click="goto('cb-the-eye')">The eye</a>
+- <a href="#" v-on:click="goto('cb-cvd1')">Color vision deficiency</a>
+- <a href="#" v-on:click="goto('cb-color-mixing')">Light & Color (color mixing)</a>
+- <a href="#" v-on:click="goto('cb-3-properties')">Three dimensions of color</a>
+- <a href="#" v-on:click="goto('cb-contrast-and-harmony')">Color contrast and color harmony theory</a>
+- <a href="#" v-on:click="goto('cb-palettes')">Design rules for creating color palettes</a>
 
 </div>
 
