@@ -77,7 +77,7 @@ It's true that all colors have a certain meaning regarding their hue. You probab
 <div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:row;">
   <div style="flex: 1 1 33%;" :style="{'background' : hsl(340,100,50) }"></div>
   <div style="flex: 1 1 34%;" :style="{'background' : hsl(134, 100, 50) }"></div>
-  <div style="flex: 1 1 33%;" :style="{'background' : hsl(247,100,50) }"></div>
+  <div style="flex: 1 1 33%;" :style="{'background' : hsl(214,100,50) }"></div>
 </div>
 
 
@@ -181,7 +181,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     height="4"
     x="4"
     stroke="none"
-    :fill="hsb2hsl(247, 100, 100)"
+    :fill="hsb2hsl(214, 100, 100)"
   />
   <f-box 
     width="4"
@@ -189,7 +189,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     x="4"
     y="-1"
     stroke="none"
-    :fill="hsb2hsl( 247, 100, get('brightness',50) )"
+    :fill="hsb2hsl( 214, 100, get('brightness',50) )"
   />
 </f-scene>
 
@@ -302,7 +302,7 @@ Again, we will work with polarity profiles to understand the effect a change in 
     height="4"
     x="4"
     stroke="none"
-    :fill="hsb2hsl(247, 100, 100)"
+    :fill="hsb2hsl(214, 100, 100)"
   />
   <f-box 
     width="4"
@@ -310,7 +310,7 @@ Again, we will work with polarity profiles to understand the effect a change in 
     x="4"
     y="-1"
     stroke="none"
-    :fill="hsb2hsl( 247, get('saturation',50), 100 )"
+    :fill="hsb2hsl( 214, get('saturation',50), 100 )"
   />
 </f-scene>
 
