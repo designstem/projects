@@ -17,7 +17,7 @@ When it comes to color vision, the <var>retina</var> is the part of the eye whic
 It is at the back of the eye and contains two types of photoreceptor cells which detect light: <var>rods and cones</var>.
 
 1. *Besides the retina, there are other parts of the eye which are important for a functioning vision. On the right, you can see several terms that might be new to you. Find out what they mean online.*
-2. *Further, find out what the terms *macula* and *black spot* mean (They are also connected to rods and cones, about which you will learn more on the next slide).*
+2. *Further, find out what the terms <var>macula</var> and <var>black spot</var> mean (They are also connected to rods and cones, about which you will learn more on the next slide).*
 
 -
 
@@ -172,9 +172,9 @@ This is an additional task to go deeper into Rods and Cones, but is not necessar
 -
 <div style="margin-right: 2vw">
   
-**I have a friend, whose name is Micha.** He is colorblind. Red blind to be precise.
-When we cook together, he always asks me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him - like meat that is already off.
-Micha also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations. He wants to avoid people staring at him.
+**I have a friend, whose name is Micha.** He is colorblind. <var>Red blind to be precise.</var>
+*When we cook together, he always asks me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him - like meat that is already off.*
+*Micha also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations. He wants to avoid people staring at him.*
 
 </div>
 
@@ -226,9 +226,10 @@ Don't skip this topic - especially not if you are a design teacher. In this chap
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
-Besides these minor problems, sometimes accessing information can be really hard for Micha: offline and online.
-When he is new in a city and wants to take the subway, it is hard to read the maps, because they are color coded. Yes, in the end, he will take the right subway, but it takes him much longer than a person with average color vision.
-Sometimes, however, it is nearly impossible for him to access information, like in the example on the right. Often, websites use colors to code functions or information. This is helpful for people with normal color vision, because we can navigate and get results much faster. But people like Micha are having a hard time, because they simply cannot see, what the website wants them to do. I remember Michael once sending me a screenshot, to find out what he was doing wrong while filling out an online form. He simply couldn't see the red marking which indicated that his input was faulty.
+*Besides these minor problems, sometimes accessing information can be really hard for Micha: offline and online.*
+<br>
+*When he is new in a city and wants to take the subway, it is hard to read the maps, because they are color coded. Yes, in the end, he will take the right subway, but it takes him much longer than a person with average color vision.*
+*Sometimes, however, it is nearly impossible for him to access information, like in the example on the right. Often, websites use colors to code functions or information. This is helpful for people with normal color vision, because we can navigate and get results much faster. But people like Micha are having a hard time, because they simply cannot see, what the website wants them to do. I remember Michael once sending me a screenshot, to find out what he was doing wrong while filling out an online form. He simply couldn't see the red marking which indicated that his input was faulty.*
 
 <f-arrow-icon /> **But why does he have these problems?** What makes him different from a person with average color vision?
 
