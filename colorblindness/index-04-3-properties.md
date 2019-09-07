@@ -45,8 +45,6 @@ On the next few pages, we will look at this more closely.
 
 
 
-
-| chapter: Three properties of color
 | section: Hue
 | padding: 0
 | cols: 3fr 2fr
@@ -119,7 +117,7 @@ Since (through your gut feeling) you probably already know the meaning hues can 
 <!-- ##### KRISTINS PLAYGROUND 2 -->
 
 
-| chapter: Three properties of color
+
 | section: Brightness
 | id: cb-brightness
 | rows: auto
@@ -242,7 +240,6 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
 <!-- ##### KRISTINS PLAYGROUND 3 -->
 
 
-| chapter: Three properties of color
 | section: Saturation
 | id: cb-saturation
 | rows: auto
@@ -367,7 +364,6 @@ Again, we will work with polarity profiles to understand the effect a change in 
 <!-- ##### KRISTINS PLAYGROUND 4 -->
 
 
-| chapter: Three properties of color
 | section: Conclusion
 | id: cb-conclusion
 | theme: light
@@ -437,7 +433,7 @@ Check below **after** coming up with your own conclusion.
 
 <!-- ##### KRISTINS PLAYGROUND 5 -->
 
-| chapter: Three properties of color
+
 | section: Task: Shampoo designer
 | id: cb-shampoo
 | padding: 0
