@@ -16,8 +16,8 @@
 When it comes to color vision, the **retina** is the part of the eye which is important.
 It is at the back of the eye and contains two types of photoreceptor cells which detect light: **rods and cones**.
 
-1. ~Besides the retina, there are other parts of the eye which are important for a functioning vision. On the right, you can see several terms that might be new to you. Find out what they mean online.~
-2. ~Further, find out what the terms *macula* and *black spot* mean (They are also connected to rods and cones, about which you will learn more on the next slide).~
+1. Besides the retina, there are other parts of the eye which are important for a functioning vision. On the right, you can see several terms that might be new to you. Find out what they mean online.
+2. Further, find out what the terms *macula* and *black spot* mean (They are also connected to rods and cones, about which you will learn more on the next slide).
 
 -
 
@@ -56,22 +56,22 @@ It is at the back of the eye and contains two types of photoreceptor cells which
 
 #### Task
 
-1. ~Read through the text and find out about the difference between rods and cones.~
+1. Read through the text and find out about the difference between rods and cones.
 
     <details>
       <summary>Click here to see the text</summary>
       
-    ~Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.~
+    Rods and cones contain different light-sensitive pigments which absorb light and undergo a chemical change (“bleaching”) which releases energy. This results in increased permeability of photoreceptor membranes to sodium ions.
 
-    ~Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.~
+    Sodium ions diffuse into the photoreceptors, creating a generator potential. If a threshold level is reached, an action potential is created in a nearby bipolar neuron. This connects to neurons in the optic nerve which carry impulses to the brain.
 
-    ~**Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.~
-    ~Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.~
+    **Rods** are located in the peripheral parts of the retina and detect light, but not the color of light.
+    Rods are sensitive to dim light. The photosensitive pigment in rods (rhodopsin) bleaches at low light intensity.
 
-    ~**Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.~
-    ~There are three types which are sensitive to red, green and blue lights (see also RGB color model).~
-    ~One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.~ 
-    ~That’s why you can’t see colors in the dark.~
+    **Cones** are found closely packed in the fovea. They contain the photosensitive pigment iodopsin.
+    There are three types which are sensitive to red, green and blue lights (see also RGB color model).
+    One cone joins one bipolar neuron, so that, compared to rods, they are less sensitive at low light intensity.
+    That’s why you can’t see colors in the dark.
     
     <br>
     
@@ -79,10 +79,10 @@ It is at the back of the eye and contains two types of photoreceptor cells which
     
     </details>
 
-2. ~You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
-https://en.wikipedia.org/wiki/Color_vision~
+2. You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
+https://en.wikipedia.org/wiki/Color_vision
 
-3. ~In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).~
+3. In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).
 
 
 -
@@ -172,9 +172,9 @@ This is an additional task to go deeper into Rods and Cones, but is not necessar
 -
 <div style="margin-right: 2vw">
   
-~**I have a friend, whose name is Michael.** He is colorblind. Red blind to be precise.~
-~When we cook together, he always asks me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him - like meat that is already off.~
-~Michael also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations. He wants to avoid people staring at him.~
+**I have a friend, whose name is Micha.** He is colorblind. Red blind to be precise.
+When we cook together, he always asks me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him - like meat that is already off.
+Micha also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations. He wants to avoid people staring at him.
 
 </div>
 
@@ -226,9 +226,9 @@ Don't skip this topic - especially not if you are a design teacher. In this chap
 
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
-~Besides these minor problems, sometimes accessing information can be really hard for Michael: offline and online.~
-~When he is new in a city and wants to take the subway, it is hard to read the maps, because they are color coded. Yes, in the end, he will take the right subway, but it takes him much longer than a person with average color vision.~
-~Sometimes, however, it is nearly impossible for him to access information, like in the example on the right. Often, websites use colors to code functions or information. This is helpful for people with normal color vision, because we can navigate and get results much faster. But people like Michael are having a hard time, because they simply cannot see, what the website wants them to do. I remember Michael once sending me a screenshot, to find out what he was doing wrong while filling out an online form. He simply couldn't see the red marking which indicated that his input was faulty.~
+Besides these minor problems, sometimes accessing information can be really hard for Micha: offline and online.
+When he is new in a city and wants to take the subway, it is hard to read the maps, because they are color coded. Yes, in the end, he will take the right subway, but it takes him much longer than a person with average color vision.
+Sometimes, however, it is nearly impossible for him to access information, like in the example on the right. Often, websites use colors to code functions or information. This is helpful for people with normal color vision, because we can navigate and get results much faster. But people like Micha are having a hard time, because they simply cannot see, what the website wants them to do. I remember Michael once sending me a screenshot, to find out what he was doing wrong while filling out an online form. He simply couldn't see the red marking which indicated that his input was faulty.
 
 <f-arrow-icon /> **But why does he have these problems?** What makes him different from a person with average color vision?
 
@@ -270,7 +270,7 @@ Don't skip this topic - especially not if you are a design teacher. In this chap
 #### Task
 
 
-1. ~Read through the text and find out about the different types of color blindness. Michael is red colorblind. What is the medical term for his condition and which colors does he have trouble seeing?~
+1. Read through the text and find out about the different types of color blindness. Micha is red colorblind. What is the medical term for his condition and which colors does he have trouble seeing?
     <!-- PLEASE NOTE: The two tabs in front of the whole block that is inside of this first list item 1. ensure, that the list is not broken and next block starts with 2. It's a silly hack, but right now it is so. -->
     <f-sidebar title="Open" overlay size="half">
       <a class="tertiary" style="margin-bottom:3vh;">Read about CVD <f-arrow-icon rotation="-45" /></a>
@@ -298,9 +298,9 @@ Don't skip this topic - especially not if you are a design teacher. In this chap
 
     </f-sidebar>
 
-2. ~Work out the genotypes of each individual, using the symbols <f-math inline> X^N </f-math> for an X chromosome with an allele for normal color vision, <f-math inline> X^n </f-math> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision; see diagram on the right.~ <f-arrow-icon />
+2. Work out the genotypes of each individual, using the symbols <f-math inline> X^N </f-math> for an X chromosome with an allele for normal color vision, <f-math inline> X^n </f-math> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision; see diagram on the right. <f-arrow-icon />
 
-3. ~Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.~
+3. Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.
 
     <details>
       <summary>Check out the answers but don't cheat</summary>
@@ -310,7 +310,7 @@ Don't skip this topic - especially not if you are a design teacher. In this chap
       <ol>
       <li>
 
-      The term for Michael's condition is Protanopia. He has problems distinguishing between reds, greens, browns and oranges. For a protanope, the brightness of red, orange, and yellow are much reduced compared to normal color vision. This dimming can be so pronounced that reds may be confused with black or dark gray, and red traffic lights may appear to be extinguished. They may learn to distinguish reds from yellows primarily on the basis of their apparent brightness or lightness, not on any perceptible hue difference. Violet, lavender, and purple are indistinguishable from various shades of blue because their reddish components are so dimmed as to be invisible. For example, pink flowers, reflecting both red light and blue light, may appear just blue to the protanope.
+      The term for Micha's condition is Protanopia. He has problems distinguishing between reds, greens, browns and oranges. For a protanope, the brightness of red, orange, and yellow are much reduced compared to normal color vision. This dimming can be so pronounced that reds may be confused with black or dark gray, and red traffic lights may appear to be extinguished. They may learn to distinguish reds from yellows primarily on the basis of their apparent brightness or lightness, not on any perceptible hue difference. Violet, lavender, and purple are indistinguishable from various shades of blue because their reddish components are so dimmed as to be invisible. For example, pink flowers, reflecting both red light and blue light, may appear just blue to the protanope.
       
       </li>
         
