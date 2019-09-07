@@ -172,7 +172,7 @@ This is an additional task to go deeper into Rods and Cones, but is not necessar
 -
 <div style="margin-right: 2vw">
   
-**I have a friend, whose name is Micha.** He is colorblind. <var>Red blind to be precise.</var>
+**I have a friend, whose name is Micha.** *He is colorblind. Red blind to be precise.*
 *When we cook together, he always asks me, if meat is still edible, because whether meat is fresh or not, it always appears in a grey hue to him - like meat that is already off.*
 *Micha also prefers to wear black clothes. Not because he is a Goth, but because that way, he can be sure not to appear ridiculous by wearing strange color combinations. He wants to avoid people staring at him.*
 
@@ -227,7 +227,6 @@ Don't skip this topic - especially not if you are a design teacher. In this chap
 <!-- <f-hr style="margin:var(--base6) 0" /> -->
 
 *Besides these minor problems, sometimes accessing information can be really hard for Micha: offline and online.*
-<br>
 *When he is new in a city and wants to take the subway, it is hard to read the maps, because they are color coded. Yes, in the end, he will take the right subway, but it takes him much longer than a person with average color vision.*
 *Sometimes, however, it is nearly impossible for him to access information, like in the example on the right. Often, websites use colors to code functions or information. This is helpful for people with normal color vision, because we can navigate and get results much faster. But people like Micha are having a hard time, because they simply cannot see, what the website wants them to do. I remember Michael once sending me a screenshot, to find out what he was doing wrong while filling out an online form. He simply couldn't see the red marking which indicated that his input was faulty.*
 
