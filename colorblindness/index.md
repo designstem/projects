@@ -20,7 +20,7 @@
 </div>
 <br>
 
-~How to design information for people whose color perception is impaired.~
+How to design information for people whose color perception is impaired.
 
 <br>
 
@@ -61,8 +61,8 @@ Before you dive into the workshop, in order to improve your learning experience,
 
 <br>
 
-1. ~**Keep a journal**, where you write down all the results to the tasks and your insights. This journal can also be digital (like a *.doc file*), so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.~
-2. ~**Never skip tasks!** Follow the tasks in a chronological order and don't skip any in order to get through faster. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.~
+1. **Keep a journal**, where you write down all the results to the tasks and your insights. This journal can also be digital (like a *.doc file*), so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.
+2. **Never skip tasks!** Follow the tasks in a chronological order and don't skip any in order to get through faster. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.
 
 <br>
 
@@ -159,7 +159,7 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
   
    # 🤢
   
-  > ~<small>For color vision deficient people, choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.</small>~
+  > <small>For color vision deficient people, choosing the wrong tomatoes can have serious consequences for their health, since unripe tomatoes are poisonous and can cause nausea and vomiting.</small>
 
   </f-inline>
 
@@ -197,8 +197,8 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 <!-- <div v-if="get('revealX') < 75"> -->
 
 **So what?! Is it that bad if a person eats a green tomato once in a while?**
-<small> ~No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!~
-~Tomatoes are only one example for the problems people with Color Vision Deficiency (hereafter referred to as CVD) face on a daily basis.~
+<small> No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!
+Tomatoes are only one example for the problems people with Color Vision Deficiency (hereafter referred to as CVD) face on a daily basis.
 </small>
 
 <f-inline>
@@ -209,7 +209,7 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 
 </f-inline>
 
-<small> ~Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors. **This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field.~ </small>
+<small> Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors. **This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field. </small>
 
 But first, **let's go outside** and explore our daily surroundings to get a better understanding of how color vision deficiencies affect lives.
 
@@ -376,9 +376,9 @@ Use a digital camera, such as the camera of your mobile phone, and **go on a pho
 
 Now that you found out about possible weaknesses in the color design of objects in your everyday life, take a closer look:
 
-1. ~Find out what the main problem is regarding the color scheme.~
-2. ~Phrase a hypothesis on how this problem could be solved.~
-3. ~Are there also weaknesses that can impair people with full color vision? In which way are they different from the other weaknesses?~
+1. Find out what the main problem is regarding the color scheme.
+2. Phrase a hypothesis on how this problem could be solved.
+3. Are there also weaknesses that can impair people with full color vision? In which way are they different from the other weaknesses?
 
 <br>
 
@@ -424,7 +424,7 @@ Caring about high accessibility of information in your design products is crucia
 In the following **learning stations** you will find tasks which &ndash; in the end &ndash; should enable you to develope the skills required to optimize your design products. STEM students could use this for example when they choose a color scheme for diagrams. 
 
 ### <f-arrow-icon /> How to use the learning stations
-~You can **work through the stations in the given order** (which is recommended if you are a beginner). If you are already familiar with a certain topic, you can navigate straight to a topic that is new to you. Throughout the following pages, you can switch to other learning stations via the burger menu in the top left corner.~
+You can **work through the stations in the given order** (which is recommended if you are a beginner). If you are already familiar with a certain topic, you can navigate straight to a topic that is new to you. Throughout the following pages, you can switch to other learning stations via the burger menu in the top left corner.
 
 
 
@@ -516,10 +516,10 @@ Let's find out what this concept means and why it is important:
 
 #### Tasks
 
-1. ~What do you understand by “accessibility”? Have you ever come across that term? In which context have you heard about it?~
-2. ~Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition of accessibility.~
-3. ~Gain an overview of the areas in which we need to improve accessibility.~
-4. ~Further, find out about the difference between “accessibility” and “usability”.~
+1. What do you understand by “accessibility”? Have you ever come across that term? In which context have you heard about it?
+2. Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition of accessibility.
+3. Gain an overview of the areas in which we need to improve accessibility.
+4. Further, find out about the difference between “accessibility” and “usability”.
 
 -
 
