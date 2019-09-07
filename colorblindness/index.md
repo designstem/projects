@@ -523,6 +523,7 @@ Let's find out what this concept means and why it is important:
 2. *Go to https://en.wikipedia.org/wiki/Accessibility and find out about the definition of accessibility.*
 3. *Gain an overview of the areas in which we need to improve accessibility.*
 4. *Further, find out about the difference between <var>accessibility</var> and <var>usability</var>.*
+5. *Often color codes are used to make accessibility of information easier and faster. Look at <a href="https://en.wikipedia.org/wiki/Color_code">this article </a> to find areas where color coding is used in everyday life.*
 
 -
 
