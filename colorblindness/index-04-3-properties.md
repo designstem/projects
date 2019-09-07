@@ -22,7 +22,7 @@ When talking about the effect of color, most people only think of its shade. Des
 #### Look at the two greens on the right
 
 *Both are greens, but have a different brightness and saturation. Most people wouldn’t call the lower color natural although green often is used to suggest organic, natural properties.
-In a lot of books, you can find lists of properties/meanings/effects hues can have. Sometimes these descritpions are very shallow, because not only the hue influences a colors effect. Therefore we have to look more closely when working with colors and* **not only judge the color’s effect by its hue.**
+In a lot of books, you can find lists of properties/meanings/effects hues can have. Sometimes these descritpions are very shallow, because not only the hue influences a colors effect. Therefore we have to look more closely when working with colors and* <var>not only judge the color’s effect by its hue.</var>
 On the next few pages, we will look at this more closely.
 
 <br />
@@ -75,9 +75,9 @@ It's true that all colors have a certain meaning regarding their hue. You probab
 -
 
 <div style="position:sticky; top:0; height:100vh; width:100%; display: flex; flex-direction:row;">
-  <div style="flex: 1 1 33%;" :style="{'background' : hsl(340,100,35) }"></div>
-  <div style="flex: 1 1 34%;" :style="{'background' : hsl(134, 100, 35) }"></div>
-  <div style="flex: 1 1 33%;" :style="{'background' : hsl(247,100,35) }"></div>
+  <div style="flex: 1 1 33%;" :style="{'background' : hsl(340,100,50) }"></div>
+  <div style="flex: 1 1 34%;" :style="{'background' : hsl(134, 100, 50) }"></div>
+  <div style="flex: 1 1 33%;" :style="{'background' : hsl(247,100,50) }"></div>
 </div>
 
 
@@ -151,7 +151,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     height="4"
     x="-4"
     stroke="none"
-    :fill="hsb2hsl(340,100,67)"
+    :fill="hsb2hsl(340,100,50)"
   />
   <f-box 
     width="4"
@@ -166,7 +166,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     height="4"
     stroke="none"
     x="0"
-    :fill="hsb2hsl(134, 100, 67)"
+    :fill="hsb2hsl(134, 100, 50)"
   />
   <f-box 
     width="4"
@@ -181,7 +181,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     height="4"
     x="4"
     stroke="none"
-    :fill="hsb2hsl(247, 100, 67)"
+    :fill="hsb2hsl(247, 100, 50)"
   />
   <f-box 
     width="4"
