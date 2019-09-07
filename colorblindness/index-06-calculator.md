@@ -1,7 +1,7 @@
 
 | chapter: Final task
 | section: Choose your path
-| section: cb-workshop
+
 | rows: auto
 | 1 2
 
@@ -267,7 +267,7 @@ You could also start discussions on a meta level, e.g. *Reflect on what you lear
 
 | chapter: Evaluation
 | section: For all
-| section: evaluate
+
 | height: 100vh
 | 1 2
 
@@ -311,7 +311,6 @@ Lets reflect on what you achieved.
 
 | section: Design
 
-| section: evaluate
 | height: 100vh
 | 1 2
 
@@ -356,7 +355,6 @@ This could be interesting for students, since the functionality of BRAUN's (and 
 
 | section: STEM
 
-| section: evaluate
 | height: 100vh
 | 1 2
 
