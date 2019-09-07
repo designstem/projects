@@ -488,7 +488,7 @@ Let's find some nice colors for our shampoo bottles:
 | rows: auto
 | 1 1 1
 | 2 3 4
-| 5 5 6
+| 5 5 5
 
 <caption>Three Properties of Color</caption>
 
@@ -549,8 +549,5 @@ Let's find some nice colors for our shampoo bottles:
 
 -
 
-> ~If possible **compare your results** with someone and **explain why** you chose this color regarding the three properties of color. **Alternativeley, write it down in your journal.**~
-
--
 
 <f-next-button />
