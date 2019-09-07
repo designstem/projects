@@ -1,5 +1,5 @@
 | chapter: Three properties of color
-| section: Overview
+| section: Introduction HSB
 | id: cb-3-properties
 | padding: 0
 | rows: auto
