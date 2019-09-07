@@ -10,8 +10,8 @@ Now that you found out about the different topics surrounding designing for peop
 There are two different paths that you could take for the final task.
 Either you could choose the STEM or the DESIGN focus.
 
-~*The STEM path is for all students who don't have any access to or knowledge about design software (like Photoshop or Illustrator).
-Whereas the DESIGN path requires you to also use design software. For the STEM path you only need some paper, brushes and watercolors*.~
+*The STEM path is for all students who don't have any access to or knowledge about design software (like Photoshop or Illustrator).
+Whereas the DESIGN path requires you to also use design software. For the STEM path you only need some paper, brushes and watercolors*.
 
 
 #### Choose your path:
@@ -33,8 +33,8 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
-  ~The design object (product design) which we propose on the next pages, tries to offer students of all levels an opportunity to try out their skills and knowledge. It is simple, but can be made more complex by you, the teacher.~ 
-  ~Of course the design object on which students test their knowledge can be very diverse and adjusted to the subject you teach. For example, you could also focus on the following objects:~
+  The design object (product design) which we propose on the next pages, tries to offer students of all levels an opportunity to try out their skills and knowledge. It is simple, but can be made more complex by you, the teacher.
+  Of course the design object on which students test their knowledge can be very diverse and adjusted to the subject you teach. For example, you could also focus on the following objects:
   <br>
 * Posters
 * Brochures
@@ -44,7 +44,7 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 * Packaging
 * Game design
 <br>
-~Whenever information needs to be conveyed visually, we have to think about accessibility, because it is not only about aesthetics anymore. It’s about enabling the target group to get the information they need. Therefore many products are suitable as learning objects for this project and can be adjusted to the students’ level. Feel free to use the following tasks as basis for your own ideas and change the design object so it fits your needs.~
+Whenever information needs to be conveyed visually, we have to think about accessibility, because it is not only about aesthetics anymore. It’s about enabling the target group to get the information they need. Therefore many products are suitable as learning objects for this project and can be adjusted to the students’ level. Feel free to use the following tasks as basis for your own ideas and change the design object so it fits your needs.
 
 </f-notes>
 
@@ -72,15 +72,15 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 -
 
 Congratulations! You chose the STEM path and **this is your quest**:
-~Create a new color scheme for a calculator with white buttons, which also works for people with color vision deficiency.~
+Create a new color scheme for a calculator with white buttons, which also works for people with color vision deficiency.
 
 
 
 #### Tasks
 
-1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?~
-2. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
-3. ~**Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](./files/designstem_cvd_worksheet_stem.pdf).~
+1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many different colors would you need?
+2. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
+3. **Mockup**: Mix the colors you chose with watercolors and paint in the white buttons on the [calculator worksheet](./files/designstem_cvd_worksheet_stem.pdf).
 
 <br />
 
@@ -139,16 +139,16 @@ Congratulations! You chose the STEM path and **this is your quest**:
 -
 
 Congratulations! You chose the DESIGN path and **this is your quest**:
-~Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.~
+Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.
 
 
 #### Tasks
 
-1. ~**Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many colors would you need for your color scheme?~
-2. ~**Target group**: Think about who will use it. What is most important to them? How does that affect your design?~
-3. ~**Layout**: Scribble a layout for your calculator app. Use the calculator displayed here as a reference.~
-4. ~**Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.~
-5. ~**Mockup**: Make a mockup of your design in a graphic program and apply your color scheme to it.~
+1. **Product**: First, group the buttons and find hierarchies. Which are important buttons that you use often? How many colors would you need for your color scheme?
+2. **Target group**: Think about who will use it. What is most important to them? How does that affect your design?
+3. **Layout**: Scribble a layout for your calculator app. Use the calculator displayed here as a reference.
+4. **Color design**: Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.
+5. **Mockup**: Make a mockup of your design in a graphic program and apply your color scheme to it.
 
 
 
@@ -190,7 +190,7 @@ EVALUATE PHASE
 <br />
 
 Let's see how well your design works for people with color vision deficiency.
-~Upload your picture into the CVD-simulator and check whether it works.~
+Upload your picture into the CVD-simulator and check whether it works.
 
 <f-card :title="get('cbType', 'protanopia') == 'protanopia' ? 'Simulating Protanopia 👉' : 'Simulate Protanopia'"   background="var(--lightergray)" color="var(--darkgray)" style="margin-bottom:calc(var(--base)*0.5); height:auto;" :style="get('cbType', 'protanopia') == 'protanopia' ? {background:'var(--lightblue)'} : {background:'var(--lightergray)'}" @click.native="set('cbType', 'protanopia')">
 
@@ -213,10 +213,10 @@ Let's see how well your design works for people with color vision deficiency.
 
 <br>
 
-1. ~Check if your color schemes is flawed.~
-2. ~Adjust your color scheme, if necessary, and check again.~
-3. ~Write down your insights in your journal.~
-4. ~Present your design in class. Be ready to explain your choices.~
+1. Check if your color schemes is flawed.
+2. Adjust your color scheme, if necessary, and check again.
+3. Write down your insights in your journal.
+4. Present your design in class. Be ready to explain your choices.
 
 
 -
@@ -242,9 +242,9 @@ Let's see how well your design works for people with color vision deficiency.
   
 ### Aim. 
 
-~In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.~
+In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.
 
-~You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*~
+You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*
 
 </f-notes>
 
@@ -274,11 +274,11 @@ Lets reflect on what you achieved.
 
 #### Tasks
  
-1. ~Reflect on what you learned. What was new for you or interesting? What was difficult or easy?~
-2. ~Do you think the information will be useful for you as a designer or STEM student?~
-3. ~What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?~
+1. Reflect on what you learned. What was new for you or interesting? What was difficult or easy?
+2. Do you think the information will be useful for you as a designer or STEM student?
+3. What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?
 <br>
-4. ~Think of further ways to make information more accessible other than color coding it. What could you do else?~
+4. Think of further ways to make information more accessible other than color coding it. What could you do else?
 <br>
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -288,7 +288,7 @@ Lets reflect on what you achieved.
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
-  ~In task 4, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.~
+  In task 4, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.
 
 </f-notes>
 
@@ -316,9 +316,9 @@ Lets reflect on what you achieved.
 
 #### Tasks
  
-1. ~Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?~
-2. ~Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion! If possible, also check it in the CVD simulator to strengthen your arguments.~
-3. ~If so, what should he have done differently to improve it?~
+1. Have a look at the calculator Dieter Rams designed for BRAUN. Compare his solution for the color scheme to yours. What is different?
+2. Did he do a good job regarding accessibility for color vision deficient people? Explain your opinion! If possible, also check it in the CVD simulator to strengthen your arguments.
+3. If so, what should he have done differently to improve it?
 <br>
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -327,11 +327,11 @@ Lets reflect on what you achieved.
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
-  ~This is the chance for you to lead over to Dieter Rams' 10 design principles.~
+  This is the chance for you to lead over to Dieter Rams' 10 design principles.
   <br>
-~You can find a nice overview with examples on the following website:~
+You can find a nice overview with examples on the following website:
 https://www.vitsoe.com/gb/about/good-design
-~This could be interesting for students, since the functionality of BRAUN's (and Dieter Rams') product design has often been copied or taken as an inspiration, see Apple's products for example.~
+This could be interesting for students, since the functionality of BRAUN's (and Dieter Rams') product design has often been copied or taken as an inspiration, see Apple's products for example.
 
 </f-notes>
 
@@ -361,51 +361,21 @@ Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_qu
 
 
 **Here are some further questions to think about:**
-1. ~In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?~
-2. ~In terms of rods and cones, how would you expect the retina of a nocturnal mammal to be different from that of a diurnal mammal? Can you explain it?~
+1. In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?
+2. In terms of rods and cones, how would you expect the retina of a nocturnal mammal to be different from that of a diurnal mammal? Can you explain it?
 
 <br>
 
 <f-next-button style="margin:var(--base4) 0" />
 
 
-<!--
-a) Rods and cones are receptors in the retina of the eye. What kind of receptor are they?
-<ContrastQuiz :input="[ 
-  ['Osmoreceptors',         0], 
-  ['Baroreceptors',     0], 
-  ['Photoreceptors',      1],
-  ['Chemoreceptors',  0]
-]" />
-~b) Rods and cones contain light-sensitive pigments which undergo a chemical change when they absorb light. What is this chemical change called?~
-<ContrastQuiz :input="[ 
-  ['Bleaching',         1], 
-  ['Neutralisation',     0], 
-  ['Hydrolysis',      0],
-  ['Condensation',  0]
-]" />
-~c) When light bleaches the photosensitive pigments in rods and cones, the energy released causes the membranes of rods and cones to become...?~
-<ContrastQuiz :input="[ 
-  ['less permeable to Na+ ions',         0], 
-  ['less permeable to K+ ions',     0], 
-  ['more permeable to K+ ions',      0],
-  ['more permeable to Na+ ions',  1]
-]" />
-~d) Which is the correct sequence of ‘potentials’ following depolarisation of rod and cone membranes?~
-<ContrastQuiz :input="[ 
-  ['Generator, Action, Threshold',         0], 
-  ['Action, Generator, Threshold',     0], 
-  ['Generator, Threshold, Action',      1],
-  ['Threshold, Generator, Action',  0]
-]" />
--->
 
 <f-notes>
   
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
-  ~Through this quiz, on the one hand, you can go deeper into the topic or on the other hand, you can evaluate your students increase of knowledge. Maybe also use the questions in a test for grading?~
+  On the one hand, with this quiz, you can go deeper into the topic and on the other hand, you can evaluate your students increase of knowledge. Maybe also use the questions in a test for grading?
 
 
 </f-notes>
@@ -431,7 +401,7 @@ a) Rods and cones are receptors in the retina of the eye. What kind of receptor 
 We hope that you enjoyed doing this workshop, and that it will help you in your further life to create nice color schemes that work for all!
 
 
-> ~*This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you are a pro now and know, that this problem can be fixed easily.~
+> *This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you are a pro now and know, that this problem can be fixed easily.
 
 
 If you are still motivated to learn more, you are welcome to check out the other DesignSTEM workshops. 😉
@@ -470,9 +440,9 @@ All other graphics by Kristin Kreer.
 
 #### Literature
 
-~Adams, Sean. Morioka, Noreen. Stone, Terry. (Jan 1, 2006). Color Design Workbook.~
-~Itten, Johannes. (1970). The Elements of Color.~
-~Hideaki Chijiwa. (Sep 1, 1987). Color Harmony: A Guide to Creative Color Combinations.~
+Adams, Sean. Morioka, Noreen. Stone, Terry. (Jan 1, 2006). Color Design Workbook.
+Itten, Johannes. (1970). The Elements of Color.
+Hideaki Chijiwa. (Sep 1, 1987). Color Harmony: A Guide to Creative Color Combinations.
 
 
 #### Other
