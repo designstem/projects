@@ -149,8 +149,8 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 
 #### Tasks
 
-1. Find the definitions and examples for the following contrasts online.
-2. Find out how these contrasts work and which effect they have.
+1. *Find the definitions and examples for the following contrasts online.*
+2. *Find out how these contrasts work and which effect they have.*
 
 - ##### Contrast of hue
 - ##### Light-dark contrast
@@ -161,7 +161,7 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 - ##### Contrast of extension
 
 #### Extra task:
-Look at your daily surroundings more closely and try to find Itten's color contrasts in magazines, posters, on websites and everywhere, where there is color design. Which purpose do the contrasts serve? Analyse them, keeping the target group and product in mind!
+*Look at your daily surroundings more closely and try to find Itten's color contrasts in magazines, posters, on websites and everywhere, where there is color design. Which purpose do the contrasts serve? Analyse them, keeping the target group and product in mind!*
 
 </section>
 
@@ -562,8 +562,8 @@ For monochromatic palettes, you combine one hue with its different shades, eithe
 #### Change the given color palette so that:
 
 It stays as closely as possible to the original hues and
-a) the palette is **more harmonious** or
-b) the palette is **more prominent**.
+a) *the palette is <var>more harmonious</var>* or
+b) *the palette is <var>more prominent</var>.*
 
 Keep in mind that colors influence one another (*see Itten's simultaneous contrast*). A color e.g. can appear colder or warmer, brighter or darker next to another color.
 
@@ -742,10 +742,10 @@ Earlier, we learned that people with color vision deficiencies cannot see certai
 
 <div slot="content" class="sidebar-content">
 
-  1. Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.
-  2. Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad, and I mean *really bad*. Try to find out which color combinations don't work well.
-  3. Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?
-  4. Analyse the results and form a conclusion based on the following questions: *When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?*
+  1. *Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.*
+  2. *Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad, and I mean *really bad*. Try to find out which color combinations don't work well.*
+  3. *Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?*
+  4. *Analyse the results and form a conclusion based on the following questions:* <var>When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?</var>
 
 </div>
 
@@ -843,8 +843,8 @@ Earlier, we learned that people with color vision deficiencies cannot see certai
 
 After you have tried out different color schemes, let's summarize what you found out and draw some conclusions about color design for people with color vision deficiency.
 
-1. Look at the last task on the last page (task 4 on *CVD compatible palette*) and review what you found out.
-2. When you are really sure that you have come up with your own conclusion, click on the following link. **Don't cheat!**
+1. *Look at the last task on the last page (task 4 on CVD compatible palette) and review what you found out.*
+2. *When you are really sure that you have come up with your own conclusion, click on the following link.* **Don't cheat!**
 
 <f-sidebar  overlay size="half">
 
