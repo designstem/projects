@@ -61,7 +61,7 @@ Whenever information needs to be conveyed visually, we have to think about acces
 
 
 
-| chapter: Final task
+
 | section: STEM path
 
 | id: cb-workshop-stem
@@ -128,7 +128,7 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 
 
-| chapter: Final task
+
 | section: Design path
 | id: cb-workshop-design
 | rows: auto
@@ -181,7 +181,7 @@ EVALUATE PHASE
 -->
 
 
-| chapter: Final task
+
 | section: Testing with CVD Simulator
 | rows: auto
 | id: cb-workshop-test
@@ -307,7 +307,8 @@ Lets reflect on what you achieved.
 
 
 ---
-| chapter: Evaluation
+
+
 | section: Design
 
 | section: evaluate
@@ -352,7 +353,7 @@ This could be interesting for students, since the functionality of BRAUN's (and 
 
 
 ---
-| chapter: Evaluation
+
 | section: STEM
 
 | section: evaluate
@@ -397,7 +398,7 @@ Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_qu
 ---
 
 | chapter: The end
-| section: final
+
 | height: 100vh
 | 1 2
 
