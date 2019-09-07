@@ -11,11 +11,11 @@
 
 ## Three properties of color
 
-When talking about the effect of color, most people only think of its shade. Designing with color means designing with all three properties of color:
+When talking about the effect of color, most people only think of its hue. Designing with color means designing with all three properties of color:
 
-1. **HUE**
-2. **SATURATION**
-3. **BRIGHTNESS**
+* **HUE**
+* **SATURATION**
+* **BRIGHTNESS**
 
 <!-- &nbsp; --> 
 
