@@ -126,7 +126,7 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 
 
 
-| chapter: Color contrast and harmony
+
 | section: Johannes Itten's color theory
 | id: cb-itten
 
@@ -194,7 +194,7 @@ Look at your daily surroundings more closely and try to find Itten's color contr
 
 
 
-| chapter: Color contrast and harmony
+
 | section: TASK: Find the contrasts
 | id: cb-task1
 | rows: auto
@@ -337,7 +337,6 @@ One last example for you to prove that you are *Itten worthy*. Easy, isn't it?
 
 
 
-| chapter: Color contrast and harmony
 | section: Creating color palettes
 | id: cb-wheels
 | theme: dark
@@ -544,7 +543,7 @@ For monochromatic palettes, you combine one hue with its different shades, eithe
 
 
 
-| chapter: Color contrast and harmony
+
 | section: Task: Create a palette
 | id: task2
 | theme: dark
@@ -709,10 +708,6 @@ Choose the colors for the background, the headline and the text so that the pale
 
 
 
-
-
-
-| chapter: Colors for CVD
 | section: CVD compatible palette
 | gap: 1vmin
 | rows: auto
@@ -825,7 +820,7 @@ Earlier, we learned that people with color vision deficiencies cannot see certai
 
 ---
 
-| chapter: Colors for CVD
+
 | section: CVD compatible palette (summary)
 | id: cb-contrasts
 
@@ -934,8 +929,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 
 
-| chapter: Colors for CVD
-| section: Tips 
+| section: Practical tips 
 | id: cb-palettes
 
 <!--
@@ -1015,7 +1009,7 @@ Creating color palettes with more than two or three colors takes time, patience 
 
 ---
 
-| chapter: Learning stations finale
+| chapter: Learning stations summary
 | id: cb-learningstationsummary
 | padding: 0
 | gap: 0
