@@ -41,7 +41,7 @@ Image credits: www.unsplash.com
 
 ---
 
-| chapter: Of Bees and Packages
+| chapter: Overview
 | section: Start
 | theme: light
 | gap: var(--base5)
