@@ -151,7 +151,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     height="4"
     x="-4"
     stroke="none"
-    :fill="hsb2hsl(340,100,50)"
+    :fill="hsb2hsl(340,100,100)"
   />
   <f-box 
     width="4"
@@ -166,7 +166,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     height="4"
     stroke="none"
     x="0"
-    :fill="hsb2hsl(134, 100, 50)"
+    :fill="hsb2hsl(134, 100, 100)"
   />
   <f-box 
     width="4"
@@ -181,7 +181,7 @@ You may use the slider beneath the color boxes to darken or brighten up the colo
     height="4"
     x="4"
     stroke="none"
-    :fill="hsb2hsl(247, 100, 50)"
+    :fill="hsb2hsl(247, 100, 100)"
   />
   <f-box 
     width="4"
