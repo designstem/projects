@@ -13,11 +13,11 @@
 
 -
 
-When it comes to color vision, the **retina** is the part of the eye which is important.
-It is at the back of the eye and contains two types of photoreceptor cells which detect light: **rods and cones**.
+When it comes to color vision, the <var>retina</var> is the part of the eye which is important.
+It is at the back of the eye and contains two types of photoreceptor cells which detect light: <var>rods and cones</var>.
 
-1. Besides the retina, there are other parts of the eye which are important for a functioning vision. On the right, you can see several terms that might be new to you. Find out what they mean online.
-2. Further, find out what the terms *macula* and *black spot* mean (They are also connected to rods and cones, about which you will learn more on the next slide).
+1. *Besides the retina, there are other parts of the eye which are important for a functioning vision. On the right, you can see several terms that might be new to you. Find out what they mean online.*
+2. *Further, find out what the terms *macula* and *black spot* mean (They are also connected to rods and cones, about which you will learn more on the next slide).*
 
 -
 
@@ -56,7 +56,7 @@ It is at the back of the eye and contains two types of photoreceptor cells which
 
 #### Task
 
-1. Read through the text and find out about the difference between rods and cones.
+1. *Read through the text and find out about the difference between rods and cones.*
 
     <details>
       <summary>Click here to see the text</summary>
@@ -79,10 +79,10 @@ It is at the back of the eye and contains two types of photoreceptor cells which
     
     </details>
 
-2. You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:
+2. *You learned that cones are responsible for color vision. There are three different types of cones. Find out how these three cones work together to create color perception. You can find more information in the article about color vision on wikipedia.org:*
 https://en.wikipedia.org/wiki/Color_vision
 
-3. In the wikipedia article it says *Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer*. Find out what this means (see the chapter on “Subjectivity of color perception”).
+3. *In the wikipedia article it says: "Color is not a property of electromagnetic radiation, but a feature of visual perception by an observer". Find out what this means (see the chapter on “Subjectivity of color perception”).*
 
 
 -
@@ -270,7 +270,7 @@ Sometimes, however, it is nearly impossible for him to access information, like 
 #### Task
 
 
-1. Read through the text and find out about the different types of color blindness. Micha is red colorblind. What is the medical term for his condition and which colors does he have trouble seeing?
+1. *Read through the text and find out about the different types of color blindness. Micha is red colorblind. What is the medical term for his condition and which colors does he have trouble seeing?*
     <!-- PLEASE NOTE: The two tabs in front of the whole block that is inside of this first list item 1. ensure, that the list is not broken and next block starts with 2. It's a silly hack, but right now it is so. -->
     <f-sidebar title="Open" overlay size="half">
       <a class="tertiary" style="margin-bottom:3vh;">Read about CVD <f-arrow-icon rotation="-45" /></a>
@@ -298,9 +298,9 @@ Sometimes, however, it is nearly impossible for him to access information, like 
 
     </f-sidebar>
 
-2. Work out the genotypes of each individual, using the symbols <f-math inline> X^N </f-math> for an X chromosome with an allele for normal color vision, <f-math inline> X^n </f-math> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision; see diagram on the right. <f-arrow-icon />
+2. *Work out the genotypes of each individual, using the symbols <f-math inline> X^N </f-math> for an X chromosome with an allele for normal color vision, <f-math inline> X^n </f-math> for an X chromosome with an allele for red-green CVD, and Y for the Y chromosome, which carries no allele for color vision; see diagram on the right. <f-arrow-icon />*
 
-3. Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.
+3. *Red-green CVD is much more common in males, who always inherit the allele from their mother. State what the genotypes of the parents of a red-green color blind female would have to be.*
 
     <details>
       <summary>Check out the answers but don't cheat</summary>
