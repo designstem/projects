@@ -20,7 +20,7 @@
 </div>
 <br>
 
-### How to design information for people whose color perception is impaired.
+#### How to design information for people whose color perception is impaired.
 
 <br>
 
