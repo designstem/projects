@@ -1,3 +1,6 @@
+
+| chapter: Final task
+| section: Choose your path
 | section: cb-workshop
 | rows: auto
 | 1 2
@@ -58,7 +61,8 @@ Whenever information needs to be conveyed visually, we have to think about acces
 
 
 
-
+| chapter: Final task
+| section: STEM path
 
 | id: cb-workshop-stem
 | rows: auto
@@ -124,7 +128,8 @@ Create a new color scheme for a calculator with white buttons, which also works 
 
 
 
-
+| chapter: Final task
+| section: Design path
 | id: cb-workshop-design
 | rows: auto
 | 1 3
@@ -176,7 +181,8 @@ EVALUATE PHASE
 -->
 
 
-
+| chapter: Final task
+| section: Testing with CVD Simulator
 | rows: auto
 | id: cb-workshop-test
 | 1 2
@@ -259,7 +265,8 @@ You could also start discussions on a meta level, e.g. *Reflect on what you lear
 
 
 
-
+| chapter: Evaluation
+| section: For all
 | section: evaluate
 | height: 100vh
 | 1 2
@@ -300,7 +307,8 @@ Lets reflect on what you achieved.
 
 
 ---
-
+| chapter: Evaluation
+| section: Design
 
 | section: evaluate
 | height: 100vh
@@ -344,7 +352,8 @@ This could be interesting for students, since the functionality of BRAUN's (and 
 
 
 ---
-
+| chapter: Evaluation
+| section: STEM
 
 | section: evaluate
 | height: 100vh
@@ -387,7 +396,7 @@ Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_qu
 
 ---
 
-
+| chapter: The end
 | section: final
 | height: 100vh
 | 1 2
@@ -404,7 +413,7 @@ We hope that you enjoyed doing this workshop, and that it will help you in your 
 > *This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you are a pro now and know, that this problem can be fixed easily.
 
 
-If you are still motivated to learn more, you are welcome to check out the other DesignSTEM workshops. 😉
+If you are still motivated to learn more, you are welcome to check out the other DesignSTEM workshops.
 
   
   #### Related DesignSTEM projects:
