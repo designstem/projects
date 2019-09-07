@@ -48,7 +48,7 @@ Further, especially design students should learn how to choose color schemes so 
 
 ---
 
-| chapter: Introduction
+
 | section: Read first
 | rows: 1fr auto
 | 1 2
@@ -122,7 +122,7 @@ Of course you can add further questions and tasks for your students or adapt the
 
 
 
-| chapter: Introduction
+
 | section: Introduction to CVD
 | rows: 1fr auto
 | gap: 3vmin
@@ -187,7 +187,6 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 
 
 
-| chapter: Introduction
 | section: Introduction to workshop
 | rows: auto
 | 1 2
@@ -231,7 +230,7 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
 
 
 
-| chapter: Introduction
+
 | section: Photo safari
 | id: cb-safari
 | gap: 0
@@ -298,8 +297,8 @@ Use a digital camera, such as the camera of your mobile phone, and **go on a pho
 
 ---
 
-| chapter: Introduction
-| section: Photo Safari CVD Simulator
+
+| section: CVD Simulator
 | id: cb-simulate
 | rows: auto
 | cols: 2fr 3fr
@@ -367,8 +366,8 @@ Use a digital camera, such as the camera of your mobile phone, and **go on a pho
 
 
 
-| chapter: Introduction
-| section: Photo Safari Conclusions
+
+| section: Photo Safari Conclusion
 | id: cb-analyze
 | rows: 1fr auto
 | cols: 2fr 3fr
@@ -505,7 +504,7 @@ You can **work through the stations in the given order** (which is recommended i
 ---
 
 | chapter: Accessibility
-| section: What is accessibility?
+| section: Accessibility and Usability
 | id: cb-accessibility
 | rows: auto
 | 1 3
