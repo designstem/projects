@@ -1,5 +1,5 @@
 | chapter: Introduction
-| section: First page
+| section: Cover
 | theme: dark
 | style: background-position: 50% 50%;
 | background: './images/colorblind-subway.png'
@@ -48,6 +48,8 @@ Further, especially design students should learn how to choose color schemes so 
 
 ---
 
+| chapter: Introduction
+| section: Read first
 | rows: 1fr auto
 | 1 2
 | 3 2
@@ -120,8 +122,8 @@ Of course you can add further questions and tasks for your students or adapt the
 
 
 
-
-| section: What is CVD?
+| chapter: Introduction
+| section: Introduction to CVD
 | rows: 1fr auto
 | gap: 3vmin
 | 1 2
@@ -185,7 +187,8 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 
 
 
-
+| chapter: Introduction
+| section: Introduction to workshop
 | rows: auto
 | 1 2
 | 1 2
@@ -228,7 +231,7 @@ But first, **let's go outside** and explore our daily surroundings to get a bett
 
 
 
-
+| chapter: Introduction
 | section: Photo safari
 | id: cb-safari
 | gap: 0
@@ -295,7 +298,8 @@ Use a digital camera, such as the camera of your mobile phone, and **go on a pho
 
 ---
 
-| section: Apply CVD to your photos
+| chapter: Introduction
+| section: Photo Safari CVD Simulator
 | id: cb-simulate
 | rows: auto
 | cols: 2fr 3fr
@@ -363,7 +367,8 @@ Use a digital camera, such as the camera of your mobile phone, and **go on a pho
 
 
 
-
+| chapter: Introduction
+| section: Photo Safari Conclusions
 | id: cb-analyze
 | rows: 1fr auto
 | cols: 2fr 3fr
@@ -406,7 +411,7 @@ This phase is crucial for the learning process, so don't skip it. After the stud
 
 
 | chapter: Learning stations
-| section: Learning stations
+| section: Overview
 | theme: dark
 | style: background-position: 50% 50%;
 | background: './images/cvd_learningstations.jpg'
