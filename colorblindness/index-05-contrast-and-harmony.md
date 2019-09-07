@@ -22,7 +22,7 @@
   
   <blockquote style="background: none;">
 
-  ~*“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.”*~
+  *“The color combinations called ‘harmonious’ in common speech usually are composed of closely similar chromas, or else of different colors in the same shades. They are combinations of colors that meet without sharp contrast.”*
   
   <p style="text-align:right; --base:8px;">&mdash;Johannes Itten</p>
 
@@ -149,8 +149,8 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 
 #### Tasks
 
-1. ~Find out about the definitions and examples of the following contrasts online.~
-2. ~Find out how these contrasts work and which effect they have.~
+1. Find the definitions and examples for the following contrasts online.
+2. Find out how these contrasts work and which effect they have.
 
 - ##### Contrast of hue
 - ##### Light-dark contrast
@@ -161,7 +161,7 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 - ##### Contrast of extension
 
 #### Extra task:
-~Look at your daily surroundings more closely and try to find Itten's color contrasts in magazines, posters, on websites and everywhere, where there is color design. Which purpose do the contrasts serve? Analyse them, keeping the target group and product in mind!~
+Look at your daily surroundings more closely and try to find Itten's color contrasts in magazines, posters, on websites and everywhere, where there is color design. Which purpose do the contrasts serve? Analyse them, keeping the target group and product in mind!
 
 </section>
 
@@ -212,9 +212,9 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 
 -
 
-After you found out about Itten's contrasts, look at the pictures on the next pages and match the contrasts with the pictures. **Don't cheat** by being lazy and clicking on the answer key first! You're better than that. 😉  
+After you found out about Itten's contrasts, look at the pictures on the next pages and match the contrasts with the pictures. **Don't cheat** by being lazy and clicking on the answer key first! You're better than that.
 
-~Which contrasts do you see?~
+Which contrasts do you see?
 
 <ContrastQuiz :input="[ 
   ['Contrast of hue',         0], 
@@ -259,7 +259,7 @@ After you found out about Itten's contrasts, look at the pictures on the next pa
 
 -
 
-~How many color contrasts can you identify in this example?~ 
+How many color contrasts can you identify in this example?
 
 
 <ContrastQuiz :input="[ 
@@ -305,7 +305,7 @@ After you found out about Itten's contrasts, look at the pictures on the next pa
 
 -
 
-~One last example for you to prove that you are *Itten worthy*. Easy, isn't it?~ 🤔
+One last example for you to prove that you are *Itten worthy*. Easy, isn't it?
 
 
 <ContrastQuiz :input="[ 
@@ -361,7 +361,7 @@ In order to create a harmonious color palette, you can also use the color wheel.
 
 #### Hint:
 You can change the position of the white dots around the color wheel to get new complementary colors.
-**Try it!** 🧐
+**Try it!**
 
 -
 
@@ -561,9 +561,9 @@ For monochromatic palettes, you combine one hue with its different shades, eithe
 
 #### Change the given color palette so that:
 
-~It stays as closely as possible to the original hues and~
-~a) the palette is **more harmonious**~ or
-~b) the palette is **more prominent**~.
+It stays as closely as possible to the original hues and
+a) the palette is **more harmonious** or
+b) the palette is **more prominent**.
 
 Keep in mind that colors influence one another (*see Itten's simultaneous contrast*). A color e.g. can appear colder or warmer, brighter or darker next to another color.
 
@@ -644,8 +644,8 @@ If possible, **exchange and discuss your results** with someone else.
 
 
 
-~Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.~
-> Please, **take a screenshot of your final colors' HSB values** for later! 👈
+Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.
+> <mark> Please, **take a screenshot of your final colors' HSB values** for later! <mark>
 
 -
 
@@ -746,10 +746,10 @@ Earlier, we learned that people with color vision deficiencies cannot see certai
 
 <div slot="content" class="sidebar-content">
 
-  1. ~Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.~
-  2. ~Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad, and I mean *really bad* 💩. Try to find out which color combinations don't work well.~
-  3. ~Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?~
-  4. ~Analyse the results and form a conclusion based on the following questions: *When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?*~
+  1. Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.
+  2. Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad, and I mean *really bad*. Try to find out which color combinations don't work well.
+  3. Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?
+  4. Analyse the results and form a conclusion based on the following questions: *When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?*
 
 </div>
 
@@ -845,8 +845,8 @@ Earlier, we learned that people with color vision deficiencies cannot see certai
 
 After you have tried out different color schemes, let's summarize what you found out and draw some conclusions about color design for people with color vision deficiency.
 
-1. ~Look at the last task on the last page (task 4 on *CVD compatible palette*) and review what you found out.~
-2. ~When you are really sure that you have come up with your own conclusion, click on the following link. **Don't cheat!**~
+1. Look at the last task on the last page (task 4 on *CVD compatible palette*) and review what you found out.
+2. When you are really sure that you have come up with your own conclusion, click on the following link. **Don't cheat!**
 
 <f-sidebar  overlay size="half">
 
@@ -860,7 +860,7 @@ After you have tried out different color schemes, let's summarize what you found
     
   &nbsp;
     
-  ~Try to increase the difference between foreground and background colors as much as possible. Further, avoid colors that are next to each other in the color wheel and close in brightness. The first example compares a bad color combination (on the left), to a better one (on the right). Below it, you can see how it would look like to a colorblind person with Protanopia.~
+  Try to increase the difference between foreground and background colors as much as possible. Further, avoid colors that are next to each other in the color wheel and close in brightness. The first example compares a bad color combination (on the left), to a better one (on the right). Below it, you can see how it would look like to a colorblind person with Protanopia.
   <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
     <img src="./images/cvb_effective1.jpg" />
   </figure>
@@ -870,7 +870,7 @@ After you have tried out different color schemes, let's summarize what you found
     
   &nbsp;
     
-  ~Next, colors can have the same saturation and brightness, and still feel darker or lighter than others. Look at the color wheel below. You should choose dark color hues from the bottom and add them to light color hues from the top half. Never use light colors from the bottom half, against dark colors from the top one. Good example on the left, bad one on the right.~
+  Next, colors can have the same saturation and brightness, and still feel darker or lighter than others. Look at the color wheel below. You should choose dark color hues from the bottom and add them to light color hues from the top half. Never use light colors from the bottom half, against dark colors from the top one. Good example on the left, bad one on the right.
   
   <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
     <img src="./images/cvb_effective3.jpg" />
@@ -882,7 +882,7 @@ After you have tried out different color schemes, let's summarize what you found
   
   &nbsp;
     
-  ~Don't use colors that are neighbors in the color wheel. Try to choose colors that are as far away from each other as possible. This increases the contrast.~
+  Don't use colors that are neighbors in the color wheel. Try to choose colors that are as far away from each other as possible. This increases the contrast.
     
   <figure style="width:100%; height:100%; display:flex; justify-content:center; align-items: flex-start; margin: 0;">
     <img src="./images/cvb_effective5.jpg" />
@@ -890,7 +890,7 @@ After you have tried out different color schemes, let's summarize what you found
     
   &nbsp;
     
-  ~**On the whole, try to make colors differ more dramatically in hue, saturation and brightness, than you would usually do for a person with average color vision.** This helps create stronger contrasts that also work for people with a CVD.~
+  **On the whole, try to make colors differ more dramatically in hue, saturation and brightness, than you would usually do for a person with average color vision.** This helps create stronger contrasts that also work for people with a CVD.
 </div>
   
   
@@ -948,7 +948,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 ## <f-fact-icon size="medium" /> Tips!
 
-Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier 😎:
+Creating color palettes with more than two or three colors takes time, patience and reviewing. Often you need to start from the beginning, because the palette just doesn't work. Here are some tips you should keep in mind when building a color palette. Reading them carefully might make your life a bit easier:
 
 <details>
   <summary> Figure out the purpose</summary>
@@ -1030,7 +1030,7 @@ Gather your knowledge and skills on *accessibility, the eye, color vision defici
 
 On the next slide, **you may choose the path that you want to take: STEM or Design.**
 
-**Choose wisely.** 🧐
+**Choose wisely.**
 
 </section>
 
