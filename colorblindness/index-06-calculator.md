@@ -38,7 +38,7 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
   ### Hint for teachers. 
   The design object (product design) which we propose on the next pages, tries to offer students of all levels an opportunity to try out their skills and knowledge. It is simple, but can be made more complex by you, the teacher.
   Of course the design object on which students test their knowledge can be very diverse and adjusted to the subject you teach. For example, you could also focus on the following objects:
-  <br>
+
 * Posters
 * Brochures
 * Diagrams
@@ -46,7 +46,7 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 * Websites
 * Packaging
 * Game design
-<br>
+
 Whenever information needs to be conveyed visually, we have to think about accessibility, because it is not only about aesthetics anymore. It’s about enabling the target group to get the information they need. Therefore many products are suitable as learning objects for this project and can be adjusted to the students’ level. Feel free to use the following tasks as basis for your own ideas and change the design object so it fits your needs.
 
 </f-notes>
@@ -219,10 +219,10 @@ Upload your picture into the CVD-simulator and check whether it works.
 
 <br>
 
-1. Check if your color schemes is flawed.
-2. Adjust your color scheme, if necessary, and check again.
-3. Write down your insights in your journal.
-4. Present your design in class. Be ready to explain your choices.
+1. *Check if your color schemes is flawed.*
+2. *Adjust your color scheme, if necessary, and check again.*
+3. *Write down your insights in your journal.*
+4. *Present your design in class. Be ready to explain your choices.*
 
 
 -
@@ -250,8 +250,7 @@ Upload your picture into the CVD-simulator and check whether it works.
 
 In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.
 
-You could also start discussions on a meta level, e.g. *Reflect on what you learned. What was new for you or interesting? Do you think the information will be useful for you in your daily work? Do you think it is necessary to bear this in mind when designing products?*
-
+After that, on the next slides, the students will have the chance to review their learning process and evaluate their growth of knowledge and skills. Use the journal!
 </f-notes>
 
 <f-next-button style="margin:var(--base4) 0" />
@@ -281,11 +280,11 @@ Lets reflect on what you achieved.
 
 #### Tasks
  
-1. *Reflect on what you learned. What was new for you or interesting? What was difficult or easy?*
-2. *Do you think the information will be useful for you as a designer or STEM student?*
-3. *What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so?*
+1. *Reflect on what you learned. What was new for you or interesting? What was difficult or easy? If you have kept one, look at your journal!*
+2. *Do you think the information and skills you learned will be useful for you as a designer or STEM student?*
+3. *What about the social relevance? When we design, should we focus more on people with CVD? Is it more difficult/more work to do so? In your opinion, would it really make a difference?*
 <br>
-4. *Think of further ways to make information more accessible other than color coding it. What could you do else?*
+4. *Think of further ways to make information more accessible other than color coding them. What could you do instead?*
 <br>
 <f-next-button style="margin:var(--base4) 0" />
 
@@ -295,6 +294,7 @@ Lets reflect on what you achieved.
   <summary>Teachers notes</summary>
   
   ### Hint for teachers. 
+  This is the chance to incooperate the journal. Let the students look at their learning journey and see for themselves what they've come across that was new, what they learned, what they found difficult. Maybe they will also still have questions, which need to be discussed.
   In task 4, the students will probably come up with alternatives like patterns or symbols. If you have the time in your lesson, maybe you could let them incooperate this in their design. Let them make a version B to their color scheme.
 
 </f-notes>
