@@ -626,11 +626,29 @@ If possible, **exchange and discuss your results** with someone else.
 
 
 
+<!--
+
+PPPPPP      AAAAA     L          EEEEEEE    TTTTTTT    TTTTTTT    EEEEEEE 
+P     P    A     A    L          E             T          T       E      
+P     P    A     A    L          EEEEE         T          T       EEEEE
+PPPPPP     AAAAAAA    L          E             T          T       E      
+P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
+
+
+-->
+
+
+
+
+
+
+
 
 
 
 | chapter: Colors for CVD
 | section: Task: Create a palette
+| id: cb-palettes
 | rows: auto
 | cols: 1fr 2fr 2fr
 | 1 1 3
@@ -912,25 +930,8 @@ After you have tried out different color schemes, let's summarize what you found
 
 
 
-
-
-
-
-<!--
-
-PPPPPP      AAAAA     L          EEEEEEE    TTTTTTT    TTTTTTT    EEEEEEE 
-P     P    A     A    L          E             T          T       E      
-P     P    A     A    L          EEEEE         T          T       EEEEE
-PPPPPP     AAAAAAA    L          E             T          T       E      
-P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
-
-
--->
-
-
-
 | section: Practical tips 
-| id: cb-palettes
+
 
 <!--
 | padding: 0
