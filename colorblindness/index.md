@@ -129,25 +129,24 @@ Of course you can add further questions and tasks for your students or adapt the
 ## Read first!
 
 
-Before you dive into the workshop, in order to improve your learning experience, we recommend the following:
+Before you dive into the workshop, in order to improve your learning experience, we recommend the following (click on the titles to see more):
 
-<br>
 
-1. <details>
-  <summary><big>Keep a journal</big></summary>
+
+<details>
+  <summary>Keep a journal!</summary>
   
-  *where you write down the results to the tasks, your insights and open questions. This journal can also be digital (like a *.doc file*)*, so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.*
+  *In your journal, you could write down the results to the tasks, your insights and open questions. This journal can also be digital (like a *.doc file*)*, so you can add screenshots of your results. Aim: You will have a reference/guideline for the final task of this workshop and beyond that.*
 
 </details>
 
-2. <details>
+<details>
   <summary>Never skip tasks!</summary>
-   *Follow the tasks in a chronological order and don't skip any in order to get through faster. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.*  
+  
+  *Follow the tasks in a chronological order and don't skip any in order to get through faster. Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing** (and sometimes failing), **through your own experience and conclusions, and not by just reading ready-made information**. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.*
+  
   </details>
 
-<br>
-
-Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing** (and sometimes failing), **through your own experience and conclusions, and not by just reading ready-made information**.
 
 <br>
 
@@ -155,7 +154,7 @@ Quickly clicking through the pages, won't give you insight, because **most of wh
 
 # 😉
 
-> This being said, we hope you will improve your skillset and sometimes in between, **you are even allowed to enjoy it.**
+> This being said, we hope you will use this workshop well and sometimes in between, **you are even allowed to enjoy it.**
 
 </f-inline>
 
