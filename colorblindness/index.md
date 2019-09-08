@@ -46,75 +46,9 @@ Further, especially design students should learn how to choose color schemes so 
 
 
 
----
-
-
-| section: Read first
-| rows: 1fr auto
-| 1 2
-| 3 2
-
-
-
-## Read first!
-
-
-Before you dive into the workshop, in order to improve your learning experience, we recommend the following:
-
-<br>
-
-1. **Keep a journal**, *where you write down all the results to the tasks and your insights. This journal can also be digital (like a *.doc file*)*, so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.*
-2. **Never skip tasks!** *Follow the tasks in a chronological order and don't skip any in order to get through faster. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.*
-
-<br>
-
-Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing** (and sometimes failing), **through your own experience and conclusions, and not by just reading ready-made information**.
-
-<br>
-
-<f-inline>
-
-# 😉
-
-> This being said, we hope you will improve your skillset and sometimes in between, **you are even allowed to enjoy it.**
-
-</f-inline>
-
-
--
-
-<f-image src="./images/cvd_stop.jpg" style="height:100%; background-position:center; min-height:50vh;" />
-
--
-
-<f-next-button title="Next: Let's start!" />
-
-
-<f-notes>
-
-<summary>Teachers note</summary>
-
-#### Journal
-
-Please, encourage your students to keep a journal. Learning about color design is often not something where you have straight facts, but where you need to discuss and share ideas, in order to figure out what works best.
-Maybe you could provide them the following questions/tasks:
-
-1. *Start a new chapter for each new topic.*
-2. *Write down all the facts, that you might forget about, but that seem important, so that you can look them up later (for the final task).*
-3. *When there are tasks, keep notes of your results (also of your intermediate results), so that you can see your progress or can go back to a result if necessary. If you keep a digital journal, you can add screenshots.*
-4. *At the end of each chapter, write some lines on "These are my new insights". Maybe something that surprised you or was new to you. Something that you find fascinating.*
-
-Of course you can add further questions and tasks for your students or adapt these tasks to your students' level.
-
-</f-notes>
-
-
-
-
-
 
 ---
-<!-- Test -->
+
 
 
 
@@ -143,7 +77,7 @@ Before you dive into the workshop, in order to improve your learning experience,
 <details>
   <summary><big>Never skip tasks!</big></summary>
   
-  *Follow the tasks in a chronological order and don't skip any in order to get through faster. Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing** (and sometimes failing), **through your own experience and conclusions, and not by just reading ready-made information**. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.*
+  *Follow the tasks in a chronological order and don't skip any to get through faster. Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing** (and sometimes failing), **through your own experience and conclusions, and not by just reading ready-made information**. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.*
   
   </details>
 
@@ -265,25 +199,21 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 | 3 3
 
 
-## More than tomatoes
+## So what?!
 
 <!-- <div v-if="get('revealX') < 75"> -->
-
-**So what?! Is it that bad if a person eats a green tomato once in a while?**
+<details>
+  <summary></big>Is it that bad if a person eats a green tomato once in a while?</big></summary>
 *No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!
 Tomatoes are only one example for the problems people with Color Vision Deficiency (hereafter referred to as CVD) face on a daily basis.*
-
-<f-inline>
-
-# 🔭
+</details>
   
 **In this workshop, you are going to explore in which way people with CVD are affected and what you need to know to make their lives better.**
 
-</f-inline>
 
-*Step by step, you will not only find out about the biological background of Color Vision Deficiencies, but also learn all about creating color schemes for people who cannot see all colors. **This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field.*
+*Step by step, you will find out about the biological background of Color Vision Deficiencies and about creating color schemes for people who cannot see all colors. **This workshop is for both, STEM and Design students.** At a later point, you will be able to choose a path connected to your field.*
 
-But first, **let's go outside** and explore our daily surroundings to get a better understanding of how color vision deficiencies affect lives.
+But first, **let's go outside**.
 
 -
 
