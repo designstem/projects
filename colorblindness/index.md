@@ -114,6 +114,83 @@ Of course you can add further questions and tasks for your students or adapt the
 
 
 ---
+<!-- Test -->
+
+
+
+
+| section: Read first
+| rows: 1fr auto
+| 1 2
+| 3 2
+
+
+
+## Read first!
+
+
+Before you dive into the workshop, in order to improve your learning experience, we recommend the following:
+
+<br>
+
+1. <details>
+  <summary><big>Keep a journal</big></summary>
+  
+  *where you write down the results to the tasks, your insights and open questions. This journal can also be digital (like a *.doc file*)*, so you can also add screenshots in between and you will have a reference/guideline for the final task of this workshop.*
+
+</details>
+
+2. <details>
+  <summary>Never skip tasks!</summary>
+   *Follow the tasks in a chronological order and don't skip any in order to get through faster. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.*  
+  </details>
+
+<br>
+
+Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing** (and sometimes failing), **through your own experience and conclusions, and not by just reading ready-made information**.
+
+<br>
+
+<f-inline>
+
+# 😉
+
+> This being said, we hope you will improve your skillset and sometimes in between, **you are even allowed to enjoy it.**
+
+</f-inline>
+
+
+-
+
+<f-image src="./images/cvd_stop.jpg" style="height:100%; background-position:center; min-height:50vh;" />
+
+-
+
+<f-next-button title="Next: Let's start!" />
+
+
+<f-notes>
+
+<summary>Teachers note</summary>
+
+#### Journal
+
+Please, encourage your students to keep a journal. Learning about color design is often not something where you have straight facts, but where you need to discuss and share ideas, in order to figure out what works best.
+Maybe you could provide them the following questions/tasks:
+
+1. *Start a new chapter for each new topic.*
+2. *Write down all the facts, that you might forget about, but that seem important, so that you can look them up later (for the final task).*
+3. *When there are tasks, keep notes of your results (also of your intermediate results), so that you can see your progress or can go back to a result if necessary. If you keep a digital journal, you can add screenshots.*
+4. *At the end of each chapter, write some lines on "These are my new insights". Maybe something that surprised you or was new to you. Something that you find fascinating.*
+
+Of course you can add further questions and tasks for your students or adapt these tasks to your students' level.
+
+</f-notes>
+
+
+
+
+---
 
 
 
