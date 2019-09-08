@@ -203,7 +203,7 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 
 <!-- <div v-if="get('revealX') < 75"> -->
 <details>
-  <summary></big>Is it that bad if a person eats a green tomato once in a while?</big></summary>
+  <summary><big>Is it that bad if a person eats a green tomato once in a while?</big></summary>
   
 *No, you're right, only if a person eats about 300 grams all at once. And who would want to eat 300g of bitter tasting tomatoes?!
 Tomatoes are only one example for the problems people with Color Vision Deficiency (hereafter referred to as CVD) face on a daily basis.*
