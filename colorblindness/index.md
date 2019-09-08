@@ -150,8 +150,7 @@ Before you dive into the workshop, in order to improve your learning experience,
 
 <br>
 
-
-> This being said, we hope you will use this workshop well and sometimes in between, **you are even allowed to enjoy it.** 😉
+This being said, we hope you will use this workshop well and sometimes in between, **you are even allowed to enjoy it.** 😉
 
 
 
