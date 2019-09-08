@@ -496,7 +496,7 @@ Let's find some nice colors for our shampoo bottles:
 
 <br>
 
-> If possible **compare your results** with someone and **explain why** you chose these colors regarding the three properties of color. **Alternativeley, write it down in your journal.**
+> If possible **compare your results** with someone and **explain why** you chose these colors regarding the three properties of color. <br>**Alternativeley, write it down in your journal.**
 
 
 <!-- <f-hr style="margin:var(--base4) 0; visibility:hidden;" /> -->
