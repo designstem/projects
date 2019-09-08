@@ -743,9 +743,9 @@ Earlier, we learned that people with color vision deficiencies cannot see certai
 <div slot="content" class="sidebar-content">
 
   1. *Adjust the background, headline and text colors, **so that they match your HSB values of the last task**. Does your color palette work for people with Protanopia, Deuteranopia and Tritanopia? If not, try to make it work, by altering your colors' values.*
-  2. *Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad, and I mean *really bad*. Try to find out which color combinations don't work well.*
+  2. *Adjust the colors, so that the results in Protanopia, Deuteranopia and Tritanopia is bad, and I mean* <mark>really bad</mark>. *Try to find out which color combinations don't work well.*
   3. *Adjust the colors, so that the results in all three color vision deficiencies is the best you can get. How many combinations can you find for this task?*
-  4. *Analyse the results and form a conclusion based on the following questions:* <var>When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?</var>
+  4. *Analyse the results and form a conclusion based on the following questions:* When do color palettes work well for color vision deficient people? What do we need to pay attention to, when creating them?
 
 </div>
 
