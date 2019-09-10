@@ -15,14 +15,6 @@
 
 <big>Design a biosensitive tattoo that expresses your character and can save your life</big>
 
-
-<f-notes title="Credits">
-
-Image source: 
-https://www.pexels.com/
-
-</f-notes>
-
 -
 
 <f-next-button title="Start" />
@@ -36,6 +28,8 @@ https://www.pexels.com/
 - To support creativity by illustrating how ideas across different subjects feed each other
 
 - To learn about concepts in skin biology, indicator chemistry and icon design
+
+Image source: https://www.pexels.com/
 
 </f-notes>
 

@@ -2,12 +2,12 @@
 | background: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christo_Floating_Piers_6497.jpg/2560px-Christo_Floating_Piers_6497.jpg
 | tint: 0
 | rows: 1fr auto
-| 1 3
-| 2 3
+| 1 1 1 1 3
+| 2 2 2 2 3
 
 # <big style="color: var(--darkblue)">Equilibrium & Plastic</big>
 
-<big style="color: var(--darkblue)">Finding out about natural equilibrium, floating equilibrium and plastic pollution.</big>
+<big style="color: var(--darkblue)">Finding out about<br>natural equilibrium,<br>floating equilibrium<br>and plastic pollution.</big>
 
 -
 
@@ -30,18 +30,23 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 Our sea is covered by "plastic floating islands", because plastic can not only sink but also float. It pollutes the sea at all depths.
 
-#### TASKS
+<br>
 
-1. ~Watch the following video about a diver in Bali and learn about sea pollution.~
-2. ~How does the video make you feel?~
-3. ~Did you ever come across water pollution like this close to where you live (for example in lakes or rivers)?~
-4. ~Find out about organizations that try to counteract sea pollution.~
+<caption>📺💬 Watch and discuss</caption>
+
+1. Watch the following video about a diver in Bali and learn about sea pollution.
+
+2. How does the video make you feel?
+
+3. Did you ever come across water pollution like this close to where you live (for example in lakes or rivers)?
+
+4. Find out about organizations that try to counteract sea pollution.
 
 
 <br>
 
 
-<f-next-button />
+
 
 -
 
@@ -55,7 +60,7 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 | theme: dark
 | padding: 0
 | rows: auto
-| 1 2
+| 1 1 1 2 2
 
 
 <section>
@@ -64,34 +69,20 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 
 Plastic is a multi-purpose material. There are different categories of plastic, which have different properties and are therefore used for different products.
 
-#### TASKS
-
-1. ~Find out what the following abbreviations mean.~
-2. ~Not only find out about their properties, but also about their main usage.~
-3. ~When you are done, use the following simulation (see link below) to learn which plastic floats and which sinks and therefore in which way plastic causes sea pollution.~
-
-* PET
-* LDPE
-* PP
-* HDPE
-* PVC
-* PS
-
 <br>
 
-**Start the simulation:**
+<caption>💻💬 Research and discuss</caption>
 
-<a class="tertiary" href="../plastics" target="_blank">Learn how plastic floats</a>
+1. Find out what the following abbreviations mean.
 
+  <var>PET&nbsp; LDPE&nbsp; PP&nbsp; HDPE&nbsp; PVC&nbsp; PS</var>
 
+2. Not only find out about their properties, but also about their main usage.
 
-<br>
-
-
-<f-next-button />
-
+3. When you are done <a class="tertiary" href="../plastics" target="_blank">learn how plastic floats and sinks</a> and therefore in which way plastic causes sea pollution.
 
 </section>
+
 -
 
 
@@ -105,27 +96,27 @@ Plastic is a multi-purpose material. There are different categories of plastic, 
 | section: Bad and good news
 | padding: 0
 | theme: dark
-| rows: auto
-| 1 2
+| 1 1 1 2 2
 
 <section>
 
-### The bad news is...
+## The bad news is...
 
 Plastic is everywhere and poisons our environment. It not only destroys nature, but also **kills animals**, who eat it, suffocate by it or get trapped in it. And in the end, through the food chain, it also affects our health.
 
+<br>
 
-#### TASKS
+<caption>💻💬 Research and discuss</caption>
 
-~Get informed!~
+### Get informed!
 
-~You can find more information on this via <f-link to="https://www.peta.org/">PeTA</f-link>~. Search for **plastic** and you will find many articles which are related to plastic hurting animals.
+You can find more information on this via <f-link to="https://www.peta.org/">PeTA</f-link>. Search for **plastic** and you will find many articles which are related to plastic hurting animals.
 
-~Further you can find more information on plastic destroying nature via <f-link to="https://www.greenpeace.org/international/">Greenpeace</f-link>~. Also search for the keyword **plastic** and find out where it destroys nature's beauty.
+Further you can find more information on plastic destroying nature via <f-link to="https://www.greenpeace.org/international/">Greenpeace</f-link>. Also search for the keyword **plastic** and find out where it destroys nature's beauty.
 
 <br>
 
-<f-next-button />
+
 
 </section>
 
@@ -143,31 +134,24 @@ Plastic is everywhere and poisons our environment. It not only destroys nature, 
 | padding: 0
 | theme: dark
 | rows: auto
-| 1 2
+| 1 1 1 2 2
 
 <section>
   
-### The good news is...
+## The good news is...
 
-~There are eco friendly substitutes for plastic, that you can use.~
+There are eco friendly substitutes for plastic, that you can use. See the links <a href="https://science.howstuffworks.com/environmental/green-tech/sustainable/5-plastic-substitutes.htm" target="_blank">Top 10 Eco-friendly Substitutes for Plastic</a>, <a href="https://news.nationalgeographic.com/2017/04/wax-worms-eat-plastic-polyethylene-trash-pollution-cleanup/" target="_blank">Worms eating plastic</a> and <a href="https://www.explainthatstuff.com/bioplastics.html" target="_blank">Bioplastics and biodegradable plastics</a> (see the picture)
 
-<a href="https://science.howstuffworks.com/environmental/green-tech/sustainable/5-plastic-substitutes.htm" target="_blank">Top 10 Eco-friendly Substitutes for Plastic</a>
+<caption>💻👁️💬 Observe, research and discuss</caption>
 
-<a href="https://news.nationalgeographic.com/2017/04/wax-worms-eat-plastic-polyethylene-trash-pollution-cleanup/" target="_blank">Worms eating plastic</a>
-
-<a href="https://www.explainthatstuff.com/bioplastics.html" target="_blank">Bioplastics and biodegradable plastics</a> (see the picture)
-
-<br>
-
-TASK
-1. ~Find other eco friendly substitutes for plastic or other similar projects.~
-2. ~Look around at your home. How much plastic do you use? Find out if there are alternatives for items made of plastic, e.g. there are toothbrushes made of bamboo.~
-3. ~Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.~
-4. ~Discuss your ideas in class. Is it very difficult to be eco friendly?~
+1. Find other eco friendly substitutes for plastic or other similar projects.
+2. Look around at your home. How much plastic do you use? Find out if there are alternatives for items made of plastic, e.g. there are toothbrushes made of bamboo.
+3. Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.
+4. Discuss your ideas in class. Is it very difficult to be eco friendly?
 
 <br>
 
-<f-next-button />
+
 
 <f-notes title="Credits">
 
@@ -190,33 +174,20 @@ https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
 
 <section>
 
-## Plastic reuse and art
+<caption>💬 Think and discuss</caption>
 
-#### Christo "The Floating Piers", 2016
+## Plastic reuse & art
 
- <blockquote style="background: none;">
+So plastic can also be used to make you walk on water, see <a href="https://christojeanneclaude.net/projects/the-floating-piers">Christo "The Floating Piers", 2016
 
-  ~*“The Floating Piers was a temporary, site-specific work of art by Christo and Jeanne-Claude, consisting of 70,000 square meters of yellow fabric, carried by a modular floating dock system of 226,000 high-density polyethylene cubes installed in 2016 at Lake Iseo near Brescia, Italy. The fabric created a walkable surface between Sulzano, Monte Isola and the island of San Paolo.”*~
-  
-  <p style="text-align:right; --base:8px;">&mdash;wikipedia.org</p>
+1. What are your feelings about this installation? Is it interesting, beautiful or even stupid and redundant? Find out about the artists' reasons for creating it.
 
- </blockquote>
-
-So plastic can also be used to make you walk on water, <a href="https://christojeanneclaude.net/projects/the-floating-piers" target="_new">see this art installation</a>.
-
-#### TASKS
-
-1. ~What are your feelings about this installation? Is it interesting, beautiful or even stupid and redundant? Find out about the artists' reasons for creating it.~
-
-2. ~Which physical laws are used in this example to keep the piers floating even when people walked on them? **Focus on the following two terms** and find out what they mean. Write down your results:~
+2. Which physical laws are used in this example to keep the piers floating even when people walked on them? **Focus on the following two terms** and find out what they mean. Write down your results:
 
 - <a href="https://www.britannica.com/science/Archimedes-principle" target="_blank">Archimedes’ principle</a>
 
 - Weight density
 
-<br>
-
-<f-next-button />
 
 </section>
 
@@ -234,32 +205,23 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 | section: Make a boat
 | padding: 0
+| 1 1 2
 
 <section>
 
-## <f-activity-icon /> Build a boat from recycled plastic
+<caption>🛠️ Hands-on activity</caption>
 
-1. ~Collect plastic objects around you in your everyday life. Find as many as you can.~  
+## Build a boat
 
-2. ~Research the type of plastic they are made of. What is their floating or sinking behaviour?~
+1. Collect plastic objects around you in your everyday life. Find as many as you can.  
 
-3. Design a boat or other floating structure. You can build it for one person or several people. Try to make your design work. <br><a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">Use this example as a clue</a>.
+2. Research the type of plastic they are made of. What is their floating or sinking behaviour?
 
-4. Verify that a boat can float even if it is made out of plastic that usually sinks. What is the reason for it? For further information, see this link: <br><a href="https://www.youtube.com/watch?v=xniW3_afO-0" target="_blank">How do ships float?</a>
+3. Design a boat or other floating structure. You can build it for one person or several people. Try to make your design work. <a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">Use this example as a clue</a>. If there is no lake or river close to you, you can also build a smaller version of your boat and test it in the sink or bath tub.
+
+4. Verify that a boat can float even if it is made out of plastic that usually sinks. What is the reason for it? For further information, see this link: <a href="https://www.youtube.com/watch?v=xniW3_afO-0" target="_blank">How do ships float?</a>
 
 5. Finally, calculate your boat's weight and its buoyancy in water.
-
-<br>
-
-#### Hint:
-~If there is no lake or river close to you, you can also build a smaller version of your boat and test it in the sink or bath tub.~
-
-
-<br>
-
-
-<f-next-button />
-
 
 </section>
 
@@ -286,7 +248,7 @@ https://commons.wikimedia.org/wiki/File:Bottle_boat_racers_paddle_their_way_to_v
 | 1 2 3
 | 4 4 4
 
-## Let's experiment! 🤪
+## Let's experiment! ⛵
 
 <big>Does your boat float? How much weight can you add to your object before it sinks?</big>
 
@@ -316,7 +278,7 @@ Compare the total mass of water that sinks the boat, to the mass of water that f
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -339,7 +301,7 @@ Compare the total mass of water that sinks the boat, to the mass of water that f
 
 <br>
 
-<f-next-button />
+
 
 -
 
@@ -358,21 +320,21 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 <section>
 
-## Think further! 🧐
+<caption>🤔💬 Think and discuss</caption>
 
-#### TASKS
+## Think further!
 
-1. ~Think of alternative uses for this project. Where would it be handy to create floating objects out of used plastic objects?~
-2. ~Could this be useful in product design or even in developing countries, where, sadly, a lot of our plastic waste ends up?~
+1. Think of alternative uses for this project. Where would it be handy to create floating objects out of used plastic objects?
+2. Could this be useful in product design or even in developing countries, where, sadly, a lot of our plastic waste ends up?
 
 <br>
 
-~See for example the following project, where Alfredo Moser from Brazil invented a way to make lives (literally) brighter by repurposing used plastic bottles:~
+See for example the following project, where Alfredo Moser from Brazil invented a way to make lives (literally) brighter by repurposing used plastic bottles:
 <br><a href="https://en.wikipedia.org/wiki/Liter_of_Light" target="_new">Liter of light</a>.
 
 <br>
 
-<f-next-button />
+
 
 -
 
@@ -385,6 +347,9 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 | section: Wrapping up
 | padding: 0
+| background: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christo_Floating_Piers_6497.jpg/2560px-Christo_Floating_Piers_6497.jpg
+| tint: 0.6
+| theme: dark
 
 <section>
 
@@ -405,5 +370,3 @@ You can find more projects and workshops via the following link:
 </section>
 
 -
-
-<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christo_Floating_Piers_6497.jpg/2560px-Christo_Floating_Piers_6497.jpg" />

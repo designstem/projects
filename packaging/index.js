@@ -34,4 +34,4 @@ function rEP(n, p) {
   return r;
 }
 
-fachwerk({ title: 'Hexagons', style: { '--emphasis': 'var(--red)', '--accent': 'var(--darkgray)', '--purple': 'var(--darkgray)'}, utils: { edgeLength, inradius, circumradius, crEP, rEP } });
+fachwerk({ title: 'Hexagons', style: { '--emphasis': 'var(--red)', '--accent': 'var(--red)', '--purple': 'var(--red)'}, utils: { edgeLength, inradius, circumradius, crEP, rEP } });
