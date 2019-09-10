@@ -107,6 +107,7 @@ On the next page, you can find out where your rods and cones are positioned:
 
 
 | section: Tool for mapping rods and cones activity
+| theme: blue
 | rows: auto
 | cols: 3fr 2fr
 | 1 3
@@ -116,9 +117,10 @@ On the next page, you can find out where your rods and cones are positioned:
 
 <caption>The eye</caption>
 
-## Mapping Rods and Cones Activity
+## Extra activity: Mapping Rods and Cones
 
-Use this activity to map the rods and cones in your retina. Notice that when an object is first detected by rod cells located at the periphery of your retina, the object appears black. When the image is detected by cones cells located in the fovea the centre of your retina, the colour of the object becomes apparent.
+Use the following activity (see link) to map the rods and cones in your retina. 
+Notice that when an object is first detected by rod cells located at the periphery of your retina, the object appears black. When the image is detected by cones cells located in the fovea the centre of your retina, the colour of the object becomes apparent.
 
 <br />
 
