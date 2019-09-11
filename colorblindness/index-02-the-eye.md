@@ -117,20 +117,23 @@ On the next page, you can find out where your rods and cones are positioned:
 
 <caption>The eye</caption>
 
-## Extra activity: Mapping Rods and Cones
+## Extra activity: <br> Mapping Rods and Cones
 
-Use the following activity (see link) to map the rods and cones in your retina. 
-Notice that when an object is first detected by rod cells located at the periphery of your retina, the object appears black. When the image is detected by cones cells located in the fovea the centre of your retina, the colour of the object becomes apparent.
+Use this additional activity to map the rods and cones in your own retina:
+
+<a href="cv-mapper/" target="_blank" class="tertiary">Open the mapping tool (separate tab)</a>
 
 <br />
 
-<a href="cv-mapper/" target="_blank" class="tertiary">Open the mapping tool (separate tab)</a>
+#### Explanation:
+
+Notice that when an object is first detected by rod cells located at the periphery of your retina, the object appears black. When the image is detected by cones cells located in the fovea the centre of your retina, the colour of the object becomes apparent.
 
 -
 
 <br />
 
-<f-next-button title="Next: Color Vision Deficiency" />
+<f-next-button title="Next: Life of a colorblind" />
 
 
 <f-notes>

@@ -30,7 +30,7 @@
 
 | sections: Discovering spirals
 | theme: dark
-
+| section: Discover spirals
 
 
 <!-- ## Discovering Spirals
@@ -486,15 +486,13 @@ Moreover,
 
 
 
-
-
-
-
-
-
-
-
 ---
+
+
+
+
+
+| section: Cartesian and Polar Coordinates
 
 | section: Cartesian / polar coordinates
 | 1 1
@@ -630,7 +628,7 @@ Following the previous example, assume now that the point A is known by its pola
 
 
 
-
+| chapter: Math of Archimedean spirals
 
 | chapter: 2D / 3D Archi­medean spirals
 | theme: dark
@@ -811,7 +809,8 @@ The following figure, explains the above equations in terms of the polar coordin
 
 
 
-| section: Equations of 3D spirals
+| section: Mathematics of 3D spirals
+
 | cols: 3fr 2fr
 | 1 1
 | 2 3
@@ -866,7 +865,8 @@ In the above equations, **R** represents the radius of the cycle in the plane X-
 
 
 
-
+| chapter: 3D design
+| section: Some tools and platforms
 
 | chapter: Spirals and design
 | section: 3D design
@@ -919,7 +919,8 @@ Use the online **Tinkercad software**, available at: <f-link to="http://www.tink
 
 
 
-
+| chapter: Designing a cylinder product
+| section: Dice games
 
 | section: Let's play dice!
 | padding: 0
@@ -1106,17 +1107,19 @@ Get a rectangular piece of paper and draw its diagonal with a pencil. Try to ben
   </f-group>
   <f-group position="0.75 0">
     <f-box width="2" height="3" :fill="color('lightgray')" stroke />
-    <f-line points="-1 1.47, -0.85 1, -0.6 0.5, 0 0, 0.6 -0.5, 0.85 -1, 1 -1.5" :stroke="color('red')" curved strokeWidth="2" />
+    <!-- <f-line points="-1 1.47, -0.85 1, -0.6 0.5, 0 0, 0.6 -0.5, 0.85 -1, 1 -1.5" :stroke="color('red')" curved strokeWidth="2" /> -->
     <f-circle r="1" :fill="color('white')" scale="1 0.3" position="0 1.5" stroke />
-    <!-- <f-line :points="range(-Math.PI,Math.PI,0.5).map(x => [Math.cos(x), 1.5 - ( Math.sin(x) * Math.cos(x) ) ])" curved  -->
-      :stroke="color('red')"  />
+    <!-- <f-line :points="range(-Math.PI,Math.PI,0.5).map(x => [Math.cos(x), 1.5 - ( Math.sin(x) * Math.cos(x) ) ])" curved :stroke="color('red')"  /> -->
+    <path d="M -1 1.4 Q -1 0.2, 0 0 T 1 -1.4" :stroke="color('red')" stroke-width="0.04" fill="none" />
     <f-circle r="1" :fill="color('lightgray')" scale="1 0.3" position="0 -1.5" stroke />
   </f-group>
   <f-group position="4 0">
     <f-box width="1" height="3" :fill="color('lightgray')" stroke />
     <f-circle r="0.5" :fill="color('lightgray')" scale="1 0.6" position="0 -1.5" stroke />
-    <f-line points="-0.5 1.47, -0.25 0.9, 0.3 0.4, 0.5 0.3" :stroke="color('red')" strokeWidth="2" curved />
-    <f-line points="-0.5 1.47, -0.25 0.9, 0.3 0.4, 0.5 0.3" position="0 -1.8" :stroke="color('red')" strokeWidth="2" curved />
+    <!-- <f-line points="-0.5 1.47, -0.25 0.9, 0.3 0.4, 0.5 0.3" :stroke="color('red')" strokeWidth="2" curved /> -->
+    <!-- <f-line points="-0.5 1.47, -0.25 0.9, 0.3 0.4, 0.5 0.3" position="0 -1.8" :stroke="color('red')" strokeWidth="2" curved /> -->
+    <path d="M -0.5 1.45 Q -0.4 0.2, 0.5 0.3" :stroke="color('red')" stroke-width="0.04" fill="none" />
+    <path d="M -0.5 1.45 Q -0.4 0.2, 0.5 0.3" :stroke="color('red')" stroke-width="0.04" fill="none" style="transform:translate(0, -1.8px)" />
     <f-circle r="0.5" :fill="color('lightgray')" scale="1 0.5" position="0 1.5" stroke />
     <f-circle r="0.42" :fill="color('white')" scale="1 0.5" position="0 1.5" stroke />
   </f-group>
@@ -1147,7 +1150,6 @@ Helix with more than two spirals can be also formed by dividing the basic rectan
 -
 
 #### 3.
-
 
 <f-scene responsive style="width:50%; height:auto; float: left; max-width:360px; margin-bottom:20px;">
   <defs>
@@ -1199,7 +1201,7 @@ To form the final stair structure, the triangle steps are linked with the helix 
 
 
 
-
+| section: Calculations for the dice cylinder
 
 | section: Basic calculations
 | 1 2
@@ -1290,6 +1292,8 @@ The level of each stair is presented by the red line and the green diagonal line
 
 
 | section: Build the Dice Cylinder
+
+| section: Making the cylinder from paper
 
 ## Build the Dice Cylinder
 
@@ -1386,105 +1390,6 @@ To construct the paper model of the dice staircase we need :
 
 </div>
 
-
-
-
-
-#### again
-
-
-To construct the paper model of the dice staircase we need :
-
-* 2 A4 sheets of thick paper where we print the template
-* Pair of scissors
-* Liquid paper glue
-* Plastic A4 sheet e.g. overhead transparency film sheet
-
-Follow the steps.
-
-1. Open and print the pages of the template sheet.
-2. Cut the 12 triangle stairs and the base.
-
-  <f-inline>
-
-  [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona19.png?w=243&h=276 "eikona19")](https://spiralsdesignstem.wordpress.com/eikona19/) 
-
-  [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona20.png?w=249&h=276 "eikona20")](https://spiralsdesignstem.wordpress.com/eikona20/) 
-
-  </f-inline>
-
-3. Cut the column, incise the vertical stripes so to bend the paper along the horizontal dimension. Connect the two edges with glue.
-
-  <f-inline>
-
-  [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona21.png?w=162&h=162&crop=1 "eikona21")](https://spiralsdesignstem.wordpress.com/eikona21/) 
-
-  [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona22.png?w=162&h=162&crop=1 "eikona22")](https://spiralsdesignstem.wordpress.com/eikona22/) 
-
-  [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona23.png?w=162&h=162&crop=1 "eikona23")](https://spiralsdesignstem.wordpress.com/eikona23/) 
-
-  </f-inline>
-
-4. Stick the column to the base using glue
-
-  <f-inline>
-
-  [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona24.png?w=252&h=180 "eikona24")](https://spiralsdesignstem.wordpress.com/eikona24/) 
-
-  [![](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona25.png?w=240&h=180 "eikona25")](https://spiralsdesignstem.wordpress.com/eikona25/) 
-
-  </f-inline>
-
-5. Stick the stairs in the column. Use the direction of the black helix line.
-
-  For every stair, bend the narrow white part of the triangle up to the dotted line so to form a right angle with the rest grey part.  Glue the stairs in the column, at the level of the black horizontal line.
-
-  <f-inline>
-
-  [![eikona26](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona26.png?w=162&h=162&crop=1 "eikona26")](https://spiralsdesignstem.wordpress.com/eikona26/) 
-
-  [![eikona27](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona27.png?w=162&h=162&crop=1 "eikona27")](https://spiralsdesignstem.wordpress.com/eikona27/) 
-
-  [![eikona28](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona28.png?w=162&h=162&crop=1 "eikona28")](https://spiralsdesignstem.wordpress.com/eikona28/) 
-
-  </f-inline>
-
-  Do the same for all the 12 stairs.
-
-  <f-inline>
-
-  [![eikona29](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona29.png?w=155&h=205 "eikona29")](https://spiralsdesignstem.wordpress.com/eikona29/) 
-
-  [![eikona30](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona30.png?w=168&h=205 "eikona30")](https://spiralsdesignstem.wordpress.com/eikona30/) 
-
-  [![eikona31](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona31.png?w=165&h=205 "eikona31")](https://spiralsdesignstem.wordpress.com/eikona31/) 
-
-  </f-inline>
-
-6. Make the external cylinder from a plastic sheet
-
-  Use an A4 plastic film.
-
-  ![eikona32](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona32.png?w=265&h=199)
-
-  Cut a piece of 12 cm width. Cut a rectangular piece at the bottom to let the dice exit.
-
-  ![eikona33](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona33.png?w=529&h=228)
-
-  Bend the plastic sheet so to form a cylinder and stick the two edges using the glue.
-
-  <f-inline>
-
-  [![eikona34](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona34.png?w=302&h=169 "eikona34")](https://spiralsdesignstem.wordpress.com/eikona34/) 
-
-  [![eikona35](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona35.png?w=190&h=169 "eikona35")](https://spiralsdesignstem.wordpress.com/eikona35/) 
-
-  </f-inline>
-
-  Put the paper staircase model with in the plastic cylinder.
-
-  ![eikona36](https://spiralsdesignstem.files.wordpress.com/2019/05/eikona36.png?w=298&h=397)
-
 ---
 
 | section: 2D / 3D templates
@@ -1493,13 +1398,13 @@ Follow the steps.
 
 To construct the paper model of the dice staircase you can use the following Paper Sheet Template:
 
-[Paper Sheet Template](https://spiralsdesignstem.files.wordpress.com/2019/05/the_dice_cylinder_paper_sheet_template.pdf)
+[Paper Sheet Template](https://spiralsdesignstem.files.wordpress.com/2019/05/the_dice_cylinder_paper_sheet_template.pdf) -->
 
 -
 
 ### Dice box and dice cylinder in 3D
 
-To construct a Dice Box or a Dice Cylinder in 3D you can use the following worksheet:
+To construct a 3D Dice Box or a Dice Cylinder in Tinkercad, you can use the following worksheet:
 
 [Dice Box and Dice Cylinder in 3D](https://spiralsdesignstem.files.wordpress.com/2019/05/the_dice_box_in_3d_worksheet.pdf)
 
