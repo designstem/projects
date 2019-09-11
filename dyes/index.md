@@ -1165,8 +1165,15 @@ Poster will be discussed and analysed during a class conversation, which should 
 
 <a href="../rgblamp">RGB lamp</a> covers a product design process from a different angle, from an engineering perspective.
 
-<f-link class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</f-link>
+#### Other links:
 
+[Rebecca Desnos](https://rebeccadesnos.com), a maker and storyteller, creating books and magazines about making things with plants.
+
+https://www.instagram.com/rebeccadesnos/
+
+<br>
+
+<f-link class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</f-link>
 -
 
 <f-notes title="References">
