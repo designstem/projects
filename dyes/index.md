@@ -1153,29 +1153,21 @@ Poster will be discussed and analysed during a class conversation, which should 
 ---
 
 | section: Wrapping up
-| 1 2
-| padding: 0
-
-<section>
+| theme: dark
+| background: ./images/map.png
+| tint: 0.5
 
 ## Wrapping up
 
-#### Related DesignSTEM projects
+#### Related DesignSTEM projects:
 
-...at least one link here
+<br>
 
-#### Other materials
-
-...some links here
-...some links here
+<a href="../rgblamp">RGB lamp</a> covers a product design process from a different angle, from an engineering perspective.
 
 <f-link class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</f-link>
 
-</section>
-
 -
-
-<f-image src="./images/map.png" />
 
 <f-notes title="References">
 
