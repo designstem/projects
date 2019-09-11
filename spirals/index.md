@@ -1,6 +1,6 @@
 
 | chapter: Introduction
-| topic: First page
+| section: Start
 
 | theme: dark
 | background: ./images/tech-7.jpg
@@ -28,18 +28,12 @@
 
 ---
 
-
-
-
-
-
-
-
+| sections: Discovering spirals
 | theme: dark
 
 
 
-<!-- ## Discove&shy;ring Spirals
+<!-- ## Discovering Spirals
 
 Spiral is a very common shape in nature and in as well as every day life. In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
 
@@ -54,7 +48,7 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
   <div style="padding:var(--base3); grid-column:1 / span 2">
     
-  ## Dis&shy;cove&shy;ring spirals
+  ## Discovering spirals
   
   Spiral is a very common shape in nature and in as well as every day life. 
 
@@ -125,14 +119,16 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
 
 
-
+| section: Spirals in nature
 | theme: light
 | 1 1 1 
 | 2 3 4
 | 5 5 5
 | rows: auto
 
-***TASK*** <f-activity-icon />
+<caption>📺💬 Watch and discuss</caption>
+
+## Spirals in nature
 
 Watch the following videos about the spirals and try answer the questions in the following [worksheet](https://spiralsdesignstem.files.wordpress.com/2018/07/worksheet-1-1.docx)
 
@@ -156,7 +152,7 @@ Why Are Most Galaxies Spiral-Shaped?
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -166,18 +162,17 @@ Why Are Most Galaxies Spiral-Shaped?
 
 
 
-
+| section: Practicing in spreadsheets
 | rows: auto
 | 1 2
 | 3 2
 
 <!-- 2. Working with spirals -->
-## Practicing in Spreadsheets
+## Practicing in spreadsheets
 
 Here, you will be able to draw different Archimedean spiral shapes using an Excel spreadsheet. The Excel file contains two spreadsheets: the first labeled “Archimedean Spiral” in which you may type in the basic parameters and draw the corresponding spiral and the second labeled “Explanation” in which you are given the instructions how to setup your own spiral shape in Excel.
 
-You can download the Excel spreadsheet here: [Spiral Shape in Excel](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral-shape-in-excel1.xls) (XSL)
-
+<a href="https://spiralsdesignstem.files.wordpress.com/2018/09/spiral-shape-in-excel1.xls" class="tertiary  "><f-arrow-icon rotation="90" />Download spiral shape XSL spreadsheet</a>
 
 -
 
@@ -194,7 +189,7 @@ You can download the Excel spreadsheet here: [Spiral Shape in Excel](https://spi
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -203,7 +198,7 @@ You can download the Excel spreadsheet here: [Spiral Shape in Excel](https://spi
 
 
 
-
+| section: Practicing in Geogebra
 | rows: auto 
 | cols: 3fr 2fr
 | 1 1
@@ -248,7 +243,7 @@ Screw:    <f-link to="https://www.geogebra.org/m/pdrtw9uv">geogebra.org/m/pdrtw9
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -258,12 +253,15 @@ Screw:    <f-link to="https://www.geogebra.org/m/pdrtw9uv">geogebra.org/m/pdrtw9
 
 
 
-| 4 4
-| 1 2
-| 3 3
+| 1 1
+| 2 3
+| rows: auto 1fr
 
+<caption>💻 Exercise</caption>
 
-## <f-activity-icon /> Task 1
+-
+
+### Task 1
 
 Open the Geogebra application in https://www.geogebra.org/3d
 
@@ -271,17 +269,13 @@ Start practicing in creating 3D spirals, following the instructions of the <f-li
 
 -
 
-## <f-activity-icon /> Task 2
+### Task 2
 
 Open the Geogebra application in https://www.geogebra.org/3d
 
 Start practicing in creating 3D spirals, following the instructions of the <f-link to="https://spiralsdesignstem.files.wordpress.com/2018/11/archimedean-spiral-worksheet.pdf">Worksheet 2</f-link> (PDF)
 
--
 
-<f-next-button />
-
--
 
 ---
 
@@ -295,17 +289,17 @@ Start practicing in creating 3D spirals, following the instructions of the <f-li
 
 
 
-
+| chapter: Basics of trigono­metry
 | theme: dark
 
 <center>
 <div style="padding:5vh 10vw">
 
-  # Basics of trigono&shy;metry and polar coordi&shy;nates
+  # Basics of trigonometry and polar coordinates
   
   <br />
 
-  <f-next-button />
+  
   
 </div>
 </center>
@@ -331,6 +325,7 @@ Start practicing in creating 3D spirals, following the instructions of the <f-li
 
 <!-- 3. Background -->
 
+| section: Orthogonal triangle
 | cols: 3fr 2fr
 | 1 3
 | 2 3
@@ -346,11 +341,11 @@ In order to design a spiral you first need to recall the basic knowledge from tr
 
 ### The sides of an orthogonal triangle
 
-Assume that there is an orthogonal triangle (a triangle with one angle equal to 90°). The side that is always opposite to the right angle is called <f-math inline red>**"hypotenuse"**</f-math>. This is the longest side in the orthogonal triangle.
+Assume that there is an orthogonal triangle (a triangle with one angle equal to 90°). The side that is always opposite to the right angle is called <f-math inline red>**hypotenuse**</f-math>. This is the longest side in the orthogonal triangle.
 
-If we choose an angle <f-math inline>θ</f-math> other the right angle, the side that lies opposite to it is called <f-math inline blue>"opposite"</f-math>. The third angle, not in the opposite side is called <f-math inline green>"adjacent"</f-math> sides. Let's call the sides <f-math inline green>a</f-math>, <f-math inline blue>b</f-math> and <f-math inline red>c</f-math>.
+If we choose an angle <f-math inline>θ</f-math> other the right angle, the side that lies opposite to it is called <f-math inline blue>opposite</f-math>. The third angle, not in the opposite side is called <f-math inline green>adjacent</f-math> sides. Let's call the sides <f-math inline green>a</f-math>, <f-math inline blue>b</f-math> and <f-math inline red>c</f-math>.
 
-The length of the three sides <f-math inline green>a</f-math>, <f-math inline blue>b</f-math> and <f-math inline red>c</f-math> of an orthogonal triangle are linked with **“Pythagorean equation”**
+The length of the three sides <f-math inline green>a</f-math>, <f-math inline blue>b</f-math> and <f-math inline red>c</f-math> of an orthogonal triangle are linked with **Pythagorean equation**
 
 <f-math>\color{blue}a^2 \color{black}+ \color{green}b^2 \color{black}= \color{red}c^2</f-math>
 
@@ -387,12 +382,12 @@ This equation states that **the square of the hypotenuse** (the side opposite th
 
 <br>
 
-<f-next-button />
+
 
 ---
 
 
-
+| section: Trigonometric Ratios
 | cols: 3fr 2fr
 | 1 2
 | 3 4
@@ -489,7 +484,7 @@ Moreover,
 
 <br />
 
-<f-next-button />
+
 
 
 
@@ -501,6 +496,7 @@ Moreover,
 
 ---
 
+| section: Cartesian / polar coordinates
 | 1 1
 | 2 3
 | 4 5
@@ -508,7 +504,7 @@ Moreover,
 
 <caption>Basics of trigonometry and polar coordinates</caption>
 
-## Cartesian and Polar Coordinates 
+## Cartesian and polar coordinates 
 
 -
 
@@ -538,13 +534,13 @@ However, in many cases such that of drawing a spiral, a different expression is 
 
 -
 
-<f-next-button />
+
 
 ---
 
 
 
-
+| section: Calculation of polar coordinates
 | cols: 3fr 2fr
 | 1 1
 | 2 3
@@ -553,7 +549,7 @@ However, in many cases such that of drawing a spiral, a different expression is 
 
 <caption>Basics of trigonometry and polar coordinates</caption>
 
-## Calculation of Polar coordinates
+## Calculation of polar coordinates
 
 -
 
@@ -621,7 +617,7 @@ Following the previous example, assume now that the point A is known by its pola
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -636,19 +632,19 @@ Following the previous example, assume now that the point A is known by its pola
 
 
 
-
+| chapter: 2D / 3D Archi­medean spirals
 | theme: dark
 
 <center>
 <div style="padding:5vh 10vw">
 
-  # Mathe&shy;matics of 2D and 3D Archi&shy;medean spirals
+  # Mathematics of 2D and 3D Archimedean spirals
 
   This section will help you understand the mathematics and particular the equations and formulas from which 2D and 3D spirals derive.
 
   <br />
 
-  <f-next-button />
+  
   
 </div>
 </center>
@@ -660,7 +656,7 @@ Following the previous example, assume now that the point A is known by its pola
 
 
 
-
+| section:  2D Archimedean spirals
 | cols: 2fr 1fr 2fr
 | 1 1 1
 | 2 4 5
@@ -668,10 +664,9 @@ Following the previous example, assume now that the point A is known by its pola
 | 6 6 6
 
 
-
 <caption>Mathematics of 2D and 3D Archimedean spirals</caption>
 
-## Equations of 2D Archi&shy;medean spirals
+## Equations of 2D Archimedean spirals
 
 -
 
@@ -706,7 +701,7 @@ Lets simulate this:
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -722,7 +717,7 @@ Lets simulate this:
 
 <caption>Mathematics of 2D and 3D Archimedean spirals</caption>
 
-## Equations of 2D Archi&shy;medean spirals
+## Equations of 2D Archimedean spirals
 
 -
 
@@ -810,13 +805,13 @@ The following figure, explains the above equations in terms of the polar coordin
 
 -
 
-<f-next-button />
+
 
 ---
 
 
 
-
+| section: Equations of 3D spirals
 | cols: 3fr 2fr
 | 1 1
 | 2 3
@@ -859,7 +854,7 @@ In the above equations, **R** represents the radius of the cycle in the plane X-
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -873,12 +868,13 @@ In the above equations, **R** represents the radius of the cycle in the plane X-
 
 
 
-
+| chapter: Spirals and design
+| section: 3D design
 | 1 1
 | 2 3
 | 4 3
 
-## 3D Design
+## 3D design
 
 In this section you can use a 3D Design software to produce objects relevant to spirals or search the internet to find 3D Models online.
 
@@ -915,7 +911,7 @@ Use the online **Tinkercad software**, available at: <f-link to="http://www.tink
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -925,15 +921,14 @@ Use the online **Tinkercad software**, available at: <f-link to="http://www.tink
 
 
 
-
-
+| section: Let's play dice!
+| padding: 0
 | 1 2 
 | 3 2 
  
+ <section>
 
-# 🎲
-
-## Let's play dice!
+## 🎲 Let's play dice!
 
 #### **Dice games**
   
@@ -941,13 +936,15 @@ Dice games are board games that you play with a dice. The Backgammon, Chuck-a-Lu
   
 Dice games are based on rules according to which a player throws the dice and depending on the result, an action is performed. In these games the random outcome of the dice is very important. The dice must have **enough space** to roll several times so to end up randomly to their final position.
 
+ </section>
+
 -
 
 <f-image src="./images/dice-game.jpg" style="--image-min-height:40vw;" />
 
 -
 
-<f-next-button />
+
 
 <f-notes title="Credits">
 
@@ -959,18 +956,20 @@ https://www.pexels.com/photo/blur-board-game-business-challenge-278918/
 
 
 
-
+| section: The design problem
 | 1 2
 | 3 2
+| padding: 0
 
+<section>
 
 <div class="bottom">
   
-  ## The design problem
-  
-  There's often not enough space to throw the dice – it often ends up under a couch or punches other game pieces all over the place.
+## The design problem
 
-  Can we come up with a solution, that would:
+There's often not enough space to throw the dice – it often ends up under a couch or punches other game pieces all over the place.
+
+Can we come up with a solution, that would:
 
 1. be easy to use
 2. allow one more dice roll down simultaneously
@@ -980,6 +979,8 @@ https://www.pexels.com/photo/blur-board-game-business-challenge-278918/
 
 </div>
 
+</section>
+
 -
 
 <div style="height:100%;">
@@ -988,7 +989,7 @@ https://www.pexels.com/photo/blur-board-game-business-challenge-278918/
 
 -
 
-<f-next-button />
+
 
 <f-notes title="Credits">
 
@@ -1000,12 +1001,14 @@ https://www.goodfreephotos.com/other-photos/Gambling-game-in-a-casino.jpg.php
 
 
 
-
+| section: The design solution
 | 1 2
 | 3 2
+| padding: 0
 
+<section>
 
-## The solution
+## The design solution
 
 Such dice throwing objects has been previously designed and sold. For example in the e-shop <f-link to="https://www.etsy.com/search?q=dice%20tower">Etsy.com</f-link> you find different implementations of the basic vertical dice throwing idea. They are made of different materials (plastic, wood, paper etc.), shapes (tower, folding boxes, spiral cylinders etc.)
 
@@ -1013,13 +1016,15 @@ A dice-tower – i.e. a cylinder that when the player lets the dice from the top
 
 The problem of the dice-cylinder is to think, design and implement a rolling path for the dice within the cylinder so to let them move and roll sufficient distance, greater than the height of the cylinder, so to ensure the random dice outcome. Moreover, the movement of the dice should be smooth, without obstacles and such to ensure that they will not stick in an intermediate position and come down directly.
 
+</section>
+
 -
 
 <f-image src="./images/dice-tower.jpg" style="--image-min-height:50vh" />
 
 -
 
-<f-next-button />
+
 
 <f-notes title="Credits">
 
@@ -1031,10 +1036,12 @@ https://www.etsy.com/listing/692902098/dice-tower-board-game
 
 
 
-
+| section: Directions for the design
 | 1 2
 | 3 2
+| padding: 0
 
+<section>
 
 <div class="bottom">
   
@@ -1048,13 +1055,15 @@ To solve such a problem, consider the spiral theory. The path that follows the d
 Look at the metallic stairs. You notice the round tube-shaped central column and the stairs linked to it. The most important characteristics of this stair is the helix shape.
 </div>
 
+</section>
+
 -
 
 <f-image src="./images/dice-stairs.jpg" />
 
 -
 
-<f-next-button />
+
 
 <f-notes title="Credits">
 
@@ -1067,7 +1076,8 @@ Look at the metallic stairs. You notice the round tube-shaped central column and
 ---
 
 
-
+| chapter: Dice Cylinder
+| section: The helix within a cylinder
 | gap: 8vmin
 | 1 1
 | 2 3
@@ -1083,7 +1093,7 @@ But how can one easily design such a helix? Consider the following example.
 
 -
 
-##### 1.
+#### 1.
 
 Get a rectangular piece of paper and draw its diagonal with a pencil. Try to bend the paper so to gradually form a cylinder, a tube. Then, you may notice that the round shape automatically transforms the diagonal line to a helix! This helix line will be the basic direction for the stairs to be linked. Further note that this is a simple, one spiral helix.
 
@@ -1117,7 +1127,7 @@ Get a rectangular piece of paper and draw its diagonal with a pencil. Try to ben
 
 -
 
-##### 2.
+#### 2.
 
 <!-- <img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona11.png" style="width:50%; height:auto; float:left;" /> -->
 
@@ -1136,7 +1146,7 @@ Helix with more than two spirals can be also formed by dividing the basic rectan
 
 -
 
-##### 3.
+#### 3.
 
 
 <f-scene responsive style="width:50%; height:auto; float: left; max-width:360px; margin-bottom:20px;">
@@ -1177,13 +1187,13 @@ For example, if 12 steps are needed, the following figure presents the 12 equal 
 
 <img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona13.png" style="width:40%; float:right;" />
 
-##### 4.
+#### 4.
 
 To form the final stair structure, the triangle steps are linked with the helix in equal distances, as next figure presents.
 
 -
 
-<f-next-button />
+
 
 ---
 
@@ -1191,7 +1201,7 @@ To form the final stair structure, the triangle steps are linked with the helix 
 
 
 
-
+| section: Basic calculations
 | 1 2
 | 3 4
 | 5 5
@@ -1272,14 +1282,14 @@ The level of each stair is presented by the red line and the green diagonal line
 
 -
 
-<f-next-button />
+
 
 ---
 
 
 
 
-
+| section: Build the Dice Cylinder
 
 ## Build the Dice Cylinder
 
@@ -1477,17 +1487,40 @@ Follow the steps.
 
 ---
 
+| section: 2D / 3D templates
 
-
-
-## Dice cylinder paper sheet template
+### Dice cylinder paper sheet template
 
 To construct the paper model of the dice staircase you can use the following Paper Sheet Template:
 
 [Paper Sheet Template](https://spiralsdesignstem.files.wordpress.com/2019/05/the_dice_cylinder_paper_sheet_template.pdf)
 
-## Dice box and dice cylinder in 3D
+-
+
+### Dice box and dice cylinder in 3D
 
 To construct a Dice Box or a Dice Cylinder in 3D you can use the following worksheet:
 
 [Dice Box and Dice Cylinder in 3D](https://spiralsdesignstem.files.wordpress.com/2019/05/the_dice_box_in_3d_worksheet.pdf)
+
+---
+
+| section: Wrapping up
+| theme: dark
+| background: ./images/tech-7.jpg
+| tint: 0.7
+
+## Wrapping up
+
+#### Related DesignSTEM projects:
+
+<br>
+
+<a href="../patterns">2D/3D patterns</a> allows to play around with 2D pattern compositions.
+
+<a href="../frequency">Frequency and Motion</a> explores pattern-making in <var>motion</var>, mixed with <var>visual illusions</var> and music.
+
+<f-link class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</f-link>
+
+-
+

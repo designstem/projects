@@ -225,10 +225,6 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 **Make a flat lay from waste in your neighbourhood**
 
-<!--
-***TODO: Add f-sidebar to explain what flay lay is and add links / examles***
--->
-
 1. Go outside for 15 minutes and collect some waste. Divide the group into pairs and use rubber gloves.
 
 2. Make a nice composition for the flat-lay.
@@ -1037,7 +1033,7 @@ Beeboard you’ll find in your everyday kitchen cabinet door.
 
 Print out the PDF attachment in two copies (it is advised to use differently colored papers).
 
-<a class="tertiary" href="./files/beeboard.pdf"><f-arrow-icon rotation="90" />Download beeboard PDF</a>
+<a class="tertiary" href="./files/folding_beeboard.pdf"><f-arrow-icon rotation="90" />Download beeboard PDF</a>
 
 -
 
@@ -1351,34 +1347,6 @@ Prof. Dr. Claus Mattheck uses rubber plates and sheets of aluminum foil to help 
 Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute of Technology.
 
 </f-notes>
-
-<!--
-
-TODO: Notes for a tool
-
-## Virtual rubber sheet
-
-#### Graphics
-
-* A black square with (the suggestion) of a frame made out of four wooden struts that can hinge (see below)
-
-* With 1 or more holes
-
-* A slight 3D/axonometric view also possible (object turned a little relative to the camera)
-
-#### Animation/interaction
-
-* Sheet and hole(s) are responding to applied forces making visible the effect and direction of compression, tension, shear and bending
-
-
-<img src="./images/rubber.png" />
-
-
-<img src="./images/shear1.png" />
-
-<img src="./images/shear1.png" />
-
--->
 
 ---
 
