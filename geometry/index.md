@@ -346,6 +346,8 @@ Discuss!
 
 <section>
 
+## Why paper?
+
 We are reaching the end of our short geometrical journey, but — ~_why use your hands and paper?_~ — may you ask.
 
 Alongside _high-tech trends_, it is just as important to experiment with your own hands. Using our hands will eventually lead us to a world of complex design and science.
@@ -360,9 +362,9 @@ Let's start with **the humble sheet of paper**, an ordinary and available materi
 
 | section: Wrapping up
 | 1 2
-| padding: 0
-
-<section>
+| background: ./images/photo3.jpg
+| theme: dark
+| tint: 0.6
 
 ## Wrapping up
 
@@ -372,12 +374,10 @@ Let's start with **the humble sheet of paper**, an ordinary and available materi
 
 #### Other materials
 
-https://polyhedra.tessera.li/ by Nat Alison visualizes the entire family of polyhedra. Here is also a related [conference talk](https://www.youtube.com/watch?v=jhdJHBD9Fts) about her work.
+https://polyhedra.tessera.li/ by Nat Alison visualizes the entire family of polyhedra.
+
+See also a related [conference talk](https://www.youtube.com/watch?v=jhdJHBD9Fts) by her.
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
-</section>
-
 -
-
-<f-image src="./images/photo3.jpg" />
