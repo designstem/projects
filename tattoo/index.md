@@ -522,7 +522,7 @@ https://unsplash.com/photos/5MvqNDyizBo
 
 ---
 
-| section: Form & Style
+| section: Form follows function
 | padding: 0
 | style: overflow-x: hidden
 
@@ -565,7 +565,7 @@ If the tattoo is just decorative and doesn't have an additional function, you ca
 ---
 
 
-| section: Form & Style
+| section: Style or substance?
 | padding: 0
 | style: overflow-x: hidden
 
@@ -641,7 +641,7 @@ https://unsplash.com/photos/ECxsxbjAmMY
 
 ---
 
-| section: Interface design
+| section: Interface design task
 | 1 2 2
 
 ## Interface design: practical task
