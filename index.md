@@ -59,7 +59,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 -
 
-### Projects {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }} 
+## Educational projects {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }} 
 <f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
   v-slot="{ value: projects }"
@@ -114,11 +114,11 @@ We are educators, teachers, designers and engineers from 9 countries 🇬🇧 �
 
 <a id="contacts"><h3>Contacts</h3></a>
 
-**Project Manager**: Merit Karise, Kuressaare Regional Trainin Centre, design department merit.karise@ametikool.ee
+**Project Initiator and Manager:**: Merit Karise, Kuressaare Regional Trainin Centre, design department merit.karise@ametikool.ee
 
 **Head Pedagogical Consultant:** PhD Jaakko Turkka, University of Helsinki, LUMA Centre jaakko.turkka@helsinki.fi
 
-**Lead Developer:** Kristjan Jansen, Kuressaare Regional Training Centre, design department kristjan.jansen@gmail.com.
+**Production Manager and Lead Developer:** Kristjan Jansen, Kuressaare Regional Training Centre, design department kristjan.jansen@gmail.com.
 
 ---
 
