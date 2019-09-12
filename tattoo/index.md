@@ -612,19 +612,11 @@ To your right, you can find three sets of icons. Look at them more closely.
 
 ---
 
-
-
 | section: Interface design
 | padding: 0
-| style: overflow-x: hidden
+| 1 1 1 2 2
 
-<div style="
-  padding: var(--content-padding); 
-  background-color: var(--white);
-  border-radius: 0 0 1rem 0;
-  box-shadow: 0 0 10rem 10rem var(--white);
-">
-
+<section>
 
 ## Interface design
 
@@ -634,42 +626,46 @@ On a daily basis, you are confronted with interfaces, from digital devices to we
 
 For a smart tattoo, it is important to guarantee, that the user will understand how it works quickly. So again, it's not just about good looks.
 
-#### Task
-
-Summarize the following hints by finding one headline for each hint.
-Keep them in mind, when you later design your own smart tattoo.
-
-
-#### Hints:
-
-1. Before you start, always sketch a layout! Think of things you want to include. Come up with ideas on how to visualize them. Plan, before you design! Decide what is absolutely necessary and what unnecessary for your user. 
-2. Start your design in black and white only. This makes you focus on the relevant details and guides you to simplify your information. If you start with colors, this can get messy pretty quickly. Using black and white only, forces you to deal with proportions, depth of detail, order of elements etc.
-3. Leave some space around items. Always remember that your user needs to access information quickly. If pictures and texts that don't belong together are too close to one another, this might make it more difficult to read the interface. So be generous with white space!
-4. If you think about including fonts, keep it simple. Don't use decorative fonts or fonts with serifs. Keep it clean and open. Don't use fonts with small x-heights, because it is harder to read from a distance.
-5. If you include colors, use high contrasts and few colors. Stick to a small palette - this ensures that your user is not confronted with too much information at once. Choose higher contrasts for higher readability.
-
-If you want to learn more about color design and how to create color palettes, you can also see the workshop on Color Vision Deficiency:
-<a href="../colorblindness">Click here to get there!</a>
-
-<br>
-
-
-<f-next-button />
-
+</section>
 
 -
-
-
 
 <f-image src="./images/tattoo_uid.jpg" />
 
 
-<f-notes title="credits">
+<f-notes title="Credits">
 Photo by Kelly Sikkema on Unsplash,
 https://unsplash.com/photos/ECxsxbjAmMY
 </f-notes>
 
 
+---
+
+| section: Interface design
+| 1 2 2
+
+## Interface design: practical task
+
+Summarize the following steps by finding one headline for each hint. Keep them in mind, when you later design your own smart tattoo.
+
+<br>
+
+If you want to learn more about color design and how to create color palettes, you can also see the workshop on <a href="../colorblindness">Color Vision Deficiency</a>
+
+-
+
+1. Before you start, always sketch a layout! Think of things you want to include. Come up with ideas on how to visualize them. Plan, before you design! Decide what is absolutely necessary and what unnecessary for your user. 
+
+2. Start your design in black and white only. This makes you focus on the relevant details and guides you to simplify your information. If you start with colors, this can get messy pretty quickly. Using black and white only, forces you to deal with proportions, depth of detail, order of elements etc.
+
+3. Leave some space around items. Always remember that your user needs to access information quickly. If pictures and texts that don't belong together are too close to one another, this might make it more difficult to read the interface. So be generous with white space!
+
+4. If you think about including fonts, keep it simple. Don't use decorative fonts or fonts with serifs. Keep it clean and open. Don't use fonts with small x-heights, because it is harder to read from a distance.
+
+5. If you include colors, use high contrasts and few colors. Stick to a small palette - this ensures that your user is not confronted with too much information at once. Choose higher contrasts for higher readability.
+
+
+<f-next-button />
 
 
 ---
@@ -685,7 +681,9 @@ What meaning or function would your **smart tattoo** have? Would it be personal,
 
 Tattoos become <span style="filter: blur(1px)">**blurry**</span> over time and lose their sharpness. Think about how you should design icons for tattoos to reduce these effects?
 
+<!--
 > ~learn more about tattoo permanence~ <f-rightarrow-icon />
+-->
 
 -
 
@@ -755,14 +753,9 @@ https://www.needpix.com
 ---
 
 | section: Wrapping up
-| 1 1 2
-| padding: 0
-
-<f-image src="./images/model2.jpg" style="transform: scale(-1, 1); " />
-
--
-
-<section>
+| background: ./images/model2.jpg
+| tint: 0.6
+| theme: dark
 
 ## Wrapping up
 
@@ -778,4 +771,4 @@ For example, you can next learn about chemistry of inks by conducting experiment
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
-</section>
+-

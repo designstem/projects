@@ -31,7 +31,7 @@ https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
 
 ## How does this image makes you feel?
 
-We all know that we can’t keep on wasting resources and exhausting our planet.
+We all know that we can not keep on wasting natural resources and exhausting our planet.
 
 What could we do? Let's explore how to produce and consume without excess waste. 
 
@@ -67,7 +67,7 @@ Thomas Thwaites is a British designer who attempted to build a kitchen toaster f
 
 <p />
 
-Look at Thomas Twaites' TED talk and explain the core of what he’s saying.
+Look at TED talk given by Thomas Twaites and summarize his key message.
 
 -
 
@@ -85,7 +85,7 @@ Look at Thomas Twaites' TED talk and explain the core of what he’s saying.
 
 https://footprint.wwf.org.uk/
 
-What could you do to make your footprint less?<br>Write this down
+What could you do to reduce your footprint?<br>Write  down your thoughts.
 
 </center>
 
@@ -106,20 +106,12 @@ https://footprint.wwf.org.uk/
 
 -
 
-A lot of people are aware of their footprint and are taking action in order to make the world a better place to live.
+A lot of people are aware of their footprint and are taking action to make the world a better place to live.
 
-At age 16 (2011), Boyan Slat came across more plastic than fish while diving in Greece. He decided to devote a high school project for deeper investigation into ocean plastic pollution and why it was considered impossible to clean up.
+At age 16 (2011), Boyan Slat came across more plastic than fish when diving in Greece. He decided to devote a high school project to a deeper investigation into ocean plastic pollution and why it is considered impossible to clean up.
 
 He later came up with the idea to build a passive system, using the circulating ocean currents to his advantage, which he presented at a TEDx talk in Delft in 2012.
 
-<<<<<<< HEAD
-=======
-https://www.theoceancleanup.com/
-
-Have a look at his Ocean Cleanup foundation at the website.  
-In your opinion, what is most remarkable about this project?
-
->>>>>>> master
 -
 
 <f-video src="https://www.youtube.com/watch?v=ROW9F-c0kIQ" />
@@ -141,9 +133,9 @@ Have a look at his [Ocean Cleanup foundation website](https://www.theoceancleanu
 
 ## Look for initiatives
 
-1. Look for three initiatives that have found solutions for the waste problem.
+1. Look for three initiatives that have found solutions to a waste problem.
 
-2. Collect what you’ve found and, in class, discuss why you chose these initiatives.
+2. Discuss your findings with members of your group and explain to your class why you chose these three initiatives.
 
 </section>
 
@@ -165,9 +157,9 @@ Have a look at his [Ocean Cleanup foundation website](https://www.theoceancleanu
 
 -
 
-You probably found a lot of initiatives to make the world cleaner and they all have their own methodologies and concepts.
+You have probably found a lot of initiatives to reduce pollution and they all have their own methodologies and concepts.
 
-**Explain two concepts you have chosen how they contribute to make the world cleaner from waste.**
+**Explain how two concepts you have chosen would reduce pollution caused by waste.**
 
 -
 
@@ -198,13 +190,13 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 -
 
-**Watch the video and and answer the following questions.**
+**Watch the video and consider the following questions.**
 
-1. What is the difference between human and nature concerning waste?
+1. What is the difference between human and nature regarding waste?
 
-2. What is meant by linear economy?
+2. What is meant the term <var>linear economy</var>?
 
-3. Which solutions for our waste problem does this animation show us?
+3. What solutions to our waste problem does this animation come up with?
 
 -
 
@@ -227,7 +219,7 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 1. Go outside for 15 minutes and collect some waste. Divide the group into pairs and use rubber gloves.
 
-2. Make a nice composition for the flat-lay.
+2. Make an attractive composition for the flat-lay.
 
 3. Take photos
 
@@ -309,7 +301,7 @@ You probably found a lot of initiatives to make the world cleaner and they all h
 
 #### Bone Chair
 
-Due to innovative digital techniques we can create **customized, smart and more complex forms**. 
+Thanks to innovative digital techniques, we can create **customized, smart and more complex forms**. 
 Joris Laarman used topology optimization software based on the findings of professor Claus Mattheck to develop **a chair with a bone-like structure**.
 
 <details>
@@ -342,17 +334,17 @@ Photo courtesy of Joris Laarman Lab, downloaded from: https://www.cooperhewitt.o
 
 ## Chalk challenge
 
-1. Take a sidewalk chalk and weigh it.
+1. Take a piece of chalk and weigh it.
 
 2. Place it vertically and put a weight on it.
 
-3. Use a knife, rasp or file to take some material off. **Note:** the length of the chalk must stay the same.
+3. Use a knife, rasp or file to take some material off the piece of chalk. **Note:** the length of the chalk must stay the same.
 
-4. Try to leave just as much chalk as you need to keep a strong construction. Be careful that is does not break.
+4. Try to leave just as much chalk as you need to maintain a strong construction. Be careful that is does not break.
 
 5. If you think you have reached the optimum… Let’s put the weight back on.
 
-6. Did it break? If it doesn’t try to scrape off some more and test it again.
+6. Did it break? If it does not try to scrape off some more chalk and test it again.
 
 
 <p><a href="./files/chalk_challenge.pdf" class="tertiary">
@@ -369,13 +361,13 @@ Photo courtesy of Joris Laarman Lab, downloaded from: https://www.cooperhewitt.o
 
 <section>
 
-## Why mimic nature?
+## Why do we mimic nature?
 
-There’s a **duality** between nature and engineering, when it comes to lightweight constructions.
+There is a **duality** between nature and engineering, when it comes to lightweight constructions.
 
 * **Nature survives with a minimal use of energy**. As engineers we can learn from nature to reduce material, energy and thus costs.
 
-* **Nature has the ability to adapt** to its changing surroundings during its life time. For example, the skin of a <var>sea cucumber</var> is extremely flexible, but becomes very rigid in a blink of an eye when it’s threatened. As engineers we can learn from nature’s strategy to make more resilient structures.
+* **Nature has the ability to adapt** to its changing surroundings during its life time. For example, the skin of a <var>sea cucumber</var> is extremely flexible, but becomes very rigid in the blink of an eye when it is threatened. As engineers, we can learn from nature’s strategy to make more resilient structures.
 
 </section>
 
@@ -409,7 +401,7 @@ There’s a **duality** between nature and engineering, when it comes to lightwe
 
 Making constructions is not only a matter of choosing the right <var>material</var>.
 
-It’s the combination of <var>material</var>, <var>form</var> and <var>production process</var> process which makes the construction **light** and **strong**.
+It also involves the combining a <var>material</var>, <var>form</var> and <var>production process</var> to make construction **light** and **strong**.
 
 </section>
 
@@ -430,7 +422,7 @@ When designing an object an engineer investigates all its possible loads.
 
 ## Growth of trees and bones
 
-During their lifecycle both these natural structures make **optimal use of material** in dealing with stresses and loads.
+During their lifetime both these natural structures make **optimal use of material** to cope with stresses and loads.
 
 -
 
@@ -438,9 +430,9 @@ During their lifecycle both these natural structures make **optimal use of mater
 
 -
 
-#### Trees
+#### The ability of trees to adapt
 
-Trees **only add material where it is needed** by producing thicker tree rings at heavier loaded spots e.g. when a tree is constantly exposed to wind at one side, it grows thicker at the other side. 
+Trees **only add material where it is needed** by producing thicker tree rings at heavier loaded spots e.g. when a tree is constantly exposed to wind on one side, it grows thicker at the other side. 
 
 -
 
@@ -448,9 +440,9 @@ Trees **only add material where it is needed** by producing thicker tree rings a
 
 -
 
-#### Bones
+#### Bones ability to adapt
 
-Bones also produce extra material where needed, but they are also able to **eliminate material** in less loaded spots.
+Bones also produce extra material where needed. They are also able to **eliminate material** in less loaded spots.
 
 
 <f-notes title="Credits">
@@ -470,7 +462,7 @@ Image sources: https://pxhere.com/nl/photo/720601 https://en.wikipedia.org/wiki/
 
 ## Adaptive growth
 
-This growing and killing of material in response to mechanical forces is called **adaptive growth**.
+The growing and removal of material in response to mechanical forces is called **adaptive growth**.
  
 An everyday (visible) example of adaptive growth is the growth of callus on the soles of feet!
 
@@ -553,9 +545,9 @@ The following four hands-on exercises introduce some useful principles in the de
 
 -
 
-#### Palmtree leaves
+#### Palm trees
 
-Palm trees have very clever leaves. In nice weather the leaves spread out to catch the sunlight, but during storms they fold up. The folding makes the leaves compact and thus stronger and more resistant to these circumstances. 
+Palm trees have evolved leaves which can respond to different environmental conditions.  During favorable weather, the leaves spread out to absorb more sunlight during photosynthesis. During storms, the leaves fold up. The folding makes the more leaves compact,  stronger and more resistant to damage. 
 
 -
 
@@ -565,8 +557,8 @@ Palm trees have very clever leaves. In nice weather the leaves spread out to cat
 
 #### Sea shells
 
-Shells are designed with the purpose of carrying external loads efficiently.
-The folds help the thin layered shells to be resistant to predators and rough circumstances. 
+Shells have evolved to carry external loads efficiently.
+The folds help the thin-layered shells to resist predators and damage by wave action.
 
 -
 
@@ -591,7 +583,7 @@ https://pixnio.com/still-life/seashells-mollusk-still-life-object-decoration-mac
 
 ## Adding strenght
 
-So now we have looked at nature and we understand that through folding materials you can **add strength** to them.
+Now that we have looked at nature and appreciate how folding materials can **add strength** to them.
 
 By folding the edges of the metal top of the Pallas table Konstantin Grcic added strength to it.  
 
@@ -637,7 +629,7 @@ Which one do you think is the strongest?
 
 ## Put some weight on it
 
-See what happens when you place the papers **horizontally** or **vertically** on the table and put a weight on it. 
+See what happens when you place the papers **horizontally** or **vertically** on the table and put a weight on them. 
 
 -
 
@@ -738,7 +730,7 @@ Arch bridges are examples of <var>compressive structures</var>.
 
 <center>
 
-<big><var style="color: white">tension</var> and <var style="color: white">compression</var><br>can also be combined</big>
+<big><var style="color: white">tension</var> and <var style="color: white">compression</var><br>characteristics can also be combined</big>
 
 </center>
 
@@ -760,11 +752,11 @@ https://commons.wikimedia.org/wiki/File:GoldenGateBridge-001.jpg
 
 ## Rigging
 
-Ropes and cables are lightweight, flexible and strong, Perfect for carrying loads.
+Ropes and cables are lightweight, flexible and strong, They are perfect for carrying loads.
 
 A sailing ship can sail because of its <var>rigging</var>.
 
-This is another example of <var class="gray">tension</var> and <var class="gray">compression</var> combined.
+This is another example of <var class="gray">tension</var> and <var class="gray">compression</var> characteristics combined.
 
 </section>
 
@@ -958,7 +950,7 @@ There is two more deformation types to go, take your pick.
 
 A hexagon is a form we see everywhere in nature when energy optimization is needed. 
 
-We can see it in <var>honeycombs</var> or <var>radiolaria</var>.
+Hexagons occur in <var>honeycombss</var> and <var>radiolaria</var>.
 
 </section>
 
@@ -993,16 +985,16 @@ https://commons.wikimedia.org/wiki/File:Radiolaria_(Challenger)_Plate_135.jpg
 
 -
 
-Honeycombs can be found in a vast variety of structures. Especially it’s used as core infill for composite sandwiches used in aerospace structures or your everyday kitchen door. Honeycombs are hexagonal-shaped cells.
+Honeycombs are hexagonal-shaped cells. They are used as core infill for the the composite sandwiches used in aerospace structures or in kitchen doors.
 
-It’s lightweight and when it’s pressed into a mould, it adapt to its form. 
+Honeycombs are are lightweight and when it pressed into a mold, it adapts to its form. 
 
 Beeboard you’ll find in your everyday kitchen cabinet door.
 
 -
 
 > #### You will need
-* Two sheets of paper format A3, if you use thicker paper you probably need a ruler and a cutter to etch the lines first
+* Two sheets of A3 paper, if you use thicker paper you probably may a ruler and a cutter to etch the lines first
 * pencil
 * double-sided tape
 * cutter
@@ -1043,7 +1035,7 @@ Print out the PDF attachment in two copies (it is advised to use differently col
 
 #### 2.
 
-Fold your sheets as seen in the illustration above. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you’ll see the half of the honeycomb shape.
+Fold your sheets as shown in illustration above. The blue lines must be folded inwards. The red lines must be folded outwards. When done, you will see half of the honeycomb shape.
 
 ---
 
@@ -1066,7 +1058,7 @@ Fold your sheets as seen in the illustration above. The blue lines must be folde
 
 #### 3. 
 
-Tape the "hills" with double-sided tape. Then put the other sheet on top of it, so you’ll have long honeycomb shape cylinders.
+Tape the "hills" with double-sided tape. Then place the other sheet on top of it, so you have long honeycomb- shaped cylinders.
 
 -
 
@@ -1076,7 +1068,7 @@ Tape the "hills" with double-sided tape. Then put the other sheet on top of it, 
 
 #### 4. 
 
-Cut the taped sheets into shorter parts. Tape those shorter part on top of each other. 
+Cut the taped sheets into shorter parts. Tape these shorter parts on top of each other. 
 
 ---
 
@@ -1088,7 +1080,7 @@ Cut the taped sheets into shorter parts. Tape those shorter part on top of each 
 
 #### 5. 
 
-Stretch the parts, so the<br>honeycomb beeboard will appear.
+Stretch the parts, so the<br>honeycomb beeboard becomes visible.
 
 </center>
 
@@ -1224,7 +1216,7 @@ The algorithm how Voronoi diagram is drawn is [explained here](https://observabl
 
 Let's explore how a regular or irregular set of spheres behave when combined together.
 
-The physicist Lord Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> can be the structure that the nature creates. The structure was later improved by physicists Weaire and Phelan.
+The physicist Lord Kelvin proposed that a 14-faced polyhedron or <var>tetrakaidecahedron</var> is similar to the structures the nature creates. The structure was later improved by physicists Weaire and Phelan.
 
 [See more](https://www.designcoding.net/weaire-phelan-structure/)
 
@@ -1273,9 +1265,9 @@ The Beijing National Aquatics Center built for the 2008 Olympics is one of the b
 
 ## Back to the bone
 
-When you cut a thigh bone you’ll see a foam structure that is optimally formed by the forces it has to carry. So, bone is strong and light. 
+When you cut a through a thigh bone you’ll see a foam structure that is optimally formed by the forces it has to carry. So, bone is strong and light. 
 
-And: like foam bone could eliminate material by adapting to the change of the environment, but of course not at the same speed soap bubbles do! 
+Like foam, bone could eliminate material by adapting to the changes in the environment, but of course not at the same speed soap bubbles do! 
 
 </section>
 
@@ -1329,7 +1321,7 @@ We are almost done with the optimization types, there is just one more to go. He
 
 The <var>deformation</var> (and even <var>failure</var>) of existing materials and structures under load can be very instructive for the designing and building of new ones.
 
-First of all, deformation teaches us about fundamental loads and stresses.
+First of all, deformation teaches us about the fundamental of loads and stresses.
 
 Prof. Dr. Claus Mattheck uses rubber plates and sheets of aluminum foil to help you visualize loads and stresses in structures.
 
@@ -1524,7 +1516,7 @@ https://commons.wikimedia.org/wiki/File:Sponge-viscose.jpg
 
 #### The challenge
 
-You have practiced with different ways and techniques to optimize strength and adaptability in your construction when designing a new product.
+You have practised with different methods and techniques to optimize strength and adaptability in your construction when designing a new product.
 
 **Design a usable object using one or more of the optimization techniques** (optimization with folds, optimization with sticks and strings, optimization with cells, optimization by deformation).
 
@@ -1538,9 +1530,9 @@ You have practiced with different ways and techniques to optimize strength and a
 
 3. Make at least three 2D sketches. 
 
-4. Choose one of or combine your 2D sketches and make a 3D sketch model of it.
+4. Choose one of or combine your 2D sketches, or a combination of them, and make a 3D sketch model of it.
 
-5. Evaluate your model, add or adjust where needed.  
+5. Evaluate your model: add or adjust where needed.  
 
 6. Make your final object.
 
@@ -1624,7 +1616,7 @@ The soft pile of fabrics is heat pressed, melting the **flax** and **PLA** (a bi
 
 In the past 20 years designers, artists and makers are looking more and more for **sustainable alternatives**. Ecology and design became an integrated practice.
 
-As an answer to the throw-away society they choose for a **circular approach**. Their ideal is that disposable products are fully degradable or be a raw material for something new. Making degradable objects could be done with biobased material.
+As an answer to the throw-away society they choose a **circular approach**. Their ideal is that disposable products are fully degradable or are the raw material for something new. Making degradable objects could be done with biobased material.
 
 -
 
@@ -1632,7 +1624,7 @@ As an answer to the throw-away society they choose for a **circular approach**. 
 
 With this circular approach designers, architects, makers, scientists and craftsmen all participate in the **experimentation with materials** and are forced to work together interdisciplinary.
 
-Their inventiveness and creativity comes possible from this opportunity of **working with hands, new techniques** and by **working interdisciplinary**.
+Their inventiveness and creativity made possible as a result of this opportunity of **working with hands, new techniques** and by **working interdisciplinary**.
 
 ---
 
@@ -1643,9 +1635,9 @@ Their inventiveness and creativity comes possible from this opportunity of **wor
 
 ## From disgust to desire
 
-By 2050 when the population exceed nine billion, feces, hair and dust are among the few natural resources which are actually increasing.
+By 2050 when the world population is predicted to   exceed nine billion, feces, hair and dust are among the few natural resources which will actually increase.
 
-Dung is a low value natural material, and you could make functional products of it.
+Feces are a low value natural material and could be used to make functional products.
 
 -
 
@@ -1698,7 +1690,7 @@ https://alternativecommunication.wordpress.com/2013/09/04/exhibition-alive-at-th
 
 #### Mycelium
 
-<var>mycelium</var> is a dense network of fungal threads of which mushroom sprout and of which one could make a variety of products.
+<var>mycelium</var> is a dense network of fungal threads. Mushrooms are made up of these threads and they could be used to make a variety of products.
 
 -
 
@@ -1723,9 +1715,9 @@ Susan Lee, textile designer, and David Hepworth, scientist, are pioneers of prod
 
 We talked about three examples of bio-based material. Now research your own.
 
-1. Per person find one other bio-based material and fill in the A5 Format you find below. (You can use this in Indesign or Photoshop)
+1. Per person find one other bio-based material and fill in the A5 format given below. (You can use this in Indesign or Photoshop)
 
-2. Safe it as a PDF file and optionally print it on thick paper and cut to A5 size. 
+2. Save it as a PDF file and optionally print it on thick paper and cut to A5 size. 
 
 3. Combine all the cards to make your class library of bio-based materials. 
 
@@ -1752,7 +1744,7 @@ She made optimal use of the material using the full sheet of cloth to make a cha
 
 The principle behind this is using <var>shape</var> and <var>countershape</var>. 
 
-The principle of shape and countershape is used across all art and design disciplines: **graphic design**, **art**, **product design** etc. 
+The principle of shape and countershape is used across all art and design disciplines, including **graphic design**, **art**, **product design** etc. 
 
 Let’s look at some examples.
 
@@ -1839,7 +1831,7 @@ http://www.co-oproduct.org/rethink/design-cat/zero-waste-design/details/14/59-ze
 
 ## Mobilier puzzle
 
-Another example in product design is the Mobilier puzzle of Jean-Pierre Levasseur.  It uses both shape and countershape to get a complete dollhouse interior out of one sheet of pre-cut plywood.
+Another example in product design is the Mobilier puzzle of Jean-Pierre Levasseur.  It uses both shape and countershape to make a complete dollhouse interior out of one sheet of pre-cut plywood.
 
 -
 
@@ -1859,7 +1851,7 @@ Another example in product design is the Mobilier puzzle of Jean-Pierre Levasseu
 
 2. Find at least three images of examples within your discipline in which the technique of shape and countershape is being used. <br><small><f-clock-icon duration="10" /> 10 minutes</small>
 
-3. Design a 2D or 3D design using the shape and countershape technique. Make a small prototype/sketch within.<br><small><f-clock-icon duration="30" /> 30 minutes</small>
+3. Design a 2D or 3D design using the shape and countershape technique. Make a small prototype/sketch.<br><small><f-clock-icon duration="30" /> 30 minutes</small>
 
 -
 
@@ -1930,7 +1922,7 @@ Studio Stallinga, www.stallinga.nl
 
 Another option for optimizing your material use and minimizing waste is **using a combination of cuts and folds**.
 
-A perfect example is the **Pop-up Lamp** by the French studio Well Well Designers is. It’s constructed from one sheet of paper with a special coating.
+A perfect example is the **Pop-up Lamp** by the French studio Well Well Designers. It is constructed from one sheet of paper with a special coating.
 
 </section>
 
@@ -2048,7 +2040,7 @@ Try to make a chair out of paper using the cut and fold technique in the templat
 
 -
 
-You have practiced with different ways and techniques to minimize waste when designing a new product. 
+You have practised different methods and techniques to minimize waste when designing a new product. 
 
 Design a usable object using one of the techniques (shape and countershape folding, cut and fold). 
 
@@ -2060,11 +2052,11 @@ Do this by following the steps on the next slide.
 
 1. Choose your material and look at the dimensions of the material. 
 
-2. Make at least three 2D sketches. Keep in mind that you cannot have waste material. For example if you use a sheet of hardboard take the standard size to work with. (You can also make your design in such a way that you can make multiple out of one sheet.)
+2. Make at least three 2D sketches. Keep in mind that you cannot have waste material. For example if you use a sheet of hardboard take the standard size to work with. (You can also make your design in such a way that you can make several out of one sheet.)
 
-3. Choose one of or combine your 2D sketches and make a 3D sketch model of it. 
+3. Choose one of your 2D sketches, or a combination of them, and make a 3D sketch model of it.
 
-4. Evaluate your model, add or adjust where needed.  
+4. Evaluate your model: add or adjust where needed.  
 
 5. Make your final object.
 
