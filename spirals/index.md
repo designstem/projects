@@ -44,33 +44,34 @@ Spiral patterns can be also met in parts of **mechanical constructions**: turbin
 Finally spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time. -->
 
 
-<div class="grid masonry" style="--cols: 1fr 1fr 1fr 1fr; grid-template-rows:repeat( 1fr) ; --gap:0;">
+<div class="grid masonry" style="--cols: 1fr 1fr 1fr; grid-template-rows:repeat( 1fr) ; --gap:0;">
 
-  <div style="padding:var(--base3); grid-column:1 / span 2">
+  <!-- <div style="padding:var(--base3); grid-column:1 / span 2"> -->
+  <div style="padding:4vmin;">
     
-  ## Discovering spirals
+  ## Dis&shy;cove&shy;ring spirals
   
   Spiral is a very common shape in nature and in as well as every day life. 
 
   </div>
 
-  <f-image src="./images/nature-1.jpg" />
-  <f-image src="./images/nature-2.jpg" />
-  <f-image src="./images/nature-3.jpg"  />
-  <f-image src="./images/nature-4.jpg" />
 
-  <div style="padding:var(--base3)">
+  <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
   In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
   
   </div>
 
+  <f-image src="./images/nature-1.jpg" style="grid-row:span 2" />
+  <f-image src="./images/nature-2.jpg" />
+  <f-image src="./images/nature-3.jpg"  />
+  <f-image src="./images/nature-4.jpg" />
+  <f-image src="./images/nature-6.jpg" style="grid-column:span 2"  />
   <f-image src="./images/nature-5.jpg" />
-  <f-image src="./images/nature-6.jpg" />
   <f-image src="./images/nature-7.jpg" />
   <f-image src="./images/nature-9.jpg" />
 
-  <div style="padding:var(--base3)">
+  <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
   Spiral patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs etc.
   
@@ -78,14 +79,12 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
   <f-image src="./images/tech-1.jpg" />
   <f-image src="./images/tech-2.jpg" />
-  <f-image src="./images/tech-3.jpg" />
-  <f-image src="./images/tech-4.jpg" />
+  <f-image src="./images/tech-3.jpg" style="grid-row:span 2"  />
+  <f-image src="./images/tech-4.jpg" style="grid-column:span 2"  />
   <f-image src="./images/tech-5.jpg" />
   <f-image src="./images/tech-6.jpg" />
-  <f-image src="./images/tech-7.jpg" />
-  <f-image src="./images/tech-8.jpg" />
 
-  <div style="padding:var(--base3)">
+  <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
   **Architects** also use the spirals to shape buildings and components like stairs.
   
@@ -94,23 +93,25 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
   <f-image src="./images/architecture-1.jpg" />
   <f-image src="./images/architecture-2.jpg" />
   <f-image src="./images/architecture-9.jpg" />
-  <f-image src="./images/architecture-4.jpg" />
+  <f-image src="./images/architecture-4.jpg" style="grid-row:span 2"  />
   <f-image src="./images/architecture-5.jpg" />
   <f-image src="./images/architecture-6.jpg" />
   <f-image src="./images/architecture-8.jpg" />
-  <f-image src="./images/architecture-7.jpg" style="grid-column:1 / span 2" />
+  <f-image src="./images/architecture-7.jpg" style="grid-column:span 3" />
 
-  <div style="padding:var(--base3)">
+  <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
   Spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time.
   
   </div>
 
   <f-image src="./images/art-3.jpg" />
-  <f-image src="./images/art-4.jpg" />
+  <f-image src="./images/art-4.jpg" style="grid-row:span 2" />
   <f-image src="./images/art-5.jpg" />
   <f-image src="./images/art-6.jpg" />
   <f-image src="./images/art-7.jpg" />
+  <f-image src="./images/tech-7.jpg" />
+  <f-image src="./images/tech-8.jpg" />
 </div>
 
 ---
@@ -130,7 +131,7 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
 ## Spirals in nature
 
-Watch the following videos about the spirals and try answer the questions in the following [worksheet](https://spiralsdesignstem.files.wordpress.com/2018/07/worksheet-1-1.docx)
+Watch the following videos about the spirals and try answer the questions in the following <a href="./files/worksheet-1-1.pdf" target="_blank">worksheet</a>
 
 -
 
@@ -690,7 +691,7 @@ Lets simulate this:
   <f-circle r="1.5" strokeWidth="1" :stroke="color('blue')" />
   <f-group rotation="90">
     <!-- <f-line :points="[[0,0], polarxy(get('circleProgress'),1.5) ]" /> -->
-    <f-arc r="1.5" inner-radius="0" :stroke="color('red')" start-angle="0" :end-angle="get('circleProgress', 0)" stroke-width="4" />
+    <f-arc r="1.5" inner-radius="0" :stroke="color('red')" start-angle="0" :end-angle="get('circleProgress', 0)" stroke-width="2" />
     <f-circle r="0.1" :stroke="color('red')" :position="polarxy( get('circleProgress', 0), 1.5)"  />
   </f-group>
   <f-text :position="polarxy( get('circleProgress', 0)+90, 1.75)">r</f-text>
