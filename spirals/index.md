@@ -62,8 +62,8 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
   
   </div>
 
-  <f-image src="./images/nature-1.jpg" style="grid-row:span 2" />
-  <f-image src="./images/nature-2.jpg" />
+  <f-image src="./images/nature-2.jpg" style="grid-row:span 2" />
+  <f-image src="./images/nature-1.jpg"  />
   <f-image src="./images/nature-3.jpg"  />
   <f-image src="./images/nature-4.jpg" />
   <f-image src="./images/nature-6.jpg" style="grid-column:span 2"  />
@@ -131,7 +131,7 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
 ## Spirals in nature
 
-Watch the following videos about the spirals and try answer the questions in the following <a href="./files/worksheet-1-1.pdf" target="_blank">worksheet</a>
+Watch the following videos about the spirals and try answer the questions in the following <a href="./files/worksheet-1-1.pdf" target="_blank">worksheet</a> (pdf)
 
 -
 
@@ -513,6 +513,36 @@ Any point in the plane can be defined by its coordinates (**X**, **Y**). (X, Y) 
 
 -
 
+<f-scene responsive v-slot="{ mouse }">
+  <f-group position="0 0" scale="0.8">
+    <f-arc start-angle="0" :end-angle="angleBetweenPoints(0, 0, mouse.x, mouse.y)" rotation="90" :r="distanceBetweenPoints(0, 0, mouse.x, mouse.y)-distanceBetweenPoints(0, 0, mouse.x, mouse.y)*0.3" inner-radius="0" stroke :fill="color('lightyellow')" />
+    <f-grid />
+    <f-text v-for="(tx,i) in range(-2, 2, 0.5)" :position="[tx, -2.1]" scale="0.4">{{tx.toFixed(1)}}</f-text>
+    <f-text v-for="(ty,i) in range(-2, 2, 0.5)" :position="[-2.15, ty-0.025]" scale="0.4" text-anchor="right">{{ty.toFixed(1)}}</f-text>
+    <f-line :points="[[mouse.x, 0], [mouse.x, mouse.y]]" strokeWidth="2" :stroke="color('red')" />
+    <f-line :points="[[0, mouse.y], [mouse.x, mouse.y]]" strokeWidth="2" :stroke="color('red')" />
+    <f-line :points="[[0,0], polarxy(angleBetweenPoints(0, 0, mouse.x, mouse.y)+90, distanceBetweenPoints(0, 0, mouse.x, mouse.y)) ]" strokeWidth="2" :stroke="color('blue')" />
+    <f-circle
+  	  :x="mouse.x"
+      :y="mouse.y"
+      :r="mouse.pressed ? 0.05 : 0.075"
+    />
+    <f-text :position="polarxy(angleBetweenPoints(0, 0, mouse.x, mouse.y)+90, distanceBetweenPoints(0, 0, mouse.x, mouse.y)+0.5)" scale="0.7" :fill="color('red')">x:{{mouse.x.toFixed(2)}},y:{{mouse.y.toFixed(2)}}</f-text>
+  </f-group>
+</f-scene>
+
+<f-scene responsive >
+  <!-- <f-grid step="0.25" position="-0.5 0.5" /> -->
+  <f-group position="0 0" scale="0.8">
+    <f-line v-for="(v,i) in range(-2, 2, 0.5)" :points="[[v, -2],[v, 2]]" :strokeWidth="i==4 ?0.75 : 0.25" :stroke="color('gray')" />
+    <f-line v-for="(h,i) in range(-2, 2, 0.5)" :points="[[-2, h],[2, h]]" :strokeWidth="i==4 ?0.75 : 0.25" :stroke="color('gray')" />
+    <f-text v-for="(tx,i) in range(-2, 2, 0.5)" :position="[tx, -2.1]" scale="0.4">{{2*tx.toFixed(1)}}</f-text>
+    <f-text v-for="(ty,i) in range(-2, 2, 0.5)" :position="[-2.1, ty-0.025]" scale="0.4" text-anchor="right">{{2*ty.toFixed(1)}}</f-text>
+    <f-line points="0 0, 2 1" strokeWidth="1" :stroke="color('red')" />
+    <f-circle r="0.075" position="1 0.5" stroke :fill="color('red')"  />
+  </f-group>
+</f-scene>
+
 <f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg" style="--image-size:contain; --image-height:30vh;" />
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg) -->
@@ -584,19 +614,19 @@ Indeed
     </defs>
     <polyline points="0,-1.9 0,1.9" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
     <polyline points="-1.9,0 1.9,0" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
-    <f-circle r="1.5" strokeWidth="2" :stroke="color('gray')" />
+    <f-circle r="1.5" strokeWidth="1" :stroke="color('gray')" />
     <f-polygon :points="[ [0,0], polarxy(90,0.75), polarxy(150, 1.5) ]" :fill="color('yellow')" stroke opacity="0.6" />
     <f-line points="0 0, 0 1.31" :stroke="color('green')" />
-    <f-polygon :points="[ [0,0], polarxy(90,0.75), polarxy(150, 1.5) ]" strokeWidth="2" />
+    <f-polygon :points="[ [0,0], polarxy(90,0.75), polarxy(150, 1.5) ]" strokeWidth="1" />
+    <f-box r="0.1" position="0.7 0.05" strokeWidth="1" />
     <f-line points="0 0, 0.75 0" :stroke="color('blue')" />
     <f-line :points="[[0,0],polarxy(150, 1.5)]" :stroke="color('red')" />
     <f-arc position="0 0" start-angle="90" end-angle="150" r="0.45" inner-radius="0.45" stroke-width="1" />
-    <f-box r="0.1" position="0.7 0.05" strokeWidth="1" />
-    <f-text :position="polarxy(140,1.9)">A(x:3,y:4)</f-text>
+    <f-text :position="polarxy(140,1.9)" scale="0.75">A(x:3,y:4)</f-text>
     <f-text position="-0.1 0.6" :fill="color('green')" rotation="90" scale="0.75">r⋅sin(θ)</f-text>
     <f-text position="0.4 -0.25" :fill="color('blue')" scale="0.75">r⋅cos(θ)</f-text>
     <f-text :position="polarxy(155, 0.75)" :fill="color('red')" scale="0.75">r</f-text>
-    <f-text position="0.22 0.05" >θ</f-text>
+    <f-text position="0.22 0.07" scale="0.75">θ</f-text>
     <f-text position="1.9 0.1" scale="0.75">x</f-text>
     <f-text position="0.15 1.85" scale="0.75">y</f-text>
     
