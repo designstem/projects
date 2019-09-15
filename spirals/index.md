@@ -499,7 +499,12 @@ Moreover,
 | 1 1
 | 2 3
 | 4 5
-| 6 6
+| 6 7
+| 8 7
+
+<f-value set="activePoint" :value="[ 1.5, 1 ]" />
+<f-value set="polarAngle" :value="angleBetweenPoints( 0, 0, 1.5, 1 )" />
+<f-value set="polarDistance" :value="distanceBetweenPoints( 0, 0, 1.5, 1 )" />
 
 <caption>Basics of trigonometry and polar coordinates</caption>
 
@@ -509,63 +514,156 @@ Moreover,
 
 ### Cartesian coordinates
 
-Any point in the plane can be defined by its coordinates (**X**, **Y**). (X, Y) is a pair of numbers denoting the distances from two perpendicular lines: the vertical line (-axis) and the horizontal line (-axis). For example, in the next figure the point A is defined as a pair (3,4), where X=3 and Y=4. These are called Cartesian coordinates.
+Any point in the plane can be defined by its coordinates <var>X</var> and <var>Y</var> – a pair of numbers denoting the distances from two perpendicular lines: the horizontal line <var>(x-axis)</var> and the vertical line <var>(y-axis)</var>. For example, in the next figure the coordinates of the point can be defined as a pair of numbers, where <var>X={{parseFloat(get('activePoint', [])[0]).toFixed(2)}}</var> and <var>Y={{parseFloat(get('activePoint', [])[1]).toFixed(2)}}</var>. These are called <var>Cartesian coordinates</var> of a point.
+
+<f-table :rows="[
+  {
+  	X: parseFloat(get('activePoint',[])[0]).toFixed(3),
+    Y: parseFloat(get('activePoint',[])[1]).toFixed(3),
+  },
+]" />
 
 -
 
-<f-scene responsive v-slot="{ mouse }">
-  <f-group position="0 0" scale="0.8">
-    <f-arc start-angle="0" :end-angle="angleBetweenPoints(0, 0, mouse.x, mouse.y)" rotation="90" :r="distanceBetweenPoints(0, 0, mouse.x, mouse.y)-distanceBetweenPoints(0, 0, mouse.x, mouse.y)*0.3" inner-radius="0" stroke :fill="color('lightyellow')" />
+<f-scene responsive v-slot="{ mouse }" style="max-width:600px;">
+  <f-group position="0 0" scale="1" 
+  v-on:click.native="set('activePoint', [mouse.x, mouse.y]);set('polarAngle', angleBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1])); set('polarDistance', distanceBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1]));">
+    <f-box r="6" fill="white" />
     <f-grid />
-    <f-text v-for="(tx,i) in range(-2, 2, 0.5)" :position="[tx, -2.1]" scale="0.4">{{tx.toFixed(1)}}</f-text>
-    <f-text v-for="(ty,i) in range(-2, 2, 0.5)" :position="[-2.15, ty-0.025]" scale="0.4" text-anchor="right">{{ty.toFixed(1)}}</f-text>
-    <f-line :points="[[mouse.x, 0], [mouse.x, mouse.y]]" strokeWidth="2" :stroke="color('red')" />
-    <f-line :points="[[0, mouse.y], [mouse.x, mouse.y]]" strokeWidth="2" :stroke="color('red')" />
-    <f-line :points="[[0,0], polarxy(angleBetweenPoints(0, 0, mouse.x, mouse.y)+90, distanceBetweenPoints(0, 0, mouse.x, mouse.y)) ]" strokeWidth="2" :stroke="color('blue')" />
+    <f-text v-for="(tx,i) in range(-1.5, 1.5, 0.5)" :position="[tx, -1.95]" scale="0.4">{{tx.toFixed(1)}}</f-text>
+    <f-text v-for="(ty,i) in range(-1.5, 1.5, 0.5)" :position="[-1.85, ty-0.025]" scale="0.4" text-anchor="left">{{ty.toFixed(1)}}</f-text>
+    <f-line :points="[[get( 'activePoint', [])[0], 0], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
+    <f-line :points="[[0, get('activePoint', [])[1]], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
+    <f-circle
+  	  :x="get( 'activePoint', [])[0]"
+      :y="get('activePoint', [])[1]"
+      :r="0.075"
+      :fill="color('darkgray')"
+      stroke
+    />
     <f-circle
   	  :x="mouse.x"
       :y="mouse.y"
-      :r="mouse.pressed ? 0.05 : 0.075"
+      :r="mouse.pressed ? 0.05 : 0.035"
+      :fill="color('darkgray')"
+      stroke
     />
-    <f-text :position="polarxy(angleBetweenPoints(0, 0, mouse.x, mouse.y)+90, distanceBetweenPoints(0, 0, mouse.x, mouse.y)+0.5)" scale="0.7" :fill="color('red')">x:{{mouse.x.toFixed(2)}},y:{{mouse.y.toFixed(2)}}</f-text>
+    <f-text :position="[get('activePoint',[])[0]/2, get('activePoint',[])[1]+0.075 ]" scale="0.75" :fill="color('red')">x</f-text>
+    <f-text :position="[get('activePoint',[])[0]+0.1, get('activePoint',[])[1]/2 ]" scale="0.75" :fill="color('red')">y</f-text>
   </f-group>
 </f-scene>
 
-<f-scene responsive >
-  <!-- <f-grid step="0.25" position="-0.5 0.5" /> -->
-  <f-group position="0 0" scale="0.8">
-    <f-line v-for="(v,i) in range(-2, 2, 0.5)" :points="[[v, -2],[v, 2]]" :strokeWidth="i==4 ?0.75 : 0.25" :stroke="color('gray')" />
-    <f-line v-for="(h,i) in range(-2, 2, 0.5)" :points="[[-2, h],[2, h]]" :strokeWidth="i==4 ?0.75 : 0.25" :stroke="color('gray')" />
-    <f-text v-for="(tx,i) in range(-2, 2, 0.5)" :position="[tx, -2.1]" scale="0.4">{{2*tx.toFixed(1)}}</f-text>
-    <f-text v-for="(ty,i) in range(-2, 2, 0.5)" :position="[-2.1, ty-0.025]" scale="0.4" text-anchor="right">{{2*ty.toFixed(1)}}</f-text>
-    <f-line points="0 0, 2 1" strokeWidth="1" :stroke="color('red')" />
-    <f-circle r="0.075" position="1 0.5" stroke :fill="color('red')"  />
-  </f-group>
-</f-scene>
-
-<f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg" style="--image-size:contain; --image-height:30vh;" />
-
-<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg) -->
+<!-- <f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg" style="--image-size:contain; --image-height:30vh;" /> -->
 
 -
 
 ### Polar coordinates
 
-However, in many cases such that of drawing a spiral, a different expression is needed. One may notice that instead of using (x, y) as the coordinates of point A, the **distance from the zero point r and the angle θ** may equivalently be used. This means that the position of any point in the plane can be described by the pair (r, θ). These are called **Polar coordinates of the point A**.
+However, in many cases such that of drawing a spiral, a different expression is needed. One may notice that instead of using (x, y) as the coordinates of point, the **distance from the zero point <var>r</var> and the angle <var>θ</var>** may equivalently be used. This means that the position of any point in the plane can be described by the pair (r, θ). These are called <var>Polar coordinates</var> of a point.
+
+<f-table :rows="[
+  {
+  	θ: parseFloat(get('polarAngle')).toFixed(3) + '°',
+    r: parseFloat(get('polarDistance')).toFixed(3)
+  }
+]" />
+
+-
+
+<f-scene responsive v-slot="{ mouse }" style="max-width:600px;">
+  <f-group position="0 0" scale="1" 
+  v-on:click.native="set('activePoint', [mouse.x, mouse.y]);set('polarAngle', angleBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1])); set('polarDistance', distanceBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1]));">
+    <f-box r="6" fill="white" />
+    <f-circle :stroke="color('gray')" stroke-width="0.5" :r="get('polarDistance')"  />
+    <f-arc start-angle="0" :end-angle="get('polarAngle',0)" rotation="90" :r="get('polarDistance')-get('polarDistance')*0.4" inner-radius="0" :stroke="color('blue')" stroke-width="1" :fill="color('lightyellow')" opacity="0.5" />
+    <f-grid />
+    <!-- <f-text v-for="(tx,i) in range(-1.5, 1.5, 0.5)" :position="[tx, -1.95]" scale="0.4">{{tx.toFixed(1)}}</f-text>
+    <f-text v-for="(ty,i) in range(-1.5, 1.5, 0.5)" :position="[-1.85, ty-0.025]" scale="0.4" text-anchor="left">{{ty.toFixed(1)}}</f-text> -->
+    <f-text v-for="tr in range(0, 360, 90)" :position="polarxy(tr, 1.9)" scale="0.4" text-anchor="left">{{(-90+tr).toFixed(0)}}°</f-text> -->
+    <f-line :points="[[0,0], polarxy(get('polarAngle')+(90), get('polarDistance')) ]" strokeWidth="2" :stroke="color('blue')" />
+    <f-circle
+  	  :x="get( 'activePoint', [])[0]"
+      :y="get('activePoint', [])[1]"
+      :r="0.075"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-circle
+  	  :x="mouse.x"
+      :y="mouse.y"
+      :r="mouse.pressed ? 0.05 : 0.035"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-text :position="polarxy(get('polarAngle')+( get('polarAngle') > -90 && get('polarAngle') < 90 ? 100 : 80), get('polarDistance')*0.5)" scale="0.75" :fill="color('blue')" style="mix-blend-mode:multiply;">r</f-text>
+    <f-text :position="polarxy((get('polarAngle')*0.5)+90, 0.15)" scale="0.75" :fill="color('blue')" style="mix-blend-mode:multiply;">θ</f-text>
+  </f-group>
+</f-scene>
+
+-
+
+### Cartesian and Polar coordinates
 
 > Cartesian and Polar coordinates are equivalent and can be converted from one type to another.
 
+<f-table :rows="[
+  {
+  	Cartesian: 'X: ' + parseFloat(get('activePoint',[])[0]).toFixed(3),
+    Polar: 'θ: ' + parseFloat(get('polarAngle')).toFixed(3) + '°'
+  },
+  {
+  	Cartesian: 'Y: ' + parseFloat(get('activePoint',[])[1]).toFixed(3),
+    Polar: 'r: ' + parseFloat(get('polarDistance')).toFixed(3)
+  }
+]" />
+
 -
 
-<f-image src="./images/polar-coordinates.png" style="--image-size:contain; --image-height:30vh; --image-position:center;" />
-
-<!-- ![](./images/polar-coordinates.png) -->
+<f-scene responsive v-slot="{ mouse }" style="max-width:600px;">
+  <f-group position="0 0" scale="1" v-on:click.native="set('activePoint', [mouse.x, mouse.y]);set('polarAngle', angleBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1])); set('polarDistance', distanceBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1]));">
+    <f-box r="6" fill="white" />
+    <f-circle :stroke="color('gray')" stroke-width="0.5" :r="get('polarDistance')"  />
+    <f-arc start-angle="0" :end-angle="get('polarAngle',0)" rotation="90" :r="get('polarDistance')-get('polarDistance')*0.4" inner-radius="0" :stroke="color('blue')" stroke-width="1" :fill="color('lightyellow')" opacity="0.5" />
+    <f-grid />
+    <f-text v-for="(tx,i) in range(-1.5, 1.5, 0.5)" :position="[tx, -1.95]" scale="0.4">{{tx.toFixed(1)}}</f-text>
+    <f-text v-for="(ty,i) in range(-1.5, 1.5, 0.5)" :position="[-1.85, ty-0.025]" scale="0.4" text-anchor="left">{{ty.toFixed(1)}}</f-text>
+    <f-text position="1.92 0.02" scale="0.4" text-anchor="right">0°</f-text>
+    <f-line :points="[[get( 'activePoint', [])[0], 0], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
+    <f-line :points="[[0, get('activePoint', [])[1]], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
+    <f-line :points="[[0,0], polarxy(get('polarAngle')+(90), get('polarDistance')) ]" strokeWidth="2" :stroke="color('blue')" />
+    <f-circle
+  	  :x="get( 'activePoint', [])[0]"
+      :y="get('activePoint', [])[1]"
+      :r="0.075"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-circle
+  	  :x="mouse.x"
+      :y="mouse.y"
+      :r="mouse.pressed ? 0.05 : 0.035"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-text :position="[get('activePoint',[])[0]/2, get('activePoint',[])[1]+0.075 ]" scale="0.75" :fill="color('red')">x</f-text>
+    <f-text :position="[get('activePoint',[])[0]+0.1, get('activePoint',[])[1]/2 ]" scale="0.75" :fill="color('red')">y</f-text>
+    <f-text :position="polarxy(get('polarAngle')+( get('polarAngle') > -90 && get('polarAngle') < 90 ? 100 : 80), get('polarDistance')*0.5)" scale="0.75" :fill="color('blue')" style="mix-blend-mode:multiply;">r</f-text>
+    <f-text :position="polarxy((get('polarAngle')*0.5)+90, 0.15)" scale="0.75" :fill="color('blue')" style="mix-blend-mode:multiply;">θ</f-text>
+  </f-group>
+</f-scene>
 
 -
 
-
+<f-next-button />
 
 ---
+
+
+
+
+
+
+
 
 
 
@@ -1315,7 +1413,7 @@ The level of each stair is presented by the red line and the green diagonal line
 
 -
 
-
+<f-next-button />
 
 ---
 
