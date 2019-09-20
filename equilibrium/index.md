@@ -1,5 +1,5 @@
 | section: Start
-| background: https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Christo_Floating_Piers_6497.jpg/2560px-Christo_Floating_Piers_6497.jpg
+| background: ./images/cover.jpg
 | tint: 0
 | rows: 1fr auto
 | 1 1 1 1 3

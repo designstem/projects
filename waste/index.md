@@ -1,8 +1,9 @@
 | chapter: Introduction
 | section: Start
 | theme: dark
-| background: https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg
+| background: ./images/cover.jpg
 | tint: 0.6
+| style: background-position: center;
 
 <center><div>
 
