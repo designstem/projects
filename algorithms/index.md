@@ -1,6 +1,6 @@
-| background: ./images/start.jpg
+| background: ./images/cover.jpg
 | style: background-position:center;
-| tint: 0.5
+| tint: 0.25
 | theme: dark
 | chapter: Introduction
 | section: Start
