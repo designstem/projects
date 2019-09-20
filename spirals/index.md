@@ -500,7 +500,6 @@ Moreover,
 | 2 3
 | 4 5
 | 6 7
-| 8 7
 
 <f-value set="activePoint" :value="[ 1.5, 1 ]" />
 <f-value set="polarAngle" :value="angleBetweenPoints( 0, 0, 1.5, 1 )" />
@@ -652,9 +651,6 @@ However, in many cases such that of drawing a spiral, a different expression is 
   </f-group>
 </f-scene>
 
--
-
-<f-next-button />
 
 ---
 
@@ -1335,7 +1331,6 @@ To form the final stair structure, the triangle steps are linked with the helix 
 | section: Basic calculations
 | 1 2
 | 3 4
-| 5 5
 
 
 
@@ -1411,10 +1406,6 @@ The level of each stair is presented by the red line and the green diagonal line
   </f-group>
 </f-artboard>
 
--
-
-<f-next-button />
-
 ---
 
 
@@ -1442,7 +1433,7 @@ The level of each stair is presented by the red line and the green diagonal line
 
 <div>
   
-To construct the paper model of the dice staircase we need :
+To construct the paper model of the dice staircase we need:
 
 * 2 A4 sheets of thick paper where we print the template
 * Pair of scissors
@@ -1454,7 +1445,7 @@ To construct the paper model of the dice staircase we need :
 
 <div>
 
- ##### 1.
+##### 1.
 
  <img src="./images/tower-01.jpg" style="width:100%; height:auto;" />
 
