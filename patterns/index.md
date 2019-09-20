@@ -3,7 +3,7 @@
 | chapter: Patterns
 | section: Introduction
 
-| background: https://c.pxhere.com/photos/85/e4/photo-365034.jpg!d
+| background: ./images/cover.jpg
 | tint: 0.65
 | theme: dark
 | 1 2 2
