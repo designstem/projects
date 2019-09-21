@@ -74,9 +74,10 @@ export default {
           <a class="primary" style="--purple: var(--red); --darkpurple: var(--red);" :href="'./' + project.scenario">Go to scenario<f-rightarrow-icon /></a>
           <br><br>
           <div v-if="project.team">
-          <f-embed :src="'./' + project.scenario + '/about.md'" />
-          <h3>Team</h3>
-          <f-team :team="project.team.split(',').map(t => t.trim())" />
+            <f-embed :src="'./' + project.scenario + '/about.md'" />
+            <h3>Team</h3>
+            <f-team :team="project.team.split(',').map(t => t.trim())" />
+          </div>
         </div>
       </f-sidebar>
   </f-card2>
