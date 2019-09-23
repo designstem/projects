@@ -60,6 +60,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 -
 
 ### Projects {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }} 
+
 <f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
   v-slot="{ value: projects }"
