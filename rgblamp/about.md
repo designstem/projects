@@ -6,4 +6,6 @@ The case study includes **Philips hue** lighting system, we are learning what ma
 
 ### Motivation
 
-> ~*The idea to create this scenario due the vital importance of the RGB color model for graphics designers. <br/>The RGB color model is pervasively used for the sensing, representation, and display of images in electronic systems, such as computers, scanners, digital photo cameras and digital video cameras.*~
+The idea to create this scenario due the vital importance of the RGB color model for graphics designers. 
+
+The RGB color model is pervasively used for the sensing, representation, and display of images in electronic systems, such as computers, scanners, digital photo cameras and digital video cameras.
