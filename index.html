@@ -8,12 +8,13 @@
     .content a {
       border: none;
       font-weight: normal;
+      transition: all 0.1s;
     }
     .content p a {
       border-bottom: 2px solid var(--primary);
       font-weight: bold;
     }
-    a:hover {
+    .content a:hover {
       filter: brightness(100%) !important;
       transform: scale(1.01);
       transition: all 0.1s;
@@ -32,11 +33,11 @@
         font-size: var(--base3);
       }
     }
-    .FCard2__image {
+    .FCard2 .FCard2__image {
       filter: grayscale(100%);
     }
-    .FCard2__image:hover {
-      filter: none;
+    .FCard2:hover .FCard2__image {
+      filter: grayscale(0%);
     }
   </style>
 </head>

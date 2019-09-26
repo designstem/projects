@@ -11,6 +11,7 @@ export default {
   },
   template: `
     <div
+      class="FCard2"
       style="
         border-radius: calc(var(--border-radius) * 1.5);
         height: 100%;

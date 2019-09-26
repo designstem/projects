@@ -8,7 +8,7 @@
 
 <big>
 
-DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The scenarios are powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.
+DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.
 
 </big>
 
@@ -59,7 +59,8 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 
 -
 
-## Educational projects {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }} 
+### Sample e-learning projects {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }} 
+
 <f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
   v-slot="{ value: projects }"

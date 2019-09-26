@@ -1,4 +1,4 @@
-| background: ./images/map.png
+| background: ./images/map.jpg
 | theme: dark
 | chapter: Introduction
 | section: Course overview

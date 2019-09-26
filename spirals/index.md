@@ -44,33 +44,34 @@ Spiral patterns can be also met in parts of **mechanical constructions**: turbin
 Finally spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time. -->
 
 
-<div class="grid masonry" style="--cols: 1fr 1fr 1fr 1fr; grid-template-rows:repeat( 1fr) ; --gap:0;">
+<div class="grid masonry" style="--cols: 1fr 1fr 1fr; grid-template-rows:repeat( 1fr) ; --gap:0;">
 
-  <div style="padding:var(--base3); grid-column:1 / span 2">
+  <!-- <div style="padding:var(--base3); grid-column:1 / span 2"> -->
+  <div style="padding:4vmin;">
     
-  ## Discovering spirals
+  ## Dis&shy;cove&shy;ring spirals
   
   Spiral is a very common shape in nature and in as well as every day life. 
 
   </div>
 
-  <f-image src="./images/nature-1.jpg" />
-  <f-image src="./images/nature-2.jpg" />
-  <f-image src="./images/nature-3.jpg"  />
-  <f-image src="./images/nature-4.jpg" />
 
-  <div style="padding:var(--base3)">
+  <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
   In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
   
   </div>
 
+  <f-image src="./images/nature-2.jpg" style="grid-row:span 2" />
+  <f-image src="./images/nature-1.jpg"  />
+  <f-image src="./images/nature-3.jpg"  />
+  <f-image src="./images/nature-4.jpg" />
+  <f-image src="./images/nature-6.jpg" style="grid-column:span 2"  />
   <f-image src="./images/nature-5.jpg" />
-  <f-image src="./images/nature-6.jpg" />
   <f-image src="./images/nature-7.jpg" />
   <f-image src="./images/nature-9.jpg" />
 
-  <div style="padding:var(--base3)">
+  <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
   Spiral patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs etc.
   
@@ -78,14 +79,12 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
   <f-image src="./images/tech-1.jpg" />
   <f-image src="./images/tech-2.jpg" />
-  <f-image src="./images/tech-3.jpg" />
-  <f-image src="./images/tech-4.jpg" />
+  <f-image src="./images/tech-3.jpg" style="grid-row:span 2"  />
+  <f-image src="./images/tech-4.jpg" style="grid-column:span 2"  />
   <f-image src="./images/tech-5.jpg" />
   <f-image src="./images/tech-6.jpg" />
-  <f-image src="./images/tech-7.jpg" />
-  <f-image src="./images/tech-8.jpg" />
 
-  <div style="padding:var(--base3)">
+  <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
   **Architects** also use the spirals to shape buildings and components like stairs.
   
@@ -94,23 +93,25 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
   <f-image src="./images/architecture-1.jpg" />
   <f-image src="./images/architecture-2.jpg" />
   <f-image src="./images/architecture-9.jpg" />
-  <f-image src="./images/architecture-4.jpg" />
+  <f-image src="./images/architecture-4.jpg" style="grid-row:span 2"  />
   <f-image src="./images/architecture-5.jpg" />
   <f-image src="./images/architecture-6.jpg" />
   <f-image src="./images/architecture-8.jpg" />
-  <f-image src="./images/architecture-7.jpg" style="grid-column:1 / span 2" />
+  <f-image src="./images/architecture-7.jpg" style="grid-column:span 3" />
 
-  <div style="padding:var(--base3)">
+  <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
   Spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time.
   
   </div>
 
   <f-image src="./images/art-3.jpg" />
-  <f-image src="./images/art-4.jpg" />
+  <f-image src="./images/art-4.jpg" style="grid-row:span 2" />
   <f-image src="./images/art-5.jpg" />
   <f-image src="./images/art-6.jpg" />
   <f-image src="./images/art-7.jpg" />
+  <f-image src="./images/tech-7.jpg" />
+  <f-image src="./images/tech-8.jpg" />
 </div>
 
 ---
@@ -130,7 +131,7 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
 ## Spirals in nature
 
-Watch the following videos about the spirals and try answer the questions in the following [worksheet](https://spiralsdesignstem.files.wordpress.com/2018/07/worksheet-1-1.docx)
+Watch the following videos about the spirals and try answer the questions in the following <a href="./files/worksheet-1-1.pdf" target="_blank">worksheet</a> (pdf)
 
 -
 
@@ -498,7 +499,11 @@ Moreover,
 | 1 1
 | 2 3
 | 4 5
-| 6 6
+| 6 7
+
+<f-value set="activePoint" :value="[ 1.5, 1 ]" />
+<f-value set="polarAngle" :value="angleBetweenPoints( 0, 0, 1.5, 1 )" />
+<f-value set="polarDistance" :value="distanceBetweenPoints( 0, 0, 1.5, 1 )" />
 
 <caption>Basics of trigonometry and polar coordinates</caption>
 
@@ -508,33 +513,153 @@ Moreover,
 
 ### Cartesian coordinates
 
-Any point in the plane can be defined by its coordinates (**X**, **Y**). (X, Y) is a pair of numbers denoting the distances from two perpendicular lines: the vertical line (-axis) and the horizontal line (-axis). For example, in the next figure the point A is defined as a pair (3,4), where X=3 and Y=4. These are called Cartesian coordinates.
+Any point in the plane can be defined by its coordinates <var>X</var> and <var>Y</var> – a pair of numbers denoting the distances from two perpendicular lines: the horizontal line <var>(x-axis)</var> and the vertical line <var>(y-axis)</var>. For example, in the next figure the coordinates of the point can be defined as a pair of numbers, where <var>X={{parseFloat(get('activePoint', [])[0]).toFixed(2)}}</var> and <var>Y={{parseFloat(get('activePoint', [])[1]).toFixed(2)}}</var>. These are called <var>Cartesian coordinates</var> of a point.
+
+<f-table :rows="[
+  {
+  	X: parseFloat(get('activePoint',[])[0]).toFixed(3),
+    Y: parseFloat(get('activePoint',[])[1]).toFixed(3),
+  },
+]" />
 
 -
 
-<f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg" style="--image-size:contain; --image-height:30vh;" />
+<f-scene responsive v-slot="{ mouse }" style="max-width:600px;">
+  <f-group position="0 0" scale="1" 
+  v-on:click.native="set('activePoint', [mouse.x, mouse.y]);set('polarAngle', angleBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1])); set('polarDistance', distanceBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1]));">
+    <f-box r="6" fill="white" />
+    <f-grid />
+    <f-text v-for="(tx,i) in range(-1.5, 1.5, 0.5)" :position="[tx, -1.95]" scale="0.4">{{tx.toFixed(1)}}</f-text>
+    <f-text v-for="(ty,i) in range(-1.5, 1.5, 0.5)" :position="[-1.85, ty-0.025]" scale="0.4" text-anchor="left">{{ty.toFixed(1)}}</f-text>
+    <f-line :points="[[get( 'activePoint', [])[0], 0], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
+    <f-line :points="[[0, get('activePoint', [])[1]], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
+    <f-circle
+  	  :x="get( 'activePoint', [])[0]"
+      :y="get('activePoint', [])[1]"
+      :r="0.075"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-circle
+  	  :x="mouse.x"
+      :y="mouse.y"
+      :r="mouse.pressed ? 0.05 : 0.035"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-text :position="[get('activePoint',[])[0]/2, get('activePoint',[])[1]+0.075 ]" scale="0.75" :fill="color('red')">x</f-text>
+    <f-text :position="[get('activePoint',[])[0]+0.1, get('activePoint',[])[1]/2 ]" scale="0.75" :fill="color('red')">y</f-text>
+  </f-group>
+</f-scene>
 
-<!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg) -->
+<!-- <f-image src="https://spiralsdesignstem.files.wordpress.com/2018/09/plane11.jpg" style="--image-size:contain; --image-height:30vh;" /> -->
 
 -
 
 ### Polar coordinates
 
-However, in many cases such that of drawing a spiral, a different expression is needed. One may notice that instead of using (x, y) as the coordinates of point A, the **distance from the zero point r and the angle θ** may equivalently be used. This means that the position of any point in the plane can be described by the pair (r, θ). These are called **Polar coordinates of the point A**.
+However, in many cases such that of drawing a spiral, a different expression is needed. One may notice that instead of using (x, y) as the coordinates of point, the **distance from the zero point <var>r</var> and the angle <var>θ</var>** may equivalently be used. This means that the position of any point in the plane can be described by the pair (r, θ). These are called <var>Polar coordinates</var> of a point.
+
+<f-table :rows="[
+  {
+  	θ: parseFloat(get('polarAngle')).toFixed(3) + '°',
+    r: parseFloat(get('polarDistance')).toFixed(3)
+  }
+]" />
+
+-
+
+<f-scene responsive v-slot="{ mouse }" style="max-width:600px;">
+  <f-group position="0 0" scale="1" 
+  v-on:click.native="set('activePoint', [mouse.x, mouse.y]);set('polarAngle', angleBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1])); set('polarDistance', distanceBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1]));">
+    <f-box r="6" fill="white" />
+    <f-circle :stroke="color('gray')" stroke-width="0.5" :r="get('polarDistance')"  />
+    <f-arc start-angle="0" :end-angle="get('polarAngle',0)" rotation="90" :r="get('polarDistance')-get('polarDistance')*0.4" inner-radius="0" :stroke="color('blue')" stroke-width="1" :fill="color('lightyellow')" opacity="0.5" />
+    <f-grid />
+    <!-- <f-text v-for="(tx,i) in range(-1.5, 1.5, 0.5)" :position="[tx, -1.95]" scale="0.4">{{tx.toFixed(1)}}</f-text>
+    <f-text v-for="(ty,i) in range(-1.5, 1.5, 0.5)" :position="[-1.85, ty-0.025]" scale="0.4" text-anchor="left">{{ty.toFixed(1)}}</f-text> -->
+    <f-text v-for="tr in range(0, 360, 90)" :position="polarxy(tr, 1.9)" scale="0.4" text-anchor="left">{{(-90+tr).toFixed(0)}}°</f-text> -->
+    <f-line :points="[[0,0], polarxy(get('polarAngle')+(90), get('polarDistance')) ]" strokeWidth="2" :stroke="color('blue')" />
+    <f-circle
+  	  :x="get( 'activePoint', [])[0]"
+      :y="get('activePoint', [])[1]"
+      :r="0.075"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-circle
+  	  :x="mouse.x"
+      :y="mouse.y"
+      :r="mouse.pressed ? 0.05 : 0.035"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-text :position="polarxy(get('polarAngle')+( get('polarAngle') > -90 && get('polarAngle') < 90 ? 100 : 80), get('polarDistance')*0.5)" scale="0.75" :fill="color('blue')" style="mix-blend-mode:multiply;">r</f-text>
+    <f-text :position="polarxy((get('polarAngle')*0.5)+90, 0.15)" scale="0.75" :fill="color('blue')" style="mix-blend-mode:multiply;">θ</f-text>
+  </f-group>
+</f-scene>
+
+-
+
+### Cartesian and Polar coordinates
 
 > Cartesian and Polar coordinates are equivalent and can be converted from one type to another.
 
+<f-table :rows="[
+  {
+  	Cartesian: 'X: ' + parseFloat(get('activePoint',[])[0]).toFixed(3),
+    Polar: 'θ: ' + parseFloat(get('polarAngle')).toFixed(3) + '°'
+  },
+  {
+  	Cartesian: 'Y: ' + parseFloat(get('activePoint',[])[1]).toFixed(3),
+    Polar: 'r: ' + parseFloat(get('polarDistance')).toFixed(3)
+  }
+]" />
+
 -
 
-<f-image src="./images/polar-coordinates.png" style="--image-size:contain; --image-height:30vh; --image-position:center;" />
-
-<!-- ![](./images/polar-coordinates.png) -->
-
--
-
+<f-scene responsive v-slot="{ mouse }" style="max-width:600px;">
+  <f-group position="0 0" scale="1" v-on:click.native="set('activePoint', [mouse.x, mouse.y]);set('polarAngle', angleBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1])); set('polarDistance', distanceBetweenPoints(0, 0, get( 'activePoint', [])[0], get('activePoint', [])[1]));">
+    <f-box r="6" fill="white" />
+    <f-circle :stroke="color('gray')" stroke-width="0.5" :r="get('polarDistance')"  />
+    <f-arc start-angle="0" :end-angle="get('polarAngle',0)" rotation="90" :r="get('polarDistance')-get('polarDistance')*0.4" inner-radius="0" :stroke="color('blue')" stroke-width="1" :fill="color('lightyellow')" opacity="0.5" />
+    <f-grid />
+    <f-text v-for="(tx,i) in range(-1.5, 1.5, 0.5)" :position="[tx, -1.95]" scale="0.4">{{tx.toFixed(1)}}</f-text>
+    <f-text v-for="(ty,i) in range(-1.5, 1.5, 0.5)" :position="[-1.85, ty-0.025]" scale="0.4" text-anchor="left">{{ty.toFixed(1)}}</f-text>
+    <f-text position="1.92 0.02" scale="0.4" text-anchor="right">0°</f-text>
+    <f-line :points="[[get( 'activePoint', [])[0], 0], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
+    <f-line :points="[[0, get('activePoint', [])[1]], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
+    <f-line :points="[[0,0], polarxy(get('polarAngle')+(90), get('polarDistance')) ]" strokeWidth="2" :stroke="color('blue')" />
+    <f-circle
+  	  :x="get( 'activePoint', [])[0]"
+      :y="get('activePoint', [])[1]"
+      :r="0.075"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-circle
+  	  :x="mouse.x"
+      :y="mouse.y"
+      :r="mouse.pressed ? 0.05 : 0.035"
+      :fill="color('darkgray')"
+      stroke
+    />
+    <f-text :position="[get('activePoint',[])[0]/2, get('activePoint',[])[1]+0.075 ]" scale="0.75" :fill="color('red')">x</f-text>
+    <f-text :position="[get('activePoint',[])[0]+0.1, get('activePoint',[])[1]/2 ]" scale="0.75" :fill="color('red')">y</f-text>
+    <f-text :position="polarxy(get('polarAngle')+( get('polarAngle') > -90 && get('polarAngle') < 90 ? 100 : 80), get('polarDistance')*0.5)" scale="0.75" :fill="color('blue')" style="mix-blend-mode:multiply;">r</f-text>
+    <f-text :position="polarxy((get('polarAngle')*0.5)+90, 0.15)" scale="0.75" :fill="color('blue')" style="mix-blend-mode:multiply;">θ</f-text>
+  </f-group>
+</f-scene>
 
 
 ---
+
+
+
+
+
+
+
 
 
 
@@ -583,19 +708,19 @@ Indeed
     </defs>
     <polyline points="0,-1.9 0,1.9" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
     <polyline points="-1.9,0 1.9,0" fill="none" stroke="lightgray" stroke-width="0.02" stroke-dasharray="0.04" marker-end="url(#arrow)" />
-    <f-circle r="1.5" strokeWidth="2" :stroke="color('gray')" />
+    <f-circle r="1.5" strokeWidth="1" :stroke="color('gray')" />
     <f-polygon :points="[ [0,0], polarxy(90,0.75), polarxy(150, 1.5) ]" :fill="color('yellow')" stroke opacity="0.6" />
     <f-line points="0 0, 0 1.31" :stroke="color('green')" />
-    <f-polygon :points="[ [0,0], polarxy(90,0.75), polarxy(150, 1.5) ]" strokeWidth="2" />
+    <f-polygon :points="[ [0,0], polarxy(90,0.75), polarxy(150, 1.5) ]" strokeWidth="1" />
+    <f-box r="0.1" position="0.7 0.05" strokeWidth="1" />
     <f-line points="0 0, 0.75 0" :stroke="color('blue')" />
     <f-line :points="[[0,0],polarxy(150, 1.5)]" :stroke="color('red')" />
     <f-arc position="0 0" start-angle="90" end-angle="150" r="0.45" inner-radius="0.45" stroke-width="1" />
-    <f-box r="0.1" position="0.7 0.05" strokeWidth="1" />
-    <f-text :position="polarxy(140,1.9)">A(x:3,y:4)</f-text>
+    <f-text :position="polarxy(140,1.9)" scale="0.75">A(x:3,y:4)</f-text>
     <f-text position="-0.1 0.6" :fill="color('green')" rotation="90" scale="0.75">r⋅sin(θ)</f-text>
     <f-text position="0.4 -0.25" :fill="color('blue')" scale="0.75">r⋅cos(θ)</f-text>
     <f-text :position="polarxy(155, 0.75)" :fill="color('red')" scale="0.75">r</f-text>
-    <f-text position="0.22 0.05" >θ</f-text>
+    <f-text position="0.22 0.07" scale="0.75">θ</f-text>
     <f-text position="1.9 0.1" scale="0.75">x</f-text>
     <f-text position="0.15 1.85" scale="0.75">y</f-text>
     
@@ -690,7 +815,7 @@ Lets simulate this:
   <f-circle r="1.5" strokeWidth="1" :stroke="color('blue')" />
   <f-group rotation="90">
     <!-- <f-line :points="[[0,0], polarxy(get('circleProgress'),1.5) ]" /> -->
-    <f-arc r="1.5" inner-radius="0" :stroke="color('red')" start-angle="0" :end-angle="get('circleProgress', 0)" stroke-width="4" />
+    <f-arc r="1.5" inner-radius="0" :stroke="color('red')" start-angle="0" :end-angle="get('circleProgress', 0)" stroke-width="2" />
     <f-circle r="0.1" :stroke="color('red')" :position="polarxy( get('circleProgress', 0), 1.5)"  />
   </f-group>
   <f-text :position="polarxy( get('circleProgress', 0)+90, 1.75)">r</f-text>
@@ -1206,7 +1331,6 @@ To form the final stair structure, the triangle steps are linked with the helix 
 | section: Basic calculations
 | 1 2
 | 3 4
-| 5 5
 
 
 
@@ -1282,10 +1406,6 @@ The level of each stair is presented by the red line and the green diagonal line
   </f-group>
 </f-artboard>
 
--
-
-
-
 ---
 
 
@@ -1313,7 +1433,7 @@ The level of each stair is presented by the red line and the green diagonal line
 
 <div>
   
-To construct the paper model of the dice staircase we need :
+To construct the paper model of the dice staircase we need:
 
 * 2 A4 sheets of thick paper where we print the template
 * Pair of scissors
@@ -1325,7 +1445,7 @@ To construct the paper model of the dice staircase we need :
 
 <div>
 
- ##### 1.
+##### 1.
 
  <img src="./images/tower-01.jpg" style="width:100%; height:auto;" />
 
