@@ -57,6 +57,7 @@ In addition, this has made self-assessment continuous. Students have been report
 **Reference list**
 
 <small>
+
 Land, Michelle H. "Full STEAM ahead: The benefits of integrating the arts into STEM." Procedia Computer Science 20 (2013): 547-552.
 Miller, John P. Holistic Learning: A Teacher's Guide to Integrated Studies. Ontario Institute for Studies in Education, 252 Bloor St. West, Toronto, Canada M5S 1V6, (1990): 5-25.
 
@@ -74,4 +75,5 @@ Garcia, Catalina M. Comparing the 5Es and traditional approach to teaching evolu
 Ceylan, Eren. "Effects of 5E learning cycle model on understanding of state of matter and solubility concepts." Doctor Thesis, Orta Dogu Teknik University, Institute of Science and Technology, Ankara (2008).
 
 Uzunöz, Abdulkadir. "The effects of the activities of current textbook and 5 E model on the attitude of the students: Sample of" the global effects of natural resources unit"." Educational Research and Reviews 6.13 (2011): 778.
+
 </small>
