@@ -8,7 +8,7 @@
 
 <big>
 
-DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based a <f-sidebar size="half" src="./pedagogy.md"><a href="#">pedagogical framework</a></f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.
+DesignSTEM is an educational initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based on a <f-sidebar size="half" src="./pedagogy.md"><a href="#">5E pedagogical framework</a></f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.
 
 </big>
 
@@ -51,7 +51,7 @@ DesignSTEM is an education initiative that creates immersive experiences for fut
 <div>
   <caption>STEM topics</caption>
   <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightergray);" v-on:click.native="set('st', t == get('st') ? '' : t)" />
+    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightergray);" v-on:click.native="set('st', t == get('st') ? '' : t)" :style="get('st') == t ? {'background':'var(--darkgray)','color':'var(--lightergray)'} : {}" />
   </div>
 </div>
 
