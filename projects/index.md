@@ -1,6 +1,11 @@
+| 1 1 2
+
 <f-logo />
 
-### Hello
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based our <f-sidebar size="half" src="./pedagogy.md">pedagogical framework</f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.</big></big>
+
+-
+-
 
 ---
 
