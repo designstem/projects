@@ -18,7 +18,7 @@ export default {
       <img
         :key="i"
         :src="r.filename"
-        style="height: 25vh; min-height:100px; filter: grayscale(100%);"
+        style="filter: grayscale(100%);"
       />
       <div>
         <h5>{{ r.name }}</h5>

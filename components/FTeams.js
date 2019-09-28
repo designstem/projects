@@ -1,4 +1,4 @@
-import {Css} from "http://designstem.github.io/fachwerk/fachwerk.js";
+import {Css} from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 export default {
   mixins: [Css],
@@ -9,7 +9,8 @@ export default {
         v-for="(r, i) in rows.filter(r => r.shortname)"
         :key="i"
         :src="r.filename"
-        style="filter: grayscale(100%); border-radius: 0;"
+        :title="r.name"
+        style="filter: grayscale(100%); border-radius: 0; height:15vh; min-height:100px;"
       />
     </div>
   </f-sheet>
