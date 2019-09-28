@@ -115,7 +115,7 @@ const FAbout = {
   methods: { get, set },
   template: `
   <f-sidebar size="half">
-    <button style="position: absolute; left: var(--base2); bottom: var(--base2);">About</button>
+    <a class="quaternary" style="position: absolute; left: var(--base2); bottom: var(--base2);">About</a>
     <div slot="content" style="padding: var(--base3)">
       <h2>{{ project.title }}</h2>
       <f-inline v-if="project.time">
