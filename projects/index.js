@@ -1,6 +1,8 @@
 import {
   fachwerk,
-  Vue
+  Vue,
+  get,
+  set
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 const FLogo = {
@@ -67,10 +69,50 @@ const FImageCard = {
   `
 };
 
+const FTeam = {
+  components: { FGrid },
+  props: {
+    team: { default: "", type: String },
+    cols: { default: 13, type: [String, Number] }
+  },
+  data: () => ({
+    currentTeam: -1
+  }),
+  methods: {
+    filteredTeams(teams) {
+      return this.team
+        ? parseList(this.team).map(
+            t => teams.filter(ts => ts.shortname === t)[0]
+          )
+        : teams;
+    }
+  },
+  template: `
+  <f-sheet id="1-WsazYAKboddKOCkfImHCY6V7Wy-ztIs4qhyYumeAqw" v-slot="{ value: allTeams }">
+    <slot :teams="filteredTeams(allTeams)">
+      <f-grid gap="0" :cols="'repeat(' + cols + ', 1fr)'">
+        <template v-for="(t, i) in filteredTeams(allTeams)">
+          <img
+            :key="i"
+            :src="t.filename"
+            style="object-fit: cover;"
+            :style="{ filter: currentTeam == i ? '' : 'brightness(50%)' }"
+            @mouseover="currentTeam = i; $emit('team', t)"
+            @touchstart="currentTeam = i; $emit('team', t)"
+          />
+        </template>
+      </f-grid>
+    </slot>
+  </f-sheet>
+  `
+};
+
 const FAbout = {
+  components: { FTeam },
   props: {
     project: { default: {}, type: Object }
   },
+  methods: { get, set },
   template: `
   <f-sidebar size="half">
     <button style="position: absolute; left: var(--base2); bottom: var(--base2);">About</button>
@@ -91,11 +133,32 @@ const FAbout = {
       <!--p><big>{{ project.desc }}</big></p-->
       <a class="primary" style="--purple: var(--red); --darkpurple: var(--red);" :href="'./' + project.scenario">Go to scenario<f-rightarrow-icon /></a>
       <br><br>
+      <f-embed :src="'../' + project.scenario + '/about.md'" />
+      <br><br>
       <div v-if="project.team">
-        <f-embed :src="'../' + project.scenario + '/about.md'" />
         <h3>Team</h3>
-        <!--f-team :team="project.team.split(',').map(t => t.trim())" /-->
+        <f-team cols="6" :team="project.team" v-slot="{ teams }">
+          <f-grid cols="100px 1fr">
+          <template v-for="(t, i) in teams">
+            <img
+              :key="i"
+              :src="t.filename"
+              style="object-fit: cover;"
+            />
+            <div>
+              <h4>{{ t.name }}</h4>
+              <p>{{ t.bio }}
+                <template v-if="project.contact === t.shortname"><br><a :href="'mailto:' + t.contact">{{ t.contact }}</a></template>
+              </p>
+            </div>
+          </template>
+        </f-grid>
+        </f-team>
+        <h4>{{ get('team',{ name: '' }).name }}</h4>
+        <p>{{ get('team',{ bio: '' }).bio }}</p>
+        <p v-if="project.contact == get('team',{ shortname: '' }).shortname"><a href="mailto:">{{ get('team',{ contact: '' }).contact }}</a></p>
       </div>
+      <br><br>
     </div>
   </f-sidebar>
   `
@@ -104,51 +167,6 @@ const FAbout = {
 const parseList = (list, separator = ",") =>
   list.split(separator).map(l => l.trim());
 
-const FTeam = {
-  components: { FGrid },
-  props: {
-    team: { default: "", type: String }
-  },
-  data: () => ({
-    currentTeam: -1
-  }),
-  methods: {
-    filteredTeams(teams) {
-      return this.team
-        ? parseList(this.team).map(
-            t => teams.filter(ts => ts.shortname === t)[0]
-          )
-        : teams;
-    }
-  },
-  template: `
-  <f-sheet id="1-WsazYAKboddKOCkfImHCY6V7Wy-ztIs4qhyYumeAqw" v-slot="{ value: allTeams }">
-    <slot :teams="filteredTeams(allTeams)">
-      <f-grid gap="0" cols="repeat(13, 1fr)">
-        <template v-for="(t, i) in filteredTeams(allTeams)">
-          <img
-            :key="i"
-            :src="t.filename"
-            style="object-fit: cover;"
-            :style="{ filter: currentTeam == i ? '' : 'brightness(50%)' }"
-            @mouseover="currentTeam = i; $emit('team', t)"
-            @mouseout="currentTeam = -1; $emit('team', {})"
-          />
-        </template>
-      </f-grid>
-    </slot>
-  </f-sheet>
-  `
-};
-
-/*
-
-      <div>
-        <h5>{{ t.name || '' }}</h5>
-        <p>{{ t.bio || '' }}</p>
-      </div>
-
-*/
 fachwerk({
   title: "Projects",
   components: { FLogo, FGrid, FImageCard, FAbout, FTeam },
