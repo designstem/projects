@@ -30,9 +30,9 @@ Relevance has been shown to increase academic motivation and moreover students h
 
 For DesignSTEM this means that relevant teaching supports students’ skills development, their competencies to be part of the changing society and improves their vocational orientation as well as career possibilities.
 
-<img src="./images/helsinkiworld.png" style= "width:100%">
+<img src="../images/helsinkiworld.png" style= "width:100%">
 
-<img src="./images/kureworld.png" style= "width:100%">
+<img src="../images/kureworld.png" style= "width:100%">
 
 **The 5 E’s model**
 
@@ -54,7 +54,7 @@ In addition, this has made self-assessment continuous. Students have been report
 
 5E’s model can improve students’ performance skills better and students have shown more curiosity about the subject in question.
 
-**Reference list**
+**References**
 
 <small>
 
