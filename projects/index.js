@@ -1,4 +1,7 @@
-import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import {
+  fachwerk,
+  Vue
+} from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 const FLogo = {
   template: `
@@ -65,7 +68,9 @@ const FImageCard = {
 };
 
 const FAbout = {
-  props: ['project'],
+  props: {
+    project: { default: {}, type: Object }
+  },
   template: `
   <f-sidebar size="half">
     <button style="position: absolute; left: var(--base2); bottom: var(--base2);">About</button>
@@ -96,9 +101,57 @@ const FAbout = {
   `
 };
 
+const parseList = (list, separator = ",") =>
+  list.split(separator).map(l => l.trim());
+
+const FTeam = {
+  components: { FGrid },
+  props: {
+    team: { default: "", type: String }
+  },
+  data: () => ({
+    currentTeam: -1
+  }),
+  methods: {
+    filteredTeams(teams) {
+      return this.team
+        ? parseList(this.team).map(
+            t => teams.filter(ts => ts.shortname === t)[0]
+          )
+        : teams;
+    }
+  },
+  template: `
+  <f-sheet id="1-WsazYAKboddKOCkfImHCY6V7Wy-ztIs4qhyYumeAqw" v-slot="{ value: allTeams }">
+    <slot :teams="filteredTeams(allTeams)">
+      <f-grid gap="0" cols="repeat(13, 1fr)">
+        <template v-for="(t, i) in filteredTeams(allTeams)">
+          <img
+            :key="i"
+            :src="t.filename"
+            style="object-fit: cover;"
+            :style="{ filter: currentTeam == i ? '' : 'brightness(50%)' }"
+            @mouseover="currentTeam = i; $emit('team', t)"
+            @mouseout="currentTeam = -1; $emit('team', {})"
+          />
+        </template>
+      </f-grid>
+    </slot>
+  </f-sheet>
+  `
+};
+
+/*
+
+      <div>
+        <h5>{{ t.name || '' }}</h5>
+        <p>{{ t.bio || '' }}</p>
+      </div>
+
+*/
 fachwerk({
   title: "Projects",
-  components: { FLogo, FGrid, FImageCard, FAbout },
+  components: { FLogo, FGrid, FImageCard, FAbout, FTeam },
   editor: "none",
   type: "document",
   menu: false,

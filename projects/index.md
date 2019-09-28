@@ -2,18 +2,16 @@
 
 <f-logo />
 
-<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based our <f-sidebar size="half" src="../pedagogy.md">pedagogical framework</f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.</big></big>
-
--
--
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based our <f-sidebar size="half" src="../pedagogy.md"><a href="#">5E pedagogical framework</a></f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.</big></big>
 
 ---
 
 | padding: 0
 
 <f-sheet
-  id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
-  v-slot="{ value: projects }"
+id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+v-slot="{ value: projects }"
+
 >
 
 <f-theme theme="dark">
@@ -27,3 +25,68 @@
 </f-theme>
 
 </f-sheet>
+
+---
+
+| gap: 0 var(--base8)
+| rows: auto 1fr
+| 1 1
+| 2 3
+
+# Team
+
+-
+
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>We are educators, teachers, designers and engineers from 9 countries around Europe. We work in local community colleges all the way up to renonwed universities, with students from all ages and walks of life.</big></big>
+
+-
+
+<p />
+
+### {{ get('team', { name: '', bio: '' }).name }}
+
+{{ get('team', { name: '', bio: '' }).bio }}
+
+---
+
+| padding: 0
+
+<f-team @team="team => set('team', team)" />
+
+---
+
+| rows: auto 1fr
+| 1 1 1
+| 2 3 4
+
+## Contact
+
+-
+
+#### Project Initiator and Manager
+
+Merit Karise, Kuressaare Regional Training Centre, design department 
+
+merit.karise@ametikool.ee
+
+-
+
+#### Head Pedagogical Consultant 
+
+PhD Jaakko Turkka, University of Helsinki, LUMA Centre
+
+jaakko.turkka@helsinki.fi
+
+-
+
+#### Production Manager and Lead Developer
+
+Kristjan Jansen, Kuressaare Regional Training Centre, design department 
+
+kristjan.jansen@gmail.com.
+
+---
+
+| padding: 0
+
+ <f-footer style="--yellow: var(--lightgray); --border-width: 0" />
