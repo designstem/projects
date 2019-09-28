@@ -137,7 +137,23 @@ const FAbout = {
       <br><br>
       <div v-if="project.team">
         <h3>Team</h3>
-        <f-team cols="6" :team="project.team" @team="team => set('team', team)" />
+        <f-team cols="6" :team="project.team" v-slot="{ teams }">
+          <f-grid cols="100px 1fr">
+          <template v-for="(t, i) in teams">
+            <img
+              :key="i"
+              :src="t.filename"
+              style="object-fit: cover;"
+            />
+            <div>
+              <h4>{{ t.name }}</h4>
+              <p>{{ t.bio }}
+                <template v-if="project.contact === t.shortname"><br><a :href="'mailto:' + t.contact">{{ t.contact }}</a></template>
+              </p>
+            </div>
+          </template>
+        </f-grid>
+        </f-team>
         <h4>{{ get('team',{ name: '' }).name }}</h4>
         <p>{{ get('team',{ bio: '' }).bio }}</p>
         <p v-if="project.contact == get('team',{ shortname: '' }).shortname"><a href="mailto:">{{ get('team',{ contact: '' }).contact }}</a></p>
