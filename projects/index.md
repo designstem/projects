@@ -30,21 +30,27 @@ v-slot="{ value: projects }"
 | padding: 0
 
 <f-sheet
-id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
-v-slot="{ value: projects }"
+  id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+  v-slot="{ value: projects }"
 >
 
 <f-theme theme="dark">
 <f-grid cols="1fr 1fr 1fr 1fr" gap="0">
-  <f-image-card
+  <a
     v-for="(p,i) in projects.filter(p => p.type === 'progress')"
-    :src="p.image" :key="i"
+    :key="i"
+    :href="'../' + p.scenario"
+    style="border: 0"
+  >
+  <f-image-card
+    :src="p.image" 
     :style="{ filter: isActive(p, get('dt'), get('st')) ? '' : 'brightness(10%)'}"
   >
     <h3>{{ p.title }}</h3>
     <p style="padding-right: 33%; opacity: 0.85"> {{ p.desc}}</p>
     <f-about :project="p" />
   </f-image-card>
+  </a>
 </f-grid>
 </f-theme>
 
