@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://designstem.github.io/fachwerk/fachwerk.css">
+  <style>
+    .content a {
+      border: none;
+      font-weight: normal;
+      transition: all 0.1s;
+    }
+    .content p a {
+      border-bottom: 2px solid var(--primary);
+      font-weight: bold;
+    }
+    .content a:hover {
+      filter: brightness(100%) !important;
+      transform: scale(1.01);
+      transition: all 0.1s;
+    }
+    @media (max-width: 800px) {
+      .project-card {
+        margin-bottom: var(--base2);
+      }
+      .content {
+        --content-base: 8px !important;
+      }
+      .cells > * {
+        margin: 0 !important;
+      }
+      h5 {
+        font-size: var(--base3);
+      }
+      .ds-title {
+        --base: 1.2vw;
+      }
+    }
+    .FCard2 .FCard2__image {
+      filter: grayscale(100%);
+    }
+    .FCard2:hover .FCard2__image {
+      filter: grayscale(0%);
+    }
+  </style>
+</head>
+<body>
+  <!--header
+  <div>
+    <a href="./">Projects</a>&nbsp;&nbsp; 
+    <a href="#about">About</a>&nbsp;&nbsp; 
+    <a href="#contacts">Contacts</a>&nbsp;&nbsp; 
+    <a href="#pedagogy">Pedagogy</a>&nbsp;&nbsp; 
+    <a href="https://github.com/designstem/scenarios" target="_blank">Github</a>
+  </div>
+  </header-->
+  <div id="fachwerk"></div>
+  <script src="./index.js" type="module"></script>
+</body>
+</html>

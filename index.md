@@ -1,132 +1,136 @@
-| padding: 0
-| height: auto
-| padding: var(--base8) var(--base8) 0 var(--base8) 
 
-## &nbsp;
+<f-logo />
 
-<h1 class="ds-title"><big><big><big><span style="color: var(--red); letter-spacing: -0.06ch;">Design</span><sup style="letter-spacing: -0.05ch; font-size: 0.5em">STEM</sup></big></big></big></h1>
-
-<big>
-
-DesignSTEM is an educational initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based on a <f-sidebar size="half" src="./pedagogy.md"><a href="#">5E pedagogical framework</a></f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.
-
-</big>
-
-<!--div class="grid" style="--cols: 1fr 1fr 1fr 1fr; --gap: 0; height: 45vh">
-
-  <f-image src="https://designstem.github.io/slides/haridusfond/images/1.jpg" />
-
-  <f-image src="https://designstem.github.io/slides/haridusfond/images/5.jpg" />
-
-  <f-image src="https://designstem.github.io/slides/haridusfond/images/4.jpg" />
-
-  <f-image src="https://designstem.github.io/slides/haridusfond/images/6.jpg" />
-
-</div-->
-
----
-
-| 2 2 2 1
-
- 
-
-<f-sheet
-  id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
-  v-slot="{ value: projects }"
->
-
-<div>
-
-#### &nbsp;
-
-  <div>
-  <caption>Design topics</caption>
-  <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightgray);" v-on:click.native="set('dt', t == get('dt') ? '' : t)" :style="get('dt') == t ? {'background':'var(--darkgray)','color':'var(--lightergray)'} : {}" />
-  </div>
-</div>
-
-#### &nbsp;
-
-<div>
-  <caption>STEM topics</caption>
-  <div style="display: flex; flex-wrap: wrap;">
-    <f-tag v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].indexOf(p.type) !== -1).map(p => p.stemtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightergray);" v-on:click.native="set('st', t == get('st') ? '' : t)" :style="get('st') == t ? {'background':'var(--darkgray)','color':'var(--lightergray)'} : {}" />
-  </div>
-</div>
-
-#### &nbsp;
-
-</div>
-
-</f-sheet>
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based our <f-sidebar size="half" src="./pedagogy.md"><a href="#">5E pedagogical framework</a></f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.</big></big>
 
 -
 
-### Sample e-learning projects {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }}
+<f-sheet
+id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+v-slot="{ value: projects }"
+>
+
+<div>
+
+<f-inline>
+<h3>Design keywords</h3>
+<button v-if="get('dt')" class="quaternary"@click="set('dt',null)">Show all</button>
+</f-inline>
+
+<f-tags set="dt" type="designtags" :projects="projects.filter(p => p.type === 'progress')" />
+
+<p /><br>
+
+<f-inline>
+<h3>STEM keywords</h3>
+<button v-if="get('st')" class="quaternary"@click="set('st',null)">Show all</button>
+</f-inline>
+
+<f-tags set="st" type="stemtags" :projects="projects.filter(p => p.type === 'progress')" />
+
+</div>
+
+</f-sheet>
+
+
+---
+
+| padding: 0
 
 <f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
   v-slot="{ value: projects }"
 >
 
-<div>
-
-<div class="grid" style="--cols: 1fr 1fr 1fr">
-  <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'progress').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
+<f-theme theme="dark">
+<f-grid cols="1fr 1fr 1fr 1fr" gap="0">
+  <a
+    v-for="(p,i) in projects.filter(p => p.type === 'progress')"
     :key="i"
-    :project="project"
-    status="progress"
-  />
-</div>
-
-<br>
-
-### Various experiments {{ get('dt') ? 'about ' + get('dt') : '' }} {{ get('st') ? ' + ' + get('st') : '' }} 
-
-<div class="grid" style="--cols: 1fr 1fr 1fr">
-  <f-project-card
-    v-for="(project,i) in projects.filter(p => p.type == 'experiment').filter(p => get('dt','') ? p.designtags.includes(get('dt','')) : true).filter(p => get('st','') ? p.stemtags.includes(get('st','')) : true)"
-    :key="i"
-    :project="project"
-    status="experiment"
-    small="true"
-  />
-</div>
-
-<br><br>
-
-</div>
+    :href="'./' + p.scenario"
+    style="border: 0"
+  >
+  <f-image-card
+    :src="p.image" 
+    :style="{ filter: isActive(p, get('dt'), get('st')) ? '' : 'brightness(10%)'}"
+  >
+    <h3>{{ p.title }}</h3>
+    <p style="padding-right: 33%; opacity: 0.85"> {{ p.desc}}</p>
+    <f-about :project="p" />
+  </f-image-card>
+  </a>
+</f-grid>
+</f-theme>
 
 </f-sheet>
 
 ---
 
-| padding: 0
+| gap: 0 var(--base10)
+| rows: auto 1fr
+| 1 1 1 1 1 1 1
+| 2 2 2 2 3 3 3
 
-<section>
+# Team
 
-<a id="team"><h3>Team</h3></a>
+-
 
-We are educators, teachers, designers and engineers from 9 countries 🇬🇧 🇩🇪 🇬🇷 🇮🇹 🇳🇱 🇵🇹 🇸🇮 🇫🇮 🇪🇪 around Europe.
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>We are educators, teachers, designers and engineers from 9 countries around Europe. We work in local community colleges all the way up to renonwed universities, with students from all ages and walks of life.</big></big>
 
-</section>
+-
 
-<f-teams />
+<div style="height: 100px">
+
+<p/>
+
+### {{ get('team', { name: '', bio: '' }).name }}
+
+{{ get('team', { name: '', bio: '' }).bio.slice(0,200) }}
+
+</div>
 
 ---
 
-<a id="contacts"><h3>Contacts</h3></a>
+| padding: 0
 
-**Project Initiator and Manager:**: Merit Karise, Kuressaare Regional Training Centre, design department merit.karise@ametikool.ee
+<f-team @team="team => set('team', team)" />
 
-**Head Pedagogical Consultant:** PhD Jaakko Turkka, University of Helsinki, LUMA Centre jaakko.turkka@helsinki.fi
+---
 
-**Production Manager and Lead Developer:** Kristjan Jansen, Kuressaare Regional Training Centre, design department kristjan.jansen@gmail.com.
+| rows: auto 1fr
+| 1 1 1
+| 2 3 4
+
+## Contact
+
+<p />
+
+-
+
+#### Project Initiator and Manager
+
+Merit Karise, Kuressaare Regional Training Centre, design department 
+
+merit.karise@ametikool.ee
+
+-
+
+#### Head Pedagogical Consultant 
+
+PhD Jaakko Turkka, University of Helsinki, LUMA Centre
+
+jaakko.turkka@helsinki.fi
+
+-
+
+#### Production Manager and Lead Developer
+
+Kristjan Jansen, Kuressaare Regional Training Centre, design department 
+
+kristjan.jansen@gmail.com.
 
 ---
 
 | padding: 0
 
-<f-footer />
+ <f-footer style="margin: calc(var(--base) * 12) var(--base4) 0 var(--base4); --primary: var(--gray); --yellow: none; --border-width: 0" />
