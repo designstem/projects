@@ -201,9 +201,23 @@ const FTags = {
 //   `
 // }
 
+const isActive = (project, designtags, stemtags) => {
+  if (designtags && stemtags) {
+    return project.designtags.includes(designtags) && project.stemtags.includes(stemtags)
+  }
+  if (designtags && !stemtags) {
+    return project.designtags.includes(designtags)
+  }
+  if (!designtags && stemtags) {
+    return project.stemtags.includes(stemtags)
+  }
+  return true
+}
+
 fachwerk({
   title: "Projects",
   components: { FLogo, FGrid, FImageCard, FAbout, FTeam, FTags },
+  utils: { isActive },
   editor: "none",
   type: "document",
   menu: false,

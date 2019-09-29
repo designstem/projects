@@ -36,7 +36,11 @@ v-slot="{ value: projects }"
 
 <f-theme theme="dark">
 <f-grid cols="1fr 1fr 1fr 1fr" gap="0">
-  <f-image-card v-for="(p,i) in projects.filter(p => p.type === 'progress')" :src="p.image" :key="i">
+  <f-image-card
+    v-for="(p,i) in projects.filter(p => p.type === 'progress')"
+    :src="p.image" :key="i"
+    :style="{ filter: isActive(p, get('dt'), get('st')) ? '' : 'brightness(10%)'}"
+  >
     <h3>{{ p.title }}</h3>
     <p style="padding-right: 33%; opacity: 0.85"> {{ p.desc}}</p>
     <f-about :project="p" />
