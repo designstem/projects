@@ -1,26 +1,64 @@
-| 1 1 2
 
 <f-logo />
 
 <big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based our <f-sidebar size="half" src="../pedagogy.md"><a href="#">5E pedagogical framework</a></f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.</big></big>
+
+-
+
+<f-sheet
+id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+v-slot="{ value: projects }"
+>
+
+<div>
+
+<f-inline>
+<h3>Design keywords</h3>
+<button v-if="get('dt')" class="quaternary"@click="set('dt',null)">Show all</button>
+</f-inline>
+
+<f-tags set="dt" type="designtags" :projects="projects.filter(p => p.type === 'progress')" />
+
+<p /><br>
+
+<f-inline>
+<h3>STEM keywords</h3>
+<button v-if="get('st')" class="quaternary"@click="set('st',null)">Show all</button>
+</f-inline>
+
+<f-tags set="st" type="stemtags" :projects="projects.filter(p => p.type === 'progress')" />
+
+</div>
+
+</f-sheet>
+
 
 ---
 
 | padding: 0
 
 <f-sheet
-id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
-v-slot="{ value: projects }"
-
+  id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+  v-slot="{ value: projects }"
 >
 
 <f-theme theme="dark">
 <f-grid cols="1fr 1fr 1fr 1fr" gap="0">
-  <f-image-card v-for="(p,i) in projects.filter(p => p.type === 'progress')" :src="p.image" :key="i">
+  <a
+    v-for="(p,i) in projects.filter(p => p.type === 'progress')"
+    :key="i"
+    :href="'../' + p.scenario"
+    style="border: 0"
+  >
+  <f-image-card
+    :src="p.image" 
+    :style="{ filter: isActive(p, get('dt'), get('st')) ? '' : 'brightness(10%)'}"
+  >
     <h3>{{ p.title }}</h3>
     <p style="padding-right: 33%; opacity: 0.85"> {{ p.desc}}</p>
     <f-about :project="p" />
   </f-image-card>
+  </a>
 </f-grid>
 </f-theme>
 
@@ -28,10 +66,10 @@ v-slot="{ value: projects }"
 
 ---
 
-| gap: 0 var(--base8)
+| gap: 0 var(--base10)
 | rows: auto 1fr
-| 1 1
-| 2 3
+| 1 1 1 1 1 1 1
+| 2 2 2 2 3 3 3
 
 # Team
 
@@ -41,11 +79,15 @@ v-slot="{ value: projects }"
 
 -
 
-<p />
+<div style="height: 100px">
+
+<p/>
 
 ### {{ get('team', { name: '', bio: '' }).name }}
 
-{{ get('team', { name: '', bio: '' }).bio }}
+{{ get('team', { name: '', bio: '' }).bio.slice(0,200) }}
+
+</div>
 
 ---
 
@@ -60,6 +102,8 @@ v-slot="{ value: projects }"
 | 2 3 4
 
 ## Contact
+
+<p />
 
 -
 
@@ -89,4 +133,4 @@ kristjan.jansen@gmail.com.
 
 | padding: 0
 
- <f-footer style="--yellow: var(--lightgray); --border-width: 0" />
+ <f-footer style="margin: calc(var(--base) * 12) var(--base4) 0 var(--base4); --primary: var(--gray); --yellow: none; --border-width: 0" />

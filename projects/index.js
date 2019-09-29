@@ -2,8 +2,13 @@ import {
   fachwerk,
   Vue,
   get,
-  set
+  set,
+  flatten,
+  unique
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
+
+const parseList = (list, separator = ",") =>
+  list.split(separator).map(l => l.trim());
 
 const FLogo = {
   template: `
@@ -115,7 +120,7 @@ const FAbout = {
   methods: { get, set },
   template: `
   <f-sidebar size="half">
-    <button style="position: absolute; left: var(--base2); bottom: var(--base2);">About</button>
+    <a class="quaternary" style="position: absolute; left: var(--base2); bottom: var(--base2);">About</a>
     <div slot="content" style="padding: var(--base3)">
       <h2>{{ project.title }}</h2>
       <f-inline v-if="project.time">
@@ -164,12 +169,49 @@ const FAbout = {
   `
 };
 
-const parseList = (list, separator = ",") =>
-  list.split(separator).map(l => l.trim());
+
+const FTags = {
+  props: ['projects', 'type', 'set'],
+  methods: { getValue: get, setValue: set },
+  computed: {
+    tags() {
+      const tags = unique(flatten(this.projects.map(p => parseList(p[this.type]))))
+      return tags 
+    }
+  },
+  template: `
+  <f-fade style="display: flex; flex-wrap: wrap;">
+    <a
+      v-for="(t,i) in tags"
+      :key="i"
+      @click="setValue(set, t == getValue(set) ? '' : t)"
+      style="margin: calc(var(--base) / 2); display: block; cursor: pointer"
+      :style="{
+        color: getValue(set) == t ? 'var(--red)': 'var(--gray)',
+        borderBottom: getValue(set) == t ? '2px solid var(--red)': '2px solid var(--gray)'
+      }"
+    >{{ t }}</a>
+  </f-fade>
+  `
+}
+
+const isActive = (project, designtags, stemtags) => {
+  if (designtags && stemtags) {
+    return project.designtags.includes(designtags) && project.stemtags.includes(stemtags)
+  }
+  if (designtags && !stemtags) {
+    return project.designtags.includes(designtags)
+  }
+  if (!designtags && stemtags) {
+    return project.stemtags.includes(stemtags)
+  }
+  return true
+}
 
 fachwerk({
   title: "Projects",
-  components: { FLogo, FGrid, FImageCard, FAbout, FTeam },
+  components: { FLogo, FGrid, FImageCard, FAbout, FTeam, FTags },
+  utils: { isActive },
   editor: "none",
   type: "document",
   menu: false,
