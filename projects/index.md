@@ -12,11 +12,19 @@ v-slot="{ value: projects }"
 
 <div>
 
-### Design
+<f-inline>
+<h3>Design keywords</h3>
+<button v-if="get('dt')" class="quaternary"@click="set('dt',null)">Show all</button>
+</f-inline>
 
 <f-tags set="dt" type="designtags" :projects="projects.filter(p => p.type === 'progress')" />
 
-### STEM
+<p /><br>
+
+<f-inline>
+<h3>STEM keywords</h3>
+<button v-if="get('st')" class="quaternary"@click="set('st',null)">Show all</button>
+</f-inline>
 
 <f-tags set="st" type="stemtags" :projects="projects.filter(p => p.type === 'progress')" />
 
@@ -125,4 +133,4 @@ kristjan.jansen@gmail.com.
 
 | padding: 0
 
- <f-footer style="--yellow: var(--lightgray); --border-width: 0" />
+ <f-footer style="margin: calc(var(--base) * 12) var(--base4) 0 var(--base4); --primary: var(--gray); --yellow: none; --border-width: 0" />
