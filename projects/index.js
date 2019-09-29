@@ -2,8 +2,13 @@ import {
   fachwerk,
   Vue,
   get,
-  set
+  set,
+  flatten,
+  unique
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
+
+const parseList = (list, separator = ",") =>
+  list.split(separator).map(l => l.trim());
 
 const FLogo = {
   template: `
@@ -164,12 +169,41 @@ const FAbout = {
   `
 };
 
-const parseList = (list, separator = ",") =>
-  list.split(separator).map(l => l.trim());
+
+const FTags = {
+  props: ['projects', 'type'],
+  methods: { get, set },
+  computed: {
+    tags() {
+      const tags = unique(flatten(this.projects.map(p => parseList(p[this.type]))))
+      return tags 
+    }
+  },
+  template: `
+  <f-fade style="display: flex; flex-wrap: wrap;">
+    <a
+      v-for="(t,i) in tags"
+      :key="i"
+      @click="set('dt', t == get('dt') ? '' : t)"
+      style="margin: calc(var(--base) / 2); display: block; cursor: pointer"
+      :style="get('dt') == t ? {'background':'var(--yellow)'} : {}"
+    >{{ t }}</a>
+  </f-fade>
+  `
+}
+
+// const Tags = {
+
+//   template: `
+//   <div style="display: flex;">
+//     <a v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].includes(p.type).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightgray);" v-on:click.native="set('dt', t == get('dt') ? '' : t)" :style="get('dt') == t ? {'background':'var(--darkgray)','color':'var(--lightergray)'} : {}" />
+//   </div>
+//   `
+// }
 
 fachwerk({
   title: "Projects",
-  components: { FLogo, FGrid, FImageCard, FAbout, FTeam },
+  components: { FLogo, FGrid, FImageCard, FAbout, FTeam, FTags },
   editor: "none",
   type: "document",
   menu: false,
