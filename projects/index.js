@@ -186,20 +186,14 @@ const FTags = {
       :key="i"
       @click="setValue(set, t == getValue(set) ? '' : t)"
       style="margin: calc(var(--base) / 2); display: block; cursor: pointer"
-      :style="getValue(set) == t ? {'background':'var(--yellow)'} : {}"
+      :style="{
+        color: getValue(set) == t ? 'var(--red)': 'var(--gray)',
+        borderBottom: getValue(set) == t ? '2px solid var(--red)': '2px solid var(--gray)'
+      }"
     >{{ t }}</a>
   </f-fade>
   `
 }
-
-// const Tags = {
-
-//   template: `
-//   <div style="display: flex;">
-//     <a v-for="t in unique(flatten(projects.filter(p => ['featured','progress','experiment','preparation'].includes(p.type).map(p => p.designtags.split(',').map(t => t.trim())))).filter(t => t)" v-html="t" style="cursor: pointer; background: var(--lightgray);" v-on:click.native="set('dt', t == get('dt') ? '' : t)" :style="get('dt') == t ? {'background':'var(--darkgray)','color':'var(--lightergray)'} : {}" />
-//   </div>
-//   `
-// }
 
 const isActive = (project, designtags, stemtags) => {
   if (designtags && stemtags) {
