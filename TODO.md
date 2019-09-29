@@ -1,12 +1,8 @@
-tattoo_icons nav
-tattoo frontpage
-
----
-
 # Process
 
 <big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>
 </big></big>
+
 -
 
 ---
