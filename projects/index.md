@@ -28,38 +28,10 @@ v-slot="{ value: projects }"
 
 ---
 
-# Process
-
-<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>
-</big></big>
--
-
----
-
-| padding: 0
-| gap: 0
-| height: 35vh
-
-<f-image src="https://designstem.github.io/slides/haridusfond/images/1.jpg" />
-
--
-
-<f-image src="https://designstem.github.io/slides/haridusfond/images/5.jpg" />
-
--
-
-<f-image src="https://designstem.github.io/slides/haridusfond/images/4.jpg" />
-
--
-
-<f-image src="https://designstem.github.io/slides/haridusfond/images/6.jpg" />
-
----
-
-| gap: 0 var(--base8)
+| gap: 0 var(--base10)
 | rows: auto 1fr
-| 1 1
-| 2 3
+| 1 1 1 1 1 1 1
+| 2 2 2 2 3 3 3
 
 # Team
 
@@ -69,11 +41,15 @@ v-slot="{ value: projects }"
 
 -
 
-<p />
+<div style="height: 100px">
+
+<p/>
 
 ### {{ get('team', { name: '', bio: '' }).name }}
 
-{{ get('team', { name: '', bio: '' }).bio }}
+{{ get('team', { name: '', bio: '' }).bio.slice(0,200) }}
+
+</div>
 
 ---
 
