@@ -1,3 +1,4 @@
+| gap: var(--base10)
 
 <f-logo />
 

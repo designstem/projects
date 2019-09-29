@@ -169,14 +169,15 @@ const FAbout = {
   `
 };
 
-
 const FTags = {
-  props: ['projects', 'type', 'set'],
+  props: ["projects", "type", "set"],
   methods: { getValue: get, setValue: set },
   computed: {
     tags() {
-      const tags = unique(flatten(this.projects.map(p => parseList(p[this.type]))))
-      return tags 
+      const tags = unique(
+        flatten(this.projects.map(p => parseList(p[this.type])))
+      );
+      return tags;
     }
   },
   template: `
@@ -193,28 +194,30 @@ const FTags = {
     >{{ t }}</a>
   </f-fade>
   `
-}
+};
 
 const isActive = (project, designtags, stemtags) => {
   if (designtags && stemtags) {
-    return project.designtags.includes(designtags) && project.stemtags.includes(stemtags)
+    return (
+      project.designtags.includes(designtags) &&
+      project.stemtags.includes(stemtags)
+    );
   }
   if (designtags && !stemtags) {
-    return project.designtags.includes(designtags)
+    return project.designtags.includes(designtags);
   }
   if (!designtags && stemtags) {
-    return project.stemtags.includes(stemtags)
+    return project.stemtags.includes(stemtags);
   }
-  return true
-}
+  return true;
+};
 
 fachwerk({
   title: "Projects",
   components: { FLogo, FGrid, FImageCard, FAbout, FTeam, FTags },
   utils: { isActive },
   editor: "none",
+  menu: "none",
   type: "document",
-  menu: false,
-  pager: false,
   style: { "--image-min-height": "100px", "--content-padding": "var(--base8)" }
 });
