@@ -171,8 +171,8 @@ const FAbout = {
 
 
 const FTags = {
-  props: ['projects', 'type'],
-  methods: { get, set },
+  props: ['projects', 'type', 'set'],
+  methods: { getValue: get, setValue: set },
   computed: {
     tags() {
       const tags = unique(flatten(this.projects.map(p => parseList(p[this.type]))))
@@ -184,9 +184,9 @@ const FTags = {
     <a
       v-for="(t,i) in tags"
       :key="i"
-      @click="set('dt', t == get('dt') ? '' : t)"
+      @click="setValue(set, t == getValue(set) ? '' : t)"
       style="margin: calc(var(--base) / 2); display: block; cursor: pointer"
-      :style="get('dt') == t ? {'background':'var(--yellow)'} : {}"
+      :style="getValue(set) == t ? {'background':'var(--yellow)'} : {}"
     >{{ t }}</a>
   </f-fade>
   `

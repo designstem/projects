@@ -14,11 +14,11 @@ v-slot="{ value: projects }"
 
 ### Design
 
-<f-tags type="designtags" :projects="projects.filter(p => p.type === 'progress')" />
+<f-tags set="dt" type="designtags" :projects="projects.filter(p => p.type === 'progress')" />
 
 ### STEM
 
-<f-tags type="stemtags" :projects="projects.filter(p => p.type === 'progress')" />
+<f-tags set="st" type="stemtags" :projects="projects.filter(p => p.type === 'progress')" />
 
 </div>
 
