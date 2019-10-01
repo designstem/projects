@@ -138,7 +138,7 @@ const FAbout = {
       <!--p><big>{{ project.desc }}</big></p-->
       <a class="primary" style="--purple: var(--red); --darkpurple: var(--red);" :href="'./' + project.scenario">Go to scenario<f-rightarrow-icon /></a>
       <br><br>
-      <f-embed :src="'../' + project.scenario + '/about.md'" />
+      <f-embed :src="'./' + project.scenario + '/about.md'" />
       <br><br>
       <div v-if="project.team">
         <h3>Team</h3>
