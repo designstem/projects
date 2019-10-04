@@ -2,7 +2,7 @@
 
 <f-logo />
 
-<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>DesignSTEM is an education initiative that creates immersive experiences for future learning. We help young designers and craftsmen learn STEM topics in fun, visual and engaging way. The projects are based our <f-sidebar size="half" src="./pedagogy.md"><a href="#">5E pedagogical framework</a></f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk">Fachwerk</a> web framework.</big></big>
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>DesignSTEM is an open source, free, no-sign-in platform designed for creating, adapting and sharing interactive, user friendly, attractive e-learning objects for the integrated education of design and STEM. The sample projects are based on <f-sidebar size="half" src="./pedagogy.md"><a href="#">5E pedagogical framework</a></f-sidebar> and powered by <a href="https://designstem.github.io/fachwerk" target="_blank">Fachwerk</a> web framework.</big></big>
 
 -
 
