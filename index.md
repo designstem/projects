@@ -110,7 +110,7 @@ v-slot="{ value: projects }"
 
 #### Project Initiator and Manager
 
-Merit Karise, Kuressaare Regional Training Centre, design department 
+Merit Karise, Kuressaare Regional Training Centre (Estonia), design department 
 
 merit.karise@ametikool.ee
 
@@ -118,7 +118,7 @@ merit.karise@ametikool.ee
 
 #### Head Pedagogical Consultant 
 
-PhD Jaakko Turkka, University of Helsinki, LUMA Centre
+PhD Jaakko Turkka, University of Helsinki (Finland), LUMA Centre
 
 jaakko.turkka@helsinki.fi
 
@@ -126,7 +126,7 @@ jaakko.turkka@helsinki.fi
 
 #### Production Manager and Lead Developer
 
-Kristjan Jansen, Kuressaare Regional Training Centre, design department 
+Kristjan Jansen, Kuressaare Regional Training Centre (Estonia), design department 
 
 kristjan.jansen@gmail.com.
 
