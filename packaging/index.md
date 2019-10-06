@@ -12,7 +12,7 @@
 
 <f-notes style="--primary: var(--darkgray)" >
 
-### About
+### Learning goals
 
 In this workshop, you will look at different aspects regarding packaging design and use knowledge in mathematics to complete your final task successfully.
 

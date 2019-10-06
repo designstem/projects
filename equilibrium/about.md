@@ -1,4 +1,4 @@
-### About
+### Learning goals
 
 The aim of the scenario is to get students thinking about the serious problem of floating plastic waste that forms real plastic islands in the seas and oceans.
 The students are therefore invited to understand the physical principle that causes the floating of plastic waste, to conceive them as a resource and to design floating structures useful to society.

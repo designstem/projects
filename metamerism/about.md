@@ -1,4 +1,4 @@
-### About
+### Learning goals
 
 The workshop "Color perception/Metamerism" may be used to make students understand that different sources of light will change the way we perceive colors and that this effect is called metamerism.
 

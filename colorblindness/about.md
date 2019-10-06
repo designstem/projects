@@ -1,4 +1,4 @@
-### About
+### Learning goals
 
 The scenario on "Color Vision Deficiency and Accessibility" can be used to learn about accessibility, color design basics (such as color mixing, three properties of color, color contrast and color harmony theory, design rules for creating color palettes as well as CVD proof color palettes) and STEM related topics such as the function of the eye concerning color vision and the different types of color blindness and CVD in an integrated way. 
 

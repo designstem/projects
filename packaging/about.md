@@ -1,4 +1,4 @@
-### About
+### Learning goals
 
 Students learn how products’ packaging is strongly connected to geometrical properties; they discover and reflect about geometrical optimizations of containers in animal and vegetable worlds and, more importantly, how Nature can inspire packaging designers to reduce packaging and materials waste problems.
 
