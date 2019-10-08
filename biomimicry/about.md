@@ -1,0 +1,3 @@
+### Learning Goals and Motivation
+
+Discover why does a designer need a "biologist eye" and learn about the techniques and approaches found in nature. How can we build a better future without looking closer at what nature has taught us since the beginning of evolution? Parrots learn quickly human words by imitation, so why can’t we design a world that imitates nature in its frantic and amazing optimization. 
