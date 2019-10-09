@@ -1,6 +1,7 @@
 import {
   fachwerk,
   Vue,
+  Css,
   get,
   set,
   flatten,
@@ -11,12 +12,20 @@ const parseList = (list, separator = ",") =>
   list.split(separator).map(l => l.trim());
 
 const FLogo = {
+  mixins: [Css],
   template: `
   <big><big><big>
-    <h1>
+    <h1 class="ds-logo">
       <span style="color: var(--red); letter-spacing: -0.06ch;">Design</span><sup style="letter-spacing: -0.05ch; font-size: 0.5em">STEM</sup>
     </h1>  
   </big></big></big>
+  `,
+  css: `
+  @media (max-width: 800px) {
+    .ds-logo {
+      --base: 2vw;
+    }
+  }
   `
 };
 
