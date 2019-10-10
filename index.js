@@ -5,7 +5,8 @@ import {
   get,
   set,
   flatten,
-  unique
+  unique,
+  titlecase
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 const parseList = (list, separator = ",") =>
@@ -126,7 +127,7 @@ const FAbout = {
   props: {
     project: { default: {}, type: Object }
   },
-  methods: { get, set },
+  methods: { get, set, titlecase },
   template: `
   <f-sidebar size="half">
     <a class="quaternary" style="position: absolute; left: var(--base2); bottom: var(--base2);">About</a>
@@ -173,6 +174,22 @@ const FAbout = {
         <p v-if="project.contact == get('team',{ shortname: '' }).shortname"><a href="mailto:">{{ get('team',{ contact: '' }).contact }}</a></p>
       </div>
       <br><br>
+      <f-sheet
+        id="1lX3zJ_3jYKIsIqeoFdPa3xPiVjBy4Avd8aHKefLUmOU"
+        v-slot="{ value: terms }"
+      >
+      <div>
+        <h3>Glossary</h3>
+        <div v-for="row in terms.filter(t => t.scenario === project.scenario)">
+          <big><var>{{ row.english }}</var></big>
+          <f-table
+            :rows="Object.entries(row)
+              .filter(([key, value]) => key !== 'scenario' && key !== 'english')
+              .map(([key, value]) => ({ language: titlecase(key), term: '<var>' + value + '</var>' }))"
+          />
+        </div>
+      </div>
+      </f-sheet>
     </div>
   </f-sidebar>
   `
