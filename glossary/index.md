@@ -10,15 +10,21 @@ v-slot="{ value: terms }"
 
   <div v-for="row in terms.filter(t => t.scenario === s)">
 
-  <p />
+  <big><var>{{ row.english }}</var></big>
 
-  <var>{{ row.english }}</var>
+  <f-table :rows="Object.entries(row).filter(([key, value]) => key !== 'scenario' && key !== 'english').map(([key, value]) => ({ language: titlecase(key), term: '<var>' + value + '</var>' }))" />
 
+  #### &nbsp;
+
+
+  <!--
   <span v-for="([key, value], j) in Object.entries(row).filter(([key, value]) => key !== 'scenario' && key !== 'english')">
 
   <var class="gray">{{ value }} ({{ key }})</var>
 
   </span>
+  
+  -->
 
   </div>
 
