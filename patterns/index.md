@@ -10,7 +10,7 @@
 
 # <big>2D & 3D<br />patterns</big>
 
-Visual patterns and creative geometry go back to the beginnings of mankind. Experiment how to create rich visuals based on simple <var>geometric operations</var> and <var>repetitions</var>, after this learn how to bring the patterns to third and fourth dimension.
+Visual patterns and creative geometry go back to the beginnings of humanity. Experiment how to create rich visuals based on simple <var>geometric operations</var> and <var>repetitions</var>, after this learn how to bring the patterns to third and fourth dimension.
 
 <f-next-button title="Start" />
 
@@ -34,7 +34,7 @@ https://pxhere.com/en/photo/365034
 
 ## Look for patterns
 
-Answers these question and find some inspirational images to stimulate your brain:
+Answers this question and find some inspirational images to stimulate your brain:
 
 1. How do you **define** a pattern?
 
@@ -69,9 +69,9 @@ https://commons.wikimedia.org/wiki/Pattern#/media/File:Igreja_de_Campanha_Azulej
 
 ## Share the patterns
 
-1. Make a moodboard or poster to show others the examples of 2D & 3D pattern designs that have inspired your ideas and findings.
+1. Make a mood board or poster to show others the examples of 2D & 3D pattern designs that have inspired your ideas and findings.
 
-2. Explain during group discussions the ideas and constructions on your moodboard / poster. 
+2. Explain during group discussions the ideas and constructions on your mood board/poster. 
 
 3. Give each other feedback on the work.
 
@@ -90,9 +90,9 @@ https://commons.wikimedia.org/wiki/Pattern#/media/File:Igreja_de_Campanha_Azulej
 
 ## Textures & structures
 
-A <var>pattern</var> is made when a shape is copied repeatedly while geometric transformations are applied to it
+When a shape is copied repeatedly while geometric transformations with  applied to it, a <var>pattern</var> emerges 
 
-A<var>texture</var> is a 2D surface where the pattern is only repeated in X and Y axes. 
+A<var>texture</var> is a 2D surface where the pattern is repeated in X and Y axes. 
 
 A <var>structure</var> is a 3D object where pattern is repeated in X, Y and Z axes.
 
@@ -136,7 +136,7 @@ https://hyperglu.tumblr.com/post/149380467308/inspired-by-the-azulejo-tiles-that
 
 A <var>translation</var> is a <var class="gray">geometric transformation</var> that moves a shape in a certain direction.
 
-> Adjust the translation along the axises to see the effect
+> Adjust the translation along the axes to see the effect
 
 -
 
@@ -180,7 +180,7 @@ A <var>translation</var> is a <var class="gray">geometric transformation</var> t
 
 When <var>translation</var> is applied repeatedly, we willl see the visual patterns emerge.
 
-Here is the simple grid repetition on x and y axis.
+Here is the simple grid repetition on the x and y-axis.
 
 ##### Repetition in x-axis `{{ get('t_x2',0) }}`
 
@@ -262,7 +262,7 @@ While <var class="gray">translation</var> and <var class="gray">rotation</var> g
 
 #### 2. Repeated scaling
 
-When <var>scaling</var> is repeated, we will get multiple shapes in incrementally bigger sizes.
+When <var>scaling</var> is repeating, we will get multiple shapes in incrementally bigger sizes.
 
 ##### Maximum scaling factor `{{ get('s_s2',1) }} ×`
 
@@ -370,7 +370,7 @@ A <var>rotation</var> is a transformation that rotates a shape by a certain angl
 
 #### 2. Repeated rotation
 
-By applying rotation to an element multiple times we can create a circular set of elements with all elements having <var>rotational symmetry</var>.
+By applying rotation to an element multiple times, we can create a circular set of elements with all elements having <var>rotational symmetry</var>.
 
 ##### Number of rotations `{{ get('r_c',1) }}`
 
@@ -603,7 +603,7 @@ Choose between <var>translational</var> and <var>rotational</var> <var class="gr
 
 #### 5. Bring in creativity
 
-To get more creative you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
+To get more creative, you can adjust the blend mode of the elements, creating a whole new set of pattern variations.
 
 <f-buttons :value="get('c_m',1)" v-on:value="v => set('c_m',v)" :buttons="['normal','multiply','difference']"  />
 
@@ -617,15 +617,15 @@ To get more creative you can adjust the blend mode of the elements, creating a w
 ## The fourth dimension: time
 
 
-Another addition to designing patterns could be the fourth dimension: time. This can be achieved with **light** (moving shadows alter the 3D view as well), **rhythm** (tapping to a song is a pattern...), **nature**, etc. 
+Another addition to designing patterns could be the fourth dimension: time. Examples include **light** (moving shadows alter the 3D view as well), **rhythm** (tapping to a song is a pattern), **nature**, etc. 
 
-* Even rituals, social habits and cultures show a wide range of patterns. Can you name a few examples of these kind of patterns?
+* Even rituals, social habits, and cultures show a wide range of patterns. Can you name a few examples of this kind of patterns?
 
-* Go explore the adding of 4D to your patterns. 
+* Explore the adding of 4D to your patterns. 
 
 * What could be the changes to your designs? How do you sense it?
 
-* What would be the purpose for your pattern? Can you explain why?
+* What would be the purpose of your pattern? Can you explain why?
 
 -
 
@@ -646,13 +646,13 @@ Another addition to designing patterns could be the fourth dimension: time. This
 
 ### 1.
 
-Now that you improved your knowledge and skills, find a way to produce your pattern, texture or structure. You can use stamp, stencil, cut out vinyl, 3D printers, laser cutters, AR/VR... Get your skates on!
+Now that you improved your knowledge and skills, find a way to produce your pattern, texture, or structure. You can use a stamp, stencil, cut out vinyl, 3D printers, laser cutters, AR/VR... Get your skates on!
 
 -
 
 ### 2.
 
-When you think you're done with making your best 2D/3D pattern, find at least two students to get peer reviews. You will need them in the next stage to make improvements to the design.
+When you complete your 2D/3D pattern, find at least two students to get peer reviews. You will need them in the next stage to make improvements to the design.
 
 ---
 
@@ -660,9 +660,9 @@ When you think you're done with making your best 2D/3D pattern, find at least tw
 
 ## Evaluation of your pattern skills 
 
-After having worked with this scenario, your pattern skills have grown. Describe here what you have learned, for instance using these questions:
+After having worked with this scenario, your pattern skills have grown. Describe here what you have learned, for instance, using these questions:
 
-* How was your skills level on patterns before you started this scenario?
+* How was your skill level on patterns before you started this scenario?
 
 * What was your main goal with this exercise?
 

@@ -119,7 +119,7 @@
 
 ## Design problem 🤔
 
-~There are birds that rely heavily on human made nesting boxes.~
+~ Some birds rely heavily on human-made nesting boxes.~
 
 #### Find out….
 
@@ -135,7 +135,7 @@
 <f-notes title="Credits">
 
 Image source:
-Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-planter
+Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-planter
 
 </f-notes>
 
@@ -149,7 +149,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 
-| section: Why polyhedral shape?
+| section: Why the polyhedral shape?
 | 1 1
 | 2 3
 | rows: auto
@@ -170,7 +170,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 <blockquote style="background: none;">
 
-  ~Let's think of our nesting box as a **small-scale model to solve much bigger problems**.👉~
+  ~Let's think of our nesting box as a **small-scale model to solve much more significant problems**.👉~
 
 </blockquote>
 
@@ -226,7 +226,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ## 3.
 
-~Create prototype of nesting box using cardboard or paper.~
+~Create a prototype of nesting box using cardboard or paper.~
 
 -
 
@@ -323,7 +323,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 
-| section: Simplyfying the polyhedra
+| section: Simplifying the polyhedra
 | height: 100vh
 | rows: auto 1fr auto
 | 1 1 1
@@ -477,7 +477,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 -
 
-> ~**Triangle is the basic element** that polygons and polyhedra are made of.~
+> ~**Triangle is the fundamental element** that polygons and polyhedra are made of.~
 
 
 ~So let’s see, what type of triangles exist and what kind of relations exist between triangle’s sides and angles, that we can use in our project.~
@@ -606,7 +606,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 <small>*By the way, the equilateral triangle itself is the simplest regular polygon.*</small>
 
-~So, in order to build a polyhedron, let’s first get familiar with it’s sides – **the polygons**.~
+~So, to build a polyhedron, let’s first get familiar with its sides – **the polygons**.~
 
 <!-- <f-sidebar src="math-polygon.md" title="Geometry of polygons" width="60vw" overlay />  -->
 
@@ -652,7 +652,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ## Simplification of polygons 
 
-~🤔 Looking at these polygons below, **how would you simplify these shapes** *(based on what you know for now about triangles)* to calculate angles, sides, circumference, area etc of the polygon?~ 
+~🤔 Looking at these polygons below, **how would you simplify these shapes** *(based on what you know for now about triangles)* to calculate angles, sides, circumference, area, etc .of the polygon?~ 
 
 -
 
@@ -781,7 +781,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ~Step by step we are getting closer to our final task &ndash; a **polyhedral shape**.~
 
-~We now know about **triangles**, that can be used to make a **polygon** *(regular polygons in our case)*. And regular polygons, combined together in certain manner, form the sides of a **regular polyhedron**.~
+~We now know about **triangles**, that can be used to make a **polygon** *(regular polygons in our case)*. And regular polygons, combined in a specific manner, form the sides of a **regular polyhedron**.~
 
 &nbsp;
 
@@ -876,7 +876,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 
 
-| section: Simplification of polyhedron
+| section: Simplification of the polyhedron
 
 | rows: auto
 | height: 100vh
@@ -885,7 +885,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | 5 3 4
 
 
-## Simplification of polyhedron
+## Simplification of the polyhedron
 
 -
 
@@ -958,7 +958,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 | 4 3 
 
 
-## Simplification of polyhedron
+## Simplification of the polyhedron
 
 -
 
@@ -966,7 +966,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 - ~The first one, <var>Icosahedron</var>, had triangular faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" size="half" overlay />, to make the calculations.~ 
 
-- ~The second one, <var>Dodecahedron</var>, was a bit more complicated, because its sides are **polygons** *(pentagons)*, so you need an extra step:~
+- ~The second one, <var>Dodecahedron</var>, was a bit more complicated because its sides are **polygons** *(pentagons)*, so you need an extra step:~
 
 1. ~first: **find polygons**, and~ 
 2. ~then: **divide polygons to triangles**~
@@ -1025,9 +1025,9 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 ## Material thickness
 
-~If we'd made a nesting box from paper or some other material that has no (or almost almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
+~If we'd made a nesting box from paper or some other material that has no (or almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
 
-~We have to **cut the edges of material at certain angle**, so that they could fit together.~
+~We have to **cut the edges of material at certain angle** so that they could fit together.~
 
 > ~**The angle between polyhedron sides is called Dihedral angle**~
 
@@ -1183,7 +1183,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 <div class="center-vertical">
 
-  ~If you imagine of a regular polyhedron, that is made of **solid material** and you want to separate all its sides so, that you end up with **similar congruent pieces**.~
+  ~If you imagine of a regular polyhedron that is made of **solid material** and you want to separate all its sides so, that you end up with **similar congruent pieces**.~
   
   &nbsp;
   
@@ -1384,7 +1384,7 @@ Bird box by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-p
 
 </blockquote>
 
-~In our case we deal with **regular pyramids**, where the base is **regular polygon** and apex is exactly above the **center of the base**.~
+~In our case we deal with **regular pyramids**, where the base is **regular polygon** and the apex is precisely above the **center of the base**.~
 
 &nbsp;
 
