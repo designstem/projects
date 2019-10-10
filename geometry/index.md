@@ -26,9 +26,9 @@
 
 3. Icosahedron explanation
 
-4. How can math model be base for designing the useful object? What creates difference? See https://foroalfa.org/en/articles/from-the-useful-object-to-the-object-tool
+4. How can the math model be base for designing a useful object? What creates a difference? See https://foroalfa.org/en/articles/from-the-useful-object-to-the-object-tool
 
-5. Based on the modular polyhedra model create your object by changing triangle shape so you can't recognize geometry, from geometry to model with emotion and character.
+5. Based on the modular polyhedra model, create your object by changing triangle shape so you can't recognize geometry, from geometry to model with emotion and character.
 
 </f-notes>
 
@@ -109,7 +109,7 @@ It has been suggested that the regular icosahedron is the first example of a geo
 
 ## Viruses
 
-...probably because icosahedrons can't be seen in nature with the naked eye. At microscopic scale things can be different - viruses can be of various geometric shapes, including icosahedra. This is a diagram of an Adenovirus.
+...probably because icosahedrons can't be seen in nature with the naked eye. At the microscopic scale, things can be different - viruses can be of various geometric shapes, including icosahedra. This is a diagram of an Adenovirus.
 
 https://www.khanacademy.org/science/high-school-biology/hs-human-body-systems/hs-the-immune-system/a/intro-to-viruses
 
@@ -144,7 +144,7 @@ Let's make some polyhedra of our own!
 
 ## Let's make a _polyhedra_ model!
 
-One way to make a _polyhedra_ model is by **folding** paper and glueing it together. To do that, you can:
+One way to make a _polyhedra_ model is by **folding** paper and gluing it together. To do that, you can:
 
 1. Print out a worksheet on a plain A3 paper
 
@@ -171,7 +171,7 @@ One way to make a _polyhedra_ model is by **folding** paper and glueing it toget
 
 **which uses a two-dimensional shape to create a three-dimensional object**
 
-Nature has been called the greatest designer. Lets learn nature’s design process and be creative ourselves. How does nature create? **Repetition**, repeating patterns.
+Nature has been called the greatest designer. Let us learn nature’s design process and are creative ourselves. How does nature create? **Repetition**, repeating patterns.
 
 Geometric patterns are a useful tool in graphic design, but not only. Geometric 3D models can give ideas for creating everyday domestic objects with beauty and character.
 
@@ -254,16 +254,16 @@ https://www.halodesign.dk/brands/iq-light/
 
 | background: ./images/photo2.jpg
 | theme: dark
-| chapter: Math, design and feelings
+| chapter: Math, design, and feelings
 | section: Math model as a base for design
 
 <center>
 
 <section>
 
-# Geometric models as a base for design
+# Geometric models as a base for a design
 
-Let's look at some examples of polyhedra in product design
+Let's look at some examples of polyhedra in product design.
 
 </section>
 
@@ -319,7 +319,7 @@ https://www.amazon.ca/Ikea-Joxtrop-Renewable-Lampshade-Cardboard/dp/B01LXV2N2S
 ---
 
 | theme: light
-| chapter: Math, design and feelings
+| chapter: Math, design, and feelings
 | section: Math model as a base for design
 
 <center>
@@ -348,11 +348,11 @@ Discuss!
 
 ## Why paper?
 
-We are reaching the end of our short geometrical journey, but — ~_why use your hands and paper?_~ — may you ask.
+We are reaching the end of our short geometrical journey, but — ~_why use your hands and paper?_~ — may you ask?
 
-Alongside _high-tech trends_, it is just as important to experiment with your own hands. Using our hands will eventually lead us to a world of complex design and science.
+Alongside _high-tech trends_, it is just as important to experiment with your own hands. Using our hands will eventually lead us to a world of sophisticated design and science.
 
-As in the digital world, there is no limit to hands-on method, moreover, expanding its boundaries is equally accessible to everyone.
+As in the digital world, there is no limit to the hands-on method, moreover, expanding its boundaries is equally accessible to everyone.
 
 Let's start with **the humble sheet of paper**, an ordinary and available material.
 
@@ -370,7 +370,7 @@ Let's start with **the humble sheet of paper**, an ordinary and available materi
 
 #### Related DesignSTEM projects
 
-<a href="../triangles">Looking for Triangles</a> offers a comprehensive set interactive tools for exploring polyhedrons and understanding the math behind them.
+<a href="../triangles">Looking for Triangles</a> offers a comprehensive set of interactive tools for exploring polyhedrons and understanding the math behind them.
 
 #### Other materials
 
