@@ -105,7 +105,7 @@ const FTeam = {
   template: `
   <f-sheet id="1-WsazYAKboddKOCkfImHCY6V7Wy-ztIs4qhyYumeAqw" v-slot="{ value: allTeams }">
     <slot :teams="filteredTeams(allTeams)">
-      <f-grid gap="0" :cols="'repeat(' + cols + ', 1fr)'">
+      <f-grid gap="0" :cols="'repeat(' + cols + ', 1fr)'" style="--mobile-cols:1fr 1fr 1fr">
         <template v-for="(t, i) in filteredTeams(allTeams)">
           <img
             :key="i"
