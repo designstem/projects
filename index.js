@@ -90,7 +90,7 @@ const FTeam = {
   components: { FGrid },
   props: {
     team: { default: "", type: String },
-    cols: { default: 13, type: [String, Number] }
+    cols: { default: 10, type: [String, Number] }
   },
   data: () => ({
     currentTeam: -1
