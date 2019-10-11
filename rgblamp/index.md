@@ -36,7 +36,7 @@ https://www2.meethue.com/en-us
 
 -
 
-Look at the [Philips hue](https://www2.meethue.com/en-us) commercial on the right. Dicuss the following questions. Write down your answers:
+Look at the [Philips hue](https://www2.meethue.com/en-us) commercial on the right. Discuss the following questions. Write down your answers:
 
 1. What problem does the product solve?
   
@@ -95,7 +95,7 @@ Find out more about engineering design process</f-link>
 ---
 
 | chapter: Research
-| section: Before you can design...
+| section: Before you can design
 
 | 1 1 1
 | 2 2 3
@@ -111,7 +111,7 @@ Find out more about engineering design process</f-link>
 
 -
 
-# Before you can design...
+# Before you can design
 
 **Do some background research first!**
 
@@ -119,7 +119,7 @@ On the following pages, you will learn from the experience of others — this ca
 
 **Take notes of the core facts, while you read through the pages**
 
-You will need this information for your final task
+You will need this information for your final task.
 
 -
 
@@ -133,8 +133,8 @@ You will need this information for your final task
 
 ## Different functions of colored light
 
-1. Find another example of a light object where the main function is a decorative. 
-2. What would you change in order to make it more engaging?
+1. Find another example of a light object where the primary function is decorative. 
+2. What would you change to make it more engaging?
 3. Can you come up with further uses other than in the videos on the right?
 
 -
@@ -168,8 +168,8 @@ You will need this information for your final task
 
 ## Light for information or communication
 
-1. In which situations would you use light as communicator?
-2. Have you ever been in a situation where you needed to rely on light to communicate? 
+1. In which situations would you use light as a communicator?
+2. Have you ever been in a case where you needed to rely on light to communicate? 
 
 Share your story with your classmates. What happened? What did you do?  Collect these stories. 
 
@@ -196,7 +196,7 @@ https://commons.wikimedia.org/wiki/Lighthouse#/media/File:Ocracoke_Lighthouse_wi
 
 <var>Biodynamic lighting</var> is an artificial light source that replicates the dynamic variations of daylight and sunlight through a light management system.
 
-<var>Chronobiology</var> is a field of biology that examines periodic (cyclic) phenomena in living organisms and their adaptation to solar- and lunar-related rhythms.
+<var>Chronobiology</var> is a field of biology that examines periodic (cyclic) phenomena in living organisms and their adaptation to solar- and lunar related rhythms.
 
 <br>
 
@@ -241,7 +241,7 @@ Why is that?
 
 <var style="color: #1982c4">This airplane shows blueish light<br>to keep you more awake in order to abate your jetlag.</var><br> 
 
-Why does blue light keep you awake and<br>yellow light make you sleepy? Find out!
+Why does blue light keep you awake, and<br>yellow light makes you sleepy? Find out!
 
 <br>
 
@@ -264,13 +264,13 @@ https://en.wikipedia.org/wiki/Delta_Air_Lines#/media/File:Interior_of_Delta_Air_
 
 ## Light and plants
 
-Did you know, that light is one of the most important factors in healthy plant growth? Plants, unlike humans, can make their own food through a process called photosynthesis.
+Did you know that light is one of the most critical factors in healthy plant growth? Plants, unlike humans, can make their food through a process called photosynthesis.
 
 The correct color of light, along with water and nutrient soil, will provide a plant with the sustenance of life.
 
 **By the way, plants prefer blue and red light.**
 
-These two color qualities have the greatest influence on how a plant grows. Blue lights' responsibility is to promote leaf and vegetable growth, while red, when combined with blue, will make a plant flower.
+These two-color qualities have the most significant influence on how a plant grows. Blue lights' responsibility is to promote leaf and vegetable growth, while red when combined with blue, will make a plant flower.
 
 <br>
 
@@ -300,9 +300,9 @@ Further, colored light is used in stores to make certain products more attractiv
 
 1. Find out about the term **color temperature**.
 
-2. Is it really a temperature, i.e. is the color hot or cold?
+2. Is it really a temperature, i.e., is the color hot or cold?
 
-3. In the example they use blue light for fish counters. Why is that?
+3. In the example, they use blue light for fish counters. Why is that?
 
 4. Where else could this knowledge be used, other than in the supermarket?
 
@@ -351,7 +351,7 @@ https://commons.wikimedia.org/w/index.php?sort=relevance&search=meat+counter&tit
 
 ### 1. Specify Requirements
 
-<!--Design requirements state the important characteristics that your solution must meet to succeed.-->
+<!--Design requirements state the essential characteristics that your solution must meet to succeed.-->
 
 One of the best ways to identify the design requirements for your solution is to analyze the concrete example of a similar, existing product, noting each of its key features.
 
@@ -359,7 +359,7 @@ One of the best ways to identify the design requirements for your solution is to
 
 ### 2. Brainstorm Solutions
 
-There are always many ways for solving design problems. If you focus on just one before looking at the alternatives, it is almost certain that you are overlooking a better solution. Good designers try to generate as many possible solutions as they can. This not only applies to brand design and product design, but also to architecture and other design fields. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
+There are always many ways of solving design problems. If you focus on just one before looking at the alternatives, it is almost certain that you are overlooking a better solution. Good designers try to generate as many possible solutions as they can. This not only applies to brand design and product design but also architecture and other design fields. <f-link to="https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps">Read more</a>
 
 
 <br>
@@ -387,7 +387,7 @@ There are always many ways for solving design problems. If you focus on just one
 
 <section style="padding-top: var(--base2);">
 
-In the final task, you will design your own RGB lamp! But not just a pretty lamp, but one with a <var>specific function</var>.
+In the final task, you will design your RGB lamp! But not just a pretty lamp, but one with a <var>specific function</var>.
 
 Before your planning goes into detail on the next slide (which will help you on your design journey), **let's do some brainstorming!** 
 
@@ -399,7 +399,7 @@ Before your planning goes into detail on the next slide (which will help you on 
 
 **Think of a situation in your everyday life, where an RGB lamp might be useful**. 
 
-Think back to the **Philips hue** - they used it for deaf people to indicate that the doorbell rang. Maybe an RGB lamp that is tailored to someones' needs, might be useful for your friend, family or even you? Where could you use it? At home? At school? In which situations would it be useful? In the morning? While you play video games? While you eat?
+Think back to the **Philips hue** - they used it for deaf people to indicate that the doorbell rang. Maybe an RGB lamp that is tailored to someones' needs might be useful for your friend, family, or even you? Where could you use it? At home? At school? In which situations would it be useful? In the morning? While you play video games? While you eat?
 
 **When you have come up with a rough idea of what you want to produce, let's move to next step**
 
@@ -434,9 +434,9 @@ https://www.flickr.com/photos/62449696@N00/9522596028
 
 <section style="padding-top: 0">
 
-You have still got your rough idea in mind? Then let's start planning! 🙂
+Have you still got your rough idea in mind? Then let's start planning! 🙂
 
-**Write down as many idea as possible, more than one ideea is a requirement**
+**Write down as many ideas as possible, more than one idea is a requirement**
 
 When you answer these questions, try to be *as precise as possible.* The better you plan, the better the outcome. Take your time and don't rush it.
 
@@ -450,13 +450,13 @@ When you answer these questions, try to be *as precise as possible.* The better 
 
 1. What is your target group? Is there a certain person that you will design it for? What does your target group need or expect?
 
-2. What is its basic function? Remember your research results of before e.g. information, communication, health, psychology...
+2. What is its primary function? Remember your research results before e.g., information, communication, health, psychology.
 
 3. Which properties/features does your lamp need according to your target group and the situation that it will be used in?
 
 4. In which way will your RGB lamp interact with the environment or people?
 
-5. Which input from the environment does your lamp react to (e.g. time, light, noise, music, temperature, heart rate, feelings...)?
+5. Which input from the environment does your lamp react to (e.g., time, light, noise, music, temperature, heart rate, feelings...)?
 
 </section>
 
@@ -485,7 +485,7 @@ When you answer these questions, try to be *as precise as possible.* The better 
 
 -
 
-### 1. Choose best idea
+### 1. Choose the best idea
 
 Look at whether each possible solution/idea meets your design requirements. Some solutions probably meet more requirements than others. Reject solutions that do not meet the requirements!
 
@@ -493,7 +493,7 @@ Look at whether each possible solution/idea meets your design requirements. Some
 
 ### 2. Develop the idea
 
-Development involves the refinement and improvement of an idea, and it continues throughout the design process, often even after a product ships to customers.
+Development involves the refinement and improvement of an idea, and it continues throughout the design process, often even after product ships to customers.
 -
 
 ### 3. Test and redesign
@@ -518,7 +518,7 @@ Don't stop developing, even if you are content with the result in between. **The
 
 Before you start to build your RGB lamp, you need to understand how RGB works. 
 
-The RGB color model is an <var>additive color model</var> in which red, green and blue light are added together to reproduce a broad array of colors. Our eyes also work with RGB, because we have red, green and blue cones in our retina.
+The RGB color model is an <var>additive color model</var> in which red, green, and blue light are added together to reproduce a broad array of colors. Our eyes also work with RGB because we have red, green, and blue cones in our retina.
 
 -
 
@@ -530,7 +530,7 @@ The RGB color model is an <var>additive color model</var> in which red, green an
 
 <f-slider title="Blue" value="196" to="255" integer set="b" />
 
-For further information, see also the workshop on  <a href="../colorblindness/">Color Vision Deficiency</a> There you will find a detailed explanation on the RGB model and also tasks that will help you understand it better.
+For further information, see also the workshop on  <a href="../colorblindness/">Color Vision Deficiency</a> There you will find a detailed explanation of the RGB model and also tasks that will help you understand it better.
 
 -
 
@@ -556,7 +556,7 @@ For further information, see also the workshop on  <a href="../colorblindness/">
 | 2 3
 | rows: auto 1fr
 
-## How many bits are needed to for RGB color?
+## How many bits are needed for RGB color?
 
 -
 
@@ -581,7 +581,7 @@ Bits|Colors|Description
 
 #### 🤔 Think
 
-How do red, green and blue lights added together in various ways reproduce a broad array of colors?
+How do red, green, and blue lights added together in various ways reproduce a broad array of colors?
 
 #### 🎛️ Play
 
@@ -591,7 +591,7 @@ Play with the following e-tools to find out:
 
 #### 🤔 Think
 
-Which colours will you be able to obtain?
+Which colors will you be able to obtain?
 
 -
 
@@ -599,7 +599,7 @@ Which colours will you be able to obtain?
 
 #### 🤔 Think
 
-How you can describe the changing of the lamps' colors?
+How can you describe the changing of the lamps' colors?
 
 #### 🎛️ Play
 
@@ -607,7 +607,7 @@ Play with <a class="tertiary" href="https://designstem.github.io/scenarios/rgbla
 
 #### 🤔 Think
 
-Find out which sequence of colours are you able to obtain?
+Find out which sequence of colors are you able to obtain?
 
 
 <br>
@@ -673,7 +673,7 @@ Hot|Red|`200`|`0`|`10`
 
 ### 1. Build a Prototype
 
-A prototype is an operating version of a solution. Often it is made with different materials than the final version, and generally it is not as polished. Prototypes are a key step in the development of a final solution, allowing the designer to test how the solution will work. 
+A prototype is an operating version of a solution. Often it is made with different materials than the final version, and generally, it is not as polished. Prototypes are a key step in the development of an ultimate solution, allowing the designer to test how the solution will work. 
 
 -
 
@@ -695,10 +695,10 @@ The design process involves multiple iterations and redesigns of your final solu
 
 ### Key steps
 
-1. Based on your analysis and your planning before, make a scribble of your lamp and lampshade. Remember not only to draw it from the front, but also from the side and from above as a reference for your production.
+1. Based on your analysis and your planning before, make a scribble of your lamp and lampshade. Remember not only to draw it from the front but also from the side and from above as a reference for your production.
 2. Use cardboard or any other material of your choice and create a dummy for your lampshade. This dummy should help you and others visualize how it will look like and also to find flaws in the design, which you need to eliminate.
-3. Based on your dummy, analyse your product and correct it if neccessary.
-4. Discuss your protoype in class.
+3. Based on your dummy, analyze your product and correct it if necessary.
+4. Discuss your prototype in class.
 
 -
 
@@ -712,7 +712,7 @@ The design process involves multiple iterations and redesigns of your final solu
 
 <br>
 
-Use the following tutorial videos, to help you get started on producing a functioning RGB lamp!
+Use the following tutorial videos to help you get started on producing a functioning RGB lamp!
 -
 
 <f-video src="https://www.youtube.com/watch?v=IPOHARgRLE0" />
@@ -747,7 +747,7 @@ Component|Name|Quantity
 ---|---|---
 Arduino Uno R3|U1|`1`
 1 LED RGB|D1|`1`
-220 Ω resistor|R1, R2, R3|`3` 
+220 Ω resistor|R1, R2, R3|`3` 
 
 
 <br>
@@ -779,8 +779,8 @@ Component|Name|Quantity
 ---|---|---
 Arduino Uno R3|U1|`1`
 LED RGB|D1|`1`
-330 Ω resistor|R1, R2, R3|`3`
-250 kΩ potentiometer|Rpot1, Rpot2, Rpot3|`3`
+330 Ω resistor|R1, R2, R3|`3`
+250 kΩ potentiometer|Rpot1, Rpot2, Rpot3|`3`
 
 
 <br>
@@ -811,7 +811,7 @@ Component|Name|Quantity
 ---|---|---
 Arduino Uno R3|U1|`1`
 LED RGB|D1|`1`
-1 kΩ resistor|R2, R4|`2`
+1 kΩ resistor|R2, R4|`2`
 Temperature sensor TMP36|U1|`1`
 
 <br>
@@ -837,7 +837,7 @@ Temperature sensor TMP36|U1|`1`
 
 ## Build your RGB lamp
 
-Based on the access to physical hardware, build either a **virtual** RGB lamp using <f-link to="https://www.tinkercad.com/">Tinkercad</f-link> or a **phsyical** prototype using Arduino and related hardware.
+Based on the access to physical hardware, build either a **virtual** RGB lamp using <f-link to="https://www.tinkercad.com/">Tinkercad</f-link> or a **physical** prototype using Arduino and related hardware.
 
 
 <br>
@@ -891,8 +891,8 @@ https://www.instructables.com/id/RGB-Lamp/
 
 #### TASKS
 
-1. Build a complete prototype, i.e. combine your lamp shade with your RGB lamp
-2. Write a short essay, documenting your design process and explaining your design choices.
+1. Build a complete prototype, i.e., combine your lampshade with your RGB lamp
+2. Write a short essay, documenting your design process, and explaining your design choices.
 3. Be prepared to present your results
 
 <br>
@@ -920,7 +920,7 @@ Remember the [Philips hue](https://www2.meethue.com/en-us) commercial? Watch it 
 
 1. Who promotes the product?
   
-2. How is the music is used?
+2. How is music used?
 
 3. How often do you see the actual product and the app controlling it?
 
@@ -954,13 +954,13 @@ How will you make people interested in what you did? Follow the questions below,
 #### TASKS
 
 1. Describe your ideal customer.
-2. In which way, does your product add value to the customer's life?
+2. In which way does your product add value to the customer's life?
 3. How can you articulate this value to the customer in 15 words or less? Can you put it in just one slogan?
 4. Why is your idea better than the alternatives?
 
 <br>
 
-Create an outline for your presentation, to convince your audience of your product's value. Think of the story telling of good movies: They start with an interesting beginning (a riddle), then build up to the solution and have a grande finale!
+Create an outline for your presentation to convince your audience of your product's value. Think of the storytelling of good movies: They start with an exciting beginning (a riddle), then build-up to the solution and have a grande finale!
 
 
 <br>
@@ -980,7 +980,7 @@ Create an outline for your presentation, to convince your audience of your produ
 
 **So what did you learn?**
 
-Think back of what was new for you in this project? Reflect on which info you already knew about and what was completely new about it.
+Think back to what was new for you in this project? Reflect on which info you already knew about and what was unique about it.
 
 Are there any interesting facts, which might be useful for you in your further life?
 
@@ -991,7 +991,7 @@ Are there any interesting facts, which might be useful for you in your further l
 &nbsp;|5|4|3|2|Grades
 --- |--- |--- |--- |--- |---
 **Creativity**|Excellent work|Work with some original ideas|Lack of original work|Copied work
-**Quality**|Accurate. All elements are designed accurately|Really good. Most elements are  designed accurately|Good. Needs some reviewing|Needs reviewing
+**Quality**|Accurate. All elements are designed accurately|Really good. Most elements are designed accurately|Good. Needs some reviewing|Needs reviewing
 **Cooperation**|Perfect|Really good|Good|Needs reviewing
 **Quality**|Accurate. All phases have been accurately followed|Really good. Most of the work has been accurately done|Good. Needs some reviewing|Needs reviewing
 
@@ -1011,7 +1011,7 @@ Are there any interesting facts, which might be useful for you in your further l
 
 #### Other materials
 
-[Your Friendly Guide to Colors in Data Visualisation](https://blog.datawrapper.de/colorguide/) by Lisa Charlotte Rost is a super rich guide to digital color in general. 
+[Your Friendly Guide to Colors in Data Visualisation](https://blog.datawrapper.de/colorguide/) by Lisa Charlotte Rost is a super-rich guide to digital color in general. 
 
 <f-link class="tertiary" to=".."><f-leftarrow-icon /> Back to projects</f-link>
 
