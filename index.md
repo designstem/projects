@@ -68,9 +68,10 @@ v-slot="{ value: projects }"
 ---
 
 | gap: 0 var(--base10)
-| rows: auto 1fr
-| 1 1 1 1 1 1 1
-| 2 2 2 2 3 3 3
+| cols: 2fr 1fr
+| 1 1
+| 2 3
+
 
 # Team
 
@@ -80,19 +81,21 @@ v-slot="{ value: projects }"
 
 -
 
-<div style="height: 100px">
 
-<p/>
-
-### {{ get('team', { name: '', bio: '' }).name }}
-
-{{ get('team', { name: '', bio: '' }).bio.slice(0,200) }}
-
-</div>
 
 ---
 
 | padding: 0
+
+<p />
+
+<div class="bio">
+
+  ### {{ get('team', { name: '', bio: '' }).name }}
+
+  {{ get('team', { name: '', bio: '' }).bio.slice(0,200) }}
+    
+</div>
 
 <f-team @team="team => set('team', team)" />
 

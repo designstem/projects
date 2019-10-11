@@ -30,7 +30,7 @@ https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
 
 <section>
 
-## How does this image makes you feel?
+## How does the image make you feel?
 
 We all know that we can not keep on wasting natural resources and exhausting our planet.
 
