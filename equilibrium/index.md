@@ -28,7 +28,7 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 ## Plastic pollution
 
-Our sea is covered by "plastic floating islands", because plastic can not only sink but also float. It pollutes the sea at all depths.
+Our sea is covered by "plastic floating islands" because plastic can not only sink but also float. It pollutes the sea at all depths.
 
 <br>
 
@@ -38,7 +38,7 @@ Our sea is covered by "plastic floating islands", because plastic can not only s
 
 2. How does the video make you feel?
 
-3. Did you ever come across water pollution like this close to where you live (for example in lakes or rivers)?
+3. Did you ever come across water pollution like this close to where you live (for example, in lakes or rivers)?
 
 4. Find out about organizations that try to counteract sea pollution.
 
@@ -77,7 +77,7 @@ Plastic is a multi-purpose material. There are different categories of plastic, 
 
   <var>PET&nbsp; LDPE&nbsp; PP&nbsp; HDPE&nbsp; PVC&nbsp; PS</var>
 
-2. Not only find out about their properties, but also about their main usage.
+2. Not only find out about their properties but also about their primary usage.
 
 3. When you are done <a class="tertiary" href="../plastics" target="_blank">learn how plastic floats and sinks</a> and therefore in which way plastic causes sea pollution.
 
@@ -102,7 +102,7 @@ Plastic is a multi-purpose material. There are different categories of plastic, 
 
 ## The bad news is...
 
-Plastic is everywhere and poisons our environment. It not only destroys nature, but also **kills animals**, who eat it, suffocate by it or get trapped in it. And in the end, through the food chain, it also affects our health.
+Plastic is everywhere and poisons our environment. It destroys not only nature, but also **kills animals**, who eat it, suffocate by it, or get trapped in it. And in the end, through the food chain, it also affects our health.
 
 <br>
 
@@ -110,9 +110,9 @@ Plastic is everywhere and poisons our environment. It not only destroys nature, 
 
 ### Get informed!
 
-You can find more information on this via <f-link to="https://www.peta.org/">PeTA</f-link>. Search for **plastic** and you will find many articles which are related to plastic hurting animals.
+You can find more information on this via <f-link to="https://www.peta.org/">PeTA</f-link>. Search for **plastic**, and you will find many articles that are related to plastic hurting animals.
 
-Further you can find more information on plastic destroying nature via <f-link to="https://www.greenpeace.org/international/">Greenpeace</f-link>. Also search for the keyword **plastic** and find out where it destroys nature's beauty.
+Further you can find more information on plastic destroying nature via <f-link to="https://www.greenpeace.org/international/">Greenpeace</f-link>. Also, search for the keyword **plastic** and find out where it destroys nature's beauty.
 
 <br>
 
@@ -144,10 +144,10 @@ There are eco friendly substitutes for plastic, that you can use. See the links 
 
 <caption>💻👁️💬 Observe, research and discuss</caption>
 
-1. Find other eco friendly substitutes for plastic or other similar projects.
-2. Look around at your home. How much plastic do you use? Find out if there are alternatives for items made of plastic, e.g. there are toothbrushes made of bamboo.
+1. Find other eco-friendly substitutes for plastic or other similar projects.
+2. Look around at your home. How much plastic do you use? Find out if there are alternatives for items made of plastic, e.g., there are toothbrushes made of bamboo.
 3. Come up with ideas on how to avoid plastic in your everyday life. Use the internet as a research tool.
-4. Discuss your ideas in class. Is it very difficult to be eco friendly?
+4. Discuss your thoughts in class. Is it challenging to be eco-friendly?
 
 <br>
 
@@ -178,9 +178,9 @@ https://commons.wikimedia.org/wiki/File:BiodegradablePlasticUtensils1.jpg
 
 ## Plastic reuse & art
 
-So plastic can also be used to make you walk on water, see <a href="https://christojeanneclaude.net/projects/the-floating-piers">Christo "The Floating Piers", 2016
+So plastic can also be used to make you walk on water, see <a href="https://christojeanneclaude.net/projects/the-floating-piers">Christo "The Floating Piers," 2016
 
-1. What are your feelings about this installation? Is it interesting, beautiful or even stupid and redundant? Find out about the artists' reasons for creating it.
+1. What are your feelings about this installation? Is it interesting, beautiful, or even stupid and redundant? Find out about the artists' reasons for creating it.
 
 2. Which physical laws are used in this example to keep the piers floating even when people walked on them? **Focus on the following two terms** and find out what they mean. Write down your results:
 
@@ -215,9 +215,9 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 1. Collect plastic objects around you in your everyday life. Find as many as you can.  
 
-2. Research the type of plastic they are made of. What is their floating or sinking behaviour?
+2. Research the type of plastic they are made of. What is their floating or sinking behavior?
 
-3. Design a boat or other floating structure. You can build it for one person or several people. Try to make your design work. <a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">Use this example as a clue</a>. If there is no lake or river close to you, you can also build a smaller version of your boat and test it in the sink or bath tub.
+3. Design a boat or other floating structure. You can build it for one person or several people. Try to make your design work. <a href="https://observers.france24.com/en/20170804-tunisia-holds-world-first-sea-race-boats-made-out-recycled-materials" target="_new">Use this example as a clue</a>. If there is no lake or river close to you, you can also build a smaller version of your boat and test it in the sink or bathtub.
 
 4. Verify that a boat can float even if it is made out of plastic that usually sinks. What is the reason for it? For further information, see this link: <a href="https://www.youtube.com/watch?v=xniW3_afO-0" target="_blank">How do ships float?</a>
 
@@ -264,13 +264,13 @@ Calculate how many grams of water the boat can hold (1 ml of water = 1 g).
 
 ##### 3.
 
-Float the empty boat and start adding quarters, one at a time. Add them slowly so you don’t flip the boat over! What happens to the boat as you add quarters? How many quarters does it take to sink the boat?
+Float the empty boat and start adding quarters, one at a time. Add them slowly, so you don’t flip the boat over! What happens to the boat as you add quarters? How many quarters does it take to sink the boat?
 
 -
 
 ##### 4.
 
-Calculate how many grams of quarters were needed to sink the boat. One quarter of water has a mass of about 5.67 g.
+Calculate how many grams of quarters were needed to sink the boat. One-quarter of water has a mass of about 5.67 g.
 
 ##### 5.
 
@@ -359,7 +359,7 @@ See for example the following project, where Alfredo Moser from Brazil invented 
 
 <a href="../waste">Waste is a Design Mistake</a> digs deep into designing products with less use of materials and less waste, including the reduction of plastic.
 
-<a href="../dyes">Natural dyes</a> looks into creating eco friendly dyes from natural objects to reduce the environmental load of textile and fashion industry to the planet.
+<a href="../dyes">Natural dyes</a> looks into creating eco-friendly dyes from natural objects to reduce an environmental load of the textile and fashion industry to the planet.
 
 <br>
 
