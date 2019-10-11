@@ -26,7 +26,7 @@
 
 &nbsp;
 
-~*Design a polyhedral shape bird nesting box<br /> and learn the geometry behind it.*~
+~*Design a polyhedral shape bird nesting box<br /> and learn about the geometry behind it.*~
 
 <!-- <f-sidebar src="geometry-triangles.md" title="Geometry of triangles" width="50vw" /> -->
 
@@ -87,7 +87,7 @@
 
 1. ~Design a nesting box for a bird.~
 2. ~The design should be based on a <f-sidebar src="./math-polyhedra.md" size="half" overlay ><var>polyhedral shape</var></f-sidebar>~
-3. ~The material should have some <var>thickness</var> (wood, etc).~
+3. ~The material used (for example, wood) should be of a suitable <var>thickness</var>.~
 
 -
 
@@ -119,13 +119,14 @@
 
 ## Design problem 🤔
 
-~ Some birds rely heavily on human-made nesting boxes.~
+~ Some birds rely heavily on nesting boxes made by humans.~
 
 #### Find out….
 
-1. ~which birds these are.~
-2. ~what kind of nesting boxes the birds need.~
-3. ~if designers can solve other problems with a similar design approach?~
+1. ~what species of birds these are.~
+
+2. ~what kind of nesting boxes these birds need.~
+3. ~whether designers can solve other problems with a similar design approach?~
 
 -
 
@@ -182,9 +183,9 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 #### A few examples: 
 
-- ~People who are suffering from natural disasters or war zones all over the world often need quick shelter. Some of the most efficient solutions for such constructions are based on <a href="https://www.beale.af.mil/News/Article-Display/Article/948494/beale-airmen-make-a-difference-for-homeless-veterans/" target="_blank">polyhedral design</a>.~
-- ~Once we go to Mars (or camping), we might need lightweight and quick- or autoassembled and modular <a href="https://www.geek.com/news/nasa-reveals-top-three-designs-for-space-friendly-homes-on-mars-1781096/" target="_blank">solutions for housing</a>~
-- ~And last but not least – the <a href="https://www.archdaily.com/883389/prefab-pop-up-shelter-designed-for-burning-man-and-perfected-for-disaster-relief" target="_blank">Burning Man Festival</a> – which takes us back to the first point.~
+- ~People who are suffering from the effects of natural disasters or living in war zones all over the world often need find shelter quickly. Some of the most efficient solutions for such constructions are based on  <a href="https://www.beale.af.mil/News/Article-Display/Article/948494/beale-airmen-make-a-difference-for-homeless-veterans/" target="_blank">polyhedral design</a>.~
+- ~If humans colonize Mars (or even when we go camping), we might need lightweight and quick-to-assemble or autoassembled and modular <a href="https://www.geek.com/news/nasa-reveals-top-three-designs-for-space-friendly-homes-on-mars-1781096/" target="_blank">solutions for housing</a>~
+- ~Last but not least – the <a href="https://www.archdaily.com/883389/prefab-pop-up-shelter-designed-for-burning-man-and-perfected-for-disaster-relief" target="_blank">Burning Man Festival</a> – which takes us back to the first point.~
 
 ---
 
@@ -214,7 +215,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ## 1.
 
-~Find a bird for which to build a nesting box.~
+~Decide on a bird species to build a nesting box for~
 
 -
 
@@ -294,7 +295,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
   ## Geometry behind the nesting box
   
-  ~For designing and building a solid polyhedral object you have to:~
+  ~For designing and building a solid polyhedral object, you must:~
 
 </div>
 
@@ -308,7 +309,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ## 2.
 
-~use <var>geometry</var> to calculate correct <var>dimensions</var> and <var>angles</var> of these “building blocks”~
+~use <var>geometry</var> to calculate the correct <var>dimensions</var> and <var>angles</var> of these “building blocks”~
 
 -
 
@@ -349,7 +350,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ### Polyhedra <f-rightarrow-icon />
 
-~Get to know the 5 regular polyhedral shapes a.k.a. <var>Platonic solids</var>~
+~Get to know the 5 regular polyhedral shapes also known as <var>Platonic solids</var>~
 
 </div>
 
@@ -480,7 +481,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 > ~**Triangle is the fundamental element** that polygons and polyhedra are made of.~
 
 
-~So let’s see, what type of triangles exist and what kind of relations exist between triangle’s sides and angles, that we can use in our project.~
+~Let's consider what type of triangles exist and what kind of relations exist between a triangle’s sides and its angles, suitable for use in our project.~
 
 -
 
@@ -538,7 +539,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 <br />
 
-~What defines a triangle and what kind of different triangles we know~
+~What defines a triangle and what kind of different triangles exist~
 
 
 
@@ -598,15 +599,15 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 <blockquote style="background: none;">
 
-  ~**A polygon is any 2-dimensional shape formed with straight lines**.~
+  ~**A polygon is any two-dimensional shape formed with straight lines**.~
   
 </blockquote>
 
-~Polygons can be of any shape, but we concentrate on the <var>regular polygons</var>, because **those form the sides of regular polyhedra**, we are interested in.~
+~Polygons can be of any shape, but we will concentrate on the <var>regular polygons</var>, because **they form the sides of regular polyhedra**,  which is what we are interested in.~
 
 <small>*By the way, the equilateral triangle itself is the simplest regular polygon.*</small>
 
-~So, to build a polyhedron, let’s first get familiar with its sides – **the polygons**.~
+~So, to build a polyhedron, let’s become familiar with its sides – **the polygons**.~
 
 <!-- <f-sidebar src="math-polygon.md" title="Geometry of polygons" width="60vw" overlay />  -->
 
@@ -652,7 +653,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ## Simplification of polygons 
 
-~🤔 Looking at these polygons below, **how would you simplify these shapes** *(based on what you know for now about triangles)* to calculate angles, sides, circumference, area, etc .of the polygon?~ 
+~🤔 Looking at the polygons shown below, **how would you simplify these shapes** *(based on what you already know about triangles)* to calculate the angles, sides, circumference, and area of the polygon?~ 
 
 -
 
@@ -717,9 +718,9 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 -
 
-~As you probably know  by now, **every single polygon can be divided into triangles**.~
+~You should be aware by now that, **every polygon can be divided into triangles**.~
 
-~Since we already are familiar with triangles and how to solve them, **we can use triangles to solve the polygons**, too.~
+~Since we are already familiar with triangles and how to solve them, **we can use triangles to solve the polygons**, too.~
 
 &nbsp;
 
@@ -781,7 +782,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ~Step by step we are getting closer to our final task &ndash; a **polyhedral shape**.~
 
-~We now know about **triangles**, that can be used to make a **polygon** *(regular polygons in our case)*. And regular polygons, combined in a specific manner, form the sides of a **regular polyhedron**.~
+~We now know about how **triangles** can be used to make a **polygon** *(regular polygons in our case)*. Furthermore, regular polygons, when combined in a certain way, form the sides of a **regular polyhedron**.~
 
 &nbsp;
 
@@ -822,7 +823,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ## Polyhedra
 
-~**Regular polyhedra** *(polyhedra = polyhedron in plural form)* are comprised of **polygons**.~ 
+~**Regular polyhedra** *(polyhedra = polyhedron in plural form)* are composed of **polygons**.~ 
 ~There are **5 convex regular polyhedra**, also known as **platonic solids**.~
 
 -
@@ -885,13 +886,13 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 | 5 3 4
 
 
-## Simplification of the polyhedron
+## Simplification of a polyhedron
 
 -
 
-~Look at these polyhedra and try to find out, **how would you simplify them** to calculate angles and distances?~
+~Look at these polyhedra and try to find out, **how you would  simplify them** to calculate angles and distances?~
 
-👉 <small>*Click on a polyhedron to get the answer*</small>
+👉 <small>*Click on a polyhedron to reveal the answer*</small>
 
 
 -
@@ -958,20 +959,20 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 | 4 3 
 
 
-## Simplification of the polyhedron
+## Simplification of a polyhedron
 
 -
 
 > ~We know now, that the **sides of a polyhedron are made of polygons**.~ 
 
-- ~The first one, <var>Icosahedron</var>, had triangular faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" size="half" overlay />, to make the calculations.~ 
+- ~The first one, <var>Icosahedron</var>, had triangular faces (shapes that were already know), so you can use the <f-sidebar src="./math-triangle-calculations.md" title="triangle formulas" size="half" overlay />, to make necessary the calculations.~ 
 
 - ~The second one, <var>Dodecahedron</var>, was a bit more complicated because its sides are **polygons** *(pentagons)*, so you need an extra step:~
 
 1. ~first: **find polygons**, and~ 
 2. ~then: **divide polygons to triangles**~
 
-~But, of course, this is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" size="half" overlay />.~ 
+~However, this is also something, that we are <f-sidebar src="./math-polygon.md" title="familiar with" size="half" overlay />.~ 
 
 -
 
@@ -1019,17 +1020,17 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 | 2 3
 | 4 3
 
-~We're almost done, but there is **one more problem**...~
+~We are almost done, but there is **one more problem**...~
 
 -
 
 ## Material thickness
 
-~If we'd made a nesting box from paper or some other material that has no (or almost none)  thickness, we'd be fine by now, but once we use any thicker material, we have a problem:~
+~If we had made a nesting box from paper or some other thin material, we would be fine by now. However, once we use thicker material, we run into a problem:~
 
-~We have to **cut the edges of material at certain angle** so that they could fit together.~
+~We have to **cut the edges of material at a certain angle** so that they can fit together.~
 
-> ~**The angle between polyhedron sides is called Dihedral angle**~
+> ~**The angle between polyhedron sides is called a Dihedral angle**~
 
 
 
@@ -1143,7 +1144,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ~**Why half?**~
 
-~Let's look **inside of a polyhedron**, where we will find...~
+~Let's look **inside of a polyhedron**, where we find...~
 
 -
 
@@ -1183,13 +1184,13 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 <div class="center-vertical">
 
-  ~If you imagine of a regular polyhedron that is made of **solid material** and you want to separate all its sides so, that you end up with **similar congruent pieces**.~
+  ~Imagine a regular polyhedron, made from a **solid material** and imagine that you want to separate all its sides end up with **similar congruent pieces**.~
   
   &nbsp;
   
   ~To achieve this you end up with <var>pyramids</var>, where:~
   
-  - ~the <var>base</var> of a pyramid **is for the side of polyhedron** and~
+  - ~the <var>base</var> of a pyramid **is used to make up the sides of a polyhedron~
   - ~the <var>tip</var> of the pyramid is at the **center point of the polyhedron**~
 </div>
 
@@ -1380,11 +1381,11 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 <blockquote style="background: none;">
 
-  ~Pyramid is a polyhedron formed by connecting a **polygonal base** and a point, called the <var>apex</var>.~
+  ~A Pyramid is a polyhedron formed by connecting a **polygonal base** and a point, called the <var>apex</var>.~
 
 </blockquote>
 
-~In our case we deal with **regular pyramids**, where the base is **regular polygon** and the apex is precisely above the **center of the base**.~
+~In our case we deal with **regular pyramids**, where the base is a **regular polygon** and the apex is precisely above the **center of the base**.~
 
 &nbsp;
 
