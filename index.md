@@ -56,7 +56,7 @@ v-slot="{ value: projects }"
     :style="{ filter: isActive(p, get('dt'), get('st')) ? '' : 'brightness(10%)'}"
   >
     <h3>{{ p.title }}</h3>
-    <p style="padding-right: 33%; opacity: 0.85"> {{ p.desc}}</p>
+    <p style="padding-right: 33%; opacity: 0.85; overflow:hidden; display: -webkit-box;-webkit-line-clamp: 5; -webkit-box-orient: vertical;"> {{ p.desc}}</p>
     <f-about :project="p" />
   </f-image-card>
   </a>

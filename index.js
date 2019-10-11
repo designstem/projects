@@ -69,6 +69,8 @@ const FImageCard = {
     }"
     >
       <div :style="{
+        display: 'grid',
+        'grid-template-rows':'60px auto 40px',
         position: 'absolute',
         top: 0,
         right: 0,
