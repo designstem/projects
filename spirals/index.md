@@ -35,13 +35,13 @@
 
 <!-- ## Discovering Spirals
 
-Spiral is a very common shape in nature and in as well as every day life. In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
+Spiral is a ubiquitous shape in nature and in as well as everyday life. In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells, but also the galaxies, the hurricanes, etc. Even the shape of an egg can be seen as a particular type of spiral.
 
-Spiral patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs etc.
+Spiral patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs, etc.
 
 **Architects** also use the spirals to shape buildings and components like stairs.
 
-Finally spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time. -->
+Finally, spiral-shaped **artworks**, **figures**, and **artifacts** are used in everyday life objects, even in the ancient time. -->
 
 
 <div class="grid masonry" style="--cols: 1fr 1fr 1fr; grid-template-rows:repeat( 1fr) ; --gap:0;">
@@ -51,14 +51,14 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
     
   ## Dis&shy;cove&shy;ring spirals
   
-  Spiral is a very common shape in nature and in as well as every day life. 
+  Spiral is a widespread shape in nature and in as well as everyday life. 
 
   </div>
 
 
   <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
-  In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells but also in the galaxies, the hurricanes etc. Even the shape of an egg can be seen as a special type of spiral.
+  In the **natural world**, we may find spirals in the DNA double helix, the fingerprint, the flowers, the snails and shells, but also the galaxies, the hurricanes, etc. Even the shape of an egg can be seen as a special type of spiral.
   
   </div>
 
@@ -73,7 +73,7 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
   <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
-  Spiral patterns can be also met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs etc.
+  Spiral patterns can also be met in parts of **mechanical constructions**: turbines, propellers, screws, drills, springs, etc.
   
   </div>
 
@@ -101,7 +101,7 @@ Finally spiral shaped **artworks**, **figures** and **artifacts** are used in ev
 
   <div style="padding:4vmin; min-height:25vh;" class="bottom">
 
-  Spiral shaped **artworks**, **figures** and **artifacts** are used in every day life objects, even in the ancient time.
+  Spiral shaped **artworks**, **figures**, and **artifacts** are used in everyday life objects, even in the ancient time.
   
   </div>
 
@@ -171,7 +171,7 @@ Why Are Most Galaxies Spiral-Shaped?
 <!-- 2. Working with spirals -->
 ## Practicing in spreadsheets
 
-Here, you will be able to draw different Archimedean spiral shapes using an Excel spreadsheet. The Excel file contains two spreadsheets: the first labeled “Archimedean Spiral” in which you may type in the basic parameters and draw the corresponding spiral and the second labeled “Explanation” in which you are given the instructions how to setup your own spiral shape in Excel.
+Here, you will be able to draw different Archimedean spiral shapes using an Excel spreadsheet. The Excel file contains two spreadsheets: the first labeled “Archimedean Spiral” in which you may type in the necessary parameters and draw the corresponding spiral and the second labeled “Explanation” in which you are given the instructions how to set up your spiral shape in Excel.
 
 <a href="https://spiralsdesignstem.files.wordpress.com/2018/09/spiral-shape-in-excel1.xls" class="tertiary  "><f-arrow-icon rotation="90" />Download spiral shape XSL spreadsheet</a>
 
@@ -210,7 +210,7 @@ Here, you will be able to draw different Archimedean spiral shapes using an Exce
 
 -
 
-Geogebra is a free online math tools for graphing, geometry, 3D modelling etc.
+Geogebra is a free online math tool for graphing, geometry, 3D modeling, etc.
 
 <br>
 
@@ -226,7 +226,7 @@ Geogebra is a free online math tools for graphing, geometry, 3D modelling etc.
 
 <f-link to="https://spiralsdesignstem.files.wordpress.com/2018/10/what-is-geogebra.pdf">Short introduction to Geogebra</f-link> (pdf)
 
-In our example Geogebra will be used as a practicing tool for creating 3D spirals.
+In our example, Geogebra will be used as a practicing tool for creating 3D spirals.
 
 -
 
@@ -338,7 +338,7 @@ Start practicing in creating 3D spirals, following the instructions of the <f-li
 
 -
 
-In order to design a spiral you first need to recall the basic knowledge from trigonometry, a know the basic notation of trigonometry which is the branch of mathematics dealing with the **relations of the sides and angles of triangles**.
+To design a spiral, you first need to recall the necessary knowledge from trigonometry; a know the basic notation of trigonometry, which is the branch of mathematics dealing with the **relations of the sides and angles of triangles**.
 
 ### The sides of an orthogonal triangle
 
@@ -449,7 +449,7 @@ or by using the values of <f-math inline>sin(A)</f-math> and <f-math inline>cos(
 
 <f-math>tan(A) = \frac{sin(A)}{cos(A)} = \frac{0.6}{0.8} = 0.75</f-math>
 
-In this example we can verify that 
+In this example, we can verify that 
 
 <f-math>\color{red}AB\color{black}^2 = \color{green}AC\color{black}^2 + \color{blue}BC\color{black}^2 or</f-math><f-math>\color{red}5\color{black}^2 = \color{green}4\color{black}^2 + \color{blue}3\color{black}^2 or</f-math><f-math>\color{red}25\color{black} = \color{green}16\color{black} + \color{blue}9\color{black}</f-math>
 
@@ -517,7 +517,7 @@ Any point in the plane can be defined by its coordinates <var>X</var> and <var>Y
 
 <f-table :rows="[
   {
-  	X: parseFloat(get('activePoint',[])[0]).toFixed(3),
+    X: parseFloat(get('activePoint',[])[0]).toFixed(3),
     Y: parseFloat(get('activePoint',[])[1]).toFixed(3),
   },
 ]" />
@@ -534,14 +534,14 @@ Any point in the plane can be defined by its coordinates <var>X</var> and <var>Y
     <f-line :points="[[get( 'activePoint', [])[0], 0], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
     <f-line :points="[[0, get('activePoint', [])[1]], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
     <f-circle
-  	  :x="get( 'activePoint', [])[0]"
+      :x="get( 'activePoint', [])[0]"
       :y="get('activePoint', [])[1]"
       :r="0.075"
       :fill="color('darkgray')"
       stroke
     />
     <f-circle
-  	  :x="mouse.x"
+      :x="mouse.x"
       :y="mouse.y"
       :r="mouse.pressed ? 0.05 : 0.035"
       :fill="color('darkgray')"
@@ -558,11 +558,11 @@ Any point in the plane can be defined by its coordinates <var>X</var> and <var>Y
 
 ### Polar coordinates
 
-However, in many cases such that of drawing a spiral, a different expression is needed. One may notice that instead of using (x, y) as the coordinates of point, the **distance from the zero point <var>r</var> and the angle <var>θ</var>** may equivalently be used. This means that the position of any point in the plane can be described by the pair (r, θ). These are called <var>Polar coordinates</var> of a point.
+However, in many cases such that of drawing a spiral, a different expression is needed. One may notice that instead of using (x, y) as the coordinates of the point, the **distance from the zero point <var>r</var> and the angle <var>θ</var>** may equivalently be used. This means that the position of any point in the plane can be described by the pair (r, θ). These are called <var>Polar coordinates</var> of a point.
 
 <f-table :rows="[
   {
-  	θ: parseFloat(get('polarAngle')).toFixed(3) + '°',
+    θ: parseFloat(get('polarAngle')).toFixed(3) + '°',
     r: parseFloat(get('polarDistance')).toFixed(3)
   }
 ]" />
@@ -581,14 +581,14 @@ However, in many cases such that of drawing a spiral, a different expression is 
     <f-text v-for="tr in range(0, 360, 90)" :position="polarxy(tr, 1.9)" scale="0.4" text-anchor="left">{{(-90+tr).toFixed(0)}}°</f-text> -->
     <f-line :points="[[0,0], polarxy(get('polarAngle')+(90), get('polarDistance')) ]" strokeWidth="2" :stroke="color('blue')" />
     <f-circle
-  	  :x="get( 'activePoint', [])[0]"
+      :x="get( 'activePoint', [])[0]"
       :y="get('activePoint', [])[1]"
       :r="0.075"
       :fill="color('darkgray')"
       stroke
     />
     <f-circle
-  	  :x="mouse.x"
+      :x="mouse.x"
       :y="mouse.y"
       :r="mouse.pressed ? 0.05 : 0.035"
       :fill="color('darkgray')"
@@ -607,11 +607,11 @@ However, in many cases such that of drawing a spiral, a different expression is 
 
 <f-table :rows="[
   {
-  	Cartesian: 'X: ' + parseFloat(get('activePoint',[])[0]).toFixed(3),
+    Cartesian: 'X: ' + parseFloat(get('activePoint',[])[0]).toFixed(3),
     Polar: 'θ: ' + parseFloat(get('polarAngle')).toFixed(3) + '°'
   },
   {
-  	Cartesian: 'Y: ' + parseFloat(get('activePoint',[])[1]).toFixed(3),
+    Cartesian: 'Y: ' + parseFloat(get('activePoint',[])[1]).toFixed(3),
     Polar: 'r: ' + parseFloat(get('polarDistance')).toFixed(3)
   }
 ]" />
@@ -631,14 +631,14 @@ However, in many cases such that of drawing a spiral, a different expression is 
     <f-line :points="[[0, get('activePoint', [])[1]], [get( 'activePoint', [])[0], get('activePoint', [])[1]]]" strokeWidth="2" :stroke="color('red')" />
     <f-line :points="[[0,0], polarxy(get('polarAngle')+(90), get('polarDistance')) ]" strokeWidth="2" :stroke="color('blue')" />
     <f-circle
-  	  :x="get( 'activePoint', [])[0]"
+      :x="get( 'activePoint', [])[0]"
       :y="get('activePoint', [])[1]"
       :r="0.075"
       :fill="color('darkgray')"
       stroke
     />
     <f-circle
-  	  :x="mouse.x"
+      :x="mouse.x"
       :y="mouse.y"
       :r="mouse.pressed ? 0.05 : 0.035"
       :fill="color('darkgray')"
@@ -694,7 +694,7 @@ Indeed
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/eq9.jpg) -->
 
-👉Note the value of θ derives by the **inverse function of tangens** (tan<sup>-1</sup>). Any typical scientific calculator includes this option.
+👉Note the value of θ derives by the **inverse function of tangent** (tan<sup>-1</sup>). Any typical scientific calculator includes this option.
 
 -
 
@@ -793,7 +793,7 @@ Following the previous example, assume now that the point A is known by its pola
 
 -
 
-Assume that a point is described by its polar coordinates (r, θ). Remember that r is the radius, the distance of the point from the center of the axes and θ is the angle formed between the radius and x axis (see next figure).
+Assume that a point is described by its polar coordinates (r, θ). Remember that r is the radius, the distance of the point from the center of the axes, and θ is the angle formed between the radius and x-axis (see next figure).
 
 -
 
@@ -803,7 +803,7 @@ Assume that a point is described by its polar coordinates (r, θ). Remember that
 
 -
 
-Now, image what happens if the angle θ gradually increases from the zero degrees (θ=0º) to θ=90º and then to θ=180º up to θ=360º. If the radius *r* remains constant, the corresponding point will move along the blue circle. This is the basic movement to produce a circular shape.
+Now, imagine what happens if the angle θ gradually increases from the zero degrees (θ=0º) to θ=90º and then to θ=180º up to θ=360º. If the radius *r* remains constant, the corresponding point will move along the blue circle. This is the primary movement to produce a circular shape.
 
 -
 
@@ -848,7 +848,7 @@ In the previous movement, if we assume that **r is not constant** but changes gr
 
 To draw an Archimedian spiral, two basic parameters need to define:
 
-- the starting point on the x axis (lets call it **α**) and
+- the starting point on the x-axis (let's call it **α**) and
 - the distance **d** between two consecutive lines of the spiral.
 
 <f-slider 
@@ -874,7 +874,7 @@ To draw an Archimedian spiral, two basic parameters need to define:
     :step="1" 
 />
 
-The most usual case of an Archimedian spiral is that when the spiral shape begins from the beginning of the axes x and y. In such a case α=0.
+The most usual case of an Archimedian spiral is that when the spiral shape begins from the beginning of the axes x and y in such a case α=0.
 
 -
 
@@ -890,17 +890,17 @@ The most usual case of an Archimedian spiral is that when the spiral shape begin
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-3.jpg?w=300&h=276) -->
 
-**Any point (x,y) of the plane belongs to a spiral shape if satisfies the following equations**
+**Any point (x,y) of the plane belongs to a spiral shape if it satisfies the following equations**
 
 <f-math>x = r \cdot cos(θ)</f-math><f-math>y = r \cdot sin(θ)</f-math><f-math>r = a + \frac{d}{2π} \cdot θ</f-math><f-math>θ = 0°...360°</f-math>
 
-Note that π is the well known PI number equal to 3.14159.
+Note that π is the well-known PI number equal to 3.14159.
 
-The following figure, explains the above equations in terms of the polar coordinates explained in the previous section.
+The following figure explains the above equations in terms of the polar coordinates explained in the previous section.
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/09/spiral2d-1.jpg?w=1024&h=671) -->
 
-> Based on the above equations, any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates  x and y are calculated and the corresponding point (x,y) in plotted in the plane.
+> Based on the above equations, any flat, 2D Archimedian spiral can be drawn if the angle θ ranges from 0º to 360º, and for every single value in that range, the coordinates x and y are calculated and the corresponding point (x,y) is plotted in the plane.
 
 -
 
@@ -955,9 +955,9 @@ In three dimensions we assume that a **third axis z denoting the height** is add
 
 <!-- ![](https://spiralsdesignstem.files.wordpress.com/2018/10/eq121.jpg?w=300&h=148) -->
 
-In the above equations, **R** represents the radius of the cycle in the plane X-Y and **t** varies between 0 and 2π in the right-hand direction full cycle. The factor **c** is constant so the value **2πc** denotes the vertical separation of the helix’s loop.
+In the above equations, **R** represents the radius of the cycle in the plane X-Y, and **t** varies between 0 and 2π in the right-hand direction full cycle. The factor **c** is constant so the value **2πc** denotes the vertical separation of the helix’s loop.
 
-<!-- Next figure presents the shape of a helix drawn in the three dimensions. -->
+<!-- The next figure presents the shape of a helix drawn in the three dimensions. -->
 
 ![](https://spiralsdesignstem.files.wordpress.com/2018/10/spiral3d.jpg?w=287&h=300)
 
@@ -1001,7 +1001,7 @@ In the above equations, **R** represents the radius of the cycle in the plane X-
 
 ## 3D design
 
-In this section you can use a 3D Design software to produce objects relevant to spirals or search the internet to find 3D Models online.
+In this section, you can use a 3D design software to produce objects relevant to spirals or search the internet to find 3D Models online.
 
 -
 
@@ -1058,9 +1058,9 @@ Use the online **Tinkercad software**, available at: <f-link to="http://www.tink
 
 #### **Dice games**
   
-Dice games are board games that you play with a dice. The Backgammon, Chuck-a-Luck (Bird cage), Ludo etc are examples of dice games. A list of several dice games can be found at <f-link to="http://www.dice-play.com/GamesAZ.htm">dice-play.com/GamesAZ.htm</f-link>
+Dice games are board games that you play with dice. The Backgammon, Chuck-a-Luck (Birdcage), Ludo, etc. are examples of dice games. A list of several dice games can be found at <f-link to="http://www.dice-play.com/GamesAZ.htm">dice-play.com/GamesAZ.htm</f-link>
   
-Dice games are based on rules according to which a player throws the dice and depending on the result, an action is performed. In these games the random outcome of the dice is very important. The dice must have **enough space** to roll several times so to end up randomly to their final position.
+Dice games are based on rules according to which a player throws the dice, and depending on the result, an action is performed. In these games, the random outcome of the dice is critical. The dice must have **enough space** to roll several times so as to end up randomly to their final position.
 
  </section>
 
@@ -1093,7 +1093,7 @@ https://www.pexels.com/photo/blur-board-game-business-challenge-278918/
   
 ## The design problem
 
-There's often not enough space to throw the dice – it often ends up under a couch or punches other game pieces all over the place.
+There's often not enough space to throw the dice – it usually ends up under a couch or punches other game pieces all over the place.
 
 Can we come up with a solution, that would:
 
@@ -1101,7 +1101,7 @@ Can we come up with a solution, that would:
 2. allow one more dice roll down simultaneously
 3. assure the random outcome of the dice
 4. save space
-5. be fair – the players should not to be able to manipulate the outcome.
+5. be fair – the players should not be able to manipulate the outcome.
 
 </div>
 
@@ -1136,11 +1136,11 @@ https://www.goodfreephotos.com/other-photos/Gambling-game-in-a-casino.jpg.php
 
 ## The design solution
 
-Such dice throwing objects has been previously designed and sold. For example in the e-shop <f-link to="https://www.etsy.com/search?q=dice%20tower">Etsy.com</f-link> you find different implementations of the basic vertical dice throwing idea. They are made of different materials (plastic, wood, paper etc.), shapes (tower, folding boxes, spiral cylinders etc.)
+Such dice throwing objects have been previously designed and sold. For example in the e-shop <f-link to="https://www.etsy.com/search?q=dice%20tower">Etsy.com</f-link> you find different implementations of the basic vertical dice throwing idea. They are made of different materials (plastic, wood, paper, etc.), shapes (tower, folding boxes, spiral cylinders, etc.)
 
 A dice-tower – i.e. a cylinder that when the player lets the dice from the top, it will let them go down rolling and let them exit at the bottom level.
 
-The problem of the dice-cylinder is to think, design and implement a rolling path for the dice within the cylinder so to let them move and roll sufficient distance, greater than the height of the cylinder, so to ensure the random dice outcome. Moreover, the movement of the dice should be smooth, without obstacles and such to ensure that they will not stick in an intermediate position and come down directly.
+The problem of the dice-cylinder is to think, design, and implement a rolling path for the dice within the cylinder so as to let them move and roll sufficient distance, more significant than the height of the cylinder, so to ensure the random dice outcome. Moreover, the movement of the dice should be smooth, without obstacles, and such to ensure that they will not stick in an intermediate position and come down directly.
 
 </section>
 
@@ -1173,12 +1173,12 @@ https://www.etsy.com/listing/692902098/dice-tower-board-game
   
 ## Directions for the design
   
-To solve such a problem, consider the spiral theory. The path that follows the dice down to the exit of the cylinder may be a helix tube or a round staircase. Focusing to the case of the spiral stairs, several questions may arise:
+To solve such a problem, consider the spiral theory. The path that follows the dice down to the exit of the cylinder may be a helix tube or a round staircase. Focusing on the case of the spiral stairs, several questions may arise:
 
-- Why such a helix staircase might be an efficient structure in terms of space capacity and length of the rolling path?
-- Given of some parameters such the height, the number of spirals, and the diameter of the cylinder base how the helix staircase can be designed? How long should be the helix path? How many stairs can be used in the specific cylinder height?
+- Why might such a helix staircase be an efficient structure in terms of space capacity and length of the rolling path?
+- Given some parameters such as the height, the number of spirals, and the diameter of the cylinder base, how the helix staircase can be designed? How long should be the helix path? How many stairs can be used in the specific cylinder height?
   
-Look at the metallic stairs. You notice the round tube-shaped central column and the stairs linked to it. The most important characteristics of this stair is the helix shape.
+Look at the metallic stairs. You notice the round tube-shaped central column and the stairs linked to it. The most important characteristic of this stair is the helix shape.
 </div>
 
 </section>
@@ -1221,7 +1221,7 @@ But how can one easily design such a helix? Consider the following example.
 
 #### 1.
 
-Get a rectangular piece of paper and draw its diagonal with a pencil. Try to bend the paper so to gradually form a cylinder, a tube. Then, you may notice that the round shape automatically transforms the diagonal line to a helix! This helix line will be the basic direction for the stairs to be linked. Further note that this is a simple, one spiral helix.
+Get a rectangular piece of paper and draw its diagonal with a pencil. Try to bend the paper so to form a cylinder, a tube gradually. Then, you may notice that the round shape automatically transforms the diagonal line to a helix! This helix line will be the basic direction for the stairs to be linked: further note that this is a simple, one spiral helix.
 
 <!-- {{ range(-1,1,0.2).map( x => [Math.sin(x),Math.cos(x)]) }} -->
 
@@ -1268,9 +1268,9 @@ Get a rectangular piece of paper and draw its diagonal with a pencil. Try to ben
   </f-group>
 </f-scene>
 
-Further note that in the previous figure the helix is simple, with only one spiral. What will be the design if one wants to make a two-spiral helix? This is simple. Start by dividing the rectangular piece of paper into two equal horizontal parts (see next figure). Then draw the diagonals in both parts. If you bend this structure, the red lines will form a two-spiral helix.
+Further note that in the previous figure, the helix is simple, with only one spiral. What will be the design if one wants to make a two-spiral helix? This is simple. Start by dividing the rectangular piece of paper into two equal horizontal parts (see next figure). Then draw the diagonals in both parts. If you bend this structure, the red lines will form a two-spiral helix.
   
-Helix with more than two spirals can be also formed by dividing the basic rectangular into appropriate number of equal parts.
+Helix with more than two spirals can also be formed by dividing the basic rectangular into an appropriate number of equal parts.
 
 -
 
@@ -1316,7 +1316,7 @@ For example, if 12 steps are needed, the following figure presents the 12 equal 
 
 #### 4.
 
-To form the final stair structure, the triangle steps are linked with the helix in equal distances, as next figure presents.
+To form the final stair structure, the triangle steps are linked with the helix in equal distances, as the next figure presents.
 
 -
 
@@ -1338,7 +1338,7 @@ To form the final stair structure, the triangle steps are linked with the helix 
 
 <!-- <img src="https://spiralsdesignstem.files.wordpress.com/2019/05/eikona16.png" style="float:left; width:25%; margin-right:var(--base3); margin-bottom:var(--base)" /> -->
 
-As mentioned in previous texts, the proposed dice cylinder will include an internal helix staircase which will be the path for the dice. This document presents the basic calculations for that construction.
+As mentioned in previous texts, the proposed dice cylinder will include an internal helix staircase, which will be the path for the dice. This document presents the necessary calculations for that construction.
 
 -
 
@@ -1346,7 +1346,7 @@ As mentioned in previous texts, the proposed dice cylinder will include an inter
 
 -
 
-By inspecting the basic structure, we notice that the basic part of the helix staircase is the inner cylinder column in which the triagonal-shaped stairs are adopted. The following figure presents these parts and shows the parameters used for the calculations.
+By inspecting the basic structure, we notice that the fundamental part of the helix staircase is the inner cylinder column in which the triagonal-shaped stairs are adopted. The following figure presents these parts and shows the parameters used for the calculations.
 
 These are
 
@@ -1372,11 +1372,11 @@ The number of stairs <var>N</var> are dependent on the height <var>h</var> and t
 
 The base cycle is divided into N equal triangles, so their angle can be computed as  **θ = 3600 / Ν**
 
-The inner column, seen as a cylinder with base radius **r** and when expanded, it forms a rectangle with height **h** and width the length of the inner cycle which is **2πr** (π=3,14).
+The inner column, seen as a cylinder with base radius **r** and when expanded, it forms a rectangle with height **h** and width the length of the inner cycle, which is **2πr** (π=3,14).
 
 The **N** stairs are placed in equal positions by using a grid. Next figure presents such a grid for **N=12** stairs.
 
-The level of each stair is presented by the red line and the green diagonal line represents the helix path of the stair. The length **S** of this path is computed as the hypotenuse of the rectangular triangle with sides **h** and **2πr**. From the Pythagoras theorem derives that **S2 =(2πr)2+h2** so **S = square root ((2πr)2+h2).**
+The level of each stair is presented by the red line, and the green diagonal line represents the helix path of the stair. The length **S** of this path is computed as the hypotenuse of the rectangular triangle with sides **h** and **2πr**. From the Pythagoras theorem derives that **S2 =(2πr)2+h2** so **S = square root ((2πr)2+h2).**
 
 -
 
@@ -1433,12 +1433,12 @@ The level of each stair is presented by the red line and the green diagonal line
 
 <div>
   
-To construct the paper model of the dice staircase we need:
+To construct the paper model of the dice staircase, we need:
 
 * 2 A4 sheets of thick paper where we print the template
 * Pair of scissors
 * Liquid paper glue
-* Plastic A4 sheet e.g. overhead transparency film sheet
+* Plastic A4 sheet e.g., overhead transparency film sheet
 
 </div>
 
@@ -1485,7 +1485,7 @@ To construct the paper model of the dice staircase we need:
 
  <img src="./images/tower-05.jpg" style="width:100%; height:auto;" />
 
- Stick the stairs in the column. Use the direction of the black helix line. For every stair, bend the narrow white part of the triangle up to the dotted line so to form a right angle with the rest grey part. Glue the stairs in the column, at the level of the black horizontal line.
+ Stick the stairs in the column. Use the direction of the black helix line. For every stair, bend the narrow white part of the triangle up to the dotted line so to form a right angle with the rest grey part. Glue the stairs in the column at the level of the black horizontal line.
 
 </div>
 <div>
@@ -1494,7 +1494,7 @@ To construct the paper model of the dice staircase we need:
 
  <img src="./images/tower-06.jpg" style="width:100%; height:auto;" />
 
- Make the external cylinder from a plastic sheet. Use an A4 plastic film. Cut a piece of 12 cm width. Cut a rectangular piece at the bottom to let the dice exit. Bend the plastic sheet so to form a cylinder and stick the two edges using the glue.
+ Make the external cylinder from a plastic sheet. Use an A4 plastic film. Cut a piece of 12 cm width. Cut a rectangular piece at the bottom to let the dice exit. Bend the plastic sheet so as to form a cylinder and stick the two edges using the glue.
 
 </div>
 <div>
@@ -1503,7 +1503,7 @@ To construct the paper model of the dice staircase we need:
 
  <img src="./images/tower-07.jpg" style="width:100%; height:auto;" />
 
- Put the paper staircase model with in the plastic cylinder.
+ Put the paper staircase model within the plastic cylinder.
 
 </div>
 
@@ -1516,7 +1516,7 @@ To construct the paper model of the dice staircase we need:
 
 ### Dice cylinder paper sheet template
 
-To construct the paper model of the dice staircase you can use the following Paper Sheet Template:
+To construct the paper model of the dice staircase, you can use the following Paper Sheet Template:
 
 [Paper Sheet Template](https://spiralsdesignstem.files.wordpress.com/2019/05/the_dice_cylinder_paper_sheet_template.pdf) -->
 
