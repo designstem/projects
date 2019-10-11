@@ -18,7 +18,7 @@
 
 ### <em>Bio</em>nic | Design + Nature + Science
 
-(...) ‘tend to discover processes, techniques and new principles applicable to technology. It examines principles, characteristics and systems with transposition of matter, with extension of commands, with transfer of energy and information. It takes as a starting point a **natural phenomenon** and from there a projectual solution can be developed.’
+(...) ‘tend to discover processes, techniques, and new principles applicable to technology. It examines principles, characteristics, and systems with transposition of matter, with the extension of commands, with the transfer of energy and information. It takes as a starting point a **natural phenomenon** and from there, a projectual solution can be developed.’
 <small>Bruno Munari</small>
 
 <br />
@@ -34,8 +34,8 @@
   1. ~Students will explore and experiment surfaces and structures~ 
   2. ~Students will intercept tactile and tangible perceptions (emotional values)~ 
   3. ~Students will learn how to interpret nature and the idea of bionic perception~
-  4. ~Natural and artificial dimension concerning material world~
-  5. ~Perception of Human kind artifacts in copying nature.~
+  4. ~Natural and artificial dimension concerning the material world~
+  5. ~Perception of Humankind artifacts in copying nature.~
   6. ~Students will study the concept of Design, as intermediary relationship, In the concepts of Bionic Design, Ecologic Design and Symbiotic design~ 
   7. ~Student’s will explore concepts from Victor Papanek’s, Luigi Colani’s and other designers~
   8. ~**Students will learn codes through design repetition. Structure systematization up to patterns applications.**~ 
@@ -61,7 +61,7 @@
 
   ## Actually, humankind looks further and further, for sustainable solutions in <em>nature</em>.
   
-  Most of the advanced solutions regarding materials, technology or items that we consume, come from the ability to observe and imitate nature.
+  Most of the advanced solutions regarding materials, technology, or items that we consume come from the ability to observe and imitate nature.
 
 </div>
 
@@ -126,7 +126,7 @@
 
   ## What is <em>Biodesign</em>?
   
-  Biodesign codes a product, an object, a system, assembling nature mechanisms and reproducing them through a kind of mimicry. Proposing *inventions* that minimize the impact and maximize the performance, esthetics and functionality.
+  Biodesign codes a product, an object, a system, assembling nature mechanisms and reproducing them through a kind of mimicry. Proposing *inventions* that minimize the impact and maximize the performance, aesthetics, and functionality.
 
   This means introducing a new **‘artificial ecology’**. See in the example below!
 
@@ -189,7 +189,7 @@ Image source: https://www.media.mit.edu/
   <section style="height:100%; display: flex; flex-direction:column; justify-content: flex-end; padding:calc(var(--content-padding) * 0.66) var(--content-padding)">
     
   ## Read and eat!
-  Bruno Munari and the orange methaphore...<br />descontruction to resolve a design problem. <br> See on the next page!
+  Bruno Munari and the orange metaphor...<br />descontruction to resolve a design problem. <br> See on the next page!
 
   </section>
 </div>
@@ -236,7 +236,7 @@ Image source: http://www.munart.org/
 
 -
 
-<!-- 1. Pick a Orange while you are passing this slides with Bruno Munari designer’s head. -->
+<!-- 1. Pick an Orange while you are passing these slides with Bruno Munari designer’s head. -->
 1. Take an orange, but don't peel or eat it before the next pages!
 2. Just hold the orange in your hands. 
 3. Start to **explore its shape and design by following and comprehending the steps on the next pages**!
@@ -276,12 +276,12 @@ Image source: http://www.munart.org/
 -
 
 #### 2. 
-*Each container or section has its straight side flush with the axis and its curved side turned outwards. In this way the sum of their curved sides forms a globe, a rough sphere.*
+*Each container or section has its straight side flush with the axis, and its curved side turned outwards. In this way the sum of their curved sides forms a globe, a rough sphere.*
 
 -
 
 #### 3. 
-*All these sections are packed together in a container that is quite distinctive both as to its material and its colour.*
+*All these sections are packed together in a container that is quite distinctive both as to its material and its color.*
 
 -
 
@@ -336,12 +336,12 @@ Image source: http://www.munart.org/
 -
 
 #### 5. 
-*The material is in origin all of the same type, but it is suitably differentiated according to its function*
+*The material is in origin all of the same types, but it is suitably differentiated according to its function*
 
 -
 
 #### 6. 
-*Each section or container consists of an envelope of plastic like material large enough to contain the juice but easy to handle during the dismemberment of the global form.*
+*Each section or container consists of an envelope of plastic-like material large enough to contain the juice but easy to handle during the dismemberment of the global form.*
 
 -
 
@@ -401,7 +401,7 @@ Image source: http://www.munart.org/
 -
 
 #### 9. 
-*The form of each section exactly follows the disposition of the teeth in the human mouth, so that once a section has been successfully extracted from the outer container it may be placed between the teeth, and a light pressure is enough to burst the envelope and extract the juice*
+*The form of each section exactly follows the disposition of the teeth in the human mouth, so that once a section has been successfully extracted from the outer container, it may be placed between the teeth, and light pressure is enough to burst the envelope and extract the juice*
 
 -
 
@@ -451,7 +451,7 @@ Image source: http://www.munart.org/
 -
 
 #### 10. 
-*Apart from juice, the sections generally contain a small seed from the same plant that produced the fruit. This is a small free gift offered by the firm to the client in case the latter wishes to start a production of these objects on his own account.*
+*Apart from juice, the sections generally contain a small seed from the same plant that produced the fruit. This is a small free gift offered by the firm to the client in case the latter wishes to start production of these objects on his own account.*
 
 -
 
@@ -461,7 +461,7 @@ Image source: http://www.munart.org/
 -
 
 #### 12. 
-*The orange is therefore an almost perfect object in which one may observe an absolute coherence of form, function and consumption.*
+*The orange is, therefore, an almost perfect object in which one may observe an absolute coherence of form, function, and consumption.*
 
 -
 
@@ -558,7 +558,7 @@ Image source: http://www.munart.org/
 
 <br>
 
-All your senses have been applied and most of its biodesign concepts have been **experienced**.
+All your senses have been applied, and most of its biodesign concepts have been **experienced**.
 
 -
 
@@ -625,9 +625,9 @@ All your senses have been applied and most of its biodesign concepts have been *
 
 - How much total weight does the object have?
 - How much juice does it contain?
-- How much can you strech the orange?
+- How much can you stretch the orange?
 - What physical characteristics do you think that the orange has?
-- Which material &ndash; the containers inside or the external support protection material of the orange outside &ndash; is lighter or heavier?
+- Which material &ndash; the containers inside or the outer support protection material of the orange outside &ndash; is lighter or heavier?
 - Can you see, microscopically, the film that fixes the containers of the orange and guess how they stick together?
 - Do you think the object is proportional to your hand or your head?
 - Can you calculate the weight of the orange splitting the materials?
@@ -641,11 +641,11 @@ All your senses have been applied and most of its biodesign concepts have been *
 
 - How much total weight does the object have?
 - How much juice does it contain?
-- How much can you strech the orange?
+- How much can you stretch the orange?
 - What physical characteristics do you think that the orange has
 - Do you think that the material inside containers and the external support protection material of the orange is lighter or heavier?
 - Can you see in a microscopic approach the film that fixes the containers of the orange and guess how they stay together?
-- Do you think the object is proportional to your hand and to your head?
+- Do you think the object is proportional to your hand and your head?
 - Can you calculate the weight of the orange splitting the materials?
 - Calculate the angle space between containers?
 - Calculate the measure of the orange (length, with, thickness, perimeter)?
@@ -659,7 +659,7 @@ All your senses have been applied and most of its biodesign concepts have been *
   If you make a section cut in the fruit and pretend to create a new sandwich material similar to the orange, which mass production materials could substitute the orange's performance?
 
   #### Task
-  Make your own orange with simple materials such as cardboard, honeycomb, plastic protection bubbles, a sheet of metal, reused plastic, plywood etc. Try to mimic the oranges different functions that we just learned about.
+  Make your own orange with simple materials such as cardboard, honeycomb, plastic protection bubbles, a sheet of metal, reused plastic, plywood, etc. Try to mimic the oranges different functions that we just learned about.
 
 </div>
 
@@ -683,12 +683,12 @@ All your senses have been applied and most of its biodesign concepts have been *
   
   ## Let's find out...
   
-  why nature is crucial to mankinds' mimicry!
+  why nature is crucial to mankind' mimicry!
   
   #### Task
   
   Watch the following video, where **Janine Benyus** explains the importance of biomimicry.
-  Learn how nature solves design problems and see it through nature's eyes.
+  Learn how nature solves design problems and see them through nature's eyes.
   Take notes of what you find out for future reference.
 
 </div>
@@ -728,8 +728,8 @@ All your senses have been applied and most of its biodesign concepts have been *
   
   ## See closer. See better. See deeper.
   
-  One of the most disseminated examples of modern bio inspiration is the amazing material Velcro, which was invented in 1941 by Swiss engineer George de Mestral <small>*(US Patent by George de Mestral, 1955)*</small>.
-  Mestral's inspiration came from observing thistles and little hooks and the way they got caught in his dog's tail. Further, these plants have the particular capacity, especially in winter, to stick to clothes. When passing thistles, clothes or his dog were full of small stamens derived from the plant. Mestral's study under the microscope revealed the shape of a hook that formed the principle of velcro fasteners.
+  One of the most disseminated examples of modern bio-inspiration is the amazing material Velcro, which was invented in 1941 by Swiss engineer George de Mestral <small>*(US Patent by George de Mestral, 1955)*</small>.
+  Mestral's inspiration came from observing thistles and little hooks and the way they got caught in his dog's tail. Further, these plants have a particular capacity, especially in winter, to stick to clothes. When passing thistles, clothes or his dog was full of small stamens derived from the plant. Mestral's study under the microscope revealed the shape of a hook that formed the principle of velcro fasteners.
   The expression <i>"velcro"</i> comes from the French word <i>"velor"</i> and <i>"chochet"</i> (hook)**.
 
 </div>
@@ -779,7 +779,7 @@ https://commons.wikimedia.org/wiki/File:Micrograph_of_hook_and_loop_fastener,(Ve
   
   ## The shape drop light mimics
   
-  **Ross Lovegrove’s** designs typically demonstrate a link between organic shapes and material science. The designer’s work is always a reflection of nature &ndash; in this particucar case, of a tropical fruit: Mango. The light bulbs mimic the shape of mangos and raindrops, hanging from leaves.
+  **Ross Lovegrove’s** designs typically demonstrate a link between organic shapes and material science. The designer’s work is always a reflection of nature &ndash; in this particular case, of tropical fruit: Mango. The light bulbs mimic the shape of mangos and raindrops, hanging from leaves.
 
   <f-link to="http://www.rosslovegrove.com/">www.rosslovegrove.com/</f-link>
 
@@ -819,9 +819,9 @@ Ross Lovegrove, Manga, http://www.rosslovegrove.com
 
 <div class="bottom">
   
-  ## The scale repetion proposition
+  ## The scale repetition proposition
   
-  Reproducing structures, seeing how a spider web is created, Tomás Sarraceno proposes this inside outside monumental installation.
+  Reproducing structures, seeing how a spider web is created, Tomás Sarraceno proposes this inside-outside monumental installation.
 
   <br />
 
@@ -872,7 +872,7 @@ Tomás Saraceno, How to Entangle the Universe in a Spider Web, https://studiotom
   
   ## Desert Spider Robotics mimicry by Ingo Rechenberg
   
-  **Rechenberg** is a pioneer in the field of bionics and evolutionary computation, plus artificial evolution. In the 1960s and 1970s he invented a highly influential set of optimization methods known as evolution strategies (from German *Evolutionsstrategie*).
+  **Rechenberg** is a pioneer in the field of bionics and evolutionary computation, plus artificial evolution. In the 1960s and 1970s, he invented a highly influential set of optimization methods known as evolution strategies (from German *Evolutionsstrategie*).
   
   His group successfully applied algorithms to challenging problems such as aerodynamic wing design. These were serious technical applications of artificial evolution created in this case to imitate spider movements.
 
@@ -884,7 +884,7 @@ Tomás Saraceno, How to Entangle the Universe in a Spider Web, https://studiotom
 
 <f-notes title="Credits">
 
-Dr Ingo Rechenberg, BionicWheelBot, https://www.festo.com/group/en/cms/13129.htm
+Dr. Ingo Rechenberg, BionicWheelBot, https://www.festo.com/group/en/cms/13129.htm
 
 </f-notes>
 
@@ -920,11 +920,11 @@ Dr Ingo Rechenberg, BionicWheelBot, https://www.festo.com/group/en/cms/13129.htm
   
   ## These are only a few examples of human mimicry
   
- <!-- You might now know need some close up and exercise yourself in the very basic storm of nature replication.
+ <!-- You might now know you need some close-up and exercise yourself in the very basic storm of nature replication.
   Let’s review **Franco Lodato Bio Design Lessons**: -->
   
   In the following, you will do some exercises yourself to replicate nature itself.<br>
-  Let's first review **Franco Lodato's bio design lessons**!
+  Let's first review **Franco Lodato's bio-design lessons**!
 
 </div>
 
@@ -980,7 +980,7 @@ Spider web vs. steel
 Abalone shell vs. Kevlar
 
 **Imitate, don’t duplicate**
-Be creative in your interpretation of natures lessons.
+Be creative in your interpretation of nature's lessons.
 Understand why nature chose its solution.
 
 **Biodesign ≠ Sustainability**
@@ -1028,11 +1028,11 @@ An opportunity for all of us to play a part!
   
   Be like **William Morris**, who collected natural forms.
   
-  <!--bring to the draw them and explore their insights with possible tessellations)...-->
+  <!--bring to the draw them and explore their insights with possible tessellations)-->
   
-  1. Collect them, draw them (from different perspectives) and explore their features. Also try out tesselations. Make photocopies, take pictures and draw some more.
+  1. Collect them, draw them (from different perspectives) and explore their features. Also, try out tesselations. Make photocopies, take pictures, and draw some more.
 
-  2. Take notes about details, patterns, the color palette and try to replicate their forms.
+  2. Take notes about details, patterns, the color palette, and try to replicate their forms.
 
 
 ~Use the video as a source of inspiration!~
@@ -1082,9 +1082,9 @@ An opportunity for all of us to play a part!
 
   1. Under the microscope, take a closer look at what you found. Explore the textures. Physics be closer to biologists...
 
-  2. Collect patterns that you find under the microscope and macro scale them. Take pictures of your results. See their structure. Draw again by hand or computer the single elements.
+  2. Collect patterns that you find under the microscope and macro-scale them. Take pictures of your results. See their structure. Draw again by hand or computer the single elements.
   
-  3. Try to repeat the elements by forming several patterns, that you could for example later apply to a t-shirt.
+  3. Try to repeat the elements by forming several patterns that you could, for example, later apply to a t-shirt.
   
   <br />
 
@@ -1172,18 +1172,18 @@ Student work, photo by Jacinta Costa.
 
 <!-- See it closer, explore texture, physics be closer to biologists...-->
 
-<!--Collect patterns macro scale see them in laboratories. Take picture’s. See their structure.-->
+<!--Collect patterns macro-scale see them in laboratories. Take pictures. See their structure.-->
 
 1. Under the microscope, take a closer look at what you found. Explore the textures. Physics be closer to biologists...
 
-2. Collect patterns that you find under the microscope and macro scale them. Take pictures of your results. See their structure. Draw again by hand or computer the single elements.
+2. Collect patterns that you find under the microscope and macro-scale them. Take pictures of your results. See their structure. Draw again by hand or computer the single elements.
   
 3. Reproduce these modules in 3D, create mock-ups with paper and cardboard. See their ability to intercept/connect each other.
 
-4. If you have the opportunity, print them in 3D and test with different scales. Test their resistance in labs or in normal use with different users.
+4. If you have the opportunity, print them in 3D and test with different scales. Test their resistance in labs or regular use with different users.
   
-- Try to reinforce the curves and perception of their geometry.
-- Try to reduce the material involved maintaining the same performance.
+- Try to reinforce the curves and perceptions of their geometry.
+- Try to reduce the material involved in maintaining the same performance.
 
 **Enjoy what nature has to offer you!**
 
@@ -1223,7 +1223,7 @@ Student work, photo by Jacinta Costa.
 | 4 1 1
 | 4 2 3
 
-## Past, present and future
+## Past, present, and future
 
 -
 
