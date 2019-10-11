@@ -24,24 +24,24 @@
 
 #### Introduction
 
-This is a guide for using the algorithm scenario. The guide includes learning goals, an exemplary structure for a lesson plan and a Q&A section that can help you to lead discussion whether you are a STEM or a design teacher.
+This is a guide for using the algorithm scenario. The guide includes learning goals, an exemplary structure for a lesson plan, and a Q&A section that can help you to lead discussion whether you are a STEM or a design teacher.
 
 **The students will:**
 - learn what is an algorithm
 - enumerate steps to solve a problem or reach a goal
-- learn what are computer generated algorithms
+- learn what computer-generated algorithms are
 - understand the very basics of how computer algorithms work
 - understand the link between an algorithm and design
 - create their own algorithm
-- analyse the asymptotic performance of algorithms
-- demonstrate a familiarity with major algorithms and data structures
+- analyze the asymptotic performance of algorithms
+- demonstrate familiarity with major algorithms and data structures
 - apply important algorithmic design paradigms and methods of analysis
-- synthesize efficient algorithms in common engineering design situations
+- synthesize efficient algorithms in everyday engineering design situations
 
 
 **Before using the e-tool**
-In order to get students introduced to the subject of algorithms, please think of visual exploration and analysis of real-life situations where algorithms work (e.g morning routine or anything that contains sequencing, repetition and conditional logic). Additionally, please prepare scissors and papers for the warming-up exercise. Laptops/tablets/smartphones will be needed for accessing the design algorithm exercise during the scenario implementation.
-The students must have basic knowledge of problem solving, computers and design. 
+To get students introduced to the subject of algorithms, please think of visual exploration and analysis of real-life situations where algorithms work (e.g., morning routine or anything that contains sequencing, repetition, and conditional logic). Additionally, please prepare scissors and papers for the warming-up exercise. Laptops/tablets/smartphones will be needed for accessing the design algorithm exercise during the scenario implementation.
+The students must have basic knowledge of problem-solving, computers, and design. 
 
 
 **Using the e-tool** https://designstem.github.io/scenarios/algorithms/
@@ -55,7 +55,7 @@ The scenario is composed of the following stages:
 
 **An exemplary lesson plan**
 1. Introduce the learning goals of the class
-2. Ask the students to think of any kind of problem on a daily basis and list the steps they need to perform in order to solve this problem
+2. Ask the students to think of any problem daily and list the steps they need to perform to solve this problem
 3. Ask students to enter the scenario webpage and do the tasks
 4. Explain what is an algorithm and where it can be found
 5. Discuss with the students the link between algorithms and design
@@ -68,7 +68,7 @@ The scenario is composed of the following stages:
 * Which design objects link to algorithms?
 * Why do we need algorithms?
 * How do algorithms make our lives easier?
-* What can be alternative to the design objects created with the help of algorithms? 
+* What can be an alternative to the design objects created with the help of algorithms? 
 * Why do we need computers?
 * What do design and algorithms have something in common?
 
@@ -79,11 +79,11 @@ Questions to help spark conversation with students:
 * Which other materials can be used to create similar tasks?
 * How did the patterns change when you played with the values?
 
-You can consider providing also other algorithm and design examples. During the exercise with more complex patterns, you can change the scaling and rotating scores. Lastly, you can change the last assignment, but considering the importance of students’ engagement during and after the task. Please engage students in discussion of their results after the last assignment. Their final product could be shown to the rest of the class.
+You can consider also providing other algorithms and design examples. During the exercise with more complex patterns, you can change the scaling and rotating scores. Lastly, you can change the last assignment, but considering the importance of students’ engagement during and after the task. Please engage students in a discussion of their results after the previous assignment. Their final product could be shown to the rest of the class.
  
 The task can be completed in an environment with access to the web-scenario.
 The task can be reviewed according to class goals.
-The task can be evaluated by describing what is an algorithm, how it links to design; creating an algorithm etc.
+The task can be evaluated by describing what an algorithm is, how it links to design, creating an algorithm, etc.
 
 </f-notes>
 
@@ -157,9 +157,9 @@ Let's start with a small warming-up exercise.
 
 -
 
-Now if you open the paper, you probably end up with something similar to this picture. 
+Now, if you open the paper, you probably end up with something similar to this picture. 
  
-**By following the steps of cutting and folding you were performing a so called <var>algorithm</var>.**
+**By following the steps of cutting and folding you were performing a so-called <var>algorithm</var>.**
 
 -
 
@@ -192,7 +192,7 @@ in mathematics and computer science, is an unambiguous specification of how to s
 
 <small>Or to put it simple:</small>
 
-> #### algorithm *is a set of certain steps needed to solve a problem*
+> #### algorithm *is a set of specific steps needed to solve a problem*
   
 <br />
 
@@ -227,7 +227,7 @@ in mathematics and computer science, is an unambiguous specification of how to s
 
 Probably without even noticing. These are often called <var>everyday algorithms</var>. Let's take a look at some examples. 
  
-Maybe the most common example of an everyday algorithm is **cooking**. You have to follow certain steps (recipe) to make a delicious meal.
+Maybe the most common example of an everyday algorithm is **cooking**. You have to follow specific steps (recipe) to make a delicious meal.
 
 -
 
@@ -269,7 +269,7 @@ Maybe the most common example of an everyday algorithm is **cooking**. You have 
 
 <!-- <f-image src="./images/everyday-tshirt.jpg" style="background-size: cover; background-position:50% 50%; --image-min-height: 30vh;" /> -->
  
-<small>*There is more than one method to fold a t-shirt. Every method is a "different algorithm" of t-shirt folding.*</small>
+<small>*There is more than one method to fold a t-shirt. Every technique is a "different algorithm" of t-shirt folding.*</small>
 
 -
 
@@ -310,11 +310,11 @@ Maybe the most common example of an everyday algorithm is **cooking**. You have 
 
 -
 
-Cooking, folding a t-shirt, building a wall &ndash; these activities consist of relatively simple instructions (i.e. ‘algorithms’).
+Cooking, folding a t-shirt, building a wall &ndash; these activities consist of relatively simple instructions (i.e., ‘algorithms’).
 
-**Computers also perform algorithms. More complex algorithms may require a lot of computing power &ndash; so much that normally people cannot manage it by themselves.**
+**Computers also perform algorithms. More complex algorithms may require a lot of computing power &ndash; so much that ordinary people cannot manage it by themselves.**
  
-Computers and design go together well. This last decade has seen the emergence of a new way of designing that’s all about the conscious use of algorithms mixed with the computational power of computers. A lot of designers, artists and architects have been using computers and complex algorithms to create stunning work.
+Computers and design go together well. This last decade has seen the emergence of a new way of designing that’s all about the conscious use of algorithms mixed with the computational power of computers. A lot of designers, artists, and architects have been using computers and sophisticated algorithms to create stunning work.
 
 -
 
@@ -346,9 +346,9 @@ Computers and design go together well. This last decade has seen the emergence o
 
 1. Not all computational design is generative design,
 2. And not all generative design is computational.
-3. Not every use of computer in design is ‘generative’.
+3. Not every use of computers in design is ‘generative.’
 
-#### And now, let's take a look at some examples of computer generated algorithms in design:
+#### And now, let's take a look at some examples of computer-generated algorithms in design:
 
 -
 
@@ -375,9 +375,9 @@ Computers and design go together well. This last decade has seen the emergence o
 ## Grotto set design 
 *by Michael Hansmeyer*
 
-Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucci
+Grotto set design for Mozart's opera Zauberflöte, directed by Romeo Castellucci
 
-> ~*“I want to assume the mozartian potion and bring it to its maximum effect, and here in the gardens is the artificial grotto, the feathers of the fowler, the ceruse white with the artificial fly, the symmetry, palace of the 18th century.”*~
+> ~*“I want to assume the Mozartian potion and bring it to its maximum effect, and here in the gardens is the artificial grotto, the feathers of the fowler, the ceruse white with the artificial fly, the symmetry, palace of the 18th century.”*~
 
 <f-link to="http://www.michael-hansmeyer.com/">michael-hansmeyer.com</f-link>
 
@@ -411,9 +411,9 @@ Grotto set design for Mozart's opera Zauberflöte, directed by Romoeo Castellucc
 ## A table 
 *by Stefan Bassing*
 
-Designer Stefan Bassing has used digital modelling to create a pair of tables, made from repetitive elements to simplify the production process.
+Designer Stefan Bassing has used digital modeling to create a pair of tables, made from repetitive elements to simplify the production process.
 
-> ~*“Once the furniture is created as a digital model, the role of the computer is at forefront. The computer numerically controls (CNC) the bending machine, converting steel rods into parts for use. Then, these would be assembled by a craftsperson, before being copper plated.”*~
+> ~*“Once the furniture is created as a digital model, the role of the computer is at the forefront. The computer numerically controls (CNC) the bending machine, converting steel rods into parts for use. Then, these would be assembled by a craftsperson, before being copper plated.”*~
 
 <f-link to="https://stefanbassing.com/">stefanbassing.com</f-link>
 
@@ -450,7 +450,7 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 
 “Entangle” is a 3D printed wall tilling system, taking inspiration from mathematical tiling principles and quantum mechanics.
 
-> ~*“Based on the mathematical principles of Truchet tiles, two modular segments can be combined in a myriad of different ways. It is possible to create various wave patterns, knot designs, complex repeating patterns or fill space in an apparently random fashion. (McLachlan 2017).”*~
+> ~*“Based on the mathematical principles of Truchet tiles, two modular segments can be combined in a myriad of different ways. It is possible to create various wave patterns, knot designs, complex repeating patterns, or fill space in a random fashion. (McLachlan 2017).”*~
  
 <f-link to="https://lynnemaclachlan.co.uk/">lynnemaclachlan.co.uk</f-link>
 
@@ -487,7 +487,7 @@ Designer Stefan Bassing has used digital modelling to create a pair of tables, m
 
 The idea is based on the concept of mathematical B-splines.
 
-The author mentions that in mathematics a B-spline is a smooth spline that is drawn from a number of nodes (control points) without necessarily passing through the nodes themselves.
+The author mentions that in mathematics, a B-spline is a smooth spline that is drawn from a number of nodes (control points) without necessarily passing through the nodes themselves.
 
 <f-link to="https://inconvergent.net/">inconvergent.net</f-link>
 
@@ -521,9 +521,9 @@ The author mentions that in mathematics a B-spline is a smooth spline that is dr
 ## “ProtoHouse” 
 *by SoftKill*
 
-Softkill Design has recently completed “ProtoHouse”, a prototype for the first 3D printed house, that has the same structure as human bones.
+Softkill Design has recently completed “ProtoHouse,” a prototype for the first 3D printed house, that has the same structure as human bones.
 
-The ProtoHouse project was developed in the Architectural Association School's Design Research Lab within the 'behavioral matter' studio of Robert Stuart-Smith. The project investigated the architectural potential of the latest Selective Laser Sintering technologies, testing the boundaries of large scale 3D printing. The designing was done with computer algorithms that micro-organize the printed material itself.
+The ProtoHouse project was developed in the Architectural Association School's Design Research Lab within the 'behavioral matter' studio of Robert Stuart-Smith. The project investigated the developmental potential of the latest Selective Laser Sintering technologies, testing the boundaries of large scale 3D printing. The designing was done with computer algorithms that micro-organize the printed material itself.
 
 <f-link to="http://protohouse.tumblr.com/">protohouse.tumblr.com</f-link>
 
@@ -568,7 +568,7 @@ The ProtoHouse project was developed in the Architectural Association School's D
 
 You might think that probably they use very expensive supercomputers plus knowledge of wizardry to make such stuff. 
 
-However, with basic knowledge of coding we can demonstrate that **even simple sets of rules can create quite interesting results**. 
+However, with basic knowledge of coding, we can demonstrate that **even simple sets of rules can create quite exciting results**. 
 
 -
 
@@ -728,7 +728,7 @@ On the following page, you can see how most basic operations like <var>repeating
 
 -
 
-***Move the sliders*** and see what happens. Nothing too special here &ndash; our simple algorithm creates a grid of small lines that change when parameters change. Parameters change when you move the sliders. You should see some kind of a dashed lines pattern. That's it.
+***Move the sliders*** and see what happens. Nothing too special here &ndash; our simple algorithm creates a grid of small lines that change when parameters change. Parameters change when you move the sliders. You should see some dashed lines pattern. That's it.
 
 -
 
@@ -789,7 +789,7 @@ On the following page, you can see how most basic operations like <var>repeating
 
 -
 
-Ok, now you have three sliders &ndash; we have added ***rotation***. Play with them and see if you can create any interesting output.
+Ok, now you have three sliders &ndash; we have added ***rotation***. Play with them and see if you can create any exciting output.
 
 -
 
@@ -926,7 +926,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 -
 
-**Circles are just CRAZY!** Remember: All we are doing here is to repeat one simple circle and adjusting its radius, but the visual output can get very complex and interesting.
+**Circles are just CRAZY!** Remember: All we are doing here is to repeat a straightforward circle and to adjust its radius, but the visual output can get very complex and exciting.
 
 -
 
@@ -986,7 +986,7 @@ Simple lines can get boring quite fast. Let's explore a few more complex shapes.
 
 -
 
-Too much control may not always be a good thing &mdash; sometimes you get more interesting and unexpected results if you just let things happen. Let's allow the computer to generate **random** patterns &mdash; all you have to do is to ***press the button***. 
+Too much control may not always be a good thing &mdash; sometimes, you get more exciting and unexpected results if you just let things happen. Let's allow the computer to generate **random** patterns &mdash; all you have to do is to ***press the button***. 
 
 -
 
@@ -1045,7 +1045,7 @@ Too much control may not always be a good thing &mdash; sometimes you get more i
 
 -
 
-But hopefully with these super basic examples, you saw how simple shapes can be combined and some basic operations like repeating, scaling and rotating can generate a lot of complex patterns.
+But hopefully, with these super basic examples, you saw how simple shapes could be combined, and some basic operations like repeating, scaling, and rotating can generate a lot of intricate patterns.
 
 When we add other important properties like <var>color</var>, <var>stroke width</var>, <var>transparency</var> and so on, we can alter the algorithm further and receive different output.
 
@@ -1082,7 +1082,7 @@ But let all this be a subject for the next time or better yet &ndash; let this b
 
 Your **final task** is to create an algorithm for the "hardware" that you started this scenario with: paper and scissors!
 
-**Try to create a different algorithm from the one we started with.** Experiment with different folds and cuts. Don't be afraid to make a "mistake", there is no mistakes here, just different algorithms.
+**Try to create a different algorithm from the one we started with.** Experiment with different folds and cuts. Don't be afraid to make a "mistake," there are no mistakes here, just different algorithms.
 
 -
 
@@ -1090,9 +1090,9 @@ Your **final task** is to create an algorithm for the "hardware" that you starte
 
 2. Define and enumerate the steps.
 
-3. Discuss what is your algorithm and how it can be improved.
+3. Discuss what your algorithm is and how it can be improved.
 
-4. In which way can algorithms be used in design other than in architecture. Research other options where this can be applied to e.g. graphic design or product design.
+4. In which way can algorithms be used in design other than in architecture — research other options where this can be applied to e.g., graphic design or product design.
 
 5. **Have fun! :)**
 
