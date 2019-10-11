@@ -350,7 +350,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ### Polyhedra <f-rightarrow-icon />
 
-~Get to know the 5 regular polyhedral shapes also known as <var>Platonic solids</var>~
+~Get to know the five regular polyhedral shapes also known as <var>Platonic solids</var>~
 
 </div>
 
@@ -603,7 +603,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
   
 </blockquote>
 
-~Polygons can be of any shape, but we will concentrate on the <var>regular polygons</var>, because **they form the sides of regular polyhedra**,  which is what we are interested in.~
+~Polygons can be of any shape, but we will concentrate on the <var>regular polygons</var> because **they form the sides of regular polyhedra**,  which is what we are interested in.~
 
 <small>*By the way, the equilateral triangle itself is the simplest regular polygon.*</small>
 
