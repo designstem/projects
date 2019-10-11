@@ -18,7 +18,7 @@ In this workshop, you will look at different aspects regarding packaging design 
 
 We will be focussing on packaging made out of cardboard, but there are so many other ways to "wrap" products. But the main aims are always the same:
 
-* Protect the product (against damage, stealing...)
+* Protect the product (against damage, stealing)
 * Make the product look more appealing from the outside (sell the product to the customer)
 
 
@@ -37,9 +37,9 @@ Image credits: www.unsplash.com
 
 -
 
-## Human made packaging
+## Human-made packaging
 
-Whenever products are sold, they need to be protected for their transport, before their use. Whether salesmen wrap fish into old newspaper at a market or whether we have high-end hi-fi products that are put into shiny, colorful packaging. Packaging has always been there whenever there were products which have been sold and/or transported.
+Whenever products are sold, they need to be protected for their transport, before their use. Whether salespeople wrap fish into the old newspaper at a market or whether we have high-end hi-fi products that are put into shiny, colorful packaging. Packaging has always been there whenever there were products that have been sold and/or transported.
 
 1. The evolution of packaging is strongly related to human history. Watch the following video and find out more:
 
@@ -48,9 +48,9 @@ Whenever products are sold, they need to be protected for their transport, befor
     <f-video src="https://www.youtube.com/watch?time_continue=4&v=xz9UM9ZVvXY" />
   </details>
 
-2. Look for packaging around you and find differences between them regarding their shape. Compare the shape to the product inside. In which way does the packaging mirror the inside?
+2. Look for packaging around you and find differences between them regarding their shape. Compare the form to the product inside. In which way does the packaging mirror the inside?
 
-3. Take pictures of these packaging's for future reference.
+3. Take pictures of these packagings for future reference.
 
 
 <br>
@@ -69,7 +69,7 @@ Whenever products are sold, they need to be protected for their transport, befor
 
 ## Fraud packaging
 
-Today, packaging is not only protection but also marketing and therefore, often misleading! 
+Today, the packaging is not only protection but also marketing and, therefore, often misleading! 
 
 On the right, you can see an X-Ray of a cocoa package, showing the amount of product in relation to the size of the packaging.
 
@@ -77,7 +77,7 @@ On the right, you can see an X-Ray of a cocoa package, showing the amount of pro
 
 <caption>🕵️🤔 Investigate and think</caption>
 
-1. Look through your cupboards at home or walk through your neighborhood supermarket: Are there any product packaging's that are misleading (i.e. content is smaller than the packaging suggests)?
+1. Look through your cupboards at home or walk through your neighborhood supermarket: Are there any product packaging that is misleading (i.e., content is smaller than the packaging suggests)?
 
 2. What do you think and feel about it?
 
@@ -117,9 +117,9 @@ Sometimes the value of the package is higher than the value of the product itsel
 
 ### Precious packaging
 
-Sometimes the package is part of the value, like with perfume bottles. Walk through a perfume store and look at the different and extraordinary shapes. No one would put so much effort into designing bottles, if it wasn't what the customer wanted.
+Sometimes the package is part of the value, like with perfume bottles. Walk through a perfume store and look at the different and extraordinary shapes. No one would put so much effort into designing bottles if it wasn't what the customer wanted.
 
-<f-arrow-icon /> **Which other examples for precious packaging can you find?**
+<f-arrow-icon /> **Which other examples of precious packaging can you find?**
 
 -
 
@@ -129,7 +129,7 @@ Sometimes the package is part of the value, like with perfume bottles. Walk thro
 
 ### Ethic packaging
 
- Reducing packaging is an ethic mission &ndash; **always**! And it is getting out of hand, because one product can be wrapped multiple times, e.g. cornflakes. They are wrapped in a plastic bag, inside a cardboard box.
+ Reducing packaging is an ethic mission &ndash; **always**! And it is getting out of hand, because one product can be wrapped multiple times, e.g., cornflakes. They are packaged in a plastic bag inside a cardboard box.
 
 <f-arrow-icon /> **Find other examples for multiple times wrapped products. What is the purpose?**
 
@@ -158,7 +158,7 @@ Nature has always evolved the best packaging for its products.
 
 #### TASK
 
-Where in nature can you find packaging examples? Think of fruits for example.
+Where in nature, can you find packaging examples? Think of fruits, for example.
 
 <br>
 
@@ -193,11 +193,11 @@ But let's think further:
 
 <span class="bullet">2</span> Weigh the rice on a scale without the carton (pour it into a bowl). Note the weight!
 
-<span class="bullet">3</span> Also, cut off the bottom of the carton and cut along one of the sides, to open it up..
+<span class="bullet">3</span> Also, cut off the bottom of the carton and cut along one of the sides to open it up.
 
 -
 
-<span class="bullet">4</span> Change the base of the carton into different regular shapes (see below) and check if the resulting boxes contain different amounts of rice at the same amount of carton wrapping.
+<span class="bullet">4</span> Change the base of the carton into different regular shapes (see below) and check if the resulting boxes contain varying amounts of rice at the same amount of carton wrapping.
 
 <span class="bullet">5</span> Which shape optimizes the carton's volume?
 
@@ -276,7 +276,7 @@ But let's think further:
 | 1 1 1 2 2
 | background: var(--lightergray)
 
-## Explore: Polygons with fixed perimeter
+## Explore: Polygons with a fixed perimeter
 
 
 **Experiment how polygons area changes**
@@ -298,8 +298,8 @@ But let's think further:
 
   <small>
 
-  How do the ratio between square and polygons change?
-  Given a fixed perimeter, which is the polygon with the biggest area?
+  How does the ratio between square and polygons change?
+  You are given a fixed perimeter, which is the polygon with the biggest area?
   What can you say about the volume of the milk carton?
   Have you ever seen packages where the base is not square?
 
@@ -313,26 +313,26 @@ But let's think further:
 -
 
 <f-scene dots step="0.5" responsive>
-	<f-group :rotation="get('r',0)">
-		<f-circle opacity="0.1" :r="crEP(get('n',3),get('p',1))" :stroke="color('yellow')/>
-		<f-circle :r="crEP(32,get('p',1))" opacity="0.2" />
-		<f-line
-			closed
-			:points="polarpoints(Math.floor(4),crEP(4,get('p',1)))"
-			:stroke="color('blue')"
-		/>
-		<f-line
-			closed
-			:points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
-			:stroke="color('red')"
-		/>
-		<f-circle opacity="0.1" :r="rEP(get('n',3),get('p',1))" / :stroke="color('green')>
-		<f-line
-			opacity="0"
-			:x2="polarpoints(get('n',3),rEP(get('n',3),get('p',1)))[0].x"
-			:y2="polarpoints(get('n',3),rEP(get('n',3),get('p',1)))[0].y"
-		/>
-	</f-group>
+  <f-group :rotation="get('r',0)">
+    <f-circle opacity="0.1" :r="crEP(get('n',3),get('p',1))" :stroke="color('yellow')/>
+    <f-circle :r="crEP(32,get('p',1))" opacity="0.2" />
+    <f-line
+      closed
+      :points="polarpoints(Math.floor(4),crEP(4,get('p',1)))"
+      :stroke="color('blue')"
+    />
+    <f-line
+      closed
+      :points="polarpoints(Math.floor(get('n',3)),crEP(get('n',3),get('p',1)))"
+      :stroke="color('red')"
+    />
+    <f-circle opacity="0.1" :r="rEP(get('n',3),get('p',1))" / :stroke="color('green')>
+    <f-line
+      opacity="0"
+      :x2="polarpoints(get('n',3),rEP(get('n',3),get('p',1)))[0].x"
+      :y2="polarpoints(get('n',3),rEP(get('n',3),get('p',1)))[0].y"
+    />
+  </f-group>
 </f-scene>
 
 ---
@@ -368,11 +368,11 @@ Sometimes natural packagings do not optimize the amount per se, but they maximiz
 | rows: auto 1fr
 | background: var(--lightergray)
 
-## What if  we have to store multiple packages?
+## What if we have to store multiple packages?
 
 -
 
-Try to fill all the gaps between packages optimizing perimeter in different pattern.
+Try to fill all the gaps between packages optimizing perimeter in a different pattern.
 
 <var>perimeter</var> <f-math inline :update="get('p')">p = {{ get('p') }}</f-math>
 
@@ -390,7 +390,7 @@ Try to fill all the gaps between packages optimizing perimeter in different patt
 
 1. Which polygon is the best regarding the storage, which is the worst?
 
-2. Reflect on your result from no. 1 and compare it to shelves at home or at the supermarket. Which shape would be best here?
+2. Reflect on your result from no. 1 and compare it to shelves at home or the supermarket. Which shape would be best here?
 
 
 <br>
@@ -474,9 +474,9 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 
 1. Watch the video
 
-2. Verify that the hexagon has the maximum area among the stackable polygons with same perimeter.
+2. Verify that the hexagon has the maximum area among the stackable polygons with the same perimeter.
 
-3. Verify that the hexagon has the minimum perimeter among the stackable polygons with same area.
+3. Verify that the hexagon has the minimum perimeter among the stackable polygons with the same area.
 
 <br>
 
@@ -501,12 +501,12 @@ Find out how honeycombs are built and why bees choose hexagons and not other reg
 ## Packaging materials
 
 
-Honeycombs are not only used for packaging, but also for **packaging materials**.
+Honeycombs are not only used for packaging but also **packaging materials**.
 
 <blockquote>
 
 Cardboard honeycomb panels consist of two supporting surface layers and a honeycomb core, similar to that of a honeycomb from a beehive.
-	
+  
 </blockquote>
 
 
@@ -542,13 +542,13 @@ Cardboard honeycomb panels consist of two supporting surface layers and a honeyc
 
 ## Natural marketing in packaging 
 
-Sometimes in nature the **packaging is part of the product**.
+Sometimes in nature, the **packaging is part of the product**.
 
-1. Take an apple. Think about its skin, core and seeds. What is product and what is packaging?
+1. Take an apple. Think about its skin, core, and seeds. What is the product, and what is packaging?
 
-2. Do you know about a human made product having a package that is part of the product? Research on the internet if necessary!
+2. Do you know about a human-made product having a package that is part of the product? Research on the internet if necessary!
 
-3. What do you think about products where the package is part of the product? What are advantages and what are disadvantages?
+3. What do you think about products where the package is part of the product? What are the advantages and what are the disadvantages?
 
 
 <br>
@@ -584,11 +584,11 @@ Now that you've learned so much about packaging, it's time that you design one y
 
 ## <span class="bullet">A</span>
 
-1. Choose an object that you want to design a cardboard package for. You can use multiple small objects (like rice, cornflakes, pasta etc.) or a bigger object.
+1. Choose an object that you want to design a cardboard package for. You can use multiple small objects (like rice, cornflakes, pasta, etc.) or a more significant object.
 
-2. Remember what you've learned about fraud packaging. Sometimes a little air inside is needed to protect the product during a bumpy ride, but too much is misleading. Plan your sizing carefully! Decide upon a shape that is best.
+2. Remember what you've learned about fraud packaging. Sometimes a little air inside is needed to protect the product during a bumpy ride, but too much is misleading. Plan your sizing carefully! Decide upon the best shape.
 
-3. What if you have to store/stack several packages? How could you optimize the shape of your package in order to reduce loss of space between them?
+3. What if you have to store/stack several packages? How could you optimize the shape of your package to reduce the loss of space between them?
 
 4. Additional task: Think about the packaging inside the cardboard package. Fragile objects need extra packaging. How can you guarantee that the object won't break, while trying not to waste material?
 
@@ -602,15 +602,15 @@ Now that you've learned so much about packaging, it's time that you design one y
 
 3. Evaluate what’s the best material for your package; keep in mind that it has to be reusable! 
 
-4. What if you have to store/stack several packages, how could you optimize the shape of your package in order to reduce loss of space between them?
+4. What if you have to store/stack several packages, how could you optimize the shape of your package to reduce the loss of space between them?
 
 -
 
 ## <span class="bullet">C</span>
 
-1. Design a packaging for different spices which together will form a pattern but can be used individually! It should not only be functional, but also look unusual/nice/fresh.
+1. Design packaging for different spices, which together will form a pattern but can be used individually! It should be not only functional, but also look unusual/beautiful/fresh.
 
-2. Make scribbles to plan your modules and the complete packaging including all modules.
+2. Make scribbles to plan your modules and the complete packaging, including all modules.
 
 3. Evaluate what’s the best material for your package.
 
@@ -618,7 +618,7 @@ Now that you've learned so much about packaging, it's time that you design one y
 
 ### Additional information
 
-Depending on your students' proficiency, you can also let them design the layout of the packaging itself, that means add texts, logo, pictures etc. Maybe also come up with ideas for refinement to make the packaging more appealing.
+Depending on your students' proficiency, you can also let them design the layout of the packaging itself, that means add texts, logo, pictures, etc. Maybe also come up with ideas for refinement to make the packaging more appealing.
 
 </f-notes>
 
@@ -638,11 +638,11 @@ Depending on your students' proficiency, you can also let them design the layout
 
 **Congratulations on creating your packaging!** Let's have a closer look!
 
-1. What was most difficult about designing it? Where did you struggle?
+1. What was most challenging about designing it? Where did you struggle?
 
 2. What did you learn about packaging design? Is there anything new that you didn't know yet?
 
-3. On a daily basis, we throw away cardboard packaging's or recycle them. This immensely increased throughout the last fifty years. But also plastic is being used massively for packaging. Can you imagine alternatives? Browse the internet to find new ideas on alternatives.
+3. On a daily basis, we throw away cardboard packaging or recycle them. This immensely increased throughout the last fifty years. But also, plastic is being used massively for packaging. Can you imagine alternatives? Browse the internet to find new ideas on other options.
 
 <br>
 
