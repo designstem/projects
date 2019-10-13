@@ -10,7 +10,7 @@ Integration of design and STEM into DesignSTEM can increase understanding of tec
 
 With DesignSTEM students can develop their personality, which is particularly important in younger students and students that are uncertain about their capability to study subjects in question. Integrating studies helps students to improve their social skills better than traditional teaching. It has been shown to positively increase individuality and even increase the feeling of self-confidence in students and empower students. 
 
-<img src="../images/integrated_learning.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/integrated_learning.png" style= "width:100%">
 
 <br/>
 
@@ -26,11 +26,11 @@ The vocational dimension has the important role of giving the student knowledge 
 
 Relevance has been shown to increase academic motivation and moreover students have been reported to study to understand subjects instead of studying to get good grades. Due to above said, students have reported to feel less judged and fear of making mistakes has decreased massively. For DesignSTEM this means that relevant teaching supports students’ skills development, their competencies to be part of the changing society and improves their vocational orientation as well as career possibilities. 
 
-<img src="../images/individual_dimension.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/individual_dimension.png" style= "width:100%">
 <br/>
-<img src="../images/social_dimension.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/social_dimension.png" style= "width:100%">
 <br/>
-<img src="../images/vocational_dimension.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/vocational_dimension.png" style= "width:100%">
 
 <br/>
 <br/>
@@ -47,7 +47,7 @@ In studies the 5 E’s model has shown good results in students learning outcome
 
 5E’s model can improve students’ performance skills better and students have shown more curiosity about the subject in question.
 
-<img src="../images/evaluate.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/evaluate.png" style= "width:100%">
 
 <br/>
 
