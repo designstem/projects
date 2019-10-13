@@ -47,7 +47,7 @@ In studies the 5 E’s model has shown good results in students learning outcome
 
 5E’s model can improve students’ performance skills better and students have shown more curiosity about the subject in question.
 
-<img src="https://designstem.github.io/projects/images/evaluate.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/evaluate.png" style= "width:750%">
 
 <br/>
 
