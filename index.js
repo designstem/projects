@@ -7,7 +7,8 @@ import {
   flatten,
   unique,
   titlecase
-} from "https://designstem.github.io/fachwerk/fachwerk.js";
+  } from "https://designstem.github.io/fachwerk/fachwerk.js";
+  // } from "http://127.0.0.1:5502/fachwerk.js";
 
 const parseList = (list, separator = ",") =>
   list.split(separator).map(l => l.trim());
@@ -155,7 +156,7 @@ const FAbout = {
       <div v-if="project.team">
         <h3>Team</h3>
         <f-team cols="6" :team="project.team" v-slot="{ teams }">
-          <f-grid cols="100px 1fr">
+          <f-grid cols="100px 1fr" style="--mobile-cols:1fr 2fr">
           <template v-for="(t, i) in teams">
             <img
               :key="i"
