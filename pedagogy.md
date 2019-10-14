@@ -10,7 +10,7 @@ Integration of design and STEM into DesignSTEM can increase understanding of tec
 
 With DesignSTEM students can develop their personality, which is particularly important in younger students and students that are uncertain about their capability to study subjects in question. Integrating studies helps students to improve their social skills better than traditional teaching. It has been shown to positively increase individuality and even increase the feeling of self-confidence in students and empower students. 
 
-<img src="https://designstem.github.io/projects/images/integrated_learning.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/integrated_learning.png" style= "width80%">
 
 <br/>
 
@@ -51,7 +51,7 @@ In studies the 5 E’s model has shown good results in students learning outcome
 
 5E’s model can improve students’ performance skills better and students have shown more curiosity about the subject in question.
 
-<img src="https://designstem.github.io/projects/images/evaluate.png" style= "width:75%">
+<img src="https://designstem.github.io/projects/images/evaluate.png" style= "width:60%">
 
 <br/>
 
