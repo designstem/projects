@@ -26,15 +26,15 @@ The vocational dimension has the important role of giving the student knowledge 
 
 Relevance has been shown to increase academic motivation and moreover students have been reported to study to understand subjects instead of studying to get good grades. Due to above said, students have reported to feel less judged and fear of making mistakes has decreased massively. For DesignSTEM this means that relevant teaching supports students’ skills development, their competencies to be part of the changing society and improves their vocational orientation as well as career possibilities. 
 
-<img src="https://designstem.github.io/projects/images/individual_dimension.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/individual_dimension.png" style= "width:80%">
 
 <br/>
 
-<img src="https://designstem.github.io/projects/images/social_dimension.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/social_dimension.png" style= "width:80%">
 
 <br/>
 
-<img src="https://designstem.github.io/projects/images/vocational_dimension.png" style= "width:100%">
+<img src="https://designstem.github.io/projects/images/vocational_dimension.png" style= "width:80%">
 
 <br/>
 <br/>
