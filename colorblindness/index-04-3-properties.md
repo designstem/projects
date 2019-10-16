@@ -7,7 +7,7 @@
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding); padding-bottom:0;">
+<section>
 
 ## Three properties of color
 
@@ -51,7 +51,7 @@ On the next few pages, we will look at this more closely.
 | 1 2
 
 
-<section style="padding:var(--content-padding)">
+<section>
 
 <!-- ##### EXPLAIN -->
 <caption>Three Properties of Color</caption>
@@ -444,7 +444,7 @@ Check below **after** coming up with your own conclusion.
 
 <!-- ##### EXPLAIN -->
 <!-- <f-activity-icon size="large" /> -->
-<section style="padding:var(--content-padding); padding-bottom:0;">
+<section>
 
 <caption>Three Properties of Color</caption>
 

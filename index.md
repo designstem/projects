@@ -135,6 +135,4 @@ kristjan.jansen@gmail.com.
 
 ---
 
-| padding: 0
-
- <f-footer style="margin: calc(var(--base) * 12) var(--base4) 0 var(--base4); --primary: var(--gray); --yellow: none; --border-width: 0" />
+<f-footer />

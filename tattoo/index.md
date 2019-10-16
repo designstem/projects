@@ -1,11 +1,12 @@
 | rows: 1fr 4fr 1fr
-| style: --primary: var(--white)
 | 1 1
 | 2 4
 | 3 4
 
 | chapter: Getting started
 | section: Introduction
+
+| --primary: var(--white)
 
 <Background />
 
@@ -37,10 +38,8 @@ Image source: https://www.pexels.com/
 
 | rows: auto 1fr
 | padding: 0
-| 1 2
-| 1 2
 
-<div style="padding:var(--content-padding);">
+<section>
 
 ## Smart Tattoo 1.0
 
@@ -56,13 +55,9 @@ Some people wear so-called **medical alert tattoos**, which are not a pure decor
 2. Which medical alerts are covered? Can you think of other uses?
 3. What's your opinion: Do you think tattoos like this should be mandatory?
 
-<br>
-
-
 <f-next-button />
 
-</div>
-
+</section>
 
 -
 
@@ -85,34 +80,29 @@ https://unsplash.com/photos/5duK901QD2g
 | 1 2
 | 1 2
 
-<div style="padding:var(--content-padding);">
+<section>
 
 ## Smart Tattoo 2.0
+
 Currently, a research group from *Harvard Medical School* and *MIT* has suggested that some inks can be used to create smart tattoos that provide useful information about **hydration, sugar, and pH-levels**.
+
 The so-called biosensitive inks are paired with the traditional way of tattooing to overcome the limitations of current biomedical monitor devices and to create *medical alert tattoos 2.0*.
-
-<blockquote>
   
-~*The Dermal Abyss tattoo inks change color according to the chemistry of the body’s interstitial fluid, which can be used as a surrogate for constituents of the blood. One ink changes from green to brown as glucose concentration increases. The team has also developed a green ink, viewable under blue light, that grows more intense as sodium concentration rises, an indication of dehydration.*~
-
-</blockquote>
+> ~*The Dermal Abyss tattoo inks change color according to the chemistry of the body’s interstitial fluid, which can be used as a surrogate for constituents of the blood. One ink changes from green to brown as glucose concentration increases. The team has also developed a green ink, viewable under blue light, that grows more intense as sodium concentration rises, an indication of dehydration.*~
 
 #### Tasks
 
 1. Read the full article from The Harvard Gazette (link in Credits).
+
 2. Which other uses do they mention, besides indicating glucose level and dehydration level?
+
 3. Think of different other applications/functions that would be interesting.
-
-
-<br>
-
 
 <f-next-button />
 
 
 
-</div>
-
+</section>
 
 
 -
@@ -138,7 +128,7 @@ https://news.harvard.edu/gazette/story/2017/09/harvard-researchers-help-develop-
 | 1 2
 | 1 2
 
-<section style="padding:var(--content-padding);">
+<section>
 
 ## Warming up
 
@@ -151,11 +141,6 @@ Tattooing is all about drawing images on the skin. These images are not always e
 3. Try to guess the concept tattooed in your/your partner's back
 
 4. Discuss: what kind of concepts are easy to “guess” from limited information
-
-
-
-<br>
-
 
 <f-next-button />
 
@@ -175,7 +160,7 @@ https://www.pexels.com/photo/three-men-standing-near-window-1516440/
 | chapter: Chemistry & Biology
 | section: What to measure
 
-<center style="flex-direction: column">
+<center>
 
 # 🧪
 
@@ -204,8 +189,6 @@ Indicators are substances that provide useful information about their environmen
 
 <section>
 
-**_TODO_** layout
-
 ## Acids and bases
 
 The acids and bases can be understood through the concentration of hydrogen-ions <f-math inline blue>(H+)</f-math> in a solution.
@@ -219,17 +202,14 @@ The pH-scale is governed by the equation <f-math inline>pH = -log[H+]</f-math>
 _Move the bar to explore the pH-scale. Talk with a friend: What is the pH-range that you would need to consider with tattoos?_
 
 
-<br>
-
-
 <f-next-button />
-
 
 </section>
 
 -
 
 <section>
+
 <div style="display: flex; align-items: center; flex-direction: column; position: relative">
   <f-artboard :width="280" :height="300" :step="20" style="margin-top: 5px" >
     <f-line :x1="40" :y1="310 - i*20" :x2="240" :y2="310 - i*20" v-for="i in 15" />
@@ -250,6 +230,7 @@ _Move the bar to explore the pH-scale. Talk with a friend: What is the pH-range 
     </small>
     </div>
 </div>
+
 </section>
 
 <f-notes title="credits">
@@ -347,7 +328,7 @@ _When designing your indicator, you may need to consider the visibility of the c
 | chapter: Semiotics & design
 | section: Designing things
 
-<center style="flex-direction: column">
+<center>
 
 # 👩‍🎨
 
@@ -363,31 +344,28 @@ Now we have to think about how our tattoo looks, feels, and, most importantly - 
 
 </center>
 
-
-
 ---
+
 | Section: Introduction to signs
 | padding: 0
 | style: overflow: hidden
 
-<div style="padding: var(--content-padding);">
+<section>
 
 ## Life or death?
 
 How can you make sure that others understand what your tattoo is about?
 
 #### Tasks
+
 1. Visualize abstract phenomena, like life or death, by sketching a picture on a piece of paper.
 2. Compare your picture to that of others. In which way are they similar or different?
 3. Can everyone understand their meaning?
 3. Can you explain why some are different, and others are similar?
 
-<br>
-
-
 <f-next-button />
 
-</div>
+</section>
 
 -
 
@@ -415,15 +393,12 @@ How can you make sure that others understand what your tattoo is about?
 ---
 
 
-
-
-
 | section: Glossary of signs
 | padding: 0
 | rows: auto
 | 1 2
 
-<div style="padding: var(--content-padding);">
+<section>
 
 ## Sign? Icon? Symbol? Pictogram? *Tattoo*?
 
@@ -502,6 +477,8 @@ Therefore pictograms are always very simple. One of the universal pictograms is 
 
 <f-next-button />
 
+</section>
+
 -
 
 
@@ -513,19 +490,13 @@ Photo by Filip Bodlak on Unsplash,
 https://unsplash.com/photos/5MvqNDyizBo
 </f-notes>
 
-
-
-
-
-
 ---
 
 | section: Form follows function
 | padding: 0
 | style: overflow-x: hidden
 
-<div style="
-  padding: var(--content-padding); 
+<section style="
   background-color: var(--white);
   border-radius: 0 0 1rem 0;
   box-shadow: 0 0 10rem 10rem var(--white);
@@ -550,7 +521,7 @@ If the tattoo is just decorative and doesn't have an additional function, you ca
 
 <f-next-button />
 
-</div>
+</section>
 
 -
 
@@ -567,8 +538,7 @@ If the tattoo is just decorative and doesn't have an additional function, you ca
 | padding: 0
 | style: overflow-x: hidden
 
-<div style="
-  padding: var(--content-padding); 
+<section style="
   background-color: var(--white);
   border-radius: 0 0 1rem 0;
   box-shadow: 0 0 10rem 10rem var(--white);
@@ -592,6 +562,8 @@ To your right, you can find three sets of icons. Look at them more closely.
 
 
 <f-next-button />
+
+</section>
 
 -
 

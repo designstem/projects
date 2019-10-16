@@ -1,5 +1,5 @@
 import {
-  fachwerk,
+  fachwerk2,
   get,
   range,
   polarx,
@@ -82,10 +82,12 @@ const FTarget2 = {
   `
 };
 
-fachwerk({
+fachwerk2({
+  components: { FLetter, FSource, FTarget, FPolargrid },
   title: 'Patterns',
   src: ['./index.md'],
-  components: { FLetter, FSource, FTarget, FPolargrid },
+  type: 'slides',
+  home: '..',
   style: {
     "--purple": "var(--blue)",
     "--darkpurple": "var(--darkergray)",

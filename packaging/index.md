@@ -101,7 +101,6 @@ On the right, you can see an X-Ray of a cocoa package, showing the amount of pro
 
 | 2 4 6
 | 1 3 5
-| rows: 25vh auto
 
 ### Costly packaging
 
@@ -146,11 +145,9 @@ Sometimes the package is part of the value, like with perfume bottles. Walk thro
 ---
 
 | section: Packages in nature
-| cols: 1fr 1fr
-| gap: 10vw
-| padding: 0
+| gap: var(--base8)
 
-<center><div style="text-align: left; padding-left: 10vw">
+<center><div style="text-align: left;">
 
 ## Packaging in nature
 
@@ -166,9 +163,6 @@ But let's think further:
 **How can we optimize packaging?** 
 
 <br>
-
-
-
 
 </div></center>
 
@@ -338,10 +332,9 @@ But let's think further:
 ---
 
 | section: Stacking multiple packages
-| gap: 10vw
-| padding: 0
+| gap: var(--base8)
 
-<center><div style="text-align: left; padding-left: 10vw">
+<center><div style="text-align: left;">
 
 ## Multiple packaging
 
@@ -349,17 +342,11 @@ Take a lemon or an orange. Think about its parts and its packaging subdivision.
 
 Sometimes natural packagings do not optimize the amount per se, but they maximize the **outer container utilization**.
 
-
-<br>
-
-
-
 </center></div>
 
 -
 
 <f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/1280px-Ambersweet_oranges.jpg" />
-
 
 ---
 
@@ -689,7 +676,7 @@ Depending on your students' proficiency, you can also let them design the layout
 
 -
 
-<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+<a class="tertiary" href="../"><f-home-icon /> &nbsp; Back to projects</a>
 
 -
 

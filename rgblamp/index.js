@@ -1,8 +1,10 @@
-import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { fachwerk2 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-fachwerk({
+fachwerk2({
   title: 'RGB lamp',
   theme: "dark",
+  type: "slides",
+  home: "..",
   style: { "--content-padding":"var(--base10) var(--base4) var(--base4 ) var(--base4)", "--purple": "blue", "--accent": "blue ", "--darkestgray": "black", "--yellow": "yellow" },
   src: [
     "./index.md",

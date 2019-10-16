@@ -113,7 +113,7 @@ export default{
     
   },
   template: `
-  <div class="cells fit" style="grid-template-columns: 1fr 1fr; grid-gap:var(--content-gap);">
+  <div class="cells fit" style="grid-template-columns: 1fr 1fr; grid-gap: var(--base4);">
     <div class="cell">
       <f-artboard width="300" height="440" responsive id="calculator-design">
         <f-group>

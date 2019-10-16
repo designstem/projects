@@ -501,21 +501,17 @@ Current <var class="gray">x</var> axis value is <var class="gray">{{ round(get('
 | theme: dark
 | tint: 0.7
 
-<center><div>
+<center>
 
 <f-fact-icon />
-
-<p />
 
 The most common way to experience noticeable visual distortion<br>caused by frequency is by having the phenomenon occurring on a screen.
  
 <small>Watch following clip *(first 5 sec)* and observe <br>the movement of the **wagon wheels**.</small>
-<br>
-<p />
 
 <f-next-button title="Go" />
 
-</div><center>
+</center>
 
 ---
 
@@ -887,20 +883,16 @@ You have just completed all the steps required to experience visual distortion v
 | theme: dark
 | tint: 0.7
 
-<center><div>
+<center>
 
 <f-fact-icon />
 
-<p />
-
 Let's have a 3 minute break before the next hands-on exercise.
 <small>Following clip shows You different experiments with the medium.</small>
-<br>
-<p />
 
 <f-next-button title="Watch" />
 
-</div><center>
+</center>
 
 ---
 

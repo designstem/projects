@@ -1102,80 +1102,58 @@ Your **final task** is to create an algorithm for the "hardware" that you starte
 
 ---
 
-
-
 | section: What next?
-| padding: 0
-| rows: auto
-| cols: 2fr 2fr 1fr
-| 1 1 5
-| 2 3 5
-| 4 3 5
-<!-- <section> -->
+| background: ./images/cover.jpg
+| theme: dark
+| 1 1 1
+| 2 3 3
+| 2 4 5
 
-<section>
-
-  ## What to do next?
-</section>
+## What to do next?
 
 -
 
-<div style="padding:var(--content-padding); padding-right:0; padding-top:0;">
+#### Related DesignSTEM projects:
 
-  #### Related DesignSTEM projects:
+<br>
 
-  <br>
+<a href="../patterns">2D/3D patterns</a> allows to play around with 2D pattern compositions.
+
+<a href="../frequency">Frequency and Motion</a> From praxiscope to cinema to GIFs: learn the science behind the moving image.
   
-  <a href="../patterns">2D/3D patterns</a> allows to play around with 2D pattern compositions.
+<a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
-  <a href="../frequency">Frequency and Motion</a> From praxiscope to cinema to GIFs: learn the science behind the moving image.
-
-</div>
-  
 -
   
-<div style="padding:var(--content-padding); padding-left:0; padding-right:0; padding-top:0;">
-
-  #### Other materials:
-
-  <br>
-  
-  <a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a> BBC Ideas video
-  
-  <a href="https://algorithms.design/" target="_blank">How Artificial Intelligence is Changing Design</a>
-  
-  <a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Khan Academy Algorithms course</a>
-  
-  <a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">Artur Neufeld:</a> About creativity, algorithms and the future of graphic design
-  
-  <a href="https://www.youtube.com/watch?v=8Uo6zFwSO78" target="_blank">Talk at FITC</a> and <a href="https://mattdesl.svbtle.com/">Blog</a> of Matt DesLauriers, an artist and freelance creative coder
-  
-  <a href="https://generated.space/" target="_blank">Generated Spaces</a> by Kjetil Golid
-  
-  <a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. 
-  <a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with Tim Holman.
-  
-  <a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a> - plotter art.
-  
-  <a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a> - digital art blog
-  
-  <a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a> - a Chrome experiment
-  
-  <a href="https://www.openprocessing.org/browse/#">OpenProcessing</a> 
-
-  <a href="https://www.derivative.ca/" target="_blank">Touch Designer</a>
-
-</div>
-<!-- </section> -->
+#### Other materials:
 
 -
 
-<section>
-  <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
-</section>
+<a href="https://www.bbc.com/ideas/videos/why-algorithms-are-called-algorithms/p07gdlwf" target="_blank">Why algorithms are called algorithms</a> BBC Ideas video
+
+<a href="https://algorithms.design/" target="_blank">How Artificial Intelligence is Changing Design</a>
+
+<a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Khan Academy Algorithms course</a>
+
+<a href="http://www.arturneufeld.com/research/fontjoy" target="_blank">Artur Neufeld:</a> About creativity, algorithms and the future of graphic design
+
+<a href="https://www.youtube.com/watch?v=8Uo6zFwSO78" target="_blank">Talk at FITC</a> and <a href="https://mattdesl.svbtle.com/">Blog</a> of Matt DesLauriers, an artist and freelance creative coder
 
 -
 
-<div style="position:sticky; top:0; height:100vh; ">
-  <f-image src="./images/start.jpg" style="--image-height:100%; --image-position:66% center" />
-</div>
+<a href="https://generated.space/" target="_blank">Generated Spaces</a> by Kjetil Golid
+
+<a href="https://generativeartistry.com/">Generative Artistry</a> by Tim Holman. 
+<a href="https://spec.fm/podcasts/toolsday/186315" target="_blank">Toolsday podcast</a> with Tim Holman.
+
+<a href="https://twitter.com/hashtag/plottertwitter" target="_blank">#plottertwitter</a> - plotter art.
+
+<a href="https://www.creativeapplications.net" target="_blank">Creative Applications</a> - digital art blog
+
+<a href="http://blouze.github.io/projets/harmonogrammes/" target="_blank">Harmonogrammes</a> - a Chrome experiment
+
+<a href="https://www.openprocessing.org/browse/#">OpenProcessing</a> 
+
+<a href="https://www.derivative.ca/" target="_blank">Touch Designer</a>
+
+

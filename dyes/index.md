@@ -574,9 +574,9 @@ http://www.textilestudio.ca/guest%20artists/flint1.html
 
 ---
 
-| section: Choosing the fabric
+| section: Choosing the fabric 2
 
-## Choosing the fabric
+## Choosing the fabric 2
 
 One of the aspects to think about when choosing the fabric is to consider how much water has been consumed and polluted in the process of making the fabric. Other important aspects to consider are use of land, use of <var>pesticides</var>. Here you can find useful links to further research the environmental impact of different fabrics. 
 

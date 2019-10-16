@@ -1,5 +1,5 @@
 import {
-  fachwerk,
+  fachwerk2,
   Vue,
   Css,
   get,
@@ -241,12 +241,12 @@ const isActive = (project, designtags, stemtags) => {
   return true;
 };
 
-fachwerk({
+fachwerk2({
   title: "Projects",
   components: { FLogo, FGrid, FImageCard, FAbout, FTeam, FTags },
   utils: { isActive },
-  editor: "none",
+  edit: "none",
   menu: "none",
   type: "document",
-  style: { "--image-min-height": "100px", "--content-padding": "var(--base8)" }
+  style: { "--image-min-height": "100px", "--content-padding": "var(--base8)", "--content-max-width": "100%" }
 });

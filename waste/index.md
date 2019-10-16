@@ -4,8 +4,9 @@
 | background: ./images/cover.jpg
 | tint: 0.6
 | style: background-position: center;
+| height: 90vh
 
-<center><div>
+<center>
 
 # <big>Waste is a<br>design mistake</big>
 
@@ -13,7 +14,7 @@
 
 <f-next-button title="Let's start" />
 
-</div></center>
+</center>
 
 <f-notes title="Credits">
 
@@ -24,7 +25,6 @@ https://commons.wikimedia.org/wiki/File:Aerial@sendai.jpg
 ---
 
 | section: The image
-| 2 2 1
 | theme: dark
 | padding: 0
 
@@ -53,8 +53,6 @@ Image source: https://commons.wikimedia.org/wiki/File:Aterro_Sanitario.jpg
 
 | 1 1 1
 | 2 3 3
-| gap: var(--base4)
-| rows: auto 1fr
 
 <caption>📺💬 Watch and discuss</caption>
 
@@ -79,6 +77,7 @@ Look at TED talk given by Thomas Twaites and summarize his key message.
 | section: Calculate your footprint
 | background: https://footprint.wwf.org.uk/images/new/sky.jpg
 | theme: dark
+| height: 90vh
 
 <center>
 
@@ -182,7 +181,6 @@ You have probably found a lot of initiatives to reduce pollution and they all ha
 
 | 1 1 1
 | 2 3 3 
-| rows: auto 1fr
 | background: var(--lightergray)
 
 <caption>📺💬 Watch and discuss</caption>
@@ -235,9 +233,7 @@ You have probably found a lot of initiatives to reduce pollution and they all ha
 
 | theme: dark
 | section: Choose a next step
-| gap: var(--base4)
-| 1 2 3
-| 1 4 5
+| height: 90vh
 
 ## <big>Choose your strategy</big>
 
@@ -245,7 +241,7 @@ You have probably found a lot of initiatives to reduce pollution and they all ha
 
 -
 
-<f-card style="height: 80vh; padding: var(--base4);" background="white" color="var(--darkgray)" @click.native="goto('Minimal use of material')">
+<f-card style="padding: var(--base4);" background="white" color="var(--darkgray)" @click.native="goto('Minimal use of material')">
 <div>
 <h2 style="padding: 0"><span class="bullet">1</span></h2>
 <h3 style="margin: 0; color: var(--darkgray);">Minimal use<br>of material</h3>
@@ -254,40 +250,14 @@ You have probably found a lot of initiatives to reduce pollution and they all ha
 
 -
 
-<f-card  style="height: 80vh; padding: var(--base4);" background="white" color="var(--darkgray)" @click.native="goto('Zero waste products')">
+<f-card  style="padding: var(--base4);" background="white" color="var(--darkgray)" @click.native="goto('Zero waste products')">
 <div>
 <h2 style="padding: 0"><span class="bullet">2</span></h2>
 <h3 style="margin: 0; color: var(--darkgray);">Zero waste products</h3>
 </div>
 </f-card>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
-
-
-
-
-
-
-
-
-
 
 | chapter: 1. Minimal use of material
 | section: Minimal use of material
@@ -485,6 +455,7 @@ https://pxhere.com/en/photo/59627
 | theme: dark
 | 1 2 3
 | 1 4 5
+| rows: 1fr 1fr
 
 ## Four ways to optimize
 
@@ -492,23 +463,25 @@ The following four hands-on exercises introduce some useful principles in the de
 
 -
 
-<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
+<f-card background="white" color="var(--darkgray)" @click.native="goto('Optimization with folds')">
 <h4 style="margin: 0; color: var(--darkgray);">Optimization with folds</h4>
 </f-card>
 
 -
 
-<f-card  style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')"><h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4></f-card>
+<f-card background="white" color="var(--darkgray)" @click.native="goto('Optimization with sticks and strings')">
+<h4 style="margin: 0; color: var(--darkgray);">Optimization with sticks and strings</h4>
+</f-card>
 
 -
 
-<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
+<f-card background="white" color="var(--darkgray)" @click.native="goto('Optimization with cells')">
 <h4 style="margin: 0; color: var(--darkgray);">Optimization with cells</h4>
 </f-card>
 
 -
 
-<f-card style="height: 40vh" background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
+<f-card background="white" color="var(--darkgray)" @click.native="goto('Optimization by deformation')">
 <h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
 </f-card>
 
@@ -652,9 +625,8 @@ See what happens when you place the papers **horizontally** or **vertically** on
 
 | section: Exercise: Paper construction
 | theme: dark
-| 1 2 3 4
-| 1 2 5 6
-| cols: 1.5fr var(--base4) 1fr 1fr
+| 1 2 3
+| 1 4 5
 
 <caption>Optimization with folds</caption>
 
@@ -665,8 +637,6 @@ Take some paper and try different ways of folding to make a strong paper constru
 <a class="tertiary" href="./files/folding_hexagon.pdf"><f-arrow-icon rotation="90" />Download rectangular PDF</a>
 
 <a class="tertiary" href="./files/folding_hexagon.pdf"><f-arrow-icon rotation="90" />Download hexagonal PDF</a>
-
--
 
 -
 
@@ -690,7 +660,6 @@ Take some paper and try different ways of folding to make a strong paper constru
 <h4 style="margin: 0; color: var(--darkgray);">Optimization by deformation</h4>
 </f-card>
 
-
 ---
 
 | chapter: Optimization with sticks and strings
@@ -698,7 +667,7 @@ Take some paper and try different ways of folding to make a strong paper constru
 | 1 2 
 | 1 3
 
-<big><caption>Optimization with sticks and strings</caption></big>
+<caption>Optimization with sticks and strings</caption>
 
 ## Tension and compression
 
@@ -728,10 +697,11 @@ Arch bridges are examples of <var>compressive structures</var>.
 
 | theme: dark
 | background: https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg
+| height: 90vh
 
 <center>
 
-<big><var style="color: white">tension</var> and <var style="color: white">compression</var><br>characteristics can also be combined</big>
+<big><var>tension</var> and <var>compression</var><br>characteristics can also be combined</big>
 
 </center>
 
@@ -1076,7 +1046,7 @@ Cut the taped sheets into shorter parts. Tape these shorter parts on top of each
 | background: ./images/bee7.jpg
 | theme: dark
 | tint: 0.3
-
+| height: 90vh
 <center>
 
 #### 5. 
@@ -1345,6 +1315,7 @@ Mattheck, C. (2011). Thinking tools after nature. Karlsruhe: Karlsruhe Institute
 
 | background: ./images/house.jpg
 | theme: dark
+| height: 90vh
 
 <center>
 
@@ -1662,6 +1633,7 @@ Image source: Henrik Blomqvist for Museo della Merda
 | theme: dark
 | background: https://alternativecommunication.files.wordpress.com/2013/09/exposition-alive-fondation-edf-paris_2013-05.jpg?w=1309&h=978
 | tint: 0.5
+| height: 90vh
 
 <center style="padding: 0 var(--base10)">
 
@@ -1799,7 +1771,7 @@ https://christienmeindertsma.com/Flax-Chair
 | 1 2
 | 1 3
 | rows: 1fr auto
-
+| height: 90vh
 -
 
 -
@@ -1893,6 +1865,7 @@ For example the **Foldaroid stool** by Anthony Yu Wei Tong.
 
 | background: ./images/zseat.jpg
 | theme: dark
+| height: 100vh
 
 <center>
 
@@ -1983,7 +1956,8 @@ Design Boom, www.designboom.com
 | background: ./images/aviator3.png
 | tint: 0
 | 1 2 2 2 
- 
+| height: 90vh
+
 <caption>Cut and Fold</caption>
 
 ## Aviator Chair
@@ -2000,9 +1974,9 @@ Image source: Core77, www.core77.com
 
 ---
 
-| background: var(--lightergray)
-| 1 2 2
 | padding: 0
+| gap: 0
+| theme: dark
 
 <section>
 
@@ -2020,13 +1994,11 @@ Try to make a chair out of paper using the cut and fold technique in the templat
 
 -
 
-<f-theme theme="dark" style="height: 50vh">
-
 <f-image src="./images/aviator1.png" />
 
-<f-image src="./images/aviator2.png" />
+-
 
-</f-theme>
+<f-image src="./images/aviator2.png" />
 
 ---
 
@@ -2035,7 +2007,7 @@ Try to make a chair out of paper using the cut and fold technique in the templat
 | 1 1 1
 | 2 3 3
 | 4 4 4
-
+| height: 90vh
 
 ## Final assignment
 
@@ -2068,6 +2040,7 @@ Do this by following the steps on the next slide.
 | background: https://upload.wikimedia.org/wikipedia/commons/9/9a/Plastic_Pollution_in_Ghana.jpg
 | tint: 0.5
 | theme: dark
+| height: 90vh
 
 <section>
 
@@ -2082,3 +2055,5 @@ Do this by following the steps on the next slide.
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
 </section>
+
+-

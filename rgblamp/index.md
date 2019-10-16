@@ -30,7 +30,6 @@ https://www2.meethue.com/en-us
 | section: Philips hue
 | 1 1 1
 | 2 3 3
-| rows: auto 1fr
 
 ## Let's start
 
@@ -63,7 +62,6 @@ All these questions are at the core of <var>design engineering</var>. Let's star
 | section: Problem definition
 | 1 1 1
 | 2 2 3
-| rows: auto 1fr
 
 <div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
@@ -99,7 +97,6 @@ Find out more about engineering design process</f-link>
 
 | 1 1 1
 | 2 2 3
-| rows: auto 1fr
 
 <div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
@@ -333,7 +330,6 @@ https://commons.wikimedia.org/w/index.php?sort=relevance&search=meat+counter&tit
 | 1 1
 | 2 2
 | 3 4
-| rows: auto auto 1fr
 
 <div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
@@ -373,7 +369,6 @@ There are always many ways of solving design problems. If you focus on just one 
 | padding: 0
 | 1 3 4
 | 2 3 4
-| rows: auto 1fr
 
 <section>
 
@@ -469,7 +464,6 @@ When you answer these questions, try to be *as precise as possible.* The better 
 | 2 2 2
 | 3 4 5
 | 6 6 6
-| rows: auto auto 1fr
 
 <div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
@@ -510,7 +504,6 @@ Don't stop developing, even if you are content with the result in between. **The
 | section: How is color produced?
 | 1 1 1
 | 2 3 4
-| rows: auto 1fr
 
 ## How is color produced in devices?
 
@@ -619,7 +612,6 @@ Find out which sequence of colors are you able to obtain?
 | section: Reactive RGB light
 | 1 1 
 | 2 3
-| rows: auto 1fr
 
 <caption>Assignment</caption>
 
@@ -655,7 +647,6 @@ Hot|Red|`200`|`0`|`10`
 | 1 1
 | 2 2
 | 3 4
-| rows: auto auto 1fr
 
 <div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
@@ -873,8 +864,6 @@ https://www.instructables.com/id/RGB-Lamp/
 | 1 1 1
 | 2 2 3
 
-| rows: auto auto 1fr
-
 <div class="grid" style="--cols: repeat(6,1fr); --gap: 10px">
   <f-card
     v-for="(c,i) in ['Problem definition','Background research','Design','Engineering','Prototyping','Communication']"
@@ -910,7 +899,6 @@ Professional engineers always do the same, thoroughly documenting their solution
 | section: What is marketing?
 | 1 1 1
 | 2 3 3
-| rows: auto 1fr
 
 ## Marketing
 
@@ -941,7 +929,6 @@ All these questions are the core of <var>marketing</var>, the art of selling not
 | section: Prepare your presentation
 | 1 1 1
 | 2 3 3
-| rows: auto 1fr
 
 <caption>Assignment</caption>
 

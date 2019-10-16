@@ -241,7 +241,7 @@ But first, **let's go outside**.
 | 3 2
 | rows: 1fr auto
 
-<section style="padding:var(--content-padding);">
+<section>
 
   <!-- <div> -->
   
