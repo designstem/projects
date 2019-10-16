@@ -125,13 +125,9 @@ https://viralzone.expasy.org/678
 
 <center>
 
-<section>
-
 # Making shapes
 
 Let's make some polyhedra of our own!
-
-</section>
 
 </center>
 
@@ -240,16 +236,6 @@ Alter the base triangle in a way that makes the composed structure express an em
 
 <f-image src="./images/photo1.jpg">
 
-<f-notes>
-
-**_TRANSLATE_**
-
-Kolmnurgast saab slide-together tehnikaga luua ka teisi geomeetrilisi kujundeid...
-
-https://www.halodesign.dk/brands/iq-light/
-
-</f-notes>
-
 ---
 
 | background: ./images/photo2.jpg
@@ -259,13 +245,9 @@ https://www.halodesign.dk/brands/iq-light/
 
 <center>
 
-<section>
-
-# Geometric models as a base for a design
+# Geometric models<br>as a base for a design
 
 Let's look at some examples of polyhedra in product design.
-
-</section>
 
 </center>
 
@@ -320,17 +302,13 @@ https://www.amazon.ca/Ikea-Joxtrop-Renewable-Lampshade-Cardboard/dp/B01LXV2N2S
 
 | theme: light
 | chapter: Math, design, and feelings
-| section: Math model as a base for design
+| section: Do you know?
 
 <center>
 
-<section>
-
-## Do you know any polyhedra-based design objects?
+## Do you know any<br><var>polyhedra</var>-based<br>design objects?
 
 Discuss!
-
-</section>
 
 </center>
 
