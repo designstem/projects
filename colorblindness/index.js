@@ -1,4 +1,4 @@
-import { fachwerk2 } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 // import { fachwerk } from "http://127.0.0.1:5501/fachwerk.js";
 
 import * as localutils from "./utils.js";
@@ -15,7 +15,7 @@ import CalculatorDesigner from "./components/CalculatorDesigner.js";
 
 import Mapper from "./cv-mapper/Mapper.js";
 
-fachwerk2({ 
+fachwerk({ 
   title: 'Colorblindness',
   components: { 
         //"ImageCompare" : ImageCompare,

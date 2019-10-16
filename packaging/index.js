@@ -1,4 +1,4 @@
-import { fachwerk2 } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 // n number of edges
 // p perimeter
@@ -34,7 +34,7 @@ function rEP(n, p) {
   return r;
 }
 
-fachwerk2({
+fachwerk({
   title: "Hexagons",
   style: {
     "--emphasis": "var(--red)",
