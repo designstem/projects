@@ -27,6 +27,7 @@ https://pxhere.com/en/photo/365034
 
 | section: Exercise: Look for patterns
 | padding: 0
+| rows: auto
 
 <section>
 

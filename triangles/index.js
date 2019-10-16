@@ -1,4 +1,4 @@
-import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { fachwerk2 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 // import { fachwerk } from "http://127.0.0.1:5501/fachwerk.js";
 
 import * as localutils from "./utils.js";
@@ -7,7 +7,7 @@ import Triangle from "./components/Triangle.js";
 // import Separator from "./components/Separator.js";
 // import Hedron from "./components/Hedron.js";
 
-fachwerk({
+fachwerk2({
   title: "Triangles",
   components: {
     Triangle: Triangle
@@ -17,8 +17,8 @@ fachwerk({
   src: "index.md",
   // src: "math-pyramid.md",
   theme: "light",
-  pager: true,
-  home: false,
+  type: "slides",
+  home: "..",
   utils: localutils,
   // style: {"--accent":"var(--blue)"}
 });

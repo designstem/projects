@@ -1,5 +1,7 @@
-import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { fachwerk2 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
-fachwerk({
-  title: 'Waste'
+fachwerk2({
+  title: 'Waste',
+  type: 'slides',
+  home: '..'
 });
