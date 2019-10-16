@@ -1,14 +1,15 @@
-import { fachwerk } from "https://designstem.github.io/fachwerk/fachwerk.js";
+import { fachwerk2 } from "https://designstem.github.io/fachwerk/fachwerk.js";
 
 import * as localutils from "./utils.js";
 
 import Spiral from "./components/Spiral.js";
 
-fachwerk({
+fachwerk2({
   title: "Spirals",
   components: {
     Spiral: Spiral
   },
-  src: "index.md",
+  type: "slides",
+  home: "..",
   utils: localutils
 });
