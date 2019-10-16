@@ -12,7 +12,7 @@
 | 3 2
 
 
-<section style="padding:var(--content-padding)">
+<section>
   
   ## Color contrast and harmony
 
@@ -56,7 +56,7 @@
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding); padding-bottom:0;">
+<section>
   
   <!-- ##### EXPLAIN -->
   ## Color contrast and harmony
@@ -73,7 +73,7 @@
 
 -
 
-<section style=" padding:var(--content-padding); padding-top:0;">
+<section>
   <f-next-button />
 </section>
 
@@ -96,7 +96,7 @@
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding); padding-bottom:0;">
+<section>
 
 ## Color contrast and harmony
 
@@ -116,7 +116,7 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 
 -
 
-<section style="padding:var(--content-padding); padding-top:0;">
+<section>
   <f-next-button />
 </section>
 
@@ -139,7 +139,7 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding); padding-bottom:0;">
+<section>
 
 <caption>Color contrast and harmony</caption>
 
@@ -166,7 +166,7 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 </section>
 
 -
-<figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0; padding:var(--content-padding)">
+<figure style="width:100%; height:100vh; display:flex; justify-content:center; align-items: center; margin: 0; position:sticky; top: 0; padding:var(--base6)">
   <img src="./images/cvd_itten_colorwheel.svg" />
 </figure>
 
@@ -180,7 +180,7 @@ Therefore, don’t mix up color contrast with discord. Even loud and bold color 
 -->
 -
 
-<section style="padding:var(--content-padding);">
+<section>
   <f-next-button />
 </section>
 
@@ -544,7 +544,7 @@ For monochromatic palettes, you combine one hue with its different shades, eithe
 
 
 
-| section: Task: Create a palette
+| section: Task: Your turn!
 | id: task2
 | theme: dark
 | rows: auto
@@ -851,7 +851,7 @@ Earlier, we learned that people with color vision deficiencies cannot see certai
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding)">
+<section>
 
 <caption>Color palettes</caption>
 
@@ -942,7 +942,7 @@ After you have tried out different color schemes, let's summarize what you found
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding)">
+<section>
 
 <caption>Color palettes</caption>
 
@@ -1018,7 +1018,7 @@ Creating color palettes with more than two or three colors takes time, patience 
 | 1 2
 | 3 2
 
-<section style="padding:var(--content-padding)">
+<section>
 
 <caption>Learning Station Summary</caption>
 

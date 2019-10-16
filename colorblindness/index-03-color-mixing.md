@@ -54,7 +54,7 @@ Our eyes have three color receptor cells or cones: red, green and blue. As a res
 | theme: dark
 | 1 2
 
-<section style="padding:var(--content-padding)">
+<section>
 
 <!-- ##### EXPLAIN  -->
 <caption>Color Mixing</caption>
@@ -127,7 +127,7 @@ If you want to find out about the subtractive color model, see this [wikipedia t
 | padding: 0
 | 1 2
 
-<section style="padding:var(--content-padding)">
+<section>
 
 <caption>Color Mixing</caption>
 

@@ -1,6 +1,6 @@
 | chapter: Introduction
 | section: First page
-| style:  --primary:var(--middlegray);
+| --primary: var(--middlegray);
 | rows: auto
 | cols: 0.5fr 2fr 1fr
 | height: 100vh
@@ -52,7 +52,7 @@
 
 
 | theme: light
-| style:  --primary:var(--middlegray)
+| --primary: var(--middlegray)
 | cols: 0.25fr 3fr 2fr
 | 4 1 2
 | 4 3 2
@@ -82,7 +82,7 @@
 
 | section: Bionics
 | theme: light
-| style:  --primary:var(--middlegray)
+| --primary: var(--middlegray)
 | cols: 0.25fr 3fr 2fr
 | 4 1 2
 | 4 3 2
@@ -114,7 +114,7 @@
 
 | section: Biodesign
 | theme: light
-| style:  --primary:var(--middlegray)
+| --primary:var(--middlegray)
 | rows: auto 
 | cols: 0.25fr 4fr 2fr
 | 5 1 2
@@ -167,7 +167,8 @@ Image source: https://www.media.mit.edu/
 | chapter: The Orange
 | section: Bruno Munari and the orange methaphore
 | theme: dark
-| style: background: hsl(45,100%,50%); --primary: #fff;
+| --primary: white
+| background: hsl(45,100%,50%)
 | rows: auto 30vh auto
 | 2 1
 | 3 3
@@ -220,7 +221,7 @@ Image source: http://www.munart.org/
 
 
 
-| style: --primary:var(--middlegray)
+| --primary: var(--middlegray)
 | cols: 0.25fr 3fr 2fr
 | rows: auto
 | 4 1 5
@@ -1126,9 +1127,10 @@ Student work, photo by Jacinta Costa.
 | theme: dark
 | background: ./images/01-biomimicry-start.jpg
 | tint: 0.55
-| style: background-position: center; background-size: contain cover; --primary:#fff;
 | cols: 3fr 2fr
 | 1 2
+
+| style: background-position: center; background-size: contain cover; --primary:#fff;
 
 <div class="bottom" style="justify-content: center;"> 
 
