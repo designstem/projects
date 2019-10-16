@@ -93,7 +93,7 @@ Plastic is a multi-purpose material. There are different categories of plastic, 
 ---
 
 
-| section: Bad and good news
+| section: Bad news
 | padding: 0
 | theme: dark
 | 1 1 1 2 2
@@ -117,7 +117,6 @@ Further you can find more information on plastic destroying nature via <f-link t
 <br>
 
 
-
 </section>
 
 
@@ -126,11 +125,9 @@ Further you can find more information on plastic destroying nature via <f-link t
 <f-image src="./images/equilibrium_fish.jpg" />
 
 
-
-
 ---
 
-| section: Bad and good news
+| section: Good news
 | padding: 0
 | theme: dark
 | rows: auto
@@ -313,7 +310,7 @@ https://commons.wikimedia.org/w/index.php?search=floating+piers&title=Special%3A
 
 ---
 
-| section: Bad and good news
+| section: Think further
 | padding: 0
 | rows: auto
 | 1 2
