@@ -7,8 +7,8 @@ import {
   flatten,
   unique,
   titlecase
-  } from "https://designstem.github.io/fachwerk/fachwerk.js";
-  // } from "http://127.0.0.1:5502/fachwerk.js";
+} from "https://designstem.github.io/fachwerk/fachwerk.js";
+// } from "http://127.0.0.1:5502/fachwerk.js";
 
 const parseList = (list, separator = ",") =>
   list.split(separator).map(l => l.trim());
@@ -248,5 +248,10 @@ fachwerk({
   edit: "none",
   menu: "none",
   type: "document",
-  style: { "--image-min-height": "100px", "--content-padding": "var(--base8)", "--content-max-width": "100%" }
+  typebutton: "none",
+  style: {
+    "--image-min-height": "100px",
+    "--content-padding": "var(--base8)",
+    "--content-max-width": "100%"
+  }
 });
