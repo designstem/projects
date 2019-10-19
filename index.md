@@ -77,7 +77,7 @@ v-slot="{ value: projects }"
 
 -
 
-<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>We are educators, teachers, designers and engineers from Estonia, Finland, Germany, Greece, Italy, The Netherlands, Portugal, Slovenia, and United Kingdom. We made DesignSTEM for ourselves and for the teachers in the whole world.<!-- We work in local community colleges all the way up to renonwed universities, with students from all ages and walks of life.--></big></big>
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>We are educators, teachers, designers and engineers from Estonia, Finland, Germany, Greece, Italy, The Netherlands, Portugal, Slovenia, and United Kingdom. We made DesignSTEM for ourselves and for the teachers in the whole world. See, <f-link to="https://designstem.github.io/slides/main-points"><var>why</var> we did it</f-link> and <f-link to="https://designstem.github.io/slides/creative-mood"><var>how</var> we did it</f-link>.</big></big>
 
 -
 
