@@ -1,18 +1,21 @@
 | chapter: Preface
 | section: Getting started
-| 1 3
-| 2 3
-| rows: 1fr auto
+| 1 4
+| 2 4
+| 3 4
+| rows: 1fr 2fr auto
 
-# <big><big>Metamerism</big></big>
+
+
+-
+
+# <big><big>Meta&shy;merism</big></big>
 
 <big>Explore the differences in color perception in virtual reality</big>
 
 <br>
 
 <f-next-button title="Start" />
-
-<br><br>
 
 -
 
@@ -21,6 +24,8 @@
 -
 
 <intro />
+
+
 
 <f-notes>
 
@@ -36,22 +41,21 @@ The learning scenario may be used to make students understand that different sou
 
 ---
 
-| 1 2 3
-| 1 2 3
-| 1 2 3
+
 | 1 2 3
 | 4 4 4
+| rows: 1fr auto
 | section: The dress
 
-<f-image src="./images/dress_01_ww.jpg" />
+<f-image src="./images/dress_01_ww.jpg" style="--image-min-height:50vh" />
 
 -
 
-<f-image src="./images/dress_03_nw.jpg" />
+<f-image src="./images/dress_03_nw.jpg" style="--image-min-height:50vh" />
 
 -
 
-<f-image src="./images/dress_05_cw.jpg" />
+<f-image src="./images/dress_05_cw.jpg" style="--image-min-height:50vh" />
 
 -
 
@@ -65,10 +69,9 @@ Original photo posted on https://swiked.tumblr.com
 
 ---
 
+
+| rows: 1fr 3fr
 | 1 1
-| 2 3
-| 2 3
-| 2 3
 | 2 3
 | chapter: VR-experiments
 | section: Experiment 1 - The dress in VR
@@ -77,26 +80,29 @@ Original photo posted on https://swiked.tumblr.com
 
 -
 
-In the example of the dress, you have seen that the same
-object may look differently. Some might say it is white and
-gold; others see it as black and blue. But what is true?
+In the example of the dress, you have seen that the same object may look differently. Some might say it is white and gold; others see it as black and blue. But what is true?
 
-To find out more about colors and light, you are going to do
-an experiment in a virtual learning environment.
+To find out more about colors and light, you are going to do an experiment in a virtual learning environment.
 
-<a href="./files/metamerism_worksheet_1.pdf" class="tertiary  "><f-arrow-icon rotation="90" />Download PDF worksheet</a>
+&nbsp;
+
+<a href="./files/metamerism_worksheet_1.pdf" class="tertiary" target="_blank"><f-arrow-icon rotation="90" />Download PDF worksheet</a>
 
 -
 
-Use a computer or your smartphone (with a VR headset if
-possible) and enter the first experiment.
+Use a computer or your smartphone (with a VR headset if possible) and enter the first experiment.
 
-1. Make yourself familiar with the VR environment
-   (moving, viewing, controls ...)
+1. Make yourself familiar with the VR environment (moving, viewing, controls ...)
 
 2. Experiment with the buttons. Which effect do they have?
 
+&nbsp;
+
 <f-next-button title="Start experiment 1" />
+
+
+
+
 
 <f-notes>
 
@@ -170,11 +176,11 @@ Do whatever you think suits your situation best and be creative!
 
 ---
 
+
+
 | 1 1
 | 2 3
-| 2 3
-| 2 3
-| 2 3
+| rows: 1fr 3fr
 | section: Experiment 2 - Colored lighting
 
 ## Experiment 2
@@ -185,7 +191,9 @@ You have seen that lighting can have an enormous effect on the way the human eye
 
 The effect on the dress was already clearly visible. But there are changes which may be more subtle or more drastic.
 
-<a href="./files/metamerism_worksheet_2.pdf" class="tertiary  "><f-arrow-icon rotation="90" />Download PDF worksheet</a>
+&nbsp;
+
+<a href="./files/metamerism_worksheet_2.pdf" class="tertiary" target="_blank"><f-arrow-icon rotation="90" />Download PDF worksheet</a>
 
 -
 
@@ -197,7 +205,12 @@ possible) and enter the second experiment.
 2. Try different combinations and watch the consequences
    on the scene and the objects.
 
+&nbsp;
+
 <f-next-button title="Start experiment 2" />
+
+
+
 
 ---
 
@@ -209,10 +222,7 @@ possible) and enter the second experiment.
 
 | 1 1 1
 | 2 3 4
-| 2 3 4
-| 2 3 4
-| 2 3 4
-| 5 5 5
+| rows: 1fr 3fr
 | chapter: Conclusion
 | section: Discussion
 
@@ -238,26 +248,31 @@ When does lighting affect colors? Find examples (work, hobby, everyday life.
 
 Find solutions to your example of color change. Present them to the others!
 
--
 
-<a class="tertiary" href="..">← Back to projects</a>
 
 ---
 
 | section: Wrapping up
-| padding: 0
+| 1 4
+| 2 4
+| 3 4
+| rows: 1fr 2fr auto
 
-<section>
+-
 
 ## Wrapping up
 
 #### Related DesignSTEM projects
-
+    
 <a href="../colorblindness">Color Vision Deficiency & Accessi­bility</a> contains a lot of interactive material about color and perception of color.
+
+&nbsp;
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
 
-</section>
+-
+
+
 
 -
 
