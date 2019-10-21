@@ -7,7 +7,9 @@ import intro from "./intro.js";
 fachwerk({
   title: 'Metamerism',
   type: "slides",
-  home: "..",
+  typebutton: "none",
+  edit: "none",
+  home: "none",
   theme: "dark",
   components: { Scene1, Scene2, intro }
 });
