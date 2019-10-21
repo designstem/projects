@@ -266,9 +266,13 @@ Find solutions to your example of color change. Present them to the others!
     
 <a href="../colorblindness">Color Vision Deficiency & Accessi­bility</a> contains a lot of interactive material about color and perception of color.
 
--
+&nbsp;
 
 <a class="tertiary" href="../"><f-leftarrow-icon /> Back to projects</a>
+
+-
+
+
 
 -
 
