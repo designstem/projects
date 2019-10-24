@@ -7,13 +7,13 @@
 
 # <big>Sustainable fashion<br>with natural dyes</big>
 
-<big>From product design to biochemistry and back<br><br><br><br>⚠️<br><br> This learning project<br>is under heavy development</big>
+<big>From  biochemistry to product design and back<br><br><br><br>⚠️<br><br> This learning project<br>is under heavy development</big>
 
 </center>
 
-<f-notes width="50vw" style="--primary: var(--darkgray)">
+<f-notes size="half" title="Course overview">
 
-### Overview
+## Course Overview
 
 Study Project "Natural Dyes" approaches the subject of chemical bonds in biology/chemistry via environmental issues by combining practical chemistry work with art/design-centered tasks and processes. 
 
@@ -336,6 +336,7 @@ https://reetaus.com/
 ---
 
 | chapter: Biochemistry
+| section: Time for biochemistry
 | theme: dark
 
 <center>
@@ -710,52 +711,57 @@ Photo credits: https://pxhere.com/en/photo/932474
 ---
 
 | chapter: Dyeing Experiment
+| section: Time for dyeing
 | background: ./images/dyes.jpg
 | theme: dark
-| section: Intro
 
 <center>
 
-# Dyeing Experiment
+# Time for<br>Dyeing Experiment
 
 </center>
 
 ---
 
 | section: Starting experiment
-| 1 1 1 2 2
-| 1 1 1 3 3
+| 1 2
+| 3 3
+| 4 5
+
+<f-image src="./images/kit1.jpg">
+
+-
+
+<f-image src="./images/kit2.jpg">
+
+-
 
 ## Starting experiment
 
-#### Protocol for the experiment 
+-
 
-1. Pretreatment of fabric <small>15 min x 3 times</small>
+##### Protocol for the experiment 
+
+1. Pretreatment of fabric
 
 2. Collecting food residues
 
-3. Extracting the dye <small>1,5h x 3 times</small>
+3. Extracting the dye
 
-4. Dyeing <small>1,5h</small>
+4. Dyeing the fabric
 
-5. Aftercare of fabric
+5. Aftercare of the fabric
 
-#### List of materials
+-
+
+##### List of materials
 
 * pot (aluminum, copper or iron)
 * fabric (T-shirt)
 * Filter Cloth
 * soy milk (at least 1 litre)
-* wooden spoon (for stirring, one for each dye extract)
+* wooden spoon
 * Protective clothing
-
--
-
-<img src="./images/kit1.jpg">
-
--
-
-<img src="./images/kit2.jpg">
 
 <f-notes>
 
@@ -767,14 +773,11 @@ If necessary, explain why a pot of certain material and wooden spoon are used.
 
 ---
 
-| section: Pretreatment of fabric
+| section: 1. Pretreatment of fabric
 | 1 2 2 2
-| padding: 0
-| gap: var(--base4)
 
-<section>
 
-## 1. 
+### 1.
 
 ### Pretreatment of fabric
 
@@ -782,25 +785,41 @@ If necessary, explain why a pot of certain material and wooden spoon are used.
 
 For pre-treating the fabric you need to soak it in the soy milk for 12 hours. Keep the soaking solution in a cool place. Dry the fabric. Repeat the procedure 2 or 3 times.
 
-</section>
-
 -
 
 <f-image src="./images/puuvillsojas.jpg" />
 
 ---
 
-##  Collecting the food residues
+| section: 2. Collecting the food residues
+| 1 2 3
+| 4 4 4
 
-The following food residues containing tannins, can be used:
+<f-image src="./images/resi3.jpg" />
+
+-
+
+<f-image src="./images/resi2.jpg" />
+
+-
+
+<f-image src="./images/resi1.jpg" />
+
+-
+
+### 2. Collecting the food residues
+
+The following food residues containing <var>tannins</var>, can be used:
 
 1. pomegranate peels (these give a yellow shade, using an aluminum pot)
+
 2. avocado peels (these give a pink shade, using an aluminum pot)
+
 3. avocado stones (these give a pink shade, using an aluminum pot)
 
 Keep the materials in a dark, dry place. Drying of food residue is not compulsory. 
 
-Note: Do not use food residues that have mould growing on them.
+***Note:*** Do not use food residues that have mould growing on them.
 
 <f-notes>
 
@@ -810,9 +829,16 @@ Avocado stones account for approximately 12% of the total weight on an avocado.
 
 ---
 
-##  Extracting the dye
+| section: 3. Extracting the dye
+| 1 2
+| 1 3
+| rows: 1fr 1fr
 
-Protocol for the experiment 
+###  3. Extracting the dye
+
+*1,5h x 3 times*
+
+##### Protocol for the experiment 
 
 1. Heat the selected food residue materials in an aluminum pot on medium temperature for 1.5 hours
 
@@ -824,14 +850,27 @@ Protocol for the experiment
 
 5. Pour the liquid into the bottle and store it in a cool place.
 
+-
+
+<f-image src="./images/pot.jpg"/>
+
+-
+
+<f-image src="./images/bottle.jpg"/>
+
 ---
 
+| section: 4. Dyeing the fabric
 | 1 3
 | 2 3
 
-##  Dyeing the fabric. Protocol for the experiment
+###  4. Dyeing the fabric
 
-1. Pour dye extract into your dye pot. Use an aluminum pot. 
+*1,5h*
+
+##### Protocol for the experiment
+
+1. Pour dye extract into your dye pot.
 
 2. Wet the fabric and put it into the dye pot.
 
@@ -841,13 +880,19 @@ Protocol for the experiment
 
 5. You can repeat step 4 to get deeper shades of colors.
 
-6. Gently squeeze out excess dye solution and leave the fabric dry in the shade.
+6. Gently squeeze out excess dye solution and leave the fabric dry in the shade. 
 
 -
 
-Video example of dyeing fabric with avocado:
+<details>
+
+<summary>📺 See video about dyeing fabric with avocado</summary>
+
+<br>
 
 <f-video src="https://www.youtube.com/watch?v=pb8Zvv-I6Fk" />
+
+</details>
 
 -
 
@@ -856,29 +901,39 @@ Video example of dyeing fabric with avocado:
 
 ---
 
-##  Dyeing the fabric 2
+| section: 5. Aftercare of the fabric
+| background: ./images/final.jpg
+| tint: 0
+| 1 1 1
+| 2 3 3
 
-Important notes: 
+### 5. Aftercare of the fabric
+
+-
 
 * You will get the best results by allowing sufficient time to dye the fabric.
 
-* The fabric should stay in the dye-pot for at least for at least 24 hours. This time is needed for dye molecules to bond with fabric fibres. 
-
 * The fabric should be stored for at least 7 days before you rinse it. 
 
-* Record the details of the dyeing process you used.
-
-<f-notes>
-
-Explain the dyeing  process of dyeing is to other members of your class.
-
-</f-notes>
+-
 
 ---
 
-##  Dyeing the fabric 3, summary
+| section: Making a process map
+| padding: 0
+| 1
+| 2
+| rows: 1fr auto
 
-***TASK*** Create a process map of dyeing process 
+<f-image src="./images/process.jpg" />
+
+-
+
+<section>
+
+## Wrapping up the experiment
+
+#### Create a <var>process map</var> of dyeing process 
 
 * Work in small groups
 
@@ -888,50 +943,72 @@ Explain the dyeing  process of dyeing is to other members of your class.
 
 * Present your map to other members of your class.
 
+</section>
+
 <f-notes>
 
-Let the students work in small groups. Students who have experimented with similar materials, could create a joint process map.
-
-The map could be the final step of biochemistry part and may conclude with an evaluation.
-
-See more: https://creately.com/blog/diagrams/process-mapping-guide/
-
-#### What is a Process Map?
+### What is a Process Map?
 
 A process map visually shows the steps of a work activity and the people who are involved in carrying out each step.
 
 When mapping a process you simply draw a box for each step and connect them with arrows to show the direction of flow.
 
+See more: https://creately.com/blog/diagrams/process-mapping-guide/
+
+### Suggestions
+
+Let the students work in small groups. Students who have experimented with similar materials could create a joint process map.
+
+The map could be the final step of biochemistry part and may conclude with an evaluation.
+
 </f-notes>
 
 ---
 
-<img src="./images/process.png" style="width: 60%"> 
+| chapter: Product design
+| section: Time for product design
+| theme: dark
+| background: https://c.pxhere.com/photos/7d/ef/forest_fog_cloud-109942.jpg!d
+| tint: 0.8
+<center>
+
+# <big>💡</big>
+
+# Time for<br>product design
+
+<big>Let's design a product to help the Earth</big> 
+
+</center>
+
+<f-notes title="Credits">
+
+https://pxhere.com/en/photo/109942
+
+</f-notes>
 
 ---
 
-| chapter: Product development
-| section: Introduction
+| section: The task
 
-***TODO: Titlecard***
+# 💡 
 
-##  Introduction
+## The task
 
-It is time for us to make an effort to help the Earth. 
-
-**The main task is to develop a handy, easy-to-make product**, which is  
+**Your task is to develop a handy, easy-to-make product**, which is  
 
 1. solving a problem
+
 2. made of using an item of recycled textile
+
 3. dyed using only natural color agent and mordants
 
 How would using such products to help maintain the well-being of our planet and ourselves?
 
----
+-
 
-| section: Process
+# 🔀
 
-## TODO: title
+## The process
 
 Form a small groups of 3-5 students.
 
@@ -942,6 +1019,8 @@ You will be using the simplified method of **design thinking**, which is widely 
 The design thinking process has five steps, which could be linear or not, depending on how the group a progresses.
 
 ---
+
+| section: Design thinking
 
 | 1 1 2
 
@@ -967,7 +1046,9 @@ Image source: https://commons.wikimedia.org/wiki/File:Processus_de_Design_Thinki
 
 ---
 
-## TODO: title
+| section: Double Diamond
+
+## Double Diamond
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Double_diamond.gif" style="width: 60%"/>
 
@@ -985,10 +1066,11 @@ Image source: https://commons.wikimedia.org/wiki/File:Double_diamond.gif
 
 ---
 
+| section: Getting stuck
 | 1 1
 | 2 2
 
-## TODO: title
+## Getting stuck
 
 Although you are following the stages of a certain process, it might be confusing to find the solution to the problem. 
 
@@ -1013,17 +1095,20 @@ After the process of product ideation is finished, the ideas are to be presented
 Groups should introduce their ideas briefly, covering information such as:
 
 1. Name/description of your product
+
 2. End users and/or target group of your product
+
 3. Name the problem(s), that are to be solved by using your product.
 
 Your audience should be encouraged to ask questions to refine and develop the idea, or to propose alternative solutions.
 
 ---
 
+section: Refining ideas
+
 ## Refining ideas
 
 After presenting your ideas to your classmates, discuss the results within your group.
-
 
 ***Subtask 1:*** Is the process of making your product is sustainable?
 
@@ -1031,7 +1116,9 @@ After presenting your ideas to your classmates, discuss the results within your 
 
 ---
 
-## Preparing the marketing pitch for your product 
+| section: Preparing a pitch
+
+## Marketing pitch for your product 
 
 **Pitch**, also named **marketing pitch**, is a presentation of a **business idea** to potential investors.
 
@@ -1051,16 +1138,31 @@ It is possible to arrange the pitching of ideas as a part of an assessment.
 
 ---
 
-| chapter: Art and Design
+| chapter: Visual design
+| section: Time for visual design
+| theme: dark
+| background: https://c.pxhere.com/images/21/38/c46c3ef5b67a0b9d2b3e49d0240b-1445899.jpg!d
+
+<center>
+
+# <big>🎨</big>
+
+# Time for<br>visual design
+
+<big>Let's create a visual design for our product</big>
+
+<f-notes>
+
+Image credits: https://pxhere.com/en/photo/1445899
+
+</f-notes>
+
+---
+
 | section: Core message
 
-***TODO: Titlecard***
+## Core message and idea 
 
-## Core message
-
-***TASK*** Create a visual design for your product
-
-### Core message and idea 
 
 Phrase the message so that it clear enough to extend public understanding about environmental issues and matches your product.
 
@@ -1159,10 +1261,6 @@ It is essential to support students through the analyse process. As your student
 | section: Process map
 | 1 1 2 2
 
-##  Process map
-
-### Task: make design process map of your own products full stack process
-
 ##### 12.
 
 Repeat steps 4-11, if necessary. 
@@ -1204,106 +1302,6 @@ Image source:
 Photo by glaramknits, https://www.flickr.com/photos/21907219@N02/14376614428/
 
 </f-notes>
-
-
----
-
-##  Product dyeing process
-
-First of all, **you need to plan ahead for the dyeing process**. 
-
-It is best to do this with your teammates. 
-
-Discuss which dyeing techniques would best suit to your design.
-
-Remember to use your previous experience from the biochemistry section, and your Process Map.
-
-Think abut how using different techniques, such as tie-dye, stencil, iron rust etc. would be used to transfer your design onto your item. You can also combine different techniques to achieve a more artistic approach.
-
-<!--
-***TODO*** Link to Exploration Biology/Chemistry 1
-
-***TODO*** Link to Biology/Chemistry 12.5 
-Dyeing the fabric 3, summary
-
--->
-
----
-
-
-## Transfer the design
-
-
-***SUBTASK 1*** create Dyeing Protocol of your product 
-
-***SUBTASK 2*** conduct the Dyeing Process accordingly
-
-Decide, how will you transfer your design to your item. (And still, if necessary, adapt your design.) Keep in mind, what kind of colour shades you will be able to gain (use your previous knowledge). 
-
----
-
-## Transfer techniques
-
-To bring the pattern or text on the t-shirt, you could try:
-
-A. Shibori technique to tie/fold the elements which will not be wearing the colour; 
-
-B. Stencil technique to cover the part of the item which will not be wearing the colour;  
-
-C. Use iron water to make the colours on the areas of design darker;
-
-D. Pretreat the fabric by painting the pattern/text with soy milk.
-
-Follow the steps for dyeing the fabric, that you have use slides on Exploration 4). <!-- ***TODO LINK*** -->
-
-NOTE: Keep the record of colouring process, time and results. 
-
-<f-notes>
-
-Demonstrate examples of techniques.
-
-Tie-dye: https://www.joann.com/tie-dye/
-
-Combined techniques: https://www.artistsnetwork.com/art-mediums/technique-tuesdays-10-tips-for-stenciling/
-
-</f-notes>
-
----
-
-## Extension to printing
-
-***TASK***
-
-**Get to know printmaking and painting techniques**, that can be used to decorate your message T-shirt. Experiment with different techniques, dyes and fabrics. You can also combine techniques and/or add ready-made textile markers. 
-
-Discuss the process and results.
-
-Follow the steps for dyeing the fabric, that you used in Exploration 4). 
-
-NOTE: Keep the record of colouring process, time and results. 
-
----
-
-##  Brainstorming
-
-How could we make each step of the process even more environmental-friendly?
-
-***SUBTASK 1*** Write down the step by step protocol for your improved experiment. 
-
----
-
-##  Pitching
-
-Presenting/Pitching the dyeing methods.
-Use your own dyed fabrics as examples.
-
----
-
-##  Explanation A
-
-Class will **compile the poster** in the form of a mind map or similar, to demonstrate and explain, what they have learned about natural pigments, dyes and dyeing.
-
-The poster will be discussed and analysed during a class conversation, which should be led by teacher.
 
 ---
 
