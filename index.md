@@ -51,7 +51,13 @@ v-slot="{ value: projects }"
 
 ---
 
+
+
+
 | padding: 0
+| 1
+| 2
+| 3
 
 <f-sheet
   id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
@@ -80,29 +86,20 @@ v-slot="{ value: projects }"
 
 </f-sheet>
 
----
-
-| gap: 0 var(--base10)
-| cols: 2fr 1fr
-| 1 1
-| 2 3
-
-
-# Team
-
--
-
-<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>We are educators, teachers, designers and engineers from Estonia, Finland, Germany, Greece, Italy, The Netherlands, Portugal, Slovenia, and United Kingdom. We made DesignSTEM for ourselves and for the teachers in the whole world. See, <f-link to="https://designstem.github.io/slides/main-points"><var>why</var> we did it</f-link> and <f-link to="https://designstem.github.io/slides/creative-mood"><var>how</var> we did it</f-link>.</big></big>
+<!-- :style="{ filter: isActive(p, get('dt'), get('st')) ? '' : 'brightness(10%)'}" -->
 
 -
 
 
+<section class="cells">
 
----
+  # Team
+  
+  <big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>We are educators, teachers, designers and engineers from Estonia, Finland, Germany, Greece, Italy, The Netherlands, Portugal, Slovenia, and United Kingdom. We made DesignSTEM for ourselves and for the teachers in the whole world. See, <f-link to="https://designstem.github.io/slides/main-points"><var>why</var> we did it</f-link> and <f-link to="https://designstem.github.io/slides/creative-mood"><var>how</var> we did it</f-link>.</big></big>
 
-| padding: 0
+</section>
 
-<p />
+-
 
 <div class="bio">
 
@@ -115,6 +112,8 @@ v-slot="{ value: projects }"
 <f-team @team="team => set('team', team)" />
 
 ---
+
+
 
 | rows: auto 1fr
 | 1 1 1
