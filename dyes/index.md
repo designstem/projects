@@ -5,19 +5,21 @@
 
 <center>
 
-# <big>Natural dyes</big>
+# <big>Sustainable fashion<br>with natural dyes</big>
+
+<big>From product design to biochemistry and back</big>
 
 </center>
 
 <f-notes width="50vw" style="--primary: var(--darkgray)">
 
-## Overview
+### Overview
 
 Study Project "Natural Dyes" approaches the subject of chemical bonds in biology/chemistry via environmental issues by combining practical chemistry work with art/design-centered tasks and processes. 
 
 Final aim of the study project is to **develop environmentally sustainable product**, which originates from recycling and reusing resources in order to reduce the environmental damage caused by textile and fashion industry.
 
-## Suggestions
+### Suggestions
 
 * Items to be dyed should be chosen by students themselves. Preferably, if they should come up with a special idea and/or develop the product. However, the product may be a ready-made item, carrying and environmental message, such as T-shirts, socks, blouses, shawls or headscarves.
 
@@ -35,18 +37,18 @@ Final aim of the study project is to **develop environmentally sustainable produ
 
 ***NOTE:*** There are several possible learning paths that could be followed during this learning project, depending on the interests and aims of both teachers and students. You could integrate this learning material with other study projects.
 
-## Time
+### Time
 
 **Quicklook:** 30 min
 
 **Full project:** up to 20 hrs during a 3-6 weeks period: 12-16 hrs depending on the dyeing process chosen and the level of task difficulty chosen, plus 4 hrs for production of group poster to present essential facts and for pitching the idea and product
 
-## Class setting
+### Class setting
 
 * Individual work, groups of 3-4 students
 * Joint discussions and analyses in class lead by the teacher
 
-## Materials
+### Materials
 
 * Fiber / clothes to be dyed
 * Food waste with coloring agents
@@ -60,6 +62,8 @@ vRusty metal items
 * Stove
 * Large paper
 * Coloured markers
+
+</f-notes>
 
 ---
 
@@ -78,20 +82,25 @@ https://blog.viviennewestwood.com/the-story-so-far/
 Nowadays, mitigation of climate change is no longer an option, if we are to keep planet Earth habitable. 
 
 
+<details>
+
+<summary>📺 See the Vivienne Westwood movie</summary>
+
+<br>
+
+<f-video src="https://www.youtube.com/watch?v=qvYmFcAegH4" />
+
+<small>https://www.viviennewestwoodmovie.com/</small>
+
+</details>
+
 </section>
 
 -
 
 <f-image src="./images/westwood.jpg" />
 
-
-<f-notes style="--primary: var(--darkgray)">
-
-## See also:
-
-<f-video src="https://www.youtube.com/watch?v=qvYmFcAegH4" />
-
-https://www.viviennewestwoodmovie.com/
+<f-notes title="Credits">
 
 Photo credit:
 http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.jpg
