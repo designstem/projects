@@ -7,13 +7,13 @@
 
 # <big>Sustainable fashion<br>with natural dyes</big>
 
-<big>From product design to biochemistry and back</big>
+<big>From  biochemistry to product design and back<br><br><br><br>⚠️<br><br> This learning project<br>is under heavy development</big>
 
 </center>
 
-<f-notes width="50vw" style="--primary: var(--darkgray)">
+<f-notes size="half" title="Course overview">
 
-### Overview
+## Course Overview
 
 Study Project "Natural Dyes" approaches the subject of chemical bonds in biology/chemistry via environmental issues by combining practical chemistry work with art/design-centered tasks and processes. 
 
@@ -201,7 +201,7 @@ Summarize all the ways in which production of a cotton T-shirt can cause environ
 
 <section style="padding-bottom: 0">
 
-## Livin a gr€€n lifestyle
+## Living a gr€€n lifestyle
 
 </section>
 
@@ -262,7 +262,6 @@ Image credit https://www.pinterest.com/pin/447826756696310614/?nic=1a
 | section: Are you being greenwashed?
 | 1 1 1
 | 2 3 4
-| rows: 1fr auto
 
 <caption>📖💬📢 Read, discuss and share the findings</caption>
 
@@ -337,6 +336,7 @@ https://reetaus.com/
 ---
 
 | chapter: Biochemistry
+| section: Time for biochemistry
 | theme: dark
 
 <center>
@@ -349,35 +349,10 @@ https://reetaus.com/
 
 ---
 
-| section: Dyeing and Mordanting
-
-
-## Dyeing and Mordanting
-
-***TASK*** Dye some scraps of different natural fibers, using only natural agents and mordants. Work in small groups.
-
-Workflow for production:
-
-1. Become familiar with the basics of textiles, materials, dyes and mordants.  
-2. Plan the process of mordanting and dyeing, considering different techniques.
-3. Prepare materials, tools and process timeline.
-4. Dye your textile scraps. Take pictures of the process for a process map. Take notes.
-
-<f-notes>
-
-Theory part (basics of dyeing and mordanting) should be presented by the teacher. 
-
-Remember: The maim of this project is to integrate disciplines of design and bio/chemistry. Therefore, it is recommended that teachers of both disciplines  work together: prepare the material and/or introduce it in your classroom together if possible.
-
-</f-notes>
-
----
-
 | section: Natural pigments
+| padding: 0
 
-##  Biology/Chemistry 2
-
-***TASK***
+<section>
 
 ## Explore natural pigments
 
@@ -389,33 +364,52 @@ Remember: The maim of this project is to integrate disciplines of design and bio
 
 4. Discuss and explain the process of dyeing, i.e how pigments bond to fabric.
 
+</section>
+
+-
+
+<f-image src="https://c.pxhere.com/photos/91/4c/hand_rang_barse_holi_color_pink_powder_pigment-797619.jpg!d" />
+
 <f-notes>
 
-Teacher notes:
+### Teacher notes:
 
 1. The teacher should prepare and make a short presentation according to the interests of students.
  
-Share references or sources of the information presented, to help your students. 
+  Share references or sources of the information presented, to help your students. 
 
 2. Depending on the profile of the group, historical facts may also be considered. You could, for example include film clips or works of art.
 
 3. Ask students to explain how chemical bonds are formed, keeping it simple.
 
+Photo credits: https://pxhere.com/en/photo/797619
+
 </f-notes>
 
 ---
 
-| section: Choosing the fabric
+| section: Choosing the fabrics
+| padding: 0
+| 2 1
 
-## Choosing the fabric
+<section>
+
+## Choosing the fabrics
 
 There are many aspects to consider when **choosing the fabric** to be dyed. Most of the natural fabrics are made either of **cellulose** (modal, viscose rayon, cotton, hemp, bamboo, linen) or **protein** (soy fibre, silk, wool). See more in the comprehensive [list of  textile fibers by its source](https://www.textileschool.com/amp/2782/comprehensive-list-of-textile-fibers/).
 
 Often dyes used are **toxic** to humans or polluting the environment (e.g. azo dyes).
 
-One of the ways to be more  conscious environmentally is to use natural dyes, for example **food residues that contain tannins** (list). Tannins act as natural mordants.
+One of the ways to be more  conscious environmentally is to use natural dyes, for example **food residues that contain tannins**. Tannins act as natural mordants.
 
 A greater variety of dyes can be used for dyeing protein fibres. You will find out why soon!
+
+</section>
+
+-
+
+<f-image src="https://c.pxhere.com/photos/f0/fb/pareo_beach_fabrics-1075992.jpg!d" />
+
 
 <f-notes>
 
@@ -437,30 +431,43 @@ Wool: https://www.textileschool.com/423/wool-fibers-natural-protein-fibers/
 
 Viscose/rayon: https://www.textileschool.com/145/basics-of-rayon-fiber/
 
+Image credit: https://pxhere.com/en/photo/1075992
 
 </f-notes>
 
 ---
 
-##  Biology/Chemistry 4
-
-***TASK*** testing the fabrics
-
-We are to do two simple (nontechnical) tests to identify the type of fabric fibers. Nontechnical testing does not require any special equipment or setting. The different nontechnical methods of identifying the textile fibers are:
-
-Conduct experiments in small groups. Follow teachers guidelines. Take notes.
-
-Discuss the findings as a group.
-
--
+| section: Testing the fabrics
+| background: lightergray
+| 1 2
+| 3 3
+| 4 5
 
 <f-video src="https://www.youtube.com/watch?v=Ug9K0DHQSgc" />
 
-Feeling test
+-
 
 <f-video src="https://www.youtube.com/watch?v=kb4tCcnA6jo" />
 
-Burning test
+-
+
+<caption>🔬 Lab experiment</caption>
+
+## Testing the fabrics
+
+We are to do two simple nontechnical tests to identify the type of fabric fibers that  not require any special equipment or setting.  They are called <var>feeling test</var> and <var>burning test</var>.
+
+-
+
+<span class="bullet">1</span> Conduct experiments in small groups. 
+
+<span class="bullet">2</span> Follow teachers guidelines. 
+
+-
+
+<span class="bullet">3</span> Take notes.
+
+<span class="bullet">4</span> Discuss the findings as a group.
 
 <f-notes>
 
@@ -478,47 +485,51 @@ Finalise the experiment with discussion on what and how they have learned.
 
 ---
 
-##  Biology/Chemistry 4 Cellulose
+| section: Key terms
+| 1 1 1
+| 3 5 7
+| 2 4 6
+| cols: 1fr 1.5fr 1fr
 
-Cellulose is an organic compound, more specifically a polysaccharide consisting of repeating glucose subunits.
+## Key terms
 
-Listen to your teacher's explanations and/or watch the video:
+-
 
-https://www.bbc.com/bitesize/articles/z2d2gdm
+<var>Cellulose</var> is an organic compound, more specifically a polysaccharide consisting of repeating glucose subunits.
 
-<f-notes>
+📺 See <a href="https://www.bbc.com/bitesize/articles/z2d2gdm">a related video</a>
 
-A bio/chemistry teacher can work with his / her own materials for this topic, or add further explanations of information presented in the video.
+-
 
-</f-notes>
+<a href="https://www.bbc.com/bitesize/articles/z2d2gdm">
 
----
+  <f-image src="./images/cellulose.png" />
 
-##  Biology/Chemistry 5 Proteins
+</a>
 
-Proteins are organic compounds, consisting of long chains of repeated amino acid subunits.
+-
 
-Listen to your teachers' explanations and/or watch the videos:
+<var>Proteins</var> are organic compounds, consisting of long chains of repeated amino acid subunits.
 
-https://www.khanacademy.org/science/high-school-biology/hs-biology-foundations/hs-biological-macromolecules/v/introduction-to-proteins-and-amino-acids
+📺 See <a href="https://www.khanacademy.org/science/high-school-biology/hs-biology-foundations/hs-biological-macromolecules/v/introduction-to-proteins-and-amino-acids">a related video</a>.
 
 -
 
 <f-video src="https://www.youtube.com/watch?v=wvTv8TqWC48" />
 
----
+-
 
-##  Biology/Chemistry 6 Tannins
+<var>Tannins</var> are water-soluble organic molecules that bind to and precipitate proteins.
 
-Tannins are water-soluble organic molecules that bind to and precipitate proteins.
-
-Simple explanation on tannins in plants: https://vinepair.com/wine-101/guide-to-tannins/
+📖 Read <a href="https://vinepair.com/wine-101/guide-to-tannins/">a related article</a>.
 
 -
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Woody_Dicot_Stem_One_Year_Quercus_%2835038421793%29.jpg/1280px-Woody_Dicot_Stem_One_Year_Quercus_%2835038421793%29.jpg" />
+<f-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Woody_Dicot_Stem_One_Year_Quercus_%2835038421793%29.jpg/1280px-Woody_Dicot_Stem_One_Year_Quercus_%2835038421793%29.jpg" />
 
 <f-notes title="Credits">
+
+A bio/chemistry teacher can work with his / her own materials for this topic, or add further explanations of information presented in the video.
 
 Image source:
 
@@ -528,68 +539,52 @@ https://commons.wikimedia.org/wiki/File:Woody_Dicot_Stem_One_Year_Quercus_(35038
 
 ---
 
-##  Biology/Chemistry 7 Toxic Dyes
+| section: Food containing tannins
+| 1
+| 2
+| 3
+| 4
+| rows: 1fr auto auto
 
-> ~*It is estimated that over 20 000 different dyes and pigments are used industrially and over 7x105 tons of synthetic dyes are produced annually worldwide.*~
-
-Facts are to be presented by the teacher, followed by a brief discussion about the information presented in small groups. Try discover more foods and beverages with a high tannin content. 
-
-<f-notes>
-
-References:
-
-C. Ogugbue, T. Sawidis; Bioremediation and Detoxification of Synthetic Wastewater Containing Triarylmethane Dyes by AeromonashydrophilaIso-lated from Industrial Effluent, J. Biotechnology Research International, (2011).
-
-Assessment of Toxicity of Textile Dyes and Chemicals via Materials Safety Data Sheets.
-
-Available from: https://www.researchgate.net/publication/309155638_Assessment_of_Toxicity_of_Textile_Dyes_and_Chemicals_via_Materials_Safety_Data_Sheets [accessed Apr 19 2019].
-
-</f-notes>
-
----
-
-| 1 1 1 1 1
-| 2 3 4 5 6
-| rows: auto
-
-##  Biology/Chemistry 8: List of food residues that contain tannins 
+##  Food residues<br>that contain tannins 
 
 -
+
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr 1fr; --rows: auto 1fr">
 
 <img src="./images/fruit1.jpg" />
 
-Avocado stones and Avocado skins (especially Hass variety)
-
--
-
-<img src="./images/fruit2.jpg" />
-
-Pomegranate skins
-
--
+<img src="./images/fruit2.png" />
 
 <img src="./images/fruit3.jpg" />
 
-Red onion peels
+<img src="./images/fruit4.jpg" />
+
+<img src="./images/fruit5.png" />
+
+</div>
 
 -
 
-<img src="./images/fruit4.jpg" />
+<div class="grid" style="--cols: 1fr 1fr 1fr 1fr 1fr; --rows: auto 1fr">
+
+Avocado stones and Avocado skins
+
+Pomegranate skins
+
+Red onion peels
 
 Black tea
 
--
-
-<img src="./images/fruit5.jpg" />
-
 Rooibos tea
 
+</div>
 
 <f-notes title="Credits">
 
 https://cdn.shopify.com/s/files/1/2336/3219/products/shutterstock_766828153lambhassavo_x850.jpg?v=1531526746
 
-https://steemitimages.com/640x0/https://www.altibbi.com/global/img/website/xlarge/5a96a7f220e45article_4151_1.jpg
+https://pxhere.com/en/photo/147669
 
 https://www.boldsky.com/img/2017/06/coverimage-23-1498208010.jpg
 
@@ -604,21 +599,25 @@ https://localteaco.com/wp-content/uploads/2014/03/Organic-Red-Rooibos-Loose-Leaf
 
 | section: Mordants
 | 1 1 1
-| 2 3 3
+| 2 3 4
 
 ## Mordants
 
+-
+
 People are becoming more conscious about the issues related to fast fashion and use of toxic dyes. One of the least mentioned topics is <var>mordant</var>.
 
-It is important to consider the environmental benefits of using natural dyes since most natural dyes are not particularly toxic in themselves. However, a mordant is invariably required for development of shade and dye fixation.
+Most natural dyes are not particularly toxic in themselves. However, a mordant is invariably required for development of shade and dye fixation.
 
 Typically, a mordant is a heavy metal salt of **aluminum, iron, copper, chromium or tin** and can have an detrimental effect on our health and on the environment
 
 -
 
-<img src="./images/pot.jpg"/>
+<f-image src="./images/pot.jpg"/>
 
 -
+
+### Alternative mordants
 
 There are some alternatives to using the metal salts mordants. For example the material of the pot used for extracting the dye and dyeing can have an mordanting effect and different materials lead to different colors. Usually iron pots darken the color especially if there are tannins present, whereas aluminum pots help to bring out the yellows from brown onion peels. 
 
@@ -632,14 +631,23 @@ http://www.textilestudio.ca/guest%20artists/flint1.html
 
 ---
 
-##  Mordants
+| section: Alterative mordants
+| 1 1
+| 2 3
 
-The list of alternatives is long and includes **vinegar, soy milk, buffalo milk** and **urine**. You can read more about the topic here:
+##  Alternative mordants
+
+-
+
+The list of alternatives is long and includes **vinegar, buffalo milk** and **urine**. 
+
+**Read more:**
+
 http://www.textilestudio.ca/guest%20artists/flint1.html
 
-Different traditional cultures have found their own unique ways to fix the color onto fabric. For example, soy milk is used in Japan. You can buy it from the shops or make your own.
+Different traditional cultures have found their own unique ways to fix the color onto fabric. For example, **soy milk** is used in Japan. You can buy it from the shops or make your own.
 
-More information here:
+**Read more:**
 
 https://www.pankuka-prints.com/post/217441097099/soy-milk-natural-dyes-paints
 
@@ -663,13 +671,20 @@ http://www.textilestudio.ca/guest%20artists/flint1.html
 
 ---
 
-| section: Choosing the fabric 2
+| section: Fabric and pesticides
+| background: https://c.pxhere.com/photos/5f/8e/airplane_crop_duster_dangerous_agriculture_aircraft_farm_aviation_plane-932474.jpg!d
+| backgroundposition: 50% 100%
+| tint: 0
+| 1 1
+| 2 3
 
-## Choosing the fabric 2
+## Fabric and pesticides
+
+-
 
 One of the aspects to think about when choosing the fabric is to consider how much water has been consumed and polluted in the process of making the fabric. Other important aspects to consider are use of land, use of <var>pesticides</var>. Here you can find useful links to further research the environmental impact of different fabrics. 
 
-#### TASK
+-
 
 Pick an article and research it. Presenting your findings concisely during discussion.
 
@@ -679,7 +694,7 @@ https://www.treehugger.com/sustainable-fashion/do-you-know-which-fabrics-are-mos
 
 <f-notes>
 
-Teacher notes:
+### Teacher notes:
 
 You might want to present some interesting facts at the beginning of the topic. These facts should be chosen according to the interests of the group.
 
@@ -689,46 +704,64 @@ Allow students to analyse the articles and present information during follow-up 
 
 **Alternative pathway**: at this point,there is an excellent opportunity to include social justice issues.
 
+Photo credits: https://pxhere.com/en/photo/932474
+
 </f-notes>
 
 ---
 
-| section: Dyeing Experiment
-| 1 3
-| 2 3
+| chapter: Dyeing Experiment
+| section: Time for dyeing
+| background: ./images/dyes.jpg
+| theme: dark
 
-## Dyeing Experiment
+<center>
 
-Protocol / steps for the experiment 
+# Time for<br>Dyeing Experiment
 
-1. Pretreatment of fabric <small>15 min x 3 times</small>
+</center>
 
-2. Collecting food residues
+---
 
-3. Extracting the dye <small>1,5h x 3 times</small>
+| section: Starting experiment
+| 1 2
+| 3 3
+| 4 5
 
-4. Dyeing <small>1,5h</small>
-
-5. Aftercare of fabric
+<f-image src="./images/kit1.jpg">
 
 -
 
-List of materials
+<f-image src="./images/kit2.jpg">
+
+-
+
+## Starting experiment
+
+-
+
+##### Protocol for the experiment 
+
+1. Pretreatment of fabric
+
+2. Collecting food residues
+
+3. Extracting the dye
+
+4. Dyeing the fabric
+
+5. Aftercare of the fabric
+
+-
+
+##### List of materials
 
 * pot (aluminum, copper or iron)
 * fabric (T-shirt)
 * Filter Cloth
 * soy milk (at least 1 litre)
-* wooden spoon (for stirring, one for each dye extract)
+* wooden spoon
 * Protective clothing
-
-For pre-treating the fabric you need to soak it in the soy milk for 12 hours. Keep the soaking solution in a cool place.
-Dry the fabric. Repeat the procedure 2 or 3 times.
-
--
-
-<img src="./images/mordant.jpg">
-
 
 <f-notes>
 
@@ -736,24 +769,57 @@ It is recommended, that you supply the items required.
 
 If necessary, explain why a pot of certain material and wooden spoon are used.
 
-Image source:
-http://wooltribulations.blogspot.com/2017/08/contact-printing-cotton-t-shirt-with.html
-
 </f-notes>
 
 ---
 
-##  Collecting the food residues
+| section: 1. Pretreatment of fabric
+| 1 2 2 2
 
-The following food residues containing tannins, can be used:
+
+### 1.
+
+### Pretreatment of fabric
+
+*15 min x 3 times*
+
+For pre-treating the fabric you need to soak it in the soy milk for 12 hours. Keep the soaking solution in a cool place. Dry the fabric. Repeat the procedure 2 or 3 times.
+
+-
+
+<f-image src="./images/puuvillsojas.jpg" />
+
+---
+
+| section: 2. Collecting the food residues
+| 1 2 3
+| 4 4 4
+
+<f-image src="./images/resi3.jpg" />
+
+-
+
+<f-image src="./images/resi2.jpg" />
+
+-
+
+<f-image src="./images/resi1.jpg" />
+
+-
+
+### 2. Collecting the food residues
+
+The following food residues containing <var>tannins</var>, can be used:
 
 1. pomegranate peels (these give a yellow shade, using an aluminum pot)
+
 2. avocado peels (these give a pink shade, using an aluminum pot)
+
 3. avocado stones (these give a pink shade, using an aluminum pot)
 
 Keep the materials in a dark, dry place. Drying of food residue is not compulsory. 
 
-Note: Do not use food residues that have mould growing on them.
+***Note:*** Do not use food residues that have mould growing on them.
 
 <f-notes>
 
@@ -763,9 +829,16 @@ Avocado stones account for approximately 12% of the total weight on an avocado.
 
 ---
 
-##  Extracting the dye
+| section: 3. Extracting the dye
+| 1 2
+| 1 3
+| rows: 1fr 1fr
 
-Protocol for the experiment 
+###  3. Extracting the dye
+
+*1,5h x 3 times*
+
+##### Protocol for the experiment 
 
 1. Heat the selected food residue materials in an aluminum pot on medium temperature for 1.5 hours
 
@@ -777,14 +850,27 @@ Protocol for the experiment
 
 5. Pour the liquid into the bottle and store it in a cool place.
 
+-
+
+<f-image src="./images/pot.jpg"/>
+
+-
+
+<f-image src="./images/bottle.jpg"/>
+
 ---
 
+| section: 4. Dyeing the fabric
 | 1 3
 | 2 3
 
-##  Dyeing the fabric. Protocol for the experiment
+###  4. Dyeing the fabric
 
-1. Pour dye extract into your dye pot. Use an aluminum pot. 
+*1,5h*
+
+##### Protocol for the experiment
+
+1. Pour dye extract into your dye pot.
 
 2. Wet the fabric and put it into the dye pot.
 
@@ -794,13 +880,19 @@ Protocol for the experiment
 
 5. You can repeat step 4 to get deeper shades of colors.
 
-6. Gently squeeze out excess dye solution and leave the fabric dry in the shade.
+6. Gently squeeze out excess dye solution and leave the fabric dry in the shade. 
 
 -
 
-Video example of dyeing fabric with avocado:
+<details>
+
+<summary>📺 See video about dyeing fabric with avocado</summary>
+
+<br>
 
 <f-video src="https://www.youtube.com/watch?v=pb8Zvv-I6Fk" />
+
+</details>
 
 -
 
@@ -809,29 +901,39 @@ Video example of dyeing fabric with avocado:
 
 ---
 
-##  Dyeing the fabric 2
+| section: 5. Aftercare of the fabric
+| background: ./images/final.jpg
+| tint: 0
+| 1 1 1
+| 2 3 3
 
-Important notes: 
+### 5. Aftercare of the fabric
+
+-
 
 * You will get the best results by allowing sufficient time to dye the fabric.
 
-* The fabric should stay in the dye-pot for at least for at least 24 hours. This time is needed for dye molecules to bond with fabric fibres. 
-
 * The fabric should be stored for at least 7 days before you rinse it. 
 
-* Record the details of the dyeing process you used.
-
-<f-notes>
-
-Explain the dyeing  process of dyeing is to other members of your class.
-
-</f-notes>
+-
 
 ---
 
-##  Dyeing the fabric 3, summary
+| section: Making a process map
+| padding: 0
+| 1
+| 2
+| rows: 1fr auto
 
-***TASK*** Create a process map of dyeing process 
+<f-image src="./images/process.jpg" />
+
+-
+
+<section>
+
+## Wrapping up the experiment
+
+#### Create a <var>process map</var> of dyeing process 
 
 * Work in small groups
 
@@ -841,50 +943,72 @@ Explain the dyeing  process of dyeing is to other members of your class.
 
 * Present your map to other members of your class.
 
+</section>
+
 <f-notes>
 
-Let the students work in small groups. Students who have experimented with similar materials, could create a joint process map.
-
-The map could be the final step of biochemistry part and may conclude with an evaluation.
-
-See more: https://creately.com/blog/diagrams/process-mapping-guide/
-
-#### What is a Process Map?
+### What is a Process Map?
 
 A process map visually shows the steps of a work activity and the people who are involved in carrying out each step.
 
 When mapping a process you simply draw a box for each step and connect them with arrows to show the direction of flow.
 
+See more: https://creately.com/blog/diagrams/process-mapping-guide/
+
+### Suggestions
+
+Let the students work in small groups. Students who have experimented with similar materials could create a joint process map.
+
+The map could be the final step of biochemistry part and may conclude with an evaluation.
+
 </f-notes>
 
 ---
 
-<img src="./images/process.png" style="width: 60%"> 
+| chapter: Product design
+| section: Time for product design
+| theme: dark
+| background: https://c.pxhere.com/photos/7d/ef/forest_fog_cloud-109942.jpg!d
+| tint: 0.8
+<center>
+
+# <big>💡</big>
+
+# Time for<br>product design
+
+<big>Let's design a product to help the Earth</big> 
+
+</center>
+
+<f-notes title="Credits">
+
+https://pxhere.com/en/photo/109942
+
+</f-notes>
 
 ---
 
-| chapter: Product development
-| section: Introduction
+| section: The task
 
-***TODO: Titlecard***
+# 💡 
 
-##  Introduction
+## The task
 
-It is time for us to make an effort to help the Earth. 
-
-**The main task is to develop a handy, easy-to-make product**, which is  
+**Your task is to develop a handy, easy-to-make product**, which is  
 
 1. solving a problem
+
 2. made of using an item of recycled textile
+
 3. dyed using only natural color agent and mordants
 
 How would using such products to help maintain the well-being of our planet and ourselves?
 
----
+-
 
-| section: Process
+# 🔀
 
-## TODO: title
+## The process
 
 Form a small groups of 3-5 students.
 
@@ -895,6 +1019,8 @@ You will be using the simplified method of **design thinking**, which is widely 
 The design thinking process has five steps, which could be linear or not, depending on how the group a progresses.
 
 ---
+
+| section: Design thinking
 
 | 1 1 2
 
@@ -920,7 +1046,9 @@ Image source: https://commons.wikimedia.org/wiki/File:Processus_de_Design_Thinki
 
 ---
 
-## TODO: title
+| section: Double Diamond
+
+## Double Diamond
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Double_diamond.gif" style="width: 60%"/>
 
@@ -938,10 +1066,11 @@ Image source: https://commons.wikimedia.org/wiki/File:Double_diamond.gif
 
 ---
 
+| section: Getting stuck
 | 1 1
 | 2 2
 
-## TODO: title
+## Getting stuck
 
 Although you are following the stages of a certain process, it might be confusing to find the solution to the problem. 
 
@@ -966,17 +1095,20 @@ After the process of product ideation is finished, the ideas are to be presented
 Groups should introduce their ideas briefly, covering information such as:
 
 1. Name/description of your product
+
 2. End users and/or target group of your product
+
 3. Name the problem(s), that are to be solved by using your product.
 
 Your audience should be encouraged to ask questions to refine and develop the idea, or to propose alternative solutions.
 
 ---
 
+section: Refining ideas
+
 ## Refining ideas
 
 After presenting your ideas to your classmates, discuss the results within your group.
-
 
 ***Subtask 1:*** Is the process of making your product is sustainable?
 
@@ -984,7 +1116,9 @@ After presenting your ideas to your classmates, discuss the results within your 
 
 ---
 
-## Preparing the marketing pitch for your product 
+| section: Preparing a pitch
+
+## Marketing pitch for your product 
 
 **Pitch**, also named **marketing pitch**, is a presentation of a **business idea** to potential investors.
 
@@ -1004,16 +1138,31 @@ It is possible to arrange the pitching of ideas as a part of an assessment.
 
 ---
 
-| chapter: Art and Design
+| chapter: Visual design
+| section: Time for visual design
+| theme: dark
+| background: https://c.pxhere.com/images/21/38/c46c3ef5b67a0b9d2b3e49d0240b-1445899.jpg!d
+
+<center>
+
+# <big>🎨</big>
+
+# Time for<br>visual design
+
+<big>Let's create a visual design for our product</big>
+
+<f-notes>
+
+Image credits: https://pxhere.com/en/photo/1445899
+
+</f-notes>
+
+---
+
 | section: Core message
 
-***TODO: Titlecard***
+## Core message and idea 
 
-## Core message
-
-***TASK*** Create a visual design for your product
-
-### Core message and idea 
 
 Phrase the message so that it clear enough to extend public understanding about environmental issues and matches your product.
 
@@ -1112,10 +1261,6 @@ It is essential to support students through the analyse process. As your student
 | section: Process map
 | 1 1 2 2
 
-##  Process map
-
-### Task: make design process map of your own products full stack process
-
 ##### 12.
 
 Repeat steps 4-11, if necessary. 
@@ -1157,106 +1302,6 @@ Image source:
 Photo by glaramknits, https://www.flickr.com/photos/21907219@N02/14376614428/
 
 </f-notes>
-
-
----
-
-##  Product dyeing process
-
-First of all, **you need to plan ahead for the dyeing process**. 
-
-It is best to do this with your teammates. 
-
-Discuss which dyeing techniques would best suit to your design.
-
-Remember to use your previous experience from the biochemistry section, and your Process Map.
-
-Think abut how using different techniques, such as tie-dye, stencil, iron rust etc. would be used to transfer your design onto your item. You can also combine different techniques to achieve a more artistic approach.
-
-<!--
-***TODO*** Link to Exploration Biology/Chemistry 1
-
-***TODO*** Link to Biology/Chemistry 12.5 
-Dyeing the fabric 3, summary
-
--->
-
----
-
-
-## Transfer the design
-
-
-***SUBTASK 1*** create Dyeing Protocol of your product 
-
-***SUBTASK 2*** conduct the Dyeing Process accordingly
-
-Decide, how will you transfer your design to your item. (And still, if necessary, adapt your design.) Keep in mind, what kind of colour shades you will be able to gain (use your previous knowledge). 
-
----
-
-## Transfer techniques
-
-To bring the pattern or text on the t-shirt, you could try:
-
-A. Shibori technique to tie/fold the elements which will not be wearing the colour; 
-
-B. Stencil technique to cover the part of the item which will not be wearing the colour;  
-
-C. Use iron water to make the colours on the areas of design darker;
-
-D. Pretreat the fabric by painting the pattern/text with soy milk.
-
-Follow the steps for dyeing the fabric, that you have use slides on Exploration 4). <!-- ***TODO LINK*** -->
-
-NOTE: Keep the record of colouring process, time and results. 
-
-<f-notes>
-
-Demonstrate examples of techniques.
-
-Tie-dye: https://www.joann.com/tie-dye/
-
-Combined techniques: https://www.artistsnetwork.com/art-mediums/technique-tuesdays-10-tips-for-stenciling/
-
-</f-notes>
-
----
-
-## Extension to printing
-
-***TASK***
-
-**Get to know printmaking and painting techniques**, that can be used to decorate your message T-shirt. Experiment with different techniques, dyes and fabrics. You can also combine techniques and/or add ready-made textile markers. 
-
-Discuss the process and results.
-
-Follow the steps for dyeing the fabric, that you used in Exploration 4). 
-
-NOTE: Keep the record of colouring process, time and results. 
-
----
-
-##  Brainstorming
-
-How could we make each step of the process even more environmental-friendly?
-
-***SUBTASK 1*** Write down the step by step protocol for your improved experiment. 
-
----
-
-##  Pitching
-
-Presenting/Pitching the dyeing methods.
-Use your own dyed fabrics as examples.
-
----
-
-##  Explanation A
-
-Class will **compile the poster** in the form of a mind map or similar, to demonstrate and explain, what they have learned about natural pigments, dyes and dyeing.
-
-The poster will be discussed and analysed during a class conversation, which should be led by teacher.
 
 ---
 
