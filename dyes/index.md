@@ -121,8 +121,8 @@ With its roots in subcultures, the message T-shirt has been taken over by the ma
 
 Is the excessive production and overuse of Fast Fashion items worth the environmental damage they cause? What can we do about it?
 
-
 </section>
+
 -
 
 <f-image src="images/shirt.png" />
@@ -136,21 +136,18 @@ https://www.lyst.com/clothing/vivienne-westwood-climate-revolution-cotton-jersey
 
 ---
 
-##  Fashion as Influencing agent
+| section: Fashion as influencing agent
 
-Subject: consuming standards of western society, influence on the populations of developing countries.
+| 1 2 2
+| theme: dark
 
-**How exactly does the fashion industry cause environmental damage?**
+##  Fashion as <var>influencing agent</var>
 
-***TASK***
+How exactly does the fashion industry cause environmental damage?
 
-#### 1.
+<br>
 
-Watch the video “The Life Cycle of a T-shirt”
-
-#### 2.
-
-Discuss the video in group.
+<caption>📺💬 Watch and discuss the video "The Life Cycle of a T-shirt"</caption>
 
 -
 
@@ -165,22 +162,20 @@ Final question: what did you learn?
 
 ---
 
+| 1 2
+| theme: dark
 | padding: 0
+
 
 <section>
 
-##  Fashion as Influencing agent II
-
-#### 3.
+##  Fashion as <var>influencing agent</var> 2
 
 Look at the NASA image of the Aral Sea in Central Asia. This huge inland lake has shrunk to less than 10% of its original size because water from the rivers that feed it have been diverted to irrigate farmland, largely to grow cotton.
 
-#### 4.
 
 Group or individual work: <a href="./quiz/quiz-1.html" target="_blank">Complete T-shirt quiz</a>
  
-
-#### 5.
 
 Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
 
@@ -188,17 +183,45 @@ Summarize all the ways in which production of a cotton T-shirt can cause environ
 
 -
 
-<img src="./images/aral.jpg" />
+<f-image src="./images/aral.jpg" />
 
 ---
 
-##  Greenwashing
+| section: Green lifestyle
 
-People are becoming more and more aware of the environmental issues. In 2015, global performance management company, [Nielsen](https://www.nielsen.com), that provides a comprehensive understanding of what consumers watch and buy,  reported that [73 percent of Millennials are willing to pay more for sustainable goods](https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-demonstrate-commitment-to-sustainability-outperform/).
+| 1 1 1 1
+| 2 2 2 2 
+| 3 3 4 4
+| rows: 50vh auto 1fr
+| padding: 0
 
-***TASK***
+<f-image src="https://c.pxhere.com/photos/4d/bb/handmade_soap_cold_process_craft_natural_organic_pink_blue-662695.jpg!d" />
 
-**Discuss in your group:** Are you willing to pay more for sustainable goods? Why or why not? Give some examples. 
+-
+
+<section style="padding-bottom: 0">
+
+## Livin a gr€€n lifestyle
+
+</section>
+
+-
+
+<section style="padding-top: 0; padding-right: 0">
+
+People are becoming more and more aware of the environmental issues. In 2015, there is a claim that [73 percent of Millennials are willing to pay more for sustainable goods](https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-demonstrate-commitment-to-sustainability-outperform/).
+
+</section>
+
+-
+
+<section style="padding-top: 0; padding-left: 0">
+
+<caption>💬 Discuss</caption>
+
+Are you willing to pay more for sustainable goods? Why or why not? Give some examples. 
+
+</section>
 
 <f-notes>
 https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-demonstrate-commitment-to-sustainability-outperform/
@@ -206,72 +229,128 @@ https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-dem
 
 ---
 
-##  Greenwashing 2
+| section: Greenwashing
+
+| background: https://i.pinimg.com/originals/81/ea/e7/81eae70feed346c20cb3d9ef484fa8a4.jpg
+| tint: 0
+| 1 1 2 2 2 3 3
+
+##  Green&shy;washing
 
 However, some companies are becoming more adept at falsely claiming to be "green" by promoting environmentally-friendly initiatives or images without actually implementing business practices that minimize environmental impact. 
 
-This type of promotion is termed "green washing", a term coined in the 1980s by the environmentalist [Jay Westerveld](https://www.revolvy.com/page/Jay-Westerveld). 
+-
 
-More on history of Greenwashing [A History of Greenwashing: How Dirty Towels Impacted the Green Movement](https://web.archive.org/web/20150923212726/http://www.dailyfinance.com/2011/02/12/the-history-of-greenwashing-how-dirty-towels-impacted-the-green/) by Jim Motvalli, Daily Finance.
+-
+
+##  &nbsp;<br>&nbsp;
+
+This type of promotion is termed <var>greenwashing</var>, a term coined in the 1980s by the environmentalist [Jay Westerveld](https://www.revolvy.com/page/Jay-Westerveld). 
+
+Read more about the phenomena here: [A History of Greenwashing: How Dirty Towels Impacted the Green Movement](https://web.archive.org/web/20150923212726/http://www.dailyfinance.com/2011/02/12/the-history-of-greenwashing-how-dirty-towels-impacted-the-green/) by Jim Motvalli, Daily Finance.
 
 <f-notes>
 
 The Oxford English Dictionary defines <var>greenwashing</var> as the "dissemination is misinformation by an organization so as to present an environmentally responsible public image." This may involve misleading advertising, unsubstantiated claims or omission of important facts. For example, one clothing manufactures who claimed to sell eco-friendly bamboo-clothing actually sold rayon produced from bamboo. Processing of rayon uses harsh chemicals and releases hazardous air pollutants. Another manufacturer celebrated its position as the top user of organic cotton (grown without the use of harmful pesticides), yet only 13.7% of the cotton used by this company is organic.
 
-https://www.theguardian.com/sustainable-business/2016/aug/20/greenwashing-environmentalism-lies-companies
-http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashion_philosophy/
+Image credit https://www.pinterest.com/pin/447826756696310614/?nic=1a
 
 </f-notes>
 
 ---
 
-##  Greenwashing 3
+| section: Are you being greenwashed?
+| 1 1 1
+| 2 3 4
+| rows: 1fr auto
 
-***TASK***
+<caption>📖💬📢 Read, discuss and share the findings</caption>
 
-How are the products being presented as “green products” i.e “greenwashed”?
+## Are you being greenwashed?
+
+-
+
+How are the products being presented as "green products" i.e "greenwashed”?
 
 1. Make up two teams of students. 
 
 2. Each group reads an article and presents the findings.
 
-Group 1: Read the article  [The troubling evolution of corporate greenwashing](https://www.theguardian.com/sustainable-business/2016/aug/20/greenwashing-environmentalism-lies-companies)
+-
 
-Group 2: Read the article [Please Stop Saying Fashion is the 2nd Most Polluting Industry After Oil](https://ecocult.com/now-know-fashion-5th-polluting-industry-equal-livestock)
+<f-card>
 
-<f-notes>
+### <span class="bullet">A</span> group 
 
-Society is becoming increasingly aware of environmental issues, including the impact of fast fashion on the environment. However, some companies are becoming more adept at falsely claiming to be "green" by promoting environmentally-friendly initiatives or images without actually implementing business practices that minimize environmental impact. This type of promotion is termed “green washing”, a term coined in the 1980s by the environmentalist Jay Westerveld. 
+Read the article  [The troubling evolution of corporate greenwashing](https://www.theguardian.com/sustainable-business/2016/aug/20/greenwashing-environmentalism-lies-companies)
 
-The Oxford English Dictionary defines green wasting as the “dissemination is misinformation by an organization so as to present an environmentally responsible public image.” This may involve misleading advertising, unsubstantiated claims or omission of important facts. For example, one clothing manufactures who claimed to sell eco-friendly bamboo-clothing actually sold rayon produced from bamboo. Processing of rayon uses harsh chemicals and releases hazardous air pollutants. Another manufacturer celebrated its position as the top user of organic cotton (grown without use of harmful pesticides), yet only 13.7% of the cotton used by this company is organic.
+</f-card>
 
-https://www.theguardian.com/sustainable-business/2016/aug/20/greenwashing-environmentalism-lies-companies
+-
 
-http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashion_philosophy/
+<f-card>
+
+### <span class="bullet">B</span> group 
+
+Read the article [Please Stop Saying Fashion is the 2nd Most Polluting Industry After Oil](https://ecocult.com/now-know-fashion-5th-polluting-industry-equal-livestock)
+
+</f-card>
 
 
 ---
 
-##  Pre-exploration
+| section: Upcycling
+| padding: 0
 
-## What could be done to reduce the impact of excessive consumption of textile products?
+<section>
 
-Examples: 
+## Upcycling
 
-**Upcycling** as a way of reducing the impact of textile and fashion industries.
+**What could be done to reduce the impact of excessive consumption of textile products?**
 
-***TASK*** Read and discuss the article: [Upcycling as a Fashion Philosophy](http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashion_philosophy/) by Una Meistere.
+<var>Upcycling</var> is a way of reducing the impact of textile and fashion industries.
 
-By *rebirthing* clothes through upcycling, you could save an reduce CO<sub>2</sub> emissions by 12kg per month, just by extending the life of your clothing. One of the ways to do it is to **redye your clothes**.
+By *rebirthing* clothes through upcycling, you could save an reduce CO<sub>2</sub> emissions by 12kg per month, just by extending the life of your clothing. 
 
-***TASK*** Read and discuss the article [How to Make Natural Dyes to Dye Fabric & Clothes at Home](https://www.1millionwomen.com.au/blog/how-to-make-natural-dyes-to-dye-fabric-clothes-at-home/) by 1 Million Women.
+One of the ways to do it is to *redye* your clothes.
+
+<br>
+
+<caption>📖💬 Read and discuss</caption>
+
+[Upcycling as a Fashion Philosophy](http://www.arterritory.com/en/lifestyle/design_fashion/5062-upcycling_as_a_fashion_philosophy/) by Una Meistere.
+
+[How to Make Natural Dyes to Dye Fabric & Clothes at Home](https://www.1millionwomen.com.au/blog/how-to-make-natural-dyes-to-dye-fabric-clothes-at-home/) by 1 Million Women.
+
+</section>
+
+-
+
+<f-image src="http://media.voog.com/0000/0037/4717/photos/_P4A7159_large.jpg" />
+
+<f-notes title="Credits">
+
+https://reetaus.com/
+
+</f-notes>
 
 ---
 
 | chapter: Biochemistry
+| theme: dark
+
+<center>
+
+# <big>🧪</big>
+
+# Time for<br>biochemistry
+
+<big>Let's look a the chemistry making the sustainable fashion happen</big> 
+
+---
+
 | section: Dyeing and Mordanting
 
-***TODO: Titlecard***
 
 ## Dyeing and Mordanting
 
