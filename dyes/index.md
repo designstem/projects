@@ -17,42 +17,42 @@
 
 Study Project "Natural Dyes" approaches the subject of chemical bonds in biology/chemistry via environmental issues by combining practical chemistry work with art/design-centered tasks and processes. 
 
-Final aim of the study project is to **develop environmentally sustainable product**, which originates from recycling and reusing resources in order to reduce the environmental damage caused by textile and fashion industry.
+The final aim of the study project is to **develop environmentally sustainable products**, which originates from recycling and reusing resources to reduce the environmental damage caused by the textile and fashion industry.
 
 ### Suggestions
 
-* Items to be dyed should be chosen by students themselves. Preferably, if they should come up with a special idea and/or develop the product. However, the product may be a ready-made item, carrying and environmental message, such as T-shirts, socks, blouses, shawls or headscarves.
+* Items to be dyed should be chosen by students themselves. Preferably, if they should come up with a unique idea and/or develop the product. However, the product may be a ready-made item, carrying and environmental messages, such as T-shirts, socks, blouses, shawls, or headscarves.
 
-* These items should be completely from natural (white) fibers, such as cotton, silk, wool and linen.
+* These items should be completed from natural (white) fibers, such as cotton, silk, wool, and linen.
 
-* Encourage students to recycle both textiles and colouring agents. Textile items could be picked up from second-hand stores.
+* Encourage students to recycle both textiles and coloring agents. Textile items could be picked up from second-hand stores.
 
-* A distributable message should be constructed by students, with the teacher offering support, if needed.
+* A distributable message should be constructed by students, with the teacher offering support if needed.
 
-* Encourage students plan the whole process at the beginning, including the core message to be spread.
+* Encourage students to plan the whole process at the beginning, including the core message to be spread.
 
-* Inform your students at least one week before the start of chemistry part of the project, so they have sufficient time to collect food residue and prepare other necessary materials.
+* Inform your students at least one week before the start of the chemistry part of the project, so they have sufficient time to collect food residue and prepare other necessary materials.
 
 * You need to be prepared: assemble all materials required for the project to ensure successful completion.
 
-***NOTE:*** There are several possible learning paths that could be followed during this learning project, depending on the interests and aims of both teachers and students. You could integrate this learning material with other study projects.
+***NOTE:*** Several possible learning paths could be followed during this learning project, depending on the interests and aims of both teachers and students. You could integrate this learning material with other study projects.
 
 ### Time
 
 **Quicklook:** 30 min
 
-**Full project:** up to 20 hrs during a 3-6 weeks period: 12-16 hrs depending on the dyeing process chosen and the level of task difficulty chosen, plus 4 hrs for production of group poster to present essential facts and for pitching the idea and product
+**Full project:** up to 20 hrs during a 3-6 weeks period: 12-16 hrs depending on the dyeing process chosen and the level of task difficulty selected, plus 4 hrs for production of group poster to present essential facts and for pitching the idea and product
 
 ### Class setting
 
 * Individual work, groups of 3-4 students
-* Joint discussions and analyses in class lead by the teacher
+* Joint discussions and analyses in a class lead by the teacher
 
 ### Materials
 
-* Fiber / clothes to be dyed
+* Fiber/clothes to be dyed
 * Food waste with coloring agents
-vRusty metal items
+* Rusty metal items
 * Soy milk
 * Aluminum pot
 * Wooden spoons
@@ -75,11 +75,11 @@ vRusty metal items
 
 ## The power of T-Shirt: wearing a message
 
-British fashion designer **Vivienne Westwood** started a revolutionary mission by raising awareness on global climate issues, crossing age and state borders, thus allowing people to express their attitudes and values.
+British fashion designer **Vivienne Westwood** started a revolutionary mission by raising awareness on global climate issues, crossing age, and state borders, thus allowing people to express their attitudes and values.
 
 https://blog.viviennewestwood.com/the-story-so-far/
 
-Nowadays, mitigation of climate change is no longer an option, if we are to keep planet Earth habitable. 
+Nowadays, mitigation of climate change is no longer an option if we are to keep planet Earth habitable. 
 
 
 <details>
@@ -115,9 +115,9 @@ http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.j
 
 ## The power of the T-Shirt: wearing a message
 
-Nowadays, the message T-shirt, is an iconic fashion item, used to deliver information to wide target groups. Regrettably T-shirts with a message happens to be overused. 
+Nowadays, the message T-shirt is an iconic fashion item, used to deliver information to broad target groups. Regrettably, T-shirts with a message happens to be overused. 
 
-With its roots in subcultures, the message T-shirt has been taken over by the marketing industry and has become the main agent of communication.
+With its roots in subcultures, the message T-shirt has been taken over by the marketing industry and has become the primary agent of communication.
 
 Is the excessive production and overuse of Fast Fashion items worth the environmental damage they cause? What can we do about it?
 
@@ -155,7 +155,7 @@ How exactly does the fashion industry cause environmental damage?
 
 <f-notes>
 
-Demonstration & discussion with group, focusing on students interests.
+Demonstration & discussion with the group, focusing on students' interests.
 Final question: what did you learn?
 
 </f-notes>
@@ -171,13 +171,13 @@ Final question: what did you learn?
 
 ##  Fashion as <var>influencing agent</var> 2
 
-Look at the NASA image of the Aral Sea in Central Asia. This huge inland lake has shrunk to less than 10% of its original size because water from the rivers that feed it have been diverted to irrigate farmland, largely to grow cotton.
+Look at the NASA image of the Aral Sea in Central Asia. This vast inland lake has shrunk to less than 10% of its original size because water from the rivers that feed it has been diverted to irrigate farmland, primarily to grow cotton.
 
 
 Group or individual work: <a href="./quiz/quiz-1.html" target="_blank">Complete T-shirt quiz</a>
  
 
-Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
+Summarize all how the production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps that the fashion industry and you personally could take to minimize this damage.
 
 </section>
 
@@ -209,7 +209,7 @@ Summarize all the ways in which production of a cotton T-shirt can cause environ
 
 <section style="padding-top: 0; padding-right: 0">
 
-People are becoming more and more aware of the environmental issues. In 2015, there is a claim that [73 percent of Millennials are willing to pay more for sustainable goods](https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-demonstrate-commitment-to-sustainability-outperform/).
+People are becoming more and more aware of environmental issues. In 2015, there is a claim that [73 percent of Millennials are willing to pay more for sustainable goods](https://www.nielsen.com/us/en/press-releases/2015/consumer-goods-brands-that-demonstrate-commitment-to-sustainability-outperform/).
 
 </section>
 
@@ -251,7 +251,7 @@ Read more about the phenomena here: [A History of Greenwashing: How Dirty Towels
 
 <f-notes>
 
-The Oxford English Dictionary defines <var>greenwashing</var> as the "dissemination is misinformation by an organization so as to present an environmentally responsible public image." This may involve misleading advertising, unsubstantiated claims or omission of important facts. For example, one clothing manufactures who claimed to sell eco-friendly bamboo-clothing actually sold rayon produced from bamboo. Processing of rayon uses harsh chemicals and releases hazardous air pollutants. Another manufacturer celebrated its position as the top user of organic cotton (grown without the use of harmful pesticides), yet only 13.7% of the cotton used by this company is organic.
+The Oxford English Dictionary defines <var>greenwashing</var> as the "dissemination is misinformation by an organization to present an environmentally responsible public image." This may involve misleading advertising, unsubstantiated claims, or omission of important facts. For example, one clothing manufactures who claimed to sell eco-friendly bamboo-clothing sold rayon produced from bamboo. The processing of rayon uses harsh chemicals and releases hazardous air pollutants. Another manufacturer celebrated its position as the top user of organic cotton (grown without the use of harmful pesticides), yet only 13.7% of the cotton used by this company is organic.
 
 Image credit https://www.pinterest.com/pin/447826756696310614/?nic=1a
 
@@ -269,7 +269,7 @@ Image credit https://www.pinterest.com/pin/447826756696310614/?nic=1a
 
 -
 
-How are the products being presented as "green products" i.e "greenwashed”?
+How are the products being presented as "green products," i.e., "greenwashed”?
 
 1. Make up two teams of students. 
 
@@ -307,9 +307,9 @@ Read the article [Please Stop Saying Fashion is the 2nd Most Polluting Industry 
 
 **What could be done to reduce the impact of excessive consumption of textile products?**
 
-<var>Upcycling</var> is a way of reducing the impact of textile and fashion industries.
+<var>Upcycling</var> is a way of reducing the impact of the textile and fashion industries.
 
-By *rebirthing* clothes through upcycling, you could save an reduce CO<sub>2</sub> emissions by 12kg per month, just by extending the life of your clothing. 
+By *rebirthing* clothes through upcycling, you could save a reduce CO<sub>2</sub> emissions by 12kg per month, just by extending the life of your clothing. 
 
 One of the ways to do it is to *redye* your clothes.
 
@@ -345,7 +345,7 @@ https://reetaus.com/
 
 # Time for<br>biochemistry
 
-<big>Let's look a the chemistry making the sustainable fashion happen</big> 
+<big>Let's look a the chemistry making sustainable fashion happen</big> 
 
 ---
 
@@ -362,7 +362,7 @@ https://reetaus.com/
 
 3. Find out about the impacts of pigments on the human body. Give some examples. 
 
-4. Discuss and explain the process of dyeing, i.e how pigments bond to fabric.
+4. Discuss and explain the process of dying, i.e., how pigments bond to the fabric.
 
 </section>
 
@@ -376,9 +376,9 @@ https://reetaus.com/
 
 1. The teacher should prepare and make a short presentation according to the interests of students.
  
-  Share references or sources of the information presented, to help your students. 
+  Share references or sources of the information presented to help your students. 
 
-2. Depending on the profile of the group, historical facts may also be considered. You could, for example include film clips or works of art.
+2. Depending on the profile of the group, historical facts may also be considered. You could, for example, include film clips or works of art.
 
 3. Ask students to explain how chemical bonds are formed, keeping it simple.
 
@@ -396,13 +396,13 @@ Photo credits: https://pxhere.com/en/photo/797619
 
 ## Choosing the fabrics
 
-There are many aspects to consider when **choosing the fabric** to be dyed. Most of the natural fabrics are made either of **cellulose** (modal, viscose rayon, cotton, hemp, bamboo, linen) or **protein** (soy fibre, silk, wool). See more in the comprehensive [list of  textile fibers by its source](https://www.textileschool.com/amp/2782/comprehensive-list-of-textile-fibers/).
+There are many aspects to consider when **choosing the fabric** to be dyed. Most of the natural fabrics are made either of **cellulose** (modal, viscose rayon, cotton, hemp, bamboo, linen) or **protein** (soy fiber, silk, wool). See more in the comprehensive [list of textile fibers by its source](https://www.textileschool.com/amp/2782/comprehensive-list-of-textile-fibers/).
 
-Often dyes used are **toxic** to humans or polluting the environment (e.g. azo dyes).
+Often dyes used are **toxic** to humans or polluting the environment (e.g., azo dyes).
 
-One of the ways to be more  conscious environmentally is to use natural dyes, for example **food residues that contain tannins**. Tannins act as natural mordants.
+One of the ways to be more conscious environmentally is to use natural dyes, for example, **food residues that contain tannins**. Tannins act as natural mordants.
 
-A greater variety of dyes can be used for dyeing protein fibres. You will find out why soon!
+A greater variety of dyes can be used for dyeing protein fibers. You will find out why soon!
 
 </section>
 
@@ -417,7 +417,7 @@ Bring several strips of natural fabrics to the classroom, so students can touch 
 
 Include cellulose-based and protein-based natural fabrics.
 
-Also introduce man-made synthetic fabrics for students to compare to natural fabrics.
+Also, introduce human-made synthetic fabrics for students to compare to natural fabrics.
 
 **Supportive online materials:**
 
@@ -455,7 +455,7 @@ Image credit: https://pxhere.com/en/photo/1075992
 
 ## Testing the fabrics
 
-We are to do two simple nontechnical tests to identify the type of fabric fibers that  not require any special equipment or setting.  They are called <var>feeling test</var> and <var>burning test</var>.
+We are to do two simple, nontechnical tests to identify the type of fabric fibers that not require any special equipment or setting.  They are called <var>feeling test</var> and <var>burning test</var>.
 
 -
 
@@ -473,13 +473,13 @@ We are to do two simple nontechnical tests to identify the type of fabric fibers
 
 For each group of students you will need: 
 
-Feeling Test: selection of fabric strips (both natural and artificial) in order to get better comparison.
+Feeling Test: the selection of fabric strips (both natural and artificial) to get a better comparison.
 
-Burning Test: box of matches or a lighter, candle, non-flammable stand, tweezers and selection of fabric strips.
+Burning Test: box of matches or a lighter, candle, non-flammable stand, tweezers, and selection of fabric strips.
 
-Explain and demonstrate both procedures  Let students experiment. Ask them to take notes. 
+Explain and demonstrate both procedures. Let students experiment. Ask them to take notes. 
 
-Finalise the experiment with discussion on what and how they have learned.
+Finalize the experiment with a discussion on what and how they have learned.
 
 </f-notes>
 
@@ -529,7 +529,7 @@ Finalise the experiment with discussion on what and how they have learned.
 
 <f-notes title="Credits">
 
-A bio/chemistry teacher can work with his / her own materials for this topic, or add further explanations of information presented in the video.
+A bio/chemistry teacher can work with his / her materials for this topic, or add further explanations of information presented in the video.
 
 Image source:
 
@@ -605,11 +605,11 @@ https://localteaco.com/wp-content/uploads/2014/03/Organic-Red-Rooibos-Loose-Leaf
 
 -
 
-People are becoming more conscious about the issues related to fast fashion and use of toxic dyes. One of the least mentioned topics is <var>mordant</var>.
+People are becoming more conscious of the issues related to fast fashion and the use of toxic dyes. One of the least mentioned topics is <var>mordant</var>.
 
-Most natural dyes are not particularly toxic in themselves. However, a mordant is invariably required for development of shade and dye fixation.
+Most natural dyes are not particularly toxic in themselves. However, a mordant is invariably required for the development of shade and dye fixation.
 
-Typically, a mordant is a heavy metal salt of **aluminum, iron, copper, chromium or tin** and can have an detrimental effect on our health and on the environment
+Typically, a mordant is a heavy metal salt of **aluminum, iron, copper, chromium or tin** and can have a detrimental effect on our health and the environment
 
 -
 
@@ -619,7 +619,7 @@ Typically, a mordant is a heavy metal salt of **aluminum, iron, copper, chromium
 
 ### Alternative mordants
 
-There are some alternatives to using the metal salts mordants. For example the material of the pot used for extracting the dye and dyeing can have an mordanting effect and different materials lead to different colors. Usually iron pots darken the color especially if there are tannins present, whereas aluminum pots help to bring out the yellows from brown onion peels. 
+There are some alternatives to using metal salts mordants. For example, the material of the pot used for extracting the dye and dyeing can have a mordanting effect, and different materials lead to different colors. Usually, iron pots darken the color, especially if there are tannins present, whereas aluminum pots help to bring out the yellows from brown onion peels. 
 
 <f-notes title="Credits">
 
@@ -639,13 +639,13 @@ http://www.textilestudio.ca/guest%20artists/flint1.html
 
 -
 
-The list of alternatives is long and includes **vinegar, buffalo milk** and **urine**. 
+The list of alternatives is long and includes **vinegar, buffalo milk**, and **urine**. 
 
 **Read more:**
 
 http://www.textilestudio.ca/guest%20artists/flint1.html
 
-Different traditional cultures have found their own unique ways to fix the color onto fabric. For example, **soy milk** is used in Japan. You can buy it from the shops or make your own.
+Different traditional cultures have found their own unique ways to fix the color onto fabric. For example, **soy milk** is used in Japan. You can buy it in the shops or make your own.
 
 **Read more:**
 
@@ -660,9 +660,9 @@ https://www.pankuka-prints.com/post/217441097099/soy-milk-natural-dyes-paints
 
 Image source:
 
-It is possible for you to make brief summary on the topic to save time.
+You can make a brief summary of the topic to save time.
 It is a good option if your students are not fluent in English.
-Also, here is a good option to widen the topic, if your students are interested.
+Also, here is an excellent option to widen the topic, if your students are interested.
 
 http://www.textilestudio.ca/guest%20artists/flint1.html
 
@@ -682,11 +682,11 @@ http://www.textilestudio.ca/guest%20artists/flint1.html
 
 -
 
-One of the aspects to think about when choosing the fabric is to consider how much water has been consumed and polluted in the process of making the fabric. Other important aspects to consider are use of land, use of <var>pesticides</var>. Here you can find useful links to further research the environmental impact of different fabrics. 
+One of the aspects to think about when choosing the fabric is to consider how much water has been consumed and polluted in the process of making the fabric. Other important aspects to consider are use of land, use of <var>pesticides</var>. Here you can find useful links to research the environmental impact of different fabrics further. 
 
 -
 
-Pick an article and research it. Presenting your findings concisely during discussion.
+Pick an article and research it. You are presenting your findings concisely during the discussion.
 
 https://www.textileschool.com/154/eco-friendly-fibers/
 
@@ -698,11 +698,11 @@ https://www.treehugger.com/sustainable-fashion/do-you-know-which-fabrics-are-mos
 
 You might want to present some interesting facts at the beginning of the topic. These facts should be chosen according to the interests of the group.
 
-Pick an interesting piece of information, visualize it.
+Pick an exciting piece of information, visualize it.
 
-Allow students to analyse the articles and present information during follow-up discussion.
+Allow students to analyze the articles and present information during a follow-up discussion.
 
-**Alternative pathway**: at this point,there is an excellent opportunity to include social justice issues.
+**Alternative pathway**: at this point, there is an excellent opportunity to include social justice issues.
 
 Photo credits: https://pxhere.com/en/photo/932474
 
@@ -759,15 +759,15 @@ Photo credits: https://pxhere.com/en/photo/932474
 * pot (aluminum, copper or iron)
 * fabric (T-shirt)
 * Filter Cloth
-* soy milk (at least 1 litre)
+* soy milk (at least 1 liter)
 * wooden spoon
 * Protective clothing
 
 <f-notes>
 
-It is recommended, that you supply the items required.
+It is recommended that you supply the items required.
 
-If necessary, explain why a pot of certain material and wooden spoon are used.
+If necessary, explain why a pot of specific material and wooden spoon are used.
 
 </f-notes>
 
@@ -783,7 +783,7 @@ If necessary, explain why a pot of certain material and wooden spoon are used.
 
 *15 min x 3 times*
 
-For pre-treating the fabric you need to soak it in the soy milk for 12 hours. Keep the soaking solution in a cool place. Dry the fabric. Repeat the procedure 2 or 3 times.
+For pre-treating the fabric, you need to soak it in the soy milk for 12 hours. Keep the soaking solution in a cool place. Dry the fabric. Repeat procedure 2 or 3 times.
 
 -
 
@@ -817,9 +817,9 @@ The following food residues containing <var>tannins</var>, can be used:
 
 3. avocado stones (these give a pink shade, using an aluminum pot)
 
-Keep the materials in a dark, dry place. Drying of food residue is not compulsory. 
+Keep the materials in the dark, dry place. Drying of food residue is not compulsory. 
 
-***Note:*** Do not use food residues that have mould growing on them.
+***Note:*** Do not use food residues that have mold growing on them.
 
 <f-notes>
 
@@ -844,7 +844,7 @@ Avocado stones account for approximately 12% of the total weight on an avocado.
 
 2. Cool the mixture down.
 
-3. Repeat heating and cooling process for once or more
+3. Repeat the heating and cooling process for once or more
 
 4. Filter the mixture. Use protective clothing. Work carefully, the mixture is hot and may stain. 
 
@@ -874,7 +874,7 @@ Avocado stones account for approximately 12% of the total weight on an avocado.
 
 2. Wet the fabric and put it into the dye pot.
 
-3. Fibres must be submerged. If not, add more water. The fabric has to move freely in the solution to ensure even dyeing.
+3. Fibers must be submerged. If not, add more water. The fabric has to move freely in the solution to ensure even dyeing.
 
 4. Heat the dye solution for at least 1 hour. Use low or medium heat and stir it from time to time. Leave it to cool.
 
@@ -886,7 +886,7 @@ Avocado stones account for approximately 12% of the total weight on an avocado.
 
 <details>
 
-<summary>📺 See video about dyeing fabric with avocado</summary>
+<summary>📺 See the video about dyeing fabric with avocado</summary>
 
 <br>
 
@@ -913,7 +913,7 @@ Avocado stones account for approximately 12% of the total weight on an avocado.
 
 * You will get the best results by allowing sufficient time to dye the fabric.
 
-* The fabric should be stored for at least 7 days before you rinse it. 
+* The fabric should be stored for at least seven days before you rinse it. 
 
 -
 
@@ -939,7 +939,7 @@ Avocado stones account for approximately 12% of the total weight on an avocado.
 
 * Use your notes and discuss your experiments.
 
-* Create a process map on large paper to explain the process of dyeing.
+* Create a process map on large paper to explain the process of dying.
 
 * Present your map to other members of your class.
 
@@ -949,9 +949,9 @@ Avocado stones account for approximately 12% of the total weight on an avocado.
 
 ### What is a Process Map?
 
-A process map visually shows the steps of a work activity and the people who are involved in carrying out each step.
+A process map visually shows the steps of work activity and the people who are involved in carrying out each step.
 
-When mapping a process you simply draw a box for each step and connect them with arrows to show the direction of flow.
+When mapping a process, you draw a box for each step and connect them with arrows to show the direction of flow.
 
 See more: https://creately.com/blog/diagrams/process-mapping-guide/
 
@@ -959,7 +959,7 @@ See more: https://creately.com/blog/diagrams/process-mapping-guide/
 
 Let the students work in small groups. Students who have experimented with similar materials could create a joint process map.
 
-The map could be the final step of biochemistry part and may conclude with an evaluation.
+The map could be the final step of the biochemistry part and may conclude with an evaluation.
 
 </f-notes>
 
@@ -1002,7 +1002,7 @@ https://pxhere.com/en/photo/109942
 
 3. dyed using only natural color agent and mordants
 
-How would using such products to help maintain the well-being of our planet and ourselves?
+How would you use such products to help maintain the well-being of our planet and ourselves?
 
 -
 
@@ -1010,13 +1010,13 @@ How would using such products to help maintain the well-being of our planet and 
 
 ## The process
 
-Form a small groups of 3-5 students.
+Form small groups of 3-5 students.
 
-You might want to work with your friends; draw a lots or use some other method of your choice to form the group.
+You might want to work with your friends, draw a lot or use some other method of your choice to form the group.
 
 You will be using the simplified method of **design thinking**, which is widely and effectively used in creative industries. 
 
-The design thinking process has five steps, which could be linear or not, depending on how the group a progresses.
+The design thinking process has five steps, which could be linear or not, depending on how the group progresses.
 
 ---
 
@@ -1025,7 +1025,7 @@ The design thinking process has five steps, which could be linear or not, depend
 
 ##  Design thinking
 
-**Design Thinking** has evolved from Human-Centered Design focusing on customer experience, to Service Design focusing on customer journeys and touch points between a business and its customer.
+**Design Thinking** has evolved from Human-Centered Design focusing on customer experience, to Service Design focusing on customer journeys and touchpoints between a business and its customer.
 
 Design Thinking is a step-by-step, user-centered method to creative thinking and innovation, which is based on the [building up](https://experience.sap.com/skillup/introduction-to-design-thinking/) of ideas. 
 
@@ -1037,15 +1037,15 @@ Generally, Design Thinking follows a five-step approach:
 
 <f-notes>
 
-Illustration shows the main aims of every stage of Design Thinking Process. 
+The illustration shows the main aims of every stage of the Design Thinking Process. 
 
-The starting point is the Empathy Stage. Students may benefit from further explanation of this stage.
+The starting point is the Empathy Stage. Students may benefit from a further explanation of this stage.
 
-Encourage your group to work step-by step. If something is unclear, help the group to find the answer. If necessary, return to a previous step. 
+Encourage your group to work step-by-step. If something is unclear, help the group to find the answer. If necessary, return to a previous step. 
 
 The class will be using the Double Diamond of Design Thinking, which is explained here: https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond
 
-Explain, how to work using divergent and convergent thinking processes in order to follow the Double Diamond Tool.
+Explain how to work using divergent and convergent thinking processes to follow the Double Diamond Tool.
 
 
 </f-notes>
@@ -1066,11 +1066,11 @@ Explain, how to work using divergent and convergent thinking processes in order 
 
 ## Getting stuck
 
-Although you are following the stages of a certain process, it might be confusing to find the solution to the problem. 
+Although you are following the stages of a specific process, it might be confusing to find the solution to the problem. 
 
-It is normal for a creative process to move freely between different thoughts. 
+It is usual for a creative process to move freely between different thoughts. 
 
-Allow yourself to think freely; keep notes/record of your ideas; listen to your teammates and feel free to develop every idea that evokes new thoughts. 
+Allow yourself to think freely, keep notes/record of your ideas; listen to your teammates, and feel free to develop every idea that evokes new thoughts. 
 
 Eventually, you will find the answer :)
 
@@ -1087,7 +1087,7 @@ Eventually, you will find the answer :)
 
 ##  Presenting ideas
 
-After the process of product ideation is finished, the ideas are to be presented to the audience; and the whole class should be engaged. Feel free to present sketches, visualizations and/or example models of your product.
+After the process of product ideation is finished, the ideas are to be presented to the audience; and the whole class should be engaged. Feel free to submit sketches, visualizations, and/or example models of your product.
 
 Groups should introduce their ideas briefly, covering information such as:
 
@@ -1102,14 +1102,14 @@ End users and/or target group of your product
 </f-card>
 
 <f-card>
-Name the problem(s), that are to be solved by using your product.
+Name the problem(s) that is to be solved by using your product.
 </f-card>
 
 </div>
 
 <p />
 
-Your audience should be encouraged to ask questions to refine and develop the idea, or to propose alternative solutions.
+Your audience should be encouraged to ask questions to refine and develop the idea or to propose alternative solutions.
 
 ---
 
@@ -1125,7 +1125,7 @@ After presenting your ideas to your classmates, discuss the results within your 
 
 2. Use the design thinking process with your group **find out and describe, how it is possible to make your process and/or product even more sustainable.** 
 
-  Remember themes you discussed earlier in biochemistry part of the learning project, such as issues of greenwashing, industrial textile production and fashion industry problems.
+  Remember the themes you discussed earlier in the biochemistry part of the learning project, such as issues of greenwashing, industrial textile production, and fashion industry problems.
 
 ---
 
@@ -1137,9 +1137,9 @@ After presenting your ideas to your classmates, discuss the results within your 
 
 <var>Pitch</var>, also named <var>marketing pitch</var>, is a presentation of a **business idea** to potential investors.
 
-People pitch ideas, because they need **resources** to fulfill their ideas. If the goal is to raise startup cash, the target of the pitch is an investor.
+People pitch ideas because they need **resources** to fulfill their plans. If the goal is to raise startup cash, the target of the pitch is an investor.
 
-Other businesses pitch to potential **customers** to sell their product. Pitching is part of preparing the introduction of your idea and product to the audience and/or future customers.
+Other businesses pitch to potential **customers** to sell their products. Pitching is part of preparing the introduction of your idea and product to the audience and/or future customers.
 
 1. Prepare the pitching presentation about your product. Rehearse within your group. Make your pitch stand out. 
 
@@ -1187,13 +1187,13 @@ Image credits: https://pxhere.com/en/photo/1445899
 
 ## Phrase the core message 
 
-Phrase the <var>core message</var> so that it clear enough to extend public understanding about environmental issues and matches your product.
+Phrase the <var>core message</var> so that it clear enough to extend public understanding about environmental issues and match your product.
 
 -
 
 ### 1.
 
-Write the message on paper. Rephrase and ask for help on language if needed. Test your message by presenting it to target audience.
+Write the message on paper. Rephrase and ask for help on the language if needed. Test your message by presenting it to the target audience.
 
 -
 
@@ -1237,19 +1237,19 @@ Sketch your items and/or design on the paper by hand. Try to make variations, vi
 
 ### 5.
 
-Digitalize your design. The simplest way is to take photo with your smartphone.
+Digitalize your design. The simplest way is to take a photo with your smartphone.
 
 -
 
 ### 6.
 
-Process your images in a graphic software package of your choice to make the etched model of your product. 
+Process your images in a graphics software package of your choice to make the etched model of your product. 
 
 <f-notes>
 
 The visual message should be designed in a simplified and/or stylized visual mode.
 
-Remember to use enough contrast
+Remember to use enough contrast.
 
 </f-notes>
 
@@ -1264,15 +1264,15 @@ Remember to use enough contrast
 
 <h3 style="margin: 0"><span class="bullet">7</span></h3>
 
-Analyse examples given by your teacher together with your classmates.
+Analyze the examples given by your teacher together with your classmates.
 
 <h3 style="margin: 0"><span class="bullet">8</span></h3>
 
-With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of the item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on a T-shirt (use graphic testing module of T-shirt). Think about consistency. 
+With your group, analyze legibility of the message design, visual hierarchy, color contrast and overall wholeness of the item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on a T-shirt (use the graphic testing module of a T-shirt). Think about consistency. 
 
 <h3 style="margin: 0"><span class="bullet">9</span></h3>
 
-Ask for others' opinions on purposefulness of your message and (product) design. Do they match? Try different variations, if required. 
+Ask for others' opinions on the purposefulness of your message and (product) design. Do they match? Try different variations, if required. 
 
 </div>
 
@@ -1282,7 +1282,7 @@ Ask for others' opinions on purposefulness of your message and (product) design.
 
 <f-notes>
 
-Prepare a set of product design examples that are suited to the interests and outcomes of the product development stage of your gr oup.
+Prepare a set of product design examples that are suited to the interests and outcomes of the product development stage of your group.
 
 Examples may be both digital (photos, videos) and physical (items).
 
@@ -1304,17 +1304,17 @@ Image credits: https://www.redbubble.com/shop/p/9771020.NL9AC.cluey-kookaburra?g
 
 ### 10.
 
-Keep in mind that you are supposed to use only natural color and mordant agents to complete your task. Experiment to find the best way for applying design onto your item. Make further changes to your design item if necessary.  If you plan to make several items, be ready for differences, as outcome may differ due to the dyeing process.
+Keep in mind that you are supposed to use the only natural color and mordant agents to complete your task. Experiment to find the best way to apply the design onto your item. Make further changes to your design item if necessary.  If you plan to make several items, be ready for differences, as the outcome may differ due to the dyeing process.
 
 -
 
 ### 11.
 
-Make changes to your visual model, applying the knowledge you achieved of dyeing (and use process map you've made). Again, analyse legibility, visual hierarchy, colour contrast as you did before to find out, whether your design is deliverable by a natural dyeing process.
+Make changes to your visual model, applying the knowledge you achieved of dyeing (and use process map you've made). Again, analyze legibility, visual hierarchy, color contrast as you did before to find out whether your design is deliverable by a natural dying process.
  
 <f-notes>
 
-It is essential to support students through the analyse process. As your students' ability to analyse both details and whole entity of the item and design is still evolving, they will develop observation and analysis skills. 
+It is essential to support students through the analysis process. As your students' ability to analyze both details and the whole entity of the item and design is still evolving, they will develop observation and analysis skills. 
 
 </f-notes>
 
@@ -1327,9 +1327,9 @@ It is essential to support students through the analyse process. As your student
 
 ## Time for reflection
 
-When you are happy with your product and design, it is time to look back and analyse the product design process as a whole.
+When you are happy with your product and design, it is time to look back and analyze the product design process as a whole.
 
-1. Using the design process chart as model, create your own chart with **clearly stated outcomes of each stage** together with your teammates. 
+1. Using the design process chart as a model, create your chart with **clearly stated outcomes of each stage** together with your teammates. 
 
 2. **Present your work** and help other groups by asking questions about what they have reached.
 
@@ -1341,17 +1341,17 @@ When you are happy with your product and design, it is time to look back and ana
 
 <f-notes>
 
-It is essential to support and encourage students through the analysis process. As they lack experience to analyse both details and whole entity of the item and design and their competencies are still evolving, this is the most valuable experience they get out of design and development stage of their project.
+It is essential to support and encourage students through the analysis process. As they lack the experience to analyze both details and whole entity of the item and design and their competencies are still evolving, this is the most valuable experience they get out of the design and development stage of their project.
 
-Have large papers or flipchart and markers ready for each group. Explain the chart to the class briefly
+Have large papers or flipchart and markers ready for each group. Explain the chart to the class briefly.
 
-Instruct each group to make process map of their own work according to the example
+Instruct each group to make the process map of their work according to the example
 
 Let each group present their flipchart and encourage other students to ask questions straight after the presentation.
 
 Encourage students to make additions to their process maps.
 
-This task may serve as process evaluation tool, should you need to grade your students; as the design stage ends here.
+This task may serve as a process evaluation tool, should you need to grade your students; as the design stage ends here.
 
 Weblink address of the chart is: https://infographicnow.com/wp-content/uploads/2017/05/business-infographic-design-deeper-design-deeper-maintenance-mode.jpg
 
@@ -1400,7 +1400,7 @@ http://climaterevolution.co.uk/wp/wp-content/uploads/2014/02/vivienne-westwood.j
 
 Vivienne Westwood official Website https://blog.viviennewestwood.com
 
-Documentary about Vivienne Westwood: https://www.viviennewestwoodmovie.com/
+A documentary about Vivienne Westwood: https://www.viviennewestwoodmovie.com/
 
 The Life Cycle of a T-shirt: https://ia600802.us.archive.org/17/items/youtube-BiSYoeqb_VY/The_life_cycle_of_a_t-shirt_-_Angel_Chang-BiSYoeqb_VY.mp4
 
