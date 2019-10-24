@@ -39,7 +39,7 @@ fachwerk({
     // "index-extras.md"
   ],
   theme: "light",
-  editor: "hide",
+  edit: "none",
   type: "slides",
   home: "..",
   utils:  localutils

@@ -1,3 +1,15 @@
+| padding: 0 var(--base10)
+
+<blockquote style="padding-top:3vh;">
+
+  ⚠ This page and some sample projects are still in development phase. Thank you for your patience!
+
+</blockquote>
+
+
+
+---
+
 | gap: var(--base10)
 
 <f-logo />

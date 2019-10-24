@@ -1207,7 +1207,7 @@ Documentary about Vivienne Westwood: https://www.viviennewestwoodmovie.com/
 
 The Life Cycle of a T-shirt: https://ia600802.us.archive.org/17/items/youtube-BiSYoeqb_VY/The_life_cycle_of_a_t-shirt_-_Angel_Chang-BiSYoeqb_VY.mp4
 
-T-shirt Quiz: https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ
+T-shirt Quiz: 
 
 Jay Westerveld https://www.revolvy.com/page/Jay-Westerveld
 
