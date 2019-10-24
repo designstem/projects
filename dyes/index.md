@@ -7,7 +7,7 @@
 
 # <big>Sustainable fashion<br>with natural dyes</big>
 
-<big>From  biochemistry to product design and back<br><br><br><br>⚠️<br><br> This learning project<br>is under heavy development</big>
+<big>From  biochemistry to product design and back</big>
 
 </center>
 
@@ -1021,18 +1021,19 @@ The design thinking process has five steps, which could be linear or not, depend
 ---
 
 | section: Design thinking
-
-| 1 1 2
+| 1 1 2 2 2
 
 ##  Design thinking
 
 **Design Thinking** has evolved from Human-Centered Design focusing on customer experience, to Service Design focusing on customer journeys and touch points between a business and its customer.
 
-Design Thinking is a step-by-step, user-centered method to creative thinking and innovation, which is based on the [building up](https://experience.sap.com/skillup/introduction-to-design-thinking/) of ideas. Generally, Design Thinking follows a five-step approach:
+Design Thinking is a step-by-step, user-centered method to creative thinking and innovation, which is based on the [building up](https://experience.sap.com/skillup/introduction-to-design-thinking/) of ideas. 
+
+Generally, Design Thinking follows a five-step approach:
 
 -
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Processus_de_Design_Thinking_selon_d.school.png" style="width: 70%"/>
+<img src="./images/designthinking1.png" />
 
 <f-notes>
 
@@ -1040,35 +1041,28 @@ Illustration shows the main aims of every stage of Design Thinking Process.
 
 The starting point is the Empathy Stage. Students may benefit from further explanation of this stage.
 
-Image source: https://commons.wikimedia.org/wiki/File:Processus_de_Design_Thinking_selon_d.school.png
-
-</f-notes>
-
----
-
-| section: Double Diamond
-
-## Double Diamond
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Double_diamond.gif" style="width: 60%"/>
-
-<f-notes>
-
 Encourage your group to work step-by step. If something is unclear, help the group to find the answer. If necessary, return to a previous step. 
 
 The class will be using the Double Diamond of Design Thinking, which is explained here: https://www.designcouncil.org.uk/news-opinion/design-process-what-double-diamond
 
 Explain, how to work using divergent and convergent thinking processes in order to follow the Double Diamond Tool.
 
-Image source: https://commons.wikimedia.org/wiki/File:Double_diamond.gif
 
 </f-notes>
 
 ---
 
 | section: Getting stuck
-| 1 1
-| 2 2
+| 1
+| 2
+
+<center>
+
+<img src="./images/designthinking5.png" style="width: 70%"/>
+
+</center>
+
+-
 
 ## Getting stuck
 
@@ -1080,13 +1074,16 @@ Allow yourself to think freely; keep notes/record of your ideas; listen to your 
 
 Eventually, you will find the answer :)
 
--
-
-<img src="./images/designthinking5.png" style="width: 50%"/>
 
 ---
 
 | section: Presenting ideas
+| 1
+| 2
+
+<f-image src="https://c.pxhere.com/photos/01/35/office_building_conference_room_boardroom_conference_table-9341.jpg!d" />
+
+-
 
 ##  Presenting ideas
 
@@ -1094,41 +1091,59 @@ After the process of product ideation is finished, the ideas are to be presented
 
 Groups should introduce their ideas briefly, covering information such as:
 
-1. Name/description of your product
+<div class="grid" style="--cols: 1fr 1fr 1fr; --gap: var(--base2);">
 
-2. End users and/or target group of your product
+<f-card>
+Name/description of your product
+</f-card>
 
-3. Name the problem(s), that are to be solved by using your product.
+<f-card>
+End users and/or target group of your product
+</f-card>
+
+<f-card>
+Name the problem(s), that are to be solved by using your product.
+</f-card>
+
+</div>
+
+<p />
 
 Your audience should be encouraged to ask questions to refine and develop the idea, or to propose alternative solutions.
 
 ---
 
-section: Refining ideas
+| section: Refining ideas
+
+<caption>💬 Discuss</caption>
 
 ## Refining ideas
 
 After presenting your ideas to your classmates, discuss the results within your group.
 
-***Subtask 1:*** Is the process of making your product is sustainable?
+1. Is the process of making your product is sustainable?
 
-***Subtask 2:*** use the design thinking process with your group again (***TODO*** See slide 39) and **find out and describe, how it is possible to make your process and/or product even more sustainable.** Remember themes you discussed earlier in biochemistry part of the learning project, such as issues of greenwashing, industrial textile production and fashion industry problems.
+2. Use the design thinking process with your group **find out and describe, how it is possible to make your process and/or product even more sustainable.** 
+
+  Remember themes you discussed earlier in biochemistry part of the learning project, such as issues of greenwashing, industrial textile production and fashion industry problems.
 
 ---
 
-| section: Preparing a pitch
+| section: Pitch your product
 
-## Marketing pitch for your product 
+<caption>📢 Present</caption>
 
-**Pitch**, also named **marketing pitch**, is a presentation of a **business idea** to potential investors.
+## Pitch your product 
+
+<var>Pitch</var>, also named <var>marketing pitch</var>, is a presentation of a **business idea** to potential investors.
 
 People pitch ideas, because they need **resources** to fulfill their ideas. If the goal is to raise startup cash, the target of the pitch is an investor.
 
 Other businesses pitch to potential **customers** to sell their product. Pitching is part of preparing the introduction of your idea and product to the audience and/or future customers.
 
-***SUBTASK 1*** Prepare the pitching presentation about your product. Rehearse within your group. Make your pitch stand out. 
+1. Prepare the pitching presentation about your product. Rehearse within your group. Make your pitch stand out. 
 
-***SUBTASK 2*** Present your pitching presentation to your class. 
+2. Present your pitching presentation to your class. 
 
 <f-notes>
 
@@ -1142,6 +1157,7 @@ It is possible to arrange the pitching of ideas as a part of an assessment.
 | section: Time for visual design
 | theme: dark
 | background: https://c.pxhere.com/images/21/38/c46c3ef5b67a0b9d2b3e49d0240b-1445899.jpg!d
+| tint: 0.5
 
 <center>
 
@@ -1160,71 +1176,109 @@ Image credits: https://pxhere.com/en/photo/1445899
 ---
 
 | section: Core message
+| 1 1 1
+| 2 2 2
+| 3 4 5
 
-## Core message and idea 
 
+<f-image style="background-position: 50% 50%" src="https://c.pxhere.com/photos/de/87/computer_office_table_keyboard_wood_work_business_desk-1188439.jpg!d" />
 
-Phrase the message so that it clear enough to extend public understanding about environmental issues and matches your product.
+-
 
-##### 1.
+## Phrase the core message 
+
+Phrase the <var>core message</var> so that it clear enough to extend public understanding about environmental issues and matches your product.
+
+-
+
+### 1.
 
 Write the message on paper. Rephrase and ask for help on language if needed. Test your message by presenting it to target audience.
 
-##### 2.
+-
+
+### 2.
 
 Think about lettering; pick or draw any images you intend to use.
 
-##### 3.
+-
+
+### 3.
 
 Brainstorm in your group which items or products could both carry the message required *and* be sustainable.
+
+<f-notes title="Credits">
+
+https://pxhere.com/en/photo/1188439
+
+</f-notes>
 
 ---
 
 | section: Creating visuals
-| 1 3
-| 2 3
+| 1 1 1
+| 2 2 2
+| 3 4 5
 
-##  Creating the visuals of your product
 
-##### 4.
+<f-image style="background-position: 50% 75%" src="https://c.pxhere.com/photos/7b/7b/apple_books_colored_crayons_coloured_pencils_design_desk_education_eraser-911859.jpg!d" />
+
+-
+
+##  Create the visuals
+
+-
+
+### 4.
 
 Sketch your items and/or design on the paper by hand. Try to make variations, visualize and develop the idea, keep in mind the simplicity of the expression and composition :)
 
-##### 5.
+-
+
+### 5.
 
 Digitalize your design. The simplest way is to take photo with your smartphone.
 
-##### 6.
+-
+
+### 6.
 
 Process your images in a graphic software package of your choice to make the etched model of your product. 
 
--
+<f-notes>
 
-The visual message should be designed in a simplified and/or stylized  visual mode.
+The visual message should be designed in a simplified and/or stylized visual mode.
 
 Remember to use enough contrast
 
--
-
-<img src="./images/pineapple.png" />
+</f-notes>
 
 ---
 
 | section: Making models
+| 1 1 1 2 2
 
-## Make digital / visual models of your product
+## Make digital models
 
-##### 7.
+<div class="grid" style="--cols: 80px 1fr">
+
+<h3 style="margin: 0"><span class="bullet">7</span></h3>
 
 Analyse examples given by your teacher together with your classmates.
 
-##### 8.
+<h3 style="margin: 0"><span class="bullet">8</span></h3>
 
 With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of the item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on a T-shirt (use graphic testing module of T-shirt). Think about consistency. 
 
-##### 9.
+<h3 style="margin: 0"><span class="bullet">9</span></h3>
 
 Ask for others' opinions on purposefulness of your message and (product) design. Do they match? Try different variations, if required. 
+
+</div>
+
+-
+
+<f-image src="https://ih1.redbubble.net/image.928645219.1020/ssrco,unisex_tshirt,womens,fafafa:ca443f4786,front,tall_three_quarter,x1000-bg,f8f8f8.u14.jpg" />
 
 <f-notes>
 
@@ -1234,19 +1288,27 @@ Examples may be both digital (photos, videos) and physical (items).
 
 Demonstrate the analysis for a couple of examples and support the class with guiding questions.
 
+Image credits: https://www.redbubble.com/shop/p/9771020.NL9AC.cluey-kookaburra?grid_pos=5&rbs=e2d313e8-5dcb-4406-98fa-ef6efc5cc741&ref=shop_grid&searchTerm=environmental%20message#&gid=1&pid=2
+
 </f-notes>
 
 ---
 
-| section: Matching design and technique
+| section: Match design and technique
+| 1 1
+| 2 3
 
-##  Matching design and technique
+##  Match design and technique
 
-##### 11.
+-
+
+### 10.
 
 Keep in mind that you are supposed to use only natural color and mordant agents to complete your task. Experiment to find the best way for applying design onto your item. Make further changes to your design item if necessary.  If you plan to make several items, be ready for differences, as outcome may differ due to the dyeing process.
 
-##### 12.
+-
+
+### 11.
 
 Make changes to your visual model, applying the knowledge you achieved of dyeing (and use process map you've made). Again, analyse legibility, visual hierarchy, colour contrast as you did before to find out, whether your design is deliverable by a natural dyeing process.
  
@@ -1258,24 +1320,24 @@ It is essential to support students through the analyse process. As your student
 
 ---
 
-| section: Process map
-| 1 1 2 2
+| section: Time for reflection
+| padding: 0
 
-##### 12.
+<section>
 
-Repeat steps 4-11, if necessary. 
-
-<p />
+## Time for reflection
 
 When you are happy with your product and design, it is time to look back and analyse the product design process as a whole.
 
-***SUBTASK*** Using the design process chart as model <small>(see teacher notes)</small>, create your own chart with **clearly stated outcomes of each stage** together with your teammates. 
+1. Using the design process chart as model, create your own chart with **clearly stated outcomes of each stage** together with your teammates. 
 
-**Present your work** and help other groups by asking questions about what they have reached.
+2. **Present your work** and help other groups by asking questions about what they have reached.
+
+</section>
 
 -
 
-<img src="./images/pineappletshirt.jpg" />
+<f-image src="images/shirt.png" />
 
 <f-notes>
 
