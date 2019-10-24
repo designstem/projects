@@ -166,9 +166,8 @@ Look at the NASA image of the Aral Sea in Central Asia. This huge inland lake ha
 
 ##### 4.
 
-Group or individual work: Complete T-shirt [quiz](https://drive.google.com/drive/folders/1ADNeXguW70d9cBFPz6QQ2gjTGguhkQQZ)
-
-***TODO: Replace with real quiz*** 
+Group or individual work: Complete T-shirt quiz (to be added)
+ 
 
 ##### 5.
 
