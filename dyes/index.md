@@ -1142,6 +1142,7 @@ It is possible to arrange the pitching of ideas as a part of an assessment.
 | section: Time for visual design
 | theme: dark
 | background: https://c.pxhere.com/images/21/38/c46c3ef5b67a0b9d2b3e49d0240b-1445899.jpg!d
+| tint: 0.5
 
 <center>
 
@@ -1160,71 +1161,109 @@ Image credits: https://pxhere.com/en/photo/1445899
 ---
 
 | section: Core message
+| 1 1 1
+| 2 2 2
+| 3 4 5
 
-## Core message and idea 
 
+<f-image style="background-position: 50% 50%" src="https://c.pxhere.com/photos/de/87/computer_office_table_keyboard_wood_work_business_desk-1188439.jpg!d" />
 
-Phrase the message so that it clear enough to extend public understanding about environmental issues and matches your product.
+-
 
-##### 1.
+## Phrase the core message 
+
+Phrase the <var>core message</var> so that it clear enough to extend public understanding about environmental issues and matches your product.
+
+-
+
+### 1.
 
 Write the message on paper. Rephrase and ask for help on language if needed. Test your message by presenting it to target audience.
 
-##### 2.
+-
+
+### 2.
 
 Think about lettering; pick or draw any images you intend to use.
 
-##### 3.
+-
+
+### 3.
 
 Brainstorm in your group which items or products could both carry the message required *and* be sustainable.
+
+<f-notes title="Credits">
+
+https://pxhere.com/en/photo/1188439
+
+</f-notes>
 
 ---
 
 | section: Creating visuals
-| 1 3
-| 2 3
+| 1 1 1
+| 2 2 2
+| 3 4 5
 
-##  Creating the visuals of your product
 
-##### 4.
+<f-image style="background-position: 50% 75%" src="https://c.pxhere.com/photos/7b/7b/apple_books_colored_crayons_coloured_pencils_design_desk_education_eraser-911859.jpg!d" />
+
+-
+
+##  Create the visuals
+
+-
+
+### 4.
 
 Sketch your items and/or design on the paper by hand. Try to make variations, visualize and develop the idea, keep in mind the simplicity of the expression and composition :)
 
-##### 5.
+-
+
+### 5.
 
 Digitalize your design. The simplest way is to take photo with your smartphone.
 
-##### 6.
+-
+
+### 6.
 
 Process your images in a graphic software package of your choice to make the etched model of your product. 
 
--
+<f-notes>
 
-The visual message should be designed in a simplified and/or stylized  visual mode.
+The visual message should be designed in a simplified and/or stylized visual mode.
 
 Remember to use enough contrast
 
--
-
-<img src="./images/pineapple.png" />
+</f-notes>
 
 ---
 
 | section: Making models
+| 1 1 1 2 2
 
-## Make digital / visual models of your product
+## Make digital models
 
-##### 7.
+<div class="grid" style="--cols: 80px 1fr">
+
+<h3 style="margin: 0"><span class="bullet">7</span></h3>
 
 Analyse examples given by your teacher together with your classmates.
 
-##### 8.
+<h3 style="margin: 0"><span class="bullet">8</span></h3>
 
 With your group, analyse legibility of the message design, visual hierarchy, colour contrast and overall wholeness of the item and designed message, while fitting your design on the sketch of your product (use graphic software of your choice) or on a T-shirt (use graphic testing module of T-shirt). Think about consistency. 
 
-##### 9.
+<h3 style="margin: 0"><span class="bullet">9</span></h3>
 
 Ask for others' opinions on purposefulness of your message and (product) design. Do they match? Try different variations, if required. 
+
+</div>
+
+-
+
+<f-image src="https://ih1.redbubble.net/image.928645219.1020/ssrco,unisex_tshirt,womens,fafafa:ca443f4786,front,tall_three_quarter,x1000-bg,f8f8f8.u14.jpg" />
 
 <f-notes>
 
@@ -1233,6 +1272,8 @@ Prepare a set of product design examples that are suited to the interests and ou
 Examples may be both digital (photos, videos) and physical (items).
 
 Demonstrate the analysis for a couple of examples and support the class with guiding questions.
+
+Image credits: https://www.redbubble.com/shop/p/9771020.NL9AC.cluey-kookaburra?grid_pos=5&rbs=e2d313e8-5dcb-4406-98fa-ef6efc5cc741&ref=shop_grid&searchTerm=environmental%20message#&gid=1&pid=2
 
 </f-notes>
 
