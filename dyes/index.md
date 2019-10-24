@@ -135,11 +135,11 @@ Subject: consuming standards of western society, influence on the populations of
 
 ***TASK***
 
-##### 1
+#### 1.
 
 Watch the video “The Life Cycle of a T-shirt”
 
-##### 2
+#### 2.
 
 Discuss the video in group.
 
@@ -162,14 +162,16 @@ Final question: what did you learn?
 
 ##  Fashion as Influencing agent II
 
+#### 3.
+
 Look at the NASA image of the Aral Sea in Central Asia. This huge inland lake has shrunk to less than 10% of its original size because water from the rivers that feed it have been diverted to irrigate farmland, largely to grow cotton.
 
-##### 4.
+#### 4.
 
-Group or individual work: Complete T-shirt quiz (to be added)
+Group or individual work: <a href="./quiz/quiz-1.html" target="_blank">Complete T-shirt quiz</a>
  
 
-##### 5.
+#### 5.
 
 Summarize all the ways in which production of a cotton T-shirt can cause environmental damage and any other concerns. Also, consider possible steps which the fashion industry and you personally could take to minimize this damage.
 
@@ -1206,8 +1208,6 @@ Vivienne Westwood official Website https://blog.viviennewestwood.com
 Documentary about Vivienne Westwood: https://www.viviennewestwoodmovie.com/
 
 The Life Cycle of a T-shirt: https://ia600802.us.archive.org/17/items/youtube-BiSYoeqb_VY/The_life_cycle_of_a_t-shirt_-_Angel_Chang-BiSYoeqb_VY.mp4
-
-T-shirt Quiz: 
 
 Jay Westerveld https://www.revolvy.com/page/Jay-Westerveld
 

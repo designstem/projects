@@ -4,8 +4,9 @@
 | 3
 | rows: auto
 
+<caption>📋 Quiz</caption>
 
-# The life-cycle of a T-shirt Quiz
+## The life-cycle of a T-shirt 
 
 -
 
