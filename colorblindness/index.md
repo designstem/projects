@@ -43,10 +43,6 @@ Further, especially design students should learn how to choose color schemes so 
 
 <!-- <f-sidebar title="Menu" src="./menu.md" /> -->
 
-
-
-
-
 ---
 
 
@@ -59,13 +55,9 @@ Further, especially design students should learn how to choose color schemes so 
 | 3 2
 
 
-
 ## Read first!
 
-
 Before you dive into the workshop, in order to improve your learning experience, we recommend the following (click on the titles to see more):
-
-
 
 <details>
   <summary><big>Keep a journal!</big></summary>
@@ -79,14 +71,12 @@ Before you dive into the workshop, in order to improve your learning experience,
   
   *Follow the tasks in a chronological order and don't skip any to get through faster. Quickly clicking through the pages, won't give you insight, because **most of what you will learn in here is through testing** (and sometimes failing), **through your own experience and conclusions, and not by just reading ready-made information**. There is one exception: In the middle of the workshop, there will be a learning station setting, so if you already know about a certain topic, it's ok to skip it.*
   
-  </details>
+</details>
 
 
 <br>
 
 This being said, we hope you will use this workshop well and sometimes in between, **you are even allowed to enjoy it.** 😉
-
-
 
 -
 
@@ -95,7 +85,6 @@ This being said, we hope you will use this workshop well and sometimes in betwee
 -
 
 <f-next-button title="Next: Let's start!" />
-
 
 <f-notes>
 
@@ -114,9 +103,6 @@ Maybe you could provide them the following questions/tasks:
 Of course you can add further questions and tasks for your students or adapt these tasks to your students' level.
 
 </f-notes>
-
-
-
 
 ---
 
@@ -172,8 +158,6 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 
 </div>
 
-
-
 -
 
 <ColorblindnessJuxtapose :imageUrl="'images/color_blindness_accessibility_0.jpg'" :revealed="get('revealX',0)" :locked="get('revealLocked', true)" :juxtId="'compare'" :upload="false" style="box-shadow:0 0 4px 0 hsla(0,0%,0%,0.3);padding:var(--base) var(--base2); border-radius:var(--base)" />
@@ -184,9 +168,9 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 
 <f-next-button />
 
-
-
 ---
+
+
 
 
 
@@ -196,7 +180,7 @@ Actually, there is **<span style="color:var(--red)">only one red tomato</span>**
 | rows: auto
 | 1 2
 | 1 2
-| 3 3
+| 3 2
 
 
 ## So what?!
@@ -243,15 +227,11 @@ But first, **let's go outside**.
 
 <section>
 
-  <!-- <div> -->
-  
-  <!-- ##### EXPLORE -->
-  ## <f-icon :icon="'Activity'" :size="'large'" /> Photo safari
+## <f-icon :icon="'Activity'" :size="'medium'" /> Photo safari
 
-  <p />
+<p />
 
 Use a digital camera, such as the camera of your mobile phone, and **go on a photo safari of your everyday life**.
-
 
 <f-inline>
 
@@ -261,8 +241,7 @@ Use a digital camera, such as the camera of your mobile phone, and **go on a pho
 
 </f-inline>
   
- **You will need the pictures for the next task. So don't skip it!** 🧐
-  <!-- </div> -->
+**You will need the pictures for the next task. So don't skip it!** 🧐
 
 </section>
 

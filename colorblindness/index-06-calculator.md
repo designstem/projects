@@ -30,7 +30,6 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 </figure>
 
 
-
 <f-notes>
   
   <summary>Teachers notes</summary>
@@ -50,10 +49,6 @@ Whereas the DESIGN path requires you to also use design software. For the STEM p
 Whenever information needs to be conveyed visually, we have to think about accessibility, because it is not only about aesthetics anymore. It’s about enabling the target group to get the information they need. Therefore many products are suitable as learning objects for this project and can be adjusted to the students’ level. Feel free to use the following tasks as basis for your own ideas and change the design object so it fits your needs.
 
 </f-notes>
-
-
-
-
 
 ---
 
@@ -103,22 +98,21 @@ Create a new color scheme for a calculator with white buttons, which also works 
 </figure>
 
 -
+
 <button class="primary" v-on:click="send('goto', 'cb-workshop-test')">Test your design</button>
-
-
-
-
-
-
 
 ---
 
+
+
+
+
+
+
+
 | id: cb-calc
 
-
 <calculator-designer />
-
-
 
 ---
 
@@ -137,7 +131,6 @@ Create a new color scheme for a calculator with white buttons, which also works 
 | 4 3
 
 
-
 <!-- ##### Elaborate DESIGN students -->
 ## Workshop DESIGN
 
@@ -146,7 +139,6 @@ Create a new color scheme for a calculator with white buttons, which also works 
 Congratulations! You chose the DESIGN path and **this is your quest**:
 Design a calculator app that works for people with color vision deficiency, but at the same time will be appealing to people with normal color vision.
 
-
 #### Tasks
 
 1. **Product**: *First, group the buttons and find hierarchies. Which are important buttons that you use often? How many colors would you need for your color scheme?*
@@ -154,8 +146,6 @@ Design a calculator app that works for people with color vision deficiency, but 
 3. **Layout**: *Scribble a layout for your calculator app. Use the calculator displayed here as a reference.*
 4. **Color design**: *Decide upon a color scheme which also works for color blind people with protanopia and deuteranopia.*
 5. **Mockup**: *Make a mockup of your design in a graphic program and apply your color scheme to it.*
-
-
 
 -
 
@@ -180,14 +170,11 @@ EVALUATE PHASE
 
 -->
 
-
-
 | section: Testing with CVD Simulator
 | rows: auto
 | id: cb-workshop-test
 | 1 2
 | 3 2
-
 
 
 <!-- ##### Evaluate testing  -->
@@ -216,14 +203,12 @@ Upload your picture into the CVD-simulator and check whether it works.
 
 </f-card>
 
-
 <br>
 
 1. *Check if your color schemes is flawed.*
 2. *Adjust your color scheme, if necessary, and check again.*
 3. *Write down your insights in your journal.*
 4. *Present your design in class. Be ready to explain your choices.*
-
 
 -
 
@@ -251,6 +236,7 @@ Upload your picture into the CVD-simulator and check whether it works.
 In this phase the students should reflect on their design decisions and be able to present their final results in class. This is the chance for you to grade the student's work but also to allow feedback and discussions among the students about the challenges of the task.
 
 After that, on the next slides, the students will have the chance to review their learning process and evaluate their growth of knowledge and skills. Use the journal!
+
 </f-notes>
 
 <f-next-button style="margin:var(--base4) 0" />
@@ -303,17 +289,17 @@ Lets reflect on what you achieved.
 
 <f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
-
-
-
 ---
+
+
+
+
 
 
 | section: Design
 
 | height: 100vh
 | 1 2
-
 
 
 <!-- ##### Evaluate meta  -->
@@ -350,8 +336,10 @@ This could be interesting for students, since the functionality of BRAUN's (and 
   <figcaption>This is Dieter Rams' calculator for BRAUN</figcaption>
 </figure>
 
-
 ---
+
+
+
 
 | section: STEM
 
@@ -366,7 +354,6 @@ This could be interesting for students, since the functionality of BRAUN's (and 
 Do you still know everything there is to know about the eye and in specific about rods and cones? 
 
 Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_quiz1_answerkey.pdf).
-
 
 **Here are some further questions to think about:**
 1. *In terms of rods and cones, what do the fovea and blind spot have in common? How are they different?*
@@ -392,8 +379,11 @@ Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_qu
 
 <f-image src="./images/color_blindness_accessibility_eye.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
-
 ---
+
+
+
+
 
 | chapter: The end
 
@@ -401,22 +391,15 @@ Find out in this [multiple choice quiz](./files/designstem_cvd_worksheet_stem_qu
 | 1 2
 
 
-
-<!-- ##### Evaluate meta  -->
 ## You did it! 😄
-
  
 We hope that you enjoyed doing this workshop, and that it will help you in your further life to create nice color schemes that work for all!
 
-
 > *This workshop is dedicated to Micha, who was the inspiration for it, and to people like him. People whose accessibility is restricted, due to designers lack of knowledge.* Luckily, you are a pro now and know, that this problem can be fixed easily.
-
 
 If you are still motivated to learn more, you are welcome to check out the other DesignSTEM workshops.
 
-  
   #### Related DesignSTEM projects:
-
   
   <a href="../metamerism">Color perception</a> <br><small>shows you that even if an object has one fixed color, it can still look different.</small>
 
@@ -428,13 +411,10 @@ If you are still motivated to learn more, you are welcome to check out the other
 
 -
 
-
 <f-image src="./images/cvd_success.jpg" style="background-position:50% 50%; min-height: 90vh;" />
 
 
-
-
-<f-notes title="credits">
+<f-notes title="Credits">
 
 <summary>Credits</summary>
 
@@ -445,24 +425,17 @@ If you are still motivated to learn more, you are welcome to check out the other
 
 All other graphics by Kristin Kreer.
 
-
 #### Literature
 
 Adams, Sean. Morioka, Noreen. Stone, Terry. (Jan 1, 2006). Color Design Workbook.
 Itten, Johannes. (1970). The Elements of Color.
 Hideaki Chijiwa. (Sep 1, 1987). Color Harmony: A Guide to Creative Color Combinations.
 
-
 #### Other
 
 Color-blindness.com. (November 2018) https://www.color-blindness.com/coblis-color-blindness-simulator/
 Wikipedia.org. (November 2018) https://en.wikipedia.org/wiki/Accessibility
 
-
-
 </f-notes>
-
-
-
 
 

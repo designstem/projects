@@ -662,7 +662,7 @@ P          A     A    LLLLLLL    EEEEEEE       T          T       EEEEEEE
 
 
 Choose the colors for the background, the headline and the text so that the palette fits to the article, the colors form a harmonious palette and the headline is more prominent than the text.
-> <mark> Please, **take a screenshot of your final colors' HSB values** for later! <mark>
+> <mark> Please, **take a screenshot of your final colors' HSB values** for later! </mark>
 
 -
 
