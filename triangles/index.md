@@ -119,7 +119,7 @@
 
 ## Design problem 🤔
 
-~ Some birds rely heavily on nesting boxes made by humans.~
+~Some birds rely heavily on nesting boxes made by humans.~
 
 #### Find out….
 
@@ -823,9 +823,6 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 
 ## Polyhedra
 
-~**Regular polyhedra** *(polyhedra = polyhedron in plural form)* are composed of **polygons**.~ 
-~There are **5 convex regular polyhedra**, also known as **platonic solids**.~
-
 -
 
 <f-scene3 isometric class="fullWidthScene crisp" static>
@@ -859,6 +856,9 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
 </f-scene3>
 
 -
+
+~**Regular polyhedra** *(polyhedra = polyhedron in plural form)* are composed of **polygons**.~ 
+~There are **5 convex regular polyhedra**, also known as **platonic solids**.~
 
 <f-sidebar src="math-polyhedra.md" size="half" overlay>
   <a class="tertiary" style="padding:var(--base);">About regular polyhedra<f-arrow-icon rotation="-45" /></a>
@@ -1192,6 +1192,7 @@ Birdbox by Blüüm, https://www.bluum.co.uk/products/bird-box-with-green-roof-pl
   
   - ~the <var>base</var> of a pyramid **is used to make up the sides of a polyhedron~
   - ~the <var>tip</var> of the pyramid is at the **center point of the polyhedron**~
+  
 </div>
 
 -
