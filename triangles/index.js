@@ -18,6 +18,7 @@ fachwerk({
   // src: "math-pyramid.md",
   theme: "light",
   type: "slides",
+  edit: "none",
   home: "..",
   utils: localutils,
   // style: {"--accent":"var(--blue)"}
