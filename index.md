@@ -1,15 +1,3 @@
-| padding: 0 var(--base10)
-
-<blockquote style="padding-top:3vh;">
-
-  ⚠ This page and some sample projects are still in development phase. Thank you for your patience!
-
-</blockquote>
-
-
-
----
-
 | gap: var(--base10)
 
 <f-logo />
@@ -24,6 +12,7 @@
 <f-sheet
 id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
 v-slot="{ value: projects }"
+
 >
 
 <div>
@@ -48,11 +37,7 @@ v-slot="{ value: projects }"
 
 </f-sheet>
 
-
 ---
-
-
-
 
 | padding: 0
 | 1
@@ -60,8 +45,9 @@ v-slot="{ value: projects }"
 | 3
 
 <f-sheet
-  id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
-  v-slot="{ value: projects }"
+id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+v-slot="{ value: projects }"
+
 >
 
 <f-theme theme="dark">
@@ -90,12 +76,11 @@ v-slot="{ value: projects }"
 
 -
 
-
 <section class="cells">
 
-  # Team
-  
-  <big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>We are educators, teachers, designers and engineers from Estonia, Finland, Germany, Greece, Italy, The Netherlands, Portugal, Slovenia, and United Kingdom. We made DesignSTEM for ourselves and for the teachers in the whole world. See, <f-link to="https://designstem.github.io/slides/main-points"><var>why</var> we did it</f-link> and <f-link to="https://designstem.github.io/slides/creative-mood"><var>how</var> we did it</f-link>.</big></big>
+# Team
+
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>We are educators, teachers, designers and engineers from Estonia, Finland, Germany, Greece, Italy, The Netherlands, Portugal, Slovenia, and United Kingdom. We made DesignSTEM for ourselves and for the teachers in the whole world. See, <f-link to="https://designstem.github.io/slides/main-points"><var>why</var> we did it</f-link> and <f-link to="https://designstem.github.io/slides/creative-mood"><var>how</var> we did it</f-link>.</big></big>
 
 </section>
 
@@ -103,17 +88,15 @@ v-slot="{ value: projects }"
 
 <div class="bio">
 
-  ### {{ get('team', { name: '', bio: '' }).name }}
+### {{ get('team', { name: '', bio: '' }).name }}
 
-  {{ get('team', { name: '', bio: '' }).bio.slice(0,200) }}
-    
+{{ get('team', { name: '', bio: '' }).bio.slice(0,200) }}
+
 </div>
 
 <f-team @team="team => set('team', team)" />
 
 ---
-
-
 
 | rows: auto 1fr
 | 1 1 1
@@ -127,13 +110,13 @@ v-slot="{ value: projects }"
 
 #### Project Initiator and Manager
 
-Merit Karise, Kuressaare Regional Training Centre (Estonia), design department 
+Merit Karise, Kuressaare Regional Training Centre (Estonia), design department
 
 merit.karise@ametikool.ee
 
 -
 
-#### Head Pedagogical Consultant 
+#### Head Pedagogical Consultant
 
 PhD Jaakko Turkka, University of Helsinki (Finland), LUMA Centre
 
@@ -143,7 +126,7 @@ jaakko.turkka@helsinki.fi
 
 #### Production Manager and Lead Developer
 
-Kristjan Jansen, Kuressaare Regional Training Centre (Estonia), design department 
+Kristjan Jansen, Kuressaare Regional Training Centre (Estonia), design department
 
 kristjan.jansen@gmail.com.
 
