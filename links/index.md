@@ -1,2 +1,3 @@
+| background: var(--lightestgray)
 
 <DSLinks />
