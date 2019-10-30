@@ -98,6 +98,18 @@ v-slot="{ value: projects }"
 
 ---
 
+
+
+
+<big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>💖 Here you'll find a  <a href="https://designstem.github.io/projects/links" target="_blank">collection of links</a> to sites, articles and projects, that inspired us during Design<sup><small>STEM</small></sup>. </big></big>
+
+
+---
+
+
+
+
+
 | rows: auto 1fr
 | 1 1 1
 | 2 3 4
