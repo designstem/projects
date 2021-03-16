@@ -114,7 +114,7 @@
 
 | section: Biodesign
 | theme: light
-| --primary:var(--middlegray)
+| --primary: var(--middlegray)
 | rows: auto 
 | cols: 0.25fr 4fr 2fr
 | 5 1 2
