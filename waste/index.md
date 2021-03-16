@@ -555,7 +555,7 @@ https://pixnio.com/still-life/seashells-mollusk-still-life-object-decoration-mac
 
 <caption>Optimization with folds</caption>
 
-## Adding strenght
+## Adding strength
 
 Now that we have looked at nature and appreciate how folding materials can **add strength** to them.
 
