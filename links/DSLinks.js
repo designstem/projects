@@ -13,8 +13,8 @@ export default{
   },
   template: `
   <div>
-    <f-sheet
-      id="1ZrQ_OwfitB7dvZh4LzUmanbEX6oR3kWI2YVBTkFLZfc"
+    <FSheetsV4
+      id="1ZrQ_OwfitB7dvZh4LzUmanbEX6oR3kWI2YVBTkFLZfc" sheet="links"
       v-slot="{ value }">
       <div style="display: grid; grid-template-columns:1fr 2fr">
 
@@ -41,7 +41,7 @@ export default{
         </div>
 
       </div>
-    </f-sheet>
+    </FSheetsV4>
   </div>
   `
 };
