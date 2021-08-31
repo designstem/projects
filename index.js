@@ -8,6 +8,9 @@ import {
   unique,
   titlecase
 } from "https://designstem.github.io/fachwerk/fachwerk.js";
+
+import FSheetsV4 from "./FSheetsV4.js";
+
 // } from "http://127.0.0.1:5502/fachwerk.js";
 
 const parseList = (list, separator = ",") =>
@@ -106,7 +109,7 @@ const FTeam = {
     }
   },
   template: `
-  <f-sheet id="1-WsazYAKboddKOCkfImHCY6V7Wy-ztIs4qhyYumeAqw" v-slot="{ value: allTeams }">
+  <FSheetsV4 id="1-WsazYAKboddKOCkfImHCY6V7Wy-ztIs4qhyYumeAqw" v-slot="{ value: allTeams }">
     <slot :teams="filteredTeams(allTeams)">
       <f-grid gap="0" :cols="'repeat(' + cols + ', 1fr)'" style="--mobile-cols:1fr 1fr 1fr 1fr">
         <template v-for="(t, i) in filteredTeams(allTeams)">
@@ -121,7 +124,7 @@ const FTeam = {
         </template>
       </f-grid>
     </slot>
-  </f-sheet>
+  </FSheetsV4>
   `
 };
 
@@ -177,7 +180,7 @@ const FAbout = {
         <p v-if="project.contact == get('team',{ shortname: '' }).shortname"><a href="mailto:">{{ get('team',{ contact: '' }).contact }}</a></p>
       </div>
       <br><br>
-      <f-sheet
+      <FSheetsV4
         id="1lX3zJ_3jYKIsIqeoFdPa3xPiVjBy4Avd8aHKefLUmOU"
         v-slot="{ value: terms }"
       >
@@ -192,7 +195,7 @@ const FAbout = {
           />
         </div>
       </div>
-      </f-sheet>
+      </FSheetsV4>
     </div>
   </f-sidebar>
   `
@@ -243,7 +246,7 @@ const isActive = (project, designtags, stemtags) => {
 
 fachwerk({
   title: "Projects",
-  components: { FLogo, FGrid, FImageCard, FAbout, FTeam, FTags },
+  components: { FLogo, FGrid, FImageCard, FAbout, FTeam, FTags, "FSheetsV4" : FSheetsV4 },
   utils: { isActive },
   edit: "none",
   menu: "none",
