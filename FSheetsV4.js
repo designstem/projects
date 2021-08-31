@@ -1,8 +1,6 @@
-// import { parseSheet } from "../../../fachwerk.js";
-
 import { toKeyedRows } from "./utils.js";
 
-import { KEY } from "./secrets.js";
+// import { KEY } from "./secrets.js";
 
 export default {
   description: `
@@ -42,7 +40,8 @@ Fetches data from Google Sheets.
     value: null, loaded: false,
   }),
   props: {
-    id: { default: "", type: String },
+    id: { default: "", type: String, required: true },
+    akey: {default:"", type:String, required: true},
     sheet: {default: "Sheet1", type: String}
   },
   slots: {
@@ -52,9 +51,9 @@ Fetches data from Google Sheets.
     }
   },
   mounted() {
-    if (this.id) {
+    if (this.id && this.akey) {
       fetch(
-        `https://sheets.googleapis.com/v4/spreadsheets/${this.id}/values/${this.sheet}?alt=json&key=${KEY}&majorDimension=ROWS`
+        `https://sheets.googleapis.com/v4/spreadsheets/${this.id}/values/${this.sheet}?alt=json&key=${this.akey}&majorDimension=ROWS`
       )
         .then(res => res.json())
         .then(res => {
