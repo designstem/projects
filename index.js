@@ -109,7 +109,7 @@ const FTeam = {
     }
   },
   template: `
-  <FSheetsV4 id="1-WsazYAKboddKOCkfImHCY6V7Wy-ztIs4qhyYumeAqw" v-slot="{ value: allTeams }">
+  <FSheetsV4 id="1-WsazYAKboddKOCkfImHCY6V7Wy-ztIs4qhyYumeAqw" akey="AIzaSyB8ofd2t6YxACpaV8yJUdGjlYlV_hSoMu4" v-slot="{ value: allTeams }">
     <slot :teams="filteredTeams(allTeams)">
       <f-grid gap="0" :cols="'repeat(' + cols + ', 1fr)'" style="--mobile-cols:1fr 1fr 1fr 1fr">
         <template v-for="(t, i) in filteredTeams(allTeams)">

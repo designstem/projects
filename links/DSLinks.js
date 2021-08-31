@@ -14,7 +14,7 @@ export default{
   template: `
   <div>
     <FSheetsV4
-      id="1ZrQ_OwfitB7dvZh4LzUmanbEX6oR3kWI2YVBTkFLZfc" sheet="links"
+      id="1ZrQ_OwfitB7dvZh4LzUmanbEX6oR3kWI2YVBTkFLZfc" akey="AIzaSyB8ofd2t6YxACpaV8yJUdGjlYlV_hSoMu4" sheet="links"
       v-slot="{ value }">
       <div style="display: grid; grid-template-columns:1fr 2fr">
 

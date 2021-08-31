@@ -11,6 +11,7 @@
 
 <FSheetsV4
 id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+akey="AIzaSyB8ofd2t6YxACpaV8yJUdGjlYlV_hSoMu4"
 v-slot="{ value: projects }"
 
 >
@@ -46,6 +47,7 @@ v-slot="{ value: projects }"
 
 <FSheetsV4
 id="10bZyw9SpnslEKgQu-cqGxrJfuCCd9e8a-mly2J_ul_E"
+akey="AIzaSyB8ofd2t6YxACpaV8yJUdGjlYlV_hSoMu4"
 v-slot="{ value: projects }"
 
 >
@@ -102,6 +104,8 @@ v-slot="{ value: projects }"
 
 
 <big style="line-height: 1.75em; margin-top: var(--base4); display: block;"><big>💖 Here you'll find a  <a href="https://designstem.github.io/projects/links" target="_blank">collection of links</a> to sites, articles and projects, that inspired us during Design<sup><small>STEM</small></sup>. </big></big>
+
+
 
 
 ---
