@@ -66,6 +66,7 @@ Miller, John P. Holistic Learning: A Teacher's Guide to Integrated Studies. Onta
 Erwin, Heather E. "Full STEAM ahead in physical education." (2017): 3-4.
 
 Madden, Margaret E., et al. "Rethinking STEM education: An interdisciplinary STEAM curriculum." Procedia Computer Science 20 (2013): 541-546.
+  
 Eilks, Ingo, and Avi Hofstein, eds. Relevant chemistry education: From theory to practice. Springer, 2015.
 
 LSF, Learning for a Sustainable Future, Connecting the Dots: Integrated Learning(15.8. 2019): http://lsf-lst.ca/en/dots/integrated-learning
@@ -76,6 +77,7 @@ Stuckey, Marc, and Ingo Eilks. "Increasing student motivation and the perception
 Garcia, Catalina M. Comparing the 5Es and traditional approach to teaching evolution in a hispanic middle school science classroom. California State University, Fullerton, 2005.
 
 Ceylan, Eren. "Effects of 5E learning cycle model on understanding of state of matter and solubility concepts." Doctor Thesis, Orta Dogu Teknik University, Institute of Science and Technology, Ankara (2008).
+  
 Uzunöz, Abdulkadir. "The effects of the activities of current textbook and 5 E model on the attitude of the students: Sample of" the global effects of natural resources unit"." Educational Research and Reviews 6.13 (2011): 778.
 
 </small>
